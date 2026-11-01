@@ -65,6 +65,13 @@ while ((Test-Path (Join-Path $root 'storage\.newsroom.lock')) -and (Get-Date) -l
   Write-Host 'Esperando a que termine el ciclo local en curso...'; Start-Sleep -Seconds 10
 }
 
+# Ya activado antes: la nube es dueña del estado (cola, historial, sitio). Volver a subir los
+# archivos del PC lo pisaría con datos viejos, así que solo se actualizan secretos y variables.
+$alreadyLive = (Test-Path .git) -and (git remote 2>$null | Where-Object { $_ -eq 'origin' })
+if ($alreadyLive) {
+  Write-Host 'La nube ya está activa: solo se actualizan los secretos (el código y la cola no se tocan).' -ForegroundColor Yellow
+} else {
+
 Step 'Regenerando el sitio con la nueva dirección'
 npm run site:rebuild --silent
 if ($LASTEXITCODE) { throw 'No se pudo regenerar el sitio.' }
@@ -89,6 +96,8 @@ if (-not $hasRemote) {
 } else {
   git push -u origin main
   if ($LASTEXITCODE) { throw 'No se pudo subir el código.' }
+}
+
 }
 
 Step 'Secretos (desde tu .env.local y storage/credentials.json)'
