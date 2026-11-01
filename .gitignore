@@ -1,0 +1,58 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# temp storage & playwright profiles
+/storage/audio/*
+!/storage/audio/.gitkeep
+/storage/assets/*
+!/storage/assets/.gitkeep
+/storage/output/*
+!/storage/output/.gitkeep
+/user-data-dir/*
+!/user-data-dir/.gitkeep
+
+
+# secretos, sesiones y estado en ejecucion
+/storage/credentials.json
+/storage/.bluesky-session.json
+/storage/*.lock
+/storage/*.tmp
+/storage/logs/
+/storage/backups/
+/storage/daemon_status.json
+/.browser-profile/
+.wrangler/
+/dist/
+/storage/.rebuild-site.js

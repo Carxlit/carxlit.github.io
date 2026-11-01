@@ -1,0 +1,85 @@
+import { RawArticle, ProcessedNews, NewsConfig } from '@/types/news';
+import { extractArticleImage, searchRealNewsPhoto } from '@/lib/news/article-image';
+import { buildMultiSourceDossier } from './deep-researcher';
+import { runEditorialDesk } from './editorial-desk';
+import { runVisualEngine } from './visual-engine';
+import { withSourceCredit } from '@/lib/news/post-links';
+import { decodeHtmlEntities } from '@/lib/news/article-image';
+
+export interface PipelineOptions {
+  skipImageGeneration?: boolean;
+}
+
+/**
+ * Orquestador Central del Pipeline Multi-Agente "Punto Ciego"
+ * Coordina la ejecución secuencial y paralela de los 5 agentes especializados.
+ */
+export async function runEditorialPipeline(
+  article: RawArticle,
+  config?: Partial<NewsConfig>,
+  options: PipelineOptions = {}
+): Promise<ProcessedNews> {
+  console.log(`[Pipeline] Iniciando procesamiento multi-agente para: "${article.title.slice(0, 60)}..."`);
+
+  // 1. Fase de Extracción de Fotografía de Prensa Real
+  let realPhotoUrl = article.imageUrl ? decodeHtmlEntities(article.imageUrl) : undefined;
+  if (!realPhotoUrl && article.link) {
+    try {
+      realPhotoUrl = await extractArticleImage(article.link, article.title);
+    } catch (err: any) {
+      console.warn('[Pipeline] Error al extraer foto de URL, recurriendo a búsqueda:', err?.message);
+    }
+  }
+
+  if (!realPhotoUrl) {
+    try {
+      realPhotoUrl = await searchRealNewsPhoto(article.title);
+    } catch (err: any) {
+      console.warn('[Pipeline] Búsqueda de foto periodística omitida:', err?.message);
+    }
+  }
+
+  // 1.5. Agente de Investigación Profunda: reúne información de múltiples páginas y fuentes
+  console.log('[Pipeline] Ejecutando Agente Investigador Multi-Fuente...');
+  const researchDossier = await buildMultiSourceDossier(article);
+
+  // 2-3.5. Mesa Editorial: Director + Redactor Omnicanal + Redactor de Artículo en una sola llamada a la IA
+  console.log('[Pipeline] Ejecutando Mesa Editorial (Director + Redactor Omnicanal + Artículo)...');
+  const { brief: editorialBrief, copies, article: fullArticle } = await runEditorialDesk(article, researchDossier);
+
+  // Construcción del objeto preliminar de noticia procesada
+  const processed: ProcessedNews = {
+    id: article.id || Math.random().toString(36).substring(2, 10),
+    originalUrl: article.link || '',
+    originalTitle: article.title,
+    sourceName: article.sourceName || 'Punto Ciego Intel',
+    category: editorialBrief.category,
+    urgencyScore: editorialBrief.urgencyScore,
+    headline: editorialBrief.headline,
+    subHeadline: editorialBrief.subHeadline,
+    blindSpotAngle: editorialBrief.blindSpotAngle,
+    facebookPost: withSourceCredit(copies.facebook, article.sourceName),
+    telegramPost: copies.telegram, // Telegram añade la fuente con enlace al publicar
+    linkedInPost: withSourceCredit(copies.linkedIn, article.sourceName),
+    blueskyPost: copies.bluesky,
+    copies,
+    article: fullArticle,
+    rawImageUrl: realPhotoUrl,
+    status: 'pending',
+    createdAt: new Date().toISOString(),
+  };
+
+  // 4. Agente 4: Director de Arte / Card Studio (Generación split-screen con Playwright)
+  if (!options.skipImageGeneration) {
+    console.log('[Pipeline] Ejecutando Agente 4: Director de Arte / Card Studio...');
+    try {
+      const cardPath = await runVisualEngine(processed, undefined, config);
+      processed.cardImageUrl = cardPath;
+    } catch (err: any) {
+      console.error('[Pipeline] Error en generación de tarjeta visual:', err?.message);
+    }
+  }
+
+  console.log(`[Pipeline] Pipeline completado con éxito para "${processed.headline}"`);
+  return processed;
+}

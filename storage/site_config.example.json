@@ -1,0 +1,37 @@
+{
+  "_instrucciones": "Copia este archivo como storage/site_config.json y rellena solo lo que uses. Campo vacío = no se muestra nada. Tras cambiarlo: npm run site:rebuild y npm run site:deploy.",
+  "siteDescription": "Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder.",
+
+  "_adHeadHtml": "Script del proveedor de anuncios para <head> (p. ej. el de Adsterra o Monetag; AdSense requiere dominio propio). Solo se carga si el visitante acepta cookies.",
+  "adHeadHtml": "",
+
+  "_adSlots": "Códigos de bloques de anuncio. Usa versiones asíncronas (sin document.write). articleMiddle va tras la 2.ª sección; indexInline se repite cada adEveryNCards tarjetas en la portada; sidebar solo se ve en pantallas anchas.",
+  "adSlots": {
+    "articleTop": "",
+    "articleMiddle": "",
+    "articleBottom": "",
+    "indexInline": "",
+    "sidebar": ""
+  },
+  "adEveryNCards": 6,
+
+  "_adsTxt": "Contenido de /ads.txt que te dé la red publicitaria (una línea por vendedor).",
+  "adsTxt": "",
+
+  "_analyticsHtml": "Analítica gratuita, p. ej. el beacon de Cloudflare Web Analytics: <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"TU_TOKEN\"}'></script>",
+  "analyticsHtml": "",
+
+  "_donationUrl": "Enlace de Ko-fi, Buy Me a Coffee o PayPal.me. Aparece al final de cada artículo y en el pie.",
+  "donationUrl": "",
+  "donationLabel": "Apoya el periodismo de Punto Ciego",
+
+  "contactEmail": "",
+
+  "socialLinks": {
+    "facebook": "",
+    "telegram": "",
+    "bluesky": "",
+    "linkedin": "",
+    "x": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "punto-ciego",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "autopilot": "node scripts/autonomous-daemon.js",
+    "autonomous": "node scripts/autonomous-daemon.js",
+    "supervisor": "node scripts/supervisor.js",
+    "fb:token": "node scripts/fb-token.js",
+    "cloud:build": "esbuild scripts/cloud-run.ts --bundle --platform=node --packages=external --outfile=dist/cloud-run.js --log-level=warning",
+    "cloud:run": "npm run cloud:build --silent && node --env-file-if-exists=.env.local dist/cloud-run.js",
+    "site:login":"wrangler login",
+    "site:rebuild": "esbuild scripts/rebuild-site.ts --bundle --platform=node --packages=external --outfile=storage/.rebuild-site.js --log-level=warning && node --env-file=.env.local storage/.rebuild-site.js",
+    "site:deploy":"wrangler pages deploy site --project-name punto-ciego --branch main --commit-dirty=true"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.1.9",
+    "ai": "^4.1.27",
+    "lucide-react": "^0.460.0",
+    "next": "14.2.23",
+    "playwright": "^1.49.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rss-parser": "^3.13.0",
+    "twitter-api-v2": "^1.31.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2",
+    "wrangler": "^4.156.0"
+  }
+}

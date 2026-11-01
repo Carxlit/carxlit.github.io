@@ -1,0 +1,194 @@
+[
+  {
+    "slug": "caida-avion-ejecutivo-west-palm-beach-ajc1",
+    "path": "noticias/caida-avion-ejecutivo-west-palm-beach-ajc1/",
+    "title": "Caída de avión ejecutivo en West Palm Beach reabre debate sobre seguridad aérea",
+    "headline": "NUEVE MUERTOS AL CAER UN LEARJET EN WEST PALM BEACH",
+    "dek": "Un Learjet 60 con nueve personas a bordo se estrelló tras perder más de 8.000 metros de altitud en solo un minuto. La NTSB encabeza la investigación para esclarecer las causas de este desastre en la aviación privada.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Infobae América",
+    "image": "img/caida-avion-ejecutivo-west-palm-beach-ajc1.jpg",
+    "publishedAt": "2026-11-01T21:10:27.655Z",
+    "article": {
+      "slug": "caida-avion-ejecutivo-west-palm-beach-ajc1",
+      "title": "Caída de avión ejecutivo en West Palm Beach reabre debate sobre seguridad aérea",
+      "dek": "Un Learjet 60 con nueve personas a bordo se estrelló tras perder más de 8.000 metros de altitud en solo un minuto. La NTSB encabeza la investigación para esclarecer las causas de este desastre en la aviación privada.",
+      "keyFacts": [
+        "El Learjet 60 despegó del Aeropuerto Internacional Austin-Bergstrom en Texas con destino al Aeropuerto de North Eleuthera en las Bahamas.",
+        "El secretario de Transporte de EE. UU., Sean Duffy, confirmó que los nueve ocupantes de la aeronave fallecieron en el siniestro.",
+        "Datos de ADS-B Exchange indican que el avión descendió aproximadamente 8.230 metros de altitud en tan solo un minuto antes del impacto.",
+        "El choque ocurrió a unos 6,4 kilómetros al sur del aeropuerto de West Palm Beach, aproximadamente una hora después del despegue del Air Force One con el presidente Donald Trump."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Alrededor de las 12:50 del mediodía, hora local, una aeronave ejecutiva modelo Learjet 60 se precipitó a tierra en las inmediaciones de Cresthaven, cerca de West Palm Beach, Florida. El avión había despegado del Aeropuerto Internacional Austin-Bergstrom, en Texas, y tenía como destino programado el Aeropuerto de North Eleuthera, en las Bahamas. El choque destruyó el fuselaje y causó una importante explosión a escasa distancia de una arteria vial de intenso tráfico.",
+            "El secretario de Transporte de Estados Unidos, Sean Duffy, confirmó oficialmente que no hubo sobrevivientes entre las nueve personas que viajaban a bordo. Material audiovisual captado en las cercanías muestra el momento en que el jet cae en picada y estalla al contacto con el suelo, dejando un cráter profundo en el pavimento y afectando la infraestructura de servicios públicos local."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Los datos técnicos del vuelo recabados por la plataforma especializada ADS-B Exchange revelan un comportamiento aeronáutico extraordinario: el Learjet 60 perdió unos 8.230 metros de altitud en un período de aproximadamente un minuto antes de que la señal de telemetría se cortara. Este brusco descenso señala una anomalía severa durante la fase de crucero o descenso inicial.",
+            "El accidente se registró a 6,4 kilómetros al sur de la terminal aérea de West Palm Beach. El suceso cobró rápida notoriedad debido a que el presidente estadounidense Donald Trump estuvo presente en la zona esa misma mañana y partió desde dicho aeropuerto a bordo del Air Force One aproximadamente una hora antes del siniestro."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los titulares iniciales enfatizan la coincidencia cronológica con los movimientos de la comitiva presidencial y la espectacularidad del incendio urbano, el ángulo crítico que requiere atención especializada se enfoca en las causas físicas detrás de semejante tasa de descenso. Una caída de más de 8.000 metros en un minuto resulta inusual en la aviación civil y suele asociarse a la pérdida de una superficie de control primaria o a una falla de integridad estructural en el aire.",
+            "La investigación sobre este hecho pondrá a prueba la rigurosidad de los programas de mantenimiento preventivo aplicados a la aviación privada de negocios. A diferencia de las aerolíneas comerciales regularizadas bajo estrictas horas de vuelo diarias, la flota ejecutiva requiere esquemas de fiscalización específicos para detectar la degradación oculta de componentes en rutas sobre el mar."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano regulatorio y de seguridad operacional, la Junta Nacional de Seguridad en el Transporte (NTSB) y la Administración Federal de Aviación (FAA) asumen la tarea prioritaria de determinar si existió una falla técnica recurrente. Si los análisis confirman una anomalía mecánica de diseño o fatiga de componentes, los reguladores deberán imponer boletines de inspección obligatorios para otros operadores del mismo modelo.",
+            "Por su parte, las empresas de chárter ejecutivo y las firmas de seguros aeronáuticos sufren el impacto directo del accidente. El suceso impone un incremento en las primas de riesgo operacional para la aviación corporativa que realiza vuelos internacionales entre Estados Unidos y el Caribe."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Las autoridades de la NTSB, encargadas de centralizar los reportes oficiales del caso, concentrarán sus esfuerzos en la recuperación del registrador de datos de vuelo y las grabadoras de voz en cabina. Los hallazgos iniciales permitirán determinar la secuencia exacta de mandos antes de la interrupción de las transmisiones.",
+            "Asimismo, será clave seguir los comunicados posteriores del Departamento de Transporte respecto a eventuales ajustes en las normas de revisión para aeronaves privadas de transporte de pasajeros, así como los peritajes del cráter de impacto para descarta o confirmar fallas estructurales previas a la colisión."
+          ]
+        }
+      ],
+      "tags": [
+        "Aviación",
+        "Seguridad Aérea",
+        "West Palm Beach",
+        "NTSB",
+        "FAA",
+        "Learjet"
+      ],
+      "sources": [
+        {
+          "name": "Infobae América",
+          "title": "Un avión ejecutivo se estrelló en una zona residencial del sur de la Florida: hay 9 muertos",
+          "url": "https://www.infobae.com/estados-unidos/2026/11/01/reportan-una-fuerte-explosion-en-west-palm-beach-las-autoridades-investigan-la-causa/"
+        },
+        {
+          "name": "Emisoras Unidas",
+          "title": "VIDEO: Avión privado con nueve personas a bordo se estrella en una zona residencial de Florida",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRjRZUzRocER2Rm9rNmc4SV80R3d0MnUzdURtZUIzbGttNUFyRlF2UE82RG1LRHlfVzUweEhGWGFKRVgtU0ZjT0FMRm1wX3JDSDdtM3VVeTNIOEktTE95aVFmeHZQX2gtTV9PeUZoTzR5eTJ1eTBlY0pPZ2tGaFFxdjA5UDBfQ2xvaXV5a0tuNU12c05CT1E?oc=5"
+        },
+        {
+          "name": "Deia",
+          "title": "Un avión privado con nueve personas a bordo se estrella en una zona residencial de Florida",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdVd3bFJqckdIYjFRVV95YTlodlhZNjRMRWJZMmZoY2JDOWc0VnZ6V2xIc3YwV1ZVTVpOeXA2RWM3Ynk1ZzFkM0hBM1pUOHFQNFY5cms1WUxVREI1V2pvc0lubnJoN0NxM0NtRlo2MUpueGtuZmJ6T1hBZ20xV0lWRm1XVldKVnIyTkFjcVNUZnVSREJlR0pRajNRNHdMTHNyNFZMWEdVWXc4TklWZU4tWl9FUkNHZGhQTXlnTdIBwgFBVV95cUxPeVhKYnBzcFQxNkozNE01YTlfN2lJZ25EX0J1OEpSWFZjc3BmcVZXSF8zdGV0dHloOVptVVZWMW1YY3A3d1JyYUpqS005c3pWZTRHeFlVa3BkZVYtZklMbDBNQXR2dVBVd0ZHZk1fQ1dvcnNFNXI2Zkh0bmszdjhTM3lGMWhrVWVPY3cxbVE1Y0hLTjZVc0t2TVdkUEV5TXJISGVzalBncVpteE0xUW1KMXVLVlMwSVdObEZnazR2UGVndw?oc=5"
+        },
+        {
+          "name": "CubitaNOW",
+          "title": "Avión privado se estrella en una zona residencial del sur de Florida con nueve personas a bordo",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUNjbjQ0dThDel91R2lkWG5ZaE1IWTg5T2VCMm8zTjd5ZmllcG9pRU1UeWcyNDdvb2RlM1ZNR0d5Y1lXOTd1TmFZTjVIRF9sck5rM05VZUlFTExLZkFaZ2FhcXZINVJrdVpUaTN0WEZzeG96S2NzSEU0cTgzWlJBRXphaFBIa081SnpqeXN1OHJzV1FhekI3NnFUbDE3bVhLNU8zdHVBclhCeWIwb3RMekF4VGs0cGdVVGRVRm5sMU15d3fSAcMBQVVfeXFMTlFDY240NHU4Q3pfdUdpZFhuWWhNSFk4OU9lQjJvM043eWZpZXBvaUVNVHlnMjQ3b29kZTNWTUdHeWNZVzk3dU5hWU41SERfbHJOazNOVWVJRUxMS2ZBWmdhYXF2SDVSa3VaVGkzdFhGc3hvektjc0hFNHE4M1pSQUV6YWhQSGtPNUp6anlzdThyc1dRYXpCNzZxVGwxN21YSzVPM3R1QXJYQnliMG90THpBeFRrNHBnVVRkVUZubDFNeXd3?oc=5"
+        },
+        {
+          "name": "Amazon.com",
+          "title": "Un avión privado se estrella en una zona residencial de Florida y provoca una explosión y un incendio",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVXNnUXVoQ0Nvd1dWaEdybUV3U01FNzJycFZWVnZkTkxtdkszTGxCY09rTlpRU2dzQ1htQXJOb24yQzhSdUZLYUFDc3ctbDN2aXZjcUhDVGFxSDRib2I0Z1VCR2FKOHhtWTl2S19FSW9TSHZhSTZnUk9zaGNzWmo0bXlULVI4ZU16anI4RkwyR1RSRU5EUDRLOFNTN3RSTjdzS05xZEVSYkZFd0lpR20ycVBLM1RhaWVhMDI2Tmc3NWljdFFBYmpXb2tka0d3YTg?oc=5"
+        }
+      ],
+      "wordCount": 619
+    },
+    "blindSpot": "Mientras la cobertura masiva se enfoca en el despliegue de los servicios de emergencia y la coincidencia del despegue presidencial una hora antes, el verdadero punto ciego radica en la física del descenso. Una pérdida de altitud de 8.230 metros en apenas 60 segundos sugiere una falla estructural catastrófica o una pérdida total de control de vuelo, lo que reabre el debate sobre la supervisión técnica y los protocolos de mantenimiento en la aviación ejecutiva privada."
+  },
+  {
+    "slug": "bce-congela-tipos-interes-mientras-euribor-fbmk",
+    "path": "noticias/bce-congela-tipos-interes-mientras-euribor-fbmk/",
+    "title": "El BCE congela los tipos de interés mientras el Euribor y la energía acorralan a los hipotecados",
+    "headline": "EL BCE CONGELA TIPOS MIENTRAS EL EURIBOR ANTICIPA NUEVAS PRESIONES",
+    "dek": "El Banco Central Europeo mantuvo sin cambios los tipos en octubre, pero los mercados ya anticipan un nuevo endurecimiento monetario en diciembre impulsado por la escalada energética y el riesgo de la deuda soberana.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "The Portugal News",
+    "image": "img/bce-congela-tipos-interes-mientras-euribor-fbmk.jpg",
+    "publishedAt": "2026-11-01T19:34:29.572Z",
+    "article": {
+      "slug": "bce-congela-tipos-interes-mientras-euribor-fbmk",
+      "title": "El BCE congela los tipos de interés mientras el Euribor y la energía acorralan a los hipotecados",
+      "dek": "El Banco Central Europeo mantuvo sin cambios los tipos en octubre, pero los mercados ya anticipan un nuevo endurecimiento monetario en diciembre impulsado por la escalada energética y el riesgo de la deuda soberana.",
+      "keyFacts": [
+        "El tipo de depósito se mantuvo en el 2,50 %, el de refinanciación principal en el 2,65 % y el de crédito marginal en el 2,90 %.",
+        "La inflación interanual en la zona euro aumentó del 3,2 % en agosto al 3,8 % en septiembre.",
+        "El repunte en el sector energético alcanzó el 18,9 % en septiembre, frente al 14,3 % del mes anterior.",
+        "Los mercados financieros y los inversores esperan una subida de 0,25 puntos porcentuales en la reunión del BCE del 17 de diciembre."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Banco Central Europeo decidió mantener sin cambios los tipos de interés tras su reunión celebrada en Fráncfort el jueves 29 de octubre. La institución presidida por Christine Lagarde conservó los niveles fijados en septiembre, situando el tipo de depósito en el 2,50 %, el tipo de refinanciación principal en el 2,65 % y el tipo de crédito marginal en el 2,90 %.",
+            "A pesar de esta pausa oficial, los titulares de hipotecas en países como Portugal ya sufren cuotas mensuales más elevadas. Los mercados financieros y los tipos del Euribor se han adelantado a las decisiones formales, reflejando expectativas claras de un endurecimiento inminente de la política monetaria antes de que concluya el año."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La decisión de los responsables políticos responde a un escenario macroeconómico complejo y marcado por la volatilidad externa. Según las cifras oficiales del propio BCE, la inflación interanual en la zona euro escaló del 3,2 % en agosto al 3,8 % en septiembre. Detrás de este repunte se encuentra el encarecimiento de los costes energéticos, exacerbado por el conflicto en Oriente Medio que ha disparado los precios del petróleo y el gas.",
+            "El sector energético registró un incremento interanual del 18,9 % en septiembre, superando con creces el 14,3 % registrado el mes anterior. Durante la reunión de dos días, Christine Lagarde reconoció que se sopesó la opción de subir los tipos de forma inmediata, aunque finalmente se optó por esperar a disponer de nuevos datos económicos para evaluar la evolución real de la crisis."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de Punto Ciego revela que el verdadero foco de inestabilidad no reside únicamente en la evolución de los precios al consumo, sino en la vulnerabilidad de las finanzas públicas de los Estados miembros. Los costes de financiación soberana están aumentando de manera sostenida en toda Europa, y Francia acapara la atención de los mercados debido a sus desequilibrios presupuestarios y la incertidumbre política.",
+            "Mientras el debate público se concentra en si el BCE subirá o no los tipos en diciembre para situar el tipo de depósito en el 2,75 %, los gobiernos con elevada deuda pública se enfrentan a un escenario de financiación sumamente costoso. Esta pinza limita el margen de maniobra fiscal de las administraciones y traslada la carga financiera directamente a los ciudadanos y a un tejido empresarial europeo ya debilitado."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero monetario, los acreedores y las entidades financieras consolidan márgenes en un entorno de tipos elevados, mientras que los principales perdedores son los hogares con endeudamiento variable y las administraciones públicas con perfiles de deuda frágiles. Las empresas que dependen del crédito para financiar su inversión también asumen un freno directo en su actividad.",
+            "El BCE camina sobre una cuerda floja: si prioriza la contención de la inflación mediante subidas de tipos, agrava el riesgo de frenar en seco la frágil recuperación económica del bloque comunitario y tensiona las cuentas de los Estados más endeudados."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El indicador clave para las próximas semanas será la evolución de los precios energéticos internacionales y su traslado definitivo a los índices de precios de octubre y noviembre. Cualquier escalada adicional en Oriente Medio dinamitará las previsiones de Fráncfort.",
+            "Asimismo, resulta indispensable seguir de cerca la cotización diaria del Euribor y la reunión programada para el 17 de diciembre, donde se dilucidará si el banco central ejecuta la esperada subida de 0,25 puntos porcentuales y cómo reaccionan los mercados de deuda ante la situación política en Francia."
+          ]
+        }
+      ],
+      "tags": [
+        "BCE",
+        "Inflación",
+        "Euribor",
+        "Deuda Pública",
+        "Política Monetaria",
+        "Francia"
+      ],
+      "sources": [
+        {
+          "name": "The Portugal News",
+          "title": "El Banco Central Europeo mantiene los tipos de interés sin cambios",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdm5rSjRmQ1E4cHJ6d05CLUJDRmxpeWxSMXVFTU9DemZqbUl0M2szMGx0UjNRN0p6Y2NIRVVHR2pNdU4zdTRjaWtQMEE2NUkwSTFrY2o0X3hoMGYzcXA3SkJsbm1POEZBYm50V3JsQXNMdEpyRk5iWlk3cE9sUVJxcFo0WnZNcjBzNVpOQWk3bHRzd0NVZTdHRWllTFIxbHU4MGNfYmU1aFpkUkdTZ2lTc3hwQ0lNb0lpUzhvYXFuUXppakdUbGhlbg?oc=5"
+        },
+        {
+          "name": "Bankinter",
+          "title": "Análisis de la última reunión del BCE",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bEdIT01zZVdmbzduaVRzRXJGNVhyUlNBYVA5eXdXYlRqY1hKNGZfOTNKTHRlcUZLWXZOVFNVc1VYVnh2NTBSY0t5Vmd3N2ZxSDBCd19fYkNZMTlBblVacEdtdlFUYnNqdlFLWFB4aWVNOVlt?oc=5"
+        },
+        {
+          "name": "وكالة سبأ",
+          "title": "El Banco Central Europeo mantiene los tipos de interés sin cambios y advierte sobre el aumento de los riesgos inflacionarios",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBoUTdwN1pMS2M3ZklacGdXa29aX1dlM0hnU3JZTGJ1a0M0VlZXeGRkSVJrQzl0RFY4dU4tLVU2YlNkQkszWmgzV1RB?oc=5"
+        },
+        {
+          "name": "www.tmgm.com",
+          "title": "BCE: Lagarde dimitirá mientras la Fed mantiene tipos | 29 oct 2026",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UZllxcE9kb0ZBbFRkNlVQcm45OC1sZ24xNnBHc3pjWThqR3gzQjZmeklxWWxTbEN5RTNqM2hUcU41VFNwSVJXdFdkYWV3UjNPSjlJbElDLWlOemowU3F5NUFjektXZGYxTFR2U2tKZmdLWHdNNExyYlhGY0U?oc=5"
+        },
+        {
+          "name": "Aragón Play",
+          "title": "El BCE mantiene los tipos de interés, pero podrían subir en diciembre",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUU5GeVdoT0tvdmNBYVRETmxkYmVlblZxUXI1ekhMQVpJTHFJNDBmcUxzT0hkUlQzdEZMS2RWMUpzWHQ5OHk3dy1jM0NzTHBiRnFLSzIwc0dLN3ZZdTVkYXZUSWI0dGg3VkhEVTh3ZnBpMlc4THY5TGFoX0thT3RDaHFNWmMxV1dybEF3ek9TSEtOZw?oc=5"
+        }
+      ],
+      "wordCount": 603
+    },
+    "blindSpot": "Mientras los titulares se centran en la pausa temporal del Banco Central Europeo, el verdadero riesgo se oculta en el impacto asimétrico sobre la deuda pública de economías frágiles como la francesa y el encarecimiento silencioso de las hipotecas a través del Euribor antes de que el organismo mueva ficha."
+  }
+]

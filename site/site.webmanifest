@@ -1,0 +1,17 @@
+{
+  "name": "Punto Ciego",
+  "short_name": "Punto Ciego",
+  "description": "Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder.",
+  "lang": "es",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#b4152b",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

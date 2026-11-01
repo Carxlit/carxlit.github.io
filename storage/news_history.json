@@ -1,0 +1,176 @@
+{
+  "seenUrls": [
+    "https://univision.com/sample",
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVDNzUk54dFFlRWEzbzZSaHE3Z2F2bGNoc0JuZXRGclIyVXJyNjFhdDR3Z2ZheTMzMmc5a0pmdF9BR2ZiRXhkSzNMT1hBZkNONDhUNEl5clpkcERfLW4ySkE5bmVvVGJNWlhzOXp1WS1pbVZmWGZCZ1BmWV9UQ1dITXU4djd3ZDVrRDRhbk5tRXNwWHZKVWVwVVIzeXNBbjk2NlgweWl1QVROQkRWQ3VCWmpuakRPMTVXZnVqUVhwakE2WWlzNEQxcGNDOXNZOTZ3TWFvSEN6SDdwUXh3YzFHa2lDbFDSAeoBQVVfeXFMT0UtSkhhMHowZGE5SnF3aXk0NWZwVXdFdnVtVkpGZzI2Ty1lcjVmbHE0VHNTZ0R4eldkSzJGcS1QQUpIM2xkaUNKRXNmNGRrZkgxbzdkMGdUMXd4eFY2bkJtaldaVUlVSVFDZWtXVnZnbHd4ZVNkcHFTRjk0UkYzSGszUVluVm9wRXJqaXJRMXZoRWtmRUxJVUJ2WGlDM3lGaHFPUGdCSnNXbFhWTmxTM0Fvd1B1eFVQcHpFTU95dnlRTm5jZk00YTdKRlpScDJpaGN0cGdsc0dQR2k0OTlTWVJUZWlIVG9PLUJB?oc=5",
+    "https://elpais.com/tecnologia/2026-11-01/un-solo-hombre-frente-a-los-ciberataques-que-tumbaron-miles-de-webs-hace-falta-querer-hacer-algo-por-los-demas.html",
+    "https://elpais.com/economia/2026-11-01/zamora-se-pone-en-pie-de-guerra-por-la-construccion-de-un-macrocentro-de-datos-es-una-manera-de-echarnos.html",
+    "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261101-apunta-trump-a-gobernar-sin-el-congreso-si-los-dem%C3%B3cratas-ganan-las-midterms-as%C3%AD-se-prepara",
+    "https://www.france24.com/es/video/20261101-misi%C3%B3n-de-la-onu-en-el-sahara-queda-en-el-limbo-por-vetos-cruzados-de-ee-uu-y-rusia",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdm5rSjRmQ1E4cHJ6d05CLUJDRmxpeWxSMXVFTU9DemZqbUl0M2szMGx0UjNRN0p6Y2NIRVVHR2pNdU4zdTRjaWtQMEE2NUkwSTFrY2o0X3hoMGYzcXA3SkJsbm1POEZBYm50V3JsQXNMdEpyRk5iWlk3cE9sUVJxcFo0WnZNcjBzNVpOQWk3bHRzd0NVZTdHRWllTFIxbHU4MGNfYmU1aFpkUkdTZ2lTc3hwQ0lNb0lpUzhvYXFuUXppakdUbGhlbg?oc=5",
+    "https://www.infobae.com/estados-unidos/2026/11/01/reportan-una-fuerte-explosion-en-west-palm-beach-las-autoridades-investigan-la-causa/"
+  ],
+  "processedSignatures": [
+    {
+      "title": "NUEVE MUERTOS AL CAER UN LEARJET EN WEST PALM BEACH",
+      "normalizedTokens": [
+        "nueve",
+        "muertos",
+        "caer",
+        "learjet",
+        "west",
+        "palm",
+        "beach"
+      ],
+      "date": "2026-11-01T21:10:39.275Z"
+    },
+    {
+      "title": "Un avión ejecutivo se estrelló en una zona residencial del sur de la Florida: hay 9 muertos",
+      "normalizedTokens": [
+        "avion",
+        "ejecutivo",
+        "estrello",
+        "zona",
+        "residencial",
+        "sur",
+        "florida",
+        "muertos"
+      ],
+      "date": "2026-11-01T21:10:39.270Z"
+    },
+    {
+      "title": "EL BCE CONGELA TIPOS MIENTRAS EL EURIBOR ANTICIPA NUEVAS PRESIONES",
+      "normalizedTokens": [
+        "bce",
+        "congela",
+        "tipos",
+        "mientras",
+        "euribor",
+        "anticipa",
+        "nuevas",
+        "presiones"
+      ],
+      "date": "2026-11-01T19:34:29.600Z"
+    },
+    {
+      "title": "El Banco Central Europeo mantiene los tipos de interés sin cambios",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "europeo",
+        "mantiene",
+        "tipos",
+        "interes",
+        "cambios"
+      ],
+      "date": "2026-11-01T19:34:29.596Z"
+    },
+    {
+      "title": "LA MISIÓN DE LA ONU EN EL SÁHARA COLAPSA POR VETOS",
+      "normalizedTokens": [
+        "mision",
+        "onu",
+        "sahara",
+        "colapsa",
+        "vetos"
+      ],
+      "date": "2026-11-01T18:46:04.894Z"
+    },
+    {
+      "title": "Misión de la ONU en el Sahara queda en el limbo por vetos cruzados de EE. UU. y Rusia",
+      "normalizedTokens": [
+        "mision",
+        "onu",
+        "sahara",
+        "queda",
+        "limbo",
+        "vetos",
+        "cruzados",
+        "rusia"
+      ],
+      "date": "2026-11-01T18:46:04.890Z"
+    },
+    {
+      "title": "LA CASA BLANCA PLANIFICA GOBERNAR POR DECRETO ANTE UN CAPITOLIO ADVERSO",
+      "normalizedTokens": [
+        "casa",
+        "blanca",
+        "planifica",
+        "gobernar",
+        "decreto",
+        "capitolio",
+        "adverso"
+      ],
+      "date": "2026-11-01T18:43:14.553Z"
+    },
+    {
+      "title": "¿Apunta Trump a gobernar sin el Congreso si los demócratas ganan las Midterms?: así se prepara",
+      "normalizedTokens": [
+        "apunta",
+        "trump",
+        "gobernar",
+        "congreso",
+        "democratas",
+        "ganan",
+        "midterms",
+        "asi",
+        "prepara"
+      ],
+      "date": "2026-11-01T18:43:14.549Z"
+    },
+    {
+      "title": "ZAMORA SE PONE EN PIE DE GUERRA POR LA CONSTRUCCIÓN DE UN MACROCENTRO DE DA",
+      "normalizedTokens": [
+        "zamora",
+        "pone",
+        "pie",
+        "guerra",
+        "construccion",
+        "macrocentro"
+      ],
+      "date": "2026-11-01T18:18:25.751Z"
+    },
+    {
+      "title": "Zamora se pone en pie de guerra por la construcción de un macrocentro de datos: “Es una manera de echarnos”",
+      "normalizedTokens": [
+        "zamora",
+        "pone",
+        "pie",
+        "guerra",
+        "construccion",
+        "macrocentro",
+        "datos",
+        "manera",
+        "echarnos"
+      ],
+      "date": "2026-11-01T18:18:25.747Z"
+    },
+    {
+      "title": "UN SOLO HOMBRE FRENTE A LOS CIBERATAQUES QUE TUMBARON MILES DE WEBS: HACE F",
+      "normalizedTokens": [
+        "solo",
+        "hombre",
+        "frente",
+        "ciberataques",
+        "tumbaron",
+        "miles",
+        "webs",
+        "hace"
+      ],
+      "date": "2026-11-01T17:51:49.292Z"
+    },
+    {
+      "title": "UN SOLO HOMBRE FRENTE A LOS CIBERATAQUES QUE TUMBARON MILES DE WEBS: HACE F",
+      "normalizedTokens": [
+        "solo",
+        "hombre",
+        "frente",
+        "ciberataques",
+        "tumbaron",
+        "miles",
+        "webs",
+        "hace"
+      ],
+      "date": "2026-11-01T16:49:45.869Z"
+    }
+  ]
+}
