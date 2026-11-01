@@ -44,10 +44,51 @@ function pruneOldCards() {
   return removed;
 }
 
+const ACTION_LABELS: Record<string, string> = {
+  published_due: '📤 Publicó una historia',
+  queued_new: '📝 Escribió y programó una historia nueva',
+  breaking_emergency_published: '🚨 Publicó una noticia de última hora',
+  queue_full: '⏳ Cola llena, esperando su turno',
+  quota_reached: '✅ Cupo del día completo',
+  quiet_hours: '🌙 Fuera del horario de publicación',
+  no_candidates: '🔎 Sin noticias nuevas que valgan la pena',
+  ai_unavailable: '⏸️ Gemini sin cuota, se reintenta más tarde',
+  busy: '⏳ Otro ciclo en curso',
+  error: '❌ Error en el ciclo',
+};
+
+/** Resumen legible en la página de cada ejecución de GitHub Actions (se ve bien desde el celular) */
+function writeRunSummary(result: Awaited<ReturnType<typeof runAutonomousNewsroomCycle>>, auditLine: string) {
+  const file = process.env.GITHUB_STEP_SUMMARY;
+  if (!file) return;
+  const r = result.report;
+  const upcoming = getPublicationQueue()
+    .filter((i) => i.status === 'queued')
+    .sort((a, b) => a.scheduledFor.localeCompare(b.scheduledFor))
+    .map((i) => `- ${new Date(i.scheduledFor).toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit' })} · ${i.news.headline}`);
+  const lines = [
+    `## ${ACTION_LABELS[result.actionTaken] || result.actionTaken}`,
+    result.message,
+    '',
+    auditLine,
+    '',
+    `**Hoy:** ${r.totalToday}/${r.maxDailyPosts} (publicadas ${r.publishedToday}, en cola ${r.pendingInQueue})`,
+    '',
+    upcoming.length ? `**Próximas publicaciones:**\n${upcoming.join('\n')}` : '**Próximas publicaciones:** ninguna en cola',
+    '',
+  ];
+  try {
+    fs.appendFileSync(file, lines.join('\n') + '\n');
+  } catch {
+    // El resumen es opcional
+  }
+}
+
 async function main() {
   const started = Date.now();
   console.log(`[CLOUD] Ciclo iniciado ${new Date().toLocaleString('es-CO')} (TZ=${process.env.TZ || 'sistema'})`);
 
+  let auditLine = 'Auditoría no disponible';
   try {
     const audit = await runFullNewsroomAudit();
     const summary = Object.entries(audit.channels)
@@ -55,6 +96,7 @@ async function main() {
       .map(([name, h]) => `${name}: ${h.status}`)
       .join(', ');
     console.log(`[CLOUD] Salud ${audit.overallHealthScore}/100 [${summary}] · reparados: ${audit.healedCount}`);
+    auditLine = `**Salud ${audit.overallHealthScore}/100** · ${summary}${audit.recommendations?.length ? `\n\n⚠️ ${audit.recommendations.join('\n\n⚠️ ')}` : ''}`;
     for (const rec of audit.recommendations || []) console.log(`[CLOUD]   ⚠ ${rec}`);
   } catch (err: any) {
     console.error('[CLOUD] Auditoría falló (se continúa con el ciclo):', err?.message);
@@ -64,6 +106,8 @@ async function main() {
   console.log(`[CLOUD] Acción: ${result.actionTaken} -> ${result.message}`);
   const r = result.report;
   console.log(`[CLOUD] Hoy: ${r.totalToday}/${r.maxDailyPosts} (publicadas ${r.publishedToday}, en cola ${r.pendingInQueue})`);
+
+  writeRunSummary(result, auditLine);
 
   const removed = pruneOldCards();
   if (removed) console.log(`[CLOUD] Tarjetas antiguas eliminadas: ${removed}`);
