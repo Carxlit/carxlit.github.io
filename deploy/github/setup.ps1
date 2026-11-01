@@ -111,6 +111,8 @@ $secrets = [ordered]@{
   BLUESKY_HANDLE               = Pick 'blueskyHandle' 'BLUESKY_HANDLE'
   BLUESKY_APP_PASSWORD         = Pick 'blueskyPassword' 'BLUESKY_APP_PASSWORD'
 }
+# Sin esto, PowerShell 5.1 antepone un BOM (U+FEFF) al valor que recibe gh por la entrada estándar
+$OutputEncoding = New-Object Text.UTF8Encoding($false)
 foreach ($name in $secrets.Keys) {
   $value = $secrets[$name]
   if ([string]::IsNullOrWhiteSpace($value)) { Write-Warning "$name vacío: ese canal no publicará en la nube."; continue }
