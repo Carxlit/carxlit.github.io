@@ -4,10 +4,16 @@ import { ProcessedNews, ChannelResult } from '@/types/news';
 
 const GRAPH = 'https://graph.facebook.com/v19.0';
 
-/** Imagen pública del artículo (copiada al sitio por el Editor Web): Instagram exige una URL accesible */
+/**
+ * Imagen pública del artículo (copiada al sitio por el Editor Web): Instagram exige una URL accesible.
+ * Preferimos la vertical 4:5 (img/<slug>-ig.jpg) si existe en el sitio; si no, la horizontal.
+ */
 function publicCardUrl(news: ProcessedNews): string | undefined {
   const site = (process.env.PUBLIC_SITE_URL || '').trim().replace(/\/+$/, '');
-  return site && news.article?.slug ? `${site}/img/${news.article.slug}.jpg` : undefined;
+  const slug = news.article?.slug;
+  if (!site || !slug) return undefined;
+  const vertical = path.join(process.cwd(), 'site', 'img', `${slug}-ig.jpg`);
+  return fs.existsSync(vertical) ? `${site}/img/${slug}-ig.jpg` : `${site}/img/${slug}.jpg`;
 }
 
 /** Instagram no enlaza URLs en el texto: se cambian por un aviso de "enlace en el perfil" */

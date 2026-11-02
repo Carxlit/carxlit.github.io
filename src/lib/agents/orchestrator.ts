@@ -3,6 +3,7 @@ import { extractArticleImage, searchRealNewsPhoto } from '@/lib/news/article-ima
 import { buildMultiSourceDossier } from './deep-researcher';
 import { runEditorialDesk } from './editorial-desk';
 import { runVisualEngine } from './visual-engine';
+import { generateInstagramCardImage } from '@/lib/news/card-generator';
 import { withSourceCredit } from '@/lib/news/post-links';
 import { decodeHtmlEntities } from '@/lib/news/article-image';
 
@@ -77,6 +78,12 @@ export async function runEditorialPipeline(
       processed.cardImageUrl = cardPath;
     } catch (err: any) {
       console.error('[Pipeline] Error en generación de tarjeta visual:', err?.message);
+    }
+    // Versión vertical 4:5 para Instagram (si falla, Instagram usa la horizontal)
+    try {
+      processed.instagramCardUrl = await generateInstagramCardImage(processed);
+    } catch (err: any) {
+      console.warn('[Pipeline] Tarjeta vertical de Instagram omitida:', err?.message);
     }
   }
 

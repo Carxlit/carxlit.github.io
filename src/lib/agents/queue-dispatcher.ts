@@ -12,7 +12,7 @@ import { publishToInstagram, publishToMastodon } from '@/lib/news/extra-publishe
 import { getStoredCredentials, getConfiguredChannels } from '@/lib/config/credentials-manager';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 import { markStoryAsCovered } from './news-scout';
-import { isUrlLive } from '@/lib/site/static-site';
+import { isUrlLive, getPublicSiteUrl } from '@/lib/site/static-site';
 import { withArticleLink } from '@/lib/news/post-links';
 
 const QUEUE_PATH = path.join(process.cwd(), 'storage', 'publication_queue.json');
@@ -205,6 +205,14 @@ function appendPublishedHistory(news: ProcessedNews) {
   writeJsonFileAtomic(PUBLISHED_STORE_PATH, history.slice(0, 200));
 }
 
+/** Cambia la base de un enlace de artículo (p. ej. carxlit.github.io) por PUBLIC_SITE_URL, conservando la ruta */
+function currentSiteArticleUrl(url?: string): string | undefined {
+  const base = getPublicSiteUrl();
+  if (!url || !base) return url;
+  const i = url.indexOf('/noticias/');
+  return i >= 0 ? `${base}${url.slice(i)}` : url;
+}
+
 /**
  * Publica solo en los canales que faltan (idempotente: nunca repite un canal que ya tuvo éxito)
  * y actualiza `item.results`. Devuelve los canales que siguen pendientes.
@@ -222,8 +230,10 @@ export async function publishMissingChannels(
     linkedInPost: item.customCopies?.linkedIn || item.news.linkedInPost,
     blueskyPost: item.customCopies?.bluesky || item.news.blueskyPost,
   };
+  // Historias encoladas antes de un cambio de dominio: se enlazan a la dirección actual del sitio
+  const articleUrl = currentSiteArticleUrl(item.news.articleUrl);
   // El enlace al artículo completo solo se adjunta si la página responde en este momento
-  const liveArticleUrl = item.news.articleUrl && (await isUrlLive(item.news.articleUrl)) ? item.news.articleUrl : undefined;
+  const liveArticleUrl = articleUrl && (await isUrlLive(articleUrl)) ? articleUrl : undefined;
   const newsPayload: ProcessedNews = { ...withArticleLink(basePayload, liveArticleUrl), articleUrl: liveArticleUrl };
 
   const results: NonNullable<QueuedPublication['results']> = { ...(item.results || {}) };

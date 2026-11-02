@@ -55,6 +55,7 @@ export interface ProcessedNews {
   blueskyPost?: string; // Post analítico para Bluesky
   copies?: MultiPlatformCopies; // Conjunto unificado de copies
   cardImageUrl?: string; // Ruta de la imagen editorial generada
+  instagramCardUrl?: string; // Versión vertical 4:5 (1080×1350) para Instagram
   rawImageUrl?: string;
   publishedAt?: string;
   facebookPostId?: string;

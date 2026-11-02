@@ -203,6 +203,14 @@ export async function publishArticleToSite(news: ProcessedNews): Promise<string 
         fs.copyFileSync(src, path.join(SITE_DIR, imageFile));
       }
     }
+    // Versión vertical: Instagram la descarga desde una URL pública (img/<slug>-ig.jpg)
+    if (news.instagramCardUrl) {
+      const igSrc = path.join(process.cwd(), 'public', news.instagramCardUrl.replace(/^\//, ''));
+      if (fs.existsSync(igSrc)) {
+        fs.mkdirSync(path.join(SITE_DIR, 'img'), { recursive: true });
+        fs.copyFileSync(igSrc, path.join(SITE_DIR, 'img', `${article.slug}-ig.jpg`));
+      }
+    }
 
     const entry: SiteEntry = {
       slug: article.slug,
