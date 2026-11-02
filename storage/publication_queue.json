@@ -1455,10 +1455,11 @@
         "wordCount": 649
       },
       "rawImageUrl": "https://www.infobae.com/resizer/v2/Y3S7FYZP3REPJJ7QJ272PJJOLQ.png?auth=6b317080ddb4064d91fdda0c5a5674c061292ee6505ab32d991cebdead65f33e&smart=true&width=1920&height=1080",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T13:31:03.303Z",
       "cardImageUrl": "/news-cards/news-vic70ru9i-1793626263303.jpg",
-      "articleUrl": "https://carxlit.github.io/noticias/silicon-valley-asume-control-infraestructura-civica-rlhs/"
+      "articleUrl": "https://carxlit.github.io/noticias/silicon-valley-asume-control-infraestructura-civica-rlhs/",
+      "publishedAt": "2026-11-02T15:14:51.534Z"
     },
     "channels": {
       "facebook": true,
@@ -1469,10 +1470,38 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T15:13:47.565Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T13:31:07.097Z"
+    "createdAt": "2026-11-02T13:31:07.097Z",
+    "lastAttemptAt": "2026-11-02T15:14:02.974Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101495551532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "17",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdmhcbg7l2l"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18019447364944881"
+      }
+    },
+    "publishedAt": "2026-11-02T15:14:51.534Z"
   },
   {
     "id": "queue-1793628989549-97giv",
