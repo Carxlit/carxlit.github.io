@@ -13,9 +13,34 @@
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DNm9qNVdlLW1YSGdFa0tKNWgwTXdjZWdQcU1FR3k5Ym5XWElqQkZWTXBIelExQWRoMGFGSzNUeXEzQy1aWkZUczBOdmFLcGd3V2NhczJ6ZExQZ0JZTzQ3dDhhVWRQaDd1QmFLTk9aTjBWaEVMSVVJ?oc=5",
     "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf",
     "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/",
-    "https://elpais.com/internacional/2026-11-02/la-triple-paradoja-de-ormuz-mas-barcos-cruzando-mas-ataques-y-el-petroleo-por-las-nubes.html"
+    "https://elpais.com/internacional/2026-11-02/la-triple-paradoja-de-ormuz-mas-barcos-cruzando-mas-ataques-y-el-petroleo-por-las-nubes.html",
+    "https://elpais.com/internacional/2026-11-01/la-crisis-de-la-vivienda-revive-en-las-calles-portuguesas-el-espiritu-de-la-revolucion-de-abril.html"
   ],
   "processedSignatures": [
+    {
+      "title": "LA REPRESIÓN DE ACAMPADAS POR VIVIENDA EN PORTUGAL",
+      "normalizedTokens": [
+        "represion",
+        "acampadas",
+        "vivienda",
+        "portugal"
+      ],
+      "date": "2026-11-02T15:16:09.517Z"
+    },
+    {
+      "title": "La crisis de la vivienda revive en las calles portuguesas el espíritu de la Revolución de Abril",
+      "normalizedTokens": [
+        "crisis",
+        "vivienda",
+        "revive",
+        "calles",
+        "portuguesas",
+        "espiritu",
+        "revolucion",
+        "abril"
+      ],
+      "date": "2026-11-02T15:16:09.516Z"
+    },
     {
       "title": "PARADOJA EN ORMUZ: FLUJO PETROLERO CRECE MIENTRAS SE MULTIPLICAN LOS ATAQUES",
       "normalizedTokens": [
