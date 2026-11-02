@@ -1,3 +1,4 @@
+import { threadsConfigured } from '@/lib/news/threads-publisher';
 import fs from 'fs';
 import path from 'path';
 
@@ -75,6 +76,7 @@ export function getConfiguredChannels(creds: StoredCredentials = getStoredCreden
     // Reels de la página de Facebook (video generado con Piper + ffmpeg; solo donde están instalados)
     facebookReel: Boolean(process.env.REELS_ENABLED === 'true' && creds.facebookPageId && creds.facebookAccessToken),
     mastodon: Boolean(process.env.MASTODON_INSTANCE && process.env.MASTODON_TOKEN),
+    threads: threadsConfigured(),
   };
 }
 

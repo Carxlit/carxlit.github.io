@@ -19,9 +19,11 @@
     "site:deploy": "wrangler pages deploy site --project-name punto-ciego --branch main --commit-dirty=true"
   },
   "dependencies": {
+    "@ai-sdk/cerebras": "^0.2.16",
     "@ai-sdk/google": "^1.1.9",
     "@ai-sdk/groq": "^1.2.9",
     "@ai-sdk/mistral": "^1.2.8",
+    "@ai-sdk/openai-compatible": "^0.2.16",
     "ai": "^4.1.27",
     "lucide-react": "^0.460.0",
     "next": "14.2.23",

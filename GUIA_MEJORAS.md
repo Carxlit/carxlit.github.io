@@ -7,18 +7,20 @@ Lo automático ya está funcionando:
 - **Fotos verificadas:** si un medio manda un video o un enlace caído como "foto", se busca otra imagen. Ya no salen tarjetas con el hueco vacío.
 - **Reels solo con video real y libre** (Creative Commons), con crédito al autor. Las demás noticias salen como post con imagen.
 
-Faltan tres pasos que solo puedes hacer tú porque necesitan tus cuentas.
+Faltan unos pasos que solo puedes hacer tú porque necesitan tus cuentas.
 
 ---
 
-## 1. IAs de respaldo gratis (5 minutos)
+## 1. IAs de respaldo gratis, sin tarjeta (5 minutos)
 
-Sirven para que la redacción no se detenga cuando Gemini se queda sin cuota.
+Sirven para que la redacción no se detenga cuando Gemini se queda sin cuota. Basta con una; con dos, mejor.
 
-1. Entra a **https://console.groq.com/keys**, inicia sesión con Google y pulsa **Create API Key**. Copia la clave, que empieza por `gsk_`.
-2. Entra a **https://console.mistral.ai/api-keys**, inicia sesión y crea una clave. Si pide elegir plan, escoge el gratuito (**Experiment**).
-3. Haz doble clic en **`CLAVES_IA.bat`** y pega cada clave cuando te la pida (clic derecho = pegar).
-   - El mismo asistente las sube a GitHub de forma segura.
+1. **Groq:** entra a **https://console.groq.com/keys**, inicia sesión con Google y pulsa **Create API Key**. La clave empieza por `gsk_`.
+2. **Cerebras:** entra a **https://cloud.cerebras.ai**, inicia sesión con Google y abre **API Keys**. La clave empieza por `csk-`.
+3. **OpenRouter** (opcional): entra a **https://openrouter.ai/settings/keys** y crea una clave. Empieza por `sk-or-`.
+4. Haz doble clic en **`CLAVES_IA.bat`** y pega cada clave. Si no tienes alguna, pulsa Enter para saltarla.
+
+Mistral quedó fuera porque pide pago.
 
 ## 2. Reporte diario en tu Telegram (2 minutos)
 
@@ -32,19 +34,31 @@ Cada noche, desde las 9 p. m., te llega un mensaje con lo publicado, lo que fall
 
 ### Canal público de Telegram
 
-Hoy el canal es privado, así que nadie lo puede encontrar.
-
-1. En Telegram abre el canal → **Editar** → **Tipo de canal** → **Público**.
-2. Ponle un enlace, por ejemplo `t.me/puntociegoglobal`.
-3. Pásame el enlace y lo agrego a la página y a los perfiles.
+✅ Listo: **https://t.me/puntociegoglobal** ya aparece en la página, con un botón "Únete" en cada artículo. Ponlo también en la biografía de Instagram y Facebook.
 
 ### Google Noticias
 
-1. Entra a **https://publishercenter.google.com** con la cuenta de Google donde verificaste la página en Search Console.
-2. **Agregar publicación** → nombre "Punto Ciego" → sitio `puntociegoglobal.pages.dev`.
-3. En **Contenido**, agrega el feed `https://puntociegoglobal.pages.dev/rss.xml`.
-4. Publica. Google tarda unos días en revisarlo.
+El error "verifica la propiedad" sale cuando Publisher Center no encuentra la página en **tu** Search Console. Revisa esto:
 
-### Threads
+1. Usa en Publisher Center **la misma cuenta de Google** con la que verificaste la página en Search Console.
+2. En Search Console, la propiedad debe ser de tipo **Prefijo de URL**, exactamente `https://puntociegoglobal.pages.dev/` (con https y la barra final). Abre **Configuración → Usuarios y permisos**: debes aparecer como **Propietario**.
+3. En Publisher Center, escribe la URL igual: `https://puntociegoglobal.pages.dev/`.
+4. Si ya hiciste todo eso, espera unas horas y vuelve a darle **Confirmar verificación**. A veces tarda en reconocerla.
 
-Usa la misma app de Meta, pero necesita activar el caso de uso "Threads API" y generar otro token. Cuando quieras lo hacemos juntos.
+## 4. Threads (10 minutos)
+
+Cada noticia saldrá también en Threads con la tarjeta y el **enlace clicable** al artículo. El token se renueva solo.
+
+1. Entra a **https://developers.facebook.com/apps** → **Crear app**.
+   - Nombre: `Punto Ciego Threads`.
+   - Caso de uso: **"Acceder a la API de Threads"** (Access the Threads API).
+   - Es otra app distinta de "AutoNews Bot": Meta no deja mezclar Threads con otros casos de uso.
+2. En la app nueva: **Casos de uso → API de Threads → Personalizar → Permisos**. Agrega `threads_basic` y `threads_content_publish`.
+3. **Roles de la app → Roles → Agregar personas → Evaluador de Threads**. Escribe tu usuario de Threads (el mismo de Instagram, `puntociego.glob`).
+4. Acepta la invitación: en la app de **Threads** ve a **Configuración → Cuenta → Permisos del sitio web → Invitaciones** y acepta.
+5. De vuelta en la app de Meta: **Casos de uso → API de Threads → Configuración**.
+   - Copia la **clave secreta de la app de Threads**.
+   - Baja hasta **Generador de token de usuario** → **Generar token de acceso** y copia el token.
+6. Haz doble clic en **`THREADS_TOKEN.bat`** y pega los dos datos.
+
+Si algún paso no te aparece igual, mándame una captura.

@@ -46,11 +46,34 @@ async function setupAiKeys() {
     setEnv('GROQ_API_KEY', groq);
     console.log('   ✔ Groq guardada');
   }
-  const mistral = await ask(' Clave de Mistral: ');
-  if (mistral) {
-    setEnv('MISTRAL_API_KEY', mistral);
-    console.log('   ✔ Mistral guardada');
+  const cerebras = await ask(' Clave de Cerebras (empieza por csk-): ');
+  if (cerebras) {
+    setEnv('CEREBRAS_API_KEY', cerebras);
+    console.log('   ✔ Cerebras guardada');
   }
+  const openrouter = await ask(' Clave de OpenRouter (empieza por sk-or-): ');
+  if (openrouter) {
+    setEnv('OPENROUTER_API_KEY', openrouter);
+    console.log('   ✔ OpenRouter guardada');
+  }
+}
+
+async function setupThreads() {
+  console.log('\n Threads: pega los dos datos de tu app de Meta (Casos de uso → Threads API → Configuración).\n');
+  const secret = await ask(' Clave secreta de la app de Threads (Threads app secret): ');
+  const short = await ask(' Token de acceso generado (User Token Generator): ');
+  if (!secret || !short) throw new Error('Faltan datos');
+  const ex = await fetch(
+    `https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=${encodeURIComponent(secret)}&access_token=${encodeURIComponent(short)}`
+  ).then((r) => r.json());
+  // Si el token ya era de larga duración, el canje falla: se usa tal cual
+  const token = ex.access_token || short;
+  const me = await fetch(`https://graph.threads.net/v1.0/me?fields=id,username&access_token=${encodeURIComponent(token)}`).then((r) => r.json());
+  if (!me.id) throw new Error(`Threads no aceptó el token: ${(me.error && me.error.message) || (ex.error && ex.error.message) || 'sin detalle'}`);
+  setEnv('THREADS_USER_ID', me.id);
+  setEnv('THREADS_ACCESS_TOKEN', token);
+  if (!readEnv().THREADS_ENC_KEY) setEnv('THREADS_ENC_KEY', require('crypto').randomBytes(32).toString('hex'));
+  console.log(`\n ✔ Conectado a Threads como @${me.username}${ex.expires_in ? ` (token de ${Math.round(ex.expires_in / 86400)} días, se renovará solo)` : ''}`);
 }
 
 async function setupReportChat() {
@@ -94,7 +117,8 @@ async function setupReportChat() {
   const mode = process.argv[2];
   if (mode === 'ia') await setupAiKeys();
   else if (mode === 'reporte') await setupReportChat();
-  else throw new Error('Uso: node scripts/env-setup.js ia|reporte');
+  else if (mode === 'threads') await setupThreads();
+  else throw new Error('Uso: node scripts/env-setup.js ia|reporte|threads');
   console.log('\n Ahora se suben a GitHub (puede pedirte confirmar).');
 })().catch((e) => {
   console.error('\n ✖', e.message);

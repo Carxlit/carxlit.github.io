@@ -2,6 +2,8 @@ import path from 'path';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 import { createGroq } from '@ai-sdk/groq';
 import { createMistral } from '@ai-sdk/mistral';
+import { createCerebras } from '@ai-sdk/cerebras';
+import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
 import { generateObject, type LanguageModelV1 } from 'ai';
 import type { z } from 'zod';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
@@ -31,8 +33,10 @@ const cleanKey = (v?: string) => (v || '').replace(/^﻿+/, '').trim();
 /**
  * IAs de respaldo GRATIS de otros proveedores: solo se usan cuando todos los modelos de Gemini
  * se quedan sin cuota. Se activan al poner su clave (CLAVES_IA.bat).
- *  - Groq: Llama 3.3 70B, muy rápido, cuota diaria amplia.
- *  - Mistral: buen español, plan gratuito.
+ *  - Groq: Llama 3.3 70B, muy rápido, cuota diaria amplia (sin tarjeta).
+ *  - Cerebras: modelos abiertos grandes, plan gratuito sin tarjeta.
+ *  - OpenRouter: modelos ":free" (unas 50 solicitudes al día sin tarjeta).
+ *  - Mistral: si algún día se configura (su plan gratis pide verificación de pago en algunos países).
  */
 function backupModels(): { name: string; model: LanguageModelV1 }[] {
   const out: { name: string; model: LanguageModelV1 }[] = [];
@@ -40,6 +44,17 @@ function backupModels(): { name: string; model: LanguageModelV1 }[] {
   if (groqKey) {
     const name = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
     out.push({ name: `groq:${name}`, model: createGroq({ apiKey: groqKey })(name) });
+  }
+  const cerebrasKey = cleanKey(process.env.CEREBRAS_API_KEY);
+  if (cerebrasKey) {
+    const name = process.env.CEREBRAS_MODEL || 'gpt-oss-120b';
+    out.push({ name: `cerebras:${name}`, model: createCerebras({ apiKey: cerebrasKey })(name) });
+  }
+  const openRouterKey = cleanKey(process.env.OPENROUTER_API_KEY);
+  if (openRouterKey) {
+    const name = process.env.OPENROUTER_MODEL || 'meta-llama/llama-3.3-70b-instruct:free';
+    const openrouter = createOpenAICompatible({ name: 'openrouter', baseURL: 'https://openrouter.ai/api/v1', apiKey: openRouterKey });
+    out.push({ name: `openrouter:${name}`, model: openrouter.chatModel(name) });
   }
   const mistralKey = cleanKey(process.env.MISTRAL_API_KEY);
   if (mistralKey) {

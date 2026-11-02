@@ -44,6 +44,8 @@ jobs:
       # IAs de respaldo gratis cuando Gemini se queda sin cuota (CLAVES_IA.bat)
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+      CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
       FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -58,6 +60,10 @@ jobs:
       INSTAGRAM_USER_ID: ${{ vars.INSTAGRAM_USER_ID }}
       MASTODON_INSTANCE: ${{ vars.MASTODON_INSTANCE }}
       MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+      # Threads (THREADS_TOKEN.bat): el token se renueva solo y se guarda cifrado con THREADS_ENC_KEY
+      THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      THREADS_ENC_KEY: ${{ secrets.THREADS_ENC_KEY }}
       # https://puntociegoglobal.pages.dev (Cloudflare Pages construye site/ en cada push; GitHub Pages queda
       # como copia). Los posts solo llevan el enlace cuando la página ya responde.
       PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}

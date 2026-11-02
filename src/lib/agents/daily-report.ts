@@ -21,6 +21,7 @@ const CHANNEL_NAMES: Record<string, string> = {
   facebookReel: 'Reel FB',
   linkedIn: 'LinkedIn',
   mastodon: 'Mastodon',
+  threads: 'Threads',
 };
 
 export function buildDailyReport(auditLine: string, now = new Date()): string {

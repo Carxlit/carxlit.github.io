@@ -196,6 +196,11 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px;padding-left:10px;bo
 .share a,.share button{font:700 13px/1 Inter,system-ui,sans-serif;border:0;color:#fff;padding:10px 14px;cursor:pointer;border-radius:999px;background:#334155}
 .share a.fb{background:#1877f2}.share a.wa{background:#25d366}.share a.tg{background:#229ed9}.share a.x{background:#000}.share a.bs{background:#0085ff}
 .share a:hover,.share button:hover{filter:brightness(1.1)}
+.follow{display:flex;align-items:center;gap:14px;margin:22px 0 0;padding:16px 18px;border-radius:10px;background:#229ed9;color:#fff}
+.follow b{font-size:26px;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.2);display:grid;place-items:center;flex:none}
+.follow span{flex:1;font-size:14px;line-height:1.4}.follow strong{display:block;font-size:16px}
+.follow em{font-style:normal;font-weight:800;background:#fff;color:#229ed9;padding:9px 14px;border-radius:999px;white-space:nowrap}
+.follow:hover{filter:brightness(1.05)}
 .next{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:center;margin:38px 0 0;padding:16px;border:1px solid var(--rule);border-radius:10px;background:var(--card);box-shadow:var(--shadow)}
 .next .lbl{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .next h3{margin:6px 0 0;font-size:20px;line-height:1.25;font-weight:800}
@@ -558,6 +563,7 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
   <div class="body">${sectionsHtml}</div>
   ${reelAfter}
   ${canonical ? shareBlock(canonical, a.title) : ''}
+  ${config.socialLinks?.telegram ? `<a class="follow" href="${esc(config.socialLinks.telegram)}" rel="noopener" target="_blank"><b>✈</b><span><strong>Recibe estas noticias en Telegram</strong>Únete gratis al canal de ${SITE_NAME}: lo importante, sin ruido.</span><em>Unirme</em></a>` : ''}
   <section class="sources"><h2>Fuentes consultadas</h2><ul>${a.sources
     .map((s) => `<li><a href="${esc(s.url)}" rel="nofollow noopener" target="_blank">${esc(s.name)}</a>: ${esc(s.title)}</li>`)
     .join('')}</ul></section>

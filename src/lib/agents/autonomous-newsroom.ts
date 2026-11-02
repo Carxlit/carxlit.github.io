@@ -49,6 +49,7 @@ export interface AutonomousConfig {
     instagram?: boolean;
     facebookReel?: boolean;
     mastodon?: boolean;
+    threads?: boolean;
   };
 }
 
@@ -70,6 +71,7 @@ export const DEFAULT_AUTONOMOUS_CONFIG: AutonomousConfig = {
     instagram: true,
     facebookReel: true,
     mastodon: true,
+    threads: true,
   },
 };
 
