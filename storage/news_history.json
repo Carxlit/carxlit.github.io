@@ -14,9 +14,77 @@
     "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf",
     "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/",
     "https://elpais.com/internacional/2026-11-02/la-triple-paradoja-de-ormuz-mas-barcos-cruzando-mas-ataques-y-el-petroleo-por-las-nubes.html",
-    "https://elpais.com/internacional/2026-11-01/la-crisis-de-la-vivienda-revive-en-las-calles-portuguesas-el-espiritu-de-la-revolucion-de-abril.html"
+    "https://elpais.com/internacional/2026-11-01/la-crisis-de-la-vivienda-revive-en-las-calles-portuguesas-el-espiritu-de-la-revolucion-de-abril.html",
+    "https://www.infobae.com/america/mundo/2026/11/02/el-regimen-de-iran-dijo-que-reabrira-el-estrecho-de-ormuz-en-dos-dias-si-estados-unidos-acepta-sus-condiciones/",
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NMUlUQ0Zsc09hMWhMQnZkbDhxOVhYVGVaQTR4WG1NLVJZc3RQWVFuQ2UtSTRKTEt1dU93OEhMSEc4NUktb3NwLWw1S0o4TVk2elY0ay1kZF9UTVNJV0RsUTM4M0l3b1huVzNPWlNJM0dRcHVHVG0wTw?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "WALL STREET SUBE TRAS OCTUBRE BAJISTA CON LA MIRA EN ELECCIONES",
+      "normalizedTokens": [
+        "wall",
+        "street",
+        "sube",
+        "octubre",
+        "bajista",
+        "mira",
+        "elecciones"
+      ],
+      "date": "2026-11-02T15:23:30.027Z"
+    },
+    {
+      "title": "Suben los futuros de Wall Street mientras las acciones del sector de la inteligencia artificial se toman un respiro; toda la atención se centra en las elecciones de mitad de mandato",
+      "normalizedTokens": [
+        "suben",
+        "futuros",
+        "wall",
+        "street",
+        "mientras",
+        "acciones",
+        "sector",
+        "inteligencia",
+        "artificial",
+        "toman",
+        "respiro",
+        "toda",
+        "atencion",
+        "centra",
+        "elecciones",
+        "mitad",
+        "mandato"
+      ],
+      "date": "2026-11-02T15:23:30.026Z"
+    },
+    {
+      "title": "IRÁN CONDICIONA LA REAPERTURA DE ORMUZ A EXIGENCIAS A WASHINGTON",
+      "normalizedTokens": [
+        "iran",
+        "condiciona",
+        "reapertura",
+        "ormuz",
+        "exigencias",
+        "washington"
+      ],
+      "date": "2026-11-02T15:23:05.236Z"
+    },
+    {
+      "title": "El régimen de Irán dijo que reabrirá el estrecho de Ormuz en dos días si Estados Unidos acepta sus condiciones",
+      "normalizedTokens": [
+        "regimen",
+        "iran",
+        "dijo",
+        "reabrira",
+        "estrecho",
+        "ormuz",
+        "dos",
+        "dias",
+        "estados",
+        "unidos",
+        "acepta",
+        "condiciones"
+      ],
+      "date": "2026-11-02T15:23:05.235Z"
+    },
     {
       "title": "LA REPRESIÓN DE ACAMPADAS POR VIVIENDA EN PORTUGAL",
       "normalizedTokens": [
