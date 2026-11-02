@@ -1159,10 +1159,11 @@
         "wordCount": 560
       },
       "rawImageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T12:27:20.504Z",
       "cardImageUrl": "/news-cards/news-37xoh9nvl-1793622440504.jpg",
-      "articleUrl": "https://carxlit.github.io/noticias/anemico-repunte-economico-chile-expone-fracturas-ybsu/"
+      "articleUrl": "https://carxlit.github.io/noticias/anemico-repunte-economico-chile-expone-fracturas-ybsu/",
+      "publishedAt": "2026-11-02T12:50:47.565Z"
     },
     "channels": {
       "facebook": true,
@@ -1173,9 +1174,43 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T12:50:21.106Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T12:27:21.108Z"
+    "createdAt": "2026-11-02T12:27:21.108Z",
+    "lastAttemptAt": "2026-11-02T12:50:36.284Z",
+    "results": {
+      "linkedIn": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "instagram": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101369851532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "14",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdeg5xk3q22"
+      }
+    },
+    "publishedAt": "2026-11-02T12:50:47.565Z"
   }
 ]
