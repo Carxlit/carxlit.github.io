@@ -87,7 +87,11 @@ async function waitForIgContainer(containerId: string, token: string, maxSeconds
  * Reel de Instagram subiendo el MP4 directamente (subida reanudable): no hace falta alojar el video.
  * share_to_feed: también aparece en la cuadrícula del perfil.
  */
-export async function publishInstagramReel(news: ProcessedNews, pageToken: string, videoPath: string): Promise<ChannelResult & { mediaId?: string }> {
+export async function publishInstagramReel(
+  news: ProcessedNews,
+  pageToken: string,
+  videoPath: string
+): Promise<ChannelResult & { mediaId?: string; permalink?: string }> {
   const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
   // La subida reanudable a Instagram necesita una versión reciente de la Graph API
   const REEL_API = 'v23.0';
@@ -123,7 +127,11 @@ export async function publishInstagramReel(news: ProcessedNews, pageToken: strin
     });
     const published: any = await pub.json();
     if (!pub.ok || !published.id) throw new Error(published.error?.message || `HTTP ${pub.status}`);
-    return { success: true, mediaId: published.id };
+    // Enlace público del Reel: el artículo del sitio lo muestra incrustado
+    const info: any = await fetch(`https://graph.facebook.com/${REEL_API}/${published.id}?fields=permalink`, {
+      headers: { Authorization: `Bearer ${pageToken}` },
+    }).then((r) => r.json()).catch(() => ({}));
+    return { success: true, mediaId: published.id, permalink: info?.permalink };
   } catch (err: any) {
     return { success: false, error: `Reel de Instagram: ${err?.message}` };
   }

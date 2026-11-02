@@ -1,6 +1,7 @@
 import Parser from 'rss-parser';
-import { RawArticle } from '@/types/news';
+import { RawArticle, NewsVideo } from '@/types/news';
 import { resolveGoogleNewsUrl } from '@/lib/news/article-image';
+import { findNewsVideo } from '@/lib/news/news-video';
 
 const parser = new Parser();
 
@@ -19,6 +20,8 @@ export interface ResearchDossier {
   sourcesConsultedCount: number;
   sourcesList: string[];
   crossSourceSummary: string;
+  /** Video real del hecho (YouTube) para el artículo */
+  video?: NewsVideo;
 }
 
 /**
@@ -50,8 +53,13 @@ export function extractInvestigationKeywords(title: string): string {
  * Descarga y extrae el texto periodístico real de la página del artículo
  */
 export async function fetchFullArticleText(url: string): Promise<string> {
+  return (await fetchArticlePage(url)).text;
+}
+
+/** Texto periodístico y HTML original de la página (el HTML sirve para encontrar el video incrustado) */
+export async function fetchArticlePage(url: string): Promise<{ text: string; html: string }> {
   if (!url || url.includes('news.google.com')) {
-    return '';
+    return { text: '', html: '' };
   }
 
   try {
@@ -68,7 +76,7 @@ export async function fetchFullArticleText(url: string): Promise<string> {
     });
 
     clearTimeout(timeout);
-    if (!res.ok) return '';
+    if (!res.ok) return { text: '', html: '' };
 
     const html = await res.text();
 
@@ -101,10 +109,10 @@ export async function fetchFullArticleText(url: string): Promise<string> {
     }
 
     // Unir los primeros 10-15 párrafos sustanciales (máximo ~2000 palabras)
-    return paragraphs.slice(0, 15).join('\n\n');
+    return { text: paragraphs.slice(0, 15).join('\n\n'), html };
   } catch (err: any) {
     console.warn(`[DeepResearcher] Extracción de texto completo no disponible para ${url}:`, err?.message);
-    return '';
+    return { text: '', html: '' };
   }
 }
 
@@ -165,10 +173,15 @@ export async function buildMultiSourceDossier(article: RawArticle): Promise<Rese
 
   // 1. Extraer texto completo del artículo (resolviendo antes los enlaces de Google News al medio real)
   let fullArticleText = '';
+  let pageHtml = '';
   if (article.link) {
     const directUrl = await resolveGoogleNewsUrl(article.link);
-    if (directUrl) fullArticleText = await fetchFullArticleText(directUrl);
+    if (directUrl) ({ text: fullArticleText, html: pageHtml } = await fetchArticlePage(directUrl));
   }
+
+  // 1.5 Video real del hecho: el que incrustó el medio o uno de esta semana en YouTube que cuente lo mismo
+  const video = await findNewsVideo(article.title, pageHtml ? [pageHtml] : []).catch(() => undefined);
+  if (video) console.log(`[DeepResearcher] Video de la noticia: "${video.title}" (${video.channel || 'YouTube'})`);
 
   // 2. Rastrear cobertura en otros medios internacionales
   const corroborating = await findCorroboratingCoverage(article.title, article.sourceName);
@@ -199,6 +212,7 @@ export async function buildMultiSourceDossier(article: RawArticle): Promise<Rese
     sourcesConsultedCount: sourcesList.length,
     sourcesList,
     crossSourceSummary: compiledBriefing,
+    video,
   };
 }
 

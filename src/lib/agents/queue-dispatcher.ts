@@ -13,7 +13,7 @@ import { getNewsReel } from '@/lib/video/reel-generator';
 import { getStoredCredentials, getConfiguredChannels } from '@/lib/config/credentials-manager';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 import { markStoryAsCovered } from './news-scout';
-import { isUrlLive, getPublicSiteUrl } from '@/lib/site/static-site';
+import { isUrlLive, getPublicSiteUrl, attachReelToArticle } from '@/lib/site/static-site';
 import { withArticleLink } from '@/lib/news/post-links';
 
 const QUEUE_PATH = path.join(process.cwd(), 'storage', 'publication_queue.json');
@@ -29,6 +29,8 @@ const MAX_CLOSED_ITEMS = 150;
 const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'facebookReel', 'mastodon'] as const;
 
 const reelsEnabled = () => process.env.REELS_ENABLED === 'true';
+/** Solo las noticias con video real del hecho salen como Reel; el resto, como post con imagen */
+const wantsReel = (news: ProcessedNews) => reelsEnabled() && !!news.sourceVideo;
 type Channel = (typeof CHANNELS)[number];
 
 export interface EnqueueOptions {
@@ -190,20 +192,24 @@ async function publishToChannel(
         return await publishToLinkedInCompany(news);
       case 'instagram': {
         // Con Reels activados, Instagram recibe el video; si el video falla, la tarjeta vertical de siempre
-        if (reelsEnabled()) {
+        if (wantsReel(news)) {
           const video = await getNewsReel(news).catch((e) => {
             console.warn('[QueueDispatcher] Reel no disponible, Instagram usa la imagen:', e?.message);
             return null;
           });
           if (video) {
             const reel = await publishInstagramReel(news, creds.facebookAccessToken!, video);
-            if (reel.success) return reel;
+            if (reel.success) {
+              if (reel.permalink && news.article?.slug) attachReelToArticle(news.article.slug, reel.permalink);
+              return reel;
+            }
             console.warn('[QueueDispatcher]', reel.error, '→ se publica la imagen');
           }
         }
         return await publishToInstagram(news, creds.facebookAccessToken);
       }
       case 'facebookReel': {
+        if (!wantsReel(news)) return { success: false, skipped: true, error: 'Noticia sin video: solo post con imagen' };
         const video = await getNewsReel(news).catch((e) => ({ error: e?.message as string }));
         if (typeof video !== 'string') {
           // Un video que no se pudo generar no bloquea la publicación de la historia

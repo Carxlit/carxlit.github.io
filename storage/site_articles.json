@@ -82,7 +82,8 @@
       ],
       "wordCount": 499
     },
-    "blindSpot": "La cobertura mediática se limita a calificar el hecho como un fallo técnico o una travesura anónima, ignorando que comprometer la cadena de frío a escala transnacional expone la fragilidad de las infraestructuras civiles ante operaciones de sabotaje híbrido y guerra asimétrica."
+    "blindSpot": "La cobertura mediática se limita a calificar el hecho como un fallo técnico o una travesura anónima, ignorando que comprometer la cadena de frío a escala transnacional expone la fragilidad de las infraestructuras civiles ante operaciones de sabotaje híbrido y guerra asimétrica.",
+    "photo": "img/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp-foto.jpg"
   },
   {
     "slug": "karl-bushby-concluye-gran-bretana-caminata-i6qg",
@@ -177,7 +178,8 @@
       ],
       "wordCount": 517
     },
-    "blindSpot": "Más allá de la épica individual y la recepción oficial con honores locales, la travesía de Bushby expone la progresiva impermeabilidad de las fronteras geopolíticas globales. Su paso por puntos críticos como el Tapón del Darién y el estrecho de Bering reflejó las trabas burocráticas y normativas que enfrentan los tránsitos terrestres no estandarizados en un mundo de soberanías blindadas."
+    "blindSpot": "Más allá de la épica individual y la recepción oficial con honores locales, la travesía de Bushby expone la progresiva impermeabilidad de las fronteras geopolíticas globales. Su paso por puntos críticos como el Tapón del Darién y el estrecho de Bering reflejó las trabas burocráticas y normativas que enfrentan los tránsitos terrestres no estandarizados en un mundo de soberanías blindadas.",
+    "photo": "img/karl-bushby-concluye-gran-bretana-caminata-i6qg-foto.jpg"
   },
   {
     "slug": "dilema-memoria-ram-centralizacion-poder-computo-j4of",
@@ -271,7 +273,14 @@
       ],
       "wordCount": 458
     },
-    "blindSpot": "Mientras Altman enmarca su crítica en la eficiencia global de recursos y la escasez de componentes, el trasfondo comercial revela una defensa directa del modelo de negocio centralizado en la nube de OpenAI. Descentralizar la ejecución de modelos avanzados mediante hardware local amenaza las suscripciones de pago que sostienen financieramente a la compañía."
+    "blindSpot": "Mientras Altman enmarca su crítica en la eficiencia global de recursos y la escasez de componentes, el trasfondo comercial revela una defensa directa del modelo de negocio centralizado en la nube de OpenAI. Descentralizar la ejecución de modelos avanzados mediante hardware local amenaza las suscripciones de pago que sostienen financieramente a la compañía.",
+    "photo": "img/dilema-memoria-ram-centralizacion-poder-computo-j4of-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "-TFbj422nGc",
+      "title": "Gente usa solo 5% de su memoria RAM y otras 1 noticias que debes conocer",
+      "channel": "AI Degus "
+    }
   },
   {
     "slug": "futuros-wall-street-repuntan-tras-octubre-fim9",
@@ -361,7 +370,8 @@
       ],
       "wordCount": 415
     },
-    "blindSpot": "La atención mediática se concentra en el ruido político de las elecciones legislativas y el descanso temporal de las tecnológicas, enmascarando el impacto real de la caída del precio del petróleo y el trasfondo de los resultados corporativos clave como los de Apple."
+    "blindSpot": "La atención mediática se concentra en el ruido político de las elecciones legislativas y el descanso temporal de las tecnológicas, enmascarando el impacto real de la caída del precio del petróleo y el trasfondo de los resultados corporativos clave como los de Apple.",
+    "photo": "img/futuros-wall-street-repuntan-tras-octubre-fim9-foto.jpg"
   },
   {
     "slug": "iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f",
@@ -456,7 +466,8 @@
       ],
       "wordCount": 606
     },
-    "blindSpot": "La negociación ocurre en un vacío de poder interno marcado por la figura de Mojtaba Khamenei y los cálculos electorales inmediatos en Washington. El repliegue táctico busca evitar que la crisis energética domine el tramo final de las elecciones de mitad de mandato en Estados Unidos, mientras la Guardia Revolucionaria mantiene intacta su capacidad de coacción sobre el crudo global."
+    "blindSpot": "La negociación ocurre en un vacío de poder interno marcado por la figura de Mojtaba Khamenei y los cálculos electorales inmediatos en Washington. El repliegue táctico busca evitar que la crisis energética domine el tramo final de las elecciones de mitad de mandato en Estados Unidos, mientras la Guardia Revolucionaria mantiene intacta su capacidad de coacción sobre el crudo global.",
+    "photo": "img/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f-foto.jpg"
   },
   {
     "slug": "crisis-vivienda-portugal-desata-tormenta-politica-oau3",
@@ -535,7 +546,13 @@
       ],
       "wordCount": 487
     },
-    "blindSpot": "La cobertura general se centra en la confrontación callejera y la nostalgia revolucionaria, omitiendo cómo la incapacidad estatal para frenar la especulación inmobiliaria transnacional está erosionando el pacto social democrático y abriendo flancos de inestabilidad institucional profunda."
+    "blindSpot": "La cobertura general se centra en la confrontación callejera y la nostalgia revolucionaria, omitiendo cómo la incapacidad estatal para frenar la especulación inmobiliaria transnacional está erosionando el pacto social democrático y abriendo flancos de inestabilidad institucional profunda.",
+    "video": {
+      "provider": "youtube",
+      "id": "8S3F3Yld2pI",
+      "title": "La crisis de vivienda en Portugal desata protestas y enfrentamientos | Noticias Telemundo",
+      "channel": "Noticias Telemundo"
+    }
   },
   {
     "slug": "paradoja-ormuz-crudo-roza-118-dolares-ep7k",
@@ -617,7 +634,8 @@
       ],
       "wordCount": 649
     },
-    "blindSpot": "La narrativa del mercado asume que el volumen físico de crudo estabilizará los precios. Sin embargo, la cotización ignora la oferta real debido al agotamiento de las reservas estratégicas de Occidente, el reinicio de las compras masivas por parte de China y la elevación de la prima de riesgo ante posibles ataques de Estados Unidos a Irán tras sus elecciones."
+    "blindSpot": "La narrativa del mercado asume que el volumen físico de crudo estabilizará los precios. Sin embargo, la cotización ignora la oferta real debido al agotamiento de las reservas estratégicas de Occidente, el reinicio de las compras masivas por parte de China y la elevación de la prima de riesgo ante posibles ataques de Estados Unidos a Irán tras sus elecciones.",
+    "photo": "img/paradoja-ormuz-crudo-roza-118-dolares-ep7k-foto.jpg"
   },
   {
     "slug": "silicon-valley-asume-control-infraestructura-civica-rlhs",
@@ -692,7 +710,8 @@
       ],
       "wordCount": 649
     },
-    "blindSpot": "La externalización de la gobernanza electoral hacia empresas privadas de inteligencia artificial establece un peligroso precedente donde corporaciones tecnológicas actúan como árbitros absolutos del flujo informativo democrático, decidiendo qué es desinformación en tiempo real sin rendición de cuentas pública."
+    "blindSpot": "La externalización de la gobernanza electoral hacia empresas privadas de inteligencia artificial establece un peligroso precedente donde corporaciones tecnológicas actúan como árbitros absolutos del flujo informativo democrático, decidiendo qué es desinformación en tiempo real sin rendición de cuentas pública.",
+    "photo": "img/silicon-valley-asume-control-infraestructura-civica-rlhs-foto.jpg"
   },
   {
     "slug": "victoria-iliana-yotova-bulgaria-fractura-posicion-u987",
@@ -788,7 +807,8 @@
       ],
       "wordCount": 691
     },
-    "blindSpot": "Mientras las cancillerías europeas minimizan el perfil de la presidencia búlgara por considerarlo un cargo protocolario, la victoria de Yotova consolida el control del primer ministro Rumen Radev sobre la política exterior. En un contexto de creciente inseguridad marítima tras el hundimiento de cuatro buques mercantes en el mar Negro, Bulgaria opta por evitar la confrontación con Moscú, abriendo una brecha estratégica en el flanco suroriental de la OTAN."
+    "blindSpot": "Mientras las cancillerías europeas minimizan el perfil de la presidencia búlgara por considerarlo un cargo protocolario, la victoria de Yotova consolida el control del primer ministro Rumen Radev sobre la política exterior. En un contexto de creciente inseguridad marítima tras el hundimiento de cuatro buques mercantes en el mar Negro, Bulgaria opta por evitar la confrontación con Moscú, abriendo una brecha estratégica en el flanco suroriental de la OTAN.",
+    "photo": "img/victoria-iliana-yotova-bulgaria-fractura-posicion-u987-foto.jpg"
   },
   {
     "slug": "anemico-repunte-economico-chile-expone-fracturas-ybsu",
@@ -883,7 +903,8 @@
       ],
       "wordCount": 560
     },
-    "blindSpot": "La narrativa sobre la vuelta al crecimiento tras el dato del Imacec enmascara un estancamiento en la estructura productiva chilena. El tímido avance responde al consumo digital fragmentado mientras los sectores de mayor valor agregado y la minería del cobre experimentan una contracción directa."
+    "blindSpot": "La narrativa sobre la vuelta al crecimiento tras el dato del Imacec enmascara un estancamiento en la estructura productiva chilena. El tímido avance responde al consumo digital fragmentado mientras los sectores de mayor valor agregado y la minería del cobre experimentan una contracción directa.",
+    "photo": "img/anemico-repunte-economico-chile-expone-fracturas-ybsu-foto.jpg"
   },
   {
     "slug": "adelanto-11-11-aliexpress-reconfiguracion-mercado-tecnologico-b3yv",
@@ -957,7 +978,8 @@
       ],
       "wordCount": 522
     },
-    "blindSpot": "Detrás de la aparente guerra de precios al consumidor se esconde una estrategia de liquidación de stock y subsidios cruzados para captar liquidez en divisas occidentales antes del cierre fiscal. Las plataformas asiáticas erosionan los márgenes de los distribuidores tradicionales mediante subsidios directos financiados por ecosistemas de pago integrados."
+    "blindSpot": "Detrás de la aparente guerra de precios al consumidor se esconde una estrategia de liquidación de stock y subsidios cruzados para captar liquidez en divisas occidentales antes del cierre fiscal. Las plataformas asiáticas erosionan los márgenes de los distribuidores tradicionales mediante subsidios directos financiados por ecosistemas de pago integrados.",
+    "photo": "img/adelanto-11-11-aliexpress-reconfiguracion-mercado-tecnologico-b3yv-foto.jpg"
   },
   {
     "slug": "elecciones-medio-mandato-estados-unidos-vulnerabilidad-6bp7",
@@ -1031,7 +1053,8 @@
       ],
       "wordCount": 652
     },
-    "blindSpot": "El verdadero riesgo para Europa no es una salida formal de la OTAN, bloqueada desde diciembre de 2023 por requerir el aval del Congreso, sino el vaciamiento operativo y el condicionamiento del Artículo 5 al gasto del 5 % del PIB en 2035. Además, cualquier decisión tomada por orden ejecutiva sin concurso legislativo corre el riesgo de ser revertida el 21 de enero de 2029."
+    "blindSpot": "El verdadero riesgo para Europa no es una salida formal de la OTAN, bloqueada desde diciembre de 2023 por requerir el aval del Congreso, sino el vaciamiento operativo y el condicionamiento del Artículo 5 al gasto del 5 % del PIB en 2035. Además, cualquier decisión tomada por orden ejecutiva sin concurso legislativo corre el riesgo de ser revertida el 21 de enero de 2029.",
+    "photo": "img/elecciones-medio-mandato-estados-unidos-vulnerabilidad-6bp7-foto.jpg"
   },
   {
     "slug": "caida-avion-ejecutivo-west-palm-beach-ajc1",
@@ -1127,7 +1150,8 @@
       ],
       "wordCount": 619
     },
-    "blindSpot": "Mientras la cobertura masiva se enfoca en el despliegue de los servicios de emergencia y la coincidencia del despegue presidencial una hora antes, el verdadero punto ciego radica en la física del descenso. Una pérdida de altitud de 8.230 metros en apenas 60 segundos sugiere una falla estructural catastrófica o una pérdida total de control de vuelo, lo que reabre el debate sobre la supervisión técnica y los protocolos de mantenimiento en la aviación ejecutiva privada."
+    "blindSpot": "Mientras la cobertura masiva se enfoca en el despliegue de los servicios de emergencia y la coincidencia del despegue presidencial una hora antes, el verdadero punto ciego radica en la física del descenso. Una pérdida de altitud de 8.230 metros en apenas 60 segundos sugiere una falla estructural catastrófica o una pérdida total de control de vuelo, lo que reabre el debate sobre la supervisión técnica y los protocolos de mantenimiento en la aviación ejecutiva privada.",
+    "photo": "img/caida-avion-ejecutivo-west-palm-beach-ajc1-foto.jpg"
   },
   {
     "slug": "bce-congela-tipos-interes-mientras-euribor-fbmk",
@@ -1223,6 +1247,7 @@
       ],
       "wordCount": 603
     },
-    "blindSpot": "Mientras los titulares se centran en la pausa temporal del Banco Central Europeo, el verdadero riesgo se oculta en el impacto asimétrico sobre la deuda pública de economías frágiles como la francesa y el encarecimiento silencioso de las hipotecas a través del Euribor antes de que el organismo mueva ficha."
+    "blindSpot": "Mientras los titulares se centran en la pausa temporal del Banco Central Europeo, el verdadero riesgo se oculta en el impacto asimétrico sobre la deuda pública de economías frágiles como la francesa y el encarecimiento silencioso de las hipotecas a través del Euribor antes de que el organismo mueva ficha.",
+    "photo": "img/bce-congela-tipos-interes-mientras-euribor-fbmk-foto.jpg"
   }
 ]

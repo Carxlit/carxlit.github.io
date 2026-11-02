@@ -19,6 +19,7 @@ import {
 } from './templates';
 import { getSiteConfig, SiteConfig } from './site-config';
 import { getStaticPages } from './static-pages';
+import { renderHtmlToJpeg } from '@/lib/news/card-generator';
 import { SITE_CATEGORIES, categoryPath } from './categories';
 
 /**
@@ -79,14 +80,14 @@ export function rebuildSiteIndex(entries: SiteEntry[] = getSiteEntries()) {
   const totalPages = Math.max(1, Math.ceil(latest.length / PAGE_SIZE));
   for (let page = 1; page <= totalPages; page++) {
     const slice = latest.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-    writePage(indexPageRel(page), renderIndexPage(slice, baseUrl, { page, totalPages, config }));
+    writePage(indexPageRel(page), renderIndexPage(slice, baseUrl, { page, totalPages, config, all: latest }));
   }
 
   // Secciones (las fijas y cualquier otra categoría que aparezca)
   const categories = Array.from(new Set<string>([...SITE_CATEGORIES, ...latest.map((e) => e.category)]));
   for (const category of categories) {
     const items = latest.filter((e) => e.category === category).slice(0, MAX_CATEGORY_ITEMS);
-    writePage(categoryPath(category), renderCategoryPage(category, items, baseUrl, config));
+    writePage(categoryPath(category), renderCategoryPage(category, items, baseUrl, config, latest));
   }
 
   // Páginas informativas y legales
@@ -176,6 +177,49 @@ export async function waitUntilLive(url: string, timeoutMs = 90_000): Promise<bo
 }
 
 /**
+ * Foto limpia de la noticia (sin textos encima) para portada y artículo: 1200×675 recortada al centro.
+ * Se descarga primero para comprobar que es una imagen de verdad. Nunca lanza.
+ */
+export async function saveArticlePhoto(imageUrl: string | undefined, slug: string): Promise<string | undefined> {
+  if (!imageUrl || !/^https?:\/\//.test(imageUrl)) return undefined;
+  try {
+    const res = await fetch(imageUrl.replace(/&amp;/g, '&'), {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36' },
+      signal: AbortSignal.timeout(15_000),
+    });
+    const type = res.headers.get('content-type') || '';
+    const bytes = Buffer.from(await res.arrayBuffer());
+    if (!res.ok || !type.startsWith('image/') || bytes.length < 8000) return undefined;
+    const rel = `img/${slug}-foto.jpg`;
+    fs.mkdirSync(path.join(SITE_DIR, 'img'), { recursive: true });
+    await renderHtmlToJpeg(
+      `<html><body style="margin:0;background:#111"><img src="data:${type};base64,${bytes.toString('base64')}" style="width:1200px;height:675px;object-fit:cover;object-position:center 30%;display:block"></body></html>`,
+      path.join(SITE_DIR, rel),
+      1200,
+      675
+    );
+    return rel;
+  } catch (err: any) {
+    console.warn('[EditorWeb] Foto limpia no disponible:', err?.message);
+    return undefined;
+  }
+}
+
+/** Tras publicar el Reel en Instagram: el artículo lo muestra incrustado (se sube con el siguiente guardado) */
+export function attachReelToArticle(slug: string, reelUrl: string) {
+  try {
+    const entries = getSiteEntries();
+    const entry = entries.find((e) => e.slug === slug);
+    if (!entry) return;
+    entry.reelUrl = reelUrl;
+    writeJsonFileAtomic(STORE_PATH, entries);
+    writeArticle(entry, sortLatest(entries), getPublicSiteUrl(), getSiteConfig());
+  } catch (err: any) {
+    console.warn('[EditorWeb] No se pudo añadir el Reel al artículo:', err?.message);
+  }
+}
+
+/**
  * Publica el artículo de la noticia en el sitio. Devuelve la URL pública si quedó en línea
  * (o la URL prevista si no hay comando de despliegue pero sí dominio). Nunca lanza.
  */
@@ -212,6 +256,8 @@ export async function publishArticleToSite(news: ProcessedNews): Promise<string 
       }
     }
 
+    const photo = await saveArticlePhoto(news.rawImageUrl, article.slug);
+
     const entry: SiteEntry = {
       slug: article.slug,
       path: relPath,
@@ -221,6 +267,8 @@ export async function publishArticleToSite(news: ProcessedNews): Promise<string 
       category: String(news.category),
       sourceName: news.sourceName,
       image: imageFile,
+      photo,
+      video: news.sourceVideo,
       publishedAt: new Date().toISOString(),
       article,
       blindSpot: news.blindSpotAngle,

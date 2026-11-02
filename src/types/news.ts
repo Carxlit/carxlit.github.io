@@ -58,6 +58,8 @@ export interface ProcessedNews {
   instagramCardUrl?: string; // Versión vertical 4:5 (1080×1350) para Instagram
   videoScript?: VideoScript; // Guion del Reel narrado
   rawImageUrl?: string;
+  sourceVideo?: NewsVideo; // Video real del hecho (YouTube) para incrustar en el artículo
+  instagramPermalink?: string; // Enlace del Reel publicado (se muestra en el artículo)
   publishedAt?: string;
   facebookPostId?: string;
   telegramMessageId?: string;
@@ -79,6 +81,13 @@ export interface NewsArticle {
   tags: string[];
   sources: { name: string; title: string; url: string }[];
   wordCount: number;
+}
+
+export interface NewsVideo {
+  provider: 'youtube';
+  id: string;
+  title: string;
+  channel?: string;
 }
 
 export interface VideoScript {

@@ -1,4 +1,4 @@
-import { NewsArticle } from '@/types/news';
+import { NewsArticle, NewsVideo } from '@/types/news';
 import { SiteConfig, needsConsent } from './site-config';
 import { SITE_CATEGORIES, categoryLabel, categoryPath } from './categories';
 
@@ -10,7 +10,10 @@ export interface SiteEntry {
   dek: string;
   category: string;
   sourceName: string;
-  image?: string; // relativo a la raíz, p. ej. "img/<slug>.jpg"
+  image?: string; // tarjeta de redes (con titular), relativa a la raíz: "img/<slug>.jpg"
+  photo?: string; // foto limpia 16:9 sin textos: "img/<slug>-foto.jpg" (portada y artículo)
+  video?: NewsVideo; // video real del hecho (YouTube)
+  reelUrl?: string; // Reel publicado en Instagram
   publishedAt: string;
   article: NewsArticle;
   blindSpot?: string;
@@ -33,95 +36,209 @@ function formatDate(iso: string): string {
   return new Date(iso).toLocaleDateString('es-CO', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
+function formatDateTime(iso: string): string {
+  return new Date(iso).toLocaleString('es-CO', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'America/Bogota' });
+}
+
 function readingMinutes(words: number): number {
   return Math.max(2, Math.round(words / 220));
 }
 
 const abs = (baseUrl: string, rel?: string) => (baseUrl && rel !== undefined ? `${baseUrl}/${rel}` : undefined);
 
+/** Imagen para mostrar en el sitio: la foto limpia si existe; si no, la tarjeta */
+const pic = (e: SiteEntry) => e.photo || e.image;
+
+/** Fecha que el navegador convierte en "hace 2 h" (la página es estática) */
+const timeTag = (iso: string) => `<time datetime="${esc(iso)}" data-rel>${formatDateTime(iso)}</time>`;
+
 const STYLES = `
-:root{--paper:#f6f3ec;--ink:#14161a;--muted:#5d6168;--rule:#d9d4c7;--accent:#b4152b;--card:#fffdf8}
-@media (prefers-color-scheme:dark){:root{--paper:#0e1116;--ink:#ecebe6;--muted:#9aa0a8;--rule:#262b33;--accent:#e2475b;--card:#151a21}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 "Source Serif 4",Georgia,"Times New Roman",serif;overflow-x:hidden}
-a{color:inherit}img{max-width:100%}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
-.masthead{border-bottom:3px double var(--ink);padding:22px 0 0;text-align:center}
-.masthead a{text-decoration:none}
-.brand{font:900 clamp(34px,7vw,64px)/1 "Playfair Display",Georgia,serif;letter-spacing:-.01em;text-transform:uppercase}
-.brand span{color:var(--accent)}
-.tagline{font:500 13px/1.4 Inter,system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:8px}
-.masthead.small{padding-top:12px}.masthead.small .brand{font-size:30px}
-.nav{display:flex;gap:4px 22px;justify-content:center;flex-wrap:wrap;padding:12px 0;margin-top:12px;border-top:1px solid var(--rule);font:700 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase}
-.nav a{text-decoration:none;color:var(--muted);padding:4px 0}.nav a:hover,.nav a.on{color:var(--accent)}
-.kicker{font:800 12px/1 Inter,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);text-decoration:none}
-.meta{font:500 13px/1.5 Inter,system-ui,sans-serif;color:var(--muted)}
-.crumbs{font:500 13px/1.4 Inter,system-ui,sans-serif;color:var(--muted);margin-bottom:14px}.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
-.lead{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;padding:28px 0;border-bottom:1px solid var(--rule)}
-.lead h2{font:800 clamp(26px,3.6vw,40px)/1.12 "Playfair Display",Georgia,serif;margin:10px 0}
-.lead img,.card img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;padding:26px 0}
-.card{border-top:2px solid var(--ink);padding-top:12px;min-width:0}
-.card h3{font:700 21px/1.25 "Playfair Display",Georgia,serif;margin:8px 0}
-.card p,.lead p{margin:0;color:var(--muted);font-size:16px}
-.card a,.lead a{text-decoration:none}.card a:hover h3,.lead a:hover h2{text-decoration:underline}
+:root{--bg:#fff;--ink:#111418;--muted:#5f6670;--rule:#e4e6ea;--soft:#f3f4f6;--accent:#d0021b;--accent2:#a10015;--top:#0c0e11;--card:#fff;--shadow:0 1px 2px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.06)}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--ink:#eceef1;--muted:#9ba2ac;--rule:#252a31;--soft:#171a20;--accent:#ff3347;--accent2:#d0021b;--top:#000;--card:#151820;--shadow:0 1px 2px rgba(0,0,0,.4)}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+/* Barra superior con fecha y "Último minuto" */
+.topbar{background:var(--top);color:#cfd3d9;font-size:12.5px}
+.topbar .wrap{display:flex;align-items:center;gap:16px;height:36px;overflow:hidden}
+.today{white-space:nowrap;text-transform:capitalize;flex:none}
+.ticker{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+.ticker b{background:var(--accent);color:#fff;font-size:11px;font-weight:800;letter-spacing:.08em;padding:4px 8px;border-radius:3px;white-space:nowrap;flex:none}
+.ticker b::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;margin-right:6px;vertical-align:1px;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.25}}
+.tk{overflow:hidden;min-width:0;flex:1;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.tk-in{display:inline-flex;gap:36px;white-space:nowrap;animation:tk 60s linear infinite;padding-left:100%}
+.tk-in a:hover{color:#fff;text-decoration:underline}
+@keyframes tk{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.tk-in{animation:none;padding-left:0}}
+/* Cabecera */
+.mast{border-bottom:1px solid var(--rule);background:var(--bg)}
+.mast .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:16px}
+.logo{font:900 clamp(30px,5vw,46px)/1 "Playfair Display",Georgia,serif;letter-spacing:-.01em;text-transform:uppercase;white-space:nowrap}
+.logo span{color:var(--accent)}
+.mast .tag{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:right;max-width:280px}
+.navbar{background:var(--accent);position:sticky;top:0;z-index:40;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.navbar .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.navbar .wrap::-webkit-scrollbar{display:none}
+.navbar a{color:#fff;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:13px 14px;white-space:nowrap;border-bottom:3px solid transparent}
+.navbar a:hover,.navbar a.on{background:var(--accent2);border-bottom-color:#fff}
+/* Piezas comunes */
+.kicker{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.meta{font-size:13px;color:var(--muted)}
+.meta time{white-space:nowrap}
+.thumb{position:relative;display:block;overflow:hidden;border-radius:6px;background:var(--soft);aspect-ratio:16/9}
+.thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+a:hover .thumb img,.thumb:hover img{transform:scale(1.04)}
+.badge-video{position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.75);color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;padding:5px 9px 5px 7px;border-radius:4px;display:flex;align-items:center;gap:6px}
+.badge-video::before{content:"";border-left:9px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent}
+.sec-title{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);margin:36px 0 18px;padding-bottom:8px}
+.sec-title h2{margin:0;font-size:20px;font-weight:900;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.sec-title h2::before{content:"";width:6px;height:22px;background:var(--accent);border-radius:2px}
+.sec-title a{font-size:13px;font-weight:700;color:var(--accent)}
+.sec-title a:hover{text-decoration:underline}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:12px}.crumbs a:hover{text-decoration:underline}
+/* Portada: principal + destacadas */
+.top{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:24px;padding:24px 0 6px}
+.hero{position:relative;display:block;border-radius:8px;overflow:hidden;background:#111;min-height:440px;color:#fff}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.hero:hover img{transform:scale(1.03)}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 38%,rgba(0,0,0,0) 70%)}
+.hero .txt{position:absolute;left:0;right:0;bottom:0;padding:28px}
+.hero .kicker{background:var(--accent);color:#fff;padding:5px 9px;border-radius:3px}
+.hero h2{font-size:clamp(26px,3.4vw,40px);line-height:1.12;font-weight:900;letter-spacing:-.02em;margin:12px 0 10px;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.hero p{margin:0;color:#e6e8eb;font-size:16px;max-width:680px}
+.hero .meta{color:#c9ced5;margin-top:10px}
+.side-top{display:flex;flex-direction:column;gap:18px}
+.side-top .card h3{font-size:18px}
+/* Tarjetas */
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.grid.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card{min-width:0;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:17px;line-height:1.28;font-weight:800;letter-spacing:-.01em}
+.card h3 a:hover{color:var(--accent)}
+.card p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .thumb{margin-bottom:4px}
 .grid .ad{grid-column:1/-1}
-.section-head{padding:26px 0 0;border-bottom:1px solid var(--rule)}
-.section-head h1{font:800 clamp(28px,4.5vw,42px)/1.1 "Playfair Display",Georgia,serif;margin:8px 0 16px}
-.layout{display:grid;grid-template-columns:minmax(0,720px) 280px;gap:48px;justify-content:center}
-.layout>aside{padding-top:30px}
-.sticky{position:sticky;top:20px}
-.side-box{border-top:2px solid var(--ink);padding-top:10px;margin-bottom:26px}
-.side-box h2{font:800 12px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px}
-.side-box ol{margin:0;padding:0;list-style:none;counter-reset:n}
-.side-box li{counter-increment:n;display:grid;grid-template-columns:26px 1fr;gap:4px;padding:8px 0;border-bottom:1px solid var(--rule);font:700 16px/1.3 "Playfair Display",Georgia,serif}
-.side-box li::before{content:counter(n);color:var(--accent);font-family:Inter,system-ui,sans-serif;font-size:14px}
-.side-box a{text-decoration:none}.side-box a:hover{text-decoration:underline}
-article.story{max-width:720px;margin:0 auto;padding:30px 0 50px;min-width:0}
-article.story h1{font:800 clamp(30px,5vw,46px)/1.1 "Playfair Display",Georgia,serif;margin:12px 0}
-.dek{font-size:21px;line-height:1.5;color:var(--muted);margin:0 0 14px}
-.hero{margin:22px 0}.hero img{width:100%;height:auto;display:block}
-.facts{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accent);padding:16px 20px;margin:26px 0}
-.facts h2{font:800 13px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px}
-.facts ul{margin:0;padding-left:20px}.facts li{margin:4px 0;font-size:17px}
-article.story h2.section{font:700 25px/1.25 "Playfair Display",Georgia,serif;margin:34px 0 8px}
-.blind{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:16px 0;margin:30px 0;font-size:20px;font-style:italic}
-.blind strong{font-style:normal;color:var(--accent);font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:6px}
-.sources{border-top:1px solid var(--rule);margin-top:36px;padding-top:16px;font:15px/1.6 Inter,system-ui,sans-serif;overflow-wrap:anywhere}
-.sources h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}
-.tags{margin-top:18px}.tags span{display:inline-block;font:600 12px/1 Inter,system-ui,sans-serif;border:1px solid var(--rule);padding:6px 10px;margin:0 6px 6px 0}
-.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:26px 0 0;font:600 13px/1 Inter,system-ui,sans-serif}
-.share span{color:var(--muted);margin-right:4px}
-.share a,.share button{border:1px solid var(--rule);background:var(--card);color:var(--ink);padding:9px 12px;text-decoration:none;font:inherit;cursor:pointer;border-radius:2px}
-.share a:hover,.share button:hover{border-color:var(--accent);color:var(--accent)}
-.donate{display:block;text-align:center;margin:30px 0 0;padding:18px;background:var(--card);border:1px solid var(--rule);font:600 15px/1.5 Inter,system-ui,sans-serif}
-.donate a{display:inline-block;margin-top:8px;background:var(--accent);color:#fff;text-decoration:none;padding:10px 18px;border-radius:2px}
-.related{border-top:3px double var(--ink);margin-top:40px;padding-top:6px}
-.related>h2{font:800 13px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:14px 0 0}
-.related .grid{padding-top:16px}
-.pager{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:10px 0 40px;font:600 14px/1 Inter,system-ui,sans-serif}
-.pager a,.pager span{border:1px solid var(--rule);padding:10px 14px;text-decoration:none}
-.pager span.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.page{max-width:720px;margin:0 auto;padding:30px 0 50px}
-.page h1{font:800 clamp(30px,5vw,42px)/1.1 "Playfair Display",Georgia,serif;margin:0 0 16px}
-.page h2{font:700 23px/1.3 "Playfair Display",Georgia,serif;margin:30px 0 8px}
-.page .updated{font:500 13px/1.5 Inter,system-ui,sans-serif;color:var(--muted)}
-.page button{font:600 14px/1 Inter,system-ui,sans-serif;padding:10px 16px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+/* Lo último (lista) + barra lateral */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:40px}
+.feed{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:240px minmax(0,1fr);gap:20px;padding:18px 0;border-bottom:1px solid var(--rule)}
+.row:first-child{padding-top:0}
+.row h3{margin:6px 0;font-size:21px;line-height:1.22;font-weight:800;letter-spacing:-.015em}
+.row h3 a:hover{color:var(--accent)}
+.row p{margin:0 0 8px;color:var(--muted);font-size:15px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.box{background:var(--soft);border-radius:8px;padding:18px;margin-bottom:24px}
+.box h2{margin:0 0 12px;font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.box h2::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.box ol{list-style:none;margin:0;padding:0;counter-reset:n}
+.box li{counter-increment:n;display:grid;grid-template-columns:34px 1fr;gap:6px;padding:11px 0;border-top:1px solid var(--rule);font-size:15px;font-weight:700;line-height:1.32}
+.box li:first-child{border-top:0;padding-top:2px}
+.box li::before{content:counter(n);font-size:24px;font-weight:900;color:var(--accent);line-height:1}
+.box li a:hover{color:var(--accent)}
+.box li .meta{display:block;font-weight:500;font-size:12px;margin-top:4px}
+.mini{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--rule);align-items:start}
+.mini:first-of-type{border-top:0;padding-top:2px}
+.mini .thumb{border-radius:4px}
+.mini h3{margin:0;font-size:14.5px;line-height:1.3;font-weight:700}
+.mini:hover h3{color:var(--accent)}
+.sticky{position:sticky;top:64px}
+.section-head{padding:24px 0 0}
+.section-head h1{font-size:clamp(30px,4.5vw,44px);line-height:1.08;font-weight:900;letter-spacing:-.02em;margin:4px 0 6px;display:flex;align-items:center;gap:12px}
+.section-head h1::before{content:"";width:8px;height:36px;background:var(--accent);border-radius:2px}
+/* Artículo */
+.layout{display:grid;grid-template-columns:minmax(0,760px) 320px;gap:48px;justify-content:center}
+article.story{padding:26px 0 50px;min-width:0}
+.story .kicker{background:var(--accent);color:#fff;padding:5px 9px;border-radius:3px}
+.story h1{font-size:clamp(30px,4.6vw,46px);line-height:1.1;font-weight:900;letter-spacing:-.025em;margin:14px 0 12px}
+.dek{font:400 21px/1.5 "Source Serif 4",Georgia,serif;color:var(--muted);margin:0 0 18px}
+.byline{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.avatar{width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 15px/1 "Playfair Display",Georgia,serif;flex:none}
+.avatar i{color:var(--accent);font-style:normal}
+.byline strong{display:block;font-size:14px}
+.media{margin:22px 0 6px}
+.media figure{margin:0}
+.media img{width:100%;height:auto;border-radius:6px}
+figcaption{font-size:13px;color:var(--muted);margin-top:8px;padding-left:10px;border-left:3px solid var(--accent)}
+.yt{position:relative;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;cursor:pointer}
+.yt img{width:100%;height:100%;object-fit:cover;opacity:.88;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:var(--accent);box-shadow:0 8px 30px rgba(0,0,0,.45);border:0;cursor:pointer}
+.play::after{content:"";position:absolute;left:34px;top:26px;border-left:24px solid #fff;border-top:16px solid transparent;border-bottom:16px solid transparent}
+.yt .lbl{position:absolute;left:14px;top:14px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;padding:6px 10px;border-radius:4px}
+.body{font:400 19px/1.75 "Source Serif 4",Georgia,serif}
+.body p{margin:0 0 1.15em}
+.body h2{font:800 25px/1.25 Inter,system-ui,sans-serif;letter-spacing:-.015em;margin:38px 0 12px}
+.facts{background:var(--soft);border-radius:8px;padding:18px 22px;margin:26px 0;border-left:5px solid var(--accent)}
+.facts h2{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px}
+.facts ul{margin:0;padding-left:20px}.facts li{margin:6px 0;font-size:16px;line-height:1.5}
+.facts li::marker{color:var(--accent)}
+.blind{background:var(--ink);color:var(--bg);border-radius:8px;padding:22px 24px;margin:32px 0;font:italic 400 20px/1.6 "Source Serif 4",Georgia,serif}
+.blind strong{font:800 12px/1 Inter,system-ui,sans-serif;font-style:normal;color:var(--accent);letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:10px}
+.reel{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;background:var(--soft);border-radius:10px;padding:18px;margin:34px 0}
+.reel .ph{width:150px;aspect-ratio:9/16;border-radius:10px;background:linear-gradient(160deg,#1e293b,#000);position:relative;overflow:hidden;cursor:pointer;color:#fff;display:grid;place-items:center;text-align:center;font:900 15px/1.2 "Playfair Display",Georgia,serif}
+.reel .ph span{color:var(--accent)}
+.reel .ph .play{width:56px;height:56px;margin:-28px 0 0 -28px;top:62%}
+.reel .ph .play::after{left:22px;top:17px;border-left-width:16px;border-top-width:11px;border-bottom-width:11px}
+.reel iframe{width:100%;max-width:400px;height:720px;border:0;border-radius:10px;background:#fff}
+.reel h2{margin:0 0 6px;font-size:19px;font-weight:900}
+.reel p{margin:0 0 12px;color:var(--muted);font-size:15px}
+.reel.open{grid-template-columns:1fr;justify-items:center}
+.btn{display:inline-block;background:var(--accent);color:#fff;font-size:14px;font-weight:800;padding:11px 16px;border-radius:6px;border:0;cursor:pointer}
+.btn:hover{background:var(--accent2)}
+.sources{border-top:1px solid var(--rule);margin-top:36px;padding-top:16px;font-size:14.5px;line-height:1.6;overflow-wrap:anywhere}
+.sources h2{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px}
+.sources a{color:var(--accent);font-weight:600}.sources a:hover{text-decoration:underline}
+.tags{margin-top:18px}.tags span{display:inline-block;font-size:12px;font-weight:600;background:var(--soft);padding:7px 11px;margin:0 6px 6px 0;border-radius:999px}
+.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:26px 0 0}
+.share span{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px}
+.share a,.share button{font:700 13px/1 Inter,system-ui,sans-serif;border:0;color:#fff;padding:10px 14px;cursor:pointer;border-radius:999px;background:#334155}
+.share a.fb{background:#1877f2}.share a.wa{background:#25d366}.share a.tg{background:#229ed9}.share a.x{background:#000}.share a.bs{background:#0085ff}
+.share a:hover,.share button:hover{filter:brightness(1.1)}
+.next{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:center;margin:38px 0 0;padding:16px;border:1px solid var(--rule);border-radius:10px;background:var(--card);box-shadow:var(--shadow)}
+.next .lbl{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.next h3{margin:6px 0 0;font-size:20px;line-height:1.25;font-weight:800}
+.next:hover h3{color:var(--accent)}
+.donate{display:block;text-align:center;margin:30px 0 0;padding:20px;background:var(--soft);border-radius:8px;font-size:15px;font-weight:600}
+.donate a{display:inline-block;margin-top:10px;background:var(--accent);color:#fff;padding:11px 18px;border-radius:6px}
+.related{margin-top:30px}
+.pager{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:30px 0 50px;font-size:14px;font-weight:700}
+.pager a,.pager span{border:1px solid var(--rule);padding:10px 14px;border-radius:6px}
+.pager a:hover{border-color:var(--accent);color:var(--accent)}
+.pager span.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.page{max-width:760px;margin:0 auto;padding:30px 0 50px}
+.page h1{font-size:clamp(30px,5vw,42px);line-height:1.1;font-weight:900;letter-spacing:-.02em;margin:0 0 16px}
+.page h2{font-size:22px;font-weight:800;margin:30px 0 8px}
+.page p,.page li{font:400 18px/1.7 "Source Serif 4",Georgia,serif}
+.page .updated{font-size:13px;color:var(--muted)}
+.page button{font:700 14px/1 Inter,system-ui,sans-serif;padding:10px 16px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;border-radius:6px}
 .ad{margin:28px 0;text-align:center;overflow:hidden}.ad:not(.on){display:none}
-.ad::before{content:"Publicidad";display:block;font:600 10px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-footer{border-top:3px double var(--ink);padding:24px 0 40px;font:13px/1.7 Inter,system-ui,sans-serif;color:var(--muted);text-align:center}
-footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 18px;margin-bottom:12px}
-footer nav a{text-decoration:none;color:var(--ink)}footer nav a:hover{color:var(--accent)}
-.consent{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;max-width:760px;margin:0 auto;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-top:3px solid var(--accent);box-shadow:0 8px 30px rgba(0,0,0,.18);padding:16px 18px;font:14px/1.5 Inter,system-ui,sans-serif;display:none}
+.ad::before{content:"Publicidad";display:block;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+footer{background:var(--top);color:#9ba2ac;margin-top:40px;padding:36px 0 40px;font-size:13.5px;line-height:1.7}
+footer .logo{color:#fff;font-size:32px}
+footer .cols3{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-bottom:24px}
+footer h4{color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:4px 0 10px}
+footer nav{display:flex;flex-direction:column;gap:4px}
+footer nav a{color:#d6d9de}footer nav a:hover{color:#fff;text-decoration:underline}
+footer .legal{border-top:1px solid #23272e;padding-top:18px;font-size:12.5px}
+.consent{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;max-width:760px;margin:0 auto;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-top:3px solid var(--accent);box-shadow:0 8px 30px rgba(0,0,0,.18);padding:16px 18px;font-size:14px;line-height:1.5;display:none;border-radius:8px}
 .consent.show{display:block}
 .consent .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.consent button{font:700 13px/1 Inter,system-ui,sans-serif;padding:10px 16px;cursor:pointer;border:1px solid var(--ink);background:transparent;color:var(--ink)}
-.consent button.yes{background:var(--ink);color:var(--paper)}
-.notfound{text-align:center;padding:70px 0}.notfound h1{font:900 64px/1 "Playfair Display",Georgia,serif;margin:0}
-@media (max-width:1000px){.layout{grid-template-columns:minmax(0,1fr)}.layout>aside{display:none}}
-@media (max-width:820px){.lead{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:560px){.grid{grid-template-columns:minmax(0,1fr)}body{font-size:17px}.dek{font-size:18px}.nav{gap:2px 14px;font-size:11px}}
+.consent button{font:700 13px/1 Inter,system-ui,sans-serif;padding:10px 16px;cursor:pointer;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:6px}
+.consent button.yes{background:var(--accent);border-color:var(--accent);color:#fff}
+.consent a{color:var(--accent)}
+.notfound{text-align:center;padding:70px 0}.notfound h1{font:900 72px/1 "Playfair Display",Georgia,serif;margin:0;color:var(--accent)}
+@media (max-width:1040px){.layout,.cols{grid-template-columns:minmax(0,1fr)}.layout>aside,.cols>aside{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:860px){.top{grid-template-columns:minmax(0,1fr)}.side-top{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.grid.g3{grid-template-columns:repeat(2,minmax(0,1fr))}.mast .tag{display:none}footer .cols3{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.hero{min-height:360px}.hero .txt{padding:18px}.hero p{display:none}.side-top,.grid,.grid.g3{grid-template-columns:minmax(0,1fr)}
+  .row{grid-template-columns:120px minmax(0,1fr);gap:12px}.row h3{font-size:17px}.row p{display:none}
+  .today{display:none}.mast .wrap{justify-content:center;padding-top:14px;padding-bottom:12px}.body{font-size:18px}.dek{font-size:18px}
+  .next{grid-template-columns:110px 1fr}.next h3{font-size:16px}.reel{grid-template-columns:1fr;justify-items:center;text-align:center}footer .cols3{grid-template-columns:1fr}}
 `;
+
+/** "hace 5 min / hace 3 h / ayer" en el navegador del lector */
+const RELATIVE_TIME_SCRIPT = `<script>(function(){var n=Date.now();document.querySelectorAll('time[data-rel]').forEach(function(t){var d=(n-new Date(t.getAttribute('datetime')).getTime())/6e4;if(isNaN(d)||d<0)return;t.textContent=d<1?'Ahora':d<60?'Hace '+Math.round(d)+' min':d<1440?'Hace '+Math.round(d/60)+' h':d<2880?'Ayer':t.textContent})})();</script>`;
 
 interface PageOpts {
   root: string;
@@ -136,6 +253,8 @@ interface PageOpts {
   small?: boolean;
   activeCategory?: string;
   noindex?: boolean;
+  /** Últimos titulares para la barra "Último minuto" */
+  ticker?: SiteEntry[];
 }
 
 function layout(o: PageOpts): string {
@@ -157,31 +276,41 @@ ${o.canonical ? `<link rel="canonical" href="${esc(o.canonical)}">` : ''}
 ${o.canonical ? `<meta property="og:url" content="${esc(o.canonical)}">` : ''}
 ${o.image ? `<meta property="og:image" content="${esc(o.image)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">` : ''}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#b4152b">
+<meta name="theme-color" content="#d0021b">
 ${o.config.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(o.config.googleSiteVerification)}">` : ''}
 ${o.config.bingSiteVerification ? `<meta name="msvalidate.01" content="${esc(o.config.bingSiteVerification)}">` : ''}
 <link rel="icon" href="${o.root}favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="${o.root}site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${SITE_NAME}" href="${o.root}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Playfair+Display:wght@700;800;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>${STYLES}</style>
 ${(o.jsonLd || []).map((j) => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 </head>
 <body>
-${masthead(o.root, o.small, o.activeCategory)}
+${masthead(o.root, o.activeCategory, o.ticker)}
 ${o.body}
 ${footer(o.root, o.config)}
 ${consent ? consentBlock(o.root, o.config) : ''}
+${RELATIVE_TIME_SCRIPT}
 </body>
 </html>`;
 }
 
-function masthead(root: string, small = false, active?: string) {
-  const nav = SITE_CATEGORIES.map(
-    (c) => `<a href="${root}${categoryPath(c)}"${active === c ? ' class="on" aria-current="page"' : ''}>${esc(categoryLabel(c))}</a>`
-  ).join('');
-  return `<header class="masthead${small ? ' small' : ''}"><div class="wrap"><a href="${root}"><div class="brand">Punto <span>Ciego</span></div></a>${small ? '' : `<div class="tagline">${TAGLINE}</div>`}<nav class="nav" aria-label="Secciones">${nav}</nav></div></header>`;
+function masthead(root: string, active?: string, ticker: SiteEntry[] = []) {
+  const today = new Date().toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/Bogota' });
+  const nav = [
+    `<a href="${root}"${!active ? ' class="on"' : ''}>Portada</a>`,
+    ...SITE_CATEGORIES.map(
+      (c) => `<a href="${root}${categoryPath(c)}"${active === c ? ' class="on" aria-current="page"' : ''}>${esc(categoryLabel(c))}</a>`
+    ),
+  ].join('');
+  const items = ticker.slice(0, 6).map((e) => `<a href="${root}${esc(e.path)}">${esc(e.title)}</a>`).join('');
+  return `<div class="topbar"><div class="wrap"><span class="today">${esc(today)}</span>${
+    items ? `<div class="ticker"><b>ÚLTIMO MINUTO</b><div class="tk"><div class="tk-in">${items}</div></div></div>` : ''
+  }</div></div>
+<header class="mast"><div class="wrap"><a class="logo" href="${root}">Punto <span>Ciego</span></a><div class="tag">${TAGLINE}</div></div></header>
+<nav class="navbar" aria-label="Secciones"><div class="wrap">${nav}</div></nav>`;
 }
 
 function footer(root: string, config: SiteConfig) {
@@ -201,12 +330,16 @@ function footer(root: string, config: SiteConfig) {
     // rel="me": Mastodon marca el enlace del perfil como verificado
     .map(([name, url]) => `<a href="${esc(url)}" rel="${name === 'Mastodon' ? 'me noopener' : 'noopener'}" target="_blank">${name}</a>`)
     .join('');
+  const sections = SITE_CATEGORIES.map((c) => `<a href="${root}${categoryPath(c)}">${esc(categoryLabel(c))}</a>`).join('');
   return `<footer><div class="wrap">
-<nav aria-label="Información"><a href="${root}quienes-somos/">Quiénes somos</a><a href="${root}contacto/">Contacto</a><a href="${root}aviso-legal/">Aviso legal</a><a href="${root}privacidad/">Privacidad</a><a href="${root}cookies/">Cookies</a><a href="${root}rss.xml">RSS</a>${
+<div class="cols3">
+<div><div class="logo">Punto <span>Ciego</span></div><p>${esc(config.siteDescription || DEFAULT_DESCRIPTION)}</p></div>
+<div><h4>Secciones</h4><nav aria-label="Secciones">${sections}</nav></div>
+<div><h4>Información</h4><nav aria-label="Información"><a href="${root}quienes-somos/">Quiénes somos</a><a href="${root}contacto/">Contacto</a><a href="${root}aviso-legal/">Aviso legal</a><a href="${root}privacidad/">Privacidad</a><a href="${root}cookies/">Cookies</a><a href="${root}rss.xml">RSS</a>${
     config.donationUrl ? `<a href="${esc(config.donationUrl)}" rel="noopener" target="_blank">Apóyanos</a>` : ''
-  }</nav>
-${socialLinks ? `<nav aria-label="Redes">${socialLinks}</nav>` : ''}
-© ${new Date().getFullYear()} ${SITE_NAME} · ${esc(config.siteDescription || DEFAULT_DESCRIPTION)}<br>Piezas elaboradas con asistencia de inteligencia artificial a partir de las fuentes citadas en cada artículo.
+  }</nav>${socialLinks ? `<h4 style="margin-top:18px">Síguenos</h4><nav aria-label="Redes">${socialLinks}</nav>` : ''}</div>
+</div>
+<div class="legal">© ${new Date().getFullYear()} ${SITE_NAME}. Piezas elaboradas con asistencia de inteligencia artificial a partir de las fuentes citadas en cada artículo.</div>
 </div></footer>`;
 }
 
@@ -255,33 +388,79 @@ if(box){box.addEventListener('click',function(e){
 </script>`;
 }
 
-function card(root: string, e: SiteEntry, lazy = true) {
-  return `<div class="card"><a href="${root}${esc(e.path)}">${
-    e.image ? `<img src="${root}${esc(e.image)}" alt="" ${lazy ? 'loading="lazy" ' : ''}width="1200" height="630">` : ''
-  }<div class="kicker" style="margin-top:10px">${esc(categoryLabel(e.category))}</div><h3>${esc(e.title)}</h3></a><p>${esc(e.dek)}</p></div>`;
+function thumb(root: string, e: SiteEntry, lazy = true) {
+  const img = pic(e);
+  return `<a class="thumb" href="${root}${esc(e.path)}" tabindex="-1" aria-hidden="true">${
+    img ? `<img src="${root}${esc(img)}" alt="" ${lazy ? 'loading="lazy" ' : ''}width="1200" height="675">` : ''
+  }${e.video ? '<span class="badge-video">VIDEO</span>' : ''}</a>`;
 }
 
-function cardsWithAds(root: string, entries: SiteEntry[], config: SiteConfig) {
+function card(root: string, e: SiteEntry, opts: { lazy?: boolean; dek?: boolean } = {}) {
+  return `<article class="card">${thumb(root, e, opts.lazy !== false)}<a class="kicker" href="${root}${categoryPath(e.category)}">${esc(categoryLabel(e.category))}</a><h3><a href="${root}${esc(e.path)}">${esc(e.title)}</a></h3>${
+    opts.dek ? `<p>${esc(e.dek)}</p>` : ''
+  }<div class="meta">${timeTag(e.publishedAt)}</div></article>`;
+}
+
+function row(root: string, e: SiteEntry) {
+  return `<article class="row">${thumb(root, e)}<div><a class="kicker" href="${root}${categoryPath(e.category)}">${esc(categoryLabel(e.category))}</a><h3><a href="${root}${esc(e.path)}">${esc(e.title)}</a></h3><p>${esc(e.dek)}</p><div class="meta">${timeTag(e.publishedAt)} · ${readingMinutes(e.article.wordCount)} min de lectura</div></div></article>`;
+}
+
+function heroBlock(root: string, e: SiteEntry) {
+  const img = pic(e);
+  return `<a class="hero" href="${root}${esc(e.path)}">${img ? `<img src="${root}${esc(img)}" alt="${esc(e.headline)}" width="1200" height="675" fetchpriority="high">` : ''}<div class="shade"></div>
+<div class="txt"><span class="kicker">${esc(categoryLabel(e.category))}</span><h2>${esc(e.title)}</h2><p>${esc(e.dek)}</p><div class="meta">${timeTag(e.publishedAt)} · ${readingMinutes(e.article.wordCount)} min de lectura${e.video ? ' · ▶ Con video' : ''}</div></div></a>`;
+}
+
+function latestBox(root: string, entries: SiteEntry[], title = 'Lo último') {
+  if (!entries.length) return '';
+  return `<div class="box"><h2>${esc(title)}</h2>${entries
+    .map((e) => `<a class="mini" href="${root}${esc(e.path)}">${thumb(root, e).replace(/^<a /, '<span ').replace(/<\/a>$/, '</span>')}<div><h3>${esc(e.title)}</h3><div class="meta">${timeTag(e.publishedAt)}</div></div></a>`)
+    .join('')}</div>`;
+}
+
+function numberedBox(root: string, entries: SiteEntry[], title: string) {
+  if (!entries.length) return '';
+  return `<div class="box"><h2>${esc(title)}</h2><ol>${entries
+    .map((e) => `<li><a href="${root}${esc(e.path)}">${esc(e.title)}<span class="meta">${esc(categoryLabel(e.category))}</span></a></li>`)
+    .join('')}</ol></div>`;
+}
+
+function cardsWithAds(root: string, entries: SiteEntry[], config: SiteConfig, opts: { dek?: boolean } = {}) {
   const every = config.adEveryNCards || 6;
   const slot = config.adSlots?.indexInline;
   return entries
-    .map((e, i) => card(root, e, i > 2) + (slot && (i + 1) % every === 0 && i < entries.length - 1 ? adSlot(slot, 'inline') : ''))
+    .map((e, i) => card(root, e, { lazy: i > 3, dek: opts.dek }) + (slot && (i + 1) % every === 0 && i < entries.length - 1 ? adSlot(slot, 'inline') : ''))
     .join('\n');
 }
 
 function shareBlock(url: string, title: string) {
   const u = encodeURIComponent(url);
   const t = encodeURIComponent(title);
-  const links: [string, string][] = [
-    ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`],
-    ['X', `https://x.com/intent/post?text=${t}&url=${u}`],
-    ['Telegram', `https://t.me/share/url?url=${u}&text=${t}`],
-    ['WhatsApp', `https://wa.me/?text=${encodeURIComponent(`${title} ${url}`)}`],
-    ['Bluesky', `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title} ${url}`)}`],
+  const links: [string, string, string][] = [
+    ['WhatsApp', 'wa', `https://wa.me/?text=${encodeURIComponent(`${title} ${url}`)}`],
+    ['Facebook', 'fb', `https://www.facebook.com/sharer/sharer.php?u=${u}`],
+    ['Telegram', 'tg', `https://t.me/share/url?url=${u}&text=${t}`],
+    ['X', 'x', `https://x.com/intent/post?text=${t}&url=${u}`],
+    ['Bluesky', 'bs', `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title} ${url}`)}`],
   ];
   return `<div class="share"><span>Compartir:</span>${links
-    .map(([n, href]) => `<a href="${esc(href)}" rel="noopener nofollow" target="_blank">${n}</a>`)
+    .map(([n, cls, href]) => `<a class="${cls}" href="${esc(href)}" rel="noopener nofollow" target="_blank">${n}</a>`)
     .join('')}<button type="button" data-url="${esc(url)}" onclick="var b=this;try{navigator.clipboard.writeText(b.getAttribute('data-url')).then(function(){b.textContent='¡Copiado!'})}catch(e){}">Copiar enlace</button></div>`;
+}
+
+/** Video de YouTube con "fachada": solo carga el reproductor al pulsar (página rápida y sin cookies de YouTube) */
+function youtubeBlock(v: NewsVideo) {
+  const src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0`;
+  return `<figure><div class="yt" role="button" tabindex="0" aria-label="Reproducir video: ${esc(v.title)}" data-src="${esc(src)}" onclick="this.innerHTML='<iframe src=&quot;'+this.getAttribute('data-src')+'&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen title=&quot;Video&quot;></iframe>'">
+<img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="" loading="eager" width="480" height="360"><span class="lbl">▶ VIDEO</span><span class="play" aria-hidden="true"></span></div>
+<figcaption>Video: ${esc(v.title)}${v.channel ? ` · ${esc(v.channel)}` : ''} (YouTube)</figcaption></figure>`;
+}
+
+/** Reel de Instagram: tarjeta que carga el reproductor de Instagram al pulsar */
+function reelBlock(reelUrl: string) {
+  const embed = `${reelUrl.replace(/\/?(\?.*)?$/, '/')}embed/`;
+  return `<section class="reel" id="reel"><div class="ph" role="button" tabindex="0" aria-label="Ver el resumen en video" data-src="${esc(embed)}" onclick="var r=document.getElementById('reel');r.classList.add('open');r.innerHTML='<iframe src=&quot;'+this.getAttribute('data-src')+'&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; title=&quot;Reel&quot;></iframe>'">PUNTO<br>CIEGO<span>.</span><span class="play" aria-hidden="true"></span></div>
+<div><h2>La noticia en 30 segundos</h2><p>Mira el resumen en video con lo esencial y el punto ciego de esta historia.</p><a class="btn" href="${esc(reelUrl)}" rel="noopener" target="_blank">Ver en Instagram</a></div></section>`;
 }
 
 function breadcrumbLd(baseUrl: string, items: { name: string; rel: string }[]) {
@@ -301,7 +480,8 @@ export interface ArticleContext {
 export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: ArticleContext = {}): string {
   const root = '../../';
   const config = ctx.config || {};
-  const all = (ctx.entries || []).filter((e) => e.slug !== entry.slug);
+  const everything = ctx.entries || [];
+  const all = everything.filter((e) => e.slug !== entry.slug);
   const a = entry.article;
   const canonical = abs(baseUrl, entry.path);
   const image = abs(baseUrl, entry.image);
@@ -318,7 +498,7 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
     keywords: a.tags.join(', '),
     wordCount: a.wordCount,
     inLanguage: 'es',
-    ...(image ? { image: [image] } : {}),
+    ...(image ? { image: [image, ...(entry.photo ? [abs(baseUrl, entry.photo)] : [])] } : {}),
     ...(canonical ? { mainEntityOfPage: canonical, url: canonical } : {}),
     author: { '@type': 'Organization', name: `Redacción ${SITE_NAME}`, ...(baseUrl ? { url: `${baseUrl}/quienes-somos/` } : {}) },
     publisher: {
@@ -335,22 +515,35 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
   ]);
 
   // El "punto ciego" se destaca tras la primera sección, salvo que el artículo ya tenga una sección con ese nombre.
-  // El anuncio intermedio va tras la segunda sección.
+  // El anuncio intermedio va tras la segunda sección y el Reel tras la tercera.
   const hasBlindSection = a.sections.some((s) => /punto ciego/i.test(s.heading));
   const sectionsHtml = a.sections
     .map((s, i) => {
-      let block = `<h2 class="section">${esc(s.heading)}</h2>${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}`;
+      let block = `<h2>${esc(s.heading)}</h2>${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}`;
       if (i === 0 && entry.blindSpot && !hasBlindSection) {
         block += `<aside class="blind"><strong>El punto ciego</strong>${esc(entry.blindSpot)}</aside>`;
       }
       if (i === 1 && a.sections.length > 2) block += adSlot(config.adSlots?.articleMiddle, 'middle');
+      if (i === 2 && entry.reelUrl) block += reelBlock(entry.reelUrl);
       return block;
     })
     .join('\n');
+  const reelAfter = entry.reelUrl && a.sections.length < 3 ? reelBlock(entry.reelUrl) : '';
 
-  const sameCat = all.filter((e) => e.category === entry.category);
-  const related = [...sameCat, ...all.filter((e) => e.category !== entry.category)].slice(0, 3);
+  // Siguiente noticia: la inmediatamente anterior en el tiempo (o la más reciente si esta es la última)
+  const idx = everything.findIndex((e) => e.slug === entry.slug);
+  const next = (idx >= 0 ? everything[idx + 1] : undefined) || all[0];
+
+  const sameCat = all.filter((e) => e.category === entry.category && e.slug !== next?.slug);
+  const related = [...sameCat, ...all.filter((e) => e.category !== entry.category && e.slug !== next?.slug)].slice(0, 3);
   const recent = all.slice(0, 6);
+
+  const photo = pic(entry);
+  const media = entry.video
+    ? youtubeBlock(entry.video)
+    : photo
+      ? `<figure><img src="${root}${esc(photo)}" alt="${esc(entry.headline)}" width="1200" height="${entry.photo ? 675 : 630}" fetchpriority="high"><figcaption>Imagen de referencia · Fuente: ${esc(entry.sourceName)}</figcaption></figure>`
+      : '';
 
   const body = `<main class="wrap"><div class="layout">
 <article class="story">
@@ -358,11 +551,12 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
   <a class="kicker" href="${root}${categoryPath(entry.category)}">${esc(catLabel)}</a>
   <h1>${esc(a.title)}</h1>
   <p class="dek">${esc(a.dek)}</p>
-  <div class="meta">Por Redacción ${SITE_NAME} · <time datetime="${esc(entry.publishedAt)}">${formatDate(entry.publishedAt)}</time> · ${readingMinutes(a.wordCount)} min de lectura · Fuente principal: ${esc(entry.sourceName)}</div>
-  ${entry.image ? `<figure class="hero"><img src="${root}${esc(entry.image)}" alt="${esc(entry.headline)}" width="1200" height="630" fetchpriority="high"></figure>` : ''}
+  <div class="byline"><div class="avatar">P<i>C</i></div><div><strong>Redacción ${SITE_NAME}</strong><span class="meta"><time datetime="${esc(entry.publishedAt)}">${formatDate(entry.publishedAt)}</time> · ${readingMinutes(a.wordCount)} min de lectura · Fuente principal: ${esc(entry.sourceName)}</span></div></div>
+  ${media ? `<div class="media">${media}</div>` : ''}
   ${adSlot(config.adSlots?.articleTop, 'top')}
   ${a.keyFacts.length ? `<section class="facts"><h2>Datos clave</h2><ul>${a.keyFacts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></section>` : ''}
-  ${sectionsHtml}
+  <div class="body">${sectionsHtml}</div>
+  ${reelAfter}
   ${canonical ? shareBlock(canonical, a.title) : ''}
   <section class="sources"><h2>Fuentes consultadas</h2><ul>${a.sources
     .map((s) => `<li><a href="${esc(s.url)}" rel="nofollow noopener" target="_blank">${esc(s.name)}</a>: ${esc(s.title)}</li>`)
@@ -374,10 +568,11 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
       ? `<div class="donate">${esc(config.donationLabel || `Apoya el periodismo de ${SITE_NAME}`)}<br><a href="${esc(config.donationUrl)}" rel="noopener" target="_blank">Hacer un aporte</a></div>`
       : ''
   }
-  ${related.length ? `<section class="related"><h2>Te puede interesar</h2><div class="grid">${related.map((e) => card(root, e)).join('')}</div></section>` : ''}
+  ${next ? `<a class="next" href="${root}${esc(next.path)}">${thumb(root, next).replace(/^<a /, '<span ').replace(/<\/a>$/, '</span>')}<div><div class="lbl">Siguiente noticia →</div><h3>${esc(next.title)}</h3></div></a>` : ''}
+  ${related.length ? `<section class="related"><div class="sec-title"><h2>Te puede interesar</h2></div><div class="grid g3">${related.map((e) => card(root, e)).join('')}</div></section>` : ''}
 </article>
-<aside><div class="sticky">
-  ${recent.length ? `<div class="side-box"><h2>Lo último</h2><ol>${recent.map((e) => `<li><a href="${root}${esc(e.path)}">${esc(e.title)}</a></li>`).join('')}</ol></div>` : ''}
+<aside><div class="sticky" style="padding-top:26px">
+  ${latestBox(root, recent)}
   ${adSlot(config.adSlots?.sidebar, 'sidebar')}
 </div></aside>
 </div></main>`;
@@ -394,6 +589,7 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
     config,
     small: true,
     activeCategory: entry.category,
+    ticker: everything,
   });
 }
 
@@ -418,22 +614,14 @@ export const indexPageRel = (n: number) => (n <= 1 ? '' : `pagina/${n}/`);
 export function renderIndexPage(
   entries: SiteEntry[],
   baseUrl: string,
-  opts: { page?: number; totalPages?: number; config?: SiteConfig } = {}
+  opts: { page?: number; totalPages?: number; config?: SiteConfig; all?: SiteEntry[] } = {}
 ): string {
   const page = opts.page || 1;
   const totalPages = opts.totalPages || 1;
   const config = opts.config || {};
+  const all = opts.all || entries;
   const root = page === 1 ? './' : '../../';
   const description = config.siteDescription || DEFAULT_DESCRIPTION;
-  const today = new Date().toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-  const [lead, ...rest] = page === 1 ? entries : [undefined, ...entries];
-
-  const leadHtml = lead
-    ? `<section class="lead"><a href="${root}${esc(lead.path)}">${lead.image ? `<img src="${root}${esc(lead.image)}" alt="${esc(lead.headline)}" width="1200" height="630" fetchpriority="high">` : ''}</a>
-<div><a class="kicker" href="${root}${categoryPath(lead.category)}">${esc(categoryLabel(lead.category))}</a><a href="${root}${esc(lead.path)}"><h2>${esc(lead.title)}</h2></a><p>${esc(lead.dek)}</p><div class="meta" style="margin-top:10px">${formatDate(lead.publishedAt)} · ${readingMinutes(lead.article.wordCount)} min de lectura</div></div></section>`
-    : page === 1
-      ? `<p style="padding:40px 0;text-align:center" class="meta">Aún no hay artículos publicados.</p>`
-      : '';
 
   const websiteLd = baseUrl
     ? {
@@ -447,27 +635,58 @@ export function renderIndexPage(
       }
     : undefined;
 
-  const body = `<main class="wrap">
-<div class="meta" style="text-align:center;padding:10px 0;border-bottom:1px solid var(--rule);text-transform:capitalize">${page === 1 ? esc(today) : `Archivo · página ${page} de ${totalPages}`}</div>
-${leadHtml}
-<section class="grid">${cardsWithAds(root, rest as SiteEntry[], config)}</section>
+  let body: string;
+  if (page === 1) {
+    const [lead, ...rest] = entries;
+    const featured = rest.slice(0, 2);
+    const feed = rest.slice(2, 12);
+    const shown = new Set([lead, ...featured, ...feed].filter(Boolean).map((e) => e!.slug));
+    // Bloques por sección con lo que no salió arriba (o lo más reciente de la sección si ya salió todo)
+    const blocks = SITE_CATEGORIES.map((c) => {
+      const inCat = all.filter((e) => e.category === c);
+      const fresh = inCat.filter((e) => !shown.has(e.slug));
+      const items = (fresh.length >= 2 ? fresh : inCat).slice(0, 4);
+      return items.length
+        ? `<section><div class="sec-title"><h2>${esc(categoryLabel(c))}</h2><a href="${root}${categoryPath(c)}">Ver todo →</a></div><div class="grid">${items.map((e) => card(root, e)).join('')}</div></section>`
+        : '';
+    }).join('');
+    const videos = all.filter((e) => e.video).slice(0, 4);
+
+    body = lead
+      ? `<main class="wrap">
+<section class="top">${heroBlock(root, lead)}<div class="side-top">${featured.map((e) => card(root, e, { lazy: false })).join('')}</div></section>
+${adSlot(config.adSlots?.indexInline, 'inline')}
+<div class="cols"><div><div class="sec-title"><h2>Lo más reciente</h2></div><div class="feed">${feed.map((e) => row(root, e)).join('')}</div></div>
+<aside><div class="sticky" style="padding-top:36px">${numberedBox(root, all.slice(0, 5), 'Más noticias')}${adSlot(config.adSlots?.sidebar, 'sidebar')}</div></aside></div>
+${videos.length ? `<section><div class="sec-title"><h2>Noticias con video</h2></div><div class="grid">${videos.map((e) => card(root, e)).join('')}</div></section>` : ''}
+${blocks}
+${pager(root, page, totalPages, indexPageRel)}
+</main>`
+      : `<main class="wrap"><p style="padding:40px 0;text-align:center" class="meta">Aún no hay artículos publicados.</p></main>`;
+  } else {
+    body = `<main class="wrap">
+<div class="section-head"><nav class="crumbs" aria-label="Ruta"><a href="${root}">Portada</a> › Archivo</nav><h1>Archivo</h1><div class="meta">Página ${page} de ${totalPages}</div></div>
+<div class="cols" style="margin-top:24px"><div class="feed">${entries.map((e) => row(root, e)).join('')}</div>
+<aside><div class="sticky">${numberedBox(root, all.slice(0, 5), 'Lo último')}</div></aside></div>
 ${pager(root, page, totalPages, indexPageRel)}
 </main>`;
+  }
 
   return layout({
     root,
     title: page === 1 ? `${SITE_NAME} | ${TAGLINE}` : `Archivo, página ${page} | ${SITE_NAME}`,
     description,
     canonical: abs(baseUrl, indexPageRel(page)),
-    image: abs(baseUrl, (lead || entries[0])?.image),
+    image: abs(baseUrl, entries[0]?.image),
     type: 'website',
     jsonLd: page === 1 && websiteLd ? [websiteLd] : [],
     body,
     config,
+    ticker: all,
   });
 }
 
-export function renderCategoryPage(category: string, entries: SiteEntry[], baseUrl: string, config: SiteConfig = {}): string {
+export function renderCategoryPage(category: string, entries: SiteEntry[], baseUrl: string, config: SiteConfig = {}, all: SiteEntry[] = entries): string {
   const root = '../../';
   const label = categoryLabel(category);
   const rel = categoryPath(category);
@@ -475,9 +694,15 @@ export function renderCategoryPage(category: string, entries: SiteEntry[], baseU
     { name: 'Portada', rel: '' },
     { name: label, rel },
   ]);
+  const [lead, ...rest] = entries;
   const body = `<main class="wrap">
 <div class="section-head"><nav class="crumbs" aria-label="Ruta"><a href="${root}">Portada</a> › ${esc(label)}</nav><h1>${esc(label)}</h1></div>
-${entries.length ? `<section class="grid">${cardsWithAds(root, entries, config)}</section>` : `<p class="meta" style="padding:40px 0;text-align:center">Todavía no hay artículos en esta sección.</p>`}
+${
+  lead
+    ? `<section class="top">${heroBlock(root, lead)}<div class="side-top">${rest.slice(0, 2).map((e) => card(root, e, { lazy: false })).join('')}</div></section>
+${rest.length > 2 ? `<div class="sec-title"><h2>Más de ${esc(label)}</h2></div><section class="grid">${cardsWithAds(root, rest.slice(2), config, { dek: true })}</section>` : ''}`
+    : `<p class="meta" style="padding:40px 0;text-align:center">Todavía no hay artículos en esta sección.</p>`
+}
 </main>`;
   return layout({
     root,
@@ -490,6 +715,7 @@ ${entries.length ? `<section class="grid">${cardsWithAds(root, entries, config)}
     body,
     config,
     activeCategory: category,
+    ticker: all,
   });
 }
 

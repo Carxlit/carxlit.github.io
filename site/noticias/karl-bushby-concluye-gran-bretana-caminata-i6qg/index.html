@@ -15,134 +15,243 @@
 <meta property="og:url" content="https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/">
 <meta property="og:image" content="https://puntociegoglobal.pages.dev/img/karl-bushby-concluye-gran-bretana-caminata-i6qg.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#b4152b">
+<meta name="theme-color" content="#d0021b">
 <meta name="google-site-verification" content="rHHS-RPjDZlDVCdogiYjWg0sB9bw7guJyofpz4UvTe8">
 
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="../../site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="Punto Ciego" href="../../rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Playfair+Display:wght@700;800;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f6f3ec;--ink:#14161a;--muted:#5d6168;--rule:#d9d4c7;--accent:#b4152b;--card:#fffdf8}
-@media (prefers-color-scheme:dark){:root{--paper:#0e1116;--ink:#ecebe6;--muted:#9aa0a8;--rule:#262b33;--accent:#e2475b;--card:#151a21}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 "Source Serif 4",Georgia,"Times New Roman",serif;overflow-x:hidden}
-a{color:inherit}img{max-width:100%}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
-.masthead{border-bottom:3px double var(--ink);padding:22px 0 0;text-align:center}
-.masthead a{text-decoration:none}
-.brand{font:900 clamp(34px,7vw,64px)/1 "Playfair Display",Georgia,serif;letter-spacing:-.01em;text-transform:uppercase}
-.brand span{color:var(--accent)}
-.tagline{font:500 13px/1.4 Inter,system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:8px}
-.masthead.small{padding-top:12px}.masthead.small .brand{font-size:30px}
-.nav{display:flex;gap:4px 22px;justify-content:center;flex-wrap:wrap;padding:12px 0;margin-top:12px;border-top:1px solid var(--rule);font:700 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase}
-.nav a{text-decoration:none;color:var(--muted);padding:4px 0}.nav a:hover,.nav a.on{color:var(--accent)}
-.kicker{font:800 12px/1 Inter,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);text-decoration:none}
-.meta{font:500 13px/1.5 Inter,system-ui,sans-serif;color:var(--muted)}
-.crumbs{font:500 13px/1.4 Inter,system-ui,sans-serif;color:var(--muted);margin-bottom:14px}.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
-.lead{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;padding:28px 0;border-bottom:1px solid var(--rule)}
-.lead h2{font:800 clamp(26px,3.6vw,40px)/1.12 "Playfair Display",Georgia,serif;margin:10px 0}
-.lead img,.card img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;padding:26px 0}
-.card{border-top:2px solid var(--ink);padding-top:12px;min-width:0}
-.card h3{font:700 21px/1.25 "Playfair Display",Georgia,serif;margin:8px 0}
-.card p,.lead p{margin:0;color:var(--muted);font-size:16px}
-.card a,.lead a{text-decoration:none}.card a:hover h3,.lead a:hover h2{text-decoration:underline}
+:root{--bg:#fff;--ink:#111418;--muted:#5f6670;--rule:#e4e6ea;--soft:#f3f4f6;--accent:#d0021b;--accent2:#a10015;--top:#0c0e11;--card:#fff;--shadow:0 1px 2px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.06)}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--ink:#eceef1;--muted:#9ba2ac;--rule:#252a31;--soft:#171a20;--accent:#ff3347;--accent2:#d0021b;--top:#000;--card:#151820;--shadow:0 1px 2px rgba(0,0,0,.4)}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+/* Barra superior con fecha y "Último minuto" */
+.topbar{background:var(--top);color:#cfd3d9;font-size:12.5px}
+.topbar .wrap{display:flex;align-items:center;gap:16px;height:36px;overflow:hidden}
+.today{white-space:nowrap;text-transform:capitalize;flex:none}
+.ticker{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+.ticker b{background:var(--accent);color:#fff;font-size:11px;font-weight:800;letter-spacing:.08em;padding:4px 8px;border-radius:3px;white-space:nowrap;flex:none}
+.ticker b::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;margin-right:6px;vertical-align:1px;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.25}}
+.tk{overflow:hidden;min-width:0;flex:1;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.tk-in{display:inline-flex;gap:36px;white-space:nowrap;animation:tk 60s linear infinite;padding-left:100%}
+.tk-in a:hover{color:#fff;text-decoration:underline}
+@keyframes tk{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.tk-in{animation:none;padding-left:0}}
+/* Cabecera */
+.mast{border-bottom:1px solid var(--rule);background:var(--bg)}
+.mast .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:16px}
+.logo{font:900 clamp(30px,5vw,46px)/1 "Playfair Display",Georgia,serif;letter-spacing:-.01em;text-transform:uppercase;white-space:nowrap}
+.logo span{color:var(--accent)}
+.mast .tag{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:right;max-width:280px}
+.navbar{background:var(--accent);position:sticky;top:0;z-index:40;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.navbar .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.navbar .wrap::-webkit-scrollbar{display:none}
+.navbar a{color:#fff;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:13px 14px;white-space:nowrap;border-bottom:3px solid transparent}
+.navbar a:hover,.navbar a.on{background:var(--accent2);border-bottom-color:#fff}
+/* Piezas comunes */
+.kicker{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.meta{font-size:13px;color:var(--muted)}
+.meta time{white-space:nowrap}
+.thumb{position:relative;display:block;overflow:hidden;border-radius:6px;background:var(--soft);aspect-ratio:16/9}
+.thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+a:hover .thumb img,.thumb:hover img{transform:scale(1.04)}
+.badge-video{position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.75);color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;padding:5px 9px 5px 7px;border-radius:4px;display:flex;align-items:center;gap:6px}
+.badge-video::before{content:"";border-left:9px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent}
+.sec-title{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);margin:36px 0 18px;padding-bottom:8px}
+.sec-title h2{margin:0;font-size:20px;font-weight:900;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.sec-title h2::before{content:"";width:6px;height:22px;background:var(--accent);border-radius:2px}
+.sec-title a{font-size:13px;font-weight:700;color:var(--accent)}
+.sec-title a:hover{text-decoration:underline}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:12px}.crumbs a:hover{text-decoration:underline}
+/* Portada: principal + destacadas */
+.top{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:24px;padding:24px 0 6px}
+.hero{position:relative;display:block;border-radius:8px;overflow:hidden;background:#111;min-height:440px;color:#fff}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.hero:hover img{transform:scale(1.03)}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 38%,rgba(0,0,0,0) 70%)}
+.hero .txt{position:absolute;left:0;right:0;bottom:0;padding:28px}
+.hero .kicker{background:var(--accent);color:#fff;padding:5px 9px;border-radius:3px}
+.hero h2{font-size:clamp(26px,3.4vw,40px);line-height:1.12;font-weight:900;letter-spacing:-.02em;margin:12px 0 10px;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.hero p{margin:0;color:#e6e8eb;font-size:16px;max-width:680px}
+.hero .meta{color:#c9ced5;margin-top:10px}
+.side-top{display:flex;flex-direction:column;gap:18px}
+.side-top .card h3{font-size:18px}
+/* Tarjetas */
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.grid.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card{min-width:0;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:17px;line-height:1.28;font-weight:800;letter-spacing:-.01em}
+.card h3 a:hover{color:var(--accent)}
+.card p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .thumb{margin-bottom:4px}
 .grid .ad{grid-column:1/-1}
-.section-head{padding:26px 0 0;border-bottom:1px solid var(--rule)}
-.section-head h1{font:800 clamp(28px,4.5vw,42px)/1.1 "Playfair Display",Georgia,serif;margin:8px 0 16px}
-.layout{display:grid;grid-template-columns:minmax(0,720px) 280px;gap:48px;justify-content:center}
-.layout>aside{padding-top:30px}
-.sticky{position:sticky;top:20px}
-.side-box{border-top:2px solid var(--ink);padding-top:10px;margin-bottom:26px}
-.side-box h2{font:800 12px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px}
-.side-box ol{margin:0;padding:0;list-style:none;counter-reset:n}
-.side-box li{counter-increment:n;display:grid;grid-template-columns:26px 1fr;gap:4px;padding:8px 0;border-bottom:1px solid var(--rule);font:700 16px/1.3 "Playfair Display",Georgia,serif}
-.side-box li::before{content:counter(n);color:var(--accent);font-family:Inter,system-ui,sans-serif;font-size:14px}
-.side-box a{text-decoration:none}.side-box a:hover{text-decoration:underline}
-article.story{max-width:720px;margin:0 auto;padding:30px 0 50px;min-width:0}
-article.story h1{font:800 clamp(30px,5vw,46px)/1.1 "Playfair Display",Georgia,serif;margin:12px 0}
-.dek{font-size:21px;line-height:1.5;color:var(--muted);margin:0 0 14px}
-.hero{margin:22px 0}.hero img{width:100%;height:auto;display:block}
-.facts{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accent);padding:16px 20px;margin:26px 0}
-.facts h2{font:800 13px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px}
-.facts ul{margin:0;padding-left:20px}.facts li{margin:4px 0;font-size:17px}
-article.story h2.section{font:700 25px/1.25 "Playfair Display",Georgia,serif;margin:34px 0 8px}
-.blind{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:16px 0;margin:30px 0;font-size:20px;font-style:italic}
-.blind strong{font-style:normal;color:var(--accent);font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:6px}
-.sources{border-top:1px solid var(--rule);margin-top:36px;padding-top:16px;font:15px/1.6 Inter,system-ui,sans-serif;overflow-wrap:anywhere}
-.sources h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}
-.tags{margin-top:18px}.tags span{display:inline-block;font:600 12px/1 Inter,system-ui,sans-serif;border:1px solid var(--rule);padding:6px 10px;margin:0 6px 6px 0}
-.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:26px 0 0;font:600 13px/1 Inter,system-ui,sans-serif}
-.share span{color:var(--muted);margin-right:4px}
-.share a,.share button{border:1px solid var(--rule);background:var(--card);color:var(--ink);padding:9px 12px;text-decoration:none;font:inherit;cursor:pointer;border-radius:2px}
-.share a:hover,.share button:hover{border-color:var(--accent);color:var(--accent)}
-.donate{display:block;text-align:center;margin:30px 0 0;padding:18px;background:var(--card);border:1px solid var(--rule);font:600 15px/1.5 Inter,system-ui,sans-serif}
-.donate a{display:inline-block;margin-top:8px;background:var(--accent);color:#fff;text-decoration:none;padding:10px 18px;border-radius:2px}
-.related{border-top:3px double var(--ink);margin-top:40px;padding-top:6px}
-.related>h2{font:800 13px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:14px 0 0}
-.related .grid{padding-top:16px}
-.pager{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:10px 0 40px;font:600 14px/1 Inter,system-ui,sans-serif}
-.pager a,.pager span{border:1px solid var(--rule);padding:10px 14px;text-decoration:none}
-.pager span.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.page{max-width:720px;margin:0 auto;padding:30px 0 50px}
-.page h1{font:800 clamp(30px,5vw,42px)/1.1 "Playfair Display",Georgia,serif;margin:0 0 16px}
-.page h2{font:700 23px/1.3 "Playfair Display",Georgia,serif;margin:30px 0 8px}
-.page .updated{font:500 13px/1.5 Inter,system-ui,sans-serif;color:var(--muted)}
-.page button{font:600 14px/1 Inter,system-ui,sans-serif;padding:10px 16px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+/* Lo último (lista) + barra lateral */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:40px}
+.feed{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:240px minmax(0,1fr);gap:20px;padding:18px 0;border-bottom:1px solid var(--rule)}
+.row:first-child{padding-top:0}
+.row h3{margin:6px 0;font-size:21px;line-height:1.22;font-weight:800;letter-spacing:-.015em}
+.row h3 a:hover{color:var(--accent)}
+.row p{margin:0 0 8px;color:var(--muted);font-size:15px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.box{background:var(--soft);border-radius:8px;padding:18px;margin-bottom:24px}
+.box h2{margin:0 0 12px;font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.box h2::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.box ol{list-style:none;margin:0;padding:0;counter-reset:n}
+.box li{counter-increment:n;display:grid;grid-template-columns:34px 1fr;gap:6px;padding:11px 0;border-top:1px solid var(--rule);font-size:15px;font-weight:700;line-height:1.32}
+.box li:first-child{border-top:0;padding-top:2px}
+.box li::before{content:counter(n);font-size:24px;font-weight:900;color:var(--accent);line-height:1}
+.box li a:hover{color:var(--accent)}
+.box li .meta{display:block;font-weight:500;font-size:12px;margin-top:4px}
+.mini{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:11px 0;border-top:1px solid var(--rule);align-items:start}
+.mini:first-of-type{border-top:0;padding-top:2px}
+.mini .thumb{border-radius:4px}
+.mini h3{margin:0;font-size:14.5px;line-height:1.3;font-weight:700}
+.mini:hover h3{color:var(--accent)}
+.sticky{position:sticky;top:64px}
+.section-head{padding:24px 0 0}
+.section-head h1{font-size:clamp(30px,4.5vw,44px);line-height:1.08;font-weight:900;letter-spacing:-.02em;margin:4px 0 6px;display:flex;align-items:center;gap:12px}
+.section-head h1::before{content:"";width:8px;height:36px;background:var(--accent);border-radius:2px}
+/* Artículo */
+.layout{display:grid;grid-template-columns:minmax(0,760px) 320px;gap:48px;justify-content:center}
+article.story{padding:26px 0 50px;min-width:0}
+.story .kicker{background:var(--accent);color:#fff;padding:5px 9px;border-radius:3px}
+.story h1{font-size:clamp(30px,4.6vw,46px);line-height:1.1;font-weight:900;letter-spacing:-.025em;margin:14px 0 12px}
+.dek{font:400 21px/1.5 "Source Serif 4",Georgia,serif;color:var(--muted);margin:0 0 18px}
+.byline{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.avatar{width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 15px/1 "Playfair Display",Georgia,serif;flex:none}
+.avatar i{color:var(--accent);font-style:normal}
+.byline strong{display:block;font-size:14px}
+.media{margin:22px 0 6px}
+.media figure{margin:0}
+.media img{width:100%;height:auto;border-radius:6px}
+figcaption{font-size:13px;color:var(--muted);margin-top:8px;padding-left:10px;border-left:3px solid var(--accent)}
+.yt{position:relative;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;cursor:pointer}
+.yt img{width:100%;height:100%;object-fit:cover;opacity:.88;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:var(--accent);box-shadow:0 8px 30px rgba(0,0,0,.45);border:0;cursor:pointer}
+.play::after{content:"";position:absolute;left:34px;top:26px;border-left:24px solid #fff;border-top:16px solid transparent;border-bottom:16px solid transparent}
+.yt .lbl{position:absolute;left:14px;top:14px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;padding:6px 10px;border-radius:4px}
+.body{font:400 19px/1.75 "Source Serif 4",Georgia,serif}
+.body p{margin:0 0 1.15em}
+.body h2{font:800 25px/1.25 Inter,system-ui,sans-serif;letter-spacing:-.015em;margin:38px 0 12px}
+.facts{background:var(--soft);border-radius:8px;padding:18px 22px;margin:26px 0;border-left:5px solid var(--accent)}
+.facts h2{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px}
+.facts ul{margin:0;padding-left:20px}.facts li{margin:6px 0;font-size:16px;line-height:1.5}
+.facts li::marker{color:var(--accent)}
+.blind{background:var(--ink);color:var(--bg);border-radius:8px;padding:22px 24px;margin:32px 0;font:italic 400 20px/1.6 "Source Serif 4",Georgia,serif}
+.blind strong{font:800 12px/1 Inter,system-ui,sans-serif;font-style:normal;color:var(--accent);letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:10px}
+.reel{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;background:var(--soft);border-radius:10px;padding:18px;margin:34px 0}
+.reel .ph{width:150px;aspect-ratio:9/16;border-radius:10px;background:linear-gradient(160deg,#1e293b,#000);position:relative;overflow:hidden;cursor:pointer;color:#fff;display:grid;place-items:center;text-align:center;font:900 15px/1.2 "Playfair Display",Georgia,serif}
+.reel .ph span{color:var(--accent)}
+.reel .ph .play{width:56px;height:56px;margin:-28px 0 0 -28px;top:62%}
+.reel .ph .play::after{left:22px;top:17px;border-left-width:16px;border-top-width:11px;border-bottom-width:11px}
+.reel iframe{width:100%;max-width:400px;height:720px;border:0;border-radius:10px;background:#fff}
+.reel h2{margin:0 0 6px;font-size:19px;font-weight:900}
+.reel p{margin:0 0 12px;color:var(--muted);font-size:15px}
+.reel.open{grid-template-columns:1fr;justify-items:center}
+.btn{display:inline-block;background:var(--accent);color:#fff;font-size:14px;font-weight:800;padding:11px 16px;border-radius:6px;border:0;cursor:pointer}
+.btn:hover{background:var(--accent2)}
+.sources{border-top:1px solid var(--rule);margin-top:36px;padding-top:16px;font-size:14.5px;line-height:1.6;overflow-wrap:anywhere}
+.sources h2{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px}
+.sources a{color:var(--accent);font-weight:600}.sources a:hover{text-decoration:underline}
+.tags{margin-top:18px}.tags span{display:inline-block;font-size:12px;font-weight:600;background:var(--soft);padding:7px 11px;margin:0 6px 6px 0;border-radius:999px}
+.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:26px 0 0}
+.share span{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px}
+.share a,.share button{font:700 13px/1 Inter,system-ui,sans-serif;border:0;color:#fff;padding:10px 14px;cursor:pointer;border-radius:999px;background:#334155}
+.share a.fb{background:#1877f2}.share a.wa{background:#25d366}.share a.tg{background:#229ed9}.share a.x{background:#000}.share a.bs{background:#0085ff}
+.share a:hover,.share button:hover{filter:brightness(1.1)}
+.next{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:center;margin:38px 0 0;padding:16px;border:1px solid var(--rule);border-radius:10px;background:var(--card);box-shadow:var(--shadow)}
+.next .lbl{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.next h3{margin:6px 0 0;font-size:20px;line-height:1.25;font-weight:800}
+.next:hover h3{color:var(--accent)}
+.donate{display:block;text-align:center;margin:30px 0 0;padding:20px;background:var(--soft);border-radius:8px;font-size:15px;font-weight:600}
+.donate a{display:inline-block;margin-top:10px;background:var(--accent);color:#fff;padding:11px 18px;border-radius:6px}
+.related{margin-top:30px}
+.pager{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:30px 0 50px;font-size:14px;font-weight:700}
+.pager a,.pager span{border:1px solid var(--rule);padding:10px 14px;border-radius:6px}
+.pager a:hover{border-color:var(--accent);color:var(--accent)}
+.pager span.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.page{max-width:760px;margin:0 auto;padding:30px 0 50px}
+.page h1{font-size:clamp(30px,5vw,42px);line-height:1.1;font-weight:900;letter-spacing:-.02em;margin:0 0 16px}
+.page h2{font-size:22px;font-weight:800;margin:30px 0 8px}
+.page p,.page li{font:400 18px/1.7 "Source Serif 4",Georgia,serif}
+.page .updated{font-size:13px;color:var(--muted)}
+.page button{font:700 14px/1 Inter,system-ui,sans-serif;padding:10px 16px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;border-radius:6px}
 .ad{margin:28px 0;text-align:center;overflow:hidden}.ad:not(.on){display:none}
-.ad::before{content:"Publicidad";display:block;font:600 10px/1 Inter,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-footer{border-top:3px double var(--ink);padding:24px 0 40px;font:13px/1.7 Inter,system-ui,sans-serif;color:var(--muted);text-align:center}
-footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 18px;margin-bottom:12px}
-footer nav a{text-decoration:none;color:var(--ink)}footer nav a:hover{color:var(--accent)}
-.consent{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;max-width:760px;margin:0 auto;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-top:3px solid var(--accent);box-shadow:0 8px 30px rgba(0,0,0,.18);padding:16px 18px;font:14px/1.5 Inter,system-ui,sans-serif;display:none}
+.ad::before{content:"Publicidad";display:block;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+footer{background:var(--top);color:#9ba2ac;margin-top:40px;padding:36px 0 40px;font-size:13.5px;line-height:1.7}
+footer .logo{color:#fff;font-size:32px}
+footer .cols3{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-bottom:24px}
+footer h4{color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:4px 0 10px}
+footer nav{display:flex;flex-direction:column;gap:4px}
+footer nav a{color:#d6d9de}footer nav a:hover{color:#fff;text-decoration:underline}
+footer .legal{border-top:1px solid #23272e;padding-top:18px;font-size:12.5px}
+.consent{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;max-width:760px;margin:0 auto;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-top:3px solid var(--accent);box-shadow:0 8px 30px rgba(0,0,0,.18);padding:16px 18px;font-size:14px;line-height:1.5;display:none;border-radius:8px}
 .consent.show{display:block}
 .consent .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.consent button{font:700 13px/1 Inter,system-ui,sans-serif;padding:10px 16px;cursor:pointer;border:1px solid var(--ink);background:transparent;color:var(--ink)}
-.consent button.yes{background:var(--ink);color:var(--paper)}
-.notfound{text-align:center;padding:70px 0}.notfound h1{font:900 64px/1 "Playfair Display",Georgia,serif;margin:0}
-@media (max-width:1000px){.layout{grid-template-columns:minmax(0,1fr)}.layout>aside{display:none}}
-@media (max-width:820px){.lead{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:560px){.grid{grid-template-columns:minmax(0,1fr)}body{font-size:17px}.dek{font-size:18px}.nav{gap:2px 14px;font-size:11px}}
+.consent button{font:700 13px/1 Inter,system-ui,sans-serif;padding:10px 16px;cursor:pointer;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:6px}
+.consent button.yes{background:var(--accent);border-color:var(--accent);color:#fff}
+.consent a{color:var(--accent)}
+.notfound{text-align:center;padding:70px 0}.notfound h1{font:900 72px/1 "Playfair Display",Georgia,serif;margin:0;color:var(--accent)}
+@media (max-width:1040px){.layout,.cols{grid-template-columns:minmax(0,1fr)}.layout>aside,.cols>aside{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:860px){.top{grid-template-columns:minmax(0,1fr)}.side-top{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.grid.g3{grid-template-columns:repeat(2,minmax(0,1fr))}.mast .tag{display:none}footer .cols3{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.hero{min-height:360px}.hero .txt{padding:18px}.hero p{display:none}.side-top,.grid,.grid.g3{grid-template-columns:minmax(0,1fr)}
+  .row{grid-template-columns:120px minmax(0,1fr);gap:12px}.row h3{font-size:17px}.row p{display:none}
+  .today{display:none}.mast .wrap{justify-content:center;padding-top:14px;padding-bottom:12px}.body{font-size:18px}.dek{font-size:18px}
+  .next{grid-template-columns:110px 1fr}.next h3{font-size:16px}.reel{grid-template-columns:1fr;justify-items:center;text-align:center}footer .cols3{grid-template-columns:1fr}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Karl Bushby concluye en Gran Bretaña una caminata global de 28 años","description":"El exsoldado británico completó 80.477 kilómetros tras partir de Chile en 1998. La travesía expone la rigidez de los controles fronterizos continentales.","datePublished":"2026-11-02T15:53:39.424Z","dateModified":"2026-11-02T15:53:39.424Z","articleSection":"Poder & Sociedad","keywords":"Karl Bushby, Hull, Fronteras, Geopolítica, Reino Unido, Migración","wordCount":517,"inLanguage":"es","image":["https://puntociegoglobal.pages.dev/img/karl-bushby-concluye-gran-bretana-caminata-i6qg.jpg"],"mainEntityOfPage":"https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/","url":"https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/","author":{"@type":"Organization","name":"Redacción Punto Ciego","url":"https://puntociegoglobal.pages.dev/quienes-somos/"},"publisher":{"@type":"Organization","name":"Punto Ciego","url":"https://puntociegoglobal.pages.dev/","logo":{"@type":"ImageObject","url":"https://puntociegoglobal.pages.dev/favicon.svg"}},"isBasedOn":["https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html","https://news.google.com/rss/articles/CBMivAFBVV95cUxQSFdrWDJLREJkMWdXMWE0RzVoZjY5Ymx6Z3p2b0M2bDVPd3NsOFFocjhEcDhaaHJXa2hnUFZzRjVGVWpwYzM3S1hxVGRIVU1hZU1JSXhGbWtBMll1cGdlSVRpU01FcDNyT2JiUXI5MUZJemZMNXhnT0JuYVBWaDhRZzBGaHRaRVJoM0hJX3RwbksySUhCUmhWZ2NqdENoMWtVX2hyMl80dF9xYV9KWXdHUzJ0emY5OTdPZmpUNA?oc=5","https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMTBxTkNSWmhxeFQtSFFpRWNEQURmVUJjaXYwSTg4bDk2OVYxb0x1ZldFS1c4bDcwRldfTjVwMHNPZV84WlhBeUxPMThpcU5hVDNaNFduVF8tWnUtUnBvRWo5RE1ETjBFc09DY2k0WjZDb2tZVEoxaVNIMFh5SUh0bDJHZk1yd19RR3JualZyVXFmTEZMYnFKNEdtRmdyR3YwV3NYb2RnQUQ5STRJYzVkMW0wUnZDS1ZlaENMSXRQYTJMMUlnVEQwSzFFb3ZuMXJ5ZmJv?oc=5","https://news.google.com/rss/articles/CBMigwFBVV95cUxNRHkwTGlmeUJGR3FVOGplV1A0aHZVSWoxenlJQndndHhrX0RJSjdZNnlpdmxOV21YTlZfNjJXMThfaUxPbUtzczdXcG84d0Z5WXZMaG5BcVZUVGtIOXlaM1E0ZEN2OVlFUTNGSHRTSERqVk9Ed19sbHhIamxBZ3JWbERPTdIBgwFBVV95cUxQR1o1SURwby11c3pLamJ0X0FFcW11TGw2X0dNSy1uY0ZjUW5WajI0dl9GelYxdUF3M003OE1XMUJCLTFoMXhPcC0xZmRjd1ZWRGEzblFHOV9XbW9nY0hMRGxMaVQ1TWQtamswTXd3M1Vkc2RoRGdXUVJiQndNRDEzSnJrNA?oc=5","https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdEVlUUV5MVhYd19qYTVHYkxUNlJtdWRQdFRTUlV6THhha3BhNVY0Ujg3LUp2ZXVDNEQ3eXNYUWl3Tm15RVNHcU9Sdm5SeURIZW9JX3ROSzJlQTVWVUdObVdTU1pxbG1HTk5Sb01XUFRXTjBzNi10azA2bmRWeFozaWxnZ1ZxM1FFQVFR?oc=5"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Karl Bushby concluye en Gran Bretaña una caminata global de 28 años","description":"El exsoldado británico completó 80.477 kilómetros tras partir de Chile en 1998. La travesía expone la rigidez de los controles fronterizos continentales.","datePublished":"2026-11-02T15:53:39.424Z","dateModified":"2026-11-02T15:53:39.424Z","articleSection":"Poder & Sociedad","keywords":"Karl Bushby, Hull, Fronteras, Geopolítica, Reino Unido, Migración","wordCount":517,"inLanguage":"es","image":["https://puntociegoglobal.pages.dev/img/karl-bushby-concluye-gran-bretana-caminata-i6qg.jpg","https://puntociegoglobal.pages.dev/img/karl-bushby-concluye-gran-bretana-caminata-i6qg-foto.jpg"],"mainEntityOfPage":"https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/","url":"https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/","author":{"@type":"Organization","name":"Redacción Punto Ciego","url":"https://puntociegoglobal.pages.dev/quienes-somos/"},"publisher":{"@type":"Organization","name":"Punto Ciego","url":"https://puntociegoglobal.pages.dev/","logo":{"@type":"ImageObject","url":"https://puntociegoglobal.pages.dev/favicon.svg"}},"isBasedOn":["https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html","https://news.google.com/rss/articles/CBMivAFBVV95cUxQSFdrWDJLREJkMWdXMWE0RzVoZjY5Ymx6Z3p2b0M2bDVPd3NsOFFocjhEcDhaaHJXa2hnUFZzRjVGVWpwYzM3S1hxVGRIVU1hZU1JSXhGbWtBMll1cGdlSVRpU01FcDNyT2JiUXI5MUZJemZMNXhnT0JuYVBWaDhRZzBGaHRaRVJoM0hJX3RwbksySUhCUmhWZ2NqdENoMWtVX2hyMl80dF9xYV9KWXdHUzJ0emY5OTdPZmpUNA?oc=5","https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMTBxTkNSWmhxeFQtSFFpRWNEQURmVUJjaXYwSTg4bDk2OVYxb0x1ZldFS1c4bDcwRldfTjVwMHNPZV84WlhBeUxPMThpcU5hVDNaNFduVF8tWnUtUnBvRWo5RE1ETjBFc09DY2k0WjZDb2tZVEoxaVNIMFh5SUh0bDJHZk1yd19RR3JualZyVXFmTEZMYnFKNEdtRmdyR3YwV3NYb2RnQUQ5STRJYzVkMW0wUnZDS1ZlaENMSXRQYTJMMUlnVEQwSzFFb3ZuMXJ5ZmJv?oc=5","https://news.google.com/rss/articles/CBMigwFBVV95cUxNRHkwTGlmeUJGR3FVOGplV1A0aHZVSWoxenlJQndndHhrX0RJSjdZNnlpdmxOV21YTlZfNjJXMThfaUxPbUtzczdXcG84d0Z5WXZMaG5BcVZUVGtIOXlaM1E0ZEN2OVlFUTNGSHRTSERqVk9Ed19sbHhIamxBZ3JWbERPTdIBgwFBVV95cUxQR1o1SURwby11c3pLamJ0X0FFcW11TGw2X0dNSy1uY0ZjUW5WajI0dl9GelYxdUF3M003OE1XMUJCLTFoMXhPcC0xZmRjd1ZWRGEzblFHOV9XbW9nY0hMRGxMaVQ1TWQtamswTXd3M1Vkc2RoRGdXUVJiQndNRDEzSnJrNA?oc=5","https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdEVlUUV5MVhYd19qYTVHYkxUNlJtdWRQdFRTUlV6THhha3BhNVY0Ujg3LUp2ZXVDNEQ3eXNYUWl3Tm15RVNHcU9Sdm5SeURIZW9JX3ROSzJlQTVWVUdObVdTU1pxbG1HTk5Sb01XUFRXTjBzNi10azA2bmRWeFozaWxnZ1ZxM1FFQVFR?oc=5"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://puntociegoglobal.pages.dev/"},{"@type":"ListItem","position":2,"name":"Poder & Sociedad","item":"https://puntociegoglobal.pages.dev/categoria/poder-y-sociedad/"},{"@type":"ListItem","position":3,"name":"Karl Bushby concluye en Gran Bretaña una caminata global de 28 años","item":"https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/"}]}</script>
 </head>
 <body>
-<header class="masthead small"><div class="wrap"><a href="../../"><div class="brand">Punto <span>Ciego</span></div></a><nav class="nav" aria-label="Secciones"><a href="../../categoria/geopolitica/">Geopolítica</a><a href="../../categoria/economia-global/">Economía Global</a><a href="../../categoria/tecnologia-y-ia/">Tecnología &amp; IA</a><a href="../../categoria/seguridad-y-defensa/">Seguridad &amp; Defensa</a><a href="../../categoria/poder-y-sociedad/" class="on" aria-current="page">Poder &amp; Sociedad</a></nav></div></header>
+<div class="topbar"><div class="wrap"><span class="today">lunes, 2 de noviembre de 2026</span><div class="ticker"><b>ÚLTIMO MINUTO</b><div class="tk"><div class="tk-in"><a href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/">Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables</a><a href="../../noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/">Karl Bushby concluye en Gran Bretaña una caminata global de 28 años</a><a href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/">El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI</a><a href="../../noticias/futuros-wall-street-repuntan-tras-octubre-fim9/">Los futuros de Wall Street repuntan tras un octubre bajista entre la pausa de la inteligencia artificial y la caída del petróleo</a><a href="../../noticias/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f/">Irán condiciona la reapertura del estrecho de Ormuz a la aceptación de exigencias por parte de Washington</a><a href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/">La crisis de la vivienda en Portugal desata una tormenta política tras la represión policial</a></div></div></div></div></div>
+<header class="mast"><div class="wrap"><a class="logo" href="../../">Punto <span>Ciego</span></a><div class="tag">Lo que la cobertura dominante no te cuenta</div></div></header>
+<nav class="navbar" aria-label="Secciones"><div class="wrap"><a href="../../">Portada</a><a href="../../categoria/geopolitica/">Geopolítica</a><a href="../../categoria/economia-global/">Economía Global</a><a href="../../categoria/tecnologia-y-ia/">Tecnología &amp; IA</a><a href="../../categoria/seguridad-y-defensa/">Seguridad &amp; Defensa</a><a href="../../categoria/poder-y-sociedad/" class="on" aria-current="page">Poder &amp; Sociedad</a></div></nav>
 <main class="wrap"><div class="layout">
 <article class="story">
   <nav class="crumbs" aria-label="Ruta"><a href="../../">Portada</a> › <a href="../../categoria/poder-y-sociedad/">Poder &amp; Sociedad</a></nav>
   <a class="kicker" href="../../categoria/poder-y-sociedad/">Poder &amp; Sociedad</a>
   <h1>Karl Bushby concluye en Gran Bretaña una caminata global de 28 años</h1>
   <p class="dek">El exsoldado británico completó 80.477 kilómetros tras partir de Chile en 1998. La travesía expone la rigidez de los controles fronterizos continentales.</p>
-  <div class="meta">Por Redacción Punto Ciego · <time datetime="2026-11-02T15:53:39.424Z">2 de noviembre de 2026</time> · 2 min de lectura · Fuente principal: Clarín</div>
-  <figure class="hero"><img src="../../img/karl-bushby-concluye-gran-bretana-caminata-i6qg.jpg" alt="KARL BUSHBY COMPLETA EXPEDICIÓN TRAS 28 AÑOS DE TRAVESÍA GLOBAL" width="1200" height="630" fetchpriority="high"></figure>
+  <div class="byline"><div class="avatar">P<i>C</i></div><div><strong>Redacción Punto Ciego</strong><span class="meta"><time datetime="2026-11-02T15:53:39.424Z">2 de noviembre de 2026</time> · 2 min de lectura · Fuente principal: Clarín</span></div></div>
+  <div class="media"><figure><img src="../../img/karl-bushby-concluye-gran-bretana-caminata-i6qg-foto.jpg" alt="KARL BUSHBY COMPLETA EXPEDICIÓN TRAS 28 AÑOS DE TRAVESÍA GLOBAL" width="1200" height="675" fetchpriority="high"><figcaption>Imagen de referencia · Fuente: Clarín</figcaption></figure></div>
   
   <section class="facts"><h2>Datos clave</h2><ul><li>Distancia total recorrida: 80.477 kilómetros en 10.229 días a lo largo de 28 años.</li><li>Punto de partida: Punta Arenas, Chile, en 1998, con un presupuesto inicial de 500 libras esterlinas.</li><li>Pasos críticos cruzados: Tapón del Darién, estrecho de Bering a nado y caminata, y canal de la Mancha a nado en octubre.</li><li>Llegada a Hull: Recibido en Queen Victoria&#39;s Square por la alcaldesa Maria Coward y el regimiento Paras.</li></ul></section>
-  <h2 class="section">Qué pasó</h2><p>Según reportó Clarín, Karl Bushby llegó a la plaza Queen Victoria de Hull, en el Reino Unido, donde fue recibido por cientos de vecinos, representantes de su antiguo regimiento de paracaidistas y autoridades locales. El exsoldado concluyó así una caminata alrededor del mundo que comenzó en 1998 y abarcó 80.477 kilómetros.</p><p>Cargando sus pertenencias en un carro fabricado por él mismo y denominado &#39;The Beast&#39;, Bushby fue recibido por la alcaldesa de la ciudad, Maria Coward, y por el diputado Karl Turner, quien transmitió palabras del primer ministro británico felicitando la culminación del recorrido. La llegada marcó el cierre de una travesía de 10.229 días.</p>
-<h2 class="section">El contexto</h2><p>Bushby inició su trayecto a los 28 años en Punta Arenas, Chile, cruzando hacia Argentina en 1999 con un fondo de 500 libras esterlinas. A lo largo de casi tres décadas, el británico atravesó cuatro continentes enfrentando condiciones extremas y obstáculos geográficos de alta peligrosidad.</p><p>De acuerdo con coberturas de El Mundo y Chicago Tribune, la ruta incluyó la travesía del Tapón del Darién entre América del Sur y Central, el cruce a nado del mar helado en el estrecho de Bering entre Alaska y Rusia, y finalmente el cruce a nado del canal de la Mancha a principios de octubre para ingresar a territorio insular británico.</p>
-<h2 class="section">El punto ciego</h2><p>Más allá de la narrativa heroica promovida por las autoridades en Hull, el desarrollo de la expedición de Bushby funcionó como un diagnóstico en tiempo real sobre la evolución de la seguridad fronteriza global. En los 28 años que duró su trayecto, el mapa internacional se reconfiguró mediante el endurecimiento de visados, el blindaje de pasos terrestres y el incremento de controles biométricos.</p><p>El hecho de que un ciudadano requiera sortear bloqueos burocráticos severos para cruzar por vía terrestre fronteras continentales demuestra cómo las normativas migratorias han eliminado progresivamente los márgenes para tránsitos no estandarizados. Lo que en el siglo XX era visto como exploración geográfica, en el siglo XXI enfrenta la sospecha institucional y la parálisis regulatoria.</p>
-<h2 class="section">Quién gana y quién pierde</h2><p>En el plano político institucional, los gobiernos locales y representantes parlamentarios capitalizan el suceso para reforzar narrativas de identidad nacional y resiliencia comunitaria. La recepción oficial en Hull funcionó como un acto de diplomacia pública y cohesión social.</p><p>Por otro lado, el costo personal asumido por el protagonista recae en el ámbito familiar y social: Bushby regresa a la casa materna tras décadas alejado de su entorno, habiendo permanecido al margen del crecimiento de su hijo de 36 años y sin haber conocido previamente a su nieta de 12 años, además de enfrentar la reincorporación al mercado laboral formal tras casi tres décadas de desconexión.</p>
-<h2 class="section">Qué vigilar</h2><p>Resulta relevante dar seguimiento al proceso de reinserción civil y económica de Bushby en el Reino Unido, así como a la documentación de sus registros de travesía frente a organismos internacionales. Asimismo, cabe observar cómo el endurecimiento de las políticas de soberanía territorial en zonas estratégicas como Bering y el Darién continúa reduciendo la viabilidad de expediciones terrestres intercontinentales independientes.</p>
-  <div class="share"><span>Compartir:</span><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">Facebook</a><a href="https://x.com/intent/post?text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os&amp;url=https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">X</a><a href="https://t.me/share/url?url=https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F&amp;text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os" rel="noopener nofollow" target="_blank">Telegram</a><a href="https://wa.me/?text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os%20https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">WhatsApp</a><a href="https://bsky.app/intent/compose?text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os%20https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">Bluesky</a><button type="button" data-url="https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/" onclick="var b=this;try{navigator.clipboard.writeText(b.getAttribute('data-url')).then(function(){b.textContent='¡Copiado!'})}catch(e){}">Copiar enlace</button></div>
+  <div class="body"><h2>Qué pasó</h2><p>Según reportó Clarín, Karl Bushby llegó a la plaza Queen Victoria de Hull, en el Reino Unido, donde fue recibido por cientos de vecinos, representantes de su antiguo regimiento de paracaidistas y autoridades locales. El exsoldado concluyó así una caminata alrededor del mundo que comenzó en 1998 y abarcó 80.477 kilómetros.</p><p>Cargando sus pertenencias en un carro fabricado por él mismo y denominado &#39;The Beast&#39;, Bushby fue recibido por la alcaldesa de la ciudad, Maria Coward, y por el diputado Karl Turner, quien transmitió palabras del primer ministro británico felicitando la culminación del recorrido. La llegada marcó el cierre de una travesía de 10.229 días.</p>
+<h2>El contexto</h2><p>Bushby inició su trayecto a los 28 años en Punta Arenas, Chile, cruzando hacia Argentina en 1999 con un fondo de 500 libras esterlinas. A lo largo de casi tres décadas, el británico atravesó cuatro continentes enfrentando condiciones extremas y obstáculos geográficos de alta peligrosidad.</p><p>De acuerdo con coberturas de El Mundo y Chicago Tribune, la ruta incluyó la travesía del Tapón del Darién entre América del Sur y Central, el cruce a nado del mar helado en el estrecho de Bering entre Alaska y Rusia, y finalmente el cruce a nado del canal de la Mancha a principios de octubre para ingresar a territorio insular británico.</p>
+<h2>El punto ciego</h2><p>Más allá de la narrativa heroica promovida por las autoridades en Hull, el desarrollo de la expedición de Bushby funcionó como un diagnóstico en tiempo real sobre la evolución de la seguridad fronteriza global. En los 28 años que duró su trayecto, el mapa internacional se reconfiguró mediante el endurecimiento de visados, el blindaje de pasos terrestres y el incremento de controles biométricos.</p><p>El hecho de que un ciudadano requiera sortear bloqueos burocráticos severos para cruzar por vía terrestre fronteras continentales demuestra cómo las normativas migratorias han eliminado progresivamente los márgenes para tránsitos no estandarizados. Lo que en el siglo XX era visto como exploración geográfica, en el siglo XXI enfrenta la sospecha institucional y la parálisis regulatoria.</p>
+<h2>Quién gana y quién pierde</h2><p>En el plano político institucional, los gobiernos locales y representantes parlamentarios capitalizan el suceso para reforzar narrativas de identidad nacional y resiliencia comunitaria. La recepción oficial en Hull funcionó como un acto de diplomacia pública y cohesión social.</p><p>Por otro lado, el costo personal asumido por el protagonista recae en el ámbito familiar y social: Bushby regresa a la casa materna tras décadas alejado de su entorno, habiendo permanecido al margen del crecimiento de su hijo de 36 años y sin haber conocido previamente a su nieta de 12 años, además de enfrentar la reincorporación al mercado laboral formal tras casi tres décadas de desconexión.</p>
+<h2>Qué vigilar</h2><p>Resulta relevante dar seguimiento al proceso de reinserción civil y económica de Bushby en el Reino Unido, así como a la documentación de sus registros de travesía frente a organismos internacionales. Asimismo, cabe observar cómo el endurecimiento de las políticas de soberanía territorial en zonas estratégicas como Bering y el Darién continúa reduciendo la viabilidad de expediciones terrestres intercontinentales independientes.</p></div>
+  
+  <div class="share"><span>Compartir:</span><a class="wa" href="https://wa.me/?text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os%20https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">WhatsApp</a><a class="fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">Facebook</a><a class="tg" href="https://t.me/share/url?url=https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F&amp;text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os" rel="noopener nofollow" target="_blank">Telegram</a><a class="x" href="https://x.com/intent/post?text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os&amp;url=https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">X</a><a class="bs" href="https://bsky.app/intent/compose?text=Karl%20Bushby%20concluye%20en%20Gran%20Breta%C3%B1a%20una%20caminata%20global%20de%2028%20a%C3%B1os%20https%3A%2F%2Fpuntociegoglobal.pages.dev%2Fnoticias%2Fkarl-bushby-concluye-gran-bretana-caminata-i6qg%2F" rel="noopener nofollow" target="_blank">Bluesky</a><button type="button" data-url="https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/" onclick="var b=this;try{navigator.clipboard.writeText(b.getAttribute('data-url')).then(function(){b.textContent='¡Copiado!'})}catch(e){}">Copiar enlace</button></div>
   <section class="sources"><h2>Fuentes consultadas</h2><ul><li><a href="https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html" rel="nofollow noopener" target="_blank">Clarín</a>: La increíble historia de Karl Bushby: regresó a su casa después de caminar 28 años por todo el mundo</li><li><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQSFdrWDJLREJkMWdXMWE0RzVoZjY5Ymx6Z3p2b0M2bDVPd3NsOFFocjhEcDhaaHJXa2hnUFZzRjVGVWpwYzM3S1hxVGRIVU1hZU1JSXhGbWtBMll1cGdlSVRpU01FcDNyT2JiUXI5MUZJemZMNXhnT0JuYVBWaDhRZzBGaHRaRVJoM0hJX3RwbksySUhCUmhWZ2NqdENoMWtVX2hyMl80dF9xYV9KWXdHUzJ0emY5OTdPZmpUNA?oc=5" rel="nofollow noopener" target="_blank">Clarin.com</a>: La increíble historia de Karl Bushby: regresó a su casa después de caminar 28 años por todo el mundo</li><li><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMTBxTkNSWmhxeFQtSFFpRWNEQURmVUJjaXYwSTg4bDk2OVYxb0x1ZldFS1c4bDcwRldfTjVwMHNPZV84WlhBeUxPMThpcU5hVDNaNFduVF8tWnUtUnBvRWo5RE1ETjBFc09DY2k0WjZDb2tZVEoxaVNIMFh5SUh0bDJHZk1yd19RR3JualZyVXFmTEZMYnFKNEdtRmdyR3YwV3NYb2RnQUQ5STRJYzVkMW0wUnZDS1ZlaENMSXRQYTJMMUlnVEQwSzFFb3ZuMXJ5ZmJv?oc=5" rel="nofollow noopener" target="_blank">Chicago Tribune</a>: En 28 años caminando, Karl Bushby superó selva, desierto y burocracia. Está a punto de llegar a casa</li><li><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNRHkwTGlmeUJGR3FVOGplV1A0aHZVSWoxenlJQndndHhrX0RJSjdZNnlpdmxOV21YTlZfNjJXMThfaUxPbUtzczdXcG84d0Z5WXZMaG5BcVZUVGtIOXlaM1E0ZEN2OVlFUTNGSHRTSERqVk9Ed19sbHhIamxBZ3JWbERPTdIBgwFBVV95cUxQR1o1SURwby11c3pLamJ0X0FFcW11TGw2X0dNSy1uY0ZjUW5WajI0dl9GelYxdUF3M003OE1XMUJCLTFoMXhPcC0xZmRjd1ZWRGEzblFHOV9XbW9nY0hMRGxMaVQ1TWQtamswTXd3M1Vkc2RoRGdXUVJiQndNRDEzSnJrNA?oc=5" rel="nofollow noopener" target="_blank">El Mundo</a>: Karl Bushby regresa a casa tras una vuelta al mundo caminando de 28 años, cuatro continentes y 50.000 kilómetros</li><li><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdEVlUUV5MVhYd19qYTVHYkxUNlJtdWRQdFRTUlV6THhha3BhNVY0Ujg3LUp2ZXVDNEQ3eXNYUWl3Tm15RVNHcU9Sdm5SeURIZW9JX3ROSzJlQTVWVUdObVdTU1pxbG1HTk5Sb01XUFRXTjBzNi10azA2bmRWeFozaWxnZ1ZxM1FFQVFR?oc=5" rel="nofollow noopener" target="_blank">UDG TV</a>: Aventurero británico completa la vuelta al mundo a pie tras 28 años</li></ul></section>
   <div class="tags"><span>Karl Bushby</span><span>Hull</span><span>Fronteras</span><span>Geopolítica</span><span>Reino Unido</span><span>Migración</span></div>
   
   
-  <section class="related"><h2>Te puede interesar</h2><div class="grid"><div class="card"><a href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/"><img src="../../img/crisis-vivienda-portugal-desata-tormenta-politica-oau3.jpg" alt="" loading="lazy" width="1200" height="630"><div class="kicker" style="margin-top:10px">Poder &amp; Sociedad</div><h3>La crisis de la vivienda en Portugal desata una tormenta política tras la represión policial</h3></a><p>La intervención contra acampadas pacíficas este fin de semana ha dejado decenas de heridos, avivando el descontento en el país de la Unión Europea donde más se ha encarecido la vivienda.</p></div><div class="card"><a href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/"><img src="../../img/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp.jpg" alt="" loading="lazy" width="1200" height="630"><div class="kicker" style="margin-top:10px">Seguridad &amp; Defensa</div><h3>Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables</h3></a><p>Un ciberataque simultáneo en siete países europeos elevó la temperatura de los congeladores comerciales hasta destruir millones de euros en alimentos, dejando al descubierto los peligros de la automatización remota.</p></div><div class="card"><a href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/"><img src="../../img/dilema-memoria-ram-centralizacion-poder-computo-j4of.jpg" alt="" loading="lazy" width="1200" height="630"><div class="kicker" style="margin-top:10px">Tecnología &amp; IA</div><h3>El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI</h3></a><p>Sam Altman cuestiona la eficiencia de mantener memoria DRAM inactiva en equipos personales frente a la escasez global. Detrás de los argumentos de optimización se vislumbra la defensa del modelo de negocio en la nube.</p></div></div></section>
+  <a class="next" href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/"><span class="thumb" href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/" tabindex="-1" aria-hidden="true"><img src="../../img/dilema-memoria-ram-centralizacion-poder-computo-j4of-foto.jpg" alt="" loading="lazy" width="1200" height="675"><span class="badge-video">VIDEO</span></span><div><div class="lbl">Siguiente noticia →</div><h3>El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI</h3></div></a>
+  <section class="related"><div class="sec-title"><h2>Te puede interesar</h2></div><div class="grid g3"><article class="card"><a class="thumb" href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/" tabindex="-1" aria-hidden="true"><img src="../../img/crisis-vivienda-portugal-desata-tormenta-politica-oau3.jpg" alt="" loading="lazy" width="1200" height="675"><span class="badge-video">VIDEO</span></a><a class="kicker" href="../../categoria/poder-y-sociedad/">Poder &amp; Sociedad</a><h3><a href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/">La crisis de la vivienda en Portugal desata una tormenta política tras la represión policial</a></h3><div class="meta"><time datetime="2026-11-02T15:16:09.496Z" data-rel>2 de nov, 10:16 a. m.</time></div></article><article class="card"><a class="thumb" href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/" tabindex="-1" aria-hidden="true"><img src="../../img/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp-foto.jpg" alt="" loading="lazy" width="1200" height="675"></a><a class="kicker" href="../../categoria/seguridad-y-defensa/">Seguridad &amp; Defensa</a><h3><a href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/">Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables</a></h3><div class="meta"><time datetime="2026-11-02T16:23:37.529Z" data-rel>2 de nov, 11:23 a. m.</time></div></article><article class="card"><a class="thumb" href="../../noticias/futuros-wall-street-repuntan-tras-octubre-fim9/" tabindex="-1" aria-hidden="true"><img src="../../img/futuros-wall-street-repuntan-tras-octubre-fim9-foto.jpg" alt="" loading="lazy" width="1200" height="675"></a><a class="kicker" href="../../categoria/economia-global/">Economía Global</a><h3><a href="../../noticias/futuros-wall-street-repuntan-tras-octubre-fim9/">Los futuros de Wall Street repuntan tras un octubre bajista entre la pausa de la inteligencia artificial y la caída del petróleo</a></h3><div class="meta"><time datetime="2026-11-02T15:23:30.007Z" data-rel>2 de nov, 10:23 a. m.</time></div></article></div></section>
 </article>
-<aside><div class="sticky">
-  <div class="side-box"><h2>Lo último</h2><ol><li><a href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/">Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables</a></li><li><a href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/">El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI</a></li><li><a href="../../noticias/futuros-wall-street-repuntan-tras-octubre-fim9/">Los futuros de Wall Street repuntan tras un octubre bajista entre la pausa de la inteligencia artificial y la caída del petróleo</a></li><li><a href="../../noticias/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f/">Irán condiciona la reapertura del estrecho de Ormuz a la aceptación de exigencias por parte de Washington</a></li><li><a href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/">La crisis de la vivienda en Portugal desata una tormenta política tras la represión policial</a></li><li><a href="../../noticias/paradoja-ormuz-crudo-roza-118-dolares-ep7k/">La paradoja de Ormuz: por qué el crudo roza los 118 dólares con más barcos navegando</a></li></ol></div>
+<aside><div class="sticky" style="padding-top:26px">
+  <div class="box"><h2>Lo último</h2><a class="mini" href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/"><span class="thumb" href="../../noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/" tabindex="-1" aria-hidden="true"><img src="../../img/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp-foto.jpg" alt="" loading="lazy" width="1200" height="675"></span><div><h3>Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables</h3><div class="meta"><time datetime="2026-11-02T16:23:37.529Z" data-rel>2 de nov, 11:23 a. m.</time></div></div></a><a class="mini" href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/"><span class="thumb" href="../../noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/" tabindex="-1" aria-hidden="true"><img src="../../img/dilema-memoria-ram-centralizacion-poder-computo-j4of-foto.jpg" alt="" loading="lazy" width="1200" height="675"><span class="badge-video">VIDEO</span></span><div><h3>El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI</h3><div class="meta"><time datetime="2026-11-02T15:44:04.999Z" data-rel>2 de nov, 10:44 a. m.</time></div></div></a><a class="mini" href="../../noticias/futuros-wall-street-repuntan-tras-octubre-fim9/"><span class="thumb" href="../../noticias/futuros-wall-street-repuntan-tras-octubre-fim9/" tabindex="-1" aria-hidden="true"><img src="../../img/futuros-wall-street-repuntan-tras-octubre-fim9-foto.jpg" alt="" loading="lazy" width="1200" height="675"></span><div><h3>Los futuros de Wall Street repuntan tras un octubre bajista entre la pausa de la inteligencia artificial y la caída del petróleo</h3><div class="meta"><time datetime="2026-11-02T15:23:30.007Z" data-rel>2 de nov, 10:23 a. m.</time></div></div></a><a class="mini" href="../../noticias/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f/"><span class="thumb" href="../../noticias/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f/" tabindex="-1" aria-hidden="true"><img src="../../img/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f-foto.jpg" alt="" loading="lazy" width="1200" height="675"></span><div><h3>Irán condiciona la reapertura del estrecho de Ormuz a la aceptación de exigencias por parte de Washington</h3><div class="meta"><time datetime="2026-11-02T15:23:05.208Z" data-rel>2 de nov, 10:23 a. m.</time></div></div></a><a class="mini" href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/"><span class="thumb" href="../../noticias/crisis-vivienda-portugal-desata-tormenta-politica-oau3/" tabindex="-1" aria-hidden="true"><img src="../../img/crisis-vivienda-portugal-desata-tormenta-politica-oau3.jpg" alt="" loading="lazy" width="1200" height="675"><span class="badge-video">VIDEO</span></span><div><h3>La crisis de la vivienda en Portugal desata una tormenta política tras la represión policial</h3><div class="meta"><time datetime="2026-11-02T15:16:09.496Z" data-rel>2 de nov, 10:16 a. m.</time></div></div></a><a class="mini" href="../../noticias/paradoja-ormuz-crudo-roza-118-dolares-ep7k/"><span class="thumb" href="../../noticias/paradoja-ormuz-crudo-roza-118-dolares-ep7k/" tabindex="-1" aria-hidden="true"><img src="../../img/paradoja-ormuz-crudo-roza-118-dolares-ep7k-foto.jpg" alt="" loading="lazy" width="1200" height="675"></span><div><h3>La paradoja de Ormuz: por qué el crudo roza los 118 dólares con más barcos navegando</h3><div class="meta"><time datetime="2026-11-02T14:16:29.528Z" data-rel>2 de nov, 9:16 a. m.</time></div></div></a></div>
   
 </div></aside>
 </div></main>
 <footer><div class="wrap">
-<nav aria-label="Información"><a href="../../quienes-somos/">Quiénes somos</a><a href="../../contacto/">Contacto</a><a href="../../aviso-legal/">Aviso legal</a><a href="../../privacidad/">Privacidad</a><a href="../../cookies/">Cookies</a><a href="../../rss.xml">RSS</a></nav>
-<nav aria-label="Redes"><a href="https://www.facebook.com/profile.php?id=1418440394683304" rel="noopener" target="_blank">Facebook</a><a href="https://www.instagram.com/puntociego.glob/" rel="noopener" target="_blank">Instagram</a><a href="https://bsky.app/profile/puntociegoglobal.bsky.social" rel="noopener" target="_blank">Bluesky</a><a href="https://www.linkedin.com/company/146916345" rel="noopener" target="_blank">LinkedIn</a><a href="https://x.com/PuntoCiegoGlob" rel="noopener" target="_blank">X</a></nav>
-© 2026 Punto Ciego · Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder: lo que los titulares no cuentan.<br>Piezas elaboradas con asistencia de inteligencia artificial a partir de las fuentes citadas en cada artículo.
+<div class="cols3">
+<div><div class="logo">Punto <span>Ciego</span></div><p>Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder: lo que los titulares no cuentan.</p></div>
+<div><h4>Secciones</h4><nav aria-label="Secciones"><a href="../../categoria/geopolitica/">Geopolítica</a><a href="../../categoria/economia-global/">Economía Global</a><a href="../../categoria/tecnologia-y-ia/">Tecnología &amp; IA</a><a href="../../categoria/seguridad-y-defensa/">Seguridad &amp; Defensa</a><a href="../../categoria/poder-y-sociedad/">Poder &amp; Sociedad</a></nav></div>
+<div><h4>Información</h4><nav aria-label="Información"><a href="../../quienes-somos/">Quiénes somos</a><a href="../../contacto/">Contacto</a><a href="../../aviso-legal/">Aviso legal</a><a href="../../privacidad/">Privacidad</a><a href="../../cookies/">Cookies</a><a href="../../rss.xml">RSS</a></nav><h4 style="margin-top:18px">Síguenos</h4><nav aria-label="Redes"><a href="https://www.facebook.com/profile.php?id=1418440394683304" rel="noopener" target="_blank">Facebook</a><a href="https://www.instagram.com/puntociego.glob/" rel="noopener" target="_blank">Instagram</a><a href="https://bsky.app/profile/puntociegoglobal.bsky.social" rel="noopener" target="_blank">Bluesky</a><a href="https://www.linkedin.com/company/146916345" rel="noopener" target="_blank">LinkedIn</a><a href="https://x.com/PuntoCiegoGlob" rel="noopener" target="_blank">X</a></nav></div>
+</div>
+<div class="legal">© 2026 Punto Ciego. Piezas elaboradas con asistencia de inteligencia artificial a partir de las fuentes citadas en cada artículo.</div>
 </div></footer>
 
+<script>(function(){var n=Date.now();document.querySelectorAll('time[data-rel]').forEach(function(t){var d=(n-new Date(t.getAttribute('datetime')).getTime())/6e4;if(isNaN(d)||d<0)return;t.textContent=d<1?'Ahora':d<60?'Hace '+Math.round(d)+' min':d<1440?'Hace '+Math.round(d/60)+' h':d<2880?'Ayer':t.textContent})})();</script>
 </body>
 </html>

@@ -56,3 +56,4 @@ next-env.d.ts
 .wrangler/
 /dist/
 /storage/.rebuild-site.js
+/storage/.site-backfill.js

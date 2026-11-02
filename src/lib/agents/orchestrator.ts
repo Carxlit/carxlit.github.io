@@ -6,6 +6,7 @@ import { runVisualEngine } from './visual-engine';
 import { generateInstagramCardImage } from '@/lib/news/card-generator';
 import { withSourceCredit } from '@/lib/news/post-links';
 import { decodeHtmlEntities } from '@/lib/news/article-image';
+import { findNewsVideo } from '@/lib/news/news-video';
 
 export interface PipelineOptions {
   skipImageGeneration?: boolean;
@@ -48,6 +49,11 @@ export async function runEditorialPipeline(
   console.log('[Pipeline] Ejecutando Mesa Editorial (Director + Redactor Omnicanal + Artículo)...');
   const { brief: editorialBrief, copies, article: fullArticle, video: videoScript } = await runEditorialDesk(article, researchDossier);
 
+  // Video real del hecho: si el titular original no lo encontró, se prueba con el del artículo (más concreto)
+  const sourceVideo =
+    researchDossier.video ||
+    (fullArticle.title && fullArticle.title !== article.title ? await findNewsVideo(fullArticle.title).catch(() => undefined) : undefined);
+
   // Construcción del objeto preliminar de noticia procesada
   const processed: ProcessedNews = {
     id: article.id || Math.random().toString(36).substring(2, 10),
@@ -67,6 +73,7 @@ export async function runEditorialPipeline(
     article: fullArticle,
     videoScript,
     rawImageUrl: realPhotoUrl,
+    sourceVideo,
     status: 'pending',
     createdAt: new Date().toISOString(),
   };
