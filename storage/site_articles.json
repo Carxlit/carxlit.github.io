@@ -1,5 +1,100 @@
 [
   {
+    "slug": "anemico-repunte-economico-chile-expone-fracturas-ybsu",
+    "path": "noticias/anemico-repunte-economico-chile-expone-fracturas-ybsu/",
+    "title": "El anémico repunte económico de Chile expone fracturas en la producción industrial",
+    "headline": "ECONOMÍA CHILENA REGISTRA ANÉMICO AVANCE DE 0,2% EN SEPTIEMBRE",
+    "dek": "El avance del 0,2% en septiembre interrumpió dos meses de contracción económica en Chile. Sin embargo, el desplome industrial y el freno minero cuestionan la solidez del resultado.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "TradingView",
+    "image": "img/anemico-repunte-economico-chile-expone-fracturas-ybsu.jpg",
+    "publishedAt": "2026-11-02T12:27:21.087Z",
+    "article": {
+      "slug": "anemico-repunte-economico-chile-expone-fracturas-ybsu",
+      "title": "El anémico repunte económico de Chile expone fracturas en la producción industrial",
+      "dek": "El avance del 0,2% en septiembre interrumpió dos meses de contracción económica en Chile. Sin embargo, el desplome industrial y el freno minero cuestionan la solidez del resultado.",
+      "keyFacts": [
+        "El Banco Central de Chile informó que el Índice Mensual de Actividad Económica (Imacec) subió un 0,2% interanual en septiembre.",
+        "El resultado cortó una racha de dos meses consecutivos de caídas en la actividad económica nacional, según datos recopilados por ADN Radio y TradingView.",
+        "La producción industrial sufrió un retroceso de 2,7% interanual, según reportó Zona Zero, arrastrada por la debilidad en la minería del cobre.",
+        "El comercio electrónico registró una expansión del 20,2% en el mismo periodo, mientras que las ventas de supermercados crecieron un 0,4%."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó la entidad emisora a través de canales de información financiera como TradingView y MarketScreener España, la economía chilena registró un crecimiento del 0,2% en su Índice Mensual de Actividad Económica (Imacec) durante el mes de septiembre en comparación con el mismo periodo del año anterior.",
+            "El informe del Banco Central representa la ruptura de una tendencia a la baja registrada durante los dos meses previos, donde la actividad se mantuvo en números rojos. La cobertura de medios locales como ADN Radio destacó este avance como el fin de la racha negativa de la economía nacional en el tercer trimestre del año."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Detrás del indicador global se observa un comportamiento marcadamente heterogéneo entre los sectores de la producción y el consumo. De acuerdo con el reporte del portal especializado Zona Zero, la actividad industrial chilena cayó un 2,7% en septiembre, arrastrada directamente por el menor rendimiento en la minería del cobre, el principal motor exportador del país.",
+            "En el frente del consumo interno, la dinámica exhibe distorsiones sectoriales marcadas. Las ventas del comercio electrónico mostraron un crecimiento del 20,2% interanual, sostenidas por hábitos de compra digitales, mientras que las ventas de supermercados —indicador clave del consumo de bienes básicos y de primera necesidad— experimentaron un avance marginal de 0,4%."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de Punto Ciego revela que el repunte del 0,2% en el Imacec ofrece un alivio estadístico pero ignora el deterioro de las bases productivas de la economía chilena. Celebrar la salida de los números rojos desvía la atención sobre la pérdida de impulso en el sector industrial extractivo, cuya caída del 2,7% golpea directamente los ingresos del Estado y el flujo de divisas.",
+            "Asimismo, la brecha entre el consumo de plataformas de comercio electrónico y el estancamiento de las ventas físicas en supermercados no refleja un repunte genuino de la capacidad de compra del ciudadano medio. En lugar de una reactivación equilibrada, los datos señalan un reajuste forzado de los presupuestos familiares y una dependencia de consumo puntual que no contrarresta la parálisis de los sectores industriales clave."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el corto plazo, las plataformas de comercio digital capturan valor en un entorno de transformación minorista, capitalizando el crecimiento del 20,2% en sus operaciones. De igual forma, el Ejecutivo y el Banco Central ganan espacio político al presentar cifras que quiebran la tendencia de contracción trimestral.",
+            "Los sectores perjudicados se concentran en la producción real. La minería del cobre y la industria manufacturera absorben el impacto directo de la contracción, perdiendo terreno productivo. Paralelamente, el comercio minorista tradicional y la cadena de suministros de bienes esenciales ven estancados sus volúmenes de venta con un incremento de apenas 0,4%."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El elemento determinante en los próximos trimestres será la capacidad de la minería del cobre para revertir el sesgo negativo y recuperar volumen extractivo. Sin una reactivación firme del sector industrial, el crecimiento del PIB chileno continuará expuesto a oscilaciones de bajo impacto.",
+            "También resultará clave dar seguimiento al comportamiento de las ventas minoristas de primera necesidad. Si la brecha entre el consumo electrónico y las ventas presenciales de supermercados se amplía, confirmará que el consumo básico de la población enfrenta tensiones estructurales que el indicador general del Imacec no alcanza a reflejar."
+          ]
+        }
+      ],
+      "tags": [
+        "Chile",
+        "Imacec",
+        "Banco Central",
+        "Minería",
+        "Comercio"
+      ],
+      "sources": [
+        {
+          "name": "TradingView",
+          "title": "Economía chilena sube 0,2% interanual en septiembre: Banco Central",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DNm9qNVdlLW1YSGdFa0tKNWgwTXdjZWdQcU1FR3k5Ym5XWElqQkZWTXBIelExQWRoMGFGSzNUeXEzQy1aWkZUczBOdmFLcGd3V2NhczJ6ZExQZ0JZTzQ3dDhhVWRQaDd1QmFLTk9aTjBWaEVMSVVJ?oc=5"
+        },
+        {
+          "name": "MarketScreener España",
+          "title": "Economía chilena sube 0,2% interanual en septiembre: Banco Central",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVkt3T3JHVVZxOWlRWnlqU3BNeWJWSmx0OHpyUXlDek51RlpGZDdyUU5FajJFTHcyZnlENngwSks4TjR5LUlWVk45YWlDM0hrR0xQUlNrYUs5SjZQbHp6WldqeWtwT21GTXF5azZEeFdOcHZuZ0hHSktBN19DV1ZSekVEV0ZTV2daUUo2dDJZdnNzaGx6aU00ZnEyQ3h5T0FZTzFNTmktUUlDZnI3RV8wMUQwd251SzYtTDVMaQ?oc=5"
+        },
+        {
+          "name": "ADN Radio",
+          "title": "Imacec vuelve a crecer en Chile: actividad sube 0,2% en septiembre y rompe dos meses de caídas",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMjdkUGRyUy1fbmMza01OY2JPUy1BRDBSTGl5R3FiTHhzRGdVdDJJaXVjWmVhaVlSb2UxaUVOTWlla0hGMk9JSkNXVFlwY2Q0aDJVbDA1RE1WRTJORFFTSjBfQXV5eVJ3NHE2M0VyN25Ha25yZEdteTAxeWxPbVh2TlhPaXgxX1g1SWR5cVlMZEZUdWFnZjRJYkVsWFlMeHhJYzdMMFk5NDFlUXZuR2RRc1JTNE5nanhiRjBUcVExcFNkUWszV3fSAdoBQVVfeXFMT1NHbzY1X3hhOXNFalR1SGVfUExJVGlkSk11WU82RUE4TVR2V2k1WDFLMjMwT3JGV0ZKV2JkdW9iemlmNl94endOdTJXU2tLWnNhYjZMZEpSSTNiV0FxU3NUUmd0bzBuTU0wT3RUT2huRUlXRkw5bllaMlJ6d29NUmFIbnNtXzkySVBvYXRCZlJvOUc2Y3ZoZFRzOWd3Q011RzRPcDNURlFRaGVSSnp5U20wNzk1d09hUlRGb1ZrWjFKLXdKTDBHLWEzRTR2ZEZaUlB0MWNHaG4wSFE?oc=5"
+        },
+        {
+          "name": "https://zonazero.cl/",
+          "title": "La industria chilena cae 2,7% y la minería del cobre arrastra la actividad económica",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUdKLTBBYThJZ2Z5bjNOaHh6WXJfXzQ3VU15OWI0Q1RESWx0cnNfcDhXTUVSbXAtWU0wTmlfNml2RGhUUW53SzV3aTVwN2Y1TGRJZ0RfMy1oQnBTR0dFQkZWRUt4eFJkYXpJeGM0ZEMweGpQQzc5dU1McndWM0xsVVBYTjNlbTRjVE5jQ1RDLXhmTC13VTJYQlJXcklZcndOZXk4QXZzLUxFd2gwWXdmZQ?oc=5"
+        },
+        {
+          "name": "https://zonazero.cl/",
+          "title": "Comercio electrónico crece 20,2% en Chile mientras las ventas de supermercados apenas avanzan 0,4%",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzc5UkpjeUlpWUZWSEVyVmZBS0lfUnNva1pGRkRVR25XY2QzTm01VHNFUFVuZTNFOHM0TWJ5ZnZCdE16TXVySjZKaWtZSllRUVZncFk2UFcxbWE0aTNnQlVPNDJheWdmbkx3YWJfX0hVbUZ2NFJVbDNiR2J6UnlyVnRFUm1PWTE3SXVERFBsRndzSnNFMmpuaGZoRDBXU0FGZ0FQSEtPa1lYbFhfdExTSU0ySFUzcGNWMWptVFpuUQ?oc=5"
+        }
+      ],
+      "wordCount": 560
+    },
+    "blindSpot": "La narrativa sobre la vuelta al crecimiento tras el dato del Imacec enmascara un estancamiento en la estructura productiva chilena. El tímido avance responde al consumo digital fragmentado mientras los sectores de mayor valor agregado y la minería del cobre experimentan una contracción directa."
+  },
+  {
     "slug": "adelanto-11-11-aliexpress-reconfiguracion-mercado-tecnologico-b3yv",
     "path": "noticias/adelanto-11-11-aliexpress-reconfiguracion-mercado-tecnologico-b3yv/",
     "title": "El adelanto del 11-11 en AliExpress y la reconfiguración del mercado tecnológico",

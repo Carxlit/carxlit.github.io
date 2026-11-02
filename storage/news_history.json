@@ -9,9 +9,35 @@
     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdm5rSjRmQ1E4cHJ6d05CLUJDRmxpeWxSMXVFTU9DemZqbUl0M2szMGx0UjNRN0p6Y2NIRVVHR2pNdU4zdTRjaWtQMEE2NUkwSTFrY2o0X3hoMGYzcXA3SkJsbm1POEZBYm50V3JsQXNMdEpyRk5iWlk3cE9sUVJxcFo0WnZNcjBzNVpOQWk3bHRzd0NVZTdHRWllTFIxbHU4MGNfYmU1aFpkUkdTZ2lTc3hwQ0lNb0lpUzhvYXFuUXppakdUbGhlbg?oc=5",
     "https://www.infobae.com/estados-unidos/2026/11/01/reportan-una-fuerte-explosion-en-west-palm-beach-las-autoridades-investigan-la-causa/",
     "https://theconversation.com/las-cuatro-preguntas-que-debe-hacerse-europa-despues-de-las-elecciones-de-medio-mandato-estadounidenses-295581",
-    "https://www.xataka.com/seleccion/nintendo-switch-2-314-euros-playstation-5-410-euros-11-11-aliexpress-da-pistoletazo-salida"
+    "https://www.xataka.com/seleccion/nintendo-switch-2-314-euros-playstation-5-410-euros-11-11-aliexpress-da-pistoletazo-salida",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DNm9qNVdlLW1YSGdFa0tKNWgwTXdjZWdQcU1FR3k5Ym5XWElqQkZWTXBIelExQWRoMGFGSzNUeXEzQy1aWkZUczBOdmFLcGd3V2NhczJ6ZExQZ0JZTzQ3dDhhVWRQaDd1QmFLTk9aTjBWaEVMSVVJ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ECONOMÍA CHILENA REGISTRA ANÉMICO AVANCE DE 0,2% EN SEPTIEMBRE",
+      "normalizedTokens": [
+        "economia",
+        "chilena",
+        "registra",
+        "anemico",
+        "avance",
+        "septiembre"
+      ],
+      "date": "2026-11-02T12:27:21.109Z"
+    },
+    {
+      "title": "Economía chilena sube 0,2% interanual en septiembre: Banco Central",
+      "normalizedTokens": [
+        "economia",
+        "chilena",
+        "sube",
+        "interanual",
+        "septiembre",
+        "banco",
+        "central"
+      ],
+      "date": "2026-11-02T12:27:21.109Z"
+    },
     {
       "title": "EL GIGANTE ALIEXPRESS ADELANTA SU CAMPAÑA GLOBAL DE DESCUENTOS TECNOLÓGICOS",
       "normalizedTokens": [
