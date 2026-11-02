@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import { runFullNewsroomAudit } from '../src/lib/agents/newsroom-auditor';
 import { runAutonomousNewsroomCycle, getAutonomousConfig } from '../src/lib/agents/autonomous-newsroom';
-import { getPublicationQueue, dispatchDueItems } from '../src/lib/agents/queue-dispatcher';
+import { getPublicationQueue, dispatchDueItems, forcePublishQueuedItem, makeDueNow } from '../src/lib/agents/queue-dispatcher';
 import { waitUntilLive } from '../src/lib/site/static-site';
 
 /** Tarjetas de más de N días que ya no están en cola: el sitio guarda su propia copia en site/img */
@@ -90,6 +90,8 @@ const queuedItems = () => getPublicationQueue().filter((i) => i.status === 'queu
  * para que el post salga con el enlace. Si algo vence en menos de 25 min, lo espera.
  */
 async function dispatchPhase() {
+  await publishForcedItems();
+
   const next = queuedItems()
     .map((i) => new Date(i.scheduledFor).getTime())
     .filter((t) => Number.isFinite(t))
@@ -123,6 +125,62 @@ async function dispatchPhase() {
   }
   console.log(`[CLOUD] Publicaciones enviadas a las redes: ${total}`);
   appendSummary(total ? `**📤 Publicadas en redes en este ciclo:** ${total}` : '');
+}
+
+/** Historias que se publican YA sin pasar por el espaciado: urgencias y las extra pedidas a mano */
+const FORCE_FILE = path.join(process.cwd(), 'storage', 'force_publish.json');
+
+async function publishForcedItems() {
+  let forcedIds: string[] = [];
+  try {
+    forcedIds = JSON.parse(fs.readFileSync(FORCE_FILE, 'utf8'));
+  } catch {
+    // Sin publicaciones manuales pendientes
+  }
+  const now = Date.now();
+  const forced = queuedItems().filter(
+    (i) => (i.isBreaking || forcedIds.includes(i.id)) && new Date(i.scheduledFor).getTime() <= now
+  );
+  // Las urgencias primero
+  forced.sort((a, b) => Number(Boolean(b.isBreaking)) - Number(Boolean(a.isBreaking)));
+  for (const item of forced) {
+    if (item.news.articleUrl) {
+      const live = await waitUntilLive(item.news.articleUrl, LIVE_WAIT_MS);
+      console.log(`[CLOUD] Artículo ${live ? 'en línea' : 'AÚN NO responde (saldrá sin enlace)'}: ${item.news.articleUrl}`);
+    }
+    const done = await forcePublishQueuedItem(item.id);
+    console.log(`[CLOUD] ${item.isBreaking ? 'URGENCIA' : 'Publicación manual'} enviada: "${item.news.headline}" → ${done?.status}`);
+  }
+  if (forcedIds.length) {
+    try {
+      fs.unlinkSync(FORCE_FILE);
+    } catch {
+      // Ya no existía
+    }
+  }
+  if (forced.length) appendSummary(`**⚡ Publicadas al instante:** ${forced.length}`);
+}
+
+/** Producción manual de historias extra (workflow_dispatch con historias_extra > 0), sin topes de cola ni cupo */
+async function produceExtraStories(count: number) {
+  const ids: string[] = [];
+  for (let i = 0; i < count; i++) {
+    const r = await runAutonomousNewsroomCycle({
+      ...getAutonomousConfig(),
+      maxPendingInQueue: 99,
+      maxDailyPosts: 99,
+      activeHoursStart: 0,
+      activeHoursEnd: 24,
+    });
+    console.log(`[CLOUD] Historia extra ${i + 1}/${count}: ${r.actionTaken} -> ${r.message}`);
+    if (r.actionTaken === 'queued_new' && r.queuedItem) ids.push(r.queuedItem.id);
+    if (r.actionTaken === 'breaking_emergency_published' && r.queuedItem) ids.push(r.queuedItem.id);
+    if (r.actionTaken === 'ai_unavailable' || r.actionTaken === 'error') break;
+  }
+  if (ids.length) {
+    makeDueNow(ids);
+    fs.writeFileSync(FORCE_FILE, JSON.stringify(ids));
+  }
 }
 
 function appendSummary(text: string) {
@@ -173,6 +231,9 @@ async function main() {
   console.log(`[CLOUD] Hoy: ${r.totalToday}/${r.maxDailyPosts} (publicadas ${r.publishedToday}, en cola ${r.pendingInQueue})`);
 
   writeRunSummary(result, auditLine);
+
+  const extra = Math.max(0, Math.min(3, Math.floor(Number(process.env.EXTRA_STORIES || 0))));
+  if (extra > 0) await produceExtraStories(extra);
 
   if (PHASE === 'all') await dispatchPhase();
 

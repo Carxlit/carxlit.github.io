@@ -402,6 +402,17 @@ export function cancelQueuedPublication(id: string): boolean {
 /**
  * Fuerza el despacho inmediato de un elemento en cola saltando el jitter
  */
+/** Deja estos ítems en cola como vencidos ya (publicación manual de prueba desde GitHub) */
+export function makeDueNow(ids: string[]) {
+  if (ids.length === 0) return;
+  const now = new Date().toISOString();
+  const queue = getPublicationQueue();
+  for (const item of queue) {
+    if (ids.includes(item.id) && item.status === 'queued') item.scheduledFor = now;
+  }
+  savePublicationQueue(queue);
+}
+
 export async function forcePublishQueuedItem(
   id: string,
   credentials?: DispatcherCredentials

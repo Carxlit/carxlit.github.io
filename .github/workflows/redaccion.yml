@@ -8,6 +8,11 @@ on:
     # Minutos "raros": en :00/:15/:30/:45 GitHub está saturado y descarta ejecuciones programadas
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
+    inputs:
+      historias_extra:
+        description: 'Historias nuevas extra para publicar YA (0-3), sin topes de cola ni cupo'
+        required: false
+        default: '0'
 
 permissions:
   contents: write
@@ -73,6 +78,8 @@ jobs:
       # 1) Producir: escribe la historia y su artículo; lo nuevo queda en cola SIN publicar
       - name: Ciclo de redacción
         run: npm run cloud:build --silent && node dist/cloud-run.js produce
+        env:
+          EXTRA_STORIES: ${{ github.event.inputs.historias_extra || '0' }}
 
       - name: Guardar estado en el repositorio
         id: estado
