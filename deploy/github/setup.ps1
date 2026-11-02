@@ -125,8 +125,12 @@ $secrets = [ordered]@{
   # Opcionales (canales extra)
   LINKEDIN_WEBHOOK_URL         = $envMap['LINKEDIN_WEBHOOK_URL']
   MASTODON_TOKEN               = $envMap['MASTODON_TOKEN']
+  # IAs de respaldo gratis (entran cuando Gemini se queda sin cuota) y chat del reporte diario
+  GROQ_API_KEY                 = $envMap['GROQ_API_KEY']
+  MISTRAL_API_KEY              = $envMap['MISTRAL_API_KEY']
+  TELEGRAM_REPORT_CHAT_ID      = $envMap['TELEGRAM_REPORT_CHAT_ID']
 }
-$optional = @('LINKEDIN_WEBHOOK_URL', 'MASTODON_TOKEN')
+$optional = @('LINKEDIN_WEBHOOK_URL', 'MASTODON_TOKEN', 'GROQ_API_KEY', 'MISTRAL_API_KEY', 'TELEGRAM_REPORT_CHAT_ID')
 # Sin esto, PowerShell 5.1 antepone un BOM (U+FEFF) al valor que recibe gh por la entrada estándar
 $OutputEncoding = New-Object Text.UTF8Encoding($false)
 foreach ($name in $secrets.Keys) {

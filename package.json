@@ -13,13 +13,15 @@
     "fb:token": "node scripts/fb-token.js",
     "cloud:build": "esbuild scripts/cloud-run.ts --bundle --platform=node --packages=external --outfile=dist/cloud-run.js --log-level=warning",
     "cloud:run": "npm run cloud:build --silent && node --env-file-if-exists=.env.local dist/cloud-run.js",
-    "site:login":"wrangler login",
+    "site:login": "wrangler login",
     "site:rebuild": "esbuild scripts/rebuild-site.ts --bundle --platform=node --packages=external --outfile=storage/.rebuild-site.js --log-level=warning && node --env-file=.env.local storage/.rebuild-site.js",
     "site:backfill": "esbuild scripts/site-backfill.ts --bundle --platform=node --packages=external --outfile=storage/.site-backfill.js --log-level=warning && node --env-file=.env.local storage/.site-backfill.js",
-    "site:deploy":"wrangler pages deploy site --project-name punto-ciego --branch main --commit-dirty=true"
+    "site:deploy": "wrangler pages deploy site --project-name punto-ciego --branch main --commit-dirty=true"
   },
   "dependencies": {
     "@ai-sdk/google": "^1.1.9",
+    "@ai-sdk/groq": "^1.2.9",
+    "@ai-sdk/mistral": "^1.2.8",
     "ai": "^4.1.27",
     "lucide-react": "^0.460.0",
     "next": "14.2.23",

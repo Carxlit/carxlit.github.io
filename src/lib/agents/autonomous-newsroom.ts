@@ -19,6 +19,7 @@ import { publishArticleToSite } from '@/lib/site/static-site';
 import { findNewsVideo } from '@/lib/news/news-video';
 import { resolveGoogleNewsUrl } from '@/lib/news/article-image';
 import { fetchArticlePage } from './deep-researcher';
+import { dropSemanticDuplicates } from './semantic-dedupe';
 
 const PUBLISHED_STORE_PATH = path.join(process.cwd(), 'storage', 'published_news.json');
 
@@ -235,6 +236,13 @@ function clampToActiveHours(date: Date, config: AutonomousConfig): Date {
 /**
  * Calcula la hora programada ideal para el próximo post respetando el espaciado diario
  */
+/** Franjas de más audiencia (hora local): mañana, almuerzo y noche */
+const PEAK_HOURS: [number, number][] = [
+  [7, 10],
+  [12, 14],
+  [18, 22],
+];
+
 export function calculateNextPostSchedule(config: AutonomousConfig = getAutonomousConfig()): Date {
   const now = Date.now();
   const queue = getPublicationQueue();
@@ -248,7 +256,11 @@ export function calculateNextPostSchedule(config: AutonomousConfig = getAutonomo
     .map((q) => new Date(q.publishedAt!).getTime());
   const reference = Math.max(0, ...lastQueued, ...lastPublished);
 
-  const spacingMinutes = Math.floor(config.minSpacingHours * 60) + Math.floor(Math.random() * 25);
+  // Horas pico (hora local): separación mínima; fuera de ellas, casi el doble. Así el cupo diario
+  // se concentra cuando más gente está conectada en Latinoamérica
+  const nextHour = new Date(reference + config.minSpacingHours * 3_600_000).getHours();
+  const peak = PEAK_HOURS.some(([from, to]) => nextHour >= from && nextHour < to);
+  const spacingMinutes = Math.floor(config.minSpacingHours * 60 * (peak ? 1 : 1.9)) + Math.floor(Math.random() * 25);
   const fromReference = reference + spacingMinutes * 60 * 1000;
   // Si no hay nada reciente, salir en 10-25 minutos
   const soonest = now + (Math.floor(Math.random() * 15) + 10) * 60 * 1000;
@@ -478,10 +490,19 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
   // 2. Investigar feeds (el Scout ya excluye lo visto, lo encolado y lo repetido entre medios)
   console.log('[AutonomousNewsroom] Investigando feeds internacionales...');
   const maxAgeMs = config.maxArticleAgeHours * 3_600_000;
-  const candidates = (await runNewsScout(6)).filter((c) => {
+  let candidates = (await runNewsScout(6)).filter((c) => {
     const t = new Date(c.pubDate).getTime();
     return !Number.isFinite(t) || Date.now() - t <= maxAgeMs;
   });
+
+  // 2.5 Fuera lo que ya cubrimos en las últimas 48 h aunque esté contado con otras palabras
+  if (candidates.length && (roomForBreaking || roomForRegular)) {
+    const since = Date.now() - 48 * 3_600_000;
+    const recent = getPublicationQueue()
+      .filter((q) => new Date(q.createdAt).getTime() >= since)
+      .flatMap((q) => [q.news.originalTitle, q.news.article?.title || '']);
+    candidates = await dropSemanticDuplicates(candidates, recent);
+  }
 
   // 3. PROTOCOLO DE URGENCIA MÁXIMA: urgencia muy alta, con tope diario
   const criticalEmergency = roomForBreaking

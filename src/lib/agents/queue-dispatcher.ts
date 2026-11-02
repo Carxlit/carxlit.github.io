@@ -281,10 +281,10 @@ export async function publishMissingChannels(
   }
 
   for (const ch of effective) {
-    if (results[ch]?.success) continue;
+    if (results[ch]?.success || results[ch]?.skipped) continue;
     const res = await publishToChannel(ch, newsPayload, creds);
     results[ch] = res as any;
-    if (!res.success) {
+    if (!res.success && !res.skipped) {
       lastError = `${ch}: ${res.error || 'error desconocido'}`;
       console.warn(`[QueueDispatcher] Falló ${ch}:`, res.error);
     }

@@ -152,7 +152,7 @@ export async function publishToTelegram(
     const res = await fetch(`https://api.telegram.org/bot${token}/sendPhoto`, {
       method: 'POST',
       body: formData,
-      signal: AbortSignal.timeout(30000),
+      signal: AbortSignal.timeout(60000),
     });
 
     const data = await res.json();
@@ -162,6 +162,7 @@ export async function publishToTelegram(
 
     if (!fitsInCaption) {
       const textToSend = stripTags(fullText).length <= 4000 ? fullText : escapeTelegramHtml(stripTags(fullText).slice(0, 3990)) + '…';
+      // La foto ya salió: si el memorando falla o tarda, no se falla el canal (se reenviaría la foto)
       const msgRes = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -172,9 +173,9 @@ export async function publishToTelegram(
           link_preview_options: { is_disabled: true },
           reply_parameters: { message_id: data.result?.message_id },
         }),
-        signal: AbortSignal.timeout(15000),
-      });
-      const msgData = await msgRes.json();
+        signal: AbortSignal.timeout(30000),
+      }).catch((e) => ({ ok: false, json: async () => ({ ok: false, description: e?.message }) }) as any);
+      const msgData = await msgRes.json().catch(() => ({ ok: false }));
       if (!msgRes.ok || !msgData.ok) {
         // La foto ya salió: no fallar el canal entero (provocaría reenviar la foto)
         console.warn('[Telegram] Foto enviada pero el memorando falló:', msgData.description);

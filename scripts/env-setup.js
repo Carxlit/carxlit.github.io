@@ -1,0 +1,102 @@
+/**
+ * Asistentes de configuración que escriben en .env.local (nunca muestran las claves):
+ *   node scripts/env-setup.js ia        → pide las claves gratis de Groq y Mistral (IAs de respaldo)
+ *   node scripts/env-setup.js reporte   → detecta tu chat personal con el bot para el reporte diario
+ * Después hay que correr ACTIVAR_NUBE.bat para subirlas a GitHub como secretos.
+ */
+const fs = require('fs');
+const path = require('path');
+const readline = require('readline');
+
+const ENV_PATH = path.join(process.cwd(), '.env.local');
+
+function readEnv() {
+  const map = {};
+  if (!fs.existsSync(ENV_PATH)) return map;
+  for (const line of fs.readFileSync(ENV_PATH, 'utf8').replace(/^﻿/, '').split(/\r?\n/)) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
+    if (m) map[m[1]] = m[2].replace(/^["']|["']$/g, '');
+  }
+  return map;
+}
+
+function setEnv(key, value) {
+  let text = fs.existsSync(ENV_PATH) ? fs.readFileSync(ENV_PATH, 'utf8').replace(/^﻿/, '') : '';
+  const line = `${key}=${value}`;
+  const re = new RegExp(`^\\s*${key}\\s*=.*$`, 'm');
+  text = re.test(text) ? text.replace(re, line) : `${text.replace(/\s*$/, '')}\n${line}\n`;
+  fs.writeFileSync(ENV_PATH, text);
+}
+
+const ask = (q) =>
+  new Promise((resolve) => {
+    const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+    rl.question(q, (a) => {
+      rl.close();
+      resolve(a.trim());
+    });
+  });
+
+async function setupAiKeys() {
+  console.log('\n IAs de respaldo gratis: entran solas cuando Gemini se queda sin cuota.');
+  console.log(' Deja vacío y pulsa Enter para saltar una.\n');
+  const groq = await ask(' Clave de Groq (empieza por gsk_): ');
+  if (groq) {
+    if (!/^gsk_/.test(groq)) console.log('   ⚠ No parece una clave de Groq, pero se guarda igual.');
+    setEnv('GROQ_API_KEY', groq);
+    console.log('   ✔ Groq guardada');
+  }
+  const mistral = await ask(' Clave de Mistral: ');
+  if (mistral) {
+    setEnv('MISTRAL_API_KEY', mistral);
+    console.log('   ✔ Mistral guardada');
+  }
+}
+
+async function setupReportChat() {
+  const token = (readEnv().TELEGRAM_BOT_TOKEN || '').trim();
+  if (!token) throw new Error('No hay TELEGRAM_BOT_TOKEN en .env.local');
+  const api = (method, body) =>
+    fetch(`https://api.telegram.org/bot${token}/${method}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body || {}),
+    }).then((r) => r.json());
+
+  const me = await api('getMe');
+  if (!me.ok) throw new Error(`El bot no responde: ${me.description}`);
+  console.log(`\n 1) Abre Telegram y busca tu bot: @${me.result.username}`);
+  console.log(' 2) Escríbele "/start" (o cualquier mensaje).');
+  console.log('\n Esperando tu mensaje (hasta 3 minutos)...');
+
+  const started = Math.floor(Date.now() / 1000) - 600;
+  for (let i = 0; i < 36; i++) {
+    const up = await api('getUpdates', { timeout: 5, allowed_updates: ['message'] });
+    const msg = (up.result || [])
+      .map((u) => u.message)
+      .filter((m) => m && m.chat && m.chat.type === 'private' && m.date >= started)
+      .pop();
+    if (msg) {
+      setEnv('TELEGRAM_REPORT_CHAT_ID', String(msg.chat.id));
+      await api('sendMessage', {
+        chat_id: msg.chat.id,
+        text: '✅ Listo. Aquí te llegará cada noche el reporte de Punto Ciego: lo publicado, los fallos y los avisos.',
+      });
+      console.log(`\n ✔ Chat detectado (${msg.chat.first_name || 'tú'}). Te envié un mensaje de prueba.`);
+      return;
+    }
+    await new Promise((r) => setTimeout(r, 5000));
+  }
+  throw new Error('No llegó ningún mensaje. Vuelve a intentarlo escribiéndole al bot.');
+}
+
+(async () => {
+  const mode = process.argv[2];
+  if (mode === 'ia') await setupAiKeys();
+  else if (mode === 'reporte') await setupReportChat();
+  else throw new Error('Uso: node scripts/env-setup.js ia|reporte');
+  console.log('\n Ahora se suben a GitHub (puede pedirte confirmar).');
+})().catch((e) => {
+  console.error('\n ✖', e.message);
+  process.exit(1);
+});

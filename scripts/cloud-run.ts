@@ -13,6 +13,7 @@ import { runFullNewsroomAudit } from '../src/lib/agents/newsroom-auditor';
 import { runAutonomousNewsroomCycle, getAutonomousConfig } from '../src/lib/agents/autonomous-newsroom';
 import { getPublicationQueue, dispatchDueItems, forcePublishQueuedItem, makeDueNow } from '../src/lib/agents/queue-dispatcher';
 import { waitUntilLive } from '../src/lib/site/static-site';
+import { maybeSendDailyReport } from '../src/lib/agents/daily-report';
 
 /** Tarjetas de más de N días que ya no están en cola: el sitio guarda su propia copia en site/img */
 const CARD_RETENTION_DAYS = 3;
@@ -232,6 +233,7 @@ async function main() {
   console.log(`[CLOUD] Hoy: ${r.totalToday}/${r.maxDailyPosts} (publicadas ${r.publishedToday}, en cola ${r.pendingInQueue})`);
 
   writeRunSummary(result, auditLine);
+  await maybeSendDailyReport(auditLine);
 
   const extra = Math.max(0, Math.min(5, Math.floor(Number(process.env.EXTRA_STORIES || 0))));
   if (extra > 0) await produceExtraStories(extra);

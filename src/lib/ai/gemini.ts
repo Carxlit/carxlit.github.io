@@ -1,6 +1,8 @@
 import path from 'path';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
-import { generateObject } from 'ai';
+import { createGroq } from '@ai-sdk/groq';
+import { createMistral } from '@ai-sdk/mistral';
+import { generateObject, type LanguageModelV1 } from 'ai';
 import type { z } from 'zod';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 
@@ -23,6 +25,29 @@ export const fallbackGeminiModels = (process.env.GEMINI_FALLBACK_MODELS || 'gemi
   .split(',')
   .map((m) => m.trim())
   .filter((m) => m && m !== defaultGeminiModel);
+
+const cleanKey = (v?: string) => (v || '').replace(/^﻿+/, '').trim();
+
+/**
+ * IAs de respaldo GRATIS de otros proveedores: solo se usan cuando todos los modelos de Gemini
+ * se quedan sin cuota. Se activan al poner su clave (CLAVES_IA.bat).
+ *  - Groq: Llama 3.3 70B, muy rápido, cuota diaria amplia.
+ *  - Mistral: buen español, plan gratuito.
+ */
+function backupModels(): { name: string; model: LanguageModelV1 }[] {
+  const out: { name: string; model: LanguageModelV1 }[] = [];
+  const groqKey = cleanKey(process.env.GROQ_API_KEY);
+  if (groqKey) {
+    const name = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
+    out.push({ name: `groq:${name}`, model: createGroq({ apiKey: groqKey })(name) });
+  }
+  const mistralKey = cleanKey(process.env.MISTRAL_API_KEY);
+  if (mistralKey) {
+    const name = process.env.MISTRAL_MODEL || 'mistral-small-latest';
+    out.push({ name: `mistral:${name}`, model: createMistral({ apiKey: mistralKey })(name) });
+  }
+  return out;
+}
 
 const COOLDOWN_PATH = path.join(process.cwd(), 'storage', '.ai-cooldown.json');
 /** Si todos los modelos están sin cuota, se pausa la producción este tiempo */
@@ -80,15 +105,18 @@ export async function generateObjectWithFallback<T extends z.ZodTypeAny>(args: {
     throw new AiUnavailableError(`IA en pausa por cuota agotada hasta las ${new Date(cooldown).toLocaleTimeString('es-CO')}`, cooldown);
   }
 
-  const models = [defaultGeminiModel, ...fallbackGeminiModels];
+  const models = [
+    ...[defaultGeminiModel, ...fallbackGeminiModels].map((name) => ({ name, model: google(name) as LanguageModelV1 })),
+    ...backupModels(),
+  ];
   let lastError: any;
   let allQuota = true;
 
-  for (const modelName of models) {
+  for (const { name: modelName, model } of models) {
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
         const { object } = await generateObject({
-          model: google(modelName),
+          model,
           schema: args.schema,
           system: args.system,
           prompt: args.prompt,
@@ -96,6 +124,7 @@ export async function generateObjectWithFallback<T extends z.ZodTypeAny>(args: {
           maxRetries: 0,
           abortSignal: AbortSignal.timeout(90_000),
         });
+        if (modelName.includes(':')) console.log(`[IA] ${args.label} resuelta con el respaldo ${modelName}`);
         return object as z.infer<T>;
       } catch (err: any) {
         lastError = err;
