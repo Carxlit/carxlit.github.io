@@ -131,13 +131,17 @@ export async function searchYoutube(
  * `titles`: titular original y, si hay, el del artículo (cuentan el hecho con palabras distintas).
  * `pagesHtml`: HTML del artículo original (y de otros medios si se tiene).
  */
-export async function findNewsVideo(titles: string | string[], pagesHtml: string[] = []): Promise<NewsVideo | undefined> {
+export async function findNewsVideo(
+  titles: string | string[],
+  pagesHtml: string[] = [],
+  opts: { freeOnly?: boolean } = {}
+): Promise<NewsVideo | undefined> {
   const variants = (Array.isArray(titles) ? titles : [titles]).map((t) => t?.trim()).filter(Boolean) as string[];
   if (!variants.length) return undefined;
   const matches = (videoTitle: string) => !GENERIC_VIDEO.test(videoTitle) && variants.some((t) => sameStory(t, videoTitle));
 
   // 1) Incrustados por el medio (a menudo hay videos ajenos en la barra lateral: se validan igual)
-  for (const id of pagesHtml.flatMap(findYoutubeIdsInHtml).slice(0, 6)) {
+  for (const id of opts.freeOnly ? [] : pagesHtml.flatMap(findYoutubeIdsInHtml).slice(0, 6)) {
     const info = await oembed(id);
     if (info && matches(info.title)) return { provider: 'youtube', id, title: info.title, channel: info.channel };
   }
@@ -156,6 +160,7 @@ export async function findNewsVideo(titles: string | string[], pagesHtml: string
   }
 
   // 3) Si no, cualquier video corto de esta semana que cuente lo mismo (solo para incrustarlo en el artículo)
+  if (opts.freeOnly) return undefined;
   for (const query of queries) {
     for (const r of await searchYoutube(query)) {
       if (!r.seconds || r.seconds > 15 * 60 || !matches(r.title)) continue;

@@ -276,28 +276,36 @@ export function calculateNextPostSchedule(config: AutonomousConfig = getAutonomo
 const LATAM_PATTERN = /\b(colombia|colombian[oa]s?|bogot[aá]|petro|latinoam[eé]rica|am[eé]rica latina|m[eé]xico|venezuela|argentina|brasil|chile|per[uú]|ecuador|bolivia|panam[aá]|cuba|caribe|centroam[eé]rica|mercosur|celac)\b/i;
 
 /**
- * Como selectBestDiverseArticle, pero recorre los candidatos en orden hasta dar con uno que tenga
- * video real del hecho (se busca ANTES de gastar la llamada a la IA). El video queda en el artículo.
+ * Como selectBestDiverseArticle, pero mira los primeros candidatos (en el mismo orden de prioridad) buscando
+ * uno con video LIBRE del hecho, que sale como Reel (en Instagram los Reels tienen mucho más alcance).
+ * La búsqueda se hace ANTES de gastar la llamada a la IA y solo cuesta consultas a YouTube.
+ *  - required: solo vale una historia con video (pruebas a mano); si no hay, null.
+ *  - si no: se revisan los primeros `lookahead` y, si ninguno tiene, gana el primero de siempre.
  */
-async function selectArticleWithVideo(
+async function selectPreferringVideo(
   candidates: RawArticle[],
-  report: DailyEditorialReport
+  report: DailyEditorialReport,
+  opts: { required?: boolean; lookahead?: number } = {}
 ): Promise<{ article: RawArticle; rationale: string } | null> {
+  const limit = opts.required ? 15 : opts.lookahead ?? Number(process.env.VIDEO_LOOKAHEAD || 4);
   let pool = [...candidates];
-  for (let i = 0; i < 15 && pool.length; i++) {
+  let first: { article: RawArticle; rationale: string } | null = null;
+  for (let i = 0; i < limit && pool.length; i++) {
     const pick = selectBestDiverseArticle(pool, report);
-    if (!pick) return null;
+    if (!pick) break;
+    first = first || pick;
     pool = pool.filter((c) => c !== pick.article);
     const url = pick.article.link ? await resolveGoogleNewsUrl(pick.article.link).catch(() => undefined) : undefined;
     const { html } = url ? await fetchArticlePage(url) : { html: '' };
-    const video = await findNewsVideo(pick.article.title, html ? [html] : []).catch(() => undefined);
+    const video = await findNewsVideo(pick.article.title, html ? [html] : [], { freeOnly: true }).catch(() => undefined);
     if (video?.license === 'cc-by') {
-      console.log(`[AutonomousNewsroom] Con video libre: "${pick.article.title}" → "${video.title}"`);
+      console.log(`[AutonomousNewsroom] Con video libre (sale como Reel): "${pick.article.title}" → "${video.title}"`);
       return { article: { ...pick.article, video }, rationale: `${pick.rationale} · tiene video libre del hecho` };
     }
-    console.log(`[AutonomousNewsroom] Sin video libre, se descarta para esta prueba: "${pick.article.title}"`);
   }
-  return null;
+  if (opts.required) return null;
+  if (first) console.log('[AutonomousNewsroom] Ningún candidato cercano tiene video libre: sale como post con imagen');
+  return first;
 }
 
 export function selectBestDiverseArticle(
@@ -561,7 +569,7 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
   }
 
   // 4. Seleccionar la historia óptima aplicando el algoritmo de diversidad temática
-  const selection = config.requireVideo ? await selectArticleWithVideo(candidates, report) : selectBestDiverseArticle(candidates, report);
+  const selection = await selectPreferringVideo(candidates, report, { required: config.requireVideo });
   if (!selection) {
     return {
       success: true,

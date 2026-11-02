@@ -34,6 +34,44 @@ export function buildInstagramCaption(news: ProcessedNews): string {
   return base.length > 2100 ? `${base.slice(0, 2097)}…` : base;
 }
 
+/** Hashtags a partir de las etiquetas del artículo (#CamelCase sin tildes) + los de la marca */
+export function reelHashtags(news: ProcessedNews): string {
+  const tags = (news.article?.tags || [])
+    .slice(0, 4)
+    .map((t) =>
+      t
+        .normalize('NFD')
+        .replace(/[̀-ͯ]/g, '')
+        .replace(/[^A-Za-z0-9 ]/g, ' ')
+        .split(/\s+/)
+        .filter(Boolean)
+        .map((w) => w[0].toUpperCase() + w.slice(1))
+        .join('')
+    )
+    .filter((t) => t.length >= 3 && t.length <= 30);
+  return Array.from(new Set([...tags, 'Noticias', 'PuntoCiego', 'Reels'])).map((t) => `#${t}`).join(' ');
+}
+
+/** Hashtags que ya traiga el copy al final (se reemplazan por los del Reel) */
+const TRAILING_HASHTAGS = new RegExp('(\\s*#[\\p{L}\\p{N}_]+)+\\s*$', 'u');
+
+/**
+ * Texto del Reel: la primera línea es la que se ve sin abrir ("gancho"), luego el resumen,
+ * una pregunta que invita a comentar, el crédito del video libre y los hashtags.
+ */
+export function buildReelCaption(news: ProcessedNews): string {
+  const hook = news.videoScript?.hook ? `${news.videoScript.hook.replace(/[.\s]+$/, '')} 👇` : '';
+  const parts = [
+    hook,
+    buildInstagramCaption(news).replace(TRAILING_HASHTAGS, ''),
+    '💬 ¿Tú qué opinas? Te leemos en los comentarios.',
+    videoCredit(news),
+    reelHashtags(news),
+  ].filter(Boolean);
+  const text = parts.join('\n\n');
+  return text.length > 2150 ? `${text.slice(0, 2147)}…` : text;
+}
+
 /**
  * Instagram (cuenta profesional vinculada a la página de Facebook) con la Graph API:
  * contenedor de imagen → esperar a que se procese → publicar.
