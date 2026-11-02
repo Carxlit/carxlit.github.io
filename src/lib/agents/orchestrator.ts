@@ -46,7 +46,7 @@ export async function runEditorialPipeline(
 
   // 2-3.5. Mesa Editorial: Director + Redactor Omnicanal + Redactor de Artículo en una sola llamada a la IA
   console.log('[Pipeline] Ejecutando Mesa Editorial (Director + Redactor Omnicanal + Artículo)...');
-  const { brief: editorialBrief, copies, article: fullArticle } = await runEditorialDesk(article, researchDossier);
+  const { brief: editorialBrief, copies, article: fullArticle, video: videoScript } = await runEditorialDesk(article, researchDossier);
 
   // Construcción del objeto preliminar de noticia procesada
   const processed: ProcessedNews = {
@@ -65,6 +65,7 @@ export async function runEditorialPipeline(
     blueskyPost: copies.bluesky,
     copies,
     article: fullArticle,
+    videoScript,
     rawImageUrl: realPhotoUrl,
     status: 'pending',
     createdAt: new Date().toISOString(),

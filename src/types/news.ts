@@ -56,6 +56,7 @@ export interface ProcessedNews {
   copies?: MultiPlatformCopies; // Conjunto unificado de copies
   cardImageUrl?: string; // Ruta de la imagen editorial generada
   instagramCardUrl?: string; // Versión vertical 4:5 (1080×1350) para Instagram
+  videoScript?: VideoScript; // Guion del Reel narrado
   rawImageUrl?: string;
   publishedAt?: string;
   facebookPostId?: string;
@@ -80,12 +81,19 @@ export interface NewsArticle {
   wordCount: number;
 }
 
+export interface VideoScript {
+  hook: string;
+  beats: string[];
+  close: string;
+}
+
 export interface ChannelSelection {
   facebook: boolean;
   telegram: boolean;
   bluesky: boolean;
   linkedIn: boolean;
   instagram?: boolean;
+  facebookReel?: boolean;
   mastodon?: boolean;
   twitter?: boolean;
 }
@@ -124,6 +132,7 @@ export interface QueuedPublication {
     linkedIn?: ChannelResult & { postId?: string };
     bluesky?: ChannelResult & { uri?: string };
     instagram?: ChannelResult & { mediaId?: string };
+    facebookReel?: ChannelResult & { videoId?: string };
     mastodon?: ChannelResult & { url?: string };
   };
   createdAt: string;

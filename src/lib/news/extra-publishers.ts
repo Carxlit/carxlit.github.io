@@ -70,6 +70,108 @@ export async function publishToInstagram(news: ProcessedNews, pageToken?: string
   }
 }
 
+/** Espera a que Meta termine de procesar un contenedor de Instagram (los videos tardan más) */
+async function waitForIgContainer(containerId: string, token: string, maxSeconds: number) {
+  const started = Date.now();
+  while (Date.now() - started < maxSeconds * 1000) {
+    const res = await fetch(`${GRAPH}/${containerId}?fields=status_code,status`, { headers: { Authorization: `Bearer ${token}` } });
+    const st: any = await res.json().catch(() => ({}));
+    if (st.status_code === 'FINISHED') return;
+    if (st.status_code === 'ERROR' || st.status_code === 'EXPIRED') throw new Error(`procesamiento ${st.status_code}: ${st.status || ''}`);
+    await new Promise((r) => setTimeout(r, 6000));
+  }
+  throw new Error('Instagram tardó demasiado en procesar el video');
+}
+
+/**
+ * Reel de Instagram subiendo el MP4 directamente (subida reanudable): no hace falta alojar el video.
+ * share_to_feed: también aparece en la cuadrícula del perfil.
+ */
+export async function publishInstagramReel(news: ProcessedNews, pageToken: string, videoPath: string): Promise<ChannelResult & { mediaId?: string }> {
+  const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
+  try {
+    const init = await fetch(`${GRAPH}/${igUser}/media`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ media_type: 'REELS', upload_type: 'resumable', caption: buildInstagramCaption(news), share_to_feed: true }),
+    });
+    const container: any = await init.json();
+    if (!init.ok || !container.id) throw new Error(container.error?.message || `HTTP ${init.status}`);
+
+    const bytes = fs.readFileSync(videoPath);
+    const up = await fetch(`https://rupload.facebook.com/ig-api-upload/v19.0/${container.id}`, {
+      method: 'POST',
+      headers: { Authorization: `OAuth ${pageToken}`, offset: '0', file_size: String(bytes.length) },
+      body: bytes,
+      signal: AbortSignal.timeout(180_000),
+    });
+    const upData: any = await up.json().catch(() => ({}));
+    if (!up.ok || upData.success === false) throw new Error(`subida: ${upData.debug_info?.message || upData.error?.message || up.status}`);
+
+    await waitForIgContainer(container.id, pageToken, 240);
+    const pub = await fetch(`${GRAPH}/${igUser}/media_publish`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ creation_id: container.id }),
+    });
+    const published: any = await pub.json();
+    if (!pub.ok || !published.id) throw new Error(published.error?.message || `HTTP ${pub.status}`);
+    return { success: true, mediaId: published.id };
+  } catch (err: any) {
+    return { success: false, error: `Reel de Instagram: ${err?.message}` };
+  }
+}
+
+/** Texto del Reel de Facebook: el post corto + el enlace al análisis */
+export function buildFacebookReelDescription(news: ProcessedNews): string {
+  const body = (news.blueskyPost || news.subHeadline || news.headline).trim();
+  return news.articleUrl ? `${body}\n\nAnálisis completo: ${news.articleUrl}` : body;
+}
+
+/** Reel de la página de Facebook (API video_reels: iniciar → subir binario → publicar) */
+export async function publishFacebookReel(
+  news: ProcessedNews,
+  pageId: string,
+  pageToken: string,
+  videoPath: string
+): Promise<ChannelResult & { videoId?: string }> {
+  try {
+    const start = await fetch(`${GRAPH}/${pageId}/video_reels`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ upload_phase: 'start' }),
+    });
+    const s: any = await start.json();
+    if (!start.ok || !s.video_id) throw new Error(s.error?.message || `HTTP ${start.status}`);
+
+    const bytes = fs.readFileSync(videoPath);
+    const up = await fetch(s.upload_url || `https://rupload.facebook.com/video-upload/v19.0/${s.video_id}`, {
+      method: 'POST',
+      headers: { Authorization: `OAuth ${pageToken}`, offset: '0', file_size: String(bytes.length) },
+      body: bytes,
+      signal: AbortSignal.timeout(180_000),
+    });
+    const upData: any = await up.json().catch(() => ({}));
+    if (!up.ok || upData.success === false) throw new Error(`subida: ${upData.debug_info?.message || upData.error?.message || up.status}`);
+
+    const finish = await fetch(`${GRAPH}/${pageId}/video_reels`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        upload_phase: 'finish',
+        video_id: s.video_id,
+        video_state: 'PUBLISHED',
+        description: buildFacebookReelDescription(news),
+      }),
+    });
+    const f: any = await finish.json();
+    if (!finish.ok || f.success === false || f.error) throw new Error(f.error?.message || `HTTP ${finish.status}`);
+    return { success: true, videoId: s.video_id };
+  } catch (err: any) {
+    return { success: false, error: `Reel de Facebook: ${err?.message}` };
+  }
+}
+
 /** Texto para Mastodon (500 caracteres, enlaces clicables): el post corto de Bluesky + el enlace */
 export function buildMastodonText(news: ProcessedNews): string {
   const body = (news.blueskyPost || news.subHeadline || news.headline).trim();

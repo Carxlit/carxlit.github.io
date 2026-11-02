@@ -72,6 +72,8 @@ export function getConfiguredChannels(creds: StoredCredentials = getStoredCreden
     linkedIn: Boolean(process.env.LINKEDIN_WEBHOOK_URL) || process.env.LINKEDIN_ENABLED !== 'false',
     // Instagram: cuenta profesional vinculada a la página (ACTIVAR_NUBE detecta su ID) + el mismo token de página
     instagram: Boolean(process.env.INSTAGRAM_USER_ID && creds.facebookAccessToken),
+    // Reels de la página de Facebook (video generado con Piper + ffmpeg; solo donde están instalados)
+    facebookReel: Boolean(process.env.REELS_ENABLED === 'true' && creds.facebookPageId && creds.facebookAccessToken),
     mastodon: Boolean(process.env.MASTODON_INSTANCE && process.env.MASTODON_TOKEN),
   };
 }

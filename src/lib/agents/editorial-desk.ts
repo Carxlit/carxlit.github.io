@@ -1,21 +1,44 @@
 import { z } from 'zod';
-import { RawArticle, MultiPlatformCopies, NewsArticle } from '@/types/news';
+import { RawArticle, MultiPlatformCopies, NewsArticle, VideoScript } from '@/types/news';
 import { generateObjectWithFallback } from '@/lib/ai/gemini';
 import type { ResearchDossier } from './deep-researcher';
 import { EditorialBrief, EditorialBriefSchema, DIRECTOR_SYSTEM_PROMPT, finalizeBrief } from './editorial-director';
 import { MultiPlatformCopySchema, COPYWRITER_SYSTEM_PROMPT, finalizeCopies } from './multi-platform-copywriter';
 import { ArticleSchema, ARTICLE_SYSTEM_PROMPT, finalizeArticle } from './article-writer';
 
+/** Guion del Reel: cada línea es una diapositiva y se narra en voz alta (sin cifras dudosas ni siglas raras) */
+const VideoScriptSchema = z.object({
+  hook: z.string().describe('Frase gancho de apertura, máximo 14 palabras, sin mayúsculas sostenidas'),
+  beats: z.array(z.string()).describe('3 frases cortas (máximo 22 palabras cada una) con los hechos clave y el punto ciego'),
+  close: z.string().describe('Cierre de máximo 14 palabras que invite a leer el análisis completo en el enlace del perfil'),
+});
+
 const DeskSchema = z.object({
   brief: EditorialBriefSchema,
   copies: MultiPlatformCopySchema,
   article: ArticleSchema,
+  video: VideoScriptSchema,
 });
 
 export interface DeskOutput {
   brief: EditorialBrief;
   copies: MultiPlatformCopies;
   article: NewsArticle;
+  video?: VideoScript;
+}
+
+const VIDEO_SYSTEM_PROMPT = `ROL 4 - GUIONISTA DE REELS ("video"): guion de 25 a 40 segundos para un video vertical narrado.
+- "hook": abre con el dato más sorprendente o la pregunta que nadie se hace. Nada de "En esta noticia...".
+- "beats": exactamente 3 frases, una idea por frase, lenguaje hablado y claro; la última revela el punto ciego.
+- "close": invita a leer el análisis completo en el enlace del perfil.
+- Escribe como se habla: frases cortas, sin paréntesis, sin URLs, sin hashtags, sin emojis, números en cifras simples.`;
+
+function finalizeVideoScript(raw: any): VideoScript | undefined {
+  const clean = (s: unknown) => (typeof s === 'string' ? s.replace(/\s+/g, ' ').replace(/https?:\/\/\S+|#\w+/g, '').trim() : '');
+  const hook = clean(raw?.hook);
+  const beats = (Array.isArray(raw?.beats) ? raw.beats : []).map(clean).filter(Boolean).slice(0, 3);
+  const close = clean(raw?.close);
+  return hook && beats.length >= 2 ? { hook, beats, close: close || 'Lee el análisis completo en el enlace de nuestro perfil.' } : undefined;
 }
 
 const SLUG_STOPWORDS = new Set(['el', 'la', 'los', 'las', 'de', 'del', 'en', 'y', 'a', 'un', 'una', 'por', 'para', 'con', 'que', 'su', 'sus', 'al', 'lo', 'se']);
@@ -50,10 +73,11 @@ export async function runEditorialDesk(article: RawArticle, dossier?: ResearchDo
     schema: DeskSchema,
     temperature: 0.7,
     system: [
-      'Eres la mesa editorial completa de "Punto Ciego". Produces en una sola respuesta tres entregables coherentes entre sí: "brief" (Rol 1), "copies" (Rol 2) y "article" (Rol 3). El titular editorial del brief es el que usan los copys.',
+      'Eres la mesa editorial completa de "Punto Ciego". Produces en una sola respuesta cuatro entregables coherentes entre sí: "brief" (Rol 1), "copies" (Rol 2), "article" (Rol 3) y "video" (Rol 4). El titular editorial del brief es el que usan los copys.',
       DIRECTOR_SYSTEM_PROMPT,
       COPYWRITER_SYSTEM_PROMPT,
       ARTICLE_SYSTEM_PROMPT,
+      VIDEO_SYSTEM_PROMPT,
       'REGLA DE VERACIDAD GLOBAL: usa solo hechos, cifras y nombres presentes en el dossier. El análisis puede ser interpretativo; los hechos no se inventan.',
     ].join('\n\n'),
     prompt: `Noticia a trabajar:
@@ -81,6 +105,7 @@ ${researchContext}`,
   return {
     brief,
     copies,
+    video: finalizeVideoScript(raw.video),
     article: {
       slug: buildSlug(draft.title || brief.headline),
       ...draft,

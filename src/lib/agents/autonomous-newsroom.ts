@@ -42,6 +42,7 @@ export interface AutonomousConfig {
     bluesky: boolean;
     linkedIn: boolean;
     instagram?: boolean;
+    facebookReel?: boolean;
     mastodon?: boolean;
   };
 }
@@ -62,6 +63,7 @@ export const DEFAULT_AUTONOMOUS_CONFIG: AutonomousConfig = {
     linkedIn: false, // Desactivado: publicar en páginas de empresa exige una app aprobada o Make
     // Se usan solo si tienen credenciales (INSTAGRAM_USER_ID / MASTODON_*); si no, se omiten
     instagram: true,
+    facebookReel: true,
     mastodon: true,
   },
 };

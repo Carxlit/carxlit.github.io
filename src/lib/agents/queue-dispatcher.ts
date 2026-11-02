@@ -8,7 +8,8 @@ import {
 import { publishToFacebook } from '@/lib/news/facebook-publisher';
 import { publishToTelegram, publishToBluesky } from '@/lib/news/multi-publisher';
 import { publishToLinkedInCompany } from '@/lib/news/linkedin-publisher';
-import { publishToInstagram, publishToMastodon } from '@/lib/news/extra-publishers';
+import { publishToInstagram, publishToMastodon, publishInstagramReel, publishFacebookReel } from '@/lib/news/extra-publishers';
+import { getNewsReel } from '@/lib/video/reel-generator';
 import { getStoredCredentials, getConfiguredChannels } from '@/lib/config/credentials-manager';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 import { markStoryAsCovered } from './news-scout';
@@ -25,7 +26,9 @@ const CATCH_UP_SPACING_MINUTES = 50;
 /** Se conservan en disco solo los últimos N elementos cerrados (publicados/fallidos/caducados) */
 const MAX_CLOSED_ITEMS = 150;
 
-const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'mastodon'] as const;
+const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'facebookReel', 'mastodon'] as const;
+
+const reelsEnabled = () => process.env.REELS_ENABLED === 'true';
 type Channel = (typeof CHANNELS)[number];
 
 export interface EnqueueOptions {
@@ -185,8 +188,29 @@ async function publishToChannel(
         return await publishToBluesky(news, creds.blueskyHandle, creds.blueskyPassword);
       case 'linkedIn':
         return await publishToLinkedInCompany(news);
-      case 'instagram':
+      case 'instagram': {
+        // Con Reels activados, Instagram recibe el video; si el video falla, la tarjeta vertical de siempre
+        if (reelsEnabled()) {
+          const video = await getNewsReel(news).catch((e) => {
+            console.warn('[QueueDispatcher] Reel no disponible, Instagram usa la imagen:', e?.message);
+            return null;
+          });
+          if (video) {
+            const reel = await publishInstagramReel(news, creds.facebookAccessToken!, video);
+            if (reel.success) return reel;
+            console.warn('[QueueDispatcher]', reel.error, '→ se publica la imagen');
+          }
+        }
         return await publishToInstagram(news, creds.facebookAccessToken);
+      }
+      case 'facebookReel': {
+        const video = await getNewsReel(news).catch((e) => ({ error: e?.message as string }));
+        if (typeof video !== 'string') {
+          // Un video que no se pudo generar no bloquea la publicación de la historia
+          return { success: false, skipped: true, error: `Reel no generado: ${video.error}` };
+        }
+        return await publishFacebookReel(news, creds.facebookPageId!, creds.facebookAccessToken!, video);
+      }
       case 'mastodon':
         return await publishToMastodon(news);
     }
@@ -258,7 +282,8 @@ export async function publishMissingChannels(
   }
 
   item.results = results;
-  return { pending: effective.filter((ch) => !results[ch]?.success), lastError };
+  // "skipped" (p. ej. un Reel que no se pudo generar) no bloquea ni se reintenta
+  return { pending: effective.filter((ch) => !results[ch]?.success && !results[ch]?.skipped), lastError };
 }
 
 /**

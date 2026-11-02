@@ -197,7 +197,7 @@ export async function generateNewsCardImage(
   return `/news-cards/${fileName}`;
 }
 
-async function renderHtmlToJpeg(html: string, outputPath: string, width: number, height: number) {
+export async function renderHtmlToJpeg(html: string, outputPath: string, width: number, height: number) {
   const browser = await getBrowser();
   const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 });
   try {
@@ -212,6 +212,8 @@ async function renderHtmlToJpeg(html: string, outputPath: string, width: number,
     await page.close();
   }
 }
+
+export { escapeHtml };
 
 /**
  * Tarjeta vertical 4:5 (1080×1350) para Instagram: ocupa más pantalla en el feed y no se recorta
