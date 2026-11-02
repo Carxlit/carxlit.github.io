@@ -4,6 +4,7 @@ import path from 'path';
 import { spawn, spawnSync } from 'child_process';
 import { ProcessedNews, VideoScript } from '@/types/news';
 import { getBrowser, escapeHtml } from '@/lib/news/card-generator';
+import { generateBackgroundMusic } from './background-music';
 
 /**
  * Reels narrados (1080×1920, 25–45 s) sin servicios de pago:
@@ -475,8 +476,29 @@ export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: bo
   filters.push(`${sections.map((_, i) => `[a${i}]`).join('')}concat=n=${sections.length}:v=0:a=1[aout]`);
   runFfmpeg([...wavs.flatMap((w) => ['-i', w]), '-filter_complex', filters.join(';'), '-map', '[aout]', narration]);
 
+  // Música de fondo original (sintetizada): suave y "agachada" bajo la voz con un compresor de sidechain
+  let audioTrack = narration;
+  if (process.env.REEL_MUSIC !== 'false') {
+    try {
+      const music = path.join(work, 'musica.wav');
+      generateBackgroundMusic(music, total, news.id || news.headline);
+      audioTrack = path.join(work, 'audio-final.wav');
+      const vol = Number(process.env.REEL_MUSIC_VOLUME || 0.14);
+      runFfmpeg([
+        '-i', narration, '-i', music,
+        '-filter_complex',
+        `[0:a]aresample=44100,aformat=channel_layouts=stereo,asplit=2[v1][v2];[1:a]volume=${vol}[m];` +
+          `[m][v1]sidechaincompress=threshold=0.02:ratio=8:attack=15:release=350[md];[v2][md]amix=inputs=2:duration=first:normalize=0[a]`,
+        '-map', '[a]', audioTrack,
+      ]);
+    } catch (err: any) {
+      console.warn('[Reel] Sin música de fondo:', err?.message);
+      audioTrack = narration;
+    }
+  }
+
   const out = path.join(work, 'reel.mp4');
-  await renderVideo(reelHtml(news, sections, total, footage), total, narration, out, footage);
+  await renderVideo(reelHtml(news, sections, total, footage), total, audioTrack, out, footage);
   console.log(`[Reel] Video listo (${total.toFixed(1)} s, voz ${voice}${footage ? `, imágenes de ${footage.credit}` : ''}, ${(fs.statSync(out).size / 1e6).toFixed(1)} MB): ${out}`);
   return out;
 }
