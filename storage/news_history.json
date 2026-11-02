@@ -17,9 +17,39 @@
     "https://elpais.com/internacional/2026-11-01/la-crisis-de-la-vivienda-revive-en-las-calles-portuguesas-el-espiritu-de-la-revolucion-de-abril.html",
     "https://www.infobae.com/america/mundo/2026/11/02/el-regimen-de-iran-dijo-que-reabrira-el-estrecho-de-ormuz-en-dos-dias-si-estados-unidos-acepta-sus-condiciones/",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NMUlUQ0Zsc09hMWhMQnZkbDhxOVhYVGVaQTR4WG1NLVJZc3RQWVFuQ2UtSTRKTEt1dU93OEhMSEc4NUktb3NwLWw1S0o4TVk2elY0ay1kZF9UTVNJV0RsUTM4M0l3b1huVzNPWlNJM0dRcHVHVG0wTw?oc=5",
-    "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo"
+    "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo",
+    "https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html"
   ],
   "processedSignatures": [
+    {
+      "title": "KARL BUSHBY COMPLETA EXPEDICIÓN TRAS 28 AÑOS DE TRAVESÍA GLOBAL",
+      "normalizedTokens": [
+        "karl",
+        "bushby",
+        "completa",
+        "expedicion",
+        "anos",
+        "travesia",
+        "global"
+      ],
+      "date": "2026-11-02T15:53:39.448Z"
+    },
+    {
+      "title": "La increíble historia de Karl Bushby: regresó a su casa después de caminar 28 años por todo el mundo",
+      "normalizedTokens": [
+        "increible",
+        "historia",
+        "karl",
+        "bushby",
+        "regreso",
+        "casa",
+        "despues",
+        "caminar",
+        "anos",
+        "mundo"
+      ],
+      "date": "2026-11-02T15:53:39.448Z"
+    },
     {
       "title": "SAM ALTMAN CRITICA EL USO DE RAM EN COMPUTADORAS PERSONALES",
       "normalizedTokens": [
