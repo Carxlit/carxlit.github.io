@@ -1320,10 +1320,11 @@
         "wordCount": 691
       },
       "rawImageUrl": "https://static.dw.com/image/79824975_6.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T13:15:49.470Z",
       "cardImageUrl": "/news-cards/news-2oh5r0bzz-1793625349471.jpg",
-      "articleUrl": "https://carxlit.github.io/noticias/victoria-iliana-yotova-bulgaria-fractura-posicion-u987/"
+      "articleUrl": "https://carxlit.github.io/noticias/victoria-iliana-yotova-bulgaria-fractura-posicion-u987/",
+      "publishedAt": "2026-11-02T14:04:10.607Z"
     },
     "channels": {
       "facebook": true,
@@ -1334,10 +1335,39 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T14:03:47.565Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T13:15:51.879Z"
+    "createdAt": "2026-11-02T13:15:51.879Z",
+    "lastAttemptAt": "2026-11-02T14:04:02.958Z",
+    "results": {
+      "instagram": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101438071532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "15",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdijf3s6o2f"
+      }
+    },
+    "publishedAt": "2026-11-02T14:04:10.607Z"
   },
   {
     "id": "queue-1793626267097-5cia8",
