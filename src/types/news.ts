@@ -28,6 +28,8 @@ export interface RawArticle {
   geopoliticalImpact?: number;
   /** Cuántos medios publicaron el mismo hecho en la ronda del Scout */
   coverageCount?: number;
+  /** Video del hecho ya encontrado al elegir la historia */
+  video?: NewsVideo;
 }
 
 export interface MultiPlatformCopies {

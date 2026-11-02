@@ -16,6 +16,9 @@ import {
 import { readJsonFile, writeJsonFileAtomic, localDateKey, withFileLock, LockBusyError } from '@/lib/storage/json-store';
 import { getAiCooldownUntil, AiUnavailableError } from '@/lib/ai/gemini';
 import { publishArticleToSite } from '@/lib/site/static-site';
+import { findNewsVideo } from '@/lib/news/news-video';
+import { resolveGoogleNewsUrl } from '@/lib/news/article-image';
+import { fetchArticlePage } from './deep-researcher';
 
 const PUBLISHED_STORE_PATH = path.join(process.cwd(), 'storage', 'published_news.json');
 
@@ -36,6 +39,7 @@ export interface AutonomousConfig {
   breakingThreshold: number; // Urgencia mínima para saltar la cola (Protocolo de Urgencia Máxima)
   maxBreakingPerDay: number; // Tope diario de urgencias para que no se convierta en spam
   maxArticleAgeHours: number; // No se cubren noticias más viejas que esto
+  requireVideo?: boolean; // Solo historias con video real del hecho (pruebas a mano; no gasta IA en las que no tienen)
   activeChannels: {
     facebook: boolean;
     telegram: boolean;
@@ -256,6 +260,31 @@ export function calculateNextPostSchedule(config: AutonomousConfig = getAutonomo
  * Selecciona la mejor noticia del radar aplicando estrictamente la diversidad temática
  */
 const LATAM_PATTERN = /\b(colombia|colombian[oa]s?|bogot[aá]|petro|latinoam[eé]rica|am[eé]rica latina|m[eé]xico|venezuela|argentina|brasil|chile|per[uú]|ecuador|bolivia|panam[aá]|cuba|caribe|centroam[eé]rica|mercosur|celac)\b/i;
+
+/**
+ * Como selectBestDiverseArticle, pero recorre los candidatos en orden hasta dar con uno que tenga
+ * video real del hecho (se busca ANTES de gastar la llamada a la IA). El video queda en el artículo.
+ */
+async function selectArticleWithVideo(
+  candidates: RawArticle[],
+  report: DailyEditorialReport
+): Promise<{ article: RawArticle; rationale: string } | null> {
+  let pool = [...candidates];
+  for (let i = 0; i < 15 && pool.length; i++) {
+    const pick = selectBestDiverseArticle(pool, report);
+    if (!pick) return null;
+    pool = pool.filter((c) => c !== pick.article);
+    const url = pick.article.link ? await resolveGoogleNewsUrl(pick.article.link).catch(() => undefined) : undefined;
+    const { html } = url ? await fetchArticlePage(url) : { html: '' };
+    const video = await findNewsVideo(pick.article.title, html ? [html] : []).catch(() => undefined);
+    if (video) {
+      console.log(`[AutonomousNewsroom] Con video: "${pick.article.title}" → "${video.title}"`);
+      return { article: { ...pick.article, video }, rationale: `${pick.rationale} · tiene video del hecho` };
+    }
+    console.log(`[AutonomousNewsroom] Sin video, se descarta para esta prueba: "${pick.article.title}"`);
+  }
+  return null;
+}
 
 export function selectBestDiverseArticle(
   candidates: RawArticle[],
@@ -509,7 +538,7 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
   }
 
   // 4. Seleccionar la historia óptima aplicando el algoritmo de diversidad temática
-  const selection = selectBestDiverseArticle(candidates, report);
+  const selection = config.requireVideo ? await selectArticleWithVideo(candidates, report) : selectBestDiverseArticle(candidates, report);
   if (!selection) {
     return {
       success: true,

@@ -51,6 +51,7 @@ export async function runEditorialPipeline(
 
   // Video real del hecho: si el titular original no lo encontró, se prueba con el del artículo (más concreto)
   const sourceVideo =
+    article.video ||
     researchDossier.video ||
     (fullArticle.title && fullArticle.title !== article.title ? await findNewsVideo(fullArticle.title).catch(() => undefined) : undefined);
 

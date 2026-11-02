@@ -13,6 +13,11 @@ on:
         description: 'Historias nuevas extra para publicar YA (0-3), sin topes de cola ni cupo'
         required: false
         default: '0'
+      solo_con_video:
+        description: 'Las historias extra solo si tienen video real del hecho'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -80,6 +85,7 @@ jobs:
         run: npm run cloud:build --silent && node dist/cloud-run.js produce
         env:
           EXTRA_STORIES: ${{ github.event.inputs.historias_extra || '0' }}
+          EXTRA_REQUIRE_VIDEO: ${{ github.event.inputs.solo_con_video || 'false' }}
 
       - name: Guardar estado en el repositorio
         id: estado
