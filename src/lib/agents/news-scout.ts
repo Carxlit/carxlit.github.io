@@ -210,6 +210,51 @@ export function extractSemanticTokens(text: string): string[] {
     .filter((token) => token.length > 2 && !stopwords.has(token));
 }
 
+const NUMBER_WORDS: Record<string, string> = {
+  uno: '1', una: '1', dos: '2', tres: '3', cuatro: '4', cinco: '5', seis: '6', siete: '7', ocho: '8',
+  nueve: '9', diez: '10', once: '11', doce: '12', quince: '15', veinte: '20', treinta: '30',
+  cuarenta: '40', cincuenta: '50', cien: '100', ciento: '100', mil: '1000',
+};
+
+/**
+ * Tokens para reconocer el MISMO HECHO contado con otras palabras por otro medio:
+ * conserva cifras ("9", "nueve" → "9") y recorta a una raíz de 6 letras
+ * ("estrelló" / "estrellarse" → "estrel", "muertos" → "muerto").
+ */
+export function extractEventTokens(text: string): string[] {
+  const words = text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+  const tokens = new Set<string>();
+  for (const w of words) {
+    if (/^\d+$/.test(w)) { tokens.add(w); continue; }
+    if (NUMBER_WORDS[w]) { tokens.add(NUMBER_WORDS[w]); continue; }
+    const base = extractSemanticTokens(w)[0];
+    if (base) tokens.add(base.length > 6 ? base.slice(0, 6) : base);
+  }
+  return Array.from(tokens);
+}
+
+/**
+ * ¿Es el mismo hecho? Jaccard alto, o al menos 3 términos en común que cubren la mitad
+ * del titular más corto (dos medios casi nunca titulan igual el mismo accidente o anuncio).
+ */
+export function isSameEvent(titleA: string, titleB: string): boolean {
+  const a = extractEventTokens(titleA);
+  const b = new Set(extractEventTokens(titleB));
+  if (a.length < 3 || b.size < 3) return false;
+  const shared = a.filter((t) => b.has(t)).length;
+  const union = new Set([...a, ...Array.from(b)]).size;
+  return shared / union >= 0.5 || (shared >= 3 && shared / Math.min(a.length, b.size) >= 0.5);
+}
+
+/** Ventana en la que dos titulares parecidos se consideran el mismo hecho */
+const SAME_EVENT_WINDOW_MS = 72 * 3_600_000;
+
 /**
  * Calcula la similitud Jaccard entre dos conjuntos de tokens para detectar el mismo hecho
  */
@@ -297,10 +342,16 @@ export function isDuplicateEvent(title: string, history: NewsHistoryData): boole
   const currentTokens = extractSemanticTokens(title);
   if (currentTokens.length < 3) return false;
 
+  const now = Date.now();
   for (const signature of history.processedSignatures || []) {
     const similarity = calculateSemanticOverlap(currentTokens, signature.normalizedTokens);
     // Si comparten más del 50% de palabras clave esenciales, es el mismo evento
     if (similarity >= 0.50) {
+      return true;
+    }
+    // Mismo hecho redactado distinto por otro medio (solo en los últimos días)
+    const age = now - new Date(signature.date).getTime();
+    if (signature.title && (!Number.isFinite(age) || age <= SAME_EVENT_WINDOW_MS) && isSameEvent(title, signature.title)) {
       return true;
     }
   }
@@ -451,11 +502,18 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
 
   // Ordenar por urgencia decreciente y quitar el mismo hecho repetido por varios medios en esta ronda
   candidates.sort((a, b) => (b.urgencyScore || 0) - (a.urgencyScore || 0));
+  // coverageCount: cuántos medios cuentan el mismo hecho (señal fuerte de noticia de última hora)
   const unique: RawArticle[] = [];
   for (const c of candidates) {
     const tokens = extractSemanticTokens(c.title);
-    const repeated = unique.some((u) => calculateSemanticOverlap(tokens, extractSemanticTokens(u.title)) >= 0.5);
-    if (!repeated) unique.push(c);
+    const match = unique.find(
+      (u) => calculateSemanticOverlap(tokens, extractSemanticTokens(u.title)) >= 0.5 || isSameEvent(c.title, u.title)
+    );
+    if (match) {
+      match.coverageCount = (match.coverageCount || 1) + 1;
+    } else {
+      unique.push({ ...c, coverageCount: 1 });
+    }
   }
   return unique;
 }

@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import { runFullNewsroomAudit } from '../src/lib/agents/newsroom-auditor';
 import { runAutonomousNewsroomCycle, getAutonomousConfig } from '../src/lib/agents/autonomous-newsroom';
-import { getPublicationQueue } from '../src/lib/agents/queue-dispatcher';
+import { getPublicationQueue, dispatchDueItems } from '../src/lib/agents/queue-dispatcher';
 
 /** Tarjetas de más de N días que ya no están en cola: el sitio guarda su propia copia en site/img */
 const CARD_RETENTION_DAYS = 3;
@@ -77,6 +77,25 @@ function writeRunSummary(result: Awaited<ReturnType<typeof runAutonomousNewsroom
   }
 }
 
+/** GitHub no garantiza los cron (a veces pasan horas sin ejecutar): si una publicación vence pronto, se espera aquí */
+const WAIT_FOR_DUE_MINUTES = 25;
+
+async function publishSoonDueItem() {
+  if (process.env.GITHUB_ACTIONS !== 'true') return;
+  const next = getPublicationQueue()
+    .filter((i) => i.status === 'queued')
+    .map((i) => new Date(i.scheduledFor).getTime())
+    .filter((t) => Number.isFinite(t))
+    .sort((a, b) => a - b)[0];
+  if (!next) return;
+  const waitMs = next - Date.now();
+  if (waitMs <= 0 || waitMs > WAIT_FOR_DUE_MINUTES * 60_000) return;
+  console.log(`[CLOUD] Próxima publicación en ${Math.ceil(waitMs / 60_000)} min: se espera para no depender del siguiente cron.`);
+  await new Promise((r) => setTimeout(r, waitMs + 15_000));
+  const { processed } = await dispatchDueItems();
+  console.log(`[CLOUD] Publicaciones despachadas tras la espera: ${processed}`);
+}
+
 async function main() {
   const started = Date.now();
   console.log(`[CLOUD] Ciclo iniciado ${new Date().toLocaleString('es-CO')} (TZ=${process.env.TZ || 'sistema'})`);
@@ -101,6 +120,8 @@ async function main() {
   console.log(`[CLOUD] Hoy: ${r.totalToday}/${r.maxDailyPosts} (publicadas ${r.publishedToday}, en cola ${r.pendingInQueue})`);
 
   writeRunSummary(result, auditLine);
+
+  await publishSoonDueItem();
 
   const removed = pruneOldCards();
   if (removed) console.log(`[CLOUD] Tarjetas antiguas eliminadas: ${removed}`);

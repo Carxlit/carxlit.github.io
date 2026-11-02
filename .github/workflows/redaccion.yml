@@ -5,8 +5,8 @@ name: Redaccion Punto Ciego
 
 on:
   schedule:
-    # GitHub puede retrasar los cron unos minutos en horas de mucha carga
-    - cron: '*/15 * * * *'
+    # Minutos "raros": en :00/:15/:30/:45 GitHub está saturado y descarta ejecuciones programadas
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,8 @@ concurrency:
 jobs:
   ciclo:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # Hasta 25 min de espera si una publicación vence pronto + el ciclo
+    timeout-minutes: 45
     environment:
       name: github-pages
     env:

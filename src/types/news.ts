@@ -26,6 +26,8 @@ export interface RawArticle {
   imageUrl?: string;
   urgencyScore?: number;
   geopoliticalImpact?: number;
+  /** Cuántos medios publicaron el mismo hecho en la ronda del Scout */
+  coverageCount?: number;
 }
 
 export interface MultiPlatformCopies {
