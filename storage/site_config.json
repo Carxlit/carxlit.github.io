@@ -1,29 +1,28 @@
 {
-  "siteDescription": "Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder: lo que los titulares no cuentan.",
-
-  "adHeadHtml": "",
-  "adSlots": {
-    "articleTop": "",
-    "articleMiddle": "",
-    "articleBottom": "",
-    "indexInline": "",
-    "sidebar": ""
-  },
-  "adEveryNCards": 6,
-  "adsTxt": "",
-
-  "analyticsHtml": "",
-
-  "donationUrl": "",
-  "donationLabel": "Apoya el periodismo de Punto Ciego",
-
-  "contactEmail": "",
-
-  "socialLinks": {
-    "facebook": "https://www.facebook.com/profile.php?id=1418440394683304",
-    "telegram": "",
-    "bluesky": "https://bsky.app/profile/puntociegoglobal.bsky.social",
-    "linkedin": "https://www.linkedin.com/company/146916345",
-    "x": "https://x.com/PuntoCiegoGlob"
-  }
+    "siteDescription":  "Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder: lo que los titulares no cuentan.",
+    "adHeadHtml":  "",
+    "adSlots":  {
+                    "articleTop":  "",
+                    "articleMiddle":  "",
+                    "articleBottom":  "",
+                    "indexInline":  "",
+                    "sidebar":  ""
+                },
+    "adEveryNCards":  6,
+    "adsTxt":  "",
+    "analyticsHtml":  "",
+    "donationUrl":  "",
+    "donationLabel":  "Apoya el periodismo de Punto Ciego",
+    "contactEmail":  "",
+    "socialLinks":  {
+                        "facebook":  "https://www.facebook.com/profile.php?id=1418440394683304",
+                        "telegram":  "",
+                        "bluesky":  "https://bsky.app/profile/puntociegoglobal.bsky.social",
+                        "linkedin":  "https://www.linkedin.com/company/146916345",
+                        "x":  "https://x.com/PuntoCiegoGlob",
+                        "instagram":  "https://www.instagram.com/puntociego.glob/",
+                        "mastodon":  ""
+                    },
+    "googleSiteVerification":  "",
+    "bingSiteVerification":  ""
 }

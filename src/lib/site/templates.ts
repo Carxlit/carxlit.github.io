@@ -158,6 +158,8 @@ ${o.canonical ? `<meta property="og:url" content="${esc(o.canonical)}">` : ''}
 ${o.image ? `<meta property="og:image" content="${esc(o.image)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#b4152b">
+${o.config.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(o.config.googleSiteVerification)}">` : ''}
+${o.config.bingSiteVerification ? `<meta name="msvalidate.01" content="${esc(o.config.bingSiteVerification)}">` : ''}
 <link rel="icon" href="${o.root}favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="${o.root}site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${SITE_NAME}" href="${o.root}rss.xml">
@@ -187,14 +189,17 @@ function footer(root: string, config: SiteConfig) {
   const socialLinks = (
     [
       ['Facebook', social.facebook],
+      ['Instagram', social.instagram],
       ['Telegram', social.telegram],
       ['Bluesky', social.bluesky],
+      ['Mastodon', social.mastodon],
       ['LinkedIn', social.linkedin],
       ['X', social.x],
     ] as const
   )
     .filter(([, url]) => url)
-    .map(([name, url]) => `<a href="${esc(url)}" rel="noopener" target="_blank">${name}</a>`)
+    // rel="me": Mastodon marca el enlace del perfil como verificado
+    .map(([name, url]) => `<a href="${esc(url)}" rel="${name === 'Mastodon' ? 'me noopener' : 'noopener'}" target="_blank">${name}</a>`)
     .join('');
   return `<footer><div class="wrap">
 <nav aria-label="Información"><a href="${root}quienes-somos/">Quiénes somos</a><a href="${root}contacto/">Contacto</a><a href="${root}aviso-legal/">Aviso legal</a><a href="${root}privacidad/">Privacidad</a><a href="${root}cookies/">Cookies</a><a href="${root}rss.xml">RSS</a>${

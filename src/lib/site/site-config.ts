@@ -27,14 +27,26 @@ export interface SiteConfig {
   donationUrl?: string;
   donationLabel?: string;
   contactEmail?: string;
+  /** Códigos de verificación de propiedad (no son secretos): Google Search Console y Bing Webmaster */
+  googleSiteVerification?: string;
+  bingSiteVerification?: string;
   socialLinks?: {
     facebook?: string;
     telegram?: string;
     bluesky?: string;
     linkedin?: string;
     x?: string;
+    instagram?: string;
+    mastodon?: string;
   };
 }
+
+/** Acepta el código solo o la etiqueta <meta ... content="..."> completa que da Google/Bing */
+const verificationCode = (v: unknown) => {
+  const s = clean(v);
+  const m = s.match(/content=["']([^"']+)["']/i);
+  return (m ? m[1] : s).replace(/[^A-Za-z0-9_\-]/g, '') || undefined;
+};
 
 const CONFIG_PATH = path.join(process.cwd(), 'storage', 'site_config.json');
 
@@ -60,12 +72,16 @@ export function getSiteConfig(): SiteConfig {
     donationUrl: clean(raw.donationUrl) || undefined,
     donationLabel: clean(raw.donationLabel) || undefined,
     contactEmail: clean(raw.contactEmail) || undefined,
+    googleSiteVerification: verificationCode(raw.googleSiteVerification),
+    bingSiteVerification: verificationCode(raw.bingSiteVerification),
     socialLinks: {
       facebook: clean(social.facebook) || undefined,
       telegram: clean(social.telegram) || undefined,
       bluesky: clean(social.bluesky) || undefined,
       linkedin: clean(social.linkedin) || undefined,
       x: clean(social.x) || undefined,
+      instagram: clean(social.instagram) || undefined,
+      mastodon: clean(social.mastodon) || undefined,
     },
   };
 }
