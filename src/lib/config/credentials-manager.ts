@@ -68,8 +68,11 @@ export function getConfiguredChannels(creds: StoredCredentials = getStoredCreden
     facebook: Boolean(creds.facebookPageId && creds.facebookAccessToken),
     telegram: Boolean(creds.telegramToken && creds.telegramChatId),
     bluesky: Boolean(creds.blueskyHandle && creds.blueskyPassword),
-    // LinkedIn se publica por CDP (Brave local); en la nube no hay navegador con sesión → LINKEDIN_ENABLED=false
-    linkedIn: process.env.LINKEDIN_ENABLED !== 'false',
+    // LinkedIn: webhook de Make (funciona en la nube) o CDP con Brave local; en la nube sin webhook → LINKEDIN_ENABLED=false
+    linkedIn: Boolean(process.env.LINKEDIN_WEBHOOK_URL) || process.env.LINKEDIN_ENABLED !== 'false',
+    // Instagram: cuenta profesional vinculada a la página (ACTIVAR_NUBE detecta su ID) + el mismo token de página
+    instagram: Boolean(process.env.INSTAGRAM_USER_ID && creds.facebookAccessToken),
+    mastodon: Boolean(process.env.MASTODON_INSTANCE && process.env.MASTODON_TOKEN),
   };
 }
 

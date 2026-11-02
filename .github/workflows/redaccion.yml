@@ -38,6 +38,11 @@ jobs:
       BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
       BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
       PAGE_BRAND_NAME: Punto Ciego
+      # Canales opcionales: si el secreto/variable está vacío, el canal se omite
+      LINKEDIN_WEBHOOK_URL: ${{ secrets.LINKEDIN_WEBHOOK_URL }}
+      INSTAGRAM_USER_ID: ${{ vars.INSTAGRAM_USER_ID }}
+      MASTODON_INSTANCE: ${{ vars.MASTODON_INSTANCE }}
+      MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
       # https://<usuario>.github.io — el sitio se publica en el paso "GitHub Pages" de abajo;
       # los posts solo llevan el enlace cuando la página ya responde (ciclos siguientes)
       PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
@@ -61,27 +66,17 @@ jobs:
       - name: Chromium (tarjetas y enlaces de Google News)
         run: npx playwright install --with-deps chromium
 
+
+      # 1) Producir: escribe la historia y su artículo; lo nuevo queda en cola SIN publicar
       - name: Ciclo de redacción
-        run: npm run cloud:build --silent && node dist/cloud-run.js
+        run: npm run cloud:build --silent && node dist/cloud-run.js produce
 
       - name: Guardar estado en el repositorio
         id: estado
         if: always()
-        run: |
-          git config user.name "punto-ciego-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add storage/*.json site public/news-cards
-          [ -f storage/.ai-cooldown.json ] && git add -f storage/.ai-cooldown.json
-          if git diff --cached --quiet -- site; then echo "site=false" >> "$GITHUB_OUTPUT"; else echo "site=true" >> "$GITHUB_OUTPUT"; fi
-          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
-          git commit -m "Estado de la redacción $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do
-            git pull --rebase --autostash && git push && exit 0
-            sleep 5
-          done
-          echo "No se pudo guardar el estado" && exit 1
+        run: bash deploy/github/save-state.sh "Estado de la redacción"
 
-      # Solo se republica el sitio cuando cambió (o al lanzar el workflow a mano)
+      # 2) Desplegar el sitio solo si cambió (o al lanzar el workflow a mano)
       - name: Preparar sitio
         if: always() && (steps.estado.outputs.site == 'true' || github.event_name == 'workflow_dispatch')
         uses: actions/upload-pages-artifact@v3
@@ -91,3 +86,12 @@ jobs:
       - name: GitHub Pages
         if: always() && (steps.estado.outputs.site == 'true' || github.event_name == 'workflow_dispatch')
         uses: actions/deploy-pages@v4
+
+      # 3) Publicar en redes cuando el artículo ya está en línea (así el post lleva el enlace)
+      - name: Publicar en redes
+        if: always()
+        run: node dist/cloud-run.js dispatch
+
+      - name: Guardar publicaciones
+        if: always()
+        run: bash deploy/github/save-state.sh "Publicaciones"

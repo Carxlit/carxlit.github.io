@@ -9,6 +9,36 @@ export interface LinkedInPublishResult {
   error?: string;
 }
 
+/**
+ * LinkedIn desde la nube: LinkedIn no permite publicar en páginas de empresa sin una app aprobada,
+ * así que se delega en un escenario gratuito de Make (Webhook → LinkedIn "Create a Company Image Post").
+ * Si LINKEDIN_WEBHOOK_URL está definido se usa este camino en vez del navegador por CDP.
+ */
+async function publishToLinkedInViaWebhook(news: ProcessedNews, text: string): Promise<LinkedInPublishResult> {
+  const webhook = (process.env.LINKEDIN_WEBHOOK_URL || '').trim();
+  const siteUrl = (process.env.PUBLIC_SITE_URL || '').trim().replace(/\/+$/, '');
+  const slug = news.article?.slug;
+  const imageUrl = siteUrl && slug ? `${siteUrl}/img/${slug}.jpg` : undefined;
+  try {
+    const res = await fetch(webhook, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        text,
+        imageUrl,
+        articleUrl: news.articleUrl,
+        headline: news.headline,
+        category: news.category,
+      }),
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!res.ok) return { success: false, error: `Webhook de LinkedIn respondió ${res.status}: ${(await res.text()).slice(0, 200)}` };
+    return { success: true, postId: 'make-webhook' };
+  } catch (err: any) {
+    return { success: false, error: `Webhook de LinkedIn: ${err?.message}` };
+  }
+}
+
 const PUNTO_CIEGO_COMPANY_ID = '146916345';
 const COMPANY_ADMIN_URL = `https://www.linkedin.com/company/${PUNTO_CIEGO_COMPANY_ID}/admin/page-posts/published/`;
 
@@ -45,6 +75,8 @@ export async function publishToLinkedInCompany(
     (news.facebookPost 
       ? `${news.headline}\n\n${news.subHeadline}\n\n${news.facebookPost}\n\n#PuntoCiego #Geopolitica #Seguridad` 
       : `${news.headline}\n\n${news.subHeadline}\n\n#PuntoCiego #Analisis`);
+
+  if (process.env.LINKEDIN_WEBHOOK_URL) return publishToLinkedInViaWebhook(news, textCopy);
 
   let browser: any = null;
 

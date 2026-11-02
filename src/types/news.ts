@@ -84,6 +84,8 @@ export interface ChannelSelection {
   telegram: boolean;
   bluesky: boolean;
   linkedIn: boolean;
+  instagram?: boolean;
+  mastodon?: boolean;
   twitter?: boolean;
 }
 
@@ -120,6 +122,8 @@ export interface QueuedPublication {
     twitter?: ChannelResult & { tweetId?: string };
     linkedIn?: ChannelResult & { postId?: string };
     bluesky?: ChannelResult & { uri?: string };
+    instagram?: ChannelResult & { mediaId?: string };
+    mastodon?: ChannelResult & { url?: string };
   };
   createdAt: string;
 }

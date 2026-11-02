@@ -119,12 +119,19 @@ $secrets = [ordered]@{
   TELEGRAM_CHAT_ID             = Pick 'telegramChatId' 'TELEGRAM_CHAT_ID'
   BLUESKY_HANDLE               = Pick 'blueskyHandle' 'BLUESKY_HANDLE'
   BLUESKY_APP_PASSWORD         = Pick 'blueskyPassword' 'BLUESKY_APP_PASSWORD'
+  # Opcionales (canales extra)
+  LINKEDIN_WEBHOOK_URL         = $envMap['LINKEDIN_WEBHOOK_URL']
+  MASTODON_TOKEN               = $envMap['MASTODON_TOKEN']
 }
+$optional = @('LINKEDIN_WEBHOOK_URL', 'MASTODON_TOKEN')
 # Sin esto, PowerShell 5.1 antepone un BOM (U+FEFF) al valor que recibe gh por la entrada estándar
 $OutputEncoding = New-Object Text.UTF8Encoding($false)
 foreach ($name in $secrets.Keys) {
   $value = $secrets[$name]
-  if ([string]::IsNullOrWhiteSpace($value)) { Write-Warning "$name vacío: ese canal no publicará en la nube."; continue }
+  if ([string]::IsNullOrWhiteSpace($value)) {
+    if ($optional -notcontains $name) { Write-Warning "$name vacío: ese canal no publicará en la nube." }
+    continue
+  }
   $value | gh secret set $name --repo $full
   if ($LASTEXITCODE) { throw "No se pudo guardar $name" }
   Write-Host "  OK $name"
@@ -133,6 +140,21 @@ foreach ($name in $secrets.Keys) {
 Step 'Variables y GitHub Pages'
 gh variable set PUBLIC_SITE_URL --body $siteUrl --repo $full | Out-Null
 if ($envMap['GEMINI_MODEL']) { gh variable set GEMINI_MODEL --body $envMap['GEMINI_MODEL'] --repo $full | Out-Null }
+if ($envMap['MASTODON_INSTANCE']) { gh variable set MASTODON_INSTANCE --body $envMap['MASTODON_INSTANCE'] --repo $full | Out-Null; Write-Host '  OK Mastodon' }
+
+# Instagram: si la página de Facebook tiene una cuenta profesional vinculada, se activa sola
+try {
+  $fbToken = $secrets['FACEBOOK_ACCESS_TOKEN']; $fbPage = $secrets['FACEBOOK_PAGE_ID']
+  if ($fbToken -and $fbPage) {
+    $ig = Invoke-RestMethod -Uri "https://graph.facebook.com/v19.0/$($fbPage)?fields=instagram_business_account{id,username}" -Headers @{ Authorization = "Bearer $fbToken" } -TimeoutSec 20
+    if ($ig.instagram_business_account.id) {
+      gh variable set INSTAGRAM_USER_ID --body $ig.instagram_business_account.id --repo $full | Out-Null
+      Write-Host "  OK Instagram @$($ig.instagram_business_account.username)"
+    } else {
+      Write-Host '  -  Instagram: la página no tiene una cuenta profesional vinculada (se omite)'
+    }
+  }
+} catch { Write-Host '  -  Instagram: no se pudo comprobar (se omite)' }
 gh api -X POST "repos/$full/pages" -f build_type=workflow 2>$null | Out-Null
 if ($LASTEXITCODE) { gh api -X PUT "repos/$full/pages" -f build_type=workflow 2>$null | Out-Null }
 Write-Host "  OK Pages activado ($siteUrl)"

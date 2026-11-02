@@ -41,6 +41,8 @@ export interface AutonomousConfig {
     telegram: boolean;
     bluesky: boolean;
     linkedIn: boolean;
+    instagram?: boolean;
+    mastodon?: boolean;
   };
 }
 
@@ -58,6 +60,9 @@ export const DEFAULT_AUTONOMOUS_CONFIG: AutonomousConfig = {
     telegram: true,
     bluesky: true,
     linkedIn: true, // LinkedIn habilitado por defecto
+    // Se usan solo si tienen credenciales (INSTAGRAM_USER_ID / MASTODON_*); si no, se omiten
+    instagram: true,
+    mastodon: true,
   },
 };
 
@@ -451,10 +456,13 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
       isBreaking: true,
     });
 
-    const dispatched = await forcePublishQueuedItem(emergencyItem.id);
+    // En la nube el sitio se despliega DESPUÉS del ciclo: publicar ya dejaría el post sin enlace.
+    // Con CLOUD_DEFER_PUBLISH queda vencida en la cola y la publica la fase "dispatch" tras el despliegue.
+    const deferred = process.env.CLOUD_DEFER_PUBLISH === 'true';
+    const dispatched = deferred ? undefined : await forcePublishQueuedItem(emergencyItem.id);
     report = getDailyEditorialReport(config);
 
-    const emergencyMsg = `URGENCIA MÁXIMA DESPACHADA: "${emergencyNews.headline}" [${emergencyNews.category}] (${criticalEmergency.urgencyScore}%). Estado: ${dispatched?.status}.`;
+    const emergencyMsg = `URGENCIA MÁXIMA DESPACHADA: "${emergencyNews.headline}" [${emergencyNews.category}] (${criticalEmergency.urgencyScore}%). Estado: ${deferred ? 'se publica en cuanto el artículo esté en línea' : dispatched?.status}.`;
     console.log(`[AutonomousNewsroom] ${emergencyMsg}`);
 
     return {

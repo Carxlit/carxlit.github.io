@@ -12,6 +12,7 @@ import path from 'path';
 import { runFullNewsroomAudit } from '../src/lib/agents/newsroom-auditor';
 import { runAutonomousNewsroomCycle, getAutonomousConfig } from '../src/lib/agents/autonomous-newsroom';
 import { getPublicationQueue, dispatchDueItems } from '../src/lib/agents/queue-dispatcher';
+import { waitUntilLive } from '../src/lib/site/static-site';
 
 /** Tarjetas de más de N días que ya no están en cola: el sitio guarda su propia copia en site/img */
 const CARD_RETENTION_DAYS = 3;
@@ -79,24 +80,76 @@ function writeRunSummary(result: Awaited<ReturnType<typeof runAutonomousNewsroom
 
 /** GitHub no garantiza los cron (a veces pasan horas sin ejecutar): si una publicación vence pronto, se espera aquí */
 const WAIT_FOR_DUE_MINUTES = 25;
+/** Margen para que GitHub Pages sirva el artículo recién desplegado antes de enlazarlo */
+const LIVE_WAIT_MS = 4 * 60_000;
 
-async function publishSoonDueItem() {
-  if (process.env.GITHUB_ACTIONS !== 'true') return;
-  const next = getPublicationQueue()
-    .filter((i) => i.status === 'queued')
+const queuedItems = () => getPublicationQueue().filter((i) => i.status === 'queued');
+
+/**
+ * Fase "dispatch" (después de desplegar el sitio): publica lo vencido cuando su artículo ya responde,
+ * para que el post salga con el enlace. Si algo vence en menos de 25 min, lo espera.
+ */
+async function dispatchPhase() {
+  const next = queuedItems()
     .map((i) => new Date(i.scheduledFor).getTime())
     .filter((t) => Number.isFinite(t))
     .sort((a, b) => a - b)[0];
-  if (!next) return;
+  if (!next) {
+    console.log('[CLOUD] Nada en cola para publicar.');
+    return;
+  }
   const waitMs = next - Date.now();
-  if (waitMs <= 0 || waitMs > WAIT_FOR_DUE_MINUTES * 60_000) return;
-  console.log(`[CLOUD] Próxima publicación en ${Math.ceil(waitMs / 60_000)} min: se espera para no depender del siguiente cron.`);
-  await new Promise((r) => setTimeout(r, waitMs + 15_000));
-  const { processed } = await dispatchDueItems();
-  console.log(`[CLOUD] Publicaciones despachadas tras la espera: ${processed}`);
+  if (waitMs > WAIT_FOR_DUE_MINUTES * 60_000) {
+    console.log(`[CLOUD] Próxima publicación a las ${new Date(next).toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit' })}: la publicará un ciclo posterior.`);
+    return;
+  }
+  if (waitMs > 0) {
+    console.log(`[CLOUD] Próxima publicación en ${Math.ceil(waitMs / 60_000)} min: se espera para no depender del siguiente cron.`);
+    await new Promise((r) => setTimeout(r, waitMs + 15_000));
+  }
+
+  for (const item of queuedItems().filter((i) => new Date(i.scheduledFor).getTime() <= Date.now())) {
+    const url = item.news.articleUrl;
+    if (!url) continue;
+    const live = await waitUntilLive(url, LIVE_WAIT_MS);
+    console.log(`[CLOUD] Artículo ${live ? 'en línea' : 'AÚN NO responde (saldrá sin enlace)'}: ${url}`);
+  }
+
+  let total = 0;
+  for (let i = 0; i < 3; i++) {
+    const { processed } = await dispatchDueItems();
+    if (!processed) break;
+    total += processed;
+  }
+  console.log(`[CLOUD] Publicaciones enviadas a las redes: ${total}`);
+  appendSummary(total ? `**📤 Publicadas en redes en este ciclo:** ${total}` : '');
 }
 
+function appendSummary(text: string) {
+  const file = process.env.GITHUB_STEP_SUMMARY;
+  if (!file || !text) return;
+  try {
+    fs.appendFileSync(file, `\n${text}\n`);
+  } catch {
+    // El resumen es opcional
+  }
+}
+
+/**
+ * Fases (GitHub Actions las ejecuta por separado, con el despliegue del sitio en medio):
+ *  - produce:  auditoría + ciclo (lo nuevo queda en cola, sin publicar todavía)
+ *  - dispatch: publica lo vencido cuando su artículo ya está en línea
+ *  - all:      ambas seguidas (uso local con un despliegue que ocurre dentro del ciclo)
+ */
+const PHASE = (process.argv[2] || 'all').toLowerCase();
+
 async function main() {
+  if (PHASE === 'dispatch') {
+    await dispatchPhase();
+    return;
+  }
+  if (PHASE === 'produce') process.env.CLOUD_DEFER_PUBLISH = 'true';
+
   const started = Date.now();
   console.log(`[CLOUD] Ciclo iniciado ${new Date().toLocaleString('es-CO')} (TZ=${process.env.TZ || 'sistema'})`);
 
@@ -121,7 +174,7 @@ async function main() {
 
   writeRunSummary(result, auditLine);
 
-  await publishSoonDueItem();
+  if (PHASE === 'all') await dispatchPhase();
 
   const removed = pruneOldCards();
   if (removed) console.log(`[CLOUD] Tarjetas antiguas eliminadas: ${removed}`);

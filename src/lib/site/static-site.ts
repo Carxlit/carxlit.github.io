@@ -165,7 +165,7 @@ export async function isUrlLive(url: string): Promise<boolean> {
   return ok;
 }
 
-async function waitUntilLive(url: string, timeoutMs = 90_000): Promise<boolean> {
+export async function waitUntilLive(url: string, timeoutMs = 90_000): Promise<boolean> {
   const start = Date.now();
   while (Date.now() - start < timeoutMs) {
     liveCache.delete(url);

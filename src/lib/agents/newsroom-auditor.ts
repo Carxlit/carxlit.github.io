@@ -6,7 +6,7 @@ import { checkBlueskySession } from '@/lib/news/bluesky-client';
 import { withFileLock, LockBusyError } from '@/lib/storage/json-store';
 import { runVisualEngine } from './visual-engine';
 
-type ChannelName = 'facebook' | 'telegram' | 'bluesky' | 'linkedIn';
+type ChannelName = 'facebook' | 'telegram' | 'bluesky' | 'linkedIn' | 'instagram' | 'mastodon';
 
 export interface ChannelHealth {
   channel: ChannelName;
@@ -124,7 +124,9 @@ export async function auditChannelsConnectivity(force = false): Promise<Record<C
 
   // 4. LinkedIn CDP (navegador con --remote-debugging-port=9222)
   let liHealth: ChannelHealth = { channel: 'linkedIn', status: 'degraded', latencyMs: 0, configured: true, message: 'Puerto 9222 no responde. Abre Brave con --remote-debugging-port=9222' };
-  if (process.env.LINKEDIN_ENABLED === 'false') {
+  if (process.env.LINKEDIN_WEBHOOK_URL) {
+    liHealth = { channel: 'linkedIn', status: 'online', latencyMs: 0, configured: true, message: 'Publicación vía webhook de Make' };
+  } else if (process.env.LINKEDIN_ENABLED === 'false') {
     liHealth = { channel: 'linkedIn', status: 'offline', latencyMs: 0, configured: false, message: 'Desactivado (LINKEDIN_ENABLED=false)' };
   } else {
     const t0 = Date.now();
@@ -139,7 +141,45 @@ export async function auditChannelsConnectivity(force = false): Promise<Record<C
     }
   }
 
-  const result = { facebook: fbHealth, telegram: tgHealth, bluesky: bskyHealth, linkedIn: liHealth };
+  // 5. Instagram (cuenta profesional vinculada a la página; usa el mismo token de página)
+  let igHealth: ChannelHealth = { channel: 'instagram', status: 'offline', latencyMs: 0, configured: false, message: 'Sin cuenta de Instagram vinculada' };
+  const igUser = process.env.INSTAGRAM_USER_ID;
+  if (igUser && creds.facebookAccessToken) {
+    const t0 = Date.now();
+    try {
+      const res = await fetch(`https://graph.facebook.com/v19.0/${igUser}?fields=username`, {
+        headers: { Authorization: `Bearer ${creds.facebookAccessToken}` },
+        signal: AbortSignal.timeout(6000),
+      });
+      const data = await res.json();
+      igHealth = res.ok && data.username
+        ? { channel: 'instagram', status: 'online', latencyMs: Date.now() - t0, configured: true, message: `@${data.username}` }
+        : { channel: 'instagram', status: 'offline', latencyMs: Date.now() - t0, configured: true, message: data.error?.message || 'Instagram no responde' };
+    } catch (err: any) {
+      igHealth = { channel: 'instagram', status: 'degraded', latencyMs: Date.now() - t0, configured: true, message: err.message };
+    }
+  }
+
+  // 6. Mastodon
+  let mastoHealth: ChannelHealth = { channel: 'mastodon', status: 'offline', latencyMs: 0, configured: false, message: 'No configurado' };
+  const mastoInstance = (process.env.MASTODON_INSTANCE || '').replace(/\/+$/, '');
+  if (mastoInstance && process.env.MASTODON_TOKEN) {
+    const t0 = Date.now();
+    try {
+      const res = await fetch(`${mastoInstance}/api/v1/accounts/verify_credentials`, {
+        headers: { Authorization: `Bearer ${process.env.MASTODON_TOKEN}` },
+        signal: AbortSignal.timeout(6000),
+      });
+      const data = await res.json();
+      mastoHealth = res.ok && data.acct
+        ? { channel: 'mastodon', status: 'online', latencyMs: Date.now() - t0, configured: true, message: `@${data.acct}` }
+        : { channel: 'mastodon', status: 'offline', latencyMs: Date.now() - t0, configured: true, message: data.error || 'Token de Mastodon inválido' };
+    } catch (err: any) {
+      mastoHealth = { channel: 'mastodon', status: 'degraded', latencyMs: Date.now() - t0, configured: true, message: err.message };
+    }
+  }
+
+  const result = { facebook: fbHealth, telegram: tgHealth, bluesky: bskyHealth, linkedIn: liHealth, instagram: igHealth, mastodon: mastoHealth };
   connectivityCache = { at: Date.now(), result };
   return result;
 }

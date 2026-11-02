@@ -8,6 +8,7 @@ import {
 import { publishToFacebook } from '@/lib/news/facebook-publisher';
 import { publishToTelegram, publishToBluesky } from '@/lib/news/multi-publisher';
 import { publishToLinkedInCompany } from '@/lib/news/linkedin-publisher';
+import { publishToInstagram, publishToMastodon } from '@/lib/news/extra-publishers';
 import { getStoredCredentials, getConfiguredChannels } from '@/lib/config/credentials-manager';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 import { markStoryAsCovered } from './news-scout';
@@ -24,7 +25,7 @@ const CATCH_UP_SPACING_MINUTES = 50;
 /** Se conservan en disco solo los últimos N elementos cerrados (publicados/fallidos/caducados) */
 const MAX_CLOSED_ITEMS = 150;
 
-const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn'] as const;
+const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'mastodon'] as const;
 type Channel = (typeof CHANNELS)[number];
 
 export interface EnqueueOptions {
@@ -184,6 +185,10 @@ async function publishToChannel(
         return await publishToBluesky(news, creds.blueskyHandle, creds.blueskyPassword);
       case 'linkedIn':
         return await publishToLinkedInCompany(news);
+      case 'instagram':
+        return await publishToInstagram(news, creds.facebookAccessToken);
+      case 'mastodon':
+        return await publishToMastodon(news);
     }
   } catch (err: any) {
     return { success: false, error: err?.message || `Error en ${channel}` };
