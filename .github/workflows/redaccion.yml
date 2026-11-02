@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       historias_extra:
-        description: 'Historias nuevas extra para publicar YA (0-3), sin topes de cola ni cupo'
+        description: 'Historias nuevas extra para publicar YA (0-5), sin topes de cola ni cupo'
         required: false
         default: '0'
       solo_con_video:

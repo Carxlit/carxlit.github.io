@@ -233,7 +233,7 @@ async function main() {
 
   writeRunSummary(result, auditLine);
 
-  const extra = Math.max(0, Math.min(3, Math.floor(Number(process.env.EXTRA_STORIES || 0))));
+  const extra = Math.max(0, Math.min(5, Math.floor(Number(process.env.EXTRA_STORIES || 0))));
   if (extra > 0) await produceExtraStories(extra);
 
   if (PHASE === 'all') await dispatchPhase();
