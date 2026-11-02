@@ -5,20 +5,13 @@
  *
  * Uso: npm run cloud:run
  */
+// Primero: limpia BOM/espacios de los secretos antes de que otros módulos los lean al cargarse
+import './clean-env';
 import fs from 'fs';
 import path from 'path';
 import { runFullNewsroomAudit } from '../src/lib/agents/newsroom-auditor';
 import { runAutonomousNewsroomCycle, getAutonomousConfig } from '../src/lib/agents/autonomous-newsroom';
 import { getPublicationQueue } from '../src/lib/agents/queue-dispatcher';
-
-// Los secretos guardados desde PowerShell 5.1 pueden llegar con BOM (U+FEFF) o saltos de línea
-// al principio/final: rompen las cabeceras HTTP ("Cannot convert argument to a ByteString").
-for (const [key, value] of Object.entries(process.env)) {
-  if (typeof value === 'string') {
-    const clean = value.replace(/^﻿+/, '').trim();
-    if (clean !== value) process.env[key] = clean;
-  }
-}
 
 /** Tarjetas de más de N días que ya no están en cola: el sitio guarda su propia copia en site/img */
 const CARD_RETENTION_DAYS = 3;

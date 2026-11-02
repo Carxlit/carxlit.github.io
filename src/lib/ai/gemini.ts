@@ -6,7 +6,8 @@ import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 
 // Inicialización del cliente de Google AI Studio con la clave de entorno
 export const google = createGoogleGenerativeAI({
-  apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY || '',
+  // Sin BOM ni espacios: una clave copiada desde PowerShell puede traerlos y romper la cabecera HTTP
+  apiKey: (process.env.GOOGLE_GENERATIVE_AI_API_KEY || '').replace(/^﻿+/, '').trim(),
 });
 
 /**
