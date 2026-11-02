@@ -15,7 +15,8 @@ import { getBrowser, escapeHtml } from '@/lib/news/card-generator';
  *
  * Configuración (variables de entorno):
  *  REEL_PYTHON / PIPER_PYTHON  intérprete con `edge-tts` (y `piper-tts` para el respaldo)
- *  REEL_VOICE  voz de Edge (por defecto es-MX-JorgeNeural) · REEL_RATE velocidad (por defecto +6%)
+ *  REEL_VOICE  voz de Edge (por defecto es-CO-GonzaloNeural) · REEL_RATE velocidad (por defecto +8%)
+ *  REEL_CAPTIONS  estilo de subtítulos: box (por defecto, MAYÚSCULAS con recuadro rojo) o karaoke (palabra amarilla)
  *  PIPER_VOICE / PIPER_DATA_DIR  voz local de respaldo · FFMPEG_PATH binario de ffmpeg
  */
 
@@ -142,8 +143,8 @@ function alignWords(text: string, marks: { t: number; d: number; text: string }[
 function narrateWithEdge(lines: string[], work: string): { wavs: string[]; marks: { t: number; d: number; text: string }[][] } {
   const cfg = path.join(work, 'tts.json');
   fs.writeFileSync(cfg, JSON.stringify({
-    voice: process.env.REEL_VOICE || 'es-MX-JorgeNeural',
-    rate: process.env.REEL_RATE || '+6%',
+    voice: process.env.REEL_VOICE || 'es-CO-GonzaloNeural',
+    rate: process.env.REEL_RATE || '+8%',
     pitch: process.env.REEL_PITCH || '+0Hz',
     lines,
   }));
@@ -257,7 +258,13 @@ function reelHtml(news: ProcessedNews, sections: Section[], total: number): stri
   #cap span{display:inline-block;margin:0 .12em;transform-origin:50% 70%}
   #cap span.on{color:#ffd400}
   #cap span.next{color:rgba(255,255,255,.92)}
-</style></head><body>
+  /* Estilo "caja": MAYÚSCULAS con contorno y la palabra dicha sobre un recuadro rojo de la marca */
+  .box #cap .line{font-size:84px;line-height:1.3;text-transform:uppercase;letter-spacing:0;
+    text-shadow:-4px -4px 0 #000,4px -4px 0 #000,-4px 4px 0 #000,4px 4px 0 #000,0 10px 24px rgba(0,0,0,.6)}
+  .box #cap span{padding:2px 18px;margin:4px 2px;border-radius:14px}
+  .box #cap span.on{color:#fff;background:#dc2626;text-shadow:0 4px 10px rgba(0,0,0,.35);box-shadow:0 10px 30px rgba(220,38,38,.45)}
+  .box #cap span.next{color:#fff}
+</style></head><body class="${process.env.REEL_CAPTIONS === 'karaoke' ? 'karaoke' : 'box'}">
 ${layers}
 <div class="brand" id="brand">PUNTO CIEGO<b>.</b></div>
 <div id="cap"></div>
