@@ -253,6 +253,8 @@ export function calculateNextPostSchedule(config: AutonomousConfig = getAutonomo
 /**
  * Selecciona la mejor noticia del radar aplicando estrictamente la diversidad temática
  */
+const LATAM_PATTERN = /\b(colombia|colombian[oa]s?|bogot[aá]|petro|latinoam[eé]rica|am[eé]rica latina|m[eé]xico|venezuela|argentina|brasil|chile|per[uú]|ecuador|bolivia|panam[aá]|cuba|caribe|centroam[eé]rica|mercosur|celac)\b/i;
+
 export function selectBestDiverseArticle(
   candidates: RawArticle[],
   report: DailyEditorialReport
@@ -304,6 +306,20 @@ export function selectBestDiverseArticle(
     if (Number.isFinite(ageHours) && ageHours <= 3) {
       score += 10;
       rationaleParts.push('+10 (Publicada hace menos de 3 h)');
+    }
+
+    // 5. Relevancia real: cuantos más medios cuentan el mismo hecho, más importa (y más se busca)
+    const coverage = article.coverageCount || 1;
+    if (coverage > 1) {
+      const bonus = Math.min(30, (coverage - 1) * 8);
+      score += bonus;
+      rationaleParts.push(`+${bonus} (Lo cubren ${coverage} medios)`);
+    }
+
+    // 6. Audiencia latinoamericana: los hechos de la región se comparten más
+    if (LATAM_PATTERN.test(`${article.title} ${article.contentSnippet || ''}`)) {
+      score += 8;
+      rationaleParts.push('+8 (Relevante para Latinoamérica)');
     }
 
     if (score > highestScore) {
@@ -431,7 +447,7 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
   // 2. Investigar feeds (el Scout ya excluye lo visto, lo encolado y lo repetido entre medios)
   console.log('[AutonomousNewsroom] Investigando feeds internacionales...');
   const maxAgeMs = config.maxArticleAgeHours * 3_600_000;
-  const candidates = (await runNewsScout(4)).filter((c) => {
+  const candidates = (await runNewsScout(6)).filter((c) => {
     const t = new Date(c.pubDate).getTime();
     return !Number.isFinite(t) || Date.now() - t <= maxAgeMs;
   });

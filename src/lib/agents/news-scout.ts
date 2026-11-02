@@ -176,6 +176,27 @@ export const SCOUT_FEEDS: ExpandedFeedConfig[] = [
     category: 'PODER & SOCIEDAD',
     weight: 8,
   },
+
+  // --- Red ampliada (2026-11): agencias, prensa latinoamericana y especializada ---
+  { url: 'https://www.europapress.es/rss/rss.aspx?ch=00069', sourceName: 'Europa Press', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://www.rfi.fr/es/rss', sourceName: 'RFI Español', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://e00-elmundo.uecdn.es/elmundo/rss/internacional.xml', sourceName: 'El Mundo', category: 'GEOPOLÍTICA', weight: 7 },
+  { url: 'https://www.abc.es/rss/2.0/internacional/', sourceName: 'ABC Internacional', category: 'GEOPOLÍTICA', weight: 7 },
+  { url: 'https://www.lavanguardia.com/rss/internacional.xml', sourceName: 'La Vanguardia', category: 'GEOPOLÍTICA', weight: 7 },
+  { url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada', sourceName: 'El País América', category: 'PODER & SOCIEDAD', weight: 9 },
+  { url: 'https://www.eltiempo.com/rss/mundo.xml', sourceName: 'El Tiempo', category: 'PODER & SOCIEDAD', weight: 8 },
+  { url: 'https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml', sourceName: 'Semana', category: 'PODER & SOCIEDAD', weight: 7 },
+  { url: 'https://www.clarin.com/rss/mundo/', sourceName: 'Clarín', category: 'PODER & SOCIEDAD', weight: 7 },
+  { url: 'https://www.bloomberglinea.com/arc/outboundfeeds/rss/?outputType=xml', sourceName: 'Bloomberg Línea', category: 'ECONOMÍA GLOBAL', weight: 9 },
+  { url: 'https://www.portafolio.co/rss/economia', sourceName: 'Portafolio', category: 'ECONOMÍA GLOBAL', weight: 7 },
+  { url: 'https://www.xataka.com.mx/feedburner.xml', sourceName: 'Xataka México', category: 'TECNOLOGÍA & IA', weight: 7 },
+  { url: 'https://www.defensa.com/rss', sourceName: 'Defensa.com', category: 'SEGURIDAD & DEFENSA', weight: 8 },
+  {
+    url: 'https://news.google.com/rss/search?q=ciberataque+OR+hackeo+OR+ransomware+OR+filtraci%C3%B3n+when:2d&hl=es-419&gl=US&ceid=US:es-419',
+    sourceName: 'Google News Ciberseguridad',
+    category: 'SEGURIDAD & DEFENSA',
+    weight: 8,
+  },
 ];
 
 const HISTORY_PATH = path.join(process.cwd(), 'storage', 'news_history.json');
