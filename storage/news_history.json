@@ -20,9 +20,135 @@
     "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo",
     "https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html",
     "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss",
-    "https://www.france24.com/es/europa/20261102-de-b%C3%A9lgica-a-suecia-nueva-ola-de-ciberataques-contra-sistemas-de-refrigeraci%C3%B3n-afecta-a-decenas-de-supermercados"
+    "https://www.france24.com/es/europa/20261102-de-b%C3%A9lgica-a-suecia-nueva-ola-de-ciberataques-contra-sistemas-de-refrigeraci%C3%B3n-afecta-a-decenas-de-supermercados",
+    "https://elpais.com/internacional/2026-11-02/foro-world-in-progress-de-barcelona-en-directo.html",
+    "https://www.abc.es/internacional/netanyahu-presiona-trump-atacar-iran-teheran-ofrece-20261102183735-nt.html",
+    "https://www.genbeta.com/actualidad/nuevo-estudio-rastrea-famosa-noche-estrellada-van-gogh-cielo-nocturno-real-1889",
+    "https://www.abc.es/internacional/iliana-iotova-nueva-presidenta-bulgara-impulsa-acercamiento-20261102110732-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "ILIANA IOTOVA ASUME LA PRESIDENCIA DE BULGARIA CON UN GIRO PRORRUSO",
+      "normalizedTokens": [
+        "iliana",
+        "iotova",
+        "asume",
+        "presidencia",
+        "bulgaria",
+        "giro",
+        "prorruso"
+      ],
+      "date": "2026-11-02T17:49:29.655Z"
+    },
+    {
+      "title": "Iliana Iotova, la nueva presidenta búlgara que impulsa un acercamiento a Rusia en contra de la UE",
+      "normalizedTokens": [
+        "iliana",
+        "iotova",
+        "nueva",
+        "presidenta",
+        "bulgara",
+        "impulsa",
+        "acercamiento",
+        "rusia"
+      ],
+      "date": "2026-11-02T17:49:29.655Z"
+    },
+    {
+      "title": "SOFTWARE ASTRONÓMICO REESCRIBE LA CRONOLOGÍA DE VAN GOGH",
+      "normalizedTokens": [
+        "software",
+        "astronomico",
+        "reescribe",
+        "cronologia",
+        "van",
+        "gogh"
+      ],
+      "date": "2026-11-02T17:49:13.751Z"
+    },
+    {
+      "title": "Un nuevo estudio rastrea la famosa ‘Noche estrellada’ de Van Gogh hasta un cielo nocturno real de 1889",
+      "normalizedTokens": [
+        "nuevo",
+        "estudio",
+        "rastrea",
+        "famosa",
+        "noche",
+        "estrellada",
+        "van",
+        "gogh",
+        "cielo",
+        "nocturno",
+        "real",
+        "1889"
+      ],
+      "date": "2026-11-02T17:49:13.751Z"
+    },
+    {
+      "title": "NETANYAHU PRESIONA A TRUMP PARA ATACAR IRÁN MIENTRAS TEHERÁN OFRECE ORMUZ",
+      "normalizedTokens": [
+        "netanyahu",
+        "presiona",
+        "trump",
+        "atacar",
+        "iran",
+        "mientras",
+        "teheran",
+        "ofrece",
+        "ormuz"
+      ],
+      "date": "2026-11-02T17:48:56.579Z"
+    },
+    {
+      "title": "Netanyahu presiona a Trump para atacar Irán mientras Teherán ofrece reabrir Ormuz en 48 horas",
+      "normalizedTokens": [
+        "netanyahu",
+        "presiona",
+        "trump",
+        "atacar",
+        "iran",
+        "mientras",
+        "teheran",
+        "ofrece",
+        "reabrir",
+        "ormuz",
+        "horas"
+      ],
+      "date": "2026-11-02T17:48:56.579Z"
+    },
+    {
+      "title": "POTENCIAS MUNDIALES BUSCAN DISOLVER LA UNIÓN EUROPEA",
+      "normalizedTokens": [
+        "potencias",
+        "mundiales",
+        "buscan",
+        "disolver",
+        "union",
+        "europea"
+      ],
+      "date": "2026-11-02T17:48:11.853Z"
+    },
+    {
+      "title": "Foro World in Progress 2026 de Barcelona, en directo | Arcadi España afirma que “hay una estrategia deliberada de potencias mundiales” que buscan “disolver” la UE",
+      "normalizedTokens": [
+        "foro",
+        "world",
+        "progress",
+        "2026",
+        "barcelona",
+        "directo",
+        "arcadi",
+        "espana",
+        "afirma",
+        "estrategia",
+        "deliberada",
+        "potencias",
+        "mundiales",
+        "buscan",
+        "disolver"
+      ],
+      "date": "2026-11-02T17:48:11.852Z"
+    },
     {
       "title": "CIBERATAQUES A SISTEMAS DE REFRIGERACIÓN EN SIETE PAÍSES EUROPEOS",
       "normalizedTokens": [
