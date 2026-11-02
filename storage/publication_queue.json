@@ -1596,10 +1596,11 @@
         "wordCount": 649
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/KZDUS55JGFKYLDIU47OWBZWB4E.jpg?auth=2ab1c682436f2df2764110768fc85eef417c8b34c4e6dfa962c775f11465d0bd",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T14:16:28.630Z",
       "cardImageUrl": "/news-cards/news-myw5zc404-1793628988630.jpg",
-      "articleUrl": "https://carxlit.github.io/noticias/paradoja-ormuz-crudo-roza-118-dolares-ep7k/"
+      "articleUrl": "https://carxlit.github.io/noticias/paradoja-ormuz-crudo-roza-118-dolares-ep7k/",
+      "publishedAt": "2026-11-02T16:44:09.610Z"
     },
     "channels": {
       "facebook": true,
@@ -1610,10 +1611,38 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T16:41:46.031Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T14:16:29.549Z"
+    "createdAt": "2026-11-02T14:16:29.549Z",
+    "lastAttemptAt": "2026-11-02T16:42:01.202Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101560375532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "23",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdree2sh52f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18082500914363122"
+      }
+    },
+    "publishedAt": "2026-11-02T16:44:09.610Z"
   },
   {
     "id": "queue-1793632569515-0rytl",
@@ -2471,11 +2500,12 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T16:23:36.191Z",
       "cardImageUrl": "/news-cards/news-3bq2kbhul-1793636616191.jpg",
       "instagramCardUrl": "/news-cards/news-3bq2kbhul-1793636617012-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/",
+      "publishedAt": "2026-11-02T16:30:13.879Z"
     },
     "channels": {
       "facebook": true,
@@ -2487,9 +2517,41 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T16:23:37.559Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T16:23:37.551Z"
+    "createdAt": "2026-11-02T16:23:37.551Z",
+    "lastAttemptAt": "2026-11-02T16:28:18.075Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101548627532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "22",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdqljigph2q"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17965137972212892"
+      },
+      "facebookReel": {
+        "success": true,
+        "videoId": "976193931713995"
+      }
+    },
+    "publishedAt": "2026-11-02T16:30:13.879Z"
   }
 ]
