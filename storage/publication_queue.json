@@ -3509,11 +3509,12 @@
         "close": "Lee el análisis completo y sin filtros en el enlace del perfil."
       },
       "rawImageUrl": "https://album.mediaset.es/eimg/2024/0711/08/archivo-el-ministro-de-inclusion-seguridad-social-y-migraciones-jose-luis-escriva-interviene-en-una-72136d8-2.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T19:06:04.084Z",
       "cardImageUrl": "/news-cards/news-w9zx9799m-1793646364085.jpg",
       "instagramCardUrl": "/news-cards/news-w9zx9799m-1793646367694-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/jose-luis-escriva-rechaza-equiparar-inversiones-xo6s/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/jose-luis-escriva-rechaza-equiparar-inversiones-xo6s/",
+      "publishedAt": "2026-11-02T19:08:45.701Z"
     },
     "channels": {
       "facebook": true,
@@ -3526,9 +3527,47 @@
       "threads": true
     },
     "scheduledFor": "2026-11-02T19:06:09.041Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T19:06:09.030Z"
+    "createdAt": "2026-11-02T19:06:09.030Z",
+    "lastAttemptAt": "2026-11-02T19:06:51.257Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101691829532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "32",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdzgvijx322"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18220690489355178",
+        "permalink": "https://www.instagram.com/reel/DfQBaFLG8X5/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17979179628135001"
+      }
+    },
+    "publishedAt": "2026-11-02T19:08:45.701Z"
   }
 ]
