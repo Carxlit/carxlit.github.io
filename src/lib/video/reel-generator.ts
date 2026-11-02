@@ -15,7 +15,7 @@ import { getBrowser, escapeHtml } from '@/lib/news/card-generator';
  *
  * Configuración (variables de entorno):
  *  REEL_PYTHON / PIPER_PYTHON  intérprete con `edge-tts` (y `piper-tts` para el respaldo)
- *  REEL_VOICE  voz de Edge (por defecto es-CO-GonzaloNeural) · REEL_RATE velocidad (por defecto +8%)
+ *  REEL_VOICE  voz de Edge (por defecto es-MX-JorgeNeural) · REEL_RATE velocidad (por defecto +8%)
  *  REEL_CAPTIONS  estilo de subtítulos: box (por defecto, MAYÚSCULAS con recuadro rojo) o karaoke (palabra amarilla)
  *  PIPER_VOICE / PIPER_DATA_DIR  voz local de respaldo · FFMPEG_PATH binario de ffmpeg
  */
@@ -143,7 +143,7 @@ function alignWords(text: string, marks: { t: number; d: number; text: string }[
 function narrateWithEdge(lines: string[], work: string): { wavs: string[]; marks: { t: number; d: number; text: string }[][] } {
   const cfg = path.join(work, 'tts.json');
   fs.writeFileSync(cfg, JSON.stringify({
-    voice: process.env.REEL_VOICE || 'es-CO-GonzaloNeural',
+    voice: process.env.REEL_VOICE || 'es-MX-JorgeNeural',
     rate: process.env.REEL_RATE || '+8%',
     pitch: process.env.REEL_PITCH || '+0Hz',
     lines,
