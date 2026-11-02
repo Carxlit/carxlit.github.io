@@ -3190,11 +3190,12 @@
         "close": "Lee el análisis completo y descubre el punto ciego en nuestro enlace."
       },
       "rawImageUrl": "https://i.blogs.es/51f191/la-noche-estrellada/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T17:49:11.953Z",
       "cardImageUrl": "/news-cards/news-qcbp4ak6k-1793641751953.jpg",
       "instagramCardUrl": "/news-cards/news-qcbp4ak6k-1793641752606-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cuando-algoritmos-nasa-intentan-fechar-cielo-a6ck/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cuando-algoritmos-nasa-intentan-fechar-cielo-a6ck/",
+      "publishedAt": "2026-11-02T20:06:01.603Z"
     },
     "channels": {
       "facebook": true,
@@ -3206,11 +3207,11 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T20:05:45.482Z",
-    "status": "queued",
-    "attempts": 1,
+    "status": "published",
+    "attempts": 2,
     "maxAttempts": 3,
     "createdAt": "2026-11-02T17:49:13.750Z",
-    "lastAttemptAt": "2026-11-02T17:51:57.794Z",
+    "lastAttemptAt": "2026-11-02T20:06:00.704Z",
     "results": {
       "mastodon": {
         "success": false,
@@ -3223,8 +3224,9 @@
         "simulated": false
       },
       "telegram": {
-        "success": false,
-        "error": "The operation was aborted due to timeout"
+        "success": true,
+        "messageId": "33",
+        "simulated": false
       },
       "bluesky": {
         "success": true,
@@ -3241,7 +3243,7 @@
         "error": "Noticia sin video libre: solo post con imagen"
       }
     },
-    "error": "Reintento 1/3: facebookReel: Noticia sin video libre: solo post con imagen"
+    "publishedAt": "2026-11-02T20:06:01.603Z"
   },
   {
     "id": "queue-1793641769653-sg3je",
