@@ -1,5 +1,99 @@
 [
   {
+    "slug": "dilema-memoria-ram-centralizacion-poder-computo-j4of",
+    "path": "noticias/dilema-memoria-ram-centralizacion-poder-computo-j4of/",
+    "title": "El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI",
+    "headline": "SAM ALTMAN CRITICA EL USO DE RAM EN COMPUTADORAS PERSONALES",
+    "dek": "Sam Altman cuestiona la eficiencia de mantener memoria DRAM inactiva en equipos personales frente a la escasez global. Detrás de los argumentos de optimización se vislumbra la defensa del modelo de negocio en la nube.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka México",
+    "image": "img/dilema-memoria-ram-centralizacion-poder-computo-j4of.jpg",
+    "publishedAt": "2026-11-02T15:44:04.999Z",
+    "article": {
+      "slug": "dilema-memoria-ram-centralizacion-poder-computo-j4of",
+      "title": "El dilema de la memoria RAM y la centralización del poder de cómputo según OpenAI",
+      "dek": "Sam Altman cuestiona la eficiencia de mantener memoria DRAM inactiva en equipos personales frente a la escasez global. Detrás de los argumentos de optimización se vislumbra la defensa del modelo de negocio en la nube.",
+      "keyFacts": [
+        "Sam Altman es el director general de OpenAI.",
+        "Las declaraciones fueron realizadas durante una charla en el canal de YouTube Cheeky Pint.",
+        "Según Altman, la memoria RAM en computadoras personales se utiliza solo el 5% del tiempo.",
+        "La industria tecnológica enfrenta una escasez de componentes impulsada por la demanda masiva de los centros de datos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Durante una participación en el canal de YouTube Cheeky Pint, Sam Altman, director general de OpenAI, abordó el creciente interés de la comunidad tecnológica por ejecutar modelos de inteligencia artificial de forma local en equipos comerciales. En su intervención, el directivo calificó como un desperdicio global que los usuarios mantengan módulos de memoria DRAM en sus computadoras de escritorio operando a baja capacidad.",
+            "Según las declaraciones recogidas por medios como Xataka México y Yahoo, Altman señaló que la asignación global de recursos sufre cuando millones de personas poseen fracciones de reservas limitadas de memoria que se utilizan únicamente el cinco por ciento del tiempo en promedio."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La carrera por dominar la inteligencia artificial ha desatado una intensa demanda de componentes avanzados a escala internacional. Los centros de datos de las grandes empresas tecnológicas devoran suministros masivos de memoria y semiconductores, disparando los costos de producción y tensionando las cadenas de suministro globales.",
+            "Frente a este escenario de escasez, la postura de la industria apunta a maximizar la eficiencia mediante la centralización de los recursos en servidores remotos. Sin embargo, una parte de los usuarios y desarrolladores busca descentralizar el poder de cómputo mediante hardware propio y herramientas de código abierto."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras que el argumento oficial se centra en la optimización de un entorno limitado por la oferta, el análisis de Punto Ciego revela un trasfondo estrictamente comercial. El núcleo financiero de OpenAI depende de modelos propietarios que operan exclusivamente en la nube y se financian mediante suscripciones de pago.",
+            "La descentralización del procesamiento y la capacidad de ejecutar sistemas avanzados en equipos personales representan una amenaza directa para este modelo operativo. Desalentar el uso de hardware local protege las fuentes de ingresos corporativas bajo el disfraz de una preocupación por la eficiencia ecológica y material."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los operadores de macrocentros de datos y las grandes corporaciones de inteligencia artificial consolidan su control sobre la infraestructura y la monetización de la tecnología. Los fabricantes de hardware ven priorizada la venta masiva a la nube frente al consumidor minorista.",
+            "Por otro lado, los usuarios particulares y los entusiastas del hardware pierden autonomía y capacidad de procesamiento local, quedando sujetos a las tarifas y condiciones de acceso impuestas por los servidores centralizados."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario observar la evolución de los requerimientos de hardware para los futuros modelos de inteligencia artificial y la resistencia de las comunidades de código abierto frente a la centralización corporativa. Las decisiones regulatorias sobre soberanía digital y acceso a componentes marcarán el equilibrio futuro entre la nube y el equipo local."
+          ]
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Memoria RAM",
+        "Infraestructura",
+        "Hardware",
+        "Sam Altman"
+      ],
+      "sources": [
+        {
+          "name": "Xataka México",
+          "title": "Sam Altman, CEO de OpenAI: \"Es terrible que la gente tenga memoria RAM en su propio PC utilizándose solo el 5 % del tiempo\"",
+          "url": "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo"
+        },
+        {
+          "name": "Yahoo",
+          "title": "El CEO de OpenAI, Sam Altman, dice que es “terrible” que tengas RAM en tu PC y prefiere que toda esté en sus centros de datos",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOXlwcFFRTzdOREtUSUpTa1Fsd0JfcWlyd19tcDFpYnQzN3F4YklJa3ZGUTlOdExhbFFFZHU2RURBR09QOG4xSnlRdmx4alJHVjh0RnhVT0tncG83VnFrYUN6OXQ4UkttRWJaeG1jZkdIOVdCRkxSZk8wUGtmbktseGpUeW4?oc=5"
+        },
+        {
+          "name": "Xataka",
+          "title": "Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjJKSmlGTkZfNWJIVlZwdTBWQzJXUlNCcDZLck5aUWQ5T2tjbWxLaXVLMkpCU3c0MjZlbllneWtxaEFCUXI1dnlackVuRDRvVWFTcnhORDY2d2hBdm1CdVBaTWhERk1UM2psSHJEUzlfczlja0JnSm9HcF9JS1EwejFwSW5PT2VQTmtXWjBuclUxTXNOaHFPaEVIdWRBUjQyaDRxdkI4RXBRVGtPdkE3WlFjR0s3SXpVRmJZVUljcWhPdWVTOFV3X3M0em9Kc0RJLVNGWdIB2gFBVV95cUxOM2pnbVFDUDJBdWRjQnZUZXpCdklocE1lTERORWY0UXVLNkdpN01XUXpkdUlIYU5yMjJiRzR5TFc1dllCZVhmRndDM0phT0RZTWFLYWpOelZ3eHN4Umk3bWVUb1hLQVZDaC1Ec1F2NFRRQlg3VTRiWV9wRGc3Y1BKSGxjd2w1OFpSQV9GX21RZjlWRE1HOEN2MlhKSTVhejR1LWFZMUFGN0lFSVM4bmVJWjJzOTZncXo4aVVlc0lZSWNfT0VQUHhEdV8zcE12bWEySTJNei1IdDhNdw?oc=5"
+        },
+        {
+          "name": "VidaExtra",
+          "title": "Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su propio PC utilizándose solo el 5 % del tiempo\"",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxON290V2JyOVZodU1ZaGt4ejJRbkJHVXlYWi1qVllXdS1mekZRT2MxdHphekI3NUNBWU8tVWFkaS1PQzlCU0E3QV80VkF0RVh0SGlmY3hLVlJyckhkempjdkY2d0ZkcWpqcEFIX0dKbUZIY2NMVXh5Qm10VS1TR3dpcmFtSDl4Wll3WFExbzFBTVdwempFRHl4X3BsMDVLdUJfX2NPQjJGaW12LWhuTUQyaWFpSGVmd0c4Wll1WlZ2QXB1Q1c3endlMEo5ZFNJZEpXRUpNZzZsczBTN1o5?oc=5"
+        },
+        {
+          "name": "IGN Latinoamérica",
+          "title": "Sam Altman, director ejecutivo de OpenAI, considera que es \"terrible\" que tu PC para videojuegos tenga memoria RAM",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWEdJQ1NZM2wxc09qMmFHRll1aGkxNW1jdExKRFdvUVlQOGVxLUYyUXpSV2RKMXd0amgyZWpxcTF0R080TEhQT3h4MnpVczdKU2NNaWJBOVpWSHBBeklROS12OWlnY0p2V0V4ZDJmTHhRUVJCS3lDa3lQMTFsalViVkt2Ty1kcE1udnlaWEk5aWxIRjA2ZGRHQllHYThMaHUtVTNOWHE5OHpwendFRXlYR2Ztc0FQNW1LZ0RLX2lodDFvWVFqaTFZdHZra0RKQ3VUOHVHb0U2WGdwWlhIUmc?oc=5"
+        }
+      ],
+      "wordCount": 458
+    },
+    "blindSpot": "Mientras Altman enmarca su crítica en la eficiencia global de recursos y la escasez de componentes, el trasfondo comercial revela una defensa directa del modelo de negocio centralizado en la nube de OpenAI. Descentralizar la ejecución de modelos avanzados mediante hardware local amenaza las suscripciones de pago que sostienen financieramente a la compañía."
+  },
+  {
     "slug": "futuros-wall-street-repuntan-tras-octubre-fim9",
     "path": "noticias/futuros-wall-street-repuntan-tras-octubre-fim9/",
     "title": "Los futuros de Wall Street repuntan tras un octubre bajista entre la pausa de la inteligencia artificial y la caída del petróleo",

@@ -16,9 +16,42 @@
     "https://elpais.com/internacional/2026-11-02/la-triple-paradoja-de-ormuz-mas-barcos-cruzando-mas-ataques-y-el-petroleo-por-las-nubes.html",
     "https://elpais.com/internacional/2026-11-01/la-crisis-de-la-vivienda-revive-en-las-calles-portuguesas-el-espiritu-de-la-revolucion-de-abril.html",
     "https://www.infobae.com/america/mundo/2026/11/02/el-regimen-de-iran-dijo-que-reabrira-el-estrecho-de-ormuz-en-dos-dias-si-estados-unidos-acepta-sus-condiciones/",
-    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NMUlUQ0Zsc09hMWhMQnZkbDhxOVhYVGVaQTR4WG1NLVJZc3RQWVFuQ2UtSTRKTEt1dU93OEhMSEc4NUktb3NwLWw1S0o4TVk2elY0ay1kZF9UTVNJV0RsUTM4M0l3b1huVzNPWlNJM0dRcHVHVG0wTw?oc=5"
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NMUlUQ0Zsc09hMWhMQnZkbDhxOVhYVGVaQTR4WG1NLVJZc3RQWVFuQ2UtSTRKTEt1dU93OEhMSEc4NUktb3NwLWw1S0o4TVk2elY0ay1kZF9UTVNJV0RsUTM4M0l3b1huVzNPWlNJM0dRcHVHVG0wTw?oc=5",
+    "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo"
   ],
   "processedSignatures": [
+    {
+      "title": "SAM ALTMAN CRITICA EL USO DE RAM EN COMPUTADORAS PERSONALES",
+      "normalizedTokens": [
+        "sam",
+        "altman",
+        "critica",
+        "uso",
+        "ram",
+        "computadoras",
+        "personales"
+      ],
+      "date": "2026-11-02T15:44:05.023Z"
+    },
+    {
+      "title": "Sam Altman, CEO de OpenAI: \"Es terrible que la gente tenga memoria RAM en su propio PC utilizándose solo el 5 % del tiempo\"",
+      "normalizedTokens": [
+        "sam",
+        "altman",
+        "ceo",
+        "openai",
+        "terrible",
+        "gente",
+        "tenga",
+        "memoria",
+        "ram",
+        "propio",
+        "utilizandose",
+        "solo",
+        "tiempo"
+      ],
+      "date": "2026-11-02T15:44:05.023Z"
+    },
     {
       "title": "WALL STREET SUBE TRAS OCTUBRE BAJISTA CON LA MIRA EN ELECCIONES",
       "normalizedTokens": [
