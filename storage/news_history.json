@@ -7,9 +7,38 @@
     "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261101-apunta-trump-a-gobernar-sin-el-congreso-si-los-dem%C3%B3cratas-ganan-las-midterms-as%C3%AD-se-prepara",
     "https://www.france24.com/es/video/20261101-misi%C3%B3n-de-la-onu-en-el-sahara-queda-en-el-limbo-por-vetos-cruzados-de-ee-uu-y-rusia",
     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdm5rSjRmQ1E4cHJ6d05CLUJDRmxpeWxSMXVFTU9DemZqbUl0M2szMGx0UjNRN0p6Y2NIRVVHR2pNdU4zdTRjaWtQMEE2NUkwSTFrY2o0X3hoMGYzcXA3SkJsbm1POEZBYm50V3JsQXNMdEpyRk5iWlk3cE9sUVJxcFo0WnZNcjBzNVpOQWk3bHRzd0NVZTdHRWllTFIxbHU4MGNfYmU1aFpkUkdTZ2lTc3hwQ0lNb0lpUzhvYXFuUXppakdUbGhlbg?oc=5",
-    "https://www.infobae.com/estados-unidos/2026/11/01/reportan-una-fuerte-explosion-en-west-palm-beach-las-autoridades-investigan-la-causa/"
+    "https://www.infobae.com/estados-unidos/2026/11/01/reportan-una-fuerte-explosion-en-west-palm-beach-las-autoridades-investigan-la-causa/",
+    "https://theconversation.com/las-cuatro-preguntas-que-debe-hacerse-europa-despues-de-las-elecciones-de-medio-mandato-estadounidenses-295581"
   ],
   "processedSignatures": [
+    {
+      "title": "ELECCIONES DE MEDIO MANDATO AMENAZAN EL LIDERAZGO ESTADOUNIDENSE",
+      "normalizedTokens": [
+        "elecciones",
+        "medio",
+        "mandato",
+        "amenazan",
+        "liderazgo",
+        "estadounidense"
+      ],
+      "date": "2026-11-02T03:11:29.033Z"
+    },
+    {
+      "title": "Las cuatro preguntas que debe hacerse Europa después de las elecciones de medio mandato estadounidenses",
+      "normalizedTokens": [
+        "cuatro",
+        "preguntas",
+        "debe",
+        "hacerse",
+        "europa",
+        "despues",
+        "elecciones",
+        "medio",
+        "mandato",
+        "estadounidenses"
+      ],
+      "date": "2026-11-02T03:11:29.032Z"
+    },
     {
       "title": "NUEVE MUERTOS AL CAER UN LEARJET EN WEST PALM BEACH",
       "normalizedTokens": [
