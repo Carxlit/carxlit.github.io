@@ -18,9 +18,38 @@
     "https://www.infobae.com/america/mundo/2026/11/02/el-regimen-de-iran-dijo-que-reabrira-el-estrecho-de-ormuz-en-dos-dias-si-estados-unidos-acepta-sus-condiciones/",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NMUlUQ0Zsc09hMWhMQnZkbDhxOVhYVGVaQTR4WG1NLVJZc3RQWVFuQ2UtSTRKTEt1dU93OEhMSEc4NUktb3NwLWw1S0o4TVk2elY0ay1kZF9UTVNJV0RsUTM4M0l3b1huVzNPWlNJM0dRcHVHVG0wTw?oc=5",
     "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo",
-    "https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html"
+    "https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html",
+    "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "CIBERATAQUE CONTRA REFRIGERADORES EN SIETE PAÍSES EUROPEOS",
+      "normalizedTokens": [
+        "ciberataque",
+        "refrigeradores",
+        "siete",
+        "paises",
+        "europeos"
+      ],
+      "date": "2026-11-02T16:23:37.553Z"
+    },
+    {
+      "title": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
+      "normalizedTokens": [
+        "investigan",
+        "posible",
+        "ciberataque",
+        "afecta",
+        "refrigeradores",
+        "supermercados",
+        "paises",
+        "europeos",
+        "causa",
+        "perdidas",
+        "millonarias"
+      ],
+      "date": "2026-11-02T16:23:37.553Z"
+    },
     {
       "title": "KARL BUSHBY COMPLETA EXPEDICIÓN TRAS 28 AÑOS DE TRAVESÍA GLOBAL",
       "normalizedTokens": [

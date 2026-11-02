@@ -2365,5 +2365,131 @@
       }
     },
     "publishedAt": "2026-11-02T15:55:36.543Z"
+  },
+  {
+    "id": "queue-1793636617551-023wr",
+    "news": {
+      "id": "3bq2kbhul",
+      "originalUrl": "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss",
+      "originalTitle": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
+      "sourceName": "BBC Mundo",
+      "category": "SEGURIDAD & DEFENSA",
+      "urgencyScore": 84,
+      "headline": "CIBERATAQUE CONTRA REFRIGERADORES EN SIETE PAÍSES EUROPEOS",
+      "subHeadline": "Un sabotaje remoto elevó hasta cincuenta grados los congeladores de decenas de supermercados en Europa, destruyendo millones de euros en alimentos y evidenciando la vulnerabilidad crítica de las cadenas de suministro.",
+      "blindSpotAngle": "La cobertura mediática se limita a calificar el hecho como un fallo técnico o una travesura anónima, ignorando que comprometer la cadena de frío a escala transnacional expone la fragilidad de las infraestructuras civiles ante operaciones de sabotaje híbrido y guerra asimétrica.",
+      "facebookPost": "Decenas de supermercados en siete países europeos sufrieron un sabotaje informático que desactivó sus sistemas de refrigeración, provocando la pérdida de millones de euros en alimentos tras alcanzar temperaturas de hasta cincuenta grados en plena red comercial.\n\nLa narrativa oficial apunta a un ataque anónimo y a la necesidad de implementar parches físicos en los equipos, pero el trasfondo real expone cómo la interconexión remota de infraestructuras civiles básicas se ha convertido en el flanco más desprotegido de la seguridad europea.\n\n¿Hasta qué punto la digitalización de la cadena alimentaria está creando un vector de vulnerabilidad que ningún estado puede blindar por completo?\n\nFuente: BBC Mundo\n\n#SeguridadYDefensa #Ciberseguridad #PuntoCiego",
+      "telegramPost": "<b>CIBERATAQUE CONTRA REFRIGERADORES EN SIETE PAÍSES EUROPEOS</b>\n\n• <b>Qué ocurrió:</b> Un sabotaje remoto alteró los sistemas de refrigeración en supermercados de Bélgica, Luxemburgo, Suecia, Irlanda, Países Bajos, Estonia y Finlandia, elevando la temperatura de los congeladores hasta los cincuenta grados y destruyendo millones de euros en alimentos.\n• <b>Por qué importa:</b> Tras un incidente previo en Francia, el ataque demuestra que la automatización y el mantenimiento remoto de la cadena de frío representan una infraestructura civil expuesta a vulnerabilidades críticas de escala transnacional.\n• <b>Qué sigue:</b> Las agencias nacionales de ciberseguridad de Bélgica, Suecia y el Reino Unido colaboran para rastrear el origen del sabotaje, obligando a revisar la separación física de las redes industriales en toda Europa.",
+      "linkedInPost": "El sabotaje remoto contra sistemas de refrigeración en supermercados de siete países europeos revela una peligrosa brecha en la intersección entre tecnología operativa y redes comerciales. Con pérdidas millonarias en alimentos y temperaturas que alcanzaron los cincuenta grados en unidades de marcas como Delhaize, el incidente trasciende el vandalismo digital para convertirse en un riesgo directo para la cadena de suministro alimentario. Las empresas proveedoras y los operadores de infraestructura deben replantear urgentemente la desconexión física de sus sistemas críticos frente a la falsa seguridad del mantenimiento remoto generalizado.\n\nFuente: BBC Mundo\n\n#SeguridadYDefensa #Ciberseguridad #CadenaDeSuministro #PuntoCiego",
+      "blueskyPost": "Un sabotaje remoto elevó a 50°C los congeladores de supermercados en 7 países europeos, destruyendo millones en alimentos. El verdadero riesgo no es el software, sino la fragilidad de conectar toda la cadena alimentaria a internet. #SeguridadYDefensa #PuntoCiego",
+      "copies": {
+        "facebook": "Decenas de supermercados en siete países europeos sufrieron un sabotaje informático que desactivó sus sistemas de refrigeración, provocando la pérdida de millones de euros en alimentos tras alcanzar temperaturas de hasta cincuenta grados en plena red comercial.\n\nLa narrativa oficial apunta a un ataque anónimo y a la necesidad de implementar parches físicos en los equipos, pero el trasfondo real expone cómo la interconexión remota de infraestructuras civiles básicas se ha convertido en el flanco más desprotegido de la seguridad europea.\n\n¿Hasta qué punto la digitalización de la cadena alimentaria está creando un vector de vulnerabilidad que ningún estado puede blindar por completo? \n\n#SeguridadYDefensa #Ciberseguridad #PuntoCiego",
+        "telegram": "<b>CIBERATAQUE CONTRA REFRIGERADORES EN SIETE PAÍSES EUROPEOS</b>\n\n• <b>Qué ocurrió:</b> Un sabotaje remoto alteró los sistemas de refrigeración en supermercados de Bélgica, Luxemburgo, Suecia, Irlanda, Países Bajos, Estonia y Finlandia, elevando la temperatura de los congeladores hasta los cincuenta grados y destruyendo millones de euros en alimentos.\n• <b>Por qué importa:</b> Tras un incidente previo en Francia, el ataque demuestra que la automatización y el mantenimiento remoto de la cadena de frío representan una infraestructura civil expuesta a vulnerabilidades críticas de escala transnacional.\n• <b>Qué sigue:</b> Las agencias nacionales de ciberseguridad de Bélgica, Suecia y el Reino Unido colaboran para rastrear el origen del sabotaje, obligando a revisar la separación física de las redes industriales en toda Europa.",
+        "bluesky": "Un sabotaje remoto elevó a 50°C los congeladores de supermercados en 7 países europeos, destruyendo millones en alimentos. El verdadero riesgo no es el software, sino la fragilidad de conectar toda la cadena alimentaria a internet. #SeguridadYDefensa #PuntoCiego",
+        "linkedIn": "El sabotaje remoto contra sistemas de refrigeración en supermercados de siete países europeos revela una peligrosa brecha en la intersección entre tecnología operativa y redes comerciales. Con pérdidas millonarias en alimentos y temperaturas que alcanzaron los cincuenta grados en unidades de marcas como Delhaize, el incidente trasciende el vandalismo digital para convertirse en un riesgo directo para la cadena de suministro alimentario. Las empresas proveedoras y los operadores de infraestructura deben replantear urgentemente la desconexión física de sus sistemas críticos frente a la falsa seguridad del mantenimiento remoto generalizado.\n\n#SeguridadYDefensa #Ciberseguridad #CadenaDeSuministro #PuntoCiego"
+      },
+      "article": {
+        "slug": "sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp",
+        "title": "Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables",
+        "dek": "Un ciberataque simultáneo en siete países europeos elevó la temperatura de los congeladores comerciales hasta destruir millones de euros en alimentos, dejando al descubierto los peligros de la automatización remota.",
+        "keyFacts": [
+          "Decenas de supermercados se vieron afectados en Bélgica, Luxemburgo, Suecia, Irlanda, Países Bajos, Estonia y Finlandia.",
+          "La empresa belga Sabcobel confirmó que los evaporadores fueron forzados a modo de descongelación, repitiendo el método utilizado el mes anterior en Francia.",
+          "La temperatura de los congeladores en varias de las tiendas afectadas alcanzó hasta los 50 °C.",
+          "Las agencias nacionales de ciberseguridad de Bélgica, Suecia y el Reino Unido participan en la investigación y el análisis del incidente."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Un presunto ciberataque afectó los sistemas de refrigeración y congelación de decenas de supermercados en siete países de Europa, según informaron fuentes de la industria y agencias de seguridad. El incidente golpeó principalmente a unos cuarenta establecimientos de la cadena Delhaize en Bélgica y Luxemburgo, además de tiendas en Suecia, Irlanda, los Países Bajos, Estonia y Finlandia.",
+              "De acuerdo con los reportes de los fabricantes, los evaporadores de las unidades fueron manipulados para entrar en modo de descongelación, provocando un aumento drástico de la temperatura interna que en algunos casos llegó hasta los 50 °C. Las pérdidas materiales ascendieron a varios millones de euros debido a la destrucción obligatoria de productos perecederos."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El episodio no es un hecho aislado. Stephan Moelans, director ejecutivo de Sabcobel —empresa encargada de los sistemas de Delhaize—, declaró a la Agencia de Noticias Belga que el método utilizado replica el incidente registrado a principios de octubre en Francia, el cual afectó a cientos de establecimientos comerciales.",
+              "La gran mayoría de los supermercados en Europa operan con sistemas conectados a internet para facilitar el mantenimiento y la resolución de problemas de manera remota. Tras el precedente francés, las empresas intentaron blindar las redes, pero las autoridades técnicas advirtieron que el problema requiere modificaciones físicas directas en los equipos y no simples actualizaciones de software."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Mientras la atención mediática se concentra en el volumen de alimentos desperdiciados y en la búsqueda de los responsables, el verdadero trasfondo radica en la peligrosa dependencia operativa de las infraestructuras civiles conectadas a la red sin aislamiento físico adecuado.",
+              "La falsa sensación de seguridad que otorgan las conexiones protegidas deja expuestas a industrias esenciales como la alimentaria frente a operaciones de sabotaje asimétrico. Demostrar la capacidad de inutilizar sistemas de frío a escala multinacional expone un flanco estratégico que los marcos regulatorios actuales todavía no consideran una prioridad de seguridad nacional."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En este escenario, los operadores logísticos, los fabricantes de equipos y las cadenas de supermercados absorben el costo financiero inmediato y la obligación de rediseñar sus arquitecturas de red. Por otro lado, las agencias estatales de inteligencia y ciberseguridad ganan terreno para justificar la ampliación de controles sobre los sistemas industriales privados.",
+              "Los usuarios finales y los consumidores asumen el riesgo indirecto de una cadena de suministro vulnerable a alteraciones deliberadas que comprometen la seguridad alimentaria básica de la región."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Las investigaciones coordinadas por el Centro Nacional de Ciberseguridad del Reino Unido y las agencias de Bélgica y Suecia serán determinantes para esclarecer la autoría del ataque y la posible existencia de vulnerabilidades compartidas en el software de gestión industrial.",
+              "Asimismo, conviene vigilar si la presión regulatoria obliga a los gigantes minoristas a desconectar definitivamente sus instalaciones de frío de las redes corporativas o si se implementarán nuevas normativas europeas para auditar la seguridad operativa en el sector retail."
+            ]
+          }
+        ],
+        "tags": [
+          "Ciberseguridad",
+          "Infraestructura Crítica",
+          "Europa",
+          "Cadena de Suministro",
+          "Seguridad Alimentaria"
+        ],
+        "sources": [
+          {
+            "name": "BBC Mundo",
+            "title": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
+            "url": "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "name": "Acento",
+            "title": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
+            "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdFlnYWtxUVVSckxQempGenBwVW92cTEzZF9qLVpkbFF6U3B1QlZSTnhocEhCV1pVYWk5cDUzNDNXTUJPVk55R2xOeDE4MThEVWV3NHlvbUZJRkotQ1pCY0dYTkl1T01kQTVaRnJ3dUI4ZkxOSUxGeDdxVlJQNUdVQXA5cFB3TWxxRkNOTlpVVWZ2S3gtNGppcDNmTW9FRzM3cXd4VEl2UkhJRnpDN3lGWGxaRGhsYVJPa2Z4Q1VJSFFJZ21hWjY5a0hHanA1Y0xiU3k5T213eWE2UzVwY1o5NklWVEM4ZUJQSWhzNjZZU1M5b1dqN21Idld5SzFsU05yQ3lSMGhINzdXRDND0gGMAkFVX3lxTE50WWdha3FRVVJyTFB6akZ6cHBVb3ZxMTNkX2otWmRsUXpTcHVCVlJOeGhwSEJXWlVhaTlwNTM0M1dNQk9WTnlHbE54MTgxOERVZXc0eW9tRklGSi1DWkJjR1hOSXVPTWRBNVpGcnd1QjhmTE5JTEZ4N3FWUlA1R1VBcDlwUHdNbHFGQ05OWlVVZnZLeC00amlwM2ZNb0VHMzdxd3hUSXZSSElGekM3eUZYbFpEaGxhUk9rZnhDVUlIUUlnbWFaNjlrSEdqcDVjTGJTeTlPbXd5YTZTNXBjWjk2SVZUQzhlQlBJaHM2NllTUzlvV2o3bUh2V3lLMWxTTnJDeVIwaEg3N1dEM0M?oc=5"
+          },
+          {
+            "name": "La Verdad Noticias",
+            "title": "Ciberataque afecta refrigeradores de supermercados en Europa",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUFdFbkkzdEM1VmVsSUxrNlluYzFxRzlmOTRQc0FDSkhYX0tONjdjaW9ndTY3bHlpbXBVSWZubHJSUFpsZHNIQkhtOTEzUDFSbE45bEhmRUk1dk9JV2s0MUIxbDYwa0UtcjZuNEZncFpaeGJIeXdEU29SV0hJNHFvQUJfc1pydFI4NDhoc1M0c0RDbjBGQ3V3ck16Nl9nMmhnOTZ2QzFPNkdYd9IBqgFBVV95cUxPUFdFbkkzdEM1VmVsSUxrNlluYzFxRzlmOTRQc0FDSkhYX0tONjdjaW9ndTY3bHlpbXBVSWZubHJSUFpsZHNIQkhtOTEzUDFSbE45bEhmRUk1dk9JV2s0MUIxbDYwa0UtcjZuNEZncFpaeGJIeXdEU29SV0hJNHFvQUJfc1pydFI4NDhoc1M0c0RDbjBGQ3V3ck16Nl9nMmhnOTZ2QzFPNkdYdw?oc=5"
+          }
+        ],
+        "wordCount": 499
+      },
+      "videoScript": {
+        "hook": "Hackearon los refrigeradores de supermercados en siete países europeos y nadie habla del verdadero peligro.",
+        "beats": [
+          "Un ciberataque elevó hasta cincuenta grados los congeladores de tiendas en Bélgica, Suecia y otros cinco países.",
+          "Las unidades fueron forzadas a descongelarse, destruyendo millones de euros en alimentos en cuestión de horas.",
+          "El problema no es un simple fallo técnico, sino la fragilidad de conectar toda la cadena alimentaria a internet."
+        ],
+        "close": "Lee el análisis completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg",
+      "status": "pending",
+      "createdAt": "2026-11-02T16:23:36.191Z",
+      "cardImageUrl": "/news-cards/news-3bq2kbhul-1793636616191.jpg",
+      "instagramCardUrl": "/news-cards/news-3bq2kbhul-1793636617012-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true
+    },
+    "scheduledFor": "2026-11-02T16:23:37.559Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-02T16:23:37.551Z"
   }
 ]
