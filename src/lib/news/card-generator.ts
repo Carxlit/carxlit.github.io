@@ -14,7 +14,7 @@ function escapeHtml(text: string): string {
     .replace(/'/g, '&#39;');
 }
 
-async function getBrowser(): Promise<Browser> {
+export async function getBrowser(): Promise<Browser> {
   if (!sharedBrowser || !sharedBrowser.isConnected()) {
     sharedBrowser = await chromium.launch({
       headless: true,
