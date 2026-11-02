@@ -41,11 +41,11 @@ export interface SiteConfig {
   };
 }
 
-/** Acepta el código solo o la etiqueta <meta ... content="..."> completa que da Google/Bing */
+/** Acepta el código solo, la etiqueta <meta ... content="..."> o el formato TXT "google-site-verification=..." */
 const verificationCode = (v: unknown) => {
   const s = clean(v);
   const m = s.match(/content=["']([^"']+)["']/i);
-  return (m ? m[1] : s).replace(/[^A-Za-z0-9_\-]/g, '') || undefined;
+  return (m ? m[1] : s).replace(/^[\w.-]*verification=/i, '').replace(/[^A-Za-z0-9_\-]/g, '') || undefined;
 };
 
 const CONFIG_PATH = path.join(process.cwd(), 'storage', 'site_config.json');
