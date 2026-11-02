@@ -2,9 +2,9 @@ import fs from 'fs';
 
 /**
  * Música de fondo ORIGINAL para los Reels, sintetizada aquí mismo (sin bibliotecas ni canciones de terceros):
- * así Instagram/Facebook no pueden reclamar derechos de autor. Estilo "cama de noticiero / última hora":
- * cuerdas en semicorcheas staccato, bronces graves en el primer tiempo, timbal cada dos compases, latido,
- * nota pedal grave y tic-tac. Siempre en menor. Cada noticia varía progresión, tonalidad y tempo (según su id).
+ * así Instagram/Facebook no pueden reclamar derechos de autor. Estilo "noticiero serio / última hora", intenso:
+ * cuerdas en semicorcheas dobladas a la octava, golpes de bronces con síncopa, bombo y caja de marcha,
+ * impacto con redoble cada dos compases, nota pedal grave y tic-tac. Siempre en menor. Cada noticia varía progresión, tonalidad y tempo (según su id).
  */
 const SR = 44100;
 /** Volumen medio (RMS) de la música antes de mezclarla: calibrado con la versión que el dueño aprobó (≈ -16 dBFS) */
@@ -45,7 +45,7 @@ export function generateBackgroundMusic(outPath: string, seconds: number, seed =
   const h = hash(seed);
   const prog = PROGRESSIONS[h % PROGRESSIONS.length];
   const tonic = [-24, -22, -21, -19, -17][(h >>> 3) % 5]; // A2, B2, C3, D3, E3 (relativo a A4)
-  const bpm = 108 + ((h >>> 6) % 3) * 6; // 108–120: pulso de noticiero
+  const bpm = 120 + ((h >>> 6) % 3) * 4; // 120–128: pulso urgente de "última hora"
   const beat = 60 / bpm;
   const bar = beat * 4;
   const sixteenth = beat / 4;
@@ -71,13 +71,19 @@ export function generateBackgroundMusic(outPath: string, seconds: number, seed =
     const sinceStep = inBar - step * sixteenth;
     const idx = OSTINATO[step % 16];
     const fs = NOTE(tonic + 12 + chord[idx]);
-    const accent = step % 4 === 0 ? 1 : 0.6;
-    const strings = saw(fs, t) * Math.exp(-sinceStep / 0.05) * 0.05 * accent;
+    const accent = step % 4 === 0 ? 1 : 0.7;
+    // Cuerdas dobladas a la octava (más cuerpo y brillo) y algo más largas: empujan sin parar
+    const strings = (saw(fs, t) + 0.55 * saw(fs * 2, t, 4)) * Math.exp(-sinceStep / 0.065) * 0.055 * accent;
 
-    // Bronces graves: acorde en el primer tiempo de cada compás, ataque rápido y caída de ~0,7 s
-    let brass = 0;
-    for (const s of chord) brass += saw(NOTE(tonic + s), t, 8);
-    brass *= Math.min(1, inBar / 0.015) * Math.exp(-inBar / 0.7) * 0.035;
+    // Bronces: golpe de acorde en el tiempo 1 (fuerte) y en el "y" del 2 (síncopa), con octava grave
+    const stab = (start: number, gain: number) => {
+      const since = inBar - start;
+      if (since < 0) return 0;
+      let v = 0;
+      for (const s of chord) v += saw(NOTE(tonic + s), t, 10) + 0.6 * saw(NOTE(tonic - 12 + s), t, 6);
+      return v * Math.min(1, since / 0.01) * Math.exp(-since / 0.45) * gain;
+    };
+    const brass = stab(0, 0.04) + stab(beat * 1.5, 0.025);
 
     // Nota pedal grave sostenida (tónica de la progresión) y bajo que sigue los acordes
     const pedal = Math.sin(2 * Math.PI * NOTE(tonic - 12) * t) * 0.05;
@@ -86,21 +92,32 @@ export function generateBackgroundMusic(outPath: string, seconds: number, seed =
     // Latido en cada tiempo (más fuerte en 1 y 3)
     const sinceBeat = inBar % beat;
     const beatNo = Math.floor(inBar / beat);
-    const kick = Math.sin(2 * Math.PI * (46 + 50 * Math.exp(-sinceBeat / 0.03)) * sinceBeat) * Math.exp(-sinceBeat / 0.18) * (beatNo % 2 === 0 ? 0.17 : 0.09);
+    const kick = Math.sin(2 * Math.PI * (46 + 60 * Math.exp(-sinceBeat / 0.025)) * sinceBeat) * Math.exp(-sinceBeat / 0.2) * (beatNo % 2 === 0 ? 0.2 : 0.13);
+    // Golpe seco en 2 y 4 (como caja de marcha militar), cuerpo tonal; el ruido va en "bright"
+    const snareBody = beatNo % 2 === 1 ? Math.sin(2 * Math.PI * 190 * sinceBeat) * Math.exp(-sinceBeat / 0.05) * 0.06 : 0;
 
-    // Timbal cada dos compases: grave, con redoble corto de ruido al golpe
+    // Impacto cada dos compases: timbal grande + sub que cae de tono
     const sinceTimp = t % (bar * 2);
-    const timp = Math.sin(2 * Math.PI * NOTE(tonic - 12) * (1 + 0.15 * Math.exp(-sinceTimp / 0.05)) * sinceTimp) * Math.exp(-sinceTimp / 0.6) * 0.14;
+    const timp = Math.sin(2 * Math.PI * NOTE(tonic - 12) * (1 + 0.2 * Math.exp(-sinceTimp / 0.05)) * sinceTimp) * Math.exp(-sinceTimp / 0.8) * 0.18
+      + Math.sin(2 * Math.PI * (35 + 45 * Math.exp(-sinceTimp / 0.08)) * sinceTimp) * Math.exp(-sinceTimp / 0.5) * 0.12;
 
-    left[i] = strings * 0.85 + brass + pedal + bass + kick + timp;
-    right[i] = strings + brass * 0.9 + pedal + bass + kick + timp;
+    // Redoble de timbal que crece en el último tiempo antes de cada impacto
+    const toImpact = bar * 2 - sinceTimp;
+    const roll = toImpact < beat ? Math.sin(2 * Math.PI * NOTE(tonic - 12) * t) * (1 - toImpact / beat) * (0.6 + 0.4 * Math.sin(2 * Math.PI * 28 * t)) * 0.08 : 0;
 
-    // Tic-tac en semicorcheas (más marcado en cada tiempo) y "golpe" del timbal
-    bright[i] = white * Math.exp(-sinceStep / 0.008) * (step % 4 === 0 ? 0.025 : 0.01) + white * Math.exp(-sinceTimp / 0.03) * 0.03;
+    left[i] = strings * 0.85 + brass + pedal + bass + kick + snareBody + timp + roll;
+    right[i] = strings + brass * 0.9 + pedal + bass + kick + snareBody + timp + roll;
+
+    // Tic-tac en semicorcheas, ruido de la caja en 2 y 4, golpe del impacto y "subida" de ruido antes de él
+    bright[i] =
+      white * Math.exp(-sinceStep / 0.008) * (step % 4 === 0 ? 0.03 : 0.013) +
+      (beatNo % 2 === 1 ? white * Math.exp(-sinceBeat / 0.07) * 0.07 : 0) +
+      white * Math.exp(-sinceTimp / 0.04) * 0.05 +
+      (toImpact < beat ? white * Math.pow(1 - toImpact / beat, 2) * 0.035 : 0);
   }
 
-  // Suavizado (paso bajo de un polo, ~2 kHz), entrada y salida en fundido
-  const a = Math.exp((-2 * Math.PI * 2000) / SR);
+  // Suavizado (paso bajo de un polo, ~3,2 kHz: más presencia), entrada y salida en fundido
+  const a = Math.exp((-2 * Math.PI * 3200) / SR);
   let pl = 0;
   let pr = 0;
   let sumSq = 0;
