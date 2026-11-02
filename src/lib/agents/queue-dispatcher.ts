@@ -35,6 +35,11 @@ const reelsEnabled = () => process.env.REELS_ENABLED === 'true';
  * el resto, como post con imagen (los videos con dueño solo se incrustan en el artículo de la página)
  */
 const wantsReel = (news: ProcessedNews) => reelsEnabled() && news.sourceVideo?.license === 'cc-by';
+/**
+ * Excepción SOLO para Instagram (decisión del dueño): toda noticia sale como Reel; con video real si lo hay
+ * y, si no, el Reel narrado con la foto. Desactivable con IG_AI_REELS=false.
+ */
+const igAlwaysReel = () => reelsEnabled() && process.env.IG_AI_REELS !== 'false';
 type Channel = (typeof CHANNELS)[number];
 
 export interface EnqueueOptions {
@@ -196,8 +201,8 @@ async function publishToChannel(
         return await publishToLinkedInCompany(news);
       case 'instagram': {
         // Con Reels activados, Instagram recibe el video; si el video falla, la tarjeta vertical de siempre
-        if (wantsReel(news)) {
-          const video = await getNewsReel(news).catch((e) => {
+        if (wantsReel(news) || igAlwaysReel()) {
+          const video = await getNewsReel(news, { allowAi: igAlwaysReel() }).catch((e) => {
             console.warn('[QueueDispatcher] Reel no disponible, Instagram usa la imagen:', e?.message);
             return null;
           });

@@ -32,10 +32,15 @@ const FADE_SECONDS = 0.3;
 const cache = new Map<string, Promise<string>>();
 
 /** Genera (una sola vez por noticia y proceso) el Reel y devuelve la ruta del MP4 */
-export function getNewsReel(news: ProcessedNews): Promise<string> {
-  const key = news.id || news.originalUrl;
+/**
+ * Genera (una sola vez por noticia, modo y proceso) el Reel y devuelve la ruta del MP4.
+ *  - allowAi=false: SOLO con las imágenes reales del video libre de la noticia (lanza si no hay).
+ *  - allowAi=true: video real si existe; si no (o no se pudo descargar), el Reel narrado con la foto.
+ */
+export function getNewsReel(news: ProcessedNews, opts: { allowAi?: boolean } = {}): Promise<string> {
+  const key = `${news.id || news.originalUrl}:${opts.allowAi ? 'ia' : 'real'}`;
   if (!cache.has(key)) {
-    const p = generateNewsReel(news);
+    const p = generateNewsReel(news, opts);
     p.catch(() => cache.delete(key));
     cache.set(key, p);
   }
@@ -419,7 +424,7 @@ async function renderVideo(html: string, total: number, audio: string, out: stri
   await done;
 }
 
-export async function generateNewsReel(news: ProcessedNews): Promise<string> {
+export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: boolean } = {}): Promise<string> {
   const script = scriptFor(news);
   const lines: { kind: Section['kind']; text: string }[] = [
     { kind: 'hook', text: script.hook },
@@ -429,7 +434,17 @@ export async function generateNewsReel(news: ProcessedNews): Promise<string> {
   const work = fs.mkdtempSync(path.join(os.tmpdir(), `reel-${(news.id || 'x').slice(0, 12)}-`));
   const texts = lines.map((l) => l.text);
   // Con video libre de la noticia, el Reel se monta sobre esas imágenes reales
-  const footage = news.sourceVideo?.license === 'cc-by' ? downloadFreeVideo(news.sourceVideo, work) : undefined;
+  let footage: Footage | undefined;
+  if (news.sourceVideo?.license === 'cc-by') {
+    try {
+      footage = downloadFreeVideo(news.sourceVideo, work);
+    } catch (err) {
+      if (!opts.allowAi) throw err;
+      console.warn(`[Reel] Sin el video real (${(err as Error).message}); se hace el Reel narrado con la foto`);
+    }
+  } else if (!opts.allowAi) {
+    throw new Error('la noticia no tiene video libre');
+  }
 
   let wavs: string[];
   let marks: { t: number; d: number; text: string }[][] | null = null;

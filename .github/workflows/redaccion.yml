@@ -14,7 +14,7 @@ on:
         required: false
         default: '0'
       solo_con_video:
-        description: 'Las historias extra solo si tienen video libre (Creative Commons) del hecho'
+        description: 'La primera historia extra debe tener video libre (Creative Commons) del hecho'
         type: boolean
         required: false
         default: false

@@ -54,9 +54,9 @@ export interface AutonomousConfig {
 }
 
 export const DEFAULT_AUTONOMOUS_CONFIG: AutonomousConfig = {
-  maxDailyPosts: 8, // Cadencia interactiva ampliada (8 publicaciones diarias)
-  minSpacingHours: 1.0, // Espaciado ágil de ~60 a 85 minutos con jitter
-  maxPendingInQueue: 2,
+  maxDailyPosts: 16, // Lo máximo sostenible con la cuota gratis de IA (Gemini + respaldos) y sin saturar las redes
+  minSpacingHours: 0.75, // 45-70 min en horas pico; fuera de ellas casi el doble
+  maxPendingInQueue: 3,
   activeHoursStart: 6,
   activeHoursEnd: 23,
   breakingThreshold: 95,
