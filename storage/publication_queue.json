@@ -2675,11 +2675,12 @@
         "title": "Un nuevo ciberataque en Europa hackeó los refrigeradores de dos cadenas de supermercados en Bélgica",
         "channel": "Todo Noticias"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T17:10:55.012Z",
       "cardImageUrl": "/news-cards/news-6djzrh0e3-1793639455012.jpg",
       "instagramCardUrl": "/news-cards/news-6djzrh0e3-1793639456048-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotajes-digitales-cadena-frio-europa-evidencian-yc6r/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotajes-digitales-cadena-frio-europa-evidencian-yc6r/",
+      "publishedAt": "2026-11-02T17:13:47.701Z"
     },
     "channels": {
       "facebook": true,
@@ -2691,9 +2692,42 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T17:10:57.333Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T17:10:57.324Z"
+    "createdAt": "2026-11-02T17:10:57.324Z",
+    "lastAttemptAt": "2026-11-02T17:11:33.889Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101582203532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "24",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdsz5kine2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18145842349589782",
+        "permalink": "https://www.instagram.com/reel/DfP0PRaireq/"
+      },
+      "facebookReel": {
+        "success": true,
+        "videoId": "1690926316099115"
+      }
+    },
+    "publishedAt": "2026-11-02T17:13:47.701Z"
   }
 ]
