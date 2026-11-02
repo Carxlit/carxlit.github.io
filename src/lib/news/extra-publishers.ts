@@ -16,6 +16,13 @@ function publicCardUrl(news: ProcessedNews): string | undefined {
   return fs.existsSync(vertical) ? `${site}/img/${slug}-ig.jpg` : `${site}/img/${slug}.jpg`;
 }
 
+/** Crédito obligatorio de la licencia Creative Commons cuando el Reel usa el video de otra persona */
+export function videoCredit(news: ProcessedNews, withLink = true): string {
+  const v = news.sourceVideo;
+  if (v?.license !== 'cc-by') return '';
+  return `🎥 Video: ${v.channel || 'YouTube'} (licencia CC BY)${withLink ? ` youtube.com/watch?v=${v.id}` : ''}`;
+}
+
 /** Instagram no enlaza URLs en el texto: se cambian por un aviso de "enlace en el perfil" */
 export function buildInstagramCaption(news: ProcessedNews): string {
   const base = (news.facebookPost || `${news.headline}\n\n${news.subHeadline}`)
@@ -99,7 +106,12 @@ export async function publishInstagramReel(
     const init = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ media_type: 'REELS', upload_type: 'resumable', caption: buildInstagramCaption(news), share_to_feed: true }),
+      body: JSON.stringify({
+      media_type: 'REELS',
+      upload_type: 'resumable',
+      caption: [buildInstagramCaption(news), videoCredit(news)].filter(Boolean).join('\n\n'),
+      share_to_feed: true,
+    }),
     });
     const container: any = await init.json();
     if (!init.ok || !container.id) throw new Error(container.error?.message || `HTTP ${init.status}`);
@@ -140,7 +152,7 @@ export async function publishInstagramReel(
 /** Texto del Reel de Facebook: el post corto + el enlace al análisis */
 export function buildFacebookReelDescription(news: ProcessedNews): string {
   const body = (news.blueskyPost || news.subHeadline || news.headline).trim();
-  return news.articleUrl ? `${body}\n\nAnálisis completo: ${news.articleUrl}` : body;
+  return [body, news.articleUrl ? `Análisis completo: ${news.articleUrl}` : '', videoCredit(news)].filter(Boolean).join('\n\n');
 }
 
 /** Reel de la página de Facebook (API video_reels: iniciar → subir binario → publicar) */

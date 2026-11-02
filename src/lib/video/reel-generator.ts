@@ -175,6 +175,36 @@ function narrateWithPiper(lines: string[], work: string): string[] {
   });
 }
 
+interface Footage { file: string; credit: string; hasAudio: boolean; start: number }
+
+/**
+ * Descarga (solo los primeros minutos) el video libre de la noticia con yt-dlp y comprueba que su licencia
+ * sea Creative Commons. Lanza si no se puede: entonces la noticia sale como post con imagen.
+ */
+function downloadFreeVideo(video: NonNullable<ProcessedNews['sourceVideo']>, work: string): Footage {
+  const info = path.join(work, 'fuente.txt');
+  const args = [
+    // node resuelve los retos de JavaScript de YouTube (paquete yt-dlp[default] trae los scripts)
+    '-m', 'yt_dlp', '-q', '--no-warnings', '--no-playlist', '--js-runtimes', 'node',
+    '-f', 'bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720][ext=mp4]/b[height<=720]',
+    '--merge-output-format', 'mp4', '--download-sections', '*0:00-3:00', '--max-filesize', '300M',
+    '--print-to-file', '%(license)s|%(uploader)s', info,
+    '-o', path.join(work, 'fuente.%(ext)s'),
+    `https://www.youtube.com/watch?v=${video.id}`,
+  ];
+  if (process.env.FFMPEG_PATH) args.splice(2, 0, '--ffmpeg-location', process.env.FFMPEG_PATH);
+  const res = spawnSync(python(), args, { encoding: 'utf8', timeout: 300_000 });
+  const file = path.join(work, 'fuente.mp4');
+  if (!fs.existsSync(file)) throw new Error(`no se pudo descargar el video libre: ${(res.stderr || res.error?.message || '').slice(-300)}`);
+  const [license = '', uploader = ''] = (fs.existsSync(info) ? fs.readFileSync(info, 'utf8') : '').trim().split('|');
+  if (!/creative commons/i.test(license)) throw new Error(`el video no tiene licencia libre (${license || 'desconocida'})`);
+  const probe = spawnSync(process.env.FFMPEG_PATH || 'ffmpeg', ['-hide_banner', '-i', file], { encoding: 'utf8' });
+  // Los noticieros abren con su cabecera: se empieza un poco después (hasta 6 s o el 15 % del clip)
+  const dur = (probe.stderr || '').match(/Duration: (\d+):(\d+):([\d.]+)/);
+  const seconds = dur ? Number(dur[1]) * 3600 + Number(dur[2]) * 60 + Number(dur[3]) : 0;
+  return { file, credit: uploader || video.channel || 'YouTube', hasAudio: /Audio:/.test(probe.stderr || ''), start: Math.min(6, seconds * 0.15) };
+}
+
 /** Subtítulos en grupos cortos (máx. 3 palabras / 18 letras, cortando en los signos) */
 function chunkWords(words: Word[], sectionEnd: number) {
   const chunks: { start: number; end: number; words: Word[] }[] = [];
@@ -194,25 +224,32 @@ function chunkWords(words: Word[], sectionEnd: number) {
   return chunks;
 }
 
-function reelHtml(news: ProcessedNews, sections: Section[], total: number): string {
+function reelHtml(news: ProcessedNews, sections: Section[], total: number, footage?: Footage): string {
   const photo = news.rawImageUrl ? news.rawImageUrl.replace(/&amp;/g, '&') : '';
   const hasPhoto = /^https?:\/\//.test(photo);
   const category = escapeHtml(String(news.category || 'ACTUALIDAD').toUpperCase());
   const site = (process.env.PUBLIC_SITE_URL || 'puntociegoglobal.pages.dev').replace(/^https?:\/\//, '').replace(/\/+$/, '');
   const beatsTotal = sections.filter((s) => s.kind === 'beat').length;
-  const img = (cls: string) => (hasPhoto ? `<img class="${cls}" src="${escapeHtml(photo)}" referrerpolicy="no-referrer" onerror="this.remove()">` : '');
+  // Con video libre, las escenas son transparentes: debajo va el video real (lo compone ffmpeg)
+  const img = (cls: string) => (hasPhoto && !footage ? `<img class="${cls}" src="${escapeHtml(photo)}" referrerpolicy="no-referrer" onerror="this.remove()">` : '');
   // Encuadres distintos de la misma foto para que cada escena se vea diferente (fijos, sin movimiento)
   const framings = ['50% 30%', '22% 30%', '78% 30%'];
+
+  const credit = footage ? `<div class="credit">🎥 Video: ${escapeHtml(footage.credit)} · CC BY</div>` : '';
 
   let beat = 0;
   const layers = sections.map((s, i) => {
     if (s.kind === 'hook') {
       return `<section id="s${i}" class="scene hook">${img('full')}<div class="shade"></div>
-        <div class="tag">${category}</div></section>`;
+        <div class="tag">${category}</div>${credit}</section>`;
     }
     if (s.kind === 'beat') {
       const pos = framings[beat % framings.length];
       beat++;
+      if (footage) {
+        return `<section id="s${i}" class="scene beat"><div class="shade"></div>
+        <div class="tag">${beat} / ${beatsTotal}</div>${credit}</section>`;
+      }
       return `<section id="s${i}" class="scene beat">${img('blur')}<div class="dim"></div>
         <div class="card">${img('sharp" style="object-position:' + pos)}</div>
         <div class="step"><b>${beat}</b> / ${beatsTotal}</div></section>`;
@@ -264,7 +301,11 @@ function reelHtml(news: ProcessedNews, sections: Section[], total: number): stri
   .box #cap span{padding:2px 18px;margin:4px 2px;border-radius:14px}
   .box #cap span.on{color:#fff;background:#dc2626;text-shadow:0 4px 10px rgba(0,0,0,.35);box-shadow:0 10px 30px rgba(220,38,38,.45)}
   .box #cap span.next{color:#fff}
-</style></head><body class="${process.env.REEL_CAPTIONS === 'karaoke' ? 'karaoke' : 'box'}">
+  .footage{background:transparent}
+  .footage .scene.hook,.footage .scene.beat{background:transparent}
+  .footage .shade{background:linear-gradient(to bottom,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0) 52%,rgba(0,0,0,.72) 70%,rgba(0,0,0,.85) 100%)}
+  .credit{position:absolute;left:0;right:0;top:1700px;text-align:center;font-size:30px;font-weight:700;color:rgba(255,255,255,.85);text-shadow:0 2px 8px #000}
+</style></head><body class="${process.env.REEL_CAPTIONS === 'karaoke' ? 'karaoke' : 'box'}${footage ? ' footage' : ''}">
 ${layers}
 <div class="brand" id="brand">PUNTO CIEGO<b>.</b></div>
 <div id="cap"></div>
@@ -312,20 +353,37 @@ ${layers}
 }
 
 /** Pinta cada fotograma en Chromium y lo envía a ffmpeg junto con la narración */
-async function renderVideo(html: string, total: number, audio: string, out: string) {
+async function renderVideo(html: string, total: number, audio: string, out: string, footage?: Footage) {
   const browser = await getBrowser();
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
-  const ff = spawn(process.env.FFMPEG_PATH || 'ffmpeg', [
-    '-y', '-hide_banner', '-loglevel', 'error',
-    '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
-    '-i', audio,
-    '-map', '0:v', '-map', '1:a',
-    '-vf', 'scale=in_range=pc:out_range=tv,format=yuv420p',
-    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-r', String(FPS),
-    '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-ac', '2',
-    '-shortest', '-movflags', '+faststart',
-    out,
-  ], { stdio: ['pipe', 'ignore', 'pipe'] });
+  const encode = ['-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-r', String(FPS), '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-ac', '2'];
+  const args = footage
+    ? [
+        // Video real en bucle: de fondo ampliado y difuminado, y encima completo (horizontal arriba, vertical a pantalla
+        // completa); sobre todo, los subtítulos y la marca (PNG transparentes) y la narración con el sonido original bajito
+        '-ss', footage.start.toFixed(2), '-stream_loop', '-1', '-i', footage.file,
+        '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'png', '-i', '-',
+        '-i', audio,
+        '-filter_complex', [
+          `[0:v]fps=${FPS},split[s1][s2]`,
+          `[s1]scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},boxblur=24:2,eq=brightness=-0.12[bg]`,
+          `[s2]scale='if(gt(a,9/16),${W},-2)':'if(gt(a,9/16),-2,${H})'[fg]`,
+          `[bg][fg]overlay=(W-w)/2:'max(0,(H-h)/2-150)'[base]`,
+          `[base][1:v]overlay=0:0:eof_action=endall,format=yuv420p[v]`,
+          footage.hasAudio ? `[0:a]volume=0.12[amb];[2:a][amb]amix=inputs=2:duration=first:normalize=0[a]` : `[2:a]anull[a]`,
+        ].join(';'),
+        '-map', '[v]', '-map', '[a]', '-t', total.toFixed(2),
+      ]
+    : [
+        '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
+        '-i', audio,
+        '-map', '0:v', '-map', '1:a',
+        '-vf', 'scale=in_range=pc:out_range=tv,format=yuv420p',
+        '-shortest',
+      ];
+  const ff = spawn(process.env.FFMPEG_PATH || 'ffmpeg', ['-y', '-hide_banner', '-loglevel', 'error', ...args, ...encode, '-movflags', '+faststart', out], {
+    stdio: ['pipe', 'ignore', 'pipe'],
+  });
   let stderr = '';
   ff.stderr.on('data', (d) => (stderr += d));
   const done = new Promise<void>((resolve, reject) => {
@@ -347,8 +405,11 @@ async function renderVideo(html: string, total: number, audio: string, out: stri
     for (let f = 0; f < frames; f++) {
       const key = await page.evaluate((t) => (window as any).render(t), f / FPS);
       // Fotograma idéntico al anterior: se reutiliza (ahorra capturas)
-      if (key !== lastKey || !lastFrame) lastFrame = await page.screenshot({ type: 'jpeg', quality: 90 });
+      if (key !== lastKey || !lastFrame) {
+        lastFrame = footage ? await page.screenshot({ type: 'png', omitBackground: true }) : await page.screenshot({ type: 'jpeg', quality: 90 });
+      }
       lastKey = key;
+      if (ff.exitCode !== null) break; // ffmpeg terminó (p. ej. alcanzó la duración)
       if (!ff.stdin.write(lastFrame)) await new Promise((r) => ff.stdin.once('drain', r));
     }
   } finally {
@@ -367,6 +428,8 @@ export async function generateNewsReel(news: ProcessedNews): Promise<string> {
   ];
   const work = fs.mkdtempSync(path.join(os.tmpdir(), `reel-${(news.id || 'x').slice(0, 12)}-`));
   const texts = lines.map((l) => l.text);
+  // Con video libre de la noticia, el Reel se monta sobre esas imágenes reales
+  const footage = news.sourceVideo?.license === 'cc-by' ? downloadFreeVideo(news.sourceVideo, work) : undefined;
 
   let wavs: string[];
   let marks: { t: number; d: number; text: string }[][] | null = null;
@@ -398,7 +461,7 @@ export async function generateNewsReel(news: ProcessedNews): Promise<string> {
   runFfmpeg([...wavs.flatMap((w) => ['-i', w]), '-filter_complex', filters.join(';'), '-map', '[aout]', narration]);
 
   const out = path.join(work, 'reel.mp4');
-  await renderVideo(reelHtml(news, sections, total), total, narration, out);
-  console.log(`[Reel] Video listo (${total.toFixed(1)} s, voz ${voice}, ${(fs.statSync(out).size / 1e6).toFixed(1)} MB): ${out}`);
+  await renderVideo(reelHtml(news, sections, total, footage), total, narration, out, footage);
+  console.log(`[Reel] Video listo (${total.toFixed(1)} s, voz ${voice}${footage ? `, imágenes de ${footage.credit}` : ''}, ${(fs.statSync(out).size / 1e6).toFixed(1)} MB): ${out}`);
   return out;
 }

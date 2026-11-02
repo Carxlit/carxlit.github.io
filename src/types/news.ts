@@ -90,6 +90,8 @@ export interface NewsVideo {
   id: string;
   title: string;
   channel?: string;
+  /** Licencia libre (Creative Commons Atribución): se puede volver a publicar dando crédito al autor */
+  license?: 'cc-by';
 }
 
 export interface VideoScript {

@@ -14,7 +14,7 @@ on:
         required: false
         default: '0'
       solo_con_video:
-        description: 'Las historias extra solo si tienen video real del hecho'
+        description: 'Las historias extra solo si tienen video libre (Creative Commons) del hecho'
         type: boolean
         required: false
         default: false
@@ -103,7 +103,8 @@ jobs:
         if: always() && (steps.estado.outputs.site == 'true' || github.event_name == 'workflow_dispatch')
         uses: actions/deploy-pages@v4
 
-      # Voz en español para los Reels (Edge TTS neuronal; Piper de respaldo sin red) + ffmpeg para montar el video
+      # Voz en español para los Reels (Edge TTS neuronal; Piper de respaldo sin red), yt-dlp para el video libre
+      # de la noticia (Creative Commons) + ffmpeg para montar el video
       - uses: actions/setup-python@v5
         if: always() && steps.estado.outcome == 'success'
         with:
@@ -119,7 +120,7 @@ jobs:
       - name: Voz y ffmpeg para Reels
         if: always() && steps.estado.outcome == 'success'
         run: |
-          pip install --quiet --disable-pip-version-check edge-tts piper-tts
+          pip install --quiet --disable-pip-version-check edge-tts piper-tts "yt-dlp[default]"
           mkdir -p ~/.cache/piper
           [ -f ~/.cache/piper/es_MX-claude-high.onnx ] || python -m piper.download_voices --download-dir ~/.cache/piper es_MX-claude-high
           command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)

@@ -39,7 +39,7 @@ export interface AutonomousConfig {
   breakingThreshold: number; // Urgencia mínima para saltar la cola (Protocolo de Urgencia Máxima)
   maxBreakingPerDay: number; // Tope diario de urgencias para que no se convierta en spam
   maxArticleAgeHours: number; // No se cubren noticias más viejas que esto
-  requireVideo?: boolean; // Solo historias con video real del hecho (pruebas a mano; no gasta IA en las que no tienen)
+  requireVideo?: boolean; // Solo historias con video libre (Creative Commons) del hecho (pruebas a mano; no gasta IA en las que no tienen)
   activeChannels: {
     facebook: boolean;
     telegram: boolean;
@@ -277,11 +277,11 @@ async function selectArticleWithVideo(
     const url = pick.article.link ? await resolveGoogleNewsUrl(pick.article.link).catch(() => undefined) : undefined;
     const { html } = url ? await fetchArticlePage(url) : { html: '' };
     const video = await findNewsVideo(pick.article.title, html ? [html] : []).catch(() => undefined);
-    if (video) {
-      console.log(`[AutonomousNewsroom] Con video: "${pick.article.title}" → "${video.title}"`);
-      return { article: { ...pick.article, video }, rationale: `${pick.rationale} · tiene video del hecho` };
+    if (video?.license === 'cc-by') {
+      console.log(`[AutonomousNewsroom] Con video libre: "${pick.article.title}" → "${video.title}"`);
+      return { article: { ...pick.article, video }, rationale: `${pick.rationale} · tiene video libre del hecho` };
     }
-    console.log(`[AutonomousNewsroom] Sin video, se descarta para esta prueba: "${pick.article.title}"`);
+    console.log(`[AutonomousNewsroom] Sin video libre, se descarta para esta prueba: "${pick.article.title}"`);
   }
   return null;
 }

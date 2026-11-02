@@ -29,8 +29,11 @@ const MAX_CLOSED_ITEMS = 150;
 const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'facebookReel', 'mastodon'] as const;
 
 const reelsEnabled = () => process.env.REELS_ENABLED === 'true';
-/** Solo las noticias con video real del hecho salen como Reel; el resto, como post con imagen */
-const wantsReel = (news: ProcessedNews) => reelsEnabled() && !!news.sourceVideo;
+/**
+ * Solo las noticias con video LIBRE del hecho (Creative Commons) salen como Reel, montado con esas imágenes;
+ * el resto, como post con imagen (los videos con dueño solo se incrustan en el artículo de la página)
+ */
+const wantsReel = (news: ProcessedNews) => reelsEnabled() && news.sourceVideo?.license === 'cc-by';
 type Channel = (typeof CHANNELS)[number];
 
 export interface EnqueueOptions {
@@ -209,7 +212,7 @@ async function publishToChannel(
         return await publishToInstagram(news, creds.facebookAccessToken);
       }
       case 'facebookReel': {
-        if (!wantsReel(news)) return { success: false, skipped: true, error: 'Noticia sin video: solo post con imagen' };
+        if (!wantsReel(news)) return { success: false, skipped: true, error: 'Noticia sin video libre: solo post con imagen' };
         const video = await getNewsReel(news).catch((e) => ({ error: e?.message as string }));
         if (typeof video !== 'string') {
           // Un video que no se pudo generar no bloquea la publicación de la historia

@@ -86,9 +86,14 @@ function sameStory(newsTitle: string, videoTitle: string): boolean {
 const GENERIC_VIDEO = /\b(en vivo|en directo|live|24\/7|24 horas|señal|resumen semanal|podcast|completo|full episode)\b/i;
 
 /** Busca en YouTube (resultados de esta semana) sin API ni clave, leyendo los datos de la página */
-export async function searchYoutube(query: string): Promise<{ id: string; title: string; channel?: string; seconds?: number }[]> {
+export async function searchYoutube(
+  query: string,
+  opts: { creativeCommons?: boolean } = {}
+): Promise<{ id: string; title: string; channel?: string; seconds?: number }[]> {
   try {
-    const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}&sp=EgIIAw%253D%253D&hl=es&gl=CO`;
+    // Filtros: subidos esta semana (EgIIAw) · esta semana + licencia Creative Commons (EgQIAzAB)
+    const sp = opts.creativeCommons ? 'EgQIAzAB' : 'EgIIAw%253D%253D';
+    const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}&sp=${sp}&hl=es&gl=CO`;
     const res = await fetch(url, {
       headers: { 'User-Agent': UA, 'Accept-Language': 'es-419,es;q=0.9', Cookie: 'CONSENT=YES+1; SOCS=CAI' },
       signal: AbortSignal.timeout(10_000),
@@ -137,9 +142,20 @@ export async function findNewsVideo(titles: string | string[], pagesHtml: string
     if (info && matches(info.title)) return { provider: 'youtube', id, title: info.title, channel: info.channel };
   }
 
-  // 2) Búsqueda de esta semana con cada titular: videos cortos (no programas enteros) que cuenten lo mismo
   if (process.env.NEWS_VIDEO_SEARCH === 'false') return undefined;
   const queries = Array.from(new Set(variants.flatMap((t) => [searchQueryFor(t), t]).filter(Boolean)));
+
+  // 2) Primero, videos con licencia Creative Commons (reutilizables dando crédito): con ellos se arma el Reel
+  //    con las imágenes reales. La licencia se vuelve a comprobar al descargar el video.
+  for (const query of queries) {
+    for (const r of await searchYoutube(query, { creativeCommons: true })) {
+      if (!r.seconds || r.seconds > 15 * 60 || !matches(r.title)) continue;
+      const info = await oembed(r.id);
+      if (info) return { provider: 'youtube', id: r.id, title: info.title, channel: info.channel || r.channel, license: 'cc-by' };
+    }
+  }
+
+  // 3) Si no, cualquier video corto de esta semana que cuente lo mismo (solo para incrustarlo en el artículo)
   for (const query of queries) {
     for (const r of await searchYoutube(query)) {
       if (!r.seconds || r.seconds > 15 * 60 || !matches(r.title)) continue;
