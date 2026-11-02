@@ -12,9 +12,40 @@
     "https://www.xataka.com/seleccion/nintendo-switch-2-314-euros-playstation-5-410-euros-11-11-aliexpress-da-pistoletazo-salida",
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DNm9qNVdlLW1YSGdFa0tKNWgwTXdjZWdQcU1FR3k5Ym5XWElqQkZWTXBIelExQWRoMGFGSzNUeXEzQy1aWkZUczBOdmFLcGd3V2NhczJ6ZExQZ0JZTzQ3dDhhVWRQaDd1QmFLTk9aTjBWaEVMSVVJ?oc=5",
     "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/"
+    "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/",
+    "https://elpais.com/internacional/2026-11-02/la-triple-paradoja-de-ormuz-mas-barcos-cruzando-mas-ataques-y-el-petroleo-por-las-nubes.html"
   ],
   "processedSignatures": [
+    {
+      "title": "PARADOJA EN ORMUZ: FLUJO PETROLERO CRECE MIENTRAS SE MULTIPLICAN LOS ATAQUES",
+      "normalizedTokens": [
+        "paradoja",
+        "ormuz",
+        "flujo",
+        "petrolero",
+        "crece",
+        "mientras",
+        "multiplican",
+        "ataques"
+      ],
+      "date": "2026-11-02T14:16:29.552Z"
+    },
+    {
+      "title": "La triple paradoja de Ormuz: más barcos cruzando, más ataques y el petróleo por las nubes",
+      "normalizedTokens": [
+        "triple",
+        "paradoja",
+        "ormuz",
+        "mas",
+        "barcos",
+        "cruzando",
+        "mas",
+        "ataques",
+        "petroleo",
+        "nubes"
+      ],
+      "date": "2026-11-02T14:16:29.551Z"
+    },
     {
       "title": "LAS GRANDES TECNOLÓGICAS ASUMEN EL CONTROL DE LA INFORMACIÓN ELECTORAL",
       "normalizedTokens": [
