@@ -2312,11 +2312,12 @@
         "close": "Lee el análisis sobre fronteras y soberanía territorial en el enlace de nuestro perfil"
       },
       "rawImageUrl": "https://www.clarin.com/img/2026/11/02/MP7LKWIs6_1200x630__1.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T15:53:38.007Z",
       "cardImageUrl": "/news-cards/news-7ynmwp5kj-1793634818007.jpg",
       "instagramCardUrl": "/news-cards/news-7ynmwp5kj-1793634818827-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/karl-bushby-concluye-gran-bretana-caminata-i6qg/",
+      "publishedAt": "2026-11-02T15:55:36.543Z"
     },
     "channels": {
       "facebook": true,
@@ -2328,9 +2329,41 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T15:53:39.454Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T15:53:39.446Z"
+    "createdAt": "2026-11-02T15:53:39.446Z",
+    "lastAttemptAt": "2026-11-02T15:54:18.405Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101527993532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "21",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdoopa76a2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18355753120301974"
+      },
+      "facebookReel": {
+        "success": true,
+        "videoId": "2625555627888886"
+      }
+    },
+    "publishedAt": "2026-11-02T15:55:36.543Z"
   }
 ]
