@@ -1,5 +1,107 @@
 [
   {
+    "slug": "sabotajes-digitales-cadena-frio-europa-evidencian-yc6r",
+    "path": "noticias/sabotajes-digitales-cadena-frio-europa-evidencian-yc6r/",
+    "title": "Sabotajes digitales a la cadena de frío en Europa evidencian flancos vulnerables en la retaguardia civil",
+    "headline": "CIBERATAQUES A SISTEMAS DE REFRIGERACIÓN EN SIETE PAÍSES EUROPEOS",
+    "dek": "Una serie de intrusiones remotas en los sistemas de refrigeración de supermercados en siete países europeos revela las limitaciones de la ciberdefensa comercial ante ataques híbridos recurrentes.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "France 24 Español",
+    "image": "img/sabotajes-digitales-cadena-frio-europa-evidencian-yc6r.jpg",
+    "photo": "img/sabotajes-digitales-cadena-frio-europa-evidencian-yc6r-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "187roIscezw",
+      "title": "Un nuevo ciberataque en Europa hackeó los refrigeradores de dos cadenas de supermercados en Bélgica",
+      "channel": "Todo Noticias"
+    },
+    "publishedAt": "2026-11-02T17:10:57.281Z",
+    "article": {
+      "slug": "sabotajes-digitales-cadena-frio-europa-evidencian-yc6r",
+      "title": "Sabotajes digitales a la cadena de frío en Europa evidencian flancos vulnerables en la retaguardia civil",
+      "dek": "Una serie de intrusiones remotas en los sistemas de refrigeración de supermercados en siete países europeos revela las limitaciones de la ciberdefensa comercial ante ataques híbridos recurrentes.",
+      "keyFacts": [
+        "Los incidentes comenzaron a reportarse a primera hora del lunes 2 de noviembre de 2026.",
+        "Afectaron a supermercados e instalaciones en al menos siete países, incluidos Bélgica, Luxemburgo, Finlandia, Estonia y Suecia.",
+        "Los ataques provocaron un aumento repentino de la temperatura en neveras y congeladores, con pérdidas alimentarias y riesgos de incendio.",
+        "El episodio sigue a un ataque similar ocurrido el pasado octubre que afectó a cientos de supermercados en Francia."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "A primera hora de este lunes 2 de noviembre, tiendas y supermercados de al menos siete países europeos informaron de un aumento repentino e imprevisto de la temperatura en sus equipos de refrigeración. Según los reportes iniciales difundidos por France 24 Español y corroborados por diversos medios internacionales, los países afectados en esta nueva oleada incluyen a Bélgica, Luxemburgo, Finlandia, Estonia y Suecia.",
+            "El fenómeno, atribuido a manipulaciones informáticas externas sobre los sistemas de control de frío, provocó la pérdida masiva de alimentos almacenados y, en algunos casos, situaciones de peligro por conatos de incendio derivados del sobrecalentamiento de los equipos. Esta secuencia de eventos se produce semanas después de que un incidente análogo impactara a cientos de supermercados en territorio francés durante el pasado mes de octubre."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La reiteración de estos incidentes en un arco geográfico tan amplio que abarca Europa occidental y nórdica desplaza el foco desde un fallo técnico aislado hacia una campaña coordinada o un patrón sistemático de vulnerabilidad en el sector minorista.",
+            "Hasta ahora, la estrategia de ciberseguridad de la Unión Europea y de sus Estados miembros se ha concentrado en blindar infraestructuras críticas tradicionales como redes eléctricas, entidades bancarias y sistemas de comunicación gubernamental. La gestión automatizada de la cadena de suministro alimentario y los sistemas de refrigeración comercial suelen operar bajo estándares de ciberdefensa menos rigurosos, al depender en gran medida de proveedores de servicios tecnológicos externos y de mantenimiento remoto."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la atención pública y mediática se limita a cuantificar el valor de la comida destruida y las pérdidas económicas inmediatas de las cadenas de supermercados, el verdadero trasfondo estratégico pasa desapercibido. Estos ataques funcionan como una prueba de concepto en condiciones reales sobre la vulnerabilidad de la retaguardia civil europea.",
+            "La capacidad de alterar de manera remota los sistemas de frío en múltiples jurisdicciones de forma simultánea demuestra que actores hostiles pueden perturbar la estabilidad interior y la confianza en el abastecimiento básico sin necesidad de atacar instalaciones militares o gubernamentales de primer orden."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, las empresas de ciberseguridad industrial y los proveedores de auditorías tecnológicas se perfilan como los principales beneficiarios de un inminente endurecimiento regulatorio que obligará al sector minorista a elevar sus inversiones defensivas.",
+            "Por el contrario, los grandes operadores logísticos y los gobiernos nacionales asumen los costos reputacionales, económicos y de seguridad. Los Estados se enfrentan al reto de proteger una red comercial fragmentada y profundamente digitalizada, donde un fallo en un software de gestión de temperatura puede paralizar la distribución de alimentos a gran escala."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Las próximas semanas serán determinantes para observar si las agencias de inteligencia europeas logran atribuir formalmente la autoría de estas intrusiones y si se emiten directivas normativas de emergencia para los proveedores de software de refrigeración comercial.",
+            "Asimismo, resulta indispensable monitorear si esta modalidad de sabotaje se extiende hacia otros sectores de la infraestructura logística civil, como el almacenamiento farmacéutico o la distribución de productos perecederos a temperatura controlada."
+          ]
+        }
+      ],
+      "tags": [
+        "Ciberseguridad",
+        "Europa",
+        "Geopolítica",
+        "Economía Global",
+        "Infraestructura Crítica"
+      ],
+      "sources": [
+        {
+          "name": "France 24 Español",
+          "title": "De Bélgica a Suecia, nueva ola de ciberataques contra sistemas de refrigeración afecta a decenas de supermercados",
+          "url": "https://www.france24.com/es/europa/20261102-de-b%C3%A9lgica-a-suecia-nueva-ola-de-ciberataques-contra-sistemas-de-refrigeraci%C3%B3n-afecta-a-decenas-de-supermercados"
+        },
+        {
+          "name": "France 24",
+          "title": "De Bélgica a Suecia, nueva ola de ciberataques contra sistemas de refrigeración afecta a decenas de supermercados",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdzFjS3QtWTFPMlJ3WHl0a3JTeENoLWE5d0VrT1h4VE1qVDdQWnN5RVVKNWlVdjlBbXdwN1pBYWw1Z2NCcW5DWnlLN1RDVDgzSjJwUnRKQ1d4OFYwN3JzSVlEenp5ZzdINUctOW80VWJnZDB1QllwZjBvQ0VmNUNKYU4xLW02aHZfRS1xOVFiY0h5YWxvR0xlSzRyYTJIUVRiUy1mR3E3My1GQWJIbEF6OWRMTUdxTUF2U19xNnRiYVZaMm5jUEFjSkxBdzhJUnphNE5OazM1SXRVNHJ1cUZOaEZOQmdrRnZ5MjZfLWNJdDN0Nm9WTHdIaHJB?oc=5"
+        },
+        {
+          "name": "El Observador",
+          "title": "Nueva ola de ciberataques a supermercados de Europa: manipulan los sistemas de refrigeración de Suecia y Bélgica",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTEMwNDhPNWRDMVoxbmRDak1CdGFXY3JjQTk0ZzJ3ZnUzQWw1cS1IcEJlVnBEeE85LVhfcUhEMC1lb3lrS2FNdGpqTkg4aEJTNzBsVjhRaWo3RkFWU0E1cWhzUXl0blp0MFh6WVFzNXNDd2xtem1reFhCVS1oU3Ytdi1jak1Cd1U2QzYzZzAzOW5YaHVrRExaOWJnREoxYmxfbnl3aDlhZHNDdUdVMFJyWGxKSWZ4SE9lanVEUXY0R2RwNlpTOXA3dXVsSWQ1aDVxVnhna2dzcjQtb2ZwNzdXbDBTMjhlRjNjRWQ0Vlp5UG02Z9IB9wFBVV95cUxQZ0dMa0N4Q0NENE1WZkxLMUtGQjBpTDFXVnJYX1VWWE1TMUhQMjg5My1EMnRCWXZuaEpiblRsVi1TeHVRUWJOa2RfQm5XVkZPRG5YMXAzaHhZSDY3WlZNMWxXR0FteEMxWWJ2ZmJ4aFpqQmw3Tnp3eEV5LWczYzBoYkhDMHBGVFRISmh1LWx5U0I1VDhqVW9xbmljal8yakdJNlowdHRWMFRySWpIU3J3RGFLb2Y3eVRzUjdGUjQxSDRTZG9XNGthTE4yckpPQ1JaUzQtaHAyam8teE52M2gzWjAxanVwSWg3b1JqN0NfT3NpdktuUHBR?oc=5"
+        },
+        {
+          "name": "DiarioBitcoin",
+          "title": "Nueva ola de ciberataques en Europa afecta refrigeradores y alimentos en supermercados",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmtnS2h5ZGY0LUhOakhSWTdpSTU5dlBJaWVjcWhqbXhWUjhpZnBXNHFBRDQySmtVUWVqYmQzbG1UVUQ2aXdUbkxvbGhrbFFjX2RNMGlTcG9nV25GUUJuaUFpLW1TMjFWMkhSVW15Vmp4NjA1N2h1WklRS2lScEVST1FUTWhvZVoyWHJmNWdZeWlQSXZFM3RyNUdUQ2plQmV6X3RlUjRwZjNFTXp1ZHpSTi1HaVFIeU9EcUx6QnU3NGJlZWJna19V?oc=5"
+        },
+        {
+          "name": "Perfil",
+          "title": "Ciberataque a heladeras provoca pérdidas millonarias de comida en Bélgica, Luxemburgo y Suecia",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWVM4ekhPZk1YT3dqM1c0Mzg0SzFCTmNmMlk4bk1ubTJ5V1drcGZIUHZxc2FROEs5UUdXRVJiZWJPUG1FeTc1RDFVbzFpNkZmdlVyR3dOZzQ5T1gxaWJ4WWNucHd4R1h4eVdVdWJ2Mi0zaHpfT1N2MEEzYUI1WGJFcUdCZjI2TEN4bG5obm9QTmlFUjlyYU5xWXp5bEh2YVdHNDZLN2tFNVZ2T2oxay1jdVFiQVBidG5iYTRSYkVlUjA4MDdiRGpaTlRCd19zOHJPd0dtdlZFX2g5YzA?oc=5"
+        }
+      ],
+      "wordCount": 517
+    },
+    "blindSpot": "Más allá de las pérdidas alimentarias y económicas inmediatas, el patrón repetitivo de intrusiones en la infraestructura de frío comercial expone una vulnerabilidad sistémica crítica en la retaguardia civil europea, un flanco desatendido por las agencias de ciberdefensa ante la atención volcada en infraestructuras energéticas y financieras."
+  },
+  {
     "slug": "sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp",
     "path": "noticias/sabotaje-cadena-frio-cuando-refrigeradores-supermercados-0yjp/",
     "title": "Sabotaje a la cadena de frío: cuando los refrigeradores de supermercados en Europa se convierten en blancos vulnerables",

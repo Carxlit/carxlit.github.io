@@ -19,9 +19,38 @@
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NMUlUQ0Zsc09hMWhMQnZkbDhxOVhYVGVaQTR4WG1NLVJZc3RQWVFuQ2UtSTRKTEt1dU93OEhMSEc4NUktb3NwLWw1S0o4TVk2elY0ay1kZF9UTVNJV0RsUTM4M0l3b1huVzNPWlNJM0dRcHVHVG0wTw?oc=5",
     "https://www.xataka.com.mx/robotica-e-ia/sam-altman-ceo-openai-terrible-que-gente-tenga-memoria-ram-su-propio-pc-utilizandose-solo-5-tiempo",
     "https://www.clarin.com/mundo/increible-historia-karl-bushby-regreso-casa-despues-caminar-28-anos-mundo_0_PRNcn9DxQE.html",
-    "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss",
+    "https://www.france24.com/es/europa/20261102-de-b%C3%A9lgica-a-suecia-nueva-ola-de-ciberataques-contra-sistemas-de-refrigeraci%C3%B3n-afecta-a-decenas-de-supermercados"
   ],
   "processedSignatures": [
+    {
+      "title": "CIBERATAQUES A SISTEMAS DE REFRIGERACIÓN EN SIETE PAÍSES EUROPEOS",
+      "normalizedTokens": [
+        "ciberataques",
+        "sistemas",
+        "refrigeracion",
+        "siete",
+        "paises",
+        "europeos"
+      ],
+      "date": "2026-11-02T17:10:57.326Z"
+    },
+    {
+      "title": "De Bélgica a Suecia, nueva ola de ciberataques contra sistemas de refrigeración afecta a decenas de supermercados",
+      "normalizedTokens": [
+        "belgica",
+        "suecia",
+        "nueva",
+        "ola",
+        "ciberataques",
+        "sistemas",
+        "refrigeracion",
+        "afecta",
+        "decenas",
+        "supermercados"
+      ],
+      "date": "2026-11-02T17:10:57.326Z"
+    },
     {
       "title": "CIBERATAQUE CONTRA REFRIGERADORES EN SIETE PAÍSES EUROPEOS",
       "normalizedTokens": [
