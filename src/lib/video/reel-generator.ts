@@ -31,6 +31,8 @@ const TAIL_SECONDS = 1.2;
 const FADE_SECONDS = 0.3;
 
 const cache = new Map<string, Promise<string>>();
+/** Pistas de música propias (opcional): si hay archivos aquí, se usan en vez de la música sintetizada */
+const MUSIC_DIR = path.join(process.cwd(), 'music');
 
 /** Genera (una sola vez por noticia y proceso) el Reel y devuelve la ruta del MP4 */
 /**
@@ -481,7 +483,20 @@ export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: bo
   if (process.env.REEL_MUSIC !== 'false') {
     try {
       const music = path.join(work, 'musica.wav');
-      generateBackgroundMusic(music, total, news.id || news.headline);
+      // Pistas propias en la carpeta music/ (p. ej. de Pixabay, licencia libre): se elige una por noticia,
+      // se repite si es corta y se iguala al volumen aprobado. Sin pistas, se sintetiza una original.
+      const tracks = fs.existsSync(MUSIC_DIR) ? fs.readdirSync(MUSIC_DIR).filter((f) => /\.(mp3|wav|ogg|m4a)$/i.test(f)).sort() : [];
+      if (tracks.length) {
+        const pick = tracks[Array.from(news.id || news.headline).reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7) % tracks.length];
+        runFfmpeg([
+          '-stream_loop', '-1', '-i', path.join(MUSIC_DIR, pick), '-t', total.toFixed(2),
+          '-af', `loudnorm=I=-16:TP=-1.5,afade=t=in:d=1.5,afade=t=out:st=${Math.max(0, total - 2.2).toFixed(2)}:d=2.2`,
+          '-ar', '44100', '-ac', '2', music,
+        ]);
+        console.log(`[Reel] Música: ${pick}`);
+      } else {
+        generateBackgroundMusic(music, total, news.id || news.headline);
+      }
       audioTrack = path.join(work, 'audio-final.wav');
       const vol = Number(process.env.REEL_MUSIC_VOLUME || 0.14);
       runFfmpeg([

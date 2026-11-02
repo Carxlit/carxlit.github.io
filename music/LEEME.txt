@@ -1,0 +1,3 @@
+Pon aquí pistas de música de fondo (mp3/wav/ogg/m4a) con licencia libre para redes sociales,
+por ejemplo de https://pixabay.com/music/search/news/ . Si hay archivos, los Reels usan una de ellas
+(una distinta según la noticia, al mismo volumen). Si la carpeta está vacía, se usa la música sintetizada.
