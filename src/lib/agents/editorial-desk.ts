@@ -31,10 +31,16 @@ const VIDEO_SYSTEM_PROMPT = `ROL 4 - GUIONISTA DE REELS ("video"): guion de 25 a
 - "hook": abre con el dato más sorprendente o la pregunta que nadie se hace. Nada de "En esta noticia...".
 - "beats": exactamente 3 frases, una idea por frase, lenguaje hablado y claro; la última revela el punto ciego.
 - "close": invita a leer el análisis completo en el enlace del perfil.
-- Escribe como se habla: frases cortas, sin paréntesis, sin URLs, sin hashtags, sin emojis, números en cifras simples.`;
+- Escribe como se habla: frases cortas, sin paréntesis, sin URLs, sin hashtags, sin emojis, números en cifras simples.
+- Ortografía impecable: mayúscula inicial, tildes, signos de apertura (¿¡) y nombres propios con mayúscula. Nunca todo en mayúsculas ni todo en minúsculas.`;
 
 function finalizeVideoScript(raw: any): VideoScript | undefined {
-  const clean = (s: unknown) => (typeof s === 'string' ? s.replace(/\s+/g, ' ').replace(/https?:\/\/\S+|#\w+/g, '').trim() : '');
+  const clean = (s: unknown) => {
+    const t = typeof s === 'string' ? s.replace(/\s+/g, ' ').replace(/https?:\/\/\S+|#\w+/g, '').trim() : '';
+    // Frases en MAYÚSCULAS sostenidas pasan a tipo oración; siempre mayúscula inicial
+    const cased = t.length > 12 && t === t.toLocaleUpperCase('es') ? t.toLocaleLowerCase('es') : t;
+    return cased.replace(new RegExp('^([¿¡"«]?)(\\p{Ll})', 'u'), (_m, p, c) => p + c.toLocaleUpperCase('es'));
+  };
   const hook = clean(raw?.hook);
   const beats = (Array.isArray(raw?.beats) ? raw.beats : []).map(clean).filter(Boolean).slice(0, 3);
   const close = clean(raw?.close);

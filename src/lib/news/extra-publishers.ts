@@ -89,8 +89,10 @@ async function waitForIgContainer(containerId: string, token: string, maxSeconds
  */
 export async function publishInstagramReel(news: ProcessedNews, pageToken: string, videoPath: string): Promise<ChannelResult & { mediaId?: string }> {
   const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
+  // La subida reanudable a Instagram necesita una versión reciente de la Graph API
+  const REEL_API = 'v23.0';
   try {
-    const init = await fetch(`${GRAPH}/${igUser}/media`, {
+    const init = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({ media_type: 'REELS', upload_type: 'resumable', caption: buildInstagramCaption(news), share_to_feed: true }),
@@ -99,9 +101,14 @@ export async function publishInstagramReel(news: ProcessedNews, pageToken: strin
     if (!init.ok || !container.id) throw new Error(container.error?.message || `HTTP ${init.status}`);
 
     const bytes = fs.readFileSync(videoPath);
-    const up = await fetch(`https://rupload.facebook.com/ig-api-upload/v19.0/${container.id}`, {
+    const up = await fetch(container.uri || `https://rupload.facebook.com/ig-api-upload/${REEL_API}/${container.id}`, {
       method: 'POST',
-      headers: { Authorization: `OAuth ${pageToken}`, offset: '0', file_size: String(bytes.length) },
+      headers: {
+        Authorization: `OAuth ${pageToken}`,
+        offset: '0',
+        file_size: String(bytes.length),
+        'Content-Type': 'application/octet-stream',
+      },
       body: bytes,
       signal: AbortSignal.timeout(180_000),
     });
@@ -109,7 +116,7 @@ export async function publishInstagramReel(news: ProcessedNews, pageToken: strin
     if (!up.ok || upData.success === false) throw new Error(`subida: ${upData.debug_info?.message || upData.error?.message || up.status}`);
 
     await waitForIgContainer(container.id, pageToken, 240);
-    const pub = await fetch(`${GRAPH}/${igUser}/media_publish`, {
+    const pub = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media_publish`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({ creation_id: container.id }),
