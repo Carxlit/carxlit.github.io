@@ -607,10 +607,11 @@
         "wordCount": 603
       },
       "rawImageUrl": "https://fotografias.antena3.com/clipping/cmsimages01/2023/12/14/8805C7EE-06DA-468C-8BD0-5DF1DAB277A4/banco-central-europeo_default.jpg?crop=16:9&optimize=low&format=webply",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-01T19:34:27.091Z",
       "cardImageUrl": "/news-cards/news-7kv4c798w-1793561667092.jpg",
-      "articleUrl": "https://punto-ciego-ezm.pages.dev/noticias/bce-congela-tipos-interes-mientras-euribor-fbmk/"
+      "articleUrl": "https://punto-ciego-ezm.pages.dev/noticias/bce-congela-tipos-interes-mientras-euribor-fbmk/",
+      "publishedAt": "2026-11-02T01:00:01.125Z"
     },
     "channels": {
       "facebook": true,
@@ -619,10 +620,34 @@
       "linkedIn": true
     },
     "scheduledFor": "2026-11-01T22:15:48.889Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-01T19:34:29.591Z"
+    "createdAt": "2026-11-01T19:34:29.591Z",
+    "lastAttemptAt": "2026-11-02T00:59:52.567Z",
+    "results": {
+      "linkedIn": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122100903201532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "10",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzc4p75na72f"
+      }
+    },
+    "publishedAt": "2026-11-02T01:00:01.125Z"
   },
   {
     "id": "queue-1793567439264-go2ye",
@@ -742,7 +767,7 @@
       "bluesky": true,
       "linkedIn": true
     },
-    "scheduledFor": "2026-11-01T23:34:48.889Z",
+    "scheduledFor": "2026-11-02T02:01:52.567Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
