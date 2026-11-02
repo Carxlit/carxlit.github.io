@@ -43,11 +43,14 @@ jobs:
       INSTAGRAM_USER_ID: ${{ vars.INSTAGRAM_USER_ID }}
       MASTODON_INSTANCE: ${{ vars.MASTODON_INSTANCE }}
       MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
-      # https://<usuario>.github.io — el sitio se publica en el paso "GitHub Pages" de abajo;
-      # los posts solo llevan el enlace cuando la página ya responde (ciclos siguientes)
+      # https://puntociegoglobal.pages.dev (Cloudflare Pages construye site/ en cada push; GitHub Pages queda
+      # como copia). Los posts solo llevan el enlace cuando la página ya responde.
       PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
     steps:
+      # ref: main → el estado MÁS RECIENTE al empezar (un ciclo en espera no debe trabajar con la cola vieja)
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -88,8 +91,9 @@ jobs:
         uses: actions/deploy-pages@v4
 
       # 3) Publicar en redes cuando el artículo ya está en línea (así el post lleva el enlace)
+      # Solo si el estado se guardó: con una cola desactualizada podría publicar dos veces
       - name: Publicar en redes
-        if: always()
+        if: always() && steps.estado.outcome == 'success'
         run: node dist/cloud-run.js dispatch
 
       - name: Guardar publicaciones
