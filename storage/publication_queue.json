@@ -3411,5 +3411,124 @@
       }
     },
     "error": "Reintento 1/3: facebookReel: Noticia sin video libre: solo post con imagen"
+  },
+  {
+    "id": "queue-1793646369030-ndvod",
+    "news": {
+      "id": "w9zx9799m",
+      "originalUrl": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
+      "originalTitle": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
+      "sourceName": "Cinco Días Mercados",
+      "category": "ECONOMÍA GLOBAL",
+      "urgencyScore": 75,
+      "headline": "EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL",
+      "subHeadline": "José Luis Escrivá defiende la solidez de las inversiones tecnológicas frente al escepticismo de los mercados, mientras Luis de Guindos respalda la candidatura española para el Banco Central Europeo.",
+      "blindSpotAngle": "La defensa de Escrivá omite el riesgo sistémico derivado de la concentración del capital en un puñado de gigantes tecnológicos y la opacidad en la valoración de estos activos intangibles.",
+      "facebookPost": "El gobernador del Banco de España, José Luis Escrivá, ha desestimado las comparaciones entre el actual ciclo de inversión en inteligencia artificial y las burbujas financieras históricas. Mientras el discurso oficial insiste en la transformación estructural de la economía, el trasfondo muestra un mercado altamente concentrado y dependiente de un puñado de gigantes tecnológicos que dictan el pulso de la liquidez global.\n\n¿Es este optimismo institucional un análisis riguroso de la productividad o un intento de evitar el pánico en los mercados de capitales europeos?\n\nFuente: Cinco Días Mercados\n\n#EconomíaGlobal #InteligenciaArtificial #PuntoCiego",
+      "telegramPost": "<b>EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL</b>\n\n• <b>Qué ocurrió:</b> José Luis Escrivá ha rechazado equiparar las actuales inversiones en inteligencia artificial con burbujas financieras pasadas, respaldado por declaraciones de Luis de Guindos sobre la influencia española en el Banco Central Europeo.\n• <b>Por qué importa:</b> La narrativa oficial intenta blindar la confianza en el sector tecnológico, ignorando la alta concentración de capital y los riesgos de valoración en los activos digitales e industriales.\n• <b>Qué sigue:</b> Los mercados vigilarán de cerca la tolerancia regulatoria de la banca central ante la exposición crediticia a las grandes tecnológicas.",
+      "linkedInPost": "La reciente postura del Banco de España respecto a la inversión en inteligencia artificial evidencia la tensión entre el entusiasmo corporativo y la gestión del riesgo sistémico. Descartar los paralelismos con crisis anteriores obvia la velocidad de propagación del capital y la concentración de la cadena de valor en infraestructuras críticas. Las implicaciones para la estabilidad financiera exigen un monitoreo estricto de las valoraciones de activos y la exposición de los intermediarios financieros.\n\nFuente: Cinco Días Mercados\n\n#EconomíaGlobal #BancaCentral #PuntoCiego",
+      "blueskyPost": "Escrivá descarta la burbuja en IA y blinda el relato oficial, ignorando la extrema concentración de capital en pocas manos tecnológicas. #EconomíaGlobal #PuntoCiego",
+      "copies": {
+        "facebook": "El gobernador del Banco de España, José Luis Escrivá, ha desestimado las comparaciones entre el actual ciclo de inversión en inteligencia artificial y las burbujas financieras históricas. Mientras el discurso oficial insiste en la transformación estructural de la economía, el trasfondo muestra un mercado altamente concentrado y dependiente de un puñado de gigantes tecnológicos que dictan el pulso de la liquidez global.\n\n¿Es este optimismo institucional un análisis riguroso de la productividad o un intento de evitar el pánico en los mercados de capitales europeos?\n\n#EconomíaGlobal #InteligenciaArtificial #PuntoCiego",
+        "telegram": "<b>EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL</b>\n\n• <b>Qué ocurrió:</b> José Luis Escrivá ha rechazado equiparar las actuales inversiones en inteligencia artificial con burbujas financieras pasadas, respaldado por declaraciones de Luis de Guindos sobre la influencia española en el Banco Central Europeo.\n• <b>Por qué importa:</b> La narrativa oficial intenta blindar la confianza en el sector tecnológico, ignorando la alta concentración de capital y los riesgos de valoración en los activos digitales e industriales.\n• <b>Qué sigue:</b> Los mercados vigilarán de cerca la tolerancia regulatoria de la banca central ante la exposición crediticia a las grandes tecnológicas.",
+        "bluesky": "Escrivá descarta la burbuja en IA y blinda el relato oficial, ignorando la extrema concentración de capital en pocas manos tecnológicas. #EconomíaGlobal #PuntoCiego",
+        "linkedIn": "La reciente postura del Banco de España respecto a la inversión en inteligencia artificial evidencia la tensión entre el entusiasmo corporativo y la gestión del riesgo sistémico. Descartar los paralelismos con crisis anteriores obvia la velocidad de propagación del capital y la concentración de la cadena de valor en infraestructuras críticas. Las implicaciones para la estabilidad financiera exigen un monitoreo estricto de las valoraciones de activos y la exposición de los intermediarios financieros. #EconomíaGlobal #BancaCentral #PuntoCiego"
+      },
+      "article": {
+        "slug": "jose-luis-escriva-rechaza-equiparar-inversiones-xo6s",
+        "title": "José Luis Escrivá rechaza equiparar las inversiones en inteligencia artificial con burbujas financieras pasadas",
+        "dek": "El gobernador del Banco de España defiende la solidez del actual ciclo tecnológico en un contexto marcado por el debate sobre la gobernanza económica europea.",
+        "keyFacts": [
+          "José Luis Escrivá ocupa el cargo de gobernador del Banco de España.",
+          "Luis de Guindos manifestó su respaldo durante el foro WIP.",
+          "La cobertura principal proviene de Cinco Días Mercados y EL PAÍS."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "El gobernador del Banco de España, José Luis Escrivá, ha rechazado de forma categórica equiparar las actuales inversiones en inteligencia artificial con otras burbujas financieras históricas. Según la información difundida por EL PAÍS, la postura oficial descarta que el despliegue de capital tecnológico responda a dinámicas especulativas insostenibles.",
+              "Paralelamente, en el ámbito de la gobernanza europea, el foro WIP ha servido de escenario para que Luis de Guindos se pronuncie sobre la influencia española en las altas instancias financieras, señalando un respaldo explícito a la candidatura de Pablo para presidir el Banco Central Europeo."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El debate sobre la naturaleza de la inversión en inteligencia artificial se produce en un momento de transformación profunda para los mercados globales. Los bancos centrales y los reguladores financieros intentan calibrar el impacto real de la tecnología en la productividad macroeconómica frente a los riesgos asociados a la volatilidad bursátil y la asignación de recursos.",
+              "La discusión en torno a la candidatura para el Banco Central Europeo añade una capa de complejidad política, situando a España en el centro de las negociaciones sobre el futuro de la política monetaria en la eurozona."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Mientras el discurso oficial de los reguladores insiste en desvincular la IA de los precedentes especulativos, el análisis profundo revela una vulnerabilidad estructural: la concentración extrema del capital en un número reducido de corporaciones tecnológicas. Esta dependencia sistémica implica que cualquier corrección en las expectativas de monetización no afectará de manera aislada al sector tech, sino a la estabilidad de los fondos de inversión y a la cadena de valor industrial que financia esta transición."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los principales beneficiarios de este respaldo institucional son las grandes empresas tecnológicas y los fondos de capital de riesgo que lideran el despliegue de infraestructuras de IA, al recibir un espaldarazo regulatorio que mitiga la presión de los escépticos.",
+              "Por otro lado, los inversores minoristas y los fondos soberanos expuestos a valoraciones infladas asumen el riesgo latente de una corrección de mercado que los reguladores optan por minimizar en esta fase del ciclo."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Los próximos movimientos en los mercados de valores y los informes de estabilidad financiera del Banco Central Europeo serán determinantes para comprobar si la apuesta por la inteligencia artificial se traduce en ganancias de productividad reales o si la concentración de riesgos financieros justifica el escepticismo de los analistas críticos."
+            ]
+          }
+        ],
+        "tags": [
+          "Economía",
+          "Banco de España",
+          "Inteligencia Artificial",
+          "BCE",
+          "Mercados"
+        ],
+        "sources": [
+          {
+            "name": "Cinco Días Mercados",
+            "title": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
+            "url": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html"
+          },
+          {
+            "name": "EL PAÍS",
+            "title": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQmw2Q0hhNkRpVEtBOHA2YUx3U0UteGhBcWdtaUhqMFpiVUxvZ2VrLUh4WXJSV0N6YlNiSXBPTVVDSVA4T0Rqc2xoQWNpa0lhSHhmYlZyY1VXbmJNdjZOMGJqRFpzcXVVVDNmMkVZdHZjNVU3VEdJb1VTNHZzTWRydGsxT0RDQVE3aV9EeWV4N1BMZThzY2hnbkhqWGdPQjkxMVBBc0dYU3FzemUxR2RBeVY3QTAtaGxHdlFEMm1kT3QwSU9Ybm5DVzRERWFfd2Z3c1R4ODdWUdIB6wFBVV95cUxPRHJXbmlONEdZMFVjSEtEQzZFN1dLRHBnV2xONzIxMk9qNDFzY2V6UUtEaWo5WTNCVndMUk5FQU5OS3NpR0I1SEhyUjU3d29KekYtaVE1OGVfSWVrTHNmY1FtN0VNd1lpdzdVN3BueHZYUENmU0s3dnJDOWxjSUQ1VGZLVEI5NGF3bTRXTXh4emVRR0MtWklGQUNud21xR1dnQ0NyUzVHaUlwNHFhMnc2TUFDRkoxNnhYVVB0TGd6ZnFua0IzTkJuUkt1aUgyTlZTeWNLM210OG5hQlNRVnhJV1dpTTU1UnQwdV84?oc=5"
+          }
+        ],
+        "wordCount": 410
+      },
+      "videoScript": {
+        "hook": "Escrivá defiende la inteligencia artificial y niega que sea una nueva burbuja.",
+        "beats": [
+          "El gobernador del Banco de España rechaza comparar las inversiones tecnológicas con crisis pasadas.",
+          "Mientras tanto, Luis de Guindos apoya la candidatura española para presidir el Banco Central Europeo.",
+          "El punto ciego es que se ignora la peligrosa concentración de capital en pocas manos tecnológicas."
+        ],
+        "close": "Lee el análisis completo y sin filtros en el enlace del perfil."
+      },
+      "rawImageUrl": "https://album.mediaset.es/eimg/2024/0711/08/archivo-el-ministro-de-inclusion-seguridad-social-y-migraciones-jose-luis-escriva-interviene-en-una-72136d8-2.jpg",
+      "status": "pending",
+      "createdAt": "2026-11-02T19:06:04.084Z",
+      "cardImageUrl": "/news-cards/news-w9zx9799m-1793646364085.jpg",
+      "instagramCardUrl": "/news-cards/news-w9zx9799m-1793646367694-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/jose-luis-escriva-rechaza-equiparar-inversiones-xo6s/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true
+    },
+    "scheduledFor": "2026-11-02T19:06:09.041Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-02T19:06:09.030Z"
   }
 ]

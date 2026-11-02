@@ -24,9 +24,38 @@
     "https://elpais.com/internacional/2026-11-02/foro-world-in-progress-de-barcelona-en-directo.html",
     "https://www.abc.es/internacional/netanyahu-presiona-trump-atacar-iran-teheran-ofrece-20261102183735-nt.html",
     "https://www.genbeta.com/actualidad/nuevo-estudio-rastrea-famosa-noche-estrellada-van-gogh-cielo-nocturno-real-1889",
-    "https://www.abc.es/internacional/iliana-iotova-nueva-presidenta-bulgara-impulsa-acercamiento-20261102110732-nt.html"
+    "https://www.abc.es/internacional/iliana-iotova-nueva-presidenta-bulgara-impulsa-acercamiento-20261102110732-nt.html",
+    "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html"
   ],
   "processedSignatures": [
+    {
+      "title": "EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL",
+      "normalizedTokens": [
+        "governador",
+        "banco",
+        "espana",
+        "rechaza",
+        "burbuja",
+        "inteligencia",
+        "artificial"
+      ],
+      "date": "2026-11-02T19:06:09.033Z"
+    },
+    {
+      "title": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
+      "normalizedTokens": [
+        "jose",
+        "luis",
+        "escriva",
+        "rechaza",
+        "equiparar",
+        "inversiones",
+        "otras",
+        "acabaron",
+        "burbuja"
+      ],
+      "date": "2026-11-02T19:06:09.033Z"
+    },
     {
       "title": "ILIANA IOTOVA ASUME LA PRESIDENCIA DE BULGARIA CON UN GIRO PRORRUSO",
       "normalizedTokens": [
