@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://carxlit.github.io/sitemap.xml
-Sitemap: https://carxlit.github.io/news-sitemap.xml
+Sitemap: https://puntociegoglobal.pages.dev/sitemap.xml
+Sitemap: https://puntociegoglobal.pages.dev/news-sitemap.xml

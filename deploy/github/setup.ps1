@@ -52,6 +52,9 @@ Write-Host "Repositorio: $full  ·  Sitio: $siteUrl"
 Step 'Ajustando la configuración local (y deteniendo la publicación desde este PC)'
 $envPath = Join-Path $root '.env.local'
 $envText = if (Test-Path $envPath) { [IO.File]::ReadAllText($envPath) } else { '' }
+# Dirección propia (p. ej. Cloudflare Pages): si .env.local ya apunta a otra que no es github.io, se respeta
+$current = [regex]::Match($envText, '(?m)^PUBLIC_SITE_URL=(.+)$').Groups[1].Value.Trim()
+if ($current -and $current -notmatch 'github\.io' -and $current -notmatch 'punto-ciego-ezm') { $siteUrl = $current.TrimEnd('/') }
 # RUN_MODE=cloud ANTES de copiar la cola: desde aquí el servidor local deja de publicar,
 # así nada sale del PC después de la copia (evita publicaciones dobles)
 $envText = Set-EnvLine $envText 'RUN_MODE' 'cloud'
