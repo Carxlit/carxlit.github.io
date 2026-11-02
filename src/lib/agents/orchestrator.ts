@@ -8,6 +8,21 @@ import { withSourceCredit } from '@/lib/news/post-links';
 import { decodeHtmlEntities } from '@/lib/news/article-image';
 import { findNewsVideo } from '@/lib/news/news-video';
 
+/** ¿La URL devuelve de verdad una imagen? (no un video, una página o un error) */
+async function isLoadableImage(url: string): Promise<boolean> {
+  if (!/^https?:\/\//.test(url) || /\.(mp4|m3u8|mov|webm|mpd)(\?|$)/i.test(url)) return false;
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36', Range: 'bytes=0-2047' },
+      signal: AbortSignal.timeout(10_000),
+    });
+    res.body?.cancel().catch(() => undefined);
+    return (res.ok || res.status === 206) && (res.headers.get('content-type') || '').startsWith('image/');
+  } catch {
+    return false;
+  }
+}
+
 export interface PipelineOptions {
   skipImageGeneration?: boolean;
 }
@@ -24,10 +39,17 @@ export async function runEditorialPipeline(
   console.log(`[Pipeline] Iniciando procesamiento multi-agente para: "${article.title.slice(0, 60)}..."`);
 
   // 1. Fase de Extracción de Fotografía de Prensa Real
+  // Cada candidata se comprueba: algunos feeds traen un video (.mp4) o una URL caída como "imagen"
+  // y la tarjeta salía con el hueco de la foto vacío
   let realPhotoUrl = article.imageUrl ? decodeHtmlEntities(article.imageUrl) : undefined;
+  if (realPhotoUrl && !(await isLoadableImage(realPhotoUrl))) {
+    console.warn(`[Pipeline] La imagen del feed no es una foto válida (${realPhotoUrl.slice(0, 80)}); se busca otra`);
+    realPhotoUrl = undefined;
+  }
   if (!realPhotoUrl && article.link) {
     try {
-      realPhotoUrl = await extractArticleImage(article.link, article.title);
+      const found = await extractArticleImage(article.link, article.title);
+      if (found && (await isLoadableImage(found))) realPhotoUrl = found;
     } catch (err: any) {
       console.warn('[Pipeline] Error al extraer foto de URL, recurriendo a búsqueda:', err?.message);
     }
@@ -35,7 +57,8 @@ export async function runEditorialPipeline(
 
   if (!realPhotoUrl) {
     try {
-      realPhotoUrl = await searchRealNewsPhoto(article.title);
+      const found = await searchRealNewsPhoto(article.title);
+      if (found && (await isLoadableImage(found))) realPhotoUrl = found;
     } catch (err: any) {
       console.warn('[Pipeline] Búsqueda de foto periodística omitida:', err?.message);
     }
