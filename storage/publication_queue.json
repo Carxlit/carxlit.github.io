@@ -1830,11 +1830,12 @@
         "wordCount": 606
       },
       "rawImageUrl": "https://www.infobae.com/resizer/v2/VLITMD7KAVHHFKDDRFE33HCZKY.JPG?auth=acf6f93a1ad578092e6c0b171665549a2d361755bdbf1e3d8cc5d8451d833c50&smart=true&width=5500&height=3095",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T15:23:03.308Z",
       "cardImageUrl": "/news-cards/news-2zvvoer6a-1793632983308.jpg",
       "instagramCardUrl": "/news-cards/news-2zvvoer6a-1793632984520-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/iran-condiciona-reapertura-estrecho-ormuz-aceptacion-vw5f/",
+      "publishedAt": "2026-11-02T15:24:20.513Z"
     },
     "channels": {
       "facebook": true,
@@ -1845,10 +1846,38 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T15:23:30.031Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T15:23:05.234Z"
+    "createdAt": "2026-11-02T15:23:05.234Z",
+    "lastAttemptAt": "2026-11-02T15:24:03.227Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101503975532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "18",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdmyhevhx2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18130170964841578"
+      }
+    },
+    "publishedAt": "2026-11-02T15:24:20.513Z"
   },
   {
     "id": "queue-1793633010025-i8rrj",
@@ -1951,11 +1980,12 @@
         "wordCount": 415
       },
       "rawImageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-02T15:23:28.975Z",
       "cardImageUrl": "/news-cards/news-rvin25hjy-1793633008975.jpg",
       "instagramCardUrl": "/news-cards/news-rvin25hjy-1793633009495-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/futuros-wall-street-repuntan-tras-octubre-fim9/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/futuros-wall-street-repuntan-tras-octubre-fim9/",
+      "publishedAt": "2026-11-02T15:24:56.226Z"
     },
     "channels": {
       "facebook": true,
@@ -1966,9 +1996,37 @@
       "mastodon": true
     },
     "scheduledFor": "2026-11-02T15:23:30.031Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-02T15:23:30.025Z"
+    "createdAt": "2026-11-02T15:23:30.025Z",
+    "lastAttemptAt": "2026-11-02T15:24:20.683Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122101504263532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "19",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdmzjmnyx2n"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17991003683872055"
+      }
+    },
+    "publishedAt": "2026-11-02T15:24:56.226Z"
   }
 ]
