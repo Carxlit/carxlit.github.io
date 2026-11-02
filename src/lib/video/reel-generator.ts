@@ -498,7 +498,7 @@ export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: bo
         generateBackgroundMusic(music, total, news.id || news.headline);
       }
       audioTrack = path.join(work, 'audio-final.wav');
-      const vol = Number(process.env.REEL_MUSIC_VOLUME || 0.14);
+      const vol = Number(process.env.REEL_MUSIC_VOLUME || 0.18);
       runFfmpeg([
         '-i', narration, '-i', music,
         '-filter_complex',
