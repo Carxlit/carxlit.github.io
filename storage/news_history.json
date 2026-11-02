@@ -10,9 +10,40 @@
     "https://www.infobae.com/estados-unidos/2026/11/01/reportan-una-fuerte-explosion-en-west-palm-beach-las-autoridades-investigan-la-causa/",
     "https://theconversation.com/las-cuatro-preguntas-que-debe-hacerse-europa-despues-de-las-elecciones-de-medio-mandato-estadounidenses-295581",
     "https://www.xataka.com/seleccion/nintendo-switch-2-314-euros-playstation-5-410-euros-11-11-aliexpress-da-pistoletazo-salida",
-    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DNm9qNVdlLW1YSGdFa0tKNWgwTXdjZWdQcU1FR3k5Ym5XWElqQkZWTXBIelExQWRoMGFGSzNUeXEzQy1aWkZUczBOdmFLcGd3V2NhczJ6ZExQZ0JZTzQ3dDhhVWRQaDd1QmFLTk9aTjBWaEVMSVVJ?oc=5"
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DNm9qNVdlLW1YSGdFa0tKNWgwTXdjZWdQcU1FR3k5Ym5XWElqQkZWTXBIelExQWRoMGFGSzNUeXEzQy1aWkZUczBOdmFLcGd3V2NhczJ6ZExQZ0JZTzQ3dDhhVWRQaDd1QmFLTk9aTjBWaEVMSVVJ?oc=5",
+    "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "ILIANA YOTOVA GANA LA PRESIDENCIA Y GIRA BULGARIA HACIA MOSCÚ",
+      "normalizedTokens": [
+        "iliana",
+        "yotova",
+        "gana",
+        "presidencia",
+        "gira",
+        "bulgaria",
+        "hacia",
+        "moscu"
+      ],
+      "date": "2026-11-02T13:15:51.881Z"
+    },
+    {
+      "title": "Bulgaria elige a su primera presidenta: la socialista prorrusa Iliana Yotova arrasa con el 57,7 % de los votos",
+      "normalizedTokens": [
+        "bulgaria",
+        "elige",
+        "primera",
+        "presidenta",
+        "socialista",
+        "prorrusa",
+        "iliana",
+        "yotova",
+        "arrasa",
+        "votos"
+      ],
+      "date": "2026-11-02T13:15:51.881Z"
+    },
     {
       "title": "ECONOMÍA CHILENA REGISTRA ANÉMICO AVANCE DE 0,2% EN SEPTIEMBRE",
       "normalizedTokens": [
