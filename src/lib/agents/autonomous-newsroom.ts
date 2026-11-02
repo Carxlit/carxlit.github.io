@@ -59,7 +59,7 @@ export const DEFAULT_AUTONOMOUS_CONFIG: AutonomousConfig = {
     facebook: true,
     telegram: true,
     bluesky: true,
-    linkedIn: true, // LinkedIn habilitado por defecto
+    linkedIn: false, // Desactivado: publicar en páginas de empresa exige una app aprobada o Make
     // Se usan solo si tienen credenciales (INSTAGRAM_USER_ID / MASTODON_*); si no, se omiten
     instagram: true,
     mastodon: true,
