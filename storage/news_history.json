@@ -26,9 +26,41 @@
     "https://www.genbeta.com/actualidad/nuevo-estudio-rastrea-famosa-noche-estrellada-van-gogh-cielo-nocturno-real-1889",
     "https://www.abc.es/internacional/iliana-iotova-nueva-presidenta-bulgara-impulsa-acercamiento-20261102110732-nt.html",
     "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
-    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNajY2VUN0N3B5S3FObk84ZHhodlUtYXdRV0Y2LVBfbmtjUXhrbE1WemtuOFhpelFhYjBjaXJIMVh2eEtOQmctWGpGbHpqSGVUc09MV21VT0h6c3E3VDlqdVBVeU5YVG9ZcEFPdkVjTkRhXzVkSTYxUjVnS24wUy1ONWt0VTJHR0d6ZkpF?oc=5"
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNajY2VUN0N3B5S3FObk84ZHhodlUtYXdRV0Y2LVBfbmtjUXhrbE1WemtuOFhpelFhYjBjaXJIMVh2eEtOQmctWGpGbHpqSGVUc09MV21VT0h6c3E3VDlqdVBVeU5YVG9ZcEFPdkVjTkRhXzVkSTYxUjVnS24wUy1ONWt0VTJHR0d6ZkpF?oc=5",
+    "https://www.xataka.com/seleccion/portatil-gaming-que-se-adelanta-al-black-friday-tiene-32-gb-ram-incluye-rtx-5060-su-descuento-500-euros"
   ],
   "processedSignatures": [
+    {
+      "title": "OFERTAS DE HARDWARE OCULTAN LA CRISIS GLOBAL DE MEMORIA RAM",
+      "normalizedTokens": [
+        "ofertas",
+        "hardware",
+        "ocultan",
+        "crisis",
+        "global",
+        "memoria",
+        "ram"
+      ],
+      "date": "2026-11-03T11:18:57.518Z"
+    },
+    {
+      "title": "El portátil gaming que se adelanta al Black Friday: tiene 32 GB de RAM, incluye una RTX 5060 y su descuento es de 500 euros",
+      "normalizedTokens": [
+        "portatil",
+        "gaming",
+        "adelanta",
+        "black",
+        "friday",
+        "ram",
+        "incluye",
+        "rtx",
+        "5060",
+        "descuento",
+        "500",
+        "euros"
+      ],
+      "date": "2026-11-03T11:18:57.518Z"
+    },
     {
       "title": "ESTADOS UNIDOS EJECUTA ATAQUES DEFENSIVOS EN LA ISLA IRANÍ DE QESHM",
       "normalizedTokens": [
