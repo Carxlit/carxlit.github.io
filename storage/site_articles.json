@@ -1,5 +1,101 @@
 [
   {
+    "slug": "sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8",
+    "path": "noticias/sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8/",
+    "title": "Sabotajes y falsas alertas aéreas ponen a prueba la seguridad híbrida en Europa",
+    "headline": "GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS",
+    "dek": "Bruselas convoca a Europol tras una ofensiva coordinada contra supermercados y aeropuertos que desnuda las frágiles defensas digitales del continente.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Clarín",
+    "image": "img/sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8.jpg",
+    "photo": "img/sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8-foto.jpg",
+    "publishedAt": "2026-11-03T20:23:36.825Z",
+    "article": {
+      "slug": "sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8",
+      "title": "Sabotajes y falsas alertas aéreas ponen a prueba la seguridad híbrida en Europa",
+      "dek": "Bruselas convoca a Europol tras una ofensiva coordinada contra supermercados y aeropuertos que desnuda las frágiles defensas digitales del continente.",
+      "keyFacts": [
+        "Al menos seis aviones comerciales realizaron aterrizajes de emergencia por falsas amenazas de bomba.",
+        "Los ciberataques a sistemas de refrigeración afectaron a supermercados en al menos nueve Estados miembros de la Unión Europea.",
+        "La empresa Forescout identificó 13.000 servicios de gestión de refrigeración accesibles de forma remota.",
+        "El comisario europeo de Agricultura y Alimentación, Christophe Hansen, calificó los hechos como un intento deliberado de alterar la cadena alimentaria."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La Comisión Europea convocó de urgencia a Europol y a las autoridades nacionales de ciberseguridad tras una serie de incidentes simultáneos que alteraron la normalidad en al menos nueve Estados miembros de la Unión Europea. Por un lado, se registraron ciberataques contra los sistemas de control de refrigeración en supermercados de Alemania, Italia y Portugal, provocando que las temperaturas en las cámaras frigoríficas alcanzaran los 50 grados celsius y obligando a desechar toneladas de alimentos.",
+            "Casi en paralelo, al menos seis aviones de pasajeros se vieron envueltos en falsas amenazas de bomba que exigieron cierres temporales de aeropuertos y el despliegue de aviones de combate para escoltar a las aeronaves hasta tierra firme, según los reportes recopilados por medios como Clarín y La Voz del Interior."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Los ataques contra las cadenas de frío comenzaron a detectarse tras un precedente similar en supermercados franceses el pasado 12 de octubre. Las investigaciones preliminares indican que muchos establecimientos omitieron actualizar sus sistemas de control remoto, una vulnerabilidad clave que permite a terceros supervisar y modificar parámetros de refrigeración a distancia sin pisar las instalaciones.",
+            "Aunque las autoridades europeas evitan señalar formalmente a un autor intelectual, diplomáticos consultados bajo anonimato y comisarios como Christophe Hansen apuntan hacia Moscú, enmarcando los episodios dentro del concepto de guerra híbrida destinado a socavar la estabilidad y la confianza ciudadana en las instituciones comunitarias."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La atención mediática se ha volcado en el morbo de los cazas escoltando aviones comerciales y en la sospecha geopolítica hacia el Kremlin. Sin embargo, el verdadero flanco débil no proviene de sofisticados escuadrones de inteligencia extranjeros, sino de la negligencia corporativa y la escasa inversión en ciberseguridad industrial.",
+            "La firma de ciberseguridad Forescout reveló que existen al menos 13.000 servicios de gestión de refrigeración expuestos en la red. Muchas empresas prefirieron no reportar inicialmente los incidentes para evitar costos reputacionales, evidenciando que el talón de Aquiles de la infraestructura europea es la falta de auditorías obligatorias en la cadena de suministro privada."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los servicios de inteligencia y las agencias de cooperación policial como Europol ganan presupuestos, competencias y centralización de poder ante la necesidad imperiosa de blindar el territorio comunitario. Los gobiernos nacionales, por su parte, endurecen su discurso sobre la interferencia exterior.",
+            "Pierden los ciudadanos, sometidos a una constante sensación de vulnerabilidad logística y psicológica, y las medianas empresas alimentarias, que asumen pérdidas millonarias por no haber implementado parches de seguridad digital que ya se exigían desde el otoño pasado."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El factor decisivo en las próximas semanas será la capacidad de Bruselas para imponer estándares obligatorios de ciberseguridad a los operadores de infraestructura alimentaria y aeroportuaria, más allá de las recomendaciones voluntarias.",
+            "Conviene observar si los gobiernos europeos traducen las sospechas diplomáticas en sanciones económicas tangibles o si la respuesta se limita a un reforzamiento policial interno que no resuelve la raíz del problema tecnológico."
+          ]
+        }
+      ],
+      "tags": [
+        "Ciberseguridad",
+        "Unión Europea",
+        "Guerra Híbrida",
+        "Aviación",
+        "Infraestructura Crítica"
+      ],
+      "sources": [
+        {
+          "name": "Clarín",
+          "title": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
+          "url": "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html"
+        },
+        {
+          "name": "Clarin.com",
+          "title": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSUFkenFtWnhhVndKNnlWNERNNk9IbGxWQUd4UlVqbndReUtvTzlXRFlQUTlLdWxnTHpjelo4MmlmWjIwSkRLQUVRaEFyd2F3RndIOHJLMWJLTUkwWDNWdS1naVJoaXdGbEtPZjN5Rm5xYWUzckJlSXQtbzFUS3hHX09Kc0RWdVhmSEhYYnBHV2ZmNDNGcXhCY3ZFWUxEdno2emZIdmM4cWxUa1hCVk96RTBmNHBpUmhJMHl6SVNtSnplZw?oc=5"
+        },
+        {
+          "name": "La Voz del Interior",
+          "title": "Europa: investigan falsas amenazas de bomba en seis aviones que obligaron a realizar aterrizajes de emergencia",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT09LU1FmYTdtVnh5SmJsQ05aaGdWSktuUDVrWXpLQXFCTWVSLWhKZFFiLWMyS2YxbHZsYllYdktDTjJSbHlNTlVYMTBubmQzNGV6bS1jaFFTNVNrb3hVcmtyeFJrNll5cVY3YzFaVUZDM09xdjBEQm9RQkR6ckJIQVotdnhoLTJ2QWJjM3dOWW9mRzVuMWgwY201bFdIcTRlRmRTRngxNnpFN0kxUzNzb19PRDFkalhkOS15d2RfVGJNMHR1M2s1YWhFMXpRWm9vQnpjOA?oc=5"
+        },
+        {
+          "name": "Diario Digital Conclusión",
+          "title": "Alerta en Europa: cuatro aviones recibieron amenazas de bomba en pleno vuelo y activaron operativos de seguridad",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOElQUTBQclBUejQ3UUlBY25JdUpsZTlIanhfaXBlUm1lUXVxMXNpRXBtZF9SdklZMjhoOG5GQ2VhSG03ZThtdU5QX0l3ZjMzVUJLMnNOcHhNcG5IdFF5cjZraWUzV0lqejUwa2NXMjR3ejJFWnR0SDJ5R0RHN1dVS2JZTV9nZ2pfdlVzV01vdXBnZ0ZqTDFYUTFMYUFkNzRHUjA5Q0JwNXRQRVA5b0tZd1hlOU1EbEtDM0xqa25JU183eHcydW9qcEdpd19sblRFeGZacGJRMzg2VDF5Q1N0ZF95aHRNd1V3UXdEaEo2QU50ZGIteXh6ekNR?oc=5"
+        },
+        {
+          "name": "DigitalMex Periodismo confiable",
+          "title": "Amenazas de bomba ponen en alerta siete vuelos en Europa",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWRpaVB3bGh6eHBScFNocHlvdURkX2xRdTZ4RWhNVG84NkgzamI1aHhPN3BOSUVFanRrUEZvMlJHeFZaelp4dk9Bb1llZUtEU2wyYzRzaDVRWEFOVG1SWE9rUjFuQ2pOMVhnaWlyZDdXQzc1MGZ3b1c3bk5kcjlhSHBDTXFyYzBPQ3VyMmYxaXpfX1RxZUpXTzZnU3FYZU44OU9WVVhmSQ?oc=5"
+        }
+      ],
+      "wordCount": 496
+    },
+    "blindSpot": "Mientras los gobiernos debaten si Moscú está detrás de las alertas aéreas y los sabotajes a frigoríficos industriales con 13.000 sistemas expuestos, la vulnerabilidad real radica en la negligencia corporativa y la falta de actualización en los protocolos de ciberseguridad industrial de las grandes superficies."
+  },
+  {
     "slug": "reino-unido-integra-chile-regimen-preferencial-mxh3",
     "path": "noticias/reino-unido-integra-chile-regimen-preferencial-mxh3/",
     "title": "Reino Unido integra a Chile en su régimen preferencial de exportación de tecnología militar",

@@ -35,9 +35,38 @@
     "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
     "https://elpais.com/espana/2026-11-03/ultima-hora-del-accidente-de-trenes-de-urda-en-toledo-en-directo.html",
     "https://www.clarin.com/mundo/dia-elecciones-trump-dijo-acordo-netanyahu-disminuir-us4000-millones-ayuda-israel_0_bBfX80Cz16.html",
-    "http://www.defensa.com/chile/reino-unido-incorpora-chile-nueva-licencia-exportacion-bienes"
+    "http://www.defensa.com/chile/reino-unido-incorpora-chile-nueva-licencia-exportacion-bienes",
+    "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html"
   ],
   "processedSignatures": [
+    {
+      "title": "GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS",
+      "normalizedTokens": [
+        "guerra",
+        "hibrida",
+        "europa",
+        "ciberataques",
+        "falsas",
+        "amenazas"
+      ],
+      "date": "2026-11-03T20:23:36.915Z"
+    },
+    {
+      "title": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
+      "normalizedTokens": [
+        "alerta",
+        "europa",
+        "ola",
+        "falsas",
+        "amenazas",
+        "bomba",
+        "aviones",
+        "obligo",
+        "aterrizajes",
+        "emergencia"
+      ],
+      "date": "2026-11-03T20:23:36.914Z"
+    },
     {
       "title": "REINO UNIDO FACILITA EXPORTACIONES MILITARES A CHILE",
       "normalizedTokens": [
