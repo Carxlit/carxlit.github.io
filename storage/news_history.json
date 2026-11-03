@@ -33,9 +33,40 @@
     "https://www.eltiempo.com/mundo/venezuela/protestas-en-venezuela-repuntan-489-por-ciento-en-septiembre-a-pesar-de-que-aparato-represivo-se-mantiene-que-le-exigen-a-delcy-rodriguez-3588328",
     "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261103-en-directo-estados-unidos-midterms-elecciones-medio-mandato-congreso-gobernaciones-trump-democratas-republicanos",
     "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
-    "https://elpais.com/espana/2026-11-03/ultima-hora-del-accidente-de-trenes-de-urda-en-toledo-en-directo.html"
+    "https://elpais.com/espana/2026-11-03/ultima-hora-del-accidente-de-trenes-de-urda-en-toledo-en-directo.html",
+    "https://www.clarin.com/mundo/dia-elecciones-trump-dijo-acordo-netanyahu-disminuir-us4000-millones-ayuda-israel_0_bBfX80Cz16.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP ANUNCIA RECORTE DE AYUDA A ISRAEL EN PLENAS ELECCIONES",
+      "normalizedTokens": [
+        "trump",
+        "anuncia",
+        "recorte",
+        "ayuda",
+        "israel",
+        "plenas",
+        "elecciones"
+      ],
+      "date": "2026-11-03T17:41:18.017Z"
+    },
+    {
+      "title": "En el día de las elecciones, Trump dijo que acordó con Netanyahu disminuir US$4.000 millones de ayuda a Israel",
+      "normalizedTokens": [
+        "dia",
+        "elecciones",
+        "trump",
+        "dijo",
+        "acordo",
+        "netanyahu",
+        "disminuir",
+        "000",
+        "millones",
+        "ayuda",
+        "israel"
+      ],
+      "date": "2026-11-03T17:41:18.016Z"
+    },
     {
       "title": "ADIF ENTRA EN HUELGA TRAS EL ACCIDENTE FERROVIARIO DE URDA",
       "normalizedTokens": [
