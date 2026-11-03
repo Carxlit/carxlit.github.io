@@ -31,9 +31,42 @@
     "https://www.dw.com/es/lula-sheinbaum-y-delcy-rodríguez-no-participarán-en-la-xxx-cumbre-iberoamericana-en-madrid/a-79837532?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdEtJbjlJTHVMeThRVmNjWWF0WHZSczdKZXhZQ1dYTGlBcndyZm5ZODloM19BaUI0QW0zNzRKemNoVVJybHhvcUVvSmFMTVBnMzVuTnBZYUpIUkJVRmpyTmJDMTk1R3JNVFpPb19XMmlCWFRULXh4VXF4Y21GWnZNNVZZREgwcWhjMmhaLW5kOEJwNU5nMkxVX0RaOHZ6aXJLNG8wUGUydkh6NUN5Mi1zSzVmeENoTzhid2x3RTVjVmhHclBGT2lNQWpKZ1dHMjlSNUZrMUxINEhEX3VSNUg2UGNzb09peTRCOVRB?oc=5",
     "https://www.eltiempo.com/mundo/venezuela/protestas-en-venezuela-repuntan-489-por-ciento-en-septiembre-a-pesar-de-que-aparato-represivo-se-mantiene-que-le-exigen-a-delcy-rodriguez-3588328",
-    "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261103-en-directo-estados-unidos-midterms-elecciones-medio-mandato-congreso-gobernaciones-trump-democratas-republicanos"
+    "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261103-en-directo-estados-unidos-midterms-elecciones-medio-mandato-congreso-gobernaciones-trump-democratas-republicanos",
+    "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era"
   ],
   "processedSignatures": [
+    {
+      "title": "SABOTAJE A REFRIGERACIÓN INDUSTRIAL REVELA VULNERABILIDAD CRÍTICA EN INFRAESTRUCTURA EUROPEA",
+      "normalizedTokens": [
+        "sabotaje",
+        "refrigeracion",
+        "industrial",
+        "revela",
+        "vulnerabilidad",
+        "critica",
+        "infraestructura",
+        "europea"
+      ],
+      "date": "2026-11-03T14:29:12.451Z"
+    },
+    {
+      "title": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
+      "normalizedTokens": [
+        "internet",
+        "cosas",
+        "parecia",
+        "gran",
+        "idea",
+        "2013",
+        "supermercados",
+        "europa",
+        "estan",
+        "descubriendo",
+        "era",
+        "tanto"
+      ],
+      "date": "2026-11-03T14:29:12.451Z"
+    },
     {
       "title": "ABREN LAS URNAS PARA LAS MIDTERMS DE 2026 EN ESTADOS UNIDOS",
       "normalizedTokens": [

@@ -4525,5 +4525,123 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-03T13:26:01.102Z"
+  },
+  {
+    "id": "queue-1793716152448-hu0a1",
+    "news": {
+      "id": "kzk1ka4lk",
+      "originalUrl": "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
+      "originalTitle": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "SABOTAJE A REFRIGERACIÓN INDUSTRIAL REVELA VULNERABILIDAD CRÍTICA EN INFRAESTRUCTURA EUROPEA",
+      "subHeadline": "Un ciberataque coordinado a controladores de temperatura Danfoss paralizó más de 350 supermercados en Francia, Bélgica y Suecia. La alteración de ciclos de descongelación provocó temperaturas de hasta 50 °C y pérdidas de decenas de millones de euros.",
+      "blindSpotAngle": "La digitalización de activos físicos sin aislamiento de red transforma dispositivos pasivos en vectores de sabotaje macroeconómico. Mientras las autoridades investigan la autoría del ataque, el verdadero punto ciego reside en la exposición masiva de controladores industriales a la red pública con firmwares desactualizados.",
+      "facebookPost": "En las primeras semanas de noviembre, cientos de supermercados en Europa sufrieron el aumento injustificado de temperatura en sus sistemas de congelación hasta alcanzar los 50 °C. La explicación oficial se centra en fallos de seguridad dentro del firmware de los sistemas de gestión Danfoss AK-SC y AK-SM, afectando a firmas como Carrefour, Intermarché y Coop.\n\nMás allá de la falla de software, el incidente revela una vulnerabilidad estructural en la infraestructura comercial: miles de controladores industriales críticos permanecen conectados a Internet sin capas elementales de protección. Los atacantes no buscaron robar información ni solicitar rescate por ransomware, sino paralizar operativamente a las empresas modificando de forma remota los tiempos de descongelación.\n\n¿Están preparadas las cadenas de distribución europeas para admitir que el Internet de las Cosas ha convertido a la infraestructura frigorífica en una amenaza para la continuidad de negocio?\n\nFuente: Xataka\n\n#Tecnologia #Ciberseguridad #PuntoCiego",
+      "telegramPost": "<b>SABOTAJE EN LA CADENA DE FRÍO EUROPEA</b>\n\n• <b>Qué ocurrió:</b> Más de 350 supermercados en Europa registraron incrementos de temperatura de hasta 50 °C en sus frigoríficos tras la manipulación remota de controladores Danfoss desactualizados.\n• <b>Por qué importa:</b> El software de control de activos físicos expuesto a Internet permite desstabilizar la logística alimentaria sin necesidad de secuestro de datos ni extorsión.\n• <b>Qué sigue:</b> Agencias como la ANSSI de Francia y el Centro de Ciberseguridad de Bélgica investigan la autoría mientras se prevén exigencias regulatorias sobre seguridad en tecnología operacional.",
+      "linkedInPost": "El sabotaje cibernético que afectó a más de 350 supermercados en Francia, Bélgica, Suecia y otros países europeos expone una fragilidad crítica en las cadenas de suministro minoristas. La manipulación de los controladores de refrigeración Danfoss AK-SC y AK-SM provocó la pérdida de mercancía perecedera y costes millonarios en una sola jornada.\n\nEste evento subraya el riesgo de mantener activos de tecnología operacional (OT) expuestos directamente a la red sin controles de acceso rigurosos. La interrupción de procesos físicos mediante comandos remotos representa un desafío directo para las matrices de riesgo corporativo y los modelos de cobertura aseguradora.\n\nLas organizaciones deberán acelerar la auditoría de sus dispositivos conectados y aplicar un aislamiento estricto de los sistemas de gestión de infraestructura.\n\nFuente: Xataka\n\n#Ciberseguridad #CadenaDeSuministro #PuntoCiego",
+      "blueskyPost": "El sabotaje a 350 supermercados europeos alteró frigoríficos a 50 °C usando software Danfoss desactualizado. Sin pedir rescate, destruyeron toneladas de inventario. #PuntoCiego #Tecnologia",
+      "copies": {
+        "facebook": "En las primeras semanas de noviembre, cientos de supermercados en Europa sufrieron el aumento injustificado de temperatura en sus sistemas de congelación hasta alcanzar los 50 °C. La explicación oficial se centra en fallos de seguridad dentro del firmware de los sistemas de gestión Danfoss AK-SC y AK-SM, afectando a firmas como Carrefour, Intermarché y Coop.\n\nMás allá de la falla de software, el incidente revela una vulnerabilidad estructural en la infraestructura comercial: miles de controladores industriales críticos permanecen conectados a Internet sin capas elementales de protección. Los atacantes no buscaron robar información ni solicitar rescate por ransomware, sino paralizar operativamente a las empresas modificando de forma remota los tiempos de descongelación.\n\n¿Están preparadas las cadenas de distribución europeas para admitir que el Internet de las Cosas ha convertido a la infraestructura frigorífica en una amenaza para la continuidad de negocio?\n\n#Tecnologia #Ciberseguridad #PuntoCiego",
+        "telegram": "<b>SABOTAJE EN LA CADENA DE FRÍO EUROPEA</b>\n\n• <b>Qué ocurrió:</b> Más de 350 supermercados en Europa registraron incrementos de temperatura de hasta 50 °C en sus frigoríficos tras la manipulación remota de controladores Danfoss desactualizados.\n• <b>Por qué importa:</b> El software de control de activos físicos expuesto a Internet permite desstabilizar la logística alimentaria sin necesidad de secuestro de datos ni extorsión.\n• <b>Qué sigue:</b> Agencias como la ANSSI de Francia y el Centro de Ciberseguridad de Bélgica investigan la autoría mientras se prevén exigencias regulatorias sobre seguridad en tecnología operacional.",
+        "bluesky": "El sabotaje a 350 supermercados europeos alteró frigoríficos a 50 °C usando software Danfoss desactualizado. Sin pedir rescate, destruyeron toneladas de inventario. #PuntoCiego #Tecnologia",
+        "linkedIn": "El sabotaje cibernético que afectó a más de 350 supermercados en Francia, Bélgica, Suecia y otros países europeos expone una fragilidad crítica en las cadenas de suministro minoristas. La manipulación de los controladores de refrigeración Danfoss AK-SC y AK-SM provocó la pérdida de mercancía perecedera y costes millonarios en una sola jornada.\n\nEste evento subraya el riesgo de mantener activos de tecnología operacional (OT) expuestos directamente a la red sin controles de acceso rigurosos. La interrupción de procesos físicos mediante comandos remotos representa un desafío directo para las matrices de riesgo corporativo y los modelos de cobertura aseguradora.\n\nLas organizaciones deberán acelerar la auditoría de sus dispositivos conectados y aplicar un aislamiento estricto de los sistemas de gestión de infraestructura.\n\n#Ciberseguridad #CadenaDeSuministro #PuntoCiego"
+      },
+      "article": {
+        "slug": "sabotaje-ciberfisico-refrigeracion-europea-expone-grietas-tj9i",
+        "title": "El sabotaje ciberfísico a la refrigeración europea expone las grietas del Internet de las Cosas",
+        "dek": "Una ola de ciberataques contra controladores de frío en más de 350 supermercados destruyó mercancía y provocó pérdidas millonarias. El incidente revela la vulnerabilidad de conectar infraestructura logística a la red pública.",
+        "keyFacts": [
+          "Más de 350 supermercados afectados en Francia, Bélgica, Suecia, Luxemburgo y Estonia entre octubre y noviembre.",
+          "Las pérdidas en Francia superaron decenas de millones de euros en un solo día según el CEO de Intermarché, Thierry Cotillard.",
+          "El vector del ataque fueron los controladores de refrigeración AK-SC y AK-SM de la firma danesa Danfoss.",
+          "Las unidades alcanzaron temperaturas de 50 °C tras extenderse los ciclos de descongelación de 1 a 8 horas.",
+          "Una investigación previa de Claroty en agosto advirtió sobre fallos en controladores Danfoss que permitían saltarse el inicio de sesión."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Entre la noche del 11 de octubre y los primeros días de noviembre, una serie de ataques informáticos afectó a más de 350 supermercados en varios países europeos. Cadenas como Intermarché, Netto, Coopérative U y Carrefour en Francia, junto con Ahold Delhaize y Colruyt en Bélgica, e ICA y Coop en Suecia, sufrieron alteraciones en sus sistemas de refrigeración industrial.",
+              "Según reportó BFM-TV, los atacantes tomaron el control de los equipos frigoríficos y elevaron las temperaturas internas hasta los 50 °C. Thierry Cotillard, CEO de Intermarché, confirmó que las pérdidas económicas alcanzaron decenas de millones de euros en un solo día debido a la descomposición de productos y a incendios puntuales en locales. La fiscalía de París abrió una investigación y el primer ministro francés Sébastien Lecornu movilizó a la agencia nacional de ciberseguridad ANSSI."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El origen técnico del incidente se localizó en el software de gestión de las unidades de frío. La agencia ANSSI precisó que los sistemas afectados corresponden a los modelos AK-SC y AK-SM de la empresa danesa Danfoss, los cuales ejecutaban versiones de firmware desactualizadas.",
+              "Según datos revelados por TIME, la firma de seguridad Claroty había publicado en agosto un informe detallando vulnerabilidades en controladores de Danfoss que permitían a un usuario no autorizado saltarse las barreras de autenticación. De acuerdo con Le Monde y la firma instaladora Sabcobel, los atacantes cambiaron los evaporadores al modo de descongelación y ampliaron su duración de una hora a ocho horas, lo que impidió la activación oportuna de las alarmas."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Aunque el debate público se ha centrado en identificar a los autores del ataque y en la potencial implicación de herramientas avanzadas de inteligencia artificial, la causa de fondo es la exposición indiscriminada de activos de control físico a la red pública.",
+              "Patrick Lamplmair, director de tecnología de Tributech, señaló en declaraciones a Gizmodo que miles de estos controladores continuaban siendo accesibles a través de Internet sin salvaguardas básicas. A diferencia de los ciberataques convencionales de ransomware, este evento no implicó robo de datos ni exigencia de rescates financieros; bastaron pocos comandos remotos para invalidar la operación comercial de cientos de puntos de venta."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "El impacto financiero inmediato recae sobre los grupos minoristas y las compañías aseguradoras, obligadas a asumir la reposición de stock y la interrupción de la actividad comercial. Asimismo, los fabricantes e integradores de infraestructura IoT enfrentan un cuestionamiento severo respecto a la seguridad por diseño de sus productos.",
+              "Por el contrario, las empresas dedicadas a la ciberseguridad industrial en entornos de tecnología operacional (OT) verán un incremento en la demanda de auditorías y soluciones de aislamiento de red. El incidente también refuerza la posición de los organismos reguladores que buscan endurecer los estándares de ciberresiliencia en el sector alimentario."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Corresponderá dar seguimiento a los avances de las pesquisas conducidas por la ANSSI en Francia y el Centro de Ciberseguridad de Bélgica para determinar la procedencia de las intromisiones.",
+              "A nivel de industria, será fundamental observar el ritmo de actualización de firmware en las unidades Danfoss aún conectadas y la implementación de normativas europeas más estrictas para el aislamiento de redes operativas en sectores estratégicos."
+            ]
+          }
+        ],
+        "tags": [
+          "ciberseguridad",
+          "internet de las cosas",
+          "danfoss",
+          "infraestructura critica",
+          "europa"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
+            "url": "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era"
+          }
+        ],
+        "wordCount": 551
+      },
+      "videoScript": {
+        "hook": "¿Sabías que derritieron la comida de 350 supermercados en una sola noche?",
+        "beats": [
+          "Un ciberataque a los congeladores de varias cadenas en Europa elevó las temperaturas hasta los 50 grados.",
+          "Los atacantes aprovecharon vulnerabilidades en controladores industriales Danfoss desactualizados y conectados a Internet sin pedir rescate.",
+          "Ojo porque lo que nadie dice es que conectamos infraestructura vital a la red sin proteger su control físico."
+        ],
+        "close": "Lee el análisis completo sobre este sabotaje en el enlace del perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/1a84d1/sandra-tan-ot_id6pyvom-unsplash/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-03T14:29:07.988Z",
+      "cardImageUrl": "/news-cards/news-kzk1ka4lk-1793716147988.jpg",
+      "instagramCardUrl": "/news-cards/news-kzk1ka4lk-1793716151433-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-ciberfisico-refrigeracion-europea-expone-grietas-tj9i/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true
+    },
+    "scheduledFor": "2026-11-03T18:22:39.046Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-03T14:29:12.448Z"
   }
 ]
