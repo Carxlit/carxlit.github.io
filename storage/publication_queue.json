@@ -5248,11 +5248,12 @@
         "title": "El tablero geopolítico de Chile entre EE. UU. y Reino Unido #shorts",
         "channel": "MaacUru13"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T18:51:37.529Z",
       "cardImageUrl": "/news-cards/news-afpnw3335-1793731897530.jpg",
       "instagramCardUrl": "/news-cards/news-afpnw3335-1793731898766-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/reino-unido-integra-chile-regimen-preferencial-mxh3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/reino-unido-integra-chile-regimen-preferencial-mxh3/",
+      "publishedAt": "2026-11-03T23:32:06.515Z"
     },
     "channels": {
       "facebook": true,
@@ -5265,10 +5266,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-03T23:29:39.046Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T18:51:41.139Z"
+    "createdAt": "2026-11-03T18:51:41.139Z",
+    "lastAttemptAt": "2026-11-03T23:29:54.330Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102900103532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "44",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzgym6bmo32y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18016879811968472",
+        "permalink": "https://www.instagram.com/reel/DfTEUcqgoqG/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18103003346401095"
+      }
+    },
+    "publishedAt": "2026-11-03T23:32:06.515Z"
   },
   {
     "id": "queue-1793737416908-41fth",
