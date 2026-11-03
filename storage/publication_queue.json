@@ -4029,11 +4029,12 @@
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://static.dw.com/image/79545202_6.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T11:32:14.749Z",
       "cardImageUrl": "/news-cards/news-fwrromto0-1793705534749.jpg",
       "instagramCardUrl": "/news-cards/news-fwrromto0-1793705538057-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ausencias-brasil-mexico-venezuela-fracturan-alcance-va9l/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ausencias-brasil-mexico-venezuela-fracturan-alcance-va9l/",
+      "publishedAt": "2026-11-03T13:24:18.910Z"
     },
     "channels": {
       "facebook": true,
@@ -4046,10 +4047,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-03T13:21:39.046Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T11:32:19.113Z"
+    "createdAt": "2026-11-03T11:32:19.113Z",
+    "lastAttemptAt": "2026-11-03T13:21:54.278Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102448573532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "37",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzfwmzduzo2l"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18093729062212099",
+        "permalink": "https://www.instagram.com/reel/DfR-xaEijA5/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18574410535079947"
+      }
+    },
+    "publishedAt": "2026-11-03T13:24:18.910Z"
   },
   {
     "id": "queue-1793706408100-svnqw",
