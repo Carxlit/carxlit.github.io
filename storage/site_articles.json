@@ -1,5 +1,101 @@
 [
   {
+    "slug": "caida-banco-central-paraguayo-riesgo-oculto-e60j",
+    "path": "noticias/caida-banco-central-paraguayo-riesgo-oculto-e60j/",
+    "title": "La caída del Banco Central paraguayo y el riesgo oculto de la banca digital",
+    "headline": "RENUNCIA EL PRESIDENTE DEL BANCO CENTRAL PARAGUAYO TRAS CRISIS BANCARIA",
+    "dek": "La dimisión de Carlos Carvallo en el Banco Central de Paraguay, tras la intervención de ueno bank, deja al descubierto la vulnerabilidad regulatoria ante la expansión de los servicios financieros digitales.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "MarketScreener España",
+    "image": "img/caida-banco-central-paraguayo-riesgo-oculto-e60j.jpg",
+    "photo": "img/caida-banco-central-paraguayo-riesgo-oculto-e60j-foto.jpg",
+    "publishedAt": "2026-11-03T11:46:48.056Z",
+    "article": {
+      "slug": "caida-banco-central-paraguayo-riesgo-oculto-e60j",
+      "title": "La caída del Banco Central paraguayo y el riesgo oculto de la banca digital",
+      "dek": "La dimisión de Carlos Carvallo en el Banco Central de Paraguay, tras la intervención de ueno bank, deja al descubierto la vulnerabilidad regulatoria ante la expansión de los servicios financieros digitales.",
+      "keyFacts": [
+        "Carlos Carvallo anunció que puso su renuncia a disposición en el Banco Central del Paraguay.",
+        "La crisis se desató tras el inicio de un procedimiento de intervención por insolvencia al ueno bank.",
+        "ueno bank opera como el primer banco digital del país.",
+        "La dimisión fue confirmada a medios locales como ABC Color y Última Hora."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El presidente del Banco Central de Paraguay, Carlos Carvallo, presentó su renuncia al cargo después de que la autoridad monetaria iniciara un procedimiento formal de intervención por insolvencia contra ueno bank, catalogado como el primer banco digital del país.",
+            "La noticia, difundida inicialmente por fuentes de mercado y corroborada por medios locales como ABC Color y Última Hora, sacude la cúpula económica del país en un momento de creciente tensión regulatoria sobre los nuevos formatos bancarios."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La irrupción de la banca digital en Paraguay prometía inclusión financiera y agilidad en los pagos, pero operaba bajo un marco de supervisión diseñado para estructuras tradicionales de ladrillo y mortero.",
+            "La insolvencia de ueno bank activó los protocolos de intervención del Banco Central, un proceso que no solo compromete los activos de la entidad sino que pone bajo escrutinio la eficacia de las auditorías preventivas del propio regulador."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la discusión pública se concentra en la salida de Carvallo y en su descripción del hecho como una contribución a la estabilidad, el verdadero ángulo muerto radica en la falta de herramientas efectivas para supervisar el riesgo sistémico de las fintech y los bancos 100 por ciento digitales en América Latina.",
+            "La velocidad con la que estas entidades captan capital y depósitos supera la capacidad de respuesta de los reguladores tradicionales, creando puntos ciegos normativos que podrían repetirse en otras plazas de la región."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, pierden los depositantes y la credibilidad institucional del sistema financiero paraguayo, que ve fracturada la confianza en sus mecanismos de control.",
+            "Por otro lado, la banca tradicional física gana argumentos para frenar la expansión desregulada de sus competidores digitales, exigiendo marcos normativos más estrictos que igualen las condiciones de competencia y riesgo."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la transición en la cúpula del Banco Central paraguayo y la resolución técnica del proceso de insolvencia de ueno bank.",
+            "Cualquier señal de contagio hacia otras plataformas digitales o la eventual modificación de las exigencias de capital para la banca virtual marcarán el rumbo de la estabilidad financiera en el Cono Sur."
+          ]
+        }
+      ],
+      "tags": [
+        "Paraguay",
+        "BancaDigital",
+        "BancosCentrales",
+        "Insolvencia",
+        "RegulaciónFinanciera"
+      ],
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "title": "Presidente del Banco Central paraguayo presenta renuncia tras inicio de procedimiento a banco local",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdEtJbjlJTHVMeThRVmNjWWF0WHZSczdKZXhZQ1dYTGlBcndyZm5ZODloM19BaUI0QW0zNzRKemNoVVJybHhvcUVvSmFMTVBnMzVuTnBZYUpIUkJVRmpyTmJDMTk1R3JNVFpPb19XMmlCWFRULXh4VXF4Y21GWnZNNVZZREgwcWhjMmhaLW5kOEJwNU5nMkxVX0RaOHZ6aXJLNG8wUGUydkh6NUN5Mi1zSzVmeENoTzhid2x3RTVjVmhHclBGT2lNQWpKZ1dHMjlSNUZrMUxINEhEX3VSNUg2UGNzb09peTRCOVRB?oc=5"
+        },
+        {
+          "name": "TradingView",
+          "title": "Presidente del Banco Central paraguayo presenta renuncia tras inicio de procedimiento a banco local",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kbnJTek5ER2FhUmw3cHZ1UGw1Ujd3Tnp3dGdfZXU5OE1ja05WbTJIVl8ycFVpT1VGUEppcFhQakVPbUhwbVF3NGxqNndPcWtSOHFISHpiQ2pqSDczN2hubGhya01WNzBrN3VJcGYzSVZtc1hRS2Ew?oc=5"
+        },
+        {
+          "name": "617 News",
+          "title": "El Banco Central de Paraguay interviene por insolvencia del primer banco digital de ese pais",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkR1ckoyaWlFaXZzZVViVjR5WENxRkN4WFpLVWxvWFM2V05KeHJwemEzNktvRHpMUFRlLWQtc1NJQV9sdjYzc1NLWnA1ME5iZDZ3NzFhd0s4Z1BVNXFDVUxsZlNkNE5UMGhxcnNrLXJ1WVlXOGNMZUpnUkh4cndETHhTMzRmTkZrTjNNYlJvcHl1cEtncV9kTGZCS1RoWEw1cDliVlYyQnNPWGFnQkdB?oc=5"
+        },
+        {
+          "name": "ABC Color",
+          "title": "Carlos Carvallo anuncia que puso su renuncia a disposición en el BCP tras la crisis por ueno bank",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMGJPeTJYZlRFeW1kWXQ0aTk4TXZleHVnbF81X01XbzM3ZkF6d2o2V2VqZXJ5aVlrSmYwYThpbXNEcVJpb2JrN180VU1HRGNLS21vbTRiWXZTaVR1RGstSDQ2ZmlQbndlUk5leW1XWWNxbHF1MGpjWDk2aS1QZGlndjk0LXlXRW9VX2pTQnVnUm44V3ZUYUFIcGNMNjZvQ2tPQThHMHNEaHBZZGVuQmF5MUdnam1zVEc2cG03bE1hRkxxWGJTcV9iekF5SkVfczZ3dzlQSUh0SQ?oc=5"
+        },
+        {
+          "name": "Última Hora",
+          "title": "Carlos Carvallo revela que ya tiene firmada su renuncia al BCP: \"Creo que es una contribución\"",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVVQ5Z0tIVkZHSXF0M3VzdEYxVzJwNUMyeFZmcmduaW9wQU1DclFNd05BaXVqYkxxNUN5WjhFZGp4d20zd01FQkJxeVdwVHRhQVJmUGtBWVd2S0plRnBmUy1YNFUwcnJudV9SeURhUi12M0h4WjRELXBHRUNBLWJlZXRkcHdtdzFiejBKX1RWU1g3bjdXNG5qNE9lakdPV3gtcUh0RnNfLU9nYzRIMDk4eHg0NFN1MFYtdkHSAccBQVVfeXFMUGYyMFFrSFVOUnNGNS1Gc3VaUXc2U3VIemh6ZnZ0SEszeXZLVjBLRExjUW1WRE1TeENDdi12ZXRVTEJtX0lWdEpYbXZTT0ZJVEtucFF6RmdrZ2RDSjctMFI1b3hBd1QtTVc5eENmSmlZTlZ6UEdhX2Q4Q0xWSzlNZkdqdHJJVFZWQXAtZEdjQk1nTzNONnBNelh4cVZNbXJaVmFVREZ6QmdHWUp0R3l0bE5OWmZlc2dDQm51dlpGbVB1WlZZVV9GQQ?oc=5"
+        }
+      ],
+      "wordCount": 371
+    },
+    "blindSpot": "La dimisión de Carlos Carvallo tras la intervención de ueno bank expone la fragilidad de los nuevos modelos de banca digital en América Latina y los límites regulatorios frente al riesgo sistémico tecnológico. Mientras la cobertura oficial se centra en la salida institucional, se omite el impacto en la confianza de los depositantes digitales."
+  },
+  {
     "slug": "ausencias-brasil-mexico-venezuela-fracturan-alcance-va9l",
     "path": "noticias/ausencias-brasil-mexico-venezuela-fracturan-alcance-va9l/",
     "title": "Las ausencias de Brasil, México y Venezuela fracturan el alcance de la Cumbre Iberoamericana en Madrid",

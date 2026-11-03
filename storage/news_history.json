@@ -28,9 +28,39 @@
     "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNajY2VUN0N3B5S3FObk84ZHhodlUtYXdRV0Y2LVBfbmtjUXhrbE1WemtuOFhpelFhYjBjaXJIMVh2eEtOQmctWGpGbHpqSGVUc09MV21VT0h6c3E3VDlqdVBVeU5YVG9ZcEFPdkVjTkRhXzVkSTYxUjVnS24wUy1ONWt0VTJHR0d6ZkpF?oc=5",
     "https://www.xataka.com/seleccion/portatil-gaming-que-se-adelanta-al-black-friday-tiene-32-gb-ram-incluye-rtx-5060-su-descuento-500-euros",
-    "https://www.dw.com/es/lula-sheinbaum-y-delcy-rodríguez-no-participarán-en-la-xxx-cumbre-iberoamericana-en-madrid/a-79837532?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/lula-sheinbaum-y-delcy-rodríguez-no-participarán-en-la-xxx-cumbre-iberoamericana-en-madrid/a-79837532?maca=spa-rss-sp-all-1122-rdf",
+    "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdEtJbjlJTHVMeThRVmNjWWF0WHZSczdKZXhZQ1dYTGlBcndyZm5ZODloM19BaUI0QW0zNzRKemNoVVJybHhvcUVvSmFMTVBnMzVuTnBZYUpIUkJVRmpyTmJDMTk1R3JNVFpPb19XMmlCWFRULXh4VXF4Y21GWnZNNVZZREgwcWhjMmhaLW5kOEJwNU5nMkxVX0RaOHZ6aXJLNG8wUGUydkh6NUN5Mi1zSzVmeENoTzhid2x3RTVjVmhHclBGT2lNQWpKZ1dHMjlSNUZrMUxINEhEX3VSNUg2UGNzb09peTRCOVRB?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "RENUNCIA EL PRESIDENTE DEL BANCO CENTRAL PARAGUAYO TRAS CRISIS BANCARIA",
+      "normalizedTokens": [
+        "renuncia",
+        "presidente",
+        "banco",
+        "central",
+        "paraguayo",
+        "crisis",
+        "bancaria"
+      ],
+      "date": "2026-11-03T11:46:48.103Z"
+    },
+    {
+      "title": "Presidente del Banco Central paraguayo presenta renuncia tras inicio de procedimiento a banco local",
+      "normalizedTokens": [
+        "presidente",
+        "banco",
+        "central",
+        "paraguayo",
+        "presenta",
+        "renuncia",
+        "inicio",
+        "procedimiento",
+        "banco",
+        "local"
+      ],
+      "date": "2026-11-03T11:46:48.103Z"
+    },
     {
       "title": "LULA SHEINBAUM Y DELCY RODRÍGUEZ PLANTAN A MADRID EN CUMBRE",
       "normalizedTokens": [
