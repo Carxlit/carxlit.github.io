@@ -34,9 +34,37 @@
     "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261103-en-directo-estados-unidos-midterms-elecciones-medio-mandato-congreso-gobernaciones-trump-democratas-republicanos",
     "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
     "https://elpais.com/espana/2026-11-03/ultima-hora-del-accidente-de-trenes-de-urda-en-toledo-en-directo.html",
-    "https://www.clarin.com/mundo/dia-elecciones-trump-dijo-acordo-netanyahu-disminuir-us4000-millones-ayuda-israel_0_bBfX80Cz16.html"
+    "https://www.clarin.com/mundo/dia-elecciones-trump-dijo-acordo-netanyahu-disminuir-us4000-millones-ayuda-israel_0_bBfX80Cz16.html",
+    "http://www.defensa.com/chile/reino-unido-incorpora-chile-nueva-licencia-exportacion-bienes"
   ],
   "processedSignatures": [
+    {
+      "title": "REINO UNIDO FACILITA EXPORTACIONES MILITARES A CHILE",
+      "normalizedTokens": [
+        "reino",
+        "unido",
+        "facilita",
+        "exportaciones",
+        "militares",
+        "chile"
+      ],
+      "date": "2026-11-03T18:51:41.142Z"
+    },
+    {
+      "title": "Reino Unido incorpora a Chile en su nueva licencia de exportaci�n de bienes militares",
+      "normalizedTokens": [
+        "reino",
+        "unido",
+        "incorpora",
+        "chile",
+        "nueva",
+        "licencia",
+        "exportaci",
+        "bienes",
+        "militares"
+      ],
+      "date": "2026-11-03T18:51:41.142Z"
+    },
     {
       "title": "TRUMP ANUNCIA RECORTE DE AYUDA A ISRAEL EN PLENAS ELECCIONES",
       "normalizedTokens": [
