@@ -32,9 +32,42 @@
     "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdEtJbjlJTHVMeThRVmNjWWF0WHZSczdKZXhZQ1dYTGlBcndyZm5ZODloM19BaUI0QW0zNzRKemNoVVJybHhvcUVvSmFMTVBnMzVuTnBZYUpIUkJVRmpyTmJDMTk1R3JNVFpPb19XMmlCWFRULXh4VXF4Y21GWnZNNVZZREgwcWhjMmhaLW5kOEJwNU5nMkxVX0RaOHZ6aXJLNG8wUGUydkh6NUN5Mi1zSzVmeENoTzhid2x3RTVjVmhHclBGT2lNQWpKZ1dHMjlSNUZrMUxINEhEX3VSNUg2UGNzb09peTRCOVRB?oc=5",
     "https://www.eltiempo.com/mundo/venezuela/protestas-en-venezuela-repuntan-489-por-ciento-en-septiembre-a-pesar-de-que-aparato-represivo-se-mantiene-que-le-exigen-a-delcy-rodriguez-3588328",
     "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261103-en-directo-estados-unidos-midterms-elecciones-medio-mandato-congreso-gobernaciones-trump-democratas-republicanos",
-    "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era"
+    "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
+    "https://elpais.com/espana/2026-11-03/ultima-hora-del-accidente-de-trenes-de-urda-en-toledo-en-directo.html"
   ],
   "processedSignatures": [
+    {
+      "title": "ADIF ENTRA EN HUELGA TRAS EL ACCIDENTE FERROVIARIO DE URDA",
+      "normalizedTokens": [
+        "adif",
+        "entra",
+        "huelga",
+        "accidente",
+        "ferroviario",
+        "urda"
+      ],
+      "date": "2026-11-03T16:12:20.891Z"
+    },
+    {
+      "title": "Última hora del accidente de trenes de Urda, en Toledo, en directo | Óscar Puente comparece en el Congreso ante una mayoría que exige su dimisión",
+      "normalizedTokens": [
+        "ultima",
+        "hora",
+        "accidente",
+        "trenes",
+        "urda",
+        "toledo",
+        "directo",
+        "oscar",
+        "puente",
+        "comparece",
+        "congreso",
+        "mayoria",
+        "exige",
+        "dimision"
+      ],
+      "date": "2026-11-03T16:12:20.890Z"
+    },
     {
       "title": "SABOTAJE A REFRIGERACIÓN INDUSTRIAL REVELA VULNERABILIDAD CRÍTICA EN INFRAESTRUCTURA EUROPEA",
       "normalizedTokens": [
