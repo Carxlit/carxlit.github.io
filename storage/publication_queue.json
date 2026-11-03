@@ -4361,11 +4361,12 @@
         "close": "Lee el análisis completo sobre la crisis en Venezuela en el enlace del perfil."
       },
       "rawImageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/09/24/6ab5b85503cf1.png",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T12:30:03.958Z",
       "cardImageUrl": "/news-cards/news-x4i4w35nc-1793709003958.jpg",
       "instagramCardUrl": "/news-cards/news-x4i4w35nc-1793709005945-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/repunte-489-protestas-venezuela-desafia-control-xfjx/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/repunte-489-protestas-venezuela-desafia-control-xfjx/",
+      "publishedAt": "2026-11-03T16:10:10.355Z"
     },
     "channels": {
       "facebook": true,
@@ -4378,10 +4379,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-03T16:07:39.046Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T12:30:07.096Z"
+    "createdAt": "2026-11-03T12:30:07.096Z",
+    "lastAttemptAt": "2026-11-03T16:07:54.681Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102625963532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "39",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzg7vsdxqe2d"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18119212022127369",
+        "permalink": "https://www.instagram.com/reel/DfSRxO-DfwF/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17899878945655336"
+      }
+    },
+    "publishedAt": "2026-11-03T16:10:10.355Z"
   },
   {
     "id": "queue-1793712361102-f4j8j",
