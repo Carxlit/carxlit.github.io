@@ -36,9 +36,37 @@
     "https://elpais.com/espana/2026-11-03/ultima-hora-del-accidente-de-trenes-de-urda-en-toledo-en-directo.html",
     "https://www.clarin.com/mundo/dia-elecciones-trump-dijo-acordo-netanyahu-disminuir-us4000-millones-ayuda-israel_0_bBfX80Cz16.html",
     "http://www.defensa.com/chile/reino-unido-incorpora-chile-nueva-licencia-exportacion-bienes",
-    "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html"
+    "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html",
+    "https://www.xataka.com.mx/robotica-e-ia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-pelean-openai-anthropic"
   ],
   "processedSignatures": [
+    {
+      "title": "CHINA OFRECE UN MILLÓN DE YUANES POR INGENIEROS DE IA",
+      "normalizedTokens": [
+        "china",
+        "ofrece",
+        "millon",
+        "yuanes",
+        "ingenieros"
+      ],
+      "date": "2026-11-03T21:52:02.880Z"
+    },
+    {
+      "title": "China ofrece sueldos de un millón de yuanes por el ingeniero de IA que también pelean OpenAI y Anthropic",
+      "normalizedTokens": [
+        "china",
+        "ofrece",
+        "sueldos",
+        "millon",
+        "yuanes",
+        "ingeniero",
+        "tambien",
+        "pelean",
+        "openai",
+        "anthropic"
+      ],
+      "date": "2026-11-03T21:52:02.880Z"
+    },
     {
       "title": "GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS",
       "normalizedTokens": [
