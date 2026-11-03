@@ -1,5 +1,84 @@
 [
   {
+    "slug": "estados-unidos-decide-urnas-margen-legislativo-88ut",
+    "path": "noticias/estados-unidos-decide-urnas-margen-legislativo-88ut/",
+    "title": "Estados Unidos decide en las urnas el margen legislativo de Donald Trump",
+    "headline": "ESTADOS UNIDOS DECIDE EL CONTROL DEL CONGRESO EN CLAVE DE PLEBISCITO",
+    "dek": "Millones de ciudadanos votan para renovar el Congreso en una jornada electoral decisiva. La contienda mide el contrapeso parlamentario a la agenda ejecutiva en Washington.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "El País Internacional",
+    "image": "img/estados-unidos-decide-urnas-margen-legislativo-88ut.jpg",
+    "photo": "img/estados-unidos-decide-urnas-margen-legislativo-88ut-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "LbAXqmDgejM",
+      "title": "ESTADOS UNIDOS DECIDE EL FUTURO DEL CONGRESO #realpolitica #estadosunidos",
+      "channel": "Real Política"
+    },
+    "publishedAt": "2026-11-03T23:34:18.687Z",
+    "article": {
+      "slug": "estados-unidos-decide-urnas-margen-legislativo-88ut",
+      "title": "Estados Unidos decide en las urnas el margen legislativo de Donald Trump",
+      "dek": "Millones de ciudadanos votan para renovar el Congreso en una jornada electoral decisiva. La contienda mide el contrapeso parlamentario a la agenda ejecutiva en Washington.",
+      "keyFacts": [
+        "Fecha de la jornada electoral: 3 de noviembre de 2026, según reportó El País Internacional.",
+        "El proceso convoca a millones de ciudadanos estadounidenses a las urnas.",
+        "La contienda determina el control parlamentario del Congreso de Estados Unidos.",
+        "Los comicios actúan como un plebiscito sobre las políticas impulsadas por Donald Trump."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El 3 de noviembre de 2026, millones de estadounidenses acuden a los centros de votación para definir la composición y el control del Congreso. Según informó El País Internacional, la jornada electoral representa el hito legislativo más relevante de la etapa actual, donde el electorado evalúa la orientación del país y el desempeño de la administración en funciones."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Las elecciones parlamentarias en Estados Unidos se celebran en un entorno de alta fiscalización social sobre las decisiones del Ejecutivo. El reporte de El País Internacional destaca que el proceso funciona como un plebiscito directo sobre las políticas de Donald Trump, determinando si el gobierno conservará la capacidad de impulsar su agenda normativa o si enfrentará un contrapeso severo en el ámbito legislativo."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la atención pública se concentra en la atribución de escaños clave, la dimensión estructural del fenómeno radica en la capacidad de resistencia del modelo de pesos y contrapesos. El verdadero quiebre radica en cómo la polarización actual altera los mecanismos formales de negociación parlamentaria.",
+            "Si la contienda resulta en un estancamiento partidista, el recurso a decretos ejecutivos y órdenes administrativas tenderá a intensificarse. Este desplazamiento del centro de gravedad legislativo hacia la vía normativa unilateral suele erosionar la certidumbre jurídica a largo plazo, limitando la previsibilidad que demandan los agentes económicos e institucionales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El sector que obtenga la mayoría en las cámaras ganará una palanca decisiva para dictar la agenda presupuestaria y condicionar las iniciativas normativas. En contraste, la administración ejecutiva arriesga la fluidez de sus reformas prioritarias si pierde el respaldo del Capitolio.",
+            "A nivel institucional, la dificultad para construir consensos transversales debilita el alcance de las políticas públicas de largo recorrido, obligando a los actores políticos a operar bajo dinámicas de confrontación permanente."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En las horas y días posteriores a la votación, el foco de análisis estará en la velocidad de la consolidación de los resultados y en la formulación de bloques internos dentro del nuevo Congreso. Asimismo, habrá que observar la respuesta de los mercados y la postura de la presidencia frente al nuevo equilibrio de poder parlamentario."
+          ]
+        }
+      ],
+      "tags": [
+        "Estados Unidos",
+        "Congreso",
+        "Donald Trump",
+        "Elecciones",
+        "Poder y Sociedad"
+      ],
+      "sources": [
+        {
+          "name": "El País Internacional",
+          "title": "Estados Unidos explora los límites de su democracia",
+          "url": "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html"
+        }
+      ],
+      "wordCount": 368
+    },
+    "blindSpot": "Más allá del escrutinio en las cámaras, el verdadero pulso estratégico radica en la capacidad del poder ejecutivo para sortear los frenos institucionales. La votación condiciona las alianzas partidistas e influye en la estabilidad normativa, exponiendo las tensiones del modelo democrático ante dinámicas de creciente polarización."
+  },
+  {
     "slug": "fiebre-millon-yuanes-verdadero-cuello-botella-m2jb",
     "path": "noticias/fiebre-millon-yuanes-verdadero-cuello-botella-m2jb/",
     "title": "La fiebre del millón de yuanes: por qué el verdadero cuello de botella de la IA no está en los laboratorios",
