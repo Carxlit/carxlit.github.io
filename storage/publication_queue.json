@@ -4205,11 +4205,12 @@
         "close": "Lee el análisis completo sobre la crisis financiera en nuestro perfil"
       },
       "rawImageUrl": "https://media.elobservador.com.uy/p/3c3758693a713428fc2e3ce81ccffa3c/adjuntos/367/imagenes/100/736/0100736488/1000x0/smart/img_2501.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T11:46:44.811Z",
       "cardImageUrl": "/news-cards/news-3q9y5432x-1793706404811.jpg",
       "instagramCardUrl": "/news-cards/news-3q9y5432x-1793706407071-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-banco-central-paraguayo-riesgo-oculto-e60j/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-banco-central-paraguayo-riesgo-oculto-e60j/",
+      "publishedAt": "2026-11-03T14:26:27.516Z"
     },
     "channels": {
       "facebook": true,
@@ -4222,10 +4223,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-03T14:23:39.046Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T11:46:48.100Z"
+    "createdAt": "2026-11-03T11:46:48.100Z",
+    "lastAttemptAt": "2026-11-03T14:23:54.390Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102493507532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "38",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzg23u6l342l"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18419922697082588",
+        "permalink": "https://www.instagram.com/reel/DfSF5N-HKEZ/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17877382407650837"
+      }
+    },
+    "publishedAt": "2026-11-03T14:26:27.516Z"
   },
   {
     "id": "queue-1793709007096-2e04f",
