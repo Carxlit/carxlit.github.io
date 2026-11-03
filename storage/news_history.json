@@ -27,9 +27,38 @@
     "https://www.abc.es/internacional/iliana-iotova-nueva-presidenta-bulgara-impulsa-acercamiento-20261102110732-nt.html",
     "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNajY2VUN0N3B5S3FObk84ZHhodlUtYXdRV0Y2LVBfbmtjUXhrbE1WemtuOFhpelFhYjBjaXJIMVh2eEtOQmctWGpGbHpqSGVUc09MV21VT0h6c3E3VDlqdVBVeU5YVG9ZcEFPdkVjTkRhXzVkSTYxUjVnS24wUy1ONWt0VTJHR0d6ZkpF?oc=5",
-    "https://www.xataka.com/seleccion/portatil-gaming-que-se-adelanta-al-black-friday-tiene-32-gb-ram-incluye-rtx-5060-su-descuento-500-euros"
+    "https://www.xataka.com/seleccion/portatil-gaming-que-se-adelanta-al-black-friday-tiene-32-gb-ram-incluye-rtx-5060-su-descuento-500-euros",
+    "https://www.dw.com/es/lula-sheinbaum-y-delcy-rodríguez-no-participarán-en-la-xxx-cumbre-iberoamericana-en-madrid/a-79837532?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "LULA SHEINBAUM Y DELCY RODRÍGUEZ PLANTAN A MADRID EN CUMBRE",
+      "normalizedTokens": [
+        "lula",
+        "sheinbaum",
+        "delcy",
+        "rodriguez",
+        "plantan",
+        "madrid",
+        "cumbre"
+      ],
+      "date": "2026-11-03T11:32:19.115Z"
+    },
+    {
+      "title": "Lula, Sheinbaum y Delcy Rodríguez no participarán en la XXX Cumbre Iberoamericana en Madrid",
+      "normalizedTokens": [
+        "lula",
+        "sheinbaum",
+        "delcy",
+        "rodriguez",
+        "participaran",
+        "xxx",
+        "cumbre",
+        "iberoamericana",
+        "madrid"
+      ],
+      "date": "2026-11-03T11:32:19.115Z"
+    },
     {
       "title": "OFERTAS DE HARDWARE OCULTAN LA CRISIS GLOBAL DE MEMORIA RAM",
       "normalizedTokens": [
