@@ -14,6 +14,7 @@ import { runAutonomousNewsroomCycle, getAutonomousConfig } from '../src/lib/agen
 import { getPublicationQueue, dispatchDueItems, forcePublishQueuedItem, makeDueNow } from '../src/lib/agents/queue-dispatcher';
 import { waitUntilLive } from '../src/lib/site/static-site';
 import { maybeSendDailyReport } from '../src/lib/agents/daily-report';
+import { replyToComments } from '../src/lib/agents/comment-replies';
 
 /** Tarjetas de más de N días que ya no están en cola: el sitio guarda su propia copia en site/img */
 const CARD_RETENTION_DAYS = 3;

@@ -113,12 +113,25 @@ async function setupReportChat() {
   throw new Error('No llegó ningún mensaje. Vuelve a intentarlo escribiéndole al bot.');
 }
 
+async function setupMastodon() {
+  console.log('\n Mastodon (gratis): crea la cuenta en https://mastodon.social y luego Preferencias > Desarrollo > Nueva aplicacion.');
+  console.log(' Marca los permisos write:statuses y write:media, guarda y copia "Tu token de acceso".\n');
+  const instance = ((await ask(' Instancia (Enter para https://mastodon.social): ')) || 'https://mastodon.social').replace(/\/+$/, '');
+  const token = await ask(' Token de acceso: ');
+  const me = await fetch(`${instance}/api/v1/accounts/verify_credentials`, { headers: { Authorization: `Bearer ${token}` } }).then((r) => r.json());
+  if (!me.acct) throw new Error(`Mastodon no acepto el token: ${me.error || 'sin detalle'}`);
+  setEnv('MASTODON_INSTANCE', instance);
+  setEnv('MASTODON_TOKEN', token);
+  console.log(`\n OK Conectado a Mastodon como @${me.acct}`);
+}
+
 (async () => {
   const mode = process.argv[2];
   if (mode === 'ia') await setupAiKeys();
   else if (mode === 'reporte') await setupReportChat();
   else if (mode === 'threads') await setupThreads();
-  else throw new Error('Uso: node scripts/env-setup.js ia|reporte|threads');
+  else if (mode === 'mastodon') await setupMastodon();
+  else throw new Error('Uso: node scripts/env-setup.js ia|reporte|threads|mastodon');
   console.log('\n Ahora se suben a GitHub (puede pedirte confirmar).');
 })().catch((e) => {
   console.error('\n ✖', e.message);

@@ -10,6 +10,7 @@ echo  Al generar el token en el Graph API Explorer marca estos permisos:
 echo    pages_show_list, pages_read_engagement, pages_manage_posts
 echo    instagram_basic, instagram_content_publish, business_management  (para Instagram)
 echo    instagram_manage_insights, read_insights  (para ver el alcance en PROGRESO.bat)
+echo    instagram_manage_comments, pages_manage_engagement, pages_read_user_content  (para responder comentarios solo)
 echo.
 call npm run fb:token
 echo.
