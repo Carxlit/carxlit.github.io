@@ -5599,11 +5599,12 @@
         "close": "Lee el análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://i.blogs.es/39459f/china/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T21:52:01.143Z",
       "cardImageUrl": "/news-cards/news-9aqa1h5ni-1793742721144.jpg",
       "instagramCardUrl": "/news-cards/news-9aqa1h5ni-1793742721726-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fiebre-millon-yuanes-verdadero-cuello-botella-m2jb/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fiebre-millon-yuanes-verdadero-cuello-botella-m2jb/",
+      "publishedAt": "2026-11-04T01:27:05.045Z"
     },
     "channels": {
       "facebook": true,
@@ -5616,11 +5617,11 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T01:26:48.580Z",
-    "status": "queued",
-    "attempts": 1,
+    "status": "published",
+    "attempts": 2,
     "maxAttempts": 3,
     "createdAt": "2026-11-03T21:52:02.877Z",
-    "lastAttemptAt": "2026-11-04T01:20:54.368Z",
+    "lastAttemptAt": "2026-11-04T01:27:04.030Z",
     "results": {
       "mastodon": {
         "success": false,
@@ -5633,8 +5634,9 @@
         "simulated": false
       },
       "telegram": {
-        "success": false,
-        "error": "The operation was aborted due to timeout"
+        "success": true,
+        "messageId": "47",
+        "simulated": false
       },
       "bluesky": {
         "success": true,
@@ -5656,7 +5658,7 @@
         "postId": "18060076685561873"
       }
     },
-    "error": "Reintento 1/3: telegram: The operation was aborted due to timeout"
+    "publishedAt": "2026-11-04T01:27:05.045Z"
   },
   {
     "id": "queue-1793748858771-aghka",
