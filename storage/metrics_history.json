@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-04",
+    "at": "2026-11-04T11:31:28.634Z",
+    "facebook": {
+      "followers": 2
+    },
+    "telegram": {
+      "members": 2
+    },
+    "bluesky": {
+      "followers": 0,
+      "posts": 36
+    },
+    "instagram": {
+      "followers": 12,
+      "posts": 27,
+      "likes": 81,
+      "comments": 2,
+      "reels": 20
+    },
+    "topPost": {
+      "url": "https://www.instagram.com/reel/DfTEUcqgoqG/",
+      "likes": 71,
+      "comments": 2,
+      "type": "REELS",
+      "at": "2026-11-03T23:31:42+0000"
+    }
+  }
+]

@@ -57,3 +57,4 @@ next-env.d.ts
 /dist/
 /storage/.rebuild-site.js
 /storage/.site-backfill.js
+/storage/.progreso.js

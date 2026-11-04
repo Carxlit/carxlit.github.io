@@ -2,6 +2,7 @@ import path from 'path';
 import { readJsonFile, writeJsonFileAtomic, localDateKey } from '@/lib/storage/json-store';
 import { getPublicationQueue } from './queue-dispatcher';
 import { getAiCooldownUntil } from '@/lib/ai/gemini';
+import { MetricsSnapshot, progressLines, recordDailyMetrics } from './audience-metrics';
 
 /**
  * Reporte diario al Telegram PERSONAL del dueño (no al canal de noticias): qué se publicó, qué falló,
@@ -24,7 +25,7 @@ const CHANNEL_NAMES: Record<string, string> = {
   threads: 'Threads',
 };
 
-export function buildDailyReport(auditLine: string, now = new Date()): string {
+export function buildDailyReport(auditLine: string, now = new Date(), metrics?: MetricsSnapshot): string {
   const today = localDateKey(now);
   const queue = getPublicationQueue();
   const published = queue
@@ -62,6 +63,13 @@ export function buildDailyReport(auditLine: string, now = new Date()): string {
   }
   const fails = Object.entries(channelFailures);
   if (fails.length) lines.push('', `⚠️ Fallos por canal: ${fails.map(([ch, n]) => `${CHANNEL_NAMES[ch] || ch} ${n}`).join(', ')}`);
+  if (metrics) {
+    const progress = progressLines(metrics);
+    if (progress.length) lines.push('', '<b>📈 Progreso de la audiencia</b>', ...progress);
+    if (metrics.topPost) {
+      lines.push(`🏆 Mejor publicación (3 días): <a href="${esc(metrics.topPost.url)}">${metrics.topPost.type === 'REELS' ? 'Reel' : 'Post'}</a> con ${metrics.topPost.likes} 👍 y ${metrics.topPost.comments} 💬`);
+    }
+  }
   if (getAiCooldownUntil()) lines.push('⏸️ La IA está sin cuota en este momento (se reanuda sola).');
   lines.push('', esc(auditLine.replace(/\*\*/g, '')));
   return lines.join('\n').slice(0, 4000);
@@ -80,7 +88,7 @@ export async function maybeSendDailyReport(auditLine: string): Promise<void> {
     const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ chat_id: chatId, text: buildDailyReport(auditLine, now), parse_mode: 'HTML', link_preview_options: { is_disabled: true } }),
+      body: JSON.stringify({ chat_id: chatId, text: buildDailyReport(auditLine, now, await recordDailyMetrics(now).catch(() => undefined)), parse_mode: 'HTML', link_preview_options: { is_disabled: true } }),
       signal: AbortSignal.timeout(20_000),
     });
     const data: any = await res.json().catch(() => ({}));
