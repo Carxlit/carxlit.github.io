@@ -1,5 +1,80 @@
 [
   {
+    "slug": "panico-digital-mexico-tras-aviso-rutinario-cji6",
+    "path": "noticias/panico-digital-mexico-tras-aviso-rutinario-cji6/",
+    "title": "El pánico digital en México tras un aviso rutinario de protección civil",
+    "headline": "EL PÁNICO DIGITAL MEXICANO ANTE LA MOCHILA DE EMERGENCIA",
+    "dek": "Una campaña sobre la mochila de emergencia desató especulaciones en redes sociales sobre conflictos globales, evidenciando el impacto de la fatiga informativa en la población.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka México",
+    "image": "img/panico-digital-mexico-tras-aviso-rutinario-cji6.jpg",
+    "photo": "img/panico-digital-mexico-tras-aviso-rutinario-cji6-foto.jpg",
+    "publishedAt": "2026-11-04T00:32:56.257Z",
+    "article": {
+      "slug": "panico-digital-mexico-tras-aviso-rutinario-cji6",
+      "title": "El pánico digital en México tras un aviso rutinario de protección civil",
+      "dek": "Una campaña sobre la mochila de emergencia desató especulaciones en redes sociales sobre conflictos globales, evidenciando el impacto de la fatiga informativa en la población.",
+      "keyFacts": [
+        "La Coordinación Nacional de Protección Civil emitió un comunicado el 3 de noviembre de 2026 para aclarar el propósito de la campaña.",
+        "Usuarios en redes relacionaron las publicaciones mexicanas con avisos de prevención difundidos en Estados Unidos, Alemania, Suecia y Canadá.",
+        "Registros oficiales indican que recomendaciones similares sobre la #MochiladeVida existen desde marzo de 2020 para mitigar riesgos naturales como sismos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Una serie de publicaciones institucionales sobre los kits de emergencia provocó dudas y debate entre los usuarios de redes sociales en México. Las recomendaciones de Protección Civil, que sugieren almacenar agua, alimentos, medicamentos y documentos importantes, fueron interpretadas por sectores de la ciudadanía como indicios de una catástrofe inminente, una guerra o un conflicto armado de escala global.",
+            "Ante la propagación de estas versiones, la Coordinación Nacional de Protección Civil publicó un comunicado el 3 de noviembre de 2026 para desmentir cualquier lectura alarmista. El organismo aclaró que la campaña forma parte de sus acciones habituales de prevención y autoprotección, descartando la existencia de una alerta especial o un desastre inminente en territorio mexicano."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Según la información difundida por Xataka México, la polémica no se originó de manera aislada dentro del país. En las plataformas digitales, diversos usuarios conectaron estas directrices con mensajes preventivos emitidos en paralelo por administraciones de Estados Unidos, Alemania, Suecia y Canadá.",
+            "Esta convergencia informativa alimentó teorías sobre una posible Tercera Guerra Mundial, incluyendo temores sobre ataques nucleares, apagones masivos y ciberataques. La conversación se imbricó además con las tensiones geopolíticas entre Estados Unidos, Israel e Irán, así como con especulaciones difundidas por comentaristas internacionales sobre supuestas ofensivas militares que carecen de confirmación oficial."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la confusión digital, el fenómeno expone un síntoma profundo: la ansiedad generada por la exposición constante a flujos informativos sobre conflictos internacionales. Para muchos usuarios, la frecuencia y naturaleza de estos avisos institucionales actúan como detonantes psicológicos que transforman manuales históricos de gestión de desastres naturales en presagios de colapso geopolítico.",
+            "Las dependencias gubernamentales llevan años promoviendo la preparación de estos suministros debido a la recurrencia de sismos y contingencias geológicas en la región, con registros públicos desde marzo de 2020 bajo etiquetas como #MochiladeVida. Sin embargo, la saturación de noticias sobre tensiones globales altera la lectura de los mensajes locales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los grandes ganadores son los algoritmos de las plataformas de redes sociales, que capitalizan la polarización y el miedo para maximizar el engagement mediante la amplificación de teorías sin sustento oficial. Por otro lado, las instituciones estatales pierden efectividad comunicativa, ya que sus mensajes preventivos básicos quedan distorsionados por el ruido de la geopolítica internacional.",
+            "La ciudadanía, atrapada entre la necesidad real de preparación ante desastres naturales y la sobrecarga de alarmismo digital, asume el costo en términos de fatiga informativa y ansiedad colectiva."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario observar cómo las agencias gubernamentales adaptarán sus canales de comunicación en un entorno digital cada vez más propenso a malinterpretar las directrices rutinarias de seguridad.",
+            "Asimismo, resulta clave evaluar la evolución de la conversación pública en torno a la resiliencia ciudadana frente al impacto psicológico de las tensiones internacionales y la desinformación automatizada."
+          ]
+        }
+      ],
+      "tags": [
+        "Protección Civil",
+        "Redes Sociales",
+        "Seguridad",
+        "México",
+        "Desinformación"
+      ],
+      "sources": [
+        {
+          "name": "Xataka México",
+          "title": "Una publicación por la \"mochila de emergencia\" en México creó caos por los que pensaron que se aproximaba \"lo peor\". Solo era un mensaje de rutina",
+          "url": "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina"
+        }
+      ],
+      "wordCount": 479
+    },
+    "blindSpot": "El verdadero punto ciego no es la histeria digital colectiva, sino la erosión de la confianza ciudadana en las comunicaciones institucionales. La fatiga informativa y la sobreexposición a tensiones geopolíticas globales convierten cualquier directriz rutinaria de seguridad civil en un detonante de paranoia algorítmica."
+  },
+  {
     "slug": "estados-unidos-decide-urnas-margen-legislativo-88ut",
     "path": "noticias/estados-unidos-decide-urnas-margen-legislativo-88ut/",
     "title": "Estados Unidos decide en las urnas el margen legislativo de Donald Trump",

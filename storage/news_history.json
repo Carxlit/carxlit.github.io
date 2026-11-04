@@ -38,9 +38,40 @@
     "http://www.defensa.com/chile/reino-unido-incorpora-chile-nueva-licencia-exportacion-bienes",
     "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html",
     "https://www.xataka.com.mx/robotica-e-ia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-pelean-openai-anthropic",
-    "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html"
+    "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
+    "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina"
   ],
   "processedSignatures": [
+    {
+      "title": "EL PÁNICO DIGITAL MEXICANO ANTE LA MOCHILA DE EMERGENCIA",
+      "normalizedTokens": [
+        "panico",
+        "digital",
+        "mexicano",
+        "mochila",
+        "emergencia"
+      ],
+      "date": "2026-11-04T00:32:56.342Z"
+    },
+    {
+      "title": "Una publicación por la \"mochila de emergencia\" en México creó caos por los que pensaron que se aproximaba \"lo peor\". Solo era un mensaje de rutina",
+      "normalizedTokens": [
+        "publicacion",
+        "mochila",
+        "emergencia",
+        "mexico",
+        "creo",
+        "caos",
+        "pensaron",
+        "aproximaba",
+        "peor",
+        "solo",
+        "era",
+        "mensaje",
+        "rutina"
+      ],
+      "date": "2026-11-04T00:32:56.342Z"
+    },
     {
       "title": "ESTADOS UNIDOS DECIDE EL CONTROL DEL CONGRESO EN CLAVE DE PLEBISCITO",
       "normalizedTokens": [
