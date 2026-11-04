@@ -39,9 +39,31 @@
     "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html",
     "https://www.xataka.com.mx/robotica-e-ia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-pelean-openai-anthropic",
     "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
-    "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina"
+    "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina",
+    "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "EL COLAPSO DE LA VISIÓN GEOPOLÍTICA DE BIN SALMAN",
+      "normalizedTokens": [
+        "colapso",
+        "vision",
+        "geopolitica",
+        "bin",
+        "salman"
+      ],
+      "date": "2026-11-04T01:31:56.547Z"
+    },
+    {
+      "title": "Todo va mal para Muhammad bin Salman",
+      "normalizedTokens": [
+        "mal",
+        "muhammad",
+        "bin",
+        "salman"
+      ],
+      "date": "2026-11-04T01:31:56.547Z"
+    },
     {
       "title": "EL PÁNICO DIGITAL MEXICANO ANTE LA MOCHILA DE EMERGENCIA",
       "normalizedTokens": [
