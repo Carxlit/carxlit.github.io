@@ -243,6 +243,13 @@ export const SCOUT_FEEDS: ExpandedFeedConfig[] = [
   { url: 'https://feeds.arstechnica.com/arstechnica/index', sourceName: 'Ars Technica', category: 'TECNOLOGÍA & IA', weight: 8 },
 ];
 
+/** Hechos graves en el titular (muertes, catástrofes, guerra, golpes, atentados), en español e inglés */
+const SEVERE_EVENT = new RegExp(
+  '\\b(muertos?|fallecid|mueren|muri[oó]|masacre|atentado|terremoto|sismo|tsunami|hurac[aá]n|erupci[oó]n|invasi[oó]n|declara la guerra|golpe de estado|' +
+    'explosi[oó]n|bombardeo|rehenes|killed|dead|dies|death toll|massacre|attack|earthquake|tsunami|hurricane|eruption|invasion|declares war|coup|explosion|hostages)\\b',
+  'i'
+);
+
 const HISTORY_PATH = path.join(process.cwd(), 'storage', 'news_history.json');
 
 interface NewsHistoryData {
@@ -585,6 +592,12 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
     } else {
       unique.push({ ...c, coverageCount: 1 });
     }
+  }
+  // Una noticia que cuentan varios medios a la vez, o con un hecho grave en el titular, es de verdad urgente:
+  // sin este refuerzo la urgencia por palabras clave casi nunca llegaba al umbral de "última hora" (95).
+  for (const u of unique) {
+    const bonus = Math.min(20, ((u.coverageCount || 1) - 1) * 7) + (SEVERE_EVENT.test(u.title) ? 8 : 0);
+    if (bonus > 0) u.urgencyScore = Math.min(99, (u.urgencyScore || 70) + bonus);
   }
   return unique;
 }
