@@ -246,7 +246,7 @@ export const SCOUT_FEEDS: ExpandedFeedConfig[] = [
 /** Hechos graves en el titular (muertes, catástrofes, guerra, golpes, atentados), en español e inglés */
 const SEVERE_EVENT = new RegExp(
   '\\b(muertos?|fallecid|mueren|muri[oó]|masacre|atentado|terremoto|sismo|tsunami|hurac[aá]n|erupci[oó]n|invasi[oó]n|declara la guerra|golpe de estado|' +
-    'explosi[oó]n|bombardeo|rehenes|killed|dead|dies|death toll|massacre|attack|earthquake|tsunami|hurricane|eruption|invasion|declares war|coup|explosion|hostages)\\b',
+    'explosi[oó]n|bombardeo|rehenes|se estrell[oó]|accidente a[eé]reo|plane crash|crashes|killed|dead|dies|death toll|massacre|attack|earthquake|tsunami|hurricane|eruption|invasion|declares war|coup|explosion|hostages)\\b',
   'i'
 );
 

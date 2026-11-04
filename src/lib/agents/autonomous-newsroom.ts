@@ -60,8 +60,8 @@ export const DEFAULT_AUTONOMOUS_CONFIG: AutonomousConfig = {
   maxPendingInQueue: 3,
   activeHoursStart: 6,
   activeHoursEnd: 23,
-  breakingThreshold: 95,
-  maxBreakingPerDay: 2,
+  breakingThreshold: 90, // con el refuerzo por cobertura y hechos graves del Scout, 90 deja pasar los accidentes y tragedias con varios medios detrás
+  maxBreakingPerDay: 4,
   maxArticleAgeHours: 24,
   activeChannels: {
     facebook: true,
