@@ -40,9 +40,44 @@
     "https://www.xataka.com.mx/robotica-e-ia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-pelean-openai-anthropic",
     "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
     "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina",
-    "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html"
+    "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sQ2lJVVR4RWRfY0U3cmdnVnM5dUdKNzR3Sm53U0JteWpjNFFoTXQ5Z1YtY1J3Y3ZsTUo4elloUlFSTGg4d0t0SU5pUFR5RU1OSG5SaENoeFkxaHo50gFiQVVfeXFMTzY3cEVhT2VEaFUzNWdSNC1kcndqSk5tcW5GU1BMNWNORHMxWlhicU9wUHE4a1V4cG5nQ2hFM0treU1lVnh1MWxSNGtaaVpEOTR2Y29VMEJHSEtSNUlzc1YyelE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EL BANCO CENTRAL DE PARAGUAY INTERVIENE UENO BANK Y CONGELA FONDOS",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "paraguay",
+        "interviene",
+        "ueno",
+        "bank",
+        "congela",
+        "fondos"
+      ],
+      "date": "2026-11-04T02:28:29.582Z"
+    },
+    {
+      "title": "Ueno Bank: el Banco Central del Paraguay interviene uno de los mayores bancos del país, y deja congelados los ahorros de millones de clientes",
+      "normalizedTokens": [
+        "ueno",
+        "bank",
+        "banco",
+        "central",
+        "paraguay",
+        "interviene",
+        "mayores",
+        "bancos",
+        "pais",
+        "deja",
+        "congelados",
+        "ahorros",
+        "millones",
+        "clientes"
+      ],
+      "date": "2026-11-04T02:28:29.582Z"
+    },
     {
       "title": "EL COLAPSO DE LA VISIÓN GEOPOLÍTICA DE BIN SALMAN",
       "normalizedTokens": [
