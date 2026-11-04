@@ -5,6 +5,7 @@ import { spawn, spawnSync } from 'child_process';
 import { ProcessedNews, VideoScript } from '@/types/news';
 import { getBrowser, escapeHtml } from '@/lib/news/card-generator';
 import { generateBackgroundMusic } from './background-music';
+import { chooseReelStyle, infographicHtml } from './reel-infographic';
 
 /**
  * Reels narrados (1080×1920, 25–45 s) sin servicios de pago:
@@ -75,7 +76,7 @@ export function scriptFor(news: ProcessedNews): VideoScript {
 }
 
 interface Word { t: number; text: string }
-interface Section { kind: 'hook' | 'beat' | 'close'; start: number; end: number; words: Word[] }
+interface Section { kind: 'hook' | 'beat' | 'close'; start: number; end: number; words: Word[]; text: string }
 
 function python(): string {
   return process.env.REEL_PYTHON || process.env.PIPER_PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
@@ -233,6 +234,17 @@ function chunkWords(words: Word[], sectionEnd: number) {
 }
 
 function reelHtml(news: ProcessedNews, sections: Section[], total: number, footage?: Footage): string {
+  // Infografía animada para lo corriente; las noticias graves (y los Reels con video real) llevan el formato serio de abajo
+  if (!footage && chooseReelStyle(news) === 'infografia') {
+    return infographicHtml({
+      news,
+      sections: sections.map((s) => ({ kind: s.kind, start: s.start, end: s.end, chunks: chunkWords(s.words, s.end), text: s.text })),
+      total,
+      fade: FADE_SECONDS,
+      W,
+      H,
+    });
+  }
   const photo = news.rawImageUrl ? news.rawImageUrl.replace(/&amp;/g, '&') : '';
   const hasPhoto = /^https?:\/\//.test(photo);
   const category = escapeHtml(String(news.category || 'ACTUALIDAD').toUpperCase());
@@ -467,7 +479,7 @@ export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: bo
     const speech = wavDurationSeconds(wavs[i]);
     const len = speech + GAP_SECONDS + (l.kind === 'close' ? TAIL_SECONDS : 0);
     const words = marks?.[i]?.length ? alignWords(l.text, marks[i], speech) : proportionalTimes(tokenize(l.text), 0.05, speech * 0.95);
-    sections.push({ kind: l.kind, start: clock, end: clock + len, words: words.map((w) => ({ ...w, t: clock + w.t })) });
+    sections.push({ kind: l.kind, text: l.text, start: clock, end: clock + len, words: words.map((w) => ({ ...w, t: clock + w.t })) });
     clock += len;
   });
   const total = clock;
