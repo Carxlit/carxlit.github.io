@@ -6078,11 +6078,12 @@
         "close": "Lee el análisis geopolítico completo en el enlace del perfil."
       },
       "rawImageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/04/meconomist_1200x840-kTEF-U4085445484uEC-1200x840@diario_abc.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T01:31:54.696Z",
       "cardImageUrl": "/news-cards/news-fpn7x3gqo-1793755914697.jpg",
       "instagramCardUrl": "/news-cards/news-fpn7x3gqo-1793755915444-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colapso-simultaneo-apuestas-geopoliticas-economicas-muhammad-ltv9/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colapso-simultaneo-apuestas-geopoliticas-economicas-muhammad-ltv9/",
+      "publishedAt": "2026-11-04T12:20:34.586Z"
     },
     "channels": {
       "facebook": true,
@@ -6095,10 +6096,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T12:18:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T01:31:56.545Z"
+    "createdAt": "2026-11-04T01:31:56.545Z",
+    "lastAttemptAt": "2026-11-04T12:18:30.651Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103390615532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "50",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzidkju3qx2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18135036154746477",
+        "permalink": "https://www.instagram.com/reel/DfUcR49km6S/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18134395459774576"
+      }
+    },
+    "publishedAt": "2026-11-04T12:20:34.586Z"
   },
   {
     "id": "queue-1793759309579-x5kik",
