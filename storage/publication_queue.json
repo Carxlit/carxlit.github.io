@@ -8243,11 +8243,12 @@
         "close": "Lee el análisis completo sobre las fallas institucionales en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://i.guim.co.uk/img/media/65b4c4a1a9683a21b818d78b4c4f95490cb925a4/163_0_912_730/master/912.jpg?width=140&quality=85&auto=format&fit=max&s=0fcfa933816a7a0a37280599039e1728",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T22:23:27.535Z",
       "cardImageUrl": "/news-cards/news-xk7blt16p-1793831007535.jpg",
       "instagramCardUrl": "/news-cards/news-xk7blt16p-1793831008890-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tragedia-columbia-britanica-ataque-fatal-cuestiona-xjp6/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tragedia-columbia-britanica-ataque-fatal-cuestiona-xjp6/",
+      "publishedAt": "2026-11-04T22:41:03.414Z"
     },
     "channels": {
       "facebook": true,
@@ -8261,10 +8262,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-04T22:23:29.513Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-04T22:23:29.513Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-04T22:38:36.552Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103765681532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "62",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzjg7qfubs2d"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18116750891605342",
+        "permalink": "https://www.instagram.com/reel/DfVjR11jad0/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117560577068162384"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17957818587276992"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-04T22:41:03.414Z"
   }
 ]
