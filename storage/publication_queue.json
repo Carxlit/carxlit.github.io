@@ -5615,11 +5615,48 @@
       "mastodon": true,
       "threads": true
     },
-    "scheduledFor": "2026-11-04T01:20:39.046Z",
+    "scheduledFor": "2026-11-04T01:26:48.580Z",
     "status": "queued",
-    "attempts": 0,
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T21:52:02.877Z"
+    "createdAt": "2026-11-03T21:52:02.877Z",
+    "lastAttemptAt": "2026-11-04T01:20:54.368Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102951439532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": false,
+        "error": "The operation was aborted due to timeout"
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzh6ue35r32f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18121767271996221",
+        "permalink": "https://www.instagram.com/reel/DfTRHuqjNIJ/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18060076685561873"
+      }
+    },
+    "error": "Reintento 1/3: telegram: The operation was aborted due to timeout"
   },
   {
     "id": "queue-1793748858771-aghka",
