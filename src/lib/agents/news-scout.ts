@@ -244,9 +244,15 @@ export const SCOUT_FEEDS: ExpandedFeedConfig[] = [
 ];
 
 /** Hechos graves en el titular (muertes, catástrofes, guerra, golpes, atentados), en español e inglés */
-const SEVERE_EVENT = new RegExp(
+export const SEVERE_EVENT = new RegExp(
   '\\b(muertos?|fallecid|mueren|muri[oó]|masacre|atentado|terremoto|sismo|tsunami|hurac[aá]n|erupci[oó]n|invasi[oó]n|declara la guerra|golpe de estado|' +
     'explosi[oó]n|bombardeo|rehenes|se estrell[oó]|accidente a[eé]reo|plane crash|crashes|killed|dead|dies|death toll|massacre|attack|earthquake|tsunami|hurricane|eruption|invasion|declares war|coup|explosion|hostages)\\b',
+  'i'
+);
+
+/** Agencias y medios de referencia: su verificación propia basta para una urgencia grave */
+export const TIER1_SOURCES = new RegExp(
+  '^(reuters|associated press|ap news|ap|afp|efe|europa press|bbc|bbc news|bbc mundo|al jazeera|the guardian|the new york times|the washington post|cnn|cnn en espa[nñ]ol|dw|deutsche welle|france 24|rfi|el pa[ií]s|bloomberg|bloomberg l[ií]nea|npr|usgs|noticias de la onu|euronews)\\b',
   'i'
 );
 
@@ -549,6 +555,7 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
         const { urgency, geopoliticalImpact } = scoreNewsImpact(cleanTitle, snippet, feed.weight);
 
         feedCandidates.push({
+          tier1: TIER1_SOURCES.test(sourceName.trim()),
           id: Math.random().toString(36).substring(2, 11),
           title: cleanTitle,
           link,
@@ -589,6 +596,7 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
     );
     if (match) {
       match.coverageCount = (match.coverageCount || 1) + 1;
+      if (c.tier1) match.tier1 = true;
     } else {
       unique.push({ ...c, coverageCount: 1 });
     }
@@ -596,7 +604,9 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
   // Una noticia que cuentan varios medios a la vez, o con un hecho grave en el titular, es de verdad urgente:
   // sin este refuerzo la urgencia por palabras clave casi nunca llegaba al umbral de "última hora" (95).
   for (const u of unique) {
-    const bonus = Math.min(20, ((u.coverageCount || 1) - 1) * 7) + (SEVERE_EVENT.test(u.title) ? 8 : 0);
+    const severe = SEVERE_EVENT.test(u.title);
+    // Un hecho grave de una fuente de primer nivel vale por sí solo; el resto lo refuerzan los medios que lo repiten
+    const bonus = Math.min(20, ((u.coverageCount || 1) - 1) * 7) + (severe ? 8 : 0) + (severe && u.tier1 ? 10 : 0);
     if (bonus > 0) u.urgencyScore = Math.min(99, (u.urgencyScore || 70) + bonus);
   }
   return unique;

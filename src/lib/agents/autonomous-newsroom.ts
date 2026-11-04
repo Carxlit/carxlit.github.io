@@ -5,7 +5,7 @@ import {
   EditorialCategory,
   RawArticle
 } from '@/types/news';
-import { runNewsScout } from './news-scout';
+import { runNewsScout, SEVERE_EVENT } from './news-scout';
 import { runEditorialPipeline } from './orchestrator';
 import {
   getPublicationQueue,
@@ -425,10 +425,16 @@ const EVENT_MARKERS = /\b([uú]ltima hora|urgente|en directo|en vivo|muere|muri[
  */
 export function isTrueBreakingNews(c: RawArticle, threshold: number): boolean {
   if ((c.urgencyScore || 0) < threshold) return false;
-  const published = new Date(c.pubDate).getTime();
-  if (!Number.isFinite(published) || Date.now() - published > 3 * 3_600_000) return false;
   if (ANALYSIS_MARKERS.test(c.title)) return false;
-  return EVENT_MARKERS.test(c.title) || (c.coverageCount || 1) >= 3;
+  const severe = SEVERE_EVENT.test(c.title);
+  // Un hecho grave sigue siendo noticia 8 h después; el resto de urgencias solo las primeras 3 h
+  const maxAgeMs = (severe ? 8 : 3) * 3_600_000;
+  const published = new Date(c.pubDate).getTime();
+  if (!Number.isFinite(published) || Date.now() - published > maxAgeMs) return false;
+  const coverage = c.coverageCount || 1;
+  // Verificación por niveles: hecho grave de una fuente de primer nivel sale ya; de una fuente menor, solo con otro medio detrás
+  if (severe && (c.tier1 || coverage >= 2)) return true;
+  return coverage >= 3 || (EVENT_MARKERS.test(c.title) && coverage >= 2);
 }
 
 export async function runAutonomousNewsroomCycle(
@@ -518,7 +524,7 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
 
   // 3. PROTOCOLO DE URGENCIA MÁXIMA: urgencia muy alta, con tope diario
   const criticalEmergency = roomForBreaking
-    ? candidates.find((c) => isTrueBreakingNews(c, config.breakingThreshold))
+    ? candidates.find((c) => isTrueBreakingNews(c, config.breakingThreshold) && (c.tier1 || report.breakingToday < config.maxBreakingPerDay - 1)) // el último cupo del día se reserva a fuentes de primer nivel
     : undefined;
 
   if (criticalEmergency) {

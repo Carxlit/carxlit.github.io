@@ -28,6 +28,8 @@ export interface RawArticle {
   geopoliticalImpact?: number;
   /** Cuántos medios publicaron el mismo hecho en la ronda del Scout */
   coverageCount?: number;
+  /** Fuente de primer nivel (agencia o medio de referencia): un hecho grave suyo no necesita segunda confirmación */
+  tier1?: boolean;
   /** Video del hecho ya encontrado al elegir la historia */
   video?: NewsVideo;
 }
