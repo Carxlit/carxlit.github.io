@@ -5424,11 +5424,12 @@
         "close": "Lee el análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://www.clarin.com/img/2026/11/03/xK1EFs-Wc_1200x630__1.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T20:23:35.094Z",
       "cardImageUrl": "/news-cards/news-9ifft0bpu-1793737415095.jpg",
       "instagramCardUrl": "/news-cards/news-9ifft0bpu-1793737415726-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8/",
+      "publishedAt": "2026-11-04T00:31:20.621Z"
     },
     "channels": {
       "facebook": true,
@@ -5441,10 +5442,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T00:28:39.046Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T20:23:36.908Z"
+    "createdAt": "2026-11-03T20:23:36.908Z",
+    "lastAttemptAt": "2026-11-04T00:28:54.355Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102927091532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "45",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzh3vow6du2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17876030868638589",
+        "permalink": "https://www.instagram.com/reel/DfTLG8LDHaq/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18127734356499294"
+      }
+    },
+    "publishedAt": "2026-11-04T00:31:20.621Z"
   },
   {
     "id": "queue-1793742722876-d9s2o",
