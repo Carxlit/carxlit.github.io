@@ -48,9 +48,36 @@
     "https://www.clarin.com/mundo/guerra-medio-oriente-lider-supremo-iran-advirtio-derrota-trump-frenara-conflicto-lanzo-amenaza_0_JwSeQowlIV.html",
     "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre",
     "https://www.bloomberglinea.com/latinoamerica/mexico/resultados-de-las-elecciones-en-eeuu-muestran-un-sentimiento-del-pueblo-estadounidense-sheinbaum/",
-    "https://www.semana.com/foros-semana/articulo/colombia-ante-el-reto-de-negociar-con-el-fmi-en-medio-de-la-crisis-fiscal/202623/"
+    "https://www.semana.com/foros-semana/articulo/colombia-ante-el-reto-de-negociar-con-el-fmi-en-medio-de-la-crisis-fiscal/202623/",
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQLXQ4ek5hcmhVV0kwQlFHSG1kOEwwb1NqX0xId19tU2pSWV9GVGViRUJ1c2E0UjNLVWdVelgyTnI0MjJvblNEQS1TUWZwMTdJZWhTZ0x6LUFmOFhXVkpBTk9aNkJDMzBjQnAxa0dTdmN0REY5QkxwSm8yVlo0a1JXd0JpTUQ2WEh2MFJac3RfX2RDWVcxODdPXzRyNzVkcC16V2d5TExPdFIzQzhsVGJkd1ZrS0VIUTZLUDBYZ2R6SHZJbWM0cXhxWmdMUlJ0MUtKb0JpaGpzUjhIaDh6VlNnMlllRQ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "LA OTAN Y BRUSELAS PLANIFICAN LA RECONSTRUCCIÓN UCRANIANA",
+      "normalizedTokens": [
+        "otan",
+        "bruselas",
+        "planifican",
+        "reconstruccion",
+        "ucraniana"
+      ],
+      "date": "2026-11-04T18:56:54.330Z"
+    },
+    {
+      "title": "La UE, EEUU y la OTAN estudian cómo financiar la reconstrucción de Ucrania y atraer inversiones tras la guerra",
+      "normalizedTokens": [
+        "eeuu",
+        "otan",
+        "estudian",
+        "financiar",
+        "reconstruccion",
+        "ucrania",
+        "atraer",
+        "inversiones",
+        "guerra"
+      ],
+      "date": "2026-11-04T18:56:54.329Z"
+    },
     {
       "title": "COLOMBIA NEGOCIA CON EL FMI ENTRE LA CRISIS FISCAL",
       "normalizedTokens": [
