@@ -49,9 +49,44 @@
     "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre",
     "https://www.bloomberglinea.com/latinoamerica/mexico/resultados-de-las-elecciones-en-eeuu-muestran-un-sentimiento-del-pueblo-estadounidense-sheinbaum/",
     "https://www.semana.com/foros-semana/articulo/colombia-ante-el-reto-de-negociar-con-el-fmi-en-medio-de-la-crisis-fiscal/202623/",
-    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQLXQ4ek5hcmhVV0kwQlFHSG1kOEwwb1NqX0xId19tU2pSWV9GVGViRUJ1c2E0UjNLVWdVelgyTnI0MjJvblNEQS1TUWZwMTdJZWhTZ0x6LUFmOFhXVkpBTk9aNkJDMzBjQnAxa0dTdmN0REY5QkxwSm8yVlo0a1JXd0JpTUQ2WEh2MFJac3RfX2RDWVcxODdPXzRyNzVkcC16V2d5TExPdFIzQzhsVGJkd1ZrS0VIUTZLUDBYZ2R6SHZJbWM0cXhxWmdMUlJ0MUtKb0JpaGpzUjhIaDh6VlNnMlllRQ?oc=5"
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQLXQ4ek5hcmhVV0kwQlFHSG1kOEwwb1NqX0xId19tU2pSWV9GVGViRUJ1c2E0UjNLVWdVelgyTnI0MjJvblNEQS1TUWZwMTdJZWhTZ0x6LUFmOFhXVkpBTk9aNkJDMzBjQnAxa0dTdmN0REY5QkxwSm8yVlo0a1JXd0JpTUQ2WEh2MFJac3RfX2RDWVcxODdPXzRyNzVkcC16V2d5TExPdFIzQzhsVGJkd1ZrS0VIUTZLUDBYZ2R6SHZJbWM0cXhxWmdMUlJ0MUtKb0JpaGpzUjhIaDh6VlNnMlllRQ?oc=5",
+    "https://www.clarin.com/mundo/donal-trump-reaparecio-publico-reconocio-guerra-iran-efecto-derrota-elecciones-insiste-hacer_0_oJXMrdKSCi.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP ATRIBUYE DERROTA ELECTORAL REPUBLICANA A GUERRA CON IRÁN",
+      "normalizedTokens": [
+        "trump",
+        "atribuye",
+        "derrota",
+        "electoral",
+        "republicana",
+        "guerra",
+        "iran"
+      ],
+      "date": "2026-11-04T20:23:21.445Z"
+    },
+    {
+      "title": "Donald Trump reapareció en público: reconoció que la guerra en Irán motivó la derrota en las elecciones, pero insiste que era algo que tenía que hacer",
+      "normalizedTokens": [
+        "donald",
+        "trump",
+        "reaparecio",
+        "publico",
+        "reconocio",
+        "guerra",
+        "iran",
+        "motivo",
+        "derrota",
+        "elecciones",
+        "insiste",
+        "era",
+        "algo",
+        "tenia",
+        "hacer"
+      ],
+      "date": "2026-11-04T20:23:21.445Z"
+    },
     {
       "title": "LA OTAN Y BRUSELAS PLANIFICAN LA RECONSTRUCCIÓN UCRANIANA",
       "normalizedTokens": [
