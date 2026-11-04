@@ -7462,11 +7462,12 @@
         "close": "Lee el análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/XWCIBJMBXBBHVOPHKNCTPRLBLE.jpeg?auth=c524355fdfaef0eae314f678707c9aad8cb147e4d970a603c7f3b6d37b4d965d&smart=true&width=4176&height=2784",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T17:50:13.114Z",
       "cardImageUrl": "/news-cards/news-ciq94lcwx-1793814613114.jpg",
       "instagramCardUrl": "/news-cards/news-ciq94lcwx-1793814615456-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colombia-ante-reto-negociar-nuevo-prestamo-ltdj/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colombia-ante-reto-negociar-nuevo-prestamo-ltdj/",
+      "publishedAt": "2026-11-04T21:55:02.698Z"
     },
     "channels": {
       "facebook": true,
@@ -7479,10 +7480,47 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T21:47:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T17:50:16.804Z"
+    "createdAt": "2026-11-04T17:50:16.804Z",
+    "lastAttemptAt": "2026-11-04T21:52:56.575Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103742503532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "59",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzjdnoni5b2l"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17963757639231210",
+        "permalink": "https://www.instagram.com/reel/DfVeBg6CYce/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117560396307721861"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18227297860336699"
+      }
+    },
+    "publishedAt": "2026-11-04T21:55:02.698Z"
   },
   {
     "id": "queue-1793818614323-r6hry",
