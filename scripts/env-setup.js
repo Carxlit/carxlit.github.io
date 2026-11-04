@@ -125,13 +125,50 @@ async function setupMastodon() {
   console.log(`\n OK Conectado a Mastodon como @${me.acct}`);
 }
 
+async function setupYoutube() {
+  console.log('\n YouTube Shorts (gratis). Antes, en https://console.cloud.google.com :');
+  console.log('  1) Proyecto nuevo > APIs y servicios > Biblioteca > activa "YouTube Data API v3".');
+  console.log('  2) Pantalla de consentimiento OAuth > Externo > pon tu correo > en "Publico objetivo" pulsa PUBLICAR APLICACION (si no, el permiso caduca a los 7 dias).');
+  console.log('  3) Credenciales > Crear credenciales > ID de cliente de OAuth > tipo "Television y dispositivos de entrada limitada".');
+  console.log('  4) Copia el ID de cliente y el secreto.\n');
+  const id = await ask(' ID de cliente: ');
+  const secret = await ask(' Secreto de cliente: ');
+  const dev = await fetch('https://oauth2.googleapis.com/device/code', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ client_id: id, scope: 'https://www.googleapis.com/auth/youtube' }).toString(),
+  }).then((r) => r.json());
+  if (!dev.device_code) throw new Error(`Google no acepto el ID de cliente: ${dev.error_description || dev.error || 'sin detalle'}`);
+  console.log(`\n Abre ${dev.verification_url} e ingresa el codigo:  ${dev.user_code}`);
+  console.log(' (elige la cuenta del canal de YouTube; si dice "app no verificada" pulsa Avanzado > Continuar)\n Esperando...');
+  const until = Date.now() + (dev.expires_in || 600) * 1000;
+  while (Date.now() < until) {
+    await new Promise((r) => setTimeout(r, (dev.interval || 5) * 1000));
+    const t = await fetch('https://oauth2.googleapis.com/token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ client_id: id, client_secret: secret, device_code: dev.device_code, grant_type: 'urn:ietf:params:oauth:grant-type:device_code' }).toString(),
+    }).then((r) => r.json());
+    if (t.refresh_token) {
+      setEnv('YOUTUBE_CLIENT_ID', id);
+      setEnv('YOUTUBE_CLIENT_SECRET', secret);
+      setEnv('YOUTUBE_REFRESH_TOKEN', t.refresh_token);
+      console.log('\n OK YouTube conectado.');
+      return;
+    }
+    if (t.error && t.error !== 'authorization_pending' && t.error !== 'slow_down') throw new Error(`Google: ${t.error_description || t.error}`);
+  }
+  throw new Error('Se acabo el tiempo sin autorizar. Vuelve a ejecutar YOUTUBE.bat.');
+}
+
 (async () => {
   const mode = process.argv[2];
   if (mode === 'ia') await setupAiKeys();
   else if (mode === 'reporte') await setupReportChat();
   else if (mode === 'threads') await setupThreads();
   else if (mode === 'mastodon') await setupMastodon();
-  else throw new Error('Uso: node scripts/env-setup.js ia|reporte|threads|mastodon');
+  else if (mode === 'youtube') await setupYoutube();
+  else throw new Error('Uso: node scripts/env-setup.js ia|reporte|threads|mastodon|youtube');
   console.log('\n Ahora se suben a GitHub (puede pedirte confirmar).');
 })().catch((e) => {
   console.error('\n ✖', e.message);

@@ -11,6 +11,7 @@ import { publishToLinkedInCompany } from '@/lib/news/linkedin-publisher';
 import { publishToInstagram, publishToMastodon, publishInstagramReel, publishFacebookReel } from '@/lib/news/extra-publishers';
 import { getNewsReel } from '@/lib/video/reel-generator';
 import { publishToThreads } from '@/lib/news/threads-publisher';
+import { publishYoutubeShort } from '@/lib/news/youtube-publisher';
 import { getStoredCredentials, getConfiguredChannels } from '@/lib/config/credentials-manager';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
 import { markStoryAsCovered } from './news-scout';
@@ -27,7 +28,7 @@ const CATCH_UP_SPACING_MINUTES = 50;
 /** Se conservan en disco solo los últimos N elementos cerrados (publicados/fallidos/caducados) */
 const MAX_CLOSED_ITEMS = 150;
 
-const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'facebookReel', 'mastodon', 'threads'] as const;
+const CHANNELS = ['facebook', 'telegram', 'bluesky', 'linkedIn', 'instagram', 'facebookReel', 'mastodon', 'threads', 'youtube'] as const;
 
 const reelsEnabled = () => process.env.REELS_ENABLED === 'true';
 /**
@@ -230,6 +231,12 @@ async function publishToChannel(
         return await publishToMastodon(news);
       case 'threads':
         return await publishToThreads(news);
+      case 'youtube': {
+        if (!wantsReel(news)) return { success: false, skipped: true, error: 'Noticia sin video libre: no se sube a YouTube' };
+        const video = await getNewsReel(news).catch((e) => ({ error: e?.message as string }));
+        if (typeof video !== 'string') return { success: false, skipped: true, error: `Short no generado: ${video.error}` };
+        return await publishYoutubeShort(news, video);
+      }
     }
   } catch (err: any) {
     return { success: false, error: err?.message || `Error en ${channel}` };

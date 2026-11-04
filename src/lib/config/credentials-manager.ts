@@ -1,4 +1,5 @@
 import { threadsConfigured } from '@/lib/news/threads-publisher';
+import { youtubeConfigured } from '@/lib/news/youtube-publisher';
 import fs from 'fs';
 import path from 'path';
 
@@ -77,6 +78,7 @@ export function getConfiguredChannels(creds: StoredCredentials = getStoredCreden
     facebookReel: Boolean(process.env.REELS_ENABLED === 'true' && creds.facebookPageId && creds.facebookAccessToken),
     mastodon: Boolean(process.env.MASTODON_INSTANCE && process.env.MASTODON_TOKEN),
     threads: threadsConfigured(),
+    youtube: youtubeConfigured(),
   };
 }
 

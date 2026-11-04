@@ -24,6 +24,11 @@ export interface ExpandedFeedConfig {
   weight: number; // Prioridad periodística (1-10)
 }
 
+/** Búsqueda de Google Noticias como feed (por defecto en español latino) */
+function gnews(query: string, hl = 'en-US', ceid = 'US:en'): string {
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=${hl}&gl=${ceid.split(':')[0]}&ceid=${ceid}`;
+}
+
 /**
  * Red ampliada de corresponsalías y agencias internacionales de alto rigor
  */
@@ -197,6 +202,45 @@ export const SCOUT_FEEDS: ExpandedFeedConfig[] = [
     category: 'SEGURIDAD & DEFENSA',
     weight: 8,
   },
+  // --- Cobertura mundial (2026-11): agencias y prensa internacional en inglés (la mesa editorial escribe siempre en español) ---
+  { url: gnews('site:reuters.com world when:1d'), sourceName: 'Reuters', category: 'GEOPOLÍTICA', weight: 10 },
+  { url: gnews('site:apnews.com when:1d'), sourceName: 'Associated Press', category: 'GEOPOLÍTICA', weight: 10 },
+  { url: gnews('site:reuters.com business OR markets OR economy when:1d'), sourceName: 'Reuters Business', category: 'ECONOMÍA GLOBAL', weight: 10 },
+  { url: gnews('site:reuters.com technology OR AI OR chips when:1d'), sourceName: 'Reuters Technology', category: 'TECNOLOGÍA & IA', weight: 10 },
+  { url: gnews('site:reuters.com defense OR military OR war when:1d'), sourceName: 'Reuters Defense', category: 'SEGURIDAD & DEFENSA', weight: 10 },
+  { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', sourceName: 'BBC News', category: 'GEOPOLÍTICA', weight: 10 },
+  { url: 'https://www.aljazeera.com/xml/rss/all.xml', sourceName: 'Al Jazeera', category: 'GEOPOLÍTICA', weight: 9 },
+  { url: 'https://www.theguardian.com/world/rss', sourceName: 'The Guardian', category: 'GEOPOLÍTICA', weight: 9 },
+  { url: 'https://feeds.npr.org/1004/rss.xml', sourceName: 'NPR', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://rss.dw.com/rdf/rss-en-all', sourceName: 'DW News', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://www.france24.com/en/rss', sourceName: 'France 24', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://www.euronews.com/rss?format=mrss&level=theme&name=news', sourceName: 'Euronews', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://www.channelnewsasia.com/rssfeeds/8395986', sourceName: 'CNA (Asia)', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://www.scmp.com/rss/91/feed', sourceName: 'South China Morning Post', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://www.thehindu.com/news/international/feeder/default.rss', sourceName: 'The Hindu', category: 'GEOPOLÍTICA', weight: 7 },
+  { url: 'https://www.africanews.com/feed/rss', sourceName: 'Africanews', category: 'PODER & SOCIEDAD', weight: 7 },
+  { url: 'https://news.un.org/feed/subscribe/en/news/all/rss.xml', sourceName: 'Noticias de la ONU', category: 'PODER & SOCIEDAD', weight: 9 },
+  { url: 'https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml', sourceName: 'Infobae Mundo', category: 'PODER & SOCIEDAD', weight: 7 },
+
+  // Radares por región y por tipo de hecho (búsquedas de Google Noticias, últimas 24-48 h)
+  { url: gnews('China OR Japón OR India OR Corea OR Taiwán OR Filipinas when:1d', 'es-419', 'US:es-419'), sourceName: 'Radar Asia', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: gnews('Israel OR Irán OR Gaza OR Líbano OR Siria OR Yemen OR Arabia Saudita when:1d', 'es-419', 'US:es-419'), sourceName: 'Radar Medio Oriente', category: 'GEOPOLÍTICA', weight: 9 },
+  { url: gnews('Ucrania OR Rusia OR OTAN OR Unión Europea OR Reino Unido when:1d', 'es-419', 'US:es-419'), sourceName: 'Radar Europa', category: 'GEOPOLÍTICA', weight: 9 },
+  { url: gnews('Sudán OR Congo OR Nigeria OR Etiopía OR Sahel OR Sudáfrica when:2d', 'es-419', 'US:es-419'), sourceName: 'Radar África', category: 'PODER & SOCIEDAD', weight: 8 },
+  { url: gnews('Trump OR Casa Blanca OR Congreso OR Senado OR Supremo when:1d', 'es-419', 'US:es-419'), sourceName: 'Radar Estados Unidos', category: 'PODER & SOCIEDAD', weight: 9 },
+  { url: gnews('terremoto OR huracán OR tsunami OR inundaciones OR incendio forestal OR erupción when:1d', 'es-419', 'US:es-419'), sourceName: 'Radar Desastres', category: 'PODER & SOCIEDAD', weight: 9 },
+  { url: gnews('brote OR epidemia OR pandemia OR Ébola OR OMS OR vacuna when:2d', 'es-419', 'US:es-419'), sourceName: 'Radar Salud Global', category: 'PODER & SOCIEDAD', weight: 9 },
+  { url: gnews('cambio climático OR ola de calor OR sequía OR COP when:2d', 'es-419', 'US:es-419'), sourceName: 'Radar Clima', category: 'PODER & SOCIEDAD', weight: 7 },
+  { url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=es-419&gl=US&ceid=US:es-419', sourceName: 'Google Ciencia', category: 'TECNOLOGÍA & IA', weight: 7 },
+  { url: gnews('Reserva Federal OR BCE OR FMI OR Banco Mundial OR petróleo OR OPEP when:1d', 'es-419', 'US:es-419'), sourceName: 'Radar Bancos Centrales & Energía', category: 'ECONOMÍA GLOBAL', weight: 9 },
+  { url: 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom', sourceName: 'USGS (sismos)', category: 'PODER & SOCIEDAD', weight: 10 },
+  { url: 'https://www.ecb.europa.eu/rss/press.html', sourceName: 'Banco Central Europeo', category: 'ECONOMÍA GLOBAL', weight: 9 },
+  { url: 'https://www.federalreserve.gov/feeds/press_all.xml', sourceName: 'Reserva Federal', category: 'ECONOMÍA GLOBAL', weight: 9 },
+
+  // Tecnología (inglés): donde primero salen los anuncios
+  { url: 'https://techcrunch.com/feed/', sourceName: 'TechCrunch', category: 'TECNOLOGÍA & IA', weight: 8 },
+  { url: 'https://www.theverge.com/rss/index.xml', sourceName: 'The Verge', category: 'TECNOLOGÍA & IA', weight: 8 },
+  { url: 'https://feeds.arstechnica.com/arstechnica/index', sourceName: 'Ars Technica', category: 'TECNOLOGÍA & IA', weight: 8 },
 ];
 
 const HISTORY_PATH = path.join(process.cwd(), 'storage', 'news_history.json');
@@ -413,7 +457,13 @@ export function scoreNewsImpact(title: string, snippet: string, feedWeight: numb
     'renuncia', 'tratado', 'fuerzas armadas', 'invasión', 'alto el fuego',
     'inteligencia artificial', 'openai', 'nvidia', 'semiconductores', 'microchips',
     'algoritmo', 'tsmc', 'supercomputadora', 'cuántica', 'silicon valley', 'deepfake',
-    'ciberseguridad', 'espionaje digital', 'monopolio', 'big tech'
+    'ciberseguridad', 'espionaje digital', 'monopolio', 'big tech',
+    // Inglés (agencias y prensa internacional)
+    'war', 'missile', 'strike', 'nuclear', 'sanctions', 'oil', 'central bank', 'tariffs', 'nato', 'kremlin', 'pentagon',
+    'coup', 'election', 'elections', 'crisis', 'inflation', 'federal reserve', 'imf', 'debt', 'cyberattack', 'resigns',
+    'treaty', 'invasion', 'ceasefire', 'artificial intelligence', 'semiconductors', 'earthquake', 'tsunami', 'hurricane',
+    'outbreak', 'pandemic', 'ebola', 'killed', 'death toll', 'explosion', 'hostages', 'shutdown', 'default', 'recession',
+    'estado de emergencia', 'terremoto', 'huracán', 'tsunami', 'brote', 'pandemia', 'muertos', 'masacre', 'rehenes', 'recesión'
   ];
 
   let matches = 0;
@@ -448,7 +498,7 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
       const parsed = await Promise.race([
         parser.parseURL(feed.url),
         new Promise<never>((_, reject) => 
-          setTimeout(() => reject(new Error('Feed timeout (6s)')), 6000)
+          setTimeout(() => reject(new Error('Feed timeout (10s)')), 10000)
         )
       ]);
 
@@ -482,7 +532,7 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
         let cleanTitle = title;
         let sourceName = feed.sourceName;
 
-        if (title.includes(' - ')) {
+        if (feed.url.includes('news.google.com') && title.includes(' - ')) {
           const parts = title.split(' - ');
           sourceName = parts.pop()?.trim() || feed.sourceName;
           cleanTitle = parts.join(' - ').trim();

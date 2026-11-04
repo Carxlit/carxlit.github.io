@@ -109,6 +109,7 @@ export interface ChannelSelection {
   facebookReel?: boolean;
   mastodon?: boolean;
   threads?: boolean;
+  youtube?: boolean;
   twitter?: boolean;
 }
 
@@ -149,6 +150,7 @@ export interface QueuedPublication {
     facebookReel?: ChannelResult & { videoId?: string };
     mastodon?: ChannelResult & { url?: string };
     threads?: ChannelResult & { postId?: string };
+    youtube?: ChannelResult & { url?: string };
   };
   createdAt: string;
 }

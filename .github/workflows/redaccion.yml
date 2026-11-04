@@ -64,6 +64,10 @@ jobs:
       THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
       THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
       THREADS_ENC_KEY: ${{ secrets.THREADS_ENC_KEY }}
+      # YouTube Shorts (YOUTUBE.bat)
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
       # https://puntociegoglobal.pages.dev (Cloudflare Pages construye site/ en cada push; GitHub Pages queda
       # como copia). Los posts solo llevan el enlace cuando la página ya responde.
       PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}

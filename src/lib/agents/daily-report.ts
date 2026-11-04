@@ -23,6 +23,7 @@ const CHANNEL_NAMES: Record<string, string> = {
   linkedIn: 'LinkedIn',
   mastodon: 'Mastodon',
   threads: 'Threads',
+  youtube: 'YouTube Shorts',
 };
 
 export function buildDailyReport(auditLine: string, now = new Date(), metrics?: MetricsSnapshot): string {

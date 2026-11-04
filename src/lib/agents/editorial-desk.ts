@@ -85,7 +85,7 @@ export async function runEditorialDesk(article: RawArticle, dossier?: ResearchDo
       COPYWRITER_SYSTEM_PROMPT,
       ARTICLE_SYSTEM_PROMPT,
       VIDEO_SYSTEM_PROMPT,
-      'REGLA DE VERACIDAD GLOBAL: usa solo hechos, cifras y nombres presentes en el dossier. El análisis puede ser interpretativo; los hechos no se inventan.',
+      'IDIOMA: escribe TODO en español neutro (titular, copys, artículo y guion), aunque las fuentes estén en inglés u otro idioma; traduce los nombres de cargos y mantén los nombres propios. REGLA DE VERACIDAD GLOBAL: usa solo hechos, cifras y nombres presentes en el dossier. El análisis puede ser interpretativo; los hechos no se inventan.',
     ].join('\n\n'),
     prompt: `Noticia a trabajar:
 Titular recibido: "${article.title}"
