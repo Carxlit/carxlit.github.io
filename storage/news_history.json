@@ -47,9 +47,34 @@
     "https://www.abc.es/internacional/abdul-sayed-convierte-primer-senador-musulman-historia-20261104095820-nt.html",
     "https://www.clarin.com/mundo/guerra-medio-oriente-lider-supremo-iran-advirtio-derrota-trump-frenara-conflicto-lanzo-amenaza_0_JwSeQowlIV.html",
     "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre",
-    "https://www.bloomberglinea.com/latinoamerica/mexico/resultados-de-las-elecciones-en-eeuu-muestran-un-sentimiento-del-pueblo-estadounidense-sheinbaum/"
+    "https://www.bloomberglinea.com/latinoamerica/mexico/resultados-de-las-elecciones-en-eeuu-muestran-un-sentimiento-del-pueblo-estadounidense-sheinbaum/",
+    "https://www.semana.com/foros-semana/articulo/colombia-ante-el-reto-de-negociar-con-el-fmi-en-medio-de-la-crisis-fiscal/202623/"
   ],
   "processedSignatures": [
+    {
+      "title": "COLOMBIA NEGOCIA CON EL FMI ENTRE LA CRISIS FISCAL",
+      "normalizedTokens": [
+        "colombia",
+        "negocia",
+        "fmi",
+        "crisis",
+        "fiscal"
+      ],
+      "date": "2026-11-04T17:50:16.808Z"
+    },
+    {
+      "title": "Colombia ante el reto de negociar con el FMI en medio de la crisis fiscal",
+      "normalizedTokens": [
+        "colombia",
+        "reto",
+        "negociar",
+        "fmi",
+        "medio",
+        "crisis",
+        "fiscal"
+      ],
+      "date": "2026-11-04T17:50:16.808Z"
+    },
     {
       "title": "SHEINBAUM MINIMIZA IMPACTO DE ELECCIONES EN ESTADOS UNIDOS",
       "normalizedTokens": [

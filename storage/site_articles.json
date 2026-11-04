@@ -1,5 +1,86 @@
 [
   {
+    "slug": "colombia-ante-reto-negociar-nuevo-prestamo-ltdj",
+    "path": "noticias/colombia-ante-reto-negociar-nuevo-prestamo-ltdj/",
+    "title": "Colombia ante el reto de negociar un nuevo préstamo con el Fondo Monetario Internacional en medio de la crisis fiscal",
+    "headline": "COLOMBIA NEGOCIA CON EL FMI ENTRE LA CRISIS FISCAL",
+    "dek": "El Gobierno nacional busca financiamiento externo por hasta cinco mil millones de dólares, enfrentando la exigencia de reformas estructurales profundas bajo la supervisión del organismo multilateral.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Semana",
+    "image": "img/colombia-ante-reto-negociar-nuevo-prestamo-ltdj.jpg",
+    "photo": "img/colombia-ante-reto-negociar-nuevo-prestamo-ltdj-foto.jpg",
+    "publishedAt": "2026-11-04T17:50:16.725Z",
+    "article": {
+      "slug": "colombia-ante-reto-negociar-nuevo-prestamo-ltdj",
+      "title": "Colombia ante el reto de negociar un nuevo préstamo con el Fondo Monetario Internacional en medio de la crisis fiscal",
+      "dek": "El Gobierno nacional busca financiamiento externo por hasta cinco mil millones de dólares, enfrentando la exigencia de reformas estructurales profundas bajo la supervisión del organismo multilateral.",
+      "keyFacts": [
+        "La deuda pública de Colombia supera el 60 % del PIB.",
+        "El Gobierno contempla solicitar un préstamo de entre US$4.000 millones y US$5.000 millones.",
+        "La tasa de interés estimada para la operación se ubica cerca del 4 %.",
+        "Las negociaciones actuales en Bogotá tomarán un par de meses antes de llegar a la junta directiva del FMI."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La relación entre Colombia y el Fondo Monetario Internacional ingresó en una fase crítica de evaluación. Ante una situación fiscal calificada por el propio organismo como insostenible debido a un gasto público que supera de manera constante los ingresos y una deuda que rebasa el 60 % del PIB, el Gobierno nacional evalúa solicitar un nuevo préstamo por un monto de entre cuatro mil y cinco mil millones de dólares, con una tasa de interés cercana al 4 %, para cubrir las necesidades de financiación proyectadas hacia 2027.",
+            "Durante el foro Colombia 2027, organizado por Semana, expertos como el exministro de Hacienda Mauricio Cárdenas y la presidenta de la Bolsa Mercantil de Colombia, María Inés Agudelo, analizaron los términos de esta aproximación. Si bien el FMI ha visto con buenos ojos la iniciativa de la Ley de Rescate Económico presentada por el Ejecutivo, la arquitectura de un acuerdo formal exige compromisos que van mucho más allá de una simple inyección de liquidez."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El antecedente inmediato sitúa al país en la necesidad imperiosa de enviar señales de credibilidad a los mercados internacionales. Según lo expuesto por los especialistas en el encuentro económico, la presentación del proyecto de ley de rescate antes de cerrar el trato con el organismo fue un movimiento táctico acertado, dado que la imagen del FMI en la opinión pública genera resistencias políticas considerables.",
+            "Sin embargo, el organismo multilateral funciona bajo dinámicas de estricta supervisión. Cárdenas advirtió que el ente actúa de forma similar a un policía que exige el cumplimiento de metas trimestrales complejas, lo que anticipa que la negociación no se limitará al proyecto legislativo actual."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras el debate público se concentra en la cifra del posible desembolso y en la aprobación de las leyes de rescate, el verdadero trasfondo de la negociación permanece anidado en los cambios estructurales que el FMI pondrá sobre la mesa de manera sutil pero inflexible. Temas de alta sensibilidad política, como el sistema pensional, la posibilidad de privatizaciones, los subsidios y el Sistema General de Participaciones, entran inevitablemente en la ecuación.",
+            "María Inés Agudelo señaló que las discusiones de fondo tocan estructuras complejas y que el organismo no impone directrices de manera abierta, sino que espera a que el país ponga sobre la mesa las concesiones necesarias para validar su confianza. En este escenario, la reforma constitucional sobre transferencias regionales aprobada durante el gobierno de Petro podría ser señalada por el organismo como fiscalmente inviable."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, el equipo económico del Gobierno gana un valioso aval internacional que sirve para tranquilizar temporalmente a los mercados de deuda y apalancar nuevas fuentes de financiamiento. No obstante, el costo político recae directamente sobre la administración central, que ve comprometido su margen de maniobra legislativa y social.",
+            "Los ciudadanos y los gobiernos locales asumen el costo potencial de los futuros recortes y ajustes exigidos por la disciplina fiscal que impone el acuerdo tipo stand-by que actualmente se negocia en la ciudad de Bogotá."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El desarrollo de las mesas técnicas de negociación en Bogotá, las cuales se extenderán durante los próximos meses antes de que la propuesta sea sometida a la junta directiva del FMI.",
+            "La evolución de los indicadores de endeudamiento y la reacción de los mercados de capitales frente a los ajustes que el Ejecutivo deba incorporar en materia de gasto público y transferencias territoriales."
+          ]
+        }
+      ],
+      "tags": [
+        "FMI",
+        "Economía",
+        "Colombia",
+        "Deuda Pública",
+        "Fiscal"
+      ],
+      "sources": [
+        {
+          "name": "Semana",
+          "title": "Colombia ante el reto de negociar con el FMI en medio de la crisis fiscal",
+          "url": "https://www.semana.com/foros-semana/articulo/colombia-ante-el-reto-de-negociar-con-el-fmi-en-medio-de-la-crisis-fiscal/202623/"
+        },
+        {
+          "name": "Revista Semana",
+          "title": "Colombia ante el reto de negociar con el FMI en medio de la crisis fiscal",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORGw5TGVteE42WE5kUWZWRV94emJIQzdBc0N2WW05SmFUUThHY09PbjdvLXZtTlc4UC01eVM2QS1kOENabDNLRUc0ajM1NmdBTWhFLTB6UFRNNmppaWlIM3J3eWI1bGFwbzkyNVFmdEtXM0ExY2tzeWN4M05PMzJObVZTSlR1UWx3V1J1aG1mTWRNTkpMM0VCdTh6bFhyMWktZTd3cWRnbU51cERGZnR1ajlJZ0VBLVNCNm5rTGpkWkNrWEpK0gHKAUFVX3lxTE01RG1ETEdZUU90aDQ1Q3l3eTBkc19CLU0tWW5oUm13MC00WjV6OHVRSGRyeUxzcHpmeXVHemhBSmtNcjRqQWN3TGJ5SVJ6RWk2RGtucVpCd090QWEwSElfRkVweENqQk9rZWdlRlExVVhNZkw4MHpDZVhfS2tILU1zUU4wWDd5SjBxNU1XNHZoMm9qR0hrVk9HU2VlTjZ2b1FQV0VlM1h4SWxFNW16TUdFY1E3QWIySmd3ME41NE93R0tkRDhZNXNFVnc?oc=5"
+        }
+      ],
+      "wordCount": 580
+    },
+    "blindSpot": "La atención mediática se centra en el monto del préstamo y la ley de rescate, obviando que la intervención del FMI exigirá desmontar reformas clave del actual Ejecutivo, como el Sistema General de Participaciones y los subsidios vigentes, hipotecando la soberanía económica a cambio de credibilidad internacional."
+  },
+  {
     "slug": "sheinbaum-minimiza-impacto-elecciones-ee-uu-ha41",
     "path": "noticias/sheinbaum-minimiza-impacto-elecciones-ee-uu-ha41/",
     "title": "Sheinbaum minimiza el impacto de las elecciones en EE.UU. mientras el Congreso cambia de manos",
