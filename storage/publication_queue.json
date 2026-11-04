@@ -7907,11 +7907,12 @@
         "title": "Число погибших в результате ударов по Запорожской области достигло 40 человек",
         "channel": "International"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T21:56:32.994Z",
       "cardImageUrl": "/news-cards/news-ml83b1fo6-1793829392995.jpg",
       "instagramCardUrl": "/news-cards/news-ml83b1fo6-1793829393898-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/bombardeo-zaporiyia-expone-estrategia-moscu-previa-dqmy/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/bombardeo-zaporiyia-expone-estrategia-moscu-previa-dqmy/",
+      "publishedAt": "2026-11-04T21:59:15.783Z"
     },
     "channels": {
       "facebook": true,
@@ -7925,10 +7926,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-04T21:56:35.187Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-04T21:56:35.187Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-04T21:57:12.563Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103743937532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "60",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzjdvj2ibu2m"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17899463205611949"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117560412715426761"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18188887432416537"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-04T21:59:15.783Z"
   }
 ]
