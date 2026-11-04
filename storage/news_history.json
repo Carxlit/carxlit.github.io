@@ -53,9 +53,63 @@
     "https://www.clarin.com/mundo/donal-trump-reaparecio-publico-reconocio-guerra-iran-efecto-derrota-elecciones-insiste-hacer_0_oJXMrdKSCi.html",
     "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1ZSSmNXeDcxYzlRbUVWWFJaXzdFcm56QUFfTWtxRHNUd2RGOTVjNkRZeDBUeG5fc3I1X19iQnotWlV1OXFsU3VjV2I0Z3BxMjVRQ1M5OWdTQlFOTEdEYVFuLXlPOUlvSW52R2dPRGI2SkhtdEg1Z29WY3RsaDFpaVRoQW9CYWpxX29JNGlxRXRaYzRCdG1kMjdQaWFjbk84UkE?oc=5",
-    "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed"
+    "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+    "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores"
   ],
   "processedSignatures": [
+    {
+      "title": "HISTORIADORES FRANCESES EVALÚAN EL IMPACTO POLÍTICO DEL CINE HISTÓRICO",
+      "normalizedTokens": [
+        "historiadores",
+        "franceses",
+        "evaluan",
+        "impacto",
+        "politico",
+        "cine",
+        "historico"
+      ],
+      "date": "2026-11-04T22:44:53.700Z"
+    },
+    {
+      "title": "Con una aprobación del 92%, esta obra maestra es la mejor película histórica de todos los tiempos según 85 historiadores",
+      "normalizedTokens": [
+        "aprobacion",
+        "obra",
+        "maestra",
+        "mejor",
+        "pelicula",
+        "historica",
+        "tiempos",
+        "segun",
+        "historiadores"
+      ],
+      "date": "2026-11-04T22:44:53.699Z"
+    },
+    {
+      "title": "DEMÓCRATAS GANAN LAS LEGISLATIVAS Y CONDICIONAN A TRUMP",
+      "normalizedTokens": [
+        "democratas",
+        "ganan",
+        "legislativas",
+        "condicionan",
+        "trump"
+      ],
+      "date": "2026-11-04T22:42:46.013Z"
+    },
+    {
+      "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+      "normalizedTokens": [
+        "palestinians",
+        "israelis",
+        "react",
+        "after",
+        "democrats",
+        "sweep",
+        "midterms"
+      ],
+      "date": "2026-11-04T22:42:46.013Z"
+    },
     {
       "title": "DOS MUJERES MUEREN POR ATAQUE DE GRIZZLIES EN CANADÁ",
       "normalizedTokens": [

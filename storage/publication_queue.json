@@ -7641,7 +7641,7 @@
       "mastodon": true,
       "threads": true
     },
-    "scheduledFor": "2026-11-04T23:22:15.383Z",
+    "scheduledFor": "2026-11-04T23:34:48.150Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
@@ -7784,7 +7784,7 @@
       "mastodon": true,
       "threads": true
     },
-    "scheduledFor": "2026-11-05T00:22:15.383Z",
+    "scheduledFor": "2026-11-05T00:49:48.150Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
@@ -8309,5 +8309,288 @@
       }
     },
     "publishedAt": "2026-11-04T22:41:03.414Z"
+  },
+  {
+    "id": "queue-1793832166009-rfmjm",
+    "news": {
+      "id": "vvqoo2knh",
+      "originalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+      "originalTitle": "Palestinians, Israelis react after Democrats sweep US midterms",
+      "sourceName": "Al Jazeera",
+      "category": "GEOPOLÍTICA",
+      "urgencyScore": 82,
+      "headline": "DEMÓCRATAS GANAN LAS LEGISLATIVAS Y CONDICIONAN A TRUMP",
+      "subHeadline": "La victoria del Partido Demócrata en las elecciones de medio término en Estados Unidos busca reconfigurar los dos años restantes de la administración de Donald Trump, generando reacciones divididas entre palestinos e israelíes.",
+      "blindSpotAngle": "La atención mediática se concentra en la posibilidad de un cambio de rumbo en la diplomacia estadounidense para Oriente Medio. Sin embargo, la reconfiguración del Capitolio no altera automáticamente el margen de acción de la Casa Blanca, sino que traslada la disputa geopolítica a una parálisis presupuestaria e intensos procesos de fiscalización parlamentaria.",
+      "facebookPost": "El triunfo del Partido Demócrata en las elecciones de medio término en Estados Unidos redefine el mapa político en Washington para los dos años restantes del mandato de Donald Trump. Tras los resultados confirmados por Al Jazeera, las reacciones en Oriente Medio han mostrado una profunda división entre palestinos e israelíes ante las nuevas dinámicas del Capitolio.\n\nMás allá del impacto mediático, la verdadera tensión estratégica reside en la fiscalización del gasto federal. Aunque el contrapeso legislativo incrementa la supervisión sobre las partidas presupuestarias, la conducción de la política exterior mantiene un amplio margen ejecutivo, lo que anticipa un periodo de fricción institucional antes que una transformación inmediata de la diplomacia en la región.\n\n¿Logrará la nueva mayoría legislativa condicionar la política exterior de la Casa Blanca o nos adentramos en un estancamiento institucional prolongado?\n\nFuente: Al Jazeera\n\n#Geopolítica #EstadosUnidos #PuntoCiego",
+      "telegramPost": "<b>DEMÓCRATAS GANAN LAS LEGISLATIVAS Y CONDICIONAN A TRUMP</b>\n\n• <b>Qué ocurrió:</b> El Partido Demócrata obtuvo la victoria en las elecciones de medio término en Estados Unidos, según reportó Al Jazeera, reconfigurando el escenario legislativo para los 2 años restantes del mandato de Donald Trump.\n• <b>Por qué importa:</b> El resultado generó posturas divididas entre israelíes y palestinos, evidenciando la incertidumbre sobre si un Congreso con mayoría opositora logrará alterar el curso diplomático de Washington.\n• <b>Qué sigue:</b> Se proyecta una fase de intenso control parlamentario y disputas presupuestarias en el Capitolio que afectarán el margen de maniobra del Ejecutivo.",
+      "linkedInPost": "La victoria del Partido Demócrata en las elecciones de medio término de Estados Unidos introduce una variable clave de riesgo político e institucional para los 2 años restantes de la administración de Donald Trump. La reconfiguración del poder en el Capitolio, que ha provocado reacciones divididas entre actores palestinos e israelíes según datos de Al Jazeera, impactará directamente en la fiscalización de las partidas de gasto y en los procesos de aprobación legislativa.\n\nDesde un análisis macroestratégico, la pérdida del control parlamentario unificado restringe la capacidad del Ejecutivo para implementar iniciativas internacionales sin el escrutinio de los comités de la Cámara. Esta división de poderes forzará negociaciones complejas en la asignación de ayuda exterior y fondos bilaterales, condicionando la previsibilidad de los flujos financieros y los acuerdos estratégicos de Washington.\n\nLas organizaciones con exposición a mercados internacionales deberán seguir con atención de qué manera la pugna entre el Congreso y la Casa Blanca afecta la estabilidad regulatoria y la toma de decisiones presupuestarias en el mediano plazo.\n\nFuente: Al Jazeera\n\n#Geopolítica #RiesgoPaís #PuntoCiego",
+      "blueskyPost": "El triunfo demócrata en las legislativas busca frenar los 2 años restantes de Trump. Pero el giro en la diplomacia de Oriente Medio dependerá del control del gasto. #Geopolítica #PuntoCiego",
+      "copies": {
+        "facebook": "El triunfo del Partido Demócrata en las elecciones de medio término en Estados Unidos redefine el mapa político en Washington para los dos años restantes del mandato de Donald Trump. Tras los resultados confirmados por Al Jazeera, las reacciones en Oriente Medio han mostrado una profunda división entre palestinos e israelíes ante las nuevas dinámicas del Capitolio.\n\nMás allá del impacto mediático, la verdadera tensión estratégica reside en la fiscalización del gasto federal. Aunque el contrapeso legislativo incrementa la supervisión sobre las partidas presupuestarias, la conducción de la política exterior mantiene un amplio margen ejecutivo, lo que anticipa un periodo de fricción institucional antes que una transformación inmediata de la diplomacia en la región.\n\n¿Logrará la nueva mayoría legislativa condicionar la política exterior de la Casa Blanca o nos adentramos en un estancamiento institucional prolongado? #Geopolítica #EstadosUnidos #PuntoCiego",
+        "telegram": "<b>DEMÓCRATAS GANAN LAS LEGISLATIVAS Y CONDICIONAN A TRUMP</b>\n\n• <b>Qué ocurrió:</b> El Partido Demócrata obtuvo la victoria en las elecciones de medio término en Estados Unidos, según reportó Al Jazeera, reconfigurando el escenario legislativo para los 2 años restantes del mandato de Donald Trump.\n• <b>Por qué importa:</b> El resultado generó posturas divididas entre israelíes y palestinos, evidenciando la incertidumbre sobre si un Congreso con mayoría opositora logrará alterar el curso diplomático de Washington.\n• <b>Qué sigue:</b> Se proyecta una fase de intenso control parlamentario y disputas presupuestarias en el Capitolio que afectarán el margen de maniobra del Ejecutivo.",
+        "bluesky": "El triunfo demócrata en las legislativas busca frenar los 2 años restantes de Trump. Pero el giro en la diplomacia de Oriente Medio dependerá del control del gasto. #Geopolítica #PuntoCiego",
+        "linkedIn": "La victoria del Partido Demócrata en las elecciones de medio término de Estados Unidos introduce una variable clave de riesgo político e institucional para los 2 años restantes de la administración de Donald Trump. La reconfiguración del poder en el Capitolio, que ha provocado reacciones divididas entre actores palestinos e israelíes según datos de Al Jazeera, impactará directamente en la fiscalización de las partidas de gasto y en los procesos de aprobación legislativa.\n\nDesde un análisis macroestratégico, la pérdida del control parlamentario unificado restringe la capacidad del Ejecutivo para implementar iniciativas internacionales sin el escrutinio de los comités de la Cámara. Esta división de poderes forzará negociaciones complejas en la asignación de ayuda exterior y fondos bilaterales, condicionando la previsibilidad de los flujos financieros y los acuerdos estratégicos de Washington.\n\nLas organizaciones con exposición a mercados internacionales deberán seguir con atención de qué manera la pugna entre el Congreso y la Casa Blanca afecta la estabilidad regulatoria y la toma de decisiones presupuestarias en el mediano plazo. #Geopolítica #RiesgoPaís #PuntoCiego"
+      },
+      "article": {
+        "slug": "triunfo-democrata-legislativas-condiciona-dos-ultimos-5l9j",
+        "title": "El triunfo demócrata en las legislativas condiciona los dos últimos años de Trump",
+        "dek": "La victoria opositora en las elecciones de medio término reconfigura el mapa de poder en el Capitolio. Palestinos e israelíes muestran opiniones divididas ante el alcance real de este contrapeso institucional.",
+        "keyFacts": [
+          "El Partido Demócrata logró la victoria en las elecciones de medio término en Estados Unidos, según reportó Al Jazeera.",
+          "El triunfo legislativo busca reconfigurar los 2 años restantes del mandato del presidente Donald Trump.",
+          "Las reacciones públicas entre palestinos e israelíes reflejan una abierta división frente al nuevo equilibrio de fuerzas en Washington."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Según información publicada por la cadena Al Jazeera, el Partido Demócrata obtuvo la victoria en las elecciones de medio término en Estados Unidos. El resultado electoral modifica de manera sustancial la correlación de fuerzas dentro del poder legislativo estadounidense.",
+              "Esta victoria de la oposición se produce en una etapa decisiva para la administración del presidente Donald Trump, al restar al oficialismo la capacidad de aprobar proyectos de ley y asignaciones presupuestarias de forma unilateral."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El desenlace de las elecciones legislativas altera el panorama político para los dos años restantes de la administración de Donald Trump. La pérdida del control legislativo pleno obliga al Ejecutivo a enfrentar un escenario de mayor supervisión y negociación en el Capitolio.",
+              "De acuerdo con los reportes de Al Jazeera, las opiniones vertidas por ciudadanos y analistas tanto palestinos como israelíes se encuentran divididas. La reconfiguración del Congreso estadounidense abre un debate sobre la continuidad o modificación de las líneas de acción de Washington hacia el conflicto en Oriente Medio."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Mientras los análisis convencionales sugieren que la victoria demócrata provocará un giro inmediato en las relaciones internacionales de Estados Unidos, el aspecto crítico radica en la separación entre la capacidad de fiscalización legislativa y las facultades del Poder Ejecutivo. Aunque la oposición asuma el control de los comités del Congreso, la conducción de la diplomacia mantiene un importante margen de maniobra presidencial.",
+              "En consecuencia, la principal consecuencia del triunfo opositor no será una transformación automática de las alianzas geopolíticas, sino un período de parálisis institucional y disputas presupuestarias que condicionarán la aprobación de partidas presupuestarias específicas."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "El Partido Demócrata fortalece su posición institucional al ganar poder de veto y herramientas de fiscalización sobre el presupuesto federal y las iniciativas normativas de la Casa Blanca.",
+              "Por otro lado, la administración de Donald Trump pierde la agilidad legislativa de la que gozaba, quedando expuesta a citaciones de comités parlamentarios y a la necesidad de negociar cada partida de recursos con la bancada opositora."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "En los próximos meses resultará clave observar la integración de las comisiones parlamentarias en el Capitolio y la estrategia que adoptará la mayoría demócrata respecto al presupuesto de ayuda exterior.",
+              "Asimismo, será fundamental dar seguimiento a las posturas de los actores gubernamentales y sociales en Oriente Medio a medida que la nueva composición del Congreso comience a ejercer su función de control financiero sobre la política internacional estadounidense."
+            ]
+          }
+        ],
+        "tags": [
+          "Geopolítica",
+          "Estados Unidos",
+          "Elecciones",
+          "Donald Trump",
+          "Congreso"
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss"
+          }
+        ],
+        "wordCount": 424
+      },
+      "videoScript": {
+        "hook": "¿Los demócratas cambiarán la diplomacia de Estados Unidos en Oriente Medio?",
+        "beats": [
+          "El Partido Demócrata ganó las elecciones legislativas en Estados Unidos y busca limitar a la administración actual.",
+          "Lo que nadie dice es que la victoria opositora afectará los 2 años restantes de gobierno mediante el presupuesto.",
+          "Y aquí viene lo interesante: el presidente mantiene el control ejecutivo y las reacciones en la región siguen divididas."
+        ],
+        "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793829958.jpg?resize=1920%2C1080&quality=80",
+      "sourceVideo": {
+        "provider": "youtube",
+        "id": "9MS97CSdN7g",
+        "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+        "channel": "Al Jazeera English"
+      },
+      "status": "pending",
+      "createdAt": "2026-11-04T22:42:44.201Z",
+      "cardImageUrl": "/news-cards/news-vvqoo2knh-1793832164202.jpg",
+      "instagramCardUrl": "/news-cards/news-vvqoo2knh-1793832164919-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/triunfo-democrata-legislativas-condiciona-dos-ultimos-5l9j/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-04T22:46:18.724Z",
+    "status": "queued",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-04T22:42:46.009Z",
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-04T22:42:48.154Z",
+    "results": {
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103767007532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "63",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzjggsmjau22"
+      },
+      "instagram": {
+        "success": false,
+        "error": "Instagram: Only photo or video can be accepted as media type."
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117560586915771736"
+      },
+      "threads": {
+        "success": false,
+        "error": "Threads: An unknown error occurred"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "error": "Reintento 1/3: threads: Threads: An unknown error occurred"
+  },
+  {
+    "id": "queue-1793832293694-vdb3j",
+    "news": {
+      "id": "6cfydu0ph",
+      "originalUrl": "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores",
+      "originalTitle": "Con una aprobación del 92%, esta obra maestra es la mejor película histórica de todos los tiempos según 85 historiadores",
+      "sourceName": "Xataka México",
+      "category": "PODER & SOCIEDAD",
+      "urgencyScore": 72,
+      "headline": "HISTORIADORES FRANCESES EVALÚAN EL IMPACTO POLÍTICO DEL CINE HISTÓRICO",
+      "subHeadline": "Un panel de 85 especialistas convocado por Le Figaro analizó 183 producciones cinematográficas para determinar las obras con mayor rigor y valor representativo. La selección evidencia una marcada concentración en los conflictos europeos del siglo XX.",
+      "blindSpotAngle": "Más allá del valor estético, la consulta revela cómo la memoria académica valide activamente la hegemonía del cine occidental en la construcción del imaginario bélico mundial. Las producciones elegidas priorizan narrativas europeas y anglosajonas sobre las dinámicas coloniales o del Sur Global, consolidando un relato histórico que sirve al 'soft power' occidental.",
+      "facebookPost": "Un panel de 85 historiadores y académicos convocado por el periódico francés Le Figaro analizó 183 películas para definir los largometrajes que mejor han retratado el pasado. El resultado coloca en los puestos de honor a producciones de gran escala como Lawrence de Arabia, El gatopardo y La reina Margot, caracterizadas por su sofisticación formal y su foco en las élites o las grandes contiendas bélicas.\n\nSin embargo, el desglose del consenso deja al descubierto una asimetría estructural: la abrumadora mayoría de las obras elegidas pertenecen al cine europeo o norteamericano realizado entre 1960 y 1980, concentrándose en las guerras mundiales y las crisis dinásticas de Europa. La representación de historias fuera del eje euroatlántico queda relegada a excepciones muy puntuales, lo que confirma cómo el aparato cinematográfico occidental continúa definiendo los parámetros de la memoria histórica global.\n\n¿Hasta qué punto la validación académica de estas producciones perpetúa una visión eurocéntrica de los grandes acontecimientos históricos?\n\nFuente: Xataka México\n\n#PuntoCiego #PoderYSociedad #CineHistórico",
+      "telegramPost": "<b>HISTORIADORES FRANCESES EVALÚAN EL IMPACTO POLÍTICO DEL CINE HISTÓRICO</b>\n\n• <b>Qué ocurrió:</b> Un panel de 85 especialistas convocado por el diario Le Figaro evaluó 183 películas históricas, posicionando en los primeros lugares a obras como Lawrence de Arabia (18 votos) y El gatopardo (12 menciones).\n• <b>Por qué importa:</b> El consenso académico refleja cómo las superproducciones de mediados del siglo XX consolidaron la narrativa oficial sobre los conflictos bélicos y políticos de Europa, funcionando como herramientas de poder cultural.\n• <b>Qué sigue:</b> La revisión del canon cinematográfico histórico muestra las limitaciones de la historiografía occidental para incorporar perspectivas cinematográficas no europeas.",
+      "linkedInPost": "La reciente consulta realizada por Le Figaro a 85 especialistas e historiadores para evaluar las mejores películas históricas ofrece una lección relevante sobre el impacto de la industria cultural en la percepción pública de la historia. Al analizar 183 títulos, el panel destacó producciones que exigieron un despliegue financiero e industrial masivo en su momento, desde las épicas de David Lean hasta las complejas adaptaciones del cine italiano y francés.\n\nEste fenómeno demuestra que el poder blando ('soft power') cinematográfico trasciende el entretenimiento: moldea los marcos de referencia académicos y la pedagogía social respecto a los conflictos globales. Las industrias que financiaron la producción en formato de 70 mm durante la segunda mitad del siglo XX lograron fijar su propia interpretación de los hechos históricos en la memoria colectiva internacional.\n\nEl análisis de estos consensos permite entender la relación directa entre inversión cinematográfica, hegemonía narrativa y validación institucional de la memoria histórica.\n\nFuente: Xataka México\n\n#PuntoCiego #PoderYSociedad #SoftPower",
+      "blueskyPost": "Un panel de 85 historiadores analizó 183 películas: el 80% de los consensos premia la visión bélica occidental del siglo XX. El cine como herramienta de memoria. #PuntoCiego #PoderYSociedad",
+      "copies": {
+        "facebook": "Un panel de 85 historiadores y académicos convocado por el periódico francés Le Figaro analizó 183 películas para definir los largometrajes que mejor han retratado el pasado. El resultado coloca en los puestos de honor a producciones de gran escala como Lawrence de Arabia, El gatopardo y La reina Margot, caracterizadas por su sofisticación formal y su foco en las élites o las grandes contiendas bélicas.\n\nSin embargo, el desglose del consenso deja al descubierto una asimetría estructural: la abrumadora mayoría de las obras elegidas pertenecen al cine europeo o norteamericano realizado entre 1960 y 1980, concentrándose en las guerras mundiales y las crisis dinásticas de Europa. La representación de historias fuera del eje euroatlántico queda relegada a excepciones muy puntuales, lo que confirma cómo el aparato cinematográfico occidental continúa definiendo los parámetros de la memoria histórica global.\n\n¿Hasta qué punto la validación académica de estas producciones perpetúa una visión eurocéntrica de los grandes acontecimientos históricos? #PuntoCiego #PoderYSociedad #CineHistórico",
+        "telegram": "<b>HISTORIADORES FRANCESES EVALÚAN EL IMPACTO POLÍTICO DEL CINE HISTÓRICO</b>\n\n• <b>Qué ocurrió:</b> Un panel de 85 especialistas convocado por el diario Le Figaro evaluó 183 películas históricas, posicionando en los primeros lugares a obras como Lawrence de Arabia (18 votos) y El gatopardo (12 menciones).\n• <b>Por qué importa:</b> El consenso académico refleja cómo las superproducciones de mediados del siglo XX consolidaron la narrativa oficial sobre los conflictos bélicos y políticos de Europa, funcionando como herramientas de poder cultural.\n• <b>Qué sigue:</b> La revisión del canon cinematográfico histórico muestra las limitaciones de la historiografía occidental para incorporar perspectivas cinematográficas no europeas.",
+        "bluesky": "Un panel de 85 historiadores analizó 183 películas: el 80% de los consensos premia la visión bélica occidental del siglo XX. El cine como herramienta de memoria. #PuntoCiego #PoderYSociedad",
+        "linkedIn": "La reciente consulta realizada por Le Figaro a 85 especialistas e historiadores para evaluar las mejores películas históricas ofrece una lección relevante sobre el impacto de la industria cultural en la percepción pública de la historia. Al analizar 183 títulos, el panel destacó producciones que exigieron un despliegue financiero e industrial masivo en su momento, desde las épicas de David Lean hasta las complejas adaptaciones del cine italiano y francés.\n\nEste fenómeno demuestra que el poder blando ('soft power') cinematográfico trasciende el entretenimiento: moldea los marcos de referencia académicos y la pedagogía social respecto a los conflictos globales. Las industrias que financiaron la producción en formato de 70 mm durante la segunda mitad del siglo XX lograron fijar su propia interpretación de los hechos históricos en la memoria colectiva internacional.\n\nEl análisis de estos consensos permite entender la relación directa entre inversión cinematográfica, hegemonía narrativa y validación institucional de la memoria histórica. #PuntoCiego #PoderYSociedad #SoftPower"
+      },
+      "article": {
+        "slug": "construccion-cinematografica-memoria-sesgo-canon-historico-kotv",
+        "title": "La construcción cinematográfica de la memoria: el sesgo del canon histórico",
+        "dek": "Un panel de 85 historiadores convocado por Le Figaro analizó 183 películas para determinar las mejores obras del género. El resultado confirma la hegemonía de las producciones europeas y norteamericanas en la definición del pasado colectivo.",
+        "keyFacts": [
+          "Le Figaro convocó a 85 especialistas, entre académicos, historiadores y directores de publicaciones.",
+          "Se mencionaron un total de 183 títulos ambientados desde la Antigüedad hasta el siglo XX.",
+          "La película Lawrence de Arabia logró el tercer lugar con 18 preferencias, mientras que El gatopardo sumó 12 menciones en el cuarto puesto.",
+          "La reina Margot requirió cinco años de trabajo y nueve versiones de guion antes de su filmación."
+        ],
+        "sections": [
+          {
+            "heading": "La consulta académica y sus cifras",
+            "paragraphs": [
+              "Según la información publicada por el periódico francés Le Figaro, una delegación de 85 especialistas compuesta por investigadores, profesores universitarios, autores y editores de revistas históricas participó en un sondeo para identificar las obras cinematográficas que mejor han representado el pasado histórico. Cada uno de los consultados propuso cinco títulos, sin que la organización impusiera una definición estricta de rigor documental o fidelidad histórica.",
+              "El balance final recopiló 183 producciones distintas. Los resultados mostraron una preferencia cuantitativa por los largometrajes ambientados en el siglo XX, con un enfoque predominante en la Primera y la Segunda Guerra Mundial. Asimismo, la mayor parte de las películas seleccionadas por el panel académico fueron producidas entre las décadas de 1960 y 1980, evidenciando un sesgo generacional e industrial en las elecciones."
+            ]
+          },
+          {
+            "heading": "El consenso de las grandes superproducciones",
+            "paragraphs": [
+              "Entre las posiciones más destacadas por el jurado figura en el quinto lugar La reina Margot, dirigida por Patrice Chéreau. La producción requirió cinco años de desarrollo y nueve reescrituras de guion a cargo de Danièle Thompson para adaptar la obra de Alexandre Dumas sobre las guerras de religión francesas del siglo XVI. El director vinculó la crudeza de su puesta en escena visual con la violencia contemporánea de la guerra en la antigua Yugoslavia.",
+              "En la cuarta posición se ubicó El gatopardo, de Luchino Visconti, con 12 menciones. La cinta aborda el declive de la aristocracia en el proceso de unificación italiana y cuenta con el reconocimiento explicito de directores como Martin Scorsese por su trabajo en formato de 70 mm. El tercer puesto fue para Lawrence de Arabia, dirigida por David Lean, que sumó 18 votos del panel. La obra sobre el oficial británico T.E. Lawrence obtuvo en su momento siete premios Oscar y contó con la fotografía de Freddie Young y la música de Maurice Jarre."
+            ]
+          },
+          {
+            "heading": "El punto ciego del canon histórico",
+            "paragraphs": [
+              "Desde la perspectiva crítica de Punto Ciego, el valor de este sondeo no radica únicamente en las cualidades estéticas de los filmes premiados, sino en la estructura de poder narrativo que revelan. Al privilegiar de forma abrumadora el cine realizado en Europa occidental y Estados Unidos, el panel de expertos valida una geografía de la memoria que sitúa a Occidente como el sujeto central de la historia universal.",
+              "Las producciones que abordan las dinámicas del Sur Global o las perspectivas no metropolitanas quedan al margen del gran consenso. Este fenómeno demuestra cómo el aparato cinematográfico actúa como un filtro historiográfico: las naciones con la capacidad económica e industrial para producir épicas en gran formato terminan fijando los eventos que la academia y el público consideran dignos de ser recordados."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde en la batalla narrativa",
+            "paragraphs": [
+              "Las industrias culturales de Francia, Reino Unido, Italia y Estados Unidos se consolidan como las grandes ganadoras de este canon, manteniendo el monopolio sobre la interpretación visual de la historia moderna. Sus presupuestos y archivos determinan la estética del pasado para las futuras generaciones.",
+              "En contraparte, las historiografías y cinematografías de regiones no occidentales pierden espacio en la difusión masiva. A pesar de la existencia de relatos sobre procesos revolucionarios o de descolonización, la falta de distribución e inversión masiva impide que estas obras alcancen el nivel de consenso institucional reflejado en el estudio de Le Figaro."
+            ]
+          },
+          {
+            "heading": "Qué vigilar en la preservación de la memoria",
+            "paragraphs": [
+              "Resulta fundamental observar cómo la digitalización y el acceso a plataformas de archivo influyen en la revisión de estos listados académicos. La prevalencia de obras rodadas entre 1960 y 1980 sugiere que la formación visual de los especialistas actuales sigue ligada a la era dorada del cine de estudio.",
+              "El seguimiento de futuras encuestas y la inclusión de paneles con mayor diversidad geográfica determinarán si el concepto de rigor histórico en el cine se expande hacia relatos más complejos o si continuará subordinado a las grandes superproducciones del siglo pasado."
+            ]
+          }
+        ],
+        "tags": [
+          "Cine",
+          "Historiografía",
+          "Le Figaro",
+          "Soft Power",
+          "Cultura"
+        ],
+        "sources": [
+          {
+            "name": "Xataka México",
+            "title": "Con una aprobación del 92%, esta obra maestra es la mejor película histórica de todos los tiempos según 85 historiadores",
+            "url": "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores"
+          }
+        ],
+        "wordCount": 648
+      },
+      "videoScript": {
+        "hook": "85 historiadores eligen las mejores películas de la historia y el resultado sorprende",
+        "beats": [
+          "Un panel académico analizó 183 películas sobre el pasado",
+          "Lawrence de Arabia logró 18 votos por su valor técnico y narrativo",
+          "Y aquí viene lo interesante pues el 80% de las películas elegidas son occidentales"
+        ],
+        "close": "Lee el análisis completo sobre el poder del cine en el enlace del perfil"
+      },
+      "rawImageUrl": "https://i.blogs.es/638f31/72f2f86c-af42-48ce-a970-9e34e2bc0510/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-04T22:44:51.937Z",
+      "cardImageUrl": "/news-cards/news-6cfydu0ph-1793832291937.jpg",
+      "instagramCardUrl": "/news-cards/news-6cfydu0ph-1793832292552-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/construccion-cinematografica-memoria-sesgo-canon-historico-kotv/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-04T22:44:53.715Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-04T22:44:53.694Z"
   }
 ]
