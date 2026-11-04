@@ -5,7 +5,8 @@ import { spawn, spawnSync } from 'child_process';
 import { ProcessedNews, VideoScript } from '@/types/news';
 import { getBrowser, escapeHtml } from '@/lib/news/card-generator';
 import { generateBackgroundMusic } from './background-music';
-import { chooseReelStyle, infographicHtml } from './reel-infographic';
+import { chooseReelStyle, infographicHtml, Pic } from './reel-infographic';
+import { collectReelImages, imageCredits } from '@/lib/news/news-images';
 
 /**
  * Reels narrados (1080×1920, 25–45 s) sin servicios de pago:
@@ -233,25 +234,29 @@ function chunkWords(words: Word[], sectionEnd: number) {
   return chunks;
 }
 
-function reelHtml(news: ProcessedNews, sections: Section[], total: number, footage?: Footage): string {
+function reelHtml(news: ProcessedNews, sections: Section[], total: number, photos: Pic[], footage?: Footage): string {
   // Infografía animada para lo corriente; las noticias graves (y los Reels con video real) llevan el formato serio de abajo
   if (!footage && chooseReelStyle(news) === 'infografia') {
     return infographicHtml({
       news,
       sections: sections.map((s) => ({ kind: s.kind, start: s.start, end: s.end, chunks: chunkWords(s.words, s.end), text: s.text })),
       total,
+      photos,
       fade: FADE_SECONDS,
       W,
       H,
     });
   }
-  const photo = news.rawImageUrl ? news.rawImageUrl.replace(/&amp;/g, '&') : '';
-  const hasPhoto = /^https?:\/\//.test(photo);
+  const pics = photos.filter((p) => p && p.src);
   const category = escapeHtml(String(news.category || 'ACTUALIDAD').toUpperCase());
   const site = (process.env.PUBLIC_SITE_URL || 'puntociegoglobal.pages.dev').replace(/^https?:\/\//, '').replace(/\/+$/, '');
   const beatsTotal = sections.filter((s) => s.kind === 'beat').length;
   // Con video libre, las escenas son transparentes: debajo va el video real (lo compone ffmpeg)
-  const img = (cls: string) => (hasPhoto && !footage ? `<img class="${cls}" src="${escapeHtml(photo)}" referrerpolicy="no-referrer" onerror="this.remove()">` : '');
+  // Cada escena usa una imagen distinta cuando hay varias; con una sola, distintos encuadres de la misma
+  const img = (cls: string, k = 0, pos = '') =>
+    pics.length && !footage
+      ? `<img class="${cls}" src="${escapeHtml(pics[k % pics.length].src)}" referrerpolicy="no-referrer"${pos ? ` style="object-position:${pos}"` : ''} onerror="this.remove()">`
+      : '';
   // Encuadres distintos de la misma foto para que cada escena se vea diferente (fijos, sin movimiento)
   const framings = ['50% 30%', '22% 30%', '78% 30%'];
 
@@ -264,14 +269,15 @@ function reelHtml(news: ProcessedNews, sections: Section[], total: number, foota
         <div class="tag">${category}</div>${credit}</section>`;
     }
     if (s.kind === 'beat') {
-      const pos = framings[beat % framings.length];
+      const pos = pics.length > 1 ? '50% 30%' : framings[beat % framings.length];
+      const k = pics.length > 1 ? beat + 1 : 0;
       beat++;
       if (footage) {
         return `<section id="s${i}" class="scene beat"><div class="shade"></div>
         <div class="tag">${beat} / ${beatsTotal}</div>${credit}</section>`;
       }
-      return `<section id="s${i}" class="scene beat">${img('blur')}<div class="dim"></div>
-        <div class="card">${img('sharp" style="object-position:' + pos)}</div>
+      return `<section id="s${i}" class="scene beat">${img('blur', k)}<div class="dim"></div>
+        <div class="card">${img('sharp', k, pos)}${pics.length ? '' : `<div class="qt">${escapeHtml(s.text)}</div>`}</div>
         <div class="step"><b>${beat}</b> / ${beatsTotal}</div></section>`;
     }
     return `<section id="s${i}" class="scene close">
@@ -298,6 +304,7 @@ function reelHtml(news: ProcessedNews, sections: Section[], total: number, foota
   .dim{position:absolute;inset:0;background:rgba(5,8,17,.62)}
   .card{position:absolute;left:60px;right:60px;top:250px;height:760px;border-radius:28px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6);background:#111827}
   .sharp{width:100%;height:100%;object-fit:cover}
+  .card .qt{height:100%;display:flex;align-items:center;padding:56px;font-size:62px;font-weight:800;line-height:1.2;color:#f1f5f9;background:linear-gradient(135deg,#1e293b,#0f172a)}
   .step{position:absolute;top:1050px;left:0;right:0;text-align:center;font-size:30px;font-weight:700;letter-spacing:.2em;color:rgba(255,255,255,.65)}
   .step b{color:#f43f5e}
   .close{display:flex;flex-direction:column;align-items:center;padding-top:330px;text-align:center}
@@ -524,8 +531,20 @@ export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: bo
     }
   }
 
+  // Imágenes del Reel: la de la noticia y otras relevantes y verificadas, distintas en cada escena (con video real no hacen falta)
+  let photos: Pic[] = [];
+  if (!footage) {
+    const images = await collectReelImages(news, { allowStock: chooseReelStyle(news) === 'infografia' }).catch((err) => {
+      console.warn('[Reel] No se pudieron reunir imágenes:', err?.message);
+      return [];
+    });
+    photos = images.map((i) => ({ src: i.src, credit: i.credit }));
+    const credits = imageCredits(images);
+    if (credits.length) news.photoCredits = credits;
+  }
+
   const out = path.join(work, 'reel.mp4');
-  await renderVideo(reelHtml(news, sections, total, footage), total, audioTrack, out, footage);
+  await renderVideo(reelHtml(news, sections, total, photos, footage), total, audioTrack, out, footage);
   console.log(`[Reel] Video listo (${total.toFixed(1)} s, voz ${voice}${footage ? `, imágenes de ${footage.credit}` : ''}, ${(fs.statSync(out).size / 1e6).toFixed(1)} MB): ${out}`);
   return out;
 }

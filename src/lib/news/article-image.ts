@@ -62,9 +62,17 @@ export async function resolveGoogleNewsUrl(url: string): Promise<string> {
  * Verifica si una imagen es una fotografía editorial real
  * y descarta logotipos genéricos (como el logo de Google News o íconos).
  */
+/** Ilustraciones por defecto, logos y recursos de marca que algunos portales ponen como "foto" de cualquier noticia */
+export const GENERIC_IMAGE_URL = new RegExp(
+  'news-story|tradingview\.com/static|placeholder|no-?image|image-?not-?found|default[-_]?(image|thumb|share|og)|og[-_]?default|share[-_]?default|' +
+    'social[-_]?(share|card)|sprite|/logos?/|logo[-_.]|[-_.]logo|avatar|blank\.|fallback|generic|brand[-_]?image',
+  'i'
+);
+
 export function isValidEditorialPhoto(url?: string): boolean {
   if (!url) return false;
   const s = url.toLowerCase();
+  if (GENERIC_IMAGE_URL.test(s)) return false;
   if (s.includes('googleusercontent.com')) return false;
   if (s.includes('google.com/logos')) return false;
   if (s.includes('favicon')) return false;

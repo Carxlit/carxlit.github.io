@@ -66,6 +66,7 @@ export function buildReelCaption(news: ProcessedNews): string {
     buildInstagramCaption(news).replace(TRAILING_HASHTAGS, ''),
     '💬 ¿Tú qué opinas? Te leemos en los comentarios.',
     videoCredit(news),
+    news.photoCredits?.length ? `📷 Fotos: ${news.photoCredits.join(' · ')}` : '',
     reelHashtags(news),
   ].filter(Boolean);
   const text = parts.join('\n\n');

@@ -105,8 +105,12 @@ export interface InfoSection {
   text: string;
 }
 
+export interface Pic { src: string; credit?: string }
+
 interface Opts {
   news: ProcessedNews;
+  /** Imágenes verificadas del Reel (la de la noticia primero); cada escena de foto usa una distinta */
+  photos: Pic[];
   sections: InfoSection[];
   total: number;
   fade: number;
@@ -115,13 +119,28 @@ interface Opts {
 }
 
 /** Página HTML animada: window.render(t) coloca todo en el instante t y devuelve una clave de "fotograma cambiado" */
-export function infographicHtml({ news, sections, total, fade, W, H }: Opts): string {
-  const photo = news.rawImageUrl ? news.rawImageUrl.replace(/&amp;/g, '&') : '';
-  const hasPhoto = /^(https?:|data:image)/.test(photo);
+/** Color de acento por sección: cada tema se reconoce de un vistazo (los subtítulos conservan el rojo de la marca) */
+const ACCENTS: Record<string, string> = {
+  'ECONOMÍA GLOBAL': '#22c55e',
+  'TECNOLOGÍA & IA': '#38bdf8',
+  'SEGURIDAD & DEFENSA': '#f59e0b',
+  'PODER & SOCIEDAD': '#a78bfa',
+  GEOPOLÍTICA: '#ef4444',
+};
+
+export function infographicHtml({ news, sections, total, fade, W, H, photos }: Opts): string {
+  const accent = ACCENTS[String(news.category)] || '#ef4444';
+  const pics = photos.filter((p) => p && p.src);
+  const pic = (k: number) => (pics.length ? pics[k % pics.length] : null);
+  const imgTag = (p: Pic | null, pos: string) =>
+    p ? `<img src="${escapeHtml(p.src)}" referrerpolicy="no-referrer" style="object-position:${pos}" onerror="this.remove()">` : '';
+  // Sin ninguna imagen verificada, el marco muestra la frase en letras grandes (nunca un recuadro vacío ni una imagen que no viene al caso)
+  const quote = (text: string) => (pics.length ? '' : `<div class="qt">${escapeHtml(text)}</div>`);
+  const creditTag = (p: Pic | null) => (p?.credit ? `<div class="credit">Foto: ${escapeHtml(p.credit)}</div>` : '');
   const category = escapeHtml(String(news.category || 'ACTUALIDAD').toUpperCase());
   const site = (process.env.PUBLIC_SITE_URL || 'puntociegoglobal.pages.dev').replace(/^https?:\/\//, '').replace(/\/+$/, '');
   const beatsTotal = sections.filter((s) => s.kind === 'beat').length;
-  const framings = ['50% 30%', '25% 30%', '75% 30%'];
+  const framings = pics.length > 1 ? ['50% 30%'] : ['50% 30%', '25% 30%', '75% 30%'];
   const labels = ['EL CONTEXTO', 'LA CLAVE', 'LO QUE SIGUE', 'EL DETALLE'];
 
   // Hasta 2 escenas de cifra, con las cifras más llamativas de los puntos del guion
@@ -147,12 +166,13 @@ export function infographicHtml({ news, sections, total, fade, W, H }: Opts): st
       if (s.kind === 'hook') {
         scenes.push({ type: 'hook' });
         return `<section id="s${i}" class="scene"><div class="kick"><i></i>${category}</div>
-          <div class="frame hookf" id="f${i}">${hasPhoto ? `<img src="${escapeHtml(photo)}" referrerpolicy="no-referrer" style="object-position:50% 30%" onerror="this.remove()">` : ''}</div></section>`;
+          <div class="frame hookf" id="f${i}">${imgTag(pic(0), '50% 30%')}${quote(news.article?.title || news.headline || s.text)}</div>${creditTag(pic(0))}</section>`;
       }
       if (s.kind === 'beat') {
         const label = labels[beat % labels.length];
         const pos = framings[beat % framings.length];
         const side = beat % 2 === 0 ? 1 : -1;
+        const p = pic(pics.length > 1 ? beat + 1 : 0);
         beat++;
         const st = chosen.has(i) ? stats.get(i)! : null;
         if (st) {
@@ -169,7 +189,7 @@ export function infographicHtml({ news, sections, total, fade, W, H }: Opts): st
         }
         scenes.push({ type: 'photo', side });
         return `<section id="s${i}" class="scene"><div class="kick"><i></i>${label}</div>
-          <div class="frame" id="f${i}">${hasPhoto ? `<img src="${escapeHtml(photo)}" referrerpolicy="no-referrer" style="object-position:${pos}" onerror="this.remove()">` : ''}</div>
+          <div class="frame" id="f${i}">${imgTag(p, pos)}${quote(s.text)}</div>${creditTag(p)}
           <div class="step"><b>${beat}</b> / ${beatsTotal}</div></section>`;
       }
       scenes.push({ type: 'close' });
@@ -190,6 +210,7 @@ export function infographicHtml({ news, sections, total, fade, W, H }: Opts): st
   return `<!DOCTYPE html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Playfair+Display:wght@900&display=block">
 <style>
+  :root{--accent:${accent}}
   *{margin:0;padding:0;box-sizing:border-box}
   body{width:${W}px;height:${H}px;overflow:hidden;color:#fff;font-family:Montserrat,"DejaVu Sans",Arial,sans-serif;
     background:radial-gradient(ellipse at 50% 28%,#16264d 0%,#0a1330 55%,#050a1c 100%)}
@@ -198,27 +219,29 @@ export function infographicHtml({ news, sections, total, fade, W, H }: Opts): st
   .mark{position:absolute;top:108px;right:64px;font-family:"Playfair Display",Georgia,serif;font-size:40px;font-weight:900;letter-spacing:.01em;opacity:.95}
   .mark b{color:#ef4444}
   .kick{position:absolute;left:70px;right:70px;top:250px;font-size:60px;font-weight:900;letter-spacing:.01em;display:flex;align-items:center;gap:22px;text-transform:uppercase}
-  .kick i{display:block;width:14px;height:64px;background:#ef4444;border-radius:4px;flex:none}
+  .kick i{display:block;width:14px;height:64px;background:var(--accent);border-radius:4px;flex:none}
   .frame{position:absolute;left:80px;right:80px;top:410px;height:640px;border:12px solid #fff;border-radius:8px;overflow:hidden;background:#1e293b;
     box-shadow:0 34px 80px rgba(0,0,0,.55);will-change:transform}
   .frame.hookf{top:380px;height:700px}
   .frame img{width:100%;height:100%;object-fit:cover;display:block}
+  .frame .qt{height:100%;display:flex;align-items:center;padding:56px;font-size:64px;font-weight:800;line-height:1.2;color:#f1f5f9;background:linear-gradient(135deg,#1e293b,#0f172a)}
   .step{position:absolute;top:1648px;left:0;right:0;text-align:center;font-size:30px;font-weight:700;letter-spacing:.2em;color:rgba(255,255,255,.6)}
-  .step b{color:#ef4444}
+  .step b{color:var(--accent)}
+  .credit{position:absolute;left:80px;right:80px;top:1098px;text-align:center;font-size:26px;font-weight:600;color:rgba(255,255,255,.6)}
   .stat{position:absolute;left:60px;right:60px;top:380px;height:720px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
   .stat .ring{position:absolute;top:50px;left:50%;width:620px;height:620px;margin-left:-310px;transform:rotate(-90deg)}
   .rbg{fill:none;stroke:rgba(255,255,255,.12);stroke-width:34}
-  .rfg{fill:none;stroke:#ef4444;stroke-width:34;stroke-linecap:round}
+  .rfg{fill:none;stroke:var(--accent);stroke-width:34;stroke-linecap:round}
   .numrow{position:relative;display:flex;align-items:baseline;justify-content:center;gap:16px;white-space:nowrap}
   .num{font-size:250px;line-height:1;font-weight:900;letter-spacing:-.03em;text-shadow:0 8px 30px rgba(0,0,0,.5)}
-  .suf{font-size:78px;font-weight:900;color:#ef4444}
+  .suf{font-size:78px;font-weight:900;color:var(--accent)}
   .stat.pct{justify-content:flex-start;padding-top:50px}
   .stat.pct .num{font-size:200px}
   .stat.pct .numrow{margin-top:210px}
   .ctx{position:relative;margin-top:26px;max-width:900px;font-size:54px;line-height:1.2;font-weight:700;color:rgba(255,255,255,.88)}
   .stat.pct .ctx{margin-top:225px;font-size:50px}
   .dots{position:relative;margin-top:44px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px;max-width:900px}
-  .dot{display:block;width:38px;height:38px;border-radius:50%;background:#ef4444;opacity:0;box-shadow:0 0 18px rgba(239,68,68,.5)}
+  .dot{display:block;width:38px;height:38px;border-radius:50%;background:var(--accent);opacity:0;box-shadow:0 0 18px var(--accent)}
   .close{display:flex;flex-direction:column;align-items:center;padding-top:330px;text-align:center}
   .logo{font-family:"Playfair Display",Georgia,serif;font-size:132px;font-weight:900;line-height:1}
   .logo b{color:#ef4444}

@@ -62,6 +62,8 @@ export interface ProcessedNews {
   instagramCardUrl?: string; // Versión vertical 4:5 (1080×1350) para Instagram
   videoScript?: VideoScript; // Guion del Reel narrado
   rawImageUrl?: string;
+  /** Créditos de las fotos de licencia libre usadas en el Reel (autor · licencia · origen) */
+  photoCredits?: string[];
   sourceVideo?: NewsVideo; // Video real del hecho (YouTube) para incrustar en el artículo
   instagramPermalink?: string; // Enlace del Reel publicado (se muestra en el artículo)
   publishedAt?: string;
