@@ -7301,11 +7301,12 @@
         "close": "Lee el analisis completo y descubre los intereses ocultos en el enlace del perfil"
       },
       "rawImageUrl": "https://www.bloomberglinea.com/resizer/v2/UCB42AFCEVDELHMW4AOOM3EJMM.jpeg?auth=607c5e6d905181347b98e8e8ee8bdc0f8c02fcc9acd353d2df1c97303bda3c4f&smart=true&width=1200&height=675",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T16:51:53.986Z",
       "cardImageUrl": "/news-cards/news-smx1kjri9-1793811113986.jpg",
       "instagramCardUrl": "/news-cards/news-smx1kjri9-1793811115188-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sheinbaum-minimiza-impacto-elecciones-ee-uu-ha41/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sheinbaum-minimiza-impacto-elecciones-ee-uu-ha41/",
+      "publishedAt": "2026-11-04T20:21:29.726Z"
     },
     "channels": {
       "facebook": true,
@@ -7318,10 +7319,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T20:19:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T16:51:56.612Z"
+    "createdAt": "2026-11-04T16:51:56.612Z",
+    "lastAttemptAt": "2026-11-04T20:19:30.639Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103702153532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "57",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzj6gldot52f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18123569867064620",
+        "permalink": "https://www.instagram.com/reel/DfVTUsiic4E/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18110546456627917"
+      }
+    },
+    "publishedAt": "2026-11-04T20:21:29.726Z"
   },
   {
     "id": "queue-1793814616804-t4btw",
