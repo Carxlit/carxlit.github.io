@@ -6428,11 +6428,12 @@
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/UCQZJZG6A5NYBELFLDENOKC2N4.jpg?auth=6012a8f4acb5c9a7a95c16a0830897a3c8e47c0b910253427a87ff30705744b8",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T11:29:56.810Z",
       "cardImageUrl": "/news-cards/news-somixjajf-1793791796811.jpg",
       "instagramCardUrl": "/news-cards/news-somixjajf-1793791797736-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/vuelco-electoral-washington-bloquea-agenda-legislativa-08lk/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/vuelco-electoral-washington-bloquea-agenda-legislativa-08lk/",
+      "publishedAt": "2026-11-04T14:15:47.120Z"
     },
     "channels": {
       "facebook": true,
@@ -6445,10 +6446,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T14:13:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T11:29:59.221Z"
+    "createdAt": "2026-11-04T11:29:59.221Z",
+    "lastAttemptAt": "2026-11-04T14:13:30.858Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103467049532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "52",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzijyhmp6i2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18078516491451079",
+        "permalink": "https://www.instagram.com/reel/DfUpdnciHuu/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18016945550975314"
+      }
+    },
+    "publishedAt": "2026-11-04T14:15:47.120Z"
   },
   {
     "id": "queue-1793794971969-udd1q",
