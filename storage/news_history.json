@@ -41,9 +41,31 @@
     "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
     "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina",
     "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
-    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sQ2lJVVR4RWRfY0U3cmdnVnM5dUdKNzR3Sm53U0JteWpjNFFoTXQ5Z1YtY1J3Y3ZsTUo4elloUlFSTGg4d0t0SU5pUFR5RU1OSG5SaENoeFkxaHo50gFiQVVfeXFMTzY3cEVhT2VEaFUzNWdSNC1kcndqSk5tcW5GU1BMNWNORHMxWlhicU9wUHE4a1V4cG5nQ2hFM0treU1lVnh1MWxSNGtaaVpEOTR2Y29VMEJHSEtSNUlzc1YyelE?oc=5"
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sQ2lJVVR4RWRfY0U3cmdnVnM5dUdKNzR3Sm53U0JteWpjNFFoTXQ5Z1YtY1J3Y3ZsTUo4elloUlFSTGg4d0t0SU5pUFR5RU1OSG5SaENoeFkxaHo50gFiQVVfeXFMTzY3cEVhT2VEaFUzNWdSNC1kcndqSk5tcW5GU1BMNWNORHMxWlhicU9wUHE4a1V4cG5nQ2hFM0treU1lVnh1MWxSNGtaaVpEOTR2Y29VMEJHSEtSNUlzc1YyelE?oc=5",
+    "https://elpais.com/opinion/2026-11-04/castigo-a-trump-victoria-de-la-democracia.html"
   ],
   "processedSignatures": [
+    {
+      "title": "LOS DEMÓCRATAS ARRASAN EN MIDTERMS Y FRENAN A TRUMP",
+      "normalizedTokens": [
+        "democratas",
+        "arrasan",
+        "midterms",
+        "frenan",
+        "trump"
+      ],
+      "date": "2026-11-04T11:29:59.225Z"
+    },
+    {
+      "title": "Castigo a Trump, victoria de la democracia",
+      "normalizedTokens": [
+        "castigo",
+        "trump",
+        "victoria",
+        "democracia"
+      ],
+      "date": "2026-11-04T11:29:59.224Z"
+    },
     {
       "title": "EL BANCO CENTRAL DE PARAGUAY INTERVIENE UENO BANK Y CONGELA FONDOS",
       "normalizedTokens": [
