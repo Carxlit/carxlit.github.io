@@ -5758,11 +5758,12 @@
         "title": "ESTADOS UNIDOS DECIDE EL FUTURO DEL CONGRESO #realpolitica #estadosunidos",
         "channel": "Real Política"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-03T23:34:15.612Z",
       "cardImageUrl": "/news-cards/news-fhdk6wucn-1793748855613.jpg",
       "instagramCardUrl": "/news-cards/news-fhdk6wucn-1793748857455-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/estados-unidos-decide-urnas-margen-legislativo-88ut/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/estados-unidos-decide-urnas-margen-legislativo-88ut/",
+      "publishedAt": "2026-11-04T02:26:51.906Z"
     },
     "channels": {
       "facebook": true,
@@ -5775,10 +5776,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T02:24:39.046Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-03T23:34:18.771Z"
+    "createdAt": "2026-11-03T23:34:18.771Z",
+    "lastAttemptAt": "2026-11-04T02:24:54.359Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122102984847532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "48",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzhcezvx742d"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17895655953435190",
+        "permalink": "https://www.instagram.com/reel/DfTYVXbChC0/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18108808430527832"
+      }
+    },
+    "publishedAt": "2026-11-04T02:26:51.906Z"
   },
   {
     "id": "queue-1793752376338-lpbaz",
