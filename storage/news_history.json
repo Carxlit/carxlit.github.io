@@ -42,9 +42,41 @@
     "https://www.xataka.com.mx/otros-1/publicacion-mochila-emergencia-mexico-creo-caos-que-pensaron-que-se-aproximaba-peor-solo-era-mensaje-rutina",
     "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sQ2lJVVR4RWRfY0U3cmdnVnM5dUdKNzR3Sm53U0JteWpjNFFoTXQ5Z1YtY1J3Y3ZsTUo4elloUlFSTGg4d0t0SU5pUFR5RU1OSG5SaENoeFkxaHo50gFiQVVfeXFMTzY3cEVhT2VEaFUzNWdSNC1kcndqSk5tcW5GU1BMNWNORHMxWlhicU9wUHE4a1V4cG5nQ2hFM0treU1lVnh1MWxSNGtaaVpEOTR2Y29VMEJHSEtSNUlzc1YyelE?oc=5",
-    "https://elpais.com/opinion/2026-11-04/castigo-a-trump-victoria-de-la-democracia.html"
+    "https://elpais.com/opinion/2026-11-04/castigo-a-trump-victoria-de-la-democracia.html",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXUElqbjlhXzhRbXBTLUVlMml1eDRtVzE1T1o1aWJJUEYxLTdXUHBSRnNpR2w3LV9KcDNkZVptVHRFRHA4MDlBd2Z5cllUcGhIaWlGRHpSb2FCaG91M1ZoOTFEZkpfOGhLS0xINnBCUTJYM0o4RGc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "RAYTHEON ACELERARÁ LA PRODUCCIÓN DEL MISIL NAVAL ESSM BLOCK DOS",
+      "normalizedTokens": [
+        "raytheon",
+        "acelerara",
+        "produccion",
+        "misil",
+        "naval",
+        "essm",
+        "block",
+        "dos"
+      ],
+      "date": "2026-11-04T12:22:51.975Z"
+    },
+    {
+      "title": "Raytheon Entrega el Misil 1.000 ESSM Block 2: el Consorcio OTAN Eleva la Producción a 65 al Mes",
+      "normalizedTokens": [
+        "raytheon",
+        "entrega",
+        "misil",
+        "000",
+        "essm",
+        "block",
+        "consorcio",
+        "otan",
+        "eleva",
+        "produccion",
+        "mes"
+      ],
+      "date": "2026-11-04T12:22:51.974Z"
+    },
     {
       "title": "LOS DEMÓCRATAS ARRASAN EN MIDTERMS Y FRENAN A TRUMP",
       "normalizedTokens": [
