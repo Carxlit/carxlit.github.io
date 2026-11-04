@@ -145,6 +145,8 @@ function mentions(haystack: string, entity: string): boolean {
   return norm(haystack).includes(norm(entity));
 }
 
+const ART_WORDS = new RegExp('painting|oil on canvas|drawing|illustration|engraving|lithograph|poster|print\\b|\\bscan\\b|manuscript|caricature|cartoon|sketch|pintura|grabado|cartel|dibujo', 'i');
+
 const stripHtml = (s: string) => s.replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
 
 async function commonsImages(entity: string): Promise<{ url: string; credit: string }[]> {
@@ -168,6 +170,8 @@ async function commonsImages(entity: string): Promise<{ url: string; credit: str
       const title = String(p.title || '').replace(/^File:/, '');
       if (/logo|icon|signature|flag of|coat of arms|diagram|chart|map of/i.test(title)) continue;
       if (!mentions(title, entity)) continue; // el nombre debe estar en el título del archivo
+      // Solo fotografías: nada de pinturas, grabados, carteles ni documentos escaneados
+      if (ART_WORDS.test(`${title} ${stripHtml(meta.ImageDescription?.value || '')}`)) continue;
       const author = stripHtml(meta.Artist?.value || '').slice(0, 60) || 'Wikimedia Commons';
       out.push({ url: info.thumburl || info.url, credit: `${author} · ${license} · Wikimedia Commons` });
       if (out.length >= 2) break;
@@ -255,7 +259,7 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
   // 3. Fotos libres de las personas, lugares y organizaciones del titular
   if (opts.allowStock && accepted.length < max) {
     // Solo personas (2-3 nombres propios seguidos): un concepto como "Internet de las Cosas" devolvería fotos al azar
-    const entities = extractEntities(news).filter((e) => /^\S+(\s\S+){1,2}$/.test(e) && e.split(/\s+/).every((w) => /^[A-ZÁÉÍÓÚÑÜ]/.test(w)));
+    const entities = extractEntities(news).filter((e) => /^\S+(\s\S+){1,2}$/.test(e) && e.split(/\s+/).every((w) => /^[A-ZÁÉÍÓÚÑÜ]/.test(w)) && !/^(Le|La|El|The|Los|Las|Il|Der|Die|Das)\s/.test(e));
     const found = (
       await Promise.all(entities.map(async (e) => [...(await commonsImages(e)), ...(await openverseImages(e))].map((x) => ({ ...x, entity: e }))))
     ).flat();
