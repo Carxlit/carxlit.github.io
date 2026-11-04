@@ -122,7 +122,7 @@ interface Opts {
 
 /** Página HTML animada: window.render(t) coloca todo en el instante t y devuelve una clave de "fotograma cambiado" */
 /** Color de acento por sección: cada tema se reconoce de un vistazo (los subtítulos conservan el rojo de la marca) */
-const ACCENTS: Record<string, string> = {
+export const ACCENTS: Record<string, string> = {
   'ECONOMÍA GLOBAL': '#22c55e',
   'TECNOLOGÍA & IA': '#38bdf8',
   'SEGURIDAD & DEFENSA': '#f59e0b',

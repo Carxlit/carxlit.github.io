@@ -256,6 +256,15 @@ export async function publishArticleToSite(news: ProcessedNews): Promise<string 
       }
     }
 
+    // Portada del Reel (cover_url de Instagram): img/<slug>-cover.jpg
+    if (news.reelCoverUrl) {
+      const coverSrc = path.join(process.cwd(), 'public', news.reelCoverUrl.replace(/^\//, ''));
+      if (fs.existsSync(coverSrc)) {
+        fs.mkdirSync(path.join(SITE_DIR, 'img'), { recursive: true });
+        fs.copyFileSync(coverSrc, path.join(SITE_DIR, 'img', `${article.slug}-cover.jpg`));
+      }
+    }
+
     const photo = await saveArticlePhoto(news.rawImageUrl, article.slug);
 
     const entry: SiteEntry = {

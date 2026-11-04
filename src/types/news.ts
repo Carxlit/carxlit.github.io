@@ -60,6 +60,7 @@ export interface ProcessedNews {
   copies?: MultiPlatformCopies; // Conjunto unificado de copies
   cardImageUrl?: string; // Ruta de la imagen editorial generada
   instagramCardUrl?: string; // Versión vertical 4:5 (1080×1350) para Instagram
+  reelCoverUrl?: string; // Portada 9:16 del Reel (cuadrícula del perfil de Instagram)
   videoScript?: VideoScript; // Guion del Reel narrado
   rawImageUrl?: string;
   /** Créditos de las fotos de licencia libre usadas en el Reel (autor · licencia · origen) */

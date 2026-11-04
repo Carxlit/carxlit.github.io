@@ -136,11 +136,16 @@ async function waitForIgContainer(containerId: string, token: string, maxSeconds
 export async function publishInstagramReel(
   news: ProcessedNews,
   pageToken: string,
-  videoPath: string
+  videoPath: string,
+  opts: { cover?: boolean } = {}
 ): Promise<ChannelResult & { mediaId?: string; permalink?: string }> {
   const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
   // La subida reanudable a Instagram necesita una versión reciente de la Graph API
   const REEL_API = 'v23.0';
+  // Portada propia (img/<slug>-cover.jpg del sitio) para la cuadrícula del perfil; sin ella, Instagram toma un fotograma
+  const site = (process.env.PUBLIC_SITE_URL || '').trim().replace(/\/+$/, '');
+  const slug = news.article?.slug;
+  const coverUrl = opts.cover !== false && site && slug && fs.existsSync(path.join(process.cwd(), 'site', 'img', `${slug}-cover.jpg`)) ? `${site}/img/${slug}-cover.jpg` : undefined;
   try {
     const init = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media`, {
       method: 'POST',
@@ -150,6 +155,7 @@ export async function publishInstagramReel(
       upload_type: 'resumable',
       caption: [buildInstagramCaption(news), videoCredit(news)].filter(Boolean).join('\n\n'),
       share_to_feed: true,
+      ...(coverUrl ? { cover_url: coverUrl } : {}),
     }),
     });
     const container: any = await init.json();

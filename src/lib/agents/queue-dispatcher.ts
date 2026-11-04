@@ -214,7 +214,8 @@ async function publishToChannel(
             for (let retry = 1; !reel.success && retry <= 2; retry++) {
               console.warn(`[QueueDispatcher] ${reel.error} → reintento ${retry}/2 del Reel`);
               await new Promise((r) => setTimeout(r, retry * 20_000));
-              reel = await publishInstagramReel(news, creds.facebookAccessToken!, video);
+              // Si la portada propia estorbara, el reintento sale con el fotograma por defecto
+              reel = await publishInstagramReel(news, creds.facebookAccessToken!, video, { cover: retry < 2 });
             }
             if (reel.success) {
               if (reel.permalink && news.article?.slug) attachReelToArticle(news.article.slug, reel.permalink);

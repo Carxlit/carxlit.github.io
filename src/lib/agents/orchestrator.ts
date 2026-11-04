@@ -4,6 +4,7 @@ import { buildMultiSourceDossier } from './deep-researcher';
 import { runEditorialDesk } from './editorial-desk';
 import { runVisualEngine } from './visual-engine';
 import { generateInstagramCardImage } from '@/lib/news/card-generator';
+import { generateReelCover } from '@/lib/video/reel-cover';
 import { withSourceCredit } from '@/lib/news/post-links';
 import { decodeHtmlEntities } from '@/lib/news/article-image';
 import { findNewsVideo } from '@/lib/news/news-video';
@@ -110,6 +111,12 @@ export async function runEditorialPipeline(
       processed.cardImageUrl = cardPath;
     } catch (err: any) {
       console.error('[Pipeline] Error en generación de tarjeta visual:', err?.message);
+    }
+    // Portada del Reel para la cuadrícula del perfil (si falla, Instagram usa un fotograma del video)
+    try {
+      processed.reelCoverUrl = await generateReelCover(processed);
+    } catch (err: any) {
+      console.warn('[Pipeline] Portada del Reel omitida:', err?.message);
     }
     // Versión vertical 4:5 para Instagram (si falla, Instagram usa la horizontal)
     try {
