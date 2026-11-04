@@ -50,9 +50,38 @@
     "https://www.bloomberglinea.com/latinoamerica/mexico/resultados-de-las-elecciones-en-eeuu-muestran-un-sentimiento-del-pueblo-estadounidense-sheinbaum/",
     "https://www.semana.com/foros-semana/articulo/colombia-ante-el-reto-de-negociar-con-el-fmi-en-medio-de-la-crisis-fiscal/202623/",
     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQLXQ4ek5hcmhVV0kwQlFHSG1kOEwwb1NqX0xId19tU2pSWV9GVGViRUJ1c2E0UjNLVWdVelgyTnI0MjJvblNEQS1TUWZwMTdJZWhTZ0x6LUFmOFhXVkpBTk9aNkJDMzBjQnAxa0dTdmN0REY5QkxwSm8yVlo0a1JXd0JpTUQ2WEh2MFJac3RfX2RDWVcxODdPXzRyNzVkcC16V2d5TExPdFIzQzhsVGJkd1ZrS0VIUTZLUDBYZ2R6SHZJbWM0cXhxWmdMUlJ0MUtKb0JpaGpzUjhIaDh6VlNnMlllRQ?oc=5",
-    "https://www.clarin.com/mundo/donal-trump-reaparecio-publico-reconocio-guerra-iran-efecto-derrota-elecciones-insiste-hacer_0_oJXMrdKSCi.html"
+    "https://www.clarin.com/mundo/donal-trump-reaparecio-publico-reconocio-guerra-iran-efecto-derrota-elecciones-insiste-hacer_0_oJXMrdKSCi.html",
+    "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA ESCALA ATAQUES PREVIO A LAS NEGOCIACIONES EN ABU DHABI",
+      "normalizedTokens": [
+        "rusia",
+        "escala",
+        "ataques",
+        "previo",
+        "negociaciones",
+        "abu",
+        "dhabi"
+      ],
+      "date": "2026-11-04T21:56:35.191Z"
+    },
+    {
+      "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+      "normalizedTokens": [
+        "ukraine",
+        "raises",
+        "death",
+        "toll",
+        "from",
+        "russian",
+        "strike",
+        "zaporizhia",
+        "people"
+      ],
+      "date": "2026-11-04T21:56:35.190Z"
+    },
     {
       "title": "TRUMP ATRIBUYE DERROTA ELECTORAL REPUBLICANA A GUERRA CON IRÁN",
       "normalizedTokens": [
