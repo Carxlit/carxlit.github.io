@@ -18,6 +18,11 @@ on:
         type: boolean
         required: false
         default: false
+      con_cifras:
+        description: 'La primera historia extra debe traer una cifra clave (para ver las gráficas del Reel)'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -101,6 +106,7 @@ jobs:
         env:
           EXTRA_STORIES: ${{ github.event.inputs.historias_extra || '0' }}
           EXTRA_REQUIRE_VIDEO: ${{ github.event.inputs.solo_con_video || 'false' }}
+          EXTRA_PREFER_STATS: ${{ github.event.inputs.con_cifras || 'false' }}
 
       - name: Guardar estado en el repositorio
         id: estado

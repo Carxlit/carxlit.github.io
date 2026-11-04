@@ -188,7 +188,8 @@ export function getEffectiveChannels(item: QueuedPublication, credentials?: Disp
 async function publishToChannel(
   channel: Channel,
   news: ProcessedNews,
-  creds: ReturnType<typeof resolveCredentials>
+  creds: ReturnType<typeof resolveCredentials>,
+  lastChance = true
 ): Promise<ChannelResult & Record<string, any>> {
   try {
     switch (channel) {
@@ -208,12 +209,21 @@ async function publishToChannel(
             return null;
           });
           if (video) {
-            const reel = await publishInstagramReel(news, creds.facebookAccessToken!, video);
+            // Meta falla a veces de forma pasajera ("Request processing failed"): se reintenta la subida antes de rendirse
+            let reel = await publishInstagramReel(news, creds.facebookAccessToken!, video);
+            for (let retry = 1; !reel.success && retry <= 2; retry++) {
+              console.warn(`[QueueDispatcher] ${reel.error} → reintento ${retry}/2 del Reel`);
+              await new Promise((r) => setTimeout(r, retry * 20_000));
+              reel = await publishInstagramReel(news, creds.facebookAccessToken!, video);
+            }
             if (reel.success) {
               if (reel.permalink && news.article?.slug) attachReelToArticle(news.article.slug, reel.permalink);
               return reel;
             }
-            console.warn('[QueueDispatcher]', reel.error, '→ se publica la imagen');
+            // Instagram siempre es Reel: si falla, el canal queda pendiente y vuelve a intentarlo el siguiente ciclo.
+            // Solo en el último intento de la noticia se publica la imagen para no perder la historia.
+            if (!lastChance) return { success: false, error: `${reel.error} (se reintenta como Reel)` };
+            console.warn('[QueueDispatcher]', reel.error, '→ último intento: se publica la imagen');
           }
         }
         return await publishToInstagram(news, creds.facebookAccessToken);
@@ -297,7 +307,7 @@ export async function publishMissingChannels(
 
   for (const ch of effective) {
     if (results[ch]?.success || results[ch]?.skipped) continue;
-    const res = await publishToChannel(ch, newsPayload, creds);
+    const res = await publishToChannel(ch, newsPayload, creds, item.attempts >= item.maxAttempts);
     results[ch] = res as any;
     if (!res.success && !res.skipped) {
       lastError = `${ch}: ${res.error || 'error desconocido'}`;

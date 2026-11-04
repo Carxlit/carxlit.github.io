@@ -18,13 +18,15 @@ const SENSITIVE = new RegExp(
   'i'
 );
 
+/** ¿Tema grave o sensible? (muertes, guerra, atentados, tragedias…) */
+export const isSensitiveText = (text: string) => SEVERE_EVENT.test(text) || SENSITIVE.test(text);
+
 /** Serio para lo grave o sensible; infografía para el resto (política, economía, tecnología, ciencia, sociedad) */
 export function chooseReelStyle(news: ProcessedNews): ReelStyle {
   const forced = (process.env.REEL_STYLE || '').toLowerCase();
   if (forced === 'serio' || forced === 'infografia') return forced;
   const text = [news.headline, news.originalTitle, news.subHeadline, news.article?.title].filter(Boolean).join(' ');
-  if (SEVERE_EVENT.test(text) || SENSITIVE.test(text)) return 'serio';
-  return 'infografia';
+  return isSensitiveText(text) ? 'serio' : 'infografia';
 }
 
 export interface Stat {

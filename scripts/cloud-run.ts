@@ -175,6 +175,7 @@ async function produceExtraStories(count: number) {
       activeHoursEnd: 24,
       // "solo_con_video": la PRIMERA historia extra debe tener video libre; las demás, cualquiera
       requireVideo: i === 0 && process.env.EXTRA_REQUIRE_VIDEO === 'true',
+      preferStats: i === 0 && process.env.EXTRA_PREFER_STATS === 'true',
     });
     console.log(`[CLOUD] Historia extra ${i + 1}/${count}: ${r.actionTaken} -> ${r.message}`);
     if (r.actionTaken === 'queued_new' && r.queuedItem) ids.push(r.queuedItem.id);

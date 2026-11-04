@@ -6,6 +6,7 @@ import {
   RawArticle
 } from '@/types/news';
 import { runNewsScout, SEVERE_EVENT } from './news-scout';
+import { extractStat, isSensitiveText } from '@/lib/video/reel-infographic';
 import { runEditorialPipeline } from './orchestrator';
 import {
   getPublicationQueue,
@@ -40,6 +41,7 @@ export interface AutonomousConfig {
   breakingThreshold: number; // Urgencia mínima para saltar la cola (Protocolo de Urgencia Máxima)
   maxBreakingPerDay: number; // Tope diario de urgencias para que no se convierta en spam
   maxArticleAgeHours: number; // No se cubren noticias más viejas que esto
+  preferStats?: boolean; // Pruebas a mano: prefiere una noticia con cifras clave (para ver las gráficas del Reel)
   requireVideo?: boolean; // Solo historias con video libre (Creative Commons) del hecho (pruebas a mano; no gasta IA en las que no tienen)
   activeChannels: {
     facebook: boolean;
@@ -520,6 +522,13 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
       .filter((q) => new Date(q.createdAt).getTime() >= since)
       .flatMap((q) => [q.news.originalTitle, q.news.article?.title || '']);
     candidates = await dropSemanticDuplicates(candidates, recent);
+  }
+
+  // Prueba de gráficas: solo noticias no sensibles que traigan una cifra llamativa en el titular o el resumen
+  if (config.preferStats) {
+    const withStats = candidates.filter((c) => !isSensitiveText(c.title) && extractStat(`${c.title}. ${String(c.contentSnippet || '').slice(0, 300)}`));
+    console.log(`[AutonomousNewsroom] Con cifras (prueba de gráficas): ${withStats.length} de ${candidates.length} candidatas`);
+    if (withStats.length) candidates = withStats;
   }
 
   // 3. PROTOCOLO DE URGENCIA MÁXIMA: urgencia muy alta, con tope diario
