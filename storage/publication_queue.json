@@ -6591,11 +6591,12 @@
         "close": "Entérate de todos los detalles del análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://envantermedya.com/wp-content/uploads/2026/11/essm-kapak.webp",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T12:22:50.229Z",
       "cardImageUrl": "/news-cards/news-stjpxxt2b-1793794970230.jpg",
       "instagramCardUrl": "/news-cards/news-stjpxxt2b-1793794970823-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/misil-mil-programa-essm-block-2-6smw/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/misil-mil-programa-essm-block-2-6smw/",
+      "publishedAt": "2026-11-04T15:06:52.451Z"
     },
     "channels": {
       "facebook": true,
@@ -6608,10 +6609,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T15:04:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T12:22:51.969Z"
+    "createdAt": "2026-11-04T12:22:51.969Z",
+    "lastAttemptAt": "2026-11-04T15:04:30.693Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103494973532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "53",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzimtmpz272q"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18572663830072906",
+        "permalink": "https://www.instagram.com/reel/DfUvT-Midjx/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18415773181085864"
+      }
+    },
+    "publishedAt": "2026-11-04T15:06:52.451Z"
   },
   {
     "id": "queue-1793798360567-702gp",
