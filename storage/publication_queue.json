@@ -5913,11 +5913,12 @@
         "close": "Lee el análisis completo en el enlace del perfil"
       },
       "rawImageUrl": "https://i.blogs.es/b7cc09/mochila-emergencia-rutina/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T00:32:53.903Z",
       "cardImageUrl": "/news-cards/news-lcw66jf52-1793752373904.jpg",
       "instagramCardUrl": "/news-cards/news-lcw66jf52-1793752375241-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/panico-digital-mexico-tras-aviso-rutinario-cji6/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/panico-digital-mexico-tras-aviso-rutinario-cji6/",
+      "publishedAt": "2026-11-04T11:28:08.053Z"
     },
     "channels": {
       "facebook": true,
@@ -5930,10 +5931,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T11:26:00.000Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T00:32:56.338Z"
+    "createdAt": "2026-11-04T00:32:56.338Z",
+    "lastAttemptAt": "2026-11-04T11:26:15.385Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103362247532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "49",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzianetulu2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18196727425402702",
+        "permalink": "https://www.instagram.com/reel/DfUWRFmDFd1/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18121467545007210"
+      }
+    },
+    "publishedAt": "2026-11-04T11:28:08.053Z"
   },
   {
     "id": "queue-1793755916545-167rt",
@@ -6055,7 +6094,7 @@
       "mastodon": true,
       "threads": true
     },
-    "scheduledFor": "2026-11-04T12:16:00.000Z",
+    "scheduledFor": "2026-11-04T12:18:15.383Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
@@ -6191,7 +6230,7 @@
       "mastodon": true,
       "threads": true
     },
-    "scheduledFor": "2026-11-04T13:08:00.000Z",
+    "scheduledFor": "2026-11-04T13:15:15.383Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
