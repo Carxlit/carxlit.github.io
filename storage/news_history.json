@@ -43,9 +43,35 @@
     "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sQ2lJVVR4RWRfY0U3cmdnVnM5dUdKNzR3Sm53U0JteWpjNFFoTXQ5Z1YtY1J3Y3ZsTUo4elloUlFSTGg4d0t0SU5pUFR5RU1OSG5SaENoeFkxaHo50gFiQVVfeXFMTzY3cEVhT2VEaFUzNWdSNC1kcndqSk5tcW5GU1BMNWNORHMxWlhicU9wUHE4a1V4cG5nQ2hFM0treU1lVnh1MWxSNGtaaVpEOTR2Y29VMEJHSEtSNUlzc1YyelE?oc=5",
     "https://elpais.com/opinion/2026-11-04/castigo-a-trump-victoria-de-la-democracia.html",
-    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXUElqbjlhXzhRbXBTLUVlMml1eDRtVzE1T1o1aWJJUEYxLTdXUHBSRnNpR2w3LV9KcDNkZVptVHRFRHA4MDlBd2Z5cllUcGhIaWlGRHpSb2FCaG91M1ZoOTFEZkpfOGhLS0xINnBCUTJYM0o4RGc?oc=5"
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXUElqbjlhXzhRbXBTLUVlMml1eDRtVzE1T1o1aWJJUEYxLTdXUHBSRnNpR2w3LV9KcDNkZVptVHRFRHA4MDlBd2Z5cllUcGhIaWlGRHpSb2FCaG91M1ZoOTFEZkpfOGhLS0xINnBCUTJYM0o4RGc?oc=5",
+    "https://www.abc.es/internacional/abdul-sayed-convierte-primer-senador-musulman-historia-20261104095820-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "ABDUL EL SAYED GANA EN MÍCHIGAN Y LLEGA AL SENADO",
+      "normalizedTokens": [
+        "abdul",
+        "sayed",
+        "gana",
+        "michigan",
+        "llega",
+        "senado"
+      ],
+      "date": "2026-11-04T13:19:20.574Z"
+    },
+    {
+      "title": "Abdul el Sayed se convierte en el primer senador musulmán de la historia de EE.UU.",
+      "normalizedTokens": [
+        "abdul",
+        "sayed",
+        "convierte",
+        "primer",
+        "senador",
+        "musulman",
+        "historia"
+      ],
+      "date": "2026-11-04T13:19:20.571Z"
+    },
     {
       "title": "RAYTHEON ACELERARÁ LA PRODUCCIÓN DEL MISIL NAVAL ESSM BLOCK DOS",
       "normalizedTokens": [
