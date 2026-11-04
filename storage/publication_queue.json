@@ -6767,11 +6767,12 @@
         "close": "Lee el análisis completo sobre el futuro demócrata en el enlace del perfil."
       },
       "rawImageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/04/1519766734-RJiJXhP1WP35eTtsRiPpfmM-1200x840@diario_abc.JPG",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T13:19:18.670Z",
       "cardImageUrl": "/news-cards/news-0qxxvx9pd-1793798358671.jpg",
       "instagramCardUrl": "/news-cards/news-0qxxvx9pd-1793798359452-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/victoria-abdul-sayed-michigan-redefine-equilibrio-q558/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/victoria-abdul-sayed-michigan-redefine-equilibrio-q558/",
+      "publishedAt": "2026-11-04T16:49:44.597Z"
     },
     "channels": {
       "facebook": true,
@@ -6784,10 +6785,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T16:47:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T13:19:20.567Z"
+    "createdAt": "2026-11-04T13:19:20.567Z",
+    "lastAttemptAt": "2026-11-04T16:47:30.725Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103564549532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "54",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzislysfge2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18126484081924163",
+        "permalink": "https://www.instagram.com/reel/DfU7Er6DqiD/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18078186854568153"
+      }
+    },
+    "publishedAt": "2026-11-04T16:49:44.597Z"
   },
   {
     "id": "queue-1793801860716-n2y2g",
