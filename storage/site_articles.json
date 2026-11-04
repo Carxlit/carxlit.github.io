@@ -1,5 +1,79 @@
 [
   {
+    "slug": "tragedia-columbia-britanica-ataque-fatal-cuestiona-xjp6",
+    "path": "noticias/tragedia-columbia-britanica-ataque-fatal-cuestiona-xjp6/",
+    "title": "Tragedia en Columbia Británica: el ataque fatal que cuestiona la seguridad forestal canadiense",
+    "headline": "DOS MUJERES MUEREN POR ATAQUE DE GRIZZLIES EN CANADÁ",
+    "dek": "La muerte de Jenny Balcarras y Selah Reed en Bella Coola reabre la polémica sobre la gestión de grandes depredadores. Las autoridades investigan la participación de múltiples osos grizzly en el incidente.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "The Guardian",
+    "image": "img/tragedia-columbia-britanica-ataque-fatal-cuestiona-xjp6.jpg",
+    "publishedAt": "2026-11-04T22:23:29.430Z",
+    "article": {
+      "slug": "tragedia-columbia-britanica-ataque-fatal-cuestiona-xjp6",
+      "title": "Tragedia en Columbia Británica: el ataque fatal que cuestiona la seguridad forestal canadiense",
+      "dek": "La muerte de Jenny Balcarras y Selah Reed en Bella Coola reabre la polémica sobre la gestión de grandes depredadores. Las autoridades investigan la participación de múltiples osos grizzly en el incidente.",
+      "keyFacts": [
+        "Jenny Balcarras y su hija Selah Reed, de 20 años, fueron halladas sin vida en el área del sendero Snooka West.",
+        "El inspector Jeff Tyre del Servicio de Oficiales de Conservación confirmó que se investiga la presencia de más de un oso grizzly.",
+        "Bella Coola es una comunidad remota de aproximadamente 2.100 habitantes ubicada en la costa central de Columbia Británica.",
+        "En noviembre anterior, un ataque de oso grizzly cerca de 4 Mile causó lesiones a 11 personas y el ejemplar no fue capturado."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Servicio de Oficiales de Conservación de Columbia Británica confirmó la muerte de Jenny Balcarras y su hija Selah Reed, de 20 años, tras sufrir un ataque en las inmediaciones del sendero Snooka West, ubicado a ocho kilómetros al este de Bella Coola. Las víctimas habían sido reportadas como desaparecidas durante el fin de semana por sus familiares, lo que desencadenó un operativo de búsqueda que llevó a la localización de su vehículo cerca del inicio del trayecto.",
+            "El inspector Jeff Tyre declaró mediante una actualización oficial en video que los investigadores evalúan la posibilidad de que más de un oso grizzly haya intervenido en la agresión mortal. El cuerpo de Balcarras fue ubicado inicialmente, mientras que los restos de Reed fueron localizados un día después por las cuadrillas desplegadas en la zona."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La localidad de Bella Coola se sitúa al final de un fiordo en la costa central de la provincia, dentro de un entorno natural conocido habitualmente como la selva del Gran Oso. Con una población cercana a los 2.100 habitantes, la abundancia de recursos alimenticios en la región facilita la presencia constante de osos grizzly cerca de las zonas transitadas por personas.",
+            "A pesar de que los incidentes fatales se consideran poco habituales en la provincia, la zona registra antecedentes recientes de gravedad. En noviembre del año pasado, un grupo escolar fue atacado en las inmediaciones de 4 Mile, un asentamiento de la comunidad Nuxalk, dejando un balance de 11 personas heridas. En aquella ocasión, a pesar de las intensas tareas de rastreo, el animal no pudo ser localizado por las fuerzas de conservación."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá del impacto trágico sobre la comunidad local, la muerte de Balcarras y Reed saca a la luz deficiencias en la capacidad de supervisión e intervención preventiva del gobierno provincial en regiones alejadas. La repetición de incidentes violentos en un intervalo menor a un año evidencia una brecha entre la normativa de conservación y la protección efectiva de la población civil.",
+            "El hecho de que el ataque previo en 4 Mile concluyera sin la neutralización o reubicación del ejemplar involucrado demuestra las limitaciones operativas del servicio forestal en áreas extensas. La falta de sistemas continuos de alerta temprana y la escasez de patrullaje permanente incrementan el riesgo para los habitantes de zonas aisladas."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los habitantes de comunidades remotas en la costa de Columbia Británica asumen de forma directa la carga de la inseguridad provocada por el manejo deficiente de fauna peligrosa. El deterioro del entorno de seguridad afecta la calidad de vida y desgasta las actividades socioeconómicas dependientes del tránsito por senderos naturales.",
+            "Por su parte, el Servicio de Oficiales de Conservación y las autoridades de la provincia enfrentan una creciente pérdida de confianza ciudadana, lo que genera presiones para modificar la legislación de manejo ambiental y reasignar recursos financieros hacia el control de depredadores."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será fundamental dar seguimiento a los resultados del peritaje biológico en Snooka West para determinar el número exacto de animales involucrados y las acciones de contención que implementará el gobierno provincial. Asimismo, conviene monitorear los posibles debates presupuestarios en el parlamento de Columbia Británica destinados a reforzar la presencia de oficiales de conservación en comunidades remotas."
+          ]
+        }
+      ],
+      "tags": [
+        "Canadá",
+        "Columbia Británica",
+        "Bella Coola",
+        "Conservación",
+        "Seguridad Pública"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian",
+          "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
+          "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed"
+        }
+      ],
+      "wordCount": 561
+    },
+    "blindSpot": "La recurrencia de ataques graves en la región de Bella Coola expone vacíos críticos en los protocolos de contención de la fauna silvestre y en la respuesta institucional dentro de zonas remotas. La incapacidad gubernamental para localizar a los depredadores involucrados en incidentes previos evidencia una vulnerabilidad operacional sistemática en asentamientos aislados de Canadá."
+  },
+  {
     "slug": "oms-acelera-ensayos-contra-ebola-medio-u25j",
     "path": "noticias/oms-acelera-ensayos-contra-ebola-medio-u25j/",
     "title": "La OMS acelera ensayos contra el ébola en medio de tensiones por el cierre de fronteras",
