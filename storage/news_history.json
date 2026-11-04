@@ -46,9 +46,35 @@
     "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXUElqbjlhXzhRbXBTLUVlMml1eDRtVzE1T1o1aWJJUEYxLTdXUHBSRnNpR2w3LV9KcDNkZVptVHRFRHA4MDlBd2Z5cllUcGhIaWlGRHpSb2FCaG91M1ZoOTFEZkpfOGhLS0xINnBCUTJYM0o4RGc?oc=5",
     "https://www.abc.es/internacional/abdul-sayed-convierte-primer-senador-musulman-historia-20261104095820-nt.html",
     "https://www.clarin.com/mundo/guerra-medio-oriente-lider-supremo-iran-advirtio-derrota-trump-frenara-conflicto-lanzo-amenaza_0_JwSeQowlIV.html",
-    "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre"
+    "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre",
+    "https://www.bloomberglinea.com/latinoamerica/mexico/resultados-de-las-elecciones-en-eeuu-muestran-un-sentimiento-del-pueblo-estadounidense-sheinbaum/"
   ],
   "processedSignatures": [
+    {
+      "title": "SHEINBAUM MINIMIZA IMPACTO DE ELECCIONES EN ESTADOS UNIDOS",
+      "normalizedTokens": [
+        "sheinbaum",
+        "minimiza",
+        "impacto",
+        "elecciones",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-04T16:51:56.616Z"
+    },
+    {
+      "title": "Resultados de las elecciones en EE.UU. muestran un sentimiento del pueblo estadounidense: Sheinbaum",
+      "normalizedTokens": [
+        "resultados",
+        "elecciones",
+        "muestran",
+        "sentimiento",
+        "pueblo",
+        "estadounidense",
+        "sheinbaum"
+      ],
+      "date": "2026-11-04T16:51:56.616Z"
+    },
     {
       "title": "FRANCIA SUFRE CIBERATAQUE CONTRA RESERVAS DE SANGRE Y CADENA FRÍO",
       "normalizedTokens": [
