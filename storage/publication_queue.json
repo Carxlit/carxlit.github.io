@@ -6950,11 +6950,12 @@
         "channel": "ROCKSTAR PICANTE ",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T14:17:38.809Z",
       "cardImageUrl": "/news-cards/news-00e2vokau-1793801858810.jpg",
       "instagramCardUrl": "/news-cards/news-00e2vokau-1793801859604-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ilusion-cambio-washington-apuesta-iran-desgaste-k5d4/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ilusion-cambio-washington-apuesta-iran-desgaste-k5d4/",
+      "publishedAt": "2026-11-04T17:41:00.050Z"
     },
     "channels": {
       "facebook": true,
@@ -6967,10 +6968,48 @@
       "threads": true
     },
     "scheduledFor": "2026-11-04T17:38:15.383Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-04T14:17:40.716Z"
+    "createdAt": "2026-11-04T14:17:40.716Z",
+    "lastAttemptAt": "2026-11-04T17:38:30.772Z",
+    "results": {
+      "mastodon": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122103606309532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "55",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzivgreyar2m"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17927226921205056",
+        "permalink": "https://www.instagram.com/reel/DfVA8w0D3lu/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18121323143286630"
+      }
+    },
+    "publishedAt": "2026-11-04T17:41:00.050Z"
   },
   {
     "id": "queue-1793804914819-fz1fd",
