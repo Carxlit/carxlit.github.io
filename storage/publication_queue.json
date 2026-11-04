@@ -8082,11 +8082,12 @@
         "close": "Lee el análisis completo y descubre el punto ciego en nuestro perfil."
       },
       "rawImageUrl": "https://images.euronews.com/articles/stories/09/98/02/25/1200x675_cmsv2_5607a457-8d79-50b8-8f07-6ea5ba5bf748-9980225.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T22:02:03.033Z",
       "cardImageUrl": "/news-cards/news-22pnz1p7y-1793829723034.jpg",
       "instagramCardUrl": "/news-cards/news-22pnz1p7y-1793829723586-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/oms-acelera-ensayos-contra-ebola-medio-u25j/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/oms-acelera-ensayos-contra-ebola-medio-u25j/",
+      "publishedAt": "2026-11-04T22:05:54.225Z"
     },
     "channels": {
       "facebook": true,
@@ -8100,10 +8101,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-04T22:02:04.685Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-04T22:02:04.685Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-04T22:03:17.791Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103747099532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "61",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzjeb35lh42y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18014386154764427",
+        "permalink": "https://www.instagram.com/reel/DfVfQbLEnIO/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117560438837505391"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18128931490919284"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-04T22:05:54.225Z"
   }
 ]
