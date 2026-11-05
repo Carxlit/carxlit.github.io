@@ -1,5 +1,91 @@
 [
   {
+    "slug": "monopolio-historico-associated-press-control-invisible-ho6a",
+    "path": "noticias/monopolio-historico-associated-press-control-invisible-ho6a/",
+    "title": "El monopolio histórico de Associated Press y el control invisible de las urnas en Estados Unidos",
+    "headline": "AP MANTIENE EL MONOPOLIO DEL CONTEO ELECTORAL EN EE.UU.",
+    "dek": "La certificación de los procesos electorales en estados como Mississippi descansa desde hace 178 años en una estructura privada. Detrás de la narrativa de neutralidad se esconde una peligrosa dependencia institucional.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "AP News",
+    "image": "img/monopolio-historico-associated-press-control-invisible-ho6a.jpg",
+    "photo": "img/monopolio-historico-associated-press-control-invisible-ho6a-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "LSG0q55nTXk",
+      "title": "Mississippi 2026 General Election results in congressional races",
+      "channel": "WJTV 12 News"
+    },
+    "publishedAt": "2026-11-05T05:31:28.098Z",
+    "article": {
+      "slug": "monopolio-historico-associated-press-control-invisible-ho6a",
+      "title": "El monopolio histórico de Associated Press y el control invisible de las urnas en Estados Unidos",
+      "dek": "La certificación de los procesos electorales en estados como Mississippi descansa desde hace 178 años en una estructura privada. Detrás de la narrativa de neutralidad se esconde una peligrosa dependencia institucional.",
+      "keyFacts": [
+        "La Associated Press tabula votos en elecciones de Estados Unidos desde el año 1848.",
+        "El equipo de decisión de la agencia declara ganadores únicamente cuando los candidatos rezagados no tienen margen matemático para la victoria.",
+        "La cobertura involucra a decenas de investigadores, editores y periodistas especializados distribuidos en redacciones nacionales.",
+        "Los datos provienen directamente de los funcionarios electorales locales en miles de circunscripciones en todo el país."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "En el marco de las elecciones de medio término, la agencia de noticias Associated Press ratificó su posición dominante en la recolección y certificación de datos electorales en estados clave como Mississippi. Con un despliegue operativo que incluye equipos dedicados al procesamiento de cifras locales, la agencia operó una vez más como el canal primario de información para la ciudadanía y los mercados.",
+            "La cobertura, respaldada por decenas de profesionales en investigación y edición, se mantuvo centrada en la recopilación directa desde las oficinas electorales locales, emitiendo proyecciones basadas en los márgenes de cambio del voto bipartidista a nivel de unidad de reporte."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Desde su primera incursión en el recuento federal en 1848, AP ha consolidado un estatus único dentro del ecosistema político de Estados Unidos. En un entorno marcado por la polarización y la erosión de la confianza en las instituciones públicas, la organización se presenta a sí misma como un baluarte de neutralidad, exento de propiedad corporativa multimillonaria y enfocado exclusivamente en el registro numérico.",
+            "Esta continuidad operativa ha convertido a su equipo de decisiones en el árbitro predeterminado de la contienda, cuyas proyecciones son aceptadas de manera casi automática por partidos, medios y gobiernos estatales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis profundo revela una contradicción institucional que los medios masivos suelen pasar por alto: la dependencia estructural del Estado respecto a una entidad privada para validar sus propios procesos democráticos.",
+            "Mientras se debate sobre la polarización política y las reglas de votación, la infraestructura misma de la verdad electoral se encuentra privatizada de facto. Que la estabilidad de una superpotencia descanse en la capacidad operativa de una sola redacción histórica plantea interrogantes severos sobre la soberanía de la información pública."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los principales beneficiarios son los actores financieros y políticos que requieren certidumbre inmediata para operar sin el ruido de la incertidumbre institucional. La centralización de datos evita vacíos de poder prolongados que podrían desatar inestabilidad en los mercados.",
+            "Por otro lado, los perdedores netos son las estructuras democráticas locales y la soberanía estatal, incapaces de construir un sistema público de recopilación y validación que compita en autoridad con una organización privada centenaria."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Los próximos ciclos electorales exigirán observar con atención los intentos de los gobiernos estatales por reclamar soberanía sobre sus propios datos de escrutinio. La resistencia o la incapacidad técnica para descentralizar este poder determinarán el grado de dependencia corporativa de la democracia estadounidense en el futuro."
+          ]
+        }
+      ],
+      "tags": [
+        "Elecciones",
+        "Estados Unidos",
+        "Medios",
+        "Instituciones",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "title": "2026 Mississippi Midterm Election Results",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMUprSkJTbVc5cUtIT0hsZzlyaFdMcE1mTlBnMk9rTUZmd0M3RGRzZ1hFd29CS0NsSjVhY2dscXVZMVZ2Z3VjTTBaLVZtam1DdjdOeWxjNHRGS3NvdE9VWHZ0SUMxQUZYMkphTzNsekw?oc=5"
+        },
+        {
+          "name": "elDiarioAR.com",
+          "title": "Resultados de las 'midterms' en EE.UU.: el mapa de quién gana las elecciones en cada estado",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLWFBcVc2eVd1UlVFbkg0Y0w0WGt4dGEyVTVvMTFJTDU4dDdaYnVGbUdYSDA3Q3dOWFAtWTB5NE9makR5eF9RZ0Z4WDUxQ3RDOWptX1VwWm9yR1NlWU04a0pPRW1kb0hDMkNRdFlOOHE0NG9YTHlkWXJ2Mno3TXprSTdWSTFETlliVjFXcVhubUZJOU1Lc2w2UGozdGNWX3g5MHpJ0gGoAUFVX3lxTFBWbThsWTJMbE5Ob0dqM2FBUzdEeEw5WXNpSEwyc0M2TkNWWV9JSHByUE5qNUlqSERvWHNTQnRROXNXd0lOR3R1SmxwWGU5SUx3aFQ2SHdLd3JpRE02U1hfdlRidlJEdkJjNU1MOGtwQmkyLXBhdE10UXFpMXV0WXNkalQ0dEFSai13SEZFS2VwWHdCYVFsZW1aVjY0aUM0MzJ6MlY2YzdoTQ?oc=5"
+        }
+      ],
+      "wordCount": 431
+    },
+    "blindSpot": "Mientras los reflectores mediáticos se posan sobre los resultados partidistas de las elecciones de medio término, la infraestructura real de poder recae en un monopolio privado de recopilación de datos que opera sin supervisión pública directa. La dependencia estructural de los gobiernos locales en una sola entidad privada define en la práctica quién y cuándo se considera legítimo un ganador."
+  },
+  {
     "slug": "decada-perdida-joshua-wong-nuevo-orden-alpp",
     "path": "noticias/decada-perdida-joshua-wong-nuevo-orden-alpp/",
     "title": "La década perdida de Joshua Wong y el nuevo orden en Hong Kong",

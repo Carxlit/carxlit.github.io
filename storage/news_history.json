@@ -57,9 +57,31 @@
     "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
     "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores",
     "https://www.abc.es/internacional/corea-sur-desplegara-mision-naval-mantener-abierto-20261105024807-nt.html",
-    "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion"
+    "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMUprSkJTbVc5cUtIT0hsZzlyaFdMcE1mTlBnMk9rTUZmd0M3RGRzZ1hFd29CS0NsSjVhY2dscXVZMVZ2Z3VjTTBaLVZtam1DdjdOeWxjNHRGS3NvdE9VWHZ0SUMxQUZYMkphTzNsekw?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "AP MANTIENE EL MONOPOLIO DEL CONTEO ELECTORAL EN EE.UU.",
+      "normalizedTokens": [
+        "mantiene",
+        "monopolio",
+        "conteo",
+        "electoral"
+      ],
+      "date": "2026-11-05T05:31:28.162Z"
+    },
+    {
+      "title": "2026 Mississippi Midterm Election Results",
+      "normalizedTokens": [
+        "2026",
+        "mississippi",
+        "midterm",
+        "election",
+        "results"
+      ],
+      "date": "2026-11-05T05:31:28.162Z"
+    },
     {
       "title": "NUEVA CONDENA DE DIEZ AÑOS PARA EL ACTIVISTA JOSHUA WONG",
       "normalizedTokens": [
