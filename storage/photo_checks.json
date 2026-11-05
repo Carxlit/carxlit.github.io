@@ -23,5 +23,10 @@
     "relevant": true,
     "reason": "la imagen muestra al activista Joshua Wong, protagonista de la noticia.",
     "at": "2026-11-05T13:38:17.911Z"
+  },
+  "430be4e446edda6c:34288rra3": {
+    "relevant": true,
+    "reason": "La imagen muestra a Dmitry Peskov, el portavoz del Kremlin mencionado en el resumen como la fuente oficial de la noticia.",
+    "at": "2026-11-05T14:32:23.381Z"
   }
 }

@@ -65,9 +65,37 @@
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLUJfVVA4WjNzYkJpeEVOVXkwQm5uQWFuNDB1MDRqNDVnR2ZUUmVQYjg0dWVnc3NyYmtIaVRhUTc2Ujk4NG5fUGI2NldBMHl5QUh4LTd0enU1YmYycHhjVzlGSzJrNjRsRWlKREh1c3I3a29Sb0lvTVBRMGZuUVNNdkxxZEk4RDRQclA4QkxNSTZRcU1sXzljUTJIS1dMQnFMeWcw?oc=5",
     "https://www.infobae.com/colombia/2026/11/05/pronostico-del-clima-en-cartagena-de-indias-este-5-de-noviembre-temperatura-lluvias-y-viento/",
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOVlxak1MVWVlT0RRbFlKNmx4bFZ6RmVGS0wtM1oyekkxRDFNRThzbVRxNzh3Ylc0WUMyTzA2M1pEQ0p6Wjd0UjVxYklBSGxBblpQWndlZjJxQUxDdDZMR3pOSkJvQWpieWhYRS05WEhTbkNhM05fbTR5c3YxRlNJSlZvQW4wRVRsdHBfLVhpLWtXd2JTZXc?oc=5",
-    "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-cumbre-iberoamericana-de-madrid-en-directo.html"
+    "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-cumbre-iberoamericana-de-madrid-en-directo.html",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNldsM1YzWDROQ0tNWnl2MWJVTWVsaXJHaFlIS21SY1lGWU5WMVd4SWNFVEdVbktUVlVPNmVYVnpMQ0c3UGNITXZWWXNlT2lfSUtTdE96LW16WEZuUUFEU1ZoYWs2aHVHN0J1ZHAtdk0wN1JCLTdJRjc3OUhuWGtEbFZ2eVVsM3N3MVU5a3pnVHoyMFhzWEYwYXhXbngwVWxxZHc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "MOSCÚ DESESTIMA IMPACTO ELECTORAL EN EE.UU. Y MANTIENE CUMBRE DE ABU DABI",
+      "normalizedTokens": [
+        "moscu",
+        "desestima",
+        "impacto",
+        "electoral",
+        "mantiene",
+        "cumbre",
+        "abu",
+        "dabi"
+      ],
+      "date": "2026-11-05T14:32:27.215Z"
+    },
+    {
+      "title": "La reacción del Kremlin tras la victoria del Partido Demócrata en las elecciones estadounidenses.",
+      "normalizedTokens": [
+        "reaccion",
+        "kremlin",
+        "victoria",
+        "partido",
+        "democrata",
+        "elecciones",
+        "estadounidenses"
+      ],
+      "date": "2026-11-05T14:32:27.213Z"
+    },
     {
       "title": "MILEI EQUIPA SOCIALISMO Y FASCISMO EN LA CUMBRE IBEROAMERICANA",
       "normalizedTokens": [
