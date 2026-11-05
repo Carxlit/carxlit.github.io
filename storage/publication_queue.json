@@ -10947,12 +10947,13 @@
         "close": "Lee el análisis completo sobre esta crisis en el enlace del perfil."
       },
       "rawImageUrl": "https://www.diputados.gov.py/storage/01KMGE606FKN0NS2R7FMFJXSJG.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T17:52:35.587Z",
       "cardImageUrl": "/news-cards/news-va4azp1w6-1793901155587.jpg",
       "reelCoverUrl": "/news-cards/news-va4azp1w6-1793901157959-cover.jpg",
       "instagramCardUrl": "/news-cards/news-va4azp1w6-1793901160096-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-santiago-pena-desfalco-detras-ueno-xh1c/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-santiago-pena-desfalco-detras-ueno-xh1c/",
+      "publishedAt": "2026-11-05T22:09:35.566Z"
     },
     "channels": {
       "facebook": true,
@@ -10966,10 +10967,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T22:07:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T17:52:45.107Z"
+    "createdAt": "2026-11-05T17:52:45.107Z",
+    "lastAttemptAt": "2026-11-05T22:07:32.393Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104746147532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "81",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzluwqxfx42d"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17876597253638509",
+        "permalink": "https://www.instagram.com/reel/DfYEd88iM4E/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117566115599867216"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18349113985283267"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T22:09:35.566Z"
   },
   {
     "id": "queue-1793905015252-135ws",
