@@ -10621,12 +10621,13 @@
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/08/1783482824033_peskovtass-11-cropped-cropped-1762965619781.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T14:32:24.800Z",
       "cardImageUrl": "/news-cards/news-34288rra3-1793889144800.jpg",
       "reelCoverUrl": "/news-cards/news-34288rra3-1793889145592-cover.jpg",
       "instagramCardUrl": "/news-cards/news-34288rra3-1793889146102-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/moscu-minimiza-giro-legislativo-washington-blinda-78w3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/moscu-minimiza-giro-legislativo-washington-blinda-78w3/",
+      "publishedAt": "2026-11-05T18:55:05.733Z"
     },
     "channels": {
       "facebook": true,
@@ -10640,10 +10641,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T18:52:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T14:32:27.204Z"
+    "createdAt": "2026-11-05T14:32:27.204Z",
+    "lastAttemptAt": "2026-11-05T18:52:32.349Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104620717532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "79",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzlk2drwzg2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18036317513670562",
+        "permalink": "https://www.instagram.com/reel/DfXuN5UkV5n/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117565350888589768"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18119488886330522"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T18:55:05.733Z"
   },
   {
     "id": "queue-1793896472405-jk8rd",
