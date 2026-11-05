@@ -9187,12 +9187,13 @@
         "title": "Mississippi 2026 General Election results in congressional races",
         "channel": "WJTV 12 News"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T05:31:25.816Z",
       "cardImageUrl": "/news-cards/news-blinti8cw-1793856685816.jpg",
       "reelCoverUrl": "/news-cards/news-blinti8cw-1793856686417-cover.jpg",
       "instagramCardUrl": "/news-cards/news-blinti8cw-1793856686971-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/monopolio-historico-associated-press-control-invisible-ho6a/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/monopolio-historico-associated-press-control-invisible-ho6a/",
+      "publishedAt": "2026-11-05T05:34:41.743Z"
     },
     "channels": {
       "facebook": true,
@@ -9206,10 +9207,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T05:31:28.158Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-05T05:31:28.158Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-05T05:32:25.429Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103973767532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "70",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzk5ddfexb2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18108021500218018",
+        "permalink": "https://www.instagram.com/reel/DfWSnUPIB5q/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117562203672715659"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17887277814652575"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T05:34:41.743Z"
   }
 ]
