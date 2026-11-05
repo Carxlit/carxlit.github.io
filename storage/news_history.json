@@ -56,9 +56,41 @@
     "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
     "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
     "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores",
-    "https://www.abc.es/internacional/corea-sur-desplegara-mision-naval-mantener-abierto-20261105024807-nt.html"
+    "https://www.abc.es/internacional/corea-sur-desplegara-mision-naval-mantener-abierto-20261105024807-nt.html",
+    "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion"
   ],
   "processedSignatures": [
+    {
+      "title": "NUEVA CONDENA DE DIEZ AÑOS PARA EL ACTIVISTA JOSHUA WONG",
+      "normalizedTokens": [
+        "nueva",
+        "condena",
+        "diez",
+        "anos",
+        "activista",
+        "joshua",
+        "wong"
+      ],
+      "date": "2026-11-05T05:16:42.331Z"
+    },
+    {
+      "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
+      "normalizedTokens": [
+        "hong",
+        "kong",
+        "activist",
+        "joshua",
+        "wong",
+        "gets",
+        "more",
+        "years",
+        "jail",
+        "for",
+        "foreign",
+        "collusion"
+      ],
+      "date": "2026-11-05T05:16:42.330Z"
+    },
     {
       "title": "SEÚL DESPLIEGA FUERZAS NAVALES EN EL ESTRECHO DE ORMUZ",
       "normalizedTokens": [
