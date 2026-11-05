@@ -73,14 +73,104 @@ export function buildReelCaption(news: ProcessedNews): string {
   return text.length > 2150 ? `${text.slice(0, 2147)}…` : text;
 }
 
+export interface RecentInstagramPost {
+  id: string;
+  caption?: string;
+  permalink?: string;
+  timestamp?: string;
+}
+
+/**
+ * Normaliza la primera línea del caption para comparar duplicados:
+ * minúsculas, sin tildes ni signos, primeros 60 caracteres.
+ */
+export function normalizeCaptionForDedupe(text: string): string {
+  const firstLine = (text || '').trim().split(/\r?\n/)[0].trim();
+  return firstLine
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]/g, '')
+    .slice(0, 60);
+}
+
+/**
+ * Consulta los últimos 15 posts de la cuenta de Instagram
+ */
+export async function getRecentInstagramPosts(
+  pageToken: string,
+  igUser?: string,
+  limit = 15
+): Promise<RecentInstagramPost[]> {
+  const user = (igUser || process.env.INSTAGRAM_USER_ID || '').trim();
+  if (!user || !pageToken) return [];
+  try {
+    const res = await fetch(
+      `${GRAPH}/${user}/media?fields=id,caption,permalink,timestamp&limit=${limit}`,
+      { headers: { Authorization: `Bearer ${pageToken}` }, signal: AbortSignal.timeout(15_000) }
+    );
+    const data: any = await res.json().catch(() => ({}));
+    if (!res.ok || !Array.isArray(data.data)) return [];
+    return data.data;
+  } catch (err: any) {
+    console.warn('[Instagram] Error consultando posts recientes:', err?.message);
+    return [];
+  }
+}
+
+/**
+ * Busca si un caption ya fue publicado en las últimas 48 horas en los posts recientes
+ */
+export function findMatchingInstagramPost(
+  targetCaption: string,
+  posts: RecentInstagramPost[],
+  maxAgeHours = 48,
+  altCaption?: string
+): RecentInstagramPost | null {
+  const targetNorm = normalizeCaptionForDedupe(targetCaption);
+  const altNorm = altCaption ? normalizeCaptionForDedupe(altCaption) : '';
+  if (!targetNorm && !altNorm) return null;
+
+  const now = Date.now();
+  const maxAgeMs = maxAgeHours * 3600 * 1000;
+
+  for (const post of posts) {
+    if (!post.caption || !post.timestamp) continue;
+    const postTime = new Date(post.timestamp).getTime();
+    if (isNaN(postTime) || (now - postTime) > maxAgeMs) continue;
+
+    const postNorm = normalizeCaptionForDedupe(post.caption);
+    if (!postNorm) continue;
+
+    if (postNorm === targetNorm || (altNorm && postNorm === altNorm)) {
+      return post;
+    }
+  }
+  return null;
+}
+
 /**
  * Instagram (cuenta profesional vinculada a la página de Facebook) con la Graph API:
  * contenedor de imagen → esperar a que se procese → publicar.
  * Necesita INSTAGRAM_USER_ID y un token de página con instagram_content_publish.
  */
-export async function publishToInstagram(news: ProcessedNews, pageToken?: string): Promise<ChannelResult & { mediaId?: string }> {
+export async function publishToInstagram(
+  news: ProcessedNews,
+  pageToken?: string
+): Promise<ChannelResult & { mediaId?: string; permalink?: string }> {
   const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
   if (!igUser || !pageToken) return { success: false, error: 'Instagram sin cuenta vinculada o sin token' };
+
+  const caption = buildInstagramCaption(news);
+
+  // Guarda de duplicados: consultar últimos 15 posts en las últimas 48h
+  const recentPosts = await getRecentInstagramPosts(pageToken, igUser, 15);
+  const existing = findMatchingInstagramPost(caption, recentPosts, 48, news.headline);
+  if (existing) {
+    console.log('[Instagram] Ya publicado, se evita el duplicado');
+    return { success: true, mediaId: existing.id, permalink: existing.permalink };
+  }
+
   const imageUrl = publicCardUrl(news);
   if (!imageUrl) return { success: false, error: 'Instagram necesita la imagen pública del artículo (PUBLIC_SITE_URL)' };
 
@@ -96,7 +186,7 @@ export async function publishToInstagram(news: ProcessedNews, pageToken?: string
     const container = await call(`${GRAPH}/${igUser}/media`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ image_url: imageUrl, caption: buildInstagramCaption(news) }),
+      body: JSON.stringify({ image_url: imageUrl, caption }),
     });
     // Instagram descarga y procesa la imagen de forma asíncrona
     for (let i = 0; i < 12; i++) {
@@ -105,12 +195,25 @@ export async function publishToInstagram(news: ProcessedNews, pageToken?: string
       if (st.status_code === 'ERROR' || st.status_code === 'EXPIRED') throw new Error(`Instagram no pudo procesar la imagen (${st.status_code})`);
       await new Promise((r) => setTimeout(r, 5000));
     }
-    const published = await call(`${GRAPH}/${igUser}/media_publish`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ creation_id: container.id }),
-    });
-    return { success: true, mediaId: published.id };
+
+    try {
+      const published = await call(`${GRAPH}/${igUser}/media_publish`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ creation_id: container.id }),
+      });
+      return { success: true, mediaId: published.id };
+    } catch (pubErr: any) {
+      console.warn('[Instagram] Error en media_publish de imagen:', pubErr?.message);
+      // Volver a consultar por si Meta completó la publicación pese al error de red
+      const recheck = await getRecentInstagramPosts(pageToken, igUser, 15);
+      const matched = findMatchingInstagramPost(caption, recheck, 48, news.headline);
+      if (matched) {
+        console.log('[Instagram] Ya publicado, se evita el duplicado');
+        return { success: true, mediaId: matched.id, permalink: matched.permalink };
+      }
+      throw pubErr;
+    }
   } catch (err: any) {
     return { success: false, error: `Instagram: ${err?.message}` };
   }
@@ -140,26 +243,41 @@ export async function publishInstagramReel(
   opts: { cover?: boolean } = {}
 ): Promise<ChannelResult & { mediaId?: string; permalink?: string }> {
   const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
+  if (!igUser || !pageToken) return { success: false, error: 'Instagram sin cuenta vinculada o sin token' };
+
+  const caption = [buildInstagramCaption(news), videoCredit(news)].filter(Boolean).join('\n\n');
+
+  // 1. Guarda de duplicados antes de publicar: consultar últimos 15 posts en las últimas 48h
+  const recentPosts = await getRecentInstagramPosts(pageToken, igUser, 15);
+  const existing = findMatchingInstagramPost(caption, recentPosts, 48, news.headline);
+  if (existing) {
+    console.log('[Instagram] Ya publicado, se evita el duplicado');
+    return { success: true, mediaId: existing.id, permalink: existing.permalink };
+  }
+
   // La subida reanudable a Instagram necesita una versión reciente de la Graph API
   const REEL_API = 'v23.0';
   // Portada propia (img/<slug>-cover.jpg del sitio) para la cuadrícula del perfil; sin ella, Instagram toma un fotograma
   const site = (process.env.PUBLIC_SITE_URL || '').trim().replace(/\/+$/, '');
   const slug = news.article?.slug;
   const coverUrl = opts.cover !== false && site && slug && fs.existsSync(path.join(process.cwd(), 'site', 'img', `${slug}-cover.jpg`)) ? `${site}/img/${slug}-cover.jpg` : undefined;
+
+  let containerId: string | undefined;
   try {
     const init = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media`, {
       method: 'POST',
       headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
-      media_type: 'REELS',
-      upload_type: 'resumable',
-      caption: [buildInstagramCaption(news), videoCredit(news)].filter(Boolean).join('\n\n'),
-      share_to_feed: true,
-      ...(coverUrl ? { cover_url: coverUrl } : {}),
-    }),
+        media_type: 'REELS',
+        upload_type: 'resumable',
+        caption,
+        share_to_feed: true,
+        ...(coverUrl ? { cover_url: coverUrl } : {}),
+      }),
     });
-    const container: any = await init.json();
+    const container: any = await init.json().catch(() => ({}));
     if (!init.ok || !container.id) throw new Error(container.error?.message || `HTTP ${init.status}`);
+    containerId = container.id;
 
     const bytes = fs.readFileSync(videoPath);
     const up = await fetch(container.uri || `https://rupload.facebook.com/ig-api-upload/${REEL_API}/${container.id}`, {
@@ -177,18 +295,75 @@ export async function publishInstagramReel(
     if (!up.ok || upData.success === false) throw new Error(`subida: ${upData.debug_info?.message || upData.error?.message || up.status}`);
 
     await waitForIgContainer(container.id, pageToken, 240);
-    const pub = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media_publish`, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ creation_id: container.id }),
-    });
-    const published: any = await pub.json();
-    if (!pub.ok || !published.id) throw new Error(published.error?.message || `HTTP ${pub.status}`);
+
+    // Publicar contenedor
+    let publishedId: string | undefined;
+    try {
+      const pub = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media_publish`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ creation_id: container.id }),
+        signal: AbortSignal.timeout(60_000),
+      });
+      const published: any = await pub.json().catch(() => ({}));
+      if (pub.ok && published.id) {
+        publishedId = published.id;
+      } else {
+        throw new Error(published.error?.message || `HTTP ${pub.status}`);
+      }
+    } catch (pubErr: any) {
+      console.warn('[Instagram] Error en media_publish:', pubErr?.message);
+      // 2. Mirar el estado del contenedor
+      const st: any = await fetch(`${GRAPH}/${container.id}?fields=status_code,status`, {
+        headers: { Authorization: `Bearer ${pageToken}` },
+      }).then((r) => r.json()).catch(() => ({}));
+      console.log(`[Instagram] Estado del contenedor tras fallo de media_publish: ${st?.status_code || 'desconocido'}`);
+
+      // Volver a listar los últimos posts: si ya está publicado, éxito con ese permalink
+      const checkPosts = await getRecentInstagramPosts(pageToken, igUser, 15);
+      const matched = findMatchingInstagramPost(caption, checkPosts, 48, news.headline);
+      if (matched) {
+        console.log('[Instagram] Ya publicado, se evita el duplicado');
+        return { success: true, mediaId: matched.id, permalink: matched.permalink };
+      }
+
+      // Si no aparece aún pero el contenedor sigue listo (FINISHED), intentar publicar una vez más
+      if (st?.status_code === 'FINISHED' || !st?.status_code) {
+        await new Promise((r) => setTimeout(r, 8000));
+        try {
+          const retryPub = await fetch(`https://graph.facebook.com/${REEL_API}/${igUser}/media_publish`, {
+            method: 'POST',
+            headers: { Authorization: `Bearer ${pageToken}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ creation_id: container.id }),
+            signal: AbortSignal.timeout(60_000),
+          });
+          const retryData: any = await retryPub.json().catch(() => ({}));
+          if (retryPub.ok && retryData.id) {
+            publishedId = retryData.id;
+          }
+        } catch {
+          // Si el retry falla por red, volver a verificar posts recientes
+        }
+        if (!publishedId) {
+          const recheck = await getRecentInstagramPosts(pageToken, igUser, 15);
+          const matchedRecheck = findMatchingInstagramPost(caption, recheck, 48, news.headline);
+          if (matchedRecheck) {
+            console.log('[Instagram] Ya publicado, se evita el duplicado');
+            return { success: true, mediaId: matchedRecheck.id, permalink: matchedRecheck.permalink };
+          }
+        }
+      }
+
+      if (!publishedId) {
+        throw new Error(`media_publish: ${pubErr?.message}`);
+      }
+    }
+
     // Enlace público del Reel: el artículo del sitio lo muestra incrustado
-    const info: any = await fetch(`https://graph.facebook.com/${REEL_API}/${published.id}?fields=permalink`, {
+    const info: any = await fetch(`https://graph.facebook.com/${REEL_API}/${publishedId}?fields=permalink`, {
       headers: { Authorization: `Bearer ${pageToken}` },
     }).then((r) => r.json()).catch(() => ({}));
-    return { success: true, mediaId: published.id, permalink: info?.permalink };
+    return { success: true, mediaId: publishedId, permalink: info?.permalink };
   } catch (err: any) {
     return { success: false, error: `Reel de Instagram: ${err?.message}` };
   }

@@ -5,6 +5,7 @@ import { publishToFacebook } from './facebook-publisher';
 import { publishToLinkedInCompany } from './linkedin-publisher';
 import { getBlueskySession, invalidateBlueskySession, buildFacets } from './bluesky-client';
 import { composeBlueskyText } from './post-links';
+import { normalizeCaptionForDedupe } from './extra-publishers';
 
 export interface MultiPublishConfig {
   facebook?: {

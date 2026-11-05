@@ -1,4 +1,5 @@
 import path from 'path';
+import { execSync } from 'child_process';
 import {
   QueuedPublication,
   ProcessedNews,
@@ -71,6 +72,26 @@ export function getPublicationQueue(): QueuedPublication[] {
 /**
  * Guarda la cola persistente (escritura atómica) y poda el histórico cerrado
  */
+/**
+ * Guarda en git el estado de la redacción inmediatamente tras cada publicación exitosa en redes.
+ * Solo activo en GitHub Actions (en local no interrumpe ni corre comandos bash de actions).
+ */
+export function persistStateToGit(message?: string): boolean {
+  if (process.env.GITHUB_ACTIONS !== 'true') return false;
+  try {
+    const cleanMsg = (message || 'Publicaciones').replace(/["`$\\]/g, ' ').slice(0, 60).trim();
+    console.log(`[QueueDispatcher] Guardando estado en git tras publicación: "${cleanMsg}"...`);
+    execSync(`bash deploy/github/save-state.sh "${cleanMsg}"`, {
+      stdio: 'inherit',
+      timeout: 180_000,
+    });
+    return true;
+  } catch (err: any) {
+    console.warn('[QueueDispatcher] Error guardando estado en git tras publicación:', err?.message);
+    return false;
+  }
+}
+
 export function savePublicationQueue(queue: QueuedPublication[]) {
   try {
     const open = queue.filter((q) => q.status === 'queued' || q.status === 'publishing');
@@ -310,6 +331,16 @@ export async function publishMissingChannels(
     if (results[ch]?.success || results[ch]?.skipped) continue;
     const res = await publishToChannel(ch, newsPayload, creds, item.attempts >= item.maxAttempts);
     results[ch] = res as any;
+    if (res.success) {
+      item.results = { ...results };
+      // Guardar de inmediato en disco para que ningún canal exitoso se pierda si otro falla después
+      const curQueue = getPublicationQueue();
+      const idx = curQueue.findIndex((q) => q.id === item.id);
+      if (idx !== -1) {
+        curQueue[idx].results = { ...(curQueue[idx].results || {}), [ch]: res };
+        savePublicationQueue(curQueue);
+      }
+    }
     if (!res.success && !res.skipped) {
       lastError = `${ch}: ${res.error || 'error desconocido'}`;
       console.warn(`[QueueDispatcher] Falló ${ch}:`, res.error);
@@ -442,6 +473,11 @@ export async function dispatchDueItems(
   queue.forEach((q) => { if (!latest.some((l) => l.id === q.id)) merged.push(q); });
   savePublicationQueue(merged);
 
+  // Si se publicó con éxito en al menos un canal, persistir en git de inmediato
+  if (due && CHANNELS.some((ch) => due.results?.[ch]?.success)) {
+    persistStateToGit(`Publicado: ${due.news.headline}`);
+  }
+
   return { processed: processedItems.length, items: processedItems };
 }
 
@@ -490,5 +526,10 @@ export async function forcePublishQueuedItem(
   if (latestIdx !== -1) latest[latestIdx] = updated;
   else latest.push(updated);
   savePublicationQueue(latest);
+
+  if (updated && CHANNELS.some((ch) => updated.results?.[ch]?.success)) {
+    persistStateToGit(`Publicado urgente: ${updated.news.headline}`);
+  }
+
   return updated;
 }

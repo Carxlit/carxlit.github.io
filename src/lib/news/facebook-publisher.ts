@@ -2,12 +2,72 @@ import fs from 'fs';
 import path from 'path';
 import { ProcessedNews } from '@/types/news';
 import { getStoredCredentials } from '@/lib/config/credentials-manager';
+import { normalizeCaptionForDedupe } from './extra-publishers';
 
 interface PublishResult {
   success: boolean;
   postId?: string;
   simulated?: boolean;
   error?: string;
+}
+
+export interface RecentFacebookPost {
+  id: string;
+  message?: string;
+  created_time?: string;
+}
+
+/**
+ * Consulta los últimos posts publicados en la página de Facebook
+ */
+export async function getRecentFacebookPosts(
+  pageId: string,
+  accessToken: string,
+  limit = 15
+): Promise<RecentFacebookPost[]> {
+  try {
+    const res = await fetch(
+      `https://graph.facebook.com/v19.0/${pageId}/posts?fields=id,message,created_time&limit=${limit}&access_token=${accessToken}`,
+      { signal: AbortSignal.timeout(15_000) }
+    );
+    const data: any = await res.json().catch(() => ({}));
+    if (!res.ok || !Array.isArray(data.data)) return [];
+    return data.data;
+  } catch (err: any) {
+    console.warn('[Facebook] Error consultando posts recientes:', err?.message);
+    return [];
+  }
+}
+
+/**
+ * Busca si un mensaje ya fue publicado en Facebook en las últimas 48 horas
+ */
+export function findMatchingFacebookPost(
+  targetText: string,
+  posts: RecentFacebookPost[],
+  maxAgeHours = 48,
+  altText?: string
+): RecentFacebookPost | null {
+  const targetNorm = normalizeCaptionForDedupe(targetText);
+  const altNorm = altText ? normalizeCaptionForDedupe(altText) : '';
+  if (!targetNorm && !altNorm) return null;
+
+  const now = Date.now();
+  const maxAgeMs = maxAgeHours * 3600 * 1000;
+
+  for (const post of posts) {
+    if (!post.message || !post.created_time) continue;
+    const postTime = new Date(post.created_time).getTime();
+    if (isNaN(postTime) || (now - postTime) > maxAgeMs) continue;
+
+    const postNorm = normalizeCaptionForDedupe(post.message);
+    if (!postNorm) continue;
+
+    if (postNorm === targetNorm || (altNorm && postNorm === altNorm)) {
+      return post;
+    }
+  }
+  return null;
 }
 
 /**
@@ -34,6 +94,14 @@ export async function publishToFacebook(
   }
 
   try {
+    // 1. Guarda de duplicados previa
+    const recent = await getRecentFacebookPosts(finalPageId, finalToken, 15);
+    const existing = findMatchingFacebookPost(news.facebookPost, recent, 48, news.headline);
+    if (existing) {
+      console.log('[Facebook] Ya publicado, se evita el duplicado');
+      return { success: true, postId: existing.id, simulated: false };
+    }
+
     const fullImagePath = news.cardImageUrl 
       ? path.join(process.cwd(), 'public', news.cardImageUrl.replace(/^\//, ''))
       : null;
@@ -53,11 +121,19 @@ export async function publishToFacebook(
     const response = await fetch(`https://graph.facebook.com/v19.0/${finalPageId}/photos`, {
       method: 'POST',
       body: formData,
+      signal: AbortSignal.timeout(60_000),
     });
 
-    const data = await response.json();
+    const data: any = await response.json().catch(() => ({}));
 
     if (!response.ok || data.error) {
+      // Re-consultar si se publicó pese al error de red
+      const recheck = await getRecentFacebookPosts(finalPageId, finalToken, 15);
+      const matched = findMatchingFacebookPost(news.facebookPost, recheck, 48, news.headline);
+      if (matched) {
+        console.log('[Facebook] Ya publicado, se evita el duplicado');
+        return { success: true, postId: matched.id, simulated: false };
+      }
       throw new Error(data.error?.message || 'Error al comunicarse con Meta Graph API');
     }
 
@@ -74,4 +150,3 @@ export async function publishToFacebook(
     };
   }
 }
-

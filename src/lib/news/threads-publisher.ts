@@ -3,6 +3,7 @@ import path from 'path';
 import crypto from 'crypto';
 import { ProcessedNews, ChannelResult } from '@/types/news';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
+import { normalizeCaptionForDedupe } from './extra-publishers';
 
 /**
  * Threads (API oficial de Meta, gratis): post con la tarjeta y el enlace al artículo (en Threads los enlaces sí son clicables).
@@ -88,10 +89,76 @@ function publicImageUrl(news: ProcessedNews): string | undefined {
   return fs.existsSync(path.join(process.cwd(), 'site', 'img', `${slug}-ig.jpg`)) ? `${site}/img/${slug}-ig.jpg` : `${site}/img/${slug}.jpg`;
 }
 
+export interface RecentThreadsPost {
+  id: string;
+  text?: string;
+  timestamp?: string;
+  permalink?: string;
+}
+
+/** Consulta los últimos posts publicados en Threads */
+export async function getRecentThreadsPosts(
+  userId: string,
+  token: string,
+  limit = 15
+): Promise<RecentThreadsPost[]> {
+  try {
+    const res = await fetch(
+      `${API}/${userId}/threads?fields=id,text,timestamp,permalink&limit=${limit}`,
+      { headers: { Authorization: `Bearer ${token}` }, signal: AbortSignal.timeout(15_000) }
+    );
+    const data: any = await res.json().catch(() => ({}));
+    if (!res.ok || !Array.isArray(data.data)) return [];
+    return data.data;
+  } catch (err: any) {
+    console.warn('[Threads] Error consultando posts recientes:', err?.message);
+    return [];
+  }
+}
+
+/** Busca si un texto ya fue publicado en Threads en las últimas 48 horas */
+export function findMatchingThreadsPost(
+  targetText: string,
+  posts: RecentThreadsPost[],
+  maxAgeHours = 48,
+  altText?: string
+): RecentThreadsPost | null {
+  const targetNorm = normalizeCaptionForDedupe(targetText);
+  const altNorm = altText ? normalizeCaptionForDedupe(altText) : '';
+  if (!targetNorm && !altNorm) return null;
+
+  const now = Date.now();
+  const maxAgeMs = maxAgeHours * 3600 * 1000;
+
+  for (const post of posts) {
+    if (!post.text || !post.timestamp) continue;
+    const postTime = new Date(post.timestamp).getTime();
+    if (isNaN(postTime) || (now - postTime) > maxAgeMs) continue;
+
+    const postNorm = normalizeCaptionForDedupe(post.text);
+    if (!postNorm) continue;
+
+    if (postNorm === targetNorm || (altNorm && postNorm === altNorm)) {
+      return post;
+    }
+  }
+  return null;
+}
+
 export async function publishToThreads(news: ProcessedNews): Promise<ChannelResult & { postId?: string }> {
   const userId = (process.env.THREADS_USER_ID || '').trim();
   const token = await getThreadsToken();
   if (!userId || !token) return { success: false, skipped: true, error: 'Threads sin configurar' };
+
+  const text = buildThreadsText(news);
+
+  // 1. Guarda de duplicados previa: consultar últimos 15 posts en las últimas 48 h
+  const recent = await getRecentThreadsPosts(userId, token, 15);
+  const existing = findMatchingThreadsPost(text, recent, 48, news.headline);
+  if (existing) {
+    console.log('[Threads] Ya publicado, se evita el duplicado');
+    return { success: true, postId: existing.id };
+  }
 
   const call = async (url: string, params: Record<string, string>) => {
     const res = await fetch(url, {
@@ -109,7 +176,7 @@ export async function publishToThreads(news: ProcessedNews): Promise<ChannelResu
     const image = publicImageUrl(news);
     const container = await call(`${API}/${userId}/threads`, {
       media_type: image ? 'IMAGE' : 'TEXT',
-      text: buildThreadsText(news),
+      text,
       ...(image ? { image_url: image } : {}),
     });
     // Meta pide esperar a que el contenedor termine de procesarse antes de publicar
@@ -121,8 +188,22 @@ export async function publishToThreads(news: ProcessedNews): Promise<ChannelResu
       if (st.status === 'FINISHED') break;
       if (st.status === 'ERROR' || st.status === 'EXPIRED') throw new Error(`procesamiento ${st.status}: ${st.error_message || ''}`);
     }
-    const published = await call(`${API}/${userId}/threads_publish`, { creation_id: container.id });
-    return { success: true, postId: published.id };
+
+    try {
+      const published = await call(`${API}/${userId}/threads_publish`, { creation_id: container.id });
+      return { success: true, postId: published.id };
+    } catch (pubErr: any) {
+      console.warn('[Threads] Error en threads_publish:', pubErr?.message);
+      // Volver a consultar por si Meta lo publicó pese al error ("An unknown error occurred")
+      await new Promise((r) => setTimeout(r, 6000));
+      const recheck = await getRecentThreadsPosts(userId, token, 15);
+      const matched = findMatchingThreadsPost(text, recheck, 48, news.headline);
+      if (matched) {
+        console.log('[Threads] Ya publicado, se evita el duplicado');
+        return { success: true, postId: matched.id };
+      }
+      throw pubErr;
+    }
   } catch (err: any) {
     return { success: false, error: `Threads: ${err?.message}` };
   }
