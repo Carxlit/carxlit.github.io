@@ -38,5 +38,10 @@
     "relevant": false,
     "reason": "Es una infografía médica sobre la fragilidad en personas mayores, totalmente ajena a la infraestructura de inteligencia artificial.",
     "at": "2026-11-05T16:34:29.284Z"
+  },
+  "13d385bb6ce7ef1a:va4azp1w6": {
+    "relevant": true,
+    "reason": "Muestra el hemiciclo de la Cámara de Diputados de Paraguay, la institución central mencionada en la noticia.",
+    "at": "2026-11-05T17:52:34.151Z"
   }
 }

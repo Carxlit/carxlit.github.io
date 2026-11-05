@@ -67,9 +67,38 @@
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOVlxak1MVWVlT0RRbFlKNmx4bFZ6RmVGS0wtM1oyekkxRDFNRThzbVRxNzh3Ylc0WUMyTzA2M1pEQ0p6Wjd0UjVxYklBSGxBblpQWndlZjJxQUxDdDZMR3pOSkJvQWpieWhYRS05WEhTbkNhM05fbTR5c3YxRlNJSlZvQW4wRVRsdHBfLVhpLWtXd2JTZXc?oc=5",
     "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-cumbre-iberoamericana-de-madrid-en-directo.html",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNldsM1YzWDROQ0tNWnl2MWJVTWVsaXJHaFlIS21SY1lGWU5WMVd4SWNFVEdVbktUVlVPNmVYVnpMQ0c3UGNITXZWWXNlT2lfSUtTdE96LW16WEZuUUFEU1ZoYWs2aHVHN0J1ZHAtdk0wN1JCLTdJRjc3OUhuWGtEbFZ2eVVsM3N3MVU5a3pnVHoyMFhzWEYwYXhXbngwVWxxZHc?oc=5",
-    "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book"
+    "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+    "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "EL JUICIO POLÍTICO A SANTIAGO PEÑA TRAS SU RENUNCIA",
+      "normalizedTokens": [
+        "juicio",
+        "politico",
+        "santiago",
+        "pena",
+        "renuncia"
+      ],
+      "date": "2026-11-05T17:52:45.112Z"
+    },
+    {
+      "title": "Diputados de Paraguay votan por unanimidad el juicio político a Santiago Peña pese a su renuncia como presidente",
+      "normalizedTokens": [
+        "diputados",
+        "paraguay",
+        "votan",
+        "unanimidad",
+        "juicio",
+        "politico",
+        "santiago",
+        "pena",
+        "pese",
+        "renuncia",
+        "presidente"
+      ],
+      "date": "2026-11-05T17:52:45.112Z"
+    },
     {
       "title": "EL COSTE OCULTO DE LA INFRAESTRUCTURA DE IA",
       "normalizedTokens": [

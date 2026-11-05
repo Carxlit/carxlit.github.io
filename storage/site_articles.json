@@ -1,5 +1,77 @@
 [
   {
+    "slug": "caida-santiago-pena-desfalco-detras-ueno-xh1c",
+    "path": "noticias/caida-santiago-pena-desfalco-detras-ueno-xh1c/",
+    "title": "La caída de Santiago Peña y el desfalco detrás de Ueno Bank",
+    "headline": "EL JUICIO POLÍTICO A SANTIAGO PEÑA TRAS SU RENUNCIA",
+    "dek": "La renuncia del presidente paraguayo no ha cerrado la crisis política tras la intervención de Ueno Bank. El Congreso busca responsabilidades por el uso de fondos públicos en un sistema financiero bajo sospecha.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "BBC Mundo",
+    "image": "img/caida-santiago-pena-desfalco-detras-ueno-xh1c.jpg",
+    "photo": "img/caida-santiago-pena-desfalco-detras-ueno-xh1c-foto.jpg",
+    "publishedAt": "2026-11-05T17:52:45.046Z",
+    "article": {
+      "slug": "caida-santiago-pena-desfalco-detras-ueno-xh1c",
+      "title": "La caída de Santiago Peña y el desfalco detrás de Ueno Bank",
+      "dek": "La renuncia del presidente paraguayo no ha cerrado la crisis política tras la intervención de Ueno Bank. El Congreso busca responsabilidades por el uso de fondos públicos en un sistema financiero bajo sospecha.",
+      "keyFacts": [
+        "La Cámara de Diputados votó por unanimidad continuar el juicio político a Peña pese a su renuncia.",
+        "Ueno Bank administraba 850 millones de dólares en fondos públicos del Instituto de Previsión Social.",
+        "El senador Rafael Filizzola estima que el monto total del fraude podría ascender a 3.000 millones de dólares.",
+        "Ueno Bank contaba con 3 millones de clientes, equivalentes a dos de cada tres paraguayos.",
+        "El Banco Central del Paraguay inició la disolución de Ueno tras detectar un índice de solvencia inferior a la mitad del mínimo legal."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El jueves, el presidente de Paraguay, Santiago Peña, presentó su renuncia en medio de una tormenta política desatada por la intervención de Ueno Bank. A pesar de su salida, los 78 diputados presentes en la Cámara votaron a favor de continuar con el juicio político, dejando la decisión final en manos del Senado. La acusación central es el mal desempeño de funciones en la gestión de la crisis bancaria que ha afectado a gran parte de la población."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La entidad, surgida de la Financiera El Comercio y consolidada tras la compra por el Grupo Vásquez en 2021, había logrado una expansión agresiva. En 2024 absorbió Visión Banco y, para septiembre de 2026, ya gestionaba las cuentas de 3 millones de clientes. Sin embargo, el Banco Central del Paraguay reveló esta semana que la solvencia del banco era crítica, obligando a su disolución inmediata."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Lo que la narrativa oficial omite es que Ueno Bank funcionaba como un brazo ejecutor de fondos públicos. Según datos del senador Rafael Filizzola, la entidad administraba 850 millones de dólares en recursos del Instituto de Previsión Social, destinados a pensiones y jubilaciones. La oposición sostiene que la estructura del banco fue diseñada desde el poder político para trasladar capital público a negocios privados. Las proyecciones de las pérdidas totales sugieren que el desfalco podría alcanzar los 3.000 millones de dólares, una cifra sin precedentes en la era democrática del país."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los ciudadanos paraguayos son los principales damnificados, con dos de cada tres personas afectadas por la disolución de la entidad. Mientras tanto, el poder político se encuentra en una lucha interna por desvincularse de la red de intereses que permitió el ascenso de Ueno. Peña, quien fue accionista del grupo propietario hasta 2025, enfrenta ahora un proceso que busca su inhabilitación política permanente."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "La próxima sesión del Senado será determinante. Si el proceso de destitución prospera, sentará un precedente sobre la rendición de cuentas de los altos funcionarios. Asimismo, es imperativo monitorear el impacto de la disolución de Ueno en el sistema financiero nacional y las posibles ramificaciones legales para los directivos del conglomerado involucrado."
+          ]
+        }
+      ],
+      "tags": [
+        "Paraguay",
+        "Corrupción",
+        "Banca",
+        "Crisis Institucional",
+        "Santiago Peña"
+      ],
+      "sources": [
+        {
+          "name": "BBC Mundo",
+          "title": "Diputados de Paraguay votan por unanimidad el juicio político a Santiago Peña pese a su renuncia como presidente",
+          "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wordCount": 382
+    },
+    "blindSpot": "El caso no es una simple crisis financiera, sino el colapso de un modelo donde el Estado fue utilizado para capitalizar una entidad privada vinculada al poder. La cifra real de fondos comprometidos podría alcanzar los 3.000 millones de dólares, exponiendo una arquitectura de captación de recursos públicos diseñada desde la cúpula gubernamental."
+  },
+  {
     "slug": "fragilidad-oculta-detras-auge-inteligencia-artificial-bz0p",
     "path": "noticias/fragilidad-oculta-detras-auge-inteligencia-artificial-bz0p/",
     "title": "La fragilidad oculta detrás del auge de la inteligencia artificial",
