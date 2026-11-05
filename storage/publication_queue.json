@@ -10247,11 +10247,12 @@
         "close": "Lee el análisis completo de este movimiento estratégico en nuestro perfil"
       },
       "rawImageUrl": "https://s.yimg.com/lo/mysterio/api/dbb2f9b1c5aa78cf6519ac132c06eba01fb33bb1161eeed6e5962d711ab69f7d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Freuters.com%2F3060e00cd18b6b7478d4467fb4a592ce.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T12:34:05.370Z",
       "cardImageUrl": "/news-cards/news-ancmnksvx-1793882045370.jpg",
       "reelCoverUrl": "/news-cards/news-ancmnksvx-1793882045956-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-ancmnksvx-1793882046475-ig.jpg"
+      "instagramCardUrl": "/news-cards/news-ancmnksvx-1793882046475-ig.jpg",
+      "publishedAt": "2026-11-05T16:33:10.777Z"
     },
     "channels": {
       "facebook": true,
@@ -10265,11 +10266,11 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T16:27:38.819Z",
-    "status": "queued",
-    "attempts": 2,
+    "status": "published",
+    "attempts": 3,
     "maxAttempts": 3,
     "createdAt": "2026-11-05T12:34:07.003Z",
-    "lastAttemptAt": "2026-11-05T16:10:52.918Z",
+    "lastAttemptAt": "2026-11-05T16:33:09.968Z",
     "results": {
       "facebookReel": {
         "success": false,
@@ -10310,7 +10311,8 @@
         "error": "Noticia sin video libre: no se sube a YouTube"
       }
     },
-    "error": "Reintento 2/3: threads: Threads: An unknown error occurred"
+    "error": "Publicado parcialmente. No se pudo en: threads",
+    "publishedAt": "2026-11-05T16:33:10.777Z"
   },
   {
     "id": "queue-1793885494545-enhzu",
@@ -10599,5 +10601,131 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-05T14:32:27.204Z"
+  },
+  {
+    "id": "queue-1793896472405-jk8rd",
+    "news": {
+      "id": "vhrtgje3q",
+      "originalUrl": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "originalTitle": "The hidden supply chain costs of the AI boom",
+      "sourceName": "The Verge",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 82,
+      "headline": "EL COSTE OCULTO DE LA INFRAESTRUCTURA DE IA",
+      "subHeadline": "La expansión masiva de la inteligencia artificial choca con una cadena de suministro global que no logra reshoring ni estabilidad.",
+      "blindSpotAngle": "Más allá de la capacidad de cómputo, el verdadero cuello de botella es la inexistencia de ecosistemas industriales locales capaces de soportar la infraestructura de hardware necesaria. La retórica política sobre la relocalización ignora que los proveedores de componentes críticos siguen atados a una red logística global que no puede replicarse artificialmente.",
+      "facebookPost": "La narrativa oficial celebra la soberanía tecnológica y el reshoring industrial en Occidente. Sin embargo, la realidad de la cadena de suministro cuenta una historia distinta: la construcción de la infraestructura necesaria para la IA está atrapada en una red global que no puede ser replicada por decreto político.\n\nEl punto ciego no es el software, sino la fragilidad del hardware y la imposibilidad de sostener una fabricación local competitiva. Estamos consumiendo recursos a un ritmo récord sin haber resuelto la dependencia de los nodos logísticos que los gobiernos pretenden ignorar.\n\n¿Es la relocalización industrial un objetivo estratégico real o simplemente una ilusión política que encarece la innovación?\n\nFuente: The Verge",
+      "telegramPost": "<b>EL COSTE OCULTO DE LA INFRAESTRUCTURA DE IA</b>\n\n• <b>Qué ocurrió:</b> La expansión de la IA ha desatado una crisis de recursos infraestructurales, exponiendo la incapacidad de los países occidentales para fabricar localmente componentes clave.\n• <b>Por qué importa:</b> La retórica política sobre el fin de la globalización choca con la realidad de unas cadenas de suministro que siguen dependiendo de China y de una logística que no puede ser sustituida por aranceles.\n• <b>Qué sigue:</b> Un periodo de volatilidad en los costes de hardware mientras la demanda de cómputo devora los recursos disponibles, sin una alternativa de producción local viable en el corto plazo.",
+      "linkedInPost": "La fiebre de la IA está devorando recursos a una escala sin precedentes, pero el análisis macroestratégico sigue ignorando el eslabón más débil: la cadena de suministro de hardware. A pesar de los esfuerzos por relocalizar la producción y los cambios en los aranceles, la realidad operativa es que el ecosistema industrial necesario para soportar este crecimiento no existe en Occidente.\n\nLa lección de Harvard y otros analistas es clara: la economía detrás de la infraestructura física es rígida. Mientras las empresas compiten por capacidad, la dependencia de redes globales ineficientes aumenta el riesgo sistémico. La competitividad no vendrá de la retórica, sino de entender dónde se fabrican realmente nuestros componentes críticos.\n\nFuente: The Verge\n\n#PuntoCiego #IA #CadenaDeSuministro",
+      "blueskyPost": "La infraestructura de IA devora recursos, pero el hardware sigue dependiendo de una cadena de suministro global que el proteccionismo no logra replicar. La soberanía tecnológica es, por ahora, una quimera logística. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "La narrativa oficial celebra la soberanía tecnológica y el reshoring industrial en Occidente. Sin embargo, la realidad de la cadena de suministro cuenta una historia distinta: la construcción de la infraestructura necesaria para la IA está atrapada en una red global que no puede ser replicada por decreto político.\n\nEl punto ciego no es el software, sino la fragilidad del hardware y la imposibilidad de sostener una fabricación local competitiva. Estamos consumiendo recursos a un ritmo récord sin haber resuelto la dependencia de los nodos logísticos que los gobiernos pretenden ignorar.\n\n¿Es la relocalización industrial un objetivo estratégico real o simplemente una ilusión política que encarece la innovación?",
+        "telegram": "<b>EL COSTE OCULTO DE LA INFRAESTRUCTURA DE IA</b>\n\n• <b>Qué ocurrió:</b> La expansión de la IA ha desatado una crisis de recursos infraestructurales, exponiendo la incapacidad de los países occidentales para fabricar localmente componentes clave.\n• <b>Por qué importa:</b> La retórica política sobre el fin de la globalización choca con la realidad de unas cadenas de suministro que siguen dependiendo de China y de una logística que no puede ser sustituida por aranceles.\n• <b>Qué sigue:</b> Un periodo de volatilidad en los costes de hardware mientras la demanda de cómputo devora los recursos disponibles, sin una alternativa de producción local viable en el corto plazo.",
+        "bluesky": "La infraestructura de IA devora recursos, pero el hardware sigue dependiendo de una cadena de suministro global que el proteccionismo no logra replicar. La soberanía tecnológica es, por ahora, una quimera logística. #PuntoCiego #Tecnología",
+        "linkedIn": "La fiebre de la IA está devorando recursos a una escala sin precedentes, pero el análisis macroestratégico sigue ignorando el eslabón más débil: la cadena de suministro de hardware. A pesar de los esfuerzos por relocalizar la producción y los cambios en los aranceles, la realidad operativa es que el ecosistema industrial necesario para soportar este crecimiento no existe en Occidente.\n\nLa lección de Harvard y otros analistas es clara: la economía detrás de la infraestructura física es rígida. Mientras las empresas compiten por capacidad, la dependencia de redes globales ineficientes aumenta el riesgo sistémico. La competitividad no vendrá de la retórica, sino de entender dónde se fabrican realmente nuestros componentes críticos. #PuntoCiego #IA #CadenaDeSuministro"
+      },
+      "article": {
+        "slug": "fragilidad-oculta-detras-auge-inteligencia-artificial-bz0p",
+        "title": "La fragilidad oculta detrás del auge de la inteligencia artificial",
+        "dek": "La carrera por el dominio de la IA ignora las limitaciones crónicas de una cadena de suministro incapaz de sostener la producción local. La dependencia de nodos logísticos globales persiste mientras la demanda de cómputo escala sin control.",
+        "keyFacts": [
+          "El economista Willy Shih señala que la infraestructura necesaria para sostener la fabricación de tecnología avanzada no está presente en Occidente.",
+          "Los intentos de relocalización industrial han fallado en gran medida al subestimar la complejidad de las redes logísticas existentes.",
+          "La política de aranceles vigente no ha logrado reducir la dependencia de China como potencia manufacturera global.",
+          "La expansión de la IA está consumiendo recursos de computación a un nivel inédito, superando la capacidad de respuesta de la infraestructura actual."
+        ],
+        "sections": [
+          {
+            "heading": "La ilusión de la autosuficiencia",
+            "paragraphs": [
+              "La narrativa predominante en los centros de poder sugiere que Occidente está en camino de recuperar su soberanía industrial, impulsado por una nueva era de inversión en infraestructura de inteligencia artificial. Sin embargo, analistas como Willy Shih sostienen que esta visión ignora las realidades económicas que dictan dónde y cómo se fabrican los componentes tecnológicos esenciales.",
+              "La historia de los intentos de relocalización, como los proyectos fallidos de fabricación de pantallas en Wisconsin, es un recordatorio de que la política no puede simplemente decretar la creación de una cadena de suministro. Sin un ecosistema robusto de proveedores y logística, la producción a gran escala sigue siendo una imposibilidad técnica."
+            ]
+          },
+          {
+            "heading": "El cuello de botella de la infraestructura",
+            "paragraphs": [
+              "La IA actual no solo requiere algoritmos, sino una cantidad masiva de hardware que debe ser ensamblado y distribuido. Mientras la demanda de cómputo crece, la industria se enfrenta a lo que algunos expertos denominan un desorden manufacturero, caracterizado por escasez de componentes y una dependencia persistente de mercados asiáticos.",
+              "La política arancelaria ha intentado alterar este equilibrio, pero según las observaciones de mercado, estas medidas han tenido un impacto limitado en la realidad de la cadena de suministro global. Los fabricantes siguen operando bajo las mismas restricciones de hace cinco años, agravadas ahora por una demanda de infraestructura que no tiene parangón."
+            ]
+          },
+          {
+            "heading": "El punto ciego del mercado",
+            "paragraphs": [
+              "El verdadero peligro reside en la desconexión entre los planes regulatorios y la capacidad operativa. Los gobiernos insisten en políticas que asumen que la globalización está terminando, mientras que las empresas tecnológicas continúan atadas a una red de proveedores que, a pesar de los riesgos geopolíticos, sigue siendo la única capaz de operar con la eficiencia necesaria.",
+              "Ignorar esta dependencia no solo encarece la innovación, sino que crea un riesgo sistémico donde la infraestructura crítica de la economía digital es extremadamente vulnerable a disrupciones en nodos que Washington y Bruselas creen haber superado."
+            ]
+          },
+          {
+            "heading": "El tablero de poder",
+            "paragraphs": [
+              "China se mantiene como una potencia manufacturera insustituible, consolidando su ventaja estratégica al ser el eslabón donde realmente se sostiene el hardware. Mientras Occidente gasta capital en una infraestructura que no puede producir, el equilibrio de poder se desplaza hacia quienes controlan el flujo de los componentes físicos.",
+              "La pregunta no es quién ganará la carrera de la IA, sino quién será capaz de sostener el hardware necesario cuando la retórica política choque finalmente con la realidad de los almacenes vacíos."
+            ]
+          }
+        ],
+        "tags": [
+          "IA",
+          "CadenaDeSuministro",
+          "Geopolítica",
+          "Manufactura",
+          "Economía"
+        ],
+        "sources": [
+          {
+            "name": "The Verge",
+            "title": "The hidden supply chain costs of the AI boom",
+            "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book"
+          },
+          {
+            "name": "TradingView",
+            "title": "SMX: Recycled Plastic is the Affordability Solution Hiding in Plain Sight",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSkxidUMxNmM2bjE1cm9Qa0hFcVRRN05jQmdHRDd1M3pubHZYWVdWUFFJdDFDUDlBRnRGVzh1WjhPOG5uaC1MZUpPMi1QTmo5WUd0MGk3QlNLVGV0MnlOXzBVVjRhcENBVVUySi1EaFdqSDlleVNKQmpjZHVJX0c1TEx6WGkzckhmVVpSMnRoTFFuYkhEOURHZ2ZjZlVCMEUtMi1BZ0RNNzRZRDczZS1VcHNfYzdCY1JUMWhRVEt2aU51UWQzNC1DSlpyNA?oc=5"
+          },
+          {
+            "name": "TradingView",
+            "title": "First Industrial Declares Common Stock Dividends",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM3pvdzFHSDFJOEVZLS01b0toZklxSzN0VXF1NGlsRjRubUNfRnhzTUZWRnk4LUFqaWc5MWdmSDRQQk11TGFqSDBBMGJmckxIbjhiUlVxVXh1SEUyT3dteWxaWjJrSllqZU9vbWctZDhZYTlMZDVIYUF4dHBBS3QzXzUtVURfM2VPVmUtZ21VQktzMGNRMWhTVmE3QmRYb2ZmdEkzWmljbEFWcVVv?oc=5"
+          },
+          {
+            "name": "TradingView",
+            "title": "HSIC Q3 deep dive: volume-driven dental gains, margin initiatives, and tariff refund boost",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaHY1RHNuQnlGWmpjRnp3YnNsa0preHpMcHJBa2dNMHExNENwdWZlT25FOGxXSzljTERoWlJycDVqYnh5bHlldVRnUTBpbF9BSFNSZzY4c0Z0a0VyOU0wcTYwZVBaOEIySVpfaS1ick5qTXM1dnZXa1drS0RMTGF5ZElWVEdoQ1hxdlNnVDJPX1ZQdWpVd3ZHY2hVbkhsYVM3TVFjTUh2cXk1VS1WUkxvbFUzcXN3Ylp0YlBmWTVDQkN1anRoNnhkYllOaDJTeW4tWFFIYWVPVklQdmhJNWI4cw?oc=5"
+          }
+        ],
+        "wordCount": 424
+      },
+      "videoScript": {
+        "hook": "El auge de la inteligencia artificial tiene un costo que nadie está contando",
+        "beats": [
+          "La infraestructura necesaria para sostener esta tecnología depende de una cadena de suministro que Occidente no logra replicar.",
+          "A pesar de los aranceles, China sigue fabricando el 100% de los componentes críticos que hoy devoran nuestros recursos.",
+          "El punto ciego es que estamos construyendo un futuro digital sobre una base industrial que es incapaz de sostenerlo."
+        ],
+        "close": "Lee el análisis completo sobre el hardware de la IA en el enlace."
+      },
+      "status": "pending",
+      "createdAt": "2026-11-05T16:34:30.890Z",
+      "cardImageUrl": "/news-cards/news-vhrtgje3q-1793896470891.jpg",
+      "reelCoverUrl": "/news-cards/news-vhrtgje3q-1793896471399-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-vhrtgje3q-1793896471866-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fragilidad-oculta-detras-auge-inteligencia-artificial-bz0p/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-05T20:39:17.042Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-05T16:34:32.405Z"
   }
 ]

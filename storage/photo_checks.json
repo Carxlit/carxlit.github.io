@@ -28,5 +28,15 @@
     "relevant": true,
     "reason": "La imagen muestra a Dmitry Peskov, el portavoz del Kremlin mencionado en el resumen como la fuente oficial de la noticia.",
     "at": "2026-11-05T14:32:23.381Z"
+  },
+  "0fbada934e8a022d:vhrtgje3q": {
+    "relevant": false,
+    "reason": "La imagen es un gráfico sobre la calidad en manufactura, no sobre la infraestructura de inteligencia artificial.",
+    "at": "2026-11-05T16:34:22.379Z"
+  },
+  "88b74f69e426e490:vhrtgje3q": {
+    "relevant": false,
+    "reason": "Es una infografía médica sobre la fragilidad en personas mayores, totalmente ajena a la infraestructura de inteligencia artificial.",
+    "at": "2026-11-05T16:34:29.284Z"
   }
 }
