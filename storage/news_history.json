@@ -70,9 +70,36 @@
     "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
     "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
     "https://theconversation.com/huelga-general-del-11n-preambulo-de-las-elecciones-generales-pero-no-predictor-de-sus-resultados-294913",
-    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdHIxdmEwOGprb1F4Tm45ek9aNy1BeTRhRUJYaGl0RUQydEZzS3JXZHVZeF9mOUY0WjdIZlFrVC1aODN3Q29jUXJaS29FZlNrZ05lMzY4OG1lX3hudEJfckpDWUZ5Vi1oZk5Sb3Q0ZlhDeWJIQmNBQkNCSVJnY3k1NEppM05zM0w3?oc=5"
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdHIxdmEwOGprb1F4Tm45ek9aNy1BeTRhRUJYaGl0RUQydEZzS3JXZHVZeF9mOUY0WjdIZlFrVC1aODN3Q29jUXJaS29FZlNrZ05lMzY4OG1lX3hudEJfckpDWUZ5Vi1oZk5Sb3Q0ZlhDeWJIQmNBQkNCSVJnY3k1NEppM05zM0w3?oc=5",
+    "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19"
   ],
   "processedSignatures": [
+    {
+      "title": "CRISIS EN WALL STREET: EL SECTOR TECNOLÓGICO SE DESPLOMA",
+      "normalizedTokens": [
+        "crisis",
+        "wall",
+        "street",
+        "sector",
+        "tecnologico",
+        "desploma"
+      ],
+      "date": "2026-11-05T22:11:16.615Z"
+    },
+    {
+      "title": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
+      "normalizedTokens": [
+        "hundimiento",
+        "historico",
+        "bolsa",
+        "estadounidense",
+        "grandes",
+        "tecnologicas",
+        "dejan",
+        "hora"
+      ],
+      "date": "2026-11-05T22:11:16.615Z"
+    },
     {
       "title": "EEUU Y ALIADOS NEGOCIAN GARANTÍAS DE SEGURIDAD PARA UCRANIA",
       "normalizedTokens": [

@@ -11272,5 +11272,120 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-05T20:42:48.298Z"
+  },
+  {
+    "id": "queue-1793916676611-i6ige",
+    "news": {
+      "id": "rb2yl8m57",
+      "originalUrl": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
+      "originalTitle": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "CRISIS EN WALL STREET: EL SECTOR TECNOLÓGICO SE DESPLOMA",
+      "subHeadline": "El Nasdaq retrocede un 5,2% ante las dudas sobre la rentabilidad real de la inteligencia artificial. Los inversores reajustan carteras tras el resultado de las elecciones legislativas.",
+      "blindSpotAngle": "La caída no es solo un ajuste técnico, sino el fin de la fe ciega en la IA. La convergencia entre el escepticismo sobre el retorno de inversión y la nueva supervisión regulatoria tras las elecciones legislativas amenaza con frenar el desarrollo de centros de datos en estados clave.",
+      "facebookPost": "La euforia post-electoral en Wall Street ha durado apenas 24 horas. Mientras el Nasdaq cae un 5,2% y el S&P 500 cede un 3,9%, el mercado empieza a cuestionar si la inteligencia artificial es una mina de oro o una burbuja de costes inasumibles. Los fabricantes de semiconductores sufren el impacto directo de esta desconfianza.\n\nEl punto ciego no es la volatilidad, sino la viabilidad a largo plazo. Con el 30% de la capacidad de centros de datos prevista para 2028 en riesgo por posibles restricciones regulatorias tras las elecciones, el modelo de crecimiento basado en deuda está chocando contra la realidad política y financiera.\n\n¿Estamos presenciando el fin de la era de crecimiento infinito en tecnología o es solo una corrección necesaria?\n\nFuente: Xataka\n\n#PuntoCiego #Tecnología #Mercados",
+      "telegramPost": "<b>CRISIS EN WALL STREET: EL SECTOR TECNOLÓGICO SE DESPLOMA</b>\n\n• <b>Qué ocurrió:</b> El Nasdaq retrocedió un 5,2% y el S&P 500 un 3,9% en una jornada de ventas masivas, con especial castigo a los fabricantes de semiconductores.\n• <b>Por qué importa:</b> Los inversores temen que el alto coste de infraestructura para la IA no se traduzca en beneficios, sumado a la incertidumbre regulatoria tras las elecciones legislativas.\n• <b>Qué sigue:</b> Posible fuga de capital hacia sectores con flujos de caja sólidos y una reevaluación estricta de los proyectos de centros de datos hasta 2028.",
+      "linkedInPost": "La corrección en el sector tecnológico estadounidense marca un cambio de paradigma en la asignación de capital. La reciente caída de los índices, encabezada por el Nasdaq con un descenso del 5,2%, refleja una preocupación creciente: la desconexión entre la inversión masiva en infraestructura de IA y la rentabilidad inmediata.\n\nEl riesgo país y regulatorio se intensifica tras las elecciones legislativas. Con una estimación de UBS que sitúa el 30% de la capacidad de centros de datos para 2028 en riesgo de paralización, los gestores de activos están pivotando hacia empresas con flujos de caja más sólidos. La era de la expansión tecnológica sin fricciones regulatorias ha terminado.\n\nFuente: Xataka\n\n#EconomíaGlobal #Tecnología #PuntoCiego",
+      "blueskyPost": "Wall Street despierta del sueño de la IA. El desplome tecnológico del 5,2% en el Nasdaq no es solo ruido; es el mercado descontando un 30% de riesgo en la infraestructura de datos por trabas regulatorias. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "La euforia post-electoral en Wall Street ha durado apenas 24 horas. Mientras el Nasdaq cae un 5,2% y el S&P 500 cede un 3,9%, el mercado empieza a cuestionar si la inteligencia artificial es una mina de oro o una burbuja de costes inasumibles. Los fabricantes de semiconductores sufren el impacto directo de esta desconfianza.\n\nEl punto ciego no es la volatilidad, sino la viabilidad a largo plazo. Con el 30% de la capacidad de centros de datos prevista para 2028 en riesgo por posibles restricciones regulatorias tras las elecciones, el modelo de crecimiento basado en deuda está chocando contra la realidad política y financiera.\n\n¿Estamos presenciando el fin de la era de crecimiento infinito en tecnología o es solo una corrección necesaria? #PuntoCiego #Tecnología #Mercados",
+        "telegram": "<b>CRISIS EN WALL STREET: EL SECTOR TECNOLÓGICO SE DESPLOMA</b>\n\n• <b>Qué ocurrió:</b> El Nasdaq retrocedió un 5,2% y el S&P 500 un 3,9% en una jornada de ventas masivas, con especial castigo a los fabricantes de semiconductores.\n• <b>Por qué importa:</b> Los inversores temen que el alto coste de infraestructura para la IA no se traduzca en beneficios, sumado a la incertidumbre regulatoria tras las elecciones legislativas.\n• <b>Qué sigue:</b> Posible fuga de capital hacia sectores con flujos de caja sólidos y una reevaluación estricta de los proyectos de centros de datos hasta 2028.",
+        "bluesky": "Wall Street despierta del sueño de la IA. El desplome tecnológico del 5,2% en el Nasdaq no es solo ruido; es el mercado descontando un 30% de riesgo en la infraestructura de datos por trabas regulatorias. #PuntoCiego #Tecnología",
+        "linkedIn": "La corrección en el sector tecnológico estadounidense marca un cambio de paradigma en la asignación de capital. La reciente caída de los índices, encabezada por el Nasdaq con un descenso del 5,2%, refleja una preocupación creciente: la desconexión entre la inversión masiva en infraestructura de IA y la rentabilidad inmediata.\n\nEl riesgo país y regulatorio se intensifica tras las elecciones legislativas. Con una estimación de UBS que sitúa el 30% de la capacidad de centros de datos para 2028 en riesgo de paralización, los gestores de activos están pivotando hacia empresas con flujos de caja más sólidos. La era de la expansión tecnológica sin fricciones regulatorias ha terminado. #EconomíaGlobal #Tecnología #PuntoCiego"
+      },
+      "article": {
+        "slug": "burbuja-inteligencia-artificial-ante-primer-gran-2pkl",
+        "title": "La burbuja de la inteligencia artificial ante su primer gran ajuste de mercado",
+        "dek": "Wall Street sufre una caída drástica en el sector tecnológico ante la duda sobre la rentabilidad real de la IA y el nuevo escenario regulatorio. La euforia electoral ha dado paso a un escepticismo financiero que pone en riesgo las inversiones futuras.",
+        "keyFacts": [
+          "El Nasdaq Composite retrocedió un 5,2% durante la sesión del jueves 5 de noviembre.",
+          "El S&P 500 cedió un 3,9% y el Dow Jones un 3,1%.",
+          "UBS estima que las restricciones regulatorias podrían poner en riesgo el 30% de la capacidad adicional de centros de datos prevista para 2028.",
+          "Daniel Pinto, vicepresidente de JPMorgan, advirtió sobre expectativas de crecimiento demasiado rápidas para el sector IA."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "El optimismo bursátil que siguió a las elecciones legislativas en Estados Unidos se ha disipado en cuestión de horas. Wall Street ha registrado una jornada de ventas intensas, centrada en las grandes compañías tecnológicas y, de forma particular, en los fabricantes de semiconductores. Según los datos de Associated Press, el Nasdaq lideró las caídas, reflejando el nerviosismo de los inversores ante el sector que ha impulsado los índices en los últimos meses."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La preocupación central es el coste de la infraestructura necesaria para sostener el auge de la inteligencia artificial. Construir centros de datos implica desembolsos masivos en procesadores, refrigeración y energía. Daniel Pinto, de JPMorgan, ha señalado que el mercado parece estar anticipando un crecimiento de beneficios a una velocidad que las empresas aún no pueden sostener.",
+              "A esto se suma el factor político. Tras las elecciones legislativas, los inversores temen que el nuevo Congreso y las autoridades locales impongan mayores trabas regulatorias. UBS estima que estas suspensiones de proyectos podrían comprometer cerca del 30% de la capacidad de centros de datos prevista en el país para 2028."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Más allá de las cifras rojas, lo que el mercado está comenzando a cuestionar es la narrativa de crecimiento infinito. La presión de fondos de cobertura y ventas institucionales sugiere un cambio de estrategia hacia activos que generen flujos de caja sólidos, alejándose de las promesas tecnológicas que aún no han demostrado ser rentables en el balance general."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los grandes perdedores son las empresas tecnológicas apalancadas y los fabricantes de chips que dependen de la expansión acelerada de los centros de datos. En el lado opuesto, los sectores tradicionales con flujos de caja estables se perfilan como el nuevo destino del capital institucional que busca refugio ante la incertidumbre regulatoria y el encarecimiento de la infraestructura."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "La atención se traslada a la capacidad de las empresas para demostrar rentabilidad en los próximos trimestres y a la evolución de las políticas estatales sobre permisos de construcción. Cualquier señal de cancelación real de proyectos de centros de datos confirmará si este ajuste es el inicio de una corrección estructural del sector."
+            ]
+          }
+        ],
+        "tags": [
+          "Wall Street",
+          "Inteligencia Artificial",
+          "Tecnología",
+          "Mercados",
+          "Regulación"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
+            "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19"
+          }
+        ],
+        "wordCount": 390
+      },
+      "videoScript": {
+        "hook": "La euforia tecnológica en Wall Street se ha desplomado en apenas unas horas",
+        "beats": [
+          "El Nasdaq ha caído un 5,2% ante las dudas sobre la rentabilidad real de la inteligencia artificial",
+          "Ojo, porque el 30% de la capacidad de centros de datos prevista para 2028 podría cancelarse por trabas regulatorias",
+          "Lo que nadie dice es que los inversores institucionales están huyendo hacia activos con flujo de caja real"
+        ],
+        "close": "Lee el análisis completo sobre el futuro de la IA en nuestro perfil"
+      },
+      "rawImageUrl": "https://i.blogs.es/88c8ee/bosa-calida-wall-street/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-05T22:11:14.354Z",
+      "cardImageUrl": "/news-cards/news-rb2yl8m57-1793916674354.jpg",
+      "reelCoverUrl": "/news-cards/news-rb2yl8m57-1793916674933-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-rb2yl8m57-1793916675465-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/burbuja-inteligencia-artificial-ante-primer-gran-2pkl/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-06T01:23:17.042Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-05T22:11:16.611Z"
   }
 ]
