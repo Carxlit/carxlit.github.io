@@ -64,9 +64,40 @@
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSjVJOWJzVDFzSFg5ZmNKNTlXM1ZLTkx3NkxhcVlKWFl5OTB1RHVSZHFsNi1Eak4tRW9DejJhbFpHazljakFDaVJfUjdEdkNhMW9Zc01tRDNVMFRjNm5adW04emZpVGxWTmtOMlFhdUduMnB1Y3MxcHY3VXRNejcwUEc2LVprZ2VsSUNvU3ZqazRKbWMteUVDWmptVkVkanM?oc=5",
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLUJfVVA4WjNzYkJpeEVOVXkwQm5uQWFuNDB1MDRqNDVnR2ZUUmVQYjg0dWVnc3NyYmtIaVRhUTc2Ujk4NG5fUGI2NldBMHl5QUh4LTd0enU1YmYycHhjVzlGSzJrNjRsRWlKREh1c3I3a29Sb0lvTVBRMGZuUVNNdkxxZEk4RDRQclA4QkxNSTZRcU1sXzljUTJIS1dMQnFMeWcw?oc=5",
     "https://www.infobae.com/colombia/2026/11/05/pronostico-del-clima-en-cartagena-de-indias-este-5-de-noviembre-temperatura-lluvias-y-viento/",
-    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOVlxak1MVWVlT0RRbFlKNmx4bFZ6RmVGS0wtM1oyekkxRDFNRThzbVRxNzh3Ylc0WUMyTzA2M1pEQ0p6Wjd0UjVxYklBSGxBblpQWndlZjJxQUxDdDZMR3pOSkJvQWpieWhYRS05WEhTbkNhM05fbTR5c3YxRlNJSlZvQW4wRVRsdHBfLVhpLWtXd2JTZXc?oc=5"
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOVlxak1MVWVlT0RRbFlKNmx4bFZ6RmVGS0wtM1oyekkxRDFNRThzbVRxNzh3Ylc0WUMyTzA2M1pEQ0p6Wjd0UjVxYklBSGxBblpQWndlZjJxQUxDdDZMR3pOSkJvQWpieWhYRS05WEhTbkNhM05fbTR5c3YxRlNJSlZvQW4wRVRsdHBfLVhpLWtXd2JTZXc?oc=5",
+    "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-cumbre-iberoamericana-de-madrid-en-directo.html"
   ],
   "processedSignatures": [
+    {
+      "title": "MILEI EQUIPA SOCIALISMO Y FASCISMO EN LA CUMBRE IBEROAMERICANA",
+      "normalizedTokens": [
+        "milei",
+        "equipa",
+        "socialismo",
+        "fascismo",
+        "cumbre",
+        "iberoamericana"
+      ],
+      "date": "2026-11-05T13:31:34.551Z"
+    },
+    {
+      "title": "Última hora de la Cumbre Iberoamericana, en directo | Milei homologa el socialismo democrático con el fascismo ante Pedro Sánchez",
+      "normalizedTokens": [
+        "ultima",
+        "hora",
+        "cumbre",
+        "iberoamericana",
+        "directo",
+        "milei",
+        "homologa",
+        "socialismo",
+        "democratico",
+        "fascismo",
+        "pedro",
+        "sanchez"
+      ],
+      "date": "2026-11-05T13:31:34.551Z"
+    },
     {
       "title": "EL KREMLIN DESVINCULA SUS INTERESES EN UCRANIA DE EE.UU.",
       "normalizedTokens": [
