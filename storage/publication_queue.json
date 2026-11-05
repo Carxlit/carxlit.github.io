@@ -9741,12 +9741,13 @@
         "close": "Lee el análisis completo sobre riesgo orbital en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/swift-20261104133418210.jpg?c=16x9&q=w_800,c_fill",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T11:22:07.420Z",
       "cardImageUrl": "/news-cards/news-usj56d5bu-1793877727420.jpg",
       "reelCoverUrl": "/news-cards/news-usj56d5bu-1793877728009-cover.jpg",
       "instagramCardUrl": "/news-cards/news-usj56d5bu-1793877728546-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/reingreso-descontrolado-telescopio-swift-expone-vacios-su0w/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/reingreso-descontrolado-telescopio-swift-expone-vacios-su0w/",
+      "publishedAt": "2026-11-05T12:32:16.718Z"
     },
     "channels": {
       "facebook": true,
@@ -9760,10 +9761,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T12:29:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T11:22:09.679Z"
+    "createdAt": "2026-11-05T11:22:09.679Z",
+    "lastAttemptAt": "2026-11-05T12:29:32.294Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104267845532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "73",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzkunbo7hz22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18178195936450260",
+        "permalink": "https://www.instagram.com/reel/DfXCaJ5iacL/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117563845700285604"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18119181071015158"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T12:32:16.718Z"
   },
   {
     "id": "queue-1793878315765-s35bx",
