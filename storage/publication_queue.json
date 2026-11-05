@@ -7806,11 +7806,12 @@
         "title": "US Midterms 2026: Trump admite que la guerra con Irán influyó en su derrota | Gestión Mundo",
         "channel": "Gestión Mundo"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-04T20:23:19.660Z",
       "cardImageUrl": "/news-cards/news-idp89n34d-1793823799660.jpg",
       "instagramCardUrl": "/news-cards/news-idp89n34d-1793823800254-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/donald-trump-admite-costo-politico-guerra-7lz3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/donald-trump-admite-costo-politico-guerra-7lz3/",
+      "publishedAt": "2026-11-05T01:27:28.411Z"
     },
     "channels": {
       "facebook": true,
@@ -7823,11 +7824,11 @@
       "threads": true
     },
     "scheduledFor": "2026-11-05T01:26:13.176Z",
-    "status": "queued",
-    "attempts": 2,
+    "status": "published",
+    "attempts": 3,
     "maxAttempts": 3,
     "createdAt": "2026-11-04T20:23:21.439Z",
-    "lastAttemptAt": "2026-11-05T01:10:13.173Z",
+    "lastAttemptAt": "2026-11-05T01:26:28.406Z",
     "results": {
       "facebook": {
         "success": true,
@@ -7862,7 +7863,8 @@
         "postId": "18222003766347370"
       }
     },
-    "error": "Reintento 2/3: telegram: The operation was aborted due to timeout"
+    "error": "Publicado parcialmente. No se pudo en: telegram",
+    "publishedAt": "2026-11-05T01:27:28.411Z"
   },
   {
     "id": "queue-1793829395187-55n3e",
