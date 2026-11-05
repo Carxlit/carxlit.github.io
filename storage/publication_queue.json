@@ -10437,12 +10437,13 @@
         "title": "El frío saludo entre Milei y Sánchez en la Cumbre Iberoamericana tras su desencuentro",
         "channel": "Diario ABC"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T13:31:31.965Z",
       "cardImageUrl": "/news-cards/news-ceyypv34e-1793885491965.jpg",
       "reelCoverUrl": "/news-cards/news-ceyypv34e-1793885492651-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ceyypv34e-1793885493257-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/choque-entre-milei-sanchez-madrid-evidencia-gf7w/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/choque-entre-milei-sanchez-madrid-evidencia-gf7w/",
+      "publishedAt": "2026-11-05T17:50:40.503Z"
     },
     "channels": {
       "facebook": true,
@@ -10456,10 +10457,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T17:47:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T13:31:34.545Z"
+    "createdAt": "2026-11-05T13:31:34.545Z",
+    "lastAttemptAt": "2026-11-05T17:47:32.418Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104559313532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "78",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzlgfrf3ri2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18339260206257700",
+        "permalink": "https://www.instagram.com/reel/DfXm2hKkm3E/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117565097660799015"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17957533320328066"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T17:50:40.503Z"
   },
   {
     "id": "queue-1793889147204-7wwkf",
