@@ -9014,12 +9014,13 @@
         "channel": "Daily News Explained",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T05:16:39.869Z",
       "cardImageUrl": "/news-cards/news-imt1s272r-1793855799869.jpg",
       "reelCoverUrl": "/news-cards/news-imt1s272r-1793855800694-cover.jpg",
       "instagramCardUrl": "/news-cards/news-imt1s272r-1793855801206-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/decada-perdida-joshua-wong-nuevo-orden-alpp/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/decada-perdida-joshua-wong-nuevo-orden-alpp/",
+      "publishedAt": "2026-11-05T05:20:02.268Z"
     },
     "channels": {
       "facebook": true,
@@ -9033,10 +9034,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T05:16:42.327Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-05T05:16:42.327Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-05T05:17:53.218Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103966585532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "69",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzk4jdih7s2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17921037624456950",
+        "permalink": "https://www.instagram.com/reel/DfWQ70YjzEe/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117562145935908231"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18115587488599391"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Short no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      }
+    },
+    "publishedAt": "2026-11-05T05:20:02.268Z"
   }
 ]
