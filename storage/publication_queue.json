@@ -10264,11 +10264,52 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-05T16:03:17.042Z",
+    "scheduledFor": "2026-11-05T16:10:37.811Z",
     "status": "queued",
-    "attempts": 0,
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T12:34:07.003Z"
+    "createdAt": "2026-11-05T12:34:07.003Z",
+    "lastAttemptAt": "2026-11-05T16:07:27.484Z",
+    "results": {
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122104467393532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "77",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzlasr2zn32y"
+      },
+      "instagram": {
+        "success": false,
+        "error": "Instagram: Only photo or video can be accepted as media type."
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117564686486103774"
+      },
+      "threads": {
+        "success": false,
+        "error": "Threads: An unknown error occurred"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "error": "Reintento 1/3: threads: Threads: An unknown error occurred"
   },
   {
     "id": "queue-1793885494545-enhzu",
