@@ -55,9 +55,37 @@
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1ZSSmNXeDcxYzlRbUVWWFJaXzdFcm56QUFfTWtxRHNUd2RGOTVjNkRZeDBUeG5fc3I1X19iQnotWlV1OXFsU3VjV2I0Z3BxMjVRQ1M5OWdTQlFOTEdEYVFuLXlPOUlvSW52R2dPRGI2SkhtdEg1Z29WY3RsaDFpaVRoQW9CYWpxX29JNGlxRXRaYzRCdG1kMjdQaWFjbk84UkE?oc=5",
     "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
     "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
-    "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores"
+    "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores",
+    "https://www.abc.es/internacional/corea-sur-desplegara-mision-naval-mantener-abierto-20261105024807-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "SEÚL DESPLIEGA FUERZAS NAVALES EN EL ESTRECHO DE ORMUZ",
+      "normalizedTokens": [
+        "seul",
+        "despliega",
+        "fuerzas",
+        "navales",
+        "estrecho",
+        "ormuz"
+      ],
+      "date": "2026-11-05T05:01:31.883Z"
+    },
+    {
+      "title": "Corea del Sur desplegará una misión naval para mantener abierto el estrecho de Ormuz",
+      "normalizedTokens": [
+        "corea",
+        "sur",
+        "desplegara",
+        "mision",
+        "naval",
+        "mantener",
+        "abierto",
+        "estrecho",
+        "ormuz"
+      ],
+      "date": "2026-11-05T05:01:31.883Z"
+    },
     {
       "title": "HISTORIADORES FRANCESES EVALÚAN EL IMPACTO POLÍTICO DEL CINE HISTÓRICO",
       "normalizedTokens": [
