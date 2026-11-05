@@ -68,9 +68,37 @@
     "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-cumbre-iberoamericana-de-madrid-en-directo.html",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNldsM1YzWDROQ0tNWnl2MWJVTWVsaXJHaFlIS21SY1lGWU5WMVd4SWNFVEdVbktUVlVPNmVYVnpMQ0c3UGNITXZWWXNlT2lfSUtTdE96LW16WEZuUUFEU1ZoYWs2aHVHN0J1ZHAtdk0wN1JCLTdJRjc3OUhuWGtEbFZ2eVVsM3N3MVU5a3pnVHoyMFhzWEYwYXhXbngwVWxxZHc?oc=5",
     "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
-    "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
+    "https://theconversation.com/huelga-general-del-11n-preambulo-de-las-elecciones-generales-pero-no-predictor-de-sus-resultados-294913"
   ],
   "processedSignatures": [
+    {
+      "title": "HUELGA GENERAL DEL 11N: LA TRAMPA DE LEER PROTESTAS COMO URNAS",
+      "normalizedTokens": [
+        "huelga",
+        "general",
+        "11n",
+        "trampa",
+        "leer",
+        "protestas",
+        "urnas"
+      ],
+      "date": "2026-11-05T18:56:55.259Z"
+    },
+    {
+      "title": "Huelga general del 11N: preámbulo de las elecciones generales, pero no predictor de sus resultados",
+      "normalizedTokens": [
+        "huelga",
+        "general",
+        "11n",
+        "preambulo",
+        "elecciones",
+        "generales",
+        "predictor",
+        "resultados"
+      ],
+      "date": "2026-11-05T18:56:55.258Z"
+    },
     {
       "title": "EL JUICIO POLÍTICO A SANTIAGO PEÑA TRAS SU RENUNCIA",
       "normalizedTokens": [
