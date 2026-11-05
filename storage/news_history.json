@@ -63,9 +63,33 @@
     "https://theconversation.com/con-el-control-del-congreso-podrian-los-democratas-detener-la-guerra-de-trump-en-iran-295990",
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSjVJOWJzVDFzSFg5ZmNKNTlXM1ZLTkx3NkxhcVlKWFl5OTB1RHVSZHFsNi1Eak4tRW9DejJhbFpHazljakFDaVJfUjdEdkNhMW9Zc01tRDNVMFRjNm5adW04emZpVGxWTmtOMlFhdUduMnB1Y3MxcHY3VXRNejcwUEc2LVprZ2VsSUNvU3ZqazRKbWMteUVDWmptVkVkanM?oc=5",
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLUJfVVA4WjNzYkJpeEVOVXkwQm5uQWFuNDB1MDRqNDVnR2ZUUmVQYjg0dWVnc3NyYmtIaVRhUTc2Ujk4NG5fUGI2NldBMHl5QUh4LTd0enU1YmYycHhjVzlGSzJrNjRsRWlKREh1c3I3a29Sb0lvTVBRMGZuUVNNdkxxZEk4RDRQclA4QkxNSTZRcU1sXzljUTJIS1dMQnFMeWcw?oc=5",
-    "https://www.infobae.com/colombia/2026/11/05/pronostico-del-clima-en-cartagena-de-indias-este-5-de-noviembre-temperatura-lluvias-y-viento/"
+    "https://www.infobae.com/colombia/2026/11/05/pronostico-del-clima-en-cartagena-de-indias-este-5-de-noviembre-temperatura-lluvias-y-viento/",
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOVlxak1MVWVlT0RRbFlKNmx4bFZ6RmVGS0wtM1oyekkxRDFNRThzbVRxNzh3Ylc0WUMyTzA2M1pEQ0p6Wjd0UjVxYklBSGxBblpQWndlZjJxQUxDdDZMR3pOSkJvQWpieWhYRS05WEhTbkNhM05fbTR5c3YxRlNJSlZvQW4wRVRsdHBfLVhpLWtXd2JTZXc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EL KREMLIN DESVINCULA SUS INTERESES EN UCRANIA DE EE.UU.",
+      "normalizedTokens": [
+        "kremlin",
+        "desvincula",
+        "intereses",
+        "ucrania"
+      ],
+      "date": "2026-11-05T12:34:07.010Z"
+    },
+    {
+      "title": "Los intereses de Rusia en Ucrania no dependen de las elecciones en EEUU, dice el Kremlin",
+      "normalizedTokens": [
+        "intereses",
+        "rusia",
+        "ucrania",
+        "dependen",
+        "elecciones",
+        "eeuu",
+        "kremlin"
+      ],
+      "date": "2026-11-05T12:34:07.009Z"
+    },
     {
       "title": "ESTRÉS METEOROLÓGICO Y RIESGO LOGÍSTICO EN EL CARIBE COLOMBIANO",
       "normalizedTokens": [
