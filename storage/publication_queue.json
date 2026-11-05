@@ -10080,12 +10080,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://www.infobae.com/resizer/v2/3MU2HKNCBNFW5FQLAHAU25HETQ.jpg?auth=4de3ce9ef5c48955971146a6671f88332ed1e49013c5d4824a26309a4cc45985&smart=true&width=2688&height=1536",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T11:40:45.555Z",
       "cardImageUrl": "/news-cards/news-iwh54ic3m-1793878845556.jpg",
       "reelCoverUrl": "/news-cards/news-iwh54ic3m-1793878846488-cover.jpg",
       "instagramCardUrl": "/news-cards/news-iwh54ic3m-1793878847039-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/impacto-estres-climatico-infraestructura-estrategica-cartagena-rou3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/impacto-estres-climatico-infraestructura-estrategica-cartagena-rou3/",
+      "publishedAt": "2026-11-05T14:29:38.581Z"
     },
     "channels": {
       "facebook": true,
@@ -10099,10 +10100,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T14:27:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T11:40:48.246Z"
+    "createdAt": "2026-11-05T11:40:48.246Z",
+    "lastAttemptAt": "2026-11-05T14:27:32.293Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104384773532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "75",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzl3a6jb3422"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18099804647452165",
+        "permalink": "https://www.instagram.com/reel/DfXP1qcjjw-/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117564307131609910"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18201677677382051"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T14:29:38.581Z"
   },
   {
     "id": "queue-1793882047003-ra8xi",
