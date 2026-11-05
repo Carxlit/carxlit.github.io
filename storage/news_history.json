@@ -60,9 +60,39 @@
     "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
     "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMUprSkJTbVc5cUtIT0hsZzlyaFdMcE1mTlBnMk9rTUZmd0M3RGRzZ1hFd29CS0NsSjVhY2dscXVZMVZ2Z3VjTTBaLVZtam1DdjdOeWxjNHRGS3NvdE9VWHZ0SUMxQUZYMkphTzNsekw?oc=5",
     "https://www.dw.com/es/hallan-muerto-en-hotel-de-berlín-a-prominente-político-alemán/a-79859630?maca=spa-rss-sp-all-1122-rdf",
-    "https://theconversation.com/con-el-control-del-congreso-podrian-los-democratas-detener-la-guerra-de-trump-en-iran-295990"
+    "https://theconversation.com/con-el-control-del-congreso-podrian-los-democratas-detener-la-guerra-de-trump-en-iran-295990",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSjVJOWJzVDFzSFg5ZmNKNTlXM1ZLTkx3NkxhcVlKWFl5OTB1RHVSZHFsNi1Eak4tRW9DejJhbFpHazljakFDaVJfUjdEdkNhMW9Zc01tRDNVMFRjNm5adW04emZpVGxWTmtOMlFhdUduMnB1Y3MxcHY3VXRNejcwUEc2LVprZ2VsSUNvU3ZqazRKbWMteUVDWmptVkVkanM?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "OBSERVATORIO SWIFT DE LA NASA CAE DE FORMA DESCONTROLADA",
+      "normalizedTokens": [
+        "observatorio",
+        "swift",
+        "nasa",
+        "cae",
+        "forma",
+        "descontrolada"
+      ],
+      "date": "2026-11-05T11:22:09.684Z"
+    },
+    {
+      "title": "Un observatorio de la NASA de casi tonelada y media está cayendo hacia la Tierra. Esto es lo que debes saber",
+      "normalizedTokens": [
+        "observatorio",
+        "nasa",
+        "casi",
+        "tonelada",
+        "media",
+        "cayendo",
+        "hacia",
+        "tierra",
+        "esto",
+        "debes",
+        "saber"
+      ],
+      "date": "2026-11-05T11:22:09.683Z"
+    },
     {
       "title": "DEMÓCRATAS BUSCAN FRENAR LA GUERRA DE TRUMP CON EL PRESUPUESTO",
       "normalizedTokens": [
