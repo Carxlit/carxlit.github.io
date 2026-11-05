@@ -58,9 +58,35 @@
     "https://www.xataka.com.mx/cine-y-tv/aprobacion-92-esta-obra-maestra-mejor-pelicula-historica-todos-tiempos-85-historiadores",
     "https://www.abc.es/internacional/corea-sur-desplegara-mision-naval-mantener-abierto-20261105024807-nt.html",
     "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
-    "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMUprSkJTbVc5cUtIT0hsZzlyaFdMcE1mTlBnMk9rTUZmd0M3RGRzZ1hFd29CS0NsSjVhY2dscXVZMVZ2Z3VjTTBaLVZtam1DdjdOeWxjNHRGS3NvdE9VWHZ0SUMxQUZYMkphTzNsekw?oc=5"
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMUprSkJTbVc5cUtIT0hsZzlyaFdMcE1mTlBnMk9rTUZmd0M3RGRzZ1hFd29CS0NsSjVhY2dscXVZMVZ2Z3VjTTBaLVZtam1DdjdOeWxjNHRGS3NvdE9VWHZ0SUMxQUZYMkphTzNsekw?oc=5",
+    "https://www.dw.com/es/hallan-muerto-en-hotel-de-berlín-a-prominente-político-alemán/a-79859630?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "MUERE EL MINISTRO BÁVARO HUBERT AIWANGER EN BERLÍN",
+      "normalizedTokens": [
+        "muere",
+        "ministro",
+        "bavaro",
+        "hubert",
+        "aiwanger",
+        "berlin"
+      ],
+      "date": "2026-11-05T05:45:56.857Z"
+    },
+    {
+      "title": "Hallan muerto en hotel de Berlín a prominente político alemán",
+      "normalizedTokens": [
+        "hallan",
+        "muerto",
+        "hotel",
+        "berlin",
+        "prominente",
+        "politico",
+        "aleman"
+      ],
+      "date": "2026-11-05T05:45:56.856Z"
+    },
     {
       "title": "AP MANTIENE EL MONOPOLIO DEL CONTEO ELECTORAL EN EE.UU.",
       "normalizedTokens": [
