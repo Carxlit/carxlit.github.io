@@ -534,7 +534,7 @@ export async function generateNewsReel(news: ProcessedNews, opts: { allowAi?: bo
   // Imágenes del Reel: la de la noticia y otras relevantes y verificadas, distintas en cada escena (con video real no hacen falta)
   let photos: Pic[] = [];
   if (!footage) {
-    const images = await collectReelImages(news, { allowStock: chooseReelStyle(news) === 'infografia' }).catch((err) => {
+    const images = await collectReelImages(news, { allowStock: chooseReelStyle(news) === 'infografia' && process.env.REEL_STOCK_IMAGES === 'true' }).catch((err) => {
       console.warn('[Reel] No se pudieron reunir imágenes:', err?.message);
       return [];
     });

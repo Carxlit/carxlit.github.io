@@ -240,7 +240,7 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
   };
 
   // 1-2. La foto de la noticia y la de otros medios que cuentan el mismo hecho
-  const outletLinks = (news.article?.sources || []).map((s) => s.url).filter((u) => u && u !== news.originalUrl).slice(0, 3);
+  const outletLinks = (news.article?.sources || []).map((s) => s.url).filter((u) => u && u !== news.originalUrl).slice(0, 5);
   const [main, ...others] = await Promise.all([
     news.rawImageUrl ? getImage(news.rawImageUrl, 'noticia') : Promise.resolve(null),
     ...outletLinks.map(async (l) => {
