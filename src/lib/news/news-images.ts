@@ -1,7 +1,10 @@
 import path from 'path';
 import crypto from 'crypto';
+import { generateText, type LanguageModelV1 } from 'ai';
+import { createGroq } from '@ai-sdk/groq';
 import { ProcessedNews } from '@/types/news';
 import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
+import { google, defaultGeminiModel, fallbackGeminiModels, getAiCooldownUntil } from '@/lib/ai/gemini';
 import { resolveGoogleNewsUrl, isValidEditorialPhoto, decodeHtmlEntities, GENERIC_IMAGE_URL } from './article-image';
 
 /**
@@ -30,6 +33,8 @@ export interface ReelImage {
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 const INDEX_PATH = path.join(process.cwd(), 'storage', 'image_hashes.json');
 const INDEX_LIMIT = 400;
+const PHOTO_CHECKS_PATH = path.join(process.cwd(), 'storage', 'photo_checks.json');
+const PHOTO_CHECKS_LIMIT = 500;
 const MIN_WIDTH = 700;
 const MIN_BYTES = 25_000;
 const MAX_BYTES = 8_000_000;
@@ -92,7 +97,7 @@ async function getImage(url: string, origin: ReelImage['origin'], credit?: strin
 
 // ── Otros medios que cuentan el mismo hecho ──────────────────────────────────────────────
 
-async function outletImageUrl(link: string): Promise<string | undefined> {
+export async function outletImageUrl(link: string): Promise<string | undefined> {
   try {
     const real = link.includes('news.google.com') ? await resolveGoogleNewsUrl(link) : link;
     if (!real) return undefined;
@@ -103,10 +108,221 @@ async function outletImageUrl(link: string): Promise<string | undefined> {
       html.match(/<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i) ||
       html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i) ||
       html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
-    return m ? new URL(decodeHtmlEntities(m[1]), real).toString() : undefined;
+    const candidate = m ? new URL(decodeHtmlEntities(m[1]), real).toString() : undefined;
+    return candidate && !isGenericImageUrl(candidate) ? candidate : undefined;
   } catch {
     return undefined;
   }
+}
+
+// ── Verificación visual de relevancia de la foto principal ───────────────────────────────
+
+export interface PhotoCheckEntry {
+  relevant: boolean;
+  reason: string;
+  at: string;
+}
+
+export interface PhotoCheckResult {
+  ok: boolean;
+  relevant: boolean;
+  reason: string;
+  hash?: string;
+  cached?: boolean;
+}
+
+const loadPhotoChecks = () => readJsonFile<Record<string, PhotoCheckEntry>>(PHOTO_CHECKS_PATH, {});
+
+function savePhotoChecks(checks: Record<string, PhotoCheckEntry>) {
+  const keys = Object.keys(checks);
+  const kept: Record<string, PhotoCheckEntry> = {};
+  for (const k of keys.slice(-PHOTO_CHECKS_LIMIT)) kept[k] = checks[k];
+  writeJsonFileAtomic(PHOTO_CHECKS_PATH, kept);
+}
+
+function detectMime(buf: Buffer): string {
+  if (buf.length > 8 && buf.readUInt32BE(0) === 0x89504e47) return 'image/png';
+  if (buf.length > 12 && buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP') return 'image/webp';
+  return 'image/jpeg';
+}
+
+async function resolveImageBytes(imageDataOrUrl: string | Buffer): Promise<{ buf?: Buffer; mime?: string; error?: string }> {
+  if (Buffer.isBuffer(imageDataOrUrl)) {
+    return { buf: imageDataOrUrl, mime: detectMime(imageDataOrUrl) };
+  }
+  const raw = String(imageDataOrUrl || '').trim();
+  if (!raw) return { error: 'URL de imagen vacía' };
+
+  const dataMatch = raw.match(/^data:(image\/(?:jpeg|png|webp));base64,(.+)$/i);
+  if (dataMatch) {
+    return { buf: Buffer.from(dataMatch[2], 'base64'), mime: dataMatch[1].toLowerCase() };
+  }
+
+  const clean = decodeHtmlEntities(raw);
+  if (!/^https?:\/\//i.test(clean) || isGenericImageUrl(clean) || /\.(mp4|m3u8|mov|webm|mpd)(\?|$)/i.test(clean)) {
+    return { error: 'URL descartada por filtro (genérica, logo o video)' };
+  }
+
+  try {
+    const res = await fetch(clean, { headers: { 'User-Agent': UA, Accept: 'image/*' }, signal: AbortSignal.timeout(15_000), redirect: 'follow' });
+    const type = (res.headers.get('content-type') || '').split(';')[0].trim().toLowerCase();
+    if (!res.ok || !/^image\/(jpeg|png|webp)$/.test(type)) {
+      return { error: `Respuesta inválida (${res.status} ${type || 'sin tipo'})` };
+    }
+    const buf = Buffer.from(await res.arrayBuffer());
+    return { buf, mime: type };
+  } catch (err: any) {
+    return { error: `Error al descargar imagen: ${String(err?.message || 'red').slice(0, 80)}` };
+  }
+}
+
+function parseVisionVerdict(rawText: string): { relevant: boolean; reason: string } | null {
+  const clean = rawText.replace(/```[a-z]*|```/gi, '').replace(/[*`_"]/g, '').trim();
+  if (!clean) return null;
+  const lines = clean.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const yesMatch = line.match(/^(?:respuesta\s*:\s*)?(s[ií]|yes|true)(?=$|[\s:.,;-])[\s:.,;-]*(.*)$/i);
+    if (yesMatch) {
+      const rest = yesMatch[2]?.trim() || lines.slice(i + 1).join(' ').trim();
+      return {
+        relevant: true,
+        reason: (rest || 'La imagen ilustra adecuadamente el tema de la noticia.').slice(0, 180).trim(),
+      };
+    }
+    const noMatch = line.match(/^(?:respuesta\s*:\s*)?(no|false)(?=$|[\s:.,;-])[\s:.,;-]*(.*)$/i);
+    if (noMatch) {
+      const rest = noMatch[2]?.trim() || lines.slice(i + 1).join(' ').trim();
+      return {
+        relevant: false,
+        reason: (rest || 'La imagen no corresponde al hecho principal del titular.').slice(0, 180).trim(),
+      };
+    }
+  }
+  return null;
+}
+
+/**
+ * Verifica con UNA llamada de visión (Gemini; respaldo Groq con visión si existe) si una imagen
+ * ilustra razonablemente la noticia. Cachea el resultado en storage/photo_checks.json por
+ * hash de imagen + id de noticia. Si la IA está en pausa por cuota, no bloquea y deja pasar
+ * la imagen que ya superó los filtros de URL y huella.
+ */
+export async function verifyPhotoRelevance(
+  imageDataOrUrl: string | Buffer,
+  headline: string,
+  summary: string = '',
+  newsId?: string
+): Promise<PhotoCheckResult> {
+  const resolved = await resolveImageBytes(imageDataOrUrl);
+  if (!resolved.buf || !resolved.mime) {
+    const reason = resolved.error || 'Imagen inválida';
+    return { ok: false, relevant: false, reason };
+  }
+
+  const { buf, mime } = resolved;
+  if (buf.length < MIN_BYTES || buf.length > MAX_BYTES) {
+    const reason = `Tamaño descartado (${Math.round(buf.length / 1024)} KB)`;
+    return { ok: false, relevant: false, reason };
+  }
+
+  const dim = dimensions(buf);
+  if (dim) {
+    const ratio = dim.width / dim.height;
+    if (dim.width < MIN_WIDTH || ratio > 3 || ratio < 0.45) {
+      const reason = `Dimensiones descartadas (${dim.width}x${dim.height})`;
+      return { ok: false, relevant: false, reason };
+    }
+  }
+
+  const hash = crypto.createHash('sha1').update(buf).digest('hex').slice(0, 16);
+  const index = loadIndex();
+  if (newsId && (index[hash] || []).some((n) => n !== newsId)) {
+    const reason = 'Imagen repetida: ya ilustró otra noticia distinta';
+    return { ok: false, relevant: false, reason, hash };
+  }
+
+  const idKey = (newsId || '').trim() || crypto.createHash('sha1').update(headline.trim().toLowerCase()).digest('hex').slice(0, 10);
+  const cacheKey = `${hash}:${idKey}`;
+  const checks = loadPhotoChecks();
+  if (checks[cacheKey]) {
+    const cachedEntry = checks[cacheKey];
+    return {
+      ok: cachedEntry.relevant,
+      relevant: cachedEntry.relevant,
+      reason: cachedEntry.reason,
+      hash,
+      cached: true,
+    };
+  }
+
+  if (getAiCooldownUntil() > 0) {
+    const reason = 'IA en pausa por cuota: aceptada tras pasar filtros de URL y huella';
+    return { ok: true, relevant: true, reason, hash };
+  }
+
+  const models: { name: string; model: LanguageModelV1 }[] = [
+    ...[defaultGeminiModel, ...fallbackGeminiModels].map((name) => ({ name, model: google(name) as LanguageModelV1 })),
+  ];
+  const groqKey = (process.env.GROQ_API_KEY || '').replace(/^﻿+/, '').trim();
+  const groqVision = (process.env.GROQ_VISION_MODEL || '').trim();
+  if (groqKey && groqVision) {
+    models.push({ name: `groq:${groqVision}`, model: createGroq({ apiKey: groqKey })(groqVision) as LanguageModelV1 });
+  }
+
+  const promptText = [
+    `Titular principal: "${headline.trim()}"`,
+    summary?.trim() ? `Resumen de contexto: "${summary.trim().slice(0, 350)}"` : '',
+    '',
+    '¿Esta imagen ilustra razonablemente esta noticia? Responde sí/no y una razón corta en español.',
+    'Reglas de edición fotográfica:',
+    '- El lector verá esta foto junto al TITULAR PRINCIPAL. La imagen DEBE representar visualmente a los protagonistas, instituciones, objetos o el lugar central del titular principal.',
+    '- Responde "No: <razón>" si la imagen muestra una calle, tienda o escena cotidiana de otro país o región que no representa el sujeto principal del titular (por ejemplo, una calle comercial en Cisjordania o carteles en árabe cuando el titular trata sobre que los demócratas ganan las elecciones legislativas en EE. UU. y condicionan a Trump), aunque el resumen mencione reacciones allí.',
+    '- Responde "No: <razón>" si es la foto de perfil o retrato de un columnista/locutor, un logotipo, un gráfico genérico sin relación clara o una foto de otra noticia.',
+    '- Formato exacto en una sola línea: "Sí: <razón corta>" o "No: <razón corta>".',
+  ].filter(Boolean).join('\n');
+
+  for (const { name: modelName, model } of models) {
+    try {
+      const { text } = await generateText({
+        model,
+        messages: [
+          {
+            role: 'user',
+            content: [
+              { type: 'image', image: buf, mimeType: mime },
+              { type: 'text', text: promptText },
+            ],
+          },
+        ],
+        temperature: 0.1,
+        maxRetries: 0,
+        abortSignal: AbortSignal.timeout(30_000),
+      });
+
+      const verdict = parseVisionVerdict(text);
+      if (verdict) {
+        checks[cacheKey] = {
+          relevant: verdict.relevant,
+          reason: verdict.reason,
+          at: new Date().toISOString(),
+        };
+        savePhotoChecks(checks);
+        return {
+          ok: verdict.relevant,
+          relevant: verdict.relevant,
+          reason: verdict.reason,
+          hash,
+        };
+      }
+    } catch (err: any) {
+      console.warn(`[Imágenes] Verificación visual falló con ${modelName}:`, String(err?.message || '').slice(0, 140));
+    }
+  }
+
+  // Si todos los modelos de visión fallaron por cuota o red, no se bloquea la imagen filtrada
+  const fallbackReason = 'Visión no disponible temporalmente: aceptada tras filtros de URL y huella';
+  return { ok: true, relevant: true, reason: fallbackReason, hash };
 }
 
 // ── Personas, lugares y organizaciones del titular ───────────────────────────────────────
@@ -226,6 +442,7 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
   const max = opts.max ?? 4;
   const id = news.id || news.originalUrl;
   const index = loadIndex();
+  const photoChecks = loadPhotoChecks();
   const usedByOther = (hash: string) => (index[hash] || []).some((n) => n !== id);
 
   const accepted: ReelImage[] = [];
@@ -234,6 +451,11 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
     if (accepted.some((a) => a.hash === img.hash)) return;
     if (usedByOther(img.hash)) {
       console.log(`[Imágenes] Descartada (ya ilustró otra noticia): ${label}`);
+      return;
+    }
+    const check = photoChecks[`${img.hash}:${id}`];
+    if (check && !check.relevant) {
+      console.log(`[Imágenes] Descartada (rechazada por relevancia): ${label}`);
       return;
     }
     accepted.push(img);

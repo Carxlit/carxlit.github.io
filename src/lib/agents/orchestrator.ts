@@ -1,13 +1,16 @@
 import { RawArticle, ProcessedNews, NewsConfig } from '@/types/news';
-import { extractArticleImage, searchRealNewsPhoto } from '@/lib/news/article-image';
+import { extractArticleImage, searchRealNewsPhoto, decodeHtmlEntities } from '@/lib/news/article-image';
+import { outletImageUrl, verifyPhotoRelevance, isGenericImageUrl } from '@/lib/news/news-images';
 import { buildMultiSourceDossier } from './deep-researcher';
 import { runEditorialDesk } from './editorial-desk';
 import { runVisualEngine } from './visual-engine';
 import { generateInstagramCardImage } from '@/lib/news/card-generator';
 import { generateReelCover } from '@/lib/video/reel-cover';
 import { withSourceCredit } from '@/lib/news/post-links';
-import { decodeHtmlEntities } from '@/lib/news/article-image';
 import { findNewsVideo } from '@/lib/news/news-video';
+
+/** Máximo de verificaciones visuales por noticia para cuidar la cuota gratuita */
+const MAX_PHOTO_CHECKS = 3;
 
 /** ¿La URL devuelve de verdad una imagen? (no un video, una página o un error) */
 async function isLoadableImage(url: string): Promise<boolean> {
@@ -24,6 +27,90 @@ async function isLoadableImage(url: string): Promise<boolean> {
   }
 }
 
+/**
+ * Prueba candidatos en orden estricto:
+ *   1. Foto de la fuente (RSS o meta-imagen del artículo original)
+ *   2. Foto de otros medios que cubren el mismo hecho (outletImageUrl)
+ *   3. Búsqueda periodística (searchRealNewsPhoto)
+ * Usa el primero que pase verifyPhotoRelevance (máximo 3 verificaciones por noticia).
+ * Si ninguno pasa, devuelve undefined (la tarjeta y el Reel usan el marco con texto).
+ */
+export async function selectVerifiedNewsPhoto(params: {
+  newsId: string;
+  headline: string;
+  summary: string;
+  sourceImageUrl?: string;
+  sourceLink?: string;
+  outletLinks: string[];
+  searchQueries: string[];
+}): Promise<string | undefined> {
+  let checks = 0;
+  const seenUrls = new Set<string>();
+
+  const tryCandidate = async (rawUrl: string | undefined, originLabel: string): Promise<string | undefined> => {
+    if (!rawUrl || checks >= MAX_PHOTO_CHECKS) return undefined;
+    const url = decodeHtmlEntities(rawUrl.trim());
+    if (!url || seenUrls.has(url)) return undefined;
+    seenUrls.add(url);
+
+    if (isGenericImageUrl(url) || !(await isLoadableImage(url))) {
+      console.warn(`[Pipeline] Foto descartada por filtro/carga (${originLabel}): ${url.slice(0, 80)}`);
+      return undefined;
+    }
+
+    checks++;
+    const verdict = await verifyPhotoRelevance(url, params.headline, params.summary, params.newsId);
+    console.log(
+      `[Pipeline] Verificación foto (${checks}/${MAX_PHOTO_CHECKS}, ${originLabel}): ${verdict.relevant ? 'ACEPTADA' : 'RECHAZADA'} — ${verdict.reason}`
+    );
+    return verdict.relevant ? url : undefined;
+  };
+
+  // 1. Foto de la fuente
+  if (params.sourceImageUrl) {
+    const accepted = await tryCandidate(params.sourceImageUrl, 'fuente');
+    if (accepted) return accepted;
+  }
+  if (checks < MAX_PHOTO_CHECKS && params.sourceLink) {
+    try {
+      const extracted = await extractArticleImage(params.sourceLink);
+      const accepted = await tryCandidate(extracted, 'fuente-meta');
+      if (accepted) return accepted;
+    } catch (err: any) {
+      console.warn('[Pipeline] Error al extraer foto de la fuente:', err?.message);
+    }
+  }
+
+  // 2. Foto de otros medios que cubren el hecho (outletImageUrl)
+  const uniqueOutletLinks = Array.from(new Set(params.outletLinks.filter((u) => u && u !== params.sourceLink)));
+  for (const link of uniqueOutletLinks) {
+    if (checks >= MAX_PHOTO_CHECKS) break;
+    try {
+      const outletPhoto = await outletImageUrl(link);
+      const accepted = await tryCandidate(outletPhoto, 'otro-medio');
+      if (accepted) return accepted;
+    } catch (err: any) {
+      console.warn('[Pipeline] Error al obtener foto de otro medio:', err?.message);
+    }
+  }
+
+  // 3. Búsqueda periodística (searchRealNewsPhoto)
+  const uniqueQueries = Array.from(new Set(params.searchQueries.map((q) => q.trim()).filter(Boolean)));
+  for (const query of uniqueQueries) {
+    if (checks >= MAX_PHOTO_CHECKS) break;
+    try {
+      const searchedPhoto = await searchRealNewsPhoto(query);
+      const accepted = await tryCandidate(searchedPhoto, 'busqueda');
+      if (accepted) return accepted;
+    } catch (err: any) {
+      console.warn('[Pipeline] Búsqueda de foto periodística omitida:', err?.message);
+    }
+  }
+
+  console.log('[Pipeline] Ninguna foto superó la verificación de relevancia; se deja rawImageUrl vacío (marco con texto).');
+  return undefined;
+}
+
 export interface PipelineOptions {
   skipImageGeneration?: boolean;
 }
@@ -38,32 +125,7 @@ export async function runEditorialPipeline(
   options: PipelineOptions = {}
 ): Promise<ProcessedNews> {
   console.log(`[Pipeline] Iniciando procesamiento multi-agente para: "${article.title.slice(0, 60)}..."`);
-
-  // 1. Fase de Extracción de Fotografía de Prensa Real
-  // Cada candidata se comprueba: algunos feeds traen un video (.mp4) o una URL caída como "imagen"
-  // y la tarjeta salía con el hueco de la foto vacío
-  let realPhotoUrl = article.imageUrl ? decodeHtmlEntities(article.imageUrl) : undefined;
-  if (realPhotoUrl && !(await isLoadableImage(realPhotoUrl))) {
-    console.warn(`[Pipeline] La imagen del feed no es una foto válida (${realPhotoUrl.slice(0, 80)}); se busca otra`);
-    realPhotoUrl = undefined;
-  }
-  if (!realPhotoUrl && article.link) {
-    try {
-      const found = await extractArticleImage(article.link, article.title);
-      if (found && (await isLoadableImage(found))) realPhotoUrl = found;
-    } catch (err: any) {
-      console.warn('[Pipeline] Error al extraer foto de URL, recurriendo a búsqueda:', err?.message);
-    }
-  }
-
-  if (!realPhotoUrl) {
-    try {
-      const found = await searchRealNewsPhoto(article.title);
-      if (found && (await isLoadableImage(found))) realPhotoUrl = found;
-    } catch (err: any) {
-      console.warn('[Pipeline] Búsqueda de foto periodística omitida:', err?.message);
-    }
-  }
+  const newsId = article.id || Math.random().toString(36).substring(2, 10);
 
   // 1.5. Agente de Investigación Profunda: reúne información de múltiples páginas y fuentes
   console.log('[Pipeline] Ejecutando Agente Investigador Multi-Fuente...');
@@ -73,6 +135,22 @@ export async function runEditorialPipeline(
   console.log('[Pipeline] Ejecutando Mesa Editorial (Director + Redactor Omnicanal + Artículo)...');
   const { brief: editorialBrief, copies, article: fullArticle, video: videoScript } = await runEditorialDesk(article, researchDossier);
 
+  // 1. Selección y verificación de relevancia de la fotografía principal (máx. 3 verificaciones)
+  const outletLinks = [
+    ...researchDossier.corroboratingSources.map((s) => s.link),
+    ...(fullArticle.sources || []).map((s) => s.url),
+  ].filter(Boolean);
+
+  const realPhotoUrl = await selectVerifiedNewsPhoto({
+    newsId,
+    headline: editorialBrief.headline || fullArticle.title || article.title,
+    summary: editorialBrief.subHeadline || fullArticle.dek || article.contentSnippet || '',
+    sourceImageUrl: article.imageUrl,
+    sourceLink: article.link,
+    outletLinks,
+    searchQueries: [article.title, fullArticle.title || ''],
+  });
+
   // Video real del hecho: si el titular original no lo encontró, se prueba con el del artículo (más concreto)
   const sourceVideo =
     article.video ||
@@ -81,7 +159,7 @@ export async function runEditorialPipeline(
 
   // Construcción del objeto preliminar de noticia procesada
   const processed: ProcessedNews = {
-    id: article.id || Math.random().toString(36).substring(2, 10),
+    id: newsId,
     originalUrl: article.link || '',
     originalTitle: article.title,
     sourceName: article.sourceName || 'Punto Ciego Intel',

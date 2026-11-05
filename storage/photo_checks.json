@@ -1,0 +1,27 @@
+{
+  "ae0d41d90785f221:vvqoo2knh": {
+    "relevant": false,
+    "reason": "La imagen muestra una escena callejera en Medio Oriente con carteles en árabe, lo cual no ilustra las elecciones legislativas en EE. UU. ni a los demócratas o a Trump.",
+    "at": "2026-11-05T13:32:24.079Z"
+  },
+  "513c0b704f0d5330:qbzkjzbyi": {
+    "relevant": false,
+    "reason": "Es el retrato de un columnista u opinador y no representa el tutela financiero ni la industria petrolera de Irak.",
+    "at": "2026-11-05T13:36:41.262Z"
+  },
+  "be588c03e37d43e2:usj56d5bu": {
+    "relevant": true,
+    "reason": "La imagen muestra el telescopio espacial Swift, que es el objeto protagonista de la noticia sobre su reingreso a la atmósfera.",
+    "at": "2026-11-05T13:37:36.365Z"
+  },
+  "0030a5aae6589d50:qbti1ke07": {
+    "relevant": true,
+    "reason": "Chuck Schumer y un cartel que critica la política hacia Irán contextualizan la oposición demócrata en el Congreso.",
+    "at": "2026-11-05T13:38:08.169Z"
+  },
+  "0855174f15c20ecb:imt1s272r": {
+    "relevant": true,
+    "reason": "la imagen muestra al activista Joshua Wong, protagonista de la noticia.",
+    "at": "2026-11-05T13:38:17.911Z"
+  }
+}
