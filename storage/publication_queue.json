@@ -10790,12 +10790,13 @@
         ],
         "close": "Lee el análisis completo sobre el hardware de la IA en el enlace."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T16:34:30.890Z",
       "cardImageUrl": "/news-cards/news-vhrtgje3q-1793896470891.jpg",
       "reelCoverUrl": "/news-cards/news-vhrtgje3q-1793896471399-cover.jpg",
       "instagramCardUrl": "/news-cards/news-vhrtgje3q-1793896471866-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fragilidad-oculta-detras-auge-inteligencia-artificial-bz0p/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fragilidad-oculta-detras-auge-inteligencia-artificial-bz0p/",
+      "publishedAt": "2026-11-05T20:41:36.508Z"
     },
     "channels": {
       "facebook": true,
@@ -10809,10 +10810,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T20:39:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T16:34:32.405Z"
+    "createdAt": "2026-11-05T16:34:32.405Z",
+    "lastAttemptAt": "2026-11-05T20:40:52.141Z",
+    "results": {
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122104689303532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "80",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzlq3v3fmu2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18121871371762139"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117565769626777771"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18153971002539548"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T20:41:36.508Z"
   },
   {
     "id": "queue-1793901165107-e7f5j",
