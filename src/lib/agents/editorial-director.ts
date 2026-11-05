@@ -89,9 +89,14 @@ const forbiddenFilter = /(🚨|🔴|📢|⚠️|\b([úu]ltima\s*hora|noticias\s*
  * Normaliza la salida del modelo al brief definitivo
  */
 export function finalizeBrief(raw: z.infer<typeof EditorialBriefSchema>, article: RawArticle): EditorialBrief {
+  let headline = raw.headline.replace(forbiddenFilter, '').replace(/!/g, '').trim().toUpperCase();
+  if (article.updateOf) {
+    headline = headline.replace(/^ACTUALIZACI[ÓO]N\s*[:\-–—]?\s*/i, '').trim();
+    headline = `ACTUALIZACIÓN: ${headline}`;
+  }
   return {
     category: normalizeCategory(raw.category, normalizeCategory(article.category)),
-    headline: raw.headline.replace(forbiddenFilter, '').replace(/!/g, '').trim().toUpperCase(),
+    headline,
     subHeadline: raw.subHeadline.replace(forbiddenFilter, '').trim(),
     blindSpotAngle: raw.blindSpotAngle.trim(),
     geopoliticalImplication: raw.geopoliticalImplication.trim(),

@@ -18,7 +18,8 @@ import { resolveGoogleNewsUrl, isValidEditorialPhoto, decodeHtmlEntities, GENERI
  *
  * Contra imágenes que no vienen al caso: se descartan logos, ilustraciones por defecto de los portales y fotos muy pequeñas,
  * y NINGUNA imagen puede repetirse entre noticias distintas (huella de la imagen guardada en storage/image_hashes.json):
- * si la misma imagen ya ilustró otra noticia, es genérica y se descarta.
+ * si la misma imagen ya ilustró otra noticia, es genérica y se descarta. Una actualización (updateOf) comparte
+ * familia de historia con su noticia original y puede reutilizar sus imágenes, pero no las de otras noticias.
  */
 export interface ReelImage {
   /** Data URL (la imagen viaja dentro de la página del Reel) o, si no se pudo descargar, su dirección original */
@@ -35,11 +36,66 @@ const INDEX_PATH = path.join(process.cwd(), 'storage', 'image_hashes.json');
 const INDEX_LIMIT = 400;
 const PHOTO_CHECKS_PATH = path.join(process.cwd(), 'storage', 'photo_checks.json');
 const PHOTO_CHECKS_LIMIT = 500;
+const QUEUE_PATH = path.join(process.cwd(), 'storage', 'publication_queue.json');
 const MIN_WIDTH = 700;
 const MIN_BYTES = 25_000;
 const MAX_BYTES = 8_000_000;
 
 export const isGenericImageUrl = (url: string) => GENERIC_IMAGE_URL.test(url) || !isValidEditorialPhoto(url);
+
+/**
+ * Resuelve el identificador de familia de historia y todos los IDs/slugs asociados a la misma familia
+ * (noticia original + su actualización), para que una actualización pueda reutilizar las imágenes de
+ * su original sin permitir imágenes de otras noticias distintas.
+ */
+export function resolveStoryFamily(
+  newsId?: string,
+  updateOf?: string,
+  slug?: string
+): { familyId: string; familySet: Set<string>; originalItem?: ProcessedNews } {
+  const familySet = new Set<string>();
+  if (newsId?.trim()) familySet.add(newsId.trim());
+  if (updateOf?.trim()) familySet.add(updateOf.trim());
+  if (slug?.trim()) familySet.add(slug.trim());
+
+  let originalItem: ProcessedNews | undefined;
+  let canonicalFamily = (updateOf || slug || newsId || '').trim();
+
+  try {
+    const queue = readJsonFile<any[]>(QUEUE_PATH, []);
+    for (const rawItem of queue) {
+      const item: ProcessedNews | undefined = rawItem?.news || rawItem;
+      if (!item) continue;
+      const itemId = (item.id || rawItem?.id || '').trim();
+      const itemSlug = item.article?.slug?.trim();
+      const itemUpdateOf = item.updateOf?.trim();
+      const matches =
+        (newsId && (itemId === newsId || itemSlug === newsId)) ||
+        (updateOf && (itemSlug === updateOf || itemId === updateOf || itemUpdateOf === updateOf)) ||
+        (slug && (itemSlug === slug || itemUpdateOf === slug));
+      if (matches) {
+        if (itemId) familySet.add(itemId);
+        if (itemSlug) familySet.add(itemSlug);
+        if (itemUpdateOf) familySet.add(itemUpdateOf);
+        if (item.originalUrl) familySet.add(item.originalUrl);
+        if (updateOf && (itemSlug === updateOf || itemId === updateOf)) {
+          originalItem = item;
+        }
+      }
+    }
+    if (!canonicalFamily && originalItem) {
+      canonicalFamily = originalItem.article?.slug || originalItem.id;
+    }
+  } catch {
+    // Si no se puede leer la cola, se usa el conjunto básico
+  }
+
+  return {
+    familyId: canonicalFamily || (newsId || '').trim(),
+    familySet,
+    originalItem,
+  };
+}
 
 function dimensions(buf: Buffer): { width: number; height: number } | null {
   try {
@@ -212,7 +268,8 @@ export async function verifyPhotoRelevance(
   imageDataOrUrl: string | Buffer,
   headline: string,
   summary: string = '',
-  newsId?: string
+  newsId?: string,
+  updateOf?: string
 ): Promise<PhotoCheckResult> {
   const resolved = await resolveImageBytes(imageDataOrUrl);
   if (!resolved.buf || !resolved.mime) {
@@ -237,7 +294,8 @@ export async function verifyPhotoRelevance(
 
   const hash = crypto.createHash('sha1').update(buf).digest('hex').slice(0, 16);
   const index = loadIndex();
-  if (newsId && (index[hash] || []).some((n) => n !== newsId)) {
+  const { familySet } = resolveStoryFamily(newsId, updateOf);
+  if (familySet.size > 0 && (index[hash] || []).some((owner) => !familySet.has(owner))) {
     const reason = 'Imagen repetida: ya ilustró otra noticia distinta';
     return { ok: false, relevant: false, reason, hash };
   }
@@ -333,7 +391,7 @@ const NOT_ENTITY = new Set(
     'después', 'antes', 'más', 'menos', 'todo', 'todos', 'dos', 'tres', 'cuatro', 'cinco', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
     'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo', 'gobierno',
     'presidente', 'ministro', 'ministra', 'guerra', 'crisis', 'ataque', 'ataques', 'elecciones', 'senado', 'cámara', 'congreso', 'policía', 'ejército',
-    'fuerzas', 'nueva', 'caso', 'plan', 'ley', 'banco', 'empresa', 'mercado', 'mercados', 'precio', 'precios', 'deuda', 'acuerdo']
+    'fuerzas', 'nueva', 'caso', 'plan', 'ley', 'banco', 'empresa', 'mercado', 'mercados', 'precio', 'precios', 'deuda', 'acuerdo', 'actualización', 'actualizacion']
 );
 const CAP = '[A-ZÁÉÍÓÚÑÜ][\\p{L}\\p{N}\'’-]*';
 const ENTITY_RE = new RegExp(`${CAP}(?:\\s+(?:de la|del|de los|de las|de|van|von|bin|al)?\\s*${CAP})*`, 'gu');
@@ -437,13 +495,15 @@ export interface CollectOptions {
 
 /**
  * Hasta `max` imágenes distintas y relevantes para el Reel (la de la noticia primero). Vacío si ninguna pasa los filtros.
+ * Si `news.updateOf` está definido, las imágenes de la noticia original comparten familia y pueden reutilizarse.
  */
 export async function collectReelImages(news: ProcessedNews, opts: CollectOptions): Promise<ReelImage[]> {
   const max = opts.max ?? 4;
   const id = news.id || news.originalUrl;
+  const { familyId, familySet, originalItem } = resolveStoryFamily(id, news.updateOf, news.article?.slug);
   const index = loadIndex();
   const photoChecks = loadPhotoChecks();
-  const usedByOther = (hash: string) => (index[hash] || []).some((n) => n !== id);
+  const usedByOther = (hash: string) => (index[hash] || []).some((owner) => !familySet.has(owner));
 
   const accepted: ReelImage[] = [];
   const consider = (img: ReelImage | null, label: string) => {
@@ -461,10 +521,17 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
     accepted.push(img);
   };
 
-  // 1-2. La foto de la noticia y la de otros medios que cuentan el mismo hecho
-  const outletLinks = (news.article?.sources || []).map((s) => s.url).filter((u) => u && u !== news.originalUrl).slice(0, 5);
-  const [main, ...others] = await Promise.all([
+  // 1-2. La foto de la noticia, la de su original (si es actualización) y la de otros medios que cuentan el mismo hecho
+  const rawOutletUrls = [
+    ...(news.article?.sources || []).map((s) => s.url),
+    ...(originalItem?.article?.sources || []).map((s) => s.url),
+  ];
+  const outletLinks = Array.from(new Set(rawOutletUrls.filter((u) => u && u !== news.originalUrl))).slice(0, 5);
+  const [main, origMain, ...others] = await Promise.all([
     news.rawImageUrl ? getImage(news.rawImageUrl, 'noticia') : Promise.resolve(null),
+    originalItem?.rawImageUrl && originalItem.rawImageUrl !== news.rawImageUrl
+      ? getImage(originalItem.rawImageUrl, 'noticia')
+      : Promise.resolve(null),
     ...outletLinks.map(async (l) => {
       const u = await outletImageUrl(l);
       return u ? getImage(u, 'medio') : null;
@@ -476,6 +543,7 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
   } else {
     consider(main, 'foto de la noticia');
   }
+  if (origMain) consider(origMain, 'foto de la noticia original');
   others.forEach((o, i) => consider(o, `medio ${i + 1}`));
 
   // 3. Fotos libres de las personas, lugares y organizaciones del titular
@@ -491,9 +559,10 @@ export async function collectReelImages(news: ProcessedNews, opts: CollectOption
   }
 
   const chosen = accepted.slice(0, max);
+  const ownerKey = familyId || id;
   chosen.forEach((c) => {
     if (!c.hash) return;
-    index[c.hash] = Array.from(new Set([...(index[c.hash] || []), id]));
+    index[c.hash] = Array.from(new Set([...(index[c.hash] || []), ownerKey]));
   });
   saveIndex(index);
   console.log(`[Imágenes] ${chosen.length} para el Reel: ${chosen.map((c) => c.origin).join(', ') || 'ninguna'}`);

@@ -19,9 +19,10 @@ lo publica en el sitio y lo difunde en redes con un enlace. Nadie interviene.
 3. **Nunca** subir secretos al repositorio (es público). `.env.local` y `storage/credentials.json` no se commitean.
 4. **Instagram: siempre Reel** (video real CC si existe; si no, Reel narrado por IA con fotos). **Resto de redes: solo video real**
    (licencia Creative Commons); si no hay, post normal con imagen. Nada de videos hechos por IA fuera de Instagram.
-5. Las imágenes de un Reel deben **tener que ver con la noticia**. Una imagen repetida entre noticias distintas es un fallo grave.
+5. Las imágenes de un Reel deben **tener que ver con la noticia**. Una imagen repetida entre noticias distintas es un fallo grave (una actualización sí puede reutilizar fotos de su noticia original mediante el id de familia en `storage/image_hashes.json`).
 6. Temas graves (muertes, guerra, atentados, tragedias) → formato serio. Lo demás → infografía animada.
 7. Trabajar en silencio y reportar al terminar; mensajes cortos. Cualquier cambio gordo, explicarlo con un prompt claro para el dueño.
+8. **Actualizaciones de historias graves (`news.updateOf`):** un candidato repetido solo pasa como actualización si (a) coincide con una noticia nuestra publicada hace entre 3 y 48 h, (b) la original era grave (`SEVERE_EVENT`) o urgente, (c) el titular trae un marcador de novedad (`UPDATE_NOVELTY_MARKERS`) o una cifra distinta, y (d) máximo 1 actualización por historia original y 2 al día (cuentan dentro del cupo de 16/día). Lleva titular con prefijo `"ACTUALIZACIÓN:"`, la mesa editorial cuenta solo lo nuevo, el sitio enlaza ambas notas (`"Lee la primera nota"` / `"Actualizada: ver novedades"`) y sigue saliendo como Reel en Instagram.
 
 ## Arquitectura (Next.js 14 + bundle esbuild que corre en Actions)
 Punto de entrada de la nube: `scripts/cloud-run.ts` → `dist/cloud-run.js` (`npm run cloud:build`). Fases: `produce` (auditoría + ciclo + historias extra)
@@ -29,10 +30,11 @@ Punto de entrada de la nube: `scripts/cloud-run.ts` → `dist/cloud-run.js` (`np
 
 Carpetas clave (`src/lib/…`):
 - `agents/news-scout.ts` — ~71 fuentes RSS/Google News (español e inglés), puntuación de urgencia, agrupa el mismo hecho entre medios (`coverageCount`),
-  `TIER1_SOURCES` (agencias), `SEVERE_EVENT` (hechos graves). `semantic-dedupe.ts`: repetidos por significado con embeddings de Gemini (umbral 0,81).
+  `TIER1_SOURCES` (agencias), `SEVERE_EVENT` (hechos graves) y `matchStoryUpdate` (actualizaciones 3-48 h con marcador de novedad o cifra distinta).
+  `semantic-dedupe.ts`: repetidos por significado con embeddings de Gemini (umbral 0,81; deja pasar actualizaciones válidas).
 - `agents/autonomous-newsroom.ts` — el ciclo: cupo diario (16), horas pico, cola máx. 3, selección con diversidad, **protocolo de urgencia**
   (`isTrueBreakingNews`: umbral 90, máx. 4/día, hecho grave de fuente tier1 sale ya; sin hecho grave exige ≥5 medios; de madrugada solo hechos graves).
-- `agents/orchestrator.ts`, `editorial-desk.ts` (una sola llamada a la IA produce brief + copys + artículo + guion de video; todo en español),
+- `agents/orchestrator.ts`, `editorial-desk.ts` (una sola llamada a la IA produce brief + copys + artículo + guion de video; todo en español; si `updateOf` está presente recibe titular y resumen de la original con la orden de contar solo lo nuevo),
   `deep-researcher.ts` (dossier multi-fuente), `queue-dispatcher.ts` (cola, canales, reintentos: 3 intentos, backoff 3 y 15 min;
   Instagram reintenta el Reel y solo cae a imagen en el último intento), `comment-replies.ts` (responde comentarios de IG/FB con IA),
   `audience-metrics.ts` y `daily-report.ts` (reporte nocturno a Telegram), `newsroom-auditor.ts` (salud de canales).
@@ -41,12 +43,12 @@ Carpetas clave (`src/lib/…`):
   música original sintetizada (`background-music.ts`, con sidechain bajo la voz), con video CC real si existe (`yt-dlp`, solo "Creative Commons").
   `reel-infographic.ts` — formato infografía (marco inclinado, escenas "EL DATO" con anillo/puntos/número que cuenta, color por sección);
   `chooseReelStyle` decide serio/infografía. `reel-cover.ts` — portada 9:16 que se publica en `site/img/<slug>-cover.jpg` y se pasa a Instagram como `cover_url`.
-- `news/news-images.ts` — reúne imágenes del Reel: foto de la noticia + foto principal de otros medios que cubren el hecho; descarta logos/ilustraciones por
-  defecto, imágenes pequeñas y **cualquier imagen ya usada en otra noticia** (huellas en `storage/image_hashes.json`). Fotos libres de Commons/Openverse
+- `news/news-images.ts` — verifica relevancia visual (`verifyPhotoRelevance`, caché en `storage/photo_checks.json`) y reúne imágenes del Reel: foto de la noticia + foto principal de otros medios que cubren el hecho; descarta logos/ilustraciones por
+  defecto, imágenes pequeñas y **cualquier imagen ya usada en otra noticia distinta** (huellas por familia de historia en `storage/image_hashes.json`). Fotos libres de Commons/Openverse
   existen pero están **apagadas** (`REEL_STOCK_IMAGES=true` las activa): coincidían por nombre pero no por contenido.
 - `news/extra-publishers.ts` (Instagram, Reel IG/FB, Mastodon), `threads-publisher.ts` (token se renueva solo y se guarda cifrado),
   `youtube-publisher.ts` (Shorts; sin auditar de Google los videos quedan privados), `news-video.ts` (busca video CC; `sameStory` exige coincidencia fuerte).
-- `site/templates.ts` y `site/static-site.ts` — sitio estático tipo portal de noticias (portada, secciones, artículo con video/Reel incrustado, ticker "Último minuto",
+- `site/templates.ts` y `site/static-site.ts` — sitio estático tipo portal de noticias (portada, secciones, artículo con video/Reel incrustado, avisos cruzados de actualización, ticker "Último minuto",
   RSS, `sitemap.xml`, `news-sitemap.xml`). `npm run site:rebuild` regenera todo.
 
 Estado persistente = archivos en `storage/` commiteados por la nube (`publication_queue.json`, `site_articles.json`, `news_history.json`, métricas, etc.).
@@ -77,8 +79,7 @@ Los commits "Estado de la redacción…" / "Publicaciones…" los hace el bot: h
 - Conectar YouTube Shorts (`YOUTUBE.bat`) y, para que sean públicos, enviar el formulario de auditoría de la API (gratis, lo envía el dueño).
 - Google Search Console: sitemaps enviados, esperar indexación. Google News Publisher Center: pendiente (esperar semanas de contenido). Flipboard: añadir `rss.xml`.
 - Anuncios (Adsterra/Monetag) cuando haya tráfico real; el dueño pega los códigos en el chat y se integran en las plantillas.
-- Actualizaciones de una tragedia ya cubierta (identificación de víctimas, causas) como "actualización" en vez de descartarlas por repetidas.
-- Vigilar relevancia de la foto principal de cada noticia (a veces viene de una nota relacionada pero distinta) y de las falsas urgencias.
+- Vigilar falsas urgencias en el protocolo de última hora.
 - Canal de WhatsApp: descartado (no hay API oficial para canales; el dueño no quiere hacerlo manual).
 - Datos de audiencia el 2026-11-05: Instagram 46 seguidores (+34 en 3 días), Facebook 2, Telegram 2, Bluesky 0; 58 artículos; 11/11 Reels recientes bien.
 

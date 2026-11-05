@@ -1,6 +1,8 @@
+import path from 'path';
 import { z } from 'zod';
-import { RawArticle, MultiPlatformCopies, NewsArticle, VideoScript } from '@/types/news';
+import { RawArticle, MultiPlatformCopies, NewsArticle, VideoScript, StoryUpdateInfo, ProcessedNews } from '@/types/news';
 import { generateObjectWithFallback } from '@/lib/ai/gemini';
+import { readJsonFile } from '@/lib/storage/json-store';
 import type { ResearchDossier } from './deep-researcher';
 import { EditorialBrief, EditorialBriefSchema, DIRECTOR_SYSTEM_PROMPT, finalizeBrief } from './editorial-director';
 import { MultiPlatformCopySchema, COPYWRITER_SYSTEM_PROMPT, finalizeCopies } from './multi-platform-copywriter';
@@ -49,7 +51,7 @@ function finalizeVideoScript(raw: any): VideoScript | undefined {
   return hook && beats.length >= 2 ? { hook, beats, close: close || 'Lee el análisis completo en el enlace de nuestro perfil.' } : undefined;
 }
 
-const SLUG_STOPWORDS = new Set(['el', 'la', 'los', 'las', 'de', 'del', 'en', 'y', 'a', 'un', 'una', 'por', 'para', 'con', 'que', 'su', 'sus', 'al', 'lo', 'se']);
+const SLUG_STOPWORDS = new Set(['el', 'la', 'los', 'las', 'de', 'del', 'en', 'y', 'a', 'un', 'una', 'por', 'para', 'con', 'que', 'su', 'sus', 'al', 'lo', 'se', 'actualizacion']);
 
 /**
  * Slug corto y legible para la URL del artículo: palabras clave del título + sufijo único
@@ -69,12 +71,73 @@ export function buildSlug(title: string): string {
 }
 
 /**
+ * Busca el titular y resumen de la noticia original cuando article.updateOf está presente
+ */
+export function resolveUpdateOriginal(article: RawArticle): StoryUpdateInfo | undefined {
+  if (article.updateOriginal) return article.updateOriginal;
+  if (!article.updateOf) return undefined;
+  const slug = article.updateOf;
+  const queuePath = path.join(process.cwd(), 'storage', 'publication_queue.json');
+  const queue = readJsonFile<any[]>(queuePath, []);
+  for (const rawItem of queue) {
+    const found: ProcessedNews | undefined = rawItem?.news || rawItem;
+    if (found && (found.article?.slug === slug || found.id === slug || rawItem?.id === slug)) {
+      return {
+        id: found.id || rawItem?.id || slug,
+        slug: found.article?.slug || slug,
+        title: found.originalTitle || found.article?.title || found.headline,
+        headline: found.headline || found.article?.title || found.originalTitle,
+        summary: found.subHeadline || found.article?.dek || found.blindSpotAngle || '',
+        rawImageUrl: found.rawImageUrl,
+      };
+    }
+  }
+  const sitePath = path.join(process.cwd(), 'storage', 'site_articles.json');
+  const siteEntries = readJsonFile<Array<{ slug: string; headline?: string; title?: string; dek?: string }>>(sitePath, []);
+  const siteFound = siteEntries.find((e) => e.slug === slug);
+  if (siteFound) {
+    return {
+      id: siteFound.slug,
+      slug: siteFound.slug,
+      title: siteFound.title || siteFound.headline || slug,
+      headline: siteFound.headline || siteFound.title || slug,
+      summary: siteFound.dek || '',
+    };
+  }
+  return undefined;
+}
+
+/**
+ * Construye el prompt de usuario para la Mesa Editorial (incluye contexto de actualización si aplica)
+ */
+export function buildEditorialDeskPrompt(article: RawArticle, dossier?: ResearchDossier): string {
+  const researchContext = dossier?.crossSourceSummary || article.contentSnippet;
+  const updateOriginal = resolveUpdateOriginal(article);
+  const updateBlock = updateOriginal
+    ? `\n\nACTUALIZACIÓN DE NOTICIA YA PUBLICADA POR PUNTO CIEGO:
+- Slug original: ${updateOriginal.slug}
+- Titular de la primera nota: "${updateOriginal.headline}"
+- Resumen de la primera nota: "${updateOriginal.summary}"
+INSTRUCCIÓN EDITORIAL OBLIGATORIA: ya la publicamos; cuenta SOLO lo nuevo, sin repetir lo anterior. El titular del brief (brief.headline) DEBE empezar por "ACTUALIZACIÓN:".`
+    : '';
+
+  return `Noticia a trabajar:
+Titular recibido: "${article.title}"
+Fuente principal: ${article.sourceName}
+Categoría sugerida por el radar: ${article.category}
+URL de origen: ${article.link}${updateBlock}
+
+DOSSIER DE INVESTIGACIÓN MULTI-FUENTE (${dossier?.sourcesConsultedCount || 1} fuentes: ${dossier?.sourcesList?.join(', ') || article.sourceName}):
+${researchContext}`;
+}
+
+/**
  * Mesa Editorial: Director (Agente 2) + Redactor Omnicanal (Agente 3) + Redactor de Artículo (3.5)
  * trabajan en UNA sola llamada al modelo. Así cada historia gasta 1 solicitud de la cuota diaria
  * en vez de 3, y los tres textos quedan coherentes entre sí.
  */
 export async function runEditorialDesk(article: RawArticle, dossier?: ResearchDossier): Promise<DeskOutput> {
-  const researchContext = dossier?.crossSourceSummary || article.contentSnippet;
+  const prompt = buildEditorialDeskPrompt(article, dossier);
 
   const raw = await generateObjectWithFallback({
     label: 'Mesa Editorial',
@@ -88,14 +151,7 @@ export async function runEditorialDesk(article: RawArticle, dossier?: ResearchDo
       VIDEO_SYSTEM_PROMPT,
       'IDIOMA: escribe TODO en español neutro (titular, copys, artículo y guion), aunque las fuentes estén en inglés u otro idioma; traduce los nombres de cargos y mantén los nombres propios. REGLA DE VERACIDAD GLOBAL: usa solo hechos, cifras y nombres presentes en el dossier. El análisis puede ser interpretativo; los hechos no se inventan.',
     ].join('\n\n'),
-    prompt: `Noticia a trabajar:
-Titular recibido: "${article.title}"
-Fuente principal: ${article.sourceName}
-Categoría sugerida por el radar: ${article.category}
-URL de origen: ${article.link}
-
-DOSSIER DE INVESTIGACIÓN MULTI-FUENTE (${dossier?.sourcesConsultedCount || 1} fuentes: ${dossier?.sourcesList?.join(', ') || article.sourceName}):
-${researchContext}`,
+    prompt,
   });
 
   const brief = finalizeBrief(raw.brief, article);

@@ -281,17 +281,26 @@ export async function publishArticleToSite(news: ProcessedNews): Promise<string 
       publishedAt: new Date().toISOString(),
       article,
       blindSpot: news.blindSpotAngle,
+      ...(news.updateOf ? { updateOf: news.updateOf } : {}),
     };
 
     const entries = getSiteEntries().filter((e) => e.slug !== entry.slug);
+    const originalEntry = news.updateOf ? entries.find((e) => e.slug === news.updateOf) : undefined;
+    if (originalEntry) {
+      originalEntry.updatedBy = entry.slug;
+    }
     entries.unshift(entry);
     writeJsonFileAtomic(STORE_PATH, entries.slice(0, 2000));
 
-    // El nuevo artículo y los recientes (cambian sus bloques "Lo último" y "Relacionadas")
+    // El nuevo artículo, el original actualizado (si aplica) y los recientes
     const config = getSiteConfig();
     const latest = sortLatest(entries);
-    for (const e of latest.slice(0, REFRESH_RECENT_ARTICLES)) writeArticle(e, latest, baseUrl, config);
-    if (!latest.slice(0, REFRESH_RECENT_ARTICLES).some((e) => e.slug === entry.slug)) writeArticle(entry, latest, baseUrl, config);
+    const refreshed = latest.slice(0, REFRESH_RECENT_ARTICLES);
+    for (const e of refreshed) writeArticle(e, latest, baseUrl, config);
+    if (!refreshed.some((e) => e.slug === entry.slug)) writeArticle(entry, latest, baseUrl, config);
+    if (originalEntry && !refreshed.some((e) => e.slug === originalEntry.slug)) {
+      writeArticle(originalEntry, latest, baseUrl, config);
+    }
     rebuildSiteIndex(latest);
 
     if (!baseUrl) {

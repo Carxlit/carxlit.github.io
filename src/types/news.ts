@@ -15,6 +15,17 @@ export type LegacyCategory =
 
 export type NewsCategory = LegacyCategory | EditorialCategory | string;
 
+export interface StoryUpdateInfo {
+  id: string;
+  slug: string;
+  title: string;
+  headline: string;
+  summary: string;
+  rawImageUrl?: string;
+  publishedAt?: string;
+  reason?: string;
+}
+
 export interface RawArticle {
   id: string;
   title: string;
@@ -32,6 +43,10 @@ export interface RawArticle {
   tier1?: boolean;
   /** Video del hecho ya encontrado al elegir la historia */
   video?: NewsVideo;
+  /** Si actualiza una noticia grave ya publicada: slug del artículo original */
+  updateOf?: string;
+  /** Contexto de la noticia original para que la mesa editorial cuente solo lo nuevo */
+  updateOriginal?: StoryUpdateInfo;
 }
 
 export interface MultiPlatformCopies {
@@ -67,6 +82,8 @@ export interface ProcessedNews {
   photoCredits?: string[];
   sourceVideo?: NewsVideo; // Video real del hecho (YouTube) para incrustar en el artículo
   instagramPermalink?: string; // Enlace del Reel publicado (se muestra en el artículo)
+  /** Si esta historia es actualización de una anterior, slug del artículo original */
+  updateOf?: string;
   publishedAt?: string;
   facebookPostId?: string;
   telegramMessageId?: string;

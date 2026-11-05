@@ -1,8 +1,8 @@
 import Parser from 'rss-parser';
 import fs from 'fs';
 import path from 'path';
-import { RawArticle, EditorialCategory } from '@/types/news';
-import { readJsonFile, writeJsonFileAtomic } from '@/lib/storage/json-store';
+import { RawArticle, EditorialCategory, StoryUpdateInfo } from '@/types/news';
+import { readJsonFile, writeJsonFileAtomic, localDateKey } from '@/lib/storage/json-store';
 
 const QUEUE_PATH = path.join(process.cwd(), 'storage', 'publication_queue.json');
 
@@ -250,6 +250,17 @@ export const SEVERE_EVENT = new RegExp(
   'i'
 );
 
+/** Marcadores de novedad que permiten publicar una actualización de un hecho grave ya cubierto */
+export const UPDATE_NOVELTY_MARKERS = new RegExp(
+  '\\b(identifican|identific[oó]|identificad[oa]s?|identidad(?:es)?|causas?|investigaci[oó]n|investigadores|investigan|peritajes?|caja\\s+negra|cajas\\s+negras|' +
+    'balance|asciende(?:n)?|sube\\s+a|eleva(?:n)?\\s+a|aumenta(?:n)?\\s+a|v[ií]ctimas|arrestan|arrestad[oa]s?|detienen|detenid[oa]s?|capturan|capturad[oa]s?|' +
+    'imputan|imputad[oa]s?|sentencian|sentenciad[oa]s?|condenan|condenad[oa]s?|confirman|confirmad[oa]s?|revelan|hallan|encuentran|rescatan|sobrevivientes?|' +
+    'supervivientes?|autopsias?|informe\\s+preliminar|nuevos\\s+detalles|death\\s+toll\\s+rises|toll\\s+rises|toll\\s+climbs|rises\\s+to|climbs\\s+to|' +
+    'identified|identifies|identify|victims|causes?|investigators|investigation|black\\s+box|flight\\s+recorder|charged|arrested|sentenced|confirmed|confirms|' +
+    'new\\s+details|preliminary\\s+report|survivors?)\\b',
+  'gi'
+);
+
 /** Agencias y medios de referencia: su verificación propia basta para una urgencia grave */
 export const TIER1_SOURCES = new RegExp(
   '^(reuters|associated press|ap news|ap|afp|efe|europa press|bbc|bbc news|bbc mundo|al jazeera|the guardian|the new york times|the washington post|cnn|cnn en espa[nñ]ol|dw|deutsche welle|france 24|rfi|el pa[ií]s|bloomberg|bloomberg l[ií]nea|npr|usgs|noticias de la onu|euronews)\\b',
@@ -267,6 +278,8 @@ interface NewsHistoryData {
   }[];
 }
 
+const stripAccents = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
 /**
  * Normaliza un titular para deduplicación semántica (elimina tildes, stopwords, signos)
  */
@@ -279,10 +292,7 @@ export function extractSemanticTokens(text: string): string[] {
     'todos', 'uno', 'les', 'ni', 'contra', 'otros', 'fueron', 'tras', 'dice', 'según', 'ante'
   ]);
 
-  return text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+  return stripAccents(text)
     .replace(/[^a-z0-9\s]/g, ' ')
     .split(/\s+/)
     .filter((token) => token.length > 2 && !stopwords.has(token));
@@ -290,8 +300,12 @@ export function extractSemanticTokens(text: string): string[] {
 
 const NUMBER_WORDS: Record<string, string> = {
   uno: '1', una: '1', dos: '2', tres: '3', cuatro: '4', cinco: '5', seis: '6', siete: '7', ocho: '8',
-  nueve: '9', diez: '10', once: '11', doce: '12', quince: '15', veinte: '20', treinta: '30',
-  cuarenta: '40', cincuenta: '50', cien: '100', ciento: '100', mil: '1000',
+  nueve: '9', diez: '10', once: '11', doce: '12', trece: '13', catorce: '14', quince: '15',
+  dieciseis: '16', diecisiete: '17', dieciocho: '18', diecinueve: '19', veinte: '20', treinta: '30',
+  cuarenta: '40', cincuenta: '50', sesenta: '60', setenta: '70', ochenta: '80', noventa: '90',
+  cien: '100', ciento: '100', mil: '1000',
+  one: '1', two: '2', three: '3', four: '4', five: '5', six: '6', seven: '7', eight: '8',
+  nine: '9', ten: '10', eleven: '11', twelve: '12', fifteen: '15', twenty: '20', thirty: '30',
 };
 
 /**
@@ -300,10 +314,7 @@ const NUMBER_WORDS: Record<string, string> = {
  * ("estrelló" / "estrellarse" → "estrel", "muertos" → "muerto").
  */
 export function extractEventTokens(text: string): string[] {
-  const words = text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+  const words = stripAccents(text)
     .replace(/[^a-z0-9\s]/g, ' ')
     .split(/\s+/)
     .filter(Boolean);
@@ -332,6 +343,180 @@ export function isSameEvent(titleA: string, titleB: string): boolean {
 
 /** Ventana en la que dos titulares parecidos se consideran el mismo hecho */
 const SAME_EVENT_WINDOW_MS = 72 * 3_600_000;
+/** Ventana para permitir una actualización de una noticia grave ya publicada (3 a 48 h) */
+const MIN_UPDATE_AGE_MS = 3 * 3_600_000;
+const MAX_UPDATE_AGE_MS = 48 * 3_600_000;
+const MAX_UPDATES_PER_DAY = 2;
+
+function extractNumbers(text: string): string[] {
+  const cleaned = stripAccents(text)
+    .replace(/(\d)[.,](\d{3})\b/g, '$1$2')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+  const nums: string[] = [];
+  for (const w of cleaned) {
+    if (/^\d+$/.test(w)) {
+      const n = Number(w);
+      if (n >= 2024 && n <= 2028) continue;
+      nums.push(String(n));
+    } else if (NUMBER_WORDS[w]) {
+      nums.push(NUMBER_WORDS[w]);
+    }
+  }
+  return Array.from(new Set(nums));
+}
+
+/**
+ * Comprueba si un titular candidato aporta un marcador de novedad o una cifra distinta respecto a la nota original
+ */
+export function hasUpdateNovelty(
+  candidateTitle: string,
+  origTitlesText: string,
+  origFullRefText?: string
+): { novel: boolean; reason?: string } {
+  const normOrig = stripAccents(origTitlesText);
+  UPDATE_NOVELTY_MARKERS.lastIndex = 0;
+  const matches = candidateTitle.match(UPDATE_NOVELTY_MARKERS) || [];
+  for (const rawMatch of matches) {
+    const cleanMatch = stripAccents(rawMatch.trim());
+    const root = cleanMatch.slice(0, Math.min(6, cleanMatch.length));
+    if (root && !normOrig.includes(root)) {
+      return { novel: true, reason: `marcador "${rawMatch.trim()}"` };
+    }
+  }
+
+  const candNums = extractNumbers(candidateTitle);
+  const origTitleNums = extractNumbers(origTitlesText);
+  const origAllNums = new Set(extractNumbers(origFullRefText || origTitlesText));
+  if (candNums.length > 0 && origTitleNums.length > 0) {
+    const diff = candNums.find((n) => !origAllNums.has(n));
+    if (diff) {
+      return { novel: true, reason: `cifra distinta (${diff})` };
+    }
+  }
+
+  return { novel: false };
+}
+
+const GENERIC_EVENT_TOKENS = new Set([
+  'estado', 'unidos', 'gobier', 'presid', 'minist', 'polici', 'fuerza', 'ataque', 'guerra', 'crisis',
+  'muerto', 'fallec', 'accide', 'incend', 'explos', 'pais', 'paises', 'ciudad', 'mundo', 'alerta',
+]);
+
+function matchesStoryCorpus(candidateTitle: string, storyTitles: string[]): boolean {
+  const candSem = extractSemanticTokens(candidateTitle);
+  for (const t of storyTitles) {
+    if (!t) continue;
+    if (calculateSemanticOverlap(candSem, extractSemanticTokens(t)) >= 0.50 || isSameEvent(candidateTitle, t)) {
+      return true;
+    }
+  }
+  const combinedTokens = new Set(extractEventTokens(storyTitles.join(' ')));
+  const candEvent = extractEventTokens(candidateTitle);
+  if (candEvent.length < 3 || combinedTokens.size < 3) return false;
+  const shared = candEvent.filter((tok) => combinedTokens.has(tok));
+  if (shared.length >= 3 && shared.length / candEvent.length >= 0.45) return true;
+
+  // Titular corto de actualización ("Identifican a las víctimas del Learjet en Florida"):
+  // los tokens fuera del marcador de novedad coinciden con las entidades específicas del hecho
+  const withoutNovelty = candidateTitle.replace(UPDATE_NOVELTY_MARKERS, ' ');
+  const subjectTokens = extractEventTokens(withoutNovelty);
+  const specificShared = shared.filter((tok) => !GENERIC_EVENT_TOKENS.has(tok));
+  if (
+    subjectTokens.length >= 2 &&
+    shared.length >= 2 &&
+    specificShared.length >= 2 &&
+    shared.length / subjectTokens.length >= 0.6
+  ) {
+    return true;
+  }
+  return false;
+}
+
+export interface MatchUpdateOptions {
+  now?: number;
+  queue?: any[];
+  matchedTitle?: string;
+  alreadyUpdatedSlugs?: Set<string>;
+  extraUpdatesToday?: number;
+}
+
+/**
+ * Evalúa si un candidato que coincide con una noticia ya cubierta cumple las 4 reglas para salir como ACTUALIZACIÓN:
+ *   (a) nuestra noticia original se publicó hace entre 3 y 48 horas,
+ *   (b) la original era grave (SEVERE_EVENT) o urgente,
+ *   (c) el titular trae un marcador de novedad o una cifra distinta,
+ *   (d) solo 1 actualización por historia original y máximo 2 al día.
+ */
+export function matchStoryUpdate(candidateTitle: string, opts: MatchUpdateOptions = {}): StoryUpdateInfo | null {
+  const now = opts.now ?? Date.now();
+  const queue = opts.queue ?? readJsonFile<any[]>(QUEUE_PATH, []);
+  if (!Array.isArray(queue) || queue.length === 0) return null;
+
+  const todayKey = localDateKey(new Date(now));
+  const activeItems = queue.filter((item) => item && item.status !== 'expired' && item.status !== 'failed');
+
+  // Regla (d): máximo 2 actualizaciones al día y solo 1 por historia original
+  const updatesToday =
+    activeItems.filter(
+      (item) => item.news?.updateOf && localDateKey(item.publishedAt || item.createdAt || new Date(now)) === todayKey
+    ).length + (opts.extraUpdatesToday || 0);
+  if (updatesToday >= MAX_UPDATES_PER_DAY) return null;
+
+  const updatedSlugs = new Set<string>(opts.alreadyUpdatedSlugs || []);
+  for (const item of activeItems) {
+    if (item.news?.updateOf) updatedSlugs.add(item.news.updateOf);
+  }
+
+  for (const item of activeItems) {
+    const news = item?.news;
+    const slug = news?.article?.slug;
+    if (!news || !slug || news.updateOf) continue;
+    if (updatedSlugs.has(slug)) continue;
+
+    const storyTitles = [news.originalTitle, news.headline, news.article?.title].filter(Boolean) as string[];
+    const matchesByTitle =
+      (opts.matchedTitle && storyTitles.some((t) => t.trim() === opts.matchedTitle!.trim())) ||
+      matchesStoryCorpus(candidateTitle, storyTitles);
+    if (!matchesByTitle) continue;
+
+    // Regla (a): publicada hace entre 3 y 48 horas
+    const pubMs = new Date(item.publishedAt || news.publishedAt || item.createdAt).getTime();
+    const createdMs = new Date(item.createdAt || item.publishedAt).getTime();
+    const agePub = now - pubMs;
+    const ageCreated = now - createdMs;
+    const inWindow =
+      (Number.isFinite(agePub) && agePub >= MIN_UPDATE_AGE_MS && agePub <= MAX_UPDATE_AGE_MS) ||
+      (Number.isFinite(ageCreated) && ageCreated >= MIN_UPDATE_AGE_MS && ageCreated <= MAX_UPDATE_AGE_MS);
+    if (!inWindow) continue;
+
+    // Regla (b): noticia original grave (SEVERE_EVENT) o urgente
+    const origText = storyTitles.join(' ');
+    const isSevereOrUrgent = SEVERE_EVENT.test(origText) || Boolean(item.isBreaking) || (news.urgencyScore || 0) >= 90;
+    if (!isSevereOrUrgent) continue;
+
+    // Regla (c): marcador de novedad o cifra distinta respecto a la original
+    const origTitlesText = [news.originalTitle, news.headline].filter(Boolean).join(' ');
+    const origFullRefText = [news.originalTitle, news.headline, news.subHeadline, news.article?.title, news.article?.dek]
+      .filter(Boolean)
+      .join(' ');
+    const novelty = hasUpdateNovelty(candidateTitle, origTitlesText, origFullRefText);
+    if (!novelty.novel) continue;
+
+    return {
+      id: news.id,
+      slug,
+      title: news.article?.title || news.originalTitle || news.headline,
+      headline: news.headline || news.originalTitle,
+      summary: news.subHeadline || news.article?.dek || '',
+      publishedAt: item.publishedAt || item.createdAt,
+      reason: novelty.reason,
+    };
+  }
+
+  return null;
+}
 
 /**
  * Calcula la similitud Jaccard entre dos conjuntos de tokens para detectar el mismo hecho
@@ -414,26 +599,51 @@ export function markStoryAsCovered(url: string, titles: (string | undefined)[]) 
 }
 
 /**
- * Verifica si una noticia ya fue cubierta conceptualmente por otro medio
+ * Verifica si una noticia ya fue cubierta conceptualmente por otro medio.
+ * Si coincide con una historia nuestra previa pero cumple las reglas de actualización
+ * (3-48 h, hecho grave/urgente, marcador de novedad o cifra distinta, <=1 por historia y <=2/día),
+ * devuelve false para permitir que pase como actualización.
  */
-export function isDuplicateEvent(title: string, history: NewsHistoryData): boolean {
+export function isDuplicateEvent(title: string, history: NewsHistoryData, opts: MatchUpdateOptions = {}): boolean {
   const currentTokens = extractSemanticTokens(title);
   if (currentTokens.length < 3) return false;
 
-  const now = Date.now();
+  const now = opts.now ?? Date.now();
+  let matchedDuplicate = false;
+
   for (const signature of history.processedSignatures || []) {
     const similarity = calculateSemanticOverlap(currentTokens, signature.normalizedTokens);
     // Si comparten más del 50% de palabras clave esenciales, es el mismo evento
     if (similarity >= 0.50) {
-      return true;
+      matchedDuplicate = true;
+      break;
     }
     // Mismo hecho redactado distinto por otro medio (solo en los últimos días)
     const age = now - new Date(signature.date).getTime();
     if (signature.title && (!Number.isFinite(age) || age <= SAME_EVENT_WINDOW_MS) && isSameEvent(title, signature.title)) {
-      return true;
+      matchedDuplicate = true;
+      break;
     }
   }
-  return false;
+
+  if (!matchedDuplicate) {
+    const queue = opts.queue ?? readJsonFile<any[]>(QUEUE_PATH, []);
+    for (const item of Array.isArray(queue) ? queue : []) {
+      const news = item?.news;
+      if (!news) continue;
+      const age = now - new Date(item.createdAt || item.publishedAt).getTime();
+      if (Number.isFinite(age) && age <= SAME_EVENT_WINDOW_MS) {
+        const storyTitles = [news.originalTitle, news.headline, news.article?.title].filter(Boolean) as string[];
+        if (matchesStoryCorpus(title, storyTitles)) {
+          matchedDuplicate = true;
+          break;
+        }
+      }
+    }
+  }
+
+  if (!matchedDuplicate) return false;
+  return matchStoryUpdate(title, opts) === null;
 }
 
 /**
@@ -459,8 +669,7 @@ function getQueueSignatures(): { urls: Set<string>; signatures: NonNullable<News
  * Califica el impacto y urgencia de 60 a 99 según palabras clave geopolíticas y severidad
  */
 export function scoreNewsImpact(title: string, snippet: string, feedWeight: number): { urgency: number; geopoliticalImpact: number } {
-  const normalize = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  const text = ` ${normalize(`${title} ${snippet}`).replace(/[^a-z0-9\s]/g, ' ')} `;
+  const text = ` ${stripAccents(`${title} ${snippet}`).replace(/[^a-z0-9\s]/g, ' ')} `;
 
   // Coincidencia por palabra completa (antes "fed" coincidía con "federal" y "baja" con casi todo)
   const highImpactKeywords = [
@@ -481,7 +690,7 @@ export function scoreNewsImpact(title: string, snippet: string, feedWeight: numb
 
   let matches = 0;
   for (const kw of highImpactKeywords) {
-    if (text.includes(` ${normalize(kw)} `)) matches++;
+    if (text.includes(` ${stripAccents(kw)} `)) matches++;
   }
 
   // Base 65 + hasta 20 puntos por keywords + hasta 14 puntos por el peso de la fuente
@@ -498,6 +707,7 @@ export function scoreNewsImpact(title: string, snippet: string, feedWeight: numb
 export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle[]> {
   const baseHistory = getNewsHistory();
   const queued = getQueueSignatures();
+  const queueItems = readJsonFile<any[]>(QUEUE_PATH, []);
   const history: NewsHistoryData = {
     seenUrls: baseHistory.seenUrls,
     processedSignatures: [...(baseHistory.processedSignatures || []), ...queued.signatures],
@@ -526,9 +736,23 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
           continue;
         }
 
+        let cleanTitle = title;
+        let sourceName = feed.sourceName;
+
+        if (feed.url.includes('news.google.com') && title.includes(' - ')) {
+          const parts = title.split(' - ');
+          sourceName = parts.pop()?.trim() || feed.sourceName;
+          cleanTitle = parts.join(' - ').trim();
+        }
+
         // Deduplicación semántica para evitar repetir la misma historia de dos medios
-        if (isDuplicateEvent(title, history)) {
+        // (salvo que cumpla las reglas estrictas de actualización de una noticia grave ya publicada)
+        if (isDuplicateEvent(cleanTitle, history, { queue: queueItems })) {
           continue;
+        }
+        const updateInfo = matchStoryUpdate(cleanTitle, { queue: queueItems });
+        if (updateInfo) {
+          console.log(`[NewsScout] Candidata de ACTUALIZACIÓN para ${updateInfo.slug} (${updateInfo.reason}): "${cleanTitle}"`);
         }
 
         let imageUrl: string | undefined = undefined;
@@ -540,15 +764,6 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
           imageUrl = item['mediaThumbnail'].$.url;
         } else if (item['image']?.url) {
           imageUrl = item['image'].url;
-        }
-
-        let cleanTitle = title;
-        let sourceName = feed.sourceName;
-
-        if (feed.url.includes('news.google.com') && title.includes(' - ')) {
-          const parts = title.split(' - ');
-          sourceName = parts.pop()?.trim() || feed.sourceName;
-          cleanTitle = parts.join(' - ').trim();
         }
 
         const snippet = item.contentSnippet || item.content || cleanTitle;
@@ -566,6 +781,7 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
           imageUrl,
           urgencyScore: urgency,
           geopoliticalImpact,
+          ...(updateInfo ? { updateOf: updateInfo.slug, updateOriginal: updateInfo } : {}),
         });
       }
 
@@ -589,15 +805,31 @@ export async function runNewsScout(limitPerFeed: number = 3): Promise<RawArticle
   candidates.sort((a, b) => (b.urgencyScore || 0) - (a.urgencyScore || 0));
   // coverageCount: cuántos medios cuentan el mismo hecho (señal fuerte de noticia de última hora)
   const unique: RawArticle[] = [];
+  const seenUpdateSlugs = new Set<string>();
+  let updateCandidatesCount = 0;
+  const existingUpdatesToday = queueItems.filter(
+    (item) => item && item.status !== 'expired' && item.status !== 'failed' && item.news?.updateOf && localDateKey(item.publishedAt || item.createdAt) === localDateKey()
+  ).length;
+
   for (const c of candidates) {
     const tokens = extractSemanticTokens(c.title);
     const match = unique.find(
-      (u) => calculateSemanticOverlap(tokens, extractSemanticTokens(u.title)) >= 0.5 || isSameEvent(c.title, u.title)
+      (u) =>
+        (c.updateOf && u.updateOf === c.updateOf) ||
+        calculateSemanticOverlap(tokens, extractSemanticTokens(u.title)) >= 0.5 ||
+        isSameEvent(c.title, u.title)
     );
     if (match) {
       match.coverageCount = (match.coverageCount || 1) + 1;
       if (c.tier1) match.tier1 = true;
     } else {
+      if (c.updateOf) {
+        if (seenUpdateSlugs.has(c.updateOf) || existingUpdatesToday + updateCandidatesCount >= MAX_UPDATES_PER_DAY) {
+          continue;
+        }
+        seenUpdateSlugs.add(c.updateOf);
+        updateCandidatesCount++;
+      }
       unique.push({ ...c, coverageCount: 1 });
     }
   }

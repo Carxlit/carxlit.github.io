@@ -2,7 +2,7 @@ import { RawArticle, ProcessedNews, NewsConfig } from '@/types/news';
 import { extractArticleImage, searchRealNewsPhoto, decodeHtmlEntities } from '@/lib/news/article-image';
 import { outletImageUrl, verifyPhotoRelevance, isGenericImageUrl } from '@/lib/news/news-images';
 import { buildMultiSourceDossier } from './deep-researcher';
-import { runEditorialDesk } from './editorial-desk';
+import { runEditorialDesk, resolveUpdateOriginal } from './editorial-desk';
 import { runVisualEngine } from './visual-engine';
 import { generateInstagramCardImage } from '@/lib/news/card-generator';
 import { generateReelCover } from '@/lib/video/reel-cover';
@@ -37,6 +37,7 @@ async function isLoadableImage(url: string): Promise<boolean> {
  */
 export async function selectVerifiedNewsPhoto(params: {
   newsId: string;
+  updateOf?: string;
   headline: string;
   summary: string;
   sourceImageUrl?: string;
@@ -59,7 +60,7 @@ export async function selectVerifiedNewsPhoto(params: {
     }
 
     checks++;
-    const verdict = await verifyPhotoRelevance(url, params.headline, params.summary, params.newsId);
+    const verdict = await verifyPhotoRelevance(url, params.headline, params.summary, params.newsId, params.updateOf);
     console.log(
       `[Pipeline] Verificación foto (${checks}/${MAX_PHOTO_CHECKS}, ${originLabel}): ${verdict.relevant ? 'ACEPTADA' : 'RECHAZADA'} — ${verdict.reason}`
     );
@@ -141,15 +142,18 @@ export async function runEditorialPipeline(
     ...(fullArticle.sources || []).map((s) => s.url),
   ].filter(Boolean);
 
-  const realPhotoUrl = await selectVerifiedNewsPhoto({
-    newsId,
-    headline: editorialBrief.headline || fullArticle.title || article.title,
-    summary: editorialBrief.subHeadline || fullArticle.dek || article.contentSnippet || '',
-    sourceImageUrl: article.imageUrl,
-    sourceLink: article.link,
-    outletLinks,
-    searchQueries: [article.title, fullArticle.title || ''],
-  });
+  const updateInfo = article.updateOf ? resolveUpdateOriginal(article) : undefined;
+  const realPhotoUrl =
+    (await selectVerifiedNewsPhoto({
+      newsId,
+      updateOf: article.updateOf,
+      headline: editorialBrief.headline || fullArticle.title || article.title,
+      summary: editorialBrief.subHeadline || fullArticle.dek || article.contentSnippet || '',
+      sourceImageUrl: article.imageUrl,
+      sourceLink: article.link,
+      outletLinks,
+      searchQueries: [article.title, fullArticle.title || ''],
+    })) || updateInfo?.rawImageUrl;
 
   // Video real del hecho: si el titular original no lo encontró, se prueba con el del artículo (más concreto)
   const sourceVideo =
@@ -177,6 +181,7 @@ export async function runEditorialPipeline(
     videoScript,
     rawImageUrl: realPhotoUrl,
     sourceVideo,
+    updateOf: article.updateOf,
     status: 'pending',
     createdAt: new Date().toISOString(),
   };

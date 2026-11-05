@@ -17,6 +17,10 @@ export interface SiteEntry {
   publishedAt: string;
   article: NewsArticle;
   blindSpot?: string;
+  /** Si esta nota actualiza una historia previa, slug de la nota original */
+  updateOf?: string;
+  /** Si esta nota recibió una actualización posterior, slug de la actualización */
+  updatedBy?: string;
 }
 
 export const SITE_NAME = 'Punto Ciego';
@@ -156,6 +160,11 @@ article.story{padding:26px 0 50px;min-width:0}
 .avatar{width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 15px/1 "Playfair Display",Georgia,serif;flex:none}
 .avatar i{color:var(--accent);font-style:normal}
 .byline strong{display:block;font-size:14px}
+.update-banner{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;background:var(--soft);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:14px 18px;margin:18px 0}
+.update-banner strong{font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:2px}
+.update-banner span{font-size:15px;font-weight:600;color:var(--ink)}
+.update-banner a{background:var(--accent);color:#fff;font-size:13px;font-weight:800;padding:9px 14px;border-radius:6px;white-space:nowrap}
+.update-banner a:hover{background:var(--accent2)}
 .media{margin:22px 0 6px}
 .media figure{margin:0}
 .media img{width:100%;height:auto;border-radius:6px}
@@ -492,13 +501,45 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
   const image = abs(baseUrl, entry.image);
   const catLabel = categoryLabel(entry.category);
 
+  // Vínculo bidireccional entre noticia original y su actualización
+  const originalEntry = entry.updateOf ? everything.find((e) => e.slug === entry.updateOf) : undefined;
+  const originalHref = originalEntry
+    ? `${root}${esc(originalEntry.path)}`
+    : entry.updateOf
+      ? `${root}noticias/${esc(entry.updateOf)}/`
+      : undefined;
+
+  const updateEntry =
+    everything.find((e) => e.updateOf === entry.slug) ||
+    (entry.updatedBy ? everything.find((e) => e.slug === entry.updatedBy) : undefined);
+  const updateHref = updateEntry
+    ? `${root}${esc(updateEntry.path)}`
+    : entry.updatedBy
+      ? `${root}noticias/${esc(entry.updatedBy)}/`
+      : undefined;
+
+  const updateNotices = [
+    originalHref
+      ? `<aside class="update-banner"><div><strong>Actualización</strong><span>${
+          originalEntry ? esc(originalEntry.title) : 'Esta nota amplía una cobertura previa de Punto Ciego.'
+        }</span></div><a href="${originalHref}">Lee la primera nota</a></aside>`
+      : '',
+    updateHref
+      ? `<aside class="update-banner"><div><strong>Historia actualizada</strong><span>${
+          updateEntry ? esc(updateEntry.title) : 'Hay nuevos datos confirmados sobre este hecho.'
+        }</span></div><a href="${updateHref}">Actualizada: ver novedades</a></aside>`
+      : '',
+  ]
+    .filter(Boolean)
+    .join('\n');
+
   const articleLd = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: a.title.slice(0, 110),
     description: a.dek,
     datePublished: entry.publishedAt,
-    dateModified: entry.publishedAt,
+    dateModified: updateEntry?.publishedAt || entry.publishedAt,
     articleSection: catLabel,
     keywords: a.tags.join(', '),
     wordCount: a.wordCount,
@@ -557,6 +598,7 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
   <h1>${esc(a.title)}</h1>
   <p class="dek">${esc(a.dek)}</p>
   <div class="byline"><div class="avatar">P<i>C</i></div><div><strong>Redacción ${SITE_NAME}</strong><span class="meta"><time datetime="${esc(entry.publishedAt)}">${formatDate(entry.publishedAt)}</time> · ${readingMinutes(a.wordCount)} min de lectura · Fuente principal: ${esc(entry.sourceName)}</span></div></div>
+  ${updateNotices}
   ${media ? `<div class="media">${media}</div>` : ''}
   ${adSlot(config.adSlots?.articleTop, 'top')}
   ${a.keyFacts.length ? `<section class="facts"><h2>Datos clave</h2><ul>${a.keyFacts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></section>` : ''}
