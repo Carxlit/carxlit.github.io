@@ -11119,12 +11119,13 @@
         "title": "El 11N Las jóvenes paramos el país: Vamos a la Huelga General",
         "channel": "Jóvenes CCOO"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T18:56:52.802Z",
       "cardImageUrl": "/news-cards/news-dcbt6i22s-1793905012803.jpg",
       "reelCoverUrl": "/news-cards/news-dcbt6i22s-1793905013610-cover.jpg",
       "instagramCardUrl": "/news-cards/news-dcbt6i22s-1793905014134-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/huelga-general-11n-calle-urnas-responden-8da0/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/huelga-general-11n-calle-urnas-responden-8da0/",
+      "publishedAt": "2026-11-05T23:59:23.522Z"
     },
     "channels": {
       "facebook": true,
@@ -11138,10 +11139,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T23:42:17.042Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T18:56:55.252Z"
+    "createdAt": "2026-11-05T18:56:55.252Z",
+    "lastAttemptAt": "2026-11-05T23:57:01.678Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104798677532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "82",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzm32irwog2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18005574387008733",
+        "permalink": "https://www.instagram.com/reel/DfYRCRSAiJy/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117566547433448134"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18096483575468458"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T23:59:23.522Z"
   },
   {
     "id": "queue-1793911368298-i5ywt",
@@ -11267,7 +11310,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-06T00:38:17.042Z",
+    "scheduledFor": "2026-11-06T01:10:01.671Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
@@ -11382,7 +11425,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-06T01:47:17.042Z",
+    "scheduledFor": "2026-11-06T02:17:01.671Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
