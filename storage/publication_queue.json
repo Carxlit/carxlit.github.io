@@ -8830,12 +8830,13 @@
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/05/1516654868%20(1)-kPgE-U40186846707r5D-1200x840@diario_abc.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T05:01:29.247Z",
       "cardImageUrl": "/news-cards/news-od03zxcx4-1793854889248.jpg",
       "reelCoverUrl": "/news-cards/news-od03zxcx4-1793854890065-cover.jpg",
       "instagramCardUrl": "/news-cards/news-od03zxcx4-1793854890653-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/despliegue-naval-corea-sur-ormuz-responde-1ryr/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/despliegue-naval-corea-sur-ormuz-responde-1ryr/",
+      "publishedAt": "2026-11-05T05:04:33.433Z"
     },
     "channels": {
       "facebook": true,
@@ -8849,10 +8850,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-05T05:01:31.878Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-05T05:01:31.878Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-05T05:02:15.037Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122103954609532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "68",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzk3nd4h722f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18128761246896944",
+        "permalink": "https://www.instagram.com/reel/DfWPLBFDpJU/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117562085197603923"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18132775372691332"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-05T05:04:33.433Z"
   }
 ]
