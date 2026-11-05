@@ -69,9 +69,35 @@
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNldsM1YzWDROQ0tNWnl2MWJVTWVsaXJHaFlIS21SY1lGWU5WMVd4SWNFVEdVbktUVlVPNmVYVnpMQ0c3UGNITXZWWXNlT2lfSUtTdE96LW16WEZuUUFEU1ZoYWs2aHVHN0J1ZHAtdk0wN1JCLTdJRjc3OUhuWGtEbFZ2eVVsM3N3MVU5a3pnVHoyMFhzWEYwYXhXbngwVWxxZHc?oc=5",
     "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
     "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
-    "https://theconversation.com/huelga-general-del-11n-preambulo-de-las-elecciones-generales-pero-no-predictor-de-sus-resultados-294913"
+    "https://theconversation.com/huelga-general-del-11n-preambulo-de-las-elecciones-generales-pero-no-predictor-de-sus-resultados-294913",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdHIxdmEwOGprb1F4Tm45ek9aNy1BeTRhRUJYaGl0RUQydEZzS3JXZHVZeF9mOUY0WjdIZlFrVC1aODN3Q29jUXJaS29FZlNrZ05lMzY4OG1lX3hudEJfckpDWUZ5Vi1oZk5Sb3Q0ZlhDeWJIQmNBQkNCSVJnY3k1NEppM05zM0w3?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EEUU Y ALIADOS NEGOCIAN GARANTÍAS DE SEGURIDAD PARA UCRANIA",
+      "normalizedTokens": [
+        "eeuu",
+        "aliados",
+        "negocian",
+        "garantias",
+        "seguridad",
+        "ucrania"
+      ],
+      "date": "2026-11-05T20:42:48.306Z"
+    },
+    {
+      "title": "EEUU y aliados OTAN abordan garantías seguridad de Ucrania",
+      "normalizedTokens": [
+        "eeuu",
+        "aliados",
+        "otan",
+        "abordan",
+        "garantias",
+        "seguridad",
+        "ucrania"
+      ],
+      "date": "2026-11-05T20:42:48.305Z"
+    },
     {
       "title": "HUELGA GENERAL DEL 11N: LA TRAMPA DE LEER PROTESTAS COMO URNAS",
       "normalizedTokens": [
