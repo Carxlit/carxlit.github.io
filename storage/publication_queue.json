@@ -7822,12 +7822,12 @@
       "mastodon": true,
       "threads": true
     },
-    "scheduledFor": "2026-11-05T01:09:57.877Z",
+    "scheduledFor": "2026-11-05T01:26:13.176Z",
     "status": "queued",
-    "attempts": 1,
+    "attempts": 2,
     "maxAttempts": 3,
     "createdAt": "2026-11-04T20:23:21.439Z",
-    "lastAttemptAt": "2026-11-05T01:04:34.369Z",
+    "lastAttemptAt": "2026-11-05T01:10:13.173Z",
     "results": {
       "facebook": {
         "success": true,
@@ -7836,7 +7836,7 @@
       },
       "telegram": {
         "success": false,
-        "error": "Bad Gateway"
+        "error": "The operation was aborted due to timeout"
       },
       "bluesky": {
         "success": true,
@@ -7862,7 +7862,7 @@
         "postId": "18222003766347370"
       }
     },
-    "error": "Reintento 1/3: telegram: Bad Gateway"
+    "error": "Reintento 2/3: telegram: The operation was aborted due to timeout"
   },
   {
     "id": "queue-1793829395187-55n3e",
