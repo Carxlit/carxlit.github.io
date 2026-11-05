@@ -436,7 +436,9 @@ export function isTrueBreakingNews(c: RawArticle, threshold: number): boolean {
   const coverage = c.coverageCount || 1;
   // Verificación por niveles: hecho grave de una fuente de primer nivel sale ya; de una fuente menor, solo con otro medio detrás
   if (severe && (c.tier1 || coverage >= 2)) return true;
-  return coverage >= 3 || (EVENT_MARKERS.test(c.title) && coverage >= 2);
+  // Sin hecho grave en el titular hace falta mucha más cobertura: tres medios repitiendo unos resultados electorales
+  // o una sentencia no son "última hora" (así se coló una tanda de falsas urgencias de madrugada)
+  return coverage >= 5 || (EVENT_MARKERS.test(c.title) && coverage >= 3);
 }
 
 export async function runAutonomousNewsroomCycle(
@@ -533,7 +535,8 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
 
   // 3. PROTOCOLO DE URGENCIA MÁXIMA: urgencia muy alta, con tope diario
   const criticalEmergency = roomForBreaking
-    ? candidates.find((c) => isTrueBreakingNews(c, config.breakingThreshold) && (c.tier1 || report.breakingToday < config.maxBreakingPerDay - 1)) // el último cupo del día se reserva a fuentes de primer nivel
+    ? candidates.find((c) => isTrueBreakingNews(c, config.breakingThreshold) && (activeNow || SEVERE_EVENT.test(c.title)) && // de madrugada solo un hecho grave rompe el silencio
+         (c.tier1 || report.breakingToday < config.maxBreakingPerDay - 1)) // el último cupo del día se reserva a fuentes de primer nivel
     : undefined;
 
   if (criticalEmergency) {
