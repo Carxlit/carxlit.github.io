@@ -25,7 +25,7 @@ export interface SiteEntry {
 
 export const SITE_NAME = 'Punto Ciego';
 const TAGLINE = 'Lo que la cobertura dominante no te cuenta';
-const DEFAULT_DESCRIPTION = 'Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder.';
+const DEFAULT_DESCRIPTION = 'Análisis independiente y riguroso de geopolítica, economía global, seguridad, tecnología y poder. Lo que la cobertura dominante no te cuenta.';
 
 export function esc(text: unknown): string {
   return String(text ?? '')
@@ -34,6 +34,83 @@ export function esc(text: unknown): string {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+/**
+ * Formatea el <title> al formato "Titular | Punto Ciego" (máximo 60 caracteres, recorta con "…")
+ */
+export function formatPageTitle(headline: string, siteName = SITE_NAME, maxLen = 60): string {
+  const suffix = ` | ${siteName}`;
+  const clean = String(headline || '').trim().replace(/\s+/g, ' ');
+  if (`${clean}${suffix}`.length <= maxLen) {
+    return `${clean}${suffix}`;
+  }
+  const available = maxLen - suffix.length - 1; // 1 para '…'
+  if (available <= 0) return `${clean.slice(0, maxLen - 1)}…`;
+  let cut = clean.slice(0, available);
+  const lastSpace = cut.lastIndexOf(' ');
+  if (lastSpace > available * 0.65) {
+    cut = cut.slice(0, lastSpace);
+  }
+  cut = cut.replace(/[,;:. -]+$/, '');
+  return `${cut}…${suffix}`;
+}
+
+/**
+ * Normaliza y ajusta la meta description a una longitud óptima entre 140 y 160 caracteres
+ */
+export function formatMetaDescription(text: string, min = 140, max = 160, supplement?: string): string {
+  let clean = String(text || '').replace(/\s+/g, ' ').trim();
+  if (!clean) return DEFAULT_DESCRIPTION;
+
+  if (clean.length < min && supplement) {
+    const suppClean = String(supplement).replace(/\s+/g, ' ').trim();
+    if (suppClean) {
+      return formatMetaDescription(`${clean} ${suppClean}`, min, max);
+    }
+  }
+
+  if (clean.length >= min && clean.length <= max) {
+    return clean;
+  }
+
+  if (clean.length > max) {
+    // Si la primera o segunda oración completa termina entre min y max, usarla
+    const sentences = clean.split(/(?<=[.!?])\s+/);
+    let accumulated = '';
+    for (const s of sentences) {
+      const candidate = accumulated ? `${accumulated} ${s}` : s;
+      if (candidate.length >= min && candidate.length <= max) {
+        return candidate;
+      }
+      if (candidate.length > max) break;
+      accumulated = candidate;
+    }
+    // Si no coincide una oración completa, recortar limpiamente por palabra antes de max - 1 (para '…')
+    let cut = clean.slice(0, max - 1);
+    const lastSpace = cut.lastIndexOf(' ');
+    if (lastSpace > min - 25) {
+      cut = cut.slice(0, lastSpace);
+    }
+    cut = cut.replace(/[,;:. -]+$/, '');
+    return `${cut}…`;
+  }
+
+  // Si clean.length < min y no hay supplement que alcance el mínimo
+  const candidates = [
+    ' Análisis independiente y riguroso en Punto Ciego.',
+    ' Cobertura y contexto internacional en Punto Ciego.',
+    ' Análisis periodístico y claves globales en Punto Ciego.',
+    ' Toda la información y análisis exclusivo en Punto Ciego.',
+  ];
+  for (const extra of candidates) {
+    const combined = `${clean}${extra}`;
+    if (combined.length >= min && combined.length <= max) {
+      return combined;
+    }
+  }
+  const extended = `${clean} Análisis independiente y riguroso de la actualidad global en Punto Ciego.`;
+  return formatMetaDescription(extended, min, max);
 }
 
 function formatDate(iso: string): string {
@@ -226,7 +303,7 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px;padding-left:10px;bo
 .page h2{font-size:22px;font-weight:800;margin:30px 0 8px}
 .page p,.page li{font:400 18px/1.7 "Source Serif 4",Georgia,serif}
 .page .updated{font-size:13px;color:var(--muted)}
-.page button{font:700 14px/1 Inter,system-ui,sans-serif;padding:10px 16px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;border-radius:6px}
+.page button{font:700 14px/1 Inter,system-ui,sans-serif;padding:10px 16px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:border-radius:6px}
 .ad{margin:28px 0;text-align:center;overflow:hidden}.ad:not(.on){display:none}
 .ad::before{content:"Publicidad";display:block;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 footer{background:var(--top);color:#9ba2ac;margin-top:40px;padding:36px 0 40px;font-size:13.5px;line-height:1.7}
@@ -293,7 +370,9 @@ ${o.image ? `<meta property="og:image" content="${esc(o.image)}"><meta property=
 <meta name="theme-color" content="#d0021b">
 ${o.config.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(o.config.googleSiteVerification)}">` : ''}
 ${o.config.bingSiteVerification ? `<meta name="msvalidate.01" content="${esc(o.config.bingSiteVerification)}">` : ''}
+<link rel="icon" href="${o.root}favicon.ico" sizes="48x48 96x96">
 <link rel="icon" href="${o.root}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="${o.root}apple-touch-icon.png">
 <link rel="manifest" href="${o.root}site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="${SITE_NAME}" href="${o.root}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -533,24 +612,49 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
     .filter(Boolean)
     .join('\n');
 
-  const articleLd = {
+  const articleImages = [
+    ...(image ? [image] : []),
+    ...(entry.photo ? [abs(baseUrl, entry.photo)] : []),
+  ].filter((img): img is string => Boolean(img));
+
+  if (articleImages.length === 0 && baseUrl) {
+    articleImages.push(`${baseUrl}/logo-512.png`);
+  }
+
+  const metaDescription = formatMetaDescription(a.dek, 140, 160, a.sections?.[0]?.paragraphs?.[0] || a.keyFacts?.[0] || '');
+
+  const articleLd: any = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: a.title.slice(0, 110),
-    description: a.dek,
+    description: metaDescription,
     datePublished: entry.publishedAt,
     dateModified: updateEntry?.publishedAt || entry.publishedAt,
     articleSection: catLabel,
     keywords: a.tags.join(', '),
     wordCount: a.wordCount,
     inLanguage: 'es',
-    ...(image ? { image: [image, ...(entry.photo ? [abs(baseUrl, entry.photo)] : [])] } : {}),
-    ...(canonical ? { mainEntityOfPage: canonical, url: canonical } : {}),
-    author: { '@type': 'Organization', name: `Redacción ${SITE_NAME}`, ...(baseUrl ? { url: `${baseUrl}/quienes-somos/` } : {}) },
+    image: articleImages,
+    ...(canonical ? { mainEntityOfPage: { '@type': 'WebPage', '@id': canonical }, url: canonical } : {}),
+    author: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      ...(baseUrl ? { url: `${baseUrl}/` } : {}),
+    },
     publisher: {
       '@type': 'Organization',
       name: SITE_NAME,
-      ...(baseUrl ? { url: `${baseUrl}/`, logo: { '@type': 'ImageObject', url: `${baseUrl}/favicon.svg` } } : {}),
+      ...(baseUrl
+        ? {
+            url: `${baseUrl}/`,
+            logo: {
+              '@type': 'ImageObject',
+              url: `${baseUrl}/logo-512.png`,
+              width: 512,
+              height: 512,
+            },
+          }
+        : {}),
     },
     isBasedOn: a.sources.map((s) => s.url),
   };
@@ -627,8 +731,8 @@ export function renderArticlePage(entry: SiteEntry, baseUrl: string, ctx: Articl
 
   return layout({
     root,
-    title: `${a.title} | ${SITE_NAME}`,
-    description: a.dek,
+    title: formatPageTitle(a.title, SITE_NAME, 60),
+    description: metaDescription,
     canonical,
     image,
     type: 'article',
@@ -676,10 +780,38 @@ export function renderIndexPage(
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: SITE_NAME,
+        alternateName: 'Punto Ciego Global',
         url: `${baseUrl}/`,
-        description,
+        description: formatMetaDescription(description, 140, 160),
         inLanguage: 'es',
-        publisher: { '@type': 'Organization', name: SITE_NAME, logo: { '@type': 'ImageObject', url: `${baseUrl}/favicon.svg` } },
+        publisher: {
+          '@type': 'Organization',
+          name: SITE_NAME,
+          url: `${baseUrl}/`,
+          logo: {
+            '@type': 'ImageObject',
+            url: `${baseUrl}/logo-512.png`,
+            width: 512,
+            height: 512,
+          },
+        },
+      }
+    : undefined;
+
+  const organizationLd = baseUrl
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: SITE_NAME,
+        alternateName: 'Punto Ciego Global',
+        url: `${baseUrl}/`,
+        logo: {
+          '@type': 'ImageObject',
+          url: `${baseUrl}/logo-512.png`,
+          width: 512,
+          height: 512,
+        },
+        ...(config.socialLinks ? { sameAs: Object.values(config.socialLinks).filter(Boolean) } : {}),
       }
     : undefined;
 
@@ -722,12 +854,12 @@ ${pager(root, page, totalPages, indexPageRel)}
 
   return layout({
     root,
-    title: page === 1 ? `${SITE_NAME} | ${TAGLINE}` : `Archivo, página ${page} | ${SITE_NAME}`,
-    description,
+    title: page === 1 ? formatPageTitle(TAGLINE, SITE_NAME, 60) : formatPageTitle(`Archivo, página ${page}`, SITE_NAME, 60),
+    description: formatMetaDescription(description, 140, 160),
     canonical: abs(baseUrl, indexPageRel(page)),
-    image: abs(baseUrl, entries[0]?.image),
+    image: abs(baseUrl, entries[0]?.image || 'logo-512.png'),
     type: 'website',
-    jsonLd: page === 1 && websiteLd ? [websiteLd] : [],
+    jsonLd: page === 1 ? ([websiteLd, organizationLd].filter(Boolean) as object[]) : [],
     body,
     config,
     ticker: all,
@@ -754,10 +886,10 @@ ${rest.length > 2 ? `<div class="sec-title"><h2>Más de ${esc(label)}</h2></div>
 </main>`;
   return layout({
     root,
-    title: `${label} | ${SITE_NAME}`,
-    description: `Análisis de ${label.toLowerCase()} en ${SITE_NAME}: ${TAGLINE.toLowerCase()}.`,
+    title: formatPageTitle(label, SITE_NAME, 60),
+    description: formatMetaDescription(`Análisis periodístico de ${label.toLowerCase()} en Punto Ciego: noticias globales, claves estratégicas y las implicaciones que nadie cuenta.`, 140, 160),
     canonical: abs(baseUrl, rel),
-    image: abs(baseUrl, entries[0]?.image),
+    image: abs(baseUrl, entries[0]?.image || 'logo-512.png'),
     type: 'website',
     jsonLd: crumbs ? [crumbs] : [],
     body,
@@ -782,9 +914,10 @@ ${opts.bodyHtml}
 </div></main>`;
   return layout({
     root,
-    title: `${opts.title} | ${SITE_NAME}`,
-    description: opts.description,
+    title: formatPageTitle(opts.title, SITE_NAME, 60),
+    description: formatMetaDescription(opts.description, 140, 160),
     canonical: abs(baseUrl, opts.rel),
+    image: abs(baseUrl, 'logo-512.png'),
     type: 'website',
     body,
     config,
@@ -801,7 +934,16 @@ export function renderNotFoundPage(baseUrl: string, config: SiteConfig = {}, lat
 </div>
 ${latest.length ? `<section class="grid">${latest.slice(0, 3).map((e) => card(root, e)).join('')}</section>` : ''}
 </main>`;
-  return layout({ root, title: `Página no encontrada | ${SITE_NAME}`, description: DEFAULT_DESCRIPTION, type: 'website', body, config, small: true, noindex: true });
+  return layout({
+    root,
+    title: formatPageTitle('Página no encontrada', SITE_NAME, 60),
+    description: formatMetaDescription(DEFAULT_DESCRIPTION, 140, 160),
+    type: 'website',
+    body,
+    config,
+    small: true,
+    noindex: true,
+  });
 }
 
 export function renderRss(entries: SiteEntry[], baseUrl: string, config: SiteConfig = {}): string {
@@ -847,7 +989,7 @@ ${fresh
 </urlset>`;
 }
 
-export const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#14161a"/><circle cx="32" cy="32" r="17" fill="none" stroke="#f6f3ec" stroke-width="5"/><circle cx="32" cy="32" r="7" fill="#b4152b"/></svg>`;
+export const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0c0e11"/><circle cx="32" cy="32" r="17" fill="none" stroke="#f6f3ec" stroke-width="5"/><circle cx="32" cy="32" r="7" fill="#d0021b"/></svg>`;
 
 export function renderManifest(): string {
   return JSON.stringify(
@@ -858,9 +1000,14 @@ export function renderManifest(): string {
       lang: 'es',
       start_url: './',
       display: 'standalone',
-      background_color: '#f6f3ec',
-      theme_color: '#b4152b',
-      icons: [{ src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml' }],
+      background_color: '#0c0e11',
+      theme_color: '#d0021b',
+      icons: [
+        { src: 'favicon.ico', sizes: '48x48 96x96', type: 'image/x-icon' },
+        { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml' },
+        { src: 'apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+        { src: 'logo-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+      ],
     },
     null,
     2

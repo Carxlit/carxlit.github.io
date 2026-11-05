@@ -96,6 +96,13 @@ export function rebuildSiteIndex(entries: SiteEntry[] = getSiteEntries()) {
 
   fs.writeFileSync(path.join(SITE_DIR, '404.html'), renderNotFoundPage(baseUrl, config, latest));
   fs.writeFileSync(path.join(SITE_DIR, 'favicon.svg'), FAVICON_SVG);
+  const publicDir = path.join(process.cwd(), 'public');
+  for (const iconFile of ['favicon.ico', 'apple-touch-icon.png', 'logo-512.png']) {
+    const srcIcon = path.join(publicDir, iconFile);
+    if (fs.existsSync(srcIcon)) {
+      fs.copyFileSync(srcIcon, path.join(SITE_DIR, iconFile));
+    }
+  }
   fs.writeFileSync(path.join(SITE_DIR, 'site.webmanifest'), renderManifest());
   fs.writeFileSync(path.join(SITE_DIR, 'rss.xml'), renderRss(latest.slice(0, 30), baseUrl, config));
   fs.writeFileSync(

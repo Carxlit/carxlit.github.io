@@ -14,9 +14,9 @@
     "cloud:build": "esbuild scripts/cloud-run.ts --bundle --platform=node --packages=external --outfile=dist/cloud-run.js --log-level=warning",
     "cloud:run": "npm run cloud:build --silent && node --env-file-if-exists=.env.local dist/cloud-run.js",
     "site:login": "wrangler login",
-    "site:rebuild": "esbuild scripts/rebuild-site.ts --bundle --platform=node --packages=external --outfile=storage/.rebuild-site.js --log-level=warning && node --env-file=.env.local storage/.rebuild-site.js",
+    "site:rebuild": "esbuild scripts/rebuild-site.ts --bundle --platform=node --packages=external --outfile=storage/.rebuild-site.js --log-level=warning && node --env-file-if-exists=.env.local storage/.rebuild-site.js",
     "progreso": "esbuild scripts/progreso.ts --bundle --platform=node --packages=external --outfile=storage/.progreso.js --log-level=warning && node --env-file-if-exists=.env.local storage/.progreso.js",
-    "site:backfill": "esbuild scripts/site-backfill.ts --bundle --platform=node --packages=external --outfile=storage/.site-backfill.js --log-level=warning && node --env-file=.env.local storage/.site-backfill.js",
+    "site:backfill": "esbuild scripts/site-backfill.ts --bundle --platform=node --packages=external --outfile=storage/.site-backfill.js --log-level=warning && node --env-file-if-exists=.env.local storage/.site-backfill.js",
     "site:deploy": "wrangler pages deploy site --project-name punto-ciego --branch main --commit-dirty=true"
   },
   "dependencies": {

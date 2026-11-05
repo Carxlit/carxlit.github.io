@@ -1,17 +1,33 @@
 {
   "name": "Punto Ciego",
   "short_name": "Punto Ciego",
-  "description": "Análisis independiente de geopolítica, economía global, seguridad, tecnología y poder.",
+  "description": "Análisis independiente y riguroso de geopolítica, economía global, seguridad, tecnología y poder. Lo que la cobertura dominante no te cuenta.",
   "lang": "es",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f6f3ec",
-  "theme_color": "#b4152b",
+  "background_color": "#0c0e11",
+  "theme_color": "#d0021b",
   "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48 96x96",
+      "type": "image/x-icon"
+    },
     {
       "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
