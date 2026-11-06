@@ -12848,12 +12848,13 @@
         "close": "Conoce el análisis estratégico completo ingresando al enlace de nuestro perfil."
       },
       "rawImageUrl": "https://www.defensa.com/adjuntos/fichero_47226_20261106.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T13:06:44.449Z",
       "cardImageUrl": "/news-cards/news-8lv1rji79-1793970404449.jpg",
       "reelCoverUrl": "/news-cards/news-8lv1rji79-1793970408256-cover.jpg",
       "instagramCardUrl": "/news-cards/news-8lv1rji79-1793970409634-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/maximo-venegas-asume-liderazgo-estado-mayor-3c7p/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/maximo-venegas-asume-liderazgo-estado-mayor-3c7p/",
+      "publishedAt": "2026-11-06T16:41:01.593Z"
     },
     "channels": {
       "facebook": true,
@@ -12867,10 +12868,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T16:38:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T13:06:52.393Z"
+    "createdAt": "2026-11-06T13:06:52.393Z",
+    "lastAttemptAt": "2026-11-06T16:38:57.117Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105473173532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "92",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mznt22y5df2h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17915933277492543",
+        "permalink": "https://www.instagram.com/reel/DfaDqxfgIrk/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117570486079163583"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18254407927312963"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T16:41:01.593Z"
   },
   {
     "id": "queue-1793976127777-8b33g",
