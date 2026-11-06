@@ -93,5 +93,10 @@
     "relevant": false,
     "reason": "Es la carátula o miniatura de un evento o charla (¿Cómo comunicar en medio de una crisis?) ajena a la noticia sobre IA.",
     "at": "2026-11-06T11:17:27.746Z"
+  },
+  "a24a3e92b1ac054f:ntc3babun": {
+    "relevant": true,
+    "reason": "Muestra billetes de dólares estadounidenses, que representan el dinero y las obligaciones de la deuda externa.",
+    "at": "2026-11-06T11:32:33.319Z"
   }
 }

@@ -76,9 +76,39 @@
     "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
     "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
     "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
-    "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico"
+    "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
+    "https://www.bloomberglinea.com/mercados/los-paises-de-america-latina-donde-mas-aumento-la-deuda-externa-en-medio-de-un-record-global/"
   ],
   "processedSignatures": [
+    {
+      "title": "LA DEUDA EXTERNA EN AMÉRICA LATINA ALCANZA NIVELES RÉCORD",
+      "normalizedTokens": [
+        "deuda",
+        "externa",
+        "america",
+        "latina",
+        "alcanza",
+        "niveles",
+        "record"
+      ],
+      "date": "2026-11-06T11:32:38.486Z"
+    },
+    {
+      "title": "Los países de América Latina donde más aumentó la deuda externa en medio de un récord global",
+      "normalizedTokens": [
+        "paises",
+        "america",
+        "latina",
+        "mas",
+        "aumento",
+        "deuda",
+        "externa",
+        "medio",
+        "record",
+        "global"
+      ],
+      "date": "2026-11-06T11:32:38.485Z"
+    },
     {
       "title": "OPENAI LANZA GPT-6 CYBER Y DESPLIEGA SU MODELO MÁS CRÍTICO",
       "normalizedTokens": [
