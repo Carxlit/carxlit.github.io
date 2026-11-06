@@ -13206,12 +13206,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/L63V2UQ2GGZIKSYUMMVR2ADIOA.jpg?auth=d93d95173fc74272c7075699f7dbf58328912c94f237e722d33bf28c8962ba9e&width=1200",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T15:48:20.766Z",
       "cardImageUrl": "/news-cards/news-wl0zcrivg-1793980100767.jpg",
       "reelCoverUrl": "/news-cards/news-wl0zcrivg-1793980101438-cover.jpg",
       "instagramCardUrl": "/news-cards/news-wl0zcrivg-1793980101985-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-digital-moldavia-expone-costuras-ciberseguridad-mnwn/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-digital-moldavia-expone-costuras-ciberseguridad-mnwn/",
+      "publishedAt": "2026-11-06T18:43:09.297Z"
     },
     "channels": {
       "facebook": true,
@@ -13225,10 +13226,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T18:40:48.337Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T15:48:23.282Z"
+    "createdAt": "2026-11-06T15:48:23.282Z",
+    "lastAttemptAt": "2026-11-06T18:41:03.842Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105596833532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "94",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mznzugg72j2c"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18131409751830109",
+        "permalink": "https://www.instagram.com/reel/DfaRpYqD_dR/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117570966353583265"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17910829455584353"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T18:43:09.297Z"
   },
   {
     "id": "queue-1793983354926-37lig",
