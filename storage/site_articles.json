@@ -1,5 +1,79 @@
 [
   {
+    "slug": "accidente-autobus-escolar-lent-expone-fallas-u2my",
+    "path": "noticias/accidente-autobus-escolar-lent-expone-fallas-u2my/",
+    "title": "Accidente de autobús escolar en Lent expone fallas en transporte rural francés",
+    "headline": "AUTOBÚS ESCOLAR SE ACCIDENTA EN EL ESTE DE FRANCIA",
+    "dek": "Un vehículo de transporte escolar colisionó contra un árbol en el departamento de Ain. Las autoridades de Educación y Transporte se desplegaron mientras continúan las labores de emergencia.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "BBC News",
+    "image": "img/accidente-autobus-escolar-lent-expone-fallas-u2my.jpg",
+    "publishedAt": "2026-11-06T09:46:35.005Z",
+    "article": {
+      "slug": "accidente-autobus-escolar-lent-expone-fallas-u2my",
+      "title": "Accidente de autobús escolar en Lent expone fallas en transporte rural francés",
+      "dek": "Un vehículo de transporte escolar colisionó contra un árbol en el departamento de Ain. Las autoridades de Educación y Transporte se desplegaron mientras continúan las labores de emergencia.",
+      "keyFacts": [
+        "El accidente ocurrió el viernes por la mañana en Lent, a 55km de la frontera con Suiza y al noreste de Lyon.",
+        "El autobús escolar abandonó la calzada e impactó contra un árbol en una cuneta, según el alcalde Yves Cristin.",
+        "Servicios de emergencia desplegaron un helicóptero en la zona para asistir a las víctimas.",
+        "El ministro de Educación Édouard Geffray y el ministro de Transporte Philippe Tabarot intervinieron tras el suceso."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Durante la mañana del viernes, un autobús dedicado al transporte escolar sufrió un accidente en la localidad de Lent, ubicada en el departamento de Ain, a 55km de la frontera suiza y al noreste de Lyon. Según informó a medios locales el alcalde Yves Cristin, el vehículo perdió el control, abandonó la calzada y terminó impactando contra un árbol situado en la cuneta de la vía.",
+            "La prefectura del departamento de Ain junto con el ministro de Educación de Francia, Édouard Geffray, confirmaron la existencia de varias víctimas en el lugar. Los servicios de socorro activaron un dispositivo de respuesta inmediata que incluyó la movilización de un helicóptero medicalizado."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El ministro Édouard Geffray manifestó públicamente su consternación por los estudiantes afectados y señaló la gravedad de este tipo de eventos en el entorno escolar. De manera paralela, el ministro de Transporte, Philippe Tabarot, confirmó su desplazamiento inmediato hacia el lugar del accidente para supervisar las acciones de gestión inicial.",
+            "El siniestro ocurrió en un sector de carreteras secundarias del este francés, zona de constante tránsito regional que conecta comunidades periféricas con nodos urbanos próximos a la frontera."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de las operaciones de rescate, el accidente pone de manifiesto la falta de barreras protectoras y el desgaste en la infraestructura vial de zonas rurales europeas. En tramos departamentales como los de Ain, la presencia de arbolado adyacente sin contención representa un riesgo recurrente para vehículos pesados.",
+            "La velocidad en la reacción de la cúpula ministerial sugiere la preocupación del gobierno francés ante eventuales reclamos por falta de supervisión en la seguridad del transporte escolar licitado."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Las comunidades locales y las familias de los usuarios enfrentan el costo directo del incidente, al tiempo que se evidencia la desprotección operacional en rutas secundarias.",
+            "Por su parte, los ministerios de Transporte y Educación asumen una carga política directa al deber garantizar revisiones técnicas más estrictas sobre los prestadores del servicio."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Resulta determinante dar seguimiento a los peritajes oficiales sobre el estado mecánico del vehículo y las condiciones de la vía en el momento del impacto. Asimismo, cabrá observar si las administraciones regionales revisan los contratos de concesión vial en áreas de menor densidad poblacional."
+          ]
+        }
+      ],
+      "tags": [
+        "Francia",
+        "Transporte Escolar",
+        "Seguridad Vial",
+        "Ain",
+        "Infraestructura"
+      ],
+      "sources": [
+        {
+          "name": "BBC News",
+          "title": "'Several victims' after school bus crashes in France, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wordCount": 389
+    },
+    "blindSpot": "Más allá del operativo de emergencia, la tragedia expone la fragilidad de las infraestructuras secundarias y la falta de barreras de contención en rutas escolares rurales. El desplazamiento inmediato de los ministros de Transporte y Educación refleja el temor político a una crisis de fiscalización en la red vial departamental."
+  },
+  {
     "slug": "erosion-alto-fuego-gaza-evidencia-fisuras-q2uw",
     "path": "noticias/erosion-alto-fuego-gaza-evidencia-fisuras-q2uw/",
     "title": "La erosión del alto el fuego en Gaza evidencia las fisuras de la diplomacia internacional",

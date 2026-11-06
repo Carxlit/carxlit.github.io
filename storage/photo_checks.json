@@ -63,5 +63,15 @@
     "relevant": true,
     "reason": "La imagen muestra los efectos de los ataques en Gaza con una escena de destrucción.",
     "at": "2026-11-06T05:16:30.757Z"
+  },
+  "1c999ef664f2b37c:4mlgfrqpa": {
+    "relevant": false,
+    "reason": "Es un gráfico genérico de BREAKING NEWS que no muestra el accidente ni el lugar del suceso.",
+    "at": "2026-11-06T09:46:27.851Z"
+  },
+  "61fbbb026a49b5bd:4mlgfrqpa": {
+    "relevant": false,
+    "reason": "La imagen muestra un autobús escolar amarillo típico de Norteamérica y un cartel en inglés (anuncio de un bufete de abogados estadounidense), mientras que la noticia trata sobre un",
+    "at": "2026-11-06T09:46:31.392Z"
   }
 }
