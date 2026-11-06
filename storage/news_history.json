@@ -81,9 +81,36 @@
     "https://www.infobae.com/estados-unidos/2026/11/06/la-urbanista-india-nithya-raman-gana-la-alcaldia-de-los-angeles-y-derrota-a-karen-bass/",
     "http://www.defensa.com/chile/general-aviacion-maximo-venegas-asumio-como-jefe-estado-mayor",
     "https://elpais.com/economia/2026-11-06/diaz-se-acerca-a-la-votacion-de-su-candidatura-a-la-oit-con-los-sindicatos-divididos-y-las-patronales-en-contra.html",
-    "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html"
+    "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JFX1RGSnZ0bDI2d1ZxN0JpSGpTN2NDT21RbEVMaXhyVGNfNDlHUkVsaU9pNGd1d1hzTjhFWmVxeGgzSmt5SDVEZHA2Q3RjUmVpaFdUSUVic3RBLTJNNms0U253VURJU3Uzdm5rSXRjMmtnSDRMbWhKaFA1R1dtRUZ0LUQxLTlieGhXUzA2QVVvU3BnRkhpLWJBekQzVm5YRVFzTzJxU2s?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "HEGSETH DEFIENDE LA GUERRA CON IRÁN DESDE EL PENTÁGONO",
+      "normalizedTokens": [
+        "hegseth",
+        "defiende",
+        "guerra",
+        "iran",
+        "pentagono"
+      ],
+      "date": "2026-11-06T16:42:34.932Z"
+    },
+    {
+      "title": "Hegseth vows to keep fighting from Pentagon, defends Iran war",
+      "normalizedTokens": [
+        "hegseth",
+        "vows",
+        "keep",
+        "fighting",
+        "from",
+        "pentagon",
+        "defends",
+        "iran",
+        "war"
+      ],
+      "date": "2026-11-06T16:42:34.931Z"
+    },
     {
       "title": "CIBERATAQUE MASIVO EXPONE DATOS ESTATALES EN MOLDAVIA",
       "normalizedTokens": [
