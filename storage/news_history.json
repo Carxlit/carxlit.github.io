@@ -75,9 +75,40 @@
     "https://www.dw.com/es/cinco-palestinos-mueren-en-ataques-de-israel-en-gaza/a-79871408?maca=spa-rss-sp-all-1122-rdf",
     "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
     "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
-    "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine"
+    "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
+    "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico"
   ],
   "processedSignatures": [
+    {
+      "title": "OPENAI LANZA GPT-6 CYBER Y DESPLIEGA SU MODELO MÁS CRÍTICO",
+      "normalizedTokens": [
+        "openai",
+        "lanza",
+        "gpt",
+        "cyber",
+        "despliega",
+        "modelo",
+        "mas",
+        "critico"
+      ],
+      "date": "2026-11-06T11:17:31.378Z"
+    },
+    {
+      "title": "En medio de una crisis de ciberseguridad, OpenAI estrena GPT-6 Cyber, su nuevo modelo \"crítico\"",
+      "normalizedTokens": [
+        "medio",
+        "crisis",
+        "ciberseguridad",
+        "openai",
+        "estrena",
+        "gpt",
+        "cyber",
+        "nuevo",
+        "modelo",
+        "critico"
+      ],
+      "date": "2026-11-06T11:17:31.377Z"
+    },
     {
       "title": "ASCIENDE A CINCUENTA EL BALANCE TRAS ATAQUE RUSO",
       "normalizedTokens": [

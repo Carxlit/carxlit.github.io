@@ -83,5 +83,15 @@
     "relevant": true,
     "reason": "la imagen muestra a equipos de emergencia y militares ucranianos rescatando a una víctima entre los escombros tras un ataque.",
     "at": "2026-11-06T11:01:26.453Z"
+  },
+  "bf5e973f8ccea403:yolnxv7dm": {
+    "relevant": false,
+    "reason": "Muestra un logotipo genérico de OpenAI flotando sobre un fondo digital, el cual no representa específicamente el lanzamiento ni las características críticas de GPT-6 Cyber.",
+    "at": "2026-11-06T11:17:24.156Z"
+  },
+  "9d7444eb3d25a04f:yolnxv7dm": {
+    "relevant": false,
+    "reason": "Es la carátula o miniatura de un evento o charla (¿Cómo comunicar en medio de una crisis?) ajena a la noticia sobre IA.",
+    "at": "2026-11-06T11:17:27.746Z"
   }
 }
