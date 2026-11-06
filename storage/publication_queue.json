@@ -13727,12 +13727,13 @@
         "close": "Lee el análisis geopolítico completo en el enlace del perfil."
       },
       "rawImageUrl": "https://s.france24.com/media/display/418ec886-abf6-11f1-9002-005056bf30b7/w:1024/p:16x9/a0308b3667e49286ff82336ed86850679683f1c9.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T18:44:41.176Z",
       "cardImageUrl": "/news-cards/news-436ofb23y-1793990681176.jpg",
       "reelCoverUrl": "/news-cards/news-436ofb23y-1793990681826-cover.jpg",
       "instagramCardUrl": "/news-cards/news-436ofb23y-1793990682602-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6/",
+      "publishedAt": "2026-11-06T23:03:56.783Z"
     },
     "channels": {
       "facebook": true,
@@ -13746,10 +13747,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T23:01:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T18:44:43.854Z"
+    "createdAt": "2026-11-06T18:44:43.854Z",
+    "lastAttemptAt": "2026-11-06T23:01:57.026Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105777997532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "97",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzoigvpuxj22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18137703547640266",
+        "permalink": "https://www.instagram.com/reel/DfavfjgAaTb/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117571991883747886"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18114334052167995"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T23:03:56.783Z"
   },
   {
     "id": "queue-1793995302742-v40z1",
