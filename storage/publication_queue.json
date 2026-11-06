@@ -13561,12 +13561,13 @@
         "close": "Encuentra el análisis detallado y sin censura en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://s.yimg.com/lo/mysterio/api/f790ef648ccd19e47e412ad12fc6e1b4ea55fe0445e70bb772357a6aac838f71/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Fdeutsche_welle_articles_es_448%2F3375f60a5011f5145a3d284192c62348.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T18:02:28.453Z",
       "cardImageUrl": "/news-cards/news-c8hdgtm7m-1793988148454.jpg",
       "reelCoverUrl": "/news-cards/news-c8hdgtm7m-1793988149073-cover.jpg",
       "instagramCardUrl": "/news-cards/news-c8hdgtm7m-1793988149665-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/arrestan-florida-padre-meghan-markle-tenencia-xmec/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/arrestan-florida-padre-meghan-markle-tenencia-xmec/",
+      "publishedAt": "2026-11-06T21:24:09.916Z"
     },
     "channels": {
       "facebook": true,
@@ -13580,10 +13581,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T21:21:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T18:02:30.894Z"
+    "createdAt": "2026-11-06T18:02:30.894Z",
+    "lastAttemptAt": "2026-11-06T21:21:57.047Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105707827532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "96",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzocujl6ge2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18136580032737045",
+        "permalink": "https://www.instagram.com/reel/DfakDryj4sH/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117571599317937669"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18117736961015883"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T21:24:09.916Z"
   },
   {
     "id": "queue-1793990683854-zxt7x",
