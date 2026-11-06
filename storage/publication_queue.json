@@ -12687,12 +12687,13 @@
         "title": "Democratic socialist Nithya Raman wins Los Angeles mayor's race; Bass concedes",
         "channel": "ABC10"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T11:46:56.999Z",
       "cardImageUrl": "/news-cards/news-aah8e6mf5-1793965616999.jpg",
       "reelCoverUrl": "/news-cards/news-aah8e6mf5-1793965617742-cover.jpg",
       "instagramCardUrl": "/news-cards/news-aah8e6mf5-1793965618334-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colapso-establishment-angeles-entrega-alcaldia-izquierda-pfrz/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colapso-establishment-angeles-entrega-alcaldia-izquierda-pfrz/",
+      "publishedAt": "2026-11-06T15:45:51.613Z"
     },
     "channels": {
       "facebook": true,
@@ -12706,10 +12707,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T15:43:03.848Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T11:46:59.592Z"
+    "createdAt": "2026-11-06T11:46:59.592Z",
+    "lastAttemptAt": "2026-11-06T15:43:19.211Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105431977532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "91",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mznpwpjq7v2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17997032361023696",
+        "permalink": "https://www.instagram.com/reel/DfZ9WkZgab4/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117570269146337502"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18133263673685819"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T15:45:51.613Z"
   },
   {
     "id": "queue-1793970412393-aa9w2",
