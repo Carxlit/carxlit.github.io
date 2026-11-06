@@ -11798,12 +11798,13 @@
         ],
         "close": "Lee el análisis completo sobre infraestructura vial en el enlace del perfil."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T09:46:32.881Z",
       "cardImageUrl": "/news-cards/news-4mlgfrqpa-1793958392881.jpg",
       "reelCoverUrl": "/news-cards/news-4mlgfrqpa-1793958394064-cover.jpg",
       "instagramCardUrl": "/news-cards/news-4mlgfrqpa-1793958394531-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/accidente-autobus-escolar-lent-expone-fallas-u2my/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/accidente-autobus-escolar-lent-expone-fallas-u2my/",
+      "publishedAt": "2026-11-06T09:49:40.360Z"
     },
     "channels": {
       "facebook": true,
@@ -11817,10 +11818,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T09:46:35.120Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-06T09:46:35.120Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-06T09:47:53.021Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105173749532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "86",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzn42yswiv2c"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18455172820123551",
+        "permalink": "https://www.instagram.com/reel/DfZUlsEisJr/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117568868603597927"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18123341008983659"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T09:49:40.360Z"
   }
 ]
