@@ -13030,12 +13030,13 @@
         "close": "Lee el análisis completo sobre este pulso multilateral en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/UOJNFYTHFRJPZHNUUEAFABDWJQ.jpg?auth=c38b188a02e0155d7311619e21a5771d9868fbf9ac2904abd51634cf1c1a07b3",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T14:42:03.551Z",
       "cardImageUrl": "/news-cards/news-az16cp1w3-1793976123551.jpg",
       "reelCoverUrl": "/news-cards/news-az16cp1w3-1793976125883-cover.jpg",
       "instagramCardUrl": "/news-cards/news-az16cp1w3-1793976126475-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fractura-tripartismo-compromete-candidatura-yolanda-diaz-7qyb/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fractura-tripartismo-compromete-candidatura-yolanda-diaz-7qyb/",
+      "publishedAt": "2026-11-06T17:41:23.500Z"
     },
     "channels": {
       "facebook": true,
@@ -13049,10 +13050,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T17:35:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T14:42:07.777Z"
+    "createdAt": "2026-11-06T14:42:07.777Z",
+    "lastAttemptAt": "2026-11-06T17:40:48.344Z",
+    "results": {
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122105545539532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "93",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mznwio4vam2c"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18132361318841092"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117570723577371466"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18127564261675514"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T17:41:23.500Z"
   },
   {
     "id": "queue-1793980103282-wts0i",
@@ -13182,7 +13224,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-06T18:27:41.751Z",
+    "scheduledFor": "2026-11-06T18:40:48.337Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
