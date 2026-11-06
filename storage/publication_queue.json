@@ -11292,12 +11292,13 @@
         "close": "Lee el análisis completo en el enlace de nuestra biografía."
       },
       "rawImageUrl": "https://www.infobae.com/resizer/v2/Q4V2RX7H4JGN3G5ORBONL3TKK4.jpg?auth=813391a8e82a41314f12c24dc09c9e00aa8c16aa51a4fd6788e239bf1784b245&smart=true&width=1200&height=630&quality=85",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T20:42:45.471Z",
       "cardImageUrl": "/news-cards/news-lr8thp0k8-1793911365471.jpg",
       "reelCoverUrl": "/news-cards/news-lr8thp0k8-1793911366265-cover.jpg",
       "instagramCardUrl": "/news-cards/news-lr8thp0k8-1793911366913-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/repliegue-bruselas-ante-diplomacia-trilateral-washington-37kt/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/repliegue-bruselas-ante-diplomacia-trilateral-washington-37kt/",
+      "publishedAt": "2026-11-06T01:12:23.478Z"
     },
     "channels": {
       "facebook": true,
@@ -11311,10 +11312,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T01:10:01.671Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T20:42:48.298Z"
+    "createdAt": "2026-11-05T20:42:48.298Z",
+    "lastAttemptAt": "2026-11-06T01:10:16.926Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104836981532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "83",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzm75i7bis2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18114694145131153",
+        "permalink": "https://www.instagram.com/reel/DfYZZ14ADqU/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117566834525563064"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18147299107602804"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T01:12:23.478Z"
   },
   {
     "id": "queue-1793916676611-i6ige",
