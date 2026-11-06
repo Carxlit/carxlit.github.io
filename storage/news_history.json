@@ -78,9 +78,40 @@
     "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
     "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
     "https://www.bloomberglinea.com/mercados/los-paises-de-america-latina-donde-mas-aumento-la-deuda-externa-en-medio-de-un-record-global/",
-    "https://www.infobae.com/estados-unidos/2026/11/06/la-urbanista-india-nithya-raman-gana-la-alcaldia-de-los-angeles-y-derrota-a-karen-bass/"
+    "https://www.infobae.com/estados-unidos/2026/11/06/la-urbanista-india-nithya-raman-gana-la-alcaldia-de-los-angeles-y-derrota-a-karen-bass/",
+    "http://www.defensa.com/chile/general-aviacion-maximo-venegas-asumio-como-jefe-estado-mayor"
   ],
   "processedSignatures": [
+    {
+      "title": "MÁXIMO VENEGAS ASUME EL MANDO DEL ESTADO MAYOR CONJUNTO CHILENO",
+      "normalizedTokens": [
+        "maximo",
+        "venegas",
+        "asume",
+        "mando",
+        "estado",
+        "mayor",
+        "conjunto",
+        "chileno"
+      ],
+      "date": "2026-11-06T13:06:52.424Z"
+    },
+    {
+      "title": "El general de Aviaci�n M�ximo Venegas asumi� como jefe del Estado Mayor Conjunto de Chile",
+      "normalizedTokens": [
+        "general",
+        "aviaci",
+        "ximo",
+        "venegas",
+        "asumi",
+        "jefe",
+        "estado",
+        "mayor",
+        "conjunto",
+        "chile"
+      ],
+      "date": "2026-11-06T13:06:52.424Z"
+    },
     {
       "title": "NITHYA RAMAN DERROTA A KAREN BASS EN LOS ÁNGELES",
       "normalizedTokens": [
