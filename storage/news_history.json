@@ -77,9 +77,36 @@
     "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
     "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
     "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
-    "https://www.bloomberglinea.com/mercados/los-paises-de-america-latina-donde-mas-aumento-la-deuda-externa-en-medio-de-un-record-global/"
+    "https://www.bloomberglinea.com/mercados/los-paises-de-america-latina-donde-mas-aumento-la-deuda-externa-en-medio-de-un-record-global/",
+    "https://www.infobae.com/estados-unidos/2026/11/06/la-urbanista-india-nithya-raman-gana-la-alcaldia-de-los-angeles-y-derrota-a-karen-bass/"
   ],
   "processedSignatures": [
+    {
+      "title": "NITHYA RAMAN DERROTA A KAREN BASS EN LOS ÁNGELES",
+      "normalizedTokens": [
+        "nithya",
+        "raman",
+        "derrota",
+        "karen",
+        "bass",
+        "angeles"
+      ],
+      "date": "2026-11-06T11:46:59.600Z"
+    },
+    {
+      "title": "Nithya Raman gana la alcaldía de Los Ángeles y derrota a Karen Bass",
+      "normalizedTokens": [
+        "nithya",
+        "raman",
+        "gana",
+        "alcaldia",
+        "angeles",
+        "derrota",
+        "karen",
+        "bass"
+      ],
+      "date": "2026-11-06T11:46:59.599Z"
+    },
     {
       "title": "LA DEUDA EXTERNA EN AMÉRICA LATINA ALCANZA NIVELES RÉCORD",
       "normalizedTokens": [
