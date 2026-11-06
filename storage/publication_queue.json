@@ -13890,5 +13890,128 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-06T20:01:42.742Z"
+  },
+  {
+    "id": "queue-1794000342870-sxir1",
+    "news": {
+      "id": "7sl6t6i52",
+      "originalUrl": "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas",
+      "originalTitle": "Toyota quiere ir más allá de los coches. La respuesta a su próxima gran apuesta está en sus propias fábricas",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 82,
+      "headline": "TOYOTA CREA TOYOTA ROBOTICS PARA DOMINAR LA AUTOMATIZACIÓN INDUSTRIAL",
+      "subHeadline": "La compañía japonesa centraliza sus recursos de robótica en una nueva organización que comenzará a operar en enero de 2027.",
+      "blindSpotAngle": "Mientras la atención mediática se centra en la comercialización futura de robots, el verdadero objetivo estratégico es blindar su propia cadena de suministro ante la escasez demográfica de mano de obra en Japón. Toyota utiliza sus 60 plantas y 18.000 trabajadores como el banco de pruebas definitivo para entrenar a las máquinas antes de abrir la cartera a terceros.",
+      "facebookPost": "Toyota quiere dejar de ser solo un fabricante de vehículos para convertirse en el proveedor global de la próxima generación de robots industriales. La narrativa oficial celebra la creación de Toyota Robotics como un paso natural hacia la comercialización de tecnología avanzada a partir de 2030.\n\nEl punto ciego reside en la urgencia demográfica que fuerza este movimiento. Con 60 plantas y 18.000 trabajadores especializados sirviendo como conejillos de indias, la compañía busca automatizar una demanda interna estimada en 400.000 robots en su cadena de suministro para evitar el colapso operativo.\n\n¿Puede la industria tradicional transformar su experiencia en una ventaja competitiva frente a las tecnológicas puras de inteligencia artificial?\n\nFuente: Xataka\n\n#Robotica #Toyota #PuntoCiego",
+      "telegramPost": "<b>TOYOTA CONSOLIDA SU APUESTA ROBÓTICA</b>\n\n• <b>Qué ocurrió:</b> Toyota anunció la creación de Toyota Robotics, una división interna que unificará sus desarrollos robóticos a partir del 1 de enero de 2027 bajo la supervisión de Takefumi Shiga.\n\n• <b>Por qué importa:</b> La compañía planea utilizar sus 60 plantas y 18.000 trabajadores especializados para entrenar autómatas, proyectando una necesidad de 400.000 robots en su ecosistema industrial entre 2028 y 2040.\n\n• <b>Qué sigue:</b> Perfeccionar la tecnología en sus propias líneas de montaje para iniciar la comercialización a terceros y buscar un crecimiento sostenido de las ventas a partir de 2030.",
+      "linkedInPost": "La transformación de la manufactura global entra en una nueva fase. La decisión de Toyota de agrupar su división de robótica bajo una estructura centralizada responde a una necesidad macroestratégica: mitigar los riesgos de una fuerza laboral en contracción y optimizar redes de suministro hipercomplejas.\n\nAl integrar los datos de 60 plantas y trasladar tecnologías de software como Arene hacia la robótica física, el fabricante automotriz no busca simplemente comprar hardware, sino crear el estándar industrial que posteriormente comercializará a otros sectores. El reto financiero no es menor, considerando estimaciones de renovación industrial que rondan un billón de yenes anuales en su cadena.\n\nFuente: Xataka\n\n#RoboticaIndustrial #CadenaDeSuministro #PuntoCiego",
+      "blueskyPost": "Toyota crea Toyota Robotics no solo para vender máquinas, sino para salvar su cadena de suministro ante la crisis demográfica usando 60 plantas como campo de entrenamiento. #Robotica #PuntoCiego",
+      "copies": {
+        "facebook": "Toyota quiere dejar de ser solo un fabricante de vehículos para convertirse en el proveedor global de la próxima generación de robots industriales. La narrativa oficial celebra la creación de Toyota Robotics como un paso natural hacia la comercialización de tecnología avanzada a partir de 2030.\n\nEl punto ciego reside en la urgencia demográfica que fuerza este movimiento. Con 60 plantas y 18.000 trabajadores especializados sirviendo como conejillos de indias, la compañía busca automatizar una demanda interna estimada en 400.000 robots en su cadena de suministro para evitar el colapso operativo.\n\n¿Puede la industria tradicional transformar su experiencia en una ventaja competitiva frente a las tecnológicas puras de inteligencia artificial? \n\n#Robotica #Toyota #PuntoCiego",
+        "telegram": "<b>TOYOTA CONSOLIDA SU APUESTA ROBÓTICA</b>\n\n• <b>Qué ocurrió:</b> Toyota anunció la creación de Toyota Robotics, una división interna que unificará sus desarrollos robóticos a partir del 1 de enero de 2027 bajo la supervisión de Takefumi Shiga.\n\n• <b>Por qué importa:</b> La compañía planea utilizar sus 60 plantas y 18.000 trabajadores especializados para entrenar autómatas, proyectando una necesidad de 400.000 robots en su ecosistema industrial entre 2028 y 2040.\n\n• <b>Qué sigue:</b> Perfeccionar la tecnología en sus propias líneas de montaje para iniciar la comercialización a terceros y buscar un crecimiento sostenido de las ventas a partir de 2030.",
+        "bluesky": "Toyota crea Toyota Robotics no solo para vender máquinas, sino para salvar su cadena de suministro ante la crisis demográfica usando 60 plantas como campo de entrenamiento. #Robotica #PuntoCiego",
+        "linkedIn": "La transformación de la manufactura global entra en una nueva fase. La decisión de Toyota de agrupar su división de robótica bajo una estructura centralizada responde a una necesidad macroestratégica: mitigar los riesgos de una fuerza laboral en contracción y optimizar redes de suministro hipercomplejas.\n\nAl integrar los datos de 60 plantas y trasladar tecnologías de software como Arene hacia la robótica física, el fabricante automotriz no busca simplemente comprar hardware, sino crear el estándar industrial que posteriormente comercializará a otros sectores. El reto financiero no es menor, considerando estimaciones de renovación industrial que rondan un billón de yenes anuales en su cadena.\n\n#RoboticaIndustrial #CadenaDeSuministro #PuntoCiego"
+      },
+      "article": {
+        "slug": "plan-oculto-toyota-transformar-fabricas-imperio-7i6g",
+        "title": "El plan oculto de Toyota para transformar sus fábricas en un imperio de robótica industrial",
+        "dek": "El fabricante japonés reorganiza sus divisiones para crear Toyota Robotics, un movimiento orientado a comercializar automatización avanzada a partir de 2030.",
+        "keyFacts": [
+          "Toyota creó Toyota Robotics el 5 de noviembre de 2026, con inicio de operaciones el 1 de enero de 2027.",
+          "Takefumi Shiga estará al frente de la nueva organización interna.",
+          "La compañía cuenta con 60 plantas y 18.000 trabajadores especializados en oficios industriales.",
+          "El ecosistema industrial de Toyota podría necesitar unos 400.000 robots entre 2028 y 2040."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Toyota Motor Corporation anunció el 5 de noviembre de 2026 la creación de Toyota Robotics, una nueva organización interna diseñada para unificar los esfuerzos de robótica que hasta ahora operaban dispersos en diferentes departamentos. La división comenzará a funcionar el 1 de enero de 2027 bajo la supervisión directa del fabricante y estará dirigida por Takefumi Shiga, actual responsable de producción.",
+              "La reestructuración incluye además un grupo de filosofía y formación liderado por Akio Toyoda, presidente del consejo de administración, cuyo propósito es transmitir los conocimientos industriales acumulados de la compañía a las nuevas generaciones."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Según la información presentada por la compañía durante su informe de resultados, el fabricante posee un despliegue de 60 plantas y aproximadamente 18.000 trabajadores especializados. La estrategia consiste en aprovechar la experiencia y los datos generados en estos entornos para entrenar a las nuevas máquinas.",
+              "Asimismo, la firma pretende integrar tecnologías preexistentes de sus vehículos, tales como su plataforma de software Arene, dentro de las soluciones robóticas que se desarrollen en el futuro."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Aunque la narrativa pública enfatiza la futura comercialización de robots hacia terceros a partir de 2030, el verdadero motor de esta iniciativa responde a la urgencia de asegurar la continuidad operativa frente a la escasez de mano de obra.",
+              "Las proyecciones apuntan a que el ecosistema industrial del grupo requerirá cerca de 400.000 robots entre 2028 y 2040. De esa cifra, 150.000 se destinarán al fabricante y sus empresas asociadas, mientras que 250.000 irán a proveedores. La prioridad interna precede por completo a la ambición comercial externa."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En este tablero, los ganadores iniciales son los proveedores de componentes tecnológicos y automatización que logren alinearse con los estándares de Toyota. Por otro lado, los operarios tradicionales enfrentan una presión acelerada para transferir su conocimiento tácito a algoritmos y sistemas mecánicos.",
+              "A nivel financiero, la compañía calcula que la modernización de instalaciones envejecidas podría demandar alrededor de un billón de yenes anuales en su cadena industrial, un volumen de gasto que exige eficiencia quirúrgica."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Conviene monitorizar la evolución de los prototipos iniciales de asistencia, como el robot ELEY, y las colaboraciones externas con entidades como Boston Dynamics. El verdadero test de fuego para Toyota Robotics no será su capacidad de diseño, sino su habilidad para cumplir los plazos de despliegue interno previstos para 2028."
+            ]
+          }
+        ],
+        "tags": [
+          "Toyota",
+          "Robotica",
+          "Automocion",
+          "InteligenciaArtificial",
+          "Industria"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Toyota quiere ir más allá de los coches. La respuesta a su próxima gran apuesta está en sus propias fábricas",
+            "url": "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas"
+          },
+          {
+            "name": "El Ecosistema Startup",
+            "title": "Toyota crea Toyota Robotics para vender robots a fábricas",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3l3eklpQm9kaGF5SVktdXQzbGk5S0ZGclR2RUtDS3NUVzZiQ1pZWTlLYkprTXA2aC1Eb1NDci1mbXpPZ2k4Wlg1RTR4bXpxR1JWcXY4NHhTcGc3S1BJU2hUZTdrUzNoVFZTMmgxY3JkbVBJVWYzRlVQWTVjT2NIZXJobDBHMHdZRDl4clNLRVdDdw?oc=5"
+          }
+        ],
+        "wordCount": 401
+      },
+      "videoScript": {
+        "hook": "Toyota no quiere seguir fabricando únicamente coches.",
+        "beats": [
+          "La compañía creó Toyota Robotics para unificar todos sus desarrollos bajo una misma dirección.",
+          "Su ecosistema industrial necesitará 400.000 robots entre 2028 y 2040.",
+          "El verdadero objetivo es entrenar a las máquinas usando el conocimiento de sus propias fábricas."
+        ],
+        "close": "Lee el análisis completo en el enlace del perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/18f778/robots-industriales-toyota/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-06T21:25:40.451Z",
+      "cardImageUrl": "/news-cards/news-7sl6t6i52-1794000340452.jpg",
+      "reelCoverUrl": "/news-cards/news-7sl6t6i52-1794000341222-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-7sl6t6i52-1794000341747-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/plan-oculto-toyota-transformar-fabricas-imperio-7i6g/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-07T01:13:41.751Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-06T21:25:42.870Z"
   }
 ]

@@ -1,5 +1,85 @@
 [
   {
+    "slug": "plan-oculto-toyota-transformar-fabricas-imperio-7i6g",
+    "path": "noticias/plan-oculto-toyota-transformar-fabricas-imperio-7i6g/",
+    "title": "El plan oculto de Toyota para transformar sus fábricas en un imperio de robótica industrial",
+    "headline": "TOYOTA CREA TOYOTA ROBOTICS PARA DOMINAR LA AUTOMATIZACIÓN INDUSTRIAL",
+    "dek": "El fabricante japonés reorganiza sus divisiones para crear Toyota Robotics, un movimiento orientado a comercializar automatización avanzada a partir de 2030.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/plan-oculto-toyota-transformar-fabricas-imperio-7i6g.jpg",
+    "photo": "img/plan-oculto-toyota-transformar-fabricas-imperio-7i6g-foto.jpg",
+    "publishedAt": "2026-11-06T21:25:42.778Z",
+    "article": {
+      "slug": "plan-oculto-toyota-transformar-fabricas-imperio-7i6g",
+      "title": "El plan oculto de Toyota para transformar sus fábricas en un imperio de robótica industrial",
+      "dek": "El fabricante japonés reorganiza sus divisiones para crear Toyota Robotics, un movimiento orientado a comercializar automatización avanzada a partir de 2030.",
+      "keyFacts": [
+        "Toyota creó Toyota Robotics el 5 de noviembre de 2026, con inicio de operaciones el 1 de enero de 2027.",
+        "Takefumi Shiga estará al frente de la nueva organización interna.",
+        "La compañía cuenta con 60 plantas y 18.000 trabajadores especializados en oficios industriales.",
+        "El ecosistema industrial de Toyota podría necesitar unos 400.000 robots entre 2028 y 2040."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Toyota Motor Corporation anunció el 5 de noviembre de 2026 la creación de Toyota Robotics, una nueva organización interna diseñada para unificar los esfuerzos de robótica que hasta ahora operaban dispersos en diferentes departamentos. La división comenzará a funcionar el 1 de enero de 2027 bajo la supervisión directa del fabricante y estará dirigida por Takefumi Shiga, actual responsable de producción.",
+            "La reestructuración incluye además un grupo de filosofía y formación liderado por Akio Toyoda, presidente del consejo de administración, cuyo propósito es transmitir los conocimientos industriales acumulados de la compañía a las nuevas generaciones."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Según la información presentada por la compañía durante su informe de resultados, el fabricante posee un despliegue de 60 plantas y aproximadamente 18.000 trabajadores especializados. La estrategia consiste en aprovechar la experiencia y los datos generados en estos entornos para entrenar a las nuevas máquinas.",
+            "Asimismo, la firma pretende integrar tecnologías preexistentes de sus vehículos, tales como su plataforma de software Arene, dentro de las soluciones robóticas que se desarrollen en el futuro."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Aunque la narrativa pública enfatiza la futura comercialización de robots hacia terceros a partir de 2030, el verdadero motor de esta iniciativa responde a la urgencia de asegurar la continuidad operativa frente a la escasez de mano de obra.",
+            "Las proyecciones apuntan a que el ecosistema industrial del grupo requerirá cerca de 400.000 robots entre 2028 y 2040. De esa cifra, 150.000 se destinarán al fabricante y sus empresas asociadas, mientras que 250.000 irán a proveedores. La prioridad interna precede por completo a la ambición comercial externa."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los ganadores iniciales son los proveedores de componentes tecnológicos y automatización que logren alinearse con los estándares de Toyota. Por otro lado, los operarios tradicionales enfrentan una presión acelerada para transferir su conocimiento tácito a algoritmos y sistemas mecánicos.",
+            "A nivel financiero, la compañía calcula que la modernización de instalaciones envejecidas podría demandar alrededor de un billón de yenes anuales en su cadena industrial, un volumen de gasto que exige eficiencia quirúrgica."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Conviene monitorizar la evolución de los prototipos iniciales de asistencia, como el robot ELEY, y las colaboraciones externas con entidades como Boston Dynamics. El verdadero test de fuego para Toyota Robotics no será su capacidad de diseño, sino su habilidad para cumplir los plazos de despliegue interno previstos para 2028."
+          ]
+        }
+      ],
+      "tags": [
+        "Toyota",
+        "Robotica",
+        "Automocion",
+        "InteligenciaArtificial",
+        "Industria"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Toyota quiere ir más allá de los coches. La respuesta a su próxima gran apuesta está en sus propias fábricas",
+          "url": "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "Toyota crea Toyota Robotics para vender robots a fábricas",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3l3eklpQm9kaGF5SVktdXQzbGk5S0ZGclR2RUtDS3NUVzZiQ1pZWTlLYkprTXA2aC1Eb1NDci1mbXpPZ2k4Wlg1RTR4bXpxR1JWcXY4NHhTcGc3S1BJU2hUZTdrUzNoVFZTMmgxY3JkbVBJVWYzRlVQWTVjT2NIZXJobDBHMHdZRDl4clNLRVdDdw?oc=5"
+        }
+      ],
+      "wordCount": 401
+    },
+    "blindSpot": "Mientras la atención mediática se centra en la comercialización futura de robots, el verdadero objetivo estratégico es blindar su propia cadena de suministro ante la escasez demográfica de mano de obra en Japón. Toyota utiliza sus 60 plantas y 18.000 trabajadores como el banco de pruebas definitivo para entrenar a las máquinas antes de abrir la cartera a terceros."
+  },
+  {
     "slug": "despliegue-leon-xiv-sudamerica-pulso-diplomatico-2gn9",
     "path": "noticias/despliegue-leon-xiv-sudamerica-pulso-diplomatico-2gn9/",
     "title": "El despliegue de León XIV en Sudamérica y el pulso diplomático de la Santa Sede",
