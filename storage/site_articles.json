@@ -1,5 +1,85 @@
 [
   {
+    "slug": "amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6",
+    "path": "noticias/amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6/",
+    "title": "Amenazas falsas de bomba ponen a prueba la seguridad de la aviación europea",
+    "headline": "AMENAZAS FALSAS DE BOMBA ATORMENTAN LA AVIACIÓN EUROPEA",
+    "dek": "Una sincronizada oleada de alertas falsas obligó a desplegar cazas en Hungría y afectó a más de 40 vuelos, exponiendo las costuras de la defensa continental.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "France 24 Español",
+    "image": "img/amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6.jpg",
+    "photo": "img/amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6-foto.jpg",
+    "publishedAt": "2026-11-06T18:44:43.777Z",
+    "article": {
+      "slug": "amenazas-falsas-bomba-ponen-prueba-seguridad-ksg6",
+      "title": "Amenazas falsas de bomba ponen a prueba la seguridad de la aviación europea",
+      "dek": "Una sincronizada oleada de alertas falsas obligó a desplegar cazas en Hungría y afectó a más de 40 vuelos, exponiendo las costuras de la defensa continental.",
+      "keyFacts": [
+        "Más de 40 vuelos resultaron afectados por amenazas falsas de bomba en Europa.",
+        "Hungría desplegó aviones de combate Gripen para escoltar tres aeronaves de pasajeros en menos de una hora.",
+        "El aeropuerto de Praga informó de nueve alertas ficticias dirigidas a vuelos vinculados a su terminal.",
+        "La cadena pública irlandesa RTE evacuó sus oficinas y suspendió su programación tras recibir mensajes intimidatorios."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según la información difundida por France 24 Español, la aviación comercial europea sufrió una jornada de alta tensión debido a una oleada masiva de amenazas falsas de bomba que impactaron a más de 40 vuelos en distintos puntos de la región. La situación escaló rápidamente cuando las autoridades húngaras decidieron movilizar aviones de combate Gripen para escoltar a tres aeronaves de pasajeros que habían recibido advertencias de atentado en un intervalo de menos de una hora.",
+            "Paralelamente, el aeropuerto de Praga confirmó haber gestionado nueve alertas ficticias contra vuelos operados desde o hacia su terminal. El alcance de la intimidación no se limitó al espacio aéreo; al menos tres medios de comunicación recibieron mensajes amenazantes, destacando el caso de la cadena pública irlandesa RTE, que se vio obligada a evacuar por completo sus instalaciones y a suspender temporalmente su programación habitual."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Las alertas de bomba en el sector aeronáutico y de infraestructuras críticas suelen desencadenar protocolos de seguridad extremadamente rígidos y costosos. Cada aeronave señalada requiere desvíos, aterrizajes de emergencia, inspecciones exhaustivas por parte de equipos antiexplosivos y una costosa disrupción en las operaciones de las aerolíneas.",
+            "Si bien los incidentes con falsas alarmas no son inéditos en la historia de la aviación civil, la concentración temporal de los avisos y la diversidad de objetivos —que incluyeron simultáneamente a aerolíneas en vuelo y a empresas de medios en distintos países— reflejan un nivel de coordinación inusual que movilizó recursos militares de primer nivel, como los cazas de la fuerza aérea húngara."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los titulares se concentran en el desconcierto de los pasajeros y en la confirmación posterior de que se trataba de amenazas falsas, el verdadero trasfondo pasa desapercibido. Este tipo de operaciones funciona como un examen en tiempo real para medir los tiempos de reacción, los canales de comunicación y los umbrales de decisión de los mandos militares y civiles en Europa.",
+            "Incurrir en el despliegue de aviones de combate supersónicos representa un gasto logístico elevado y obliga a desviar capacidades de defensa de sus funciones regulares. Para los analistas de inteligencia, estas acciones operan como pruebas de estrés diseñadas para calcular el desgaste institucional y la saturación de los sistemas de alerta temprana del continente."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los grandes perdedores son las aerolíneas comerciales, que asumen pérdidas económicas directas por retrasos y combustible, y las agencias de seguridad nacional, obligadas a destinar recursos extraordinarios a verificar falsos positivos.",
+            "Por otro lado, los actores anónimos o redes externas que orquestan estas campañas obtienen información valiosa sobre la vulnerabilidad y la capacidad de respuesta de los sistemas de transporte europeo sin asumir riesgos militares directos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será fundamental observar si las investigaciones de cooperación policial europea logran rastrear el origen digital y las rutas de telecomunicaciones de estos mensajes intimidatorios. Asimismo, la respuesta regulatoria y la posible implementación de nuevos filtros de seguridad en las comunicaciones de vuelo marcarán la pauta en las próximas semanas."
+          ]
+        }
+      ],
+      "tags": [
+        "Aviación",
+        "Seguridad",
+        "Europa",
+        "Hungría",
+        "Inteligencia"
+      ],
+      "sources": [
+        {
+          "name": "France 24 Español",
+          "title": "Las amenazas falsas de bomba atormentan a la aviación europea con más de 40 vuelos afectados",
+          "url": "https://www.france24.com/es/europa/20261106-las-amenazas-falsas-de-bomba-atormentan-a-la-aviaci%C3%B3n-europea-con-m%C3%A1s-de-40-vuelos-afectados"
+        },
+        {
+          "name": "France 24",
+          "title": "Las amenazas falsas de bomba atormentan a la aviación europea con más de 40 vuelos afectados",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeUQyQ1RfN0ZNZGxxSVNJeVpFWXN4U2FvSXhRSllwNzdiY0ZySTlQTEZhdnZlSUgzYk5JNVJka0s5aXlyeWN0OVU1OU1JazdrRUxORU41MmVxTVBrUFVIUzRDYW9ydm1YZVoyQkp3MndaLWxLMktCaFZ5d2NfR1BfaUlsY00xZXVpREFPMWN0dFRHUF8xamNjdTRYRzYySEhaVUhiLXczSDk4b0VQVWhSTlA0dkNUa1RjVjl5VGZxc1V4UFdVS3k0OVhNeTVkRTI1LWxTenpWNmRwcHhDY1o0?oc=5"
+        }
+      ],
+      "wordCount": 511
+    },
+    "blindSpot": "Detrás del caos aeroportuario y mediático se esconde una prueba coordinada de resistencia e inteligencia sobre los protocolos de respuesta rápida europeos, evidenciando la vulnerabilidad de las infraestructuras críticas ante operaciones híbridas de bajo coste y alto impacto psicológico."
+  },
+  {
     "slug": "arrestan-florida-padre-meghan-markle-tenencia-xmec",
     "path": "noticias/arrestan-florida-padre-meghan-markle-tenencia-xmec/",
     "title": "Arrestan en Florida al padre de Meghan Markle por tenencia de material ilícito",

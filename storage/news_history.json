@@ -83,9 +83,37 @@
     "https://elpais.com/economia/2026-11-06/diaz-se-acerca-a-la-votacion-de-su-candidatura-a-la-oit-con-los-sindicatos-divididos-y-las-patronales-en-contra.html",
     "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html",
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JFX1RGSnZ0bDI2d1ZxN0JpSGpTN2NDT21RbEVMaXhyVGNfNDlHUkVsaU9pNGd1d1hzTjhFWmVxeGgzSmt5SDVEZHA2Q3RjUmVpaFdUSUVic3RBLTJNNms0U253VURJU3Uzdm5rSXRjMmtnSDRMbWhKaFA1R1dtRUZ0LUQxLTlieGhXUzA2QVVvU3BnRkhpLWJBekQzVm5YRVFzTzJxU2s?oc=5",
-    "https://www.france24.com/es/europa/20261106-arrestan-en-florida-al-padre-de-meghan-markle-en-una-investigaci%C3%B3n-por-material-de-abuso-sexual-infantil"
+    "https://www.france24.com/es/europa/20261106-arrestan-en-florida-al-padre-de-meghan-markle-en-una-investigaci%C3%B3n-por-material-de-abuso-sexual-infantil",
+    "https://www.france24.com/es/europa/20261106-las-amenazas-falsas-de-bomba-atormentan-a-la-aviaci%C3%B3n-europea-con-m%C3%A1s-de-40-vuelos-afectados"
   ],
   "processedSignatures": [
+    {
+      "title": "AMENAZAS FALSAS DE BOMBA ATORMENTAN LA AVIACIÓN EUROPEA",
+      "normalizedTokens": [
+        "amenazas",
+        "falsas",
+        "bomba",
+        "atormentan",
+        "aviacion",
+        "europea"
+      ],
+      "date": "2026-11-06T18:44:43.863Z"
+    },
+    {
+      "title": "Las amenazas falsas de bomba atormentan a la aviación europea con más de 40 vuelos afectados",
+      "normalizedTokens": [
+        "amenazas",
+        "falsas",
+        "bomba",
+        "atormentan",
+        "aviacion",
+        "europea",
+        "mas",
+        "vuelos",
+        "afectados"
+      ],
+      "date": "2026-11-06T18:44:43.862Z"
+    },
     {
       "title": "ARRESTAN EN FLORIDA AL PADRE DE MEGHAN MARKLE",
       "normalizedTokens": [
