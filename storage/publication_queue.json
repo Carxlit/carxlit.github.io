@@ -12497,12 +12497,13 @@
         "close": "Lee el análisis geopolítico y financiero completo en el enlace del perfil."
       },
       "rawImageUrl": "https://www.bloomberglinea.com/resizer/v2/CTLHZSH5EJ72WDUTAFM4NPVAVI.jpg?auth=efdd836b79939f339dba532c556ed71597b694b4550f9b97b17f4d4d04d2c7c8&smart=true&width=1200&height=675",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T11:32:35.489Z",
       "cardImageUrl": "/news-cards/news-ntc3babun-1793964755490.jpg",
       "reelCoverUrl": "/news-cards/news-ntc3babun-1793964756552-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ntc3babun-1793964757081-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/trampa-credito-caro-america-latina-acelera-q38m/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/trampa-credito-caro-america-latina-acelera-q38m/",
+      "publishedAt": "2026-11-06T14:39:31.962Z"
     },
     "channels": {
       "facebook": true,
@@ -12516,10 +12517,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T13:59:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T11:32:38.477Z"
+    "createdAt": "2026-11-06T11:32:38.477Z",
+    "lastAttemptAt": "2026-11-06T14:37:03.857Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105383011532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "90",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mznmaaajw62s"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18600192022071943",
+        "permalink": "https://www.instagram.com/reel/DfZ1wYaGORP/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117570008228286681"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18131131261810999"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T14:39:31.962Z"
   },
   {
     "id": "queue-1793965619592-xasdp",
@@ -12662,7 +12705,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-06T15:12:41.751Z",
+    "scheduledFor": "2026-11-06T15:43:03.848Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
