@@ -12317,12 +12317,13 @@
         "title": "GPT-6 Cyber: o que muda quando IA acelera a defesa — e exige controles mais duros",
         "channel": "Daily tech hack"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T11:17:29.780Z",
       "cardImageUrl": "/news-cards/news-yolnxv7dm-1793963849780.jpg",
       "reelCoverUrl": "/news-cards/news-yolnxv7dm-1793963850322-cover.jpg",
       "instagramCardUrl": "/news-cards/news-yolnxv7dm-1793963850801-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/openai-presenta-gpt-6-cyber-acelera-negocio-ekc4/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/openai-presenta-gpt-6-cyber-acelera-negocio-ekc4/",
+      "publishedAt": "2026-11-06T13:05:21.307Z"
     },
     "channels": {
       "facebook": true,
@@ -12336,10 +12337,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T12:38:37.281Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T11:17:31.371Z"
+    "createdAt": "2026-11-06T11:17:31.371Z",
+    "lastAttemptAt": "2026-11-06T13:04:41.806Z",
+    "results": {
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Canal sin credenciales configuradas (omitido)"
+      },
+      "facebook": {
+        "success": true,
+        "postId": "122105318829532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "89",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mznh2xwfje22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18111626869907109"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117569638052206012"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18124849696822235"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T13:05:21.307Z"
   },
   {
     "id": "queue-1793964758477-ml1fk",
@@ -12473,7 +12515,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-06T13:35:37.281Z",
+    "scheduledFor": "2026-11-06T13:59:41.751Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
@@ -12620,7 +12662,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-06T14:40:37.281Z",
+    "scheduledFor": "2026-11-06T15:12:41.751Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
