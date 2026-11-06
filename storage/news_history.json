@@ -82,9 +82,37 @@
     "http://www.defensa.com/chile/general-aviacion-maximo-venegas-asumio-como-jefe-estado-mayor",
     "https://elpais.com/economia/2026-11-06/diaz-se-acerca-a-la-votacion-de-su-candidatura-a-la-oit-con-los-sindicatos-divididos-y-las-patronales-en-contra.html",
     "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html",
-    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JFX1RGSnZ0bDI2d1ZxN0JpSGpTN2NDT21RbEVMaXhyVGNfNDlHUkVsaU9pNGd1d1hzTjhFWmVxeGgzSmt5SDVEZHA2Q3RjUmVpaFdUSUVic3RBLTJNNms0U253VURJU3Uzdm5rSXRjMmtnSDRMbWhKaFA1R1dtRUZ0LUQxLTlieGhXUzA2QVVvU3BnRkhpLWJBekQzVm5YRVFzTzJxU2s?oc=5"
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JFX1RGSnZ0bDI2d1ZxN0JpSGpTN2NDT21RbEVMaXhyVGNfNDlHUkVsaU9pNGd1d1hzTjhFWmVxeGgzSmt5SDVEZHA2Q3RjUmVpaFdUSUVic3RBLTJNNms0U253VURJU3Uzdm5rSXRjMmtnSDRMbWhKaFA1R1dtRUZ0LUQxLTlieGhXUzA2QVVvU3BnRkhpLWJBekQzVm5YRVFzTzJxU2s?oc=5",
+    "https://www.france24.com/es/europa/20261106-arrestan-en-florida-al-padre-de-meghan-markle-en-una-investigaci%C3%B3n-por-material-de-abuso-sexual-infantil"
   ],
   "processedSignatures": [
+    {
+      "title": "ARRESTAN EN FLORIDA AL PADRE DE MEGHAN MARKLE",
+      "normalizedTokens": [
+        "arrestan",
+        "florida",
+        "padre",
+        "meghan",
+        "markle"
+      ],
+      "date": "2026-11-06T18:02:30.904Z"
+    },
+    {
+      "title": "Arrestan en Florida al padre de Meghan Markle en una investigación por material de abuso sexual infantil",
+      "normalizedTokens": [
+        "arrestan",
+        "florida",
+        "padre",
+        "meghan",
+        "markle",
+        "investigacion",
+        "material",
+        "abuso",
+        "sexual",
+        "infantil"
+      ],
+      "date": "2026-11-06T18:02:30.900Z"
+    },
     {
       "title": "HEGSETH DEFIENDE LA GUERRA CON IRÁN DESDE EL PENTÁGONO",
       "normalizedTokens": [

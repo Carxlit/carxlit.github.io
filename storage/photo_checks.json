@@ -128,5 +128,10 @@
     "relevant": true,
     "reason": "La imagen muestra a Pete Hegseth, el secretario de Defensa mencionado en el titular y el resumen.",
     "at": "2026-11-06T16:42:32.832Z"
+  },
+  "ff6eb46724baf650:c8hdgtm7m": {
+    "relevant": true,
+    "reason": "Muestra una sirena de policía que ilustra de manera genérica una detención policial mencionada en el titular.",
+    "at": "2026-11-06T18:02:26.930Z"
   }
 }
