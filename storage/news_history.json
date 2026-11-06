@@ -80,9 +80,37 @@
     "https://www.bloomberglinea.com/mercados/los-paises-de-america-latina-donde-mas-aumento-la-deuda-externa-en-medio-de-un-record-global/",
     "https://www.infobae.com/estados-unidos/2026/11/06/la-urbanista-india-nithya-raman-gana-la-alcaldia-de-los-angeles-y-derrota-a-karen-bass/",
     "http://www.defensa.com/chile/general-aviacion-maximo-venegas-asumio-como-jefe-estado-mayor",
-    "https://elpais.com/economia/2026-11-06/diaz-se-acerca-a-la-votacion-de-su-candidatura-a-la-oit-con-los-sindicatos-divididos-y-las-patronales-en-contra.html"
+    "https://elpais.com/economia/2026-11-06/diaz-se-acerca-a-la-votacion-de-su-candidatura-a-la-oit-con-los-sindicatos-divididos-y-las-patronales-en-contra.html",
+    "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html"
   ],
   "processedSignatures": [
+    {
+      "title": "CIBERATAQUE MASIVO EXPONE DATOS ESTATALES EN MOLDAVIA",
+      "normalizedTokens": [
+        "ciberataque",
+        "masivo",
+        "expone",
+        "datos",
+        "estatales",
+        "moldavia"
+      ],
+      "date": "2026-11-06T15:48:23.289Z"
+    },
+    {
+      "title": "Un ciberataque expone los datos médicos y financieros de casi un cuarto de la población de Moldavia",
+      "normalizedTokens": [
+        "ciberataque",
+        "expone",
+        "datos",
+        "medicos",
+        "financieros",
+        "casi",
+        "cuarto",
+        "poblacion",
+        "moldavia"
+      ],
+      "date": "2026-11-06T15:48:23.288Z"
+    },
     {
       "title": "YOLANDA DÍAZ AFRONTA VOTACIÓN EN OIT SIN RESPALDO SOCIAL",
       "normalizedTokens": [

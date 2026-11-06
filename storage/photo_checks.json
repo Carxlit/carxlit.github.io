@@ -113,5 +113,15 @@
     "relevant": true,
     "reason": "Muestra a Yolanda Díaz, la protagonista de la noticia, en un contexto oficial relevante para su candidatura.",
     "at": "2026-11-06T14:42:02.257Z"
+  },
+  "91aaf624e0bcd28a:wl0zcrivg": {
+    "relevant": false,
+    "reason": "La imagen muestra una escena callejera genérica y no ilustra un ciberataque masivo ni la exposición de datos estatales.",
+    "at": "2026-11-06T15:48:17.064Z"
+  },
+  "a1daead39dd10683:wl0zcrivg": {
+    "relevant": true,
+    "reason": "Muestra una calle principal de Chișinău (Moldavia), contextualizando el lugar donde ocurre la noticia sobre el Estado moldavo.",
+    "at": "2026-11-06T15:48:19.650Z"
   }
 }

@@ -13010,5 +13010,139 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-06T14:42:07.777Z"
+  },
+  {
+    "id": "queue-1793980103282-wts0i",
+    "news": {
+      "id": "wl0zcrivg",
+      "originalUrl": "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html",
+      "originalTitle": "Un ciberataque expone los datos médicos y financieros de casi un cuarto de la población de Moldavia",
+      "sourceName": "El País Tecnología",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 84,
+      "headline": "CIBERATAQUE MASIVO EXPONE DATOS ESTATALES EN MOLDAVIA",
+      "subHeadline": "Una vulnerabilidad estructural en los sistemas públicos de Moldavia dejó expuesta la información de 450.000 ciudadanos tras recibir 11 millones de solicitudes fraudulentas.",
+      "blindSpotAngle": "Más allá del fallo técnico puntual admitido por el gobierno, el incidente desnuda la extrema fragilidad de digitalizar administraciones públicas enteras bajo arquitecturas obsoletas y puntos únicos de fallo. Mientras la atención se centra en el riesgo de estafas individuales, el verdadero peligro radica en el uso de estos datos soberanos para operaciones de desestabilización política en un país clave de Europa Oriental.",
+      "facebookPost": "Los datos personales de 450.000 ciudadanos moldavos quedaron expuestos tras un ataque informático masivo que vulneró los sistemas de la Administración pública. La narrativa oficial apunta a deficiencias técnicas puntuales y errores de gobernanza en una arquitectura digital obsoleta que permitía extracciones masivas sin control de identidad.\n\nEl punto ciego no es solo la brecha informática, sino la vulnerabilidad estructural de un Estado que centraliza registros críticos en un único punto sin alertas automáticas, facilitando operaciones sistemáticas de espionaje y recolección de inteligencia sobre una cuarta parte de su población en plena tensión geopolítica.\n\n¿Hasta qué punto la carrera por digitalizar servicios estatales en Europa del Este está creando bases de datos vulnerables al servicio de potencias extranjeras?\n\nFuente: El País Tecnología\n\n#Tecnología #Ciberseguridad #PuntoCiego",
+      "telegramPost": "<b>CIBERATAQUE MASIVO EXPONE DATOS ESTATALES EN MOLDAVIA</b>\n\n• <b>Qué ocurrió:</b> Un ataque informático entre el 19 y el 23 de octubre vulneró los sistemas públicos de Moldavia, exponiendo los datos de 450.000 ciudadanos tras 11 millones de solicitudes fraudulentas.\n• <b>Por qué importa:</b> La presidenta Maia Sandu reconoció fallos estructurales graves y una arquitectura obsoleta donde todos los registros eran accesibles desde un único punto sin control de volumen.\n• <b>Qué sigue:</b> El gobierno intenta recuperar progresivamente los 82 servicios digitales desconectados mientras notifica individualmente a los afectados ante el riesgo de suplantación de identidad.",
+      "linkedInPost": "La brecha informática que ha expuesto los registros de 450.000 ciudadanos en Moldavia pone de relieve los riesgos sistémicos de la digitalización acelerada sin ciberseguridad robusta. Con 11 millones de solicitudes de acceso procesadas en pocos días, el incidente demuestra que la centralización de datos públicos en arquitecturas obsoletas sin control de cuotas ni validación de identidad representa una vulnerabilidad crítica para la estabilidad institucional. Las organizaciones estatales deben replantear urgentemente sus protocolos de gobernanza digital ante amenazas de esta magnitud.\n\nFuente: El País Tecnología\n\n#Ciberseguridad #GobiernoDigital #PuntoCiego",
+      "blueskyPost": "Un ataque informático expone los datos de 450.000 moldavos tras 11 millones de solicitudes fraudulentas. El verdadero peligro no es solo la estafa, sino la fragilidad estructural de un Estado que centraliza registros sin control de cuotas. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "Los datos personales de 450.000 ciudadanos moldavos quedaron expuestos tras un ataque informático masivo que vulneró los sistemas de la Administración pública. La narrativa oficial apunta a deficiencias técnicas puntuales y errores de gobernanza en una arquitectura digital obsoleta que permitía extracciones masivas sin control de identidad.\n\nEl punto ciego no es solo la brecha informática, sino la vulnerabilidad estructural de un Estado que centraliza registros críticos en un único punto sin alertas automáticas, facilitando operaciones sistemáticas de espionaje y recolección de inteligencia sobre una cuarta parte de su población en plena tensión geopolítica.\n\n¿Hasta qué punto la carrera por digitalizar servicios estatales en Europa del Este está creando bases de datos vulnerables al servicio de potencias extranjeras?\n\n#Tecnología #Ciberseguridad #PuntoCiego",
+        "telegram": "<b>CIBERATAQUE MASIVO EXPONE DATOS ESTATALES EN MOLDAVIA</b>\n\n• <b>Qué ocurrió:</b> Un ataque informático entre el 19 y el 23 de octubre vulneró los sistemas públicos de Moldavia, exponiendo los datos de 450.000 ciudadanos tras 11 millones de solicitudes fraudulentas.\n• <b>Por qué importa:</b> La presidenta Maia Sandu reconoció fallos estructurales graves y una arquitectura obsoleta donde todos los registros eran accesibles desde un único punto sin control de volumen.\n• <b>Qué sigue:</b> El gobierno intenta recuperar progresivamente los 82 servicios digitales desconectados mientras notifica individualmente a los afectados ante el riesgo de suplantación de identidad.",
+        "bluesky": "Un ataque informático expone los datos de 450.000 moldavos tras 11 millones de solicitudes fraudulentas. El verdadero peligro no es solo la estafa, sino la fragilidad estructural de un Estado que centraliza registros sin control de cuotas. #PuntoCiego #Tecnología",
+        "linkedIn": "La brecha informática que ha expuesto los registros de 450.000 ciudadanos en Moldavia pone de relieve los riesgos sistémicos de la digitalización acelerada sin ciberseguridad robusta. Con 11 millones de solicitudes de acceso procesadas en pocos días, el incidente demuestra que la centralización de datos públicos en arquitecturas obsoletas sin control de cuotas ni validación de identidad representa una vulnerabilidad crítica para la estabilidad institucional. Las organizaciones estatales deben replantear urgentemente sus protocolos de gobernanza digital ante amenazas de esta magnitud.\n\n#Ciberseguridad #GobiernoDigital #PuntoCiego"
+      },
+      "article": {
+        "slug": "brecha-digital-moldavia-expone-costuras-ciberseguridad-mnwn",
+        "title": "La brecha digital en Moldavia expone las costuras de la ciberseguridad estatal",
+        "dek": "Un ataque informático masivo contra las instituciones públicas de Moldavia dejó al descubierto los datos de 450.000 ciudadanos. El incidente revela graves deficiencias estructurales en la digitalización del Estado.",
+        "keyFacts": [
+          "Alrededor de 450.000 ciudadanos moldavos vieron sus datos expuestos.",
+          "La intrusión ocurrió entre el 19 y el 23 de octubre de 2026.",
+          "Los atacantes realizaron aproximadamente 11 millones de solicitudes de acceso.",
+          "El sistema permitía consultar registros públicos sin comprobar la autorización del usuario ni limitar el volumen de extracciones."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Los datos personales de cerca de 450.000 ciudadanos moldavos quedaron expuestos en uno de los mayores ataques informáticos sufridos por las instituciones públicas de este país de 2,4 millones de habitantes. La presidenta de Moldavia, Maia Sandu, confirmó la dimensión de la filtración en una comparecencia televisada, señalando que el incidente dejó al descubierto deficiencias graves en la arquitectura de seguridad de los sistemas digitales del Estado.",
+              "La intrusión se desarrolló entre el 19 y el 23 de octubre. Según los datos preliminares de la Agencia de Gobernanza Electrónica (AGE), los atacantes ejecutaron cerca de 11 millones de solicitudes de acceso y consultaron aproximadamente un millón de números de identificación personal. El día de mayor actividad fue el 20 de octubre, cuando se registraron servicios digitales un millón de veces, multiplicando por 30 el promedio habitual y extrayendo información de más de 260.000 personas."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La mandataria convocó de urgencia al Consejo Nacional de Seguridad para abordar el ataque en un contexto marcado por una creciente ola de incidentes cibernéticos en Europa, que incluye desde robos de criptomonedas hasta sabotajes a distancia en sistemas de refrigeración industrial y bancos de sangre. Aunque las primeras estimaciones oficiales apuntaban a 750.000 afectados, la cifra fue rebajada a 450.000 tras las verificaciones técnicas iniciales.",
+              "Como respuesta inmediata, la AGE procedió a la desconexión preventiva de 82 servicios públicos digitales y de más de 30 sistemas informáticos y paneles de administración. Pese a estas medidas, las autoridades detectaron nuevos intentos de intrusión los días 25 y 27 de octubre, los cuales fueron bloqueados sin que se registrara una extracción adicional de información."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Más allá de la brecha informática puntual, la causa principal del ataque es estructural y de gobernanza. Según explicó Sandu, los sistemas estatales solo verificaban la aplicación que solicitaba los datos, omitiendo la validación de la identidad del usuario o su derecho legítimo a acceder a ellos.",
+              "Esta arquitectura defectuosa permitía que una sola aplicación con acceso vulnerado abriera los registros de al menos diez instituciones diferentes desde un único punto, careciendo por completo de controles de volumen o de alertas automáticas ante cuotas anómalas de extracción."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los principales perjudicados son los ciudadanos afectados, quienes, según advirtió el propio gobierno, se exponen a convertirse en objetivos de estafas telefónicas, mensajes fraudulentos y operaciones sofisticadas de suplantación de identidad.",
+              "Por su parte, el Estado moldavo sufre un grave revés en su credibilidad institucional y en sus esfuerzos de modernización digital, obligando a replantear la seguridad de infraestructuras críticas que manejan información soberana sensible."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "El foco debe mantenerse en la efectividad de las notificaciones individuales que la agencia gubernamental debe realizar a los afectados y en la remodelación técnica de los sistemas públicos desconectados.",
+              "Asimismo, resulta clave observar si la cooperación internacional y las auditorías de seguridad logran blindar los registros estatales frente a futuras campañas de extracción masiva de datos en la región."
+            ]
+          }
+        ],
+        "tags": [
+          "Moldavia",
+          "Ciberseguridad",
+          "Seguridad Digital",
+          "Datos Personales",
+          "Tecnología"
+        ],
+        "sources": [
+          {
+            "name": "El País Tecnología",
+            "title": "Un ciberataque expone los datos médicos y financieros de casi un cuarto de la población de Moldavia",
+            "url": "https://elpais.com/sociedad/2026-11-06/un-ciberataque-expone-los-datos-medicos-y-financieros-de-casi-un-cuarto-de-la-poblacion-de-moldavia.html"
+          },
+          {
+            "name": "EL PAÍS",
+            "title": "Un ciberataque expone los datos médicos y financieros de casi un cuarto de la población de Moldavia",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSXBZVHdYLS1YZURCRFVucElQTVlZdHY2ZDBfbVB4WVJjaE5fSG5jUV9QQmlRaFlxUXZMUzRXcUNuZzRsTEhJYXZ5dDF1ZHdIb0tzTVFZaGVJdU1EOUpheTgycXZZNkNMSVdMdk9yMHVvU1dibkhlQjRld1RtRXY4cDFwbEhLU2xyOFBSMGZYS1cyZmgxNDJyNDJrVUNUc3lBN25uOERzQk9vM0RZWnNEaXNWZDdJVHVOUUdnSUV1OE1vTlAtQWdobmttalZoRG5DZ3ZraVFXYUZ6blHSAe8BQVVfeXFMUHcxT0lqbVRmSGEwdEdKbjZRY0hNVUdUMi12MmNWRUdTaDF4NUtjV0pHSXlRTkFlLTRPZTJ1MUxuY2ZDaDhhN28yUDBSS2hyUVYzTExYNlJWejVReE94MzhTU2VyaDhaSWZZOVdwcFdFOTBNRHB3U1l5UmhWWDIyM1hxeDU3ZGxUMnhlMkpUVjI4SU1IanRsalVtT0xaR2ViLWg0eFRaeXdaUF9adGQ1REVYTTVhNUVzczdWOWVNN1lXcklXc2xUR0t6VHNwYlNQVExySFZ2TngzMmJiSjZkQmFFNXVhcGRZV1RleWRySDg?oc=5"
+          },
+          {
+            "name": "Demócrata",
+            "title": "Un ciberataque en Moldavia expone los datos personales de 450.000 ciudadanos y revela fallos en la seguridad del Estado",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVDNncHdId2FNblBONDhNZ2pua0pFeVlaYVVZYmkxM3pGVjdtZTlaa1Y0YW00VUVRbzFtcEJDZFFackFWSjdvOXJ6ZHJHRmR3MGhvVnZrREZ5WEM4T3JkbzJvX0hKU0dvNUFaeDhCTzFmRTB2ZEgwbTdmYXFkZS1MWEZUalV0RnhOT2FUMENfMG1SLVlvTFV2NDBvSEFKdl9nQWFVdjcyMlRSWEhKRjM0TjVqWdIBuAFBVV95cUxPVHRrS0tkdDZKdzlQUHVPQ2lVdjNRT3ZxeU5hWVczNUF1NS1BZS1XWjdrRi1fZURVZ1VydFA5NFpmSVFCc3IzbzFXdDNVOHlwQ3VKdXFhb2syRHpEcWdBcGUtUVhEcTctRHdyd3I5MC0ybFFxWUxjRG9kU0hraUd5QzlfcTNEMmI2TmluWF9aRlFxSHJaVVRzaU1iQi12QWt4U1czZ2IwN01OWUViSnhkVUR2MGhEazZZ?oc=5"
+          },
+          {
+            "name": "ABC",
+            "title": "Un ciberataque a los bancos de sangre franceses intenta echar a perder las muestras con temperaturas extremas",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaDRkbGFJb1BNLWRsWnlOTmxudDJRZ1R4YjBDa3hSenhaUmQ5eVZzVkRQZjhFaEc1LXItaFhPTFJJV01qYXZ0YU04bDVDaHZtSzlXLTJiMVpkZVJCRDM1SnJqSDNycGNsY0RJaTZSaHcxWmhzV3h4a0U1b2trQXhCcUo4ZUd6RGMyYWZGYURqdWdHekN2czFKMDg4VDFWY2pMUkJEMW5obVFYZ9IBrwFBVV95cUxOcmJpS1RtT1pWeHVobzhCR2h6bEVxRThCRzVXejNWUFNiNS1URXhSMGt0RTlfNVdMZ0lBdnNJS01KQ2ZESFByX04taFVYaklsbWxQODNVSEFWT1ZiakFEbEVwTlh1OEdaaGgzZF9OUkF6Tks0bHFBaDBPVEN0ZU1zSHpiZkFzbVhLYUxCb1JyblVqcngxWUlPYU5iX0RZNV9FYnZXenBMUFFfVERJZHpB?oc=5"
+          }
+        ],
+        "wordCount": 508
+      },
+      "videoScript": {
+        "hook": "Un ciberataque expone los datos de casi medio millón de personas.",
+        "beats": [
+          "Ocurrió en Moldavia entre el 19 y el 23 de octubre.",
+          "Los atacantes realizaron 11 millones de solicitudes a los sistemas públicos.",
+          "El fallo permitió entrar a diez instituciones desde un único punto sin control."
+        ],
+        "close": "Lee el análisis completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/L63V2UQ2GGZIKSYUMMVR2ADIOA.jpg?auth=d93d95173fc74272c7075699f7dbf58328912c94f237e722d33bf28c8962ba9e&width=1200",
+      "status": "pending",
+      "createdAt": "2026-11-06T15:48:20.766Z",
+      "cardImageUrl": "/news-cards/news-wl0zcrivg-1793980100767.jpg",
+      "reelCoverUrl": "/news-cards/news-wl0zcrivg-1793980101438-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-wl0zcrivg-1793980101985-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-digital-moldavia-expone-costuras-ciberseguridad-mnwn/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-06T18:27:41.751Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-06T15:48:23.282Z"
   }
 ]
