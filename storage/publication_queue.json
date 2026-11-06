@@ -11966,11 +11966,12 @@
         "close": "Lee el análisis completo en el enlace del perfil"
       },
       "rawImageUrl": "https://s.france24.com/media/display/9fa0ca48-d9cb-11f1-bfa1-695cb59fade5/w:1024/p:16x9/000-D6M83MF.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T10:46:35.209Z",
       "cardImageUrl": "/news-cards/news-id6jqlsvu-1793961995210.jpg",
       "reelCoverUrl": "/news-cards/news-id6jqlsvu-1793961995933-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-id6jqlsvu-1793961996434-ig.jpg"
+      "instagramCardUrl": "/news-cards/news-id6jqlsvu-1793961996434-ig.jpg",
+      "publishedAt": "2026-11-06T11:08:37.281Z"
     },
     "channels": {
       "facebook": true,
@@ -11984,12 +11985,12 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T11:08:21.096Z",
-    "status": "queued",
-    "attempts": 2,
+    "status": "published",
+    "attempts": 3,
     "maxAttempts": 3,
     "createdAt": "2026-11-06T10:46:36.934Z",
     "isBreaking": true,
-    "lastAttemptAt": "2026-11-06T10:53:20.342Z",
+    "lastAttemptAt": "2026-11-06T11:08:36.200Z",
     "results": {
       "facebook": {
         "success": true,
@@ -12030,7 +12031,8 @@
         "error": "Noticia sin video libre: no se sube a YouTube"
       }
     },
-    "error": "Reintento 2/3: threads: Threads: An unknown error occurred"
+    "error": "Publicado parcialmente. No se pudo en: threads",
+    "publishedAt": "2026-11-06T11:08:37.281Z"
   },
   {
     "id": "queue-1793962888724-89454",
