@@ -71,9 +71,35 @@
     "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
     "https://theconversation.com/huelga-general-del-11n-preambulo-de-las-elecciones-generales-pero-no-predictor-de-sus-resultados-294913",
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdHIxdmEwOGprb1F4Tm45ek9aNy1BeTRhRUJYaGl0RUQydEZzS3JXZHVZeF9mOUY0WjdIZlFrVC1aODN3Q29jUXJaS29FZlNrZ05lMzY4OG1lX3hudEJfckpDWUZ5Vi1oZk5Sb3Q0ZlhDeWJIQmNBQkNCSVJnY3k1NEppM05zM0w3?oc=5",
-    "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19"
+    "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
+    "https://www.dw.com/es/cinco-palestinos-mueren-en-ataques-de-israel-en-gaza/a-79871408?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "LA FRÁGIL TREGUA EN GAZA SE DESTRUYE BAJO ATAQUES CONTINUOS",
+      "normalizedTokens": [
+        "fragil",
+        "tregua",
+        "gaza",
+        "destruye",
+        "bajo",
+        "ataques",
+        "continuos"
+      ],
+      "date": "2026-11-06T05:16:33.036Z"
+    },
+    {
+      "title": "Cinco palestinos mueren en ataques de Israel en Gaza",
+      "normalizedTokens": [
+        "cinco",
+        "palestinos",
+        "mueren",
+        "ataques",
+        "israel",
+        "gaza"
+      ],
+      "date": "2026-11-06T05:16:33.035Z"
+    },
     {
       "title": "CRISIS EN WALL STREET: EL SECTOR TECNOLÓGICO SE DESPLOMA",
       "normalizedTokens": [
