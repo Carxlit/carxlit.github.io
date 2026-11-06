@@ -148,5 +148,15 @@
     "relevant": true,
     "reason": "La imagen muestra una línea de ensamblaje automatizada con brazos robóticos industriales, lo cual ilustra adecuadamente una noticia sobre robótica y automatización industrial.",
     "at": "2026-11-06T21:25:39.031Z"
+  },
+  "a15b70aad7616f1c:x4go1b6jb": {
+    "relevant": false,
+    "reason": "La persona de la foto es Stephen Yaxley-Towniten (Tommy Robinson), no Stephen Miller.",
+    "at": "2026-11-06T23:05:43.776Z"
+  },
+  "7b52a3fa37353e47:x4go1b6jb": {
+    "relevant": true,
+    "reason": "La imagen muestra claramente a Stephen Miller junto a Donald Trump en el Despacho Oval, representando de forma directa a los protagonistas de la noticia.",
+    "at": "2026-11-06T23:05:54.538Z"
   }
 }

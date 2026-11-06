@@ -86,9 +86,37 @@
     "https://www.france24.com/es/europa/20261106-arrestan-en-florida-al-padre-de-meghan-markle-en-una-investigaci%C3%B3n-por-material-de-abuso-sexual-infantil",
     "https://www.france24.com/es/europa/20261106-las-amenazas-falsas-de-bomba-atormentan-a-la-aviaci%C3%B3n-europea-con-m%C3%A1s-de-40-vuelos-afectados",
     "https://elpais.com/america/2026-11-06/la-visita-del-papa-leon-xiv-en-uruguay-en-vivo.html",
-    "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas"
+    "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas",
+    "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "STEPHEN MILLER ASUME LA JEFATURA DE GABINETE DE TRUMP",
+      "normalizedTokens": [
+        "stephen",
+        "miller",
+        "asume",
+        "jefatura",
+        "gabinete",
+        "trump"
+      ],
+      "date": "2026-11-06T23:05:58.588Z"
+    },
+    {
+      "title": "Who is Stephen Miller, Trump’s new White House chief of staff?",
+      "normalizedTokens": [
+        "who",
+        "stephen",
+        "miller",
+        "trump",
+        "new",
+        "white",
+        "house",
+        "chief",
+        "staff"
+      ],
+      "date": "2026-11-06T23:05:58.587Z"
+    },
     {
       "title": "TOYOTA CREA TOYOTA ROBOTICS PARA DOMINAR LA AUTOMATIZACIÓN INDUSTRIAL",
       "normalizedTokens": [
