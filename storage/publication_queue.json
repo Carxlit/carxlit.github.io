@@ -11450,12 +11450,13 @@
         "close": "Lee el análisis completo sobre el futuro de la IA en nuestro perfil"
       },
       "rawImageUrl": "https://i.blogs.es/88c8ee/bosa-calida-wall-street/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-05T22:11:14.354Z",
       "cardImageUrl": "/news-cards/news-rb2yl8m57-1793916674354.jpg",
       "reelCoverUrl": "/news-cards/news-rb2yl8m57-1793916674933-cover.jpg",
       "instagramCardUrl": "/news-cards/news-rb2yl8m57-1793916675465-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/burbuja-inteligencia-artificial-ante-primer-gran-2pkl/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/burbuja-inteligencia-artificial-ante-primer-gran-2pkl/",
+      "publishedAt": "2026-11-06T02:22:07.444Z"
     },
     "channels": {
       "facebook": true,
@@ -11469,9 +11470,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T02:17:01.671Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-05T22:11:16.611Z"
+    "createdAt": "2026-11-05T22:11:16.611Z",
+    "lastAttemptAt": "2026-11-06T02:19:49.666Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104882491532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "84",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzmczukwgp22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18116864780025088",
+        "permalink": "https://www.instagram.com/reel/DfYhWV1DEaL/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117567108750005191"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18098172173137603"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T02:22:07.444Z"
   }
 ]
