@@ -79,9 +79,37 @@
     "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
     "https://www.bloomberglinea.com/mercados/los-paises-de-america-latina-donde-mas-aumento-la-deuda-externa-en-medio-de-un-record-global/",
     "https://www.infobae.com/estados-unidos/2026/11/06/la-urbanista-india-nithya-raman-gana-la-alcaldia-de-los-angeles-y-derrota-a-karen-bass/",
-    "http://www.defensa.com/chile/general-aviacion-maximo-venegas-asumio-como-jefe-estado-mayor"
+    "http://www.defensa.com/chile/general-aviacion-maximo-venegas-asumio-como-jefe-estado-mayor",
+    "https://elpais.com/economia/2026-11-06/diaz-se-acerca-a-la-votacion-de-su-candidatura-a-la-oit-con-los-sindicatos-divididos-y-las-patronales-en-contra.html"
   ],
   "processedSignatures": [
+    {
+      "title": "YOLANDA DÍAZ AFRONTA VOTACIÓN EN OIT SIN RESPALDO SOCIAL",
+      "normalizedTokens": [
+        "yolanda",
+        "diaz",
+        "afronta",
+        "votacion",
+        "oit",
+        "respaldo",
+        "social"
+      ],
+      "date": "2026-11-06T14:42:07.785Z"
+    },
+    {
+      "title": "Díaz se acerca a la votación de su candidatura a la OIT con los sindicatos divididos y las patronales en contra",
+      "normalizedTokens": [
+        "diaz",
+        "acerca",
+        "votacion",
+        "candidatura",
+        "oit",
+        "sindicatos",
+        "divididos",
+        "patronales"
+      ],
+      "date": "2026-11-06T14:42:07.784Z"
+    },
     {
       "title": "MÁXIMO VENEGAS ASUME EL MANDO DEL ESTADO MAYOR CONJUNTO CHILENO",
       "normalizedTokens": [
