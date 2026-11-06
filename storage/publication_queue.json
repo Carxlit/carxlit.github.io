@@ -11637,12 +11637,13 @@
         "title": "Gaza: 8 muertos en ataques israelíes pese al alto el fuego 🚨 #Shorts",
         "channel": "NotiMundoTV"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T05:16:30.758Z",
       "cardImageUrl": "/news-cards/news-c7m5olxcs-1793942190759.jpg",
       "reelCoverUrl": "/news-cards/news-c7m5olxcs-1793942191459-cover.jpg",
       "instagramCardUrl": "/news-cards/news-c7m5olxcs-1793942191974-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/erosion-alto-fuego-gaza-evidencia-fisuras-q2uw/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/erosion-alto-fuego-gaza-evidencia-fisuras-q2uw/",
+      "publishedAt": "2026-11-06T05:19:37.706Z"
     },
     "channels": {
       "facebook": true,
@@ -11656,10 +11657,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-06T05:16:33.024Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-06T05:16:33.024Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-06T05:17:36.779Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122104986453532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "85",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzmmxpi3lf2h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18057811643584813",
+        "permalink": "https://www.instagram.com/reel/DfY1syGDypS/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117567806871670882"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17867882037676213"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-06T05:19:37.706Z"
   }
 ]
