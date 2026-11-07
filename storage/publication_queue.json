@@ -15880,12 +15880,13 @@
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://i.blogs.es/aef4c3/keshav_dani_unit_-40506932064-/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T14:55:51.073Z",
       "cardImageUrl": "/news-cards/news-p35abt3kc-1794063351073.jpg",
       "reelCoverUrl": "/news-cards/news-p35abt3kc-1794063351747-cover.jpg",
       "instagramCardUrl": "/news-cards/news-p35abt3kc-1794063352352-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/apuesta-lituania-industrializar-laseres-criticos-demandan-oczz/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/apuesta-lituania-industrializar-laseres-criticos-demandan-oczz/",
+      "publishedAt": "2026-11-07T18:41:44.673Z"
     },
     "channels": {
       "facebook": true,
@@ -15899,10 +15900,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T18:39:27.177Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T14:55:53.700Z"
+    "createdAt": "2026-11-07T14:55:53.700Z",
+    "lastAttemptAt": "2026-11-07T18:39:42.442Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106676839532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "111",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzqkausilu2s"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18374936533211799",
+        "permalink": "https://www.instagram.com/reel/Dfc2RxYAVDq/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117576623089020586"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18643298857037858"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T18:41:44.673Z"
   },
   {
     "id": "queue-1794065498017-e6lsh",
