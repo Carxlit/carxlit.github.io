@@ -14813,12 +14813,13 @@
         ],
         "close": "Lee el análisis completo sobre infraestructura crítica en el enlace del perfil."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T11:17:11.793Z",
       "cardImageUrl": "/news-cards/news-2o3vdgnhi-1794050231793.jpg",
       "reelCoverUrl": "/news-cards/news-2o3vdgnhi-1794050232325-cover.jpg",
       "instagramCardUrl": "/news-cards/news-2o3vdgnhi-1794050232811-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cibernetico-congeladores-franceses-revela-fragilidad-8gvf/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cibernetico-congeladores-franceses-revela-fragilidad-8gvf/",
+      "publishedAt": "2026-11-07T12:47:59.718Z"
     },
     "channels": {
       "facebook": true,
@@ -14832,10 +14833,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T12:43:27.177Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T11:17:13.391Z"
+    "createdAt": "2026-11-07T11:17:13.391Z",
+    "lastAttemptAt": "2026-11-07T12:43:42.478Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106403737532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "104",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzpwedvojv22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18348985987249106",
+        "permalink": "https://www.instagram.com/reel/DfcNylVCNnt/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117575232143241730"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17916928971542963"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T12:47:59.718Z"
   },
   {
     "id": "queue-1794051124072-004lt",
