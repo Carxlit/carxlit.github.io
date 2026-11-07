@@ -102,9 +102,42 @@
     "https://www.bbc.com/mundo/articles/c6d091e7jzz7o?at_medium=RSS&at_campaign=rss",
     "http://www.defensa.com/colombia/mq-9a-reaper-colombia-salto-decisivo-inteligencia-vigilancia",
     "https://www.france24.com/es/medio-oriente/20261107-el-presidente-de-israel-elige-a-gadi-eisenkot-rival-de-netanyahu-para-formar-gobierno",
-    "https://elpais.com/chile/2026-11-07/una-colision-multiple-en-santo-domingo-en-la-region-de-valparaiso-deja-12-muertos-y-15-heridos.html"
+    "https://elpais.com/chile/2026-11-07/una-colision-multiple-en-santo-domingo-en-la-region-de-valparaiso-deja-12-muertos-y-15-heridos.html",
+    "https://www.abc.es/internacional/trump-vuelco-casa-blanca-ofrece-dana-white-20261107201959-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP OFRECE LA PORTAVOCÍA A DANA WHITE TRAS DERROTA ELECTORAL",
+      "normalizedTokens": [
+        "trump",
+        "ofrece",
+        "portavocia",
+        "dana",
+        "white",
+        "derrota",
+        "electoral"
+      ],
+      "date": "2026-11-07T23:25:39.175Z"
+    },
+    {
+      "title": "Trump da otro vuelco a la Casa Blanca: ofrece a Dana White, jefe de la UFC, ser el próximo secretario de Prensa",
+      "normalizedTokens": [
+        "trump",
+        "otro",
+        "vuelco",
+        "casa",
+        "blanca",
+        "ofrece",
+        "dana",
+        "white",
+        "jefe",
+        "ufc",
+        "proximo",
+        "secretario",
+        "prensa"
+      ],
+      "date": "2026-11-07T23:25:39.174Z"
+    },
     {
       "title": "TRAGEDIA VIAL EN LA RUTA DE LA FRUTA",
       "normalizedTokens": [
