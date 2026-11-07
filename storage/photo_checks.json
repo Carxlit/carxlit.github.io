@@ -228,5 +228,10 @@
     "relevant": true,
     "reason": "Muestra servicios de emergencia en la Plaza del Mercado de Cracovia, escenario de los hechos informados.",
     "at": "2026-11-07T17:43:01.482Z"
+  },
+  "eccca0b14c415c87:c6pne0gia": {
+    "relevant": true,
+    "reason": "La imagen muestra un dron MQ-9A Reaper, que es el objeto central mencionado en el titular.",
+    "at": "2026-11-07T18:43:45.274Z"
   }
 }

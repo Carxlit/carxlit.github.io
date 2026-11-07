@@ -99,9 +99,36 @@
     "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie",
     "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf",
     "https://www.bloomberglinea.com/latinoamerica/brasil/lula-hara-un-ajuste-fiscal-en-brasil-pese-al-escepticismo-del-mercado-dice-oxford-economics/",
-    "https://www.bbc.com/mundo/articles/c6d091e7jzz7o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/c6d091e7jzz7o?at_medium=RSS&at_campaign=rss",
+    "http://www.defensa.com/colombia/mq-9a-reaper-colombia-salto-decisivo-inteligencia-vigilancia"
   ],
   "processedSignatures": [
+    {
+      "title": "COLOMBIA INCORPORA DRONES DRAGON MQ-9A REAPER DE ESTADOS UNIDOS",
+      "normalizedTokens": [
+        "colombia",
+        "incorpora",
+        "drones",
+        "dragon",
+        "reaper",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-07T18:43:54.314Z"
+    },
+    {
+      "title": "Los MQ-9A Reaper en Colombia: un salto decisivo en inteligencia, vigilancia y reconocimiento",
+      "normalizedTokens": [
+        "reaper",
+        "colombia",
+        "salto",
+        "decisivo",
+        "inteligencia",
+        "vigilancia",
+        "reconocimiento"
+      ],
+      "date": "2026-11-07T18:43:54.312Z"
+    },
     {
       "title": "ACTUALIZACIÓN: CRECEN A SEIS LOS FALLECIDOS TRAS TIROTEO EN CRACOVIA",
       "normalizedTokens": [
