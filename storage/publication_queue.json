@@ -14076,12 +14076,13 @@
         "close": "Lee el análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://i.blogs.es/18f778/robots-industriales-toyota/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T21:25:40.451Z",
       "cardImageUrl": "/news-cards/news-7sl6t6i52-1794000340452.jpg",
       "reelCoverUrl": "/news-cards/news-7sl6t6i52-1794000341222-cover.jpg",
       "instagramCardUrl": "/news-cards/news-7sl6t6i52-1794000341747-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/plan-oculto-toyota-transformar-fabricas-imperio-7i6g/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/plan-oculto-toyota-transformar-fabricas-imperio-7i6g/",
+      "publishedAt": "2026-11-07T01:24:03.844Z"
     },
     "channels": {
       "facebook": true,
@@ -14095,11 +14096,11 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T01:23:50.626Z",
-    "status": "queued",
-    "attempts": 1,
+    "status": "published",
+    "attempts": 2,
     "maxAttempts": 3,
     "createdAt": "2026-11-06T21:25:42.870Z",
-    "lastAttemptAt": "2026-11-07T01:17:04.016Z",
+    "lastAttemptAt": "2026-11-07T01:24:02.608Z",
     "results": {
       "facebook": {
         "success": true,
@@ -14107,8 +14108,9 @@
         "simulated": false
       },
       "telegram": {
-        "success": false,
-        "error": "The operation was aborted due to timeout"
+        "success": true,
+        "messageId": "100",
+        "simulated": false
       },
       "bluesky": {
         "success": true,
@@ -14123,7 +14125,7 @@
       "facebookReel": {
         "success": false,
         "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
+        "error": "Canal sin credenciales configuradas (omitido)"
       },
       "mastodon": {
         "success": true,
@@ -14139,7 +14141,7 @@
         "error": "Noticia sin video libre: no se sube a YouTube"
       }
     },
-    "error": "Reintento 1/3: telegram: The operation was aborted due to timeout"
+    "publishedAt": "2026-11-07T01:24:03.844Z"
   },
   {
     "id": "queue-1794006358581-9ensc",
