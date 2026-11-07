@@ -14630,12 +14630,13 @@
         "channel": "DR Noticias"
       },
       "updateOf": "caida-santiago-pena-desfalco-detras-ueno-xh1c",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T11:01:30.997Z",
       "cardImageUrl": "/news-cards/news-y1epave7v-1794049290997.jpg",
       "reelCoverUrl": "/news-cards/news-y1epave7v-1794049291881-cover.jpg",
       "instagramCardUrl": "/news-cards/news-y1epave7v-1794049292392-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-santiago-pena-destitucion-arresto-fractura-lv1q/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-santiago-pena-destitucion-arresto-fractura-lv1q/",
+      "publishedAt": "2026-11-07T11:04:27.177Z"
     },
     "channels": {
       "facebook": true,
@@ -14649,10 +14650,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T11:01:33.475Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-07T11:01:33.475Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-07T11:02:23.018Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106319317532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "103",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzpqpc6fv52c"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18096130517242451",
+        "permalink": "https://www.instagram.com/reel/DfcB8p_j_xU/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117574825039994010"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18085136237381055"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T11:04:27.177Z"
   }
 ]
