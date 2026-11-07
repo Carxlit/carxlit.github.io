@@ -14980,12 +14980,13 @@
         "close": "Entérate de las claves completas leyendo nuestro análisis en el enlace del perfil."
       },
       "rawImageUrl": "https://static.laregion.es/clip/574857ed-5e28-4700-906a-f772b2367478_facebook-aspect-ratio_default_0.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T11:32:00.395Z",
       "cardImageUrl": "/news-cards/news-hxrknchsa-1794051120395.jpg",
       "reelCoverUrl": "/news-cards/news-hxrknchsa-1794051121460-cover.jpg",
       "instagramCardUrl": "/news-cards/news-hxrknchsa-1794051121974-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/incendio-manzaneda-quema-diez-hectareas-expone-oksq/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/incendio-manzaneda-quema-diez-hectareas-expone-oksq/",
+      "publishedAt": "2026-11-07T13:48:46.100Z"
     },
     "channels": {
       "facebook": true,
@@ -14999,10 +15000,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T13:46:27.177Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T11:32:04.072Z"
+    "createdAt": "2026-11-07T11:32:04.072Z",
+    "lastAttemptAt": "2026-11-07T13:46:42.534Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106455289532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "106",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzpzuxcaeh2v"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17924885061221798",
+        "permalink": "https://www.instagram.com/reel/DfcUwH_DhWw/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117575471098044975"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17999606381828962"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T13:48:46.100Z"
   },
   {
     "id": "queue-1794052014880-68grd",
