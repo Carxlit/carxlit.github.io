@@ -95,9 +95,39 @@
     "https://www.bloomberglinea.com/latinoamerica/colombia/los-primeros-90-dias-de-de-la-espriella-frente-a-santos-duque-y-petro-un-comienzo-sin-luna-de-miel/",
     "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/",
     "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-rdf",
-    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UZWFibGZaSnhHMktaZXhKRjFqeWtMYUZodFA0cE9pWWhvT2RROTBnZ2psNEJYUTVvM3lwbjFmcDVrUkl3UnB2WEtscE5NUXJoRlFF?oc=5"
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UZWFibGZaSnhHMktaZXhKRjFqeWtMYUZodFA0cE9pWWhvT2RROTBnZ2psNEJYUTVvM3lwbjFmcDVrUkl3UnB2WEtscE5NUXJoRlFF?oc=5",
+    "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie"
   ],
   "processedSignatures": [
+    {
+      "title": "LITUANIA INDUSTRIALIZA LÁSERES CRÍTICOS PARA REDUCIR CUELLOS DE BOTELLA EN CHIPS",
+      "normalizedTokens": [
+        "lituania",
+        "industrializa",
+        "laseres",
+        "criticos",
+        "reducir",
+        "cuellos",
+        "botella",
+        "chips"
+      ],
+      "date": "2026-11-07T14:55:53.714Z"
+    },
+    {
+      "title": "Lituania tiene 2,9 millones de habitantes pero compite con China fabricando láseres para chips de IA en serie",
+      "normalizedTokens": [
+        "lituania",
+        "millones",
+        "habitantes",
+        "compite",
+        "china",
+        "fabricando",
+        "laseres",
+        "chips",
+        "serie"
+      ],
+      "date": "2026-11-07T14:55:53.712Z"
+    },
     {
       "title": "RUSIA CONFIRMA DELEGACIÓN PARA NEGOCIACIONES EN ABU DABI",
       "normalizedTokens": [

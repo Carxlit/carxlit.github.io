@@ -1,5 +1,81 @@
 [
   {
+    "slug": "apuesta-lituania-industrializar-laseres-criticos-demandan-oczz",
+    "path": "noticias/apuesta-lituania-industrializar-laseres-criticos-demandan-oczz/",
+    "title": "La apuesta de Lituania por industrializar los láseres críticos que demandan los microchips de inteligencia artificial",
+    "headline": "LITUANIA INDUSTRIALIZA LÁSERES CRÍTICOS PARA REDUCIR CUELLOS DE BOTELLA EN CHIPS",
+    "dek": "La empresa Litilit abre en Vilna una planta robotizada para producir en serie láseres de femtosegundo. La iniciativa aborda un cuello de botella esencial en el empaquetado avanzado de semiconductores.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/apuesta-lituania-industrializar-laseres-criticos-demandan-oczz.jpg",
+    "photo": "img/apuesta-lituania-industrializar-laseres-criticos-demandan-oczz-foto.jpg",
+    "publishedAt": "2026-11-07T14:55:53.599Z",
+    "article": {
+      "slug": "apuesta-lituania-industrializar-laseres-criticos-demandan-oczz",
+      "title": "La apuesta de Lituania por industrializar los láseres críticos que demandan los microchips de inteligencia artificial",
+      "dek": "La empresa Litilit abre en Vilna una planta robotizada para producir en serie láseres de femtosegundo. La iniciativa aborda un cuello de botella esencial en el empaquetado avanzado de semiconductores.",
+      "keyFacts": [
+        "Inversión de 6 millones de euros en una planta de 4.000 metros cuadrados en Vilna por parte de Litilit.",
+        "Capacidad proyectada de 1.000 láseres el primer año y hasta 3.000 unidades a plena capacidad para 2027.",
+        "La producción mundial proyectada de láseres de femtosegundo para 2025 es de 9.600 unidades, según Reports and Markets.",
+        "Lituania cuenta con una trayectoria de 60 años en investigación fotónica y exporta entre el 90% y el 95% de sus láseres a más de 80 países."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La compañía tecnológica Litilit inauguró en la ciudad de Vilna, Lituania, una nueva instalación industrial dedicada a la fabricación de láseres de femtosegundo. Según datos de la propia empresa difundidos por la publicación Xataka, la planta abarca una superficie de 4.000 metros cuadrados y ha requerido una inversión inicial de unos seis millones de euros, incorporando líneas de mecanizado por control numérico informático y procesos de ensamblaje altamente robotizados.",
+            "El objetivo operativo de la firma es iniciar formalmente la entrega masiva a partir de 2027, alcanzando una producción de 1.000 unidades durante los primeros doce meses de funcionamiento hasta llegar a las 3.000 unidades anuales a plena capacidad. De acuerdo con proyecciones del sector citadas por la consultora Reports and Markets, la producción global de este tipo de sistemas alcanzará cerca de 9.600 unidades en 2025, por lo que el rendimiento de la nueva planta lituana equivaldría a casi una tercera parte del volumen mundial actual."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Un láser de femtosegundo opera emitiendo ráfagas de luz con una duración de una milbillonésima de segundo. La brevedad de dicho pulso permite concentrar niveles extraordinarios de energía con una precisión micrométrica sin transferir calor significativo al material circundante. Aunque históricamente esta propiedad se utilizaba en intervenciones de cirugía ocular y tratamientos médicos de alta precisión, la industria microelectrónica se ha convertido en su principal demandante.",
+            "Las unidades de procesamiento gráfico orientadas a la inteligencia artificial exigen complejas arquitecturas de empaquetado avanzado para interconectar múltiples matrices de silicio con memorias de ancho de banda elevado. Fabricantes líderes como TSMC, Intel y Samsung han iniciado la adopción de sustratos de vidrio en sustitución de los sustratos orgánicos tradicionales. Perforar y estructurar vidrio a escala micrométrica sin fracturar la matriz requiere imprescindiblemente herramientas de pulso ultracorto como las desarrolladas por Litilit."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis convencional de las cadenas globales de valor suele concentrarse en los centros de litografía extrema de ASML o en los grandes complejos de fundición de obleas en Taiwán. Sin embargo, el verdadero cuello de botella operacional para sostener el ritmo de despliegue de hardware de IA reside en el empaquetado y en la disponibilidad de maquinaria altamente especializada.",
+            "Hasta el momento, la fabricación de láseres de femtosegundo mantenía esquemas productivos artesanales o de bajo volumen. La decisión de Litilit de trasladar estos principios a un modelo de fabricación en serie con componentes automatizados cambia la dinámica industrial. El punto ciego que desvela este movimiento es la vulnerabilidad de las corporaciones tecnológicas frente a eslabones hiperespecializados: sin el equipo físico capaz de perforar los nuevos sustratos sin daño térmico, el flujo de aceleradores de cómputo para centros de datos se detiene independientemente del volumen de obleas grabadas."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Entre los beneficiarios directos se encuentran las grandes firmas occidentales de semiconductores y los diseñadores de arquitecturas de computación, quienes obtienen una vía de abastecimiento automatizada para destrabar la fase final del empaquetado. Asimismo, el Estado lituano fortalece su posicionamiento geopolítico. Con una población de 2,9 millones de habitantes y un ecosistema científico de fotónica originado en 1966, el país báltico transforma su tradición académica en una herramienta de peso en el mapa industrial de la OTAN.",
+            "Por otro lado, los competidores que mantienen esquemas de manufactura artesanal o dependen exclusivamente de cadenas de suministro asentadas en regiones de alto riesgo geográfico enfrentan una pérdida de competitividad. El volumen de exportación lituano, que ya supera el 90% de su producción fotónica enviada a más de 80 países, impone una barrera de entrada difícil de emular para nuevos actores sin el sustento de seis décadas de desarrollo universitario."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será fundamental dar seguimiento al cumplimiento del cronograma de despliegue productivo hacia 2027 y a la capacidad de Litilit para mantener sus costos competitivos frente a eventuales réplicas industriales en Asia. Asimismo, conviene observar las alianzas comerciales directas que establezcan firmas como NVIDIA o sus socios de fundición para asegurar cuotas de suministro prioritarias de esta nueva planta de Vilna."
+          ]
+        }
+      ],
+      "tags": [
+        "Semiconductores",
+        "Fotónica",
+        "Inteligencia Artificial",
+        "Cadena de Suministro",
+        "Lituania",
+        "Tecnología"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Lituania tiene 2,9 millones de habitantes pero compite con China fabricando láseres para chips de IA en serie",
+          "url": "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie"
+        }
+      ],
+      "wordCount": 680
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en las megafundiciones de microchips en Taiwán o Estados Unidos, el verdadero cuello de botella de la infraestructura de inteligencia artificial se desplaza a componentes ultrasustitutivos de precisión. Lituania está transformando la fabricación artesanal de láseres de pulso ultracorto en una cadena industrial robotizada. Esto le otorga a un país de 2,9 millones de habitantes un punto de apalancamiento desproporcionado en la soberanía tecnológica de la OTAN y la cadena de suministro global."
+  },
+  {
     "slug": "rusia-confirma-delegacion-negociaciones-trilaterales-estados-511w",
     "path": "noticias/rusia-confirma-delegacion-negociaciones-trilaterales-estados-511w/",
     "title": "Rusia confirma su delegación para negociaciones trilaterales con Estados Unidos y Ucrania en Abu Dabi",
