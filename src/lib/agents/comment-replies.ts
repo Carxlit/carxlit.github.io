@@ -14,10 +14,22 @@ import { generateObjectWithFallback } from '@/lib/ai/gemini';
  */
 const GRAPH = 'https://graph.facebook.com/v23.0';
 const STORE_PATH = path.join(process.cwd(), 'storage', 'replied_comments.json');
-const MAX_REPLIES = 6;
-const MAX_AGE_MS = 3 * 86_400_000;
+export const MAX_REPLIES = 6;
+export const MAX_AGE_MS = 5 * 86_400_000; // 5 días
 
-interface Pending { key: string; network: 'instagram' | 'facebook'; commentId: string; text: string; author: string; post: string }
+export interface Pending {
+  key: string;
+  network: 'instagram' | 'facebook';
+  commentId: string;
+  text: string;
+  author: string;
+  post: string;
+}
+
+export interface CollectResult {
+  pending: Pending[];
+  postsChecked: number;
+}
 
 async function api(method: 'GET' | 'POST', url: string, token: string, body?: Record<string, string>): Promise<any> {
   const res = await fetch(url, {
@@ -31,43 +43,107 @@ async function api(method: 'GET' | 'POST', url: string, token: string, body?: Re
 
 const permissionError = (r: any) => r?.error && [10, 200, 190].includes(r.error.code);
 
-async function collectInstagram(igId: string, token: string, done: Set<string>): Promise<Pending[]> {
-  const out: Pending[] = [];
+/**
+ * Pide los últimos 50 posts con fields=id,timestamp,comments_count,caption (una sola llamada)
+ * y consulta /comments SOLO de los que tengan comments_count > 0 y timestamp de los últimos 5 días.
+ */
+export async function collectInstagram(igId: string, token: string, done: Set<string>): Promise<CollectResult> {
+  const pending: Pending[] = [];
+  let postsChecked = 0;
   const me = await api('GET', `${GRAPH}/${igId}?fields=username`, token);
-  const media = await api('GET', `${GRAPH}/${igId}/media?fields=id,caption&limit=8`, token);
-  for (const m of media.data || []) {
+  const media = await api('GET', `${GRAPH}/${igId}/media?fields=id,timestamp,comments_count,caption&limit=50`, token);
+  if (permissionError(media)) {
+    console.warn('[Comentarios] Instagram sin permiso para leer media:', media?.error?.message);
+    return { pending, postsChecked };
+  }
+  const now = Date.now();
+  const eligible = (media?.data || []).filter((m: any) => {
+    const count = Number(m.comments_count || 0);
+    if (count <= 0) return false;
+    if (!m.timestamp) return false;
+    const t = new Date(m.timestamp).getTime();
+    if (isNaN(t)) return false;
+    return now - t <= MAX_AGE_MS;
+  });
+
+  for (const m of eligible) {
+    postsChecked++;
     const cs = await api('GET', `${GRAPH}/${m.id}/comments?fields=id,text,username,timestamp,replies.limit(1){id}&limit=25`, token);
     if (permissionError(cs)) {
-      console.warn('[Comentarios] Instagram sin permiso instagram_manage_comments:', cs.error.message);
-      return out;
+      console.warn('[Comentarios] Instagram sin permiso instagram_manage_comments:', cs?.error?.message);
+      return { pending, postsChecked };
     }
-    for (const c of cs.data || []) {
+    for (const c of cs?.data || []) {
       const key = `ig:${c.id}`;
-      if (done.has(key) || c.replies?.data?.length || c.username === me.username) continue;
-      if (Date.now() - new Date(c.timestamp).getTime() > MAX_AGE_MS) continue;
-      out.push({ key, network: 'instagram', commentId: c.id, text: String(c.text || ''), author: c.username || '', post: String(m.caption || '').slice(0, 300) });
+      if (done.has(key) || c.replies?.data?.length || (me?.username && c.username === me.username)) continue;
+      const t = new Date(c.timestamp).getTime();
+      if (!isNaN(t) && now - t > MAX_AGE_MS) continue;
+      pending.push({
+        key,
+        network: 'instagram',
+        commentId: c.id,
+        text: String(c.text || ''),
+        author: c.username || '',
+        post: String(m.caption || '').slice(0, 300),
+      });
     }
   }
-  return out;
+  return { pending, postsChecked };
 }
 
-async function collectFacebook(pageId: string, token: string, done: Set<string>): Promise<Pending[]> {
-  const out: Pending[] = [];
-  const posts = await api('GET', `${GRAPH}/${pageId}/posts?fields=id,message&limit=8`, token);
-  for (const p of posts.data || []) {
-    const cs = await api('GET', `${GRAPH}/${p.id}/comments?fields=id,message,from,created_time,comment_count&filter=toplevel&limit=25`, token);
+/**
+ * Pide los últimos 40 posts con fields=id,message,created_time,comments.summary(true).limit(0)
+ * y consulta los comentarios solo de los que tengan summary.total_count > 0 y created_time de los últimos 5 días.
+ */
+export async function collectFacebook(pageId: string, token: string, done: Set<string>): Promise<CollectResult> {
+  const pending: Pending[] = [];
+  let postsChecked = 0;
+  const posts = await api(
+    'GET',
+    `${GRAPH}/${pageId}/posts?fields=id,message,created_time,comments.summary(true).limit(0)&limit=40`,
+    token
+  );
+  if (permissionError(posts)) {
+    console.warn('[Comentarios] Facebook sin permiso para leer posts:', posts?.error?.message);
+    return { pending, postsChecked };
+  }
+  const now = Date.now();
+  const eligible = (posts?.data || []).filter((p: any) => {
+    const count = Number(p.comments?.summary?.total_count || 0);
+    if (count <= 0) return false;
+    if (!p.created_time) return false;
+    const t = new Date(p.created_time).getTime();
+    if (isNaN(t)) return false;
+    return now - t <= MAX_AGE_MS;
+  });
+
+  for (const p of eligible) {
+    postsChecked++;
+    const cs = await api(
+      'GET',
+      `${GRAPH}/${p.id}/comments?fields=id,message,from,created_time,comment_count&filter=toplevel&limit=25`,
+      token
+    );
     if (permissionError(cs)) {
-      console.warn('[Comentarios] Facebook sin permiso pages_manage_engagement:', cs.error.message);
-      return out;
+      console.warn('[Comentarios] Facebook sin permiso pages_manage_engagement:', cs?.error?.message);
+      return { pending, postsChecked };
     }
-    for (const c of cs.data || []) {
+    for (const c of cs?.data || []) {
       const key = `fb:${c.id}`;
       if (done.has(key) || c.comment_count > 0 || c.from?.id === pageId) continue;
-      if (Date.now() - new Date(c.created_time).getTime() > MAX_AGE_MS) continue;
-      out.push({ key, network: 'facebook', commentId: c.id, text: String(c.message || ''), author: c.from?.name || '', post: String(p.message || '').slice(0, 300) });
+      const t = new Date(c.created_time).getTime();
+      if (!isNaN(t) && now - t > MAX_AGE_MS) continue;
+      pending.push({
+        key,
+        network: 'facebook',
+        commentId: c.id,
+        text: String(c.message || ''),
+        author: c.from?.name || '',
+        post: String(p.message || '').slice(0, 300),
+      });
     }
   }
-  return out;
+  return { pending, postsChecked };
 }
 
 const ReplySchema = z.object({
@@ -75,7 +151,7 @@ const ReplySchema = z.object({
 });
 
 /** Redacta las respuestas de un lote de comentarios. reply vacío = no responder (insultos, spam, publicidad) */
-async function draftReplies(items: Pending[]): Promise<Map<number, string>> {
+export async function draftReplies(items: Pending[]): Promise<Map<number, string>> {
   const { replies } = await generateObjectWithFallback({
     schema: ReplySchema,
     label: 'Respuestas a comentarios',
@@ -101,17 +177,30 @@ export async function replyToComments(): Promise<void> {
   const done = new Set(state.ids);
 
   const igId = (process.env.INSTAGRAM_USER_ID || '').trim();
-  const pending = [
-    ...(igId ? await collectInstagram(igId, token, done).catch((e) => (console.warn('[Comentarios] Instagram:', e?.message), [] as Pending[])) : []),
-    ...(creds.facebookPageId
-      ? await collectFacebook(creds.facebookPageId, token, done).catch((e) => (console.warn('[Comentarios] Facebook:', e?.message), [] as Pending[]))
-      : []),
-  ].slice(0, MAX_REPLIES * 2);
-  if (!pending.length) {
-    console.log('[Comentarios] Sin comentarios nuevos');
+  const igResult = igId
+    ? await collectInstagram(igId, token, done).catch((e) => {
+        console.warn('[Comentarios] Instagram:', e?.message);
+        return { pending: [] as Pending[], postsChecked: 0 };
+      })
+    : { pending: [] as Pending[], postsChecked: 0 };
+
+  const fbResult = creds.facebookPageId
+    ? await collectFacebook(creds.facebookPageId, token, done).catch((e) => {
+        console.warn('[Comentarios] Facebook:', e?.message);
+        return { pending: [] as Pending[], postsChecked: 0 };
+      })
+    : { pending: [] as Pending[], postsChecked: 0 };
+
+  const totalPostsChecked = igResult.postsChecked + fbResult.postsChecked;
+  const allPending = [...igResult.pending, ...fbResult.pending];
+
+  console.log(`[Comentarios] Revisados ${totalPostsChecked} posts con comentarios, ${allPending.length} pendiente${allPending.length === 1 ? '' : 's'}`);
+
+  if (!allPending.length) {
     return;
   }
 
+  const pending = allPending.slice(0, MAX_REPLIES * 2);
   const drafts = await draftReplies(pending);
   // Lo que la IA decide no responder se marca como atendido para no evaluarlo otra vez
   pending.forEach((c, i) => {
@@ -136,5 +225,7 @@ export async function replyToComments(): Promise<void> {
     }
   }
   writeJsonFileAtomic(STORE_PATH, { ids: Array.from(done).slice(-600) });
-  console.log(`[Comentarios] ${sent} respuestas enviadas`);
+  if (sent > 0) {
+    console.log(`[Comentarios] ${sent} respuestas enviadas`);
+  }
 }
