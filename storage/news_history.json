@@ -94,9 +94,38 @@
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcWZmRHB2ckNVZGY3ZVVOY0NJZkNVcXhTR1ZmUUJtOFN5UGNWRGV4T2ZhOHNRWUlmbnU2aVNkbFBfX2tCQzVfVmJNU0hzdTVhNHhXYm9BNWVXTWxDbktWb0pWRXJkTWZwUE1mTEt2NFA3T1dBNjNkN21XbnRSWTl3NVdtZy1VM3hPN0stR0ZWSmc3QlpNelhmRjg5SXpzaTdYVHc?oc=5",
     "https://www.bloomberglinea.com/latinoamerica/colombia/los-primeros-90-dias-de-de-la-espriella-frente-a-santos-duque-y-petro-un-comienzo-sin-luna-de-miel/",
     "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/",
-    "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-rdf",
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UZWFibGZaSnhHMktaZXhKRjFqeWtMYUZodFA0cE9pWWhvT2RROTBnZ2psNEJYUTVvM3lwbjFmcDVrUkl3UnB2WEtscE5NUXJoRlFF?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA CONFIRMA DELEGACIÓN PARA NEGOCIACIONES EN ABU DABI",
+      "normalizedTokens": [
+        "rusia",
+        "confirma",
+        "delegacion",
+        "negociaciones",
+        "abu",
+        "dabi"
+      ],
+      "date": "2026-11-07T13:50:27.172Z"
+    },
+    {
+      "title": "El Kremlin ha anunciado la composición de la delegación rusa que participará en las conversaciones con Estados Unidos y Ucrania.",
+      "normalizedTokens": [
+        "kremlin",
+        "anunciado",
+        "composicion",
+        "delegacion",
+        "rusa",
+        "participara",
+        "conversaciones",
+        "estados",
+        "unidos",
+        "ucrania"
+      ],
+      "date": "2026-11-07T13:50:27.171Z"
+    },
     {
       "title": "ARABIA SAUDITA REANUDA BOMBARDEOS MASIVOS EN LA PROVINCIA DE SANÁ",
       "normalizedTokens": [
