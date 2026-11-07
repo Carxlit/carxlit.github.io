@@ -14264,12 +14264,13 @@
         "title": "TRUMP nombra a STEPHEN MILLER nuevo jefe de gabinete de la Casa Blanca #shorts",
         "channel": "EL PAÍS"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T23:05:55.880Z",
       "cardImageUrl": "/news-cards/news-x4go1b6jb-1794006355880.jpg",
       "reelCoverUrl": "/news-cards/news-x4go1b6jb-1794006356595-cover.jpg",
       "instagramCardUrl": "/news-cards/news-x4go1b6jb-1794006357222-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/donald-trump-nombra-stephen-miller-jefe-o002/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/donald-trump-nombra-stephen-miller-jefe-o002/",
+      "publishedAt": "2026-11-07T02:16:45.161Z"
     },
     "channels": {
       "facebook": true,
@@ -14283,9 +14284,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T02:14:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T23:05:58.581Z"
+    "createdAt": "2026-11-06T23:05:58.581Z",
+    "lastAttemptAt": "2026-11-07T02:14:57.021Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105898315532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "101",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzot7yg6oh2s"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18435696268195915",
+        "permalink": "https://www.instagram.com/reel/DfbFj3pkiyt/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117572750040034513"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17949856254069244"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T02:16:45.161Z"
   }
 ]
