@@ -15357,12 +15357,13 @@
         "close": "Lee el análisis completo sobre Paraguay en el enlace del perfil."
       },
       "rawImageUrl": "https://www.infobae.com/resizer/v2/UAQSTQES2FBZVPOL73U5NES3NY.jpg?auth=7727972f41d812479f9972cbe0b229acc3b5361d30ca48347a5b326d1405f865&smart=true&width=1920&height=1080",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T12:49:48.131Z",
       "cardImageUrl": "/news-cards/news-xhncc4hhv-1794055788131.jpg",
       "reelCoverUrl": "/news-cards/news-xhncc4hhv-1794055788991-cover.jpg",
       "instagramCardUrl": "/news-cards/news-xhncc4hhv-1794055789538-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-santiago-pena-reordenamiento-elite-paraguay-iyzz/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-santiago-pena-reordenamiento-elite-paraguay-iyzz/",
+      "publishedAt": "2026-11-07T16:35:57.458Z"
     },
     "channels": {
       "facebook": true,
@@ -15376,10 +15377,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T16:33:27.177Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T12:49:50.707Z"
+    "createdAt": "2026-11-07T12:49:50.707Z",
+    "lastAttemptAt": "2026-11-07T16:33:42.545Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106592557532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "109",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzqd7mxobq2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18606683359064667",
+        "permalink": "https://www.instagram.com/reel/Dfcn4gcDTsO/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117576128483111376"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17915522811500586"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T16:35:57.458Z"
   },
   {
     "id": "queue-1794058324192-1ebti",
