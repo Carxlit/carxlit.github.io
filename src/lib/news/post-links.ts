@@ -28,10 +28,11 @@ export function withSourceCredit(text: string, sourceName?: string): string {
  */
 export function withArticleLink(news: ProcessedNews, url?: string): ProcessedNews {
   if (!url) return news;
+  const fbLine = '📖 Análisis completo y fuentes en el primer comentario 👇';
   const line = `Análisis completo: ${url}`;
   return {
     ...news,
-    facebookPost: insertBeforeHashtags(news.facebookPost, line),
+    facebookPost: insertBeforeHashtags(news.facebookPost, fbLine),
     linkedInPost: news.linkedInPost ? insertBeforeHashtags(news.linkedInPost, line) : news.linkedInPost,
   };
 }

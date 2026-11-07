@@ -137,6 +137,27 @@ export async function publishToFacebook(
       throw new Error(data.error?.message || 'Error al comunicarse con Meta Graph API');
     }
 
+    const targetIds = Array.from(new Set([data.post_id, data.id].filter(Boolean)));
+    if (news.articleUrl && targetIds.length > 0) {
+      const commentMsg = `📖 Lee el análisis completo y las fuentes originales aquí:\n${news.articleUrl}`;
+      for (const targetId of targetIds) {
+        try {
+          const cRes = await fetch(`https://graph.facebook.com/v19.0/${targetId}/comments`, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${finalToken}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: commentMsg }),
+            signal: AbortSignal.timeout(20_000),
+          });
+          if (cRes.ok) break;
+        } catch (cErr: any) {
+          console.warn(`[Facebook] No se pudo publicar primer comentario en ${targetId}:`, cErr?.message);
+        }
+      }
+    }
+
     return {
       success: true,
       postId: data.id || data.post_id,

@@ -26,6 +26,7 @@ export function videoCredit(news: ProcessedNews, withLink = true): string {
 /** Instagram no enlaza URLs en el texto: se cambian por un aviso de "enlace en el perfil" */
 export function buildInstagramCaption(news: ProcessedNews): string {
   const base = (news.facebookPost || `${news.headline}\n\n${news.subHeadline}`)
+    .replace(/📖 Análisis completo y fuentes en el primer comentario 👇/gi, '🔗 Análisis completo: enlace en nuestro perfil')
     .replace(/Análisis completo:\s*\S+/i, '🔗 Análisis completo: enlace en nuestro perfil')
     .replace(/Fuente:\s*/i, 'Fuente: ')
     .replace(/https?:\/\/\S+/g, '')
@@ -245,7 +246,7 @@ export async function publishInstagramReel(
   const igUser = (process.env.INSTAGRAM_USER_ID || '').trim();
   if (!igUser || !pageToken) return { success: false, error: 'Instagram sin cuenta vinculada o sin token' };
 
-  const caption = [buildInstagramCaption(news), videoCredit(news)].filter(Boolean).join('\n\n');
+  const caption = buildReelCaption(news);
 
   // 1. Guarda de duplicados antes de publicar: consultar últimos 15 posts en las últimas 48h
   const recentPosts = await getRecentInstagramPosts(pageToken, igUser, 15);
