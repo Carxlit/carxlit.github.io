@@ -91,9 +91,38 @@
     "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
     "https://www.abc.es/internacional/ante-crisis-bancaria-presidente-paraguay-destituido-congreso-20261105234950-nt.html",
     "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias",
-    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcWZmRHB2ckNVZGY3ZVVOY0NJZkNVcXhTR1ZmUUJtOFN5UGNWRGV4T2ZhOHNRWUlmbnU2aVNkbFBfX2tCQzVfVmJNU0hzdTVhNHhXYm9BNWVXTWxDbktWb0pWRXJkTWZwUE1mTEt2NFA3T1dBNjNkN21XbnRSWTl3NVdtZy1VM3hPN0stR0ZWSmc3QlpNelhmRjg5SXpzaTdYVHc?oc=5"
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcWZmRHB2ckNVZGY3ZVVOY0NJZkNVcXhTR1ZmUUJtOFN5UGNWRGV4T2ZhOHNRWUlmbnU2aVNkbFBfX2tCQzVfVmJNU0hzdTVhNHhXYm9BNWVXTWxDbktWb0pWRXJkTWZwUE1mTEt2NFA3T1dBNjNkN21XbnRSWTl3NVdtZy1VM3hPN0stR0ZWSmc3QlpNelhmRjg5SXpzaTdYVHc?oc=5",
+    "https://www.bloomberglinea.com/latinoamerica/colombia/los-primeros-90-dias-de-de-la-espriella-frente-a-santos-duque-y-petro-un-comienzo-sin-luna-de-miel/"
   ],
   "processedSignatures": [
+    {
+      "title": "EMERGENCIA FISCAL Y SISMO CONDICIONAN GOBIERNO DE LA ESPRIELLA",
+      "normalizedTokens": [
+        "emergencia",
+        "fiscal",
+        "sismo",
+        "condicionan",
+        "gobierno",
+        "espriella"
+      ],
+      "date": "2026-11-07T11:46:54.891Z"
+    },
+    {
+      "title": "Los primeros 90 días de De la Espriella frente a Santos, Duque y Petro, ¿un comienzo sin luna de miel?",
+      "normalizedTokens": [
+        "primeros",
+        "dias",
+        "espriella",
+        "frente",
+        "santos",
+        "duque",
+        "petro",
+        "comienzo",
+        "luna",
+        "miel"
+      ],
+      "date": "2026-11-07T11:46:54.890Z"
+    },
     {
       "title": "INCENDIO EN MANZANEDA QUEMA DIEZ HECTÁREAS TRAS INTENSA LUCHA NOCTURNA",
       "normalizedTokens": [
