@@ -168,5 +168,20 @@
     "relevant": true,
     "reason": "Muestra a Santiago Peña, el presidente de Paraguay y sujeto principal del titular, en un entorno oficial.",
     "at": "2026-11-07T11:01:30.996Z"
+  },
+  "5b156c557273533e:2o3vdgnhi": {
+    "relevant": false,
+    "reason": "La imagen muestra una escena genérica de compras en un supermercado y no ilustra un ciberataque, la cadena de frío ni la pérdida de alimentos.",
+    "at": "2026-11-07T11:16:51.164Z"
+  },
+  "ea711084bb3d664b:2o3vdgnhi": {
+    "relevant": false,
+    "reason": "La imagen incluye carteles en español (SIN STOCK) y productos con etiquetas en cirílico, por lo que no corresponde a los supermercados de Francia afectados.",
+    "at": "2026-11-07T11:17:04.543Z"
+  },
+  "6b12921f32d88742:2o3vdgnhi": {
+    "relevant": false,
+    "reason": "Muestra un refrigerador doméstico de cocina y no un sistema de refrigeración comercial ni la cadena de frío de supermercados.",
+    "at": "2026-11-07T11:17:10.662Z"
   }
 }

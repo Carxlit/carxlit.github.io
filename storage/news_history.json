@@ -89,9 +89,38 @@
     "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas",
     "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff?traffic_source=rss",
     "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
-    "https://www.abc.es/internacional/ante-crisis-bancaria-presidente-paraguay-destituido-congreso-20261105234950-nt.html"
+    "https://www.abc.es/internacional/ante-crisis-bancaria-presidente-paraguay-destituido-congreso-20261105234950-nt.html",
+    "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias"
   ],
   "processedSignatures": [
+    {
+      "title": "CIBERATAQUE A LA CADENA DE FRÍO EN FRANCIA EXPONE VULNERABILIDAD RETAIL",
+      "normalizedTokens": [
+        "ciberataque",
+        "cadena",
+        "frio",
+        "francia",
+        "expone",
+        "vulnerabilidad",
+        "retail"
+      ],
+      "date": "2026-11-07T11:17:13.404Z"
+    },
+    {
+      "title": "Un ciberataque contra neveras y congeladores de cientos de supermercados de Francia provoca pérdidas millonarias",
+      "normalizedTokens": [
+        "ciberataque",
+        "neveras",
+        "congeladores",
+        "cientos",
+        "supermercados",
+        "francia",
+        "provoca",
+        "perdidas",
+        "millonarias"
+      ],
+      "date": "2026-11-07T11:17:13.403Z"
+    },
     {
       "title": "ACTUALIZACIÓN: CONGRESO DESTITUYE Y ARRESTA A PEÑA TRAS COLAPSO BANCARIO",
       "normalizedTokens": [

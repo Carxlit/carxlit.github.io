@@ -1,5 +1,101 @@
 [
   {
+    "slug": "sabotaje-cibernetico-congeladores-franceses-revela-fragilidad-8gvf",
+    "path": "noticias/sabotaje-cibernetico-congeladores-franceses-revela-fragilidad-8gvf/",
+    "title": "El sabotaje cibernético a los congeladores franceses revela la fragilidad industrial europea",
+    "headline": "CIBERATAQUE A LA CADENA DE FRÍO EN FRANCIA EXPONE VULNERABILIDAD RETAIL",
+    "dek": "Un ciberataque masivo alteró la refrigeración de grandes cadenas de supermercados en Francia tras manipular controladores industriales. El uso de software sin actualizar expone la extrema vulnerabilidad de la infraestructura comercial conectada.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Genbeta",
+    "image": "img/sabotaje-cibernetico-congeladores-franceses-revela-fragilidad-8gvf.jpg",
+    "publishedAt": "2026-11-07T11:17:13.287Z",
+    "article": {
+      "slug": "sabotaje-cibernetico-congeladores-franceses-revela-fragilidad-8gvf",
+      "title": "El sabotaje cibernético a los congeladores franceses revela la fragilidad industrial europea",
+      "dek": "Un ciberataque masivo alteró la refrigeración de grandes cadenas de supermercados en Francia tras manipular controladores industriales. El uso de software sin actualizar expone la extrema vulnerabilidad de la infraestructura comercial conectada.",
+      "keyFacts": [
+        "Incursión cibernética nocturna del 11 al 12 de octubre afectó a Carrefour, Intermarché, Monoprix y Coopérative U.",
+        "Los equipos alcanzaron temperaturas de hasta 50°C durante varias horas, provocando la pérdida total de alimentos y pequeños incendios.",
+        "Investigadores de la firma Claroty habían advertido meses antes sobre vulnerabilidades en controladores de refrigeración de Danfoss.",
+        "La Fiscalía de París mantiene abierta una investigación penal, mientras se registran incidentes similares en otros países europeos a principios de noviembre."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Durante la noche del 11 al 12 de octubre, cientos de establecimientos pertenecientes a las principales cadenas de distribución alimentaria en Francia —entre las que figuran Carrefour, Intermarché, Monoprix y Coopérative U— sufrieron una interrupción crítica en sus cadenas de frío. Atacantes externos lograron acceder a distancia a los sistemas de control térmico de neveras y congeladores, alterando sus parámetros de configuración habituales.",
+            "La manipulación remota provocó que múltiples equipos alcanzaran temperaturas de hasta 50°C durante varias horas consecutivas. La alteración constante del voltaje y el sobrecalentamiento no solo obligaron a retirar y destruir toneladas de productos perecederos con pérdidas estimadas en millones de euros, sino que desencadenaron pequeños incendios en los cuadros eléctricos de varios establecimientos. La Fiscalía de París ha asumido la investigación penal del caso para dar con la autoría de los hechos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El equipamiento afectado utilizaba tecnología de la multinacional danesa Danfoss, especialista en soluciones de ingeniería y control de temperatura. La propia compañía reconoció que una parte significativa de los dispositivos alterados funcionaba con versiones de software antiguas que carecían de las últimas actualizaciones de seguridad emitidas.",
+            "Este incidente no tomó por sorpresa a la comunidad experta. Meses antes del ataque, investigadores de la firma de seguridad informática Claroty publicaron un informe técnico donde detallaban la existencia de fallos de seguridad en varios modelos de controladores industriales. El estudio de Claroty advertía explícitamente que miles de estos dispositivos permanecían visibles y accesibles desde internet en todo el mundo sin las capas de protección adequadas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El debate público en torno a este suceso se ha inclinado hacia la pérdida de mercancía y el perjuicio económico inmediato de los distribuidores. Sin embargo, el ángulo crítico que la narrativa convencional omite es el cambio de paradigma en la ciberdelincuencia: el objetivo ya no es el secuestro de datos corporativos (ransomware) ni la extracción de información confidencial, sino el sabotaje físico mediante la tecnología operacional (OT).",
+            "A diferencia de los entornos informáticos tradicionales, los equipos industriales y los controladores IoT en el sector comercial suelen instalarse y olvidarse durante años. La falta de políticas rigurosas de parches y la costumbre de conectar controladores industriales directamente a internet para facilitar la gestión remota han creado una superficie de ataque masiva. El sabotaje en Francia demuestra que paralizar el suministro alimentario de una región no requiere misiles ni ataques físicos; basta con explotar el firmware desactualizado de un congelador."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano inmediato, las cadenas minoristas asumen el costo financiero de la mercancía destruida, la reparación de equipos y las horas de cierre operativo. A esto se suma el daño reputacional frente a consumidores que perciben fallos de seguridad en establecimientos de uso cotidiano.",
+            "Por contraparte, los actores de sabotaje industrial —sean cibercriminales u operadores estatales— ganan al validar una táctica asimétrica de alto impacto y bajo costo. Logran demostrar la capacidad de generar caos económico e interrupciones en la vida diaria de un país sin necesidad de penetrar redes militares o gubernamentales de alta seguridad."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El foco principal debe situarse en la propagación de estos incidentes. A principios de noviembre, nuevos ataques contra infraestructuras de refrigeración en otros países europeos sugieren una campaña coordinada o la replicación del método por parte de otros grupos cibernéticos.",
+            "Asimismo, será determinante observar las reformas normativas en la Unión Europea respecto a los estándares de ciberseguridad obligatorios para la tecnología industrial en el comercio minorista. La integración de auditorías periódicas de firmware en infraestructuras civiles se perfila como una exigencia ineludible para la continuidad del negocio."
+          ]
+        }
+      ],
+      "tags": [
+        "ciberseguridad",
+        "tecnología industrial",
+        "francia",
+        "cadena de frío",
+        "danfoss",
+        "infraestructura crítica"
+      ],
+      "sources": [
+        {
+          "name": "Genbeta",
+          "title": "Un ciberataque contra neveras y congeladores de cientos de supermercados de Francia provoca pérdidas millonarias",
+          "url": "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias"
+        },
+        {
+          "name": "Yahoo Finanzas",
+          "title": "Un banco regional francés afirma que un ciberataque provocó \"operaciones fraudulentas\"",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcVNHTm5ZUkF3MHpDakxnVWY4LUkzbFNybDdaLXR6VE53TGEyVlNFMnQ0R3JkRWpNRlFGMXFyV2ZOT2NubVMxeG9WS0U4WGdQV1dCQ0lwZldoMkVjTUl4Q0lUYWwyMkp3emtOam1vMWFYbjFvTjEyT29UT0NSelJITjRkRUw4Vi1fcVplRi10UnFJQmNKaG1NTmlNcTJiUmhYX0lzX3RR?oc=5"
+        },
+        {
+          "name": "CONtexto Ganadero",
+          "title": "Ciberataque pone a sudar neveras de Europa: alerta para la cadena de frío",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOWZhU19tajJRNUxVU1pKVGh1RnB3QVg5am5Zd2dmTXZ0ajlVbktyNG9ybE1rd1ZYMnU1TjdpSHZSUVp6dmZReHBOdFN0VWNMcnU2dVFObmhqY0V1eTNXUnV6S3c4Vy1UVUhPRnMzUk9lbGxLN29CQ2V5aHV6NjBKZGlzelpHRFI0LTBaREljaEZBaUw1Mi1fd1hsaW1HYkdHSkxOVGo2Z0dZbjltWkJHN1JWQXI2c2kycUhJ?oc=5"
+        },
+        {
+          "name": "Business Insider España",
+          "title": "Los hackers ya han tomado los congeladores de los supermercados pero tú puedes mantener tu casa inteligente a salvo",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZm5mUDd4TlBDZ2RRb2dwWFk3RnhPdTY1NXJzLUcxZVU1LTREVXRqZXd3amNaZ2xtZWFWaE5zMm1nel9SbjZ2ZTRHMllDR1JYMEZlOW1VUTBrMkY0S3luSjZmYTZxZ1I3T1pyTXcwWXJ5aTVMYmJDUncwd1JsU1VjZVZnZ0RLaFc3V2tneldRYWpNSkJhV1pLVWpRbWhwR2JibWdMaURjNlhrejlPRzlpTnhYYTFnbjNOOVFmVlpnSUY2TUhsRjlybk1VNmRTU3RKVnVxQ3ZfSjhRdnZYMDVGaU1kZG9xcEs3NlZLT1Y0WXliS2dMM09Rc3FuSdIBgAJBVV95cUxQVUF6d0UwR19VOTFzZkZDaDRmTkZPRnR2RFQ2QjhuUlpNUjNjdHRtT1B4WHVQeTFqWk1BanBYYkMxSDNyYTRxeGdHaFg4M3ktWjQzb0MzdUhsSk1aTGJsZjdrOXNZZk9TV3dVSDVzXzFBbmNtLUJLN3d6eVk4eE5iUFR1M0xQbC1mME1NZU5kWHZqQ1dBbnFtOGJoM2Fhekt1NzdISUp5ZVpmSmc3X18wN29FRkRSRlhKcU1NZ2liMUFOcmdhc0RhVExjcVFhLVRDTi1aQjd5ekNOOEdIaUdiNFJISkVpV2ItRjRQLUFZUGVRZHVaM3J2dGxacmNxeER3?oc=5"
+        },
+        {
+          "name": "El Periódico",
+          "title": "¿Quién está detrás de la ola de ciberataques contra supermercados, bancos de sangre y otros comercios de toda Europa?",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN2xqQzZxZGx3OUQ2SjRKWXpEeURTZkhVWkhxdF9mX3Q4S3RJSy00NXFXSEJWUDVJcHNqSDkxU3U0UDA2b1lYTDVZYml5NU1qUzJOek5zbHBxWFZ1NjRHSGo4SnVma2x4SUd0V01GVHpsN2NONGo0OEliMkRzTHphNENhUFVVMU04dEVQcWFkUXU4TjY5Mk05R2hjenJReWYzdy02QzZRTHpRc0d5YTBfbjRndmpuTWJleUMtVTJ30gG-AUFVX3lxTE5Qb3B2WUstdlBhYVdPNm9HdUY0MU1TQ1g1YUxkYnR4bGRYS1J5a0ZUX3E3cXlJOWljWTZhWFNoZkVfdTlXRF9lQjRSbFpFcUJJLUpTNHJiVTlOckVzMmUzblhWMXVsTGxpeXJYS2Q4cFpReEh1c3ZYWTRoc2xWWHFYVVdfQlRZY3k5MjFkOWVqUVBWWlNYZFVfTUdFTV9HZFZ6V2s2OW5CRWtJa29zMkhRQXhrajRiV3JWSS04UWc?oc=5"
+        }
+      ],
+      "wordCount": 614
+    },
+    "blindSpot": "La atención mediática se ha centrado en las pérdidas económicas de los supermercados, ignorando el fallo estructural de seguridad en la tecnología operacional (OT). Los controladores de la firma Danfoss funcionaban con software obsoleto pese a que la firma de ciberseguridad Claroty advirtió meses antes sobre vulnerabilidades críticas expuestas a internet. Este incidente demuestra cómo el descuido en el mantenimiento de firmware en equipos industriales puede paralizar cadenas de suministro esenciales sin necesidad de infectar un solo ordenador corporativo."
+  },
+  {
     "slug": "caida-santiago-pena-destitucion-arresto-fractura-lv1q",
     "path": "noticias/caida-santiago-pena-destitucion-arresto-fractura-lv1q/",
     "title": "La caída de Santiago Peña: destitución, arresto y la fractura del poder en Paraguay",
