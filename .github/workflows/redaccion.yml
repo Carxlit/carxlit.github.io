@@ -77,6 +77,19 @@ jobs:
       # como copia). Los posts solo llevan el enlace cuando la página ya responde.
       PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
     steps:
+      - name: Disparar Blindspot Global (inglés)
+        if: always()
+        env:
+          GH_DISPATCH_TOKEN: ${{ secrets.GH_DISPATCH_TOKEN }}
+        run: |
+          if [ -n "$GH_DISPATCH_TOKEN" ]; then
+            curl -fsS -X POST \
+              -H "Authorization: Bearer $GH_DISPATCH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/Carxlit/blindspot-global/actions/workflows/redaccion.yml/dispatches \
+              -d '{"ref":"main"}' >/dev/null || true
+          fi
+
       # ref: main → el estado MÁS RECIENTE al empezar (un ciclo en espera no debe trabajar con la cola vieja)
       - uses: actions/checkout@v4
         with:

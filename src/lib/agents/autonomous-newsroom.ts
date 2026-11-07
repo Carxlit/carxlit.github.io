@@ -480,7 +480,7 @@ async function runCycleUnlocked(config: AutonomousConfig): Promise<CycleResult> 
   console.log('[AutonomousNewsroom] Iniciando ciclo de redacción autónoma...');
 
   // 1. Despachar la publicación en cola cuyo horario ya haya llegado
-  const dispatchResult = await dispatchDueItems();
+  const dispatchResult = process.env.CLOUD_DEFER_PUBLISH === 'true' ? { processed: 0, items: [] } : await dispatchDueItems();
   const dispatchedCount = dispatchResult.processed;
   if (dispatchedCount > 0) {
     console.log(`[AutonomousNewsroom] Se despachó ${dispatchedCount} publicación vencida a las redes.`);

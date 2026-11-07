@@ -214,7 +214,7 @@ export async function auditAndHealQueue(): Promise<{
       continue;
     }
 
-    if (item.status !== 'failed') continue;
+    if (item.status !== 'failed' || process.env.CLOUD_DEFER_PUBLISH === 'true') continue;
 
     const age = now - new Date(item.createdAt).getTime();
     const healAttempts = item.healAttempts || 0;
