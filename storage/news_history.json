@@ -93,9 +93,38 @@
     "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcWZmRHB2ckNVZGY3ZVVOY0NJZkNVcXhTR1ZmUUJtOFN5UGNWRGV4T2ZhOHNRWUlmbnU2aVNkbFBfX2tCQzVfVmJNU0hzdTVhNHhXYm9BNWVXTWxDbktWb0pWRXJkTWZwUE1mTEt2NFA3T1dBNjNkN21XbnRSWTl3NVdtZy1VM3hPN0stR0ZWSmc3QlpNelhmRjg5SXpzaTdYVHc?oc=5",
     "https://www.bloomberglinea.com/latinoamerica/colombia/los-primeros-90-dias-de-de-la-espriella-frente-a-santos-duque-y-petro-un-comienzo-sin-luna-de-miel/",
-    "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/"
+    "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/",
+    "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "ARABIA SAUDITA REANUDA BOMBARDEOS MASIVOS EN LA PROVINCIA DE SANÁ",
+      "normalizedTokens": [
+        "arabia",
+        "saudita",
+        "reanuda",
+        "bombardeos",
+        "masivos",
+        "provincia",
+        "sana"
+      ],
+      "date": "2026-11-07T13:32:04.206Z"
+    },
+    {
+      "title": "Bombardeos de Arabia Saudita dejan más de 20 muertos en Yemen, según hutíes",
+      "normalizedTokens": [
+        "bombardeos",
+        "arabia",
+        "saudita",
+        "dejan",
+        "mas",
+        "muertos",
+        "yemen",
+        "segun",
+        "huties"
+      ],
+      "date": "2026-11-07T13:32:04.202Z"
+    },
     {
       "title": "DESTITUCIÓN DE PEÑA Y JURA DE ALLIANA RECONFIGURAN EL PODER PARAGUAYO",
       "normalizedTokens": [
