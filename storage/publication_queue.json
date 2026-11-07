@@ -15924,12 +15924,13 @@
         "title": "Saudi Strikes Sanaa — 22 KILLED as Airstrikes HIT Homes in Yemen — Why the War Is BACK",
         "channel": "The Daily World"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T15:31:35.526Z",
       "cardImageUrl": "/news-cards/news-z7i12qs91-1794065495526.jpg",
       "reelCoverUrl": "/news-cards/news-z7i12qs91-1794065496417-cover.jpg",
       "instagramCardUrl": "/news-cards/news-z7i12qs91-1794065496934-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/escalada-bombardeos-sana-consolida-retorno-guerra-cphm/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/escalada-bombardeos-sana-consolida-retorno-guerra-cphm/",
+      "publishedAt": "2026-11-07T15:34:50.611Z"
     },
     "channels": {
       "facebook": true,
@@ -15943,10 +15944,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T15:31:38.017Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-07T15:31:38.017Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-07T15:32:27.306Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106543471532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "108",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzq7s45sea2s"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18375918967212301",
+        "permalink": "https://www.instagram.com/reel/Dfcg4l1gLWd/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117575887956250043"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18127077886997972"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T15:34:50.611Z"
   }
 ]
