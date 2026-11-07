@@ -16236,12 +16236,13 @@
         "close": "Lee el análisis completo en el enlace del perfil"
       },
       "rawImageUrl": "https://www.bloomberglinea.com/resizer/v2/HGI2CVMQOJDHRKP2LIIB4HVROM.jpg?auth=fecf1bbe110fb849d177e1e79d96c6d5f15c6f55fff2e63d78ce00709bb56278&smart=true&width=1200&height=675",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T16:38:01.316Z",
       "cardImageUrl": "/news-cards/news-smaf8zbmz-1794069481316.jpg",
       "reelCoverUrl": "/news-cards/news-smaf8zbmz-1794069482354-cover.jpg",
       "instagramCardUrl": "/news-cards/news-smaf8zbmz-1794069482907-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ajuste-fiscal-lula-brasil-choca-contra-9t1d/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ajuste-fiscal-lula-brasil-choca-contra-9t1d/",
+      "publishedAt": "2026-11-07T20:10:48.812Z"
     },
     "channels": {
       "facebook": true,
@@ -16255,10 +16256,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T20:07:27.177Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T16:38:04.119Z"
+    "createdAt": "2026-11-07T16:38:04.119Z",
+    "lastAttemptAt": "2026-11-07T20:07:42.443Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106751599532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "112",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzqp6eanmf2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18453855646121359",
+        "permalink": "https://www.instagram.com/reel/DfdAd4aiPJY/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117576973405260623"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18002075439009755"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T20:10:48.812Z"
   },
   {
     "id": "queue-1794073385486-z2uv2",
