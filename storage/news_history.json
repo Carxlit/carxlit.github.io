@@ -90,9 +90,40 @@
     "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff?traffic_source=rss",
     "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
     "https://www.abc.es/internacional/ante-crisis-bancaria-presidente-paraguay-destituido-congreso-20261105234950-nt.html",
-    "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias"
+    "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcWZmRHB2ckNVZGY3ZVVOY0NJZkNVcXhTR1ZmUUJtOFN5UGNWRGV4T2ZhOHNRWUlmbnU2aVNkbFBfX2tCQzVfVmJNU0hzdTVhNHhXYm9BNWVXTWxDbktWb0pWRXJkTWZwUE1mTEt2NFA3T1dBNjNkN21XbnRSWTl3NVdtZy1VM3hPN0stR0ZWSmc3QlpNelhmRjg5SXpzaTdYVHc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "INCENDIO EN MANZANEDA QUEMA DIEZ HECTÁREAS TRAS INTENSA LUCHA NOCTURNA",
+      "normalizedTokens": [
+        "incendio",
+        "manzaneda",
+        "quema",
+        "diez",
+        "hectareas",
+        "intensa",
+        "lucha",
+        "nocturna"
+      ],
+      "date": "2026-11-07T11:32:04.084Z"
+    },
+    {
+      "title": "Un incendio forestal en Bidueira, Manzaneda, quema diez hectáreas tras una intensa noche de trabajo",
+      "normalizedTokens": [
+        "incendio",
+        "forestal",
+        "bidueira",
+        "manzaneda",
+        "quema",
+        "diez",
+        "hectareas",
+        "intensa",
+        "noche",
+        "trabajo"
+      ],
+      "date": "2026-11-07T11:32:04.083Z"
+    },
     {
       "title": "CIBERATAQUE A LA CADENA DE FRÍO EN FRANCIA EXPONE VULNERABILIDAD RETAIL",
       "normalizedTokens": [

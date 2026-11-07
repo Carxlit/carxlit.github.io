@@ -183,5 +183,10 @@
     "relevant": false,
     "reason": "Muestra un refrigerador doméstico de cocina y no un sistema de refrigeración comercial ni la cadena de frío de supermercados.",
     "at": "2026-11-07T11:17:10.662Z"
+  },
+  "f274a07eccc42b68:hxrknchsa": {
+    "relevant": true,
+    "reason": "Muestra un incendio forestal en una zona montañosa durante la noche, representando directamente la lucha nocturna contra el fuego descrita en el titular.",
+    "at": "2026-11-07T11:31:58.959Z"
   }
 }
