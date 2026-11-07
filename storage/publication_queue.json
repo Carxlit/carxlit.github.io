@@ -14094,11 +14094,52 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-07T01:13:41.751Z",
+    "scheduledFor": "2026-11-07T01:23:50.626Z",
     "status": "queued",
-    "attempts": 0,
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T21:25:42.870Z"
+    "createdAt": "2026-11-06T21:25:42.870Z",
+    "lastAttemptAt": "2026-11-07T01:17:04.016Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105860809532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": false,
+        "error": "The operation was aborted due to timeout"
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzoq2cef572h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18115968179032278",
+        "permalink": "https://www.instagram.com/reel/Dfa_KdJDWkv/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117572530105086523"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18190736407418930"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "error": "Reintento 1/3: telegram: The operation was aborted due to timeout"
   },
   {
     "id": "queue-1794006358581-9ensc",
