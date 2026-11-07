@@ -97,9 +97,39 @@
     "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UZWFibGZaSnhHMktaZXhKRjFqeWtMYUZodFA0cE9pWWhvT2RROTBnZ2psNEJYUTVvM3lwbjFmcDVrUkl3UnB2WEtscE5NUXJoRlFF?oc=5",
     "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie",
-    "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf"
+    "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf",
+    "https://www.bloomberglinea.com/latinoamerica/brasil/lula-hara-un-ajuste-fiscal-en-brasil-pese-al-escepticismo-del-mercado-dice-oxford-economics/"
   ],
   "processedSignatures": [
+    {
+      "title": "EL AJUSTE FISCAL DE LULA EN BRASIL: ENTRE EL RIGOR Y LA RIGIDEZ ESTRUCTURAL",
+      "normalizedTokens": [
+        "ajuste",
+        "fiscal",
+        "lula",
+        "brasil",
+        "rigor",
+        "rigidez",
+        "estructural"
+      ],
+      "date": "2026-11-07T16:38:04.129Z"
+    },
+    {
+      "title": "Lula hará un ajuste fiscal en Brasil pese al escepticismo del mercado, dice Oxford Economics",
+      "normalizedTokens": [
+        "lula",
+        "hara",
+        "ajuste",
+        "fiscal",
+        "brasil",
+        "pese",
+        "escepticismo",
+        "mercado",
+        "oxford",
+        "economics"
+      ],
+      "date": "2026-11-07T16:38:04.127Z"
+    },
     {
       "title": "NUEVOS ATAQUES AÉREOS EN YEMEN CAUSAN VEINTIDÓS MUERTOS CERCA DE SANÁ",
       "normalizedTokens": [
