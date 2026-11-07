@@ -92,9 +92,45 @@
     "https://www.abc.es/internacional/ante-crisis-bancaria-presidente-paraguay-destituido-congreso-20261105234950-nt.html",
     "https://www.genbeta.com/seguridad/ciberataque-neveras-congeladores-cientos-supermercados-francia-provoca-perdidas-millonarias",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcWZmRHB2ckNVZGY3ZVVOY0NJZkNVcXhTR1ZmUUJtOFN5UGNWRGV4T2ZhOHNRWUlmbnU2aVNkbFBfX2tCQzVfVmJNU0hzdTVhNHhXYm9BNWVXTWxDbktWb0pWRXJkTWZwUE1mTEt2NFA3T1dBNjNkN21XbnRSWTl3NVdtZy1VM3hPN0stR0ZWSmc3QlpNelhmRjg5SXpzaTdYVHc?oc=5",
-    "https://www.bloomberglinea.com/latinoamerica/colombia/los-primeros-90-dias-de-de-la-espriella-frente-a-santos-duque-y-petro-un-comienzo-sin-luna-de-miel/"
+    "https://www.bloomberglinea.com/latinoamerica/colombia/los-primeros-90-dias-de-de-la-espriella-frente-a-santos-duque-y-petro-un-comienzo-sin-luna-de-miel/",
+    "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/"
   ],
   "processedSignatures": [
+    {
+      "title": "DESTITUCIÓN DE PEÑA Y JURA DE ALLIANA RECONFIGURAN EL PODER PARAGUAYO",
+      "normalizedTokens": [
+        "destitucion",
+        "pena",
+        "jura",
+        "alliana",
+        "reconfiguran",
+        "poder",
+        "paraguayo"
+      ],
+      "date": "2026-11-07T12:49:50.718Z"
+    },
+    {
+      "title": "Crisis en Paraguay EN VIVO | Pedro Alliana designó a Ariel Martínez como ministro del Interior: “Nuestro país necesita paz, orden y seguridad”",
+      "normalizedTokens": [
+        "crisis",
+        "paraguay",
+        "vivo",
+        "pedro",
+        "alliana",
+        "designo",
+        "ariel",
+        "martinez",
+        "ministro",
+        "interior",
+        "nuestro",
+        "pais",
+        "necesita",
+        "paz",
+        "orden",
+        "seguridad"
+      ],
+      "date": "2026-11-07T12:49:50.717Z"
+    },
     {
       "title": "EMERGENCIA FISCAL Y SISMO CONDICIONAN GOBIERNO DE LA ESPRIELLA",
       "normalizedTokens": [
