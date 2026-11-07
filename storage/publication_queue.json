@@ -15411,12 +15411,13 @@
         "close": "Lee el análisis completo sobre esta crisis en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://static.dw.com/image/79884898_6.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T13:32:01.751Z",
       "cardImageUrl": "/news-cards/news-hk4qaurym-1794058321751.jpg",
       "reelCoverUrl": "/news-cards/news-hk4qaurym-1794058322546-cover.jpg",
       "instagramCardUrl": "/news-cards/news-hk4qaurym-1794058323077-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/reanudacion-conflicto-yemen-amenaza-control-estrecho-a522/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/reanudacion-conflicto-yemen-amenaza-control-estrecho-a522/",
+      "publishedAt": "2026-11-07T13:35:17.109Z"
     },
     "channels": {
       "facebook": true,
@@ -15430,10 +15431,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T13:32:04.192Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-07T13:32:04.192Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-07T13:32:58.087Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106443145532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "105",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzpz4fl6452j"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18036371843848436",
+        "permalink": "https://www.instagram.com/reel/DfcTNOYjqOR/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117575417902630341"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18081822062383612"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T13:35:17.109Z"
   }
 ]
