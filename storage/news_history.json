@@ -88,9 +88,37 @@
     "https://elpais.com/america/2026-11-06/la-visita-del-papa-leon-xiv-en-uruguay-en-vivo.html",
     "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas",
     "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff?traffic_source=rss",
-    "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
+    "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
+    "https://www.abc.es/internacional/ante-crisis-bancaria-presidente-paraguay-destituido-congreso-20261105234950-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: CONGRESO DESTITUYE Y ARRESTA A PEÑA TRAS COLAPSO BANCARIO",
+      "normalizedTokens": [
+        "actualizacion",
+        "congreso",
+        "destituye",
+        "arresta",
+        "pena",
+        "colapso",
+        "bancario"
+      ],
+      "date": "2026-11-07T11:01:33.480Z"
+    },
+    {
+      "title": "El presidente de Paraguay es destituido por el Congreso y arrestado por la crisis del Ueno Bank",
+      "normalizedTokens": [
+        "presidente",
+        "paraguay",
+        "destituido",
+        "congreso",
+        "arrestado",
+        "crisis",
+        "ueno",
+        "bank"
+      ],
+      "date": "2026-11-07T11:01:33.480Z"
+    },
     {
       "title": "ATAQUE A MERCADO EN TAIZ DEJA AL MENOS TREINTA MUERTOS",
       "normalizedTokens": [
