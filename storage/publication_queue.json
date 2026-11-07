@@ -16416,12 +16416,13 @@
       },
       "rawImageUrl": "https://ichef.bbci.co.uk/news/1200/branded_mundo/9483/live/7f05d160-dacb-11f1-bda8-29fb69dbc026.jpg",
       "updateOf": "bombardeo-mercado-taiz-expone-guerra-asfixia-qonc",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T17:43:02.922Z",
       "cardImageUrl": "/news-cards/news-r940pig66-1794073382922.jpg",
       "reelCoverUrl": "/news-cards/news-r940pig66-1794073383727-cover.jpg",
       "instagramCardUrl": "/news-cards/news-r940pig66-1794073384287-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/aumentan-seis-muertos-tras-tiroteo-plaza-sb9w/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/aumentan-seis-muertos-tras-tiroteo-plaza-sb9w/",
+      "publishedAt": "2026-11-07T21:42:33.761Z"
     },
     "channels": {
       "facebook": true,
@@ -16435,10 +16436,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T21:40:27.177Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T17:43:05.486Z"
+    "createdAt": "2026-11-07T17:43:05.486Z",
+    "lastAttemptAt": "2026-11-07T21:40:42.405Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106864327532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "113",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzqueoi2kl2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17959645686267493",
+        "permalink": "https://www.instagram.com/reel/DfdK-5DDVc4/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117577334107494433"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18346417819278110"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T21:42:33.761Z"
   },
   {
     "id": "queue-1794077034305-0ox3w",
