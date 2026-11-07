@@ -237,10 +237,24 @@ export const SCOUT_FEEDS: ExpandedFeedConfig[] = [
   { url: 'https://www.ecb.europa.eu/rss/press.html', sourceName: 'Banco Central Europeo', category: 'ECONOMÍA GLOBAL', weight: 9 },
   { url: 'https://www.federalreserve.gov/feeds/press_all.xml', sourceName: 'Reserva Federal', category: 'ECONOMÍA GLOBAL', weight: 9 },
 
-  // Tecnología (inglés): donde primero salen los anuncios
+  // Tecnología, ciencia, defensa y finanzas globales (inglés): donde primero salen los anuncios
   { url: 'https://techcrunch.com/feed/', sourceName: 'TechCrunch', category: 'TECNOLOGÍA & IA', weight: 8 },
   { url: 'https://www.theverge.com/rss/index.xml', sourceName: 'The Verge', category: 'TECNOLOGÍA & IA', weight: 8 },
   { url: 'https://feeds.arstechnica.com/arstechnica/index', sourceName: 'Ars Technica', category: 'TECNOLOGÍA & IA', weight: 8 },
+  { url: 'https://www.wired.com/feed/rss', sourceName: 'Wired', category: 'TECNOLOGÍA & IA', weight: 8 },
+  { url: 'https://www.technologyreview.com/feed/', sourceName: 'MIT Technology Review', category: 'TECNOLOGÍA & IA', weight: 9 },
+  { url: 'https://www.nature.com/nature.rss', sourceName: 'Nature', category: 'TECNOLOGÍA & IA', weight: 8 },
+  { url: 'https://www.bleepingcomputer.com/feed/', sourceName: 'BleepingComputer', category: 'SEGURIDAD & DEFENSA', weight: 8 },
+  { url: 'https://feeds.feedburner.com/TheHackersNews', sourceName: 'The Hacker News', category: 'SEGURIDAD & DEFENSA', weight: 8 },
+  { url: 'https://www.defenseone.com/rss/all/', sourceName: 'Defense One', category: 'SEGURIDAD & DEFENSA', weight: 8 },
+  { url: 'https://warontherocks.com/feed/', sourceName: 'War on the Rocks', category: 'SEGURIDAD & DEFENSA', weight: 8 },
+  { url: 'https://kyivindependent.com/feed/', sourceName: 'The Kyiv Independent', category: 'SEGURIDAD & DEFENSA', weight: 8 },
+  { url: 'https://www.politico.eu/feed/', sourceName: 'Politico Europe', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: 'https://foreignpolicy.com/feed/', sourceName: 'Foreign Policy', category: 'GEOPOLÍTICA', weight: 9 },
+  { url: 'https://www.japantimes.co.jp/feed/', sourceName: 'The Japan Times', category: 'GEOPOLÍTICA', weight: 8 },
+  { url: gnews('site:asia.nikkei.com when:1d'), sourceName: 'Nikkei Asia', category: 'ECONOMÍA GLOBAL', weight: 9 },
+  { url: 'https://www.cnbc.com/id/100727362/device/rss/rss.html', sourceName: 'CNBC World', category: 'ECONOMÍA GLOBAL', weight: 9 },
+  { url: gnews('site:ft.com world OR economy OR markets when:1d'), sourceName: 'Financial Times', category: 'ECONOMÍA GLOBAL', weight: 9 },
 ];
 
 /** Hechos graves en el titular (muertes, catástrofes, guerra, golpes, atentados), en español e inglés */
