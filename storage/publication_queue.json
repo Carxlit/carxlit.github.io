@@ -13910,12 +13910,13 @@
         "close": "Lee el análisis estratégico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/FP2ARUKKQNAYVFN75UBW6QOS5Y.jpg?auth=7e2f64093faf9132d91e7448649cf57d94eb05c4905caef0f2013295b4e2bfb9",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-06T20:01:40.317Z",
       "cardImageUrl": "/news-cards/news-gugvlr08v-1793995300318.jpg",
       "reelCoverUrl": "/news-cards/news-gugvlr08v-1793995301070-cover.jpg",
       "instagramCardUrl": "/news-cards/news-gugvlr08v-1793995301597-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/despliegue-leon-xiv-sudamerica-pulso-diplomatico-2gn9/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/despliegue-leon-xiv-sudamerica-pulso-diplomatico-2gn9/",
+      "publishedAt": "2026-11-07T00:09:11.649Z"
     },
     "channels": {
       "facebook": true,
@@ -13929,10 +13930,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-07T00:06:41.751Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-06T20:01:42.742Z"
+    "createdAt": "2026-11-06T20:01:42.742Z",
+    "lastAttemptAt": "2026-11-07T00:06:57.180Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122105817195532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "98",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzom355amx22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17976794259161729",
+        "permalink": "https://www.instagram.com/reel/Dfa29MUDM2a/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117572248208878625"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18106145693021169"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-07T00:09:11.649Z"
   },
   {
     "id": "queue-1794000342870-sxir1",
