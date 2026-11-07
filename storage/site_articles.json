@@ -1,5 +1,100 @@
 [
   {
+    "slug": "paradoja-seguridad-vial-ruta-fruta-kqs4",
+    "path": "noticias/paradoja-seguridad-vial-ruta-fruta-kqs4/",
+    "title": "La paradoja de la seguridad vial en la Ruta de la Fruta",
+    "headline": "TRAGEDIA VIAL EN LA RUTA DE LA FRUTA",
+    "dek": "Un accidente fatal en Valparaíso expone las carencias en la gestión de infraestructura crítica. La modernización de la ruta ha incrementado la velocidad, pero no la seguridad de los usuarios.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "El País América",
+    "image": "img/paradoja-seguridad-vial-ruta-fruta-kqs4.jpg",
+    "photo": "img/paradoja-seguridad-vial-ruta-fruta-kqs4-foto.jpg",
+    "publishedAt": "2026-11-07T21:44:35.124Z",
+    "article": {
+      "slug": "paradoja-seguridad-vial-ruta-fruta-kqs4",
+      "title": "La paradoja de la seguridad vial en la Ruta de la Fruta",
+      "dek": "Un accidente fatal en Valparaíso expone las carencias en la gestión de infraestructura crítica. La modernización de la ruta ha incrementado la velocidad, pero no la seguridad de los usuarios.",
+      "keyFacts": [
+        "12 personas fallecieron y 15 resultaron heridas en la colisión múltiple.",
+        "El accidente ocurrió en el kilómetro 119,8 de la Ruta E-66, conocida como Ruta de la Fruta.",
+        "El impacto involucró a un camión tolva, un microbús rural y un vehículo menor.",
+        "La SIAT de Carabineros se encuentra realizando los peritajes técnicos del siniestro."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La mañana de este sábado, un choque múltiple en la Ruta E-66 de Santo Domingo, en la región de Valparaíso, resultó en la muerte de 12 personas. Según el reporte oficial, el accidente ocurrió cerca de las 9:00 de la mañana cuando un camión tolva, un microbús de transporte rural y un automóvil colisionaron frontalmente en el kilómetro 119,8.",
+            "El bus involucrado, conocido localmente como 'la rapelina', realizaba su recorrido habitual entre Pupuya y San Antonio, transportando a familias campesinas hacia la ciudad para sus actividades cotidianas. El saldo de heridos asciende a 15 personas, entre ellos dos menores de tres y 11 años, y tres personas se mantienen en riesgo vital."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La Ruta de la Fruta es una vía caracterizada por curvas pronunciadas y un alto flujo de camiones de carga de gran tonelaje. Durante años, ha sido objeto de críticas por su peligrosidad y su infraestructura insuficiente para el volumen de tráfico que soporta.",
+            "El Ministerio de Obras Públicas ha impulsado diversos proyectos de mejora en la vía, destinados a optimizar el desplazamiento de vehículos pesados y mejorar la conectividad regional. Sin embargo, este enfoque en la fluidez ha generado fricciones con la realidad del transporte público local que comparte el mismo espacio vial."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la investigación técnica de la SIAT sobre las causas directas del choque, existe un problema estructural que el alcalde de Santo Domingo, Fernando Rodríguez, ha señalado explícitamente: la modernización de la ruta ha permitido un tránsito más expedito, pero sin las medidas de seguridad necesarias para mitigar la velocidad.",
+            "La paradoja es que las obras de mejora, lejos de hacer la vía más segura, han incentivado que los vehículos circulen a mayores velocidades, aumentando la fuerza de los impactos en una carretera que, por su diseño original, no está preparada para tales condiciones. Este es un fallo en la planificación de seguridad pública que ignora la convivencia entre el transporte pesado y el rural."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Las concesionarias y el sector logístico se benefician de una ruta más rápida que reduce los tiempos de transporte de mercancías. Sin embargo, quienes asumen el costo son las comunidades rurales, cuyas familias dependen de un transporte público que queda expuesto a los riesgos de una carretera diseñada bajo criterios de eficiencia comercial y no de seguridad comunitaria.",
+            "El Estado, a través del Ministerio de Obras Públicas, enfrenta ahora una crisis de legitimidad sobre la seguridad de sus proyectos de infraestructura, viéndose obligado a revisar estándares que, según la evidencia, han resultado insuficientes para proteger la vida de los ciudadanos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Las diligencias de la SIAT de Carabineros y del Laboratorio de Criminalística serán fundamentales para establecer responsabilidades. Asimismo, será necesario observar si el Gobierno central cede ante la presión local para implementar medidas de control de velocidad y rediseño de seguridad en la Ruta E-66, más allá de las mejoras de flujo ya ejecutadas."
+          ]
+        }
+      ],
+      "tags": [
+        "Chile",
+        "Infraestructura",
+        "Seguridad vial",
+        "Valparaíso",
+        "Transporte"
+      ],
+      "sources": [
+        {
+          "name": "El País América",
+          "title": "Una colisión múltiple en Santo Domingo, en la región de Valparaíso, deja al menos 11 muertos y 15 heridos",
+          "url": "https://elpais.com/chile/2026-11-07/una-colision-multiple-en-santo-domingo-en-la-region-de-valparaiso-deja-12-muertos-y-15-heridos.html"
+        },
+        {
+          "name": "EL PAÍS",
+          "title": "Una colisión múltiple en Santo Domingo, en la región de Valparaíso, deja 12 muertos y 15 heridos",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYjYtVlVJckNHdXZnSTZ0ak52N3JiaXlINEdjVDBrVXo3aGVIWkRoa1BlUG1KMEViMUJpUVRYNEFHbmcxdFZLSFFFNUstYWpPMy1ZY3ZzZUtodGRCNUhDWWgtWmFhMm0zWVJFZGxNOUpTMjZvX2ZIWllYS0ttSWY1UTdyRlE5aDV2Z1AwMlN1UlotMzEwdUpaMjluX2xZRS1LMk5BM2ZfNDNzVFRjUVQ4eUw1bUxMNWVvQlM1d1l0cjlUNlo1d19fa2xmbjNyUXcy0gHkAUFVX3lxTE03elRjVjgwR1J5U0VsamhNVTNibEFZXzRldUxVdkJGT3MxckN4NndUOURPQllJejZ2Q2pCSGFnSl9hU3d4YzJZenlvb2ljSS01TDhRWVNycEU0WTJGOWV3LVBDODV0WXdDY2ktX1YwWXN4anVzMTFhR2phWUJ4ejF0NXd6aUtFTXF0NVZEM0RVeEF2dVI3djd1LUVPbm9QVWtqRUJ3NzBhM28wQW1kdHZBVVgzWl9ERHRyTmxBdkVjQm1IbmlZOVJpNkdsRFBPNHRmZ1BNQXVVMTZBNFBUMHJPRHdVMA?oc=5"
+        },
+        {
+          "name": "laconexion.cl",
+          "title": "Colisión múltiple en Ruta de la Fruta deja 12 muertos y 13 heridos",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSE5qbWVFZ05fM2FZUUtfNC1lbjBGNlJoY3ZWTU9fd3F0cUx3czBNd2NBcU84WVNCV2pNQVI1QzhvS3lpT0c0ellHd25iV2ZqSGxIVmhKYUt3c2c1LVVqR3c0dV9YVmZZLXUxOEdCU1g5UWZaRms4cWZlYzlrMGlyVUxWa19qbG9zRjRGQXdqTGJyMUE?oc=5"
+        },
+        {
+          "name": "RPP Noticias",
+          "title": "Chile: un accidente de tránsito dejó al menos 12 muertos en Santo Domingo, en la región de Valparaíso",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbEo5SEY3SlIyV0EyNW8wM1I0LWg5UWxrdVBiOThoMDNNTVVfczgzREQ4VkR3UHVDaXlXQXhiYkI1Y2U2TzZpaWlmaU13OXVNRDVLbVQwWmstRElWSVducTdUYmhmMF8zb2VrVDZ2YnExdkpEV21WVFk2TTlTX1R6TnNsUjJQd2J6TVVmTHFMSEtVS1FDbWZFeUI1LXhNb0s5b3VxR2s4ZFlCbnAyYzFiM1pOYWtZN0R1MUE0bFBpYWhpRjJ1WTN5cjREdFVpOVVEUS1nemo0a25xZw?oc=5"
+        },
+        {
+          "name": "Mendoza Post",
+          "title": "TRAGEDIA en VALPARAÍSO: un CHOQUE MÚLTIPLE dejó 12 MUERTOS y hay dos niños heridos",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQWZpMC14cW9EcG55TURlS0o2MGdSS2dRcGhodmh3VUFVeUM2dmp0Q2Q0WnRJT2pwTHliTlBROWNhT2RPMHRGM3RJVk54aWtXZlFLZ0hIS0Q0UmIyZHZzdmZnZzBCYjduSlROYnJxMzk5N2J6RndjSVpsQkFjS0E0YmxBanFTRnhSLXJjMDR1VkxCeTDSAZMBQVVfeXFMT0FmaTAteHFvRHBueU1EZUtKNjBnUktnUXBoaHZod1VBVXlDNnZqdENkNFp0SU9qcEx5Yk5QUTljYU9kTzB0RjN0SVZOeGlrV2ZRS2dISEtENFJiMmR2c3ZmZ2cwQmI3bkpUTmJycTM5OTdiekZ3Y0labEJBY0tBNGJsQWpxU0Z4Ui1yYzA0dVZMQnkw?oc=5"
+        }
+      ],
+      "wordCount": 507
+    },
+    "blindSpot": "La modernización de infraestructura no siempre se traduce en seguridad si no se acompaña de fiscalización. El alcalde de Santo Domingo señala que la mejora en la fluidez de la Ruta de la Fruta ha incentivado velocidades peligrosas en una vía con diseño de alta siniestralidad."
+  },
+  {
     "slug": "drones-mq-9a-reaper-colombia-vigilancia-prolongada-dtq8",
     "path": "noticias/drones-mq-9a-reaper-colombia-vigilancia-prolongada-dtq8/",
     "title": "Drones MQ-9A Reaper en Colombia: vigilancia prolongada y el peso de la inteligencia compartida",
