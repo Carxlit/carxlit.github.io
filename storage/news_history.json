@@ -96,9 +96,38 @@
     "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/",
     "https://www.dw.com/es/bombardeos-de-arabia-saudita-dejan-más-de-20-muertos-en-yemen-según-hutíes/a-79885184?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UZWFibGZaSnhHMktaZXhKRjFqeWtMYUZodFA0cE9pWWhvT2RROTBnZ2psNEJYUTVvM3lwbjFmcDVrUkl3UnB2WEtscE5NUXJoRlFF?oc=5",
-    "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie"
+    "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie",
+    "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "NUEVOS ATAQUES AÉREOS EN YEMEN CAUSAN VEINTIDÓS MUERTOS CERCA DE SANÁ",
+      "normalizedTokens": [
+        "nuevos",
+        "ataques",
+        "aereos",
+        "yemen",
+        "causan",
+        "veintidos",
+        "muertos",
+        "cerca",
+        "sana"
+      ],
+      "date": "2026-11-07T15:31:38.025Z"
+    },
+    {
+      "title": "Yemen: 22 killed in strike near Sanaa, Houthis say",
+      "normalizedTokens": [
+        "yemen",
+        "killed",
+        "strike",
+        "near",
+        "sanaa",
+        "houthis",
+        "say"
+      ],
+      "date": "2026-11-07T15:31:38.024Z"
+    },
     {
       "title": "LITUANIA INDUSTRIALIZA LÁSERES CRÍTICOS PARA REDUCIR CUELLOS DE BOTELLA EN CHIPS",
       "normalizedTokens": [
