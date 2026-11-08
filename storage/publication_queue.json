@@ -16942,12 +16942,13 @@
         "close": "Lee el análisis completo sobre esta tragedia en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/XDE53IEAJFOG3EAZYGQZHWYJPQ.jpg?auth=f0122edd945aef98765aa6e65b9ace51c45b3c484ee1e2dd8a616312963b854f",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T21:44:32.529Z",
       "cardImageUrl": "/news-cards/news-yqbdhtqug-1794087872529.jpg",
       "reelCoverUrl": "/news-cards/news-yqbdhtqug-1794087873247-cover.jpg",
       "instagramCardUrl": "/news-cards/news-yqbdhtqug-1794087873841-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/paradoja-seguridad-vial-ruta-fruta-kqs4/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/paradoja-seguridad-vial-ruta-fruta-kqs4/",
+      "publishedAt": "2026-11-08T01:37:21.780Z"
     },
     "channels": {
       "facebook": true,
@@ -16961,10 +16962,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T01:34:38.669Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T21:44:35.204Z"
+    "createdAt": "2026-11-07T21:44:35.204Z",
+    "lastAttemptAt": "2026-11-08T01:34:54.047Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122106987507532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "116",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzrbhhohlk22"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18364236958247292",
+        "permalink": "https://www.instagram.com/reel/Dfdl18DkuKO/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117578257375483992"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18210940972374348"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T01:37:21.780Z"
   },
   {
     "id": "queue-1794093939165-2uylr",
