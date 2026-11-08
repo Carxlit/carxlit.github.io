@@ -293,5 +293,10 @@
     "relevant": false,
     "reason": "La imagen muestra ruinas de un edificio colapsado en un entorno urbano que no corresponde a una sede de Saudi Aramco ni al distrito financiero de Riad.",
     "at": "2026-11-08T11:32:04.298Z"
+  },
+  "a11ad2985c23b565:cn9g1am3a": {
+    "relevant": true,
+    "reason": "Muestra una columna de humo producida por un incendio forestal en una zona montañosa, ilustrando directamente la noticia.",
+    "at": "2026-11-08T11:46:39.555Z"
   }
 }
