@@ -105,9 +105,35 @@
     "https://elpais.com/chile/2026-11-07/una-colision-multiple-en-santo-domingo-en-la-region-de-valparaiso-deja-12-muertos-y-15-heridos.html",
     "https://www.abc.es/internacional/trump-vuelco-casa-blanca-ofrece-dana-white-20261107201959-nt.html",
     "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+    "https://www.dw.com/es/suman-33-los-muertos-en-bombardeos-sauditas-en-yemen-según-hutíes/a-79888584?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: ESCALAN A 33 LOS MUERTOS POR BOMBARDEOS SAUDITAS EN YEMEN",
+      "normalizedTokens": [
+        "actualizacion",
+        "escalan",
+        "muertos",
+        "bombardeos",
+        "sauditas",
+        "yemen"
+      ],
+      "date": "2026-11-08T05:46:10.642Z"
+    },
+    {
+      "title": "Suman 33 los muertos en bombardeos sauditas en Yemen, según hutíes",
+      "normalizedTokens": [
+        "suman",
+        "muertos",
+        "bombardeos",
+        "sauditas",
+        "yemen",
+        "segun",
+        "huties"
+      ],
+      "date": "2026-11-08T05:46:10.641Z"
+    },
     {
       "title": "TIROTEO EN CRACOVIA EXPONE AMENAZA ULTRADERECHISTA EN POLONIA",
       "normalizedTokens": [
