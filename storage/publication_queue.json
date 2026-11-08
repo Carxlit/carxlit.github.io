@@ -18858,12 +18858,13 @@
         "close": "Lee el análisis completo sobre los retos post 29-N en el enlace del perfil."
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/7JDSY2W5BJFARK5MQVWSJXPTR4.jpg?auth=89a693f930d826c7c0dd78989a3122c3d25055efb9258bdaeabc945948c0efef",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T13:36:01.833Z",
       "cardImageUrl": "/news-cards/news-fnoozye78-1794144961833.jpg",
       "reelCoverUrl": "/news-cards/news-fnoozye78-1794144962456-cover.jpg",
       "instagramCardUrl": "/news-cards/news-fnoozye78-1794144963003-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/frentes-economicos-criticos-aguardan-ejecutivo-surgido-mb32/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/frentes-economicos-criticos-aguardan-ejecutivo-surgido-mb32/",
+      "publishedAt": "2026-11-08T17:42:25.170Z"
     },
     "channels": {
       "facebook": true,
@@ -18877,10 +18878,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T17:39:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T13:36:04.245Z"
+    "createdAt": "2026-11-08T13:36:04.245Z",
+    "lastAttemptAt": "2026-11-08T17:40:07.027Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107697319532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "127",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzsxfi5adb2h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18158087269561827",
+        "permalink": "https://www.instagram.com/reel/DffUSF8jkli/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117582052039894367"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18078648335784035"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T17:42:25.170Z"
   },
   {
     "id": "queue-1794148139423-jiei6",
