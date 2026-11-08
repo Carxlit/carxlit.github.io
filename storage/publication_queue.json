@@ -17123,12 +17123,13 @@
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/07/PHOTO-2026-11-07-19-58-02-kafG-U40234765718tyG-1200x840@diario_abc.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T23:25:36.687Z",
       "cardImageUrl": "/news-cards/news-vb2hpuc2b-1794093936687.jpg",
       "reelCoverUrl": "/news-cards/news-vb2hpuc2b-1794093937519-cover.jpg",
       "instagramCardUrl": "/news-cards/news-vb2hpuc2b-1794093938030-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/viraje-agresivo-trump-casa-blanca-tras-y1cn/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/viraje-agresivo-trump-casa-blanca-tras-y1cn/",
+      "publishedAt": "2026-11-08T02:49:04.562Z"
     },
     "channels": {
       "facebook": true,
@@ -17142,9 +17143,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T02:46:38.669Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-07T23:25:39.165Z"
+    "createdAt": "2026-11-07T23:25:39.165Z",
+    "lastAttemptAt": "2026-11-08T02:46:53.886Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107022859532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "117",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzrfi5fm7g2h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18055459589815411",
+        "permalink": "https://www.instagram.com/reel/DfduCo-DJG9/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117578539415341960"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18098279750667515"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T02:49:04.562Z"
   }
 ]
