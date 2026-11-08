@@ -16761,11 +16761,12 @@
         "title": "🇮🇱 Eisenkot, el líder que desafía a Netanyahu #israel #politica #elecciones #likud #netanyahu",
         "channel": "Marc Mateu Cabezas"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-07T20:12:25.930Z",
       "cardImageUrl": "/news-cards/news-kvdhdo6vs-1794082345930.jpg",
       "reelCoverUrl": "/news-cards/news-kvdhdo6vs-1794082346586-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-kvdhdo6vs-1794082347189-ig.jpg"
+      "instagramCardUrl": "/news-cards/news-kvdhdo6vs-1794082347189-ig.jpg",
+      "publishedAt": "2026-11-08T00:39:54.925Z"
     },
     "channels": {
       "facebook": true,
@@ -16779,11 +16780,11 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T00:39:38.669Z",
-    "status": "queued",
-    "attempts": 2,
+    "status": "published",
+    "attempts": 3,
     "maxAttempts": 3,
     "createdAt": "2026-11-07T20:12:27.816Z",
-    "lastAttemptAt": "2026-11-08T00:24:37.328Z",
+    "lastAttemptAt": "2026-11-08T00:39:53.716Z",
     "results": {
       "facebook": {
         "success": true,
@@ -16824,7 +16825,8 @@
         "error": "Noticia sin video libre: no se sube a YouTube"
       }
     },
-    "error": "Reintento 2/3: threads: Threads: An unknown error occurred"
+    "error": "Publicado parcialmente. No se pudo en: threads",
+    "publishedAt": "2026-11-08T00:39:54.925Z"
   },
   {
     "id": "queue-1794087875204-z15xr",
