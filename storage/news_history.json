@@ -104,9 +104,35 @@
     "https://www.france24.com/es/medio-oriente/20261107-el-presidente-de-israel-elige-a-gadi-eisenkot-rival-de-netanyahu-para-formar-gobierno",
     "https://elpais.com/chile/2026-11-07/una-colision-multiple-en-santo-domingo-en-la-region-de-valparaiso-deja-12-muertos-y-15-heridos.html",
     "https://www.abc.es/internacional/trump-vuelco-casa-blanca-ofrece-dana-white-20261107201959-nt.html",
-    "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "TIROTEO EN CRACOVIA EXPONE AMENAZA ULTRADERECHISTA EN POLONIA",
+      "normalizedTokens": [
+        "tiroteo",
+        "cracovia",
+        "expone",
+        "amenaza",
+        "ultraderechista",
+        "polonia"
+      ],
+      "date": "2026-11-08T05:16:32.591Z"
+    },
+    {
+      "title": "What we know so far after Krakow gun attack",
+      "normalizedTokens": [
+        "what",
+        "know",
+        "far",
+        "after",
+        "krakow",
+        "gun",
+        "attack"
+      ],
+      "date": "2026-11-08T05:16:32.590Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ESCALADA SAUDÍ EN YEMEN ELEVA A 33 LOS MUERTOS",
       "normalizedTokens": [
