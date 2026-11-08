@@ -19564,12 +19564,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://www.infobae.com/resizer/v2/ZPNRPNRTYZD2VDWFTPH4CMFQNU.JPG?auth=defdb013fe5d74a7ed363e0c71f1a5b322939750a7b9772793cab2d110935f29&smart=true&width=2473&height=1618",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T18:41:52.897Z",
       "cardImageUrl": "/news-cards/news-e9emkcogd-1794163312897.jpg",
       "reelCoverUrl": "/news-cards/news-e9emkcogd-1794163313985-cover.jpg",
       "instagramCardUrl": "/news-cards/news-e9emkcogd-1794163314595-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/estrategia-nba-mexico-rentabilidad-sin-franquicia-ty4l/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/estrategia-nba-mexico-rentabilidad-sin-franquicia-ty4l/",
+      "publishedAt": "2026-11-08T23:25:19.347Z"
     },
     "channels": {
       "facebook": true,
@@ -19583,10 +19584,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T23:22:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T18:41:55.899Z"
+    "createdAt": "2026-11-08T18:41:55.899Z",
+    "lastAttemptAt": "2026-11-08T23:23:07.125Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107954683532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "131",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mztkkrwecd2z"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17907193269352935",
+        "permalink": "https://www.instagram.com/reel/Dff7hKnji4H/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117583400192884670"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18105305471373583"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T23:25:19.347Z"
   },
   {
     "id": "queue-1794168788118-6p5tn",
@@ -19856,7 +19899,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-09T01:20:51.741Z",
+    "scheduledFor": "2026-11-09T01:45:51.741Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
