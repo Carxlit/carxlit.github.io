@@ -278,5 +278,10 @@
     "relevant": false,
     "reason": "La imagen muestra a personas recogiendo basura en la calle, lo cual no representa la inteligencia artificial ni los ciberataques a infraestructuras críticas.",
     "at": "2026-11-08T11:02:19.340Z"
+  },
+  "739cfac747f383eb:u9zkxbyin": {
+    "relevant": true,
+    "reason": "La imagen muestra un lingote de oro, representando claramente el sujeto principal de la noticia sobre las fluctuaciones en el precio del metal precioso.",
+    "at": "2026-11-08T11:26:54.715Z"
   }
 }

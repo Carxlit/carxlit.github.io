@@ -108,9 +108,39 @@
     "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
     "https://www.dw.com/es/suman-33-los-muertos-en-bombardeos-sauditas-en-yemen-según-hutíes/a-79888584?maca=spa-rss-sp-all-1122-rdf",
     "https://elpais.com/america-colombia/2026-11-07/al-menos-tres-militares-muertos-y-16-heridos-graves-en-un-ataque-con-drones.html",
-    "https://elpais.com/tecnologia/2026-11-08/de-la-nevera-al-agua-del-grifo-o-la-luz-los-ciberataques-ya-impactan-en-la-vida-cotidiana.html"
+    "https://elpais.com/tecnologia/2026-11-08/de-la-nevera-al-agua-del-grifo-o-la-luz-los-ciberataques-ya-impactan-en-la-vida-cotidiana.html",
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00Tk5EemJEWGpfeENtVkdhZFlfaFoyOGJyOXQ5aENGemVGSUNNUmZOeVV2U05QTU44aHJrN0lDaHNxdlluZ2dwSmpibTBBbjZTN1lN?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "FLUCTUACIÓN DEL ORO REVELA TENSIONES TRAS ELECCIONES ESTADOUNIDENSES",
+      "normalizedTokens": [
+        "fluctuacion",
+        "oro",
+        "revela",
+        "tensiones",
+        "elecciones",
+        "estadounidenses"
+      ],
+      "date": "2026-11-08T11:26:58.548Z"
+    },
+    {
+      "title": "Los precios del oro fluctúan bruscamente tras las elecciones estadounidenses: la Reserva Federal aún tiene el poder de decisión.",
+      "normalizedTokens": [
+        "precios",
+        "oro",
+        "fluctuan",
+        "bruscamente",
+        "elecciones",
+        "estadounidenses",
+        "reserva",
+        "federal",
+        "aun",
+        "poder",
+        "decision"
+      ],
+      "date": "2026-11-08T11:26:58.547Z"
+    },
     {
       "title": "LA INTELIGENCIA ARTIFICIAL ACELERA CIBERATAQUES CONTRA INFRAESTRUCTURA FÍSICA CRÍTICA",
       "normalizedTokens": [
