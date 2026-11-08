@@ -18510,12 +18510,13 @@
         "close": "Lee el análisis completo sobre el caso en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://s1.ppllstatics.com/hoy/www/multimedia/local/2026/11/08/valverde-khsC-U40240391306tcD-1200x840@Hoy.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T11:46:40.815Z",
       "cardImageUrl": "/news-cards/news-cn9g1am3a-1794138400816.jpg",
       "reelCoverUrl": "/news-cards/news-cn9g1am3a-1794138401399-cover.jpg",
       "instagramCardUrl": "/news-cards/news-cn9g1am3a-1794138401942-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/incendio-valverde-fresno-expone-fragilidad-extincion-7kbl/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/incendio-valverde-fresno-expone-fragilidad-extincion-7kbl/",
+      "publishedAt": "2026-11-08T14:27:00.675Z"
     },
     "channels": {
       "facebook": true,
@@ -18529,10 +18530,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T14:23:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T11:46:43.076Z"
+    "createdAt": "2026-11-08T11:46:43.076Z",
+    "lastAttemptAt": "2026-11-08T14:24:07.190Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107510977532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "125",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzsmiciyt72y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18138013342653016",
+        "permalink": "https://www.instagram.com/reel/Dfe97YYD1U2/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117581283807341053"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18114338768615910"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T14:27:00.675Z"
   },
   {
     "id": "queue-1794141129835-90375",
