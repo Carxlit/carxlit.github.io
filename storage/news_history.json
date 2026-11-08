@@ -103,9 +103,35 @@
     "http://www.defensa.com/colombia/mq-9a-reaper-colombia-salto-decisivo-inteligencia-vigilancia",
     "https://www.france24.com/es/medio-oriente/20261107-el-presidente-de-israel-elige-a-gadi-eisenkot-rival-de-netanyahu-para-formar-gobierno",
     "https://elpais.com/chile/2026-11-07/una-colision-multiple-en-santo-domingo-en-la-region-de-valparaiso-deja-12-muertos-y-15-heridos.html",
-    "https://www.abc.es/internacional/trump-vuelco-casa-blanca-ofrece-dana-white-20261107201959-nt.html"
+    "https://www.abc.es/internacional/trump-vuelco-casa-blanca-ofrece-dana-white-20261107201959-nt.html",
+    "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: ESCALADA SAUDÍ EN YEMEN ELEVA A 33 LOS MUERTOS",
+      "normalizedTokens": [
+        "actualizacion",
+        "escalada",
+        "saudi",
+        "yemen",
+        "eleva",
+        "muertos"
+      ],
+      "date": "2026-11-08T05:01:19.695Z"
+    },
+    {
+      "title": "Houthis say at least 33 killed in Saudi air strike",
+      "normalizedTokens": [
+        "houthis",
+        "say",
+        "least",
+        "killed",
+        "saudi",
+        "air",
+        "strike"
+      ],
+      "date": "2026-11-08T05:01:19.694Z"
+    },
     {
       "title": "TRUMP OFRECE LA PORTAVOCÍA A DANA WHITE TRAS DERROTA ELECTORAL",
       "normalizedTokens": [

@@ -1,5 +1,92 @@
 [
   {
+    "slug": "ofensiva-saudi-yemen-pugna-rutas-mar-9nb4",
+    "path": "noticias/ofensiva-saudi-yemen-pugna-rutas-mar-9nb4/",
+    "title": "Actualización: La ofensiva saudí en Yemen y la pugna por las rutas del mar Rojo",
+    "headline": "ACTUALIZACIÓN: ESCALADA SAUDÍ EN YEMEN ELEVA A 33 LOS MUERTOS",
+    "dek": "Nuevos ataques aéreos en al-Shariyah elevan a 33 la cifra de muertos mientras el conflicto yemení se reactiva por la crisis con Irán.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "BBC News",
+    "image": "img/ofensiva-saudi-yemen-pugna-rutas-mar-9nb4.jpg",
+    "photo": "img/ofensiva-saudi-yemen-pugna-rutas-mar-9nb4-foto.jpg",
+    "publishedAt": "2026-11-08T05:01:19.586Z",
+    "article": {
+      "slug": "ofensiva-saudi-yemen-pugna-rutas-mar-9nb4",
+      "title": "Actualización: La ofensiva saudí en Yemen y la pugna por las rutas del mar Rojo",
+      "dek": "Nuevos ataques aéreos en al-Shariyah elevan a 33 la cifra de muertos mientras el conflicto yemení se reactiva por la crisis con Irán.",
+      "keyFacts": [
+        "Al menos 33 personas murieron en el bombardeo en al-Shariyah según los medios huthíes.",
+        "La Organización de las Naciones Unidas reporta más de 1.600 muertos y 300.000 desplazados desde la reanudación de los combates.",
+        "La coalición saudí lleva más de una década combatiendo a los huthíes en apoyo al gobierno reconocido de Yemen.",
+        "Un ataque previo en un mercado de la provincia de Taiz dejó 30 muertos según fuentes locales."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Medios vinculados al movimiento huthí en Yemen informaron que al menos 33 personas, incluyendo mujeres y niños, murieron en una serie de ataques aéreos atribuidos a Arabia Saudí en la localidad de al-Shariyah, al este de la capital, Saná. Imágenes difundidas por la televisión Al Masirah mostraron a rescatistas extrayendo cuerpos de entre los escombros y a heridos siendo trasladados a hospitales locales.",
+            "La agencia de noticias Saba, también operada por los huthíes, confirmó que el ataque ocurrió en sábado y añadió que otras 39 personas resultaron heridas. Por su parte, la coalición liderada por Arabia Saudí que respalda al gobierno internacionalmente reconocido de Yemen no emitió comentarios inmediatos sobre este episodio en particular."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Este nuevo episodio bélico confirma la ruptura definitiva de la tregua que había mantenido el conflicto en un plano de baja intensidad durante varios años. El acuerdo comenzó a resquebrajarse cuando la aviación saudí bombardeó el aeropuerto de Saná para impedir el aterrizaje de una aeronave iraní.",
+            "Como respuesta, los huthíes, respaldados por Teherán, atacaron el aeropuerto de Abha en territorio saudí y comenzaron a hostigar buques comerciales y petroleros que utilizaban el mar Rojo como vía alternativa de exportación ante el riesgo en el estrecho de Ormuz. La violencia escaló con enfrentamientos terrestres y aéreos en diversas provincias, incluyendo un ataque en un mercado de la provincia de Taiz que dejó una treintena de víctimas mortales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la atención mediática internacional se limita a registrar el número de bajas civiles y el cruce de acusaciones entre Riad y los insurgentes, la cobertura omite el motor geoestratégico subyacente. Los bombardeos no son meras represalias tácticas, sino una campaña deliberada para asegurar el control absoluto de las vías de salida de crudo por el mar Rojo.",
+            "Con la confrontación directa contra Irán reconfigurando las prioridades de seguridad del reino saudí, la infraestructura de transporte energético se ha convertido en el epicentro de la disputa, dejando en segundo plano cualquier perspectiva de resolución política para la población yemení."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero renovado, el gobierno de Arabia Saudí y su coalición militar endurecen su posición para blindar su soberanía energética y frenar la influencia de Teherán en el flanco marítimo sur de la península arábiga.",
+            "Quienes asumen el costo absoluto son los civiles atrapados en provincias como al-Shariyah y Taiz. La Organización de las Naciones Unidas documenta ya más de 1.600 fallecidos y más de 300.000 desplazados desde que las hostilidades volvieron a activarse."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El factor decisivo a observar en las próximas semanas será la seguridad de la navegación comercial en el mar Rojo y la respuesta de los aliados occidentales de Riad ante el incremento de bajas civiles.",
+            "Cualquier interrupción prolongada en esta ruta alternativa de exportación de petróleo alterará de inmediato los mercados energéticos globales y obligará a repensar la arquitectura de seguridad en las vías marítimas de Oriente Medio."
+          ]
+        }
+      ],
+      "tags": [
+        "Yemen",
+        "Arabia Saudi",
+        "Mar Rojo",
+        "Geopolitica",
+        "Conflicto"
+      ],
+      "sources": [
+        {
+          "name": "BBC News",
+          "title": "Houthis say at least 33 killed in Saudi air strike",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "La Nación",
+          "title": "An airstrike has killed 22 people near Yemen's capital, Houthi official says",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeEtkOVRiOWVtY1pLdl9QWDZfQV9zYlMyS3dWOExQU1RZWjZEN19wRGFxUm5rdl9pemozcExBMHZKRjB0NnRPcE1Idnd4aFJvcVBwRHdkNHBvTXVTYUJDaTZxNjJvMVNUVS1wTFd2YU82TzdIMjlfeThIMFoxS1AwRHJNb29vcHl0N0R1aFptOVJzb2RYcUtiajB4Zm5BWDBRRVZNLWdablBNdUZuMnl4MW9adVJ5OHBUSmVz?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Airstrikes on a market in southwestern Yemen kill at least 20, Houthis say",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZWVKTXZJRFpCQ25wOF9pdFI3czhmTG85T3duR0duRW5aejBkQ1BHTUVtSkw4UF9UY3lfNWU4MUtHYzlnRVlteHZycVhkSVRFLVlhWmd6YzF6UnRCbC01am5Ha1pYZURVVWstYnNaSmdSZEU4YjRsbzVzd1FBdnVBRkw0UThtNGgtRXlMbkpnd1Mzc05vbVMySHdlX2VwUDdGZDNNR0pHaGlpNkJWUldCaGw2RGRValVwd0E?oc=5"
+        }
+      ],
+      "wordCount": 496
+    },
+    "blindSpot": "La cobertura convencional reduce el conflicto a un recuento de bajas, ignorando que los ataques saudíes responden directamente a la necesidad de blindar rutas petroleras alternativas al estrecho de Ormuz ante la crisis con Irán.",
+    "updateOf": "escalada-bombardeos-sana-consolida-retorno-guerra-cphm"
+  },
+  {
     "slug": "viraje-agresivo-trump-casa-blanca-tras-y1cn",
     "path": "noticias/viraje-agresivo-trump-casa-blanca-tras-y1cn/",
     "title": "El viraje agresivo de Trump en la Casa Blanca tras el revés electoral",
@@ -547,7 +634,8 @@
       "wordCount": 493
     },
     "blindSpot": "La intensificación de los ataques aéreos sobre el entorno de Saná coincide con la consolidación del control huthí sobre la costa del mar Rojo, incluyendo el puerto de Mokha y posiciones estratégicas en el estrecho de Bab el-Mandeb. La escalada trasciende el combate terrestre local: responde al riesgo directo sobre las rutas marítimas internacionales y el comercio energético global.",
-    "reelUrl": "https://www.instagram.com/reel/Dfcg4l1gLWd/"
+    "reelUrl": "https://www.instagram.com/reel/Dfcg4l1gLWd/",
+    "updatedBy": "ofensiva-saudi-yemen-pugna-rutas-mar-9nb4"
   },
   {
     "slug": "apuesta-lituania-industrializar-laseres-criticos-demandan-oczz",
