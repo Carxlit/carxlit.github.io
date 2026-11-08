@@ -17296,12 +17296,13 @@
       },
       "rawImageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/2670/live/bfaac760-dacc-11f1-bda8-29fb69dbc026.jpg",
       "updateOf": "escalada-bombardeos-sana-consolida-retorno-guerra-cphm",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T05:01:16.714Z",
       "cardImageUrl": "/news-cards/news-ydulpirg9-1794114076714.jpg",
       "reelCoverUrl": "/news-cards/news-ydulpirg9-1794114077663-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ydulpirg9-1794114078325-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ofensiva-saudi-yemen-pugna-rutas-mar-9nb4/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ofensiva-saudi-yemen-pugna-rutas-mar-9nb4/",
+      "publishedAt": "2026-11-08T05:04:25.611Z"
     },
     "channels": {
       "facebook": true,
@@ -17315,10 +17316,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T05:01:19.683Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-08T05:01:19.683Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-08T05:02:08.741Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107101915532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "118",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzrn25hesq2v"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18132402284483936",
+        "permalink": "https://www.instagram.com/reel/Dfd9jSFgBLD/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117579071743329382"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18002519771990202"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T05:04:25.611Z"
   }
 ]
