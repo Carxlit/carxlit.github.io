@@ -106,9 +106,36 @@
     "https://www.abc.es/internacional/trump-vuelco-casa-blanca-ofrece-dana-white-20261107201959-nt.html",
     "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-    "https://www.dw.com/es/suman-33-los-muertos-en-bombardeos-sauditas-en-yemen-según-hutíes/a-79888584?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/suman-33-los-muertos-en-bombardeos-sauditas-en-yemen-según-hutíes/a-79888584?maca=spa-rss-sp-all-1122-rdf",
+    "https://elpais.com/america-colombia/2026-11-07/al-menos-tres-militares-muertos-y-16-heridos-graves-en-un-ataque-con-drones.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRES MILITARES MUERTOS EN COLOMBIA POR ATAQUE CON DRONES",
+      "normalizedTokens": [
+        "tres",
+        "militares",
+        "muertos",
+        "colombia",
+        "ataque",
+        "drones"
+      ],
+      "date": "2026-11-08T06:01:15.635Z"
+    },
+    {
+      "title": "Al menos tres militares muertos y 16 heridos graves en un ataque con drones",
+      "normalizedTokens": [
+        "menos",
+        "tres",
+        "militares",
+        "muertos",
+        "heridos",
+        "graves",
+        "ataque",
+        "drones"
+      ],
+      "date": "2026-11-08T06:01:15.634Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ESCALAN A 33 LOS MUERTOS POR BOMBARDEOS SAUDITAS EN YEMEN",
       "normalizedTokens": [
