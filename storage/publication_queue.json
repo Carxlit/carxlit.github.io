@@ -19041,12 +19041,13 @@
         "title": "Justiça do Paraguai determina prisão de Santiago Peña",
         "channel": "g1"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T14:28:57.270Z",
       "cardImageUrl": "/news-cards/news-vrtyu9v3p-1794148137270.jpg",
       "reelCoverUrl": "/news-cards/news-vrtyu9v3p-1794148137811-cover.jpg",
       "instagramCardUrl": "/news-cards/news-vrtyu9v3p-1794148138319-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/juez-ordena-recluir-expresidente-paraguay-santiago-0o54/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/juez-ordena-recluir-expresidente-paraguay-santiago-0o54/",
+      "publishedAt": "2026-11-08T18:40:20.090Z"
     },
     "channels": {
       "facebook": true,
@@ -19060,10 +19061,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T18:37:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T14:28:59.423Z"
+    "createdAt": "2026-11-08T14:28:59.423Z",
+    "lastAttemptAt": "2026-11-08T18:38:07.136Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107742073532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "128",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzt2n37us426"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18190617595415402",
+        "permalink": "https://www.instagram.com/reel/Dffa60ID_4p/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117582279970671014"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18647205001022917"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T18:40:20.090Z"
   },
   {
     "id": "queue-1794153774955-kkp2q",
