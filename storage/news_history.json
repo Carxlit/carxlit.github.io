@@ -109,9 +109,41 @@
     "https://www.dw.com/es/suman-33-los-muertos-en-bombardeos-sauditas-en-yemen-según-hutíes/a-79888584?maca=spa-rss-sp-all-1122-rdf",
     "https://elpais.com/america-colombia/2026-11-07/al-menos-tres-militares-muertos-y-16-heridos-graves-en-un-ataque-con-drones.html",
     "https://elpais.com/tecnologia/2026-11-08/de-la-nevera-al-agua-del-grifo-o-la-luz-los-ciberataques-ya-impactan-en-la-vida-cotidiana.html",
-    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00Tk5EemJEWGpfeENtVkdhZFlfaFoyOGJyOXQ5aENGemVGSUNNUmZOeVV2U05QTU44aHJrN0lDaHNxdlluZ2dwSmpibTBBbjZTN1lN?oc=5"
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00Tk5EemJEWGpfeENtVkdhZFlfaFoyOGJyOXQ5aENGemVGSUNNUmZOeVV2U05QTU44aHJrN0lDaHNxdlluZ2dwSmpibTBBbjZTN1lN?oc=5",
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ATAQUE HUTÍ CONTRA RIAD DAÑA EDIFICIO DE SAUDI ARAMCO",
+      "normalizedTokens": [
+        "ataque",
+        "huti",
+        "riad",
+        "dana",
+        "edificio",
+        "saudi",
+        "aramco"
+      ],
+      "date": "2026-11-08T11:32:07.160Z"
+    },
+    {
+      "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
+      "normalizedTokens": [
+        "saudi",
+        "aramco",
+        "building",
+        "riyadh",
+        "damaged",
+        "falling",
+        "debris",
+        "after",
+        "attempted",
+        "attack",
+        "ministry",
+        "says"
+      ],
+      "date": "2026-11-08T11:32:07.158Z"
+    },
     {
       "title": "FLUCTUACIÓN DEL ORO REVELA TENSIONES TRAS ELECCIONES ESTADOUNIDENSES",
       "normalizedTokens": [

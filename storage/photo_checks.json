@@ -283,5 +283,15 @@
     "relevant": true,
     "reason": "La imagen muestra un lingote de oro, representando claramente el sujeto principal de la noticia sobre las fluctuaciones en el precio del metal precioso.",
     "at": "2026-11-08T11:26:54.715Z"
+  },
+  "70d6387e4e077f74:j2v5j90gb": {
+    "relevant": false,
+    "reason": "la imagen muestra las instalaciones de Rima Industrial Company y no un edificio de Saudi Aramco ni los daños del ataque.",
+    "at": "2026-11-08T11:31:56.620Z"
+  },
+  "bcac0d060600249d:j2v5j90gb": {
+    "relevant": false,
+    "reason": "La imagen muestra ruinas de un edificio colapsado en un entorno urbano que no corresponde a una sede de Saudi Aramco ni al distrito financiero de Riad.",
+    "at": "2026-11-08T11:32:04.298Z"
   }
 }
