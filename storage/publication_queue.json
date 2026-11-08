@@ -19223,12 +19223,13 @@
         "close": "Lee el análisis geopolítico completo en el enlace del perfil."
       },
       "rawImageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/senado-ee-uu-democratas-y-trump.jpg?c=16x9&q=w_800,c_fill",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T16:02:52.832Z",
       "cardImageUrl": "/news-cards/news-dafkujmot-1794153772833.jpg",
       "reelCoverUrl": "/news-cards/news-dafkujmot-1794153773383-cover.jpg",
       "instagramCardUrl": "/news-cards/news-dafkujmot-1794153773886-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/disputa-democrata-senado-trasfondo-internacional-debacle-awzn/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/disputa-democrata-senado-trasfondo-internacional-debacle-awzn/",
+      "publishedAt": "2026-11-08T20:11:32.423Z"
     },
     "channels": {
       "facebook": true,
@@ -19242,10 +19243,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T20:08:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T16:02:54.955Z"
+    "createdAt": "2026-11-08T16:02:54.955Z",
+    "lastAttemptAt": "2026-11-08T20:09:07.109Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107824789532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "129",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzt7pvax6x2n"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17889460119492617",
+        "permalink": "https://www.instagram.com/reel/DfflWspEskJ/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117582638546171645"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18119108458819192"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T20:11:32.423Z"
   },
   {
     "id": "queue-1794159863107-fdi5c",
