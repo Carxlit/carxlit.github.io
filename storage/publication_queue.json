@@ -17830,12 +17830,13 @@
         "close": "Lee el análisis completo y sin censura en nuestro perfil"
       },
       "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/JSONNDQQ25E7JBFSPBSCY2AIIY.jpg?auth=8edbfe33b2c3a31344fb8dc81c86284d8012135fb3c4988ff385976e30102d43",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T06:01:11.797Z",
       "cardImageUrl": "/news-cards/news-p6bch9iyw-1794117671797.jpg",
       "reelCoverUrl": "/news-cards/news-p6bch9iyw-1794117673795-cover.jpg",
       "instagramCardUrl": "/news-cards/news-p6bch9iyw-1794117674411-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ataque-drones-santa-rosa-sur-expone-9vdt/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ataque-drones-santa-rosa-sur-expone-9vdt/",
+      "publishedAt": "2026-11-08T06:05:05.066Z"
     },
     "channels": {
       "facebook": true,
@@ -17849,10 +17850,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T06:01:15.626Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-08T06:01:15.626Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-08T06:02:00.101Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107137315532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "121",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzrqexz6ca2r"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18118421393279140",
+        "permalink": "https://www.instagram.com/reel/DfeEfG9Dvyi/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117579310163168555"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18025628936873318"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T06:05:05.066Z"
   }
 ]
