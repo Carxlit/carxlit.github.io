@@ -18333,12 +18333,13 @@
         ],
         "close": "Lee el análisis geopolítico completo ingresando al enlace de nuestro perfil."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T11:32:05.526Z",
       "cardImageUrl": "/news-cards/news-j2v5j90gb-1794137525526.jpg",
       "reelCoverUrl": "/news-cards/news-j2v5j90gb-1794137526074-cover.jpg",
       "instagramCardUrl": "/news-cards/news-j2v5j90gb-1794137526555-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ataque-riad-expone-grietas-defensivas-corazon-13l7/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ataque-riad-expone-grietas-defensivas-corazon-13l7/",
+      "publishedAt": "2026-11-08T13:34:25.792Z"
     },
     "channels": {
       "facebook": true,
@@ -18352,10 +18353,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T13:31:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T11:32:07.150Z"
+    "createdAt": "2026-11-08T11:32:07.150Z",
+    "lastAttemptAt": "2026-11-08T13:32:07.034Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107470507532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "124",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzsjjzwggm26"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18439523437199874",
+        "permalink": "https://www.instagram.com/reel/Dfe36Ikj7Q6/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117581077071351416"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18097494353680458"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T13:34:25.792Z"
   },
   {
     "id": "queue-1794138403076-38bp0",
