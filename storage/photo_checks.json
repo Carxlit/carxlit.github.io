@@ -318,5 +318,20 @@
     "relevant": true,
     "reason": "Muestra el Capitolio de los Estados Unidos, la sede del Senado y símbolo central de la política estadounidense.",
     "at": "2026-11-08T16:02:51.113Z"
+  },
+  "a58b2e1edf31f98d:ibdll15ai": {
+    "relevant": false,
+    "reason": "La imagen muestra un monoplaza de Alpine en lugar de Lando Norris o su equipo McLaren, que es el sujeto principal del titular.",
+    "at": "2026-11-08T17:44:08.963Z"
+  },
+  "a689e6d44aba1842:ibdll15ai": {
+    "relevant": false,
+    "reason": "Muestra un coche de Alpine (Franco Colapinto) en lugar de Lando Norris o McLaren, que es el sujeto central del titular.",
+    "at": "2026-11-08T17:44:14.482Z"
+  },
+  "1d1d4dc3ee6139bd:ibdll15ai": {
+    "relevant": false,
+    "reason": "La imagen muestra un coche de Alpine y un Mercedes en una carrera nocturna, lo cual no corresponde con el Gran Premio de Brasil ni con los protagonistas mencionados (Norris, McLare",
+    "at": "2026-11-08T17:44:20.267Z"
   }
 }
