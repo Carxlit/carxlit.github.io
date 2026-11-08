@@ -112,9 +112,36 @@
     "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00Tk5EemJEWGpfeENtVkdhZFlfaFoyOGJyOXQ5aENGemVGSUNNUmZOeVV2U05QTU44aHJrN0lDaHNxdlluZ2dwSmpibTBBbjZTN1lN?oc=5",
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5",
     "https://news.google.com/rss/articles/CBMingFBVV95cUxOTXpSTWk3bzR2aHVYcmd3NDBldHpuczJfV2Z6MlBOUVlPNnExUGhlVV9kQko4a0lhTmtyTDVuMVkyeU1nV1Nxb0dwR2o3TnVfNUxGUkZobWcySGsyODdnRFh5YkFPRHF6TnZuUTZKV0VET0s2V0p5UTRLV1J4QS1OTm05M3ZyazFLRF82WVMwVzQ5dDAtSnVFRE1CenB2d9IBowFBVV95cUxOTEhrZW1YZ3hxd1RSQzc3QmMwSHRMV1JtTmZoN2tFYnk2THdXV3AxQ2hHVGlhUE82My1JdHFYcEk3S3AxSGlYT2w1N1cwd1pKUE9HSFR4V0ZsU0dYQS1sckJseXFNajEyUHQySExib2xEdV9RS0dDY3N2bG55dS1MX0V5aTZXLW5wUDkwdWxUWmdYUS0xWGxGN21ISjVpTnp1dHI0?oc=5",
-    "https://news.google.com/rss/articles/CBMilgJBVV95cUxQYTMzbXlIUDdPbC1lUERHbjRvVGQ3RV9IZE1KT3ZGd3hYTTR0ZTZfVWQyMFh3NFF4RUtQTTZnd0F0eFJLNmszNlZoeWU0TU1idFM5Q0FXOWJWWGp6b20zZkpWTW5OUFZ1UE9hLVlnd0oyQnVma1l1NHpQQWFvczNHOWhYT3d0ODRON29aSGN1d1VKdVp4NElvb3hwX1JVLTZ3Ymd1N0psTU91eFdBaDlaa0doelJHSHpCeXluSnk3d01vRnNYUkI5Y016dnlDRW5BX2hjUTJNU2NGaXV4NllBdVljaG9iVGwxTjh6V2lJZ19Kd2xDckpQaDc4UXg1eWpZNVBOMS1USjJ1TXVwWVVORUdJVmJZQQ?oc=5"
+    "https://news.google.com/rss/articles/CBMilgJBVV95cUxQYTMzbXlIUDdPbC1lUERHbjRvVGQ3RV9IZE1KT3ZGd3hYTTR0ZTZfVWQyMFh3NFF4RUtQTTZnd0F0eFJLNmszNlZoeWU0TU1idFM5Q0FXOWJWWGp6b20zZkpWTW5OUFZ1UE9hLVlnd0oyQnVma1l1NHpQQWFvczNHOWhYT3d0ODRON29aSGN1d1VKdVp4NElvb3hwX1JVLTZ3Ymd1N0psTU91eFdBaDlaa0doelJHSHpCeXluSnk3d01vRnNYUkI5Y016dnlDRW5BX2hjUTJNU2NGaXV4NllBdVljaG9iVGwxTjh6V2lJZ19Kd2xDckpQaDc4UXg1eWpZNVBOMS1USjJ1TXVwWVVORUdJVmJZQQ?oc=5",
+    "https://elpais.com/economia/negocios/2026-11-07/los-deberes-economicos-tras-el-29-n-vivienda-infraestructuras-presupuestos-y-pensiones-entre-los-mas-urgentes.html"
   ],
   "processedSignatures": [
+    {
+      "title": "ESPAÑA AFRONTA RETOS ESTRUCTURALES TRAS LAS ELECCIONES DEL 29N",
+      "normalizedTokens": [
+        "espana",
+        "afronta",
+        "retos",
+        "estructurales",
+        "elecciones",
+        "29n"
+      ],
+      "date": "2026-11-08T13:36:04.257Z"
+    },
+    {
+      "title": "Los deberes económicos tras el 29-N: vivienda, infraestructuras, Presupuestos y  pensiones, entre los más urgentes",
+      "normalizedTokens": [
+        "deberes",
+        "economicos",
+        "vivienda",
+        "infraestructuras",
+        "presupuestos",
+        "pensiones",
+        "mas",
+        "urgentes"
+      ],
+      "date": "2026-11-08T13:36:04.256Z"
+    },
     {
       "title": "JULIO ROJAS  SOBRE CHOQUE ONTOLÓGICO Y DESAFÍO TECNOLÓGICO",
       "normalizedTokens": [
