@@ -1,5 +1,91 @@
 [
   {
+    "slug": "estrategia-detras-pausa-trump-ante-iran-anly",
+    "path": "noticias/estrategia-detras-pausa-trump-ante-iran-anly/",
+    "title": "La estrategia detrás de la pausa de Trump ante Irán",
+    "headline": "TRUMP DESCARTA ATAQUES A IRÁN SI AVANZAN NEGOCIACIONES",
+    "dek": "El expresidente estadounidense condicionó una ofensiva militar al avance de las negociaciones, revelando un cálculo pragmático sobre los riesgos de una conflagración abierta.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Reuters",
+    "image": "img/estrategia-detras-pausa-trump-ante-iran-anly.jpg",
+    "photo": "img/estrategia-detras-pausa-trump-ante-iran-anly-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "zglzM9Ydb1Y",
+      "title": "Why Does Donald Trump Say a Return to War with Iran Is Highly Unlikely if Nuclear Talks Advance?",
+      "channel": "Daily Q&A"
+    },
+    "publishedAt": "2026-11-08T21:40:48.639Z",
+    "article": {
+      "slug": "estrategia-detras-pausa-trump-ante-iran-anly",
+      "title": "La estrategia detrás de la pausa de Trump ante Irán",
+      "dek": "El expresidente estadounidense condicionó una ofensiva militar al avance de las negociaciones, revelando un cálculo pragmático sobre los riesgos de una conflagración abierta.",
+      "keyFacts": [
+        "Donald Trump consideró altamente improbable una nueva ofensiva contra Irán si avanzan las negociaciones.",
+        "La información fue reportada inicialmente por la agencia Reuters.",
+        "El medio Itón Gadol corroboró la postura del exmandatario sobre la condición del diálogo."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó la agencia Reuters y corroboró Itón Gadol, el expresidente estadounidense Donald Trump declaró que considera altamente improbable ordenar ataques militares contra Irán siempre y cuando las negociaciones bilaterales registren avances significativos.",
+            "Esta postura marca un matiz en el tono de confrontación habitual, condicionando explícitamente el uso de la fuerza a la falta de resultados en la mesa de diálogo."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Las declaraciones se producen en un escenario de tensión permanente en Oriente Medio, donde cualquier alteración en las vías de comunicación diplomática suele preceder movimientos militares de gran envergadura.",
+            "La persistencia de canales de comunicación abiertos responde a la necesidad de gestionar una crisis que amenaza de manera constante los equilibrios de seguridad y los flujos comerciales internacionales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la cobertura convencional interpreta las palabras de Trump como un simple giro pacifista o una muestra de apertura diplomática, el análisis de Punto Ciego apunta a una estrategia de contención de costos.",
+            "Evitar un conflicto militar directo previene turbulencias severas en los mercados energéticos globales, trasladando la presión hacia escenarios de contención indirecta y desgaste económico que benefician el cálculo político a corto plazo sin resolver las causas profundas del antagonismo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los actores económicos y los mercados globales ganan estabilidad temporal al disiparse el riesgo inminente de una guerra abierta que dispararía los precios del crudo.",
+            "Por otro lado, los sectores partidarios de una solución de fuerza en la región ven limitadas sus opciones inmediatas, mientras que Teherán utiliza el espacio de negociación para ganar margen de maniobra diplomática."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear el desarrollo real de las negociaciones mencionadas y la reacción de los aliados regionales ante cualquier cambio en la postura de Washington.",
+            "La estabilidad de esta tregua verbal dependerá de la capacidad de ambas partes para mantener canales operativos sin cruzar las líneas rojas preestablecidas."
+          ]
+        }
+      ],
+      "tags": [
+        "Seguridad y Defensa",
+        "Oriente Medio",
+        "Diplomacia",
+        "Mercados",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "Trump says he is highly unlikely to order Iran strikes if talks progress",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5"
+        },
+        {
+          "name": "Itón Gadol",
+          "title": "Trump consideró “altamente improbable” una nueva ofensiva contra Irán si avanzan las negociaciones",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRXNWWVZFaUpVemtSbXR3bUtCeTA3SmNwclJZUm9GUnRkVkdTYk9hNEF6bjN0TlJEVzJjMi1MT1A3WVVIV1oxWk5ZTFZQSDR4Wnd6bWhycDgtZGFpdjg2XzRyUWk5MHJ4QWhONTV3M2NEZVNRTk1JaVNxbnpUN19TaHBiM00xSzg2dElVVDdGMGhobGR2cV9IQmQ1T3RpeHktbkJWRG1zR3Y0T3h2Yk1VdW9ieWNEb3BucUI0M1VEWFJYMXh1MVl4Q3lSdTdUZw?oc=5"
+        }
+      ],
+      "wordCount": 323
+    },
+    "blindSpot": "Detrás de la retórica de distensión se esconde una estrategia de contención indirecta y presión económica que busca evitar un conflicto abierto de alto coste en periodo electoral, trasladando el riesgo a la estabilidad regional en Oriente Medio."
+  },
+  {
     "slug": "colision-trenes-egipto-persistente-vulnerabilidad-red-ht6c",
     "path": "noticias/colision-trenes-egipto-persistente-vulnerabilidad-red-ht6c/",
     "title": "Colisión de trenes en Egipto: la persistente vulnerabilidad de una red ferroviaria al límite",
