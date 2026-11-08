@@ -16778,12 +16778,12 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-08T00:24:22.238Z",
+    "scheduledFor": "2026-11-08T00:39:38.669Z",
     "status": "queued",
-    "attempts": 1,
+    "attempts": 2,
     "maxAttempts": 3,
     "createdAt": "2026-11-07T20:12:27.816Z",
-    "lastAttemptAt": "2026-11-08T00:19:42.215Z",
+    "lastAttemptAt": "2026-11-08T00:24:37.328Z",
     "results": {
       "facebook": {
         "success": true,
@@ -16824,7 +16824,7 @@
         "error": "Noticia sin video libre: no se sube a YouTube"
       }
     },
-    "error": "Reintento 1/3: threads: Threads: An unknown error occurred"
+    "error": "Reintento 2/3: threads: Threads: An unknown error occurred"
   },
   {
     "id": "queue-1794087875204-z15xr",
