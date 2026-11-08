@@ -19403,12 +19403,13 @@
         ],
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T17:44:21.606Z",
       "cardImageUrl": "/news-cards/news-ibdll15ai-1794159861606.jpg",
       "reelCoverUrl": "/news-cards/news-ibdll15ai-1794159862110-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ibdll15ai-1794159862576-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/gran-premio-brasil-expone-brecha-financiera-hkr4/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/gran-premio-brasil-expone-brecha-financiera-hkr4/",
+      "publishedAt": "2026-11-08T21:39:10.433Z"
     },
     "channels": {
       "facebook": true,
@@ -19422,10 +19423,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T21:36:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T17:44:23.108Z"
+    "createdAt": "2026-11-08T17:44:23.108Z",
+    "lastAttemptAt": "2026-11-08T21:37:07.027Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107891119532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "130",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mztenbcgew2n"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17980737062924917",
+        "permalink": "https://www.instagram.com/reel/DffvY8SjNra/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117582983204613087"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17972738658191743"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T21:39:10.433Z"
   },
   {
     "id": "queue-1794163315898-vzdar",
@@ -19684,7 +19727,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-09T00:08:51.741Z",
+    "scheduledFor": "2026-11-09T00:31:51.741Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
