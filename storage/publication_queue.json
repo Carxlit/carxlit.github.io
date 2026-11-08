@@ -17649,12 +17649,13 @@
       },
       "rawImageUrl": "https://static.dw.com/image/79827844_6.jpg",
       "updateOf": "reanudacion-conflicto-yemen-amenaza-control-estrecho-a522",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T05:46:08.052Z",
       "cardImageUrl": "/news-cards/news-fayskkp5h-1794116768052.jpg",
       "reelCoverUrl": "/news-cards/news-fayskkp5h-1794116768931-cover.jpg",
       "instagramCardUrl": "/news-cards/news-fayskkp5h-1794116769473-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/aumentan-33-fallecidos-bombardeos-sauditas-provincia-h711/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/aumentan-33-fallecidos-bombardeos-sauditas-provincia-h711/",
+      "publishedAt": "2026-11-08T05:49:09.518Z"
     },
     "channels": {
       "facebook": true,
@@ -17668,10 +17669,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T05:46:10.633Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-08T05:46:10.633Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-08T05:46:52.335Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107127631532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "120",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzrpjwpyck2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18097594874151724",
+        "permalink": "https://www.instagram.com/reel/DfeCqPwlR_J/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117579247530078914"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18079866140743300"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T05:49:09.518Z"
   }
 ]
