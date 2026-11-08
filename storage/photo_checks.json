@@ -268,5 +268,15 @@
     "relevant": true,
     "reason": "Muestra los daños materiales y el interior de una edificación militar tras un ataque con explosivos en Colombia, lo cual coincide directamente con el titular.",
     "at": "2026-11-08T06:01:10.298Z"
+  },
+  "9a400928fea1114f:ymoi7wlny": {
+    "relevant": false,
+    "reason": "La imagen muestra a trabajadores recogiendo residuos en la calle, lo cual no representa la inteligencia artificial, los ciberataques ni la infraestructura física crítica.",
+    "at": "2026-11-08T11:02:14.863Z"
+  },
+  "e5ad37d9b44e62c6:ymoi7wlny": {
+    "relevant": false,
+    "reason": "La imagen muestra a personas recogiendo basura en la calle, lo cual no representa la inteligencia artificial ni los ciberataques a infraestructuras críticas.",
+    "at": "2026-11-08T11:02:19.340Z"
   }
 }
