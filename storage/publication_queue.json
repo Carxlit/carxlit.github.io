@@ -18166,12 +18166,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/08/1794103054131_gold-cropped-1794100603903.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T11:26:56.136Z",
       "cardImageUrl": "/news-cards/news-u9zkxbyin-1794137216136.jpg",
       "reelCoverUrl": "/news-cards/news-u9zkxbyin-1794137216906-cover.jpg",
       "instagramCardUrl": "/news-cards/news-u9zkxbyin-1794137217422-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/volatilidad-oro-tras-elecciones-estadounidenses-expone-e3jx/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/volatilidad-oro-tras-elecciones-estadounidenses-expone-e3jx/",
+      "publishedAt": "2026-11-08T12:30:16.230Z"
     },
     "channels": {
       "facebook": true,
@@ -18185,10 +18186,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T12:27:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T11:26:58.534Z"
+    "createdAt": "2026-11-08T11:26:58.534Z",
+    "lastAttemptAt": "2026-11-08T12:28:07.071Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107421325532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "123",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzsfxkx22p2h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18414190630094209",
+        "permalink": "https://www.instagram.com/reel/DfewkcMja46/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117580824735971839"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17867979741675594"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T12:30:16.230Z"
   },
   {
     "id": "queue-1794137527150-hzdkv",
