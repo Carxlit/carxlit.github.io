@@ -333,5 +333,10 @@
     "relevant": false,
     "reason": "La imagen muestra un coche de Alpine y un Mercedes en una carrera nocturna, lo cual no corresponde con el Gran Premio de Brasil ni con los protagonistas mencionados (Norris, McLare",
     "at": "2026-11-08T17:44:20.267Z"
+  },
+  "22ff76230b2cc5c5:e9emkcogd": {
+    "relevant": true,
+    "reason": "Muestra a jugadores de los Denver Nuggets y los Indiana Pacers en un partido de la NBA.",
+    "at": "2026-11-08T18:41:51.659Z"
   }
 }
