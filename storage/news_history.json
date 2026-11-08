@@ -117,9 +117,35 @@
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGw3MmJzOEt0S1ozTzJoUDVsWDYya0FocXVpaGU0cG1EYWdILUp1UWc4SjMzaEg2ZnZWR0ZKRG5uaGhXVW0wbkFlMTFuVVp0WmFlZWQ3cnJuYy1WanFqSVlZYkdOQXBNRTJtcExjajYyZnU4ZXpTRmVpOGNGTnJfaERjTHVLUm9USjdpS1J2VGV1Z09zZ1ZxaGpVUVVjRHpON3ctb0JFUzRBX3VQUEVsZXIzWXR6eFJObk05SGlDelpVM0F5NF84?oc=5",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGNMS053MklDWmFteHNwcDkxbkpNd0pBU2RuSDhiQnpfczhkMDZrZkZ5NmNkWmJ1a2VoUUQtN2haTUZ1Si15Sk1PN2hPeVdsMFJfTmxhMUEyMHVCYkpkLXYwbkRHNEx4LWdueFJjVUt1YnYxaGZtU1hyQThFN2Y3VTNrZXZyeHlTbTVxbnp0WmZDZzJYOHBWeVVkM3M5UWtOc0wxZ2tlZmRJdw?oc=5",
     "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-largara-desde-el-puesto-15-el-gran-premio-de-brasil-de-la-formula-1-todo-lo-que-hay-que-saber/",
-    "https://www.infobae.com/mexico/deportes/2026/11/08/nba-ve-en-el-mercado-mexicano-una-oportunidad-inmejorable-para-expandirse-internacionalmente/"
+    "https://www.infobae.com/mexico/deportes/2026/11/08/nba-ve-en-el-mercado-mexicano-una-oportunidad-inmejorable-para-expandirse-internacionalmente/",
+    "https://www.dw.com/es/siete-muertos-y-112-heridos-en-accidente-de-trenes-en-egipto/a-79893139?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "COLISIÓN FERROVIARIA EN EGIPTO EXPONE LA OBSOLESCENCIA DE SU RED",
+      "normalizedTokens": [
+        "colision",
+        "ferroviaria",
+        "egipto",
+        "expone",
+        "obsolescencia",
+        "red"
+      ],
+      "date": "2026-11-08T20:13:08.131Z"
+    },
+    {
+      "title": "Siete muertos y 112 heridos en accidente de trenes en Egipto",
+      "normalizedTokens": [
+        "siete",
+        "muertos",
+        "112",
+        "heridos",
+        "accidente",
+        "trenes",
+        "egipto"
+      ],
+      "date": "2026-11-08T20:13:08.129Z"
+    },
     {
       "title": "LA NBA APUESTA POR MÉXICO COMO SU PRINCIPAL MERCADO EXTERIOR",
       "normalizedTokens": [
