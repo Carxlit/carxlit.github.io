@@ -18691,12 +18691,13 @@
         "close": "Entérate de las implicaciones completas de este análisis en el enlace del perfil."
       },
       "rawImageUrl": "https://ichef.bbci.co.uk/news/1200/branded_mundo/b485/live/a2ae1cc0-da04-11f1-84c1-dbcae60402d7.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T12:32:07.577Z",
       "cardImageUrl": "/news-cards/news-l0nozac7s-1794141127578.jpg",
       "reelCoverUrl": "/news-cards/news-l0nozac7s-1794141128165-cover.jpg",
       "instagramCardUrl": "/news-cards/news-l0nozac7s-1794141128705-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/choque-ontologico-amenaza-tecnologica-debate-seguridad-qw4h/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/choque-ontologico-amenaza-tecnologica-debate-seguridad-qw4h/",
+      "publishedAt": "2026-11-08T16:01:18.876Z"
     },
     "channels": {
       "facebook": true,
@@ -18710,10 +18711,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-08T15:58:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T12:32:09.835Z"
+    "createdAt": "2026-11-08T12:32:09.835Z",
+    "lastAttemptAt": "2026-11-08T15:59:07.124Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107591803532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "126",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzsrqv7knk2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18101700935391834",
+        "permalink": "https://www.instagram.com/reel/DffItucIanS/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117581654534664939"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18115218707583920"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-08T16:01:18.876Z"
   },
   {
     "id": "queue-1794144964245-zqyai",
