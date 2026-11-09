@@ -22250,12 +22250,13 @@
         "title": "Cumbre del Clima COP31: las claves 📚 | Noticias del Mundo 🌍 #Shorts",
         "channel": "Mundo en 5 Noticias | Resumen Diario 🌍"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T17:11:14.734Z",
       "cardImageUrl": "/news-cards/news-l3p8lx6rc-1794244274734.jpg",
       "reelCoverUrl": "/news-cards/news-l3p8lx6rc-1794244275341-cover.jpg",
       "instagramCardUrl": "/news-cards/news-l3p8lx6rc-1794244275902-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cumbre-cop31-antalya-expone-limites-consenso-opt6/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cumbre-cop31-antalya-expone-limites-consenso-opt6/",
+      "publishedAt": "2026-11-09T20:53:43.469Z"
     },
     "channels": {
       "facebook": true,
@@ -22269,10 +22270,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T20:51:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T17:11:17.196Z"
+    "createdAt": "2026-11-09T17:11:17.196Z",
+    "lastAttemptAt": "2026-11-09T20:51:44.443Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108548437532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "146",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzvskvx6wu2g"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18132777967695759",
+        "permalink": "https://www.instagram.com/reel/DfiO-ebjw9l/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117588466795439178"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18121522996945315"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T20:53:43.469Z"
   },
   {
     "id": "queue-1794248264273-hilh6",
@@ -22551,7 +22594,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-09T23:07:29.060Z",
+    "scheduledFor": "2026-11-09T23:26:29.060Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
