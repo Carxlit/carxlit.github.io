@@ -21701,12 +21701,13 @@
         "close": "Lee el análisis completo en el enlace del perfil"
       },
       "rawImageUrl": "https://s.yimg.com/lo/mysterio/api/d11d889b0b2ed28163ccb9dba6aeb2665efb167fd29941e777c28a2301cb9ac4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Freuters.com%2F73ffd7b8d76419c65ab392fc1e609083.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T13:23:12.295Z",
       "cardImageUrl": "/news-cards/news-n980fu4h8-1794230592295.jpg",
       "reelCoverUrl": "/news-cards/news-n980fu4h8-1794230592905-cover.jpg",
       "instagramCardUrl": "/news-cards/news-n980fu4h8-1794230593446-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-valor-cobre-chile-expone-limites-9mrp/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-valor-cobre-chile-expone-limites-9mrp/",
+      "publishedAt": "2026-11-09T17:08:57.589Z"
     },
     "channels": {
       "facebook": true,
@@ -21720,10 +21721,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T17:05:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T13:23:14.764Z"
+    "createdAt": "2026-11-09T13:23:14.764Z",
+    "lastAttemptAt": "2026-11-09T17:05:44.433Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108449305532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "143",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzvfx7cq7p2f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18496500961109671",
+        "permalink": "https://www.instagram.com/reel/Dfh1QFlinRS/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117587582846792399"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18433915435197401"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T17:08:57.589Z"
   },
   {
     "id": "queue-1794233931931-6759a",
