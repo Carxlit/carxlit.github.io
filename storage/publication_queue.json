@@ -21882,12 +21882,13 @@
         "close": "Lee el análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://ichef.bbci.co.uk/news/1200/branded_mundo/4981/live/81f74f50-dbb8-11f1-86cb-c1d83392da32.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T14:18:49.101Z",
       "cardImageUrl": "/news-cards/news-qrwp9owpx-1794233929102.jpg",
       "reelCoverUrl": "/news-cards/news-qrwp9owpx-1794233929708-cover.jpg",
       "instagramCardUrl": "/news-cards/news-qrwp9owpx-1794233930735-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/investigacion-jensen-huang-nvidia-expone-riesgos-i949/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/investigacion-jensen-huang-nvidia-expone-riesgos-i949/",
+      "publishedAt": "2026-11-09T18:16:03.216Z"
     },
     "channels": {
       "facebook": true,
@@ -21901,10 +21902,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T18:13:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T14:18:51.931Z"
+    "createdAt": "2026-11-09T14:18:51.931Z",
+    "lastAttemptAt": "2026-11-09T18:13:44.432Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108475693532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "144",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzvjqm7i322c"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18080531393422686",
+        "permalink": "https://www.instagram.com/reel/Dfh872BiTTu/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117587846772927326"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18340944112272181"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T18:16:03.216Z"
   },
   {
     "id": "queue-1794238070215-j72zg",
