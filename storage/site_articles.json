@@ -1,5 +1,102 @@
 [
   {
+    "slug": "mortal-incendio-taiyuan-reaviva-alarma-sobre-3nu2",
+    "path": "noticias/mortal-incendio-taiyuan-reaviva-alarma-sobre-3nu2/",
+    "title": "El mortal incendio en Taiyuan reaviva la alarma sobre la seguridad residencial china",
+    "headline": "INCENDIO EN TAIYUAN EXPONE FALLAS EN INFRAESTRUCTURA URBANA CHINA",
+    "dek": "Un siniestro en un complejo de apartamentos en la capital de Shanxi provocó la muerte de al menos 14 personas. El hecho pone de manifiesto los vacíos persistentes en los controles de protección civil e infraestructura urbana.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Deutsche Welle (DW)",
+    "image": "img/mortal-incendio-taiyuan-reaviva-alarma-sobre-3nu2.jpg",
+    "photo": "img/mortal-incendio-taiyuan-reaviva-alarma-sobre-3nu2-foto.jpg",
+    "publishedAt": "2026-11-09T06:16:44.001Z",
+    "article": {
+      "slug": "mortal-incendio-taiyuan-reaviva-alarma-sobre-3nu2",
+      "title": "El mortal incendio en Taiyuan reaviva la alarma sobre la seguridad residencial china",
+      "dek": "Un siniestro en un complejo de apartamentos en la capital de Shanxi provocó la muerte de al menos 14 personas. El hecho pone de manifiesto los vacíos persistentes en los controles de protección civil e infraestructura urbana.",
+      "keyFacts": [
+        "Al menos 14 personas murieron tras el incendio registrado en un edificio del distrito de Yingze, en Taiyuan.",
+        "El fuego se inició a las 16:59 hora local del domingo y las llamas principales fueron sofocadas a las 19:00.",
+        "Un total de 38 personas fueron trasladadas a centros médicos, confirmándose inicialmente cinco decesos antes de elevarse la cifra.",
+        "En septiembre se registraron siniestros mortales en Cantón, con ocho víctimas en una empresa textil, y en Qingdao, con 25 muertos en un carguero."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El domingo por la tarde, un voraz incendio se declaró en un complejo de apartamentos en el distrito de Yingze, ubicado en Taiyuan, capital de la provincia de Shanxi. De acuerdo con informes recopilados por Deutsche Welle y medios estatales chinos, las alarmas saltaron a las 16:59 hora local (08:59 GMT). Las labores de los equipos de extinción permitieron apagar las llamas visibles hacia las 19:00 horas (11:00 GMT), dando paso a las tareas de búsqueda y rescate que concluyeron aproximadamente noventa minutos más tarde.",
+            "El balance inicial proyectado por las autoridades dio cuenta del traslado de 38 personas a distintos centros hospitalarios para recibir atención médica de urgencia, confirmando en primera instancia el fallecimiento de cinco de ellas. Sin embargo, en las horas posteriores, las autoridades estatales actualizaron la cifra total de fallecidos a al menos 14 víctimas mortales, mientras la investigación técnica sobre el origen del fuego continúa abierta."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Este desastre no constituye un episodio aislado dentro del panorama urbano e industrial de China. En meses recientes, varios eventos fatales han vuelto a encender las alarmas sobre los estándares de protección y la eficacia de las inspecciones de seguridad en diferentes puntos del país.",
+            "En septiembre pasado, un incendio desatado en las instalaciones de una empresa textil en la provincia de Cantón causó la muerte de al menos ocho personas. Ese mismo mes, un siniestro registrado a bordo de un barco carguero en la ciudad portuaria de Qingdao dejó un saldo de 25 fallecidos, evidenciando fallas estructurales recurrentes tanto en recintos fabriles y de transporte como en bloques residenciales de gran volumen."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La narrativa oficial suele centrar la atención en la rápida intervención de los equipos de rescate y en la apertura de investigaciones inmediatas. Sin embargo, el análisis de Punto Ciego revela un problema sistémico de fiscalización en la administración local china, donde la velocidad del crecimiento urbano e industrial ha sobrepasado los mecanismos reales de supervisión de incendios.",
+            "A nivel provincial, las normativas de construcción e insumos ignífugos sufren habitualmente de omisiones en la fase de inspección periódica. El verdadero punto ciego radica en la brecha entre los estrictos reglamentos nacionales y su aplicación efectiva sobre el terreno, donde el envejecimiento del parque residencial y la falta de mantenimiento de las vías de evacuación crean condiciones de alto riesgo en ciudades provinciales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los principales afectados son los residentes de complejos de vivienda masiva e infraestructuras con menor grado de fiscalización, quienes asumen el riesgo de habitar edificaciones sin las garantías mínimas de evacuación. Asimismo, las autoridades del distrito de Yingze y de la provincia de Shanxi asumen un alto costo de reputación e idoneidad gubernamental.",
+            "Por el contrario, la estructura de control del gobierno central utiliza habitualmente estos trágicos acontecimientos para endurecer los mecanismos de supervisión disciplinaria sobre los funcionarios locales, reforzando la fiscalización de Pekín sobre las administraciones provinciales."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será determinante observar si el Ministerio de Gestión de Emergencias impone auditorías masivas a los complejos residenciales en Shanxi y provincias aledañas, o si las medidas se limitarán a sanciones punitivas contra los gestores del inmueble de Taiyuan.",
+            "Asimismo, conviene monitorear si el patrón de incendios recurrentes genera modificaciones en los presupuestos municipales destinados a la renovación de sistemas de protección contra incendios en edificaciones de uso residencial."
+          ]
+        }
+      ],
+      "tags": [
+        "China",
+        "Taiyuan",
+        "Shanxi",
+        "Seguridad Urbana",
+        "Infraestructura",
+        "Punto Ciego"
+      ],
+      "sources": [
+        {
+          "name": "Deutsche Welle (DW)",
+          "title": "Incendio en complejo residencial en norte de China deja al mens 14 muertos",
+          "url": "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "name": "DW.com",
+          "title": "Incendio en complejo residencial en norte de China deja al mens 14 muertos",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHBmaWdrMkQ1ZVZ5bFFvcC1mR04xdzE5REQ5WE5LS1VRRFZsbU5TelZtM2k2RXIyYXhLQVAzd0ZHemloSFhxdjlsa1puRnJ4RFZSSzdqWmNvOFdIakVocTZzeUhhZDZMdWVOa3I2WDd5VDFScWpUOGo3Zmt0QVFFZTloTlBMQTdEQVBLenJ0VEhQQ0ZPSlE2Rm5GNFNWM3FlaTgySl94aDRfNmPSAasBQVVfeXFMTTk4bFBnTDdxZmlhS3F0ME9hc1dhdVZ6LVlmSXdJU0hJN3hHN1hlSUgzQ2EzejBsTElXTnBkQ1czYTA3aG8xb2dSWmR1V0lFTkg2UXh3MDFiQXpua1VkdXRmRUxvNV9QOGQ4MXppUnQ5SmRMQXdhd2Z5OUZ0VUZiVGo1NFFDR2s2QjB2aENtRDFJSmNiS0ZGdFUyS0VCZFFUdHlzNGs0S0dCY01n?oc=5"
+        },
+        {
+          "name": "Europa Press",
+          "title": "Al menos 14 muertos en el incendio de un edificio residencial en la ciudad china de Taiyuan",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNW1pRWUycVZlRWNYb3hObkpoNlh4bGlvTkhqdGtOTmFhNE1FV05pM0hGSXhpRV9wY1A4Z3VCZk1JM3hsck9qcnlDZWZpbS03X0JuLVdEMXgya2hTOE9zVHdSTWVhWEs4M2d4MlpyV1lacExjRkRSZjhOdm5wTGdEeHppQzRYYlZqSTFQZUo5Z3ZNMENqNDAyRmxvV3VJWHkxVzF4ZTZUbWNnbmQ0V212TEo5TFFMaC1CcFEtZjlzSzBnNDR6R0dFMG13UXJCTVZzelE?oc=5"
+        },
+        {
+          "name": "Demócrata",
+          "title": "Mueren 14 personas en el incendio de un bloque residencial en la ciudad china de Taiyuán",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMFNhRlVfYVNOZ1h0anMybmdscExEb0w2QU10THctNTRCMnV0MnVyZEZxWjNXVmFyYnlvQXJoMWd0cUR6WWRNY3RNMlhuV29KcmJqQlNMTHFMRHo0LWk5QW1Eb25GdWE1T1FkUUR5THQ5ZzFJTUNpUTlNZ1dGa2htT3hITFgxMVJrcFRvUld6eWJxWmxXUHBUeHktOXhfMEl5c2ZoSjVPeHdsSVpBQ3ZWQVdfdDUtNVF2cWZFS2dxenhjSWUyM0NR?oc=5"
+        },
+        {
+          "name": "El Nuevo Diario",
+          "title": "Al menos cinco muertos tras un incendio en un complejo de apartamentos en norte de China",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSE1xWWdid3FmOWNtNEVvT0tNTlNSOWV3T29aYm94eEkwZUZEakloelZXcDdIS1REeVZqWjJ4MUZmdEFYUENhdUlKdEEtdkQtOVJqdWt0WVZkaXktaUdOTE5VODAwWDM3QXhNdWNGOW9OVTEwM1JXYWQtQjhkcFZqa3otakdzVWcxTDJ6MV9KaXBVOUFZN2xLMktxekxfcHlSVzFzRWN0WXZBYmExb3ZpTTYteHVhNk5XNWc?oc=5"
+        }
+      ],
+      "wordCount": 579
+    },
+    "blindSpot": "La recurrencia de siniestros letales en instalaciones residenciales e industriales en China evidencia deficiencias estructurales en las inspecciones de seguridad urbana a nivel provincial. Mientras la administración prioriza la gestión de la narrativa pública, el patrón de incendios masivos refleja tensiones entre el desarrollo vertical acelerado y la supervisión efectiva del riesgo contra incendios."
+  },
+  {
     "slug": "colapso-ruta-atlantica-expone-limites-contencion-b0ew",
     "path": "noticias/colapso-ruta-atlantica-expone-limites-contencion-b0ew/",
     "title": "El colapso de la ruta atlántica expone los límites de la contención migratoria europea",

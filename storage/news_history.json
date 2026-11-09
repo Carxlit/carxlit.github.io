@@ -120,9 +120,37 @@
     "https://www.infobae.com/mexico/deportes/2026/11/08/nba-ve-en-el-mercado-mexicano-una-oportunidad-inmejorable-para-expandirse-internacionalmente/",
     "https://www.dw.com/es/siete-muertos-y-112-heridos-en-accidente-de-trenes-en-egipto/a-79893139?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
-    "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf"
+    "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
+    "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "INCENDIO EN TAIYUAN EXPONE FALLAS EN INFRAESTRUCTURA URBANA CHINA",
+      "normalizedTokens": [
+        "incendio",
+        "taiyuan",
+        "expone",
+        "fallas",
+        "infraestructura",
+        "urbana",
+        "china"
+      ],
+      "date": "2026-11-09T06:16:44.147Z"
+    },
+    {
+      "title": "Incendio en complejo residencial en norte de China deja al mens 14 muertos",
+      "normalizedTokens": [
+        "incendio",
+        "complejo",
+        "residencial",
+        "norte",
+        "china",
+        "deja",
+        "mens",
+        "muertos"
+      ],
+      "date": "2026-11-09T06:16:44.145Z"
+    },
     {
       "title": "NAUFRAGIO EN SENEGAL EXPONE LA CRISIS FRONTERIZA EN CANARIAS",
       "normalizedTokens": [
