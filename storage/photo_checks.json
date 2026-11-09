@@ -408,5 +408,20 @@
     "relevant": true,
     "reason": "La imagen muestra las labores de rescate y los daños tras el choque de trenes reportado en la noticia.",
     "at": "2026-11-09T15:27:47.769Z"
+  },
+  "7109f07310626f82:l3p8lx6rc": {
+    "relevant": false,
+    "reason": "Muestra un incendio forestal y dos personas observándolo, lo cual no representa de manera directa una cumbre climática global o acuerdos de electrificación.",
+    "at": "2026-11-09T17:11:00.244Z"
+  },
+  "196a480d38af748f:l3p8lx6rc": {
+    "relevant": false,
+    "reason": "muestra a Ursula von der Leyen ante la bandera europea y no la cumbre del clima COP31 en Antalya ni el acuerdo de electrificación.",
+    "at": "2026-11-09T17:11:10.124Z"
+  },
+  "dd7ec1c595d1c703:l3p8lx6rc": {
+    "relevant": true,
+    "reason": "Muestra el cartel oficial de la COP31 en Antalya, Turquía, lugar central del titular.",
+    "at": "2026-11-09T17:11:14.732Z"
   }
 }
