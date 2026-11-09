@@ -122,9 +122,44 @@
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
     "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
     "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3F0cG9XZEVlN0pBaEFzQTlWdjFka082QUE5eDRWd0RUMEpvQURHTG4zNHVpb0haZ1E4OVFiQmFXaHE2djVpVHhCcHRzSXp4cWF4cmRDcnotMXRlZ3UwNXR4NHprdWZBMDZnMXBTWUFYRnE2QXAwTjJwQXh5eUR3eTlrR3ZsTVNJZ1E?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ATACANTE DE ULTRA DERECHA MATA A SEIS EN CRACOVIA Y MUERE",
+      "normalizedTokens": [
+        "atacante",
+        "ultra",
+        "derecha",
+        "mata",
+        "seis",
+        "cracovia",
+        "muere"
+      ],
+      "date": "2026-11-09T08:16:59.920Z"
+    },
+    {
+      "title": "Gunman with far-right views who killed 6 people in a Polish city square dies in hospital, police say",
+      "normalizedTokens": [
+        "gunman",
+        "with",
+        "far",
+        "right",
+        "views",
+        "who",
+        "killed",
+        "people",
+        "polish",
+        "city",
+        "square",
+        "dies",
+        "hospital",
+        "police",
+        "say"
+      ],
+      "date": "2026-11-09T08:16:59.919Z"
+    },
     {
       "title": "MUERE SUSPECTO DE ATAQUE EN CRACOVIA SIN ACLARAR MÓVIL",
       "normalizedTokens": [

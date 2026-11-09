@@ -363,5 +363,10 @@
     "relevant": true,
     "reason": "Muestra cinta de la policía polaca (POLICJA) y un vehículo policial en el entorno de la Plaza del Mercado Principal de Cracovia, lugar del ataque.",
     "at": "2026-11-09T08:01:22.506Z"
+  },
+  "4bd345321b9642f6:kofjz92tr": {
+    "relevant": false,
+    "reason": "la imagen muestra a manifestantes de extrema derecha en Estados Unidos y no el lugar ni al responsable del tiroteo en Cracovia, Polonia.",
+    "at": "2026-11-09T08:16:58.405Z"
   }
 }

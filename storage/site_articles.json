@@ -1,5 +1,94 @@
 [
   {
+    "slug": "tiroteo-cracovia-expone-brechas-inteligencia-ante-33ht",
+    "path": "noticias/tiroteo-cracovia-expone-brechas-inteligencia-ante-33ht/",
+    "title": "El tiroteo en Cracovia expone las brechas de inteligencia ante la extrema derecha",
+    "headline": "ATACANTE DE ULTRA DERECHA MATA A SEIS EN CRACOVIA Y MUERE",
+    "dek": "La muerte en el hospital del agresor que mató a seis personas en una plaza cierra la investigación judicial directa. El hecho vulnera la percepción de estabilidad en una de las ciudades más transitadas de Polonia.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "AP News",
+    "image": "img/tiroteo-cracovia-expone-brechas-inteligencia-ante-33ht.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "nyK-J7k_y8w",
+      "title": "Polish Gunman Kills Six In Krakow As Minister Reveals Far-Right Ties",
+      "channel": "New York Post"
+    },
+    "publishedAt": "2026-11-09T08:16:59.840Z",
+    "article": {
+      "slug": "tiroteo-cracovia-expone-brechas-inteligencia-ante-33ht",
+      "title": "El tiroteo en Cracovia expone las brechas de inteligencia ante la extrema derecha",
+      "dek": "La muerte en el hospital del agresor que mató a seis personas en una plaza cierra la investigación judicial directa. El hecho vulnera la percepción de estabilidad en una de las ciudades más transitadas de Polonia.",
+      "keyFacts": [
+        "Un atacante con posturas de extrema derecha mató a 6 personas en una plaza de Cracovia.",
+        "La policía de Polonia confirmó que el autor de los disparos falleció en el hospital.",
+        "Los reportes de prensa y fuentes policiales calificaron la matanza masiva como un evento inusual en el territorio polaco."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un ataque perpetrado en una plaza pública de Cracovia resultó en la muerte de seis personas y en la posterior muerte del agresor en un hospital local. De acuerdo con informes de AP News confirmados por la policía polaca, el individuo responsable mantenía posturas de extrema derecha documentadas por las fuerzas de seguridad.",
+            "El tiroteo provocó pánico entre residentes y turistas presentes en la zona céntrica. Tras ser neutralizado por los agentes desplegados en el lugar, el atacante fue trasladado bajo custodia médica a un centro hospitalario, donde se confirmó su deceso horas más tarde."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Polonia ha registrado de manera histórica índices bajos de agresiones armadas de carácter masivo en comparación con otras naciones de la región. Por esta razón, la incursión armada en un punto de alta concentración de visitantes generó una inmediata conmoción social e institucional.",
+            "El suceso se produce en un marco de atención creciente por parte de las agencias continentales hacia el surgimiento de discursos radicales. Sin embargo, la conversión de estas posturas en acciones armadas de gran escala continuaba siendo un fenómeno poco frecuente en las ciudades polacas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El fallecimiento del agresor extingue la posibilidad de someterlo a un proceso penal ordinario, lo que impide determinar mediante interrogatorios judiciales si actuó de forma aislada o si contó con logística y financiamiento de terceros. En la lectura analítica de Punto Ciego, este desenlace crea un vacío de información estratégica sobre el alcance real de la red extremista.",
+            "El enfoque de la cobertura masiva en la respuesta policial y el dolor de las víctimas tiende a diluir la responsabilidad de los organismos de ciberpatrullaje e inteligencia interna, los cuales no lograron interceptar las señales previas al ataque."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los estamentos de seguridad del Estado asumen un costo reputacional directo al quedar expuesta la falta de detección temprana en un espacio de alto flujo peatonal. Asimismo, la ciudadanía y el sector de servicios experimentan un deterioro inmediato en la sensación de seguridad urbana.",
+            "Por otro lado, la estructura ideológica tras el atacante evita el escrutinio judicial directo debido a la muerte del único imputado, limitando el desglose público de sus conexiones."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá dar seguimiento a las auditorías internas que ordene el ministerio del interior de Polonia respecto al historial del agresor y sus dispositivos electrónicos confiscados. De igual forma, será clave observar si el Parlamento impulsará modificaciones a los marcos de vigilancia digital para prevenir nuevos episodios violentos."
+          ]
+        }
+      ],
+      "tags": [
+        "Polonia",
+        "Cracovia",
+        "Seguridad",
+        "ExtremaDerecha",
+        "Inteligencia"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "title": "Gunman with far-right views who killed 6 people in a Polish city square dies in hospital, police say",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3F0cG9XZEVlN0pBaEFzQTlWdjFka082QUE5eDRWd0RUMEpvQURHTG4zNHVpb0haZ1E4OVFiQmFXaHE2djVpVHhCcHRzSXp4cWF4cmRDcnotMXRlZ3UwNXR4NHprdWZBMDZnMXBTWUFYRnE2QXAwTjJwQXh5eUR3eTlrR3ZsTVNJZ1E?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Tourists and locals recount fatal Krakow mass shooting that left Poland reeling",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLVNZTTBZRWJsZkR2Z2VjaUpJUGV2Znp1VFZIYUdqc2lxX3pQc1FvVENucFpLN0Z4STA4b2FfSldWODhRVFpvWGJ3T3I3MThqTm9KeDZNamZFaXc5VjJzb0FkdnpCd3Y5YTV1dGd5V1p0ZlRmTzNZVjNRcVFXY2ctV2FxVFZrMklVN2RidGU3NHFsMVpNMHVNVzZXOC1Pckh6SHlkNWRwend1NF9tS1JCc1BDcGpic0FQTjRxXzJKbTFWdw?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Poles mourn rare mass killing as authorities say attacker had far-right views",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQWlFX1lTRGtUeTRyQVdfSjgtNnlaZFhKckgtNFBaYlE0VXVDaXZJbUM3M2JHblY5S2dIWk1ZTVc1dTRvZGVoeFlCZTkxQUN4Ukd1UVBkblVXNzBzT3Z4elVMczV1VWRvX055MVFSck92UUd6RDRTaGtZWTB0SjJieDN1emFyYVdhY1BCdFBlNFRmZEFqMUZzZkZ5SHBRYzRlc2JJR2JlcHczNHVmWDNfdWdPWk9tV01SeGFBUmlZaw?oc=5"
+        }
+      ],
+      "wordCount": 435
+    },
+    "blindSpot": "El fallecimiento del agresor extingue la vía judicial inmediata para desarticular la red de radicalización que rodeó el ataque. Mientras la atención se centra en las honras fúnebres, la falla preventiva de los servicios de inteligencia sobre el extremismo en Europa Central queda archivada sin respuestas públicas."
+  },
+  {
     "slug": "muerte-atacante-cracovia-deja-vacios-inteligencia-8qj4",
     "path": "noticias/muerte-atacante-cracovia-deja-vacios-inteligencia-8qj4/",
     "title": "La muerte del atacante de Cracovia deja vacíos de inteligencia en Polonia",
