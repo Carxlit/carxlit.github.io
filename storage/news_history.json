@@ -121,9 +121,34 @@
     "https://www.dw.com/es/siete-muertos-y-112-heridos-en-accidente-de-trenes-en-egipto/a-79893139?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
     "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
-    "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "MUERE SUSPECTO DE ATAQUE EN CRACOVIA SIN ACLARAR MÓVIL",
+      "normalizedTokens": [
+        "muere",
+        "suspecto",
+        "ataque",
+        "cracovia",
+        "aclarar",
+        "movil"
+      ],
+      "date": "2026-11-09T08:01:24.981Z"
+    },
+    {
+      "title": "Muere el autor del atentado de Cracovia sin aclararse el móvil",
+      "normalizedTokens": [
+        "muere",
+        "autor",
+        "atentado",
+        "cracovia",
+        "aclararse",
+        "movil"
+      ],
+      "date": "2026-11-09T08:01:24.980Z"
+    },
     {
       "title": "INCENDIO EN TAIYUAN EXPONE FALLAS EN INFRAESTRUCTURA URBANA CHINA",
       "normalizedTokens": [
