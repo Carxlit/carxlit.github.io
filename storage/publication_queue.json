@@ -19752,12 +19752,13 @@
         "title": "Choque de trenes en Egipto: siete muertos y 112 heridos en la provincia de Giza",
         "channel": "RADAR · Prensa 3.0"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T20:13:05.612Z",
       "cardImageUrl": "/news-cards/news-h65czxg61-1794168785612.jpg",
       "reelCoverUrl": "/news-cards/news-h65czxg61-1794168786252-cover.jpg",
       "instagramCardUrl": "/news-cards/news-h65czxg61-1794168786845-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colision-trenes-egipto-persistente-vulnerabilidad-red-ht6c/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colision-trenes-egipto-persistente-vulnerabilidad-red-ht6c/",
+      "publishedAt": "2026-11-09T00:33:59.920Z"
     },
     "channels": {
       "facebook": true,
@@ -19771,10 +19772,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T00:31:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T20:13:08.118Z"
+    "createdAt": "2026-11-08T20:13:08.118Z",
+    "lastAttemptAt": "2026-11-09T00:32:07.244Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122107986465532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "132",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mztog2jqsm2n"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18091355537256335",
+        "permalink": "https://www.instagram.com/reel/DfgDYtJAfQN/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117583670470507274"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18016161032967486"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T00:33:59.920Z"
   },
   {
     "id": "queue-1794174048752-y2oew",
