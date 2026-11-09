@@ -1,5 +1,98 @@
 [
   {
+    "slug": "colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67",
+    "path": "noticias/colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67/",
+    "title": "Colisión ferroviaria en Guiza: la urgencia de infraestructura frente a la gestión estatal en Egipto",
+    "headline": "CHOQUE DE TRENES EN EGIPTO DEJA SIETE MUERTOS Y 125 HERIDOS",
+    "dek": "Un choque entre dos trenes en la provincia de Guiza dejó un saldo de siete muertos y 125 heridos, reavivando el debate sobre el deterioro crónico de la red de transportes del país.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Euronews",
+    "image": "img/colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67.jpg",
+    "photo": "img/colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "095mK3ioNho",
+      "title": "Breaking News 7 Dead, 125 Injured as Two Trains Collide in Egypt | #breakingnews #worldnews",
+      "channel": "ZAVIQON NEWS",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-09T15:27:50.100Z",
+    "article": {
+      "slug": "colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67",
+      "title": "Colisión ferroviaria en Guiza: la urgencia de infraestructura frente a la gestión estatal en Egipto",
+      "dek": "Un choque entre dos trenes en la provincia de Guiza dejó un saldo de siete muertos y 125 heridos, reavivando el debate sobre el deterioro crónico de la red de transportes del país.",
+      "keyFacts": [
+        "El accidente ocurrió en la provincia de Guiza, a unos 52 kilómetros al sur de El Cairo.",
+        "El saldo confirmado es de siete muertos y 125 heridos según las autoridades.",
+        "El desastre ferroviario más mortífero de la historia del país ocurrió en el año 2002 con más de 300 fallecidos.",
+        "El presidente Abdel-Fattah el-Sissi ordenó una investigación urgente sobre las causas del impacto."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El domingo, un tren que se dirigía hacia Fayoum impactó la parte trasera de un convoy de pasajeros que se encontraba estacionado con destino a Asuán. El suceso tuvo lugar en la provincia de Guiza, situada a unos 52 kilómetros al sur de la capital egipcia, según informó el Ministerio de Transporte.",
+            "Testigos presenciales en la zona describieron el impacto y el sonido de los vagones volcándose antes de que los equipos de emergencia y rescate se desplazaran al lugar con grúas para retirar los escombros. Por su parte, el Ministerio de Salud indicó que más de 70 de los heridos ya recibieron el alta hospitalaria tras ser atendidos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El accidente ha devuelto la atención pública hacia los persistentes problemas de seguridad, mantenimiento y gestión que arrastra la red ferroviaria de Egipto desde hace décadas. La falta de modernización integral en el sistema de transporte terrestre ha sido un desafío constante para las administraciones sucesivas.",
+            "Para contextualizar la magnitud histórica de la crisis en el sector, el peor desastre ferroviario registrado en el país ocurrió en el año 2002, cuando un incendio a bordo de un tren que viajaba desde El Cairo hacia el sur dejó más de 300 víctimas mortales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la cobertura informativa convencional se limita a reseñar el número de víctimas, las declaraciones oficiales y la respuesta de los servicios de emergencia, el verdadero trasfondo radica en las prioridades de asignación de recursos del Estado egipcio.",
+            "La persistencia de fallas catastróficas en servicios públicos básicos contrasta con los enormes desembolsos destinados a megaproyectos urbanísticos y de transporte de alta visibilidad política, dejando desatendida la columna vertebral del transporte de pasajeros de la clase trabajadora."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano político, el gobierno de Abdel-Fattah el-Sissi asume el costo reputacional inmediato y la presión para demostrar capacidad de respuesta a través de comisiones de investigación y despliegue de recursos.",
+            "Por el contrario, los usuarios cotidianos de la red ferroviaria continúan absorbiendo el riesgo estructural de un sistema que no recibe la inversión de fondo necesaria para garantizar estándares mínimos de seguridad operativa."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear los resultados de la investigación oficial ordenada por la presidencia y verificar si las promesas de mejora presupuestaria se traducen en contratos de mantenimiento reales o quedan en medidas de contención temporal.",
+            "Asimismo, debe observarse el impacto político de este tipo de siniestros en el malestar social acumulado frente a la gestión económica del Estado."
+          ]
+        }
+      ],
+      "tags": [
+        "Egipto",
+        "Infraestructura",
+        "Transporte",
+        "Guiza",
+        "Política"
+      ],
+      "sources": [
+        {
+          "name": "Euronews",
+          "title": "Egypt: Seven dead, 125 injured in collision between two trains",
+          "url": "https://www.euronews.com/video/2026/11/09/egypt-seven-dead-125-injured-in-collision-between-two-trains"
+        },
+        {
+          "name": "Libertad Digital",
+          "title": "Al menos siete muertos y 125 heridos tras el descarrilamiento de un tren en Egipto",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ3lTaV9HSzdHUU9LSGlBejVGVmRqQ2paa1RjMnZUdFcwM21WTGNfaE1MUlFzM1d2R3RwTnFnZi1jdVZFaHh5dFROMm9FeDFOQXEta1lZQmtoNkRFXzc5dzBoZlpCYTFtX25Val9QZGpHQXkzS040Q09EaWliNmRBM3oyMnlzN2VIRzJ4QWE1OXBDemVwTndrX2JIOURDZEs3b0pBX1lBcElxOXYzOG9BLXNZWlNqNzhJZDRLV1VwelNZLXJFNDFsZVo3Q1B5T29QLXJYb3pIOWkzSGJQM0dybE50aUJLY0dfN2fSAfQBQVVfeXFMTXhoNkhjdjJ0bU1INmpiNUJLanNFSU9kUUJWWFhLWWdnOXExZjBuTjFpRDFPZ0FGamlLdDNwUGNFZkpUdi1oWjUzNmpGU29ORWQ2anZyMXBXUnpCbFdCX2NhQ1hDZDg4czlkWnE4VkgxenFXOUN5RllSNHdiNHhndExyU0EybmgtRVdGYmlOU1Zjel9TdzdveUdMT3lLelQyTXUxMUd5SWk3akFGZjZ0bmIzTkpUWk40cFNyVnRNUElOVXY4LUdfTDVVOEZqdDBsVDNJUXB4Wl9aSWU0QnVCYlVKWWNINC1yRVpyQmFjWldxcjk5RA?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Collision between 2 trains in Egypt kills 7 and injures at least 125",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3pjZGhnMzVNel92a0h1dEZZWEg4QXRFaVlYMkJIclkyQWVTLUVEbHE5cjk1Nmc2eUlyQkptcms3eDBrNmJJMlZTQlVrYVpyN3hmbW9wSlQ1Ump5VlR2ZUpVTW9nQVU4MDV5dkxiSTZpUWYxeGVQTnFtcnp5eUU5SjNJWlBsMzF4ZkgyQmQ4SFJSSmR3d1hUdkQxRkNZOE5md3NFMXNmaVMwandqTTJVZkNTTQ?oc=5"
+        }
+      ],
+      "wordCount": 433
+    },
+    "blindSpot": "Mientras el relato oficial se concentra en la respuesta de emergencia y las promesas de investigación del presidente el-Sissi, el verdadero trasfondo es la crónica incapacidad estructural del Estado egipcio para modernizar servicios públicos básicos mientras prioriza megaproyectos urbanísticos faraónicos."
+  },
+  {
     "slug": "investigacion-jensen-huang-nvidia-expone-riesgos-i949",
     "path": "noticias/investigacion-jensen-huang-nvidia-expone-riesgos-i949/",
     "title": "La investigación a Jensen Huang en Nvidia expone los riesgos de seguridad en la cúpula de la inteligencia artificial",

@@ -130,9 +130,39 @@
     "https://www.genbeta.com/actualidad/bill-gates-advierte-agitacion-economico-social-durante-20-anos-debido-a-ia",
     "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWs1eXRTU3RHakFNeWRLY1JKZWZPZkFGNVgyT0pXRG1kR0lNOWttbDM1MXRBQ0JhZnZTbkFoSzEwdTBBdFhHaExQOXBWWWV0SWZPa0NyVlZKdGtXb29QdVJGWHVabF9WMDNfYXFUa0Vrc0doLUotVlVmWHRjdUV0Q19UVktFZUlOekdiUEFsREh4MjhC?oc=5",
-    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16cDRoNFlrYnJfbGhvN0dSZklUUGM4ZnlRRm5mM0h4bVdJNmxzVUdvbS1NUzVfVUNobzRWVnJKcFk5Q1FtSVFHazRwTmV5bVpPMWItWGRWNk5ORklz0gFiQVVfeXFMTmY3MjRteXZaWF9QMG1UWWt0ODd6TVVyak8wVDg3Y1VIZ3lnbTA0cGUyRVN6a1Z1aml1MDJ5N3dGWGxGckZhMk5NN3A5MzFQYThHd0VLUGwtQXZULU5WZmNsVHc?oc=5"
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16cDRoNFlrYnJfbGhvN0dSZklUUGM4ZnlRRm5mM0h4bVdJNmxzVUdvbS1NUzVfVUNobzRWVnJKcFk5Q1FtSVFHazRwTmV5bVpPMWItWGRWNk5ORklz0gFiQVVfeXFMTmY3MjRteXZaWF9QMG1UWWt0ODd6TVVyak8wVDg3Y1VIZ3lnbTA0cGUyRVN6a1Z1aml1MDJ5N3dGWGxGckZhMk5NN3A5MzFQYThHd0VLUGwtQXZULU5WZmNsVHc?oc=5",
+    "https://www.euronews.com/video/2026/11/09/egypt-seven-dead-125-injured-in-collision-between-two-trains"
   ],
   "processedSignatures": [
+    {
+      "title": "CHOQUE DE TRENES EN EGIPTO DEJA SIETE MUERTOS Y 125 HERIDOS",
+      "normalizedTokens": [
+        "choque",
+        "trenes",
+        "egipto",
+        "deja",
+        "siete",
+        "muertos",
+        "125",
+        "heridos"
+      ],
+      "date": "2026-11-09T15:27:50.230Z"
+    },
+    {
+      "title": "Egypt: Seven dead, 125 injured in collision between two trains",
+      "normalizedTokens": [
+        "egypt",
+        "seven",
+        "dead",
+        "125",
+        "injured",
+        "collision",
+        "between",
+        "two",
+        "trains"
+      ],
+      "date": "2026-11-09T15:27:50.228Z"
+    },
     {
       "title": "INVESTIGAN A CEO DE NVIDIA POR PRESUNTA ESPÍA CHINA",
       "normalizedTokens": [
