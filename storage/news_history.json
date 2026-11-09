@@ -124,9 +124,41 @@
     "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf",
     "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3F0cG9XZEVlN0pBaEFzQTlWdjFka082QUE5eDRWd0RUMEpvQURHTG4zNHVpb0haZ1E4OVFiQmFXaHE2djVpVHhCcHRzSXp4cWF4cmRDcnotMXRlZ3UwNXR4NHprdWZBMDZnMXBTWUFYRnE2QXAwTjJwQXh5eUR3eTlrR3ZsTVNJZ1E?oc=5",
-    "https://es.wired.com/articulos/que-paso-con-ueno-el-banco-digital-cuya-caida-derivo-en-una-crisis-politica-y-dudas-sobre-la-seguridad-de-las-fintech"
+    "https://es.wired.com/articulos/que-paso-con-ueno-el-banco-digital-cuya-caida-derivo-en-una-crisis-politica-y-dudas-sobre-la-seguridad-de-las-fintech",
+    "https://www.xataka.com/ecologia-y-naturaleza/necesario-declarar-estado-emergencia-sanitaria-mundial-cientificos-testigos-punto-inflexion-calentamiento-global"
   ],
   "processedSignatures": [
+    {
+      "title": "EXIGEN DECLARAR EMERGENCIA SANITARIA GLOBAL POR CAMBIO CLIMÁTICO",
+      "normalizedTokens": [
+        "exigen",
+        "declarar",
+        "emergencia",
+        "sanitaria",
+        "global",
+        "cambio",
+        "climatico"
+      ],
+      "date": "2026-11-09T11:27:26.374Z"
+    },
+    {
+      "title": "“Es necesario declarar un estado de emergencia sanitaria mundial”: los científicos son testigos de un punto de inflexión en el calentamiento global",
+      "normalizedTokens": [
+        "necesario",
+        "declarar",
+        "estado",
+        "emergencia",
+        "sanitaria",
+        "mundial",
+        "cientificos",
+        "testigos",
+        "punto",
+        "inflexion",
+        "calentamiento",
+        "global"
+      ],
+      "date": "2026-11-09T11:27:26.373Z"
+    },
     {
       "title": "DISOLUCIÓN DE UENO BANK DERRIBA AL GOBIERNO EN PARAGUAY",
       "normalizedTokens": [
