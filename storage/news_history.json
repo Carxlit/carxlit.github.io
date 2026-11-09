@@ -129,9 +129,38 @@
     "https://www.xataka.com/magnet/pueblo-guadalajara-quiere-independizarse-castilla-mancha-anexionarse-a-comunidad-madrid",
     "https://www.genbeta.com/actualidad/bill-gates-advierte-agitacion-economico-social-durante-20-anos-debido-a-ia",
     "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
-    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWs1eXRTU3RHakFNeWRLY1JKZWZPZkFGNVgyT0pXRG1kR0lNOWttbDM1MXRBQ0JhZnZTbkFoSzEwdTBBdFhHaExQOXBWWWV0SWZPa0NyVlZKdGtXb29QdVJGWHVabF9WMDNfYXFUa0Vrc0doLUotVlVmWHRjdUV0Q19UVktFZUlOekdiUEFsREh4MjhC?oc=5"
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWs1eXRTU3RHakFNeWRLY1JKZWZPZkFGNVgyT0pXRG1kR0lNOWttbDM1MXRBQ0JhZnZTbkFoSzEwdTBBdFhHaExQOXBWWWV0SWZPa0NyVlZKdGtXb29QdVJGWHVabF9WMDNfYXFUa0Vrc0doLUotVlVmWHRjdUV0Q19UVktFZUlOekdiUEFsREh4MjhC?oc=5",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16cDRoNFlrYnJfbGhvN0dSZklUUGM4ZnlRRm5mM0h4bVdJNmxzVUdvbS1NUzVfVUNobzRWVnJKcFk5Q1FtSVFHazRwTmV5bVpPMWItWGRWNk5ORklz0gFiQVVfeXFMTmY3MjRteXZaWF9QMG1UWWt0ODd6TVVyak8wVDg3Y1VIZ3lnbTA0cGUyRVN6a1Z1aml1MDJ5N3dGWGxGckZhMk5NN3A5MzFQYThHd0VLUGwtQXZULU5WZmNsVHc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "INVESTIGAN A CEO DE NVIDIA POR PRESUNTA ESPÍA CHINA",
+      "normalizedTokens": [
+        "investigan",
+        "ceo",
+        "nvidia",
+        "presunta",
+        "espia",
+        "china"
+      ],
+      "date": "2026-11-09T14:18:51.948Z"
+    },
+    {
+      "title": "Nvidia inicia una investigación sobre la relación extramatrimonial de su director ejecutivo con una presunta espía china.",
+      "normalizedTokens": [
+        "nvidia",
+        "inicia",
+        "investigacion",
+        "relacion",
+        "extramatrimonial",
+        "director",
+        "ejecutivo",
+        "presunta",
+        "espia",
+        "china"
+      ],
+      "date": "2026-11-09T14:18:51.947Z"
+    },
     {
       "title": "CAE EL VALOR DEL COBRE CHILENO EN OCTUBRE",
       "normalizedTokens": [
