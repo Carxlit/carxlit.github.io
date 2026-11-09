@@ -20477,12 +20477,13 @@
         "title": "El momento en el que un policía disparar al autor del atentado en Cracovia #shorts",
         "channel": "EL PAÍS"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T08:01:22.508Z",
       "cardImageUrl": "/news-cards/news-90o1be812-1794211282508.jpg",
       "reelCoverUrl": "/news-cards/news-90o1be812-1794211283336-cover.jpg",
       "instagramCardUrl": "/news-cards/news-90o1be812-1794211283847-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/muerte-atacante-cracovia-deja-vacios-inteligencia-8qj4/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/muerte-atacante-cracovia-deja-vacios-inteligencia-8qj4/",
+      "publishedAt": "2026-11-09T08:04:17.712Z"
     },
     "channels": {
       "facebook": true,
@@ -20496,10 +20497,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T08:01:24.965Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-09T08:01:24.965Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-09T08:02:09.697Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108206275532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "136",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzuhktmmub2w"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18090206897701316",
+        "permalink": "https://www.instagram.com/reel/Dfg265fkxHR/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117585441094007211"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17954468853344595"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T08:04:17.712Z"
   }
 ]
