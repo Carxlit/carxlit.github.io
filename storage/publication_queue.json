@@ -20108,12 +20108,13 @@
         "title": "At least 21 killed after migrant boat sinks off Senegal",
         "channel": "WorldNewsin60"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T05:01:28.914Z",
       "cardImageUrl": "/news-cards/news-g681omupw-1794200488915.jpg",
       "reelCoverUrl": "/news-cards/news-g681omupw-1794200489630-cover.jpg",
       "instagramCardUrl": "/news-cards/news-g681omupw-1794200490161-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colapso-ruta-atlantica-expone-limites-contencion-b0ew/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colapso-ruta-atlantica-expone-limites-contencion-b0ew/",
+      "publishedAt": "2026-11-09T05:04:16.798Z"
     },
     "channels": {
       "facebook": true,
@@ -20127,10 +20128,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T05:01:31.293Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-09T05:01:31.293Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-09T05:02:13.776Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108133063532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "134",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzu5j5zkwg2w"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18120808780958147",
+        "permalink": "https://www.instagram.com/reel/DfgiUUHEp3Y/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117584733248974615"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17947942140362484"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T05:04:16.798Z"
   }
 ]
