@@ -127,9 +127,39 @@
     "https://es.wired.com/articulos/que-paso-con-ueno-el-banco-digital-cuya-caida-derivo-en-una-crisis-politica-y-dudas-sobre-la-seguridad-de-las-fintech",
     "https://www.xataka.com/ecologia-y-naturaleza/necesario-declarar-estado-emergencia-sanitaria-mundial-cientificos-testigos-punto-inflexion-calentamiento-global",
     "https://www.xataka.com/magnet/pueblo-guadalajara-quiere-independizarse-castilla-mancha-anexionarse-a-comunidad-madrid",
-    "https://www.genbeta.com/actualidad/bill-gates-advierte-agitacion-economico-social-durante-20-anos-debido-a-ia"
+    "https://www.genbeta.com/actualidad/bill-gates-advierte-agitacion-economico-social-durante-20-anos-debido-a-ia",
+    "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang"
   ],
   "processedSignatures": [
+    {
+      "title": "VINCULAN A EMPRESARIA CHINA CON OPERACIÓN DE ESPIONAJE CONTRA NVIDIA",
+      "normalizedTokens": [
+        "vinculan",
+        "empresaria",
+        "china",
+        "operacion",
+        "espionaje",
+        "nvidia"
+      ],
+      "date": "2026-11-09T12:28:37.933Z"
+    },
+    {
+      "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
+      "normalizedTokens": [
+        "who",
+        "alice",
+        "huang",
+        "the",
+        "alleged",
+        "chinese",
+        "spy",
+        "linked",
+        "nvidia",
+        "jensen",
+        "huang"
+      ],
+      "date": "2026-11-09T12:28:37.932Z"
+    },
     {
       "title": "BILL GATES ADVIERTE DOS DÉCADAS DE AGITACIÓN SOCIAL POR LA IA",
       "normalizedTokens": [

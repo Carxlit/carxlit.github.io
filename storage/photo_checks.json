@@ -388,5 +388,10 @@
     "relevant": true,
     "reason": "La imagen muestra claramente a Bill Gates, el protagonista de la noticia, gesticulando en un contexto acorde al tema.",
     "at": "2026-11-09T11:46:33.354Z"
+  },
+  "472f92f60c92e102:ktp5djqal": {
+    "relevant": true,
+    "reason": "La imagen muestra a Jensen Huang rodeado de personas, lo cual coincide contextualmente con el entorno cercano mencionado en la noticia sobre la operación de espionaje.",
+    "at": "2026-11-09T12:28:35.646Z"
   }
 }
