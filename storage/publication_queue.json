@@ -21347,12 +21347,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://i.blogs.es/2d5c1e/bill-gates/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T11:46:34.655Z",
       "cardImageUrl": "/news-cards/news-vk1wgkqw7-1794224794655.jpg",
       "reelCoverUrl": "/news-cards/news-vk1wgkqw7-1794224795353-cover.jpg",
       "instagramCardUrl": "/news-cards/news-vk1wgkqw7-1794224795853-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/dos-decadas-turbulencia-social-industria-tecnologica-lokt/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/dos-decadas-turbulencia-social-industria-tecnologica-lokt/",
+      "publishedAt": "2026-11-09T14:17:07.476Z"
     },
     "channels": {
       "facebook": true,
@@ -21366,10 +21367,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T14:14:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T11:46:36.927Z"
+    "createdAt": "2026-11-09T11:46:36.927Z",
+    "lastAttemptAt": "2026-11-09T14:14:44.453Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108381529532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "141",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzv4f4et462i"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18101909060345018",
+        "permalink": "https://www.instagram.com/reel/DfhhlU9iVdb/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117586907254093503"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17900453721393243"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T14:17:07.476Z"
   },
   {
     "id": "queue-1794227317925-kj01g",
