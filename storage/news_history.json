@@ -134,9 +134,39 @@
     "https://www.euronews.com/video/2026/11/09/egypt-seven-dead-125-injured-in-collision-between-two-trains",
     "https://theconversation.com/hacia-donde-van-las-negociaciones-sobre-el-clima-de-la-cop31-mas-electricidad-para-salvar-el-mundo-296161",
     "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
-    "https://es.euronews.com/video/2026/11/09/argentina-el-papa-leo-xiv-recibe-calida-bienvenida-en-claypole"
+    "https://es.euronews.com/video/2026/11/09/argentina-el-papa-leo-xiv-recibe-calida-bienvenida-en-claypole",
+    "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable"
   ],
   "processedSignatures": [
+    {
+      "title": "FRANCIA SEÑALA A IRÁN POR SABOTAJE DIGITAL A FRIGORÍFICOS",
+      "normalizedTokens": [
+        "francia",
+        "senala",
+        "iran",
+        "sabotaje",
+        "digital",
+        "frigorificos"
+      ],
+      "date": "2026-11-09T20:56:03.235Z"
+    },
+    {
+      "title": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
+      "normalizedTokens": [
+        "ciberataques",
+        "frigorificos",
+        "supermercados",
+        "europeos",
+        "dieron",
+        "vuelta",
+        "mundo",
+        "francia",
+        "acaba",
+        "senalar",
+        "responsable"
+      ],
+      "date": "2026-11-09T20:56:03.234Z"
+    },
     {
       "title": "EL PAPA LEÓN XIV DESAFÍA LA AUSTERIDAD ARGENTINA",
       "normalizedTokens": [

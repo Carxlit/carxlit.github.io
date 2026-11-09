@@ -22599,5 +22599,130 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-09T19:13:22.934Z"
+  },
+  {
+    "id": "queue-1794257763222-oc6uk",
+    "news": {
+      "id": "9t45xk4tv",
+      "originalUrl": "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
+      "originalTitle": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "FRANCIA SEÑALA A IRÁN POR SABOTAJE DIGITAL A FRIGORÍFICOS",
+      "subHeadline": "La inteligencia francesa atribuyó a la Guardia Revolucionaria iraní los ciberataques contra unos 700 establecimientos comerciales que alteraron sistemas de frío.",
+      "blindSpotAngle": "Más allá de la tensión diplomática con Teherán, el verdadero punto ciegó es la obsolescencia endémica del software en infraestructuras comerciales cotidianas y la falta de regulación sobre el control remoto industrial, un flanco desatendido por las políticas de ciberseguridad estatales.",
+      "facebookPost": "Un ciberataque ya no es solo robar datos o bloquear pantallas. La noche del 11 al 12 de octubre, unos 700 supermercados y comercios en Francia sufrieron una alteración remota de sus sistemas de refrigeración que pudrió toneladas de alimentos y provocó 15 incendios. La narrativa oficial apunta directamente a la unidad Shahid Kaveh de la Guardia Revolucionaria iraní, según el informe de inteligencia galo.\n\nSin embargo, el trasfondo incómodo revela la extrema vulnerabilidad de los equipos comerciales antiguos y el software desactualizado que gestionan la cadena de frío europea, un eslabón crítico expuesto a intrusiones físicas mediante comandos digitales.\n\n¿Hasta qué punto la digitalización de infraestructuras básicas se ha convertido en una amenaza invisible para la seguridad alimentaria?\n\nFuente: Xataka\n\n#Tecnología #Ciberseguridad #PuntoCiego",
+      "telegramPost": "<b>FRANCIA SEÑALA A IRÁN POR SABOTAJE DIGITAL A FRIGORÍFICOS</b>\n\n• <b>Qué ocurrió:</b> Entre el 11 y el 12 de octubre, sistemas de refrigeración de unos 700 establecimientos en Francia fueron manipulados remotamente, provocando la pérdida masiva de alimentos y al menos 15 incendios en instalaciones comerciales.\n• <b>Por qué importa:</b> El gobierno francés atribuyó oficialmente la ofensiva a la unidad Shahid Kaveh de la Guardia Revolucionaria iraní, marcando un salto cualitativo al llevar el sabotaje informático a la destrucción física de suministros.\n• <b>Qué sigue:</b> El ministro de Exteriores francés, Jean-Noël Barrot, convocó al embajador iraní y promueve sanciones europeas, mientras la agencia ENISA investiga nuevas oleadas en otros países europeos.",
+      "linkedInPost": "La convergencia entre el entorno digital y el físico ha dejado de ser una advertencia teórica para convertirse en un riesgo directo para las cadenas de valor y la estabilidad comercial. La atribución por parte de Francia de los sabotajes a sistemas de refrigeración en supermercados a la Guardia Revolucionaria iraní evidencia cómo la infraestructura crítica comercial carece de los estándares de resiliencia exigidos en sectores como el financiero o el energético. Con pérdidas estimadas en varias decenas de millones de euros solo en el sector minorista francés y afectaciones puntuales en reservas de plasma y bases militares en EE. UU., el desafío regulatorio e industrial radica en auditar el software heredado y los accesos remotos de terceros.\n\nFuente: Xataka\n\n#Ciberseguridad #CadenaDeSuministro #PuntoCiego",
+      "blueskyPost": "Francia acusa a la Guardia Revolucionaria iraní por sabotear sistemas de frío en 700 supermercados, causando incendios y pérdida de alimentos. El verdadero fallo: software obsoleto en la cadena de frío. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "Un ciberataque ya no es solo robar datos o bloquear pantallas. La noche del 11 al 12 de octubre, unos 700 supermercados y comercios en Francia sufrieron una alteración remota de sus sistemas de refrigeración que pudrió toneladas de alimentos y provocó 15 incendios. La narrativa oficial apunta directamente a la unidad Shahid Kaveh de la Guardia Revolucionaria iraní, según el informe de inteligencia galo.\n\nSin embargo, el trasfondo incómodo revela la extrema vulnerabilidad de los equipos comerciales antiguos y el software desactualizado que gestionan la cadena de frío europea, un eslabón crítico expuesto a intrusiones físicas mediante comandos digitales.\n\n¿Hasta qué punto la digitalización de infraestructuras básicas se ha convertido en una amenaza invisible para la seguridad alimentaria? \n\n#Tecnología #Ciberseguridad #PuntoCiego",
+        "telegram": "<b>FRANCIA SEÑALA A IRÁN POR SABOTAJE DIGITAL A FRIGORÍFICOS</b>\n\n• <b>Qué ocurrió:</b> Entre el 11 y el 12 de octubre, sistemas de refrigeración de unos 700 establecimientos en Francia fueron manipulados remotamente, provocando la pérdida masiva de alimentos y al menos 15 incendios en instalaciones comerciales.\n• <b>Por qué importa:</b> El gobierno francés atribuyó oficialmente la ofensiva a la unidad Shahid Kaveh de la Guardia Revolucionaria iraní, marcando un salto cualitativo al llevar el sabotaje informático a la destrucción física de suministros.\n• <b>Qué sigue:</b> El ministro de Exteriores francés, Jean-Noël Barrot, convocó al embajador iraní y promueve sanciones europeas, mientras la agencia ENISA investiga nuevas oleadas en otros países europeos.",
+        "bluesky": "Francia acusa a la Guardia Revolucionaria iraní por sabotear sistemas de frío en 700 supermercados, causando incendios y pérdida de alimentos. El verdadero fallo: software obsoleto en la cadena de frío. #PuntoCiego #Tecnología",
+        "linkedIn": "La convergencia entre el entorno digital y el físico ha dejado de ser una advertencia teórica para convertirse en un riesgo directo para las cadenas de valor y la estabilidad comercial. La atribución por parte de Francia de los sabotajes a sistemas de refrigeración en supermercados a la Guardia Revolucionaria iraní evidencia cómo la infraestructura crítica comercial carece de los estándares de resiliencia exigidos en sectores como el financiero o el energético. Con pérdidas estimadas en varias decenas de millones de euros solo en el sector minorista francés y afectaciones puntuales en reservas de plasma y bases militares en EE. UU., el desafío regulatorio e industrial radica en auditar el software heredado y los accesos remotos de terceros. #Ciberseguridad #CadenaDeSuministro #PuntoCiego"
+      },
+      "article": {
+        "slug": "cuando-ciberespacio-quema-alimentos-sabotaje-frigorificos-5q2y",
+        "title": "Cuando el ciberespacio quema alimentos: el sabotaje a los frigoríficos europeos",
+        "dek": "Francia responsabiliza a la Guardia Revolucionaria iraní por los ataques informáticos contra sistemas de refrigeración comercial que destruyeron mercancías y provocaron incendios. El incidente expone la fragilidad de la infraestructura conectada en Europa.",
+        "keyFacts": [
+          "La campaña principal de sabotaje ocurrió la noche del 11 al 12 de octubre en Francia.",
+          "Afectó a unos 700 establecimientos comerciales, principalmente supermercados.",
+          "El informe francés identifica a la unidad Shahid Kaveh y a tres presuntos implicados.",
+          "Se registraron al menos 15 incendios y pérdidas estimadas en varias decenas de millones de euros.",
+          "La agencia europea ENISA confirmó una nueva oleada los días 1 y 2 de noviembre en Europa."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Durante la noche del 11 al 12 de octubre, una serie de intrusiones digitales afectó de manera simultánea a los sistemas de refrigeración comercial en territorio francés. Según el informe de las autoridades recogido por Reuters, la ofensiva impactó a unos 700 establecimientos, abarcando supermercados, carnicerías y centros de procesamiento de alimentos.",
+              "Las consecuencias traspasaron las pantallas para manifestarse en los pasillos de los comercios. Empleados debieron retirar carne en descomposición y helados derretidos hacia grandes contenedores, mientras que la manipulación de los ciclos de desescarche elevó la temperatura de algunos equipos hasta provocar al menos 15 incendios en las instalaciones."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Los equipos de refrigeración comercial dependen de controladores electrónicos y conexiones remotas que regulan parámetros como la temperatura y el desescarche. De acuerdo con la Fiscalía de París, los atacantes accedieron a estos paneles de administración a distancia, alterando los ciclos térmicos y desactivando las alertas de seguridad.",
+              "El 9 de noviembre, el gobierno francés formalizó la atribución del ataque a la Guardia Revolucionaria iraní. El informe conjunto de inteligencia y ciberseguridad señala a la unidad Shahid Kaveh y menciona a tres presuntos implicados: Hamid Reza Lashgarian, Mahdi Lashgarian y Reza Salarvand. Los investigadores basaron su conclusión en similitudes operativas, rastros de lengua persa y direcciones IP vinculadas a dispositivos en Irán."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "La discusión pública se ha centrado en la disputa diplomática y la identificación de los presuntos autores estatales, pero el flanco más frágil permanece desatendido: la obsolescencia y falta de seguridad en el software heredado que gestiona la cadena de frío comercial.",
+              "Muchos de estos dispositivos operan con sistemas antiguos cuyas interfaces remotas carecen de los cortafuegos y protocolos de encriptación habituales en otras infraestructuras críticas. El sabotaje demuestra que las instalaciones cotidianas de suministro alimentario funcionan con vulnerabilidades estructurales que ningún marco regulatorio actual obliga a actualizar con urgencia."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "El sector minorista francés asume un costo económico severo. Thierry Cotillard, presidente de Les Mousquetaires, estimó que el perjuicio conjunto para las empresas del sector ascenderá a varias decenas de millones de euros. Asimismo, servicios esenciales como los centros de sangre de la EFS en Francia debieron reaccionar ante intentos de intrusión.",
+              "En el plano geopolítico, el ejecutivo francés liderado por el ministro de Exteriores, Jean-Noël Barrot, gana terreno al convocar al embajador iraní y presionar para la adopción de sanciones europeas, elevando la confrontación tecnológica a un asunto de seguridad exterior."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "La expansión del fenómeno fuera de las fronteras francesas es el principal indicador a seguir. La agencia europea ENISA ya confirmó una nueva oleada de incidentes los días 1 y 2 de noviembre que afectó a más de 100 establecimientos en Europa, mientras en Estados Unidos se investigan fallos similares en instalaciones de abastecimiento militar.",
+              "La evolución de las sanciones diplomáticas y la respuesta de la Unión Europea ante la vulnerabilidad de las redes de frío industrial marcarán el estándar futuro para la protección de infraestructuras comerciales interconectadas."
+            ]
+          }
+        ],
+        "tags": [
+          "Ciberseguridad",
+          "Francia",
+          "Iran",
+          "Infraestructura Critica",
+          "Tecnologia"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
+            "url": "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable"
+          }
+        ],
+        "wordCount": 516
+      },
+      "videoScript": {
+        "hook": "Un ciberataque quemó supermercados y pudrió comida en Europa",
+        "beats": [
+          "Durante octubre, unos 700 establecimientos sufrieron una manipulación remota de sus sistemas de frío.",
+          "Francia atribuyó el sabotaje a la Guardia Revolucionaria iraní tras detectar 15 incendios.",
+          "El punto ciego es el software obsoleto que protege nuestra comida."
+        ],
+        "close": "Lee el análisis completo en el enlace del perfil."
+      },
+      "sourceVideo": {
+        "provider": "youtube",
+        "id": "nPPGMJA80iw",
+        "title": "Francia acusa a Irán de los ciberataques que dañaron frigoríficos de supermercados",
+        "channel": "RADAR · Prensa 3.0"
+      },
+      "status": "pending",
+      "createdAt": "2026-11-09T20:56:01.421Z",
+      "cardImageUrl": "/news-cards/news-9t45xk4tv-1794257761421.jpg",
+      "reelCoverUrl": "/news-cards/news-9t45xk4tv-1794257762161-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-9t45xk4tv-1794257762644-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cuando-ciberespacio-quema-alimentos-sabotaje-frigorificos-5q2y/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-10T00:28:29.060Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-09T20:56:03.223Z"
   }
 ]

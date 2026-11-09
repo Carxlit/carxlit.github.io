@@ -433,5 +433,20 @@
     "relevant": true,
     "reason": "La imagen muestra al Papa León XIV en una visita pública rodeado de personas, lo que ilustra adecuadamente su llegada y contacto con la gente en el contexto de su gira.",
     "at": "2026-11-09T19:13:18.975Z"
+  },
+  "7b6b674f678ac4be:9t45xk4tv": {
+    "relevant": false,
+    "reason": "Muestra estanterías vacías de un supermercado, lo cual no ilustra un ciberataque a sistemas de frío de frigoríficos.",
+    "at": "2026-11-09T20:55:51.926Z"
+  },
+  "5ed7844e0908ee52:9t45xk4tv": {
+    "relevant": false,
+    "reason": "Es una ilustración abstracta y genérica de ciberseguridad, no muestra a los protagonistas, instituciones o el sabotaje específico mencionado.",
+    "at": "2026-11-09T20:55:57.717Z"
+  },
+  "ba23fba818289e32:9t45xk4tv": {
+    "relevant": false,
+    "reason": "La imagen es un gráfico educativo genérico sobre el concepto de ciberespacio y redes sociales, no sobre un sabotaje digital específico de Irán a frigoríficos franceses.",
+    "at": "2026-11-09T20:56:01.420Z"
   }
 }
