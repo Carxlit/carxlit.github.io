@@ -21020,12 +21020,13 @@
         "close": "Lee el análisis completo y descubre los datos ocultos en nuestro enlace."
       },
       "rawImageUrl": "https://i.blogs.es/06d656/climate-change-2254711_1280/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T11:27:23.911Z",
       "cardImageUrl": "/news-cards/news-3uqzk0so6-1794223643911.jpg",
       "reelCoverUrl": "/news-cards/news-3uqzk0so6-1794223644709-cover.jpg",
       "instagramCardUrl": "/news-cards/news-3uqzk0so6-1794223645219-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/crisis-climatica-fuerza-peticion-inedita-emergencia-4vz9/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/crisis-climatica-fuerza-peticion-inedita-emergencia-4vz9/",
+      "publishedAt": "2026-11-09T12:27:27.357Z"
     },
     "channels": {
       "facebook": true,
@@ -21039,10 +21040,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T12:24:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T11:27:26.360Z"
+    "createdAt": "2026-11-09T11:27:26.360Z",
+    "lastAttemptAt": "2026-11-09T12:24:44.322Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108326947532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "139",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzuwasqfmo2u"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18428195734155058",
+        "permalink": "https://www.instagram.com/reel/DfhVCiikXMv/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117586475982156494"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18137274940671246"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T12:27:27.357Z"
   },
   {
     "id": "queue-1794223906979-i6wv5",
@@ -21279,7 +21322,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-09T14:06:29.060Z",
+    "scheduledFor": "2026-11-09T14:14:29.060Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
