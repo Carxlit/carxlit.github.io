@@ -22061,12 +22061,13 @@
         "channel": "ZAVIQON NEWS",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T15:27:47.770Z",
       "cardImageUrl": "/news-cards/news-qphy5ck0o-1794238067770.jpg",
       "reelCoverUrl": "/news-cards/news-qphy5ck0o-1794238068563-cover.jpg",
       "instagramCardUrl": "/news-cards/news-qphy5ck0o-1794238069082-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/colision-ferroviaria-guiza-urgencia-infraestructura-frente-co67/",
+      "publishedAt": "2026-11-09T19:11:34.431Z"
     },
     "channels": {
       "facebook": true,
@@ -22080,10 +22081,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T19:08:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T15:27:50.216Z"
+    "createdAt": "2026-11-09T15:27:50.216Z",
+    "lastAttemptAt": "2026-11-09T19:08:44.464Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108501259532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "145",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzvmtdhvyc2w"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18443409727194523",
+        "permalink": "https://www.instagram.com/reel/DfiDReTAK2x/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117588064760184923"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18099112529150260"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Short no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      }
+    },
+    "publishedAt": "2026-11-09T19:11:34.431Z"
   },
   {
     "id": "queue-1794244277195-hglxl",
