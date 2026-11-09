@@ -20653,12 +20653,13 @@
         "title": "Polish Gunman Kills Six In Krakow As Minister Reveals Far-Right Ties",
         "channel": "New York Post"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T08:16:58.406Z",
       "cardImageUrl": "/news-cards/news-kofjz92tr-1794212218406.jpg",
       "reelCoverUrl": "/news-cards/news-kofjz92tr-1794212218914-cover.jpg",
       "instagramCardUrl": "/news-cards/news-kofjz92tr-1794212219379-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tiroteo-cracovia-expone-brechas-inteligencia-ante-33ht/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tiroteo-cracovia-expone-brechas-inteligencia-ante-33ht/",
+      "publishedAt": "2026-11-09T08:19:36.462Z"
     },
     "channels": {
       "facebook": true,
@@ -20672,10 +20673,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T08:16:59.910Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-09T08:16:59.910Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-09T08:17:48.679Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108213769532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "137",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzuigqv7vb2w"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18149687971573589",
+        "permalink": "https://www.instagram.com/reel/Dfg4rQZFSHc/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117585501415867004"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18000674025029666"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T08:19:36.462Z"
   }
 ]
