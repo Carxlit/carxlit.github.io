@@ -123,9 +123,40 @@
     "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf",
     "https://www.dw.com/es/incendio-en-complejo-residencial-en-norte-de-china-deja-al-mens-14-muertos/a-79895370?maca=spa-rss-sp-all-1122-rdf",
     "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf",
-    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3F0cG9XZEVlN0pBaEFzQTlWdjFka082QUE5eDRWd0RUMEpvQURHTG4zNHVpb0haZ1E4OVFiQmFXaHE2djVpVHhCcHRzSXp4cWF4cmRDcnotMXRlZ3UwNXR4NHprdWZBMDZnMXBTWUFYRnE2QXAwTjJwQXh5eUR3eTlrR3ZsTVNJZ1E?oc=5"
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3F0cG9XZEVlN0pBaEFzQTlWdjFka082QUE5eDRWd0RUMEpvQURHTG4zNHVpb0haZ1E4OVFiQmFXaHE2djVpVHhCcHRzSXp4cWF4cmRDcnotMXRlZ3UwNXR4NHprdWZBMDZnMXBTWUFYRnE2QXAwTjJwQXh5eUR3eTlrR3ZsTVNJZ1E?oc=5",
+    "https://es.wired.com/articulos/que-paso-con-ueno-el-banco-digital-cuya-caida-derivo-en-una-crisis-politica-y-dudas-sobre-la-seguridad-de-las-fintech"
   ],
   "processedSignatures": [
+    {
+      "title": "DISOLUCIÓN DE UENO BANK DERRIBA AL GOBIERNO EN PARAGUAY",
+      "normalizedTokens": [
+        "disolucion",
+        "ueno",
+        "bank",
+        "derriba",
+        "gobierno",
+        "paraguay"
+      ],
+      "date": "2026-11-09T11:02:02.743Z"
+    },
+    {
+      "title": "Qué pasó con Ueno, el banco digital cuya caída derivó en una crisis política y dudas sobre la seguridad de las fintech",
+      "normalizedTokens": [
+        "paso",
+        "ueno",
+        "banco",
+        "digital",
+        "cuya",
+        "caida",
+        "derivo",
+        "crisis",
+        "politica",
+        "dudas",
+        "seguridad",
+        "fintech"
+      ],
+      "date": "2026-11-09T11:02:02.741Z"
+    },
     {
       "title": "ATACANTE DE ULTRA DERECHA MATA A SEIS EN CRACOVIA Y MUERE",
       "normalizedTokens": [

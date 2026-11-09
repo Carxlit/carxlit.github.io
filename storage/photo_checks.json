@@ -368,5 +368,10 @@
     "relevant": false,
     "reason": "la imagen muestra a manifestantes de extrema derecha en Estados Unidos y no el lugar ni al responsable del tiroteo en Cracovia, Polonia.",
     "at": "2026-11-09T08:16:58.405Z"
+  },
+  "fa1d1c41151867af:splbra8rl": {
+    "relevant": true,
+    "reason": "Muestra una pancarta de protesta con el rostro del presidente paraguayo Santiago Peña aludiendo a la caída de su gobierno.",
+    "at": "2026-11-09T11:02:00.246Z"
   }
 }
