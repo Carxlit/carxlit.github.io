@@ -125,9 +125,38 @@
     "https://www.dw.com/es/muere-el-autor-del-atentado-de-cracovia-sin-aclararse-el-móvil/a-79895882?maca=spa-rss-sp-all-1122-rdf",
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3F0cG9XZEVlN0pBaEFzQTlWdjFka082QUE5eDRWd0RUMEpvQURHTG4zNHVpb0haZ1E4OVFiQmFXaHE2djVpVHhCcHRzSXp4cWF4cmRDcnotMXRlZ3UwNXR4NHprdWZBMDZnMXBTWUFYRnE2QXAwTjJwQXh5eUR3eTlrR3ZsTVNJZ1E?oc=5",
     "https://es.wired.com/articulos/que-paso-con-ueno-el-banco-digital-cuya-caida-derivo-en-una-crisis-politica-y-dudas-sobre-la-seguridad-de-las-fintech",
-    "https://www.xataka.com/ecologia-y-naturaleza/necesario-declarar-estado-emergencia-sanitaria-mundial-cientificos-testigos-punto-inflexion-calentamiento-global"
+    "https://www.xataka.com/ecologia-y-naturaleza/necesario-declarar-estado-emergencia-sanitaria-mundial-cientificos-testigos-punto-inflexion-calentamiento-global",
+    "https://www.xataka.com/magnet/pueblo-guadalajara-quiere-independizarse-castilla-mancha-anexionarse-a-comunidad-madrid"
   ],
   "processedSignatures": [
+    {
+      "title": "EL CARDOSO PIDE SUMARSE A MADRID Y EXPONE EL FRACASO AUTONÓMICO",
+      "normalizedTokens": [
+        "cardoso",
+        "pide",
+        "sumarse",
+        "madrid",
+        "expone",
+        "fracaso",
+        "autonomico"
+      ],
+      "date": "2026-11-09T11:31:46.988Z"
+    },
+    {
+      "title": "Un pueblo de Guadalajara quiere independizarse de Castilla La Mancha y \"anexionarse\" a la Comunidad de Madrid",
+      "normalizedTokens": [
+        "pueblo",
+        "guadalajara",
+        "quiere",
+        "independizarse",
+        "castilla",
+        "mancha",
+        "anexionarse",
+        "comunidad",
+        "madrid"
+      ],
+      "date": "2026-11-09T11:31:46.987Z"
+    },
     {
       "title": "EXIGEN DECLARAR EMERGENCIA SANITARIA GLOBAL POR CAMBIO CLIMÁTICO",
       "normalizedTokens": [
