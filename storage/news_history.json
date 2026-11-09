@@ -119,9 +119,36 @@
     "https://www.infobae.com/deportes/2026/11/08/franco-colapinto-largara-desde-el-puesto-15-el-gran-premio-de-brasil-de-la-formula-1-todo-lo-que-hay-que-saber/",
     "https://www.infobae.com/mexico/deportes/2026/11/08/nba-ve-en-el-mercado-mexicano-una-oportunidad-inmejorable-para-expandirse-internacionalmente/",
     "https://www.dw.com/es/siete-muertos-y-112-heridos-en-accidente-de-trenes-en-egipto/a-79893139?maca=spa-rss-sp-all-1122-rdf",
-    "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5"
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+    "https://www.dw.com/en/many-killed-after-migrant-boat-sinks-off-senegal/a-79890883?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "NAUFRAGIO EN SENEGAL EXPONE LA CRISIS FRONTERIZA EN CANARIAS",
+      "normalizedTokens": [
+        "naufragio",
+        "senegal",
+        "expone",
+        "crisis",
+        "fronteriza",
+        "canarias"
+      ],
+      "date": "2026-11-09T05:01:31.300Z"
+    },
+    {
+      "title": "Many killed after migrant boat sinks off Senegal",
+      "normalizedTokens": [
+        "many",
+        "killed",
+        "after",
+        "migrant",
+        "boat",
+        "sinks",
+        "off",
+        "senegal"
+      ],
+      "date": "2026-11-09T05:01:31.300Z"
+    },
     {
       "title": "TRUMP DESCARTA ATAQUES A IRÁN SI AVANZAN NEGOCIACIONES",
       "normalizedTokens": [
