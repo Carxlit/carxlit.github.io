@@ -21535,12 +21535,13 @@
         "channel": "Hype Crackle",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T12:28:35.647Z",
       "cardImageUrl": "/news-cards/news-ktp5djqal-1794227315647.jpg",
       "reelCoverUrl": "/news-cards/news-ktp5djqal-1794227316313-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ktp5djqal-1794227316807-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sombra-pekin-sobre-nvidia-vacios-seguridad-yfkv/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sombra-pekin-sobre-nvidia-vacios-seguridad-yfkv/",
+      "publishedAt": "2026-11-09T15:23:16.069Z"
     },
     "channels": {
       "facebook": true,
@@ -21554,10 +21555,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T15:18:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T12:28:37.925Z"
+    "createdAt": "2026-11-09T12:28:37.925Z",
+    "lastAttemptAt": "2026-11-09T15:18:44.306Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108406921532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "142",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzv7xqk4pi2x"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18026170295945887",
+        "permalink": "https://www.instagram.com/reel/DfhpJ35AgRK/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117587167264421080"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18148923544605329"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Short no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      }
+    },
+    "publishedAt": "2026-11-09T15:23:16.069Z"
   },
   {
     "id": "queue-1794230594764-keadw",
@@ -21814,7 +21857,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-09T17:54:29.060Z",
+    "scheduledFor": "2026-11-09T18:13:29.060Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
