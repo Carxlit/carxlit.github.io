@@ -1,5 +1,78 @@
 [
   {
+    "slug": "dos-decadas-turbulencia-social-industria-tecnologica-lokt",
+    "path": "noticias/dos-decadas-turbulencia-social-industria-tecnologica-lokt/",
+    "title": "Las dos décadas de turbulencia social que la industria tecnológica prefiere ignorar",
+    "headline": "BILL GATES ADVIERTE DOS DÉCADAS DE AGITACIÓN SOCIAL POR LA IA",
+    "dek": "El cofundador de Microsoft advierte sobre un ciclo de veinte años de alta disrupción económica impulsado por la automatización total, evidenciando la falta de preparación de los gobiernos.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Genbeta",
+    "image": "img/dos-decadas-turbulencia-social-industria-tecnologica-lokt.jpg",
+    "photo": "img/dos-decadas-turbulencia-social-industria-tecnologica-lokt-foto.jpg",
+    "publishedAt": "2026-11-09T11:46:36.832Z",
+    "article": {
+      "slug": "dos-decadas-turbulencia-social-industria-tecnologica-lokt",
+      "title": "Las dos décadas de turbulencia social que la industria tecnológica prefiere ignorar",
+      "dek": "El cofundador de Microsoft advierte sobre un ciclo de veinte años de alta disrupción económica impulsado por la automatización total, evidenciando la falta de preparación de los gobiernos.",
+      "keyFacts": [
+        "Periodo de transición estimado de 20 años marcado por cambios económicos y sociales.",
+        "Combinación prevista de inteligencia artificial y robots humanoides para automatizar trabajos físicos como construcción, agricultura y cirugía.",
+        "Advertencia sobre la falta de preparación de los gobiernos y la sociedad frente a ciberataques y amenazas biológicas."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según declaraciones difundidas por Genbeta, Bill Gates ha señalado que la humanidad se enfrenta a un horizonte de veinte años caracterizado por profundas transformaciones económicas y sociales. El cofundador de Microsoft indicó que, incluso en un escenario donde la tecnología sea gestionada de manera adecuada, el proceso de transición estará cruzado por tensiones severas y una división clara entre ganadores y perdedores.",
+            "El análisis apunta a que el desarrollo tecnológico avanza a un ritmo acelerado que podría situar a la economía global ante uno de los periodos más turbulentos de su historia reciente."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La hoja de ruta tecnológica descrita contempla la convergencia entre modelos de inteligencia artificial y robots humanoides capaces de ejecutar tareas físicas complejas. Esta capacidad abarca desde la producción de alimentos y la construcción de viviendas hasta la realización de operaciones quirúrgicas, con el objetivo teórico de reducir las carencias estructurales de bienes y servicios básicos.",
+            "Sin embargo, el propio sector reconoce que la abundancia material prometida no está garantizada durante las fases iniciales de adopción masiva."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El debate habitual en los foros tecnológicos suele centrarse en las capacidades operativas de los algoritmos y la ganancia de eficiencia. Lo que rara vez se discute con la misma profundidad es el vacío institucional existente para gestionar la convivencia de la fuerza laboral humana con sistemas que automatizan la totalidad del trabajo físico.",
+            "Gates subraya que ni los gobiernos ni la sociedad están preparados para absorber esta disrupción, lo que evidencia una peligrosa dependencia de la autorregulación corporativa en un momento crítico para la estabilidad institucional."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero en mutación, los principales beneficiarios son las corporaciones que controlan la infraestructura de inteligencia artificial y robótica avanzada. Por el contrario, los sectores sociales vinculados al trabajo manual y operativo tradicional asumen el coste directo de la transición, expuestos a la pérdida de relevancia económica si no se establecen límites claros sobre qué actividades deben reservarse para las personas."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El indicador clave para los próximos años será la capacidad de los Estados para implementar mecanismos reales de supervisión pública que vayan más allá de los intereses comerciales de las empresas de IA. Asimismo, será determinante observar la adopción de medidas técnicas para contener ciberataques y amenazas biológicas derivadas de esta aceleración tecnológica."
+          ]
+        }
+      ],
+      "tags": [
+        "Inteligencia Artificial",
+        "Robótica",
+        "Economía",
+        "Regulación",
+        "Sociedad"
+      ],
+      "sources": [
+        {
+          "name": "Genbeta",
+          "title": "Bill Gates advierte sobre la agitación económico-social durante 20 años debido a la IA",
+          "url": "https://www.genbeta.com/actualidad/bill-gates-advierte-agitacion-economico-social-durante-20-anos-debido-a-ia"
+        }
+      ],
+      "wordCount": 400
+    },
+    "blindSpot": "Mientras el debate público se centra en la capacidad técnica de los modelos, se ignora la incapacidad estructural de los gobiernos para gestionar la transición laboral y la coexistencia de IA con robots humanoides sin fracturar la estabilidad social."
+  },
+  {
     "slug": "cardoso-sierra-expone-grietas-mapa-autonomico-9a6u",
     "path": "noticias/cardoso-sierra-expone-grietas-mapa-autonomico-9a6u/",
     "title": "El Cardoso de la Sierra expone las grietas del mapa autonómico",
