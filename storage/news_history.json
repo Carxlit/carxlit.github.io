@@ -128,9 +128,39 @@
     "https://www.xataka.com/ecologia-y-naturaleza/necesario-declarar-estado-emergencia-sanitaria-mundial-cientificos-testigos-punto-inflexion-calentamiento-global",
     "https://www.xataka.com/magnet/pueblo-guadalajara-quiere-independizarse-castilla-mancha-anexionarse-a-comunidad-madrid",
     "https://www.genbeta.com/actualidad/bill-gates-advierte-agitacion-economico-social-durante-20-anos-debido-a-ia",
-    "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang"
+    "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWs1eXRTU3RHakFNeWRLY1JKZWZPZkFGNVgyT0pXRG1kR0lNOWttbDM1MXRBQ0JhZnZTbkFoSzEwdTBBdFhHaExQOXBWWWV0SWZPa0NyVlZKdGtXb29QdVJGWHVabF9WMDNfYXFUa0Vrc0doLUotVlVmWHRjdUV0Q19UVktFZUlOekdiUEFsREh4MjhC?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "CAE EL VALOR DEL COBRE CHILENO EN OCTUBRE",
+      "normalizedTokens": [
+        "cae",
+        "valor",
+        "cobre",
+        "chileno",
+        "octubre"
+      ],
+      "date": "2026-11-09T13:23:14.778Z"
+    },
+    {
+      "title": "Valor de envíos de cobre Chile cae 5,4% en octubre; país registra superávit comercial: Banco Central",
+      "normalizedTokens": [
+        "valor",
+        "envios",
+        "cobre",
+        "chile",
+        "cae",
+        "octubre",
+        "pais",
+        "registra",
+        "superavit",
+        "comercial",
+        "banco",
+        "central"
+      ],
+      "date": "2026-11-09T13:23:14.777Z"
+    },
     {
       "title": "VINCULAN A EMPRESARIA CHINA CON OPERACIÓN DE ESPIONAJE CONTRA NVIDIA",
       "normalizedTokens": [

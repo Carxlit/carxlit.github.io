@@ -393,5 +393,10 @@
     "relevant": true,
     "reason": "La imagen muestra a Jensen Huang rodeado de personas, lo cual coincide contextualmente con el entorno cercano mencionado en la noticia sobre la operación de espionaje.",
     "at": "2026-11-09T12:28:35.646Z"
+  },
+  "7a230364983d6f88:n980fu4h8": {
+    "relevant": true,
+    "reason": "La imagen muestra cátodos de cobre apilados, representando adecuadamente al metal rojo mencionado en el titular.",
+    "at": "2026-11-09T13:23:10.982Z"
   }
 }
