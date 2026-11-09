@@ -22439,12 +22439,13 @@
         "channel": "Mo News",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T18:17:41.822Z",
       "cardImageUrl": "/news-cards/news-ofh5c4whg-1794248261823.jpg",
       "reelCoverUrl": "/news-cards/news-ofh5c4whg-1794248262635-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ofh5c4whg-1794248263159-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-russell-brand-impunidad-mediatica-condena-556p/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-russell-brand-impunidad-mediatica-condena-556p/",
+      "publishedAt": "2026-11-09T22:23:49.082Z"
     },
     "channels": {
       "facebook": true,
@@ -22458,10 +22459,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T22:21:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T18:17:44.273Z"
+    "createdAt": "2026-11-09T18:17:44.273Z",
+    "lastAttemptAt": "2026-11-09T22:21:44.442Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108567673532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "147",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzvxlubidz2i"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18152365180481184",
+        "permalink": "https://www.instagram.com/reel/DfiZSUTDGKb/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117588820906276511"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18150562000551495"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Short no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      }
+    },
+    "publishedAt": "2026-11-09T22:23:49.082Z"
   },
   {
     "id": "queue-1794251602934-gpcem",
