@@ -21188,12 +21188,13 @@
         "close": "Descubre el análisis territorial completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://i.blogs.es/22f12e/vista_de_el_cardoso_de_la_sierra/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T11:31:44.690Z",
       "cardImageUrl": "/news-cards/news-20msu8m9e-1794223904690.jpg",
       "reelCoverUrl": "/news-cards/news-20msu8m9e-1794223905279-cover.jpg",
       "instagramCardUrl": "/news-cards/news-20msu8m9e-1794223905813-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cardoso-sierra-expone-grietas-mapa-autonomico-9a6u/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cardoso-sierra-expone-grietas-mapa-autonomico-9a6u/",
+      "publishedAt": "2026-11-09T13:21:23.396Z"
     },
     "channels": {
       "facebook": true,
@@ -21207,10 +21208,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T13:18:29.060Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T11:31:46.979Z"
+    "createdAt": "2026-11-09T11:31:46.979Z",
+    "lastAttemptAt": "2026-11-09T13:18:44.379Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108356479532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "140",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzuzbgp5jq2u"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18051925469819845",
+        "permalink": "https://www.instagram.com/reel/DfhbNVoCLpX/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117586688142951618"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18088878956703425"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T13:21:23.396Z"
   },
   {
     "id": "queue-1794224796927-u20ds",
