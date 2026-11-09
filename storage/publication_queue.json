@@ -20844,12 +20844,13 @@
         "channel": "Ntiemporeal",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-09T11:02:00.247Z",
       "cardImageUrl": "/news-cards/news-splbra8rl-1794222120248.jpg",
       "reelCoverUrl": "/news-cards/news-splbra8rl-1794222120861-cover.jpg",
       "instagramCardUrl": "/news-cards/news-splbra8rl-1794222121434-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-ueno-bank-desata-crisis-politica-4anu/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-ueno-bank-desata-crisis-politica-4anu/",
+      "publishedAt": "2026-11-09T11:25:29.060Z"
     },
     "channels": {
       "facebook": true,
@@ -20863,9 +20864,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T11:23:02.709Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-09T11:02:02.730Z"
+    "createdAt": "2026-11-09T11:02:02.730Z",
+    "lastAttemptAt": "2026-11-09T11:23:18.066Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108298099532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "138",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzussjr4s72f"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17907064011356071",
+        "permalink": "https://www.instagram.com/reel/DfhN7rWCOhr/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117586232128532797"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18202385416377574"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Short no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      }
+    },
+    "publishedAt": "2026-11-09T11:25:29.060Z"
   }
 ]
