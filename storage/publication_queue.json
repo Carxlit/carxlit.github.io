@@ -19924,12 +19924,13 @@
         "title": "Why Does Donald Trump Say a Return to War with Iran Is Highly Unlikely if Nuclear Talks Advance?",
         "channel": "Daily Q&A"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-08T21:40:46.183Z",
       "cardImageUrl": "/news-cards/news-lj4h46tx5-1794174046183.jpg",
       "reelCoverUrl": "/news-cards/news-lj4h46tx5-1794174046833-cover.jpg",
       "instagramCardUrl": "/news-cards/news-lj4h46tx5-1794174047444-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/estrategia-detras-pausa-trump-ante-iran-anly/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/estrategia-detras-pausa-trump-ante-iran-anly/",
+      "publishedAt": "2026-11-09T01:48:24.130Z"
     },
     "channels": {
       "facebook": true,
@@ -19943,9 +19944,51 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-09T01:45:51.741Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-08T21:40:48.752Z"
+    "createdAt": "2026-11-08T21:40:48.752Z",
+    "lastAttemptAt": "2026-11-09T01:46:07.096Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108035455532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "133",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mztskgccpe2z"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18094743542677417",
+        "permalink": "https://www.instagram.com/reel/DfgL5CpiIkO/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117583962972021556"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18098274665460833"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-09T01:48:24.130Z"
   }
 ]
