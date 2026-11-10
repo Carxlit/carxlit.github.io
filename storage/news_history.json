@@ -150,9 +150,38 @@
     "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
     "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss",
     "https://elpais.com/us/2026-11-10/pete-hegseth-22-meses-de-polemica-en-el-pentagono.html",
-    "https://www.france24.com/es/video/20261110-no-vemos-una-estrategia-contundente-de-reconstrucci%C3%B3n-colombia-a-tres-meses-del-terremoto"
+    "https://www.france24.com/es/video/20261110-no-vemos-una-estrategia-contundente-de-reconstrucci%C3%B3n-colombia-a-tres-meses-del-terremoto",
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/donald-trump-cambiara-la-forma-de-ejecutar-sus-acciones-contra-la-migracion-tras-su-derrota-en-las-elecciones-de-medio-mandato-3599866"
   ],
   "processedSignatures": [
+    {
+      "title": "CAMBIOS EN LA ESTRATEGIA MIGRATORIA TRAS REVESES ELECTORALES",
+      "normalizedTokens": [
+        "cambios",
+        "estrategia",
+        "migratoria",
+        "reveses",
+        "electorales"
+      ],
+      "date": "2026-11-10T22:09:53.894Z"
+    },
+    {
+      "title": "Donald Trump cambiará la forma de ejecutar sus acciones contra la migración, tras su derrota en las elecciones de medio mandato",
+      "normalizedTokens": [
+        "donald",
+        "trump",
+        "cambiara",
+        "forma",
+        "ejecutar",
+        "acciones",
+        "migracion",
+        "derrota",
+        "elecciones",
+        "medio",
+        "mandato"
+      ],
+      "date": "2026-11-10T22:09:53.892Z"
+    },
     {
       "title": "ACTUALIZACIÓN: LA RECONSTRUCCIÓN EN COLOMBIA ANTE EL VACÍO INSTITUCIONAL",
       "normalizedTokens": [
