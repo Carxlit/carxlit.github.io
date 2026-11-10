@@ -24012,12 +24012,13 @@
         "title": "Primeras lluvias invernales inundan 70 mil tiendas de desplazados en Gaza",
         "channel": "EL IMPARCIAL TV"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T11:39:16.479Z",
       "cardImageUrl": "/news-cards/news-cqebc16ti-1794310756479.jpg",
       "reelCoverUrl": "/news-cards/news-cqebc16ti-1794310757204-cover.jpg",
       "instagramCardUrl": "/news-cards/news-cqebc16ti-1794310757673-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn/",
+      "publishedAt": "2026-11-10T13:31:05.504Z"
     },
     "channels": {
       "facebook": true,
@@ -24031,10 +24032,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T13:28:47.069Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-10T11:39:18.246Z"
+    "createdAt": "2026-11-10T11:39:18.246Z",
+    "lastAttemptAt": "2026-11-10T13:29:02.541Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108901051532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "156",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzxkcfvvla25"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17912805081308727",
+        "permalink": "https://www.instagram.com/reel/DfkBHJTjQz8/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117592388512880180"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17990402204878280"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T13:31:05.504Z"
   },
   {
     "id": "queue-1794311982717-rsmtf",
