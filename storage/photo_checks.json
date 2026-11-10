@@ -488,5 +488,10 @@
     "relevant": false,
     "reason": "La imagen muestra a un hombre sosteniendo a un niño entre escombros de edificios destruidos por bombardeos, no una escena de lluvias o inundaciones.",
     "at": "2026-11-10T11:39:14.015Z"
+  },
+  "d07b4f7368d899cf:av63hc4sj": {
+    "relevant": true,
+    "reason": "La imagen muestra a Jensen Huang con expresión de preocupación junto a elementos clave de la noticia como un mapa de Taiwán con fábricas de chips, un procesador de NVIDIA roto, tra",
+    "at": "2026-11-10T11:59:39.113Z"
   }
 }

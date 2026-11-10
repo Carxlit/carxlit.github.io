@@ -1,5 +1,83 @@
 [
   {
+    "slug": "fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3",
+    "path": "noticias/fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3/",
+    "title": "La fragilidad oculta de NVIDIA: un gigante sin sucesor y anclado a Taiwán",
+    "headline": "LA INFIDELIDAD DE HUANG EXPONE LA VULNERABILIDAD ESTRUCTURAL DE NVIDIA",
+    "dek": "La investigación sobre Jensen Huang revela que la empresa más influyente de la inteligencia artificial carece de plan de relevo ejecutivo. La concentración del empaquetado avanzado en Taiwán agrava el riesgo para el mercado tecnológico.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3.jpg",
+    "photo": "img/fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3-foto.jpg",
+    "publishedAt": "2026-11-10T11:59:42.617Z",
+    "article": {
+      "slug": "fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3",
+      "title": "La fragilidad oculta de NVIDIA: un gigante sin sucesor y anclado a Taiwán",
+      "dek": "La investigación sobre Jensen Huang revela que la empresa más influyente de la inteligencia artificial carece de plan de relevo ejecutivo. La concentración del empaquetado avanzado en Taiwán agrava el riesgo para el mercado tecnológico.",
+      "keyFacts": [
+        "NVIDIA perdió 190.000 millones de dólares en capitalización bursátil en una sola sesión tras caer un 4,3%.",
+        "El consejo de administración acumula 161 años de permanencia conjunta entre sus 10 miembros.",
+        "La firma de análisis Culper Research ya advirtió en mayo sobre los vínculos entre Jensen Huang y Alice Huang.",
+        "El empaquetado avanzado de los chips Blackwell sigue realizándose en Taiwán, mientras la planta de Amkor en Arizona no operará hasta 2028.",
+        "La compañía tiene programada su presentación de resultados trimestrales para el 17 de noviembre."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La divulgación de una relación extramarital del consejero delegado de NVIDIA, Jensen Huang, desató una investigación interna dentro del consejo de administración para determinar si Alice Huang, exdirectiva de Megaspeed, tuvo acceso a secretos comerciales o vínculos con la inteligencia china. En paralelo, el expresidente Donald Trump señaló que el FBI supervisa el asunto. El impacto en los mercados fue inmediato: el título de la compañía retrocedió un 4,3% en una única jornada, destruyendo 190.000 millones de dólares en valor bursátil.",
+            "La investigación busca clarificar si existió fuga de propiedad intelectual crítica en un momento donde casi la totalidad de los modelos de inteligencia artificial del mundo dependen de los procesadores de la firma norteamericana."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La firma ostenta una valoración cercana a los 4,5 billones de dólares, pero su estructura de gobierno corporativo refleja dinámicas endogámicas. De acuerdo con informes citados por el Wall Street Journal, la organización ha funcionado bajo la impronta de un negocio familiar donde los contrapesos institucionales son mínimos. La junta directiva, compuesta por diez miembros, suma 161 años acumulados en el cargo, contando entre sus filas con inversores de los años noventa que representan los mayores tenedores individuales de acciones por detrás del propio fundador.",
+            "Ya en el mes de mayo, la firma de análisis financiero Culper Research advirtió sobre la proximidad de las relaciones operativas de Huang, calificando la situación de riesgo para los inversores. Sin embargo, Wall Street desestimó las señales de alarma hasta que el conflicto personal escaló a una investigación formal."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La atención mediática ha gravitado en torno al escándalo personal y los probables culebrones de auditoría interna. El análisis de Punto Ciego revela un problema de fondo sensiblemente superior: la vulnerabilidad de diseño en la continuidad operativa de la empresa más valiosa del sector tecnológico. Según reportes de Semafor y The New York Times, la palabra sucesión no figura de forma proactiva en la estrategia corporativa, limitándose a aparecer como una contingencia genérica en el apartado de riesgos de su informe anual.",
+            "Huang ha frenado deliberadamente cualquier esquema formal de sucesión bajo el argumento de no generar disputas de poder entre sus vicepresidentes. Esta carencia se combina con un estrangulamiento logístico definitivo: aunque TSMC produce obleas para la arquitectura Blackwell en Arizona, la fase crítica del empaquetado avanzado continúa ejecutándose de forma exclusiva en Taiwán. La planta estadounidense de Amkor, destinada a descentralizar este proceso, no iniciará operaciones hasta 2028 y tiene a Apple como cliente prioritario."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, la firma competidora Arm y los diseñadores alternativos de procesadores obtienen un margen de maniobra estratégico frente a los clientes que buscan diversificar su dependencia del ecosistema de NVIDIA. Asimismo, las agencias estatales chinas consolidan su posición de presión indirecta sobre la cadena global de hardware de alta tecnología.",
+            "Por el contrario, los grandes inversores institucionales y las empresas de inteligencia artificial asumen un riesgo operativo desproporcionado. Dependen de una entidad que carece de cuadros directivos transversales capacitados para reemplazar al fundador y cuya producción final depende de una isla bajo constante fricción geopolítica."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "La clave inmediata estará en la presentación de resultados trimestrales fijada para el 17 de noviembre, fecha en que el mercado medirá la estabilidad directiva y la capacidad de Huang para conservar el control operacional.",
+            "A medio plazo, la atención debe centrarse en los dictámenes de la investigación del consejo e investigaciones de agencias federales, así como en los avances reales para trasladar los procesos de empaquetado avanzado fuera del estrecho de Taiwán."
+          ]
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "Inteligencia Artificial",
+        "Semiconductores",
+        "Taiwán",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "La infidelidad de Huang ha destapado la fragilidad de NVIDIA: depende de un hombre sin sucesor y de una isla sin plan B",
+          "url": "https://www.xataka.com/empresas-y-economia/infidelidad-huang-ha-destapado-fragilidad-nvidia-depende-hombre-sucesor-isla-plan-b"
+        }
+      ],
+      "wordCount": 612
+    },
+    "blindSpot": "La narrativa corporativa presenta el caso de Jensen Huang como un escándalo personal, ignorando la grave concentración de poder en un solo hombre y la dependencia crítica del empaquetado de chips en Taiwán. Sin un mecanismo de sucesión definido y con un consejo de administración paralizado, el pilar de la inteligencia artificial global carece de redundancia ejecutiva y geográfica."
+  },
+  {
     "slug": "primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn",
     "path": "noticias/primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn/",
     "title": "Las primeras lluvias invernales colapsan los refugios improvisados de desplazados en Gaza",
