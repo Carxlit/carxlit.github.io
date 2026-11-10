@@ -135,9 +135,36 @@
     "https://theconversation.com/hacia-donde-van-las-negociaciones-sobre-el-clima-de-la-cop31-mas-electricidad-para-salvar-el-mundo-296161",
     "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
     "https://es.euronews.com/video/2026/11/09/argentina-el-papa-leo-xiv-recibe-calida-bienvenida-en-claypole",
-    "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable"
+    "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
+    "https://www.euronews.com/video/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province"
   ],
   "processedSignatures": [
+    {
+      "title": "EXPLOSIÓN SIDERÚRGICA EN İZMİR EXPONE FALLAS DE SEGURIDAD INDUSTRIAL",
+      "normalizedTokens": [
+        "explosion",
+        "siderurgica",
+        "izmir",
+        "expone",
+        "fallas",
+        "seguridad",
+        "industrial"
+      ],
+      "date": "2026-11-10T05:01:39.339Z"
+    },
+    {
+      "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
+      "normalizedTokens": [
+        "turkey",
+        "steel",
+        "plant",
+        "explosion",
+        "kills",
+        "izmir",
+        "province"
+      ],
+      "date": "2026-11-10T05:01:39.338Z"
+    },
     {
       "title": "FRANCIA SEÑALA A IRÁN POR SABOTAJE DIGITAL A FRIGORÍFICOS",
       "normalizedTokens": [

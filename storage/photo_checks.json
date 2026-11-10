@@ -448,5 +448,10 @@
     "relevant": false,
     "reason": "La imagen es un gráfico educativo genérico sobre el concepto de ciberespacio y redes sociales, no sobre un sabotaje digital específico de Irán a frigoríficos franceses.",
     "at": "2026-11-09T20:56:01.420Z"
+  },
+  "f84e54c8dcb006f0:4beog9t2v": {
+    "relevant": true,
+    "reason": "La imagen muestra una planta siderúrgica industrial que coincide con el lugar del accidente descrito en la noticia.",
+    "at": "2026-11-10T05:01:36.591Z"
   }
 }
