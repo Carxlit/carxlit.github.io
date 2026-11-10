@@ -145,9 +145,38 @@
     "https://news.un.org/feed/view/en/story/2026/11/1168766",
     "https://www.xataka.com/empresas-y-economia/infidelidad-huang-ha-destapado-fragilidad-nvidia-depende-hombre-sucesor-isla-plan-b",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-congreso-de-ee-uu-abre-batalla-para-destituir-al-secretario-de-guerra-por-operaciones-en-iran-yemen-y-venezuela-asi-estan-los-votos-3599598",
-    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzd5Z2JCbEZwZWtzVERIdVpCMHZSa1lZdW5OdXVwbHozbW1rM3ByUTRyZFNyTThTOXFLUnViZWtDbHllZWFUYVZXeXhUd1E2YWdSeTZVakNuV3ozbHJqdkJkN2RNeVhvRW5XRXRSWUhmdUx0RVFsLUNXdmFoMUtzOENaMS1UbzYtY1A3SXJmNFUtWHZQOVdDVC1DWENfbUVEaUF4ZGhBTVR1NEplSTBTRnU5bDBibDlnaWhjTERn?oc=5"
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzd5Z2JCbEZwZWtzVERIdVpCMHZSa1lZdW5OdXVwbHozbW1rM3ByUTRyZFNyTThTOXFLUnViZWtDbHllZWFUYVZXeXhUd1E2YWdSeTZVakNuV3ozbHJqdkJkN2RNeVhvRW5XRXRSWUhmdUx0RVFsLUNXdmFoMUtzOENaMS1UbzYtY1A3SXJmNFUtWHZQOVdDVC1DWENfbUVEaUF4ZGhBTVR1NEplSTBTRnU5bDBibDlnaWhjTERn?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4WUh4cWdERDRCV2t4a0lMbGR1Z1dVdDQta3c1dEpLcFBHckVDaWVhUjFfb2dGREItQk9YcW91ZTJ4LUtvSFhHNVJWeFBKZXloeG44VEppSDlPWkRseDdBandFX2VMbEVpaW9Dcm83eVM4bGdZdHdF?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EL BANCO CENTRAL DE BRASIL ADVIERTE REBROTE INFLACIONARIO POR OFERTA",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "brasil",
+        "advierte",
+        "rebrote",
+        "inflacionario",
+        "oferta"
+      ],
+      "date": "2026-11-10T14:31:54.744Z"
+    },
+    {
+      "title": "Banco Central de Brasil dice que petróleo, El Niño, están detrás de repunte de la inflación",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "brasil",
+        "petroleo",
+        "nino",
+        "estan",
+        "detras",
+        "repunte",
+        "inflacion"
+      ],
+      "date": "2026-11-10T14:31:54.742Z"
+    },
     {
       "title": "LA OPOSICIÓN DEMÓCRATA ENFRENTA PRESIONES PARA FRENAR EL CONFLICTO CON IRÁN",
       "normalizedTokens": [
