@@ -24176,12 +24176,13 @@
         "close": "Lee el análisis completo sobre el futuro de NVIDIA en el enlace del perfil."
       },
       "rawImageUrl": "https://i.blogs.es/ffe04f/huang/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T11:59:40.328Z",
       "cardImageUrl": "/news-cards/news-av63hc4sj-1794311980329.jpg",
       "reelCoverUrl": "/news-cards/news-av63hc4sj-1794311981062-cover.jpg",
       "instagramCardUrl": "/news-cards/news-av63hc4sj-1794311981593-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3/",
+      "publishedAt": "2026-11-10T14:28:19.449Z"
     },
     "channels": {
       "facebook": true,
@@ -24195,10 +24196,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T14:25:47.069Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-10T11:59:42.717Z"
+    "createdAt": "2026-11-10T11:59:42.717Z",
+    "lastAttemptAt": "2026-11-10T14:26:02.440Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108923263532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "157",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzxnib26ej2h"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18023225921949485",
+        "permalink": "https://www.instagram.com/reel/DfkHqJ-ARK9/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117592613354280935"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18000183456001809"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T14:28:19.449Z"
   },
   {
     "id": "queue-1794313941371-8j1on",
