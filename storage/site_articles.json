@@ -1,5 +1,75 @@
 [
   {
+    "slug": "batalla-institucional-congreso-ee-uu-continuidad-pq7f",
+    "path": "noticias/batalla-institucional-congreso-ee-uu-continuidad-pq7f/",
+    "title": "La batalla institucional en el Congreso de EE. UU. por la continuidad de Pete Hegseth",
+    "headline": "CONGRESO DE EE. UU. ABRE BATALLA PARA DESTITUIR A PETE HEGSETH",
+    "dek": "El Capitolio impulsa una ofensiva política contra el secretario de Guerra por las intervenciones en Irán, Yemen y Venezuela, desatando una pugna de poder con la Casa Blanca.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "El Tiempo",
+    "image": "img/batalla-institucional-congreso-ee-uu-continuidad-pq7f.jpg",
+    "photo": "img/batalla-institucional-congreso-ee-uu-continuidad-pq7f-foto.jpg",
+    "publishedAt": "2026-11-10T12:32:21.228Z",
+    "article": {
+      "slug": "batalla-institucional-congreso-ee-uu-continuidad-pq7f",
+      "title": "La batalla institucional en el Congreso de EE. UU. por la continuidad de Pete Hegseth",
+      "dek": "El Capitolio impulsa una ofensiva política contra el secretario de Guerra por las intervenciones en Irán, Yemen y Venezuela, desatando una pugna de poder con la Casa Blanca.",
+      "keyFacts": [
+        "Pete Hegseth ocupa el cargo de secretario de Guerra de Estados Unidos.",
+        "Las operaciones en Irán, Yemen y Venezuela son el eje de la disputa en el Congreso.",
+        "Donald Trump y el jefe de gabinete Stephen Miller figuran en el centro de la presión política."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó en el Capitolio",
+          "paragraphs": [
+            "El Congreso de Estados Unidos ha abierto un frente de confrontación directo para buscar la destitución de Pete Hegseth, secretario de Guerra, debido a las recientes operaciones militares llevadas a cabo en Irán, Yemen y Venezuela. La presión sobre el funcionario se intensifica en medio de un clima de alta polarización política que amenaza con sacudir las estructuras de la administración republicana liderada por Donald Trump."
+          ]
+        },
+        {
+          "heading": "El contexto de las operaciones",
+          "paragraphs": [
+            "Las decisiones estratégicas en frentes tan diversos como Oriente Medio y América Latina han colocado al Pentágono en el centro del debate legislativo. Según los reportes iniciales, la acumulación de despliegues y acciones armadas sin un consenso bipartidista sólido ha provocado reacciones inmediatas en las comisiones de control del Capitolio, donde diversos sectores cuestionan la legalidad y los alcances de dichas misiones."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la superficie mediática que reduce el conflicto a un choque de fuerzas entre demócratas y republicanos, el análisis de Punto Ciego revela que esta ofensiva congresional responde a una disputa de fondo por el control presupuestario y la subordinación de la cadena de mando. La influencia de figuras clave en la Casa Blanca, como el jefe de gabinete Stephen Miller, rediseña la arquitectura de poder, dejando al Departamento de Guerra en el centro de una lucha por la hegemonía institucional."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero de fricciones, los legisladores que buscan limitar el margen de acción unilateral del Ejecutivo ganan capital político, mientras que la administración enfrenta costos operativos significativos para sostener su agenda exterior. La figura de Hegseth se convierte en el epicentro de un desgaste que podría comprometer la ejecución de futuros despliegues militares."
+          ]
+        },
+        {
+          "heading": "Qué vigilar en el tablero",
+          "paragraphs": [
+            "Es imperativo monitorear la votación y el alineamiento de los legisladores en las próximas sesiones del Capitolio, así como cualquier movimiento de la Casa Blanca para blindar a su gabinete. El desenlace de esta crisis marcará un precedente crítico sobre los límites del poder presidencial en materia de defensa."
+          ]
+        }
+      ],
+      "tags": [
+        "Pete Hegseth",
+        "Congreso",
+        "Estados Unidos",
+        "Pentágono",
+        "Donald Trump"
+      ],
+      "sources": [
+        {
+          "name": "El Tiempo",
+          "title": "Pete Hegseth: Congreso de EE. UU. abre batalla para destituir al secretario de Guerra por operaciones en Irán, Yemen y Venezuela; así están los votos",
+          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-congreso-de-ee-uu-abre-batalla-para-destituir-al-secretario-de-guerra-por-operaciones-en-iran-yemen-y-venezuela-asi-estan-los-votos-3599598"
+        }
+      ],
+      "wordCount": 342
+    },
+    "blindSpot": "Mientras la cobertura se centra en la confrontación partidista tradicional, el verdadero trasfondo radica en la pugna por el control presupuestario y la reconfiguración de la cadena de mando militar bajo la administración de Donald Trump y Stephen Miller."
+  },
+  {
     "slug": "fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3",
     "path": "noticias/fragilidad-oculta-nvidia-gigante-sin-sucesor-lei3/",
     "title": "La fragilidad oculta de NVIDIA: un gigante sin sucesor y anclado a Taiwán",

@@ -493,5 +493,10 @@
     "relevant": true,
     "reason": "La imagen muestra a Jensen Huang con expresión de preocupación junto a elementos clave de la noticia como un mapa de Taiwán con fábricas de chips, un procesador de NVIDIA roto, tra",
     "at": "2026-11-10T11:59:39.113Z"
+  },
+  "5fabd184f31010f9:q2211v95f": {
+    "relevant": true,
+    "reason": "Muestra claramente a Pete Hegseth y el Capitolio de EE. UU., los cuales representan al sujeto y la institución central descritos en el titular.",
+    "at": "2026-11-10T12:32:17.336Z"
   }
 }
