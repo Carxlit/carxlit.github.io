@@ -138,9 +138,36 @@
     "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
     "https://www.euronews.com/video/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province",
     "https://es.euronews.com/video/2026/11/09/explosion-en-complejo-industrial-de-esmirna-provoca-incendio-y-densa-humareda",
-    "https://www.france24.com/es/am%C3%A9rica-latina/20261110-la-ayuda-empieza-a-mermar-tres-meses-del-terremoto-en-colombia-la-solidaridad-desplaza-al-gobierno"
+    "https://www.france24.com/es/am%C3%A9rica-latina/20261110-la-ayuda-empieza-a-mermar-tres-meses-del-terremoto-en-colombia-la-solidaridad-desplaza-al-gobierno",
+    "https://www.france24.com/es/video/20261110-al-menos-20-migrantes-muertos-en-cuatro-d%C3%ADas-de-naufragios-frente-a-creta"
   ],
   "processedSignatures": [
+    {
+      "title": "NAUFRAGIOS EN CRETA EXPONEN EL NUEVO CORREDOR MIGRATORIO",
+      "normalizedTokens": [
+        "naufragios",
+        "creta",
+        "exponen",
+        "nuevo",
+        "corredor",
+        "migratorio"
+      ],
+      "date": "2026-11-10T05:47:52.048Z"
+    },
+    {
+      "title": "Al menos 20 migrantes muertos en cuatro días de naufragios frente a Creta",
+      "normalizedTokens": [
+        "menos",
+        "migrantes",
+        "muertos",
+        "cuatro",
+        "dias",
+        "naufragios",
+        "frente",
+        "creta"
+      ],
+      "date": "2026-11-10T05:47:52.047Z"
+    },
     {
       "title": "TRES MESES DEL SISMO COLOMBIANO SIN RESPUESTA ESTATAL EFECTIVA",
       "normalizedTokens": [
