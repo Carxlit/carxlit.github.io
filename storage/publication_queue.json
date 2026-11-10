@@ -23521,12 +23521,13 @@
         "title": "Al menos 20 migrantes muertos en cuatro días de naufragios frente a Creta • FRANCE 24 Español",
         "channel": "FRANCE 24 Español"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T05:47:47.775Z",
       "cardImageUrl": "/news-cards/news-529y7y70y-1794289667775.jpg",
       "reelCoverUrl": "/news-cards/news-529y7y70y-1794289670382-cover.jpg",
       "instagramCardUrl": "/news-cards/news-529y7y70y-1794289670913-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tragedia-creta-expone-desplazamiento-rutas-migratorias-st50/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tragedia-creta-expone-desplazamiento-rutas-migratorias-st50/",
+      "publishedAt": "2026-11-10T06:04:06.244Z"
     },
     "channels": {
       "facebook": true,
@@ -23540,10 +23541,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T05:47:52.036Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-10T05:47:52.036Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-10T06:01:48.460Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108713743532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "153",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzwrcqkdio2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18352082818250615",
+        "permalink": "https://www.instagram.com/reel/DfjN9SsDI6z/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117590630797229832"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17974870569177068"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T06:04:06.244Z"
   }
 ]
