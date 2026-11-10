@@ -139,9 +139,39 @@
     "https://www.euronews.com/video/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province",
     "https://es.euronews.com/video/2026/11/09/explosion-en-complejo-industrial-de-esmirna-provoca-incendio-y-densa-humareda",
     "https://www.france24.com/es/am%C3%A9rica-latina/20261110-la-ayuda-empieza-a-mermar-tres-meses-del-terremoto-en-colombia-la-solidaridad-desplaza-al-gobierno",
-    "https://www.france24.com/es/video/20261110-al-menos-20-migrantes-muertos-en-cuatro-d%C3%ADas-de-naufragios-frente-a-creta"
+    "https://www.france24.com/es/video/20261110-al-menos-20-migrantes-muertos-en-cuatro-d%C3%ADas-de-naufragios-frente-a-creta",
+    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbXgydkNpVTZraF84N0tHT3J5VWdyQjMxQl9SSXpLOV9vaFdFNXJ0Ri1Xa2F2aWdHY0NnQ1VOYnVmdzVKckdPOEgwNkFBMTZEeXRoNDg2RzZMUl95UzlyTnZOM2JhZC1NaUs5dUhqcEhodDZMZmlvUUd5dmI0MW05NzlqYVBaUVJJVmViYjhIMXlKN1ZsbHI3LVRhUjNVSFVrenZNRlJ6ckpDWmdld01PV1VVMHdRQlY4NXB4aVFCdmxnUW01NjE4M3lLck5CQ3p1OVo0aUtrN2xIc2U1RC00VGlmUnFsMThYV2fSAYQCQVVfeXFMUFRUam5mTHFLZmxwaHpkMWNMWW1HUVBPZ1huSVJXdmRzRm5ORnVWMUtrSVltU3dQVXhsanZkYXVaSkNpWWQxLVVzLUJJR1B6cnhIT3I1bmxkb3Z2V1RYbGRYMjJpWnZIUTlHeTBsb2lVdndTUTFmVjFQeVJnVk0zOGx1RldjalgyQXQ2UjZvTXRzQXFYZ1k2Z2p6cVZPYlVMakFlQ1hqQzh2dkFHMnluZlltdnM4T29jajJPbVVGazJHWWVTaE1UVmc1ckgzb3BLaDJXdC1qMDFoTVg2TERUVUFCYWd3Y0NRRHhYOGxOZVBaWG5IaDVMLVlaazRXNUZ4TFU3OEE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ALIADOS OCCIDENTALES BLINDAN A LA OTAN PARA LA POSGUERRA EN UCRANIA",
+      "normalizedTokens": [
+        "aliados",
+        "occidentales",
+        "blindan",
+        "otan",
+        "posguerra",
+        "ucrania"
+      ],
+      "date": "2026-11-10T11:02:14.409Z"
+    },
+    {
+      "title": "Aliados europeos y EEUU defienden que la OTAN siga siendo el eje de la defensa europea tras la guerra",
+      "normalizedTokens": [
+        "aliados",
+        "europeos",
+        "eeuu",
+        "defienden",
+        "otan",
+        "siga",
+        "siendo",
+        "eje",
+        "defensa",
+        "europea",
+        "guerra"
+      ],
+      "date": "2026-11-10T11:02:14.407Z"
+    },
     {
       "title": "NAUFRAGIOS EN CRETA EXPONEN EL NUEVO CORREDOR MIGRATORIO",
       "normalizedTokens": [
