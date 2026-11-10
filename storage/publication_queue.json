@@ -24332,12 +24332,13 @@
         "close": "Lee el análisis completo y sin filtros en nuestro perfil."
       },
       "rawImageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/11/09/6af1f6061c05a.png",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T12:32:18.793Z",
       "cardImageUrl": "/news-cards/news-q2211v95f-1794313938793.jpg",
       "reelCoverUrl": "/news-cards/news-q2211v95f-1794313939638-cover.jpg",
       "instagramCardUrl": "/news-cards/news-q2211v95f-1794313940165-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/batalla-institucional-congreso-ee-uu-continuidad-pq7f/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/batalla-institucional-congreso-ee-uu-continuidad-pq7f/",
+      "publishedAt": "2026-11-10T16:09:31.263Z"
     },
     "channels": {
       "facebook": true,
@@ -24351,10 +24352,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T16:06:47.069Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-10T12:32:21.371Z"
+    "createdAt": "2026-11-10T12:32:21.371Z",
+    "lastAttemptAt": "2026-11-10T16:07:02.422Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108969151532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "158",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzxt4u7kll2y"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17893379892458930",
+        "permalink": "https://www.instagram.com/reel/DfkTO-eCHMo/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117593011299773474"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18033760349857059"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T16:09:31.263Z"
   },
   {
     "id": "queue-1794317580510-7opgp",
