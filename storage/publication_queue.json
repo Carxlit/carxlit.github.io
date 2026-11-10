@@ -23165,12 +23165,13 @@
         "title": "Explosión en complejo industrial de Esmirna provoca incendio y densa humareda",
         "channel": "euronews (en español)"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T05:16:54.342Z",
       "cardImageUrl": "/news-cards/news-xtsh4dijh-1794287814342.jpg",
       "reelCoverUrl": "/news-cards/news-xtsh4dijh-1794287815078-cover.jpg",
       "instagramCardUrl": "/news-cards/news-xtsh4dijh-1794287815609-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/explosion-complejo-siderurgico-esmirna-evidencia-vulnerabilidades-uys6/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/explosion-complejo-siderurgico-esmirna-evidencia-vulnerabilidades-uys6/",
+      "publishedAt": "2026-11-10T05:30:09.289Z"
     },
     "channels": {
       "facebook": true,
@@ -23184,10 +23185,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T05:16:56.766Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-10T05:16:56.766Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-10T05:27:53.250Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108699187532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "151",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzwpg26tvy2d"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18091098857308326",
+        "permalink": "https://www.instagram.com/reel/DfjKE_oDgos/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117590497374112290"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18111481321907649"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T05:30:09.289Z"
   }
 ]
