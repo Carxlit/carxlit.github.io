@@ -147,9 +147,38 @@
     "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-congreso-de-ee-uu-abre-batalla-para-destituir-al-secretario-de-guerra-por-operaciones-en-iran-yemen-y-venezuela-asi-estan-los-votos-3599598",
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzd5Z2JCbEZwZWtzVERIdVpCMHZSa1lZdW5OdXVwbHozbW1rM3ByUTRyZFNyTThTOXFLUnViZWtDbHllZWFUYVZXeXhUd1E2YWdSeTZVakNuV3ozbHJqdkJkN2RNeVhvRW5XRXRSWUhmdUx0RVFsLUNXdmFoMUtzOENaMS1UbzYtY1A3SXJmNFUtWHZQOVdDVC1DWENfbUVEaUF4ZGhBTVR1NEplSTBTRnU5bDBibDlnaWhjTERn?oc=5",
     "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4WUh4cWdERDRCV2t4a0lMbGR1Z1dVdDQta3c1dEpLcFBHckVDaWVhUjFfb2dGREItQk9YcW91ZTJ4LUtvSFhHNVJWeFBKZXloeG44VEppSDlPWkRseDdBandFX2VMbEVpaW9Dcm83eVM4bGdZdHdF?oc=5",
-    "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/"
+    "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
+    "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "DOCE MUERTOS EN CARAMBOLA VIAL EXPONE LA VULNERABILIDAD INFRAESTRUCTURAL BULGARA",
+      "normalizedTokens": [
+        "doce",
+        "muertos",
+        "carambola",
+        "vial",
+        "expone",
+        "vulnerabilidad",
+        "infraestructural",
+        "bulgara"
+      ],
+      "date": "2026-11-10T17:56:19.467Z"
+    },
+    {
+      "title": "Twelve dead after motorway pile-ups in Bulgaria fog",
+      "normalizedTokens": [
+        "twelve",
+        "dead",
+        "after",
+        "motorway",
+        "pile",
+        "ups",
+        "bulgaria",
+        "fog"
+      ],
+      "date": "2026-11-10T17:56:19.466Z"
+    },
     {
       "title": "RUSIA, UCRANIA Y ESTADOS UNIDOS RETOMAN NEGOCIACIONES EN ABU DABI",
       "normalizedTokens": [
