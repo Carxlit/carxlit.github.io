@@ -24686,12 +24686,13 @@
         "close": "Lee el análisis completo en el enlace del perfil."
       },
       "rawImageUrl": "https://finanzasdigital.com/wp-content/uploads/Proyecto-nuevo-7.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T14:31:51.198Z",
       "cardImageUrl": "/news-cards/news-28sgjv507-1794321111199.jpg",
       "reelCoverUrl": "/news-cards/news-28sgjv507-1794321112092-cover.jpg",
       "instagramCardUrl": "/news-cards/news-28sgjv507-1794321112951-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/banco-central-brasil-apunta-petroleo-nino-ddss/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/banco-central-brasil-apunta-petroleo-nino-ddss/",
+      "publishedAt": "2026-11-10T18:56:59.292Z"
     },
     "channels": {
       "facebook": true,
@@ -24705,10 +24706,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T18:54:47.069Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-10T14:31:54.729Z"
+    "createdAt": "2026-11-10T14:31:54.729Z",
+    "lastAttemptAt": "2026-11-10T18:55:02.514Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122109035793532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "160",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzy4j7kt7p24"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18147058615502519",
+        "permalink": "https://www.instagram.com/reel/DfkmZ6PAH0W/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117593669796999657"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18021721733950406"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T18:56:59.292Z"
   },
   {
     "id": "queue-1794327091095-4puh0",
