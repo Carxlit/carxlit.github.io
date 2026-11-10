@@ -137,9 +137,39 @@
     "https://es.euronews.com/video/2026/11/09/argentina-el-papa-leo-xiv-recibe-calida-bienvenida-en-claypole",
     "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
     "https://www.euronews.com/video/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province",
-    "https://es.euronews.com/video/2026/11/09/explosion-en-complejo-industrial-de-esmirna-provoca-incendio-y-densa-humareda"
+    "https://es.euronews.com/video/2026/11/09/explosion-en-complejo-industrial-de-esmirna-provoca-incendio-y-densa-humareda",
+    "https://www.france24.com/es/am%C3%A9rica-latina/20261110-la-ayuda-empieza-a-mermar-tres-meses-del-terremoto-en-colombia-la-solidaridad-desplaza-al-gobierno"
   ],
   "processedSignatures": [
+    {
+      "title": "TRES MESES DEL SISMO COLOMBIANO SIN RESPUESTA ESTATAL EFECTIVA",
+      "normalizedTokens": [
+        "tres",
+        "meses",
+        "sismo",
+        "colombiano",
+        "respuesta",
+        "estatal",
+        "efectiva"
+      ],
+      "date": "2026-11-10T05:32:09.339Z"
+    },
+    {
+      "title": "“La ayuda empieza a mermar”: tres meses del terremoto en Colombia, la solidaridad desplaza al gobierno",
+      "normalizedTokens": [
+        "ayuda",
+        "empieza",
+        "mermar",
+        "tres",
+        "meses",
+        "terremoto",
+        "colombia",
+        "solidaridad",
+        "desplaza",
+        "gobierno"
+      ],
+      "date": "2026-11-10T05:32:09.338Z"
+    },
     {
       "title": "TRAGEDIA INDUSTRIAL EN ESMIRNA EXPONE FALLAS DE SEGURIDAD SIDERÚRGICA",
       "normalizedTokens": [

@@ -458,5 +458,15 @@
     "relevant": true,
     "reason": "Muestra ambulancias turcas y personal de emergencia respondiendo al accidente en las instalaciones de la planta industrial.",
     "at": "2026-11-10T05:16:54.340Z"
+  },
+  "703bc639ccf10fa6:of8t6pzup": {
+    "relevant": false,
+    "reason": "La imagen corresponde al terremoto de Haití de 2021 y no a un sismo en Colombia.",
+    "at": "2026-11-10T05:31:55.840Z"
+  },
+  "16acc63cdf2ac8dd:of8t6pzup": {
+    "relevant": true,
+    "reason": "Muestra escombros, maquinaria pesada de remoción y personal en una zona afectada, lo cual ilustra visualmente el contexto de un desastre sísmico y las labores de reconstrucción.",
+    "at": "2026-11-10T05:32:05.660Z"
   }
 }

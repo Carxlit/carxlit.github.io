@@ -1,5 +1,86 @@
 [
   {
+    "slug": "solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1",
+    "path": "noticias/solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1/",
+    "title": "La solidaridad ciudadana desplaza al Estado a tres meses del terremoto en Colombia",
+    "headline": "TRES MESES DEL SISMO COLOMBIANO SIN RESPUESTA ESTATAL EFECTIVA",
+    "dek": "A noventa días del sismo que sacudió a dieciséis departamentos, la disminución de la ayuda oficial deja a quinientos municipios dependiendo de la autogestión comunitaria.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "France 24 Español",
+    "image": "img/solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1.jpg",
+    "photo": "img/solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1-foto.jpg",
+    "publishedAt": "2026-11-10T05:32:09.239Z",
+    "article": {
+      "slug": "solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1",
+      "title": "La solidaridad ciudadana desplaza al Estado a tres meses del terremoto en Colombia",
+      "dek": "A noventa días del sismo que sacudió a dieciséis departamentos, la disminución de la ayuda oficial deja a quinientos municipios dependiendo de la autogestión comunitaria.",
+      "keyFacts": [
+        "Han transcurrido 90 días desde el terremoto que afectó a Colombia.",
+        "Unos 500 municipios distribuidos en 16 departamentos sufrieron daños a causa del sismo.",
+        "Las lluvias recientes han provocado el derrumbe de estructuras que quedaron debilitadas en Pereira.",
+        "La ayuda institucional comenzó a mermar, según reportes de France 24 Español y Yahoo."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "A tres meses de aquella mañana fatídica, el paisaje urbano de Pereira muestra vacíos visibles en los lugares donde antes se erigían edificios. Estas estructuras, severamente dañadas por el sismo, han sido demolidas o terminaron de venirse abajo debido a las precipitaciones constantes que azotan a la región en las últimas semanas. En el departamento del Valle del Cauca y en otras zonas rurales, las secuelas del movimiento telúrico siguen latentes sin una solución definitiva.",
+            "Según la cobertura de France 24 Español, la situación se extiende a lo largo de dieciséis departamentos, donde aproximadamente quinientos municipios reportaron algún tipo de afectación. En casi todos estos puntos, la activación ciudadana ha sido el motor principal para mitigar la emergencia."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La emergencia inicial movilizó recursos y atención mediática hacia el epicentro del desastre, un patrón habitual en crisis de esta magnitud. Sin embargo, conforme pasan las semanas, la atención pública decae y deja al descubierto las limitaciones logísticas del Estado colombiano para atender catástrofes descentralizadas de gran escala.",
+            "La combinación de daños estructurales no reparados y la llegada de la temporada de lluvias ha incrementado el riesgo en zonas urbanas y rurales por igual. Los habitantes de Pereira y el Valle del Cauca enfrentan no solo la pérdida de infraestructura, sino también el deterioro progresivo de sus condiciones de vida ante la falta de una respuesta gubernamental sostenida."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los medios tradicionales reducen la cobertura a los daños causados por las lluvias, el verdadero trasfondo institucional radica en la retirada silenciosa de la ayuda oficial. La solidaridad ciudadana, aunque elogiable por su rapidez y efectividad inmediata, está cumpliendo una función de sustitución estatal.",
+            "Este fenómeno oculta una peligrosa normalización: el Estado delega su responsabilidad inalienable de protección civil y reconstrucción en redes de apoyo comunitario que operan sin recursos estructurales ni planificación a largo plazo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, las comunidades locales y los gobiernos municipales de los quinientos municipios afectados cargan con el costo financiero y social de una crisis que supera sus presupuestos ordinarios. La población rural del Valle del Cauca asume el mayor costo al quedar desatendida por los canales formales de asistencia.",
+            "Por otro lado, la administración central minimiza el impacto político inmediato al desviar la presión pública hacia la resiliencia ciudadana, eludiendo la rendición de cuentas sobre la lentitud en la ejecución de fondos de emergencia."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la evolución de la infraestructura urbana en Pereira ante la continuidad de las lluvias, así como la capacidad de resistencia de las redes comunitarias en el Valle del Cauca.",
+            "Asimismo, se debe vigilar la asignación presupuestaria real del gobierno central para los programas de reconstrucción en los dieciséis departamentos afectados, evaluando si la ayuda estatal recupera terreno o si la autogestión se convierte en la única norma permanente."
+          ]
+        }
+      ],
+      "tags": [
+        "Colombia",
+        "Terremoto",
+        "Geopolítica",
+        "Infraestructura",
+        "Sociedad"
+      ],
+      "sources": [
+        {
+          "name": "France 24 Español",
+          "title": "“La ayuda empieza a mermar”: tres meses del terremoto en Colombia, la solidaridad desplaza al gobierno",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261110-la-ayuda-empieza-a-mermar-tres-meses-del-terremoto-en-colombia-la-solidaridad-desplaza-al-gobierno"
+        },
+        {
+          "name": "Yahoo",
+          "title": "“La ayuda empieza a mermar”: tres meses del terremoto en Colombia, la solidaridad desplaza al gobierno",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVF93bjBaTG5jNUVPQ19IUU1IU21TYUVxZGVYcTlIYlNmWE9YNkJjQkJtdWpwdzlwbFJhMVNoV1Fxa3BkeWJCdXRnNUx5ZWdZczk5U0FMQWFXWkJ1SktzZFliX0VtRlBjZlcwX1pWeXAzRHFjYjZpZW04SlQzcGJoMFByQ3FieVZDeWpXSA?oc=5"
+        }
+      ],
+      "wordCount": 484
+    },
+    "blindSpot": "La atención mediática se concentra en el impacto inicial y las lluvias recientes, pero el verdadero trasfondo radica en la incapacidad estructural del Estado para gestionar desastres prolongados, delegando la soberanía asistencial en redes comunitarias locales."
+  },
+  {
     "slug": "explosion-complejo-siderurgico-esmirna-evidencia-vulnerabilidades-uys6",
     "path": "noticias/explosion-complejo-siderurgico-esmirna-evidencia-vulnerabilidades-uys6/",
     "title": "Explosión en complejo siderúrgico de Esmirna evidencia vulnerabilidades en la seguridad industrial",
