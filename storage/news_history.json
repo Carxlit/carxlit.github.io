@@ -144,9 +144,43 @@
     "https://www.xataka.com/robotica-e-ia/claude-va-paso-alla-vibe-coding-fable-5-2-ha-disenado-dispositivos-que-funcionan-mundo-real",
     "https://news.un.org/feed/view/en/story/2026/11/1168766",
     "https://www.xataka.com/empresas-y-economia/infidelidad-huang-ha-destapado-fragilidad-nvidia-depende-hombre-sucesor-isla-plan-b",
-    "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-congreso-de-ee-uu-abre-batalla-para-destituir-al-secretario-de-guerra-por-operaciones-en-iran-yemen-y-venezuela-asi-estan-los-votos-3599598"
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-congreso-de-ee-uu-abre-batalla-para-destituir-al-secretario-de-guerra-por-operaciones-en-iran-yemen-y-venezuela-asi-estan-los-votos-3599598",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzd5Z2JCbEZwZWtzVERIdVpCMHZSa1lZdW5OdXVwbHozbW1rM3ByUTRyZFNyTThTOXFLUnViZWtDbHllZWFUYVZXeXhUd1E2YWdSeTZVakNuV3ozbHJqdkJkN2RNeVhvRW5XRXRSWUhmdUx0RVFsLUNXdmFoMUtzOENaMS1UbzYtY1A3SXJmNFUtWHZQOVdDVC1DWENfbUVEaUF4ZGhBTVR1NEplSTBTRnU5bDBibDlnaWhjTERn?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "LA OPOSICIÓN DEMÓCRATA ENFRENTA PRESIONES PARA FRENAR EL CONFLICTO CON IRÁN",
+      "normalizedTokens": [
+        "oposicion",
+        "democrata",
+        "enfrenta",
+        "presiones",
+        "frenar",
+        "conflicto",
+        "iran"
+      ],
+      "date": "2026-11-10T13:33:00.525Z"
+    },
+    {
+      "title": "Most Americans want new Democratic Congress to end Trump's Iran war, Reuters/Ipsos poll finds",
+      "normalizedTokens": [
+        "most",
+        "americans",
+        "want",
+        "new",
+        "democratic",
+        "congress",
+        "end",
+        "trump",
+        "iran",
+        "war",
+        "reuters",
+        "ipsos",
+        "poll",
+        "finds"
+      ],
+      "date": "2026-11-10T13:33:00.524Z"
+    },
     {
       "title": "CONGRESO DE EE. UU. ABRE BATALLA PARA DESTITUIR A PETE HEGSETH",
       "normalizedTokens": [
