@@ -453,5 +453,10 @@
     "relevant": true,
     "reason": "La imagen muestra una planta siderúrgica industrial que coincide con el lugar del accidente descrito en la noticia.",
     "at": "2026-11-10T05:01:36.591Z"
+  },
+  "f193e36f10602aa6:xtsh4dijh": {
+    "relevant": true,
+    "reason": "Muestra ambulancias turcas y personal de emergencia respondiendo al accidente en las instalaciones de la planta industrial.",
+    "at": "2026-11-10T05:16:54.340Z"
   }
 }
