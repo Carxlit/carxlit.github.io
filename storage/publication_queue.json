@@ -22976,12 +22976,13 @@
         "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
         "channel": "No Comment TV"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T05:01:36.593Z",
       "cardImageUrl": "/news-cards/news-4beog9t2v-1794286896594.jpg",
       "reelCoverUrl": "/news-cards/news-4beog9t2v-1794286897664-cover.jpg",
       "instagramCardUrl": "/news-cards/news-4beog9t2v-1794286898199-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tragedia-siderurgica-izmir-expone-fragilidad-seguridad-8dh5/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/tragedia-siderurgica-izmir-expone-fragilidad-seguridad-8dh5/",
+      "publishedAt": "2026-11-10T05:04:54.965Z"
     },
     "channels": {
       "facebook": true,
@@ -22995,10 +22996,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T05:01:39.321Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-10T05:01:39.321Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-10T05:02:38.255Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108691861532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "150",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzwnyu6neb26"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18095613773265636",
+        "permalink": "https://www.instagram.com/reel/DfjHMAaAWRn/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117590398149460147"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18108538289356533"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T05:04:54.965Z"
   }
 ]
