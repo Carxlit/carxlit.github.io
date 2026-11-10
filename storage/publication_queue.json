@@ -23333,12 +23333,13 @@
         "close": "Lee el análisis completo en nuestro perfil."
       },
       "rawImageUrl": "https://s.yimg.com/lo/mysterio/api/85517ecbad6ad3b2969614160e39896fd18b07d719ed3c99dc1cd5ad7a258f28/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Ffrance_24_espanol_articles_785%2Fea603a118b14c063a9ca8ca8a7ed8770.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T05:32:06.910Z",
       "cardImageUrl": "/news-cards/news-of8t6pzup-1794288726910.jpg",
       "reelCoverUrl": "/news-cards/news-of8t6pzup-1794288727486-cover.jpg",
       "instagramCardUrl": "/news-cards/news-of8t6pzup-1794288728051-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/solidaridad-ciudadana-desplaza-estado-tres-meses-l8c1/",
+      "publishedAt": "2026-11-10T05:34:43.934Z"
     },
     "channels": {
       "facebook": true,
@@ -23352,10 +23353,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T05:32:09.329Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-10T05:32:09.329Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-10T05:32:59.602Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122108701713532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "152",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzwpoyrfwr2p"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18146499094608954",
+        "permalink": "https://www.instagram.com/reel/DfjKmW_EbXU/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117590515413349396"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18116036858170190"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T05:34:43.934Z"
   }
 ]
