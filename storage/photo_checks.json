@@ -483,5 +483,10 @@
     "relevant": true,
     "reason": "Muestra varios dispositivos de hardware físicos diseñados por la inteligencia artificial Claude.",
     "at": "2026-11-10T11:30:02.676Z"
+  },
+  "214c3b7396d40998:cqebc16ti": {
+    "relevant": false,
+    "reason": "La imagen muestra a un hombre sosteniendo a un niño entre escombros de edificios destruidos por bombardeos, no una escena de lluvias o inundaciones.",
+    "at": "2026-11-10T11:39:14.015Z"
   }
 }

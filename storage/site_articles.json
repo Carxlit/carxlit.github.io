@@ -1,5 +1,85 @@
 [
   {
+    "slug": "primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn",
+    "path": "noticias/primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn/",
+    "title": "Las primeras lluvias invernales colapsan los refugios improvisados de desplazados en Gaza",
+    "headline": "LLUVIAS E INUNDACIONES EN GAZA COBRAN LA VIDA DE CINCO PERSONAS",
+    "dek": "El colapso de dunas por precipitaciones provocó la muerte de cinco personas en campamentos temporales. La falta de insumos de construcción expone la vulnerabilidad de la población ante el invierno.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Noticias de la ONU",
+    "image": "img/primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "1R9Mj_6UcdA",
+      "title": "Primeras lluvias invernales inundan 70 mil tiendas de desplazados en Gaza",
+      "channel": "EL IMPARCIAL TV"
+    },
+    "publishedAt": "2026-11-10T11:39:18.142Z",
+    "article": {
+      "slug": "primeras-lluvias-invernales-colapsan-refugios-improvisados-xsrn",
+      "title": "Las primeras lluvias invernales colapsan los refugios improvisados de desplazados en Gaza",
+      "dek": "El colapso de dunas por precipitaciones provocó la muerte de cinco personas en campamentos temporales. La falta de insumos de construcción expone la vulnerabilidad de la población ante el invierno.",
+      "keyFacts": [
+        "Cinco personas murieron en Gaza, incluidos tres niños, tras el colapso de una duna de arena sobre sus tiendas.",
+        "Un bebé falleció ahogado a causa de las intensas lluvias caídas durante el fin de semana.",
+        "Los datos fueron documentados por la Oficina de Naciones Unidas para la Coordinación de Asuntos Humanitarios (OCHA)."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Las primeras lluvias intensas del fin de semana en la Franja de Gaza provaron el colapso de dunas de arena sobre campamentos de tiendas de campaña, provocando la muerte de al menos cinco personas, según confirmó la Oficina de Naciones Unidas para la Coordinación de Asuntos Humanitarios (OCHA). Entre las víctimas mortales se cuentan tres niños.",
+            "Asimismo, los reportes de la agencia de la ONU confirmaron que un bebé falleció por ahogamiento debido a las rápidas correntadas que anegaron las estructuras temporales de plástico y tela. Las precipitaciones anegaron múltiples sectores donde se concentran familias desplazadas, destruyendo los escasos enseres con los que contaban."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Miles de personas en el enclave residen en asentamientos informales establecidos sobre zonas costeras o terrenos inestables expuestos a la erosión. Las tiendas de campaña actuales carecen de cimientos, aislamiento térmico o sistemas de canalización que puedan evacuar el agua en momentos de precipitaciones continuas.",
+            "La llegada de la temporada fría encuentra a la infraestructura del territorio en un estado de deterioro crítico. Sin redes de drenaje funcionales ni acceso regular a equipamiento de invernalización, cualquier incremento en el caudal pluvial desencadena inundaciones inmediatas en los espacios habitacionales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La lectura superficial del acontecimiento suele calificar estos hechos como desastres naturales o incidentes derivados del clima riguroso. Sin embargo, el análisis estructural revela que la letalidad del temporal es consecuencia directa de la imposibilidad de introducir materiales de construcción, maquinaria de nivelación de suelos y estructuras de refugio duraderas.",
+            "El punto ciego consiste en tratar el problema como una emergencia meteorológica cuando se trata de una vulnerabilidad inducida por restricciones logísticas. La intemperie solo expone y profundiza las carencias físicas a las que está sometida la población civil."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los perjudicados inmediatos son las familias desplazadas, en especial los menores de edad y los recién nacidos, quienes enfrentan riesgos combinados de hipotermia, ahogamiento y derrumbes. Al mismo tiempo, los organismos humanitarios ven obligada la reorientación de sus limitados recursos hacia labores de rescate urgente.",
+            "En el plano político, enfocar la atención en el mal tiempo diluye las responsabilidades operativas respecto al mantenimiento de las condiciones de vida en el territorio, postergando las discusiones sobre la reconstrucción y el equipamiento estructural necesario."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En el corto plazo, será fundamental evaluar si se autoriza el ingreso prioritario de kits de invierno, impermeabilizantes y bombas de achique antes de que se registren los episodios de lluvia más intensos del invierno.",
+            "También deberá vigilarse la situación epidemiológica en los campamentos, ya que el agua estancada y las bajas temperaturas aumentan el riesgo de enfermedades respiratorias e infecciosas en una población exhausta."
+          ]
+        }
+      ],
+      "tags": [
+        "Gaza",
+        "OCHA",
+        "Crisis Humanitaria",
+        "Desplazamiento",
+        "Naciones Unidas"
+      ],
+      "sources": [
+        {
+          "name": "Noticias de la ONU",
+          "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168766"
+        }
+      ],
+      "wordCount": 458
+    },
+    "blindSpot": "La crisis no es un evento puramente meteorológico, sino la consecuencia directa del bloqueo continuado al ingreso de materiales de construcción y refuerzo estructural. Mientras la cobertura mediática se enfoca en la emergencia inmediata, la imposibilidad de edificar refugios seguros convierte cada lluvia estacional en un desastre mortal previsible."
+  },
+  {
     "slug": "claude-da-salto-codigo-hardware-fisico-7zkc",
     "path": "noticias/claude-da-salto-codigo-hardware-fisico-7zkc/",
     "title": "Claude da el salto del código al hardware físico en medio de dudas sobre costes y seguridad",

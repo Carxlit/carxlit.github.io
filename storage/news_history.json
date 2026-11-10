@@ -141,9 +141,40 @@
     "https://www.france24.com/es/am%C3%A9rica-latina/20261110-la-ayuda-empieza-a-mermar-tres-meses-del-terremoto-en-colombia-la-solidaridad-desplaza-al-gobierno",
     "https://www.france24.com/es/video/20261110-al-menos-20-migrantes-muertos-en-cuatro-d%C3%ADas-de-naufragios-frente-a-creta",
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbXgydkNpVTZraF84N0tHT3J5VWdyQjMxQl9SSXpLOV9vaFdFNXJ0Ri1Xa2F2aWdHY0NnQ1VOYnVmdzVKckdPOEgwNkFBMTZEeXRoNDg2RzZMUl95UzlyTnZOM2JhZC1NaUs5dUhqcEhodDZMZmlvUUd5dmI0MW05NzlqYVBaUVJJVmViYjhIMXlKN1ZsbHI3LVRhUjNVSFVrenZNRlJ6ckpDWmdld01PV1VVMHdRQlY4NXB4aVFCdmxnUW01NjE4M3lLck5CQ3p1OVo0aUtrN2xIc2U1RC00VGlmUnFsMThYV2fSAYQCQVVfeXFMUFRUam5mTHFLZmxwaHpkMWNMWW1HUVBPZ1huSVJXdmRzRm5ORnVWMUtrSVltU3dQVXhsanZkYXVaSkNpWWQxLVVzLUJJR1B6cnhIT3I1bmxkb3Z2V1RYbGRYMjJpWnZIUTlHeTBsb2lVdndTUTFmVjFQeVJnVk0zOGx1RldjalgyQXQ2UjZvTXRzQXFYZ1k2Z2p6cVZPYlVMakFlQ1hqQzh2dkFHMnluZlltdnM4T29jajJPbVVGazJHWWVTaE1UVmc1ckgzb3BLaDJXdC1qMDFoTVg2TERUVUFCYWd3Y0NRRHhYOGxOZVBaWG5IaDVMLVlaazRXNUZ4TFU3OEE?oc=5",
-    "https://www.xataka.com/robotica-e-ia/claude-va-paso-alla-vibe-coding-fable-5-2-ha-disenado-dispositivos-que-funcionan-mundo-real"
+    "https://www.xataka.com/robotica-e-ia/claude-va-paso-alla-vibe-coding-fable-5-2-ha-disenado-dispositivos-que-funcionan-mundo-real",
+    "https://news.un.org/feed/view/en/story/2026/11/1168766"
   ],
   "processedSignatures": [
+    {
+      "title": "LLUVIAS E INUNDACIONES EN GAZA COBRAN LA VIDA DE CINCO PERSONAS",
+      "normalizedTokens": [
+        "lluvias",
+        "inundaciones",
+        "gaza",
+        "cobran",
+        "vida",
+        "cinco",
+        "personas"
+      ],
+      "date": "2026-11-10T11:39:18.261Z"
+    },
+    {
+      "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
+      "normalizedTokens": [
+        "children",
+        "among",
+        "the",
+        "dead",
+        "heavy",
+        "rains",
+        "flood",
+        "tents",
+        "and",
+        "shelters",
+        "gaza"
+      ],
+      "date": "2026-11-10T11:39:18.260Z"
+    },
     {
       "title": "CLAUDE SALTA DEL CÓDIGO DIGITAL AL DISEÑO DE HARDWARE",
       "normalizedTokens": [
