@@ -508,5 +508,15 @@
     "relevant": true,
     "reason": "la imagen muestra la entrada del Banco Central de Brasil, la institución central mencionada en el titular.",
     "at": "2026-11-10T14:31:49.154Z"
+  },
+  "9bd408380ba1a984:f7qc7sf6n": {
+    "relevant": false,
+    "reason": "La imagen muestra soldados en el terreno de conflicto y no representa las negociaciones diplomáticas en Abu Dabi que indica el titular.",
+    "at": "2026-11-10T16:11:18.192Z"
+  },
+  "9585ffcea660668f:f7qc7sf6n": {
+    "relevant": true,
+    "reason": "la imagen muestra al presidente ucraniano Volodímir Zelenski, uno de los principales actores del conflicto mencionado en el titular.",
+    "at": "2026-11-10T16:11:28.869Z"
   }
 }

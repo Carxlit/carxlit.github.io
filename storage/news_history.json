@@ -146,9 +146,41 @@
     "https://www.xataka.com/empresas-y-economia/infidelidad-huang-ha-destapado-fragilidad-nvidia-depende-hombre-sucesor-isla-plan-b",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-congreso-de-ee-uu-abre-batalla-para-destituir-al-secretario-de-guerra-por-operaciones-en-iran-yemen-y-venezuela-asi-estan-los-votos-3599598",
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzd5Z2JCbEZwZWtzVERIdVpCMHZSa1lZdW5OdXVwbHozbW1rM3ByUTRyZFNyTThTOXFLUnViZWtDbHllZWFUYVZXeXhUd1E2YWdSeTZVakNuV3ozbHJqdkJkN2RNeVhvRW5XRXRSWUhmdUx0RVFsLUNXdmFoMUtzOENaMS1UbzYtY1A3SXJmNFUtWHZQOVdDVC1DWENfbUVEaUF4ZGhBTVR1NEplSTBTRnU5bDBibDlnaWhjTERn?oc=5",
-    "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4WUh4cWdERDRCV2t4a0lMbGR1Z1dVdDQta3c1dEpLcFBHckVDaWVhUjFfb2dGREItQk9YcW91ZTJ4LUtvSFhHNVJWeFBKZXloeG44VEppSDlPWkRseDdBandFX2VMbEVpaW9Dcm83eVM4bGdZdHdF?oc=5"
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4WUh4cWdERDRCV2t4a0lMbGR1Z1dVdDQta3c1dEpLcFBHckVDaWVhUjFfb2dGREItQk9YcW91ZTJ4LUtvSFhHNVJWeFBKZXloeG44VEppSDlPWkRseDdBandFX2VMbEVpaW9Dcm83eVM4bGdZdHdF?oc=5",
+    "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA, UCRANIA Y ESTADOS UNIDOS RETOMAN NEGOCIACIONES EN ABU DABI",
+      "normalizedTokens": [
+        "rusia",
+        "ucrania",
+        "estados",
+        "unidos",
+        "retoman",
+        "negociaciones",
+        "abu",
+        "dabi"
+      ],
+      "date": "2026-11-10T16:11:31.107Z"
+    },
+    {
+      "title": "Russia, Ukraine and US resume peace talks in Abu Dhabi amid fresh attacks",
+      "normalizedTokens": [
+        "russia",
+        "ukraine",
+        "and",
+        "resume",
+        "peace",
+        "talks",
+        "abu",
+        "dhabi",
+        "amid",
+        "fresh",
+        "attacks"
+      ],
+      "date": "2026-11-10T16:11:31.106Z"
+    },
     {
       "title": "EL BANCO CENTRAL DE BRASIL ADVIERTE REBROTE INFLACIONARIO POR OFERTA",
       "normalizedTokens": [
