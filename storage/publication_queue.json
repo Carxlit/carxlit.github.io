@@ -24515,12 +24515,13 @@
         "title": "Most Americans Want New Congress to End Trump's Iran War, Poll Finds #Shorts",
         "channel": "Klaiden News"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-10T13:32:57.912Z",
       "cardImageUrl": "/news-cards/news-0dma3l1d4-1794317577912.jpg",
       "reelCoverUrl": "/news-cards/news-0dma3l1d4-1794317578629-cover.jpg",
       "instagramCardUrl": "/news-cards/news-0dma3l1d4-1794317579298-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/presion-democrata-sobre-politica-exterior-limites-jf5j/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/presion-democrata-sobre-politica-exterior-limites-jf5j/",
+      "publishedAt": "2026-11-10T17:54:43.493Z"
     },
     "channels": {
       "facebook": true,
@@ -24534,10 +24535,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-10T17:51:47.069Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-10T13:33:00.510Z"
+    "createdAt": "2026-11-10T13:33:00.510Z",
+    "lastAttemptAt": "2026-11-10T17:52:02.545Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122109007929532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "159",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzxyyt543d2k"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17991284571106888",
+        "permalink": "https://www.instagram.com/reel/DfkfSBQgSmE/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117593425104525172"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17915334381475834"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-10T17:54:43.493Z"
   },
   {
     "id": "queue-1794321114729-wrl2j",
