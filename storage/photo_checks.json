@@ -648,5 +648,10 @@
     "relevant": false,
     "reason": "La imagen muestra al presidente de Argentina y autoridades eclesiásticas junto a un avión, sin relación con fuerzas armadas ni Teherán.",
     "at": "2026-11-11T21:17:29.142Z"
+  },
+  "5bf8fe3908e0d5b0:75fjx6e20": {
+    "relevant": true,
+    "reason": "La imagen muestra una interfaz futurista relacionada con la inteligencia artificial, lo cual ilustra adecuadamente el debate sobre su regulación.",
+    "at": "2026-11-11T22:16:45.810Z"
   }
 }

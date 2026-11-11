@@ -165,9 +165,33 @@
     "https://www.abc.es/internacional/rusia-ucrania-siguen-ataques-cruzados-negocian-paz-20261111164618-nt.html",
     "https://theconversation.com/a-proposito-del-caso-nvidia-que-nos-ensena-la-historia-del-espionaje-sobre-la-seguridad-tecnologica-actual-296303",
     "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-rdf",
-    "https://www.eltiempo.com/mundo/la-tension-por-la-guerra-en-iran-llega-a-suramerica-teheran-designa-como-terroristas-a-la-armada-y-la-fuerza-aerea-de-argentina-3600274"
+    "https://www.eltiempo.com/mundo/la-tension-por-la-guerra-en-iran-llega-a-suramerica-teheran-designa-como-terroristas-a-la-armada-y-la-fuerza-aerea-de-argentina-3600274",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0pfNEpVVVl5YXEtd2RrYVoxRzVGOTV1SHlwUVZSQlN4bXNFRGhMTjRhNGljcXJwX3VNN0lrSk5aNzB6NVdpRjVFWnJUc2ZpYWdhU1dIejN2cFlyTXczMnU4S252U0RZeGFMSnRTYWI2ODNZTThYSjBWLVFlWkd1ZlhyNWt6aHlra05GQVdOcmVCaGh1OXZBZ29Lbk0xYUozWlFOOEJUeG5Pd9IBvgFBVV95cUxPVk1qUmozYm9UQVFSYUFCWlpVaDFPOUhFVzNyaXBndzhnT3NNNHpMRm83Yzk1T3dLMjM0TUpMZ1gtU3ZxMWR0bE14Y09kelR6LVcxa1p3bjhlanIwa0tFWHM0eHZHN1AtNDhiRWFHdF9IaUotTkNFcG5ZZFlKQUIzdkNFcDlwOGlZY1k5cWlCcFVlalpISEZsS2NPWnFHVnNVTVRPRF9iRC1zNmF2aGYwdVhwV1Frd2tpUjVKTVR3?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EL DILEMA DE REGULAR LA INTELIGENCIA ARTIFICIAL EN CUMBRES",
+      "normalizedTokens": [
+        "dilema",
+        "regular",
+        "inteligencia",
+        "artificial",
+        "cumbres"
+      ],
+      "date": "2026-11-11T22:16:49.804Z"
+    },
+    {
+      "title": "HOY SE HABLA DE | El reto de regular la inteligencia artificial",
+      "normalizedTokens": [
+        "hoy",
+        "habla",
+        "reto",
+        "regular",
+        "inteligencia",
+        "artificial"
+      ],
+      "date": "2026-11-11T22:16:49.803Z"
+    },
     {
       "title": "TEHERÁN CALIFICA COMO TERRORISTAS A FUERZAS ARMADAS ARGENTINAS",
       "normalizedTokens": [
