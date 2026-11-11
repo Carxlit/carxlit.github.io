@@ -608,5 +608,20 @@
     "relevant": true,
     "reason": "Muestra microchips y circuitos impresos, que están directamente relacionados con la fabricación de semiconductores de TSMC y la industria de inteligencia artificial.",
     "at": "2026-11-11T13:40:13.794Z"
+  },
+  "824fe3519317dc3f:e7zxdrb1q": {
+    "relevant": false,
+    "reason": "la imagen muestra los efectos del conflicto en Ucrania y no las negociaciones o diplomáticos de Moscú y Washington a los que hace referencia el titular.",
+    "at": "2026-11-11T17:16:56.599Z"
+  },
+  "fd3ac6fc539df4d8:e7zxdrb1q": {
+    "relevant": false,
+    "reason": "la imagen muestra la destrucción y bomberos sobre el terreno en vez de a los actores diplomáticos de Moscú y Washington ni las negociaciones sobre la seguridad europea planteadas e",
+    "at": "2026-11-11T17:17:03.256Z"
+  },
+  "39724d2149dfc13a:e7zxdrb1q": {
+    "relevant": false,
+    "reason": "la imagen muestra a Jared Kushner en los Abu Dhabi Peace Talks junto a una bandera de Ucrania, por lo que no representa negociaciones oficiales entre Moscú y Washington sobre la se",
+    "at": "2026-11-11T17:17:15.706Z"
   }
 }
