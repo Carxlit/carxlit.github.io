@@ -158,9 +158,41 @@
     "https://www.france24.com/en/tv-shows/eye-on-africa/20261111-boat-capsized-off-senegal-s-northwest-coast-leaving-39-dead",
     "https://www.xataka.com/seleccion/ninja-tiene-cafetera-superautomatica-3-1-que-ahora-puedes-comprar-200-euros-descuento",
     "https://www.expansion.com/opinion/2026/11/11/crudo-apuesta-guerra-iran.html",
-    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdE92MTc1bXhRY1dWMmpqWXNCS0FSS1pKZEVDVGNudjFSQVYtVkhXaWY5ZnFuOWU2MkVZbmlkNXdUZ05FM0VwV0trZVhQV1BvSEFUTEJNd0dlSVplcFp2dEQzZjBnb0Z4YmlUZ3Q5R3AtNmN4QTViUjE2NTByaU9IcFF1T19Oemg1bjBzZ0VSdmlCWGhXcXBTMzdQQ05sQ1FDSzZFNXFrRXMtZkNfcVBkX1V0ZktUbm9kNnNjX0VGWm9lTWNBMUI0aWZJcEpmYlVlX3drQkVwd24wYlRG?oc=5"
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdE92MTc1bXhRY1dWMmpqWXNCS0FSS1pKZEVDVGNudjFSQVYtVkhXaWY5ZnFuOWU2MkVZbmlkNXdUZ05FM0VwV0trZVhQV1BvSEFUTEJNd0dlSVplcFp2dEQzZjBnb0Z4YmlUZ3Q5R3AtNmN4QTViUjE2NTByaU9IcFF1T19Oemg1bjBzZ0VSdmlCWGhXcXBTMzdQQ05sQ1FDSzZFNXFrRXMtZkNfcVBkX1V0ZktUbm9kNnNjX0VGWm9lTWNBMUI0aWZJcEpmYlVlX3drQkVwd24wYlRG?oc=5",
+    "https://theconversation.com/spain-general-strike-how-50-years-of-industrial-action-shaped-spains-post-franco-democracy-296306"
   ],
   "processedSignatures": [
+    {
+      "title": "CINCUENTA AÑOS DE HUELGAS MOLDAN EL PODER SINDICAL EN ESPAÑA",
+      "normalizedTokens": [
+        "cincuenta",
+        "anos",
+        "huelgas",
+        "moldan",
+        "poder",
+        "sindical",
+        "espana"
+      ],
+      "date": "2026-11-11T11:47:22.440Z"
+    },
+    {
+      "title": "Spain general strike: how 50 years of industrial action shaped Spain’s post-Franco democracy",
+      "normalizedTokens": [
+        "spain",
+        "general",
+        "strike",
+        "how",
+        "years",
+        "industrial",
+        "action",
+        "shaped",
+        "spain",
+        "post",
+        "franco",
+        "democracy"
+      ],
+      "date": "2026-11-11T11:47:22.438Z"
+    },
     {
       "title": "DETIENEN EN REINO UNIDO A MILITAR ESTADOUNIDENSE POR ESPIONAJE RUSO",
       "normalizedTokens": [

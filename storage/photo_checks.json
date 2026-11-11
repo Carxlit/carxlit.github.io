@@ -583,5 +583,10 @@
     "relevant": false,
     "reason": "La imagen muestra una supuesta detención de Nicolás Maduro por la DEA y no tiene relación con el militar estadounidense arrestado en el Reino Unido.",
     "at": "2026-11-11T11:32:09.648Z"
+  },
+  "062314e2d1502339:gzriujbq1": {
+    "relevant": true,
+    "reason": "la imagen muestra una manifestación con banderas rojas y pancartas que ilustra adecuadamente una protesta sindical en España.",
+    "at": "2026-11-11T11:47:18.531Z"
   }
 }
