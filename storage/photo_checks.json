@@ -633,5 +633,20 @@
     "relevant": true,
     "reason": "La imagen muestra personal médico y un cartel de alerta de ébola, elementos directamente relacionados con el manejo y contención de un brote de esta enfermedad.",
     "at": "2026-11-11T19:20:33.934Z"
+  },
+  "3c1a770de1a93398:vhqicywef": {
+    "relevant": false,
+    "reason": "La imagen muestra al presidente argentino Javier Milei inspeccionando tropas, pero la noticia trata sobre la designación de Teherán contra las fuerzas armadas.",
+    "at": "2026-11-11T21:17:10.245Z"
+  },
+  "b58966e6ef37b544:vhqicywef": {
+    "relevant": false,
+    "reason": "La imagen muestra al presidente argentino Javier Milei y al Papa Francisco, lo cual no tiene relación con el titular sobre Teherán y las Fuerzas Armadas argentinas.",
+    "at": "2026-11-11T21:17:21.627Z"
+  },
+  "5588a9860ab27264:vhqicywef": {
+    "relevant": false,
+    "reason": "La imagen muestra al presidente de Argentina y autoridades eclesiásticas junto a un avión, sin relación con fuerzas armadas ni Teherán.",
+    "at": "2026-11-11T21:17:29.142Z"
   }
 }
