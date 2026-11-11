@@ -156,9 +156,33 @@
     "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss",
     "https://www.dw.com/es/rd-congo-supera-barrera-de-los-11-000-casos-de-ébola-incluidos-5-387-muertos/a-79914424?maca=spa-rss-sp-all-1122-rdf",
     "https://www.france24.com/en/tv-shows/eye-on-africa/20261111-boat-capsized-off-senegal-s-northwest-coast-leaving-39-dead",
-    "https://www.xataka.com/seleccion/ninja-tiene-cafetera-superautomatica-3-1-que-ahora-puedes-comprar-200-euros-descuento"
+    "https://www.xataka.com/seleccion/ninja-tiene-cafetera-superautomatica-3-1-que-ahora-puedes-comprar-200-euros-descuento",
+    "https://www.expansion.com/opinion/2026/11/11/crudo-apuesta-guerra-iran.html"
   ],
   "processedSignatures": [
+    {
+      "title": "EL PETRÓLEO CAE TRAS LA RETIRADA DE ESTADOS UNIDOS DE IRÁN",
+      "normalizedTokens": [
+        "petroleo",
+        "cae",
+        "retirada",
+        "estados",
+        "unidos",
+        "iran"
+      ],
+      "date": "2026-11-11T11:27:45.755Z"
+    },
+    {
+      "title": "El crudo apuesta por el fin de la guerra en Irán",
+      "normalizedTokens": [
+        "crudo",
+        "apuesta",
+        "fin",
+        "guerra",
+        "iran"
+      ],
+      "date": "2026-11-11T11:27:45.754Z"
+    },
     {
       "title": "SHARKNINJA DISPARA LA GUERRA DEL CAFÉ CON DESCUENTOS AGRESIVOS",
       "normalizedTokens": [
