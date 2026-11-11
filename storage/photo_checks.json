@@ -603,5 +603,10 @@
     "relevant": false,
     "reason": "el texto superpuesto en la imagen indica una tasa del 11,25%, lo cual contradice la cifra del 4,5% anunciada en el titular.",
     "at": "2026-11-11T12:32:58.396Z"
+  },
+  "2022150a3cbc54dc:mot42jtdj": {
+    "relevant": true,
+    "reason": "Muestra microchips y circuitos impresos, que están directamente relacionados con la fabricación de semiconductores de TSMC y la industria de inteligencia artificial.",
+    "at": "2026-11-11T13:40:13.794Z"
   }
 }

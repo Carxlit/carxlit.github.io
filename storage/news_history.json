@@ -160,9 +160,37 @@
     "https://www.expansion.com/opinion/2026/11/11/crudo-apuesta-guerra-iran.html",
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdE92MTc1bXhRY1dWMmpqWXNCS0FSS1pKZEVDVGNudjFSQVYtVkhXaWY5ZnFuOWU2MkVZbmlkNXdUZ05FM0VwV0trZVhQV1BvSEFUTEJNd0dlSVplcFp2dEQzZjBnb0Z4YmlUZ3Q5R3AtNmN4QTViUjE2NTByaU9IcFF1T19Oemg1bjBzZ0VSdmlCWGhXcXBTMzdQQ05sQ1FDSzZFNXFrRXMtZkNfcVBkX1V0ZktUbm9kNnNjX0VGWm9lTWNBMUI0aWZJcEpmYlVlX3drQkVwd24wYlRG?oc=5",
     "https://theconversation.com/spain-general-strike-how-50-years-of-industrial-action-shaped-spains-post-franco-democracy-296306",
-    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qaTFVWFlkUTBsUzNjVzkwYk5aaXhiaTBwU0hDcnN6RUg5T092VDB2aHFhWnZUY0RkZGxVRHAxVEZ5ZmpycS1RNldKX0FucTZHR3pRRVNpdXRnS25mMjJ1U0VUVzZDeGhYNzgwdDRiaDNGUXJMZWRB?oc=5"
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qaTFVWFlkUTBsUzNjVzkwYk5aaXhiaTBwU0hDcnN6RUg5T092VDB2aHFhWnZUY0RkZGxVRHAxVEZ5ZmpycS1RNldKX0FucTZHR3pRRVNpdXRnS25mMjJ1U0VUVzZDeGhYNzgwdDRiaDNGUXJMZWRB?oc=5",
+    "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSkxZQ0g1a2hoZ2ZBZzVaalNSZmtKOC15TjU4dzBIXzlYdnVqQ3M4MnBxUDJfazhIYXBRQ0w4c1pqY0QxUEhDLXNKa0x6NzNDWUR2Y01xNFliSHhvWW9La1hDbEtKQnlLTHRGQmQ2X1VuWVJMd1lTQUh3cnlfY0RLWlFxeXJfMi1UYXRDc09qUlhQWHJDZ3A5dkxfTHpQSjVqd09jMmpYQmlYeW5oaWhBRHlJNEx1ZTlqQ3N2eVhVM0VJNllIbmZ6NU9YdVpLOF82NkhHVV9zT3NSVEVaY0JYMWVyVTAwU05ncXRsUkphM0RYdUk?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "TSMC BLINDA SU CADENA CON INVERSIÓN EN IA",
+      "normalizedTokens": [
+        "tsmc",
+        "blinda",
+        "cadena",
+        "inversion"
+      ],
+      "date": "2026-11-11T13:40:17.596Z"
+    },
+    {
+      "title": "TSMC aprueba inversión de hasta 1,000 millones de dólares en Anthropic y OpenAI; ventas de octubre crecen 60%",
+      "normalizedTokens": [
+        "tsmc",
+        "aprueba",
+        "inversion",
+        "000",
+        "millones",
+        "dolares",
+        "anthropic",
+        "openai",
+        "ventas",
+        "octubre",
+        "crecen"
+      ],
+      "date": "2026-11-11T13:40:17.595Z"
+    },
     {
       "title": "BANCO CENTRAL DE CHILE CONGELARÁ TASA EN 4,5% EN DICIEMBRE",
       "normalizedTokens": [
