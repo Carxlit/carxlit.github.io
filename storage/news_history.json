@@ -159,9 +159,38 @@
     "https://www.xataka.com/seleccion/ninja-tiene-cafetera-superautomatica-3-1-que-ahora-puedes-comprar-200-euros-descuento",
     "https://www.expansion.com/opinion/2026/11/11/crudo-apuesta-guerra-iran.html",
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdE92MTc1bXhRY1dWMmpqWXNCS0FSS1pKZEVDVGNudjFSQVYtVkhXaWY5ZnFuOWU2MkVZbmlkNXdUZ05FM0VwV0trZVhQV1BvSEFUTEJNd0dlSVplcFp2dEQzZjBnb0Z4YmlUZ3Q5R3AtNmN4QTViUjE2NTByaU9IcFF1T19Oemg1bjBzZ0VSdmlCWGhXcXBTMzdQQ05sQ1FDSzZFNXFrRXMtZkNfcVBkX1V0ZktUbm9kNnNjX0VGWm9lTWNBMUI0aWZJcEpmYlVlX3drQkVwd24wYlRG?oc=5",
-    "https://theconversation.com/spain-general-strike-how-50-years-of-industrial-action-shaped-spains-post-franco-democracy-296306"
+    "https://theconversation.com/spain-general-strike-how-50-years-of-industrial-action-shaped-spains-post-franco-democracy-296306",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qaTFVWFlkUTBsUzNjVzkwYk5aaXhiaTBwU0hDcnN6RUg5T092VDB2aHFhWnZUY0RkZGxVRHAxVEZ5ZmpycS1RNldKX0FucTZHR3pRRVNpdXRnS25mMjJ1U0VUVzZDeGhYNzgwdDRiaDNGUXJMZWRB?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "BANCO CENTRAL DE CHILE CONGELARÁ TASA EN 4,5% EN DICIEMBRE",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "chile",
+        "congelara",
+        "tasa",
+        "diciembre"
+      ],
+      "date": "2026-11-11T12:33:01.666Z"
+    },
+    {
+      "title": "Banco Central de Chile mantendrá tasa clave de interés en 4,5% en diciembre: sondeo operadores",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "chile",
+        "mantendra",
+        "tasa",
+        "clave",
+        "interes",
+        "diciembre",
+        "sondeo",
+        "operadores"
+      ],
+      "date": "2026-11-11T12:33:01.664Z"
+    },
     {
       "title": "CINCUENTA AÑOS DE HUELGAS MOLDAN EL PODER SINDICAL EN ESPAÑA",
       "normalizedTokens": [

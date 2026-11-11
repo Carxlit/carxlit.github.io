@@ -588,5 +588,20 @@
     "relevant": true,
     "reason": "la imagen muestra una manifestación con banderas rojas y pancartas que ilustra adecuadamente una protesta sindical en España.",
     "at": "2026-11-11T11:47:18.531Z"
+  },
+  "b1bb9eef8e4eb8fb:2dpze7dhv": {
+    "relevant": false,
+    "reason": "La imagen muestra el interior de la Bolsa de Madrid en España, mientras que el titular se refiere al Banco Central de Chile.",
+    "at": "2026-11-11T12:32:09.404Z"
+  },
+  "9fb1bc05c8816119:2dpze7dhv": {
+    "relevant": false,
+    "reason": "La imagen muestra monedas de peso mexicano (con la ceca M° de México) y no moneda chilena o elementos relacionados con el Banco Central de Chile.",
+    "at": "2026-11-11T12:32:27.294Z"
+  },
+  "2e3771f4bb224521:2dpze7dhv": {
+    "relevant": false,
+    "reason": "el texto superpuesto en la imagen indica una tasa del 11,25%, lo cual contradice la cifra del 4,5% anunciada en el titular.",
+    "at": "2026-11-11T12:32:58.396Z"
   }
 }
