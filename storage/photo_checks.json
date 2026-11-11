@@ -573,5 +573,15 @@
     "relevant": true,
     "reason": "la imagen muestra una unidad de bombeo de petróleo, representando de forma clara el tema principal del titular.",
     "at": "2026-11-11T11:27:41.962Z"
+  },
+  "9d5d559b5dfe767e:mwghejhg3": {
+    "relevant": false,
+    "reason": "La imagen muestra el Capitolio de Estados Unidos durante un evento oficial, lo cual no representa visualmente la detención de un militar por espionaje en el Reino Unido.",
+    "at": "2026-11-11T11:32:03.762Z"
+  },
+  "dff5b4c4aced7927:mwghejhg3": {
+    "relevant": false,
+    "reason": "La imagen muestra una supuesta detención de Nicolás Maduro por la DEA y no tiene relación con el militar estadounidense arrestado en el Reino Unido.",
+    "at": "2026-11-11T11:32:09.648Z"
   }
 }

@@ -1,5 +1,81 @@
 [
   {
+    "slug": "arresto-militar-estadounidense-suelo-britanico-expone-lyea",
+    "path": "noticias/arresto-militar-estadounidense-suelo-britanico-expone-lyea/",
+    "title": "Arresto de militar estadounidense en suelo británico expone fisuras en la inteligencia de la OTAN",
+    "headline": "DETIENEN EN REINO UNIDO A MILITAR ESTADOUNIDENSE POR ESPIONAJE RUSO",
+    "dek": "La detención de un efectivo de 41 años acusado de espiar para Rusia reabre el debate sobre la seguridad en las bases aliadas. El caso involucra al mando de reacción rápida y se produce a pocos kilómetros del GCHQ.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Clarin.com",
+    "image": "img/arresto-militar-estadounidense-suelo-britanico-expone-lyea.jpg",
+    "publishedAt": "2026-11-11T11:32:12.544Z",
+    "article": {
+      "slug": "arresto-militar-estadounidense-suelo-britanico-expone-lyea",
+      "title": "Arresto de militar estadounidense en suelo británico expone fisuras en la inteligencia de la OTAN",
+      "dek": "La detención de un efectivo de 41 años acusado de espiar para Rusia reabre el debate sobre la seguridad en las bases aliadas. El caso involucra al mando de reacción rápida y se produce a pocos kilómetros del GCHQ.",
+      "keyFacts": [
+        "El detenido es un soldado estadounidense de 41 años destinado en el Cuerpo Aliado de Reacción Rápida (ARRC) de la OTAN.",
+        "La detención fue realizada cerca de Gloucester por las autoridades británicas en coordinación con Estados Unidos.",
+        "La base de Imjin Barracks se sitúa a pocos kilómetros de la agencia británica de ciberinteligencia GCHQ.",
+        "La ley de seguridad nacional del Reino Unido permite la detención del sospechoso sin cargos hasta por 14 días."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La policía británica interrogó a un soldado estadounidense de 41 años asignado a estructuras de la OTAN en el Reino Unido, sospechoso de realizar actividades de espionaje para la Federación de Rusia. La detención se produjo cerca de la localidad de Gloucester, en el sudoeste de Inglaterra, tras una operación de inteligencia coordinada entre organismos antiterroristas británicos y autoridades militares de Estados Unidos.",
+            "Según reportó BBC Mundo, el militar estaba adscrito al Cuerpo Aliado de Reacción Rápida (ARRC), una fuerza multinacional bajo dirección operativa del ejército británico y capacitada para movilizarse de forma inmediata bajo las órdenes del Comandante Supremo Aliado de la OTAN en Europa. Agentes policiales ejecutaron órdenes de registro en dos propiedades del condado de Gloucestershire."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El arresto se enmarca en un escenario de fricción creciente entre las potencias occidentales y Moscú tras la invasión a gran escala de Ucrania en 2022. Desde el inicio del conflicto, las capitales europeas han denunciado una campaña sistemática de sabotaje, ciberataques y reclutamiento de informantes dentro de la infraestructura crítica y militar de la Alianza Atlántica.",
+            "La ubicación del ARRC en Imjin Barracks añade una dimensión crítica al caso. Dicha instalación se encuentra a escasa distancia de la sede del GCHQ, el organismo británico especializado en inteligencia de señales y ciberseguridad, lo que sitúa el presunto espionaje en una de las zonas de mayor densidad de activos de inteligencia del continente."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la atención mediática internacional suele enfocarse en las amenazas ciberespaciales y los ciberataques estatales, el caso demuestra la persistencia y efectividad de las redes de inteligencia humana tradicional dirigidas por Moscú. El verdadero punto ciego para los mandos de la OTAN radica en las vulnerabilidades de contrainteligencia derivadas de la rotación constante de personal multinacional.",
+            "La integración de oficiales de diversos países en unidades de despliegue rápido genera asimetrías en los procesos de verificación de antecedentes. Esta fisura en los protocolos internos permite a los servicios secretos rusos identificar objetivos vulnerables en los niveles intermedios de la cadena de mando."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Rusia obtiene una ventaja narrativa al demostrar su capacidad para penetrar unidades tácticas estratégicas de la OTAN en territorio británico. Incluso si el alcance de la información filtrada fuera limitado, la operación logra sembrar desconfianza interna entre las agencias de inteligencia de la Alianza.",
+            "Por su parte, el mando conjunto de la OTAN y las agencias de seguridad angloestadounidenses asumen el costo político y operativo. El incidente obliga a invertir recursos sustanciales en auditorías internas de seguridad y erosiona la cohesión entre los países miembros."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos días será crucial observar el desenlace del periodo de detención preventiva de 14 días contemplado por la Ley de Seguridad Nacional del Reino Unido. La decisión de presentar cargos formales o extraditar al sospechoso indicará la gravedad de los documentos u operaciones comprometidas.",
+            "Asimismo, habrá que dar seguimiento a las eventuales revisiones en los protocolos de pase de seguridad para el personal militar extranjero desplegado en bases compartidas dentro de Europa."
+          ]
+        }
+      ],
+      "tags": [
+        "OTAN",
+        "Espionaje",
+        "Reino Unido",
+        "Estados Unidos",
+        "Rusia",
+        "Seguridad Nacional"
+      ],
+      "sources": [
+        {
+          "name": "Clarin.com",
+          "title": "Reino Unido interroga a militar estadounidense de la OTAN, detenido por espiar para Rusia",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdE92MTc1bXhRY1dWMmpqWXNCS0FSS1pKZEVDVGNudjFSQVYtVkhXaWY5ZnFuOWU2MkVZbmlkNXdUZ05FM0VwV0trZVhQV1BvSEFUTEJNd0dlSVplcFp2dEQzZjBnb0Z4YmlUZ3Q5R3AtNmN4QTViUjE2NTByaU9IcFF1T19Oemg1bjBzZ0VSdmlCWGhXcXBTMzdQQ05sQ1FDSzZFNXFrRXMtZkNfcVBkX1V0ZktUbm9kNnNjX0VGWm9lTWNBMUI0aWZJcEpmYlVlX3drQkVwd24wYlRG?oc=5"
+        }
+      ],
+      "wordCount": 530
+    },
+    "blindSpot": "El arresto a pocos kilómetros de la agencia de inteligencia británica GCHQ expone la vulnerabilidad de las estructuras operativas de la OTAN ante la infiltración humana. La atención pública suele centrarse en ciberataques, pero el Kremlin continúa priorizando el espionaje de campo dentro de mandos militares de despliegue inmediato."
+  },
+  {
     "slug": "caida-petroleo-enmascara-espiral-inflacionaria-bancos-chff",
     "path": "noticias/caida-petroleo-enmascara-espiral-inflacionaria-bancos-chff/",
     "title": "La caída del petróleo enmascara una espiral inflacionaria que los bancos centrales no podrán frenar",
