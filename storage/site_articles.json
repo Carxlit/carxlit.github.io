@@ -1,5 +1,106 @@
 [
   {
+    "slug": "noventa-dias-incertidumbre-abandono-institucional-tras-be6v",
+    "path": "noticias/noventa-dias-incertidumbre-abandono-institucional-tras-be6v/",
+    "title": "Noventa días de incertidumbre: el abandono institucional tras el terremoto en Colombia",
+    "headline": "COLOMBIA: TRES MESES DE ABANDONO ESTATAL TRAS EL SISMO",
+    "dek": "A tres meses del sismo que sacudió el país, las autoridades locales denuncian la inacción gubernamental mientras las cifras oficiales revelan la magnitud de una crisis humanitaria desatendida.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "France 24 Español",
+    "image": "img/noventa-dias-incertidumbre-abandono-institucional-tras-be6v.jpg",
+    "photo": "img/noventa-dias-incertidumbre-abandono-institucional-tras-be6v-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "E-Hs1F8_YrI",
+      "title": "90 días del terremoto en Colombia: \"Seguimos esperando acompañamiento del Gobierno\", Leonardo Reales",
+      "channel": "FRANCE 24 Español"
+    },
+    "publishedAt": "2026-11-11T05:01:27.281Z",
+    "article": {
+      "slug": "noventa-dias-incertidumbre-abandono-institucional-tras-be6v",
+      "title": "Noventa días de incertidumbre: el abandono institucional tras el terremoto en Colombia",
+      "dek": "A tres meses del sismo que sacudió el país, las autoridades locales denuncian la inacción gubernamental mientras las cifras oficiales revelan la magnitud de una crisis humanitaria desatendida.",
+      "keyFacts": [
+        "El terremoto ocurrió el pasado 10 de agosto y tuvo una magnitud de 7,4.",
+        "La Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) registró 334 fallecidos.",
+        "El saldo oficial incluye 4.516 heridos y 102 personas desaparecidas.",
+        "Pereira fue una de las ciudades más afectadas por el movimiento telúrico."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Han transcurrido exactamente noventa días desde que un terremoto de magnitud 7,4 sacudió el territorio colombiano el pasado 10 de agosto. La tragedia golpeó con especial dureza a varias regiones, destacando el impacto severo sufrido en la ciudad de Pereira.",
+            "A pesar del tiempo transcurrido desde el impacto inicial, las secuelas siguen vigentes para miles de habitantes. Según los datos oficiales proporcionados por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), el sismo dejó un saldo trágico de 334 fallecidos, 4.516 heridos y 102 personas que continúan desaparecidas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La emergencia puso a prueba de inmediato la capacidad de respuesta de las instituciones del Estado. Sin embargo, a medida que pasaron las semanas, la atención mediática inicial se desvaneció, dejando paso a una realidad cotidiana marcada por la precariedad y la falta de soluciones habitacionales y económicas para los sobrevivientes.",
+            "En este escenario, Leonardo Fabio Reales, personero municipal de Pereira, alzó la voz para denunciar públicamente la situación crítica que atraviesan los damnificados en la región y en el resto del país, evidenciando una brecha profunda entre los anuncios oficiales y la realidad operativa."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El verdadero problema detrás de esta crisis prolongada no es únicamente la magnitud del desastre natural, sino la parálisis administrativa y logística del Gobierno central. Mientras la narrativa oficial se concentra en la superación de la emergencia, las estructuras de la UNGRD muestran una incapacidad manifiesta para articular un acompañamiento sostenido.",
+            "Este vacío deja en evidencia que los mecanismos estatales de respuesta están diseñados para el impacto inmediato, pero colapsan estrepitosamente en la fase de reconstrucción, dejando a los gobiernos locales sin recursos ni respaldo efectivo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero de crisis, los principales perdedores son los ciudadanos damnificados de Pereira y las zonas aledañas, quienes cargan con el costo humano y económico de la reconstrucción en solitario. La falta de asistencia efectiva erosiona la confianza en las instituciones públicas.",
+            "Por otro lado, la administración central asume un costo político silencioso pero acumulativo, ya que el descontento regional comienza a consolidarse como un foco de presión institucional que podría repercutir en la estabilidad de la gobernabilidad a mediano plazo."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la ejecución presupuestaria real de la UNGRD y los informes de las personerías municipales en las próximas semanas. La evolución de la tensión entre los gobiernos locales y el poder central marcará el pulso de la estabilidad social en las regiones afectadas."
+          ]
+        }
+      ],
+      "tags": [
+        "Colombia",
+        "Terremoto",
+        "Pereira",
+        "UNGRD",
+        "Sociedad"
+      ],
+      "sources": [
+        {
+          "name": "France 24 Español",
+          "title": "90 días del terremoto en Colombia: \"Seguimos esperando acompañamiento del Gobierno\", Leonardo Reales",
+          "url": "https://www.france24.com/es/video/20261111-90-d%C3%ADas-del-terremoto-en-colombia-seguimos-esperando-acompa%C3%B1amiento-del-gobierno-leonardo-reales"
+        },
+        {
+          "name": "Yahoo",
+          "title": "90 días del terremoto en Colombia: \"Seguimos esperando acompañamiento del Gobierno\", Leonardo Reales",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM3doSGRyR1N0SHF0bDV3YmdzTnFXUzA3UEpmazB0NklHbExodDhTTXh4dl92V1JyX2tUa2xrbEVuZWdSMDRMcTRfUmcxbDJHblhsQ01helJ5RHc1SXNBVmFIVkxKREZyQWphaFlrN2NZeS1EQ0E0T0RzQUVIcG9IS1Q2V2x0bGxqbDVFdzhzdF9WQQ?oc=5"
+        },
+        {
+          "name": "France 24",
+          "title": "90 días del terremoto en Colombia: \"Seguimos esperando acompañamiento del Gobierno\", Leonardo Reales",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObjZzU2FjcjJvT3pGcUxVQ3ZfNzRsb0NaMTU2elduOFJQZHhDOFI0V1VJQm1vTHFsYWxsekN6WlpwT2kzY0c2X0xWanFZbVZBREdGenl4bEVHVXhweGNFQ0ZxOTJtWnQ4UGRqSk1pbjNxTkNyWUZnTlNUR0txOFhndzhUWXhURlp6T05ZU0w3MDNCUGNqV3gwRmRYajVNYlQxaFZjMFZQa1lrZmpTUkpBMG8tbmtJcE9kNF9tNmtYR1JjT2JPUkVsemE1alBHQVpsSl9Na2V3Y1NIRVo5Tmp0UzBsUQ?oc=5"
+        },
+        {
+          "name": "France 24",
+          "title": "Así busca México a los desaparecidos: un nuevo modelo para acelerar las búsquedas",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV29HZmZDMVBKVFZ4LWZJTW40Ykk0am5tdEJ5UV9oYWRXbW9jM1gzNVo5TGRxY1dBX2EzNWx1WnlUa2FibUxGV3J4eHdjVHlkVHZrWUxiMWZYWnVxdVhLd2E4MndhRmJkOVA5VFQzeWdzT19UM2VPdGJYejV3VWJoamZ4ZXVmWFZScjhUSXlOcmIwYWFrejA0N0VvYThzZHgxcnFGNDRhMFhYUEVHNWQ1MmxIU2w0SW9KT2FSbGYtWGVFa3hNWHBEWmN4VFJzeHF0akZvVA?oc=5"
+        },
+        {
+          "name": "France 24",
+          "title": "\"Papá está encerrado\": el diario de la vida y muerte de un impresor internado en Francia durante la I Guerra Mundial",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTHQ2NGxINjNpM0U2NDlIUWJkbUl0cW1UcWszdnpWcHpOYzJQdFA4VkoxMEYyZm5ELUN0U0dZRkF4MEFNTFZBV3dKUGhLR3YxYjBKUmlOZHl6MXdyY2tvWDltQ1lhZVZpOVVrRUhPY3NPWXZjSnFfRjcwa1daNEp1dGlaYzdLNGZZdnIzNWlRaDBmRGZHZld3MVdJcVNMUHRuT05qQS1hcWNyUmQwZ0RTdloxbi1hTHFsak5iLWFhM1FISzBzUU1kY19pRndqejZSLVZaQm5YUlJFajkwazRqSVJjYzhuMEwxazlmZnppYXVJcWdRb3l0WXBXbw?oc=5"
+        }
+      ],
+      "wordCount": 427
+    },
+    "blindSpot": "Mientras la atención oficial se desvía hacia la macroeconomía y la agenda legislativa, la incapacidad logística de la UNGRD expone la fragilidad estructural del Estado colombiano para gestionar crisis humanitarias prolongadas a nivel local."
+  },
+  {
     "slug": "reorganizacion-silenciosa-estrategia-migratoria-estados-unidos-6e80",
     "path": "noticias/reorganizacion-silenciosa-estrategia-migratoria-estados-unidos-6e80/",
     "title": "La reorganización silenciosa de la estrategia migratoria en Estados Unidos",

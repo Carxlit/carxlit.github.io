@@ -151,9 +151,37 @@
     "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss",
     "https://elpais.com/us/2026-11-10/pete-hegseth-22-meses-de-polemica-en-el-pentagono.html",
     "https://www.france24.com/es/video/20261110-no-vemos-una-estrategia-contundente-de-reconstrucci%C3%B3n-colombia-a-tres-meses-del-terremoto",
-    "https://www.eltiempo.com/mundo/eeuu-y-canada/donald-trump-cambiara-la-forma-de-ejecutar-sus-acciones-contra-la-migracion-tras-su-derrota-en-las-elecciones-de-medio-mandato-3599866"
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/donald-trump-cambiara-la-forma-de-ejecutar-sus-acciones-contra-la-migracion-tras-su-derrota-en-las-elecciones-de-medio-mandato-3599866",
+    "https://www.france24.com/es/video/20261111-90-d%C3%ADas-del-terremoto-en-colombia-seguimos-esperando-acompa%C3%B1amiento-del-gobierno-leonardo-reales"
   ],
   "processedSignatures": [
+    {
+      "title": "COLOMBIA: TRES MESES DE ABANDONO ESTATAL TRAS EL SISMO",
+      "normalizedTokens": [
+        "colombia",
+        "tres",
+        "meses",
+        "abandono",
+        "estatal",
+        "sismo"
+      ],
+      "date": "2026-11-11T05:01:27.420Z"
+    },
+    {
+      "title": "90 días del terremoto en Colombia: \"Seguimos esperando acompañamiento del Gobierno\", Leonardo Reales",
+      "normalizedTokens": [
+        "dias",
+        "terremoto",
+        "colombia",
+        "seguimos",
+        "esperando",
+        "acompanamiento",
+        "gobierno",
+        "leonardo",
+        "reales"
+      ],
+      "date": "2026-11-11T05:01:27.419Z"
+    },
     {
       "title": "CAMBIOS EN LA ESTRATEGIA MIGRATORIA TRAS REVESES ELECTORALES",
       "normalizedTokens": [
