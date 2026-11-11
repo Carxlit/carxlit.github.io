@@ -155,9 +155,38 @@
     "https://www.france24.com/es/video/20261111-90-d%C3%ADas-del-terremoto-en-colombia-seguimos-esperando-acompa%C3%B1amiento-del-gobierno-leonardo-reales",
     "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss",
     "https://www.dw.com/es/rd-congo-supera-barrera-de-los-11-000-casos-de-ébola-incluidos-5-387-muertos/a-79914424?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.france24.com/en/tv-shows/eye-on-africa/20261111-boat-capsized-off-senegal-s-northwest-coast-leaving-39-dead"
+    "https://www.france24.com/en/tv-shows/eye-on-africa/20261111-boat-capsized-off-senegal-s-northwest-coast-leaving-39-dead",
+    "https://www.xataka.com/seleccion/ninja-tiene-cafetera-superautomatica-3-1-que-ahora-puedes-comprar-200-euros-descuento"
   ],
   "processedSignatures": [
+    {
+      "title": "SHARKNINJA DISPARA LA GUERRA DEL CAFÉ CON DESCUENTOS AGRESIVOS",
+      "normalizedTokens": [
+        "sharkninja",
+        "dispara",
+        "guerra",
+        "cafe",
+        "descuentos",
+        "agresivos"
+      ],
+      "date": "2026-11-11T11:01:51.644Z"
+    },
+    {
+      "title": "Ninja tiene una cafetera superautomática 3 en 1 que ahora puedes comprar con más de 200 euros de descuento",
+      "normalizedTokens": [
+        "ninja",
+        "cafetera",
+        "superautomatica",
+        "ahora",
+        "puedes",
+        "comprar",
+        "mas",
+        "200",
+        "euros",
+        "descuento"
+      ],
+      "date": "2026-11-11T11:01:51.643Z"
+    },
     {
       "title": "TRAGEDIA MIGRATORIA EN SENEGAL DEJA AL MENOS 39 MUERTOS",
       "normalizedTokens": [
