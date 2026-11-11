@@ -1,5 +1,81 @@
 [
   {
+    "slug": "sombra-espionaje-sobre-nvidia-lecciones-historia-nb02",
+    "path": "noticias/sombra-espionaje-sobre-nvidia-lecciones-historia-nb02/",
+    "title": "La sombra del espionaje sobre Nvidia y las lecciones de la historia tecnológica",
+    "headline": "NVIDIA Y EL ESPIONAJE TECNOLÓGICO RIVALIDAD HISTÓRICA E INTELIGENCIA ARTIFICIAL",
+    "dek": "Las presuntas sospechas alrededor del entorno del fabricante de chips reabren el debate sobre el espionaje industrial. La historia demuestra que la competencia por la tecnología estratégica siempre ha sido una prioridad de Estado.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "The Conversation",
+    "image": "img/sombra-espionaje-sobre-nvidia-lecciones-historia-nb02.jpg",
+    "photo": "img/sombra-espionaje-sobre-nvidia-lecciones-historia-nb02-foto.jpg",
+    "publishedAt": "2026-11-11T18:21:26.421Z",
+    "article": {
+      "slug": "sombra-espionaje-sobre-nvidia-lecciones-historia-nb02",
+      "title": "La sombra del espionaje sobre Nvidia y las lecciones de la historia tecnológica",
+      "dek": "Las presuntas sospechas alrededor del entorno del fabricante de chips reabren el debate sobre el espionaje industrial. La historia demuestra que la competencia por la tecnología estratégica siempre ha sido una prioridad de Estado.",
+      "keyFacts": [
+        "No se ha acreditado ninguna fuga de secretos empresariales en Nvidia según los reportes actuales.",
+        "En el siglo XVIII, el ingeniero Charles de Saudray fue enviado por Francia para obtener dibujos de maquinaria metalúrgica británica.",
+        "El físico Klaus Fuchs transmitió información nuclear del Proyecto Manhattan a la Unión Soviética y fue descubierto en 1950.",
+        "Julius y Ethel Rosenberg fueron procesados y ejecutados en 1953 acusados de organizar una red de espionaje."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según un análisis de The Conversation, las noticias sobre presuntos vínculos entre la directiva de Nvidia y servicios de inteligencia de China han puesto de nuevo el espionaje científico en la agenda internacional. El caso cobra relieve debido al peso que tiene Nvidia en el diseño global de chips dedicados a la inteligencia artificial.",
+            "Por el momento, no existe constancia ni prueba judicial de que se hayan filtrado secretos industriales o diseños confidenciales de la firma. Sin embargo, el debate trasciende el caso particular y resalta la vulnerabilidad de las empresas tecnológicas de vanguardia."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El intento de controlar tecnología punta cuenta con amplios antecedentes históricos. En el siglo XVIII, Francia promovió activamente la captación de avances industriales ingleses a través de figuras como John Holker o el ingeniero Charles de Saudray, quien buscó planos de maquinaria metalúrgica.",
+            "Del mismo modo, la industria nuclear del siglo XX experimentó filtraciones decisivas. El caso del físico Klaus Fuchs en el Proyecto Manhattan, descubierto en 1950, o la red de espionaje atribuida a Julius Rosenberg a partir de 1942, demuestran que las redes comerciales y los lazos personales han sido vías frecuentes para el trasvase involuntario o deliberado de conocimiento estratégico."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El foco mediático suele centrarse en el espionaje digital o en la figura del espía individual. Sin embargo, el verdadero punto ciego radica en la paradoja de la cadena global de semiconductores: es imposible desarrollar circuitos integrados de última generación sin colaboración internacional, pero esa misma apertura expone la infraestructura a escrutinios de seguridad del Estado.",
+            "La historia enseña que figuras como el inventor Henry Bessemer optaron en el siglo XIX por compartimentar la fabricación entre múltiples talleres para proteger su técnica del bronce. Hoy las multinacionales se ven forzadas a aplicar una lógica idéntica de fragmentación para evitar que un solo eslabón comprometa toda la arquitectura corporativa."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los principales beneficiados en esta dinámica son las agencias estatales de seguridad y regulación, que ganan justificación y atribuciones para intervenir en el sector corporativo e imponer restricciones a la exportación.",
+            "En contraposición, las grandes empresas tecnológicas pierden margen de maniobra comercial. Su capacidad de operar en mercados globalizados se reduce a medida que las sospechas de espionaje convierten a sus ejecutivos e ingenieros en objetivos de escrutinio político permanente."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos meses conviene prestar atención a las medidas internas de seguridad corporativa que adopten las firmas de microchips y a los posibles cambios en las normativas sobre contratación de personal internacional.",
+            "Asimismo, habrá que monitorear si las tensiones geopolíticas aceleran el aislamiento tecnológico o la creación de estándares cerrados de inteligencia artificial entre bloques rivales."
+          ]
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "EspionajeIndustrial",
+        "Semiconductores",
+        "InteligenciaArtificial",
+        "SeguridadNacional"
+      ],
+      "sources": [
+        {
+          "name": "The Conversation",
+          "title": "A propósito del caso Nvidia: qué nos enseña la historia del espionaje sobre la seguridad tecnológica actual",
+          "url": "https://theconversation.com/a-proposito-del-caso-nvidia-que-nos-ensena-la-historia-del-espionaje-sobre-la-seguridad-tecnologica-actual-296303"
+        }
+      ],
+      "wordCount": 466
+    },
+    "blindSpot": "El escrutinio sobre el diseño de chips de inteligencia artificial trasciende las acusaciones individuales: la infraestructura crítica de semiconductores es tratada hoy como la tecnología nuclear durante la Guerra Fría. Los Estados utilizan la sospecha de espionaje para justificar mayores regulaciones y restricciones comerciales que reorganizan las cadenas globales de suministros."
+  },
+  {
     "slug": "diplomacia-abu-dabi-encubre-verdadero-debate-vklr",
     "path": "noticias/diplomacia-abu-dabi-encubre-verdadero-debate-vklr/",
     "title": "La diplomacia de Abu Dabi encubre el verdadero debate sobre la arquitectura de seguridad europea",
