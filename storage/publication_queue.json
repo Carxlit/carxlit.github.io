@@ -1,139 +1,5 @@
 [
   {
-    "id": "queue-1793626267097-5cia8",
-    "news": {
-      "id": "vic70ru9i",
-      "originalUrl": "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/",
-      "originalTitle": "OpenAI y Anthropic abrieron sus primeras salas de crisis para vigilar los chatbots en las elecciones de Estados Unidos",
-      "sourceName": "Infobae América",
-      "category": "SEGURIDAD & DEFENSA",
-      "urgencyScore": 88,
-      "headline": "LAS GRANDES TECNOLÓGICAS ASUMEN EL CONTROL DE LA INFORMACIÓN ELECTORAL",
-      "subHeadline": "OpenAI y Anthropic inauguraron sus primeras salas de crisis para vigilar el comportamiento de sus chatbots durante las elecciones legislativas de Estados Unidos.",
-      "blindSpotAngle": "La externalización de la gobernanza electoral hacia empresas privadas de inteligencia artificial establece un peligroso precedente donde corporaciones tecnológicas actúan como árbitros absolutos del flujo informativo democrático, decidiendo qué es desinformación en tiempo real sin rendición de cuentas pública.",
-      "facebookPost": "OpenAI y Anthropic han instalado por primera vez en su historia salas de crisis dedicadas exclusivamente a supervisar el uso de sus modelos durante unas elecciones en Estados Unidos. Mientras la narrativa oficial celebra este despliegue preventivo contra la desinformación, el trasfondo expone una realidad incómoda: las corporaciones tecnológicas se han autoproclamado custodias y árbitros supremos de la estabilidad democrática.\n\nEl verdadero punto ciego no es el fallo técnico que un chatbot pueda cometer al responder sobre comicios, sino la normalización de que la infraestructura cívica de una nación dependa del criterio privado de ingenieros y ejecutivos de Silicon Valley. Los Estados han cedido el control de la narrativa pública a empresas que operan bajo lógicas de mercado y mitigación de riesgos corporativos.\n\n¿Hasta qué punto la seguridad electoral ha quedado en manos de un oligopolio tecnológico que decide unilateralmente qué flujos de información son legítimos y cuáles deben ser silenciados?\n\nFuente: Infobae América\n\n#SeguridadYDefensa #InteligenciaArtificial #PuntoCiego",
-      "telegramPost": "<b>CENTROS DE OPERACIONES PRIVADOS VIGILAN LA INFRAESTRUCTURA CÍVICA</b>\n\n• <b>Qué ocurrió:</b> OpenAI y Anthropic inauguraron salas de crisis temporales para monitorear en tiempo real el uso de ChatGPT y Claude frente a posibles abusos e injerencias durante las elecciones legislativas del 3 de noviembre.\n• <b>Por qué importa:</b> Esta intervención marca la institucionalización del sector tecnológico como supervisor de la legitimidad informativa, operando con algoritmos propios y sin supervisión democrática directa.\n• <b>Qué sigue:</b> Los centros permanecerán activos hasta que concluya el recuento total de votos, configurando un modelo permanente de vigilancia corporativa sobre los procesos electorales futuros.",
-      "linkedInPost": "La instalación de centros de operaciones electorales por parte de OpenAI y Anthropic redefine la arquitectura de riesgo geopolítico e institucional. No estamos ante un simple despliegue de moderación de contenidos, sino ante la constatación de que la infraestructura cívica moderna depende de la capacidad de respuesta privada ante amenazas asimétricas.\n\nPara los mercados y los gobiernos, esto introduce una variable crítica de dependencia regulatoria de facto. Las tecnológicas asumen funciones que tradicionalmente correspondían a los ministerios del interior y a los organismos electorales, gestionando desde la trazabilidad de fuentes hasta el bloqueo de operaciones encubiertas de actores estatales extranjeros.\n\nEl desafío regulatorio es evidente: los estados pierden soberanía sobre el relato informativo en momentos de máxima polarización, transfiriendo la estabilidad institucional a la eficiencia operativa de algoritmos privativos.\n\nFuente: Infobae América\n\n#SeguridadYDefensa #InteligenciaArtificial #RiesgoGeopolítico",
-      "blueskyPost": "Silicon Valley asume el control de la infraestructura cívica: OpenAI y Anthropic inauguran salas de crisis para vigilar chatbots en las elecciones de EE. UU. El Estado cede su rol de arbitraje a corporaciones tecnológicas. #PuntoCiego #SeguridadYDefensa",
-      "copies": {
-        "facebook": "OpenAI y Anthropic han instalado por primera vez en su historia salas de crisis dedicadas exclusivamente a supervisar el uso de sus modelos durante unas elecciones en Estados Unidos. Mientras la narrativa oficial celebra este despliegue preventivo contra la desinformación, el trasfondo expone una realidad incómoda: las corporaciones tecnológicas se han autoproclamado custodias y árbitros supremos de la estabilidad democrática.\n\nEl verdadero punto ciego no es el fallo técnico que un chatbot pueda cometer al responder sobre comicios, sino la normalización de que la infraestructura cívica de una nación dependa del criterio privado de ingenieros y ejecutivos de Silicon Valley. Los Estados han cedido el control de la narrativa pública a empresas que operan bajo lógicas de mercado y mitigación de riesgos corporativos.\n\n¿Hasta qué punto la seguridad electoral ha quedado en manos de un oligopolio tecnológico que decide unilateralmente qué flujos de información son legítimos y cuáles deben ser silenciados? #SeguridadYDefensa #InteligenciaArtificial #PuntoCiego",
-        "telegram": "<b>CENTROS DE OPERACIONES PRIVADOS VIGILAN LA INFRAESTRUCTURA CÍVICA</b>\n\n• <b>Qué ocurrió:</b> OpenAI y Anthropic inauguraron salas de crisis temporales para monitorear en tiempo real el uso de ChatGPT y Claude frente a posibles abusos e injerencias durante las elecciones legislativas del 3 de noviembre.\n• <b>Por qué importa:</b> Esta intervención marca la institucionalización del sector tecnológico como supervisor de la legitimidad informativa, operando con algoritmos propios y sin supervisión democrática directa.\n• <b>Qué sigue:</b> Los centros permanecerán activos hasta que concluya el recuento total de votos, configurando un modelo permanente de vigilancia corporativa sobre los procesos electorales futuros.",
-        "bluesky": "Silicon Valley asume el control de la infraestructura cívica: OpenAI y Anthropic inauguran salas de crisis para vigilar chatbots en las elecciones de EE. UU. El Estado cede su rol de arbitraje a corporaciones tecnológicas. #PuntoCiego #SeguridadYDefensa",
-        "linkedIn": "La instalación de centros de operaciones electorales por parte de OpenAI y Anthropic redefine la arquitectura de riesgo geopolítico e institucional. No estamos ante un simple despliegue de moderación de contenidos, sino ante la constatación de que la infraestructura cívica moderna depende de la capacidad de respuesta privada ante amenazas asimétricas.\n\nPara los mercados y los gobiernos, esto introduce una variable crítica de dependencia regulatoria de facto. Las tecnológicas asumen funciones que tradicionalmente correspondían a los ministerios del interior y a los organismos electorales, gestionando desde la trazabilidad de fuentes hasta el bloqueo de operaciones encubiertas de actores estatales extranjeros.\n\nEl desafío regulatorio es evidente: los estados pierden soberanía sobre el relato informativo en momentos de máxima polarización, transfiriendo la estabilidad institucional a la eficiencia operativa de algoritmos privativos. #SeguridadYDefensa #InteligenciaArtificial #RiesgoGeopolítico"
-      },
-      "article": {
-        "slug": "silicon-valley-asume-control-infraestructura-civica-rlhs",
-        "title": "Silicon Valley asume el control de la infraestructura cívica con salas de crisis electorales",
-        "dek": "OpenAI y Anthropic inauguraron centros de operaciones dedicados a vigilar el comportamiento de sus chatbots ante las elecciones de Estados Unidos. Esta intervención consolida un cambio estructural donde empresas privadas gestionan la estabilidad informativa y el arbitraje democrático.",
-        "keyFacts": [
-          "OpenAI y Anthropic instalaron por primera vez salas de crisis dedicadas a unas elecciones de Estados Unidos, según informó Semafor el 2 de noviembre de 2026.",
-          "El Centro de Operaciones Electorales de OpenAI, anunciado a Politico el 28 de octubre, reúne a cientos de empleados bajo la dirección de Josh Lawson.",
-          "Un análisis de 250.000 conversaciones publicado por Anthropic el 14 de octubre reveló que los temas de asuntos públicos representan el 5,75% de las interacciones con Claude, mientras que las elecciones alcanzan el 0,51%.",
-          "Anthropic bloqueó cuentas de operadores extranjeros vinculados a un sitio de noticias falso que utilizó su tecnología para difundir narrativas favorables a Rusia, Irán y Corea del Norte."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "OpenAI y Anthropic inauguraron por primera vez en su historia centros de operaciones específicos para supervisar el rendimiento de sus modelos de inteligencia artificial durante las elecciones legislativas de Estados Unidos celebradas el 3 de noviembre. La medida, detallada en informes recientes, busca blindar a plataformas como ChatGPT y Claude frente a la proliferación de desinformación, videos falsos y alteraciones en los resultados de búsqueda.",
-              "El despliegue incluye la creación del Centro de Operaciones Electorales por parte de OpenAI, un equipo operativo que reúne a cientos de empleados bajo el liderazgo de Josh Lawson, jefe de riesgo cívico y estratégico. Por su parte, Anthropic confirmó la habilitación de una sala de monitoreo dedicada exclusivamente a rastrear usos indebidos y responder en tiempo real a cualquier incidente reportado durante la jornada de votación."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "La irrupción de estas estructuras de respuesta rápida responde a una escalada en los riesgos asociados a la generación sintética de contenidos. Según antecedentes citados por la industria, Meta fue pionera en la creación de estas salas en 2018; sin embargo, la incorporación de inteligencia artificial generativa ha amplificado exponencialmente la sofisticación de las amenazas, abarcando desde la manipulación de datos en buscadores hasta campañas coordinadas de desinformación.",
-              "Datos publicados por Anthropic el pasado 14 de octubre reflejan que, si bien las consultas estrictamente electorales representaban un porcentaje menor de sus interacciones totales —el 0,51% en un análisis de 250.000 conversaciones—, la presión sobre los sistemas se intensifica conforme se acerca la cita con las urnas. Asimismo, organizaciones independientes como el Institute for Strategic Dialogue y el McCain Institute advirtieron previamente que los modelos podían ser vulnerables a campañas fragmentadas donde peticiones individuales aparentemente inofensivas convergían en un ataque coordinado."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "La narrativa corporativa presenta estas salas de crisis como un ejercicio de responsabilidad cívica y autoprotección tecnológica. No obstante, el verdadero trasfondo estratégico radica en la privatización definitiva del arbitraje informativo. Ante la incapacidad o pasividad de los marcos regulatorios estatales, son las propias corporaciones tecnológicas las que asumen las funciones de policía, juez y fiscal de la conversación pública.",
-              "Este modelo otorga a OpenAI y Anthropic un poder discrecional sin precedentes sobre la legitimidad del flujo informativo. Al decidir qué respuestas se bloquean, cómo se clasifican los riesgos complejos y qué fuentes oficiales —como Democracy Works o Associated Press— se integran de forma preferente en los sistemas, las empresas configuran un oligopolio de la verdad institucional que opera al margen de la rendición de cuentas democrática tradicional."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "En este nuevo equilibrio de poder, los grandes desarrolladores de inteligencia artificial consolidan su posición como actores geopolíticos de primer orden, capaces de neutralizar operaciones de influencia extranjera —como el bloqueo de cuentas vinculadas a redes de desinformación rusas, iraníes y norcoreanas detectado por Anthropic— y de asociarse directamente con proveedores de infraestructura cívica.",
-              "Los perdedores netos son las instituciones estatales tradicionales y los órganos electorales locales, los cuales ven cómo su monopolio sobre la certificación de la información y la gestión de crisis cívicas se erosiona de manera irreversible frente a la intervención de corporaciones globales de Silicon Valley."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "El indicador crítico a observar en el corto plazo será la permanencia de estas estructuras de control más allá de los ciclos electorales coyunturales. La permanencia de los centros de operaciones hasta la total conclusión de los recuentos electorales sugiere que la excepción se convertirá en la norma permanente de gobernanza algorítmica.",
-              "Asimismo, será determinante examinar los criterios de opacidad bajo los cuales estas empresas deciden el bloqueo de contenidos y la integración de bases de datos externas, determinando si los gobiernos exigirán un marco regulatorio estricto o si aceptarán la tutela tecnológica como un componente ineludible de la seguridad nacional."
-            ]
-          }
-        ],
-        "tags": [
-          "Inteligencia Artificial",
-          "Seguridad y Defensa",
-          "Elecciones EE. UU.",
-          "Desinformación",
-          "Geopolítica Tecnológica"
-        ],
-        "sources": [
-          {
-            "name": "Infobae América",
-            "title": "OpenAI y Anthropic abrieron sus primeras salas de crisis para vigilar los chatbots en las elecciones de Estados Unidos",
-            "url": "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/"
-          }
-        ],
-        "wordCount": 649
-      },
-      "rawImageUrl": "https://www.infobae.com/resizer/v2/Y3S7FYZP3REPJJ7QJ272PJJOLQ.png?auth=6b317080ddb4064d91fdda0c5a5674c061292ee6505ab32d991cebdead65f33e&smart=true&width=1920&height=1080",
-      "status": "published",
-      "createdAt": "2026-11-02T13:31:03.303Z",
-      "cardImageUrl": "/news-cards/news-vic70ru9i-1793626263303.jpg",
-      "articleUrl": "https://carxlit.github.io/noticias/silicon-valley-asume-control-infraestructura-civica-rlhs/",
-      "publishedAt": "2026-11-02T15:14:51.534Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "mastodon": true
-    },
-    "scheduledFor": "2026-11-02T15:13:47.565Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-02T13:31:07.097Z",
-    "lastAttemptAt": "2026-11-02T15:14:02.974Z",
-    "results": {
-      "mastodon": {
-        "success": false,
-        "skipped": true,
-        "error": "Canal sin credenciales configuradas (omitido)"
-      },
-      "facebook": {
-        "success": true,
-        "postId": "122101495551532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "17",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdmhcbg7l2l"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18019447364944881"
-      }
-    },
-    "publishedAt": "2026-11-02T15:14:51.534Z"
-  },
-  {
     "id": "queue-1793628989549-97giv",
     "news": {
       "id": "myw5zc404",
@@ -26137,12 +26003,13 @@
         ],
         "close": "Lee el análisis completo en el enlace del perfil."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-11T17:17:17.011Z",
       "cardImageUrl": "/news-cards/news-e7zxdrb1q-1794417437011.jpg",
       "reelCoverUrl": "/news-cards/news-e7zxdrb1q-1794417437554-cover.jpg",
       "instagramCardUrl": "/news-cards/news-e7zxdrb1q-1794417438051-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/diplomacia-abu-dabi-encubre-verdadero-debate-vklr/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/diplomacia-abu-dabi-encubre-verdadero-debate-vklr/",
+      "publishedAt": "2026-11-11T21:07:41.987Z"
     },
     "channels": {
       "facebook": true,
@@ -26156,10 +26023,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-11T20:44:12.964Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-11T17:17:18.701Z"
+    "createdAt": "2026-11-11T17:17:18.701Z",
+    "lastAttemptAt": "2026-11-11T21:05:26.347Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122109564381532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "176",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n22ubfbb7g2e"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18128972168477031",
+        "permalink": "https://www.instagram.com/reel/DfnaKeSjwyE/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117599846345577939"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18118319318521953"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-11T21:07:41.987Z"
   },
   {
     "id": "queue-1794421286511-qlbr2",
