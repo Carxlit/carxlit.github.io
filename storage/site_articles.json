@@ -1,5 +1,87 @@
 [
   {
+    "slug": "contencion-ebola-kenia-ante-crisis-sanitaria-6atc",
+    "path": "noticias/contencion-ebola-kenia-ante-crisis-sanitaria-6atc/",
+    "title": "La contención del Ébola en Kenia ante la crisis sanitaria regional",
+    "headline": "KENIA LOGRA CONTENER EL BROTE DE ÉBOLA TRAS CASOS IMPORTADOS",
+    "dek": "Kenia ha logrado contener un brote de Ébola tras dar el alta a su último paciente hospitalizado. El éxito del rastreo de contactos contrasta con la gravedad de la situación epidemiológica en la vecina República Democrática del Congo.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "DW News",
+    "image": "img/contencion-ebola-kenia-ante-crisis-sanitaria-6atc.jpg",
+    "photo": "img/contencion-ebola-kenia-ante-crisis-sanitaria-6atc-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "yncx3uqmDXQ",
+      "title": "Kenya discharges LAST Ebola patient, calls for travel restrictions to be LIFTED",
+      "channel": "Capital FM Kenya",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-11T19:20:36.222Z",
+    "article": {
+      "slug": "contencion-ebola-kenia-ante-crisis-sanitaria-6atc",
+      "title": "La contención del Ébola en Kenia ante la crisis sanitaria regional",
+      "dek": "Kenia ha logrado contener un brote de Ébola tras dar el alta a su último paciente hospitalizado. El éxito del rastreo de contactos contrasta con la gravedad de la situación epidemiológica en la vecina República Democrática del Congo.",
+      "keyFacts": [
+        "El último paciente con Ébola en Kenia fue dado de alta el miércoles.",
+        "El brote en Kenia sumó nueve casos confirmados y dos fallecimientos.",
+        "Las autoridades rastrearon 135 contactos vinculados al caso índice.",
+        "La República Democrática del Congo registra 11.000 casos y 5.387 muertes en el brote actual.",
+        "Kenia será declarada libre de Ébola el 23 de diciembre si no se reportan nuevos casos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El ministro de Salud de Kenia, Aden Duale, anunció este miércoles el alta del último paciente tratado por Ébola en el país. Tras semanas de monitoreo intensivo, las autoridades sanitarias confirmaron que todos los contactos identificados han sido rastreados y puestos bajo vigilancia.",
+            "El brote, que comenzó el 6 de octubre tras el regreso de un ciudadano keniano de la República Democrática del Congo, se limitó a nueve casos confirmados, de los cuales dos personas perdieron la vida."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La situación en Kenia se mantuvo contenida gracias a un estricto protocolo de vigilancia. Según el Ministerio de Salud, se lograron identificar y monitorear 135 personas que tuvieron contacto directo con el caso índice. El gobierno enfatizó que el clúster de transmisión fue único y no se registró propagación comunitaria.",
+            "Sin embargo, el panorama a pocos kilómetros de distancia es radicalmente distinto. La República Democrática del Congo enfrenta su brote más mortífero desde mayo, con 11.000 casos registrados y 5.387 fallecidos hasta la fecha."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El éxito de Kenia al frenar el brote oculta la fragilidad del sistema de contención ante una crisis regional que no muestra signos de desaceleración. La dependencia de la vigilancia en fronteras se vuelve ineficaz si los países vecinos no logran controlar la propagación del virus en sus propios territorios.",
+            "La interconexión de la región y la constante movilidad de personas desde zonas de alta incidencia obligan a Kenia a mantener un nivel de alerta que consume recursos críticos, mientras el foco de la epidemia en el Congo sigue siendo una amenaza latente para toda África Oriental."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El gobierno de Kenia gana legitimidad al demostrar capacidad operativa para gestionar crisis sanitarias sin recurrir a cierres masivos. Por el contrario, la población de la República Democrática del Congo sigue asumiendo el costo más alto, con un sistema de salud desbordado y una tasa de mortalidad que refleja la falta de infraestructura para contener el patógeno."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "La fecha clave es el 23 de diciembre. Si para ese día no se reportan nuevos síntomas entre los 11 contactos que aún permanecen bajo cuarentena, el país será declarado oficialmente libre de Ébola. Más allá de esa fecha, el control de las fronteras y la cooperación sanitaria con los países vecinos serán los indicadores para medir la seguridad regional a largo plazo."
+          ]
+        }
+      ],
+      "tags": [
+        "Kenia",
+        "Ébola",
+        "Salud",
+        "Geopolítica",
+        "África"
+      ],
+      "sources": [
+        {
+          "name": "DW News",
+          "title": "Kenya's last Ebola patient leaves hospital",
+          "url": "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-rdf"
+        }
+      ],
+      "wordCount": 417
+    },
+    "blindSpot": "Aunque el Ministerio de Salud celebra el fin de la transmisión, el riesgo real reside en la porosidad de las fronteras regionales y la crisis sanitaria descontrolada en la República Democrática del Congo. La dependencia de protocolos de vigilancia locales frente a una epidemia que ha cobrado 5.387 vidas en el país vecino expone la fragilidad de la arquitectura sanitaria de África Oriental ante el flujo migratorio constante."
+  },
+  {
     "slug": "sombra-espionaje-sobre-nvidia-lecciones-historia-nb02",
     "path": "noticias/sombra-espionaje-sobre-nvidia-lecciones-historia-nb02/",
     "title": "La sombra del espionaje sobre Nvidia y las lecciones de la historia tecnológica",

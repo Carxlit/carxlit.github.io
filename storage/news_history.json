@@ -163,9 +163,35 @@
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qaTFVWFlkUTBsUzNjVzkwYk5aaXhiaTBwU0hDcnN6RUg5T092VDB2aHFhWnZUY0RkZGxVRHAxVEZ5ZmpycS1RNldKX0FucTZHR3pRRVNpdXRnS25mMjJ1U0VUVzZDeGhYNzgwdDRiaDNGUXJMZWRB?oc=5",
     "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSkxZQ0g1a2hoZ2ZBZzVaalNSZmtKOC15TjU4dzBIXzlYdnVqQ3M4MnBxUDJfazhIYXBRQ0w4c1pqY0QxUEhDLXNKa0x6NzNDWUR2Y01xNFliSHhvWW9La1hDbEtKQnlLTHRGQmQ2X1VuWVJMd1lTQUh3cnlfY0RLWlFxeXJfMi1UYXRDc09qUlhQWHJDZ3A5dkxfTHpQSjVqd09jMmpYQmlYeW5oaWhBRHlJNEx1ZTlqQ3N2eVhVM0VJNllIbmZ6NU9YdVpLOF82NkhHVV9zT3NSVEVaY0JYMWVyVTAwU05ncXRsUkphM0RYdUk?oc=5",
     "https://www.abc.es/internacional/rusia-ucrania-siguen-ataques-cruzados-negocian-paz-20261111164618-nt.html",
-    "https://theconversation.com/a-proposito-del-caso-nvidia-que-nos-ensena-la-historia-del-espionaje-sobre-la-seguridad-tecnologica-actual-296303"
+    "https://theconversation.com/a-proposito-del-caso-nvidia-que-nos-ensena-la-historia-del-espionaje-sobre-la-seguridad-tecnologica-actual-296303",
+    "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "KENIA LOGRA CONTENER EL BROTE DE ÉBOLA TRAS CASOS IMPORTADOS",
+      "normalizedTokens": [
+        "kenia",
+        "logra",
+        "contener",
+        "brote",
+        "ebola",
+        "casos",
+        "importados"
+      ],
+      "date": "2026-11-11T19:20:36.390Z"
+    },
+    {
+      "title": "Kenya's last Ebola patient leaves hospital",
+      "normalizedTokens": [
+        "kenya",
+        "last",
+        "ebola",
+        "patient",
+        "leaves",
+        "hospital"
+      ],
+      "date": "2026-11-11T19:20:36.389Z"
+    },
     {
       "title": "NVIDIA Y EL ESPIONAJE TECNOLÓGICO RIVALIDAD HISTÓRICA E INTELIGENCIA ARTIFICIAL",
       "normalizedTokens": [
