@@ -152,9 +152,37 @@
     "https://elpais.com/us/2026-11-10/pete-hegseth-22-meses-de-polemica-en-el-pentagono.html",
     "https://www.france24.com/es/video/20261110-no-vemos-una-estrategia-contundente-de-reconstrucci%C3%B3n-colombia-a-tres-meses-del-terremoto",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/donald-trump-cambiara-la-forma-de-ejecutar-sus-acciones-contra-la-migracion-tras-su-derrota-en-las-elecciones-de-medio-mandato-3599866",
-    "https://www.france24.com/es/video/20261111-90-d%C3%ADas-del-terremoto-en-colombia-seguimos-esperando-acompa%C3%B1amiento-del-gobierno-leonardo-reales"
+    "https://www.france24.com/es/video/20261111-90-d%C3%ADas-del-terremoto-en-colombia-seguimos-esperando-acompa%C3%B1amiento-del-gobierno-leonardo-reales",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "EEUU ACUSA A TRES SUJETOS POR CONSPIRAR CONTRA BASE BRITÁNICA",
+      "normalizedTokens": [
+        "eeuu",
+        "acusa",
+        "tres",
+        "sujetos",
+        "conspirar",
+        "base",
+        "britanica"
+      ],
+      "date": "2026-11-11T06:32:38.437Z"
+    },
+    {
+      "title": "US charges three men for allegedly plotting attack on UK base",
+      "normalizedTokens": [
+        "charges",
+        "three",
+        "men",
+        "for",
+        "allegedly",
+        "plotting",
+        "attack",
+        "base"
+      ],
+      "date": "2026-11-11T06:32:38.436Z"
+    },
     {
       "title": "COLOMBIA: TRES MESES DE ABANDONO ESTATAL TRAS EL SISMO",
       "normalizedTokens": [

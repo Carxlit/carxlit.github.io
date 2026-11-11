@@ -543,5 +543,15 @@
     "relevant": true,
     "reason": "Muestra una entrevista a una autoridad local y una vista aérea de los daños en Pereira, Colombia, tres meses después del sismo.",
     "at": "2026-11-11T05:01:25.022Z"
+  },
+  "ec96d45be7007c7a:pjz1t5n4e": {
+    "relevant": false,
+    "reason": "No es posible verificar que la persona o el lugar de la imagen correspondan directamente a los acusados por la justicia estadounidense en esta noticia.",
+    "at": "2026-11-11T06:32:30.140Z"
+  },
+  "98f91c38887733c2:pjz1t5n4e": {
+    "relevant": true,
+    "reason": "La imagen muestra los retratos policiales de los tres acusados mencionados en la noticia.",
+    "at": "2026-11-11T06:32:35.022Z"
   }
 }
