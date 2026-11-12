@@ -738,5 +738,15 @@
     "relevant": true,
     "reason": "Muestra la reunión oficial entre la presidenta Claudia Sheinbaum y Greg Brockman, cofundador de OpenAI.",
     "at": "2026-11-12T20:13:20.147Z"
+  },
+  "a736dc6e0dc0da5c:dehiqk5wl": {
+    "relevant": false,
+    "reason": "La imagen muestra una escena policial en Miami-Dade, Florida, mientras que la noticia trata sobre un tiroteo en Washington D.C.",
+    "at": "2026-11-12T21:51:10.128Z"
+  },
+  "bdf56dbbe631bf7e:dehiqk5wl": {
+    "relevant": true,
+    "reason": "Muestra una patrulla y luces policiales de la Policía de Washington D.C., relacionado directamente con un tiroteo en la capital.",
+    "at": "2026-11-12T21:51:15.877Z"
   }
 }
