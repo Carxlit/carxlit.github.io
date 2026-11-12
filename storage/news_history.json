@@ -167,9 +167,39 @@
     "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-rdf",
     "https://www.eltiempo.com/mundo/la-tension-por-la-guerra-en-iran-llega-a-suramerica-teheran-designa-como-terroristas-a-la-armada-y-la-fuerza-aerea-de-argentina-3600274",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0pfNEpVVVl5YXEtd2RrYVoxRzVGOTV1SHlwUVZSQlN4bXNFRGhMTjRhNGljcXJwX3VNN0lrSk5aNzB6NVdpRjVFWnJUc2ZpYWdhU1dIejN2cFlyTXczMnU4S252U0RZeGFMSnRTYWI2ODNZTThYSjBWLVFlWkd1ZlhyNWt6aHlra05GQVdOcmVCaGh1OXZBZ29Lbk0xYUozWlFOOEJUeG5Pd9IBvgFBVV95cUxPVk1qUmozYm9UQVFSYUFCWlpVaDFPOUhFVzNyaXBndzhnT3NNNHpMRm83Yzk1T3dLMjM0TUpMZ1gtU3ZxMWR0bE14Y09kelR6LVcxa1p3bjhlanIwa0tFWHM0eHZHN1AtNDhiRWFHdF9IaUotTkNFcG5ZZFlKQUIzdkNFcDlwOGlZY1k5cWlCcFVlalpISEZsS2NPWnFHVnNVTVRPRF9iRC1zNmF2aGYwdVhwV1Frd2tpUjVKTVR3?oc=5",
-    "https://www.abc.es/internacional/evacuan-300-colegios-italia-tras-recibir-amenazas-20261111123559-nt.html"
+    "https://www.abc.es/internacional/evacuan-300-colegios-italia-tras-recibir-amenazas-20261111123559-nt.html",
+    "https://www.france24.com/es/video/20261112-informe-desde-ciudad-de-m%C3%A9xico-nadia-beller-recibe-asilo-pol%C3%ADtico-tras-sobrevivir-a-atentado"
   ],
   "processedSignatures": [
+    {
+      "title": "MÉXICO OTORGA ASILO DIPLOMÁTICO A ABOGADA BOLIVIANA TRAS ATENTADO",
+      "normalizedTokens": [
+        "mexico",
+        "otorga",
+        "asilo",
+        "diplomatico",
+        "abogada",
+        "boliviana",
+        "atentado"
+      ],
+      "date": "2026-11-12T05:02:03.263Z"
+    },
+    {
+      "title": "Informe desde Ciudad de México: Nadia Beller recibe asilo político tras sobrevivir a atentado",
+      "normalizedTokens": [
+        "informe",
+        "ciudad",
+        "mexico",
+        "nadia",
+        "beller",
+        "recibe",
+        "asilo",
+        "politico",
+        "sobrevivir",
+        "atentado"
+      ],
+      "date": "2026-11-12T05:02:03.262Z"
+    },
     {
       "title": "OLEADA DE AMENAZAS FALSAS DE BOMBA PARALIZA ESCUELAS EN ITALIA",
       "normalizedTokens": [

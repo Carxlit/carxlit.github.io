@@ -658,5 +658,15 @@
     "relevant": true,
     "reason": "Muestra a agentes de la policía italiana registrando un colegio tras una amenaza de bomba.",
     "at": "2026-11-11T23:45:38.533Z"
+  },
+  "99f5e8302a07e9cc:zsw24wyl6": {
+    "relevant": false,
+    "reason": "La imagen muestra a un corresponsal y una escena genérica de un aeropuerto o edificio, no a la protagonista de la noticia (Nadia Beller).",
+    "at": "2026-11-12T05:01:46.463Z"
+  },
+  "bc5b68ed116fdd19:zsw24wyl6": {
+    "relevant": true,
+    "reason": "La imagen muestra a la ex pareja de Cerimedo en la embajada, vinculada al asilo en México.",
+    "at": "2026-11-12T05:02:00.813Z"
   }
 }
