@@ -179,9 +179,35 @@
     "https://elpais.com/economia/vivienda/2026-11-12/desahucios-alquileres-y-ayudas-para-comprar-las-medidas-del-decreto-de-vivienda-que-siguen-adelante.html",
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSEwyNjV4RE0zRDhkdFZoQ3gyN0pzT3hJMXRhNUR5SzJKU2pMamF5aUcxbnlsMm5icjQ0eGFVdDdYcDRfbUNXWWJtWGo0TGVGckFVN3pDV3FxTHA1dFdrQmdPQThncHJMekVTczdTTUJQaWI3Y3lYSFM5TDNDcW5oQXo2U0gyZjBILXpWd19wdC12Rmg3cHV1WlJWbVNxS2tvRmd4V082QkdsbmVn?oc=5",
     "http://www.defensa.com/america-latina/chile-colombia-cierran-vii-reunion-bilateral-estados-mayores-paz",
-    "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss",
+    "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP AMENAZA CON DUPLICAR ARANCELES A MÉXICO POR MIGRACIÓN",
+      "normalizedTokens": [
+        "trump",
+        "amenaza",
+        "duplicar",
+        "aranceles",
+        "mexico",
+        "migracion"
+      ],
+      "date": "2026-11-12T17:43:50.321Z"
+    },
+    {
+      "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
+      "normalizedTokens": [
+        "trump",
+        "amenaza",
+        "duplicar",
+        "aranceles",
+        "mexico",
+        "endurece",
+        "frontera"
+      ],
+      "date": "2026-11-12T17:43:50.320Z"
+    },
     {
       "title": "DIMISIÓN DE JENSEN HUANG SACUDE EL ECOSISTEMA GLOBAL DE SEMICONDUCTORES",
       "normalizedTokens": [
