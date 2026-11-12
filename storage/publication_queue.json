@@ -1,155 +1,5 @@
 [
   {
-    "id": "queue-1793641753750-1qyr5",
-    "news": {
-      "id": "qcbp4ak6k",
-      "originalUrl": "https://www.genbeta.com/actualidad/nuevo-estudio-rastrea-famosa-noche-estrellada-van-gogh-cielo-nocturno-real-1889",
-      "originalTitle": "Un nuevo estudio rastrea la famosa ‘Noche estrellada’ de Van Gogh hasta un cielo nocturno real de 1889",
-      "sourceName": "Genbeta",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 64,
-      "headline": "SOFTWARE ASTRONÓMICO REESCRIBE LA CRONOLOGÍA DE VAN GOGH",
-      "subHeadline": "Un equipo surcoreano utilizó software de simulación estelar y datos de la NASA para fechar el cielo de 'La noche estrellada' el 22 de julio de 1889.",
-      "blindSpotAngle": "La cobertura mediática celebra el uso de tecnología aeroespacial para resolver un misterio artístico, pero ignora el sesgo analítico de intentar encajar el caos expresionista de un pintor en algoritmos estelares rígidos. El propio MoMA sostiene que el pueblo y los astros fueron ensamblados desde distintas memorias y momentos, evidenciando que la reconstrucción digital busca precisión histórica donde el arte solo buscaba síntesis emocional.",
-      "facebookPost": "La tecnología de simulación estelar ha decidido poner bajo la lupa uno de los lienzos más célebres de la historia. Un equipo de investigadores surcoreanos utilizó software astronómico y efemérides de la NASA para rastrear el cielo exacto de 'La noche estrellada', proponiendo fecharlo un mes después de lo que acepta oficialmente el MoMA.\n\nSin embargo, la narrativa que reduce la obra maestra de Van Gogh a una mera fotografía nocturna ignora el método de trabajo del artista: un cuadro pintado a la luz del día a partir de múltiples memorias y visiones fragmentadas. Pretender que un algoritmo de posición planetaria decida cuándo se pintó el arte es confundir la precisión del telescopio con la obsesión del creador.\n\n¿Hasta qué punto la tiranía del dato digital está reemplazando la interpretación estética en el estudio del arte?\n\nFuente: Genbeta\n\n#Tecnología #Arte #PuntoCiego",
-      "telegramPost": "<b>SOFTWARE ASTRONÓMICO REESCRIBE LA CRONOLOGÍA DE VAN GOGH</b>\n\n• <b>Qué ocurrió:</b> Investigadores surcoreanos publicaron en Scientific Reports un estudio que vincula el cielo de 'La noche estrellada' con el 22 de julio de 1889, apoyándose en simulaciones con TheSkyX y Stellarium.\n\n• <b>Por qué importa:</b> El análisis desplaza la fecha oficial de junio mantenida por el MoMA, cruzando la posición de Venus y la luna menguante con las cartas y crisis del pintor en Saint-Rémy-de-Provence.\n\n• <b>Qué sigue:</b> El debate sobre la validez de aplicar modelos de efemérides de la NASA para datar procesos creativos fragmentados que combinaban múltiples sesiones y vistas imaginarias.",
-      "linkedInPost": "La aplicación de software aeroespacial y modelado estelar en la historiografía del arte marca un punto de inflexión en la validación digital del patrimonio cultural. El uso de plataformas como Stellarium y efemérides DE441 de la NASA permite auditar las bases empíricas de las obras maestras.\n\nNo obstante, la transición del análisis empírico al dogma cronológico plantea riesgos metodológicos. Cuando los investigadores intentan sincronizar el caos expresionista con coordenadas planetarias exactas, ignoran la naturaleza sintética del proceso creativo. La estandarización algorítmica de la historia del arte redefine cómo el capital institucional y tecnológico legitiman el valor cultural.\n\nFuente: Genbeta\n\n#Tecnología #Ciberseguridad #PuntoCiego",
-      "blueskyPost": "Algoritmos de la NASA y software estelar fechan 'La noche estrellada' en julio de 1889, desafiando al MoMA. ¿Medición científica o la obsesión algorítmica por matematizar la creación artística? #Tecnología #PuntoCiego",
-      "copies": {
-        "facebook": "La tecnología de simulación estelar ha decidido poner bajo la lupa uno de los lienzos más célebres de la historia. Un equipo de investigadores surcoreanos utilizó software astronómico y efemérides de la NASA para rastrear el cielo exacto de 'La noche estrellada', proponiendo fecharlo un mes después de lo que acepta oficialmente el MoMA.\n\nSin embargo, la narrativa que reduce la obra maestra de Van Gogh a una mera fotografía nocturna ignora el método de trabajo del artista: un cuadro pintado a la luz del día a partir de múltiples memorias y visiones fragmentadas. Pretender que un algoritmo de posición planetaria decida cuándo se pintó el arte es confundir la precisión del telescopio con la obsesión del creador.\n\n¿Hasta qué punto la tiranía del dato digital está reemplazando la interpretación estética en el estudio del arte?\n\n#Tecnología #Arte #PuntoCiego",
-        "telegram": "<b>SOFTWARE ASTRONÓMICO REESCRIBE LA CRONOLOGÍA DE VAN GOGH</b>\n\n• <b>Qué ocurrió:</b> Investigadores surcoreanos publicaron en Scientific Reports un estudio que vincula el cielo de 'La noche estrellada' con el 22 de julio de 1889, apoyándose en simulaciones con TheSkyX y Stellarium.\n\n• <b>Por qué importa:</b> El análisis desplaza la fecha oficial de junio mantenida por el MoMA, cruzando la posición de Venus y la luna menguante con las cartas y crisis del pintor en Saint-Rémy-de-Provence.\n\n• <b>Qué sigue:</b> El debate sobre la validez de aplicar modelos de efemérides de la NASA para datar procesos creativos fragmentados que combinaban múltiples sesiones y vistas imaginarias.",
-        "bluesky": "Algoritmos de la NASA y software estelar fechan 'La noche estrellada' en julio de 1889, desafiando al MoMA. ¿Medición científica o la obsesión algorítmica por matematizar la creación artística? #Tecnología #PuntoCiego",
-        "linkedIn": "La aplicación de software aeroespacial y modelado estelar en la historiografía del arte marca un punto de inflexión en la validación digital del patrimonio cultural. El uso de plataformas como Stellarium y efemérides DE441 de la NASA permite auditar las bases empíricas de las obras maestras.\n\nNo obstante, la transición del análisis empírico al dogma cronológico plantea riesgos metodológicos. Cuando los investigadores intentan sincronizar el caos expresionista con coordenadas planetarias exactas, ignoran la naturaleza sintética del proceso creativo. La estandarización algorítmica de la historia del arte redefine cómo el capital institucional y tecnológico legitiman el valor cultural.\n\n#Tecnología #Ciberseguridad #PuntoCiego"
-      },
-      "article": {
-        "slug": "cuando-algoritmos-nasa-intentan-fechar-cielo-a6ck",
-        "title": "Cuando los algoritmos de la NASA intentan fechar el cielo de Vincent van Gogh",
-        "dek": "Un nuevo estudio científico utiliza software astronómico para proponer una revisión de la cronología de 'La noche estrellada'. La aplicación de herramientas aeroespaciales al arte choca con la naturaleza fragmentada de la obra.",
-        "keyFacts": [
-          "El estudio fue publicado en la revista Scientific Reports el 22 de octubre de 2026 por investigadores surcoreanos.",
-          "El equipo utilizó el software TheSkyX 10.5.0 y Stellarium 25.2.0, contrastando los datos con las efemérides DE441 de la NASA.",
-          "La investigación propone vincular el cielo del cuadro con los amaneceres cercanos al 22 de julio de 1889 en Saint-Rémy-de-Provence.",
-          "En la ficha del MoMA se mantiene la fecha de junio de 1889, argumentando que el lienzo fue pintado de día a partir de múltiples observaciones y visiones."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "Un equipo de investigadores de Corea del Sur ha publicado un análisis en la revista Scientific Reports que revisa la cronología tradicional de 'La noche estrellada', una de las obras cumbres de Vincent van Gogh. Según el estudio, liderado por el doctorando y director de empresas de telescopios Elijah Jeong-hyun Kim, el cielo plasmado en el lienzo responde a las condiciones astronómicas reales registradas alrededor del 22 de julio de 1889 en Saint-Rémy-de-Provence.",
-              "Para llegar a esta conclusión, los autores cruzaron la posición de la luna menguante, la ubicación de Venus y la conjunción de las Híades con los registros meteorológicos y las cartas personales del pintor. El análisis sugiere que el momento retratado correspondería a un período posterior al aceptado históricamente por los museos que custodian la pieza."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "El debate sobre el realismo celeste en la obra de Van Gogh no es nuevo. Físicos como José Luis Aragón, de la Universidad Nacional Autónoma de México, han estudiado previamente el dinamismo de los cielos del pintor holandés. Sin embargo, la investigación actual da un salto metodológico al emplear software avanzado como TheSkyX, validado con configuraciones de Stellarium y tablas de posición orbital de las efemérides DE441 de la NASA.",
-              "Por su parte, el Museo de Arte Moderno de Nueva York (MoMA), donde se conserva la pintura, mantiene en su ficha oficial que el cuadro data de junio de 1889. Los conservadores del museo explican que la tela fue ejecutada durante el día a partir de impresiones nocturnas acumuladas, señalando además que el pueblo que aparece en el fondo no era visible desde la ventana del artista, sino que constituye una síntesis visual de múltiples recuerdos."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "La fascinación contemporánea por someter el arte al escrutinio de la tecnología aeroespacial revela un sesgo analítico profundo. Mientras los titulares celebran la precisión de los simuladores estelares y el sistema Horizons de la NASA, se pasa por alto la falacia fundamental de intentar aplicar coordenadas rígidas a un proceso expresionista y fragmentado.",
-              "Los propios autores reconocen que las herramientas de simulación no pueden determinar cuándo comenzó exactamente el proceso pictórico ni cuántos retoques posteriores recibió la obra. Convertir una conjetura astronómica en una verdad cronológica absoluta ignora que Van Gogh operaba desde la síntesis emocional y la memoria acumulada, no desde un observatorio astronómico."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "En este tablero de validación cultural, los ganadores son los promotores de la analítica de datos y las plataformas de software libre de simulación, que demuestran su utilidad para generar impacto mediático en campos tradicionalmente humanísticos. La tecnología se posiciona como el árbitro definitivo de la autenticidad histórica.",
-              "Los perdedores son la complejidad y la ambigüedad del proceso creativo. Reducir la génesis de una obra maestra a un cálculo de efemérides planetarias despoja al arte de su dimensión subjetiva, subordinando la interpretación estética al veredicto inapelable de un algoritmo de la NASA."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "Es necesario observar cómo las instituciones museísticas tradicionales responden a la presión de estas revisiones tecnológicas basadas en código abierto y modelado masivo de datos. La tentación de reescribir catálogos enteros impulsada por el furor algorítmico podría transformar radicalmente la manera en que se documenta el patrimonio histórico.",
-              "Asimismo, hay que seguir de cerca la democratización de herramientas como Stellarium y el sistema Horizons, cuya creciente precisión permite que cualquier analista externo cuestione los metadatos oficiales de las pinacotecas globales."
-            ]
-          }
-        ],
-        "tags": [
-          "Tecnología",
-          "Arte",
-          "Astronomía",
-          "NASA",
-          "Cultura"
-        ],
-        "sources": [
-          {
-            "name": "Genbeta",
-            "title": "Un nuevo estudio rastrea la famosa ‘Noche estrellada’ de Van Gogh hasta un cielo nocturno real de 1889",
-            "url": "https://www.genbeta.com/actualidad/nuevo-estudio-rastrea-famosa-noche-estrellada-van-gogh-cielo-nocturno-real-1889"
-          }
-        ],
-        "wordCount": 585
-      },
-      "videoScript": {
-        "hook": "Un software de la NASA asegura haber descifrado el cielo exacto de Van Gogh.",
-        "beats": [
-          "Investigadores usaron simuladores estelares para fechar La noche estrellada el 22 de julio de 1889.",
-          "El MoMA defiende que el cuadro fue pintado de día mezclando memorias y vistas imaginarias.",
-          "La tecnología intenta imponer precisión matemática donde el artista solo buscaba expresión."
-        ],
-        "close": "Lee el análisis completo y descubre el punto ciego en nuestro enlace."
-      },
-      "rawImageUrl": "https://i.blogs.es/51f191/la-noche-estrellada/840_560.jpeg",
-      "status": "published",
-      "createdAt": "2026-11-02T17:49:11.953Z",
-      "cardImageUrl": "/news-cards/news-qcbp4ak6k-1793641751953.jpg",
-      "instagramCardUrl": "/news-cards/news-qcbp4ak6k-1793641752606-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cuando-algoritmos-nasa-intentan-fechar-cielo-a6ck/",
-      "publishedAt": "2026-11-02T20:06:01.603Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true
-    },
-    "scheduledFor": "2026-11-02T20:05:45.482Z",
-    "status": "published",
-    "attempts": 2,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-02T17:49:13.750Z",
-    "lastAttemptAt": "2026-11-02T20:06:00.704Z",
-    "results": {
-      "mastodon": {
-        "success": false,
-        "skipped": true,
-        "error": "Canal sin credenciales configuradas (omitido)"
-      },
-      "facebook": {
-        "success": true,
-        "postId": "122101611945532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "33",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzdvbtyl3e2r"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18119792980783022"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      }
-    },
-    "publishedAt": "2026-11-02T20:06:01.603Z"
-  },
-  {
     "id": "queue-1793641769653-sg3je",
     "news": {
       "id": "rbpb7ycji",
@@ -26328,12 +26178,13 @@
         "close": "Lee el análisis completo sobre el mercado de consolas en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://i.blogs.es/c1b851/libro-3djuegos/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-12T11:25:18.391Z",
       "cardImageUrl": "/news-cards/news-b1gbsxelf-1794482718392.jpg",
       "reelCoverUrl": "/news-cards/news-b1gbsxelf-1794482718976-cover.jpg",
       "instagramCardUrl": "/news-cards/news-b1gbsxelf-1794482719499-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u/",
+      "publishedAt": "2026-11-12T12:34:52.925Z"
     },
     "channels": {
       "facebook": true,
@@ -26347,10 +26198,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-12T12:31:18.828Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-12T11:25:20.745Z"
+    "createdAt": "2026-11-12T11:25:20.745Z",
+    "lastAttemptAt": "2026-11-12T12:31:34.307Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122109846561532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "187",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n24hzfruvo24"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "17960482821259395",
+        "permalink": "https://www.instagram.com/reel/DfpERYoD5bA/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117603492136628461"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18164679697500769"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-12T12:34:52.925Z"
   },
   {
     "id": "queue-1794483194414-qrhwo",
@@ -26464,7 +26357,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-12T13:20:18.828Z",
+    "scheduledFor": "2026-11-12T13:24:34.278Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
@@ -26604,7 +26497,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-12T14:13:18.828Z",
+    "scheduledFor": "2026-11-12T14:18:34.278Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
