@@ -1,5 +1,80 @@
 [
   {
+    "slug": "apuesta-openai-delegar-expansion-publicitaria-mercados-uw9f",
+    "path": "noticias/apuesta-openai-delegar-expansion-publicitaria-mercados-uw9f/",
+    "title": "La apuesta de OpenAI por delegar su expansión publicitaria en mercados emergentes",
+    "headline": "OPENAI DELEGA SU PUBLICIDAD A LA ARGENTINA ALEPH",
+    "dek": "La tecnológica estadounidense eligió a la argentina Aleph como su brazo comercial exclusivo en 44 países. El movimiento busca escalar la monetización de ChatGPT evitando la complejidad administrativa del despliegue directo.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "Bloomberg Línea",
+    "image": "img/apuesta-openai-delegar-expansion-publicitaria-mercados-uw9f.jpg",
+    "photo": "img/apuesta-openai-delegar-expansion-publicitaria-mercados-uw9f-foto.jpg",
+    "publishedAt": "2026-11-12T11:33:14.272Z",
+    "article": {
+      "slug": "apuesta-openai-delegar-expansion-publicitaria-mercados-uw9f",
+      "title": "La apuesta de OpenAI por delegar su expansión publicitaria en mercados emergentes",
+      "dek": "La tecnológica estadounidense eligió a la argentina Aleph como su brazo comercial exclusivo en 44 países. El movimiento busca escalar la monetización de ChatGPT evitando la complejidad administrativa del despliegue directo.",
+      "keyFacts": [
+        "Aleph proyecta una facturación global de 5.300 millones de dólares para el año 2026.",
+        "El acuerdo abarca 44 mercados, incluyendo 14 países de América Latina como Argentina, Colombia y Chile.",
+        "ChatGPT Ads alcanzó un ritmo anualizado de ingresos de 1.000 millones de dólares a los 200 días de su lanzamiento.",
+        "Las proyecciones de OpenAI estiman ingresos publicitarios de 100.000 millones de dólares para el año 2030."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "OpenAI ha formalizado una alianza estratégica con Aleph, la compañía fundada por Gastón Taratuta, para actuar como su socio comercial exclusivo en la venta de publicidad dentro de ChatGPT. Este acuerdo otorga a la firma argentina la responsabilidad de captar anunciantes, gestionar la pauta y ofrecer servicios de soporte y facturación en moneda local en 44 mercados estratégicos.",
+            "La medida busca consolidar el modelo de negocio publicitario de la tecnológica, que ya cuenta con más de 1.000 millones de usuarios semanales. Según los términos del acuerdo, OpenAI conservará su canal de venta directa, pero delegará la complejidad operativa de los mercados emergentes en la infraestructura preexistente de Aleph."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El sector de la inteligencia artificial generativa ha entrado en una fase de presión por la rentabilidad. OpenAI, que ha visto sus ingresos trimestrales aumentar casi un 50% hasta los 10.000 millones de dólares, necesita diversificar sus fuentes de ingresos más allá de las suscripciones premium.",
+            "El lanzamiento de Ads Manager ha sido fundamental para este giro, permitiendo que pequeñas y medianas empresas incorporen sus anuncios en el ecosistema de ChatGPT. Con proyecciones que sitúan los ingresos por publicidad en 11.000 millones de dólares para 2027, la escala es la prioridad absoluta para los inversores."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Detrás de la alianza subyace una estrategia de mitigación de riesgo operativo. Gestionar la facturación, el crédito y la normativa comercial en 44 países distintos representa una carga administrativa y financiera que OpenAI prefiere evitar. Al delegar esto en Aleph, la tecnológica traslada el riesgo de cobro y la fricción burocrática a un intermediario regional.",
+            "La apuesta de Taratuta por monetizar la IA en mercados emergentes no es solo una oportunidad comercial, sino una validación de que la infraestructura de publicidad digital en estas regiones requiere de actores que entiendan la idiosincrasia del crédito y el soporte local, algo que una empresa basada exclusivamente en Silicon Valley difícilmente podría replicar a gran escala."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "OpenAI gana eficiencia y velocidad de mercado, asegurando ingresos sin expandir su nómina operativa global. Aleph, por su parte, se posiciona como el socio estratégico necesario para cualquier Big Tech que busque monetizar la base de usuarios en América Latina, África y Medio Oriente.",
+            "Los perdedores potenciales son las agencias de publicidad locales que no logren integrarse a la red de Aleph, enfrentándose a un nuevo actor que centraliza el acceso al inventario publicitario de la herramienta de IA más utilizada del mundo."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será fundamental observar la efectividad de las campañas basadas en modelos de pago por resultado en el entorno de ChatGPT. Asimismo, el desempeño de Aleph en la gestión de la volatilidad cambiaria de los mercados latinoamericanos será el indicador clave para determinar si este modelo de tercerización es sostenible a largo plazo."
+          ]
+        }
+      ],
+      "tags": [
+        "OpenAI",
+        "Aleph",
+        "Publicidad Digital",
+        "Inteligencia Artificial",
+        "Mercados Emergentes"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg Línea",
+          "title": "OpenAI eligió a la argentina Aleph para vender publicidad en ChatGPT: negocio millonario y Wall Street",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/openai-eligio-a-la-argentina-aleph-para-vender-publicidad-en-chatgpt-negocio-millonario-y-wall-street/"
+        }
+      ],
+      "wordCount": 482
+    },
+    "blindSpot": "El movimiento revela la estrategia de OpenAI para externalizar la complejidad operativa de los mercados emergentes: facturación local, riesgo cambiario y soporte comercial. OpenAI busca escala masiva sin absorber el costo administrativo de gestionar miles de pymes locales, delegando el riesgo de cobranza en intermediarios."
+  },
+  {
     "slug": "democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u",
     "path": "noticias/democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u/",
     "title": "De la democratización del hardware a la inflación del ecosistema en el videojuego",

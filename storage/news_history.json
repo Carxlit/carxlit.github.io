@@ -173,9 +173,38 @@
     "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss",
     "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
     "https://www.xataka.com/magnet/ucraniano-construyo-hotel-sus-suenos-entonces-invadio-rusia-a-moscu-le-acaba-llegar-factura-5-1-millones-dolares",
-    "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo"
+    "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo",
+    "https://www.bloomberglinea.com/latinoamerica/argentina/openai-eligio-a-la-argentina-aleph-para-vender-publicidad-en-chatgpt-negocio-millonario-y-wall-street/"
   ],
   "processedSignatures": [
+    {
+      "title": "OPENAI DELEGA SU PUBLICIDAD A LA ARGENTINA ALEPH",
+      "normalizedTokens": [
+        "openai",
+        "delega",
+        "publicidad",
+        "argentina",
+        "aleph"
+      ],
+      "date": "2026-11-12T11:33:14.432Z"
+    },
+    {
+      "title": "OpenAI eligió a la argentina Aleph para vender publicidad en ChatGPT: negocio millonario y Wall Street",
+      "normalizedTokens": [
+        "openai",
+        "eligio",
+        "argentina",
+        "aleph",
+        "vender",
+        "publicidad",
+        "chatgpt",
+        "negocio",
+        "millonario",
+        "wall",
+        "street"
+      ],
+      "date": "2026-11-12T11:33:14.430Z"
+    },
     {
       "title": "SONY Y LA INVERSIÓN DEL MODELO ECONÓMICO EN CONSOLAS",
       "normalizedTokens": [
