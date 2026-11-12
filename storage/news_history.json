@@ -170,9 +170,43 @@
     "https://www.abc.es/internacional/evacuan-300-colegios-italia-tras-recibir-amenazas-20261111123559-nt.html",
     "https://www.france24.com/es/video/20261112-informe-desde-ciudad-de-m%C3%A9xico-nadia-beller-recibe-asilo-pol%C3%ADtico-tras-sobrevivir-a-atentado",
     "https://www.europapress.es/internacional/noticia-menos-muerto-varios-atrapados-derrumbe-edificio-distrito-neoyorquino-brooklyn-20261112003739.html",
-    "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss"
+    "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss",
+    "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-"
   ],
   "processedSignatures": [
+    {
+      "title": "COLAPSO EN BROOKLYN EXPONE FALLAS DE REGULACIÓN INMOBILIARIA",
+      "normalizedTokens": [
+        "colapso",
+        "brooklyn",
+        "expone",
+        "fallas",
+        "regulacion",
+        "inmobiliaria"
+      ],
+      "date": "2026-11-12T06:31:56.716Z"
+    },
+    {
+      "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+      "normalizedTokens": [
+        "least",
+        "two",
+        "dead",
+        "while",
+        "others",
+        "are",
+        "trapped",
+        "the",
+        "rubble",
+        "after",
+        "building",
+        "collapse",
+        "new",
+        "york",
+        "city"
+      ],
+      "date": "2026-11-12T06:31:56.714Z"
+    },
     {
       "title": "LA ONU Y SUDÁN DEL SUR FALLARON EN MASACRE",
       "normalizedTokens": [
