@@ -168,9 +168,38 @@
     "https://www.eltiempo.com/mundo/la-tension-por-la-guerra-en-iran-llega-a-suramerica-teheran-designa-como-terroristas-a-la-armada-y-la-fuerza-aerea-de-argentina-3600274",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0pfNEpVVVl5YXEtd2RrYVoxRzVGOTV1SHlwUVZSQlN4bXNFRGhMTjRhNGljcXJwX3VNN0lrSk5aNzB6NVdpRjVFWnJUc2ZpYWdhU1dIejN2cFlyTXczMnU4S252U0RZeGFMSnRTYWI2ODNZTThYSjBWLVFlWkd1ZlhyNWt6aHlra05GQVdOcmVCaGh1OXZBZ29Lbk0xYUozWlFOOEJUeG5Pd9IBvgFBVV95cUxPVk1qUmozYm9UQVFSYUFCWlpVaDFPOUhFVzNyaXBndzhnT3NNNHpMRm83Yzk1T3dLMjM0TUpMZ1gtU3ZxMWR0bE14Y09kelR6LVcxa1p3bjhlanIwa0tFWHM0eHZHN1AtNDhiRWFHdF9IaUotTkNFcG5ZZFlKQUIzdkNFcDlwOGlZY1k5cWlCcFVlalpISEZsS2NPWnFHVnNVTVRPRF9iRC1zNmF2aGYwdVhwV1Frd2tpUjVKTVR3?oc=5",
     "https://www.abc.es/internacional/evacuan-300-colegios-italia-tras-recibir-amenazas-20261111123559-nt.html",
-    "https://www.france24.com/es/video/20261112-informe-desde-ciudad-de-m%C3%A9xico-nadia-beller-recibe-asilo-pol%C3%ADtico-tras-sobrevivir-a-atentado"
+    "https://www.france24.com/es/video/20261112-informe-desde-ciudad-de-m%C3%A9xico-nadia-beller-recibe-asilo-pol%C3%ADtico-tras-sobrevivir-a-atentado",
+    "https://www.europapress.es/internacional/noticia-menos-muerto-varios-atrapados-derrumbe-edificio-distrito-neoyorquino-brooklyn-20261112003739.html"
   ],
   "processedSignatures": [
+    {
+      "title": "DERRUMBE EN BROOKLYN EVIDENCIA FALLAS EN INSPECCIÓN INMOBILIARIA URBANA",
+      "normalizedTokens": [
+        "derrumbe",
+        "brooklyn",
+        "evidencia",
+        "fallas",
+        "inspeccion",
+        "inmobiliaria",
+        "urbana"
+      ],
+      "date": "2026-11-12T05:46:28.746Z"
+    },
+    {
+      "title": "Al menos dos muertos y 17 heridos tras el derrumbe de un edificio en el distrito neoyorquino de Brooklyn",
+      "normalizedTokens": [
+        "menos",
+        "dos",
+        "muertos",
+        "heridos",
+        "derrumbe",
+        "edificio",
+        "distrito",
+        "neoyorquino",
+        "brooklyn"
+      ],
+      "date": "2026-11-12T05:46:28.745Z"
+    },
     {
       "title": "MÉXICO OTORGA ASILO DIPLOMÁTICO A ABOGADA BOLIVIANA TRAS ATENTADO",
       "normalizedTokens": [

@@ -1,5 +1,105 @@
 [
   {
+    "slug": "derrumbe-edificio-brooklyn-deja-dos-muertos-wa96",
+    "path": "noticias/derrumbe-edificio-brooklyn-deja-dos-muertos-wa96/",
+    "title": "Derrumbe de un edificio en Brooklyn deja dos muertos y 17 heridos",
+    "headline": "DERRUMBE EN BROOKLYN EVIDENCIA FALLAS EN INSPECCIÓN INMOBILIARIA URBANA",
+    "dek": "El colapso de un inmueble de tres plantas en Nueva York movilizó a 250 bomberos y rescatistas. El siniestro saca a la luz las fallas en la inspección del parque habitacional.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Europa Press",
+    "image": "img/derrumbe-edificio-brooklyn-deja-dos-muertos-wa96.jpg",
+    "photo": "img/derrumbe-edificio-brooklyn-deja-dos-muertos-wa96-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "yzxSG-qjH7w",
+      "title": "Colapsa edificio en Brooklyn, Nueva York; reportan 2 muertos y 17 heridos",
+      "channel": "UnoTV"
+    },
+    "publishedAt": "2026-11-12T05:46:28.632Z",
+    "article": {
+      "slug": "derrumbe-edificio-brooklyn-deja-dos-muertos-wa96",
+      "title": "Derrumbe de un edificio en Brooklyn deja dos muertos y 17 heridos",
+      "dek": "El colapso de un inmueble de tres plantas en Nueva York movilizó a 250 bomberos y rescatistas. El siniestro saca a la luz las fallas en la inspección del parque habitacional.",
+      "keyFacts": [
+        "Al menos dos personas perdieron la vida y 17 resultaron heridas tras el colapso de un edificio de tres plantas en Brooklyn.",
+        "Entre las víctimas atendidas por las unidades de emergencia figuran siete menores de edad.",
+        "Un contingente de 250 bomberos del FDNY acudió al lugar para remover escombros y rastrear posibles personas atrapadas."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un edificio de tres niveles se derrumbó en el distrito de Brooklyn, en la ciudad de Nueva York, dejando un saldo de al menos dos personas muertas y 17 heridos. Según reportes confirmados por medios como Europa Press, Univision, Telemundo New York y CNN en Español, el siniestro ocurrió de forma repentina, afectando a los residentes que se encontraban en el inmueble.",
+            "Entre las personas afectadas se registraron al menos siete menores de edad. Para atender la emergencia y descartar que hubiera más víctimas sepultadas bajo las ruinas, el Departamento de Bomberos de Nueva York desplegó un operativo masivo que movilizó a 250 bomberos y personal especializado en operaciones de rescate en estructuras colapsadas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El distrito de Brooklyn alberga un extenso parque inmobiliario compuesto por estructuras construidas hace décadas, las cuales requieren inspecciones periódicas y mantenimiento estructural riguroso. Este incidente ocurre en un entorno urbano caracterizado por una alta densidad de población y una constante presión sobre el mercado de alquileres.",
+            "Las coberturas de cadenas internacionales como WFLA e informaciones atribuidas a autoridades locales coinciden en la magnitud del despliegue técnico necesario para estabilizar la zona. Sin embargo, la frecuencia con la que se registran fallas de infraestructura en vecindarios obreros contrasta con la celeridad de las renovaciones en zonas de alto valor comercial."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la respuesta inmediata de los servicios de emergencia, el análisis de Punto Ciego identifica una falla estructural en la fiscalización preventiva por parte de los organismos de control municipal. En muchos casos, las denuncias por grietas, humedad o modificaciones no autorizadas en edificios antiguos son procesadas con lentitud o resueltas mediante multas económicas que los propietarios prefieren pagar antes que realizar las obras correctivas requeridas.",
+            "Esta dinámica genera una vulnerabilidad sistémica. El sistema actual opera de manera predominantemente reactiva, interviniendo masivamente solo cuando el colapso físico de una estructura deriva en pérdidas humanas y cobertura mediática, en lugar de clausurar preventivamente los inmuebles que no certifican su solidez."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los principales perdedores son los inquilinos y las familias de la comunidad local, quienes asumen el riesgo de habitar estructuras con deficiencias de mantenimiento, además de sufrir las consecuencias inmediatas en vidas humanas y lesiones. Asimismo, los contribuyentes neoyorquinos absorben los elevados costos del despliegue de rescate y la atención médica de emergencia.",
+            "En el lado opuesto, los propietarios negligentes se benefician al postergar inversiones de capital en la conservación de sus activos, evadiendo responsabilidades financieras mientras la falta de auditorías continuadas les permite mantener las unidades arrendadas."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá dar seguimiento a los peritajes técnicos que determine el Departamento de Edificios de Nueva York para esclarecer las causas exactas del derrumbe. Será fundamental observar si la administración municipal ordena auditorías de emergencia en edificaciones colindantes y si se inician procesos judiciales penalizaciones concretas contra los administradores del inmueble."
+          ]
+        }
+      ],
+      "tags": [
+        "Nueva York",
+        "Brooklyn",
+        "Infraestructura",
+        "Seguridad Urbana",
+        "Punto Ciego"
+      ],
+      "sources": [
+        {
+          "name": "Europa Press",
+          "title": "Al menos dos muertos y 17 heridos tras el derrumbe de un edificio en el distrito neoyorquino de Brooklyn",
+          "url": "https://www.europapress.es/internacional/noticia-menos-muerto-varios-atrapados-derrumbe-edificio-distrito-neoyorquino-brooklyn-20261112003739.html"
+        },
+        {
+          "name": "WFLA",
+          "title": "Derrumbe de edificio en Nueva York deja al menos dos muertos y varios heridos en Brooklyn",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORWtOa1JmVklOVTU3cU55cUk2R2VwZUpOTTRpZU0yUGRUNEJYX0NTQ2RLcFRaMjBHYWVQcUI2d0wtUHVxZU1abXAxdkFZYlAyUDh1czlZZm51TUk3Sm9zTU5DR1JGQjBrdlFPSjZBdkxNZzNLSUNPdXdERmszQ0xnbjlnZmVreWVOZ0RaeTRhRVpRUlRxNEkwUTFrN3NpM2RtdTVhcVU4b2lYWVgtWXdrWnhTRHQ2TUl2dG9pUlRpcWU1SXg1YzJIeWR30gHPAUFVX3lxTFBtY0NOQkdkazhsc21ncERFNThEdkRfNUIwYTQzdEFRZEtya3FUb3dlVnBtc2FXbExHd0FGNEZVOXJFajcyUk1JdDkwWkUyQng4UktKTUlMN0RHMFdGQ3pQNEtpR1B0LWhfa1dIUjU0SnUzSWNnd0NrZ09iUmhPSDRNOElGMzR0dWxZQUpaV3B5UklTVExfbGZsT2VhWklzcVo4OE1fOWNXeGZVNEptY0x5d3ZFM1E5VVIxdmhWOXoxVUlMZGNDcHpzNjNiOTNvNA?oc=5"
+        },
+        {
+          "name": "Univision",
+          "title": "Derrumbe de edificio en Brooklyn deja al menos dos muertos y siete niños heridos; acuden 250 bomberos y rescatistas",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMGxtNHlJQTloc1VvdFVyMGV2X3FmT2pYSDF0M2lQc3NtX1FrR3BXTTZlQXBWUFhkQkVmRkxnVVFpOWlMd19FVTI1WGlKTlpDT1VFc01WY0E4R3ZjZ091VkRoX3h5XzBXc2RCSXF4ZTFRRGVmeGtLYzJSSnM5dG1jWnBlZWRCMVhuVllXZUh1eHF3em9kSXNYWnRqbXVvZldlUUtNQW1RQ1ZpRjk2TzZnYUpWQS1RTFhBeDRJb21rV1U4X2d1OWdIY0x5MW9TU0ZQMVZveE5rQThFLUswNXdxY3RoNTg5SFFULUE0bS02cVNrQU1zSUVyQ0xYdGZsY2VnT3c?oc=5"
+        },
+        {
+          "name": "Telemundo New York",
+          "title": "FDNY: dos muertos y al menos 17 heridos tras derrumbe de un edificio en Brooklyn",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeFNtWlFodTgzSTdhUU5jVXNZRUVscnNWbTJfQ25QTXIwZ1F4TDY3NUt0T1VvdzhwTXZNazZ2elFXSGllWGRuNndSYS1fUE1GcXpLbVdhcDlfU2ZBV2l6WDlxX2ItYWFhTm9FSVBVMUJLdVczUnVxMkhSODlIMzlIRkdBcjlQRjJIQVpVOEJPSEU1QU8zZU81UUhmRVc0cmVrR1BFWjBmQnV3QWVWYy1HRFZMTS1hT1BXV1E2a21ISmh6Nzh2cDVBZEkxcnh3NjZIM1MzbG5zUF9tUUczTXRfRNIB6AFBVV95cUxNY0dmRy01V24zMC16VnM5YzFyQ1UwSTg3Q19tV1lmX1lsbDVVYXpKdlBXUXJMazRuU1hTd0g2NVdzcW1tYW1laG85ZHAtZjRRZGxxV1EwUFh2NWxlZW5TQXFoTFBocE1DOF8tZy1senlPdy13YTNKTEpkeklTTE5EMzVLZkl2V3VpdUtFQUhfUFZkLUY3WUJmVjRRUEtpRERNY3B6YW9yLWxNWjBLZkc3LWc1YUxHRjFmTGNYbkxaY042eVp2T3hqd1BxdkdOTUpaci1lMXk0aVlQTFBjSHdFa0FEeFFJYzRX?oc=5"
+        },
+        {
+          "name": "CNN en Español",
+          "title": "Al menos 2 muertos y 12 heridos tras el derrumbe de un edificio de tres plantas en Brooklyn, confirma Mamdani",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWWZBbXRRTFFYOV95azRGV080TTMyRUJycmJwUmdLTUhXbGdINzlRdnZ5SmRJYkxtZXZWelRJNzZ6UTB3bTkzLW9makFLWFFnTjVleFBQU1JYX3dRbVdiYy00QjBfeXBQbVdDREFDMm1kODNzNmV4ejdqeXQyalFRazBn?oc=5"
+        }
+      ],
+      "wordCount": 494
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el operativo de rescate, el verdadero punto ciego radica en la falta sistemática de auditorías preventivas e inspecciones técnicas a edificaciones envejecidas en distritos de alta densidad. Las multas administrativas simbólicas y la laxitud en la aplicación del código de edificación permiten a los propietarios aplazar renovaciones críticas, trasladando el riesgo físico a los inquilinos y el costo operativo al erario público."
+  },
+  {
     "slug": "asilo-nadia-beller-mexico-expone-redes-jk30",
     "path": "noticias/asilo-nadia-beller-mexico-expone-redes-jk30/",
     "title": "El asilo a Nadia Beller en México expone las redes opacas de la consultoría política en Bolivia",
