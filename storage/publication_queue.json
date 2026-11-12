@@ -26404,11 +26404,52 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-12T21:38:34.278Z",
+    "scheduledFor": "2026-11-12T21:46:34.701Z",
     "status": "queued",
-    "attempts": 0,
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-12T17:43:50.299Z"
+    "createdAt": "2026-11-12T17:43:50.299Z",
+    "lastAttemptAt": "2026-11-12T21:38:49.765Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122109997929532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "194",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n25glwn6lz2e"
+      },
+      "instagram": {
+        "success": false,
+        "error": "Reel de Instagram: subida: Request processing failed (se reintenta como Reel)"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117605649373913510"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18029567348914621"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "error": "Reintento 1/3: instagram: Reel de Instagram: subida: Request processing failed (se reintenta como Reel)"
   },
   {
     "id": "queue-1794509282702-7nvyq",
@@ -26684,7 +26725,7 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-12T23:58:34.278Z",
+    "scheduledFor": "2026-11-13T00:23:34.278Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
