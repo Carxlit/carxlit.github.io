@@ -176,9 +176,40 @@
     "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo",
     "https://www.bloomberglinea.com/latinoamerica/argentina/openai-eligio-a-la-argentina-aleph-para-vender-publicidad-en-chatgpt-negocio-millonario-y-wall-street/",
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdVpxRm5fRWpzUVlZbElLMEFUaEVLMmttTmtTNGpNUzhSbFRBZU5SWm1MdTVzblhESWdKeGVVelFnWkxrX1hxYk9mODk5ZHlyd0NwYjlyUTZHTlBaMkpMM2pJNzBWLWFYRUoxVHhxVnllYzYycmRlbk50dHRyNDFxYTQzQTJJbG9GUTI5NVl2NzF2ZUw4RTFtalE3djNZZ1Myd2dyejJLSDlLb01zVnBxVWpCbGwtSnR1dEg4SzZyWFNUTkHSAcMBQVVfeXFMTWJlSTFFaWpSODR4M0lVVjhsQ2JScW1tMTRSV21ydjVCQTI3QURWZllTcTBWNXprcHY4dHRnY1NQLVMtRURwMjhWSWZaUnotZXd6d213VjFWUnRHQVRURHIzVi1WRXpZNmFyY2VMZnVrSk1NcGNTemtqUkpUdklUa3ltaEttOWw4bW5aSU5Gb2RpT1BpWU54SVVkbE9ONzVvN08xVzBIVmVJbHQtQ3RVTFdHZC1IZ1ZNREpuNHF2YldQbmI0?oc=5",
-    "https://elpais.com/economia/vivienda/2026-11-12/desahucios-alquileres-y-ayudas-para-comprar-las-medidas-del-decreto-de-vivienda-que-siguen-adelante.html"
+    "https://elpais.com/economia/vivienda/2026-11-12/desahucios-alquileres-y-ayudas-para-comprar-las-medidas-del-decreto-de-vivienda-que-siguen-adelante.html",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSEwyNjV4RE0zRDhkdFZoQ3gyN0pzT3hJMXRhNUR5SzJKU2pMamF5aUcxbnlsMm5icjQ0eGFVdDdYcDRfbUNXWWJtWGo0TGVGckFVN3pDV3FxTHA1dFdrQmdPQThncHJMekVTczdTTUJQaWI3Y3lYSFM5TDNDcW5oQXo2U0gyZjBILXpWd19wdC12Rmg3cHV1WlJWbVNxS2tvRmd4V082QkdsbmVn?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "JUNTA DE NVIDIA EVALÚA LA DESTITUCIÓN DE JENSEN HUANG POR RIESGO DE ESPIONAJE",
+      "normalizedTokens": [
+        "junta",
+        "nvidia",
+        "evalua",
+        "destitucion",
+        "jensen",
+        "huang",
+        "riesgo",
+        "espionaje"
+      ],
+      "date": "2026-11-12T13:37:30.001Z"
+    },
+    {
+      "title": "La posible destitución de Jensen Huang sacude Nvidia y pone en vilo al sector global de la IA",
+      "normalizedTokens": [
+        "posible",
+        "destitucion",
+        "jensen",
+        "huang",
+        "sacude",
+        "nvidia",
+        "pone",
+        "vilo",
+        "sector",
+        "global"
+      ],
+      "date": "2026-11-12T13:37:29.995Z"
+    },
     {
       "title": "ESPAÑA MANTIENE DECRETO DE VIVIENDA TRAS APROBACIÓN EN DIPUTACIÓN PERMANENTE",
       "normalizedTokens": [
