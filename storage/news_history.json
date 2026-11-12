@@ -175,9 +175,38 @@
     "https://www.xataka.com/magnet/ucraniano-construyo-hotel-sus-suenos-entonces-invadio-rusia-a-moscu-le-acaba-llegar-factura-5-1-millones-dolares",
     "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo",
     "https://www.bloomberglinea.com/latinoamerica/argentina/openai-eligio-a-la-argentina-aleph-para-vender-publicidad-en-chatgpt-negocio-millonario-y-wall-street/",
-    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdVpxRm5fRWpzUVlZbElLMEFUaEVLMmttTmtTNGpNUzhSbFRBZU5SWm1MdTVzblhESWdKeGVVelFnWkxrX1hxYk9mODk5ZHlyd0NwYjlyUTZHTlBaMkpMM2pJNzBWLWFYRUoxVHhxVnllYzYycmRlbk50dHRyNDFxYTQzQTJJbG9GUTI5NVl2NzF2ZUw4RTFtalE3djNZZ1Myd2dyejJLSDlLb01zVnBxVWpCbGwtSnR1dEg4SzZyWFNUTkHSAcMBQVVfeXFMTWJlSTFFaWpSODR4M0lVVjhsQ2JScW1tMTRSV21ydjVCQTI3QURWZllTcTBWNXprcHY4dHRnY1NQLVMtRURwMjhWSWZaUnotZXd6d213VjFWUnRHQVRURHIzVi1WRXpZNmFyY2VMZnVrSk1NcGNTemtqUkpUdklUa3ltaEttOWw4bW5aSU5Gb2RpT1BpWU54SVVkbE9ONzVvN08xVzBIVmVJbHQtQ3RVTFdHZC1IZ1ZNREpuNHF2YldQbmI0?oc=5"
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdVpxRm5fRWpzUVlZbElLMEFUaEVLMmttTmtTNGpNUzhSbFRBZU5SWm1MdTVzblhESWdKeGVVelFnWkxrX1hxYk9mODk5ZHlyd0NwYjlyUTZHTlBaMkpMM2pJNzBWLWFYRUoxVHhxVnllYzYycmRlbk50dHRyNDFxYTQzQTJJbG9GUTI5NVl2NzF2ZUw4RTFtalE3djNZZ1Myd2dyejJLSDlLb01zVnBxVWpCbGwtSnR1dEg4SzZyWFNUTkHSAcMBQVVfeXFMTWJlSTFFaWpSODR4M0lVVjhsQ2JScW1tMTRSV21ydjVCQTI3QURWZllTcTBWNXprcHY4dHRnY1NQLVMtRURwMjhWSWZaUnotZXd6d213VjFWUnRHQVRURHIzVi1WRXpZNmFyY2VMZnVrSk1NcGNTemtqUkpUdklUa3ltaEttOWw4bW5aSU5Gb2RpT1BpWU54SVVkbE9ONzVvN08xVzBIVmVJbHQtQ3RVTFdHZC1IZ1ZNREpuNHF2YldQbmI0?oc=5",
+    "https://elpais.com/economia/vivienda/2026-11-12/desahucios-alquileres-y-ayudas-para-comprar-las-medidas-del-decreto-de-vivienda-que-siguen-adelante.html"
   ],
   "processedSignatures": [
+    {
+      "title": "ESPAÑA MANTIENE DECRETO DE VIVIENDA TRAS APROBACIÓN EN DIPUTACIÓN PERMANENTE",
+      "normalizedTokens": [
+        "espana",
+        "mantiene",
+        "decreto",
+        "vivienda",
+        "aprobacion",
+        "diputacion",
+        "permanente"
+      ],
+      "date": "2026-11-12T12:37:17.695Z"
+    },
+    {
+      "title": "Desahucios, alquileres y ayudas para comprar: las medidas del decreto de vivienda que siguen adelante",
+      "normalizedTokens": [
+        "desahucios",
+        "alquileres",
+        "ayudas",
+        "comprar",
+        "medidas",
+        "decreto",
+        "vivienda",
+        "siguen",
+        "adelante"
+      ],
+      "date": "2026-11-12T12:37:17.693Z"
+    },
     {
       "title": "LA OTAN PROYECTA UNIDAD EN ABU DABI ANTE NEGOCIACIONES DE PAZ",
       "normalizedTokens": [
