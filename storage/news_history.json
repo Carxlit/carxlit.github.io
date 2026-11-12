@@ -181,9 +181,39 @@
     "http://www.defensa.com/america-latina/chile-colombia-cierran-vii-reunion-bilateral-estados-mayores-paz",
     "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss",
     "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
-    "https://es.euronews.com/video/2026/11/12/un-ataque-israeli-devasta-uno-de-los-pocos-hospitales-que-quedan-en-gaza"
+    "https://es.euronews.com/video/2026/11/12/un-ataque-israeli-devasta-uno-de-los-pocos-hospitales-que-quedan-en-gaza",
+    "https://es.wired.com/articulos/sheinbaum-se-reune-con-el-presidente-de-openai-coincidimos-en-que-la-ia-puede-generar-beneficios-en-el-sector-salud"
   ],
   "processedSignatures": [
+    {
+      "title": "SHEINBAUM ABRE EL SECTOR PÚBLICO A OPENAI SIN REGULACIÓN FEDERAL",
+      "normalizedTokens": [
+        "sheinbaum",
+        "abre",
+        "sector",
+        "publico",
+        "openai",
+        "regulacion",
+        "federal"
+      ],
+      "date": "2026-11-12T20:13:23.949Z"
+    },
+    {
+      "title": "Sheinbaum se reúne con el presidente de OpenAI: “Coincidimos en que la IA puede generar beneficios en el sector salud”",
+      "normalizedTokens": [
+        "sheinbaum",
+        "reune",
+        "presidente",
+        "openai",
+        "coincidimos",
+        "puede",
+        "generar",
+        "beneficios",
+        "sector",
+        "salud"
+      ],
+      "date": "2026-11-12T20:13:23.947Z"
+    },
     {
       "title": "ATAQUE ISRAELÍ DEVASTA INFRAESTRUCTURA MÉDICA CRÍTICA EN GAZA",
       "normalizedTokens": [
