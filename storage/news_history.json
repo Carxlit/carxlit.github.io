@@ -172,9 +172,37 @@
     "https://www.europapress.es/internacional/noticia-menos-muerto-varios-atrapados-derrumbe-edificio-distrito-neoyorquino-brooklyn-20261112003739.html",
     "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss",
     "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-    "https://www.xataka.com/magnet/ucraniano-construyo-hotel-sus-suenos-entonces-invadio-rusia-a-moscu-le-acaba-llegar-factura-5-1-millones-dolares"
+    "https://www.xataka.com/magnet/ucraniano-construyo-hotel-sus-suenos-entonces-invadio-rusia-a-moscu-le-acaba-llegar-factura-5-1-millones-dolares",
+    "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo"
   ],
   "processedSignatures": [
+    {
+      "title": "SONY Y LA INVERSIÓN DEL MODELO ECONÓMICO EN CONSOLAS",
+      "normalizedTokens": [
+        "sony",
+        "inversion",
+        "modelo",
+        "economico",
+        "consolas"
+      ],
+      "date": "2026-11-12T11:25:20.762Z"
+    },
+    {
+      "title": "Las consolas han cambiado las reglas de los precios, pero PlayStation llevó la filosofía contraria al extremo",
+      "normalizedTokens": [
+        "consolas",
+        "han",
+        "cambiado",
+        "reglas",
+        "precios",
+        "playstation",
+        "llevo",
+        "filosofia",
+        "contraria",
+        "extremo"
+      ],
+      "date": "2026-11-12T11:25:20.761Z"
+    },
     {
       "title": "TRIBUNAL UCRANIANO CONDENA A RUSIA POR CONFISCACIÓN DE PROPIEDADES PRIVADAS",
       "normalizedTokens": [

@@ -1,5 +1,90 @@
 [
   {
+    "slug": "democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u",
+    "path": "noticias/democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u/",
+    "title": "De la democratización del hardware a la inflación del ecosistema en el videojuego",
+    "headline": "SONY Y LA INVERSIÓN DEL MODELO ECONÓMICO EN CONSOLAS",
+    "dek": "Mientras la primera PlayStation redujo su coste un 70 % en solo cuatro años, la industria actual sube los precios del hardware maduro. Un análisis sobre el fin de la deflación tecnológica.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u.jpg",
+    "photo": "img/democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u-foto.jpg",
+    "publishedAt": "2026-11-12T11:25:20.602Z",
+    "article": {
+      "slug": "democratizacion-hardware-inflacion-ecosistema-videojuego-mv7u",
+      "title": "De la democratización del hardware a la inflación del ecosistema en el videojuego",
+      "dek": "Mientras la primera PlayStation redujo su coste un 70 % en solo cuatro años, la industria actual sube los precios del hardware maduro. Un análisis sobre el fin de la deflación tecnológica.",
+      "keyFacts": [
+        "En el primer E3 de 1995, Steve Race anunció el precio de salida de PlayStation en 299 dólares, superando los 399 dólares de la SEGA Saturn.",
+        "En cuatro años, la primera PlayStation redujo su precio de venta al público en casi un 70 %, alcanzando los 99 dólares.",
+        "PlayStation 5 se comercializó inicialmente a 499 dólares en su versión con lector y posteriormente escaló hasta los 649 dólares."
+      ],
+      "sections": [
+        {
+          "heading": "El hito de 1995 y la ruptura del mercado",
+          "paragraphs": [
+            "Según la crónica histórica publicada por Xataka sobre la edición inaugural del E3 en 1995, Steve Race, entonces presidente de Sony América, subió al escenario para pronunciar una sola cifra: 299 dólares. Aquella escueta intervención desarticuló la estrategia comercial de SEGA, que acababa de anunciar la llegada de la Saturn a Estados Unidos por 399 dólares.",
+            "La maniobra de Sony no solo le otorgó una ventaja competitiva decisiva en el terreno del hardware frente a SEGA y Nintendo, sino que marcó el inicio de una era dominada por un catálogo en tres dimensiones con títulos como Silent Hill, Tekken o Resident Evil."
+          ]
+        },
+        {
+          "heading": "La lógica económica de la deflación por escala",
+          "paragraphs": [
+            "Durante las décadas de 1990 y 2000, la industria tecnológica respondía a un principio claro: el coste de fabricación de un producto disminuía gradualmente a medida que se optimizaban los procesos industriales y se simplificaban los componentes.",
+            "En el caso de la primera PlayStation, este comportamiento permitió recortar el precio inicial a 199 dólares antes de su primer año en el mercado, alcanzando la cifra de 99 dólares al cabo de cuatro años. La pérdida o estrechez de margen en la venta de la consola se compensaba con creces mediante el volumen de ventas de software."
+          ]
+        },
+        {
+          "heading": "El punto ciego: la captura del usuario en plataformas cerradas",
+          "paragraphs": [
+            "El análisis de Punto Ciego revela cómo esta dinámica industrial ha sido reemplazada por una estrategia de extracción de renta en mercados consolidados. PlayStation 5 se lanzó al mercado por 499 dólares en su versión con lector de discos, pero años más tarde su precio oficial ha escalado hasta los 649 dólares.",
+            "Las tecnológicas ya no necesitan rebajar el hardware para atraer a nuevos usuarios porque las barreras de salida de sus ecosistemas son elevadas. Los datos del sector confirman que la desaceleración en el abaratamiento de los semiconductores, unida a la falta de competencia directa en plataformas cerradas, permite a los fabricantes trasladar los costes inflacionarios íntegramente al consumidor sin perder cuota relevante."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde en la nueva arquitectura comercial",
+          "paragraphs": [
+            "Las grandes corporaciones del entretenimiento digital son las principales beneficiarias de este modelo, al sostener sus márgenes operativos sobre una base de usuarios que ya ha invertido en bibliotecas digitales no transferibles.",
+            "Por el contrario, el consumidor pierde capacidad de elección y se enfrenta a un coste de entrada cada vez más elevado. Las familias y los usuarios de menor renta quedan progresivamente fuera de la propiedad del hardware, viéndose empujados hacia modalidades de acceso bajo suscripción."
+          ]
+        },
+        {
+          "heading": "Qué vigilar en el horizonte tecnológico",
+          "paragraphs": [
+            "Corresponderá observar si la subida sostenida en los precios del hardware acelera el despliegue del videojuego en la nube y la consolidación de modelos de distribución exclusivamente digitales.",
+            "Asimismo, la reacción de los reguladores de competencia ante el cierre de plataformas y la fijación unilateral de precios será determinante para establecer los límites del poder corporativo en el mercado del consumo tecnológico."
+          ]
+        }
+      ],
+      "tags": [
+        "PlayStation",
+        "Sony",
+        "Hardware",
+        "Economía Digital",
+        "Tecnología"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Las consolas han cambiado las reglas de los precios, pero PlayStation llevó la filosofía contraria al extremo",
+          "url": "https://www.xataka.com/videojuegos/consolas-han-cambiado-reglas-precios-playstation-llevo-filosofia-contraria-al-extremo"
+        },
+        {
+          "name": "Rockdelux",
+          "title": "“The Legend Of Zelda: Ocarina Of Time”: un clásico gamer todavía en movimiento",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbm5rd1JfTkZXcHIyUkRLZS15VjRhZXRURFRnMVZoOWRtd1NLYV9QSzBpNnF3WkNDN0ZEeUlmUGRYMTBzV040MHV2am9wMzhSQWFvNjFnbUhVOW9sM0FkWmpxMzNjMHZRc3hOaDNRV1dMdklPOEZETkE1ZHlQaTRUT2VnSkhvRXItQlA4QnhnZUN2Rjd4aUpmRmxZZGJsbWdyTzhkVDcwZHRjYU1xa09PZGd1TQ?oc=5"
+        },
+        {
+          "name": "CineMedios",
+          "title": "Skyrim cumple quince: perderse también era parte del recorrido",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1yQjNoaWw5UEhHTWRoWHRHbTlUUFlJekJnYy1ybU5FTE5rb24xNEZUS1ZfMGJ5bmRIUnlIQzAwRUg2dVNKLVlieXR1T2dsdVRhNXRhNUJZTFg2aERGWDVsVFZLdW8zTlJyVUltZzloSmpCdWxBMVVSS0wyZw?oc=5"
+        }
+      ],
+      "wordCount": 483
+    },
+    "blindSpot": "La industria del entretenimiento tecnológico ha abandonado la curva tradicional de deflación por madurez de componentes. Las multinacionales ya no buscan ampliar la base de usuarios abaratando el hardware, sino maximizar el rendimiento por usuario dentro de ecosistemas cerrados sin alternativa de mercado."
+  },
+  {
     "slug": "justicia-ucraniana-fija-5-1-millones-wntq",
     "path": "noticias/justicia-ucraniana-fija-5-1-millones-wntq/",
     "title": "La justicia ucraniana fija en 5,1 millones de dólares la factura judicial por la expropiación del hotel Admiral",
