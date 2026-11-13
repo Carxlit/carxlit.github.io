@@ -196,9 +196,39 @@
     "https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-defiende-ante-la-cop31-el-derecho-de-venezuela-a-producir-mas-petroleo-pese-a-los-llamados-para-abandonar-los-combustibles-fosiles-3600744",
     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5",
     "https://www.infobae.com/mexico/2026/11/13/se-registra-sismo-de-41-de-magnitud/",
-    "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/"
+    "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+    "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "LEÓN XIV CONSOLIDA EL PODER PASTORAL EN PERÚ TRAS SU GIRA",
+      "normalizedTokens": [
+        "leon",
+        "xiv",
+        "consolida",
+        "poder",
+        "pastoral",
+        "peru",
+        "gira"
+      ],
+      "date": "2026-11-13T20:34:30.092Z"
+    },
+    {
+      "title": "\"Esta es la ciudad del Papa, del Papa peruano\": la emotiva vuelta a casa de León XIV a Chiclayo",
+      "normalizedTokens": [
+        "ciudad",
+        "papa",
+        "papa",
+        "peruano",
+        "emotiva",
+        "vuelta",
+        "casa",
+        "leon",
+        "xiv",
+        "chiclayo"
+      ],
+      "date": "2026-11-13T20:34:30.091Z"
+    },
     {
       "title": "ATAQUE INFORMÁTICO A QUANTUM SYSTEMS PARALIZA DRONES MILITARES ALEMANES",
       "normalizedTokens": [

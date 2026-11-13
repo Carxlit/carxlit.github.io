@@ -818,5 +818,15 @@
     "relevant": true,
     "reason": "La imagen muestra soldados alemanes con un dron Vector de Quantum Systems, objeto central de la noticia.",
     "at": "2026-11-13T18:54:51.213Z"
+  },
+  "817581d2d1f99585:bx17jtcx0": {
+    "relevant": false,
+    "reason": "El personaje central es ficticio o satírico y la imagen muestra a particulares con muñecos de colección, no al papa León XIV.",
+    "at": "2026-11-13T20:33:55.348Z"
+  },
+  "0130ee33dc8ffb8a:bx17jtcx0": {
+    "relevant": true,
+    "reason": "Muestra a un papa saludando a una multitud de fieles durante su gira pastoral.",
+    "at": "2026-11-13T20:34:25.938Z"
   }
 }
