@@ -783,5 +783,10 @@
     "relevant": true,
     "reason": "Muestra a Jensen Huang, el protagonista directo de la noticia sobre su supuesta dimisión como CEO de Nvidia.",
     "at": "2026-11-13T11:32:15.505Z"
+  },
+  "3dbafc066097fac6:xbmdksotv": {
+    "relevant": true,
+    "reason": "La imagen muestra un anuncio oficial de la Reserva Federal relacionado con los servicios de pago mencionados en el texto.",
+    "at": "2026-11-13T12:18:51.731Z"
   }
 }

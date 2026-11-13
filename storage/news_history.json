@@ -190,9 +190,58 @@
     "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
     "https://www.xataka.com/aplicaciones/16-horas-caida-outlook-teams-microsoft-todavia-no-sabe-que-ha-provocado",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5",
-    "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia"
+    "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia",
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm"
   ],
   "processedSignatures": [
+    {
+      "title": "LA RESERVA FEDERAL FIJA NUEVAS TARIFAS Y RECORTES OPERATIVOS PARA 2027",
+      "normalizedTokens": [
+        "reserva",
+        "federal",
+        "fija",
+        "nuevas",
+        "tarifas",
+        "recortes",
+        "operativos",
+        "2027"
+      ],
+      "date": "2026-11-13T12:18:55.798Z"
+    },
+    {
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "normalizedTokens": [
+        "federal",
+        "reserve",
+        "board",
+        "announces",
+        "pricing",
+        "effective",
+        "january",
+        "2027",
+        "for",
+        "payment",
+        "services",
+        "the",
+        "federal",
+        "reserve",
+        "banks",
+        "provide",
+        "banks",
+        "and",
+        "credit",
+        "unions",
+        "and",
+        "changes",
+        "streamline",
+        "and",
+        "adjust",
+        "their",
+        "check",
+        "services"
+      ],
+      "date": "2026-11-13T12:18:55.796Z"
+    },
     {
       "title": "JENSEN HUANG DIMITI COMO CEO DE NVIDIA TRAS ESCÁNDALO DE ESPIONAJE",
       "normalizedTokens": [
