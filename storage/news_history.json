@@ -194,9 +194,34 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMS02R1RUZC15bmpEMUlmVmJISkJZZ0s3Z0FfbFNhM2FuUHAtMHgxWGNSVGFSbFM0ZjdNaGhGSXdEOXFwSEhFN0FNZ0tPN09GbXVoa1g5NUFTM1ZUNDdLWW5MRFd3UU5ramp5YUVla0pqN3pqX0VaaWxvakl3VXVUczdYdHhweS15MV9fWnEzY1NxdnBXSXF5Z3NBUUVJR1dTS1Fqek9SSXQtWGhRaEZTb3BqelVkS2V6RkdWMW5PWnZvX2pRdkZGR1FBLXgtS1RWR3ZzZEpyV0xMeTN4Qmotc21ZMHZLbUU?oc=5",
     "https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-defiende-ante-la-cop31-el-derecho-de-venezuela-a-producir-mas-petroleo-pese-a-los-llamados-para-abandonar-los-combustibles-fosiles-3600744",
-    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5"
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5",
+    "https://www.infobae.com/mexico/2026/11/13/se-registra-sismo-de-41-de-magnitud/"
   ],
   "processedSignatures": [
+    {
+      "title": "SISMO DE MAGNITUD 4.1 SACUDE LA FRONTERA SUR MEXICANA",
+      "normalizedTokens": [
+        "sismo",
+        "magnitud",
+        "sacude",
+        "frontera",
+        "sur",
+        "mexicana"
+      ],
+      "date": "2026-11-13T17:51:06.862Z"
+    },
+    {
+      "title": "Se registra sismo de 4.1 de magnitud en Ciudad Hidalgo, Chiapas",
+      "normalizedTokens": [
+        "registra",
+        "sismo",
+        "magnitud",
+        "ciudad",
+        "hidalgo",
+        "chiapas"
+      ],
+      "date": "2026-11-13T17:51:06.859Z"
+    },
     {
       "title": "MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL",
       "normalizedTokens": [
