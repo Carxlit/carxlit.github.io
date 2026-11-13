@@ -1,5 +1,81 @@
 [
   {
+    "slug": "microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q",
+    "path": "noticias/microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q/",
+    "title": "Microsoft descarta el ciberataque pero expone la vulnerabilidad de la nube global",
+    "headline": "MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL",
+    "dek": "La multinacional confirmó que la caída masiva de sus servicios no fue causada por actores hostiles. El episodio reabre la controversia sobre los riesgos de la concentración digital.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Facebook",
+    "image": "img/microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q.jpg",
+    "photo": "img/microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q-foto.jpg",
+    "publishedAt": "2026-11-13T16:33:28.754Z",
+    "article": {
+      "slug": "microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q",
+      "title": "Microsoft descarta el ciberataque pero expone la vulnerabilidad de la nube global",
+      "dek": "La multinacional confirmó que la caída masiva de sus servicios no fue causada por actores hostiles. El episodio reabre la controversia sobre los riesgos de la concentración digital.",
+      "keyFacts": [
+        "Microsoft descartó oficialmente la hipótesis de un ciberataque como causa de la interrupción de sus servicios.",
+        "La Vanguardia reportó las pautas y errores comunes de los usuarios ante caídas masivas en las plataformas de Microsoft.",
+        "La falla afectó la operativa técnica de organizaciones e infraestructuras a nivel internacional."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Microsoft ha confirmado oficialmente que la interrupción masiva registrada en sus plataformas y servicios de computación no tuvo su origen en un ciberataque perpetrado por actores maliciosos. Tras el despliegue de las investigaciones internas iniciales, la firma multinacional aclaró que el fallo estuvo vinculado a problemas técnicos de infraestructura interna y actualizaciones de software. La aclaración busca mitigar la alarma desatada entre usuarios corporativos e instituciones de todo el mundo que sufrieron interrupciones en su operativa diaria."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Cada vez que un gigante tecnológico sufre una caída de servicio a escala mundial, la narrativa pública tiende a asumir la existencia de un sabotaje digital o una incursión cibernética hostil. Frente a la desinformación y el pánico operativo, publicaciones como La Vanguardia abordaron la crisis analizando las pautas de actuación de los usuarios durante estas interrupciones, detallando las prácticas desaconsejadas que terminan por empeorar la situación de los sistemas informáticos afectados. Las recomendaciones enfatizan la importancia de no forzar reinicios erráticos ni ejecutar modificaciones de red no verificadas mientras los servidores centrales restablecen los servicios."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Para el análisis estratégico de Punto Ciego, la rápida confirmación de que no se trató de un ciberataque no desmoviliza la gravedad del evento. Al contrario, pone al descubierto una realidad más preocupante: la extrema fragilidad del modelo de infraestructura digital altamente concentrado. La atención mediática se centra casi por completo en descartar la amenaza de hackers extranjeros o grupos de ciberdelincuencia, descuidando el riesgo de que un simple fallo de configuración interna en una sola compañía con sede en Estados Unidos pueda paralizar instantáneamente la actividad de miles de empresas y administraciones públicas globales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los grandes proveedores de tecnología mantienen su posición dominante en el mercado global gracias al elevado costo de cambio que implicaría para las corporaciones migrar a otras plataformas. Sin embargo, sufren un desgaste progresivo en la confianza sobre sus garantías de disponibilidad ininterrumpida. En la acera opuesta, las empresas cliente y el sector público asumen de manera íntegra el impacto económico de la inactividad y la pérdida de productividad, expuestos a vulnerabilidades operativas donde carecen de control técnico directo y de mecanismos efectivos de mitigación inmediata."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "A corto y mediano plazo, resulta fundamental vigilar el desarrollo de las normativas de resiliencia operativa digital que diversos organismos internacionales y gobiernos están implementando. La divulgación detallada de los informes de análisis causa-raíz por parte de Microsoft dictará si las autoridades regulatorias imponen exigencias más strictly en materia de redundancia obligatoria para las infraestructuras de nube crítica. Asimismo, el debate técnico se desplazará progresivamente desde los presupuestos destinados exclusivamente a la ciberdefensa hacia estrategias de soberanía tecnológica e independencia operativa."
+          ]
+        }
+      ],
+      "tags": [
+        "microsoft",
+        "ciberseguridad",
+        "tecnologia",
+        "infraestructura",
+        "nube",
+        "puntociego"
+      ],
+      "sources": [
+        {
+          "name": "Facebook",
+          "title": "Microsoft ha descartado un ciberataque. Enlace en comentarios. 👇",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5"
+        },
+        {
+          "name": "La Vanguardia",
+          "title": "Lo que no hay que hacer nunca ante caídas como la de Microsoft",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX2JUYl92XzdQaG1zYXBmVWtVUlpwV094bzRhb2d6TXZCYng0ZThkd1I0WXBDSmItdFk2TTVUeEtFSmNIdnFoX2hGdlA1SHMwREtDcUMwRDAwMDVURDh6eC1OUGFpYTJOMHRldXlmVDFHRGVPM1ViZ3hfakVpUTdQSjNQUXpXczBWYUZF0gGQAUFVX3lxTFBhUmlSeDJFTllnLUNZbVBodDRYUzNHOTBHY2VicjNxNklRRDcxd1p4UUZVN3pXMUI4LWwtVkVxbHFTa014UmxjaW5ScnZmWFVTWHJWUnh2NmVGS3pfcm9xNEY3NDVDb3JudzFrM2ZhN190R21rUFdtTnRhYldwYjMzYVZGU0w1dE9yMTRDZ2VnVw?oc=5"
+        }
+      ],
+      "wordCount": 466
+    },
+    "blindSpot": "Atribuir los colapsos masivos a fallos internos de configuración o infraestructura desplaza la atención del verdadero peligro sistémico. Aunque se descarte la acción hostil de terceros, la extrema concentración digital en un puñado de proveedores crea un punto único de falla capaz de paralizar sectores económicos enteros sin necesidad de una sola incursión cibernética."
+  },
+  {
     "slug": "venezuela-defiende-produccion-crudo-cop31-agrieta-dqyk",
     "path": "noticias/venezuela-defiende-produccion-crudo-cop31-agrieta-dqyk/",
     "title": "Venezuela defiende su producción de crudo en la COP31 y agrieta el bloque caribeño",

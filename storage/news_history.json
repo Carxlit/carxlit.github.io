@@ -193,9 +193,33 @@
     "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia",
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMS02R1RUZC15bmpEMUlmVmJISkJZZ0s3Z0FfbFNhM2FuUHAtMHgxWGNSVGFSbFM0ZjdNaGhGSXdEOXFwSEhFN0FNZ0tPN09GbXVoa1g5NUFTM1ZUNDdLWW5MRFd3UU5ramp5YUVla0pqN3pqX0VaaWxvakl3VXVUczdYdHhweS15MV9fWnEzY1NxdnBXSXF5Z3NBUUVJR1dTS1Fqek9SSXQtWGhRaEZTb3BqelVkS2V6RkdWMW5PWnZvX2pRdkZGR1FBLXgtS1RWR3ZzZEpyV0xMeTN4Qmotc21ZMHZLbUU?oc=5",
-    "https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-defiende-ante-la-cop31-el-derecho-de-venezuela-a-producir-mas-petroleo-pese-a-los-llamados-para-abandonar-los-combustibles-fosiles-3600744"
+    "https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-defiende-ante-la-cop31-el-derecho-de-venezuela-a-producir-mas-petroleo-pese-a-los-llamados-para-abandonar-los-combustibles-fosiles-3600744",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL",
+      "normalizedTokens": [
+        "microsoft",
+        "descarta",
+        "ciberataque",
+        "ultima",
+        "caida",
+        "global"
+      ],
+      "date": "2026-11-13T16:33:28.928Z"
+    },
+    {
+      "title": "Microsoft ha descartado un ciberataque. Enlace en comentarios. 👇",
+      "normalizedTokens": [
+        "microsoft",
+        "descartado",
+        "ciberataque",
+        "enlace",
+        "comentarios"
+      ],
+      "date": "2026-11-13T16:33:28.926Z"
+    },
     {
       "title": "VENEZUELA DEFIENDE SU PETRÓLEO EN LA COP31 DE ANTALYA",
       "normalizedTokens": [
