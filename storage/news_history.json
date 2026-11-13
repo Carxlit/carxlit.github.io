@@ -197,9 +197,36 @@
     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5",
     "https://www.infobae.com/mexico/2026/11/13/se-registra-sismo-de-41-de-magnitud/",
     "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-    "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ESTADOS UNIDOS SUSPENDE VUELOS NACIONALES POR FALLO EN CONTROL AÉREO",
+      "normalizedTokens": [
+        "estados",
+        "unidos",
+        "suspende",
+        "vuelos",
+        "nacionales",
+        "fallo",
+        "control",
+        "aereo"
+      ],
+      "date": "2026-11-13T21:51:21.559Z"
+    },
+    {
+      "title": "US grounds all flights after ‘communication issue’",
+      "normalizedTokens": [
+        "grounds",
+        "all",
+        "flights",
+        "after",
+        "communication",
+        "issue"
+      ],
+      "date": "2026-11-13T21:51:21.557Z"
+    },
     {
       "title": "LEÓN XIV CONSOLIDA EL PODER PASTORAL EN PERÚ TRAS SU GIRA",
       "normalizedTokens": [
