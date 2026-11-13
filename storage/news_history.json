@@ -189,9 +189,37 @@
     "https://www.europapress.es/internacional/noticia-mueren-cuatro-personas-ataque-ucrania-contra-zona-industrial-region-rusa-volgogrado-20261113081843.html",
     "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
     "https://www.xataka.com/aplicaciones/16-horas-caida-outlook-teams-microsoft-todavia-no-sabe-que-ha-provocado",
-    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5"
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5",
+    "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia"
   ],
   "processedSignatures": [
+    {
+      "title": "JENSEN HUANG DIMITI COMO CEO DE NVIDIA TRAS ESCÁNDALO DE ESPIONAJE",
+      "normalizedTokens": [
+        "jensen",
+        "huang",
+        "dimiti",
+        "ceo",
+        "nvidia",
+        "escandalo",
+        "espionaje"
+      ],
+      "date": "2026-11-13T11:32:19.163Z"
+    },
+    {
+      "title": "¿Cómo Jensen Huang, que proviene de una familia común, construyó el imperio de NVIDIA?",
+      "normalizedTokens": [
+        "jensen",
+        "huang",
+        "proviene",
+        "familia",
+        "comun",
+        "construyo",
+        "imperio",
+        "nvidia"
+      ],
+      "date": "2026-11-13T11:32:19.161Z"
+    },
     {
       "title": "BANCO CENTRAL DE VENEZUELA REPORTA CRECIMIENTO DEL 7,42 POR CIENTO",
       "normalizedTokens": [

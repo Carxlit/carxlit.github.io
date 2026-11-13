@@ -1,5 +1,107 @@
 [
   {
+    "slug": "caida-imperio-nvidia-jensen-huang-dimite-igzb",
+    "path": "noticias/caida-imperio-nvidia-jensen-huang-dimite-igzb/",
+    "title": "Caída del imperio de NVIDIA: Jensen Huang dimite tras un escándalo de espionaje",
+    "headline": "JENSEN HUANG DIMITI COMO CEO DE NVIDIA TRAS ESCÁNDALO DE ESPIONAJE",
+    "dek": "El cofundador de la firma clave en inteligencia artificial deja la compañía en 2026 tras revelarse su relación con una presunta agente vinculada a Beijing. La salida expone las vulnerabilidades de seguridad en el corazón de la industria global de semiconductores.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Genbeta",
+    "image": "img/caida-imperio-nvidia-jensen-huang-dimite-igzb.jpg",
+    "photo": "img/caida-imperio-nvidia-jensen-huang-dimite-igzb-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "sDjuETyhJqg",
+      "title": "Jensen Huang: The Rise and Fall of Nvidia’s AI Empire | The Palki Sharma Show | India Global Review",
+      "channel": "India Global Review"
+    },
+    "publishedAt": "2026-11-13T11:32:19.002Z",
+    "article": {
+      "slug": "caida-imperio-nvidia-jensen-huang-dimite-igzb",
+      "title": "Caída del imperio de NVIDIA: Jensen Huang dimite tras un escándalo de espionaje",
+      "dek": "El cofundador de la firma clave en inteligencia artificial deja la compañía en 2026 tras revelarse su relación con una presunta agente vinculada a Beijing. La salida expone las vulnerabilidades de seguridad en el corazón de la industria global de semiconductores.",
+      "keyFacts": [
+        "Jensen Huang nació el 17 de febrero de 1963 en Tainan, Taiwán, y cofundó NVIDIA en 1993 junto a Chris Malachowsky y Curtis Priem con 40.000 dólares.",
+        "Tras lanzar la GeForce 256 en 1999 como la primera GPU del mercado, la firma evolucionó hacia el procesamiento de inteligencia artificial generativa, multiplicando casi por 13 su negocio de centros de datos tras el lanzamiento de ChatGPT.",
+        "En 2026, Huang presentó su dimisión como CEO de NVIDIA debido al escándalo suscitado por su relación con Alice Huang, acusada de realizar labores de espionaje para China."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La era de Jensen Huang al frente de NVIDIA ha llegado a su fin ejecutivo en 2026. Quien liderara la empresa desde su fundación en 1993 presentó su renuncia tras la difusión de informaciones y reportes que lo vinculan sentimentalmente con Alice Huang, una empresaria acusada de realizar actividades de espionaje. La salida del directivo despoja a la compañía del arquitecto estratégico que la transformó en el actor dominante de los microchips a nivel global.",
+            "La dimisión se produce en un momento en que la firma ostenta un papel central para la computación de inteligencia artificial generativa, habiendo multiplicado casi por 13 su facturación en centros de datos. Según informaron medios como MILENIO y 20Minutos, las revelaciones sobre la relación entre el ejecutivo y Alice Huang abrieron serias dudas sobre la custodia de la propiedad intelectual en la empresa más valiosa del sector informático."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La trayectoria de Huang arrancó lejos de Silicon Valley. Nacido en Tainan en 1963, su familia se trasladó a Tailandia y posteriormente envió a los niños a Estados Unidos en 1973 debido a la agitación de la guerra de Vietnam. Tras su paso por un internado de Kentucky, Huang comenzó a trabajar a los 15 años en un restaurante Denny’s de Portland como lavaplatos y camarero, una etapa a la que posteriormente atribuiría sus principios de esfuerzo y humildad.",
+            "Tras graduarse en ingeniería eléctrica por la Universidad Estatal de Oregón en 1984 y obtener un máster en Stanford en 1992, Huang trabajó en AMD y LSI Logic antes de cofundar NVIDIA en 1993. Pese a un inicio complicado por el fracaso del chip NV1, la compañía se recuperó con el RIVA 128 en 1997 y el posterior lanzamiento en 1999 de la GeForce 256. Esta última definió el concepto de unidad de procesamiento gráfico (GPU), abriendo el camino para que el hardware diseñado inicialmente para videojuegos se convirtiera en la base del procesamiento del aprendizaje automático."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La cobertura periodística convencional se ha concentrado de forma prioritaria en los detalles del romance extraconyugal y en la caída en desgracia del ejecutivo. Sin embargo, el análisis de Punto Ciego señala el verdadero problema estratégico: la vulnerabilidad institucional de las empresas que diseñan el hardware de inteligencia artificial frente a operaciones de contrainteligencia y guerra asimétrica.",
+            "El acceso cercano a la máxima figura directiva de NVIDIA por parte de una presunta espía expone un fallo grave en los entornos de seguridad corporativa. En un contexto geopolítico donde los procesadores de alto rendimiento son considerados activos de seguridad nacional por parte de Washington, la exposición de su diseñador principal convierte una crisis ejecutiva en un asunto de soberanía tecnológica."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano internacional, la desestabilización de la cúpula directiva de NVIDIA genera un dividendo estratégico para Beijing al sembrar incertidumbre en el liderazgo tecnológico occidental. Paralelamente, las firmas competidoras en el sector de microprocesadores obtienen un margen de maniobra comercial mientras la junta directiva de NVIDIA reorganiza su estructura de mando.",
+            "Por contraposición, NVIDIA y sus accionistas asumen el impacto inmediato de la volatilidad y la pérdida de la figura que articuló su visión durante más de tres décadas. La empresa enfrentará de forma previsible un escrutinio regulatorio más severo por parte de las agencias gubernamentales de Estados Unidos, condicionando sus decisiones de innovación y exportación."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos meses será determinante dar seguimiento a las investigaciones del Departamento de Justicia y los servicios de contrainteligencia estadounidenses para verificar si existió una filtración efectiva de secretos industriales o arquitectura de chips. Asimismo, deberá observarse si las autoridades impondrán nuevos requerimientos de seguridad para los ejecutivos de la industria de semiconductores.",
+            "En el ámbito corporativo, la atención estará centrada en el proceso de sucesión en la jefatura ejecutiva de NVIDIA y en la capacidad de la nueva gerencia para mantener la cuota de mercado en procesadores de inteligencia artificial sin la conducción de su fundador."
+          ]
+        }
+      ],
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "Semiconductores",
+        "Inteligencia Artificial",
+        "Espionaje",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "Genbeta",
+          "title": "¿Cómo Jensen Huang, que proviene de una familia común, construyó el imperio de NVIDIA?",
+          "url": "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia"
+        },
+        {
+          "name": "MILENIO",
+          "title": "Jensen Huang renuncia como CEO de Nvidia tras polémica por romance con supuesta espía china",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYjQ3RkppY0NkX3djTlNVQlMzOG9aNUFmRVBYS2UxTllOcGR5R244OF8zb2VkMHM5MjlvS1pKNzhDOXd5Z21UaGhuLUo4LTJSQ2NoYXJPYWRtUFVPcTBYaDlaZU94dDA1cE1VeF9DLTFqem1qcW5jS3lJc0p0ZWJsUVpGY0dlZHpVd2dmSWJiQ0PSAZABQVVfeXFMT3MxeTBGRmUzalhBZDBNNlFjNXhrSEppMzF4cnByNGpDdVctZEloZ28yN2NneW9nY3RkZWJoQnZiS3FNUjdrZDRQRTNDYWI4V2htNVJCQnVEdUFFdHdNbVc2eVE3OUs2T3JxX01EeDdUdWxRZUU1bUFXVGR6Ym8xNlhEQS1Vd1U3djZqWWhObHdV?oc=5"
+        },
+        {
+          "name": "Gestión",
+          "title": "SMV busca poner orden en empresas familiares: ¿qué se viene para dueños, accionistas y gerentes?",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNDMyY294TjdLZldNQTBvZGp0YVZvYXZCeVFldlAzeE4ydmtBbng3UExzMEtqRjk3RUxzVXlqRlNZRXViRHFBaUZ1SXhQUmllT3NGSnN0VGhOVzBoVmcxYUZscmNXVGtyamJOZGp0LVlaUG04T0ZTMjZTcVRhMVFRa283cUFyOVlQRVprUW5VMUFrZTVoZWFxdzhka0xiQ3YwQk5ERmp3TzQxMUsyVG56NEF6X29QaVZyb2JfTG82NG5KQUJRRVN6ZTkzbkRIMFZUcE1mbw?oc=5"
+        },
+        {
+          "name": "Telecinco",
+          "title": "¿De dónde viene la obsesión de Jensen Huang por las chupas de cuero?",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVWl1dXFhR2VuNW04V2ZSR0kxTDFsZHpBZGNjdkt3RjgwS1FheTd1U25JS1pyUzVfRHJQTWNEb1pteTQ1RU1Lcy1kRWVDektkdWtnblZfRGg1RHF4MzdwWVlMOTJObllHcV9tVVpZamhFeVlZSnFnM0NzWXl4OVFxV3g2c19oalprU1g5MDV5V2NGZmRDZEhUemNtSHltWE5FX0JOWXJWSEVOdUxSU1NBcVg2ZTNvaGE2M2plb3RrWXRvWHoxSmlDTA?oc=5"
+        },
+        {
+          "name": "20Minutos",
+          "title": "Quién es Alice Huang, la empresaria acusada de espiar al CEO de Nvidia mientras mantenían un 'affaire'",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNUNLMlI0aWoyejlralFRZjJBWjlpZWFUYVZ5Q2tNTUt1ejFpUmFJemkzdHZsTVhFSHptTGNhMnZlVkx2ZTBIWVNnM2dTbWNGT09PU0JaY0ZJakIzQUt0RWVETDZzd3NFRVBaQU5kbkx0REtzZ1l4Ull6VzhYTlp3SkJXNGltdl9XemxqZVAwWldGQkk3VFk2RkhoNFR3X3NEU0k5MFBVNkVsN2R6R0hrbkdObmcyb0FpLUZldVdzak5DSkxWMXczY1RmemlMdUplaFNweHlwR0LSAd4BQVVfeXFMUE5MN0t4ZEFaVXh5M1RlOTVxM2ZRMDEzMjY2a0s4WXVHS3pZb3pYUGJBaGRMRDNzOVhZYnZDakRuYkdCVmRWb3N4V2c1Q2JUeU9iSWV5aURGQ2pyNkFTLUZoRV92bGVySWp0UWxnT1ZJdkdhVHJtbEVMUjJQd1ctbF9vMUZfNU1DZnRXTlFKWmZIV0dMSjROZ0lkNkJ5RWpFZ1FCbmVTVVotLVo4QkFlUWg1emh5OVBHY0NzYVRHNlphc3JwQTNKYk5sS3M0dnlDLVZKNGpsdGNYa2VDWjF3?oc=5"
+        }
+      ],
+      "wordCount": 685
+    },
+    "blindSpot": "La cobertura mediática dominante se enfoca en el componente novelesco de la infidelidad, ignorando que la salida de Huang desarticula la gobernanza del mayor monopolio informático de Occidente. El verdadero riesgo reside en la posible vulneración de secretos industriales sobre la arquitectura de microchips en medio de la guerra tecnológica entre Estados Unidos y China."
+  },
+  {
     "slug": "banco-central-venezuela-reporta-crecimiento-7-czuk",
     "path": "noticias/banco-central-venezuela-reporta-crecimiento-7-czuk/",
     "title": "El Banco Central de Venezuela reporta un crecimiento del 7,42 % sustentado en distorsiones estadísticas",
