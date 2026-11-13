@@ -1,181 +1,5 @@
 [
   {
-    "id": "queue-1793737416908-41fth",
-    "news": {
-      "id": "9ifft0bpu",
-      "originalUrl": "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html",
-      "originalTitle": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
-      "sourceName": "Clarín",
-      "category": "PODER & SOCIEDAD",
-      "urgencyScore": 88,
-      "headline": "GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS",
-      "subHeadline": "La Comisión Europea convoca a Europol tras sabotajes a cadenas de frío y una serie de falsas alertas de bomba en vuelos comerciales.",
-      "blindSpotAngle": "Mientras los gobiernos debaten si Moscú está detrás de las alertas aéreas y los sabotajes a frigoríficos industriales con 13.000 sistemas expuestos, la vulnerabilidad real radica en la negligencia corporativa y la falta de actualización en los protocolos de ciberseguridad industrial de las grandes superficies.",
-      "facebookPost": "La Comisión Europea reunió de urgencia a Europol y a las autoridades de ciberseguridad tras registrarse sabotajes en sistemas de refrigeración de supermercados en al menos nueve Estados miembros y una cadena simultánea de falsas amenazas de bomba en aviones comerciales que obligaron a desplegar cazas de combate. Oficialmente nadie apunta con certeza a un culpable, aunque los diplomáticos deslizan las sospechas hacia Moscú bajo la etiqueta de guerra híbrida.\n\nSin embargo, el verdadero punto ciego no reside únicamente en la sombra de potencias extranjeras, sino en la escandalosa negligencia de las corporaciones alimentarias que dejaron expuestos al menos 13.000 servicios de gestión de frío por no aplicar actualizaciones básicas de software.\n\n¿Hasta qué punto la falta de rigor corporativo en ciberseguridad industrial se está convirtiendo en la mayor brecha de defensa del continente?\n\nFuente: Clarín\n\n#PuntoCiego #GuerraHíbrida #Ciberseguridad",
-      "telegramPost": "<b>GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS</b>\n\n• <b>Qué ocurrió:</b> La Comisión Europea activó protocolos de emergencia tras sabotajes a sistemas de refrigeración en supermercados de nueve países y al menos seis aterrizajes forosos de aviones comerciales por falsas amenazas de bomba.\n• <b>Por qué importa:</b> El comisario Christophe Hansen advierte sobre un intento deliberado de erosionar la confianza pública, mientras analistas detectaron 13.000 servicios de refrigeración industrial accesibles de forma remota y sin parches de seguridad.\n• <b>Qué sigue:</b> Europol y los servicios de inteligencia nacionales intensifican las investigaciones para trazar el origen de los ataques, bajo la sospecha velada de operaciones híbridas rusas.",
-      "linkedInPost": "La convergencia de sabotajes a cadenas de suministro alimentario y alertas aéreas en la Unión Europea expone una peligrosa asimetría en la resiliencia de la infraestructura crítica. Con más de 13.000 sistemas de refrigeración industrial identificados como accesibles en remoto por la firma Forescout, el riesgo sistémico ya no depende solo de la sofisticación del atacante, sino de la inercia regulatoria y el retraso en la actualización de software corporativo. Las empresas que operan en mercados transfronterizos enfrentan un entorno donde la seguridad operacional es ahora una variable geopolítica directa.\n\nFuente: Clarín\n\n#PuntoCiego #Ciberseguridad #InfraestructuraCrítica",
-      "blueskyPost": "La UE investiga sabotajes a supermercados y falsas alertas en vuelos. El verdadero fallo no es solo la amenaza exterior, sino 13.000 sistemas industriales de frío sin parches básicos de seguridad. #PuntoCiego #Ciberseguridad",
-      "copies": {
-        "facebook": "La Comisión Europea reunió de urgencia a Europol y a las autoridades de ciberseguridad tras registrarse sabotajes en sistemas de refrigeración de supermercados en al menos nueve Estados miembros y una cadena simultánea de falsas amenazas de bomba en aviones comerciales que obligaron a desplegar cazas de combate. Oficialmente nadie apunta con certeza a un culpable, aunque los diplomáticos deslizan las sospechas hacia Moscú bajo la etiqueta de guerra híbrida.\n\nSin embargo, el verdadero punto ciego no reside únicamente en la sombra de potencias extranjeras, sino en la escandalosa negligencia de las corporaciones alimentarias que dejaron expuestos al menos 13.000 servicios de gestión de frío por no aplicar actualizaciones básicas de software.\n\n¿Hasta qué punto la falta de rigor corporativo en ciberseguridad industrial se está convirtiendo en la mayor brecha de defensa del continente?\n\n#PuntoCiego #GuerraHíbrida #Ciberseguridad",
-        "telegram": "<b>GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS</b>\n\n• <b>Qué ocurrió:</b> La Comisión Europea activó protocolos de emergencia tras sabotajes a sistemas de refrigeración en supermercados de nueve países y al menos seis aterrizajes forosos de aviones comerciales por falsas amenazas de bomba.\n• <b>Por qué importa:</b> El comisario Christophe Hansen advierte sobre un intento deliberado de erosionar la confianza pública, mientras analistas detectaron 13.000 servicios de refrigeración industrial accesibles de forma remota y sin parches de seguridad.\n• <b>Qué sigue:</b> Europol y los servicios de inteligencia nacionales intensifican las investigaciones para trazar el origen de los ataques, bajo la sospecha velada de operaciones híbridas rusas.",
-        "bluesky": "La UE investiga sabotajes a supermercados y falsas alertas en vuelos. El verdadero fallo no es solo la amenaza exterior, sino 13.000 sistemas industriales de frío sin parches básicos de seguridad. #PuntoCiego #Ciberseguridad",
-        "linkedIn": "La convergencia de sabotajes a cadenas de suministro alimentario y alertas aéreas en la Unión Europea expone una peligrosa asimetría en la resiliencia de la infraestructura crítica. Con más de 13.000 sistemas de refrigeración industrial identificados como accesibles en remoto por la firma Forescout, el riesgo sistémico ya no depende solo de la sofisticación del atacante, sino de la inercia regulatoria y el retraso en la actualización de software corporativo. Las empresas que operan en mercados transfronterizos enfrentan un entorno donde la seguridad operacional es ahora una variable geopolítica directa. #PuntoCiego #Ciberseguridad #InfraestructuraCrítica"
-      },
-      "article": {
-        "slug": "sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8",
-        "title": "Sabotajes y falsas alertas aéreas ponen a prueba la seguridad híbrida en Europa",
-        "dek": "Bruselas convoca a Europol tras una ofensiva coordinada contra supermercados y aeropuertos que desnuda las frágiles defensas digitales del continente.",
-        "keyFacts": [
-          "Al menos seis aviones comerciales realizaron aterrizajes de emergencia por falsas amenazas de bomba.",
-          "Los ciberataques a sistemas de refrigeración afectaron a supermercados en al menos nueve Estados miembros de la Unión Europea.",
-          "La empresa Forescout identificó 13.000 servicios de gestión de refrigeración accesibles de forma remota.",
-          "El comisario europeo de Agricultura y Alimentación, Christophe Hansen, calificó los hechos como un intento deliberado de alterar la cadena alimentaria."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "La Comisión Europea convocó de urgencia a Europol y a las autoridades nacionales de ciberseguridad tras una serie de incidentes simultáneos que alteraron la normalidad en al menos nueve Estados miembros de la Unión Europea. Por un lado, se registraron ciberataques contra los sistemas de control de refrigeración en supermercados de Alemania, Italia y Portugal, provocando que las temperaturas en las cámaras frigoríficas alcanzaran los 50 grados celsius y obligando a desechar toneladas de alimentos.",
-              "Casi en paralelo, al menos seis aviones de pasajeros se vieron envueltos en falsas amenazas de bomba que exigieron cierres temporales de aeropuertos y el despliegue de aviones de combate para escoltar a las aeronaves hasta tierra firme, según los reportes recopilados por medios como Clarín y La Voz del Interior."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "Los ataques contra las cadenas de frío comenzaron a detectarse tras un precedente similar en supermercados franceses el pasado 12 de octubre. Las investigaciones preliminares indican que muchos establecimientos omitieron actualizar sus sistemas de control remoto, una vulnerabilidad clave que permite a terceros supervisar y modificar parámetros de refrigeración a distancia sin pisar las instalaciones.",
-              "Aunque las autoridades europeas evitan señalar formalmente a un autor intelectual, diplomáticos consultados bajo anonimato y comisarios como Christophe Hansen apuntan hacia Moscú, enmarcando los episodios dentro del concepto de guerra híbrida destinado a socavar la estabilidad y la confianza ciudadana en las instituciones comunitarias."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "La atención mediática se ha volcado en el morbo de los cazas escoltando aviones comerciales y en la sospecha geopolítica hacia el Kremlin. Sin embargo, el verdadero flanco débil no proviene de sofisticados escuadrones de inteligencia extranjeros, sino de la negligencia corporativa y la escasa inversión en ciberseguridad industrial.",
-              "La firma de ciberseguridad Forescout reveló que existen al menos 13.000 servicios de gestión de refrigeración expuestos en la red. Muchas empresas prefirieron no reportar inicialmente los incidentes para evitar costos reputacionales, evidenciando que el talón de Aquiles de la infraestructura europea es la falta de auditorías obligatorias en la cadena de suministro privada."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "En este tablero, los servicios de inteligencia y las agencias de cooperación policial como Europol ganan presupuestos, competencias y centralización de poder ante la necesidad imperiosa de blindar el territorio comunitario. Los gobiernos nacionales, por su parte, endurecen su discurso sobre la interferencia exterior.",
-              "Pierden los ciudadanos, sometidos a una constante sensación de vulnerabilidad logística y psicológica, y las medianas empresas alimentarias, que asumen pérdidas millonarias por no haber implementado parches de seguridad digital que ya se exigían desde el otoño pasado."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "El factor decisivo en las próximas semanas será la capacidad de Bruselas para imponer estándares obligatorios de ciberseguridad a los operadores de infraestructura alimentaria y aeroportuaria, más allá de las recomendaciones voluntarias.",
-              "Conviene observar si los gobiernos europeos traducen las sospechas diplomáticas en sanciones económicas tangibles o si la respuesta se limita a un reforzamiento policial interno que no resuelve la raíz del problema tecnológico."
-            ]
-          }
-        ],
-        "tags": [
-          "Ciberseguridad",
-          "Unión Europea",
-          "Guerra Híbrida",
-          "Aviación",
-          "Infraestructura Crítica"
-        ],
-        "sources": [
-          {
-            "name": "Clarín",
-            "title": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
-            "url": "https://www.clarin.com/mundo/alerta-europa-ola-falsas-amenazas-bomba-aviones-obligo-aterrizajes-emergencia_0_lxD7jJCuSB.html"
-          },
-          {
-            "name": "Clarin.com",
-            "title": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSUFkenFtWnhhVndKNnlWNERNNk9IbGxWQUd4UlVqbndReUtvTzlXRFlQUTlLdWxnTHpjelo4MmlmWjIwSkRLQUVRaEFyd2F3RndIOHJLMWJLTUkwWDNWdS1naVJoaXdGbEtPZjN5Rm5xYWUzckJlSXQtbzFUS3hHX09Kc0RWdVhmSEhYYnBHV2ZmNDNGcXhCY3ZFWUxEdno2emZIdmM4cWxUa1hCVk96RTBmNHBpUmhJMHl6SVNtSnplZw?oc=5"
-          },
-          {
-            "name": "La Voz del Interior",
-            "title": "Europa: investigan falsas amenazas de bomba en seis aviones que obligaron a realizar aterrizajes de emergencia",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT09LU1FmYTdtVnh5SmJsQ05aaGdWSktuUDVrWXpLQXFCTWVSLWhKZFFiLWMyS2YxbHZsYllYdktDTjJSbHlNTlVYMTBubmQzNGV6bS1jaFFTNVNrb3hVcmtyeFJrNll5cVY3YzFaVUZDM09xdjBEQm9RQkR6ckJIQVotdnhoLTJ2QWJjM3dOWW9mRzVuMWgwY201bFdIcTRlRmRTRngxNnpFN0kxUzNzb19PRDFkalhkOS15d2RfVGJNMHR1M2s1YWhFMXpRWm9vQnpjOA?oc=5"
-          },
-          {
-            "name": "Diario Digital Conclusión",
-            "title": "Alerta en Europa: cuatro aviones recibieron amenazas de bomba en pleno vuelo y activaron operativos de seguridad",
-            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOElQUTBQclBUejQ3UUlBY25JdUpsZTlIanhfaXBlUm1lUXVxMXNpRXBtZF9SdklZMjhoOG5GQ2VhSG03ZThtdU5QX0l3ZjMzVUJLMnNOcHhNcG5IdFF5cjZraWUzV0lqejUwa2NXMjR3ejJFWnR0SDJ5R0RHN1dVS2JZTV9nZ2pfdlVzV01vdXBnZ0ZqTDFYUTFMYUFkNzRHUjA5Q0JwNXRQRVA5b0tZd1hlOU1EbEtDM0xqa25JU183eHcydW9qcEdpd19sblRFeGZacGJRMzg2VDF5Q1N0ZF95aHRNd1V3UXdEaEo2QU50ZGIteXh6ekNR?oc=5"
-          },
-          {
-            "name": "DigitalMex Periodismo confiable",
-            "title": "Amenazas de bomba ponen en alerta siete vuelos en Europa",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWRpaVB3bGh6eHBScFNocHlvdURkX2xRdTZ4RWhNVG84NkgzamI1aHhPN3BOSUVFanRrUEZvMlJHeFZaelp4dk9Bb1llZUtEU2wyYzRzaDVRWEFOVG1SWE9rUjFuQ2pOMVhnaWlyZDdXQzc1MGZ3b1c3bk5kcjlhSHBDTXFyYzBPQ3VyMmYxaXpfX1RxZUpXTzZnU3FYZU44OU9WVVhmSQ?oc=5"
-          }
-        ],
-        "wordCount": 496
-      },
-      "videoScript": {
-        "hook": "Supermercados saboteados y aviones escoltados por cazas en Europa.",
-        "beats": [
-          "Bruselas investiga ciberataques que alteraron frigoríficos en nueve países y seis falsas amenazas de bomba en vuelos comerciales.",
-          "Las sospechas apuntan a Moscú dentro de una estrategia de guerra híbrida para erosionar la confianza pública.",
-          "Pero el verdadero punto ciego es que había trece mil sistemas industriales de frío conectados y sin actualizar."
-        ],
-        "close": "Lee el análisis completo en el enlace del perfil."
-      },
-      "rawImageUrl": "https://www.clarin.com/img/2026/11/03/xK1EFs-Wc_1200x630__1.jpg",
-      "status": "published",
-      "createdAt": "2026-11-03T20:23:35.094Z",
-      "cardImageUrl": "/news-cards/news-9ifft0bpu-1793737415095.jpg",
-      "instagramCardUrl": "/news-cards/news-9ifft0bpu-1793737415726-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotajes-falsas-alertas-aereas-ponen-prueba-sfo8/",
-      "publishedAt": "2026-11-04T00:31:20.621Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true
-    },
-    "scheduledFor": "2026-11-04T00:28:39.046Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-03T20:23:36.908Z",
-    "lastAttemptAt": "2026-11-04T00:28:54.355Z",
-    "results": {
-      "mastodon": {
-        "success": false,
-        "skipped": true,
-        "error": "Canal sin credenciales configuradas (omitido)"
-      },
-      "facebook": {
-        "success": true,
-        "postId": "122102927091532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "45",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzh3vow6du2y"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "17876030868638589",
-        "permalink": "https://www.instagram.com/reel/DfTLG8LDHaq/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "threads": {
-        "success": true,
-        "postId": "18127734356499294"
-      }
-    },
-    "publishedAt": "2026-11-04T00:31:20.621Z"
-  },
-  {
     "id": "queue-1793742722876-d9s2o",
     "news": {
       "id": "9aqa1h5ni",
@@ -26424,12 +26248,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil"
       },
       "rawImageUrl": "https://s.yimg.com/lo/mysterio/api/2237ac28b0425724886fe27ab67babab9a714f4d36b09d3f7d08bffe8595f9c9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Fefe.es%2F32ca8bc36c953f9781b8660af1fdbdff.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-13T07:31:49.562Z",
       "cardImageUrl": "/news-cards/news-waw9gmtgu-1794555109562.jpg",
       "reelCoverUrl": "/news-cards/news-waw9gmtgu-1794555110143-cover.jpg",
       "instagramCardUrl": "/news-cards/news-waw9gmtgu-1794555110651-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/saturacion-drones-rusia-expone-nuevas-fisuras-q1oq/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/saturacion-drones-rusia-expone-nuevas-fisuras-q1oq/",
+      "publishedAt": "2026-11-13T07:36:12.321Z"
     },
     "channels": {
       "facebook": true,
@@ -26443,10 +26268,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-13T07:31:51.806Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-13T07:31:51.806Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-13T07:33:47.238Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122110164381532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "200",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n26httubzd2x"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18642410992023563",
+        "permalink": "https://www.instagram.com/reel/DfrG4i5AT4u/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117607979901806249"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18013145063770765"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-13T07:36:12.321Z"
   }
 ]
