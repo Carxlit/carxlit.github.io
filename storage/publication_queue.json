@@ -1,180 +1,5 @@
 [
   {
-    "id": "queue-1793804914819-fz1fd",
-    "news": {
-      "id": "gdpvp032u",
-      "originalUrl": "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre",
-      "originalTitle": "Después de los supermercados, el último objetivo de los ciberataques en Francia son los bancos de sangre",
-      "sourceName": "Xataka",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 88,
-      "headline": "FRANCIA SUFRE CIBERATAQUE CONTRA RESERVAS DE SANGRE Y CADENA FRÍO",
-      "subHeadline": "Un ataque informático a la empresa proveedora Coolworld alteró los termostatos de las cámaras del Servicio Nacional de Sangre de Francia, elevando las temperaturas de -30 a 110 grados Celsius.",
-      "blindSpotAngle": "El incidente revela la transición del ciberdelito desde el robo tradicional de credenciales o secuestro de datos hacia la destrucción física de activos mediante vulnerabilidades en la cadena de suministro de Internet de las Cosas (IoT). Al atacar a un proveedor externo como Coolworld en lugar de la red central del organismo de salud, los atacantes explotaron la falta de auditoría sobre dispositivos conectados obsoletos.",
-      "facebookPost": "El Servicio Nacional de Sangre de Francia sufrió la vulneración de las cámaras frigoríficas encargadas de conservar reservas de plasma. La incursión no atacó la red central del organismo gubernamental, sino la infraestructura del proveedor técnico Coolworld, logrando modificar el umbral térmico de los congeladores de -30°C a 110°C. Aunque las autoridades lograron frenar la anomalía sin pérdida de material biológico, la metodología imita el reciente sabotaje a congeladores de supermercados europeos.\n\nEl aspecto crítico radica en el cambio de objetivo de los ciberataques. Durante años la prioridad fue el robo de datos personales o financieros para su posterior venta. Hoy, la proliferación de dispositivos IoT con protocolos de seguridad anticuados y el posible apoyo de herramientas de automatización permiten a los atacantes ejecutar sabotajes físicos contra la cadena de frío sanitaria con un coste operativo mínimo.\n\nFrente al aumento de vulnerabilidades en proveedores externos, ¿deberían los Estados sancionar severamente a las empresas de servicios esenciales que subcontraten gestión digital sin auditorías de seguridad estrictas?\n\nFuente: Xataka\n\n#Ciberseguridad #PuntoCiego #Tecnología",
-      "telegramPost": "<b>CIBERATAQUE A LA RED SANGUÍNEA DE FRANCIA</b> • <b>Qué ocurrió:</b> Un ciberataque contra la firma Coolworld alteró los termostatos de las cámaras frigoríficas del Servicio Nacional de Sangre de Francia, elevando la temperatura de -30°C a 110°C. Las autoridades reaccionaron a tiempo y no se perdieron muestras de plasma. • <b>Por qué importa:</b> El sabotaje pasa de la extracción de datos sensibles al daño físico de infraestructuras críticas mediante la explotación de brechas en proveedores secundarios de IoT. • <b>Qué sigue:</b> Inspecciones urgentes y exigencias de actualización de protocolos de seguridad en la red de abastecimiento médico de la Unión Europea.",
-      "linkedInPost": "El ciberataque detectado en Francia contra el Servicio Nacional de Sangre (EFS), perpetrado a través del proveedor de refrigeración Coolworld, marca un punto de inflexión en la gestión del riesgo operativo para infraestructuras críticas. Al alterar los parámetros de refrigeración de -30°C a 110°C, los atacantes demostraron que el riesgo de la cadena de suministro en el Internet de las Cosas (IoT) puede traducirse en pérdidas materiales e interrupciones del servicio sanitario.\n\nEste evento, sumado a los incidentes recientes en la cadena de distribución de supermercados europeos, evidencia que los vectores de amenaza están migrando desde la exfiltración de datos financieros hacia el sabotaje de la continuidad operativa. Las corporaciones y los organismos públicos deben asumir que la ciberresiliencia ya no depende únicamente de la seguridad corporativa interna, sino de la postura cibernética del proveedor técnico más pequeño conectada a su red.\n\nLa gobernanza del riesgo informático exigirá una revisión rigurosa de las arquitecturas de red obsoletas y la fiscalización del hardware conectado de terceros en sectores estratégicos.\n\nFuente: Xataka\n\n#PuntoCiego #Ciberseguridad #Tecnología",
-      "blueskyPost": "El ciberataque a Coolworld alteró los congeladores del banco de sangre francés de -30°C a 110°C. La amenaza ya no busca datos, sino el sabotaje físico de la cadena médica. #PuntoCiego #Tecnología",
-      "copies": {
-        "facebook": "El Servicio Nacional de Sangre de Francia sufrió la vulneración de las cámaras frigoríficas encargadas de conservar reservas de plasma. La incursión no atacó la red central del organismo gubernamental, sino la infraestructura del proveedor técnico Coolworld, logrando modificar el umbral térmico de los congeladores de -30°C a 110°C. Aunque las autoridades lograron frenar la anomalía sin pérdida de material biológico, la metodología imita el reciente sabotaje a congeladores de supermercados europeos.\n\nEl aspecto crítico radica en el cambio de objetivo de los ciberataques. Durante años la prioridad fue el robo de datos personales o financieros para su posterior venta. Hoy, la proliferación de dispositivos IoT con protocolos de seguridad anticuados y el posible apoyo de herramientas de automatización permiten a los atacantes ejecutar sabotajes físicos contra la cadena de frío sanitaria con un coste operativo mínimo.\n\nFrente al aumento de vulnerabilidades en proveedores externos, ¿deberían los Estados sancionar severamente a las empresas de servicios esenciales que subcontraten gestión digital sin auditorías de seguridad estrictas? #Ciberseguridad #PuntoCiego #Tecnología",
-        "telegram": "<b>CIBERATAQUE A LA RED SANGUÍNEA DE FRANCIA</b> • <b>Qué ocurrió:</b> Un ciberataque contra la firma Coolworld alteró los termostatos de las cámaras frigoríficas del Servicio Nacional de Sangre de Francia, elevando la temperatura de -30°C a 110°C. Las autoridades reaccionaron a tiempo y no se perdieron muestras de plasma. • <b>Por qué importa:</b> El sabotaje pasa de la extracción de datos sensibles al daño físico de infraestructuras críticas mediante la explotación de brechas en proveedores secundarios de IoT. • <b>Qué sigue:</b> Inspecciones urgentes y exigencias de actualización de protocolos de seguridad en la red de abastecimiento médico de la Unión Europea.",
-        "bluesky": "El ciberataque a Coolworld alteró los congeladores del banco de sangre francés de -30°C a 110°C. La amenaza ya no busca datos, sino el sabotaje físico de la cadena médica. #PuntoCiego #Tecnología",
-        "linkedIn": "El ciberataque detectado en Francia contra el Servicio Nacional de Sangre (EFS), perpetrado a través del proveedor de refrigeración Coolworld, marca un punto de inflexión en la gestión del riesgo operativo para infraestructuras críticas. Al alterar los parámetros de refrigeración de -30°C a 110°C, los atacantes demostraron que el riesgo de la cadena de suministro en el Internet de las Cosas (IoT) puede traducirse en pérdidas materiales e interrupciones del servicio sanitario.\n\nEste evento, sumado a los incidentes recientes en la cadena de distribución de supermercados europeos, evidencia que los vectores de amenaza están migrando desde la exfiltración de datos financieros hacia el sabotaje de la continuidad operativa. Las corporaciones y los organismos públicos deben asumir que la ciberresiliencia ya no depende únicamente de la seguridad corporativa interna, sino de la postura cibernética del proveedor técnico más pequeño conectada a su red.\n\nLa gobernanza del riesgo informático exigirá una revisión rigurosa de las arquitecturas de red obsoletas y la fiscalización del hardware conectado de terceros en sectores estratégicos. #PuntoCiego #Ciberseguridad #Tecnología"
-      },
-      "article": {
-        "slug": "sabotaje-cibernetico-red-sanguinea-francesa-expone-34yv",
-        "title": "El sabotaje cibernético a la red sanguínea francesa expone la fragilidad del Internet de las Cosas",
-        "dek": "La manipulación de los congeladores del Servicio Nacional de Sangre a través de un proveedor logístico confirma una nueva fase de ataques físicos. La vulnerabilidad de los dispositivos conectados obsoletos compromete la seguridad de las infraestructuras críticas en Europa.",
-        "keyFacts": [
-          "El Servicio Nacional de Sangre de Francia (EFS) sufrió un ciberataque indirecto a través de los equipos de refrigeración de la empresa proveedora Coolworld.",
-          "Los atacantes elevaron los parámetros de temperatura de las cámaras de plasma desde -30 grados Celsius hasta 110 grados Celsius.",
-          "El Ministerio de Sanidad y la agencia nacional de ciberseguridad francesa confirmaron que no hubo pérdida de muestras y la distribución de sangre se mantiene sin interrupciones.",
-          "El suceso guarda similitud metodológica con los ciberataques registrados recientemente contra cámaras frigoríficas de supermercados en varios países europeos."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "El Gobierno de Francia confirmó que el Servicio Nacional de Sangre de Francia (EFS) fue blanco de un ciberataque dirigido a desestabilizar la conservación de muestras biológicas. Los autores de la incursión informáticos no ingresaron a los servidores centrales del organismo público, sino que vulneraron los sistemas de control de Coolworld, la firma privada encargada de suministrar e instalar los equipos de refrigeración industrial.",
-              "Una vez dentro de la red del proveedor, los atacantes modificaron la configuración térmica de los congeladores encargados de custodiar plasma destinado a transfusiones. Los termostatos fueron alterados para pasar de una temperatura operativa de -30 grados Celsius a 110 grados Celsius. Las autoridades sanitarias francesas señalaron que la anomalía fue detectada a tiempo, evitando la alteración del material médico y garantizando el flujo habitual de suministro."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "Este incidente se produce pocas semanas después de que diversas cadenas de supermercados en Europa experimentaran fallos similares en sus sistemas de congelación. En aquellos episodios, ciberdelincuentes atacaron la infraestructura conectada a Internet para derretir productos alimenticios, lo que inicialmente fue percibido como un vandalismo digital de bajo alcance.",
-              "Analistas del sector destacan que durante más de una década la industria y el sector público integraron dispositivos del Internet de las Cosas (IoT) para facilitar la gestión remota de instalaciones. Sin embargo, gran parte de esta infraestructura mantiene software anticuado y medidas de protección mínimas. La proliferación de herramientas de automatización e inteligencia artificial ha reducido los costes técnicos para localizar estas brechas operativas en componentes industriales que anteriormente no se consideraban prioritarios."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "La narrativa habitual sobre la ciberseguridad suele concentrarse en la exfiltración de bases de datos, el espionaje corporativo o el chantaje mediante ransomware. El análisis de Punto Ciego revela que el verdadero vector de vulnerabilidad reside en el sabotaje cinético indirecto. Al atacar a un proveedor logístico secundario como Coolworld, los agresores consiguen un impacto directo sobre la infraestructura estatal de salud sin necesidad de vulnerar la alta seguridad del Ministerio de Sanidad.",
-              "El uso de periféricos e instrumentos industriales conectados a la red general genera una superficie de ataque difusa. La falta de aislamiento entre los sistemas de monitoreo técnico de terceros y las instalaciones de respuesta crítica crea un escenario de riesgo donde la interrupción operativa no requiere el uso de armamento militar, sino la explotación de fallos en termostatos comerciales."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "Los actores de la guerra híbrida y los grupos cibernéticos ganan capacidad de desestabilización a bajo coste, al demostrar que pueden poner en riesgo recursos sanitarios o alimentarios sin desplegar grandes recursos informáticos. En contraposición, los sistemas públicos de salud y los operadores logísticos asumen los costes derivados del incremento en la complejidad operativa y la desconfianza pública.",
-              "Las empresas especializadas en auditoría de ciberseguridad e integración de redes cerradas experimentarán una mayor demanda. Por el contrario, los proveedores tradicionales de equipamiento conectado que no incorporen capas de cifrado y autenticación estricta en su hardware sufrirán un desplazamiento del mercado corporativo y gubernamental."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "Corresponde observar las investigaciones del Centro Nacional de Ciberseguridad en Europa para determinar si existe una campaña coordinada detrás de los ataques a la cadena de frío europea. Asimismo, será decisivo el avance de nuevas normativas comunitarias que exijan a las contratistas de servicios sanitarios el cumplimiento de estándares estrictos de ciberdefensa en cada dispositivo IoT integrado."
-            ]
-          }
-        ],
-        "tags": [
-          "Ciberseguridad",
-          "Francia",
-          "IoT",
-          "SaludPública",
-          "GuerraHíbrida"
-        ],
-        "sources": [
-          {
-            "name": "Xataka",
-            "title": "Después de los supermercados, el último objetivo de los ciberataques en Francia son los bancos de sangre",
-            "url": "https://www.xataka.com/robotica-e-ia/despues-congeladores-ultimo-objetivo-ciberataques-francia-bancos-sangre"
-          },
-          {
-            "name": "www.cio.com",
-            "title": "Los supermercados europeos que ignoraron la alerta de Francia, nuevo objetivo de los ciberdelincuentes",
-            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQOGxVN1k4Sk5YbXVzREFmOE9zNW9fQWZOZlRxUVpIeXpfNFYtZTYtTTJEQ1gyNGI3bzAwRVh6UjVodXdPYjZmeUtKN1FRbUVjeHVRVHZ4U0RBRFBxTXV2MGxUNnBMOUVxY0YwZExTaFBwdkFlbGNxVktBSU5xVEZoYWY5NGN5ejd5V3hmams1aEN1ZndkWFVrd0VIeDI4TUR5MnpQRVUxdmE5MEdYTlZzdms1TXJOOGd3bDNMLThLWUlSZkhDRVFHNzdCd2swNi15cVk1RUVkUHdkRkliQnRtSHJvSW91Tzg5NVNxeDhyVW1Ja3hW?oc=5"
-          },
-          {
-            "name": "El Economista",
-            "title": "Nuevo ciberataque tiene como objetivo los bancos de sangre franceses",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQenVsSjZDcF8zd1V1VzI5SmM0VzVaTnNYbXZ0bWY0eWIzZlBLbnBDTENNcTE4bHl0TlRjSHpnVFgxcFoyeklfdU40MDUtcEdVTzB6Q25VQ19NanItM3BEbGw0QmgxWTNGV3hLdXo1ZDNQcHI0ajc5RGtmZEVVOHZkRXU2dTJuNTZfMWJMZXRCMXRPTll2SGhwRmJNOHBWWUluU0hNLWtKaWRBS2RNaGd0eVBJUGXSAboBQVVfeXFMUGdMejExZUxXZVl3R0lQb2JGVkhTaXlnUE9mSGczRXo5MHFscU9hTFZWUHp0eHJOclM0VDFUdE9FMnRSb2lZR2VydVVMMmZfTkMxaWJCdjFfVFkxdXpGcEtGeVRZbGhhRThEQ1p6N2x1TmdmektoNEZ5c2JHZXBDcVBZVnNFVzh4QkFZZWVqLXMyWmhHZGxfUTk4RWEtaUJseDJtUTkxeTNSVVYzN01PTmlJdDRaWTZOQW5n?oc=5"
-          },
-          {
-            "name": "Euronews.com",
-            "title": "Europa sufre ciberataques a frigoríficos de supermercados",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZVJzN0VpQllIbWN3N180Q2FucGtYOURVWFhrZEZYc2JNSFVITTNWc3ZuRWtXY21LWGowTk9oWENlZ1cwR2VaOFpodVllNmEtYnh0ZTZhVnByTnpabVR0TE41M2FQRDRIYWcwaUxuV0ZCTXl4a3J3TVR4Slk5Ukh1MURScDRWNklaOG9mRTZxZHZsNkFMdTAwRk1Ib3VuWWJjMWtoUlpUWUVoc0JtaUpfcVJHYmdGTFZCQ251V0VSUHZFTXM?oc=5"
-          },
-          {
-            "name": "La Vanguardia",
-            "title": "Por qué los supermercados se han convertido en objetivos de la guerra híbrida",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRF82X3B0N19TWG81ZFk1MmNsaUpWLVF4aHlfaXJEQ2lQMkE1bkpiWXFfSmY0RzE2ZWMxaG5CRzVWaVJncllmVTNFWkhWbHJsa01XczlTRldkSWZlVXJUNFAyTmk3cmMzcy1tTm42VmNZQ2NzS0k5bzRUdWVkcWZkOTVPOE5FUlEzUDZHNTdnSXlVWGw0WmFGQ2ppYkZrN1otOVR5SXNIa3lOT1hyMnZVUzJPWmlQRHhPT3pWWTdPSWc4NXpXUGRHUjNTbmdJRWNOYlBsYW9YWEFoRDZxaFVZTC1ZQdIB6AFBVV95cUxQUHNJVzZPVkFfUVc2LURocUQ3UjlsR2NoU2J4Sms1bU54X3BVeElHcTNfUU1GakFtekhSU3NYX1NDTVNtZzZHSUgxR19mX3gwN21ad3V0UU5QT1FRXy1PYVpVZ3VqYWFORVBJUnRXNkJOUjBfdlJ3MFhFZHQ4R3RVNTkxcF8tS0JaOHZ4T01XUk9WdV9ZZlh3YmZLcjRFMDgxV2VsM1AteVhrZFBvVlMyTVNMU1g3enA4SElqclZycjd1SlRhZGNGU2x1Vno2SWtHMW1HZEJjWVY5T2ZiUTA5dXhWbTNaMTdw?oc=5"
-          }
-        ],
-        "wordCount": 586
-      },
-      "videoScript": {
-        "hook": "Hackearon los congeladores del banco de sangre francés para elevar la temperatura a ciento diez grados.",
-        "beats": [
-          "Los atacantes no buscaron robar datos de pacientes ni pedir un rescate económico.",
-          "Infiltraron a la empresa proveedora de refrigeración para destruir directamente las muestras de plasma.",
-          "Lo que nadie dice es que usar tecnología obsoleta conecta infraestructuras críticas a riesgos físicos invisibles."
-        ],
-        "close": "Lee el análisis completo sobre ciberseguridad en el enlace de nuestro perfil."
-      },
-      "rawImageUrl": "https://i.blogs.es/4a3d85/aman-chaturvedi-0zzo5o00o80-unsplash/840_560.jpeg",
-      "status": "published",
-      "createdAt": "2026-11-04T15:08:33.134Z",
-      "cardImageUrl": "/news-cards/news-gdpvp032u-1793804913134.jpg",
-      "instagramCardUrl": "/news-cards/news-gdpvp032u-1793804913678-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cibernetico-red-sanguinea-francesa-expone-34yv/",
-      "publishedAt": "2026-11-04T18:54:54.496Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true
-    },
-    "scheduledFor": "2026-11-04T18:52:15.383Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-04T15:08:34.819Z",
-    "lastAttemptAt": "2026-11-04T18:52:30.796Z",
-    "results": {
-      "mastodon": {
-        "success": false,
-        "skipped": true,
-        "error": "Canal sin credenciales configuradas (omitido)"
-      },
-      "facebook": {
-        "success": true,
-        "postId": "122103651315532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "56",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzizldenhp22"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18033318677891326",
-        "permalink": "https://www.instagram.com/reel/DfVJaE0k_6i/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "threads": {
-        "success": true,
-        "postId": "18093902537201988"
-      }
-    },
-    "publishedAt": "2026-11-04T18:54:54.496Z"
-  },
-  {
     "id": "queue-1793811116612-jqb97",
     "news": {
       "id": "smx1kjri9",
@@ -26463,12 +26288,13 @@
         "close": "Lee el análisis completo sobre este ciberataque en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://www.bleepstatic.com/content/hl-images/2026/11/13/quantumsystems.jpg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-13T18:54:52.549Z",
       "cardImageUrl": "/news-cards/news-8fyfvk4g8-1794596092549.jpg",
       "reelCoverUrl": "/news-cards/news-8fyfvk4g8-1794596093382-cover.jpg",
       "instagramCardUrl": "/news-cards/news-8fyfvk4g8-1794596093951-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cibernetico-quantum-systems-deja-descubierto-vzp3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/sabotaje-cibernetico-quantum-systems-deja-descubierto-vzp3/",
+      "publishedAt": "2026-11-13T23:28:05.995Z"
     },
     "channels": {
       "facebook": true,
@@ -26482,10 +26308,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-13T23:25:40.926Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-13T18:54:55.291Z"
+    "createdAt": "2026-11-13T18:54:55.291Z",
+    "lastAttemptAt": "2026-11-13T23:25:56.379Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122110421235532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "210",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2a52iefna2z"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18128553133895744",
+        "permalink": "https://www.instagram.com/reel/Dfsz0tyiexN/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117611723011431306"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18060657113800649"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-13T23:28:05.995Z"
   },
   {
     "id": "queue-1794602070074-hezya",
