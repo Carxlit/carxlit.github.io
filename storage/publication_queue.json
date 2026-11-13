@@ -26447,12 +26447,12 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-13T13:29:17.192Z",
+    "scheduledFor": "2026-11-13T13:48:31.489Z",
     "status": "queued",
-    "attempts": 1,
+    "attempts": 2,
     "maxAttempts": 3,
     "createdAt": "2026-11-13T11:19:13.698Z",
-    "lastAttemptAt": "2026-11-13T13:21:56.408Z",
+    "lastAttemptAt": "2026-11-13T13:29:32.453Z",
     "results": {
       "facebook": {
         "success": true,
@@ -26492,7 +26492,7 @@
         "error": "Noticia sin video libre: no se sube a YouTube"
       }
     },
-    "error": "Reintento 1/3: instagram: Reel de Instagram: subida: Request processing failed (se reintenta como Reel)"
+    "error": "Reintento 2/3: instagram: Reel de Instagram: subida: Request processing failed (se reintenta como Reel)"
   },
   {
     "id": "queue-1794569539147-pztzn",
