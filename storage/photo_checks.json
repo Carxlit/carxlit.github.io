@@ -763,5 +763,10 @@
     "relevant": true,
     "reason": "La imagen muestra una gran zona industrial con refinerías y chimeneas, lo cual es relevante para ilustrar un ataque con drones a una zona industrial rusa.",
     "at": "2026-11-13T07:31:48.277Z"
+  },
+  "9c33eac88850f095:ax906l35l": {
+    "relevant": true,
+    "reason": "Muestra una imagen de un ataque y explosión en una instalación costera, representando directamente la acción militar descrita en el titular.",
+    "at": "2026-11-13T10:19:45.193Z"
   }
 }

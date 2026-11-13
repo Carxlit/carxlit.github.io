@@ -186,9 +186,39 @@
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMW5zRmhTTGNjXzZqa1hiWG1oWmVLeGZzZmZiVkhjOEpqTlJiMVZudG1meElSb2d5djFtM0FSUzM0UVdtYXdRcVZReTBxUG5rMW9ZYVQ3MlFXTGhZRG5rZmZnay1ONXlEVzJWdFRKZ3VLZGRDNFVzU21oVkZHTkhCZGlDNTA2NlgzY3lhdw?oc=5",
     "https://www.france24.com/es/video/20261113-ataque-israel%C3%AD-contra-hospital-nasser-en-gaza-deja-al-menos-seis-palestinos-muertos",
     "https://elpais.com/internacional/2026-11-13/mas-de-450000-combatientes-del-bando-ruso-han-muerto-desde-el-inicio-de-la-guerra-segun-la-base-de-datos-oficial.html",
-    "https://www.europapress.es/internacional/noticia-mueren-cuatro-personas-ataque-ucrania-contra-zona-industrial-region-rusa-volgogrado-20261113081843.html"
+    "https://www.europapress.es/internacional/noticia-mueren-cuatro-personas-ataque-ucrania-contra-zona-industrial-region-rusa-volgogrado-20261113081843.html",
+    "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran"
   ],
   "processedSignatures": [
+    {
+      "title": "EL CUERPO DE LA GUARDIA REVOLUCIONARIA DE IRÁN DESTRUYE RADAR DE EEUU EN BARÉIN",
+      "normalizedTokens": [
+        "cuerpo",
+        "guardia",
+        "revolucionaria",
+        "iran",
+        "destruye",
+        "radar",
+        "eeuu",
+        "barein"
+      ],
+      "date": "2026-11-13T10:19:47.658Z"
+    },
+    {
+      "title": "IRGC says it destroyed US radar in Bahrain after attack on southern Iran",
+      "normalizedTokens": [
+        "irgc",
+        "says",
+        "destroyed",
+        "radar",
+        "bahrain",
+        "after",
+        "attack",
+        "southern",
+        "iran"
+      ],
+      "date": "2026-11-13T10:19:47.656Z"
+    },
     {
       "title": "UCRANIA GOLPEA VOLGOGRADO EN UNA ESCALADA MASIVA DE DRONES",
       "normalizedTokens": [
