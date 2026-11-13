@@ -1,5 +1,79 @@
 [
   {
+    "slug": "banco-central-venezuela-reporta-crecimiento-7-czuk",
+    "path": "noticias/banco-central-venezuela-reporta-crecimiento-7-czuk/",
+    "title": "El Banco Central de Venezuela reporta un crecimiento del 7,42 % sustentado en distorsiones estadísticas",
+    "headline": "BANCO CENTRAL DE VENEZUELA REPORTA CRECIMIENTO DEL 7,42 POR CIENTO",
+    "dek": "El ente emisor contabiliza 22 trimestres de balance positivo apoyado por la construcción. Sin embargo, los datos oficiales esquivan el impacto real sobre una economía dramáticamente reducida.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "Instagram",
+    "image": "img/banco-central-venezuela-reporta-crecimiento-7-czuk.jpg",
+    "photo": "img/banco-central-venezuela-reporta-crecimiento-7-czuk-foto.jpg",
+    "publishedAt": "2026-11-13T11:19:13.562Z",
+    "article": {
+      "slug": "banco-central-venezuela-reporta-crecimiento-7-czuk",
+      "title": "El Banco Central de Venezuela reporta un crecimiento del 7,42 % sustentado en distorsiones estadísticas",
+      "dek": "El ente emisor contabiliza 22 trimestres de balance positivo apoyado por la construcción. Sin embargo, los datos oficiales esquivan el impacto real sobre una economía dramáticamente reducida.",
+      "keyFacts": [
+        "El Banco Central de Venezuela reportó un crecimiento económico de 7,42 % en el tercer trimestre de 2026.",
+        "La institución acumula 22 trimestres consecutivos de expansión productiva según su balance.",
+        "El sector construcción registró un incremento interanual de 35,75 %."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Banco Central de Venezuela dio a conocer las cifras de la actividad económica del país correspondientes al tercer trimestre de 2026. De acuerdo con el informe divulgado por el ente emisor, el producto interno bruto venezolano registró un crecimiento de 7,42 % en comparación con el mismo período del año anterior. Con este resultado, el organismo contabiliza 22 trimestres consecutivos de expansión productiva.",
+            "Dentro del balance sectorial, la institución destacó el comportamiento de la construcción, actividad que mostró una variación positiva de 35,75 % durante el trimestre analizado."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La divulgación de estas cifras se da en un escenario caracterizado por el uso de divisas en las transacciones cotidianas y por la reorganización de los flujos comerciales tras años de recesión. La economía venezolana ha experimentado cambios en su dinámica interna a partir de la emisión de licencias energéticas y la apertura parcial a las importaciones privadas.",
+            "No obstante, el tejido industrial y comercial del país continúa funcionando bajo márgenes de liquidez ajustados y con una capacidad crediticia limitada en el sistema bancario nacional."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis periodístico de Punto Ciego evidencia que el incremento de 7,42 % responde al fenómeno económico del rebote estadístico desde niveles de producción mínimos. Tras haber perdido una porción sustancial de su volumen histórico en la última década, cualquier repunte en la actividad genera porcentajes de crecimiento elevados que no equivalen a una reconstrucción del aparato productivo.",
+            "El avance de 35,75 % en la construcción refleja principalmente la ejecución de obras comerciales privadas muy delimitadas y la inyección de recursos públicos en proyectos de mantenimiento, sin que esto represente la reactivación de obras de gran envergadura ni la restauración del crédito hipotecario o corporativo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El principal beneficiado con la difusión de este informe es el Ejecutivo venezolano, que refuerza su posicionamiento político e institucional al sostener una narrativa de recuperación económica continua. Asimismo, favorece a sectores vinculados al comercio y al desarrollo inmobiliario privado en nichos de alto ingreso.",
+            "Por otro lado, los trabajadores asalariados y la administración pública continúan sufriendo el rezago del poder adquisitivo, dado que el crecimiento reportado no se traduce directamente en una mejora sostenida de los ingresos reales ni en la calidad de los servicios públicos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos meses será crucial dar seguimiento al comportamiento del tipo de cambio y a la oferta de divisas por parte del Banco Central de Venezuela. La continuidad de las tasas de crecimiento dependerá de la estabilidad en los ingresos por hidrocarburos y de la evolución de las políticas de financiamiento para el sector productivo."
+          ]
+        }
+      ],
+      "tags": [
+        "venezuela",
+        "economia global",
+        "banco central",
+        "construccion",
+        "crecimiento economico"
+      ],
+      "sources": [
+        {
+          "name": "Instagram",
+          "title": "#EnFoto📷| El Banco Central de Venezuela (BCV) informó que la economía venezolana creció 7,42 % en el tercer trimestre de 2026, sumando 22 trimestres consecutivos de expansión productiva. El balance destaca el avance de la construcción (35,75 %), se",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5"
+        }
+      ],
+      "wordCount": 449
+    },
+    "blindSpot": "Aunque los indicadores oficiales proyectan una expansión ininterrumpida, la métrica oculta el efecto rebote tras la pérdida de más del 75% del tamaño de la economía en la última década. El crecimiento del 35,75 % en la construcción responde a proyectos puntuales de pequeña escala y no a una reactivación del crédito bancario o de la gran infraestructura."
+  },
+  {
     "slug": "vulnerabilidad-nube-centralizada-tras-colapso-masivo-wneq",
     "path": "noticias/vulnerabilidad-nube-centralizada-tras-colapso-masivo-wneq/",
     "title": "La vulnerabilidad de la nube centralizada tras el colapso masivo de Microsoft",

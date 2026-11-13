@@ -188,9 +188,49 @@
     "https://elpais.com/internacional/2026-11-13/mas-de-450000-combatientes-del-bando-ruso-han-muerto-desde-el-inicio-de-la-guerra-segun-la-base-de-datos-oficial.html",
     "https://www.europapress.es/internacional/noticia-mueren-cuatro-personas-ataque-ucrania-contra-zona-industrial-region-rusa-volgogrado-20261113081843.html",
     "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
-    "https://www.xataka.com/aplicaciones/16-horas-caida-outlook-teams-microsoft-todavia-no-sabe-que-ha-provocado"
+    "https://www.xataka.com/aplicaciones/16-horas-caida-outlook-teams-microsoft-todavia-no-sabe-que-ha-provocado",
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "BANCO CENTRAL DE VENEZUELA REPORTA CRECIMIENTO DEL 7,42 POR CIENTO",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "venezuela",
+        "reporta",
+        "crecimiento",
+        "ciento"
+      ],
+      "date": "2026-11-13T11:19:13.717Z"
+    },
+    {
+      "title": "#EnFoto📷| El Banco Central de Venezuela (BCV) informó que la economía venezolana creció 7,42 % en el tercer trimestre de 2026, sumando 22 trimestres consecutivos de expansión productiva. El balance destaca el avance de la construcción (35,75 %), se",
+      "normalizedTokens": [
+        "enfoto",
+        "banco",
+        "central",
+        "venezuela",
+        "bcv",
+        "informo",
+        "economia",
+        "venezolana",
+        "crecio",
+        "tercer",
+        "trimestre",
+        "2026",
+        "sumando",
+        "trimestres",
+        "consecutivos",
+        "expansion",
+        "productiva",
+        "balance",
+        "destaca",
+        "avance",
+        "construccion"
+      ],
+      "date": "2026-11-13T11:19:13.715Z"
+    },
     {
       "title": "FALLO MASIVO DE MICROSOFT REVELA LA FRAGILIDAD DIGITAL CORPORATIVA GLOBAL",
       "normalizedTokens": [
