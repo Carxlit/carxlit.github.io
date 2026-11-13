@@ -184,9 +184,43 @@
     "https://es.euronews.com/video/2026/11/12/un-ataque-israeli-devasta-uno-de-los-pocos-hospitales-que-quedan-en-gaza",
     "https://es.wired.com/articulos/sheinbaum-se-reune-con-el-presidente-de-openai-coincidimos-en-que-la-ia-puede-generar-beneficios-en-el-sector-salud",
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMW5zRmhTTGNjXzZqa1hiWG1oWmVLeGZzZmZiVkhjOEpqTlJiMVZudG1meElSb2d5djFtM0FSUzM0UVdtYXdRcVZReTBxUG5rMW9ZYVQ3MlFXTGhZRG5rZmZnay1ONXlEVzJWdFRKZ3VLZGRDNFVzU21oVkZHTkhCZGlDNTA2NlgzY3lhdw?oc=5",
-    "https://www.france24.com/es/video/20261113-ataque-israel%C3%AD-contra-hospital-nasser-en-gaza-deja-al-menos-seis-palestinos-muertos"
+    "https://www.france24.com/es/video/20261113-ataque-israel%C3%AD-contra-hospital-nasser-en-gaza-deja-al-menos-seis-palestinos-muertos",
+    "https://elpais.com/internacional/2026-11-13/mas-de-450000-combatientes-del-bando-ruso-han-muerto-desde-el-inicio-de-la-guerra-segun-la-base-de-datos-oficial.html"
   ],
   "processedSignatures": [
+    {
+      "title": "FILTRACIÓN OFICIAL REVELA BAJAS MASIVAS EN EL BANDO RUSO",
+      "normalizedTokens": [
+        "filtracion",
+        "oficial",
+        "revela",
+        "bajas",
+        "masivas",
+        "bando",
+        "ruso"
+      ],
+      "date": "2026-11-13T05:18:09.919Z"
+    },
+    {
+      "title": "Más de 450.000 combatientes del bando ruso han muerto desde el inicio de la guerra, según la base de datos oficial",
+      "normalizedTokens": [
+        "mas",
+        "450",
+        "000",
+        "combatientes",
+        "bando",
+        "ruso",
+        "han",
+        "muerto",
+        "inicio",
+        "guerra",
+        "segun",
+        "base",
+        "datos",
+        "oficial"
+      ],
+      "date": "2026-11-13T05:18:09.917Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ATAQUE EN HOSPITAL NASSER DEJA SEIS MUERTOS EN GAZA",
       "normalizedTokens": [
