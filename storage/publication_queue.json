@@ -1,180 +1,5 @@
 [
   {
-    "id": "queue-1793742722876-d9s2o",
-    "news": {
-      "id": "9aqa1h5ni",
-      "originalUrl": "https://www.xataka.com.mx/robotica-e-ia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-pelean-openai-anthropic",
-      "originalTitle": "China ofrece sueldos de un millón de yuanes por el ingeniero de IA que también pelean OpenAI y Anthropic",
-      "sourceName": "Xataka México",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 88,
-      "headline": "CHINA OFRECE UN MILLÓN DE YUANES POR INGENIEROS DE IA",
-      "subHeadline": "Gigantes como ByteDance, Tencent y Alibaba compiten agresivamente por ingenieros desplegados en cliente con sueldos que multiplican hasta por diez la media técnica nacional.",
-      "blindSpotAngle": "La carrera por los ingenieros desplegados en cliente expone el verdadero cuello de botella de la industria: la incapacidad sistémica de transformar algoritmos de laboratorio en rentabilidad corporativa real. El gasto millonario en modelos amenaza con estrellarse contra la falta de integración operativa.",
-      "facebookPost": "Las grandes tecnológicas chinas están dispuestas a pagar hasta un millón de yuanes al año, unos 2.8 millones de pesos, por un perfil técnico muy específico: el forward-deployed engineer. Firmas como ByteDance, Tencent y Alibaba compiten sin tregua por estos profesionales, capaces de aterrizar la inteligencia artificial en el terreno operativo real. \n\nLa narrativa oficial celebra el auge salarial como una muestra de bonanza tecnológica, pero el fondo revela una urgencia desesperada. Informes recientes del MIT indican que apenas el 5 por ciento de las herramientas corporativas de IA pasan con éxito a la fase de producción, chocando contra una profunda brecha de adopción. Los modelos más avanzados del mundo no sirven de nada si las empresas no saben cómo utilizarlos en su día a día.\n\n¿Es la crisis de implementación operativa el verdadero límite que frenará la burbuja de la inteligencia artificial antes de que genere retornos financieros reales?\n\nFuente: Xataka México\n\n#InteligenciaArtificial #Tecnología #PuntoCiego",
-      "telegramPost": "<b>CHINA OFRECE UN MILLÓN DE YUANES POR INGENIEROS DE IA</b>\n\n• <b>Qué ocurrió:</b> Gigantes tecnológicos chinos como ByteDance, Tencent y Alibaba ofrecen paquetes salariales de hasta un millón de yuanes anuales por ingenieros desplegados en cliente, multiplicando hasta por diez la media salarial técnica del país.\n• <b>Por qué importa:</b> El cuello de botella ya no es el desarrollo de algoritmos en laboratorios, sino la integración operativa. Datos del MIT revelan que solo el 5% de las herramientas corporativas de IA llegan a producción con éxito.\n• <b>Qué sigue:</b> Shanghái evalúa integrar planes de estudio especializados y Tencent lanza certificaciones propias para mitigar la escasez crítica de este talento en el mercado global.",
-      "linkedInPost": "La guerra por el talento en inteligencia artificial ha escalado más allá de la investigación pura hacia la infraestructura de implementación comercial. ByteDance, Tencent y Alibaba ofrecen paquetes salariales de hasta un millón de yuanes anuales por ingenieros desplegados en cliente, un rol cuya demanda se disparó un 1,523% en el mercado chino.\n\nEste movimiento responde a un riesgo financiero latente advertido por fondos como Apollo Global Management: la inteligencia artificial aún no genera retornos de productividad generalizados fuera de un núcleo reducido de desarrolladores. La brecha de adopción corporativa amenaza la estabilidad de las inversiones si no se logra cerrar la distancia entre la teoría algorítmica y la realidad operativa de las empresas.\n\nFuente: Xataka México\n\n#InteligenciaArtificial #EstrategiaCorporativa #PuntoCiego",
-      "blueskyPost": "China paga un millón de yuanes por ingenieros de IA, pero el verdadero problema es que solo el 5% de las herramientas corporativas llegan a producción. El cuello de botella no es técnico, es operativo. #InteligenciaArtificial #PuntoCiego",
-      "copies": {
-        "facebook": "Las grandes tecnológicas chinas están dispuestas a pagar hasta un millón de yuanes al año, unos 2.8 millones de pesos, por un perfil técnico muy específico: el forward-deployed engineer. Firmas como ByteDance, Tencent y Alibaba compiten sin tregua por estos profesionales, capaces de aterrizar la inteligencia artificial en el terreno operativo real. \n\nLa narrativa oficial celebra el auge salarial como una muestra de bonanza tecnológica, pero el fondo revela una urgencia desesperada. Informes recientes del MIT indican que apenas el 5 por ciento de las herramientas corporativas de IA pasan con éxito a la fase de producción, chocando contra una profunda brecha de adopción. Los modelos más avanzados del mundo no sirven de nada si las empresas no saben cómo utilizarlos en su día a día.\n\n¿Es la crisis de implementación operativa el verdadero límite que frenará la burbuja de la inteligencia artificial antes de que genere retornos financieros reales?\n\n#InteligenciaArtificial #Tecnología #PuntoCiego",
-        "telegram": "<b>CHINA OFRECE UN MILLÓN DE YUANES POR INGENIEROS DE IA</b>\n\n• <b>Qué ocurrió:</b> Gigantes tecnológicos chinos como ByteDance, Tencent y Alibaba ofrecen paquetes salariales de hasta un millón de yuanes anuales por ingenieros desplegados en cliente, multiplicando hasta por diez la media salarial técnica del país.\n• <b>Por qué importa:</b> El cuello de botella ya no es el desarrollo de algoritmos en laboratorios, sino la integración operativa. Datos del MIT revelan que solo el 5% de las herramientas corporativas de IA llegan a producción con éxito.\n• <b>Qué sigue:</b> Shanghái evalúa integrar planes de estudio especializados y Tencent lanza certificaciones propias para mitigar la escasez crítica de este talento en el mercado global.",
-        "bluesky": "China paga un millón de yuanes por ingenieros de IA, pero el verdadero problema es que solo el 5% de las herramientas corporativas llegan a producción. El cuello de botella no es técnico, es operativo. #InteligenciaArtificial #PuntoCiego",
-        "linkedIn": "La guerra por el talento en inteligencia artificial ha escalado más allá de la investigación pura hacia la infraestructura de implementación comercial. ByteDance, Tencent y Alibaba ofrecen paquetes salariales de hasta un millón de yuanes anuales por ingenieros desplegados en cliente, un rol cuya demanda se disparó un 1,523% en el mercado chino.\n\nEste movimiento responde a un riesgo financiero latente advertido por fondos como Apollo Global Management: la inteligencia artificial aún no genera retornos de productividad generalizados fuera de un núcleo reducido de desarrolladores. La brecha de adopción corporativa amenaza la estabilidad de las inversiones si no se logra cerrar la distancia entre la teoría algorítmica y la realidad operativa de las empresas.\n\n#InteligenciaArtificial #EstrategiaCorporativa #PuntoCiego"
-      },
-      "article": {
-        "slug": "fiebre-millon-yuanes-verdadero-cuello-botella-m2jb",
-        "title": "La fiebre del millón de yuanes: por qué el verdadero cuello de botella de la IA no está en los laboratorios",
-        "dek": "ByteDance, Tencent y Alibaba compiten con sueldos millonarios por ingenieros desplegados en cliente. Detrás de esta pugna salarial se esconde la incapacidad global para hacer rentable la inteligencia artificial en el tejido productivo.",
-        "keyFacts": [
-          "Gigantes tecnológicos como ByteDance, Tencent y Alibaba ofrecen hasta un millón de yuanes anuales por ingenieros desplegados en cliente.",
-          "Las búsquedas de este perfil se dispararon un 1,523% durante los primeros siete meses del año en la plataforma Maimai.",
-          "Según un estudio del MIT de junio de 2025, únicamente el 5% de las herramientas personalizadas de inteligencia artificial corporativa logran pasar a fase de producción.",
-          "Tencent publica vacantes con paquetes salariales de hasta 975,000 yuanes anuales distribuidos en quince pagas."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "Las grandes corporaciones tecnológicas de China han desatado una pugna salarial sin precedentes por un perfil técnico muy específico: el forward-deployed engineer, conocido como FDE o ingeniero desplegado en cliente. De acuerdo con reportes del South China Morning Post y cifras difundidas por plataformas como Boss Zhipin, firmas como ByteDance, Tencent y Alibaba están dispuestas a desembolsar hasta un millón de yuanes al año, el equivalente a unos 2.8 millones de pesos, para reclutar a estos profesionales.",
-              "Para dimensionar la magnitud de estas remuneraciones, los datos oficiales de la Oficina Nacional de Estadística de China indican que los especialistas en tecnologías de la información en empresas medianas y grandes percibieron en promedio 275,504 yuanes anuales durante 2025, mientras que la media general de las plantillas rondó los 106,080 yuanes. Las ofertas para un FDE multiplican esos ingresos entre cuatro y casi diez veces, superando incluso las retribuciones habituales de mercados occidentales en pugna como los de OpenAI y Anthropic."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "El vertiginoso ascenso de este perfil cuenta con el respaldo explícito del Estado chino. El Ministerio de Industria y Tecnologías de la Información emitió un comunicado oficial en el que insta a las compañías a conformar escuadrones especializados en esta labor. Un análisis de la plataforma Maimai reveló que las búsquedas laborales vinculadas al rol de FDE se dispararon un 1,523% durante los primeros siete meses del año en comparación con el mismo periodo de 2025.",
-              "Ante la escasez aguda de talento, las autoridades de Shanghái evalúan incorporar planes de estudio de FDE en la formación profesional técnica y de posgrado, según The Paper. Por su parte, Tencent introdujo la primera certificación oficial de la industria orientada específicamente a aterrizar modelos de lenguaje y soluciones algorítmicas en casos de uso práctico dentro de las empresas."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "La lectura superficial de este fenómeno se limita a celebrar una bonanza salarial impulsada por la competencia tecnológica entre potencias. Sin embargo, el trasfondo expone una crisis estructural en la adopción de la tecnología. Como advirtió el fondo de inversión Apollo Global Management, la inteligencia artificial todavía no se traduce en ganancias claras de productividad o retorno financiero fuera del selecto club de las empresas que desarrollan los modelos.",
-              "El informe 'The GenAI Divide', publicado por el MIT, concluyó que únicamente el 5 por ciento de las herramientas corporativas personalizadas logran superar la fase de pruebas y llegar a producción. La gran mayoría de los pilotos tecnológicos no generan un impacto medible en los resultados financieros debido a una profunda brecha de adopción y a una deficiente integración operativa."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "En este tablero, los ganadores indiscutibles son los ingenieros con capacidad de traducción operativa, capaces de sentarse con los clientes, entender sus necesidades reales y puentear la teoría con la práctica. Su escasez les otorga un poder de negociación extraordinario que redefine los estándares salariales del sector tecnológico asiático.",
-              "En el extremo opuesto se encuentran los fondos de inversión y las divisiones corporativas que han vertido miles de millones de dólares en infraestructura de IA sin asegurar los puentes de implementación. Si los modelos se quedan confinados en los laboratorios sin transformar el día a día operativo de las empresas, la burbuja de gasto amenazará la estabilidad financiera de los desarrolladores."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "El indicador crítico a seguir será la tasa de conversión de los proyectos piloto corporativos hacia fases de producción comercial sostenida, tanto en China como en los mercados occidentales de OpenAI y Anthropic. Asimismo, la velocidad con la que las instituciones educativas logren replicar los programas de certificación de FDE determinará si el cuello de botella técnico cede o si la escasez de este perfil frena definitivamente la expansión de la inteligencia artificial aplicada."
-            ]
-          }
-        ],
-        "tags": [
-          "Inteligencia Artificial",
-          "China",
-          "Economía Global",
-          "Tecnología",
-          "Empleo"
-        ],
-        "sources": [
-          {
-            "name": "Xataka México",
-            "title": "China ofrece sueldos de un millón de yuanes por el ingeniero de IA que también pelean OpenAI y Anthropic",
-            "url": "https://www.xataka.com.mx/robotica-e-ia/china-ofrece-sueldos-millon-yuanes-ingeniero-ia-que-tambien-pelean-openai-anthropic"
-          },
-          {
-            "name": "Xataka",
-            "title": "China ofrece sueldos de un millón de yuanes por el ingeniero de IA que también buscan Anthropic y OpenAI",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXVSaHF2SE1JVVl1UnVwMGRyZW8tSHdJc3V4OHJ4dWRaQWRPSndZODJBaXNFcDA1NTB4ZFhPS0s2VFMyRzRKOU1BS0t2UTRic2p1U0JZUFk2M3MzcEYwTGVSMHdQMnN3eG1wakc1aHg1dk9POGVzLTdXa2FOYWZJUzRhYmVZTFU4b3VscFVMVWEwTWllWkdYTHpjdFhIOWc3NlVUSTVWRGRsYVBxYmxrSnhmOUFtc1pCVVBPWTFiUmpyNXd00gHKAUFVX3lxTE55R1ZiT3lIeFhSY2pVZU9HU1c3cU5xbkVHTjdvU3F2eGJrUHhGcU92WHkzWkgxQkZPQXM3TmNyLUpIMUtVOTg1SHpudGhPa1hPOG9MS0ZXdWhqMUgwQnJhNnFfekk3WDhTZzkzNGRrZ21tTWJMYUZHa2t5RXVWNDdCNlRhb1BOcEFjSVdvWEE1TVRBckVUbTJTU0pqeW1weVd3Ni1tTndHQXRHVG03ejREUEtvWENTQ3lJN2x4QWdXNWNFQ3kxSlctVlE?oc=5"
-          },
-          {
-            "name": "MONCLOA.COM",
-            "title": "Un millón de yuanes: los sueldos de ingenieros de IA en China ya superan la oferta de OpenAI",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wQ0dnSW1sSE5pdG42VEhOUkdUejdvTHUteEkzMnJTSUhvODZyd2d0S1Q3aWw4ejdhVDB0QzY5akg0NzBselZObzlJSE9DOXdUV1kxaV9WV1RiZWpzRUl1bnBBcVNKd2dVQnNZVk5qMUkzX3RvZXBQWHRHQQ?oc=5"
-          },
-          {
-            "name": "El Ecosistema Startup",
-            "title": "ByteDance y Tencent pagan 1 millón de yuanes por FDE",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeEREWUZXWklWWU5OQ3BtZWZZZ1E5TEJxclhqNmdqaE8tUS0xbUlRU0c3anhBM24zSTU3UGU1TU01THJNTFNJejJCbWNxVmZXN1hHaXBqRW1oRS16QnVnRWlxRk8zd3NaWDIzZWFpbHYtZ09RSjBmY09mVUtRU3V6OTlLVGtHaVppcDVN?oc=5"
-          },
-          {
-            "name": "Reporte Indigo",
-            "title": "¿Por qué China, OpenAI y Anthropic ofrecen hasta 150 mil dólares por un solo ingeniero de IA?",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNVpFV3ViTEdobU44aFE3UUkzTjNCX2JsbFFFaEpsdVgzZmZudUl4aTllOFBrZmJrcWE3dGFvRDNORDVEak1qbXJKb0prcVNneHpDQUpvOW04cy1EN2drRUdPblNvcTJSV0trQ3ZOejRfNkl5bk5EZGhtenhvdGNmUHEtNkgtZmE5eFZuRG84T3g2U2dsbjY1QUxFbUpkODhjcEt0WXB1NGZZZXJrQ1l0SEExaVJXVWotVU54aGdWYWNhbjhTQ1Vyc2RZNkEwcTdmaUVTVGVxSi1iV1VOaVVLSHJhU2VhSVh1?oc=5"
-          }
-        ],
-        "wordCount": 641
-      },
-      "videoScript": {
-        "hook": "China paga un millón de yuanes por ingenieros de IA",
-        "beats": [
-          "Gigantes como ByteDance y Tencent ofrecen sueldos millonarios por ingenieros desplegados en cliente.",
-          "El motivo es una crisis de adopción donde solo el cinco por ciento de las herramientas llega a producción.",
-          "El verdadero cuello de botella de la inteligencia artificial no es crear modelos sino integrarlos en las empresas."
-        ],
-        "close": "Lee el análisis completo en el enlace del perfil."
-      },
-      "rawImageUrl": "https://i.blogs.es/39459f/china/840_560.jpeg",
-      "status": "published",
-      "createdAt": "2026-11-03T21:52:01.143Z",
-      "cardImageUrl": "/news-cards/news-9aqa1h5ni-1793742721144.jpg",
-      "instagramCardUrl": "/news-cards/news-9aqa1h5ni-1793742721726-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fiebre-millon-yuanes-verdadero-cuello-botella-m2jb/",
-      "publishedAt": "2026-11-04T01:27:05.045Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true
-    },
-    "scheduledFor": "2026-11-04T01:26:48.580Z",
-    "status": "published",
-    "attempts": 2,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-03T21:52:02.877Z",
-    "lastAttemptAt": "2026-11-04T01:27:04.030Z",
-    "results": {
-      "mastodon": {
-        "success": false,
-        "skipped": true,
-        "error": "Canal sin credenciales configuradas (omitido)"
-      },
-      "facebook": {
-        "success": true,
-        "postId": "122102951439532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "47",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3mzh6ue35r32f"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18121767271996221",
-        "permalink": "https://www.instagram.com/reel/DfTRHuqjNIJ/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "threads": {
-        "success": true,
-        "postId": "18060076685561873"
-      }
-    },
-    "publishedAt": "2026-11-04T01:27:05.045Z"
-  },
-  {
     "id": "queue-1793748858771-aghka",
     "news": {
       "id": "fhdk6wucn",
@@ -26418,12 +26243,13 @@
         "title": "Iran Claims US Radar Destroyed In Bahrain | IRGC Warns Trump As Middle East Tensions Rise | Original",
         "channel": "WION"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-13T10:19:45.195Z",
       "cardImageUrl": "/news-cards/news-ax906l35l-1794565185195.jpg",
       "reelCoverUrl": "/news-cards/news-ax906l35l-1794565185981-cover.jpg",
       "instagramCardUrl": "/news-cards/news-ax906l35l-1794565186493-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/destruccion-radar-estadounidense-barein-redibuja-conflicto-3cqt/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/destruccion-radar-estadounidense-barein-redibuja-conflicto-3cqt/",
+      "publishedAt": "2026-11-13T10:24:12.101Z"
     },
     "channels": {
       "facebook": true,
@@ -26437,10 +26263,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-13T10:19:47.637Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-13T10:19:47.637Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-13T10:20:49.307Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122110216689532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "201",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n26r6qscbi2k"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18114508820622360",
+        "permalink": "https://www.instagram.com/reel/DfraHEmjET0/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117608640542558566"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18102771893412082"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-13T10:24:12.101Z"
   }
 ]
