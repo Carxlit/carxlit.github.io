@@ -191,9 +191,38 @@
     "https://www.xataka.com/aplicaciones/16-horas-caida-outlook-teams-microsoft-todavia-no-sabe-que-ha-provocado",
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5",
     "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia",
-    "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMS02R1RUZC15bmpEMUlmVmJISkJZZ0s3Z0FfbFNhM2FuUHAtMHgxWGNSVGFSbFM0ZjdNaGhGSXdEOXFwSEhFN0FNZ0tPN09GbXVoa1g5NUFTM1ZUNDdLWW5MRFd3UU5ramp5YUVla0pqN3pqX0VaaWxvakl3VXVUczdYdHhweS15MV9fWnEzY1NxdnBXSXF5Z3NBUUVJR1dTS1Fqek9SSXQtWGhRaEZTb3BqelVkS2V6RkdWMW5PWnZvX2pRdkZGR1FBLXgtS1RWR3ZzZEpyV0xMeTN4Qmotc21ZMHZLbUU?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA SOLICITA MEDIACIÓN OCCIDENTAL PARA UNA TREGUA EN KOSTANTÍNOVKA",
+      "normalizedTokens": [
+        "rusia",
+        "solicita",
+        "mediacion",
+        "occidental",
+        "tregua",
+        "kostantinovka"
+      ],
+      "date": "2026-11-13T13:57:10.364Z"
+    },
+    {
+      "title": "El Kremlin apela a EEUU y Europa para que convenzan a Ucrania de apoyar una tregua humanitaria en Kostantínovka",
+      "normalizedTokens": [
+        "kremlin",
+        "apela",
+        "eeuu",
+        "europa",
+        "convenzan",
+        "ucrania",
+        "apoyar",
+        "tregua",
+        "humanitaria",
+        "kostantinovka"
+      ],
+      "date": "2026-11-13T13:57:10.362Z"
+    },
     {
       "title": "LA RESERVA FEDERAL FIJA NUEVAS TARIFAS Y RECORTES OPERATIVOS PARA 2027",
       "normalizedTokens": [

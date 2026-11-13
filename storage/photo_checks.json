@@ -788,5 +788,10 @@
     "relevant": true,
     "reason": "La imagen muestra un anuncio oficial de la Reserva Federal relacionado con los servicios de pago mencionados en el texto.",
     "at": "2026-11-13T12:18:51.731Z"
+  },
+  "f98d4395447b6a0a:rdek868tj": {
+    "relevant": true,
+    "reason": "La imagen muestra a Dmitry Peskov, portavoz del Kremlin, institución mencionada centralmente en el contexto de la noticia.",
+    "at": "2026-11-13T13:57:06.542Z"
   }
 }
