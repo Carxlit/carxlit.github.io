@@ -793,5 +793,15 @@
     "relevant": true,
     "reason": "La imagen muestra a Dmitry Peskov, portavoz del Kremlin, institución mencionada centralmente en el contexto de la noticia.",
     "at": "2026-11-13T13:57:06.542Z"
+  },
+  "83e3c83941df20f4:f9hswdhko": {
+    "relevant": false,
+    "reason": "La imagen muestra un montaje falso de Delcy Rodríguez junto a Donald Trump con banderas de EE. UU. y Venezuela, no un evento de la COP31 ni la Cumbre del Clima en Antalya.",
+    "at": "2026-11-13T15:00:22.255Z"
+  },
+  "656981b9f99f5c54:f9hswdhko": {
+    "relevant": true,
+    "reason": "Muestra a Delcy Rodríguez saludando y firmando en la COP31 de Antalya, reflejando el contexto de la cumbre mencionada en la noticia.",
+    "at": "2026-11-13T15:00:44.641Z"
   }
 }

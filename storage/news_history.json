@@ -192,9 +192,41 @@
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83bGphT0drSTh6TWE1YXpOdnVmbzB1SWE1UFNRcmw3enVJYm5zWG1hSHlDZnNTbjk2VmZWU2xvVEVmQ3BsVzFSV2R5T0Ftc3BqWlE?oc=5",
     "https://www.genbeta.com/actualidad/como-jensen-huang-que-proviene-familia-comun-construyo-imperio-nvidia",
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMS02R1RUZC15bmpEMUlmVmJISkJZZ0s3Z0FfbFNhM2FuUHAtMHgxWGNSVGFSbFM0ZjdNaGhGSXdEOXFwSEhFN0FNZ0tPN09GbXVoa1g5NUFTM1ZUNDdLWW5MRFd3UU5ramp5YUVla0pqN3pqX0VaaWxvakl3VXVUczdYdHhweS15MV9fWnEzY1NxdnBXSXF5Z3NBUUVJR1dTS1Fqek9SSXQtWGhRaEZTb3BqelVkS2V6RkdWMW5PWnZvX2pRdkZGR1FBLXgtS1RWR3ZzZEpyV0xMeTN4Qmotc21ZMHZLbUU?oc=5"
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMS02R1RUZC15bmpEMUlmVmJISkJZZ0s3Z0FfbFNhM2FuUHAtMHgxWGNSVGFSbFM0ZjdNaGhGSXdEOXFwSEhFN0FNZ0tPN09GbXVoa1g5NUFTM1ZUNDdLWW5MRFd3UU5ramp5YUVla0pqN3pqX0VaaWxvakl3VXVUczdYdHhweS15MV9fWnEzY1NxdnBXSXF5Z3NBUUVJR1dTS1Fqek9SSXQtWGhRaEZTb3BqelVkS2V6RkdWMW5PWnZvX2pRdkZGR1FBLXgtS1RWR3ZzZEpyV0xMeTN4Qmotc21ZMHZLbUU?oc=5",
+    "https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-defiende-ante-la-cop31-el-derecho-de-venezuela-a-producir-mas-petroleo-pese-a-los-llamados-para-abandonar-los-combustibles-fosiles-3600744"
   ],
   "processedSignatures": [
+    {
+      "title": "VENEZUELA DEFIENDE SU PETRÓLEO EN LA COP31 DE ANTALYA",
+      "normalizedTokens": [
+        "venezuela",
+        "defiende",
+        "petroleo",
+        "cop31",
+        "antalya"
+      ],
+      "date": "2026-11-13T15:00:48.097Z"
+    },
+    {
+      "title": "Delcy Rodríguez defiende ante la COP31 el derecho de Venezuela a producir más petróleo pese a los llamados para abandonar los combustibles fósiles",
+      "normalizedTokens": [
+        "delcy",
+        "rodriguez",
+        "defiende",
+        "cop31",
+        "derecho",
+        "venezuela",
+        "producir",
+        "mas",
+        "petroleo",
+        "pese",
+        "llamados",
+        "abandonar",
+        "combustibles",
+        "fosiles"
+      ],
+      "date": "2026-11-13T15:00:48.096Z"
+    },
     {
       "title": "RUSIA SOLICITA MEDIACIÓN OCCIDENTAL PARA UNA TREGUA EN KOSTANTÍNOVKA",
       "normalizedTokens": [
