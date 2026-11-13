@@ -768,5 +768,10 @@
     "relevant": true,
     "reason": "Muestra una imagen de un ataque y explosión en una instalación costera, representando directamente la acción militar descrita en el titular.",
     "at": "2026-11-13T10:19:45.193Z"
+  },
+  "52500fb7622c0238:ffntaqwof": {
+    "relevant": true,
+    "reason": "La imagen muestra el logotipo de Microsoft, la compañía protagonista del titular sobre el fallo digital.",
+    "at": "2026-11-13T11:02:46.093Z"
   }
 }

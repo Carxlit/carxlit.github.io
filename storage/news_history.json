@@ -187,9 +187,39 @@
     "https://www.france24.com/es/video/20261113-ataque-israel%C3%AD-contra-hospital-nasser-en-gaza-deja-al-menos-seis-palestinos-muertos",
     "https://elpais.com/internacional/2026-11-13/mas-de-450000-combatientes-del-bando-ruso-han-muerto-desde-el-inicio-de-la-guerra-segun-la-base-de-datos-oficial.html",
     "https://www.europapress.es/internacional/noticia-mueren-cuatro-personas-ataque-ucrania-contra-zona-industrial-region-rusa-volgogrado-20261113081843.html",
-    "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran"
+    "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+    "https://www.xataka.com/aplicaciones/16-horas-caida-outlook-teams-microsoft-todavia-no-sabe-que-ha-provocado"
   ],
   "processedSignatures": [
+    {
+      "title": "FALLO MASIVO DE MICROSOFT REVELA LA FRAGILIDAD DIGITAL CORPORATIVA GLOBAL",
+      "normalizedTokens": [
+        "fallo",
+        "masivo",
+        "microsoft",
+        "revela",
+        "fragilidad",
+        "digital",
+        "corporativa",
+        "global"
+      ],
+      "date": "2026-11-13T11:02:51.702Z"
+    },
+    {
+      "title": "Más de 16 horas de caída de Outlook y Teams, y Microsoft todavía no sabe qué la ha provocado",
+      "normalizedTokens": [
+        "mas",
+        "horas",
+        "caida",
+        "outlook",
+        "teams",
+        "microsoft",
+        "todavia",
+        "sabe",
+        "provocado"
+      ],
+      "date": "2026-11-13T11:02:51.700Z"
+    },
     {
       "title": "EL CUERPO DE LA GUARDIA REVOLUCIONARIA DE IRÁN DESTRUYE RADAR DE EEUU EN BARÉIN",
       "normalizedTokens": [
