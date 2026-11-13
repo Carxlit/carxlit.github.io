@@ -1,5 +1,106 @@
 [
   {
+    "id": "j4jvfa35y",
+    "originalUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5",
+    "originalTitle": "Microsoft ha descartado un ciberataque. Enlace en comentarios. 👇",
+    "sourceName": "Facebook",
+    "category": "TECNOLOGÍA & IA",
+    "urgencyScore": 82,
+    "headline": "MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL",
+    "subHeadline": "La multinacional estadounidense confirmó que la interrupción masiva de sus servicios no respondió a un ataque informático externo. El incidente reabre la controversia sobre la fragilidad de la infraestructura en la nube.",
+    "blindSpotAngle": "Atribuir los colapsos masivos a fallos internos de configuración o infraestructura desplaza la atención del verdadero peligro sistémico. Aunque se descarte la acción hostil de terceros, la extrema concentración digital en un puñado de proveedores crea un punto único de falla capaz de paralizar sectores económicos enteros sin necesidad de una sola incursión cibernética.",
+    "facebookPost": "Microsoft ha confirmado que la reciente interrupción global de sus servicios no se debió a un ciberataque externo, atribuyendo el incidente a fallas técnicas de infraestructura y software. Mientras las explicaciones corporativas se centran en la contención de la avería, la narrativa dominante pasa por alto la vulnerabilidad estructural de este modelo.\n\nEl riesgo más grave no siempre proviene de ataques hostiles o malware, sino de la fragilidad inherente a la extrema centralización de los servicios digitales. Cuando la operativa diaria de miles de empresas e instituciones depende de un único gigante tecnológico, cualquier error interno desencadena una parálisis masiva con elevados costos económicos.\n\n¿Deberían los gobiernos impensar su dependencia crítica de infraestructuras tecnológicas tan altamente concentradas?\n\nFuente: Facebook\n\n#Tecnología #Ciberseguridad #PuntoCiego",
+    "telegramPost": "<b>MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL</b>\n\n• <b>Qué ocurrió:</b> Microsoft confirmó oficialmente que la caida masiva de sus servicios informáticos no fue provocada por un ciberataque externo.\n• <b>Por qué importa:</b> Descartar la hipótesis del sabotaje pone en evidencia la fragilidad de un modelo digital centralizado, donde un error técnico interno puede interrumpir servicios esenciales en múltiples países.\n• <b>Qué sigue:</b> Aumentará la presión regulatoria sobre la resiliencia operativa y la exigencia de planes de redundancia para infraestructuras críticas.",
+    "linkedInPost": "La confirmación por parte de Microsoft descartando un ciberataque tras la reciente interrupción de sus servicios pone de relieve un debate fundamental sobre el riesgo operativo y la continuidad del negocio. Con frecuencia, los comités de dirección priorizan la defensa frente a amenazas externas como ransomware o espionaje, infravalorando la vulnerabilidad que representan los fallos técnicos en plataformas centralizadas.\n\nLa alta concentración del mercado de servicios en la nube en unos pocos proveedores globales genera cuellos de botella críticos para las cadenas de valor internacionales. Las organizaciones deben trascender la ciberseguridad tradicional y adoptar estrategias rigurosas de soberanía digital, evaluación de impacto y redundancia de sistemas esenciales.\n\nFuente: Facebook\n\n#Tecnología #RiesgoOperativo #PuntoCiego",
+    "blueskyPost": "Microsoft descarta un ciberataque tras su caída global. El mayor peligro no siempre es un ciberataque: la alta centralización digital convierte un fallo interno en parálisis sistémica. #Tecnología #PuntoCiego",
+    "copies": {
+      "facebook": "Microsoft ha confirmado que la reciente interrupción global de sus servicios no se debió a un ciberataque externo, atribuyendo el incidente a fallas técnicas de infraestructura y software. Mientras las explicaciones corporativas se centran en la contención de la avería, la narrativa dominante pasa por alto la vulnerabilidad estructural de este modelo.\n\nEl riesgo más grave no siempre proviene de ataques hostiles o malware, sino de la fragilidad inherente a la extrema centralización de los servicios digitales. Cuando la operativa diaria de miles de empresas e instituciones depende de un único gigante tecnológico, cualquier error interno desencadena una parálisis masiva con elevados costos económicos.\n\n¿Deberían los gobiernos impensar su dependencia crítica de infraestructuras tecnológicas tan altamente concentradas?\n\n#Tecnología #Ciberseguridad #PuntoCiego",
+      "telegram": "<b>MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL</b>\n\n• <b>Qué ocurrió:</b> Microsoft confirmó oficialmente que la caida masiva de sus servicios informáticos no fue provocada por un ciberataque externo.\n• <b>Por qué importa:</b> Descartar la hipótesis del sabotaje pone en evidencia la fragilidad de un modelo digital centralizado, donde un error técnico interno puede interrumpir servicios esenciales en múltiples países.\n• <b>Qué sigue:</b> Aumentará la presión regulatoria sobre la resiliencia operativa y la exigencia de planes de redundancia para infraestructuras críticas.",
+      "bluesky": "Microsoft descarta un ciberataque tras su caída global. El mayor peligro no siempre es un ciberataque: la alta centralización digital convierte un fallo interno en parálisis sistémica. #Tecnología #PuntoCiego",
+      "linkedIn": "La confirmación por parte de Microsoft descartando un ciberataque tras la reciente interrupción de sus servicios pone de relieve un debate fundamental sobre el riesgo operativo y la continuidad del negocio. Con frecuencia, los comités de dirección priorizan la defensa frente a amenazas externas como ransomware o espionaje, infravalorando la vulnerabilidad que representan los fallos técnicos en plataformas centralizadas.\n\nLa alta concentración del mercado de servicios en la nube en unos pocos proveedores globales genera cuellos de botella críticos para las cadenas de valor internacionales. Las organizaciones deben trascender la ciberseguridad tradicional y adoptar estrategias rigurosas de soberanía digital, evaluación de impacto y redundancia de sistemas esenciales.\n\n#Tecnología #RiesgoOperativo #PuntoCiego"
+    },
+    "article": {
+      "slug": "microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q",
+      "title": "Microsoft descarta el ciberataque pero expone la vulnerabilidad de la nube global",
+      "dek": "La multinacional confirmó que la caída masiva de sus servicios no fue causada por actores hostiles. El episodio reabre la controversia sobre los riesgos de la concentración digital.",
+      "keyFacts": [
+        "Microsoft descartó oficialmente la hipótesis de un ciberataque como causa de la interrupción de sus servicios.",
+        "La Vanguardia reportó las pautas y errores comunes de los usuarios ante caídas masivas en las plataformas de Microsoft.",
+        "La falla afectó la operativa técnica de organizaciones e infraestructuras a nivel internacional."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Microsoft ha confirmado oficialmente que la interrupción masiva registrada en sus plataformas y servicios de computación no tuvo su origen en un ciberataque perpetrado por actores maliciosos. Tras el despliegue de las investigaciones internas iniciales, la firma multinacional aclaró que el fallo estuvo vinculado a problemas técnicos de infraestructura interna y actualizaciones de software. La aclaración busca mitigar la alarma desatada entre usuarios corporativos e instituciones de todo el mundo que sufrieron interrupciones en su operativa diaria."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Cada vez que un gigante tecnológico sufre una caída de servicio a escala mundial, la narrativa pública tiende a asumir la existencia de un sabotaje digital o una incursión cibernética hostil. Frente a la desinformación y el pánico operativo, publicaciones como La Vanguardia abordaron la crisis analizando las pautas de actuación de los usuarios durante estas interrupciones, detallando las prácticas desaconsejadas que terminan por empeorar la situación de los sistemas informáticos afectados. Las recomendaciones enfatizan la importancia de no forzar reinicios erráticos ni ejecutar modificaciones de red no verificadas mientras los servidores centrales restablecen los servicios."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Para el análisis estratégico de Punto Ciego, la rápida confirmación de que no se trató de un ciberataque no desmoviliza la gravedad del evento. Al contrario, pone al descubierto una realidad más preocupante: la extrema fragilidad del modelo de infraestructura digital altamente concentrado. La atención mediática se centra casi por completo en descartar la amenaza de hackers extranjeros o grupos de ciberdelincuencia, descuidando el riesgo de que un simple fallo de configuración interna en una sola compañía con sede en Estados Unidos pueda paralizar instantáneamente la actividad de miles de empresas y administraciones públicas globales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los grandes proveedores de tecnología mantienen su posición dominante en el mercado global gracias al elevado costo de cambio que implicaría para las corporaciones migrar a otras plataformas. Sin embargo, sufren un desgaste progresivo en la confianza sobre sus garantías de disponibilidad ininterrumpida. En la acera opuesta, las empresas cliente y el sector público asumen de manera íntegra el impacto económico de la inactividad y la pérdida de productividad, expuestos a vulnerabilidades operativas donde carecen de control técnico directo y de mecanismos efectivos de mitigación inmediata."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "A corto y mediano plazo, resulta fundamental vigilar el desarrollo de las normativas de resiliencia operativa digital que diversos organismos internacionales y gobiernos están implementando. La divulgación detallada de los informes de análisis causa-raíz por parte de Microsoft dictará si las autoridades regulatorias imponen exigencias más strictly en materia de redundancia obligatoria para las infraestructuras de nube crítica. Asimismo, el debate técnico se desplazará progresivamente desde los presupuestos destinados exclusivamente a la ciberdefensa hacia estrategias de soberanía tecnológica e independencia operativa."
+          ]
+        }
+      ],
+      "tags": [
+        "microsoft",
+        "ciberseguridad",
+        "tecnologia",
+        "infraestructura",
+        "nube",
+        "puntociego"
+      ],
+      "sources": [
+        {
+          "name": "Facebook",
+          "title": "Microsoft ha descartado un ciberataque. Enlace en comentarios. 👇",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5"
+        },
+        {
+          "name": "La Vanguardia",
+          "title": "Lo que no hay que hacer nunca ante caídas como la de Microsoft",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX2JUYl92XzdQaG1zYXBmVWtVUlpwV094bzRhb2d6TXZCYng0ZThkd1I0WXBDSmItdFk2TTVUeEtFSmNIdnFoX2hGdlA1SHMwREtDcUMwRDAwMDVURDh6eC1OUGFpYTJOMHRldXlmVDFHRGVPM1ViZ3hfakVpUTdQSjNQUXpXczBWYUZF0gGQAUFVX3lxTFBhUmlSeDJFTllnLUNZbVBodDRYUzNHOTBHY2VicjNxNklRRDcxd1p4UUZVN3pXMUI4LWwtVkVxbHFTa014UmxjaW5ScnZmWFVTWHJWUnh2NmVGS3pfcm9xNEY3NDVDb3JudzFrM2ZhN190R21rUFdtTnRhYldwYjMzYVZGU0w1dE9yMTRDZ2VnVw?oc=5"
+        }
+      ],
+      "wordCount": 466
+    },
+    "videoScript": {
+      "hook": "¿Crees que las grandes caídas tecnológicas son siempre ciberataques de hackers?",
+      "beats": [
+        "Microsoft descartó oficialmente un ataque informático en la reciente interrupción global de sus sistemas.",
+        "Medios como La Vanguardia recuerdan que las malas decisiones de los usuarios agravan la parálisis en estos incidentes.",
+        "Ojo, lo que nadie dice es que un error interno en un proveedor centralizado paraliza economías completas."
+      ],
+      "close": "Lee el análisis completo sobre este punto ciego en el enlace del perfil."
+    },
+    "rawImageUrl": "https://www.lavanguardia.com/files/image_1920_1080/files/fp/uploads/2026/11/13/6af70e87593aa.r_d.2294-1102-5727.jpeg",
+    "status": "published",
+    "createdAt": "2026-11-13T16:33:26.310Z",
+    "cardImageUrl": "/news-cards/news-j4jvfa35y-1794587606311.jpg",
+    "reelCoverUrl": "/news-cards/news-j4jvfa35y-1794587607018-cover.jpg",
+    "instagramCardUrl": "/news-cards/news-j4jvfa35y-1794587607627-ig.jpg",
+    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q/",
+    "publishedAt": "2026-11-13T20:31:18.233Z"
+  },
+  {
     "id": "f9hswdhko",
     "originalUrl": "https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-defiende-ante-la-cop31-el-derecho-de-venezuela-a-producir-mas-petroleo-pese-a-los-llamados-para-abandonar-los-combustibles-fosiles-3600744",
     "originalTitle": "Delcy Rodríguez defiende ante la COP31 el derecho de Venezuela a producir más petróleo pese a los llamados para abandonar los combustibles fósiles",
