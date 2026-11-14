@@ -199,9 +199,37 @@
     "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
     "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
-    "https://www.abc.es/internacional/guerra-interna-casa-blanca-fuga-chips-nvidia-20261113174842-nt.html"
+    "https://www.abc.es/internacional/guerra-interna-casa-blanca-fuga-chips-nvidia-20261113174842-nt.html",
+    "https://www.france24.com/es/video/20261114-colombia-el-fondo-milagro-y-la-reconstrucci%C3%B3n-del-terremoto-ponen-presi%C3%B3n-a-de-la-espriella"
   ],
   "processedSignatures": [
+    {
+      "title": "FONDO MILAGRO EN COLOMBIA DESATA CRISIS POR LENTA RECONSTRUCCIÓN",
+      "normalizedTokens": [
+        "fondo",
+        "milagro",
+        "colombia",
+        "desata",
+        "crisis",
+        "lenta",
+        "reconstruccion"
+      ],
+      "date": "2026-11-14T05:02:23.746Z"
+    },
+    {
+      "title": "Colombia: el Fondo Milagro y la reconstrucción del terremoto ponen presión a De la Espriella",
+      "normalizedTokens": [
+        "colombia",
+        "fondo",
+        "milagro",
+        "reconstruccion",
+        "terremoto",
+        "ponen",
+        "presion",
+        "espriella"
+      ],
+      "date": "2026-11-14T05:02:23.745Z"
+    },
     {
       "title": "ESCÁNDALO EN NVIDIA DESTAPA GRIETAS EN LA ESTRATEGIA TECNOLÓGICA ESTADOUNIDENSE",
       "normalizedTokens": [
