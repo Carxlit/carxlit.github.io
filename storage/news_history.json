@@ -211,9 +211,45 @@
     "https://www.xataka.com/magnet/plena-crisis-alcohol-espana-esta-viviendo-fiebre-tequila-su-segundo-mayor-mercado-internacional",
     "https://www.xataka.com/energia/energia-solar-produce-electricidad-que-todas-centrales-nucleares-mundo-juntas-cuando-hace-diez-anos-apenas-representaba-1",
     "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
-    "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss",
+    "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
   ],
   "processedSignatures": [
+    {
+      "title": "LA CAÍDA DEL CONTROL ÉTICO EN OPENAI REVELA LA FRAGILIDAD DE LA SEGURIDAD EN LA INTELIGENCIA ARTIFICIAL",
+      "normalizedTokens": [
+        "caida",
+        "control",
+        "etico",
+        "openai",
+        "revela",
+        "fragilidad",
+        "seguridad",
+        "inteligencia",
+        "artificial"
+      ],
+      "date": "2026-11-14T17:46:40.461Z"
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "normalizedTokens": [
+        "the",
+        "openai",
+        "board",
+        "member",
+        "who",
+        "fired",
+        "sam",
+        "altman",
+        "says",
+        "still",
+        "can",
+        "8217",
+        "trust",
+        "ceos"
+      ],
+      "date": "2026-11-14T17:46:40.460Z"
+    },
     {
       "title": "ESTADOS UNIDOS PLANTEA CEDER EL DONBÁS A CAMBIO DE LA OTAN",
       "normalizedTokens": [
