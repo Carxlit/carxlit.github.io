@@ -201,9 +201,40 @@
     "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
     "https://www.abc.es/internacional/guerra-interna-casa-blanca-fuga-chips-nvidia-20261113174842-nt.html",
     "https://www.france24.com/es/video/20261114-colombia-el-fondo-milagro-y-la-reconstrucci%C3%B3n-del-terremoto-ponen-presi%C3%B3n-a-de-la-espriella",
-    "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss"
+    "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss",
+    "https://www.dw.com/es/irán-informa-de-tres-petroleros-incendiados-por-la-explosión-de-minas-marinas-en-el-estrecho-de-ormuz-y-renueva-sus-advertencias/a-79946984?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "IRÁN REFUERZA SU CONTROL EN ORMUZ TRAS EXPLOSIONES DE PETROLEROS",
+      "normalizedTokens": [
+        "iran",
+        "refuerza",
+        "control",
+        "ormuz",
+        "explosiones",
+        "petroleros"
+      ],
+      "date": "2026-11-14T09:01:46.528Z"
+    },
+    {
+      "title": "Irán informa de tres petroleros incendiados por la explosión de minas marinas en el estrecho de Ormuz y renueva sus advertencias",
+      "normalizedTokens": [
+        "iran",
+        "informa",
+        "tres",
+        "petroleros",
+        "incendiados",
+        "explosion",
+        "minas",
+        "marinas",
+        "estrecho",
+        "ormuz",
+        "renueva",
+        "advertencias"
+      ],
+      "date": "2026-11-14T09:01:46.523Z"
+    },
     {
       "title": "ONU CONFIRMA 25 MARINEROS MUERTOS EN EL ESTRECHO DE HORMUZ",
       "normalizedTokens": [
