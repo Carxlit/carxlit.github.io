@@ -213,9 +213,39 @@
     "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
     "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss",
     "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-    "https://www.abc.es/internacional/trump-reunira-putin-jinping-historica-cumbre-trilateral-20261114014845-nt.html"
+    "https://www.abc.es/internacional/trump-reunira-putin-jinping-historica-cumbre-trilateral-20261114014845-nt.html",
+    "https://www.xataka.com.mx/seleccion/macbook-calidad-precio-mercado-tiene-ofertas-buen-fin-2026-este-su-mejor-precio"
   ],
   "processedSignatures": [
+    {
+      "title": "APPLE Y BANCOS IMPULSAN SUBSIDIOS EN EL BUEN FIN 2026",
+      "normalizedTokens": [
+        "apple",
+        "bancos",
+        "impulsan",
+        "subsidios",
+        "buen",
+        "fin",
+        "2026"
+      ],
+      "date": "2026-11-14T20:28:21.882Z"
+    },
+    {
+      "title": "La MacBook calidad-precio del mercado sí tiene ofertas en el Buen Fin 2026. Este es su mejor precio",
+      "normalizedTokens": [
+        "macbook",
+        "calidad",
+        "precio",
+        "mercado",
+        "ofertas",
+        "buen",
+        "fin",
+        "2026",
+        "mejor",
+        "precio"
+      ],
+      "date": "2026-11-14T20:28:21.880Z"
+    },
     {
       "title": "TRUMP CONVOCA CUMBRE TRILATERAL CON PUTIN Y XI JINPING",
       "normalizedTokens": [
