@@ -26657,5 +26657,149 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-14T11:31:39.949Z"
+  },
+  {
+    "id": "queue-1794657269344-wtw5t",
+    "news": {
+      "id": "xip92zjad",
+      "originalUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc1FkUDVHTmd3X2RiMC1qVV9OSGRvQ3cwVmptNktNWHZIaUhYWXFrWlBGc1VGVC12N1RPal9weGZjcnM5Z0NuV2R2NjlzcGtsZGJYc2tSYlJ0eW56NlpRSDRUTHN4TUNYXzY0cnFSX0NTWXZ4QnVjZmFWNHZ5OGh2N3Vza2lPMHJXdHptMnNEaEx0eWV2Zjl2QXlJLVJ3elB4MHhEMWt2YWtkRU9PVkxZTm1CNVFPV3oyTjZWcmJFOGR2dDdCZllkSzc0UUs1elpBdTJ4ZVNzLVI4elNJX1BTWTdKT2hLS3fSAecBQVVfeXFMTlIwVXhxTFZaSDRjY1gyX2t3ekVzeFkxUzBGRlJxTHBqa1lqWTRzZUpYNDluX0ZmWWlRUTZOVkNvTFNMcms2amZLa3I0T3Q5WlgxU3BvdHVxMUNLM3k5NTNWN0JSYXFPZUZjMnM3TkxndU1sdWUtUThKNnF4SENjQlhieXBSMVV6ZnROUThoTXViY09kV3E1VnBsckZNeWFYRy1zVk1CVFJ1M1pUSzZwaFhpSzA4SlpTY0FLLUY2MWE4RV9Qakp0TWJRQjFBMGNmbUNiMWstY3lJUXE5algtb01WWE1sZktn?oc=5",
+      "originalTitle": "EEUU afirma que suspensión de vuelos no se debió a un ataque terrorista sino a un fallo de comunicaciones",
+      "sourceName": "DW.com",
+      "category": "SEGURIDAD & DEFENSA",
+      "urgencyScore": 88,
+      "headline": "LA PARALIZACIÓN AÉREA EN ESTADOS UNIDOS EXPONE VULNERABILIDAD CRÍTICA",
+      "subHeadline": "El gobierno estadounidense descartó un ataque terrorista tras una masiva suspensión de vuelos provocada por un fallo en las telecomunicaciones.",
+      "blindSpotAngle": "Más allá del alivio por descartar el terrorismo, la caída simultánea de los principales centros neurálgicos del tráfico aéreo revela la fragilidad estructural de las redes de comunicación civil ante fallos técnicos o posibles ataques cibernéticos de infraestructura crítica.",
+      "facebookPost": "La suspensión generalizada de despegues en los principales aeropuertos de Estados Unidos desató de inmediato el fantasma de septiembre de 2001. Sin embargo, el secretario de Seguridad Nacional, Markwayne Mullin, descartó cualquier atentado y atribuyó el caos a una interrupción en las telecomunicaciones que afectó a terminales desde Atlanta hasta Los Ángeles, además de repercutir en Canadá y México.\n\nEl alivio institucional contrasta con una pregunta incómoda: ¿es sostenible que la infraestructura de transporte más grande del mundo dependa de arquitecturas de red tan frágiles que un fallo de comunicación paralice un continente entero en cuestión de horas?\n\n¿Estamos ante un simple accidente técnico o frente al ensayo general de una vulnerabilidad sistémica que ningún cortafuegos gubernamental puede garantizar?\n\nFuente: DW.com\n\n#SeguridadNacional #InfraestructuraCrítica #PuntoCiego",
+      "telegramPost": "<b>LA VULNERABILIDAD DE LA RED AÉREA NORTEAMERICANA</b>\n\n• <b>Qué ocurrió:</b> Una masiva interrupción en las telecomunicaciones obligó a suspender los despegues en los aeropuertos más importantes de Estados Unidos, provocando cientos de retrasos y afectando conexiones en Canadá y México.\n\n• <b>Por qué importa:</b> Aunque el gobierno descartó un ataque terrorista y comparaciones con el 11 de septiembre, el incidente expone la extrema fragilidad de los sistemas de control y la falta de redundancia en redes críticas de transporte.\n\n• <b>Qué sigue:</b> Las autoridades aeronáuticas de la región evalúan los daños operativos mientras se exige una auditoría profunda sobre la resiliencia de las redes de comunicación que sostienen la aviación comercial.",
+      "linkedInPost": "La paralización temporal del tráfico aéreo en Estados Unidos y su efecto dominó en terminales canadienses y mexicanas ilustra el riesgo sistémico al que se enfrentan las cadenas logísticas globales. Un fallo en las telecomunicaciones, lejos de ser una mera anécdota operativa, pone bajo lupa la resiliencia de la infraestructura crítica ante fallos tecnológicos no hostiles. Las implicaciones para la continuidad de negocios en aerolíneas como Volaris o Aeroméxico evidencian que la estabilidad económica transfronteriza depende de la solidez técnica de los sistemas de control estatal. Es momento de replantear las inversiones en redundancia digital.\n\nFuente: DW.com\n\n#InfraestructuraCrítica #AviaciónCivil #RiesgoOperativo #PuntoCiego",
+      "blueskyPost": "Un fallo de telecomunicaciones paralizó los aeropuertos de EE.UU. y sacudió a Canadá y México. Descartado el terrorismo, queda la duda: ¿soporta la infraestructura crítica un mundo hiperconectado? #SeguridadNacional #PuntoCiego",
+      "copies": {
+        "facebook": "La suspensión generalizada de despegues en los principales aeropuertos de Estados Unidos desató de inmediato el fantasma de septiembre de 2001. Sin embargo, el secretario de Seguridad Nacional, Markwayne Mullin, descartó cualquier atentado y atribuyó el caos a una interrupción en las telecomunicaciones que afectó a terminales desde Atlanta hasta Los Ángeles, además de repercutir en Canadá y México.\n\nEl alivio institucional contrasta con una pregunta incómoda: ¿es sostenible que la infraestructura de transporte más grande del mundo dependa de arquitecturas de red tan frágiles que un fallo de comunicación paralice un continente entero en cuestión de horas?\n\n¿Estamos ante un simple accidente técnico o frente al ensayo general de una vulnerabilidad sistémica que ningún cortafuegos gubernamental puede garantizar?\n\n#SeguridadNacional #InfraestructuraCrítica #PuntoCiego",
+        "telegram": "<b>LA VULNERABILIDAD DE LA RED AÉREA NORTEAMERICANA</b>\n\n• <b>Qué ocurrió:</b> Una masiva interrupción en las telecomunicaciones obligó a suspender los despegues en los aeropuertos más importantes de Estados Unidos, provocando cientos de retrasos y afectando conexiones en Canadá y México.\n\n• <b>Por qué importa:</b> Aunque el gobierno descartó un ataque terrorista y comparaciones con el 11 de septiembre, el incidente expone la extrema fragilidad de los sistemas de control y la falta de redundancia en redes críticas de transporte.\n\n• <b>Qué sigue:</b> Las autoridades aeronáuticas de la región evalúan los daños operativos mientras se exige una auditoría profunda sobre la resiliencia de las redes de comunicación que sostienen la aviación comercial.",
+        "bluesky": "Un fallo de telecomunicaciones paralizó los aeropuertos de EE.UU. y sacudió a Canadá y México. Descartado el terrorismo, queda la duda: ¿soporta la infraestructura crítica un mundo hiperconectado? #SeguridadNacional #PuntoCiego",
+        "linkedIn": "La paralización temporal del tráfico aéreo en Estados Unidos y su efecto dominó en terminales canadienses y mexicanas ilustra el riesgo sistémico al que se enfrentan las cadenas logísticas globales. Un fallo en las telecomunicaciones, lejos de ser una mera anécdota operativa, pone bajo lupa la resiliencia de la infraestructura crítica ante fallos tecnológicos no hostiles. Las implicaciones para la continuidad de negocios en aerolíneas como Volaris o Aeroméxico evidencian que la estabilidad económica transfronteriza depende de la solidez técnica de los sistemas de control estatal. Es momento de replantear las inversiones en redundancia digital.\n\n#InfraestructuraCrítica #AviaciónCivil #RiesgoOperativo #PuntoCiego"
+      },
+      "article": {
+        "slug": "paralisis-aerea-estados-unidos-desnuda-fragilidad-sw83",
+        "title": "La parálisis aérea en Estados Unidos desnuda la fragilidad de las redes de telecomunicación",
+        "dek": "Una interrupción en los sistemas de comunicación obligó a suspender despegues en todo el país norteamericano, generando un efecto dominó internacional que encendió las alertas sobre la seguridad de las infraestructuras críticas.",
+        "keyFacts": [
+          "El secretario de Seguridad Nacional, Markwayne Mullin, descartó un ataque terrorista el viernes 13 de noviembre de 2026.",
+          "Aeropuertos como Atlanta, Dallas-Fort Worth, O'Hare de Chicago, Denver y Los Ángeles registraron cientos de retrasos.",
+          "La Agencia Federal de Aviación Civil de México solicitó mantener en tierra todas las aeronaves con destino a Estados Unidos.",
+          "Terminales clave en Canadá, como el Pearson de Toronto, sufrieron decenas de cancelaciones y retrasos."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Una repentina orden de suspender los despegues en los aeropuertos más transitados de Estados Unidos paralizó este viernes el tráfico aéreo nacional e internacional. El secretario de Seguridad Nacional, Markwayne Mullin, compareció ante los medios en la Casa Blanca para disipar los temores iniciales y asegurar que la medida no obedecía a un ataque terrorista.",
+              "Según la información oficial proporcionada por el gobierno estadounidense, el origen del colapso se debió a una interrupción en las telecomunicaciones. La magnitud del fallo obligó a restringir las operaciones en centros neurálgicos como Atlanta, Dallas-Fort Worth, el O'Hare de Chicago, Denver y Los Ángeles, además de los aeropuertos neoyorquinos de JFK y LaGuardia."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La paralización de la aviación comercial activa de inmediato los peores recuerdos colectivos en Estados Unidos. Consciente de ello, el propio Mullin se encargó de marcar distancias con los atentados del 11 de septiembre de 2001, señalando que la población no tenía motivos para sentir temor por la seguridad física de sus familiares.",
+              "El impacto traspasó las fronteras estadounidenses de manera inmediata. Plataformas de seguimiento como FlightAware documentaron afectaciones severas en Canadá, donde los aeropuertos de Toronto, Montreal, Vancouver y Calgary sufrieron decenas de cancelaciones y retrasos en conexiones clave. Paralelamente, la Agencia Federal de Aviación Civil de México ordenó mantener en tierra los vuelos programados hacia el país vecino, mientras aerolíneas como Volaris y Aeroméxico suspendían sus operaciones."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "La rápida narrativa oficial de centrar el problema en un fallo técnico menor desvía la atención hacia una vulnerabilidad estructural mucho más profunda. Que una falla en las redes de comunicación baste para inmovilizar simultáneamente el espacio aéreo de la principal potencia económica mundial demuestra que la arquitectura tecnológica civil carece de los niveles de blindaje y redundancia que exige la seguridad nacional contemporánea.",
+              "Mientras los directivos de aviación centran sus esfuerzos en normalizar las operaciones y mitigar los perjuicios económicos inmediatos, los analistas de defensa advierten que este tipo de incidentes exponen flancos que cualquier actor hostil podría explotar en el futuro mediante sabotajes digitales sofisticados."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En este escenario, los grandes perdedores son las aerolíneas comerciales de la región norteamericana, que enfrentan pérdidas millonarias por la cancelación y reprogramación masiva de itinerarios, además del desgaste operativo que tardará días en resolverse.",
+              "Por otro lado, los proveedores de tecnología de telecomunicaciones y los contratistas de defensa especializados en ciberseguridad y redes redundantes emergen como los principales beneficiarios indirectos, ya que el incidente justifica presupuestos adicionales para modernizar los sistemas de control aéreo estatales."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Resulta imperativo observar las auditorías técnicas que la administración estadounidense realice en los próximos días para determinar el origen exacto del fallo de telecomunicaciones. Asimismo, es clave monitorear si las agencias de aviación de México y Canadá exigen nuevos protocolos de contingencia independientes para proteger sus propias rutas ante futuras caídas del sistema norteamericano."
+            ]
+          }
+        ],
+        "tags": [
+          "Aviación Civil",
+          "Telecomunicaciones",
+          "Seguridad Nacional",
+          "Infraestructura Crítica",
+          "Estados Unidos"
+        ],
+        "sources": [
+          {
+            "name": "DW.com",
+            "title": "EEUU afirma que suspensión de vuelos no se debió a un ataque terrorista sino a un fallo de comunicaciones",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc1FkUDVHTmd3X2RiMC1qVV9OSGRvQ3cwVmptNktNWHZIaUhYWXFrWlBGc1VGVC12N1RPal9weGZjcnM5Z0NuV2R2NjlzcGtsZGJYc2tSYlJ0eW56NlpRSDRUTHN4TUNYXzY0cnFSX0NTWXZ4QnVjZmFWNHZ5OGh2N3Vza2lPMHJXdHptMnNEaEx0eWV2Zjl2QXlJLVJ3elB4MHhEMWt2YWtkRU9PVkxZTm1CNVFPV3oyTjZWcmJFOGR2dDdCZllkSzc0UUs1elpBdTJ4ZVNzLVI4elNJX1BTWTdKT2hLS3fSAecBQVVfeXFMTlIwVXhxTFZaSDRjY1gyX2t3ekVzeFkxUzBGRlJxTHBqa1lqWTRzZUpYNDluX0ZmWWlRUTZOVkNvTFNMcms2amZLa3I0T3Q5WlgxU3BvdHVxMUNLM3k5NTNWN0JSYXFPZUZjMnM3TkxndU1sdWUtUThKNnF4SENjQlhieXBSMVV6ZnROUThoTXViY09kV3E1VnBsckZNeWFYRy1zVk1CVFJ1M1pUSzZwaFhpSzA4SlpTY0FLLUY2MWE4RV9Qakp0TWJRQjFBMGNmbUNiMWstY3lJUXE5algtb01WWE1sZktn?oc=5"
+          },
+          {
+            "name": "Clarin.com",
+            "title": "EE.UU. afirma que la suspensión de despegues aéreos no se debe a un ataque terrorista",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZEtQbUt6R0dqRnRkY0VmRmZnNnluaXNPYWM4Mm9NbzlIaml0aHlEZ2k4cEFaWXBaQkNZaWFBeVBZS21USF9FdXFBSTdONFRoYVVlRGw5M1JRRkFmYVR6enVLMnkwcjliZlRMMGVNR0liSW0wRngzcXREbDM4UUNad3RRdEVtcEs5eDRsQ2xjV1lxTWhDd0xlVk40MHdqYVBEdlRWdnZodGZCTlNrLV9haGlUUGtjcEh3Vm1zY054VWNkUUdUMUJuWml0ZDBBb21GRU5OR1NwUQ?oc=5"
+          },
+          {
+            "name": "El Nacional — La voz de todos",
+            "title": "\"Esto no es otro 11 de septiembre\": EEUU dice suspensión de despegues aéreos no se debe a terrorismo",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcWl1WGxjVmdIanNsWDZrZXpYRVRyZXRqVnR5Z0RWdC1lX3NRTjVhUTY2WUoybkcyeEtfbjF2VEhQWjljWnE3SGNaeXA5RTRKLWtyMTZlYTQ3T2tIT0RxVlNVcy1XR1pUN2NLWFJaTkxmM0tXd1RhU1EzLWVUdmxwSXFQLWQ2X1BKSlQxaTZHam1MZXpMcjRnR0dXYktoSjhfNTY4OGJiTkJla2tZQ1BDTVVRaDRaOUXSAbwBQVVfeXFMUERBeFBCWmE3THVDeE54NjVtVjU3bmJuRkp4MzlocWtTSjFWVUJ6d1RlVEFUdE9VNnU5alpyeEtKblRyQkZiQzJkZ3RzZXBIRHFZeHhEQnVoNVcyaE1ZdnIxcjd6U3NtdExkMUt1MkQwZDZkQWp5WWZrXzRoaWw2TEF5QUUyX0ZfY3hoaW5UTm5YNVNOWUlTc3JYQ095UnNXd3F4VHZFak9mRVVLaG8zSW40cll4Tmk1NGZYeVY?oc=5"
+          },
+          {
+            "name": "elsalvador.com",
+            "title": "EE.UU. afirma que suspensión de despegues no se debe a un ataque terrorista",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYU1yZ2JFUXd0T00yMVV0dWxmMmI4MU9teEZZdm1PQUU3eXRPQ25vTGt1Qy1WVGpCQlBmSUNNb2ljWUEzMzBQTlBsYlkzOFFqVkZuVWlXYW9UNUZmdWJMZzk3ajBBVUpfd3loalBzVXV6RjQ0dHItNDVMSF9QdEM0dFhWUzdLbDBCUlUtV1hfTVYyODJOMUdZdEdsVDM?oc=5"
+          },
+          {
+            "name": "ABC",
+            "title": "EE.UU. afirma que la suspensión de despegues aéreos no se debe a un ataque terrorista",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNalhzQ3ZuRGhLUHdVOXBMVmRsMEhaRy01NjdUWkN0d1NxWjNqdzRtSVlnRkU3VFc0amx2dklIenhUNDJqWjQtV3c2dnRhd0xVb2RGSVZZTkw0eDZSUGFUQXZwNmNDSTNNekxhWU1GcVphUjJydnVHMWl6M2VzOGkwLWd1NTAyMlU4YjJuaC1pRUpfNWhmaEdGZVhqUUhHTlRvNUR0bdIBqgFBVV95cUxOWXBBbm04SUxuMzg1X2lNZ25sNzFsdkJmNzBIWjhiRmJKQkdsdFQzb1hsWU5XaVBLUGh0eXkyblBxN2JFMkVrdEc3cWxRY2xDOTUtQm05eDAzQzlxRzllQ0J6UHljRHplTmN1Y1ZBeVotenA4ZGFfZ0xudVpkMHpydFJzdXF5VHp4bDBTZlRFbjBDQl9LSDBIamVtbFFYbzM2SVdwY2FKbGk5dw?oc=5"
+          }
+        ],
+        "wordCount": 497
+      },
+      "videoScript": {
+        "hook": "Un fallo de comunicaciones paralizó los cielos de Estados Unidos.",
+        "beats": [
+          "El gobierno descartó un ataque terrorista y atribuyó el caos a una falla técnica masiva.",
+          "Aeropuertos clave en Atlanta y Chicago acumularon cientos de retrasos e interrumpieron conexiones.",
+          "El verdadero problema es que la red de transporte depende de sistemas demasiado frágiles."
+        ],
+        "close": "Lee el análisis completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://static.dw.com/image/79945904_6.jpg",
+      "sourceVideo": {
+        "provider": "youtube",
+        "id": "MdK240H_Cr4",
+        "title": "Falla en comunicaciones provoca suspensión de vuelos en EEUU",
+        "channel": "Telemundo 47"
+      },
+      "status": "pending",
+      "createdAt": "2026-11-14T11:54:27.121Z",
+      "cardImageUrl": "/news-cards/news-xip92zjad-1794657267122.jpg",
+      "reelCoverUrl": "/news-cards/news-xip92zjad-1794657267684-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-xip92zjad-1794657268205-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/paralisis-aerea-estados-unidos-desnuda-fragilidad-sw83/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-14T14:29:18.017Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-14T11:54:29.344Z"
   }
 ]
