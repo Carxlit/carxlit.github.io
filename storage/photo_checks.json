@@ -868,5 +868,20 @@
     "relevant": true,
     "reason": "Muestra el mapa estratégico de Polonia y sus puntos clave de defensa (Kaliningrado y el Corredor de Suwalki), donde se contextualiza su rearme militar.",
     "at": "2026-11-14T11:03:02.742Z"
+  },
+  "21dafaac71850d7e:g5sknm45d": {
+    "relevant": false,
+    "reason": "Es el retrato de un columnista o locutor.",
+    "at": "2026-11-14T11:16:58.272Z"
+  },
+  "4a31ea55784e3c0c:g5sknm45d": {
+    "relevant": false,
+    "reason": "La imagen muestra a un presentador y colaborador de un programa de televisión, sin relación visual directa con las pensiones o la cotización social.",
+    "at": "2026-11-14T11:17:17.874Z"
+  },
+  "5bed4283495c4b25:g5sknm45d": {
+    "relevant": true,
+    "reason": "Muestra a una pareja de personas mayores caminando por la calle, lo cual representa visualmente a los jubilados o pensionistas que son el sujeto central del titular sobre pensiones",
+    "at": "2026-11-14T11:17:33.119Z"
   }
 }
