@@ -1,5 +1,84 @@
 [
   {
+    "slug": "robots-laser-e-inteligencia-artificial-salvar-qlk3",
+    "path": "noticias/robots-laser-e-inteligencia-artificial-salvar-qlk3/",
+    "title": "Robots con láser e inteligencia artificial para salvar la industria del salmón en Noruega",
+    "headline": "ROBOTS CON LÁSER Y IA BLINDAN LAS GRANJAS DE SALMÓN EN NORUEGA",
+    "dek": "La empresa Stingray Marine Solutions opera más de 3.500 unidades submarinas para erradicar parásitos mediante pulsos de luz, sustituyendo los letales métodos tradicionales de desparasitación.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/robots-laser-e-inteligencia-artificial-salvar-qlk3.jpg",
+    "photo": "img/robots-laser-e-inteligencia-artificial-salvar-qlk3-foto.jpg",
+    "publishedAt": "2026-11-14T15:02:09.966Z",
+    "article": {
+      "slug": "robots-laser-e-inteligencia-artificial-salvar-qlk3",
+      "title": "Robots con láser e inteligencia artificial para salvar la industria del salmón en Noruega",
+      "dek": "La empresa Stingray Marine Solutions opera más de 3.500 unidades submarinas para erradicar parásitos mediante pulsos de luz, sustituyendo los letales métodos tradicionales de desparasitación.",
+      "keyFacts": [
+        "Hay más de 3.500 robots submarinos operando sobre 112 millones de peces en Noruega.",
+        "El umbral de riesgo en peces jóvenes se sitúa por encima de 0,3 piojos por gramo de peso.",
+        "Las pérdidas mundiales en la industria salmonera por el piojo rondan los mil millones de dólares anuales.",
+        "El año 2025 registró un récord con 3.918 semanas de tratamiento contra los parásitos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La empresa noruega Stingray Marine Solutions ha consolidado el despliegue de miles de robots submarinos equipados con cámaras, inteligencia artificial y sistemas de láser para mantener a raya el piojo del salmón en las piscifactorías del país nórdico. Según datos recogidos por medios especializados, la tecnología ya no se encuentra en fase experimental, sino operando a escala industrial con más de 3.500 unidades activas que protegen de forma preventiva a unos 112 millones de peces.",
+            "El parásito objetivo es el Lepeophtheirus salmonis, un piojo de mar que se alimenta de la piel, el moco y la sangre de los ejemplares. Su peligrosidad es crítica en peces jóvenes, donde una presencia superior a 0,3 piojos por gramo de peso puede resultar letal, situando la carga parasitaria en niveles que exigen intervención constante."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El calentamiento de los océanos actúa como un catalizador directo para la proliferación de estos parásitos. De acuerdo con datos de Salmon Business, el año 2025 marcó un récord al registrar 3.918 semanas de tratamiento, superando en unas 700 semanas las cifras del periodo anterior. Este escenario presiona a una industria cuyas pérdidas globales por esta causa rondan los mil millones de dólares anuales.",
+            "Históricamente, el sector ha combatido la plaga mediante métodos mecánicos y térmicos basados en agua caliente y chorros a presión. Sin embargo, el Informe de Salud Piscícola señala que estos procedimientos tradicionales se han consolidado como la primera causa de mortalidad en el salmón adulto, evidenciando la necesidad de buscar alternativas menos lesivas para la biomasa."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la narrativa pública aplaude la irrupción de la robótica y el láser como un triunfo de la sostenibilidad y el respeto animal frente a los baños de agua caliente, la trastienda económica revela una profunda dependencia de proveedores tecnológicos cerrados. La externalización de la sanidad piscícola en flotas automatizadas de precisión desplaza el control sanitario hacia corporaciones privadas de ingeniería, creando barreras de entrada insalvables para productores independientes que no pueden asumir los costes de la digitalización intensiva.",
+            "Asimismo, el uso masivo de peces limpiadores, que llegó a alcanzar los 60 millones de ejemplares anuales en Noruega, ha sufrido caídas notables mientras las empresas amplían sus contratos con firmas como Mowi, que ya preveía expandir significativamente su parque de robots láser."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este nuevo tablero, los grandes conglomerados acuícolas y los desarrolladores de tecnología láser obtienen una ventaja competitiva decisiva al reducir la mortandad y mitigar el impacto financiero de las plagas estacionales. Por otro lado, los productores tradicionales de menor escala y los proveedores de métodos biológicos tradicionales, como los criadores de peces limpiadores, asumen el coste de la marginación en un mercado cada vez más tecnificado y centralizado."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la evolución de los costes energéticos y de mantenimiento de estas flotas robóticas en alta mar, así como la posible aparición de resistencias biológicas en los parásitos frente a los impactos lumínicos constantes. La capacidad regulatoria para evitar monopolios tecnológicos en la cadena alimentaria europea marcará el ritmo del sector en la próxima década."
+          ]
+        }
+      ],
+      "tags": [
+        "TecnologíaIA",
+        "Acuicultura",
+        "Noruega",
+        "Innovación",
+        "EconomíaGlobal"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Noruega tiene 3.500 robots con IA armados con láser cazando piojos en sus granjas de salmón",
+          "url": "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "Stingray: 3.500 robots láser contra los piojos del salmón",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTUQxaVR4eXFtQTBfYnVZLTB2R0xMQWlFZkVCa2M5UE53SVYxazkzYi10ZmxGQWV1eTZfT0ExSXROX1k1T3AxYXItZldWX2ZZX25sbU5oQVByS1RtRHkzaFF3RjhNX1VNSEc4aW5NX0V5VnlTbEhVdjl5bjBtUTlSNlJBbTJESmV3SVd1Q0g3TW4?oc=5"
+        }
+      ],
+      "wordCount": 524
+    },
+    "blindSpot": "Mientras se celebra la adopción de inteligencia artificial contra el piojo del salmón, se omite el debate sobre la concentración de mercado en manos de pocas empresas tecnológicas y el impacto energético de mantener una flota de robots operando en continuo sobre 112 millones de peces."
+  },
+  {
     "slug": "espejismo-energia-solar-barata-saturacion-redes-cte9",
     "path": "noticias/espejismo-energia-solar-barata-saturacion-redes-cte9/",
     "title": "El espejismo de la energía solar barata: la saturación de las redes amenaza el mayor 'boom' eléctrico de la historia",

@@ -209,9 +209,37 @@
     "https://www.xataka.com/analisis/aoc-agon-pro-agp346ucsd-analisis-caracteristicas-precio-especificaciones",
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc1FkUDVHTmd3X2RiMC1qVV9OSGRvQ3cwVmptNktNWHZIaUhYWXFrWlBGc1VGVC12N1RPal9weGZjcnM5Z0NuV2R2NjlzcGtsZGJYc2tSYlJ0eW56NlpRSDRUTHN4TUNYXzY0cnFSX0NTWXZ4QnVjZmFWNHZ5OGh2N3Vza2lPMHJXdHptMnNEaEx0eWV2Zjl2QXlJLVJ3elB4MHhEMWt2YWtkRU9PVkxZTm1CNVFPV3oyTjZWcmJFOGR2dDdCZllkSzc0UUs1elpBdTJ4ZVNzLVI4elNJX1BTWTdKT2hLS3fSAecBQVVfeXFMTlIwVXhxTFZaSDRjY1gyX2t3ekVzeFkxUzBGRlJxTHBqa1lqWTRzZUpYNDluX0ZmWWlRUTZOVkNvTFNMcms2amZLa3I0T3Q5WlgxU3BvdHVxMUNLM3k5NTNWN0JSYXFPZUZjMnM3TkxndU1sdWUtUThKNnF4SENjQlhieXBSMVV6ZnROUThoTXViY09kV3E1VnBsckZNeWFYRy1zVk1CVFJ1M1pUSzZwaFhpSzA4SlpTY0FLLUY2MWE4RV9Qakp0TWJRQjFBMGNmbUNiMWstY3lJUXE5algtb01WWE1sZktn?oc=5",
     "https://www.xataka.com/magnet/plena-crisis-alcohol-espana-esta-viviendo-fiebre-tequila-su-segundo-mayor-mercado-internacional",
-    "https://www.xataka.com/energia/energia-solar-produce-electricidad-que-todas-centrales-nucleares-mundo-juntas-cuando-hace-diez-anos-apenas-representaba-1"
+    "https://www.xataka.com/energia/energia-solar-produce-electricidad-que-todas-centrales-nucleares-mundo-juntas-cuando-hace-diez-anos-apenas-representaba-1",
+    "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon"
   ],
   "processedSignatures": [
+    {
+      "title": "ROBOTS CON LÁSER Y IA BLINDAN LAS GRANJAS DE SALMÓN EN NORUEGA",
+      "normalizedTokens": [
+        "robots",
+        "laser",
+        "blindan",
+        "granjas",
+        "salmon",
+        "noruega"
+      ],
+      "date": "2026-11-14T15:02:10.073Z"
+    },
+    {
+      "title": "Noruega tiene 3.500 robots con IA armados con láser cazando piojos en sus granjas de salmón",
+      "normalizedTokens": [
+        "noruega",
+        "500",
+        "robots",
+        "armados",
+        "laser",
+        "cazando",
+        "piojos",
+        "granjas",
+        "salmon"
+      ],
+      "date": "2026-11-14T15:02:10.071Z"
+    },
     {
       "title": "LA ENERGÍA SOLAR SUPERA LA GENERACIÓN NUCLEAR A NIVEL MUNDIAL",
       "normalizedTokens": [
