@@ -212,9 +212,38 @@
     "https://www.xataka.com/energia/energia-solar-produce-electricidad-que-todas-centrales-nucleares-mundo-juntas-cuando-hace-diez-anos-apenas-representaba-1",
     "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
     "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss",
-    "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+    "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+    "https://www.abc.es/internacional/trump-reunira-putin-jinping-historica-cumbre-trilateral-20261114014845-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP CONVOCA CUMBRE TRILATERAL CON PUTIN Y XI JINPING",
+      "normalizedTokens": [
+        "trump",
+        "convoca",
+        "cumbre",
+        "trilateral",
+        "putin",
+        "jinping"
+      ],
+      "date": "2026-11-14T18:39:42.646Z"
+    },
+    {
+      "title": "Trump reunirá a Putin y Xi Jinping en una histórica cumbre trilateral para negociar el desarme nuclear",
+      "normalizedTokens": [
+        "trump",
+        "reunira",
+        "putin",
+        "jinping",
+        "historica",
+        "cumbre",
+        "trilateral",
+        "negociar",
+        "desarme",
+        "nuclear"
+      ],
+      "date": "2026-11-14T18:39:42.644Z"
+    },
     {
       "title": "LA CAÍDA DEL CONTROL ÉTICO EN OPENAI REVELA LA FRAGILIDAD DE LA SEGURIDAD EN LA INTELIGENCIA ARTIFICIAL",
       "normalizedTokens": [
