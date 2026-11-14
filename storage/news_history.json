@@ -214,9 +214,42 @@
     "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss",
     "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
     "https://www.abc.es/internacional/trump-reunira-putin-jinping-historica-cumbre-trilateral-20261114014845-nt.html",
-    "https://www.xataka.com.mx/seleccion/macbook-calidad-precio-mercado-tiene-ofertas-buen-fin-2026-este-su-mejor-precio"
+    "https://www.xataka.com.mx/seleccion/macbook-calidad-precio-mercado-tiene-ofertas-buen-fin-2026-este-su-mejor-precio",
+    "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "SAN JUANICO 1984: EL COSTO DE LA NEGLIGENCIA INDUSTRIAL ESTATAL",
+      "normalizedTokens": [
+        "san",
+        "juanico",
+        "1984",
+        "costo",
+        "negligencia",
+        "industrial",
+        "estatal"
+      ],
+      "date": "2026-11-14T22:09:42.031Z"
+    },
+    {
+      "title": "\"Las cortinas se pegaron al techo\": cómo sobreviví al desastre de San Juanico, la explosión que dejó 650 muertos en México en 1984",
+      "normalizedTokens": [
+        "cortinas",
+        "pegaron",
+        "techo",
+        "sobrevivi",
+        "desastre",
+        "san",
+        "juanico",
+        "explosion",
+        "dejo",
+        "650",
+        "muertos",
+        "mexico",
+        "1984"
+      ],
+      "date": "2026-11-14T22:09:42.029Z"
+    },
     {
       "title": "APPLE Y BANCOS IMPULSAN SUBSIDIOS EN EL BUEN FIN 2026",
       "normalizedTokens": [
