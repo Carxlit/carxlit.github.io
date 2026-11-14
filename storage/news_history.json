@@ -210,9 +210,39 @@
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc1FkUDVHTmd3X2RiMC1qVV9OSGRvQ3cwVmptNktNWHZIaUhYWXFrWlBGc1VGVC12N1RPal9weGZjcnM5Z0NuV2R2NjlzcGtsZGJYc2tSYlJ0eW56NlpRSDRUTHN4TUNYXzY0cnFSX0NTWXZ4QnVjZmFWNHZ5OGh2N3Vza2lPMHJXdHptMnNEaEx0eWV2Zjl2QXlJLVJ3elB4MHhEMWt2YWtkRU9PVkxZTm1CNVFPV3oyTjZWcmJFOGR2dDdCZllkSzc0UUs1elpBdTJ4ZVNzLVI4elNJX1BTWTdKT2hLS3fSAecBQVVfeXFMTlIwVXhxTFZaSDRjY1gyX2t3ekVzeFkxUzBGRlJxTHBqa1lqWTRzZUpYNDluX0ZmWWlRUTZOVkNvTFNMcms2amZLa3I0T3Q5WlgxU3BvdHVxMUNLM3k5NTNWN0JSYXFPZUZjMnM3TkxndU1sdWUtUThKNnF4SENjQlhieXBSMVV6ZnROUThoTXViY09kV3E1VnBsckZNeWFYRy1zVk1CVFJ1M1pUSzZwaFhpSzA4SlpTY0FLLUY2MWE4RV9Qakp0TWJRQjFBMGNmbUNiMWstY3lJUXE5algtb01WWE1sZktn?oc=5",
     "https://www.xataka.com/magnet/plena-crisis-alcohol-espana-esta-viviendo-fiebre-tequila-su-segundo-mayor-mercado-internacional",
     "https://www.xataka.com/energia/energia-solar-produce-electricidad-que-todas-centrales-nucleares-mundo-juntas-cuando-hace-diez-anos-apenas-representaba-1",
-    "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon"
+    "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
+    "https://www.bbc.com/mundo/articles/cm70244lv8e1o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ESTADOS UNIDOS PLANTEA CEDER EL DONBÁS A CAMBIO DE LA OTAN",
+      "normalizedTokens": [
+        "estados",
+        "unidos",
+        "plantea",
+        "ceder",
+        "donbas",
+        "cambio",
+        "otan"
+      ],
+      "date": "2026-11-14T16:06:27.446Z"
+    },
+    {
+      "title": "Zelensky asegura que EE.UU. propuso a Ucrania ceder el Donbás a Rusia a cambio de ingresar en la OTAN",
+      "normalizedTokens": [
+        "zelensky",
+        "asegura",
+        "propuso",
+        "ucrania",
+        "ceder",
+        "donbas",
+        "rusia",
+        "cambio",
+        "ingresar",
+        "otan"
+      ],
+      "date": "2026-11-14T16:06:27.438Z"
+    },
     {
       "title": "ROBOTS CON LÁSER Y IA BLINDAN LAS GRANJAS DE SALMÓN EN NORUEGA",
       "normalizedTokens": [
