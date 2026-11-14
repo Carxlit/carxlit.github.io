@@ -200,9 +200,37 @@
     "https://www.bbc.com/mundo/articles/cr15e3p8yjeko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
     "https://www.abc.es/internacional/guerra-interna-casa-blanca-fuga-chips-nvidia-20261113174842-nt.html",
-    "https://www.france24.com/es/video/20261114-colombia-el-fondo-milagro-y-la-reconstrucci%C3%B3n-del-terremoto-ponen-presi%C3%B3n-a-de-la-espriella"
+    "https://www.france24.com/es/video/20261114-colombia-el-fondo-milagro-y-la-reconstrucci%C3%B3n-del-terremoto-ponen-presi%C3%B3n-a-de-la-espriella",
+    "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ONU CONFIRMA 25 MARINEROS MUERTOS EN EL ESTRECHO DE HORMUZ",
+      "normalizedTokens": [
+        "onu",
+        "confirma",
+        "marineros",
+        "muertos",
+        "estrecho",
+        "hormuz"
+      ],
+      "date": "2026-11-14T08:47:00.990Z"
+    },
+    {
+      "title": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
+      "normalizedTokens": [
+        "says",
+        "seafarers",
+        "killed",
+        "around",
+        "hormuz",
+        "since",
+        "israel",
+        "war",
+        "iran"
+      ],
+      "date": "2026-11-14T08:47:00.988Z"
+    },
     {
       "title": "FONDO MILAGRO EN COLOMBIA DESATA CRISIS POR LENTA RECONSTRUCCIÓN",
       "normalizedTokens": [

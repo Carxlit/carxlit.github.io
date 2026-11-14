@@ -843,5 +843,10 @@
     "relevant": true,
     "reason": "Muestra al mandatario involucrado en la designación central de la noticia.",
     "at": "2026-11-14T05:02:21.441Z"
+  },
+  "c6d2b1213651fbb3:17bclrb8b": {
+    "relevant": true,
+    "reason": "Muestra embarcaciones en el mar, lo que representa adecuadamente el escenario marítimo y el tráfico de naves en el estrecho de Hormuz.",
+    "at": "2026-11-14T08:46:57.289Z"
   }
 }
