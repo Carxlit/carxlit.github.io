@@ -858,5 +858,15 @@
     "relevant": true,
     "reason": "Muestra al Papa en su papamóvil rodeado por una gran multitud de fieles durante su gira.",
     "at": "2026-11-14T10:01:50.449Z"
+  },
+  "0de0456fda06fb82:en2c0u8vi": {
+    "relevant": false,
+    "reason": "la imagen muestra un transporte de tanques a través de una localidad de EE. UU. (La Grange, Kentucky), no el despliegue o recepción de los tanques en Polonia.",
+    "at": "2026-11-14T11:02:34.433Z"
+  },
+  "3d63d6bf3cd81ec7:en2c0u8vi": {
+    "relevant": true,
+    "reason": "Muestra el mapa estratégico de Polonia y sus puntos clave de defensa (Kaliningrado y el Corredor de Suwalki), donde se contextualiza su rearme militar.",
+    "at": "2026-11-14T11:03:02.742Z"
   }
 }
