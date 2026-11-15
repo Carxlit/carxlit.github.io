@@ -227,9 +227,38 @@
     "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
     "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html",
     "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf",
-    "https://www.abc.es/internacional/cien-dias-espriella-colombia-guerra-crimen-redes-20261113165240-nt.html"
+    "https://www.abc.es/internacional/cien-dias-espriella-colombia-guerra-crimen-redes-20261113165240-nt.html",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeXJUd3U5dUg5UTNoQTNNQkhCaE1IR1dENkQyc1pwRGFWMWJyLVNRSTZPd2xvU01Fd052ODZRZ29MMVJCSUY4YWhGS3pfYXRPSTdhV3pVRkhxa3ljRHJQREc1aDhrUkpVNmZCQmNzdGtOajloSnlCbDhFZTBuN3JfMG5mU3RYWXd4ajNGZHEwR3hHb1pq?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ESTONIA CERRARÁ FRONTERA CON RUSIA TRAS SABOTAJE INDUSTRIAL ATRIBUIDO AL GRU",
+      "normalizedTokens": [
+        "estonia",
+        "cerrara",
+        "frontera",
+        "rusia",
+        "sabotaje",
+        "industrial",
+        "atribuido",
+        "gru"
+      ],
+      "date": "2026-11-15T17:39:14.287Z"
+    },
+    {
+      "title": "Estonia cerrará su frontera con Rusia tras un ataque fallido que atribuye al Kremlin",
+      "normalizedTokens": [
+        "estonia",
+        "cerrara",
+        "frontera",
+        "rusia",
+        "ataque",
+        "fallido",
+        "atribuye",
+        "kremlin"
+      ],
+      "date": "2026-11-15T17:39:14.285Z"
+    },
     {
       "title": "LA MILITARIZACIÓN Y EL ALINEAMIENTO DE COLOMBIA CON ESTADOS UNIDOS",
       "normalizedTokens": [
