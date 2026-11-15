@@ -219,9 +219,38 @@
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
     "https://www.dw.com/es/jordania-condena-a-muerte-a-los-autores-del-atentado-contra-una-iglesia-ortodoxa/a-79951383?maca=spa-rss-sp-all-1122-rdf",
     "https://www.europapress.es/internacional/noticia-ataque-drones-rostov-rusia-deja-menos-muerto-cuatro-heridos-interrumpe-trafico-ferroviario-20261115085939.html",
-    "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
+    "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQ1dlZkQxazFmUktJTmNnYnhyUWp6NVVlTG0yWjJIZHFDZklnTGFMZUVxc2k4bkE1cjloOTlYVmZVYmY5enRaYy1NZkNkUzB0bGxKZXBJRmxGWVNkR2JTRDJzd1lyWXEwZHJxOHF0cEcwdDVNY2d3Y3dPWS1pUm1BbWhjZUpDeENiTUNHUzZrUXE1UGxJQUdkT29BX2R6RlZMdVoyTUk4Mm5iMDlkTWZWMkdhUVgzcmYtbnlhbklySzk5VVlQVS16YXZ6dEJrTHVfUDJKaVhNVDFQU1E5ZzhEbTI2UERud2V5cEE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ZOOMLION IMPULSA LA AUTOMATIZACIÓN INDUSTRIAL CHINA CON ROBÓTICA E IA",
+      "normalizedTokens": [
+        "zoomlion",
+        "impulsa",
+        "automatizacion",
+        "industrial",
+        "china",
+        "robotica"
+      ],
+      "date": "2026-11-15T11:02:09.728Z"
+    },
+    {
+      "title": "Zoomlion presentará equipos con inteligencia artificial y soluciones robóticas en bauma CHINA 2026",
+      "normalizedTokens": [
+        "zoomlion",
+        "presentara",
+        "equipos",
+        "inteligencia",
+        "artificial",
+        "soluciones",
+        "roboticas",
+        "bauma",
+        "china",
+        "2026"
+      ],
+      "date": "2026-11-15T11:02:09.727Z"
+    },
     {
       "title": "JORDANIA CONDENA A MUERTE A TRES ATACANTES DE IGLESIA",
       "normalizedTokens": [

@@ -943,5 +943,10 @@
     "relevant": true,
     "reason": "La imagen muestra a un grupo de personas llevando un féretro frente a una iglesia, lo que representa el contexto del funeral cristiano aludido en la noticia.",
     "at": "2026-11-15T09:01:32.286Z"
+  },
+  "9de5ca54432beda2:4al6t5btm": {
+    "relevant": true,
+    "reason": "Muestra explícitamente la marca Zoomlion, su lema sobre IA y representaciones de su maquinaria industrial junto a un robot humanoide.",
+    "at": "2026-11-15T11:02:05.925Z"
   }
 }
