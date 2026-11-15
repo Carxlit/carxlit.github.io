@@ -222,9 +222,38 @@
     "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQ1dlZkQxazFmUktJTmNnYnhyUWp6NVVlTG0yWjJIZHFDZklnTGFMZUVxc2k4bkE1cjloOTlYVmZVYmY5enRaYy1NZkNkUzB0bGxKZXBJRmxGWVNkR2JTRDJzd1lyWXEwZHJxOHF0cEcwdDVNY2d3Y3dPWS1pUm1BbWhjZUpDeENiTUNHUzZrUXE1UGxJQUdkT29BX2R6RlZMdVoyTUk4Mm5iMDlkTWZWMkdhUVgzcmYtbnlhbklySzk5VVlQVS16YXZ6dEJrTHVfUDJKaVhNVDFQU1E5ZzhEbTI2UERud2V5cEE?oc=5",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxON18yZjVEWlFzRWk0dEI5dy14X2d5NlpPZzlpOFJ4TDdzaVBYRkJDLXpaTEQ1WDhxOTd0QzU4QnF5RzZhNDRMWGpkVkFFZVlKYUtnQUFrZU1CN19IZENMLW9LWXJnZEpYeXRRMk5PYU9xVXZtYmJjVDZrSnJuMHdaOHp6NFF6Q3o4c2w5MHBacGFhelBkUUxzbnFuRnVsUkFTZTRQeHNya01ycmZVV2s3YmNYdHZ2SFYtemxibnJhVQ?oc=5",
-    "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+    "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+    "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc"
   ],
   "processedSignatures": [
+    {
+      "title": "NVIDIA Y TSMC PREPARAN SU PROPIA PRODUCCIÓN DE MEMORIA AVANZADA",
+      "normalizedTokens": [
+        "nvidia",
+        "tsmc",
+        "preparan",
+        "propia",
+        "produccion",
+        "memoria",
+        "avanzada"
+      ],
+      "date": "2026-11-15T11:46:59.124Z"
+    },
+    {
+      "title": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
+      "normalizedTokens": [
+        "nvidia",
+        "planteando",
+        "decision",
+        "radical",
+        "dejar",
+        "depender",
+        "samsung",
+        "produccion",
+        "memoria"
+      ],
+      "date": "2026-11-15T11:46:59.122Z"
+    },
     {
       "title": "MEGASPEED INVESTIGA SUS OPERACIONES TRAS CAÍDA DE NVIDIA",
       "normalizedTokens": [

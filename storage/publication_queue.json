@@ -26670,5 +26670,124 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-15T11:31:50.427Z"
+  },
+  {
+    "id": "queue-1794743219111-1b2e5",
+    "news": {
+      "id": "8kgja3c72",
+      "originalUrl": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
+      "originalTitle": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "NVIDIA Y TSMC PREPARAN SU PROPIA PRODUCCIÓN DE MEMORIA AVANZADA",
+      "subHeadline": "Ante la crisis de suministro global y la dependencia de un oligopolio, Nvidia busca que TSMC fabrique memoria 3D RAM.",
+      "blindSpotAngle": "La cobertura general se centra en el pulso comercial entre Nvidia y Samsung, ignorando que este movimiento consolida un monopolio absoluto de TSMC sobre todo el hardware crítico de IA, subordinando la cadena de suministro global a una sola isla y a una sola compañía.",
+      "facebookPost": "La escasez de memoria por el auge de la inteligencia artificial ha llevado a Nvidia a tramar un cambio drástico para sacudirse la dependencia de Samsung. Según filtraciones recientes, la compañía de Jensen Huang habría pedido a TSMC que comience a trazar planes para producir memoria 3D RAM, un movimiento que reestructuraría por completo el mercado de componentes.\n\nLa narrativa oficial apunta a un simple ajuste logístico frente a la alta demanda global. El punto ciego es que esto concentra aún más el poder en manos de una sola fundición taiwanesa, dejando el suministro mundial de IA a merced de un único punto geográfico y corporativo muy vulnerable.\n\n¿Hasta qué punto es sostenible que toda la industria tecnológica dependa de la misma cadena de montaje en Taiwán?\n\nFuente: Xataka\n\n#Tecnología #InteligenciaArtificial #PuntoCiego",
+      "telegramPost": "<b>NVIDIA BUSCA FÁBRICA PROPIA EN TSMC PARA ROMPER LA DEPENDENCIA DE MEMORIA</b>\n\n• <b>Qué ocurrió:</b> Informes de The Information apuntan a que Nvidia ha solicitado a TSMC trazar planes para fabricar memoria 3D RAM, buscando esquivar al oligopolio tradicional de memoria.\n• <b>Por qué importa:</b> La demanda de IA ha roto el suministro global hasta 2028. Centralizar la producción en TSMC altera radicalmente el equilibrio de poder frente a Samsung y Micron.\n• <b>Qué sigue:</b> Ver si TSMC transforma plantas existentes para asumir la producción de memoria avanzada, consolidando su monopolio absoluto en el hardware de IA.",
+      "linkedInPost": "La crisis de suministro de memoria provocada por la inteligencia artificial está reconfigurando las alianzas estratégicas en el sector de semiconductores. El movimiento de Nvidia para externalizar o co-desarrollar memoria 3D RAM con TSMC evidencia que los gigantes tecnológicos ya no confían en la capacidad de respuesta del oligopolio tradicional formado por Samsung, SK Hynix y Micron.\n\nPara los inversores y analistas de cadena de suministro, esto representa un riesgo sistémico de concentración. La dependencia extrema de las capacidades de fundición de TSMC en Taiwán amplifica el riesgo geopolítico y deja a la industria expuesta a cuellos de botella estructurales a largo plazo.\n\nFuente: Xataka\n\n#Tecnología #Semiconductores #PuntoCiego",
+      "blueskyPost": "Nvidia busca que TSMC fabrique su memoria 3D RAM para no depender de Samsung. La crisis de IA concentra el poder en una sola fundición taiwanesa. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "La escasez de memoria por el auge de la inteligencia artificial ha llevado a Nvidia a tramar un cambio drástico para sacudirse la dependencia de Samsung. Según filtraciones recientes, la compañía de Jensen Huang habría pedido a TSMC que comience a trazar planes para producir memoria 3D RAM, un movimiento que reestructuraría por completo el mercado de componentes.\n\nLa narrativa oficial apunta a un simple ajuste logístico frente a la alta demanda global. El punto ciego es que esto concentra aún más el poder en manos de una sola fundición taiwanesa, dejando el suministro mundial de IA a merced de un único punto geográfico y corporativo muy vulnerable.\n\n¿Hasta qué punto es sostenible que toda la industria tecnológica dependa de la misma cadena de montaje en Taiwán? #Tecnología #InteligenciaArtificial #PuntoCiego",
+        "telegram": "<b>NVIDIA BUSCA FÁBRICA PROPIA EN TSMC PARA ROMPER LA DEPENDENCIA DE MEMORIA</b>\n\n• <b>Qué ocurrió:</b> Informes de The Information apuntan a que Nvidia ha solicitado a TSMC trazar planes para fabricar memoria 3D RAM, buscando esquivar al oligopolio tradicional de memoria.\n• <b>Por qué importa:</b> La demanda de IA ha roto el suministro global hasta 2028. Centralizar la producción en TSMC altera radicalmente el equilibrio de poder frente a Samsung y Micron.\n• <b>Qué sigue:</b> Ver si TSMC transforma plantas existentes para asumir la producción de memoria avanzada, consolidando su monopolio absoluto en el hardware de IA.",
+        "bluesky": "Nvidia busca que TSMC fabrique su memoria 3D RAM para no depender de Samsung. La crisis de IA concentra el poder en una sola fundición taiwanesa. #PuntoCiego #Tecnología",
+        "linkedIn": "La crisis de suministro de memoria provocada por la inteligencia artificial está reconfigurando las alianzas estratégicas en el sector de semiconductores. El movimiento de Nvidia para externalizar o co-desarrollar memoria 3D RAM con TSMC evidencia que los gigantes tecnológicos ya no confían en la capacidad de respuesta del oligopolio tradicional formado por Samsung, SK Hynix y Micron.\n\nPara los inversores y analistas de cadena de suministro, esto representa un riesgo sistémico de concentración. La dependencia extrema de las capacidades de fundición de TSMC en Taiwán amplifica el riesgo geopolítico y deja a la industria expuesta a cuellos de botella estructurales a largo plazo. #Tecnología #Semiconductores #PuntoCiego"
+      },
+      "article": {
+        "slug": "carrera-nvidia-tsmc-controlar-produccion-memoria-91rt",
+        "title": "La carrera de Nvidia y TSMC para controlar la producción de memoria avanzada y romper el oligopolio",
+        "dek": "Nvidia presiona a TSMC para fabricar memoria 3D RAM y sortear la crisis de suministro que estrangula a la inteligencia artificial. La jugada redefine el poder en los semiconductores.",
+        "keyFacts": [
+          "La escasez de memoria provocada por la inteligencia artificial se prolongará hasta al menos 2028 según los fabricantes.",
+          "The Information reveló que TSMC comenzó a trazar planes para fabricar 3D RAM a petición de Nvidia.",
+          "El proyecto estaría liderado por Hsu Kuo-chin, vicepresidente de empaquetado avanzado en TSMC y exdirectivo de Micron.",
+          "Samsung aceptó trasladar la producción de la capa base de sus chips NVHBM a los procesos de 3 nanómetros de TSMC."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "La escasez de memoria impulsada por el boom de la inteligencia artificial se ha convertido en uno de los problemas operativos más graves del sector tecnológico. Los precios se han disparado y las previsiones apuntan a que la tensión en las cadenas de suministro se mantendrá al menos hasta 2028. En este escenario, Nvidia, principal artífice de esa sobredemanda de hardware, ha comenzado a tantear alternativas para dejar de depender exclusivamente de los pocos fabricantes globales de memoria.",
+              "Según una filtración adelantada por el medio The Information y recogida por Reuters, Nvidia habría solicitado a TSMC que comience a trazar planes para fabricar memoria 3D RAM. Aunque un portavoz de TSMC declaró posteriormente a Tom's Hardware que la compañía sigue centrada en su negocio de fundición de circuitos integrados lógicos sin confirmar explícitamente el plan, el movimiento responde a una necesidad imperiosa de asegurar volumen para los próximos años."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El negocio de la memoria DRAM convencional y los chips de alta velocidad HBM está controlado por un grupo muy reducido de actores: las surcoreanas Samsung y SK Hynix, y la estadounidense Micron. Ninguna de ellas da abasto ante la demanda de los centros de datos de inteligencia artificial. Crear nuevas salas limpias y ampliar la capacidad de producción de DRAM requiere procesos largos y complejos donde la maquinaria no basta para solucionar los cuellos de botella.",
+              "La relación entre Nvidia y TSMC ya es extremadamente estrecha al ser la taiwanesa la fundición de referencia para los chips lógicos de la compañía estadounidense. Además, recientemente Nvidia exigió a Samsung, SK Hynix y Micron que utilizaran el nodo de 3 nanómetros de TSMC para producir la capa base de sus chips NVHBM personalizados. Samsung aceptó externalizar esa parte del proceso, lo que abrió la puerta a que Nvidia plantee dar el salto definitivo hacia la fabricación directa con su socio predilecto."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Mientras la atención mediática se concentra en el pulso comercial entre Nvidia y Samsung y en las dificultades técnicas de la memoria HBM, el verdadero fondo de la cuestión radica en la hiperconcentración de la industria. Si TSMC, que ya domina la producción mundial de procesadores avanzados, asume también la fabricación de memoria 3D RAM, el ecosistema tecnológico global quedará amarrado a un único proveedor.",
+              "Esta jugada trasciende la simple optimización de costes o plazos de entrega. Convierte a TSMC en el custodio absoluto de todo el hardware sobre el que descansa la inteligencia artificial actual, elevando los riesgos geopolíticos y sistémicos a niveles sin precedentes en la historia reciente de la industria."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Nvidia sale claramente beneficiada al asegurar una vía directa y personalizada para su suministro de memoria, reduciendo el poder de negociación de los fabricantes tradicionales. TSMC refuerza su posición estratégica como el socio indispensable del sector tecnológico global, consolidando su estatus de monopolio de facto en la fabricación avanzada.",
+              "En el lado de los perdedores figuran los fabricantes tradicionales de memoria como Samsung, SK Hynix y Micron, que ven cómo su margen de maniobra se reduce y pierden control sobre las capas de valor añadido de sus propios componentes frente a la presión de un cliente sobredimensionado."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Es necesario monitorizar los próximos movimientos de Hsu Kuo-chin, vicepresidente de empaquetado avanzado en TSMC y exdirectivo de Micron, quien supuestamente lideraría este proyecto de expansión hacia la memoria.",
+              "Asimismo, conviene vigilar la evolución de los acuerdos de capacidad en las plantas de TSMC y si la compañía taiwanesa termina adquiriendo instalaciones adicionales para reconvertirlas en líneas exclusivas de producción de DRAM avanzada para los intereses de Nvidia."
+            ]
+          }
+        ],
+        "tags": [
+          "Nvidia",
+          "TSMC",
+          "Samsung",
+          "Semiconductores",
+          "Inteligencia Artificial"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
+            "url": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc"
+          }
+        ],
+        "wordCount": 616
+      },
+      "videoScript": {
+        "hook": "Nvidia se ha cansado de depender de Samsung para conseguir memoria.",
+        "beats": [
+          "La escasez de componentes por la inteligencia artificial se alargará hasta 2028.",
+          "Nvidia ha pedido a TSMC que trace planes para fabricar su propia memoria 3D RAM.",
+          "El verdadero peligro es que toda la industria tecnológica dependerá de una sola fundición."
+        ],
+        "close": "Lee el análisis completo en el enlace del perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/b2b935/original/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-15T11:46:54.949Z",
+      "cardImageUrl": "/news-cards/news-8kgja3c72-1794743214950.jpg",
+      "reelCoverUrl": "/news-cards/news-8kgja3c72-1794743217140-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-8kgja3c72-1794743217736-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/carrera-nvidia-tsmc-controlar-produccion-memoria-91rt/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-15T14:22:45.360Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-15T11:46:59.111Z"
   }
 ]

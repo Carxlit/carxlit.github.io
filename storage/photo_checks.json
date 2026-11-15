@@ -958,5 +958,10 @@
     "relevant": true,
     "reason": "Muestra el nombre y logotipo de Megaspeed en sus oficinas, la empresa protagonista del titular.",
     "at": "2026-11-15T11:31:48.077Z"
+  },
+  "471b23f7af34e902:8kgja3c72": {
+    "relevant": true,
+    "reason": "Muestra equipos avanzados de fabricación de semiconductores (fotolitografía), relevantes para la producción de chips y memorias por parte de TSMC.",
+    "at": "2026-11-15T11:46:53.602Z"
   }
 }
