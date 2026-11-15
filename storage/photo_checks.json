@@ -978,5 +978,20 @@
     "relevant": true,
     "reason": "muestra a un usuario utilizando su teléfono móvil junto a una tarjeta bancaria para realizar operaciones digitales.",
     "at": "2026-11-15T13:27:10.493Z"
+  },
+  "ae4cb72b181c7d3e:uk6xbtnit": {
+    "relevant": false,
+    "reason": "La imagen muestra un monumento conmemorativo con ofrendas florales, lo cual no representa protestas juveniles ni tensiones sociales actuales.",
+    "at": "2026-11-15T14:27:22.862Z"
+  },
+  "f8163d49ea02b171:uk6xbtnit": {
+    "relevant": false,
+    "reason": "La imagen muestra a Jürgen Klopp sonriendo con una gorra, lo cual no tiene relación con protestas juveniles, antisemitismo ni el estado alemán.",
+    "at": "2026-11-15T14:27:29.532Z"
+  },
+  "b61033039c72178d:uk6xbtnit": {
+    "relevant": false,
+    "reason": "La imagen muestra un partido de fútbol y no tiene relación con las protestas juveniles ni las tensiones sociales descritas.",
+    "at": "2026-11-15T14:27:36.636Z"
   }
 }

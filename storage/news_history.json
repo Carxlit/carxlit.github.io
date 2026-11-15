@@ -225,9 +225,36 @@
     "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
     "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
     "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
-    "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html"
+    "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html",
+    "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "PROTESTAS JUVENILES Y TENSIONES SOCIALES DESAFÍAN AL ESTADO ALEMÁN",
+      "normalizedTokens": [
+        "protestas",
+        "juveniles",
+        "tensiones",
+        "sociales",
+        "desafian",
+        "estado",
+        "aleman"
+      ],
+      "date": "2026-11-15T14:27:39.584Z"
+    },
+    {
+      "title": "Germany news: Germany holds national day of remembrance",
+      "normalizedTokens": [
+        "germany",
+        "news",
+        "germany",
+        "holds",
+        "national",
+        "day",
+        "remembrance"
+      ],
+      "date": "2026-11-15T14:27:39.582Z"
+    },
     {
       "title": "BANCOS TRASLADAN A USUARIOS PÉRDIDAS POR FRAUDES DIGITALES CRECIENTES",
       "normalizedTokens": [
