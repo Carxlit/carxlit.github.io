@@ -1,5 +1,108 @@
 [
   {
+    "slug": "megaspeed-activa-investigacion-interna-confirma-salida-rxpi",
+    "path": "noticias/megaspeed-activa-investigacion-interna-confirma-salida-rxpi/",
+    "title": "Megaspeed activa una investigación interna y confirma la salida de Alice Huang en medio del escrutinio a Nvidia",
+    "headline": "MEGASPEED INVESTIGA SUS OPERACIONES TRAS CAÍDA DE NVIDIA",
+    "dek": "La empresa de computación en la nube con sede en Singapur responde a los informes sobre su cadena de suministro de microchips tras la renuncia del CEO de Nvidia. El caso expone las tensiones geopolíticas en torno al flujo global de tecnología avanzada.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "CNBC World",
+    "image": "img/megaspeed-activa-investigacion-interna-confirma-salida-rxpi.jpg",
+    "photo": "img/megaspeed-activa-investigacion-interna-confirma-salida-rxpi-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "DFcuMXlJJQc",
+      "title": "Megaspeed Tells CNBC Its Former Executive Alice Huang Left In August 2025 And Launches An Internal P",
+      "channel": "MarketBreakingNews"
+    },
+    "publishedAt": "2026-11-15T11:31:50.329Z",
+    "article": {
+      "slug": "megaspeed-activa-investigacion-interna-confirma-salida-rxpi",
+      "title": "Megaspeed activa una investigación interna y confirma la salida de Alice Huang en medio del escrutinio a Nvidia",
+      "dek": "La empresa de computación en la nube con sede en Singapur responde a los informes sobre su cadena de suministro de microchips tras la renuncia del CEO de Nvidia. El caso expone las tensiones geopolíticas en torno al flujo global de tecnología avanzada.",
+      "keyFacts": [
+        "Alice Huang dejó Megaspeed de forma efectiva el 30 de agosto de 2025.",
+        "Jensen Huang renunció como CEO de Nvidia el 12 de noviembre.",
+        "Megaspeed opera oficinas en Singapur e Indonesia como socio de computación en la nube de Nvidia.",
+        "El Departamento del Tesoro de EE. UU. ha evaluado límites específicos sobre las operaciones de Megaspeed."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La compañía de computación en la nube Megaspeed confirmó que Alice Huang dejó la organización en agosto de 2025 y anunció la apertura de una investigación interna sobre sus operaciones y su cadena de suministro. La firma, con sede en Singapur, reaccionó así a una serie de informes mediáticos que vinculan sus actividades comerciales con el reciente escándalo que sacudió a la cúpula directiva de Nvidia.",
+            "El escrutinio sobre Megaspeed se intensificó después de que Jensen Huang renunciara a la dirección ejecutiva de Nvidia el 12 de noviembre. Paralelamente, funcionarios de inteligencia de Estados Unidos señalaron a Alice Huang como un presunto activo de inteligencia chino, según reveló The New York Times, generando ondas expansivas en los mercados tecnológicos internacionales."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Megaspeed se describe a sí misma como un socio comercial clave en el negocio de nube con potencia de cálculo de Nvidia en la región del Sudeste Asiático, permitiendo a sus clientes alquilar potencia mediante unidades de procesamiento gráfico especializadas en tareas complejas. Sin embargo, la compañía ha enfrentado cuestionamientos previos por parte de gobiernos y medios sobre si los chips suministrados a través de su infraestructura terminaron redirigidos hacia usuarios en territorio chino.",
+            "Medios internacionales y reportes recientes han apuntado que componentes prohibidos habrían llegado a centros de datos vinculados a la exdirectiva en China, mientras que el secretario del Tesoro estadounidense, en declaraciones recogidas por Yahoo, indicó que la dependencia federal evaluaba desde antes imponer límites operativos directos a la firma asiática."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la atención pública y mediática se ha volcado casi por completo en los detalles de índole personal que rodearon la salida de la directiva y del ejecutivo de Nvidia, la dimensión estrictamente industrial y de seguridad nacional ha quedado relegada a un segundo plano. La verdadera disputa se libra en torno a la efectividad de los controles de exportación estadounidenses sobre los semiconductores de alta gama.",
+            "El hecho de que Singapur le haya prohibido la entrada a Alice Huang tras una investigación oficial, reportada por Bloomberg Línea, demuestra que las autoridades locales y extranjeras tratan el asunto no como una mera disputa corporativa, sino como una vulnerabilidad crítica en la arquitectura de seguridad tecnológica de Occidente."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los reguladores estadounidenses y los halcones del control de comercio exterior ganan argumentos para justificar una supervisión todavía más estricta sobre cualquier intermediario tecnológico en Asia. La narrativa del riesgo soberano justifica intervenciones directas sobre cadenas de valor que hasta ahora operaban con relativa autonomía.",
+            "Por el contrario, los intermediarios regionales de potencia de cálculo, encabezados por Megaspeed, cargan con el costo reputacional y operativo más alto. La contratación de asesoría legal externa busca contener el daño, pero la posibilidad de enfrentar restricciones financieras severas pone en entradicho su modelo de negocio basado en la reventa de infraestructura de IA."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El desenlace de la auditoría interna ordenada por Megaspeed será determinante para medir el grado de cooperación con los estándares occidentales de cumplimiento. Cualquier indicio de que los controles de exportación hayan fallado de manera sistemática acelerará nuevas medidas punitivas desde Washington.",
+            "Asimismo, será clave observar si el Departamento del Tesoro formaliza sanciones o restricciones comerciales contra la infraestructura de la compañía en Singapur e Indonesia, marcando un precedente para otros operadores de nube en economías emergentes."
+          ]
+        }
+      ],
+      "tags": [
+        "Megaspeed",
+        "Nvidia",
+        "Singapur",
+        "Inteligencia Artificial",
+        "Cadenas de Suministro",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "CNBC World",
+          "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+          "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+        },
+        {
+          "name": "ABC7 Los Angeles",
+          "title": "Renuncia CEO de Nvidia Jensen Huang luego que su amorío genera preocupaciones de seguridad nacional",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM0VfOFkzZlJvNWlNNEVKT3doSmlIQVNoS09KNWtSTVZlVU1vS1JOTnp0WWo3Nkl2YlpGRVk0WncxUjMtM1lERDJLNWpoTHNySGNSenZQYWtIZnc3T194bHNkMHFFc282cWFtRUVFTFFURU5wcmtfRkRkYWJsQ0RudFlfZWtrWGEtWFpBLWtveThKY0RqUlVFOXJITnlqX2VfbnRfYVVYRnFFRGxMZnllRTBWS0h2X3h2SURQT2hsNUZBdkwtXzNtU051ONIB0AFBVV95cUxPZlNqUGxTSDJyTWg4a0xFWmRTU2ZqN2RNbkNzZTk2LVplM050QXJ0b1U3Wjk3WXNZbE93T1pCNE80elhsN0x1VkpfclYxLVBHTi1GT2hDaDdhd1hOVDFJbWpZWjdHbHBOZU50SkpOVm1tWFl1Y1JYbURrbzJxUU00SEl5M3VPN1dlUllGYktXWFYyLTZiNjFmcXRmY212SnhRZXh1MmJobW1hTWdaOHZRMTZQbExmOFVBOVlDU19rem5iaktnTFFJRVRSRHJEY09V?oc=5"
+        },
+        {
+          "name": "Bloomberg Línea",
+          "title": "Singapur prohibió la entrada a Alice Huang tras una investigación: ¿de qué se le acusaba?",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTFkMEx4cUF6RHZ2QTV2akd0cHFhMXhHVTZ6NmRuV3A0YmtfSWtYTnpieU5PVGY2ME4zRjJGTXNTV1JzVC01ajFqV3R0Uzg2N1h2a0pFcHI5M0tRcHEwbnlDR2RvTTVPTmlEQjVEeEk1cHNPNWczZkJYeXZZa2JmR0k1SE1sUjBPRlJmOGNqeUV4MUEzblc5VlhpNGttdXRPY2V3MHN3ajVGbU9XemxfQ1BUYURBcnUxN2ROdkludWV3d9IB1gFBVV95cUxOaXV1WWJvel9MNnZVS1o1SXdtZy1KRzdZakZ1YUt0SkgtNHR5bk1jN0xsZDQ3bldPWk16cVA0M1R0NE1tQklwTS1fRWU3TWZ5MHBnWnBrQWVHVDBlMVRaUEVIX01QcGNOZXRNcW9MdGRzc0c3aTB3NllfTTZ6WUw2VW9EUmk2UVlmY1Q3a2FOX2VXa0tkcGU2Y3lVY2E5OU1ZaHdBUTZfckZVRnVBMDhxYnA5M2FjT3ZZS0RFS1o0X3pBSWFzLUlhM0NseWhDNG5XTHdxaGxB?oc=5"
+        },
+        {
+          "name": "Yahoo",
+          "title": "Bessent says Treasury favored limits on Megaspeed",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbVZDRlhiWjJIU25oZ0NkWGFHbEdCa2JJTUZISzIwSkNEYXVCbTJsN3JGUXdlSmhKVDZKdkdVeDkyal9TTVA5akhicDItVHgwTlkwZWNPVW9NS0Y2WU90T0xKb1AzZHhfVkRsZjZPMzgzSkpoekptUEJkeTVvUGc3X05sSWJiYU5hSjVB?oc=5"
+        },
+        {
+          "name": "El Financiero",
+          "title": "Chips prohibidos de Nvidia terminaron en centro de datos ligado a Alice Huang en China, revelan documentos",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOX1NBSE9IM2dicks4ZWt3cnQxRXVkZlVSaDhreXVVSUY4aFdvUDRfLUFRckQ3VWtEVjFsOUQ3SURTTFJjNTV4N0EwQlk1eGo4akdOaEVCVVlaampqVVVWRTV4cmhrWWFqUi1UeDhWLVppRk5Dd0dIb1oxenFKeU9rYmVPTGlKZWxhWHM4eGJ1emdEa2Ffd0Y4aDdFdHFwQkw4TElYMU9OVlFMV3NBMUNySi1aNktLQXVlNmVQOFVkcl9McnFuNG00WGNucnZLZGlFSjBuSjZ4ZTY5Y052SVU4M2ZGTElfTzg?oc=5"
+        }
+      ],
+      "wordCount": 584
+    },
+    "blindSpot": "Más allá del escándalo personal que provocó la salida del CEO de Nvidia, el verdadero núcleo del caso radica en las sospechas de los servicios de inteligencia de Estados Unidos sobre desvíos de semiconductores avanzados hacia China. La investigación interna de Megaspeed busca blindar a sus socios occidentales frente a un inminente endurecimiento de los controles de exportación del Departamento del Tesoro."
+  },
+  {
     "slug": "alerta-roja-chonchi-expone-grietas-sistema-db5e",
     "path": "noticias/alerta-roja-chonchi-expone-grietas-sistema-db5e/",
     "title": "Alerta roja en Chonchi expone las grietas del sistema de protección ambiental",
