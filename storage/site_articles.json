@@ -1,5 +1,85 @@
 [
   {
+    "slug": "jordania-condena-muerte-autores-ataque-iglesia-xynd",
+    "path": "noticias/jordania-condena-muerte-autores-ataque-iglesia-xynd/",
+    "title": "Jordania condena a muerte a los autores del ataque a la iglesia de Hammoud",
+    "headline": "JORDANIA CONDENA A MUERTE A TRES ATACANTES DE IGLESIA",
+    "dek": "Un tribunal de Amán dictó la pena capital para los tres hombres que mataron a nueve personas en un funeral cristiano. Tras el atentado, el reino intensificó los ataques militares de represalia en suelo sirio.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "France 24",
+    "image": "img/jordania-condena-muerte-autores-ataque-iglesia-xynd.jpg",
+    "photo": "img/jordania-condena-muerte-autores-ataque-iglesia-xynd-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "dgPaiCMss4k",
+      "title": "Gunmen Shot Mourners at a Church Funeral. Jordan Bombed Syria. Three Children Are Dead | Maraz TV",
+      "channel": "Maraz TV"
+    },
+    "publishedAt": "2026-11-15T09:01:36.025Z",
+    "article": {
+      "slug": "jordania-condena-muerte-autores-ataque-iglesia-xynd",
+      "title": "Jordania condena a muerte a los autores del ataque a la iglesia de Hammoud",
+      "dek": "Un tribunal de Amán dictó la pena capital para los tres hombres que mataron a nueve personas en un funeral cristiano. Tras el atentado, el reino intensificó los ataques militares de represalia en suelo sirio.",
+      "keyFacts": [
+        "Un tribunal jordano condenó a muerte a los tres autores materiales del ataque contra un funeral en la iglesia de Hammoud.",
+        "El atentado terrorista dejó un saldo de nueve personas muertas y varios heridos según los reportes de France 24.",
+        "La acción armada provocó ataques militares de represalia por parte de Jordania contra 'organizaciones terroristas' en Siria."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El tribunal superior de Jordania dictó la pena de muerte para tres hombres armados hallados culpables de perpetrar un atentado terrorista contra un cortejo fúnebre cristiano en la aldea de Hammoud. Según reportó la cadena France 24, la agresión armada dejó un saldo de nueve personas muertas y múltiples heridos en la comunidad local.",
+            "El fallo judicial concluye un proceso acelerado en las cortes jordanas tras la indignación social provocada por la matanza. La sentencia busca enviar una señal inequívoca de tolerancia cero frente a los actos de violencia extremista dirigidos contra minorías religiosas dentro del territorio nacional."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La masacre en la localidad de Hammoud ocurrió en un entorno de alta fragilidad en las zonas limítrofes de Jordania. Tras el ataque contra los civiles congregados en el templo, las autoridades de Amán activaron no solo el aparato de justicia penal interno, sino también la maquinaria militar exterior.",
+            "Según la información difundida por France 24, la agresión inicial desencadenó de inmediato incursiones aéreas y operaciones de represalia por parte del ejército jordano contra bases y posiciones de 'organizaciones terroristas' ubicadas al otro lado de la frontera, en territorio sirio."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la narrativa oficial se enfoca en la severidad del castigo penal impuesto a los tres ejecutores materiales, el verdadero trasfondo estratégico radica en la normalización del uso de la fuerza militar jordana dentro de Siria. El atentado en Hammoud ofreció la justificación perfecta para extender el alcance de las operaciones transfronterizas de Amán.",
+            "Bajo la premisa de neutralizar amenazas inminentes contra la estabilidad del Reino Hachemita, Jordania consolida un precedente de intervención unilateral en territorio sirio sin necesidad de coordinaciones formales con el gobierno de Damasco ni marcos multilaterales, utilizando la justicia interna como aval moral de su proyección armada."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el equilibrio del poder regional, el establecimiento de seguridad de Jordania fortalece su capacidad de respuesta defensiva y convalida ante la opinión pública la necesidad de operar fuera de sus fronteras para garantizar la paz interior.",
+            "Por el contrario, Siria sufre una nueva degradación de su soberanía territorial, al convertirse en el escenario recurrente de las represalias jordanas. Las poblaciones civiles en las áreas limítrofes quedan expuestas al riesgo constante de nuevos ataques de células radicales y a los efectos secundarios de los bombardeos estatales."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos días será determinante monitorear el volumen y alcance de los bombardeos aéreos de Jordania en el sur de Siria. Asimismo, habrá que observar si las organizaciones radicales intentan coordinar respuestas armadas en la franja fronteriza tras la ejecución de las sentencias capitales dictadas en Amán."
+          ]
+        }
+      ],
+      "tags": [
+        "Jordania",
+        "Siria",
+        "Hammoud",
+        "Terrorismo",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "title": "Three sentenced to death over Jordan church attack",
+          "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
+        }
+      ],
+      "wordCount": 458
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el veredicto judicial, el verdadero vector estratégico reside en la respuesta armada de Amán: el atentado sirvió para legitimar e intensificar ataques militares jordanos dentro del territorio sirio contra supuestas organizaciones terroristas. El tribunal no solo juzga un crimen sectario, sino que convalida la proyección militar unilateral de Jordania sobre la frontera norte."
+  },
+  {
     "slug": "ataque-masivo-drones-interrumpe-red-ferroviaria-ft16",
     "path": "noticias/ataque-masivo-drones-interrumpe-red-ferroviaria-ft16/",
     "title": "Ataque masivo con drones interrumpe la red ferroviaria y la infraestructura energética en la región de Rostov",

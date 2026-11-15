@@ -218,9 +218,35 @@
     "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
     "https://www.dw.com/es/jordania-condena-a-muerte-a-los-autores-del-atentado-contra-una-iglesia-ortodoxa/a-79951383?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.europapress.es/internacional/noticia-ataque-drones-rostov-rusia-deja-menos-muerto-cuatro-heridos-interrumpe-trafico-ferroviario-20261115085939.html"
+    "https://www.europapress.es/internacional/noticia-ataque-drones-rostov-rusia-deja-menos-muerto-cuatro-heridos-interrumpe-trafico-ferroviario-20261115085939.html",
+    "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
   ],
   "processedSignatures": [
+    {
+      "title": "JORDANIA CONDENA A MUERTE A TRES ATACANTES DE IGLESIA",
+      "normalizedTokens": [
+        "jordania",
+        "condena",
+        "muerte",
+        "tres",
+        "atacantes",
+        "iglesia"
+      ],
+      "date": "2026-11-15T09:01:36.181Z"
+    },
+    {
+      "title": "Three sentenced to death over Jordan church attack",
+      "normalizedTokens": [
+        "three",
+        "sentenced",
+        "death",
+        "over",
+        "jordan",
+        "church",
+        "attack"
+      ],
+      "date": "2026-11-15T09:01:36.179Z"
+    },
     {
       "title": "DRONES UCRANIANOS SABOTEAN LA LOGÍSTICA EN ROSTOV Y TAGANROG",
       "normalizedTokens": [
