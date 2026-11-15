@@ -215,9 +215,35 @@
     "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
     "https://www.abc.es/internacional/trump-reunira-putin-jinping-historica-cumbre-trilateral-20261114014845-nt.html",
     "https://www.xataka.com.mx/seleccion/macbook-calidad-precio-mercado-tiene-ofertas-buen-fin-2026-este-su-mejor-precio",
-    "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "HAMAS CONFIRMA LA MUERTE DE SU COMANDANTE EN GAZA",
+      "normalizedTokens": [
+        "hamas",
+        "confirma",
+        "muerte",
+        "comandante",
+        "gaza"
+      ],
+      "date": "2026-11-15T05:46:33.733Z"
+    },
+    {
+      "title": "Hamas says senior armed commander killed in Israeli strike",
+      "normalizedTokens": [
+        "hamas",
+        "says",
+        "senior",
+        "armed",
+        "commander",
+        "killed",
+        "israeli",
+        "strike"
+      ],
+      "date": "2026-11-15T05:46:33.731Z"
+    },
     {
       "title": "SAN JUANICO 1984: EL COSTO DE LA NEGLIGENCIA INDUSTRIAL ESTATAL",
       "normalizedTokens": [

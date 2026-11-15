@@ -1,5 +1,97 @@
 [
   {
+    "slug": "muerte-comandante-hamas-gaza-coste-sobre-5vjx",
+    "path": "noticias/muerte-comandante-hamas-gaza-coste-sobre-5vjx/",
+    "title": "La muerte de un comandante de Hamas en Gaza y el coste sobre la infraestructura médica",
+    "headline": "HAMAS CONFIRMA LA MUERTE DE SU COMANDANTE EN GAZA",
+    "dek": "Hamas confirmó la baja de un alto mando en un bombardeo israelí que también golpeó un complejo médico en el sur de Gaza, dejando seis muertos.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Reuters",
+    "image": "img/muerte-comandante-hamas-gaza-coste-sobre-5vjx.jpg",
+    "photo": "img/muerte-comandante-hamas-gaza-coste-sobre-5vjx-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "LsxYJ3708UU",
+      "title": "Israel Kills Top Hamas Commander in Gaza Strike",
+      "channel": "Daily News Explained",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-15T05:46:33.566Z",
+    "article": {
+      "slug": "muerte-comandante-hamas-gaza-coste-sobre-5vjx",
+      "title": "La muerte de un comandante de Hamas en Gaza y el coste sobre la infraestructura médica",
+      "dek": "Hamas confirmó la baja de un alto mando en un bombardeo israelí que también golpeó un complejo médico en el sur de Gaza, dejando seis muertos.",
+      "keyFacts": [
+        "Hamas confirmó la muerte de un comandante senior de su brazo armado.",
+        "Las Fuerzas de Defensa de Israel afirmaron haber atacado a un terrorista de alto rango.",
+        "Un ataque en un complejo médico en el sur de Gaza dejó seis muertos y dos docenas de heridos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según la agencia Reuters, el movimiento islamista Hamas confirmó la muerte de un comandante de alto rango de su brazo armado tras un ataque aéreo ejecutado por Israel. Por su parte, las Fuerzas de Defensa de Israel (IDF) señalaron a través de The Times of Israel que el objetivo de la operación era un terrorista de jerarquía dentro de la estructura militar del grupo.",
+            "De acuerdo con reportes de Demócrata, la ofensiva no se limitó al objetivo militar inicial, ya que el ataque impactó un complejo médico en el sur de Gaza. El saldo preliminar de esta acción en el recinto sanitario fue de seis personas fallecidas y dos docenas de heridos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El conflicto en la Franja de Gaza mantiene una dinámica donde las operaciones de precisión contra la cadena de mandos de Hamas se entrelazan de manera directa con zonas densamente pobladas e infraestructura civil crítica. La estrategia de las fuerzas israelíes prioriza la decapitación de la cúpula militar del grupo palestino, asumiendo un alto costo en términos de daños colaterales.",
+            "La utilización de complejos médicos como escenarios indirectos o directos de las hostilidades ha sido un punto constante de fricción y condena internacional, mientras los servicios de salud en el enclave operan al límite de su capacidad debido a la escasez de suministros y los constantes bombardeos."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de la cobertura internacional suele centrarse en la contabilidad táctica de la operación, valorando la efectividad de la baja militar obtenida por Israel. Sin embargo, el punto ciego radica en la degradación sistemática de la red hospitalaria en el sur de Gaza.",
+            "La destrucción de complejos médicos no es meramente un daño colateral desafortunado, sino un factor que acelera el colapso administrativo y humanitario de la región, limitando la capacidad de supervivencia de la población civil a largo plazo y alterando permanentemente el tejido social."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano táctico, el liderazgo de seguridad israelí gana un trofeo al eliminar a un alto operador militar, reafirmando su doctrina de persecución implacable. Hamas, aunque sufre una pérdida sensible en su estructura de mando, utiliza el impacto sobre la infraestructura médica para alimentar su narrativa de resistencia.",
+            "Quienes pierden de manera categórica son los civiles gazatíes y el personal médico, atrapados en una zona de operaciones donde la distinción entre blancos militares y servicios de emergencia se desvanece de manera sistemática."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es fundamental observar la respuesta operativa de Hamas tras la pérdida de este comandante y si el grupo logra reorganizar su cadena de mando en el sur del enclave.",
+            "Asimismo, se debe vigilar la evolución de la situación en los hospitales restantes de la zona sur, ante el riesgo inminente de un apagón sanitario total que termine por colapsar la asistencia humanitaria."
+          ]
+        }
+      ],
+      "tags": [
+        "Hamas",
+        "Israel",
+        "Gaza",
+        "Seguridad",
+        "Medio Oriente"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "Hamas says senior armed commander killed in Israeli strike",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "IDF says ‘senior terrorist in Hamas’s military wing’ targeted in Gaza strike",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSlViNW9qeWFtTWFqUEEwUFFQYkUzeElheGpmUUVHdk9zd2FjRy1hYmRuVndHTU5tYnl2Wk1TMExXazZBeEszY3VaYTZKczVCN1ZNQ3RvczNyajhHZGtoWUxNcGlQTFhwd25IUGlIVkVwcmhkejlHY1UxVU95WHJZZnNsOEVIZXd2c3ZGLU9uUzl5VFJaaXh4MEQtSGx6WVhTWm9RMXpUTUNCQ2lkT1VST3padUpMZ01uRlc0?oc=5"
+        },
+        {
+          "name": "Demócrata",
+          "title": "Expansion | Six dead and two dozen injured in an Israeli attack on a medical complex in southern Gaza",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNVhkTWszdDdJc3QydlI5NzdjM3pxaEloY19zZTE3SHpxZ1FTcEZubTR2aERzRzNuR2F4TU12Q2ZGMHc0NHY4OFVoRzkyZlY1Zl9VSWl2R21BWFRfQ3I0d0xyZmJvT0lNVzJnT1BFeDZBX3ZkNENMQ1hHYURIRVVJdXRSS0NUME5BNWFJZng1ZnlQMUF6OVQ2LXE2MmFqUUNYZS1MbjZfdFJKdlBoQkduWm9fVDlEXy1Qd181MFNGZTB5RGdyOVE2cDFtcU5nNkxjTnNTaVRvSU0xQdIB3wFBVV95cUxQX21HT0hFUkRudXRWd0pNQW1LRVBDckZWTUNvMkxBMFdpZVkwTU56RWZ6dDlfNXM2MnN5MjRpNmk4UkNuS0RjYWZMLW53NUxXMVZDNVNGXzJUcjRYWUxROFB1VVExR2lobWI0eG1JTFJxTXp4V2xESENSYld0d0NSTHpJV3ExVjJlTVJyanRScXZIa3dtYTRsSlpRQmVUejB0LWZlRUpDU25jckZUaUo5aXIyakFCUE9jeXgyejhlbHVvOEMxaWE5ZjR6TjMySjlfa1RvejVFX1RhVFlDQ0lB?oc=5"
+        }
+      ],
+      "wordCount": 477
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en la baja selectiva del alto mando de Hamas, la destrucción colateral de infraestructura médica en el sur de Gaza pasa a un segundo plano, evidenciando una estrategia de desgaste sistémico sobre los servicios de salud."
+  },
+  {
     "slug": "san-juanico-1984-costo-abandono-regulacion-4jva",
     "path": "noticias/san-juanico-1984-costo-abandono-regulacion-4jva/",
     "title": "San Juanico 1984 y el costo del abandono en la regulación industrial estatal",
