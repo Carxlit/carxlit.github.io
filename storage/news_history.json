@@ -223,9 +223,39 @@
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQ1dlZkQxazFmUktJTmNnYnhyUWp6NVVlTG0yWjJIZHFDZklnTGFMZUVxc2k4bkE1cjloOTlYVmZVYmY5enRaYy1NZkNkUzB0bGxKZXBJRmxGWVNkR2JTRDJzd1lyWXEwZHJxOHF0cEcwdDVNY2d3Y3dPWS1pUm1BbWhjZUpDeENiTUNHUzZrUXE1UGxJQUdkT29BX2R6RlZMdVoyTUk4Mm5iMDlkTWZWMkdhUVgzcmYtbnlhbklySzk5VVlQVS16YXZ6dEJrTHVfUDJKaVhNVDFQU1E5ZzhEbTI2UERud2V5cEE?oc=5",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxON18yZjVEWlFzRWk0dEI5dy14X2d5NlpPZzlpOFJ4TDdzaVBYRkJDLXpaTEQ1WDhxOTd0QzU4QnF5RzZhNDRMWGpkVkFFZVlKYUtnQUFrZU1CN19IZENMLW9LWXJnZEpYeXRRMk5PYU9xVXZtYmJjVDZrSnJuMHdaOHp6NFF6Q3o4c2w5MHBacGFhelBkUUxzbnFuRnVsUkFTZTRQeHNya01ycmZVV2s3YmNYdHZ2SFYtemxibnJhVQ?oc=5",
     "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
-    "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc"
+    "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
+    "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/"
   ],
   "processedSignatures": [
+    {
+      "title": "PAPA LEÓN XIV RECONOCE LA ESCLAVITUD AFRICANA EN PERÚ",
+      "normalizedTokens": [
+        "papa",
+        "leon",
+        "xiv",
+        "reconoce",
+        "esclavitud",
+        "africana",
+        "peru"
+      ],
+      "date": "2026-11-15T12:32:33.096Z"
+    },
+    {
+      "title": "Pope Leo denounces suffering of African enslaved people during Peru visit",
+      "normalizedTokens": [
+        "pope",
+        "leo",
+        "denounces",
+        "suffering",
+        "african",
+        "enslaved",
+        "people",
+        "during",
+        "peru",
+        "visit"
+      ],
+      "date": "2026-11-15T12:32:33.094Z"
+    },
     {
       "title": "NVIDIA Y TSMC PREPARAN SU PROPIA PRODUCCIÓN DE MEMORIA AVANZADA",
       "normalizedTokens": [

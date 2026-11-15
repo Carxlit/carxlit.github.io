@@ -963,5 +963,15 @@
     "relevant": true,
     "reason": "Muestra equipos avanzados de fabricación de semiconductores (fotolitografía), relevantes para la producción de chips y memorias por parte de TSMC.",
     "at": "2026-11-15T11:46:53.602Z"
+  },
+  "2cb6a2176ff0fc07:n02t6e3fe": {
+    "relevant": false,
+    "reason": "La imagen muestra al papa Francisco saludando a niños y no representa el tema del reconocimiento de la esclavitud africana ni al papa León XIV.",
+    "at": "2026-11-15T12:31:56.753Z"
+  },
+  "2ca8ecfb6e3be864:n02t6e3fe": {
+    "relevant": false,
+    "reason": "La imagen muestra al presidente de Camerún, Paul Biya, recibiendo a un supuesto Papa en Yaoundé, lo cual no tiene relación con el contexto de Perú ni con el tema de la esclavitud.",
+    "at": "2026-11-15T12:32:31.495Z"
   }
 }

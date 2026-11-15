@@ -1,5 +1,86 @@
 [
   {
+    "slug": "gesto-papa-leon-xiv-peru-frente-6fik",
+    "path": "noticias/gesto-papa-leon-xiv-peru-frente-6fik/",
+    "title": "El gesto del papa León XIV en Perú frente al lastre del esclavismo colonial",
+    "headline": "PAPA LEÓN XIV RECONOCE LA ESCLAVITUD AFRICANA EN PERÚ",
+    "dek": "En la histórica ciudad de Zaña, el pontífice estadounidense denunció la humillación sufrida por los africanos esclavizados. Sin embargo, el discurso simbólico no resuelve las deudas socioeconómicas pendientes con las comunidades afroperuanas.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Africanews",
+    "image": "img/gesto-papa-leon-xiv-peru-frente-6fik.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "AmgxHxYszgA",
+      "title": "Pope Leo in Peru denounces the ‘suffering and humiliation’ of African enslaved people",
+      "channel": "Associated Press"
+    },
+    "publishedAt": "2026-11-15T12:32:32.949Z",
+    "article": {
+      "slug": "gesto-papa-leon-xiv-peru-frente-6fik",
+      "title": "El gesto del papa León XIV en Perú frente al lastre del esclavismo colonial",
+      "dek": "En la histórica ciudad de Zaña, el pontífice estadounidense denunció la humillación sufrida por los africanos esclavizados. Sin embargo, el discurso simbólico no resuelve las deudas socioeconómicas pendientes con las comunidades afroperuanas.",
+      "keyFacts": [
+        "Alrededor de 100.000 africanos esclavizados fueron llevados a Perú durante la época colonial.",
+        "Han transcurrido más de 170 años desde la emancipación de los esclavos en el país sudamericano.",
+        "El árbol genealógico de León XIV incluye tanto a personas esclavizadas como a propietarios de esclavos.",
+        "La ciudad de Zaña alberga el santuario de Santo Toribio de Mogrovejo, primer arzobispo de Lima."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Durante su visita pastoral a Perú, el papa León XIV encabezó un acto en la ciudad de Zaña, un sitio de memoria de la esclavitud reconocido por la UNESCO. En sus declaraciones, el líder de la Iglesia Católica denunció la humillación y el sufrimiento padecido por los africanos traídos por la fuerza al territorio peruano durante el periodo colonial.",
+            "Según reportó Africanews, el pontífice recordó a las generaciones de africanos arrancados de sus hogares y sometidos a la servidumbre. El residente afroperuano Felipe Gutiérrez destacó el vínculo especial de la comunidad con el papa, cuyo árbol genealógico abarca tanto a personas esclavizadas como a poseedores de esclavos, lo que le otorga una cercanía directa con esta historia."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Zaña posee una estrecha vinculación histórica con Robert Prevost, nombre de nacimiento de León XIV, quien ejerció como obispo de la diócesis de Chiclayo. Antes de su ordenación episcopal, Prevost acudía frecuentemente a rezar ante las reliquias de Santo Toribio de Mogrovejo en esta localidad.",
+            "Mogrovejo, el primer arzobispo de Lima en el siglo XVI, cobró notoriedad por denunciar los abusos cometidos por las autoridades españolas contra las poblaciones indígenas y los africanos esclavizados. León XIV ha manifestado abiertamente que ha moldeado su ejercicio eclesiástico bajo la impronta de dicho precedente histórico."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El énfasis en la empatía personal y la herencia compartida oculta una contradicción estructural. Mientras el Vaticano utiliza la retórica de reconciliación para afianzar su influencia en una región sensible, las demandas concretas de justicia restaurativa quedan marginadas de la agenda diplomática.",
+            "Reconocer el dolor histórico de aproximadamente 100.000 africanos trasladados a Perú resulta un paso significativo en el plano declarativo. No obstante, la ausencia de iniciativas institucionales para financiar la educación o el desarrollo social en comunidades marginadas limita el alcance real de la intervención papal."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "La institución eclesiástica gana legitimidad política al presentarse como defensora de las minorías históricamente oprimidas y alinear su narrativa con los estándares globales de derechos humanos de las Naciones Unidas.",
+            "En contraste, las comunidades afroperuanas continúan asumiendo el costo del rezago social. Más de 170 años después de la abolición formal de la esclavitud, estos colectivos siguen enfrentando niveles desproporcionados de exclusión económica y laboral sin medidas reparatorias de fondo."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será determinante observar si esta toma de postura impulsa cambios legislativos en el Congreso peruano para reforzar las políticas públicas destinadas a la población afrodescendiente.",
+            "Asimismo, resta verificar si la Santa Sede establecerá alianzas o fondos de cooperación específicos que transformen los discursos pastorales en herramientas operativas de inclusión económica."
+          ]
+        }
+      ],
+      "tags": [
+        "Iglesia Católica",
+        "Papa León XIV",
+        "Perú",
+        "Derechos Humanos",
+        "Afroperuanos"
+      ],
+      "sources": [
+        {
+          "name": "Africanews",
+          "title": "Pope Leo denounces suffering of African enslaved people during Peru visit",
+          "url": "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/"
+        }
+      ],
+      "wordCount": 448
+    },
+    "blindSpot": "La narrativa de reconciliación busca relegitimar el peso institucional de la Iglesia en América Latina mediante la conexión personal de León XIV, quien posee ancestros tanto esclavizados como esclavistas. El reconocimiento del estigma histórico omite la falta de reparación económica hacia las comunidades afroperuanas que sufren marginación tras más de 170 años de la emancipación."
+  },
+  {
     "slug": "carrera-nvidia-tsmc-controlar-produccion-memoria-91rt",
     "path": "noticias/carrera-nvidia-tsmc-controlar-produccion-memoria-91rt/",
     "title": "La carrera de Nvidia y TSMC para controlar la producción de memoria avanzada y romper el oligopolio",
