@@ -1003,5 +1003,15 @@
     "relevant": true,
     "reason": "Muestra una frontera vigilada con vallas y personas cruzando, lo cual ilustra adecuadamente el cierre de pasos fronterizos con Rusia.",
     "at": "2026-11-15T17:39:10.406Z"
+  },
+  "169685a81a109ad8:12rwhe3o5": {
+    "relevant": false,
+    "reason": "La imagen muestra destrucción en la Franja de Gaza, lo cual no corresponde al lugar ni al evento del titular (Irán, Bahréin y el Estrecho de Ormuz).",
+    "at": "2026-11-15T18:47:21.920Z"
+  },
+  "bcf0006d03f5631f:12rwhe3o5": {
+    "relevant": true,
+    "reason": "Muestra una patrullera de la guardia costera operando en las aguas de Bahréin, representando las tensiones militares y marítimas descritas en la noticia.",
+    "at": "2026-11-15T18:47:50.623Z"
   }
 }
