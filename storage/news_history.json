@@ -217,9 +217,40 @@
     "https://www.xataka.com.mx/seleccion/macbook-calidad-precio-mercado-tiene-ofertas-buen-fin-2026-este-su-mejor-precio",
     "https://www.bbc.com/mundo/articles/c93xe77lg73o?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5",
-    "https://www.dw.com/es/jordania-condena-a-muerte-a-los-autores-del-atentado-contra-una-iglesia-ortodoxa/a-79951383?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/jordania-condena-a-muerte-a-los-autores-del-atentado-contra-una-iglesia-ortodoxa/a-79951383?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.europapress.es/internacional/noticia-ataque-drones-rostov-rusia-deja-menos-muerto-cuatro-heridos-interrumpe-trafico-ferroviario-20261115085939.html"
   ],
   "processedSignatures": [
+    {
+      "title": "DRONES UCRANIANOS SABOTEAN LA LOGÍSTICA EN ROSTOV Y TAGANROG",
+      "normalizedTokens": [
+        "drones",
+        "ucranianos",
+        "sabotean",
+        "logistica",
+        "rostov",
+        "taganrog"
+      ],
+      "date": "2026-11-15T08:46:49.940Z"
+    },
+    {
+      "title": "Un ataque con drones en Rostov (Rusia) deja al menos un muerto y cuatro heridos e interrumpe el tráfico ferroviario",
+      "normalizedTokens": [
+        "ataque",
+        "drones",
+        "rostov",
+        "rusia",
+        "deja",
+        "menos",
+        "muerto",
+        "cuatro",
+        "heridos",
+        "interrumpe",
+        "trafico",
+        "ferroviario"
+      ],
+      "date": "2026-11-15T08:46:49.939Z"
+    },
     {
       "title": "JORDANIA CONDENA A MUERTE A AUTORES DEL ATENTADO CONTRA IGLESIA",
       "normalizedTokens": [
