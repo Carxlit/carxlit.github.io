@@ -226,9 +226,35 @@
     "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
     "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
     "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html",
-    "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf"
+    "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf",
+    "https://www.abc.es/internacional/cien-dias-espriella-colombia-guerra-crimen-redes-20261113165240-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "LA MILITARIZACIÓN Y EL ALINEAMIENTO DE COLOMBIA CON ESTADOS UNIDOS",
+      "normalizedTokens": [
+        "militarizacion",
+        "alineamiento",
+        "colombia",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-15T16:05:08.337Z"
+    },
+    {
+      "title": "Cien días de De la Espriella en Colombia: entre la guerra al crimen y las redes sociales",
+      "normalizedTokens": [
+        "cien",
+        "dias",
+        "espriella",
+        "colombia",
+        "guerra",
+        "crimen",
+        "redes",
+        "sociales"
+      ],
+      "date": "2026-11-15T16:05:08.335Z"
+    },
     {
       "title": "PROTESTAS JUVENILES Y TENSIONES SOCIALES DESAFÍAN AL ESTADO ALEMÁN",
       "normalizedTokens": [

@@ -993,5 +993,10 @@
     "relevant": false,
     "reason": "La imagen muestra un partido de fútbol y no tiene relación con las protestas juveniles ni las tensiones sociales descritas.",
     "at": "2026-11-15T14:27:36.636Z"
+  },
+  "8cfd7c7c1c21a33f:sqq3osnfd": {
+    "relevant": true,
+    "reason": "La imagen muestra a militares y policías en Colombia con armas incautadas, alineándose perfectamente con el titular sobre la militarización y la estrategia de mano dura.",
+    "at": "2026-11-15T16:05:04.118Z"
   }
 }
