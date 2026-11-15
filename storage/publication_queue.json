@@ -26653,5 +26653,124 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-15T12:32:33.076Z"
+  },
+  {
+    "id": "queue-1794749236725-tbk54",
+    "news": {
+      "id": "im4zwjtuw",
+      "originalUrl": "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html",
+      "originalTitle": "El drama de las víctimas de fraude que no pueden recuperar su dinero: “El banco me dijo que era culpa mía”",
+      "sourceName": "El País Economía",
+      "category": "ECONOMÍA GLOBAL",
+      "urgencyScore": 78,
+      "headline": "BANCOS TRASLADAN A USUARIOS PÉRDIDAS POR FRAUDES DIGITALES CRECIENTES",
+      "subHeadline": "Las entidades financieras rechazan reembolsar fondos a víctimas de ciberestafas mediante acusaciones de negligencia grave. El vacío legal y la inmediatez de los pagos digitales dejan sin protección al consumidor.",
+      "blindSpotAngle": "Detrás de la negativa bancaria a indemnizar a las víctimas de suplantación de identidad existe una estrategia deliberada para trasladar el coste de las fallas del sistema de pagos al usuario final. Al clasificar la interacción del cliente con el estafador como negligencia imprudente, la banca mitiga sus provisiones por pérdidas operativas mientras presiona por una desregulación de sus responsabilidades en transacciones instantáneas.",
+      "facebookPost": "Las denuncias por ciberestafas continúan en aumento mientras el sector bancario endurece su postura frente a las indemnizaciones a clientes afectados. Ante la sofisticación de los ataques de suplantación de identidad, las entidades argumentan que la entrega involuntaria de credenciales por parte del usuario constituye una negligencia grave, liberándolas de cubrir el perjuicio patrimonial.\n\nSin embargo, el punto ciego de este fenómeno no es la credulidad del cliente, sino la arquitectura de transacciones en tiempo real que prima la velocidad de procesamiento sobre la verificación de seguridad. Al no exigir autenticaciones adicionales en transferencias de alto riesgo, los bancos trasladan el riesgo sistémico de sus plataformas digitales directamente al balance personal de los ciudadanos.\n\n¿Debe la banca asumir el coste financiero de las brechas en la seguridad de sus canales digitales o corresponde al cliente la responsabilidad total del dinero sustraído?\n\nFuente: El País Economía\n\n#EconomíaGlobal #FraudeBancario #PuntoCiego",
+      "telegramPost": "<b>BANCOS TRASLADAN A USUARIOS PÉRDIDAS POR FRAUDES DIGITALES CRECIENTES</b>\n\n• <b>Qué ocurrió:</b> Las víctimas de estafas bancarias sufren pérdidas patrimoniales severas ante el rechazo sistemático de las entidades a reembolsar el dinero sustraído, argumentando culpa del usuario.\n• <b>Por qué importa:</b> La banca digitaliza el servicio y automatiza operaciones para reducir costes operativos, pero socializa las pérdidas de seguridad al tildar de negligencia el engaño sufrido por el cliente.\n• <b>Qué sigue:</b> Se anticipa un incremento en las demandas judiciales contra entidades financieras y mayores presiones sobre los reguladores para acotar el concepto de negligencia grave en los pagos digitales.",
+      "linkedInPost": "El incremento del fraude digital y las trabas para la restitución de fondos revelan una tensión creciente entre la banca comercial y la protección del consumidor. La adopción acelerada de esquemas de pago instantáneo ha reducido los friccionamientos transaccionales a expensas de la seguridad del usuario.\n\nEn la actualidad, las entidades financieras apelan recurrentemente a la figura jurídica de la negligencia grave para denegar el reembolso de capitales sustraídos mediante ingeniería social. Esta postura traslada el riesgo operativo del sistema hacia el cliente, protegiendo las cuentas de resultados del sector a costa de erosionar la reputación de la banca en línea.\n\nEl desafío para los reguladores estriba en fijar criterios claros que obliguen a las instituciones de crédito a implementar mecanismos de detección proactiva de patrones anómalos sin paralizar el flujo transaccional. La falta de consenso normativo continuará generando litigiosidad y vulnerabilidad patrimonial en la economía digital.\n\nFuente: El País Economía\n\n#EconomíaGlobal #RiesgoFinanciero #PuntoCiego",
+      "blueskyPost": "La banca externaliza el coste de la ciberdelincuencia imputando negligencia a los clientes estafados. La velocidad transaccional se impone a la seguridad. #EconomíaGlobal #PuntoCiego",
+      "copies": {
+        "facebook": "Las denuncias por ciberestafas continúan en aumento mientras el sector bancario endurece su postura frente a las indemnizaciones a clientes afectados. Ante la sofisticación de los ataques de suplantación de identidad, las entidades argumentan que la entrega involuntaria de credenciales por parte del usuario constituye una negligencia grave, liberándolas de cubrir el perjuicio patrimonial.\n\nSin embargo, el punto ciego de este fenómeno no es la credulidad del cliente, sino la arquitectura de transacciones en tiempo real que prima la velocidad de procesamiento sobre la verificación de seguridad. Al no exigir autenticaciones adicionales en transferencias de alto riesgo, los bancos trasladan el riesgo sistémico de sus plataformas digitales directamente al balance personal de los ciudadanos.\n\n¿Debe la banca asumir el coste financiero de las brechas en la seguridad de sus canales digitales o corresponde al cliente la responsabilidad total del dinero sustraído?\n\n#EconomíaGlobal #FraudeBancario #PuntoCiego",
+        "telegram": "<b>BANCOS TRASLADAN A USUARIOS PÉRDIDAS POR FRAUDES DIGITALES CRECIENTES</b>\n\n• <b>Qué ocurrió:</b> Las víctimas de estafas bancarias sufren pérdidas patrimoniales severas ante el rechazo sistemático de las entidades a reembolsar el dinero sustraído, argumentando culpa del usuario.\n• <b>Por qué importa:</b> La banca digitaliza el servicio y automatiza operaciones para reducir costes operativos, pero socializa las pérdidas de seguridad al tildar de negligencia el engaño sufrido por el cliente.\n• <b>Qué sigue:</b> Se anticipa un incremento en las demandas judiciales contra entidades financieras y mayores presiones sobre los reguladores para acotar el concepto de negligencia grave en los pagos digitales.",
+        "bluesky": "La banca externaliza el coste de la ciberdelincuencia imputando negligencia a los clientes estafados. La velocidad transaccional se impone a la seguridad. #EconomíaGlobal #PuntoCiego",
+        "linkedIn": "El incremento del fraude digital y las trabas para la restitución de fondos revelan una tensión creciente entre la banca comercial y la protección del consumidor. La adopción acelerada de esquemas de pago instantáneo ha reducido los friccionamientos transaccionales a expensas de la seguridad del usuario.\n\nEn la actualidad, las entidades financieras apelan recurrentemente a la figura jurídica de la negligencia grave para denegar el reembolso de capitales sustraídos mediante ingeniería social. Esta postura traslada el riesgo operativo del sistema hacia el cliente, protegiendo las cuentas de resultados del sector a costa de erosionar la reputación de la banca en línea.\n\nEl desafío para los reguladores estriba en fijar criterios claros que obliguen a las instituciones de crédito a implementar mecanismos de detección proactiva de patrones anómalos sin paralizar el flujo transaccional. La falta de consenso normativo continuará generando litigiosidad y vulnerabilidad patrimonial en la economía digital.\n\n#EconomíaGlobal #RiesgoFinanciero #PuntoCiego"
+      },
+      "article": {
+        "slug": "fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e",
+        "title": "El fraude bancario digital traspasa la responsabilidad financiera al usuario afectado",
+        "dek": "El incremento de los ciberdelitos deja a miles de clientes bancarios sin posibilidad de recuperar los fondos robados de sus cuentas. Las entidades apelan a la negligencia grave del usuario para desestimar las reclamaciones y eludir compensaciones.",
+        "keyFacts": [
+          "Aumento sostenido de denuncias por fraudes de suplantación de identidad bancaria.",
+          "Negativa sistemática de los bancos a reembolsar fondos amparándose en la supuesta negligencia del cliente.",
+          "Ausencia de mecanismos automáticos de paralización de transferencias sospechosas en tiempo real."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Según publica El País Economía, un número creciente de clientes bancarios enfrentan pérdidas financieras sustanciales tras ser víctimas de estafas digitales sofisticadas, encontrando una respuesta tajante por parte de las entidades: la negativa a devolver el dinero sustraído. Las víctimas denuncian una desprotección sistemática al intentar recuperar sus fondos tras haber sido engañadas mediante técnicas de ingeniería social.",
+              "Al presentar la reclamación formal, las entidades financieras alegan con frecuencia que los usuarios facilitaron sus claves o autorizaron las operaciones, tipificando esta conducta como negligencia grave. Esta interpretación legal exime automáticamente al banco de la obligación de reembolso establecida en las directivas de servicios de pago, dejando al perjudicado en una situación de indefensión económica y jurídica."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El despliegue masivo de la banca digital y los sistemas de pago en tiempo real ha transformado el funcionamiento del sistema financiero global. Las entidades han promovido activamente la migración de los usuarios hacia canales telemáticos para optimizar costes de estructura y reducir la atención presencial en sucursales.",
+              "No obstante, este proceso de digitalización intensiva no se ha visto acompañado de una evolución equivalente en las barreras de contención antifraude. La ciberdelincuencia ha evolucionado hacia esquemas de ingeniería social capaces de eludir la autenticación de doble factor, explotando la confianza del usuario en las comunicaciones que aparentan ser oficiales de su propia entidad."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El verdadero punto ciego en esta crisis estriba en la asimetría del riesgo en el modelo transaccional actual. La infraestructura bancaria prioriza la inmediatez y la falta de fricción en las operaciones para competir con las plataformas tecnológicas de pago. Esta aceleración impide realizar comprobaciones heurísticas o verificaciones cruzadas en tiempo real antes de la ejecución irrevocable de la transferencia.",
+              "Al imputar la responsabilidad al usuario bajo la premisa de la falta de custodia de credenciales, el sector financiero externaliza el coste de las deficiencias del sistema. La banca trata el engaño al cliente como una falta individual de precaución, soslayando que los atacantes aprovechan vulnerabilidades en el diseño de los canales digitales y la falta de algoritmos de bloqueo preventivo ante comportamientos de gasto anómalos."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los ganadores inmediatos de este esquema son las redes delictivas organizadas, que aprovechan la inmediatez de las transferencias para congelar o mover el capital fuera del alcance de las autoridades antes de que se formalice la denuncia. Paralelamente, el sector bancario preserva sus márgenes operativos al evitar dotaciones extraordinarias para cubrir las pérdidas por fraude no autorizado.",
+              "En la posición perdedora quedan los clientes particulares, quienes asumen el quebranto económico de sus ahorros de forma íntegra. La pérdida de capital se suma a un desgaste administrativo y judicial prolongado para intentar demostrar ante los tribunales que no existió una conducta imprudente."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "En los próximos meses resultará clave observar la jurisprudencia que establezcan los tribunales de justicia ante las demandas de los consumidores. La interpretación judicial sobre lo que constituye formalmente una negligencia grave definirá si la banca debe endurecer la seguridad de sus plataformas o asumir el coste de las restituciones.",
+              "Asimismo, la presión de las asociaciones de consumidores sobre los organismos supervisores y los bancos centrales podría forzar modificaciones normativas. Dichas reformas exigirían a las entidades implementar retardos de seguridad obligatorios y controles reforzados para transacciones que difieran de los patrones habituales del cliente."
+            ]
+          }
+        ],
+        "tags": [
+          "banca",
+          "fraude digital",
+          "finanzas",
+          "ciberseguridad",
+          "derechos del consumidor",
+          "economía"
+        ],
+        "sources": [
+          {
+            "name": "El País Economía",
+            "title": "El drama de las víctimas de fraude que no pueden recuperar su dinero: “El banco me dijo que era culpa mía”",
+            "url": "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html"
+          }
+        ],
+        "wordCount": 577
+      },
+      "videoScript": {
+        "hook": "¿Qué pasa cuando te roban los ahorros del banco y te echan la culpa a ti?",
+        "beats": [
+          "Las ciberestafas bancarias dejan a miles de personas sin recuperar su dinero.",
+          "Las entidades se niegan a devolver los fondos alegando que el cliente actuó con negligencia.",
+          "Y aquí viene lo interesante: la banca prioriza la rapidez de los pagos antes que tu propia seguridad."
+        ],
+        "close": "Lee el análisis completo sobre este caso en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/GQTJ6M2XX73OA562JPWZSHQDKQ.jpg?auth=aa598acc7a38248896bd753f86ff5009d0516f5888809b3e097aac41bb5dd5eb",
+      "status": "pending",
+      "createdAt": "2026-11-15T13:27:11.941Z",
+      "cardImageUrl": "/news-cards/news-im4zwjtuw-1794749231941.jpg",
+      "reelCoverUrl": "/news-cards/news-im4zwjtuw-1794749234995-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-im4zwjtuw-1794749235530-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-15T17:33:45.360Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-15T13:27:16.725Z"
   }
 ]

@@ -1,5 +1,81 @@
 [
   {
+    "slug": "fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e",
+    "path": "noticias/fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e/",
+    "title": "El fraude bancario digital traspasa la responsabilidad financiera al usuario afectado",
+    "headline": "BANCOS TRASLADAN A USUARIOS PÉRDIDAS POR FRAUDES DIGITALES CRECIENTES",
+    "dek": "El incremento de los ciberdelitos deja a miles de clientes bancarios sin posibilidad de recuperar los fondos robados de sus cuentas. Las entidades apelan a la negligencia grave del usuario para desestimar las reclamaciones y eludir compensaciones.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "El País Economía",
+    "image": "img/fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e.jpg",
+    "photo": "img/fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e-foto.jpg",
+    "publishedAt": "2026-11-15T13:27:16.627Z",
+    "article": {
+      "slug": "fraude-bancario-digital-traspasa-responsabilidad-financiera-dw2e",
+      "title": "El fraude bancario digital traspasa la responsabilidad financiera al usuario afectado",
+      "dek": "El incremento de los ciberdelitos deja a miles de clientes bancarios sin posibilidad de recuperar los fondos robados de sus cuentas. Las entidades apelan a la negligencia grave del usuario para desestimar las reclamaciones y eludir compensaciones.",
+      "keyFacts": [
+        "Aumento sostenido de denuncias por fraudes de suplantación de identidad bancaria.",
+        "Negativa sistemática de los bancos a reembolsar fondos amparándose en la supuesta negligencia del cliente.",
+        "Ausencia de mecanismos automáticos de paralización de transferencias sospechosas en tiempo real."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según publica El País Economía, un número creciente de clientes bancarios enfrentan pérdidas financieras sustanciales tras ser víctimas de estafas digitales sofisticadas, encontrando una respuesta tajante por parte de las entidades: la negativa a devolver el dinero sustraído. Las víctimas denuncian una desprotección sistemática al intentar recuperar sus fondos tras haber sido engañadas mediante técnicas de ingeniería social.",
+            "Al presentar la reclamación formal, las entidades financieras alegan con frecuencia que los usuarios facilitaron sus claves o autorizaron las operaciones, tipificando esta conducta como negligencia grave. Esta interpretación legal exime automáticamente al banco de la obligación de reembolso establecida en las directivas de servicios de pago, dejando al perjudicado en una situación de indefensión económica y jurídica."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El despliegue masivo de la banca digital y los sistemas de pago en tiempo real ha transformado el funcionamiento del sistema financiero global. Las entidades han promovido activamente la migración de los usuarios hacia canales telemáticos para optimizar costes de estructura y reducir la atención presencial en sucursales.",
+            "No obstante, este proceso de digitalización intensiva no se ha visto acompañado de una evolución equivalente en las barreras de contención antifraude. La ciberdelincuencia ha evolucionado hacia esquemas de ingeniería social capaces de eludir la autenticación de doble factor, explotando la confianza del usuario en las comunicaciones que aparentan ser oficiales de su propia entidad."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El verdadero punto ciego en esta crisis estriba en la asimetría del riesgo en el modelo transaccional actual. La infraestructura bancaria prioriza la inmediatez y la falta de fricción en las operaciones para competir con las plataformas tecnológicas de pago. Esta aceleración impide realizar comprobaciones heurísticas o verificaciones cruzadas en tiempo real antes de la ejecución irrevocable de la transferencia.",
+            "Al imputar la responsabilidad al usuario bajo la premisa de la falta de custodia de credenciales, el sector financiero externaliza el coste de las deficiencias del sistema. La banca trata el engaño al cliente como una falta individual de precaución, soslayando que los atacantes aprovechan vulnerabilidades en el diseño de los canales digitales y la falta de algoritmos de bloqueo preventivo ante comportamientos de gasto anómalos."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los ganadores inmediatos de este esquema son las redes delictivas organizadas, que aprovechan la inmediatez de las transferencias para congelar o mover el capital fuera del alcance de las autoridades antes de que se formalice la denuncia. Paralelamente, el sector bancario preserva sus márgenes operativos al evitar dotaciones extraordinarias para cubrir las pérdidas por fraude no autorizado.",
+            "En la posición perdedora quedan los clientes particulares, quienes asumen el quebranto económico de sus ahorros de forma íntegra. La pérdida de capital se suma a un desgaste administrativo y judicial prolongado para intentar demostrar ante los tribunales que no existió una conducta imprudente."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos meses resultará clave observar la jurisprudencia que establezcan los tribunales de justicia ante las demandas de los consumidores. La interpretación judicial sobre lo que constituye formalmente una negligencia grave definirá si la banca debe endurecer la seguridad de sus plataformas o asumir el coste de las restituciones.",
+            "Asimismo, la presión de las asociaciones de consumidores sobre los organismos supervisores y los bancos centrales podría forzar modificaciones normativas. Dichas reformas exigirían a las entidades implementar retardos de seguridad obligatorios y controles reforzados para transacciones que difieran de los patrones habituales del cliente."
+          ]
+        }
+      ],
+      "tags": [
+        "banca",
+        "fraude digital",
+        "finanzas",
+        "ciberseguridad",
+        "derechos del consumidor",
+        "economía"
+      ],
+      "sources": [
+        {
+          "name": "El País Economía",
+          "title": "El drama de las víctimas de fraude que no pueden recuperar su dinero: “El banco me dijo que era culpa mía”",
+          "url": "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html"
+        }
+      ],
+      "wordCount": 577
+    },
+    "blindSpot": "Detrás de la negativa bancaria a indemnizar a las víctimas de suplantación de identidad existe una estrategia deliberada para trasladar el coste de las fallas del sistema de pagos al usuario final. Al clasificar la interacción del cliente con el estafador como negligencia imprudente, la banca mitiga sus provisiones por pérdidas operativas mientras presiona por una desregulación de sus responsabilidades en transacciones instantáneas."
+  },
+  {
     "slug": "gesto-papa-leon-xiv-peru-frente-6fik",
     "path": "noticias/gesto-papa-leon-xiv-peru-frente-6fik/",
     "title": "El gesto del papa León XIV en Perú frente al lastre del esclavismo colonial",

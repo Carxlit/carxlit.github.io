@@ -224,9 +224,40 @@
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxON18yZjVEWlFzRWk0dEI5dy14X2d5NlpPZzlpOFJ4TDdzaVBYRkJDLXpaTEQ1WDhxOTd0QzU4QnF5RzZhNDRMWGpkVkFFZVlKYUtnQUFrZU1CN19IZENMLW9LWXJnZEpYeXRRMk5PYU9xVXZtYmJjVDZrSnJuMHdaOHp6NFF6Q3o4c2w5MHBacGFhelBkUUxzbnFuRnVsUkFTZTRQeHNya01ycmZVV2s3YmNYdHZ2SFYtemxibnJhVQ?oc=5",
     "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
     "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
-    "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/"
+    "http://www.africanews.com/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
+    "https://elpais.com/economia/2026-11-15/el-drama-de-las-victimas-de-fraude-que-no-pueden-recuperar-su-dinero-el-banco-me-dijo-que-era-culpa-mia.html"
   ],
   "processedSignatures": [
+    {
+      "title": "BANCOS TRASLADAN A USUARIOS PÉRDIDAS POR FRAUDES DIGITALES CRECIENTES",
+      "normalizedTokens": [
+        "bancos",
+        "trasladan",
+        "usuarios",
+        "perdidas",
+        "fraudes",
+        "digitales",
+        "crecientes"
+      ],
+      "date": "2026-11-15T13:27:16.738Z"
+    },
+    {
+      "title": "El drama de las víctimas de fraude que no pueden recuperar su dinero: “El banco me dijo que era culpa mía”",
+      "normalizedTokens": [
+        "drama",
+        "victimas",
+        "fraude",
+        "pueden",
+        "recuperar",
+        "dinero",
+        "banco",
+        "dijo",
+        "era",
+        "culpa",
+        "mia"
+      ],
+      "date": "2026-11-15T13:27:16.737Z"
+    },
     {
       "title": "PAPA LEÓN XIV RECONOCE LA ESCLAVITUD AFRICANA EN PERÚ",
       "normalizedTokens": [
