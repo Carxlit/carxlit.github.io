@@ -1,5 +1,106 @@
 [
   {
+    "id": "8kgja3c72",
+    "originalUrl": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
+    "originalTitle": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
+    "sourceName": "Xataka",
+    "category": "TECNOLOGÍA & IA",
+    "urgencyScore": 88,
+    "headline": "NVIDIA Y TSMC PREPARAN SU PROPIA PRODUCCIÓN DE MEMORIA AVANZADA",
+    "subHeadline": "Ante la crisis de suministro global y la dependencia de un oligopolio, Nvidia busca que TSMC fabrique memoria 3D RAM.",
+    "blindSpotAngle": "La cobertura general se centra en el pulso comercial entre Nvidia y Samsung, ignorando que este movimiento consolida un monopolio absoluto de TSMC sobre todo el hardware crítico de IA, subordinando la cadena de suministro global a una sola isla y a una sola compañía.",
+    "facebookPost": "La escasez de memoria por el auge de la inteligencia artificial ha llevado a Nvidia a tramar un cambio drástico para sacudirse la dependencia de Samsung. Según filtraciones recientes, la compañía de Jensen Huang habría pedido a TSMC que comience a trazar planes para producir memoria 3D RAM, un movimiento que reestructuraría por completo el mercado de componentes.\n\nLa narrativa oficial apunta a un simple ajuste logístico frente a la alta demanda global. El punto ciego es que esto concentra aún más el poder en manos de una sola fundición taiwanesa, dejando el suministro mundial de IA a merced de un único punto geográfico y corporativo muy vulnerable.\n\n¿Hasta qué punto es sostenible que toda la industria tecnológica dependa de la misma cadena de montaje en Taiwán?\n\nFuente: Xataka\n\n#Tecnología #InteligenciaArtificial #PuntoCiego",
+    "telegramPost": "<b>NVIDIA BUSCA FÁBRICA PROPIA EN TSMC PARA ROMPER LA DEPENDENCIA DE MEMORIA</b>\n\n• <b>Qué ocurrió:</b> Informes de The Information apuntan a que Nvidia ha solicitado a TSMC trazar planes para fabricar memoria 3D RAM, buscando esquivar al oligopolio tradicional de memoria.\n• <b>Por qué importa:</b> La demanda de IA ha roto el suministro global hasta 2028. Centralizar la producción en TSMC altera radicalmente el equilibrio de poder frente a Samsung y Micron.\n• <b>Qué sigue:</b> Ver si TSMC transforma plantas existentes para asumir la producción de memoria avanzada, consolidando su monopolio absoluto en el hardware de IA.",
+    "linkedInPost": "La crisis de suministro de memoria provocada por la inteligencia artificial está reconfigurando las alianzas estratégicas en el sector de semiconductores. El movimiento de Nvidia para externalizar o co-desarrollar memoria 3D RAM con TSMC evidencia que los gigantes tecnológicos ya no confían en la capacidad de respuesta del oligopolio tradicional formado por Samsung, SK Hynix y Micron.\n\nPara los inversores y analistas de cadena de suministro, esto representa un riesgo sistémico de concentración. La dependencia extrema de las capacidades de fundición de TSMC en Taiwán amplifica el riesgo geopolítico y deja a la industria expuesta a cuellos de botella estructurales a largo plazo.\n\nFuente: Xataka\n\n#Tecnología #Semiconductores #PuntoCiego",
+    "blueskyPost": "Nvidia busca que TSMC fabrique su memoria 3D RAM para no depender de Samsung. La crisis de IA concentra el poder en una sola fundición taiwanesa. #PuntoCiego #Tecnología",
+    "copies": {
+      "facebook": "La escasez de memoria por el auge de la inteligencia artificial ha llevado a Nvidia a tramar un cambio drástico para sacudirse la dependencia de Samsung. Según filtraciones recientes, la compañía de Jensen Huang habría pedido a TSMC que comience a trazar planes para producir memoria 3D RAM, un movimiento que reestructuraría por completo el mercado de componentes.\n\nLa narrativa oficial apunta a un simple ajuste logístico frente a la alta demanda global. El punto ciego es que esto concentra aún más el poder en manos de una sola fundición taiwanesa, dejando el suministro mundial de IA a merced de un único punto geográfico y corporativo muy vulnerable.\n\n¿Hasta qué punto es sostenible que toda la industria tecnológica dependa de la misma cadena de montaje en Taiwán? #Tecnología #InteligenciaArtificial #PuntoCiego",
+      "telegram": "<b>NVIDIA BUSCA FÁBRICA PROPIA EN TSMC PARA ROMPER LA DEPENDENCIA DE MEMORIA</b>\n\n• <b>Qué ocurrió:</b> Informes de The Information apuntan a que Nvidia ha solicitado a TSMC trazar planes para fabricar memoria 3D RAM, buscando esquivar al oligopolio tradicional de memoria.\n• <b>Por qué importa:</b> La demanda de IA ha roto el suministro global hasta 2028. Centralizar la producción en TSMC altera radicalmente el equilibrio de poder frente a Samsung y Micron.\n• <b>Qué sigue:</b> Ver si TSMC transforma plantas existentes para asumir la producción de memoria avanzada, consolidando su monopolio absoluto en el hardware de IA.",
+      "bluesky": "Nvidia busca que TSMC fabrique su memoria 3D RAM para no depender de Samsung. La crisis de IA concentra el poder en una sola fundición taiwanesa. #PuntoCiego #Tecnología",
+      "linkedIn": "La crisis de suministro de memoria provocada por la inteligencia artificial está reconfigurando las alianzas estratégicas en el sector de semiconductores. El movimiento de Nvidia para externalizar o co-desarrollar memoria 3D RAM con TSMC evidencia que los gigantes tecnológicos ya no confían en la capacidad de respuesta del oligopolio tradicional formado por Samsung, SK Hynix y Micron.\n\nPara los inversores y analistas de cadena de suministro, esto representa un riesgo sistémico de concentración. La dependencia extrema de las capacidades de fundición de TSMC en Taiwán amplifica el riesgo geopolítico y deja a la industria expuesta a cuellos de botella estructurales a largo plazo. #Tecnología #Semiconductores #PuntoCiego"
+    },
+    "article": {
+      "slug": "carrera-nvidia-tsmc-controlar-produccion-memoria-91rt",
+      "title": "La carrera de Nvidia y TSMC para controlar la producción de memoria avanzada y romper el oligopolio",
+      "dek": "Nvidia presiona a TSMC para fabricar memoria 3D RAM y sortear la crisis de suministro que estrangula a la inteligencia artificial. La jugada redefine el poder en los semiconductores.",
+      "keyFacts": [
+        "La escasez de memoria provocada por la inteligencia artificial se prolongará hasta al menos 2028 según los fabricantes.",
+        "The Information reveló que TSMC comenzó a trazar planes para fabricar 3D RAM a petición de Nvidia.",
+        "El proyecto estaría liderado por Hsu Kuo-chin, vicepresidente de empaquetado avanzado en TSMC y exdirectivo de Micron.",
+        "Samsung aceptó trasladar la producción de la capa base de sus chips NVHBM a los procesos de 3 nanómetros de TSMC."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La escasez de memoria impulsada por el boom de la inteligencia artificial se ha convertido en uno de los problemas operativos más graves del sector tecnológico. Los precios se han disparado y las previsiones apuntan a que la tensión en las cadenas de suministro se mantendrá al menos hasta 2028. En este escenario, Nvidia, principal artífice de esa sobredemanda de hardware, ha comenzado a tantear alternativas para dejar de depender exclusivamente de los pocos fabricantes globales de memoria.",
+            "Según una filtración adelantada por el medio The Information y recogida por Reuters, Nvidia habría solicitado a TSMC que comience a trazar planes para fabricar memoria 3D RAM. Aunque un portavoz de TSMC declaró posteriormente a Tom's Hardware que la compañía sigue centrada en su negocio de fundición de circuitos integrados lógicos sin confirmar explícitamente el plan, el movimiento responde a una necesidad imperiosa de asegurar volumen para los próximos años."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El negocio de la memoria DRAM convencional y los chips de alta velocidad HBM está controlado por un grupo muy reducido de actores: las surcoreanas Samsung y SK Hynix, y la estadounidense Micron. Ninguna de ellas da abasto ante la demanda de los centros de datos de inteligencia artificial. Crear nuevas salas limpias y ampliar la capacidad de producción de DRAM requiere procesos largos y complejos donde la maquinaria no basta para solucionar los cuellos de botella.",
+            "La relación entre Nvidia y TSMC ya es extremadamente estrecha al ser la taiwanesa la fundición de referencia para los chips lógicos de la compañía estadounidense. Además, recientemente Nvidia exigió a Samsung, SK Hynix y Micron que utilizaran el nodo de 3 nanómetros de TSMC para producir la capa base de sus chips NVHBM personalizados. Samsung aceptó externalizar esa parte del proceso, lo que abrió la puerta a que Nvidia plantee dar el salto definitivo hacia la fabricación directa con su socio predilecto."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la atención mediática se concentra en el pulso comercial entre Nvidia y Samsung y en las dificultades técnicas de la memoria HBM, el verdadero fondo de la cuestión radica en la hiperconcentración de la industria. Si TSMC, que ya domina la producción mundial de procesadores avanzados, asume también la fabricación de memoria 3D RAM, el ecosistema tecnológico global quedará amarrado a un único proveedor.",
+            "Esta jugada trasciende la simple optimización de costes o plazos de entrega. Convierte a TSMC en el custodio absoluto de todo el hardware sobre el que descansa la inteligencia artificial actual, elevando los riesgos geopolíticos y sistémicos a niveles sin precedentes en la historia reciente de la industria."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Nvidia sale claramente beneficiada al asegurar una vía directa y personalizada para su suministro de memoria, reduciendo el poder de negociación de los fabricantes tradicionales. TSMC refuerza su posición estratégica como el socio indispensable del sector tecnológico global, consolidando su estatus de monopolio de facto en la fabricación avanzada.",
+            "En el lado de los perdedores figuran los fabricantes tradicionales de memoria como Samsung, SK Hynix y Micron, que ven cómo su margen de maniobra se reduce y pierden control sobre las capas de valor añadido de sus propios componentes frente a la presión de un cliente sobredimensionado."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario monitorizar los próximos movimientos de Hsu Kuo-chin, vicepresidente de empaquetado avanzado en TSMC y exdirectivo de Micron, quien supuestamente lideraría este proyecto de expansión hacia la memoria.",
+            "Asimismo, conviene vigilar la evolución de los acuerdos de capacidad en las plantas de TSMC y si la compañía taiwanesa termina adquiriendo instalaciones adicionales para reconvertirlas en líneas exclusivas de producción de DRAM avanzada para los intereses de Nvidia."
+          ]
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "TSMC",
+        "Samsung",
+        "Semiconductores",
+        "Inteligencia Artificial"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
+          "url": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc"
+        }
+      ],
+      "wordCount": 616
+    },
+    "videoScript": {
+      "hook": "Nvidia se ha cansado de depender de Samsung para conseguir memoria.",
+      "beats": [
+        "La escasez de componentes por la inteligencia artificial se alargará hasta 2028.",
+        "Nvidia ha pedido a TSMC que trace planes para fabricar su propia memoria 3D RAM.",
+        "El verdadero peligro es que toda la industria tecnológica dependerá de una sola fundición."
+      ],
+      "close": "Lee el análisis completo en el enlace del perfil."
+    },
+    "rawImageUrl": "https://i.blogs.es/b2b935/original/840_560.jpeg",
+    "status": "published",
+    "createdAt": "2026-11-15T11:46:54.949Z",
+    "cardImageUrl": "/news-cards/news-8kgja3c72-1794743214950.jpg",
+    "reelCoverUrl": "/news-cards/news-8kgja3c72-1794743217140-cover.jpg",
+    "instagramCardUrl": "/news-cards/news-8kgja3c72-1794743217736-ig.jpg",
+    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/carrera-nvidia-tsmc-controlar-produccion-memoria-91rt/",
+    "publishedAt": "2026-11-15T14:25:06.885Z"
+  },
+  {
     "id": "pflhfjtrk",
     "originalUrl": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
     "originalTitle": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
@@ -22826,107 +22927,5 @@
     "instagramCardUrl": "/news-cards/news-qcbp4ak6k-1793641752606-ig.jpg",
     "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cuando-algoritmos-nasa-intentan-fechar-cielo-a6ck/",
     "publishedAt": "2026-11-02T20:06:01.603Z"
-  },
-  {
-    "id": "w9zx9799m",
-    "originalUrl": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
-    "originalTitle": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
-    "sourceName": "Cinco Días Mercados",
-    "category": "ECONOMÍA GLOBAL",
-    "urgencyScore": 75,
-    "headline": "EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL",
-    "subHeadline": "José Luis Escrivá defiende la solidez de las inversiones tecnológicas frente al escepticismo de los mercados, mientras Luis de Guindos respalda la candidatura española para el Banco Central Europeo.",
-    "blindSpotAngle": "La defensa de Escrivá omite el riesgo sistémico derivado de la concentración del capital en un puñado de gigantes tecnológicos y la opacidad en la valoración de estos activos intangibles.",
-    "facebookPost": "El gobernador del Banco de España, José Luis Escrivá, ha desestimado las comparaciones entre el actual ciclo de inversión en inteligencia artificial y las burbujas financieras históricas. Mientras el discurso oficial insiste en la transformación estructural de la economía, el trasfondo muestra un mercado altamente concentrado y dependiente de un puñado de gigantes tecnológicos que dictan el pulso de la liquidez global.\n\n¿Es este optimismo institucional un análisis riguroso de la productividad o un intento de evitar el pánico en los mercados de capitales europeos?\n\nFuente: Cinco Días Mercados\n\n#EconomíaGlobal #InteligenciaArtificial #PuntoCiego",
-    "telegramPost": "<b>EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL</b>\n\n• <b>Qué ocurrió:</b> José Luis Escrivá ha rechazado equiparar las actuales inversiones en inteligencia artificial con burbujas financieras pasadas, respaldado por declaraciones de Luis de Guindos sobre la influencia española en el Banco Central Europeo.\n• <b>Por qué importa:</b> La narrativa oficial intenta blindar la confianza en el sector tecnológico, ignorando la alta concentración de capital y los riesgos de valoración en los activos digitales e industriales.\n• <b>Qué sigue:</b> Los mercados vigilarán de cerca la tolerancia regulatoria de la banca central ante la exposición crediticia a las grandes tecnológicas.",
-    "linkedInPost": "La reciente postura del Banco de España respecto a la inversión en inteligencia artificial evidencia la tensión entre el entusiasmo corporativo y la gestión del riesgo sistémico. Descartar los paralelismos con crisis anteriores obvia la velocidad de propagación del capital y la concentración de la cadena de valor en infraestructuras críticas. Las implicaciones para la estabilidad financiera exigen un monitoreo estricto de las valoraciones de activos y la exposición de los intermediarios financieros.\n\nFuente: Cinco Días Mercados\n\n#EconomíaGlobal #BancaCentral #PuntoCiego",
-    "blueskyPost": "Escrivá descarta la burbuja en IA y blinda el relato oficial, ignorando la extrema concentración de capital en pocas manos tecnológicas. #EconomíaGlobal #PuntoCiego",
-    "copies": {
-      "facebook": "El gobernador del Banco de España, José Luis Escrivá, ha desestimado las comparaciones entre el actual ciclo de inversión en inteligencia artificial y las burbujas financieras históricas. Mientras el discurso oficial insiste en la transformación estructural de la economía, el trasfondo muestra un mercado altamente concentrado y dependiente de un puñado de gigantes tecnológicos que dictan el pulso de la liquidez global.\n\n¿Es este optimismo institucional un análisis riguroso de la productividad o un intento de evitar el pánico en los mercados de capitales europeos?\n\n#EconomíaGlobal #InteligenciaArtificial #PuntoCiego",
-      "telegram": "<b>EL GOVERNADOR DEL BANCO DE ESPAÑA RECHAZA LA BURBUJA EN INTELIGENCIA ARTIFICIAL</b>\n\n• <b>Qué ocurrió:</b> José Luis Escrivá ha rechazado equiparar las actuales inversiones en inteligencia artificial con burbujas financieras pasadas, respaldado por declaraciones de Luis de Guindos sobre la influencia española en el Banco Central Europeo.\n• <b>Por qué importa:</b> La narrativa oficial intenta blindar la confianza en el sector tecnológico, ignorando la alta concentración de capital y los riesgos de valoración en los activos digitales e industriales.\n• <b>Qué sigue:</b> Los mercados vigilarán de cerca la tolerancia regulatoria de la banca central ante la exposición crediticia a las grandes tecnológicas.",
-      "bluesky": "Escrivá descarta la burbuja en IA y blinda el relato oficial, ignorando la extrema concentración de capital en pocas manos tecnológicas. #EconomíaGlobal #PuntoCiego",
-      "linkedIn": "La reciente postura del Banco de España respecto a la inversión en inteligencia artificial evidencia la tensión entre el entusiasmo corporativo y la gestión del riesgo sistémico. Descartar los paralelismos con crisis anteriores obvia la velocidad de propagación del capital y la concentración de la cadena de valor en infraestructuras críticas. Las implicaciones para la estabilidad financiera exigen un monitoreo estricto de las valoraciones de activos y la exposición de los intermediarios financieros. #EconomíaGlobal #BancaCentral #PuntoCiego"
-    },
-    "article": {
-      "slug": "jose-luis-escriva-rechaza-equiparar-inversiones-xo6s",
-      "title": "José Luis Escrivá rechaza equiparar las inversiones en inteligencia artificial con burbujas financieras pasadas",
-      "dek": "El gobernador del Banco de España defiende la solidez del actual ciclo tecnológico en un contexto marcado por el debate sobre la gobernanza económica europea.",
-      "keyFacts": [
-        "José Luis Escrivá ocupa el cargo de gobernador del Banco de España.",
-        "Luis de Guindos manifestó su respaldo durante el foro WIP.",
-        "La cobertura principal proviene de Cinco Días Mercados y EL PAÍS."
-      ],
-      "sections": [
-        {
-          "heading": "Qué pasó",
-          "paragraphs": [
-            "El gobernador del Banco de España, José Luis Escrivá, ha rechazado de forma categórica equiparar las actuales inversiones en inteligencia artificial con otras burbujas financieras históricas. Según la información difundida por EL PAÍS, la postura oficial descarta que el despliegue de capital tecnológico responda a dinámicas especulativas insostenibles.",
-            "Paralelamente, en el ámbito de la gobernanza europea, el foro WIP ha servido de escenario para que Luis de Guindos se pronuncie sobre la influencia española en las altas instancias financieras, señalando un respaldo explícito a la candidatura de Pablo para presidir el Banco Central Europeo."
-          ]
-        },
-        {
-          "heading": "El contexto",
-          "paragraphs": [
-            "El debate sobre la naturaleza de la inversión en inteligencia artificial se produce en un momento de transformación profunda para los mercados globales. Los bancos centrales y los reguladores financieros intentan calibrar el impacto real de la tecnología en la productividad macroeconómica frente a los riesgos asociados a la volatilidad bursátil y la asignación de recursos.",
-            "La discusión en torno a la candidatura para el Banco Central Europeo añade una capa de complejidad política, situando a España en el centro de las negociaciones sobre el futuro de la política monetaria en la eurozona."
-          ]
-        },
-        {
-          "heading": "El punto ciego",
-          "paragraphs": [
-            "Mientras el discurso oficial de los reguladores insiste en desvincular la IA de los precedentes especulativos, el análisis profundo revela una vulnerabilidad estructural: la concentración extrema del capital en un número reducido de corporaciones tecnológicas. Esta dependencia sistémica implica que cualquier corrección en las expectativas de monetización no afectará de manera aislada al sector tech, sino a la estabilidad de los fondos de inversión y a la cadena de valor industrial que financia esta transición."
-          ]
-        },
-        {
-          "heading": "Quién gana y quién pierde",
-          "paragraphs": [
-            "Los principales beneficiarios de este respaldo institucional son las grandes empresas tecnológicas y los fondos de capital de riesgo que lideran el despliegue de infraestructuras de IA, al recibir un espaldarazo regulatorio que mitiga la presión de los escépticos.",
-            "Por otro lado, los inversores minoristas y los fondos soberanos expuestos a valoraciones infladas asumen el riesgo latente de una corrección de mercado que los reguladores optan por minimizar en esta fase del ciclo."
-          ]
-        },
-        {
-          "heading": "Qué vigilar",
-          "paragraphs": [
-            "Los próximos movimientos en los mercados de valores y los informes de estabilidad financiera del Banco Central Europeo serán determinantes para comprobar si la apuesta por la inteligencia artificial se traduce en ganancias de productividad reales o si la concentración de riesgos financieros justifica el escepticismo de los analistas críticos."
-          ]
-        }
-      ],
-      "tags": [
-        "Economía",
-        "Banco de España",
-        "Inteligencia Artificial",
-        "BCE",
-        "Mercados"
-      ],
-      "sources": [
-        {
-          "name": "Cinco Días Mercados",
-          "title": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
-          "url": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html"
-        },
-        {
-          "name": "EL PAÍS",
-          "title": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQmw2Q0hhNkRpVEtBOHA2YUx3U0UteGhBcWdtaUhqMFpiVUxvZ2VrLUh4WXJSV0N6YlNiSXBPTVVDSVA4T0Rqc2xoQWNpa0lhSHhmYlZyY1VXbmJNdjZOMGJqRFpzcXVVVDNmMkVZdHZjNVU3VEdJb1VTNHZzTWRydGsxT0RDQVE3aV9EeWV4N1BMZThzY2hnbkhqWGdPQjkxMVBBc0dYU3FzemUxR2RBeVY3QTAtaGxHdlFEMm1kT3QwSU9Ybm5DVzRERWFfd2Z3c1R4ODdWUdIB6wFBVV95cUxPRHJXbmlONEdZMFVjSEtEQzZFN1dLRHBnV2xONzIxMk9qNDFzY2V6UUtEaWo5WTNCVndMUk5FQU5OS3NpR0I1SEhyUjU3d29KekYtaVE1OGVfSWVrTHNmY1FtN0VNd1lpdzdVN3BueHZYUENmU0s3dnJDOWxjSUQ1VGZLVEI5NGF3bTRXTXh4emVRR0MtWklGQUNud21xR1dnQ0NyUzVHaUlwNHFhMnc2TUFDRkoxNnhYVVB0TGd6ZnFua0IzTkJuUkt1aUgyTlZTeWNLM210OG5hQlNRVnhJV1dpTTU1UnQwdV84?oc=5"
-        }
-      ],
-      "wordCount": 410
-    },
-    "videoScript": {
-      "hook": "Escrivá defiende la inteligencia artificial y niega que sea una nueva burbuja.",
-      "beats": [
-        "El gobernador del Banco de España rechaza comparar las inversiones tecnológicas con crisis pasadas.",
-        "Mientras tanto, Luis de Guindos apoya la candidatura española para presidir el Banco Central Europeo.",
-        "El punto ciego es que se ignora la peligrosa concentración de capital en pocas manos tecnológicas."
-      ],
-      "close": "Lee el análisis completo y sin filtros en el enlace del perfil."
-    },
-    "rawImageUrl": "https://album.mediaset.es/eimg/2024/0711/08/archivo-el-ministro-de-inclusion-seguridad-social-y-migraciones-jose-luis-escriva-interviene-en-una-72136d8-2.jpg",
-    "status": "published",
-    "createdAt": "2026-11-02T19:06:04.084Z",
-    "cardImageUrl": "/news-cards/news-w9zx9799m-1793646364085.jpg",
-    "instagramCardUrl": "/news-cards/news-w9zx9799m-1793646367694-ig.jpg",
-    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/jose-luis-escriva-rechaza-equiparar-inversiones-xo6s/",
-    "publishedAt": "2026-11-02T19:08:45.701Z"
   }
 ]
