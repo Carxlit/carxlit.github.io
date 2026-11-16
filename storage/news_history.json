@@ -246,9 +246,34 @@
     "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva",
     "https://www.bbc.com/mundo/articles/c64gn38yj4ygo?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdkJQb1ozVFlrUGpBOS1iR042NDZWZmpmaS1wNzF3b3VyZmxCMFM5QUpsVnZ6OTNvb0gyRTlGZjFuT3gzUEswSXBrMzZPWUV1TnlwZFJFRTNSbmJOcWdUY2p2YUxPc3B0bE8xQXBXSHNPSjNyRERpVkxSaDdXVWN1ZWJlVHZLWDdTLXV1WEFUUTVzREVoaFJ0cFJKSUNFM0pNNVZxS0pNc25NNXd1Ukp3M0M0bVBmSTQ1TmY1dXVTc19GQjFWVWgydVl5aXhFUDlhcjJjSk5DMzMwSFRDRV9LRXU5dmw3WUE?oc=5",
-    "https://www.dw.com/es/deportaciones-a-ruanda-el-plan-que-impulsan-cinco-países-europeos/a-79961510?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/deportaciones-a-ruanda-el-plan-que-impulsan-cinco-países-europeos/a-79961510?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
   ],
   "processedSignatures": [
+    {
+      "title": "CALIFORNIA DEMANDA A OPENAI POR ATAQUES DE AGENTES DE IA",
+      "normalizedTokens": [
+        "california",
+        "demanda",
+        "openai",
+        "ataques",
+        "agentes"
+      ],
+      "date": "2026-11-16T21:42:36.758Z"
+    },
+    {
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "normalizedTokens": [
+        "california",
+        "sues",
+        "openai",
+        "over",
+        "rogue",
+        "hacking",
+        "incidents"
+      ],
+      "date": "2026-11-16T21:42:36.756Z"
+    },
     {
       "title": "CINCO PAÍSES EUROPEOS IMPULSAN NUEVOS CENTROS DE DEPORTACIÓN EXTERNOS",
       "normalizedTokens": [
