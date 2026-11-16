@@ -1,5 +1,107 @@
 [
   {
+    "slug": "caida-banco-central-paraguay-entramado-detras-jclb",
+    "path": "noticias/caida-banco-central-paraguay-entramado-detras-jclb/",
+    "title": "La caída del Banco Central de Paraguay y el entramado detrás de Ueno bank",
+    "headline": "DIRECTOR JURÍDICO DEL BANCO CENTRAL PARAGUAYO DETENIDO POR UENO BANK",
+    "dek": "La entrega de Aldo Rodríguez expone la alteración de dictámenes oficiales para encubrir la insolvencia de la entidad. El desfalco compromete más de 850 millones de dólares en fondos públicos y jubilaciones.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "Telemundo 51 Fresno",
+    "image": "img/caida-banco-central-paraguay-entramado-detras-jclb.jpg",
+    "photo": "img/caida-banco-central-paraguay-entramado-detras-jclb-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "Ef1RZ12s32g",
+      "title": "Destituyen a Santiago Peña tras crisis en el Banco Ueno en Paraguay",
+      "channel": "Nicaragua - Noticias Hacia Delante"
+    },
+    "publishedAt": "2026-11-16T11:02:36.323Z",
+    "article": {
+      "slug": "caida-banco-central-paraguay-entramado-detras-jclb",
+      "title": "La caída del Banco Central de Paraguay y el entramado detrás de Ueno bank",
+      "dek": "La entrega de Aldo Rodríguez expone la alteración de dictámenes oficiales para encubrir la insolvencia de la entidad. El desfalco compromete más de 850 millones de dólares en fondos públicos y jubilaciones.",
+      "keyFacts": [
+        "Aldo Rodríguez, de 55 años, se entregó en la comisaría 7a de Asunción y fue trasladado al Departamento contra el Crimen Organizado.",
+        "Ueno bank custodiaba 850 millones de dólares en fondos públicos, de los cuales 380 millones correspondían al Instituto de Previsión Social.",
+        "Una reunión privada el 5 de octubre entre altos directivos derivó en la falsificación del informe remitido a las comisiones del Senado.",
+        "La Fiscalía incautó una aeronave vinculada al Grupo Vázquez, registrada bajo un fideicomiso en Estados Unidos con contratos de alquiler con la Conmebol."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El director jurídico del Banco Central de Paraguay, Aldo Rodríguez, se entregó ante las autoridades policiales de Asunción como parte de la investigación penal sobre el desfalco del Ueno bank. Rodríguez, de 55 años, fue trasladado al Departamento contra el Crimen Organizado de la Policía Nacional tras confirmarse la orden de detención dictada en su contra por el Ministerio Público.",
+            "Las investigaciones señalan a Rodríguez por haber creado y alterado el documento oficial remitido a las comisiones del Senado. La fiscalía sostiene que el imputado formó parte de una reunión privada el 5 de octubre junto con el entonces presidente del BCP, Carlos Carvallo, el coordinador jurídico Marco Aurelio González y el superintendente de Bancos, Holger Insfrán, en la cual se modificó el informe para suprimir los dictámenes técnicos que alertaban sobre la insolvencia de la entidad."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Ueno bank, propiedad del conglomerado empresarial Grupo Vázquez, mantenía una presencia dominante en el mercado paraguayo. Hacia el mes de septiembre, dos de cada tres ciudadanos figuraban como clientes de la entidad, que concentraba además una porción sustancial del capital institucional del Estado.",
+            "Entre los recursos depositados en el banco figuraban 850 millones de dólares procedentes de fondos públicos. De esa cifra, 380 millones de dólares correspondían al Instituto de Previsión Social, organismo encargado de gestionar el sistema nacional de pensiones y jubilaciones. La abrupta suspensión de operaciones del banco provocó movilizaciones masivas en las calles de la capital y enfrentamientos con las fuerzas de seguridad ante la sede del Congreso Nacional."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la falsificación de documentos en el seno del regulador bancario, el aspecto analítico central reside en el uso de estructuras financieras internacionales para el blindaje de capitales. En el marco de la investigación, el fiscal Francisco Cabrera anunció la incautación de una aeronave con matrícula estadounidense vinculada a firmas prestatarias de servicios de alquiler para la Confederación Sudamericana de Fútbol.",
+            "La propiedad del activo figuraba a nombre de un fideicomiso radicado en Estados Unidos cuyo beneficiario final se vincula directamente con el Grupo Vázquez. Este esquema demuestra que la alteración de informes en el BCP no fue un hecho aislado, sino parte de una maniobra prolongada para mantener la operatividad del banco mientras los activos se canalizaban hacia instrumentos opacos en el exterior."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los principales perjudicados son los cotizantes del sistema de seguridad social y los contribuyentes paraguayos, cuyos fondos de reserva quedaron atrapados en la liquidación de la entidad. El deterioro de la confianza en el sistema bancario afecta de forma inmediata a los pequeños ahorristas que vieron bloqueado el acceso a sus cuentas.",
+            "Por el contrario, la postergación de la intervención oficial permitió al grupo corporativo controlar los tiempos de liquidación y proteger activos estratégicos antes del estallido judicial del caso."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá monitorear el avance de las solicitudes de asistencia jurídica internacional para identificar a los beneficiarios finales de los fideicomisos en Estados Unidos. Asimismo, la capacidad de respuesta del gobierno paraguayo para restituir el liquidez al Instituto de Previsión Social determinará el grado de estabilidad fiscal y social en los próximos meses."
+          ]
+        }
+      ],
+      "tags": [
+        "Paraguay",
+        "Banco Central",
+        "Ueno bank",
+        "Delitos Financieros",
+        "Fondos Públicos",
+        "IPS"
+      ],
+      "sources": [
+        {
+          "name": "Telemundo 51 Fresno",
+          "title": "Crisis en Paraguay: Director jurídico del Banco Central se entrega a la justicia",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXVBekpQd1U2aUM0Rk1RekRSd1RKUnRsenhZV1dtc3VlcVRXd1NfT2xkcmxaYUJXblAwMEs5bjE0ZE5hYVp5SDBZcjEzMlRfMDF1eGJIYjIzSEk1TXFHY3Z1YlJVRzEtZkNwUEl4NjFTanBCeXc4Q2V3ejJGTXFIOFE3c1hOREdaUEU1MVNGY3pMendrX1BmZzdETEHSAaQBQVVfeXFMTkc3VkJISXBmYjlXdTVBSXlJQTBScnp6Zjl4MmhsNnhuZ3V4TnRRbFZYT2ZDS2F6ZjVkVk1BX3l4UVlBOWhMQXEyTEwySl9HUm8yN292MENzSGQzNzl3V3pTNE1DSjAyZnNoOHh0emtvVXR2dzd3cjBuZjRINGh4YkJJblRyZVR5aG5PYTdGM1JTR2lGc1FMTGpIZWMyaXlXdERBOTE?oc=5"
+        },
+        {
+          "name": "Yahoo Finanzas",
+          "title": "Un director del banco central de Paraguay se entrega por el escándalo de Ueno Bank",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMHRaRlo1Z2Y2ajQ4N2M3QWVuMjdpWlpSY0NlbW9BcEp1RVJ0SWJadFRhZEw4SWxFRFktWG94dDdiYmpWb05nMDhJVHZWR1RndXpoR2p0ZXhhanJMQ1ZmM0x1Mnd4d2pKV1JVREtmZ3puc0RWTk9yR0ZKWW5nWTVVanJHcmI0SHg3bjBjSnctUGh5QlF1Um1HalNtbnk?oc=5"
+        },
+        {
+          "name": "Sin Embargo",
+          "title": "El director jurídico del Banco Central de Paraguay se entrega por caso Ueno Bank",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR2d6WVRmcVRjdVF5SVZXUjNHZVFOTUtjVEd4cEV5S0RpY1JEcTA3MVpMRlBzWFcwdGlUZm5kcW0zTWtrd2tUUHVHVWkxZmpyWEg4MkY0T3h4dlp0ck5ka3VRYUNxLVhya0oyeXA3aHBUVVdtVGtHVnY3M0hQYnBBVnQ0d0lPOVd5NTVEX21SY21Nbk1mNlp1ZzA5NGZ2U25ISDJyQmNhcUhZdE1FdE1xeG15Z0VYdw?oc=5"
+        },
+        {
+          "name": "El diario de los lectores influyentes",
+          "title": "Ordenan detener al director jurídico del BCP por presunta alteración de informe sobre ueno bank - El Nacional",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSWtxVXNLSzVFLWVmelFqSGUxeDVlRHlLbGZfTnMzc1hNUDVBOVRrWWswakZKd25XM3VxM01rcVpWQ2VlcWQtQTR4cXNqRG5BWUdzV01aT3cxTHU4YWFwVWlMaHhpeEhGaXpKNFo2emZNQlNZWlZINzFObk9KNjV5QU45UWE4T3dMMS1FaUhRS0N5WW41cnpQSGstSkwza2dQTkk1bjFHd0dSM2JzU2twQWJBaFBlc09qUmNwU1ZwYTBHUdIBxwFBVV95cUxPWlpiU3NwYnZIV3dCUU1seUhZVVNSb3ZiVjE0T040X21aeXZTeGROdDdEZDZGMW5iNUZCeC0tbXRqclhWSURSdWwtUENRR2lvcEVCYWJtNWU0QU1fWEZveEFBRUFVWmNnRDRnbS1zY1ktZFdoaWhDUTd5ZE12SWdJVFpMRUNOWFdyS0tSWnBVd0FHdDJQS3dZX2RXdjZUaEctdVB5dndBSkNlUDEySHlWcHdHWGE4NXVZNWNtLUp1MW5TYWpZMEJF?oc=5"
+        },
+        {
+          "name": "5Días Paraguay",
+          "title": "Director jurídico del BCP se puso a disposición dela justicia por caso Ueno",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWJTNTlDYVViem9iQnNvSFBzZ2R6cHpLVk1oX2lMNkhFS18wQkpTV2pZU2txYjQ4ZlY5RXJDRHBTcXBsNGdLRWxnQWVTTkVObENxTlZnU25pNDR2b2RtZlcwTHR3bHVRbUNNZ19JQWdSRllBUnlJUDFhdVBWbnExU1AyZ3ZRTW9OaGxMYWYzdkJPVjJYTHRN?oc=5"
+        }
+      ],
+      "wordCount": 539
+    },
+    "blindSpot": "La narrativa oficial reduce el escándalo a un caso de falsificación documental por parte de mandos medios y directivos. El verdadero punto ciego radica en la complicidad del regulador estatal para permitir que un conglomerado privado absorbiera masivamente capital público mientras blindaba activos en el extranjero mediante fideicomisos en Estados Unidos vinculados a contratos corporativos de la Conmebol."
+  },
+  {
     "slug": "fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy",
     "path": "noticias/fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy/",
     "title": "Fuego mortal en Phuket expone la fragilidad de las inspecciones urbanas en Tailandia",

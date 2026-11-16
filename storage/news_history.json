@@ -235,9 +235,38 @@
     "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
     "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
     "https://www.thehindu.com/news/international/many-killed-several-injured-phuket-shophouse/article71706768.ece",
-    "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss"
+    "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXVBekpQd1U2aUM0Rk1RekRSd1RKUnRsenhZV1dtc3VlcVRXd1NfT2xkcmxaYUJXblAwMEs5bjE0ZE5hYVp5SDBZcjEzMlRfMDF1eGJIYjIzSEk1TXFHY3Z1YlJVRzEtZkNwUEl4NjFTanBCeXc4Q2V3ejJGTXFIOFE3c1hOREdaUEU1MVNGY3pMendrX1BmZzdETEHSAaQBQVVfeXFMTkc3VkJISXBmYjlXdTVBSXlJQTBScnp6Zjl4MmhsNnhuZ3V4TnRRbFZYT2ZDS2F6ZjVkVk1BX3l4UVlBOWhMQXEyTEwySl9HUm8yN292MENzSGQzNzl3V3pTNE1DSjAyZnNoOHh0emtvVXR2dzd3cjBuZjRINGh4YkJJblRyZVR5aG5PYTdGM1JTR2lGc1FMTGpIZWMyaXlXdERBOTE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "DIRECTOR JURÍDICO DEL BANCO CENTRAL PARAGUAYO DETENIDO POR UENO BANK",
+      "normalizedTokens": [
+        "director",
+        "juridico",
+        "banco",
+        "central",
+        "paraguayo",
+        "detenido",
+        "ueno",
+        "bank"
+      ],
+      "date": "2026-11-16T11:02:36.508Z"
+    },
+    {
+      "title": "Crisis en Paraguay: Director jurídico del Banco Central se entrega a la justicia",
+      "normalizedTokens": [
+        "crisis",
+        "paraguay",
+        "director",
+        "juridico",
+        "banco",
+        "central",
+        "entrega",
+        "justicia"
+      ],
+      "date": "2026-11-16T11:02:36.500Z"
+    },
     {
       "title": "INCENDIO MORTAL EN PHUKET REVELA DEFICIENCIAS REGULATORIAS CRÓNICAS",
       "normalizedTokens": [
