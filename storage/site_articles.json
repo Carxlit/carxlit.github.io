@@ -1,5 +1,85 @@
 [
   {
+    "slug": "muerte-miguel-angel-felix-gallardo-leccion-l90b",
+    "path": "noticias/muerte-miguel-angel-felix-gallardo-leccion-l90b/",
+    "title": "La muerte de Miguel Ángel Félix Gallardo y la lección no aprendida sobre el crimen organizado",
+    "headline": "MUERE MIGUEL ÁNGEL FÉLIX GALLARDO, FUNDADOR DEL CÁRTEL DE GUADALAJARA",
+    "dek": "El fallecimiento en prisión del fundador del Cártel de Guadalajara pone de relieve cómo la estrategia de neutralizar capos históricos solo derivó en una mayor atomización de la violencia.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "France 24",
+    "image": "img/muerte-miguel-angel-felix-gallardo-leccion-l90b.jpg",
+    "photo": "img/muerte-miguel-angel-felix-gallardo-leccion-l90b-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "CoFikpF6F7w",
+      "title": "Miguel Ángel Félix Gallardo: The Death of Mexico's \"Boss of Bosses\" and the Empire He Left Behind",
+      "channel": "Rima Voice Trends"
+    },
+    "publishedAt": "2026-11-16T05:01:34.628Z",
+    "article": {
+      "slug": "muerte-miguel-angel-felix-gallardo-leccion-l90b",
+      "title": "La muerte de Miguel Ángel Félix Gallardo y la lección no aprendida sobre el crimen organizado",
+      "dek": "El fallecimiento en prisión del fundador del Cártel de Guadalajara pone de relieve cómo la estrategia de neutralizar capos históricos solo derivó en una mayor atomización de la violencia.",
+      "keyFacts": [
+        "Miguel Ángel Félix Gallardo falleció a los 80 años en un hospital de Jalisco debido a una falla multiorgánica.",
+        "Permanecía en prisión desde su detención en 1989, habiendo sido trasladado al centro médico dos días antes de su muerte.",
+        "Fue cofundador del Cártel de Guadalajara en la década de 1980, una de las primeras grandes organizaciones del narcotráfico en México."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Miguel Ángel Félix Gallardo, cofundador del Cártel de Guadalajara, falleció el domingo a la edad de 80 años en un hospital de Jalisco tras sufrir una falla multiorgánica. La información fue confirmada por la Secretaría de Seguridad del estado de Jalisco, detallando que el exfiscalizador criminal había sido trasladado desde el centro penitenciario a la unidad médica dos días antes de su deceso.",
+            "Félix Gallardo permanecía bajo custodia militar y policial desde su arresto en 1989. Con su muerte concluye la trayectoria biográfica de quien fuera considerado uno de los principales articuladores del tráfico de sustancias ilícitas hacia Norteamérica durante la segunda mitad del siglo XX."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "En la década de 1980, la estructura liderada por Félix Gallardo y sus socios logró unificar diversas rutas de tráfico regional bajo un mando coordinado. La organización estableció redes operativas que redefinieron la logística del transporte de narcóticos a escala continental.",
+            "Su detención en 1989, celebrada en su momento por los gobiernos de México y Estados Unidos como un hito decisivo en la aplicación de la ley, marcó el inicio de una profunda reconfiguración del mapa delictivo en la región."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de la trayectoria de las organizaciones criminales revela un patrón recurrente: la remoción del liderazgo central no destruye las estructuras, sino que acelera su división. Tras la aprehensión de Félix Gallardo, las áreas de influencia bajo su control se dividieron entre distintos liderazgos locales.",
+            "Esta pulverización operativa eliminó la capacidad de arbitraje centralizado y desató una competencia violenta por el control de puertos, pasos fronterizos y mercados locales. El enfoque estatal centrado casi exclusivamente en la captura de figuras de alto perfil ignoró los factores financieros y logísticos que permiten la continuidad del negocio ilícito."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Con la desaparición de los viejos capos, el modelo criminal ha migrado definitivamente hacia redes pequeñas, dinámicas y altamente especializadas en la producción de sustancias sintéticas.",
+            "Las comunidades afectadas por la violencia persistente continúan asumiendo el costo social del conflicto, mientras las instituciones estatales enfrentan el reto de combatir organizaciones opacas que ya no dependen de personalidades individuales para operar."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El desarrollo de las políticas de seguridad en la región muestra una paulatina transición hacia el seguimiento de activos financieros y el control de precursores químicos. La efectividad de los marcos de cooperación internacional dependerá de la capacidad de adaptar las estrategias a la naturaleza descentralizada del crimen organizado contemporáneo."
+          ]
+        }
+      ],
+      "tags": [
+        "Narcotráfico",
+        "Seguridad Nacional",
+        "México",
+        "Cártel de Guadalajara",
+        "Justicia"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "title": "Miguel Angel Felix Gallardo, architect of Mexico’s drug trade, dies age 80",
+          "url": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies"
+        }
+      ],
+      "wordCount": 422
+    },
+    "blindSpot": "El fallecimiento del capo en prisión no representa el cierre de un capítulo de justicia, sino el recordatorio del fracaso estructural de la estrategia antinarcóticos de las últimas tres décadas. La captura de Félix Gallardo en 1989 no desmanteló la red delictiva, sino que catalizó la fragmentación del monopolio del narcotráfico en múltiples facciones ultra violentas que hoy desafían la soberanía estatal."
+  },
+  {
     "slug": "cien-dias-abelardo-espriella-seguridad-reconstruccion-bxe1",
     "path": "noticias/cien-dias-abelardo-espriella-seguridad-reconstruccion-bxe1/",
     "title": "Cien días de Abelardo de la Espriella: seguridad, reconstrucción y el ocaso de la oposición",
