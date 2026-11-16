@@ -237,9 +237,39 @@
     "https://www.thehindu.com/news/international/many-killed-several-injured-phuket-shophouse/article71706768.ece",
     "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss",
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXVBekpQd1U2aUM0Rk1RekRSd1RKUnRsenhZV1dtc3VlcVRXd1NfT2xkcmxaYUJXblAwMEs5bjE0ZE5hYVp5SDBZcjEzMlRfMDF1eGJIYjIzSEk1TXFHY3Z1YlJVRzEtZkNwUEl4NjFTanBCeXc4Q2V3ejJGTXFIOFE3c1hOREdaUEU1MVNGY3pMendrX1BmZzdETEHSAaQBQVVfeXFMTkc3VkJISXBmYjlXdTVBSXlJQTBScnp6Zjl4MmhsNnhuZ3V4TnRRbFZYT2ZDS2F6ZjVkVk1BX3l4UVlBOWhMQXEyTEwySl9HUm8yN292MENzSGQzNzl3V3pTNE1DSjAyZnNoOHh0emtvVXR2dzd3cjBuZjRINGh4YkJJblRyZVR5aG5PYTdGM1JTR2lGc1FMTGpIZWMyaXlXdERBOTE?oc=5",
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5"
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5",
+    "https://es.euronews.com/2026/11/16/yolanda-diaz-retira-candidatura-direccion-oit-crisis-sindical"
   ],
   "processedSignatures": [
+    {
+      "title": "YOLANDA DÍAZ RETIRA SU CANDIDATURA A DIRIGIR LA OIT",
+      "normalizedTokens": [
+        "yolanda",
+        "diaz",
+        "retira",
+        "candidatura",
+        "dirigir",
+        "oit"
+      ],
+      "date": "2026-11-16T11:31:41.302Z"
+    },
+    {
+      "title": "Yolanda Díaz retira su candidatura a la OIT y acusa a su dirección de provocar \"la peor crisis de su historia\"",
+      "normalizedTokens": [
+        "yolanda",
+        "diaz",
+        "retira",
+        "candidatura",
+        "oit",
+        "acusa",
+        "direccion",
+        "provocar",
+        "peor",
+        "crisis",
+        "historia"
+      ],
+      "date": "2026-11-16T11:31:41.300Z"
+    },
     {
       "title": "EEUU INCLUIRÁ A NVIDIA EN LISTA ESTRATÉGICA DE IA",
       "normalizedTokens": [
