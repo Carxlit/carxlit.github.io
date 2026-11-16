@@ -1,5 +1,92 @@
 [
   {
+    "slug": "ucrania-desata-mayor-ataque-drones-sobre-5voz",
+    "path": "noticias/ucrania-desata-mayor-ataque-drones-sobre-5voz/",
+    "title": "Ucrania desata su mayor ataque con drones sobre Rusia para saturar sus defensas",
+    "headline": "UCRANIA DESPLIEGA SU MAYOR ATAQUE MASIVO CON DRONES SOBRE RUSIA",
+    "dek": "El despliegue de más de 1.300 aeronaves no tripuladas expone una estrategia de desgaste económico sobre el aparato militar ruso. Según datos oficiales de Moscú, las defensas aéreas enfrentaron una ofensiva sin precedentes en el conflicto.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Reuters",
+    "image": "img/ucrania-desata-mayor-ataque-drones-sobre-5voz.jpg",
+    "photo": "img/ucrania-desata-mayor-ataque-drones-sobre-5voz-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "GhHtVQBFaBc",
+      "title": "Russia-Ukraine Agree Biggest Prisoner Swap",
+      "channel": "Daily News Explained",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-16T12:19:40.372Z",
+    "article": {
+      "slug": "ucrania-desata-mayor-ataque-drones-sobre-5voz",
+      "title": "Ucrania desata su mayor ataque con drones sobre Rusia para saturar sus defensas",
+      "dek": "El despliegue de más de 1.300 aeronaves no tripuladas expone una estrategia de desgaste económico sobre el aparato militar ruso. Según datos oficiales de Moscú, las defensas aéreas enfrentaron una ofensiva sin precedentes en el conflicto.",
+      "keyFacts": [
+        "El Ministerio de Defensa de Rusia informó la interceptación de más de 1.300 drones ucranianos.",
+        "Reuters y La Nación corroboran que se trata de la mayor incursión aérea no tripulada desde el inicio de la guerra.",
+        "El ataque representa un cambio hacia operaciones masivas coordinadas en territorio ruso."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Ministerio de Defensa de Rusia confirmó haber interceptado más de 1.300 drones lanzados por Ucrania en lo que constituye la mayor ofensiva aérea de este tipo desde la invasión iniciada en febrero de 2022. La aglomeración de vectores aéreos no tripulados abarcó múltiples regiones, según reportaron las agencias Reuters y La Nación a partir de datos del gobierno ruso.",
+            "La magnitud de la operación obligó a activar sistemas de alerta en varias provincias rusas, evidenciando el avance en la capacidad técnica y operativa de las fuerzas armadas ucranianas para coordinar ofensivas masivas simultáneas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "A lo largo del conflicto, Kiev ha incrementado gradualmente el alcance y la frecuencia de sus ataques con artefactos no tripulados sobre territorio enemigo. Ante la escasez de aviación convencional y restricciones en misiles de largo alcance, Ucrania aceleró el desarrollo de una industria nacional de drones capaces de penetrar cientos de kilómetros tras las líneas del frente.",
+            "Por su parte, Moscú ha dependido de redes complejas de defensa antiaérea como los sistemas S-300 y S-400 para blindar sus centros urbanos e instalaciones militares estratégicas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La lectura convencional se enfoca en el número de interceptaciones comunicadas por las autoridades rusas como una prueba de efectividad defensiva. Sin embargo, el análisis de Punto Ciego revela que el propósito militar de lanzar más de 1.300 unidades no es únicamente lograr un 100% de impactos directos, sino lograr la saturación del sistema.",
+            "Obligar a las baterías antiaéreas rusas a disparar misiles interceptores cuyo valor individual multiplica exponencialmente el costo de fabricación de un dron ucraniano genera una asimetría financiera y logística insostenible a mediano plazo para el Kremlin."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Ucrania gana tracción en la guerra de desgaste al demostrar capacidad industrial propia e imponer tensión permanente en el espacio aéreo enemigo sin arriesgar vidas de pilotos ni material aeronáutico pesado.",
+            "En contraparte, las fuerzas armadas de Rusia pierden reservas críticas de misiles antiaéreos de alta precisión y se ven obligadas a redistribuir radares y sistemas de cobertura lejos de las líneas activas de combate en el frente."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En las próximas semanas será crucial monitorear la capacidad de respuesta del complejo militar-industrial ruso para reponer interceptores y la posible réplica con ataques masivos hacia infraestructuras ucranianas.",
+            "Asimismo, el desarrollo de este tipo de incursiones marcará el ritmo de adopción de defensas antiaéreas basadas en energía dirigida y guerra electrónica por parte de las potencias globales."
+          ]
+        }
+      ],
+      "tags": [
+        "Guerra Ucrania",
+        "Defensa Antiaérea",
+        "Drones",
+        "Rusia",
+        "Tecnología Militar"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "Ukraine launches biggest drone attack on Russia since war began, defence ministry data shows",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Russia says its air defenses intercept over 1,300 Ukrainian drones in massive aerial attack",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVXlRVDVFTDd1YmU5TFhDYTEzQVd6ZzBCTmkxd1lzNWl3V05Xek1sejlSZnhhMDdFeFVZX2V0UWN4Z0U4R0R4c0RpUFBaR1ZSQ0dRb2EydEJRTVVFekUxbWVEUXJRdWdUeFB1amRDNUl2cnpqRzdkcnZURFh1R25TQlhsNnNGSU1yTjd5LVk3bXRJY0RvWGFZRjYtVDZld2l2UDBFZkxmX09iY291UmlFMm80MGotR1h3Z0I4Nm9CWDNraUtRd1o0UEk0a0R3bUMt?oc=5"
+        }
+      ],
+      "wordCount": 430
+    },
+    "blindSpot": "Más allá del impacto sobre el terreno, la incursión masiva busca poner a prueba el límite de saturación de los sistemas de defensa antiaérea rusos y encarecer el costo operativo de la interceptación. La estrategia ucraniana busca nivelar la asimetría bélica desgastando los inventarios de misiles de alta precisión de Moscú mediante enjambres de bajo costo de producción."
+  },
+  {
     "slug": "ilusion-dolar-debil-2027-amenazada-burbuja-i8n5",
     "path": "noticias/ilusion-dolar-debil-2027-amenazada-burbuja-i8n5/",
     "title": "La ilusión del dólar débil para 2027 amenazada por la burbuja de IA",
