@@ -242,9 +242,39 @@
     "https://www.bloomberglinea.com/mercados/dolar-en-2027-ing-anticipa-una-caida-del-5-y-advierte-por-la-fed-y-los-riesgos-de-una-crisis-de-ia/",
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5",
     "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado",
-    "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre"
+    "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre",
+    "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva"
   ],
   "processedSignatures": [
+    {
+      "title": "EL CONSEJO DE NVIDIA ACEPTA LA DIMISIÓN DE JENSEN HUANG",
+      "normalizedTokens": [
+        "consejo",
+        "nvidia",
+        "acepta",
+        "dimision",
+        "jensen",
+        "huang"
+      ],
+      "date": "2026-11-16T15:58:38.930Z"
+    },
+    {
+      "title": "NVIDIA no ha despedido a Jensen Huang. Ha aceptado su dimisión, y esa diferencia puede servir para que vuelva",
+      "normalizedTokens": [
+        "nvidia",
+        "despedido",
+        "jensen",
+        "huang",
+        "aceptado",
+        "dimision",
+        "esa",
+        "diferencia",
+        "puede",
+        "servir",
+        "vuelva"
+      ],
+      "date": "2026-11-16T15:58:38.928Z"
+    },
     {
       "title": "SABOTAJE ASIMÉTRICO EN EUROPA MIDE LA VULNERABILIDAD CIVIL",
       "normalizedTokens": [
