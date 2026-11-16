@@ -233,9 +233,36 @@
     "https://www.xataka.com.mx/otros-1/psicologia-explica-navidad-noviembre-adelantar-adornos-no-prisa-truco-para-apagar-tu-resistencia-al-gasto",
     "https://www.france24.com/es/am%C3%A9rica-latina/20261115-un-terremoto-inc%C3%B3gnitas-sobre-las-ayudas-y-una-ola-terrorista-los-100-d%C3%ADas-de-gobierno-de-de-la-espriella",
     "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
-    "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+    "https://www.thehindu.com/news/international/many-killed-several-injured-phuket-shophouse/article71706768.ece"
   ],
   "processedSignatures": [
+    {
+      "title": "INCENDIO EN PHUKET DEJA ELEVADO SALDO MORTAL Y EXPONE FALLAS DE SEGURIDAD",
+      "normalizedTokens": [
+        "incendio",
+        "phuket",
+        "deja",
+        "elevado",
+        "saldo",
+        "mortal",
+        "expone",
+        "fallas",
+        "seguridad"
+      ],
+      "date": "2026-11-16T05:35:29.960Z"
+    },
+    {
+      "title": "11 killed, 16 injured in fire at Phuket shophouse",
+      "normalizedTokens": [
+        "killed",
+        "injured",
+        "fire",
+        "phuket",
+        "shophouse"
+      ],
+      "date": "2026-11-16T05:35:29.959Z"
+    },
     {
       "title": "ATENTADO CONTRA DIPUTADA AUSTRALIANA DESATA  POR VIOLENCIA POLÍTICA",
       "normalizedTokens": [

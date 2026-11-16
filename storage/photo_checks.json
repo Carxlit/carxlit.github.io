@@ -1033,5 +1033,15 @@
     "relevant": true,
     "reason": "La imagen muestra a Helen Haines, la diputada independiente mencionada en el titular y el contexto.",
     "at": "2026-11-16T05:16:18.059Z"
+  },
+  "69422ce2cda9e4c0:ebhz6h9ln": {
+    "relevant": false,
+    "reason": "La imagen muestra las consecuencias de un incendio en África Occidental (evidenciado por la vestimenta tradicional de la persona) y no en Phuket, Tailandia.",
+    "at": "2026-11-16T05:34:31.968Z"
+  },
+  "e7c647d8ab229f76:ebhz6h9ln": {
+    "relevant": true,
+    "reason": "La imagen muestra bomberos respondiendo a un incendio en un edificio comercial en Tailandia, lo cual ilustra adecuadamente la noticia sobre el siniestro y las operaciones de emerge",
+    "at": "2026-11-16T05:35:04.672Z"
   }
 }
