@@ -232,9 +232,38 @@
     "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
     "https://www.xataka.com.mx/otros-1/psicologia-explica-navidad-noviembre-adelantar-adornos-no-prisa-truco-para-apagar-tu-resistencia-al-gasto",
     "https://www.france24.com/es/am%C3%A9rica-latina/20261115-un-terremoto-inc%C3%B3gnitas-sobre-las-ayudas-y-una-ola-terrorista-los-100-d%C3%ADas-de-gobierno-de-de-la-espriella",
-    "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies"
+    "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
+    "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ATENTADO CONTRA DIPUTADA AUSTRALIANA DESATA  POR VIOLENCIA POLÍTICA",
+      "normalizedTokens": [
+        "atentado",
+        "diputada",
+        "australiana",
+        "desata",
+        "violencia",
+        "politica"
+      ],
+      "date": "2026-11-16T05:16:22.042Z"
+    },
+    {
+      "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+      "normalizedTokens": [
+        "australian",
+        "full",
+        "gratitude",
+        "upon",
+        "leaving",
+        "hospital",
+        "after",
+        "alleged",
+        "car",
+        "attack"
+      ],
+      "date": "2026-11-16T05:16:22.040Z"
+    },
     {
       "title": "MUERE MIGUEL ÁNGEL FÉLIX GALLARDO, FUNDADOR DEL CÁRTEL DE GUADALAJARA",
       "normalizedTokens": [
