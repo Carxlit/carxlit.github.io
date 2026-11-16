@@ -1,5 +1,86 @@
 [
   {
+    "slug": "apuesta-washington-nvidia-evidencia-dilema-entre-qmzm",
+    "path": "noticias/apuesta-washington-nvidia-evidencia-dilema-entre-qmzm/",
+    "title": "La apuesta de Washington por Nvidia evidencia el dilema entre hegemonía e inteligencia",
+    "headline": "EEUU INCLUIRÁ A NVIDIA EN LISTA ESTRATÉGICA DE IA",
+    "dek": "El Departamento de Comercio prevé incluir al gigante de los microchips en su lista de empresas insignia de inteligencia artificial. La estrategia busca frenar a China acelerando licencias de exportación a pesar de las alertas de seguridad.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Vietnam.vn",
+    "image": "img/apuesta-washington-nvidia-evidencia-dilema-entre-qmzm.jpg",
+    "photo": "img/apuesta-washington-nvidia-evidencia-dilema-entre-qmzm-foto.jpg",
+    "publishedAt": "2026-11-16T11:20:04.084Z",
+    "article": {
+      "slug": "apuesta-washington-nvidia-evidencia-dilema-entre-qmzm",
+      "title": "La apuesta de Washington por Nvidia evidencia el dilema entre hegemonía e inteligencia",
+      "dek": "El Departamento de Comercio prevé incluir al gigante de los microchips en su lista de empresas insignia de inteligencia artificial. La estrategia busca frenar a China acelerando licencias de exportación a pesar de las alertas de seguridad.",
+      "keyFacts": [
+        "La administración estadounidense planea nombrar a más de 24 corporaciones como líderes nacionales en inteligencia artificial.",
+        "El secretario de Comercio, Howard Lutnick, prevé anunciar beneficios que incluyen licencias de exportación aceleradas y financiamiento federal.",
+        "Entre las empresas seleccionadas por el gobierno figuran Nvidia, Amazon, Microsoft, OpenAI y Anthropic.",
+        "Informes divulgados por el Wall Street Journal señalan que el Departamento de Comercio prepara en paralelo normas contra el contrabando de chips a China."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportes publicados por el Wall Street Journal y recogidos por Vietnam.vn, el gobierno de los Estados Unidos se dispone a oficializar una lista con más de 24 empresas designadas como corporaciones insignia nacionales en inteligencia artificial. Entre los nombres filtrados por fuentes cercanas al proceso figuran Nvidia, Microsoft, Amazon, OpenAI y Anthropic.",
+            "La iniciativa, supervisada por el Departamento de Comercio bajo la dirección de Howard Lutnick, busca otorgar a estas firmas un trato preferencial. Las compañías seleccionadas tendrán acceso facilitado a fondos federales, soporte operativo en misiones internacionales y una tramitación expedita para las licencias de exportación de microchips de última generación."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Este programa estatal fue concebido hace un año con el propósito de acelerar el despliegue global de la tecnología estadounidense frente a la agresiva expansión geopolítica de China. La competencia actual en el campo de la inteligencia artificial replica la batalla comercial vivida años atrás con el despliegue de las redes 5G, donde firmas chinas como Huawei lograron posiciones dominantes en mercados de Europa y América Latina.",
+            "En el centro de esta disputa se encuentran los procesadores gráficos de Nvidia, considerados los insumos más valiosos del planeta para el entrenamiento de modelos de lenguaje avanzados. El control sobre la distribución internacional de estos semiconductores define actualmente el equilibrio de poder tecnológico entre las dos principales potencias económicas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El aspecto no resuelto de esta política estriba en la severa contradicción entre la prisa comercial y las alertas de inteligencia. Recientes informaciones sobre la cúpula de Nvidia, específicamente en relación con presuntos vínculos sentimentales entre su liderazgo y agentes atribuibles a la inteligencia china, han desatado alarmas en sectores del Congreso y de la comunidad de seguridad de Washington.",
+            "Mientras analistas de defensa exigen endurecer las restricciones y auditar de forma exhaustiva los flujos de tecnología sensible, la decisión del Departamento de Comercio de agilizar los permisos de exportación demuestra que la prioridad inmediata de la Casa Blanca es blindar la cuota de mercado frente a Pekín, aun a riesgo de flexibilizar los mecanismos de supervisión interna."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los principales ganadores con esta medida son los gigantes tecnológicos de Silicon Valley, que obtienen cobertura institucional y garantías regulatorias para colocar sus productos en terceros países sin las demoras burocráticas habituales. Nvidia, en particular, asegura su posición dominante en el mercado global al contar con el respaldo explícito de la administración federal.",
+            "En contraste, el sector de la ciberseguridad y la contrainteligencia estadounidense asume los costos de esta apertura. Asimismo, los países receptores de esta tecnología quedan alineados de forma casi obligatoria con el ecosistema informático de Estados Unidos, limitando sus márgenes de soberanía digital."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá monitorear la presentación pública que realice el secretario Howard Lutnick y los detalles normativos finales de la lista. Resultará determinante observar si la inclusión formal de Nvidia viene acompañada de cláusulas secretas de auditoría o si, por el contrario, prevalece una desregulación acelerada. Se deberá seguir de cerca la efectividad de las nuevas reglas orientadas a combatir el contrabando de chips a través de intermediarios en terceros países."
+          ]
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Inteligencia Artificial",
+        "Estados Unidos",
+        "China",
+        "Comercio Global",
+        "Seguridad Nacional"
+      ],
+      "sources": [
+        {
+          "name": "Vietnam.vn",
+          "title": "Nvidia sigue figurando en la lista de \"empresas líderes nacionales\" en inteligencia artificial a pesar del escándalo.",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5"
+        },
+        {
+          "name": "Infobae",
+          "title": "5 preguntas que siguen abiertas en el caso Jensen Huang de Nvidia",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONnk4R2JYTDd4Uk9LaDRwU09oT0FyRjdvZGNzdERGeG44Z3lCM0RXOV9GM29MWjRCVHBoQXlGSC1HQnRkWlB0cHQ0RjJNYVc4NXBpOGpicWZwNWVUa0RfalhPWFVsdUlwQkw4SE1tdGl3YnpCUTJlWDNGR3AxWk4xZFgxbEMwemxYMjhXUEc0alYzdW1KN2ZRRUkwVHY3MG9XZUtkbm5uWG9KbXZFVHpXTmlUcWRFMm_SAdIBQVVfeXFMTzBiZFZzakF5YkZiUGthX2tGMFZwMkdoVW1Ic3UtU2dLaXNpTGhHVHlMcjY2Y2NfdVdhdU9KODBjU2dvdGVOLUlXU0RIX01FMFZBWTVKNlFRcnFILTZia243Q2VaRTFSMlI3bmN4bGJXN2VoU0FIdWt5SmNqcEF3ZjdSVjJSMGwwRFFZb2lpZnFYNWxKZlNFcXc1TVFJQkR2TzVDWFpQcngtbTJpSVU0eGozTUJ0RFlJYXpWNUw4aG56el9CQUxZUk1QaEJnQVNSZENR?oc=5"
+        }
+      ],
+      "wordCount": 540
+    },
+    "blindSpot": "Washington prioriza el dominio tecnológico global sobre las crecientes alertas de seguridad nacional relacionadas con Jensen Huang. Al acelerar los permisos de exportación para competir contra China, el Departamento de Comercio arriesga la filtración de tecnología crítica con tal de no perder cuota de mercado internacional."
+  },
+  {
     "slug": "caida-banco-central-paraguay-entramado-detras-jclb",
     "path": "noticias/caida-banco-central-paraguay-entramado-detras-jclb/",
     "title": "La caída del Banco Central de Paraguay y el entramado detrás de Ueno bank",

@@ -236,9 +236,38 @@
     "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
     "https://www.thehindu.com/news/international/many-killed-several-injured-phuket-shophouse/article71706768.ece",
     "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss",
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXVBekpQd1U2aUM0Rk1RekRSd1RKUnRsenhZV1dtc3VlcVRXd1NfT2xkcmxaYUJXblAwMEs5bjE0ZE5hYVp5SDBZcjEzMlRfMDF1eGJIYjIzSEk1TXFHY3Z1YlJVRzEtZkNwUEl4NjFTanBCeXc4Q2V3ejJGTXFIOFE3c1hOREdaUEU1MVNGY3pMendrX1BmZzdETEHSAaQBQVVfeXFMTkc3VkJISXBmYjlXdTVBSXlJQTBScnp6Zjl4MmhsNnhuZ3V4TnRRbFZYT2ZDS2F6ZjVkVk1BX3l4UVlBOWhMQXEyTEwySl9HUm8yN292MENzSGQzNzl3V3pTNE1DSjAyZnNoOHh0emtvVXR2dzd3cjBuZjRINGh4YkJJblRyZVR5aG5PYTdGM1JTR2lGc1FMTGpIZWMyaXlXdERBOTE?oc=5"
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXVBekpQd1U2aUM0Rk1RekRSd1RKUnRsenhZV1dtc3VlcVRXd1NfT2xkcmxaYUJXblAwMEs5bjE0ZE5hYVp5SDBZcjEzMlRfMDF1eGJIYjIzSEk1TXFHY3Z1YlJVRzEtZkNwUEl4NjFTanBCeXc4Q2V3ejJGTXFIOFE3c1hOREdaUEU1MVNGY3pMendrX1BmZzdETEHSAaQBQVVfeXFMTkc3VkJISXBmYjlXdTVBSXlJQTBScnp6Zjl4MmhsNnhuZ3V4TnRRbFZYT2ZDS2F6ZjVkVk1BX3l4UVlBOWhMQXEyTEwySl9HUm8yN292MENzSGQzNzl3V3pTNE1DSjAyZnNoOHh0emtvVXR2dzd3cjBuZjRINGh4YkJJblRyZVR5aG5PYTdGM1JTR2lGc1FMTGpIZWMyaXlXdERBOTE?oc=5",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EEUU INCLUIRÁ A NVIDIA EN LISTA ESTRATÉGICA DE IA",
+      "normalizedTokens": [
+        "eeuu",
+        "incluira",
+        "nvidia",
+        "lista",
+        "estrategica"
+      ],
+      "date": "2026-11-16T11:20:04.261Z"
+    },
+    {
+      "title": "Nvidia sigue figurando en la lista de \"empresas líderes nacionales\" en inteligencia artificial a pesar del escándalo.",
+      "normalizedTokens": [
+        "nvidia",
+        "sigue",
+        "figurando",
+        "lista",
+        "empresas",
+        "lideres",
+        "nacionales",
+        "inteligencia",
+        "artificial",
+        "pesar",
+        "escandalo"
+      ],
+      "date": "2026-11-16T11:20:04.255Z"
+    },
     {
       "title": "DIRECTOR JURÍDICO DEL BANCO CENTRAL PARAGUAYO DETENIDO POR UENO BANK",
       "normalizedTokens": [

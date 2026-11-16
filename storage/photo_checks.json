@@ -1053,5 +1053,10 @@
     "relevant": true,
     "reason": "Muestra carteles de protesta pegados en una fachada que hacen referencia directa a Ueno Bank.",
     "at": "2026-11-16T11:02:31.064Z"
+  },
+  "a928de96fafc8ff7:rumeallbo": {
+    "relevant": true,
+    "reason": "Muestra el logotipo de Nvidia, la empresa protagonista del titular.",
+    "at": "2026-11-16T11:20:00.641Z"
   }
 }
