@@ -1,5 +1,87 @@
 [
   {
+    "slug": "fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy",
+    "path": "noticias/fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy/",
+    "title": "Fuego mortal en Phuket expone la fragilidad de las inspecciones urbanas en Tailandia",
+    "headline": "INCENDIO MORTAL EN PHUKET REVELA DEFICIENCIAS REGULATORIAS CRÓNICAS",
+    "dek": "Un incendio en Patong cobró la vida de al menos 11 personas y dejó 16 heridos. El suceso reaviva las dudas sobre los controles de seguridad en inmuebles comerciales.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "Al Jazeera",
+    "image": "img/fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy.jpg",
+    "photo": "img/fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "S8sGW6ARcM4",
+      "title": "At least 11 killed as smoke from Phuket shophouse fire traps residents",
+      "channel": "CNA"
+    },
+    "publishedAt": "2026-11-16T08:02:37.877Z",
+    "article": {
+      "slug": "fuego-mortal-phuket-expone-fragilidad-inspecciones-tmfy",
+      "title": "Fuego mortal en Phuket expone la fragilidad de las inspecciones urbanas en Tailandia",
+      "dek": "Un incendio en Patong cobró la vida de al menos 11 personas y dejó 16 heridos. El suceso reaviva las dudas sobre los controles de seguridad en inmuebles comerciales.",
+      "keyFacts": [
+        "Al menos 11 personas fallecieron y 16 resultaron heridas a las 3:17 a.m. del lunes (20:17 GMT del domingo) en Patong, Phuket.",
+        "Entre los 16 heridos atendidos por inhalación de humo y cortes se contabilizan 15 ciudadanos tailandeses y un nacional de Myanmar.",
+        "El gobernador de Phuket, Chodnarin Koedsom, confirmó que el local albergaba unas 100 motocicletas, combustible, aceite de motor, plásticos y neumáticos.",
+        "El comandante de policía Surachai Sooksai descartó intencionalidad preliminar tras determinar que un transformador eléctrico explotó cerca del inmueble."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un incendio de proporciones considerables consumió un edificio comercial en el distrito turistico de Patong, en la isla de Phuket, dejando un balance de al menos 11 personas muertas y 16 heridos, según confirmaron las autoridades policiales.",
+            "El fuego comenzó aproximadamente a las 3:17 a.m. del lunes (20:17 GMT del domingo) en un inmueble que albergaba un restaurante, habitaciones de alquiler y un negocio de renta de motocicletas. La conflagración se extendió con rapidez a varios edificios adyacentes a causa de los materiales almacenados en el lugar."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El comandante de la policía de Phuket, Surachai Sooksai, indico que las investigaciones iniciales apuntan a la explosión de un transformador eléctrico situado en las proximidades del edificio poco antes de que se desataran las llamas, lo que llevo a las autoridades a descartar un acto provocado.",
+            "Por su parte, el gobernador de Phuket, Chodnarin Koedsom, detalló que el comercio de motocicletas albergaba aproximadamente 100 vehículos, además de depósitos de gasolina, aceite de motor, plásticos y neumáticos. Las autoridades informaron que entre los 16 heridos figuran 15 ciudadanos de Tailandia y un nacional de Myanmar, confirmando que no había turistas extranjeros entre las víctimas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá del fallo en el equipo eléctrico, el incidente pone de manifiesto una debilidad persistente en la aplicación de las normativas de seguridad e inspección de edificaciones en Tailandia. La convivencia de comercios con acopio de sustancias inflamables y viviendas en zonas urbanas de alta densidad opera bajo una supervisión permisiva.",
+            "El país registra un historial recurrente de siniestros relacionados con deficiencias de infraestructura. En julio pasado, un incendio en un establecimiento nocturno de Bangkok dejó cerca de 40 muertos tras un cortocircuito. Sucesos parecidos provocaron cuatro fallecidos en Phuket en 2012 y 67 muertes en una discoteca de la capital en 2009. La repetición de estos eventos refleja que la fiscalización sobre el mantenimiento de redes eléctricas y depósitos de material peligroso continúa relegada."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los trabajadores locales y los residentes de escasos recursos son los mas expuestos a estos siniestros, habitando o laborando en edificaciones que carecen de sistemas adecuados de prevención de incendios.",
+            "En contraparte, los propietarios de comercios y los operadores de infraestructura eluden costes operativos derivados de la modernización de redes e instalaciones, amparados por marcos de inspección laxos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será clave observar si los gobiernos locales en Tailandia implementan auditorías obligatorias sobre los comercios que manejan combustible y vehículos en áreas residenciales y turísticas.",
+            "Asimismo, resta verificar si las autoridades del sector eléctrico revisarán el estado y mantenimiento de los transformadores ubicados en zonas urbanas de alta concurrencia."
+          ]
+        }
+      ],
+      "tags": [
+        "Tailandia",
+        "Phuket",
+        "Seguridad Urbana",
+        "Infraestructura",
+        "Poder y Sociedad"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "At least 11 killed in blaze on Thailand’s Phuket island",
+          "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss"
+        }
+      ],
+      "wordCount": 453
+    },
+    "blindSpot": "Más allá de la falla eléctrica puntual, la tragedia expone la omisión sistemática en la inspección de edificaciones de uso mixto e infraestructura urbana en zonas turísticas de Tailandia. El acopio no regulado de combustibles y materiales volátiles en áreas residenciales refleja cómo las autoridades locales postergan los estándares de seguridad industrial frente a la actividad comercial."
+  },
+  {
     "slug": "incendio-phuket-destapa-falencias-cronicas-seguridad-o2xb",
     "path": "noticias/incendio-phuket-destapa-falencias-cronicas-seguridad-o2xb/",
     "title": "El incendio en Phuket destapa las falencias crónicas de la seguridad edilicia en Tailandia",

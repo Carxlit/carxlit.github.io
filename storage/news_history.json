@@ -234,9 +234,35 @@
     "https://www.france24.com/es/am%C3%A9rica-latina/20261115-un-terremoto-inc%C3%B3gnitas-sobre-las-ayudas-y-una-ola-terrorista-los-100-d%C3%ADas-de-gobierno-de-de-la-espriella",
     "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
     "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
-    "https://www.thehindu.com/news/international/many-killed-several-injured-phuket-shophouse/article71706768.ece"
+    "https://www.thehindu.com/news/international/many-killed-several-injured-phuket-shophouse/article71706768.ece",
+    "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "INCENDIO MORTAL EN PHUKET REVELA DEFICIENCIAS REGULATORIAS CRÓNICAS",
+      "normalizedTokens": [
+        "incendio",
+        "mortal",
+        "phuket",
+        "revela",
+        "deficiencias",
+        "regulatorias",
+        "cronicas"
+      ],
+      "date": "2026-11-16T08:02:37.997Z"
+    },
+    {
+      "title": "At least 11 killed in blaze on Thailand’s Phuket island",
+      "normalizedTokens": [
+        "least",
+        "killed",
+        "blaze",
+        "thailand",
+        "phuket",
+        "island"
+      ],
+      "date": "2026-11-16T08:02:37.995Z"
+    },
     {
       "title": "INCENDIO EN PHUKET DEJA ELEVADO SALDO MORTAL Y EXPONE FALLAS DE SEGURIDAD",
       "normalizedTokens": [
