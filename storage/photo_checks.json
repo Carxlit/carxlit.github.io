@@ -1073,5 +1073,20 @@
     "relevant": true,
     "reason": "muestra a militares ucranianos preparando drones de combate en un centro de operaciones.",
     "at": "2026-11-16T12:19:38.114Z"
+  },
+  "25305cd4587e50d2:bkxfl4fjb": {
+    "relevant": false,
+    "reason": "La imagen muestra un barco hundido y un buceador en lugar de la infraestructura hidráulica mencionada en el titular.",
+    "at": "2026-11-16T13:21:04.167Z"
+  },
+  "062bee6c72cd6464:bkxfl4fjb": {
+    "relevant": false,
+    "reason": "La imagen muestra un barco encallado o partido en el mar (Castillo de S...), completamente ajeno a una recompensa para proteger infraestructura hidráulica o a la plaga de mejillone",
+    "at": "2026-11-16T13:21:37.336Z"
+  },
+  "d4d1c34fa7884ce2:bkxfl4fjb": {
+    "relevant": false,
+    "reason": "La imagen se refiere a normativas de bioseguridad en Galápagos (Ecuador) y no a la infraestructura hidráulica de Estados Unidos.",
+    "at": "2026-11-16T13:21:42.383Z"
   }
 }
