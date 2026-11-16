@@ -241,9 +241,38 @@
     "https://es.euronews.com/2026/11/16/yolanda-diaz-retira-candidatura-direccion-oit-crisis-sindical",
     "https://www.bloomberglinea.com/mercados/dolar-en-2027-ing-anticipa-una-caida-del-5-y-advierte-por-la-fed-y-los-riesgos-de-una-crisis-de-ia/",
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5",
-    "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado"
+    "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado",
+    "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre"
   ],
   "processedSignatures": [
+    {
+      "title": "SABOTAJE ASIMÉTRICO EN EUROPA MIDE LA VULNERABILIDAD CIVIL",
+      "normalizedTokens": [
+        "sabotaje",
+        "asimetrico",
+        "europa",
+        "mide",
+        "vulnerabilidad",
+        "civil"
+      ],
+      "date": "2026-11-16T14:33:28.029Z"
+    },
+    {
+      "title": "¿Estamos ante una guerra híbrida? Qué hay detrás de los ataques a supermercados, amenazas a aviones y a los bancos de sangre",
+      "normalizedTokens": [
+        "estamos",
+        "guerra",
+        "hibrida",
+        "detras",
+        "ataques",
+        "supermercados",
+        "amenazas",
+        "aviones",
+        "bancos",
+        "sangre"
+      ],
+      "date": "2026-11-16T14:33:28.027Z"
+    },
     {
       "title": "ESTADOS UNIDOS OFRECE RECOMPENSA PARA PROTEGER SU INFRAESTRUCTURA HIDRÁULICA",
       "normalizedTokens": [
