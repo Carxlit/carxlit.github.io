@@ -244,9 +244,40 @@
     "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado",
     "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre",
     "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva",
-    "https://www.bbc.com/mundo/articles/c64gn38yj4ygo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/c64gn38yj4ygo?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdkJQb1ozVFlrUGpBOS1iR042NDZWZmpmaS1wNzF3b3VyZmxCMFM5QUpsVnZ6OTNvb0gyRTlGZjFuT3gzUEswSXBrMzZPWUV1TnlwZFJFRTNSbmJOcWdUY2p2YUxPc3B0bE8xQXBXSHNPSjNyRERpVkxSaDdXVWN1ZWJlVHZLWDdTLXV1WEFUUTVzREVoaFJ0cFJKSUNFM0pNNVZxS0pNc25NNXd1Ukp3M0M0bVBmSTQ1TmY1dXVTc19GQjFWVWgydVl5aXhFUDlhcjJjSk5DMzMwSFRDRV9LRXU5dmw3WUE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "TELEMUNDO ATLANTA  SOBRE PRIVACIDAD EN HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL",
+      "normalizedTokens": [
+        "telemundo",
+        "atlanta",
+        "privacidad",
+        "herramientas",
+        "inteligencia",
+        "artificial"
+      ],
+      "date": "2026-11-16T18:58:34.520Z"
+    },
+    {
+      "title": "Telemundo Atlanta. . #VivirMejor | Cómo aprovechar la inteligencia artificial sin comprometer su información: https://tinyurl.com/uhjv8f4a",
+      "normalizedTokens": [
+        "telemundo",
+        "atlanta",
+        "vivirmejor",
+        "aprovechar",
+        "inteligencia",
+        "artificial",
+        "comprometer",
+        "informacion",
+        "https",
+        "tinyurl",
+        "com",
+        "uhjv8f4a"
+      ],
+      "date": "2026-11-16T18:58:34.518Z"
+    },
     {
       "title": "ROBERT PATTINSON ES ELEGIDO COMO EL NUEVO JAMES BOND",
       "normalizedTokens": [

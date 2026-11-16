@@ -26622,5 +26622,124 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-16T18:04:52.435Z"
+  },
+  {
+    "id": "queue-1794855514503-7xt85",
+    "news": {
+      "id": "88xkyhpim",
+      "originalUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdkJQb1ozVFlrUGpBOS1iR042NDZWZmpmaS1wNzF3b3VyZmxCMFM5QUpsVnZ6OTNvb0gyRTlGZjFuT3gzUEswSXBrMzZPWUV1TnlwZFJFRTNSbmJOcWdUY2p2YUxPc3B0bE8xQXBXSHNPSjNyRERpVkxSaDdXVWN1ZWJlVHZLWDdTLXV1WEFUUTVzREVoaFJ0cFJKSUNFM0pNNVZxS0pNc25NNXd1Ukp3M0M0bVBmSTQ1TmY1dXVTc19GQjFWVWgydVl5aXhFUDlhcjJjSk5DMzMwSFRDRV9LRXU5dmw3WUE?oc=5",
+      "originalTitle": "Telemundo Atlanta. . #VivirMejor | Cómo aprovechar la inteligencia artificial sin comprometer su información: https://tinyurl.com/uhjv8f4a",
+      "sourceName": "Facebook",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 72,
+      "headline": "TELEMUNDO ATLANTA  SOBRE PRIVACIDAD EN HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL",
+      "subHeadline": "Telemundo Atlanta difundió una serie de guías sobre la protección de datos personales ante el uso cotidiano de aplicaciones de inteligencia artificial generativa.",
+      "blindSpotAngle": "Mientras las campañas informativas centran el debate en precauciones individuales, las corporaciones tecnológicas consolidan la extracción no consentida de telemetría para entrenar sus modelos. La responsabilidad de la ciberseguridad se desplaza falsamente al consumidor, enmascarando la ausencia de marcos regulatorios sobre soberanía digital y consentimiento previo.",
+      "facebookPost": "La cadena Telemundo Atlanta emitió un conjunto de recomendaciones dirigidas a mitigar los riesgos de exposición de información confidencial al utilizar herramientas de inteligencia artificial. La narrativa dominante insiste en que las configuraciones del usuario bastan para proteger la privacidad personal frente a los algoritmos corporativos.\n\nSin embargo, la arquitectura centralizada de estos modelos convierte cada interacción en insumo continuo para el entrenamiento de plataformas privadas, trasladando toda la carga defensiva al usuario mientras los términos de servicio garantizan la captura masiva de información. El verdadero dilema no radica en ajustar botones en la interfaz, sino en la legitimidad de un modelo de negocio basado en la recopilación ininterrumpida de telemetría.\n\n¿Debe recaer la custodia de la privacidad digital en la prudencia individual o en regulaciones estatales que restrinjan el entrenamiento algorítmico no consentido?\n\nFuente: Facebook\n\n#Tecnología #InteligenciaArtificial #PuntoCiego",
+      "telegramPost": "<b>TELEMUNDO ATLANTA ALERTA SOBRE PRIVACIDAD EN HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL</b>\n\n• <b>Qué ocurrió:</b> Telemundo Atlanta publicó orientaciones de ciberseguridad para mitigar los riesgos de exposición de datos al interactuar con aplicaciones de inteligencia artificial generativa.\n• <b>Por qué importa:</b> La industria tecnológica traslada la responsabilidad de la ciberseguridad al usuario mientras utiliza las interacciones cotidianas como insumos masivos para entrenar modelos propietarios.\n• <b>Qué sigue:</b> El incremento del volumen de datos recopilados intensificará el debate regulatorio global sobre la soberanía digital y el consentimiento informado en entornos algorítmicos.",
+      "linkedInPost": "El reporte publicado por Telemundo Atlanta respecto a las precauciones en el uso de inteligencia artificial expone una vulnerabilidad estructural en los entornos corporativos e individuales. Mientras los manuales para usuarios sugieren ajustes de privacidad básicos, las firmas desarrolladoras avanzan en la captura intensiva de datos no estructurados para perfeccionar sus modelos de negocio.\n\nEste esquema genera contingencias de cumplimiento normativo, exposición de propiedad intelectual e inestabilidad en la cadena de valor digital. Las organizaciones que adoptan inteligencia artificial sin auditorías estrictas de transferencia de datos asumen riesgos legales elevados en un entorno regulatorio global que busca limitar el extractivismo algorítmico.\n\nLas decisiones operativas en ciberseguridad han dejado de ser un tema meramente técnico para convertirse en un vector crítico de gobernanza e inmunidad corporativa.\n\nFuente: Facebook\n\n#Tecnología #InteligenciaArtificial #PuntoCiego",
+      "blueskyPost": "Telemundo Atlanta emite pautas sobre IA y privacidad. El punto ciego: la industria traslada la custodia de datos al usuario mientras extrae telemetría masiva sin regulación clara. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "La cadena Telemundo Atlanta emitió un conjunto de recomendaciones dirigidas a mitigar los riesgos de exposición de información confidencial al utilizar herramientas de inteligencia artificial. La narrativa dominante insiste en que las configuraciones del usuario bastan para proteger la privacidad personal frente a los algoritmos corporativos.\n\nSin embargo, la arquitectura centralizada de estos modelos convierte cada interacción en insumo continuo para el entrenamiento de plataformas privadas, trasladando toda la carga defensiva al usuario mientras los términos de servicio garantizan la captura masiva de información. El verdadero dilema no radica en ajustar botones en la interfaz, sino en la legitimidad de un modelo de negocio basado en la recopilación ininterrumpida de telemetría.\n\n¿Debe recaer la custodia de la privacidad digital en la prudencia individual o en regulaciones estatales que restrinjan el entrenamiento algorítmico no consentido? #Tecnología #InteligenciaArtificial #PuntoCiego",
+        "telegram": "<b>TELEMUNDO ATLANTA ALERTA SOBRE PRIVACIDAD EN HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL</b>\n\n• <b>Qué ocurrió:</b> Telemundo Atlanta publicó orientaciones de ciberseguridad para mitigar los riesgos de exposición de datos al interactuar con aplicaciones de inteligencia artificial generativa.\n• <b>Por qué importa:</b> La industria tecnológica traslada la responsabilidad de la ciberseguridad al usuario mientras utiliza las interacciones cotidianas como insumos masivos para entrenar modelos propietarios.\n• <b>Qué sigue:</b> El incremento del volumen de datos recopilados intensificará el debate regulatorio global sobre la soberanía digital y el consentimiento informado en entornos algorítmicos.",
+        "bluesky": "Telemundo Atlanta emite pautas sobre IA y privacidad. El punto ciego: la industria traslada la custodia de datos al usuario mientras extrae telemetría masiva sin regulación clara. #PuntoCiego #Tecnología",
+        "linkedIn": "El reporte publicado por Telemundo Atlanta respecto a las precauciones en el uso de inteligencia artificial expone una vulnerabilidad estructural en los entornos corporativos e individuales. Mientras los manuales para usuarios sugieren ajustes de privacidad básicos, las firmas desarrolladoras avanzan en la captura intensiva de datos no estructurados para perfeccionar sus modelos de negocio.\n\nEste esquema genera contingencias de cumplimiento normativo, exposición de propiedad intelectual e inestabilidad en la cadena de valor digital. Las organizaciones que adoptan inteligencia artificial sin auditorías estrictas de transferencia de datos asumen riesgos legales elevados en un entorno regulatorio global que busca limitar el extractivismo algorítmico.\n\nLas decisiones operativas en ciberseguridad han dejado de ser un tema meramente técnico para convertirse en un vector crítico de gobernanza e inmunidad corporativa. #Tecnología #InteligenciaArtificial #PuntoCiego"
+      },
+      "article": {
+        "slug": "ilusion-control-datos-era-inteligencia-artificial-f7vt",
+        "title": "La ilusión del control de datos en la era de la inteligencia artificial",
+        "dek": "Telemundo Atlanta difunde pautas de ciberseguridad ante el uso de IA. Detrás de los consejos de privacidad se oculta un modelo de extracción masiva de telemetría.",
+        "keyFacts": [
+          "Telemundo Atlanta emitió un informe defensivo sobre la protección de datos personales al usar inteligencia artificial generativa.",
+          "El informe advierte sobre el riesgo de ingresar información sensible en herramientas algorítmicas de acceso público.",
+          "La difusión del contenido se realizó a través de la cobertura periodística regional en Estados Unidos bajo el segmento Vivir Mejor."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "La filial periodística Telemundo Atlanta difundió una serie de directrices de ciberseguridad orientadas a mitigar la exposición de información confidencial al emplear aplicaciones de inteligencia artificial generativa. La cobertura enfatiza la importancia de evitar el ingreso de datos financieros, contraseñas o registros identificables en interfaces conversacionales y asistentes digitales.",
+              "Según la publicación del medio, los usuarios deben asumir una postura proactiva en el manejo de sus configuraciones de privacidad para evitar que la información suministrada sea incorporada en registros permanentes o compartida con terceros dentro de los ecosistemas digitales."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La masificación de las plataformas de inteligencia artificial ha multiplicado las interacciones diarias entre ciudadanos y modelos de lenguaje de gran escala. Estas herramientas procesan grandes volúmenes de texto, imágenes y códigos para perfeccionar sus algoritmos de respuesta y predicción.",
+              "Las grandes compañías tecnológicas han diseñado interfaces accesibles que integran estos modelos en el consumo cotidiano. Sin embargo, los términos de servicio suelen incluir cláusulas ambiguas sobre la retención, procesamiento y reutilización de la información ingresada por la base de usuarios."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El enfoque mediático habitual aborda el problema de la privacidad como una responsabilidad puramente individual, instruyendo a los usuarios sobre qué datos evitar. Sin embargo, el análisis de Punto Ciego revela que esta narrativa enmascara la arquitectura extractiva subyacente de la industria de la inteligencia artificial.",
+              "Al trasladar la carga defensiva al consumidor final, las corporaciones eluden la discusión fundamental sobre el entrenamiento no remunerado ni explícitamente consentido de modelos comerciales con datos personales. La configuración de privacidad actúa como un paliativo cosmético frente a sistemas diseñados estructuralmente para absorber telemetría masiva."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Las firmas desarrolladoras de tecnología se consolidan como las grandes ganadoras al apropiarse del flujo constante de datos globales para mejorar el rendimiento de sus plataformas sin asumir costos de adquisición de información. Este dominio incrementa su capitalización de mercado y fortalece su control sobre la infraestructura digital.",
+              "Los usuarios y las pequeñas empresas asumen el costo operativo y legal de potenciales filtraciones. En caso de brechas de seguridad o explotación no autorizada de datos, el impacto financiero y la pérdida de confidencialidad recaen exclusivamente sobre quienes confiaron en la herramienta."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Resulta decisivo monitorear el desarrollo de marcos regulatorios e iniciativas legislativas sobre soberanía de datos y derechos algorítmicos. Las normativas futuras determinarán si los desarrolladores deberán implementar esquemas de exclusión voluntaria por defecto y garantías de borrado irreversible.",
+              "Asimismo, la evolución de las auditorías técnicas independientes permitirá verificar si las herramientas comerciales realmente respetan las preferencias de privacidad seleccionadas por los usuarios en sus perfiles."
+            ]
+          }
+        ],
+        "tags": [
+          "tecnologia",
+          "inteligencia artificial",
+          "ciberseguridad",
+          "privacidad",
+          "datos personales",
+          "regulacion"
+        ],
+        "sources": [
+          {
+            "name": "Facebook",
+            "title": "Telemundo Atlanta. . #VivirMejor | Cómo aprovechar la inteligencia artificial sin comprometer su información: https://tinyurl.com/uhjv8f4a",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdkJQb1ozVFlrUGpBOS1iR042NDZWZmpmaS1wNzF3b3VyZmxCMFM5QUpsVnZ6OTNvb0gyRTlGZjFuT3gzUEswSXBrMzZPWUV1TnlwZFJFRTNSbmJOcWdUY2p2YUxPc3B0bE8xQXBXSHNPSjNyRERpVkxSaDdXVWN1ZWJlVHZLWDdTLXV1WEFUUTVzREVoaFJ0cFJKSUNFM0pNNVZxS0pNc25NNXd1Ukp3M0M0bVBmSTQ1TmY1dXVTc19GQjFWVWgydVl5aXhFUDlhcjJjSk5DMzMwSFRDRV9LRXU5dmw3WUE?oc=5"
+          }
+        ],
+        "wordCount": 444
+      },
+      "videoScript": {
+        "hook": "¿Sabes qué pasa realmente con los datos que ingresas en una inteligencia artificial?",
+        "beats": [
+          "Telemundo Atlanta publicó recomendaciones para evitar la filtración de información sensible al usar herramientas algorítmicas.",
+          "Ojo, la narrativa habitual te pide ajustar configuraciones de privacidad para protegerte.",
+          "Y aquí viene lo interesante, la industria usa tus interacciones para entrenar modelos sin darte control real."
+        ],
+        "close": "Lee el análisis completo sobre soberanía de datos en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/902420474_959553343644855_3026334754627280087_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=Fv7fn-PuZVwQ7kNvwGICitz&_nc_oc=Adpn9YxXp2CnVoyt4pvXAb9OlkoEc_xEpXPzGnSQyQB2IFKdsc5RJmkngxjdYpRdnvE&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ZVf4cMn8HPGM0TYlL_83hQ&_nc_ss=7f289&oh=00_AQSEprz7Udqqo4gi4ypatghJGThkF3YnmFqU0sRSUKWp_A&oe=6B0139EF",
+      "status": "pending",
+      "createdAt": "2026-11-16T18:58:31.856Z",
+      "cardImageUrl": "/news-cards/news-88xkyhpim-1794855511856.jpg",
+      "reelCoverUrl": "/news-cards/news-88xkyhpim-1794855512526-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-88xkyhpim-1794855513132-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ilusion-control-datos-era-inteligencia-artificial-f7vt/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-16T23:09:18.388Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-16T18:58:34.503Z"
   }
 ]
