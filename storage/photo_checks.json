@@ -1063,5 +1063,10 @@
     "relevant": true,
     "reason": "La imagen muestra un cartel rasgado con el rostro de Yolanda Díaz, protagonista central de la noticia.",
     "at": "2026-11-16T11:31:38.873Z"
+  },
+  "afc1a7caf8d035f5:bqrr3k3o4": {
+    "relevant": true,
+    "reason": "Muestra billetes de dólar estadounidense, representando directamente la moneda sobre la cual trata la predicción del titular.",
+    "at": "2026-11-16T11:47:09.217Z"
   }
 }

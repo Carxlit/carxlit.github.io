@@ -238,9 +238,37 @@
     "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss",
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXVBekpQd1U2aUM0Rk1RekRSd1RKUnRsenhZV1dtc3VlcVRXd1NfT2xkcmxaYUJXblAwMEs5bjE0ZE5hYVp5SDBZcjEzMlRfMDF1eGJIYjIzSEk1TXFHY3Z1YlJVRzEtZkNwUEl4NjFTanBCeXc4Q2V3ejJGTXFIOFE3c1hOREdaUEU1MVNGY3pMendrX1BmZzdETEHSAaQBQVVfeXFMTkc3VkJISXBmYjlXdTVBSXlJQTBScnp6Zjl4MmhsNnhuZ3V4TnRRbFZYT2ZDS2F6ZjVkVk1BX3l4UVlBOWhMQXEyTEwySl9HUm8yN292MENzSGQzNzl3V3pTNE1DSjAyZnNoOHh0emtvVXR2dzd3cjBuZjRINGh4YkJJblRyZVR5aG5PYTdGM1JTR2lGc1FMTGpIZWMyaXlXdERBOTE?oc=5",
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5",
-    "https://es.euronews.com/2026/11/16/yolanda-diaz-retira-candidatura-direccion-oit-crisis-sindical"
+    "https://es.euronews.com/2026/11/16/yolanda-diaz-retira-candidatura-direccion-oit-crisis-sindical",
+    "https://www.bloomberglinea.com/mercados/dolar-en-2027-ing-anticipa-una-caida-del-5-y-advierte-por-la-fed-y-los-riesgos-de-una-crisis-de-ia/"
   ],
   "processedSignatures": [
+    {
+      "title": "ING PREVÉ DEBILITAMIENTO DEL DÓLAR EN 2027 POR LA FED",
+      "normalizedTokens": [
+        "ing",
+        "preve",
+        "debilitamiento",
+        "dolar",
+        "2027",
+        "fed"
+      ],
+      "date": "2026-11-16T11:47:13.283Z"
+    },
+    {
+      "title": "Dólar en 2027: ING anticipa una caída del 5% y advierte por la Fed y los riesgos de una crisis de IA",
+      "normalizedTokens": [
+        "dolar",
+        "2027",
+        "ing",
+        "anticipa",
+        "caida",
+        "advierte",
+        "fed",
+        "riesgos",
+        "crisis"
+      ],
+      "date": "2026-11-16T11:47:13.278Z"
+    },
     {
       "title": "YOLANDA DÍAZ RETIRA SU CANDIDATURA A DIRIGIR LA OIT",
       "normalizedTokens": [
