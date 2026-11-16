@@ -243,9 +243,37 @@
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5",
     "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado",
     "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre",
-    "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva"
+    "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva",
+    "https://www.bbc.com/mundo/articles/c64gn38yj4ygo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ROBERT PATTINSON ES ELEGIDO COMO EL NUEVO JAMES BOND",
+      "normalizedTokens": [
+        "robert",
+        "pattinson",
+        "elegido",
+        "nuevo",
+        "james",
+        "bond"
+      ],
+      "date": "2026-11-16T18:04:52.455Z"
+    },
+    {
+      "title": "\"Es Pattinson, Robert Pattinson\": el actor británico será el nuevo James Bond",
+      "normalizedTokens": [
+        "pattinson",
+        "robert",
+        "pattinson",
+        "actor",
+        "britanico",
+        "sera",
+        "nuevo",
+        "james",
+        "bond"
+      ],
+      "date": "2026-11-16T18:04:52.452Z"
+    },
     {
       "title": "EL CONSEJO DE NVIDIA ACEPTA LA DIMISIÓN DE JENSEN HUANG",
       "normalizedTokens": [
