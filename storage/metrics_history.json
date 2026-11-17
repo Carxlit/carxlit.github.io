@@ -334,5 +334,33 @@
     "telegram": {
       "members": 2
     }
+  },
+  {
+    "date": "2026-11-16",
+    "at": "2026-11-17T02:01:00.264Z",
+    "bluesky": {
+      "followers": 0,
+      "posts": 245
+    },
+    "facebook": {
+      "followers": 2
+    },
+    "telegram": {
+      "members": 2
+    },
+    "instagram": {
+      "followers": 216,
+      "posts": 235,
+      "likes": 217,
+      "comments": 5,
+      "reels": 49
+    },
+    "topPost": {
+      "url": "https://www.instagram.com/reel/Dfx7fRijIRx/",
+      "likes": 119,
+      "comments": 3,
+      "type": "REELS",
+      "at": "2026-11-15T23:10:53+0000"
+    }
   }
 ]
