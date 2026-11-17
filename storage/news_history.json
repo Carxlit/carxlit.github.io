@@ -256,9 +256,43 @@
     "https://elpais.com/internacional/2026-11-17/el-ataque-ruso-a-un-centro-de-reparto-de-ayuda-en-zaporiyia-es-ya-la-segunda-mayor-masacre-de-la-guerra-de-ucrania.html",
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFJYcG1ITVBaZUYxS2RFNTg1cHJERzBFRGVIWEkwYWlsNjgzaU9XSk9RY1NUN0RVZlF3TlJkS2hsN1lfTl9lRTFWV1ZJb1Rab1VCZVJwbU1vT1pIOUloamZxVGlZUHpDUDJBdC1ma3hrVXhzdUV2djdxY1QzZGhVYWNxSVRMMU5uTS1vUHNZcy1vQ3NsWkQ0cGJJWnBpMklWRUd4aW53?oc=5",
     "https://elpais.com/america/2026-11-17/venezuela-destina-a-sostener-su-moneda-los-12000-millones-de-la-venta-tutelada-de-petroleo.html",
-    "https://www.xataka.com/magnet/1942-eeuu-francia-protagonizaron-batalla-surrealista-ultima-pieza-puzle-estaba-hundida-frente-a-cadiz-revelo-episodio-olvidado-2gm"
+    "https://www.xataka.com/magnet/1942-eeuu-francia-protagonizaron-batalla-surrealista-ultima-pieza-puzle-estaba-hundida-frente-a-cadiz-revelo-episodio-olvidado-2gm",
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552"
   ],
   "processedSignatures": [
+    {
+      "title": "JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE",
+      "normalizedTokens": [
+        "jpmorgan",
+        "atribuye",
+        "falla",
+        "bancaria",
+        "masiva",
+        "error",
+        "software"
+      ],
+      "date": "2026-11-17T13:33:14.164Z"
+    },
+    {
+      "title": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de 'error de software'",
+      "normalizedTokens": [
+        "jpmorgan",
+        "chase",
+        "pronuncio",
+        "fallas",
+        "plataformas",
+        "digitales",
+        "bancos",
+        "estados",
+        "unidos",
+        "descarto",
+        "ciberataque",
+        "hablo",
+        "error",
+        "software"
+      ],
+      "date": "2026-11-17T13:33:14.161Z"
+    },
     {
       "title": "HALLAZGO DEL TONNANT EXPONE FRACTURAS OLVIDADAS DE LA SEGUNDA GUERRA MUNDIAL",
       "normalizedTokens": [
@@ -7281,33 +7315,6 @@
         "estadounidenses"
       ],
       "date": "2026-11-02T03:11:29.032Z"
-    },
-    {
-      "title": "NUEVE MUERTOS AL CAER UN LEARJET EN WEST PALM BEACH",
-      "normalizedTokens": [
-        "nueve",
-        "muertos",
-        "caer",
-        "learjet",
-        "west",
-        "palm",
-        "beach"
-      ],
-      "date": "2026-11-01T21:10:39.275Z"
-    },
-    {
-      "title": "Un avión ejecutivo se estrelló en una zona residencial del sur de la Florida: hay 9 muertos",
-      "normalizedTokens": [
-        "avion",
-        "ejecutivo",
-        "estrello",
-        "zona",
-        "residencial",
-        "sur",
-        "florida",
-        "muertos"
-      ],
-      "date": "2026-11-01T21:10:39.270Z"
     }
   ]
 }

@@ -1163,5 +1163,15 @@
     "relevant": true,
     "reason": "La imagen muestra al submarino francés Le Tonnant, protagonista central de la noticia sobre su hallazgo frente a Rota.",
     "at": "2026-11-17T12:39:07.618Z"
+  },
+  "59b4bb908b8f6239:wr0r8w4jr": {
+    "relevant": false,
+    "reason": "La imagen muestra la fachada de un edificio genérico sin identificación clara de JPMorgan ni elementos relacionados con una falla bancaria o de software.",
+    "at": "2026-11-17T13:33:03.489Z"
+  },
+  "def4118b8952f8aa:wr0r8w4jr": {
+    "relevant": true,
+    "reason": "Muestra la fachada con el letrero de un banco Chase, la filial bancaria de consumo de JPMorgan Chase objeto de la noticia.",
+    "at": "2026-11-17T13:33:08.961Z"
   }
 }

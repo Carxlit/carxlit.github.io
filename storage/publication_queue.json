@@ -26522,5 +26522,143 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-17T12:39:11.858Z"
+  },
+  {
+    "id": "queue-1794922394144-1qxm6",
+    "news": {
+      "id": "wr0r8w4jr",
+      "originalUrl": "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552",
+      "originalTitle": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de 'error de software'",
+      "sourceName": "El Tiempo",
+      "category": "ECONOMÍA GLOBAL",
+      "urgencyScore": 78,
+      "headline": "JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE",
+      "subHeadline": "JPMorgan Chase descartó la hipótesis de un ciberataque tras interrupciones en plataformas bancarias de Estados Unidos que afectaron a miles de clientes.",
+      "blindSpotAngle": "Atribuir interrupciones sistémicas a un simple fallo de código funciona como un cortafuegos narrativo para evitar el escrutinio regulatorio sobre la resiliencia tecnológica del sector bancario. La explicación oficial omite la peligrosa concentración en la arquitectura de software compartida, donde un cambio sin auditar paraliza el flujo financiero de miles de personas.",
+      "facebookPost": "JPMorgan Chase ha descartado que las interrupciones en los servicios de banca digital en Estados Unidos hayan sido provocadas por un ciberataque, atribuyendo los incidentes a un fallo interno de software.\n\nMás allá del reporte oficial, este evento vuelve a dejar al descubierto la extrema fragilidad de la infraestructura financiera moderna. Presentar el colapso operativo como una mera falla informática desvía la atención sobre la falta de redundancia crítica en las aplicaciones de las que dependen miles de usuarios para acceder a su dinero.\n\n¿Hasta qué punto la etiqueta de error de software se utiliza para aplacar el debate sobre la vulnerabilidad de la banca digital? Dejanos tu postura.\n\nFuente: El Tiempo\n\n#EconomíaGlobal #BancaDigital #PuntoCiego",
+      "telegramPost": "<b>JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE</b>\n\n• <b>Qué ocurrió:</b> JPMorgan Chase aclaró que la caída de plataformas digitales en Estados Unidos obedeció a un problema de software y descartó cualquier ciberataque.\n• <b>Por qué importa:</b> La versión oficial minimiza la vulnerabilidad estructural de un sistema financiero hiperconectado donde una falla de código congela el acceso a cuentas de miles de clientes.\n• <b>Qué sigue:</b> Posible escrutinio regulatorio sobre los protocolos de actualización tecnológica y la gestión de riesgo operativo en la banca estadounidense.",
+      "linkedInPost": "El pronunciamiento de JPMorgan Chase atribuir la reciente caída de plataformas digitales a un error de software, descartando formalmente un ciberataque, pone de relieve los desafíos del riesgo operativo en la banca de gran escala. A medida que las instituciones concentran sus servicios en arquitecturas informáticas altamente integradas, la gestión de parches e imprevistos de código se convierte en un factor crítico para la continuidad del negocio y la liquidez de miles de clientes. Para los reguladores y directivos del sector financiero, el foco estratégico debe trasceder la defensa perimetral de ciberseguridad e incidir en la auditoría rigurosa de los procesos de actualización técnica.\n\nFuente: El Tiempo\n\n#EconomíaGlobal #RiesgoFinanciero #PuntoCiego",
+      "blueskyPost": "JPMorgan atribuye la caída de banca digital a un error de software y descarta ciberataques. La fragilidad del sistema financiero expone a miles de clientes ante fallas de código. #PuntoCiego #EconomíaGlobal",
+      "copies": {
+        "facebook": "JPMorgan Chase ha descartado que las interrupciones en los servicios de banca digital en Estados Unidos hayan sido provocadas por un ciberataque, atribuyendo los incidentes a un fallo interno de software.\n\nMás allá del reporte oficial, este evento vuelve a dejar al descubierto la extrema fragilidad de la infraestructura financiera moderna. Presentar el colapso operativo como una mera falla informática desvía la atención sobre la falta de redundancia crítica en las aplicaciones de las que dependen miles de usuarios para acceder a su dinero.\n\n¿Hasta qué punto la etiqueta de error de software se utiliza para aplacar el debate sobre la vulnerabilidad de la banca digital? Dejanos tu postura.\n\n#EconomíaGlobal #BancaDigital #PuntoCiego",
+        "telegram": "<b>JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE</b>\n\n• <b>Qué ocurrió:</b> JPMorgan Chase aclaró que la caída de plataformas digitales en Estados Unidos obedeció a un problema de software y descartó cualquier ciberataque.\n• <b>Por qué importa:</b> La versión oficial minimiza la vulnerabilidad estructural de un sistema financiero hiperconectado donde una falla de código congela el acceso a cuentas de miles de clientes.\n• <b>Qué sigue:</b> Posible escrutinio regulatorio sobre los protocolos de actualización tecnológica y la gestión de riesgo operativo en la banca estadounidense.",
+        "bluesky": "JPMorgan atribuye la caída de banca digital a un error de software y descarta ciberataques. La fragilidad del sistema financiero expone a miles de clientes ante fallas de código. #PuntoCiego #EconomíaGlobal",
+        "linkedIn": "El pronunciamiento de JPMorgan Chase atribuir la reciente caída de plataformas digitales a un error de software, descartando formalmente un ciberataque, pone de relieve los desafíos del riesgo operativo en la banca de gran escala. A medida que las instituciones concentran sus servicios en arquitecturas informáticas altamente integradas, la gestión de parches e imprevistos de código se convierte en un factor crítico para la continuidad del negocio y la liquidez de miles de clientes. Para los reguladores y directivos del sector financiero, el foco estratégico debe trasceder la defensa perimetral de ciberseguridad e incidir en la auditoría rigurosa de los procesos de actualización técnica. #EconomíaGlobal #RiesgoFinanciero #PuntoCiego"
+      },
+      "article": {
+        "slug": "jpmorgan-descarta-ciberataque-atribuye-falla-bancaria-bg0l",
+        "title": "JPMorgan descarta ciberataque y atribuye la falla bancaria digital a un error de software",
+        "dek": "El mayor banco de Estados Unidos justificó la interrupción masiva de servicios digitales como un incidente informático interno. La explicación oficial evita abordar la fragilidad estructural de la banca centralizada.",
+        "keyFacts": [
+          "JPMorgan Chase confirmó que la caída de plataformas bancarias se debió a un error de software.",
+          "La entidad descartó explícitamente la intervención de terceros o la ocurrencia de un ciberataque.",
+          "Las interrupciones en los servicios digitales generaron reportes de miles de clientes en Estados Unidos."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Durante las últimas horas, miles de usuarios en Estados Unidos reportaron severas dificultades para ingresar a sus cuentas bancarias y efectuar operaciones a través de plataformas digitales. La interrupción afectó la disponibilidad de canales electrónicos en varias entidades del sistema financiero norteamericano, generando incertidumbre entre los clientes respecto a la seguridad de sus fondos.",
+              "Ante la escalada de reportes, JPMorgan Chase emitió una declaración oficial para aclarar la situación técnica. Según información corroborada por fuentes como El Tiempo y La Prensa Gráfica, el banco descartó categóricamente que la falla responda a un ciberataque o a una intrusión maliciosa. En su lugar, la institución atribuyó la parálisis de los servicios digitales a un error de software surgido durante los procesos operativos internos."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El incidente se produjo en un entorno de elevada sensibilidad pública y regulatoria sobre la estabilidad de los sistemas bancarios electrónicos. Miles de reportes registrados en plataformas de monitoreo dieron cuenta de usuarios imposibilitados para verificar saldos, ejecutar transferencias o utilizar aplicaciones de banca móvil.",
+              "Al descartar la presencia de un ataque informático, JPMorgan buscó contener la ola de especulaciones en los mercados y calmar el temor a una fuga de datos masiva. Sin embargo, la explicación pone de manifiesto el grado de dependencia que el público y las empresas mantienen respecto a la disponibilidad ininterrumpida de las plataformas bancarias en línea."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Desde la perspectiva de análisis de Punto Ciego, catalogar el colapso operacional como un simple error de software funciona como una estrategia de contención reputacional. Al circunscribir el problema a una falla técnica puntual, las entidades involucradas reducen la presión mediática e intentan eludir sanciones regulatorias más severas asociadas a la falta de previsión.",
+              "El aspecto crítico que la narrativa oficial omite es la fragilidad estructural derivada de la concentración tecnológica. Cuando múltiples canales de atención dependen de marcos informáticos homogéneos o proveedores de código compartidos, una anomalía en una actualización puede deshabilitar el acceso al capital de miles de personas. La ausencia de mecanismos de redundancia independientes expone los vacíos en la gestión del riesgo operativo."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En el corto plazo, las instituciones financieras logran mitigar la crisis de imagen al desvincular el incidente de fallas de seguridad informática o ataques dirigidos por actores hostiles. La categorización del hecho como un fallo de código aminora el impacto en la valoración del mercado respecto a sus protocolos de ciberdefensa.",
+              "Por el contrario, los usuarios y pequeños comerciantes sufren de forma directa la paralización de sus operaciones cotidianas sin contar con vías de contingencia eficaces. A su vez, el sector bancario en su conjunto pierde credibilidad en su discurso de transición absoluta hacia un modelo exclusivamente digital."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Corresponderá observar si los organismos reguladores del sistema financiero estadounidense abren investigaciones formales sobre los controles de calidad en el despliegue de software de JPMorgan Chase y otras entidades afectadas.",
+              "Asimismo, será clave dar seguimiento a la adopción de normativas más estrictas sobre resiliencia operativa digital que obliguen a la banca a transparentar las auditorías de su infraestructura interna."
+            ]
+          }
+        ],
+        "tags": [
+          "JPMorgan Chase",
+          "Banca Digital",
+          "Estados Unidos",
+          "Riesgo Operativo",
+          "Software"
+        ],
+        "sources": [
+          {
+            "name": "El Tiempo",
+            "title": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de 'error de software'",
+            "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552"
+          },
+          {
+            "name": "La Prensa Gráfica",
+            "title": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de \"error de software\"",
+            "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQMXVhRDBwdHRneU9NbzI4eUlRZE9fOS1laFlIVFBVRzRnbkgxdHdCYmRTd0tMSXNTMGVNWklFMWZQRzBlRWRWeGM3Y1RMZHZsRUhIUURDY2JIaWZlRDZ5cHJxVzkyR252aFRJWUpibGZhOFZLcW9feE5fS2tVY1lJb2dMVzB1ejJMZkJfNkdTZjRvRmxWV0w2RDM1UXI0VVY2eHh6c2tOWFAwQXR3Q2N1Tkh1LUFuSjJkM0huNVZqWTVadVFCWmRFN3JXM0czdl9xYUg2U3F0ckNlb1k0dXBHeEw4ODBqb3phdVlBR0xFX3lCWDB1UkhfejY0YnRDbDZNLWYyN3ozYTh1UGstclhIRDlvTFRNRVB2V1lIQzZDMXcwSTdVUjlydnpn?oc=5"
+          },
+          {
+            "name": "El País",
+            "title": "Fallas en servicios bancarios afectan a miles de usuarios en Estados Unidos",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR0RsYXhuU3lyNTJlT25UOUJtUzBjaEJob1kzWmNrNGY5bmpiaWY1aXR5djRXVGZSZUR6U0UtOVhpajNQSFloWDd2WHdKRDFIS2pXZXlzd1dCMHZEY2R1ZERpMWxDb1RCWm5MNHliU3Myb2dwMk5xUnB5Z3FHWUp4QmhWTVYzOEgyVlNyelFQMnV6MzRHVXp6OHdycU9TSnlKRm1PNTNfeWRqeXBTSkFXOWR2ZmpZdWZIdGR3YVFwTTJpUdIBwgFBVV95cUxOR0RsYXhuU3lyNTJlT25UOUJtUzBjaEJob1kzWmNrNGY5bmpiaWY1aXR5djRXVGZSZUR6U0UtOVhpajNQSFloWDd2WHdKRDFIS2pXZXlzd1dCMHZEY2R1ZERpMWxDb1RCWm5MNHliU3Myb2dwMk5xUnB5Z3FHWUp4QmhWTVYzOEgyVlNyelFQMnV6MzRHVXp6OHdycU9TSnlKRm1PNTNfeWRqeXBTSkFXOWR2ZmpZdWZIdGR3YVFwTTJpUQ?oc=5"
+          },
+          {
+            "name": "La FM",
+            "title": "Caída en bancos de Estados Unidos: revelan qué provocó los problemas para acceder a las cuentas",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUG9zS21CVXNDUjdNMnRrSXNoSkdDeHJYSVZvWTZ5ejVLOFphUkNaVDlZbTBDWUpRTm9xRUpQUmE0RXJiR0VyZkVXV1VYVnIwamU2bUNBM0RBNGE4NmZpS251TldtTFQ3ZGdxV3ktV0lsYzlHOVNWTi03V2xRb0ZqOFp2QVBHNHBCQW1qaXR6WFJFYUg5QXRxTWVNa2V2cmNRelAwZ3JWVHFUcDRxYnE4ZDVRN1h3VVJxX0ZDQS16VEh6VmRrU21jUNIByAFBVV95cUxPa3RIbVVMYm82S1FlXzJwZU9OMHhvSHpHcXNRb1c5cS03ekN6d1ZTTkNOdnVuMFpEeFhhenJFSml2Vk5QNlZUTTN6U3JkM1JlNnNiTjVRX3JHSFJTQjEwb2tsbUN0ODNDWEpORDEwWTR6UEdDQURiSVk4T2lIdThUZktycUJjZmQwcGliZE01eGJ3OTJBN2QtT3NOMlUyR3RSa2M2WGMzWVpLcEtyNU1CMTg0cHdCQzZ5U2tIR3RWRFg1WDdBWVlPSw?oc=5"
+          },
+          {
+            "name": "La Opinión Cúcuta",
+            "title": "Caída de servicios bancarios en Estados Unidos provoca miles de reportes de los clientes",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlJIaDJqS1VJbXZHNmFXd212WkxBZXVCRVd2eUxUaW9yTkc2RzNiRGp2aUJ6OGxuSXhKTkMzekJKYmJ6OWpiMmVfSmoxWFJYUE9zb3VucXBaTUhxUzJGZEhBMHhEV1lHZndnT1NKYkRSY0UwalJGdkJpSlJjTi1VT1FQcllibFJJY01CWDVxbWlVdXJBa3d6bVZSR1lZMm5XUnZZT2c4UVNJVTBsUF9sbEdpaHJHZw?oc=5"
+          }
+        ],
+        "wordCount": 527
+      },
+      "videoScript": {
+        "hook": "¿Un fallo de software congeló la banca digital en Estados Unidos?",
+        "beats": [
+          "JPMorgan Chase descartó un ciberataque tras fallas masivas en las plataformas bancarias digitales.",
+          "La interrupción técnica afectó a miles de clientes que perdieron el acceso a sus cuentas.",
+          "Ojo porque calificarlo de falla de software oculta la verdadera fragilidad del sistema."
+        ],
+        "close": "Encuentra el análisis completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/04/01/67ec4105c9472.r_d.421-658-14354.png",
+      "status": "pending",
+      "createdAt": "2026-11-17T13:33:10.571Z",
+      "cardImageUrl": "/news-cards/news-wr0r8w4jr-1794922390571.jpg",
+      "reelCoverUrl": "/news-cards/news-wr0r8w4jr-1794922392368-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-wr0r8w4jr-1794922392909-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/jpmorgan-descarta-ciberataque-atribuye-falla-bancaria-bg0l/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-17T18:01:27.366Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-17T13:33:14.144Z"
   }
 ]
