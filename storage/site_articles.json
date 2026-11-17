@@ -1,5 +1,100 @@
 [
   {
+    "slug": "golpe-puente-crimea-trasfondo-ajedrez-diplomatico-eaxy",
+    "path": "noticias/golpe-puente-crimea-trasfondo-ajedrez-diplomatico-eaxy/",
+    "title": "El golpe al puente de Crimea y su trasfondo en el ajedrez diplomático",
+    "headline": "UCRANIA GOLPEA EL PUENTE DE CRIMEA ANTES DE CUMBRE GLOBAL",
+    "dek": "Ucrania inutiliza tramos clave de la infraestructura que une Rusia con la península en una operación militar milimétricamente sincronizada con la diplomacia internacional.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "ABC Internacional",
+    "image": "img/golpe-puente-crimea-trasfondo-ajedrez-diplomatico-eaxy.jpg",
+    "photo": "img/golpe-puente-crimea-trasfondo-ajedrez-diplomatico-eaxy-foto.jpg",
+    "publishedAt": "2026-11-17T18:08:04.128Z",
+    "article": {
+      "slug": "golpe-puente-crimea-trasfondo-ajedrez-diplomatico-eaxy",
+      "title": "El golpe al puente de Crimea y su trasfondo en el ajedrez diplomático",
+      "dek": "Ucrania inutiliza tramos clave de la infraestructura que une Rusia con la península en una operación militar milimétricamente sincronizada con la diplomacia internacional.",
+      "keyFacts": [
+        "El ataque se ejecutó entre el 16 y el 17 de noviembre mediante el uso de hasta 11 sistemas de armas diferentes.",
+        "El presidente ucraniano, Volodímir Zelenski, confirmó la destrucción tras una operación dividida en siete fases.",
+        "El Ministerio de Transportes de Rusia reconoció la suspensión temporal de la circulación vial y ferroviaria.",
+        "El Ministerio de Defensa ruso informó del derribo de 1.441 drones en 21 regiones y en la Crimea ocupada."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Las fuerzas ucestratégicas golpearon con misiles de crucero de fabricación nacional, como el Flamingo FP-5 y los sistemas Neptune, el puente de Crimea, inaugurado por Vladímir Putin en 2018. Según ABC Internacional y fuentes oficiales ucranianas, la infraestructura sufrió un ataque coordinado con hasta 11 sistemas de armas diferentes que obligó a suspender la circulación por los tramos viario y ferroviario.",
+            "El Ministerio de Transportes de Rusia admitió dos ataques consecutivos entre el 16 y el 17 de noviembre. Por su parte, el Kremlin aseguró a través de su portavoz, Dmitri Peskov, que el puente será reconstruido, aunque analistas militares rusos advirtieron de la extrema dificultad para acometer las reparaciones ante la capacidad ucraniana de atacar los equipos flotantes."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El viaducto de Kerch representa mucho más que una vía de comunicación terrestre; es el símbolo político de la anexión de la península y la principal arteria logística para el suministro de combustible, municiones y efectivos hacia el sur de Ucrania. La degradación previa de los puentes de Chongar y Henichesk dejó a esta infraestructura como el eje central del abastecimiento militar ruso en la región.",
+            "El operativo se produce en un escenario de intensa confrontación aérea. Moscú reportó el derribo de una cifra récord de 1.441 drones en 21 regiones, la Crimea ocupada y las aguas circundantes, superando los registros de la noche anterior en el que constituye el quinto y más grave ataque contra el puente desde 2022."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la lectura táctica sobre el terreno, la operación esconde una jugada diplomática de calado. Funcionarios ucranianos revelaron a 'The Times' que el asalto fue planeado como un gesto simbólico previo a la reunión que mantendrán Trump, Putin y Xi en China, con el propósito explícito de demostrar debilidad en el liderazgo de Moscú.",
+            "A esto se suma un factor tecnológico clave señalado por Kiev: el uso de armamento íntegramente nacional se produjo mientras los terminales de Starlink y Starshield experimentaban restricciones en el territorio ucraniano, evidenciando un esfuerzo por operar al margen de dependencias externas en comunicaciones críticas."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Ucrania gana capacidad de disuasión y logra alterar la narrativa de superioridad rusa en la víspera de cumbres internacionales decisivas para el conflicto. La destrucción de la vía logística obliga al mando ruso a replantear sus rutas de abastecimiento en el frente sur.",
+            "Rusia asume un costo militar y propagandístico severo, al tiempo que enfrenta un desafío técnico monumental para reparar el viaducto bajo la amenaza constante de los drones y misiles ucranianos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Los próximos movimientos diplomáticos en la cumbre de Asia y la evolución de los combates en el sur de Ucrania marcarán el pulso de la guerra. La capacidad de Moscú para blindar sus rutas logísticas alternativas será determinante en el corto plazo."
+          ]
+        }
+      ],
+      "tags": [
+        "Ucrania",
+        "Rusia",
+        "Crimea",
+        "Guerra",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "ABC Internacional",
+          "title": "Ucrania destruye un tramo del puente de Crimea, símbolo de la anexión ilegal de Rusia",
+          "url": "https://www.abc.es/internacional/ucrania-golpea-nuevo-drones-puente-crimea-suspende-20261117090145-nt.html"
+        },
+        {
+          "name": "EL PAÍS",
+          "title": "Ucrania destruye parte del puente de Crimea, símbolo de la anexión rusa impuesta por Putin",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWUhRSnlnc19sVHBqYS1Jb2ZpekcwUC1oSWcyYWtnbTFCeXMwbXNQNGVlOTJWMUlDcG9YLXpSVVdUZV9NSV9DQ0RDNmJfbGFhdVF0T2x1MnZsOERjRU1XU3d5RENpVlBTaVBKOVhnN1ZtUHJ0MTlyVmJxdEtZdWREMElPc1FQWXp1UDJVSWN2TW5QX0xMWUU2NExxSXFDMHYzT1NsMEtwb9IBuwFBVV95cUxQRG1jRWNwdVBhVEtLckoxZkR0dHhoUU05TWJmYmRNMkMyTmlyaGNPbnZVdlNnbHE1cldrVnhPaGNFandhTzd3b3djTlFfUE9tVklZUFh4dTN4MTVoNV9Ea3lJQ3FFRG9jcXBKcHpKUGJXUnJQV2ZKMWg1SXpNNG9Ga2RJUjF2STFCRElXM19BRXlpdXlVYW1jLUxkUnVLcmxWMElrVmtwTTFsUmJtRWZnVjZlczJHZ25TZTNr?oc=5"
+        },
+        {
+          "name": "RFI",
+          "title": "Ucrania destruye parte de un puente de Crimea en un ataque con misiles",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0pLZlE1cWZaeVlHYWNzZUZjM0FfbUR2R0JxbHU4cTM1Q2NERWdTVi1na2MwUDhfbHVpYzRTX3c4d1EwY0M1bkd0V0xWeUFXclE0azd1QkZ3S3BkOFhYdkJsc2pfY0ZoOGpsWGNfeGlmV2RkVU0wQWd6VWZXNlNhZVhRWFNMeUFJWi1fWC1INVdPWmJKVnJybUNtdkl5Z0RLcFZ4X0t3Zw?oc=5"
+        },
+        {
+          "name": "Milenio",
+          "title": "Ucrania destruye tramo del puente de Crimea tras ataque con misiles y drones | VIDEO",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWHFnblRNNVFJMVhkLVYtd2tHTUZzSFRkN05ua1ZxMVpVUTltQUNfWWFXcVR2Y2ZEQ29ldGZ1dkdQTWJ5bmRXVDJxODV4cWlSaC14ZkFsVVdnZEJhSGhsQVlyQm1MUGE2YVJQb1VIbHBUSTkxUlJ0YmVWZkhybktJOVI2dnlVeWZqSmZBYk9FQVlZekE?oc=5"
+        },
+        {
+          "name": "Reforma",
+          "title": "Destruye Ucrania parte de puente que une a Crimea con Rusia",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUmlRaEU3NmdDYUN2bmhOUzRYQUJrcEoxdV9mM2cxM0xKUy1aQ2pkQ0xGNW9kUHFfVzM0SXlUWFFpajdsZF8yQUZtUXVJOUZiYmdXYThGeS1yNXhGbjJDcjBXYUV4bzR4RUdOdzd5ajAzaExnM193VTVOYXBPam4yeUNtbWdORndIMGhKQXZDOUI4MzlGVzZ0bg?oc=5"
+        }
+      ],
+      "wordCount": 478
+    },
+    "blindSpot": "Mientras la atención mediática se centra en el valor simbólico de la infraestructura inaugurada por Vladímir Putin, el verdadero trasfondo radica en el uso de armamento propio ucraniano y la pinza diplomática en vísperas de la reunión entre Trump, Putin y Xi en China."
+  },
+  {
     "slug": "rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx",
     "path": "noticias/rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx/",
     "title": "El rescate silencioso de la inteligencia artificial tambalea tras la salida de Jensen Huang",

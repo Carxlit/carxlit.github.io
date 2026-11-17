@@ -1183,5 +1183,10 @@
     "relevant": true,
     "reason": "La imagen muestra a Jensen Huang, protagonista central de la noticia sobre Nvidia y su dimisión, rodeado de dinero.",
     "at": "2026-11-17T16:33:32.421Z"
+  },
+  "12ecfab15511c5d0:q0nscxcwm": {
+    "relevant": true,
+    "reason": "Muestra el puente de Crimea dañado, que es el tema central del titular.",
+    "at": "2026-11-17T18:07:57.157Z"
   }
 }

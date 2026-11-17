@@ -259,9 +259,38 @@
     "https://www.xataka.com/magnet/1942-eeuu-francia-protagonizaron-batalla-surrealista-ultima-pieza-puzle-estaba-hundida-frente-a-cadiz-revelo-episodio-olvidado-2gm",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552",
     "https://www.clarin.com/mundo/invasion-migratoria-amenaza-ultraderechista-meten-lleno-campana-electoral-espana_0_2cmvxaOYFd.html",
-    "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra"
+    "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
+    "https://www.abc.es/internacional/ucrania-golpea-nuevo-drones-puente-crimea-suspende-20261117090145-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "UCRANIA GOLPEA EL PUENTE DE CRIMEA ANTES DE CUMBRE GLOBAL",
+      "normalizedTokens": [
+        "ucrania",
+        "golpea",
+        "puente",
+        "crimea",
+        "antes",
+        "cumbre",
+        "global"
+      ],
+      "date": "2026-11-17T18:08:04.259Z"
+    },
+    {
+      "title": "Ucrania destruye un tramo del puente de Crimea, símbolo de la anexión ilegal de Rusia",
+      "normalizedTokens": [
+        "ucrania",
+        "destruye",
+        "tramo",
+        "puente",
+        "crimea",
+        "simbolo",
+        "anexion",
+        "ilegal",
+        "rusia"
+      ],
+      "date": "2026-11-17T18:08:04.254Z"
+    },
     {
       "title": "DIMISIÓN EN NVIDIA REVELA RIESGO DE FINANCIACIÓN CIRCULAR EN LA IA",
       "normalizedTokens": [
@@ -7289,31 +7318,6 @@
         "votos"
       ],
       "date": "2026-11-02T13:15:51.881Z"
-    },
-    {
-      "title": "ECONOMÍA CHILENA REGISTRA ANÉMICO AVANCE DE 0,2% EN SEPTIEMBRE",
-      "normalizedTokens": [
-        "economia",
-        "chilena",
-        "registra",
-        "anemico",
-        "avance",
-        "septiembre"
-      ],
-      "date": "2026-11-02T12:27:21.109Z"
-    },
-    {
-      "title": "Economía chilena sube 0,2% interanual en septiembre: Banco Central",
-      "normalizedTokens": [
-        "economia",
-        "chilena",
-        "sube",
-        "interanual",
-        "septiembre",
-        "banco",
-        "central"
-      ],
-      "date": "2026-11-02T12:27:21.109Z"
     }
   ]
 }
