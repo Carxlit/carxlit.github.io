@@ -1,5 +1,125 @@
 [
   {
+    "id": "wr0r8w4jr",
+    "originalUrl": "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552",
+    "originalTitle": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de 'error de software'",
+    "sourceName": "El Tiempo",
+    "category": "ECONOMÍA GLOBAL",
+    "urgencyScore": 78,
+    "headline": "JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE",
+    "subHeadline": "JPMorgan Chase descartó la hipótesis de un ciberataque tras interrupciones en plataformas bancarias de Estados Unidos que afectaron a miles de clientes.",
+    "blindSpotAngle": "Atribuir interrupciones sistémicas a un simple fallo de código funciona como un cortafuegos narrativo para evitar el escrutinio regulatorio sobre la resiliencia tecnológica del sector bancario. La explicación oficial omite la peligrosa concentración en la arquitectura de software compartida, donde un cambio sin auditar paraliza el flujo financiero de miles de personas.",
+    "facebookPost": "JPMorgan Chase ha descartado que las interrupciones en los servicios de banca digital en Estados Unidos hayan sido provocadas por un ciberataque, atribuyendo los incidentes a un fallo interno de software.\n\nMás allá del reporte oficial, este evento vuelve a dejar al descubierto la extrema fragilidad de la infraestructura financiera moderna. Presentar el colapso operativo como una mera falla informática desvía la atención sobre la falta de redundancia crítica en las aplicaciones de las que dependen miles de usuarios para acceder a su dinero.\n\n¿Hasta qué punto la etiqueta de error de software se utiliza para aplacar el debate sobre la vulnerabilidad de la banca digital? Dejanos tu postura.\n\nFuente: El Tiempo\n\n#EconomíaGlobal #BancaDigital #PuntoCiego",
+    "telegramPost": "<b>JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE</b>\n\n• <b>Qué ocurrió:</b> JPMorgan Chase aclaró que la caída de plataformas digitales en Estados Unidos obedeció a un problema de software y descartó cualquier ciberataque.\n• <b>Por qué importa:</b> La versión oficial minimiza la vulnerabilidad estructural de un sistema financiero hiperconectado donde una falla de código congela el acceso a cuentas de miles de clientes.\n• <b>Qué sigue:</b> Posible escrutinio regulatorio sobre los protocolos de actualización tecnológica y la gestión de riesgo operativo en la banca estadounidense.",
+    "linkedInPost": "El pronunciamiento de JPMorgan Chase atribuir la reciente caída de plataformas digitales a un error de software, descartando formalmente un ciberataque, pone de relieve los desafíos del riesgo operativo en la banca de gran escala. A medida que las instituciones concentran sus servicios en arquitecturas informáticas altamente integradas, la gestión de parches e imprevistos de código se convierte en un factor crítico para la continuidad del negocio y la liquidez de miles de clientes. Para los reguladores y directivos del sector financiero, el foco estratégico debe trasceder la defensa perimetral de ciberseguridad e incidir en la auditoría rigurosa de los procesos de actualización técnica.\n\nFuente: El Tiempo\n\n#EconomíaGlobal #RiesgoFinanciero #PuntoCiego",
+    "blueskyPost": "JPMorgan atribuye la caída de banca digital a un error de software y descarta ciberataques. La fragilidad del sistema financiero expone a miles de clientes ante fallas de código. #PuntoCiego #EconomíaGlobal",
+    "copies": {
+      "facebook": "JPMorgan Chase ha descartado que las interrupciones en los servicios de banca digital en Estados Unidos hayan sido provocadas por un ciberataque, atribuyendo los incidentes a un fallo interno de software.\n\nMás allá del reporte oficial, este evento vuelve a dejar al descubierto la extrema fragilidad de la infraestructura financiera moderna. Presentar el colapso operativo como una mera falla informática desvía la atención sobre la falta de redundancia crítica en las aplicaciones de las que dependen miles de usuarios para acceder a su dinero.\n\n¿Hasta qué punto la etiqueta de error de software se utiliza para aplacar el debate sobre la vulnerabilidad de la banca digital? Dejanos tu postura.\n\n#EconomíaGlobal #BancaDigital #PuntoCiego",
+      "telegram": "<b>JPMORGAN ATRIBUYE FALLA BANCARIA MASIVA A ERROR DE SOFTWARE</b>\n\n• <b>Qué ocurrió:</b> JPMorgan Chase aclaró que la caída de plataformas digitales en Estados Unidos obedeció a un problema de software y descartó cualquier ciberataque.\n• <b>Por qué importa:</b> La versión oficial minimiza la vulnerabilidad estructural de un sistema financiero hiperconectado donde una falla de código congela el acceso a cuentas de miles de clientes.\n• <b>Qué sigue:</b> Posible escrutinio regulatorio sobre los protocolos de actualización tecnológica y la gestión de riesgo operativo en la banca estadounidense.",
+      "bluesky": "JPMorgan atribuye la caída de banca digital a un error de software y descarta ciberataques. La fragilidad del sistema financiero expone a miles de clientes ante fallas de código. #PuntoCiego #EconomíaGlobal",
+      "linkedIn": "El pronunciamiento de JPMorgan Chase atribuir la reciente caída de plataformas digitales a un error de software, descartando formalmente un ciberataque, pone de relieve los desafíos del riesgo operativo en la banca de gran escala. A medida que las instituciones concentran sus servicios en arquitecturas informáticas altamente integradas, la gestión de parches e imprevistos de código se convierte en un factor crítico para la continuidad del negocio y la liquidez de miles de clientes. Para los reguladores y directivos del sector financiero, el foco estratégico debe trasceder la defensa perimetral de ciberseguridad e incidir en la auditoría rigurosa de los procesos de actualización técnica. #EconomíaGlobal #RiesgoFinanciero #PuntoCiego"
+    },
+    "article": {
+      "slug": "jpmorgan-descarta-ciberataque-atribuye-falla-bancaria-bg0l",
+      "title": "JPMorgan descarta ciberataque y atribuye la falla bancaria digital a un error de software",
+      "dek": "El mayor banco de Estados Unidos justificó la interrupción masiva de servicios digitales como un incidente informático interno. La explicación oficial evita abordar la fragilidad estructural de la banca centralizada.",
+      "keyFacts": [
+        "JPMorgan Chase confirmó que la caída de plataformas bancarias se debió a un error de software.",
+        "La entidad descartó explícitamente la intervención de terceros o la ocurrencia de un ciberataque.",
+        "Las interrupciones en los servicios digitales generaron reportes de miles de clientes en Estados Unidos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Durante las últimas horas, miles de usuarios en Estados Unidos reportaron severas dificultades para ingresar a sus cuentas bancarias y efectuar operaciones a través de plataformas digitales. La interrupción afectó la disponibilidad de canales electrónicos en varias entidades del sistema financiero norteamericano, generando incertidumbre entre los clientes respecto a la seguridad de sus fondos.",
+            "Ante la escalada de reportes, JPMorgan Chase emitió una declaración oficial para aclarar la situación técnica. Según información corroborada por fuentes como El Tiempo y La Prensa Gráfica, el banco descartó categóricamente que la falla responda a un ciberataque o a una intrusión maliciosa. En su lugar, la institución atribuyó la parálisis de los servicios digitales a un error de software surgido durante los procesos operativos internos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El incidente se produjo en un entorno de elevada sensibilidad pública y regulatoria sobre la estabilidad de los sistemas bancarios electrónicos. Miles de reportes registrados en plataformas de monitoreo dieron cuenta de usuarios imposibilitados para verificar saldos, ejecutar transferencias o utilizar aplicaciones de banca móvil.",
+            "Al descartar la presencia de un ataque informático, JPMorgan buscó contener la ola de especulaciones en los mercados y calmar el temor a una fuga de datos masiva. Sin embargo, la explicación pone de manifiesto el grado de dependencia que el público y las empresas mantienen respecto a la disponibilidad ininterrumpida de las plataformas bancarias en línea."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Desde la perspectiva de análisis de Punto Ciego, catalogar el colapso operacional como un simple error de software funciona como una estrategia de contención reputacional. Al circunscribir el problema a una falla técnica puntual, las entidades involucradas reducen la presión mediática e intentan eludir sanciones regulatorias más severas asociadas a la falta de previsión.",
+            "El aspecto crítico que la narrativa oficial omite es la fragilidad estructural derivada de la concentración tecnológica. Cuando múltiples canales de atención dependen de marcos informáticos homogéneos o proveedores de código compartidos, una anomalía en una actualización puede deshabilitar el acceso al capital de miles de personas. La ausencia de mecanismos de redundancia independientes expone los vacíos en la gestión del riesgo operativo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el corto plazo, las instituciones financieras logran mitigar la crisis de imagen al desvincular el incidente de fallas de seguridad informática o ataques dirigidos por actores hostiles. La categorización del hecho como un fallo de código aminora el impacto en la valoración del mercado respecto a sus protocolos de ciberdefensa.",
+            "Por el contrario, los usuarios y pequeños comerciantes sufren de forma directa la paralización de sus operaciones cotidianas sin contar con vías de contingencia eficaces. A su vez, el sector bancario en su conjunto pierde credibilidad en su discurso de transición absoluta hacia un modelo exclusivamente digital."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá observar si los organismos reguladores del sistema financiero estadounidense abren investigaciones formales sobre los controles de calidad en el despliegue de software de JPMorgan Chase y otras entidades afectadas.",
+            "Asimismo, será clave dar seguimiento a la adopción de normativas más estrictas sobre resiliencia operativa digital que obliguen a la banca a transparentar las auditorías de su infraestructura interna."
+          ]
+        }
+      ],
+      "tags": [
+        "JPMorgan Chase",
+        "Banca Digital",
+        "Estados Unidos",
+        "Riesgo Operativo",
+        "Software"
+      ],
+      "sources": [
+        {
+          "name": "El Tiempo",
+          "title": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de 'error de software'",
+          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552"
+        },
+        {
+          "name": "La Prensa Gráfica",
+          "title": "JPMorgan Chase se pronunció tras fallas en plataformas digitales de bancos en Estados Unidos: descartó ciberataque y habló de \"error de software\"",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQMXVhRDBwdHRneU9NbzI4eUlRZE9fOS1laFlIVFBVRzRnbkgxdHdCYmRTd0tMSXNTMGVNWklFMWZQRzBlRWRWeGM3Y1RMZHZsRUhIUURDY2JIaWZlRDZ5cHJxVzkyR252aFRJWUpibGZhOFZLcW9feE5fS2tVY1lJb2dMVzB1ejJMZkJfNkdTZjRvRmxWV0w2RDM1UXI0VVY2eHh6c2tOWFAwQXR3Q2N1Tkh1LUFuSjJkM0huNVZqWTVadVFCWmRFN3JXM0czdl9xYUg2U3F0ckNlb1k0dXBHeEw4ODBqb3phdVlBR0xFX3lCWDB1UkhfejY0YnRDbDZNLWYyN3ozYTh1UGstclhIRDlvTFRNRVB2V1lIQzZDMXcwSTdVUjlydnpn?oc=5"
+        },
+        {
+          "name": "El País",
+          "title": "Fallas en servicios bancarios afectan a miles de usuarios en Estados Unidos",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR0RsYXhuU3lyNTJlT25UOUJtUzBjaEJob1kzWmNrNGY5bmpiaWY1aXR5djRXVGZSZUR6U0UtOVhpajNQSFloWDd2WHdKRDFIS2pXZXlzd1dCMHZEY2R1ZERpMWxDb1RCWm5MNHliU3Myb2dwMk5xUnB5Z3FHWUp4QmhWTVYzOEgyVlNyelFQMnV6MzRHVXp6OHdycU9TSnlKRm1PNTNfeWRqeXBTSkFXOWR2ZmpZdWZIdGR3YVFwTTJpUdIBwgFBVV95cUxOR0RsYXhuU3lyNTJlT25UOUJtUzBjaEJob1kzWmNrNGY5bmpiaWY1aXR5djRXVGZSZUR6U0UtOVhpajNQSFloWDd2WHdKRDFIS2pXZXlzd1dCMHZEY2R1ZERpMWxDb1RCWm5MNHliU3Myb2dwMk5xUnB5Z3FHWUp4QmhWTVYzOEgyVlNyelFQMnV6MzRHVXp6OHdycU9TSnlKRm1PNTNfeWRqeXBTSkFXOWR2ZmpZdWZIdGR3YVFwTTJpUQ?oc=5"
+        },
+        {
+          "name": "La FM",
+          "title": "Caída en bancos de Estados Unidos: revelan qué provocó los problemas para acceder a las cuentas",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUG9zS21CVXNDUjdNMnRrSXNoSkdDeHJYSVZvWTZ5ejVLOFphUkNaVDlZbTBDWUpRTm9xRUpQUmE0RXJiR0VyZkVXV1VYVnIwamU2bUNBM0RBNGE4NmZpS251TldtTFQ3ZGdxV3ktV0lsYzlHOVNWTi03V2xRb0ZqOFp2QVBHNHBCQW1qaXR6WFJFYUg5QXRxTWVNa2V2cmNRelAwZ3JWVHFUcDRxYnE4ZDVRN1h3VVJxX0ZDQS16VEh6VmRrU21jUNIByAFBVV95cUxPa3RIbVVMYm82S1FlXzJwZU9OMHhvSHpHcXNRb1c5cS03ekN6d1ZTTkNOdnVuMFpEeFhhenJFSml2Vk5QNlZUTTN6U3JkM1JlNnNiTjVRX3JHSFJTQjEwb2tsbUN0ODNDWEpORDEwWTR6UEdDQURiSVk4T2lIdThUZktycUJjZmQwcGliZE01eGJ3OTJBN2QtT3NOMlUyR3RSa2M2WGMzWVpLcEtyNU1CMTg0cHdCQzZ5U2tIR3RWRFg1WDdBWVlPSw?oc=5"
+        },
+        {
+          "name": "La Opinión Cúcuta",
+          "title": "Caída de servicios bancarios en Estados Unidos provoca miles de reportes de los clientes",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlJIaDJqS1VJbXZHNmFXd212WkxBZXVCRVd2eUxUaW9yTkc2RzNiRGp2aUJ6OGxuSXhKTkMzekJKYmJ6OWpiMmVfSmoxWFJYUE9zb3VucXBaTUhxUzJGZEhBMHhEV1lHZndnT1NKYkRSY0UwalJGdkJpSlJjTi1VT1FQcllibFJJY01CWDVxbWlVdXJBa3d6bVZSR1lZMm5XUnZZT2c4UVNJVTBsUF9sbEdpaHJHZw?oc=5"
+        }
+      ],
+      "wordCount": 527
+    },
+    "videoScript": {
+      "hook": "¿Un fallo de software congeló la banca digital en Estados Unidos?",
+      "beats": [
+        "JPMorgan Chase descartó un ciberataque tras fallas masivas en las plataformas bancarias digitales.",
+        "La interrupción técnica afectó a miles de clientes que perdieron el acceso a sus cuentas.",
+        "Ojo porque calificarlo de falla de software oculta la verdadera fragilidad del sistema."
+      ],
+      "close": "Encuentra el análisis completo en el enlace de nuestro perfil."
+    },
+    "rawImageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2025/04/01/67ec4105c9472.r_d.421-658-14354.png",
+    "status": "published",
+    "createdAt": "2026-11-17T13:33:10.571Z",
+    "cardImageUrl": "/news-cards/news-wr0r8w4jr-1794922390571.jpg",
+    "reelCoverUrl": "/news-cards/news-wr0r8w4jr-1794922392368-cover.jpg",
+    "instagramCardUrl": "/news-cards/news-wr0r8w4jr-1794922392909-ig.jpg",
+    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/jpmorgan-descarta-ciberataque-atribuye-falla-bancaria-bg0l/",
+    "publishedAt": "2026-11-17T18:04:11.354Z"
+  },
+  {
     "id": "ibv6txlqt",
     "originalUrl": "https://www.xataka.com/magnet/1942-eeuu-francia-protagonizaron-batalla-surrealista-ultima-pieza-puzle-estaba-hundida-frente-a-cadiz-revelo-episodio-olvidado-2gm",
     "originalTitle": "En 1942, EEUU y Francia protagonizaron una batalla surrealista. La última pieza del puzle estaba hundida frente a Cádiz y reveló un episodio olvidado de la 2GM",
@@ -22702,127 +22822,5 @@
     "instagramCardUrl": "/news-cards/news-blinti8cw-1793856686971-ig.jpg",
     "articleUrl": "https://puntociegoglobal.pages.dev/noticias/monopolio-historico-associated-press-control-invisible-ho6a/",
     "publishedAt": "2026-11-05T05:34:41.743Z"
-  },
-  {
-    "id": "imt1s272r",
-    "originalUrl": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
-    "originalTitle": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
-    "sourceName": "France 24",
-    "category": "GEOPOLÍTICA",
-    "urgencyScore": 85,
-    "headline": "NUEVA CONDENA DE DIEZ AÑOS PARA EL ACTIVISTA JOSHUA WONG",
-    "subHeadline": "El tribunal de Hong Kong impuso una década adicional de prisión a Joshua Wong bajo la ley de seguridad nacional, tras declararse culpable de colusión con potencias extranjeras.",
-    "blindSpotAngle": "La sentencia no es solo una medida judicial contra un disidente, sino una señal de clausura definitiva para cualquier activismo pro-democracia que busque legitimidad internacional. Pekín utiliza estos juicios para disuadir cualquier forma de presión exterior antes de que las dinámicas de influencia en la ciudad se vuelvan incontrolables.",
-    "facebookPost": "Joshua Wong, el rostro más visible del activismo en Hong Kong, ha sido sentenciado a otros 10 años de cárcel. La justicia local argumenta que su búsqueda de sanciones internacionales contra China y Hong Kong constituye un delito de colusión con potencias extranjeras, bajo el amparo de la ley de seguridad nacional.\n\nMás allá de la condena individual, este veredicto marca el final de una era. La ciudad ha dejado de ser un espacio de debate político para convertirse en un terreno donde cualquier contacto con el exterior se interpreta como una amenaza a la soberanía nacional. El mensaje de Pekín es claro: la disidencia ya no tiene cabida en el nuevo orden hongkonés.\n\n¿Es la desaparición del activismo en Hong Kong una victoria definitiva del modelo de Pekín o el inicio de una resistencia más silenciosa y fragmentada?\n\nFuente: France 24\n\n#HongKong #JoshuaWong #PuntoCiego",
-    "telegramPost": "<b>NUEVA CONDENA DE DIEZ AÑOS PARA EL ACTIVISTA JOSHUA WONG</b> • <b>Qué ocurrió:</b> Joshua Wong, de 30 años, fue condenado a 10 años adicionales de prisión tras declararse culpable de colusión con potencias extranjeras. • <b>Por qué importa:</b> La sentencia refuerza la aplicación estricta de la ley de seguridad nacional y elimina cualquier posibilidad de lobby externo para la oposición hongkonesa. • <b>Qué sigue:</b> Se espera un endurecimiento mayor de los controles institucionales para evitar cualquier forma de disidencia coordinada desde el extranjero. #PuntoCiego",
-    "linkedInPost": "La reciente condena de 10 años contra Joshua Wong en Hong Kong no debe leerse únicamente como una decisión judicial, sino como un pilar fundamental en la estrategia de seguridad nacional de Pekín. Este movimiento elimina la capacidad de influencia de la oposición local en la arena internacional y blinda a la región administrativa especial frente a presiones externas. Para las empresas e inversores, esto confirma la supresión de la incertidumbre política mediante la eliminación total del pluralismo, consolidando un entorno donde la seguridad jurídica está supeditada exclusivamente a los intereses del Estado central.\n\nFuente: France 24\n\n#Geopolítica #HongKong #RiesgoPaís #PuntoCiego",
-    "blueskyPost": "La sentencia de 10 años a Joshua Wong confirma que el activismo en Hong Kong ha dejado de ser un debate para convertirse en un delito de Estado. La soberanía de Pekín sobre la ciudad es ya total. #PuntoCiego #Geopolítica",
-    "copies": {
-      "facebook": "Joshua Wong, el rostro más visible del activismo en Hong Kong, ha sido sentenciado a otros 10 años de cárcel. La justicia local argumenta que su búsqueda de sanciones internacionales contra China y Hong Kong constituye un delito de colusión con potencias extranjeras, bajo el amparo de la ley de seguridad nacional.\n\nMás allá de la condena individual, este veredicto marca el final de una era. La ciudad ha dejado de ser un espacio de debate político para convertirse en un terreno donde cualquier contacto con el exterior se interpreta como una amenaza a la soberanía nacional. El mensaje de Pekín es claro: la disidencia ya no tiene cabida en el nuevo orden hongkonés.\n\n¿Es la desaparición del activismo en Hong Kong una victoria definitiva del modelo de Pekín o el inicio de una resistencia más silenciosa y fragmentada? #HongKong #JoshuaWong #PuntoCiego",
-      "telegram": "<b>NUEVA CONDENA DE DIEZ AÑOS PARA EL ACTIVISTA JOSHUA WONG</b> • <b>Qué ocurrió:</b> Joshua Wong, de 30 años, fue condenado a 10 años adicionales de prisión tras declararse culpable de colusión con potencias extranjeras. • <b>Por qué importa:</b> La sentencia refuerza la aplicación estricta de la ley de seguridad nacional y elimina cualquier posibilidad de lobby externo para la oposición hongkonesa. • <b>Qué sigue:</b> Se espera un endurecimiento mayor de los controles institucionales para evitar cualquier forma de disidencia coordinada desde el extranjero. #PuntoCiego",
-      "bluesky": "La sentencia de 10 años a Joshua Wong confirma que el activismo en Hong Kong ha dejado de ser un debate para convertirse en un delito de Estado. La soberanía de Pekín sobre la ciudad es ya total. #PuntoCiego #Geopolítica",
-      "linkedIn": "La reciente condena de 10 años contra Joshua Wong en Hong Kong no debe leerse únicamente como una decisión judicial, sino como un pilar fundamental en la estrategia de seguridad nacional de Pekín. Este movimiento elimina la capacidad de influencia de la oposición local en la arena internacional y blinda a la región administrativa especial frente a presiones externas. Para las empresas e inversores, esto confirma la supresión de la incertidumbre política mediante la eliminación total del pluralismo, consolidando un entorno donde la seguridad jurídica está supeditada exclusivamente a los intereses del Estado central. #Geopolítica #HongKong #RiesgoPaís #PuntoCiego"
-    },
-    "article": {
-      "slug": "decada-perdida-joshua-wong-nuevo-orden-alpp",
-      "title": "La década perdida de Joshua Wong y el nuevo orden en Hong Kong",
-      "dek": "El activista Joshua Wong ha sido condenado a diez años adicionales de prisión por colusión con potencias extranjeras. El fallo sella el destino del activismo político en la ciudad bajo la ley de seguridad nacional.",
-      "keyFacts": [
-        "Joshua Wong tiene actualmente 30 años de edad.",
-        "La sentencia impuesta es de 10 años adicionales de prisión.",
-        "El activista ya había cumplido cerca de seis años de reclusión previamente.",
-        "Wong se declaró culpable en septiembre de buscar sanciones contra Hong Kong y China."
-      ],
-      "sections": [
-        {
-          "heading": "Qué pasó",
-          "paragraphs": [
-            "El tribunal de Hong Kong ha dictado una sentencia de diez años de prisión contra el activista pro-democracia Joshua Wong. Según la información oficial, el acusado se declaró culpable el pasado mes de septiembre de los cargos de colusión con potencias extranjeras, enmarcados en la ley de seguridad nacional impuesta por Pekín.",
-            "Wong, que a sus 30 años ya ha pasado casi seis años en prisión, fue condenado específicamente por solicitar sanciones internacionales que afectaran tanto a la región administrativa especial como a China continental."
-          ]
-        },
-        {
-          "heading": "El contexto",
-          "paragraphs": [
-            "La condena de Wong se produce en un clima de endurecimiento de las libertades civiles en Hong Kong. Desde la implementación de la ley de seguridad nacional, el gobierno local y las autoridades centrales han procedido a desmantelar las redes de activismo que cobraron fuerza durante las protestas de 2019.",
-            "El caso de Wong es uno de los más prominentes en una serie de procesos judiciales que buscan neutralizar a las figuras clave del movimiento pro-democracia, bajo el argumento de que sus acciones amenazan la estabilidad y la integridad soberana del país."
-          ]
-        },
-        {
-          "heading": "El punto ciego",
-          "paragraphs": [
-            "Más allá de la figura de Wong, el juicio funciona como un mecanismo de disuasión preventiva para cualquier actor local que contemple buscar apoyo externo. El sistema judicial hongkonés ha pasado de ser un árbitro de libertades a ser el ejecutor de una política de seguridad que no admite márgenes de maniobra.",
-            "La prensa internacional tiende a enfocarse en la trayectoria personal del activista, pero el verdadero impacto radica en la reconfiguración de la ciudad: Hong Kong ha dejado de ser un centro de influencia independiente para integrarse plenamente en el esquema de seguridad de Pekín."
-          ]
-        },
-        {
-          "heading": "Quién gana y quién pierde",
-          "paragraphs": [
-            "Pekín gana al eliminar el riesgo de interferencia internacional y al consolidar un control total sobre el discurso político interno. Por el contrario, los activistas y la sociedad civil pierden cualquier canal legítimo de representación o presión frente a las autoridades.",
-            "La comunidad internacional, por su parte, pierde su capacidad de interlocución efectiva con los actores locales, viendo cómo sus mecanismos de presión tradicionales, como las sanciones, son ahora criminalizados internamente."
-          ]
-        },
-        {
-          "heading": "Qué vigilar",
-          "paragraphs": [
-            "El foco debe ponerse ahora en la reacción de las organizaciones internacionales y si este fallo desencadena una nueva ola de procesos similares contra otros activistas detenidos bajo la misma ley. La estabilidad institucional de Hong Kong dependerá de cómo se gestione la disidencia en los próximos meses."
-          ]
-        }
-      ],
-      "tags": [
-        "Hong Kong",
-        "Joshua Wong",
-        "China",
-        "Seguridad Nacional",
-        "Geopolítica"
-      ],
-      "sources": [
-        {
-          "name": "France 24",
-          "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
-          "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion"
-        },
-        {
-          "name": "La Nación",
-          "title": "Hong Kong pro-democracy activist Joshua Wong faces sentencing in 2nd national security case",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYk10d19oTnh2WkhwbWxkd3RoeVc2MWFnNFJ4ZlhGZTRRRFRsYmF3cDVzMlhfNWUzVmJ2b19QU2d1bnFCYnBiTGFBbUlrTFpHYjI0dDJGUWVKdkx6ZDBrWklZNkdWbkQ4SkRlY2lKaUJTWVdKYmpIdnoxR21GU3RFUHN6eGZJSmpoUEp5ZDByMFBocVBLWnpXaENuelZ6a2FmLXpkZDlXaEYxU3ZLeXFYdVYzc2stVndjMHQ1Q1VDbTl3X2lvemVTcURfaXJ0Z19PS3c?oc=5"
-        },
-        {
-          "name": "La Nación",
-          "title": "Prominent Hong Kong activist Joshua Wong awaits sentencing. Here's what to know about his case",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV0RCc0RZY2tzcXRHdElNZElLZDZEZmVTVXlobnBhd1J1d1J1YjVzYm5DM2tOdWIyc3hjME9rN01yRzcwVTVkdTR5OVl4Zl9fWVBuYmExNjA1dGdIdU12dWJIS3ZqWE5sSW96QU81QXFvOXJVR3ZEaGN1cXMtUWNYRklPeXVpWUQ4eGQzR2ZlUlotbTAzckRjazk0cV8yNkhGdXRoQjVSdk1ISnR0TU9fNFhnNXJMMlVvZ0NEampYWHM5SUN4RE02bXN0MnY2aTZnUHVn?oc=5"
-        },
-        {
-          "name": "شبكة تواصل الإخبارية",
-          "title": "El turismo se esfuerza por alcanzar su objetivo.",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94RXJDLTZhbDItdmJGNThLa2laZ0dxUnpYcWRRYldhOEMyN0VoYmlZa29wa19HVHN1LV85MGxLQzZvMDk1TTY0YnZ6aGxUcFJiOUlv?oc=5"
-        }
-      ],
-      "wordCount": 427
-    },
-    "videoScript": {
-      "hook": "Por qué la nueva condena de diez años a joshua wong cambia todo",
-      "beats": [
-        "El activista hongkonés fue condenado a 10 años más de cárcel por buscar sanciones internacionales",
-        "Este fallo termina de cerrar la puerta a cualquier forma de activismo político en la ciudad",
-        "Lo que nadie dice es que este juicio es la herramienta final de pekín para anular toda influencia extranjera"
-      ],
-      "close": "Lee el análisis completo sobre el futuro de hong kong en nuestro perfil"
-    },
-    "rawImageUrl": "https://s.france24.com/media/display/bac80546-d89c-11f1-8ab0-1beafce15fea/w:1024/p:16x9/a3febbc244aae5c0e71fa2e37cf9f5a49bf1acb0.jpg",
-    "sourceVideo": {
-      "provider": "youtube",
-      "id": "9QGmfRxF-40",
-      "title": "Why Did Hong Kong Sentence Joshua Wong to 10 More Years? | #Shorts",
-      "channel": "Daily News Explained",
-      "license": "cc-by"
-    },
-    "status": "published",
-    "createdAt": "2026-11-05T05:16:39.869Z",
-    "cardImageUrl": "/news-cards/news-imt1s272r-1793855799869.jpg",
-    "reelCoverUrl": "/news-cards/news-imt1s272r-1793855800694-cover.jpg",
-    "instagramCardUrl": "/news-cards/news-imt1s272r-1793855801206-ig.jpg",
-    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/decada-perdida-joshua-wong-nuevo-orden-alpp/",
-    "publishedAt": "2026-11-05T05:20:02.268Z"
   }
 ]
