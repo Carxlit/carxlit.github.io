@@ -1193,5 +1193,10 @@
     "relevant": true,
     "reason": "La imagen muestra a Galia Borja, subgobernadora de Banxico, quien es la protagonista de la noticia sobre la postura de cautela monetaria.",
     "at": "2026-11-17T19:05:28.679Z"
+  },
+  "26baa21a66d7f7c4:7hur51i3b": {
+    "relevant": true,
+    "reason": "La sudadera del hombre lleva impreso el logotipo de Hugging Face, la plataforma mencionada en el titular.",
+    "at": "2026-11-17T20:38:38.880Z"
   }
 }

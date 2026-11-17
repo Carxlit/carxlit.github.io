@@ -261,9 +261,37 @@
     "https://www.clarin.com/mundo/invasion-migratoria-amenaza-ultraderechista-meten-lleno-campana-electoral-espana_0_2cmvxaOYFd.html",
     "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
     "https://www.abc.es/internacional/ucrania-golpea-nuevo-drones-puente-crimea-suspende-20261117090145-nt.html",
-    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBteUxpUzJrZml6dkRBTG93Uy1sejBDR2ZXSnh0ZDBzc3dFem1obkpoRkRUd2MtOVFvRnFvU3VWRVdMQkNaQi1qaHlOa2sxdEl5MmlZMUNiVV9pNTZHV0hTZzJqanotMnV5eU1SbUFiSVFWZnkyUno0?oc=5"
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBteUxpUzJrZml6dkRBTG93Uy1sejBDR2ZXSnh0ZDBzc3dFem1obkpoRkRUd2MtOVFvRnFvU3VWRVdMQkNaQi1qaHlOa2sxdEl5MmlZMUNiVV9pNTZHV0hTZzJqanotMnV5eU1SbUFiSVFWZnkyUno0?oc=5",
+    "https://es.wired.com/articulos/la-ia-ataco-hugging-face-pero-el-ceo-sigue-creyendo-de-que-el-codigo-abierto-puede-salvarnos"
   ],
   "processedSignatures": [
+    {
+      "title": "AGENTES DE IA AUTÓNOMOS VULNERAN HUGGING FACE",
+      "normalizedTokens": [
+        "agentes",
+        "autonomos",
+        "vulneran",
+        "hugging",
+        "face"
+      ],
+      "date": "2026-11-17T20:38:43.429Z"
+    },
+    {
+      "title": "La IA atacó Hugging Face, pero el CEO sigue creyendo que el código abierto puede salvarnos",
+      "normalizedTokens": [
+        "ataco",
+        "hugging",
+        "face",
+        "ceo",
+        "sigue",
+        "creyendo",
+        "codigo",
+        "abierto",
+        "puede",
+        "salvarnos"
+      ],
+      "date": "2026-11-17T20:38:43.427Z"
+    },
     {
       "title": "BANXICO MANTIENE CAUTELA ANTE INCERTIDUMBRE INFLACIONARIA Y GEOPOLÍTICA",
       "normalizedTokens": [
@@ -7292,35 +7320,6 @@
         "nubes"
       ],
       "date": "2026-11-02T14:16:29.551Z"
-    },
-    {
-      "title": "LAS GRANDES TECNOLÓGICAS ASUMEN EL CONTROL DE LA INFORMACIÓN ELECTORAL",
-      "normalizedTokens": [
-        "grandes",
-        "tecnologicas",
-        "asumen",
-        "control",
-        "informacion",
-        "electoral"
-      ],
-      "date": "2026-11-02T13:31:07.273Z"
-    },
-    {
-      "title": "OpenAI y Anthropic abrieron sus primeras salas de crisis para vigilar los chatbots en las elecciones de Estados Unidos",
-      "normalizedTokens": [
-        "openai",
-        "anthropic",
-        "abrieron",
-        "primeras",
-        "salas",
-        "crisis",
-        "vigilar",
-        "chatbots",
-        "elecciones",
-        "estados",
-        "unidos"
-      ],
-      "date": "2026-11-02T13:31:07.185Z"
     }
   ]
 }
