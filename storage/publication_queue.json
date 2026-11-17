@@ -26526,5 +26526,130 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-17T14:32:07.577Z"
+  },
+  {
+    "id": "queue-1794933216251-m3vtt",
+    "news": {
+      "id": "ewrx22dxh",
+      "originalUrl": "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
+      "originalTitle": "Nvidia es el Super Glue de la industria de la IA. Sin Huang al frente, temen que sea pegamento de barra",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "DIMISIÓN EN NVIDIA REVELA RIESGO DE FINANCIACIÓN CIRCULAR EN LA IA",
+      "subHeadline": "La renuncia de Jensen Huang tras varios escándalos corporativos expone un esquema de compromisos financieros por 400.000 millones de dólares para sostener la demanda de chips. Colette Kress asume la dirección interina en medio de caídas bursátiles.",
+      "blindSpotAngle": "Más allá del escándalo personal de Jensen Huang, el mercado omite el colapso del modelo de financiación circular donde Nvidia garantizaba préstamos y compraba capacidad a sus propios clientes para inflar la demanda de sus microprocesadores. Sin la agresiva chequera de Huang, empresas de infraestructura como CoreWeave quedan desprotegidas y competidores como AMD o Broadcom carecen del músculo financiero para evitar un ajuste sistémico en el sector.",
+      "facebookPost": "La dimisión del cofundador de Nvidia, Jensen Huang, tras destaparse múltiples relaciones extramatrimoniales, ha sido presentada por la prensa corporativa como un tropiezo de gobernanza personal. Sin embargo, la verdadera sacudida bursátil esconde un problema contable de escala sistémica: la empresa no solo vendía los microprocesadores esenciales para la inteligencia artificial, sino que financiaba a sus propios compradores.\n\nDurante años, Nvidia actuó como el banco central de la industria, comprometiendo más de 400.000 millones de dólares en préstamos, compras de capacidad garantizada e inversiones directas para que firmas de computación en la nube adquieran sus propios procesadores. Con la llegada de la nueva CEO interina Colette Kress, partidaria de una disciplina financiera estricta que ya recortó un acuerdo con OpenAI de 250.000 a 105.000 millones de dólares, el flujo de liquidez artificial se interrumpe abruptamente.\n\nSi los gigantes tecnológicos y los nuevos proveedores de infraestructura no pueden sostener sus compras sin el respaldo directo de Nvidia, ¿estamos ante el desenmascaramiento definitivo de una burbuja de apalancamiento en el sector tecnológico?\n\nFuente: Xataka\n\n#Tecnologia #Nvidia #PuntoCiego",
+      "telegramPost": "<b>DIMISIÓN EN NVIDIA REVELA RIESGO DE FINANCIACIÓN CIRCULAR EN LA IA</b>\n\n• <b>Qué ocurrió:</b> La salida de Jensen Huang de Nvidia tras una investigación interna reveló que la firma mantenía compromisos financieros por más de 400.000 millones de dólares para inyectar capital en las empresas que compraban sus semiconductores.\n• <b>Por qué importa:</b> Nvidia funcionaba como un prestamista de última instancia del ecosistema de inteligencia artificial. La llegada de la CEO interina Colette Kress impone recortes al gasto agresivo, poniendo en riesgo a firmas de infraestructura como CoreWeave y evidenciando que rivales como Broadcom o AMD no poseen la capacidad patrimonial para sostener ese nivel de crédito.\n• <b>Qué sigue:</b> El mercado evaluará si la emisión de bonos de los gigantes de la nube, que pasó del 1% al 10% en un mercado de 15 billones de dólares, puede sostener la compra de hardware sin la liquidez directa de Nvidia.",
+      "linkedInPost": "La dimisión de Jensen Huang en Nvidia tras serias faltas de conducta corporativa expone una vulnerabilidad estructural en la cadena de valor de la inteligencia artificial. Más allá de la crisis de liderazgo, el aspecto crítico radica en la interrupción del esquema de financiación circular montado por la compañía.\n\nCon compromisos financieros proyectados en más de 400.000 millones de dólares, Nvidia no solo proveía silicio, sino que asumía el riesgo crediticio de proveedores de infraestructura clave como CoreWeave mediante acuerdos de compra de capacidad garantizada hasta 2032. La transición hacia la gestión interina de Colette Kress, históricamente más conservadora en la asignación de capital, reduce drásticamente estas facilidades crediticias, como demuestra la reducción del plan de respaldo a OpenAI de 250.000 a 105.000 millones de dólares.\n\nDado que ni Broadcom (cuyo respaldo crediticio bordea los 43.000 millones de dólares para clientes específicos) ni AMD poseen el balance necesario para suplir esta liquidez, el sector enfrenta una contracción en la capacidad de despliegue de centros de datos. La exposición del mercado de bonos de grado de inversión, donde los hiperescaladores representan el 10% de un mercado global de 15 billones de dólares, eleva la prima de riesgo para todo el segmento tecnológico.\n\nFuente: Xataka\n\n#RiesgoCorporativo #Semiconductores #PuntoCiego",
+      "blueskyPost": "Nvidia financiaba a sus propios compradores con compromisos por 400.000 millones de dólares. Sin Huang, el esquema circular de liquidez se frena y la industria cruje. #PuntoCiego #Tecnologia",
+      "copies": {
+        "facebook": "La dimisión del cofundador de Nvidia, Jensen Huang, tras destaparse múltiples relaciones extramatrimoniales, ha sido presentada por la prensa corporativa como un tropiezo de gobernanza personal. Sin embargo, la verdadera sacudida bursátil esconde un problema contable de escala sistémica: la empresa no solo vendía los microprocesadores esenciales para la inteligencia artificial, sino que financiaba a sus propios compradores.\n\nDurante años, Nvidia actuó como el banco central de la industria, comprometiendo más de 400.000 millones de dólares en préstamos, compras de capacidad garantizada e inversiones directas para que firmas de computación en la nube adquieran sus propios procesadores. Con la llegada de la nueva CEO interina Colette Kress, partidaria de una disciplina financiera estricta que ya recortó un acuerdo con OpenAI de 250.000 a 105.000 millones de dólares, el flujo de liquidez artificial se interrumpe abruptamente.\n\nSi los gigantes tecnológicos y los nuevos proveedores de infraestructura no pueden sostener sus compras sin el respaldo directo de Nvidia, ¿estamos ante el desenmascaramiento definitivo de una burbuja de apalancamiento en el sector tecnológico?\n\n#Tecnologia #Nvidia #PuntoCiego",
+        "telegram": "<b>DIMISIÓN EN NVIDIA REVELA RIESGO DE FINANCIACIÓN CIRCULAR EN LA IA</b>\n\n• <b>Qué ocurrió:</b> La salida de Jensen Huang de Nvidia tras una investigación interna reveló que la firma mantenía compromisos financieros por más de 400.000 millones de dólares para inyectar capital en las empresas que compraban sus semiconductores.\n• <b>Por qué importa:</b> Nvidia funcionaba como un prestamista de última instancia del ecosistema de inteligencia artificial. La llegada de la CEO interina Colette Kress impone recortes al gasto agresivo, poniendo en riesgo a firmas de infraestructura como CoreWeave y evidenciando que rivales como Broadcom o AMD no poseen la capacidad patrimonial para sostener ese nivel de crédito.\n• <b>Qué sigue:</b> El mercado evaluará si la emisión de bonos de los gigantes de la nube, que pasó del 1% al 10% en un mercado de 15 billones de dólares, puede sostener la compra de hardware sin la liquidez directa de Nvidia.",
+        "bluesky": "Nvidia financiaba a sus propios compradores con compromisos por 400.000 millones de dólares. Sin Huang, el esquema circular de liquidez se frena y la industria cruje. #PuntoCiego #Tecnologia",
+        "linkedIn": "La dimisión de Jensen Huang en Nvidia tras serias faltas de conducta corporativa expone una vulnerabilidad estructural en la cadena de valor de la inteligencia artificial. Más allá de la crisis de liderazgo, el aspecto crítico radica en la interrupción del esquema de financiación circular montado por la compañía.\n\nCon compromisos financieros proyectados en más de 400.000 millones de dólares, Nvidia no solo proveía silicio, sino que asumía el riesgo crediticio de proveedores de infraestructura clave como CoreWeave mediante acuerdos de compra de capacidad garantizada hasta 2032. La transición hacia la gestión interina de Colette Kress, históricamente más conservadora en la asignación de capital, reduce drásticamente estas facilidades crediticias, como demuestra la reducción del plan de respaldo a OpenAI de 250.000 a 105.000 millones de dólares.\n\nDado que ni Broadcom (cuyo respaldo crediticio bordea los 43.000 millones de dólares para clientes específicos) ni AMD poseen el balance necesario para suplir esta liquidez, el sector enfrenta una contracción en la capacidad de despliegue de centros de datos. La exposición del mercado de bonos de grado de inversión, donde los hiperescaladores representan el 10% de un mercado global de 15 billones de dólares, eleva la prima de riesgo para todo el segmento tecnológico.\n\n#RiesgoCorporativo #Semiconductores #PuntoCiego"
+      },
+      "article": {
+        "slug": "rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx",
+        "title": "El rescate silencioso de la inteligencia artificial tambalea tras la salida de Jensen Huang",
+        "dek": "La salida del CEO de Nvidia destapa una red de financiación circular de 400.000 millones de dólares que sostenía la compra masiva de sus propios chips. La llegada de una dirección conservadora expone la fragilidad financiera del sector de cómputo en la nube.",
+        "keyFacts": [
+          "Nvidia acumula compromisos financieros directos e indirectos superiores a los 400.000 millones de dólares en el ecosistema de IA.",
+          "La CEO interina Colette Kress redujo previamente una propuesta de crédito de Huang a OpenAI de 250.000 millones a 105.000 millones de dólares.",
+          "Los hiperescaladores representan cerca del 10% de las emisiones en el mercado de bonos de grado de inversión de 15 billones de dólares.",
+          "Broadcom cuenta con respaldos de aproximadamente 43.000 millones de dólares para un único cliente como Anthropic, lejos del volumen de Nvidia."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Según reportó BBC Mundo y confirmaron medios económicos como CNBC e India Today, la dimisión de Jensen Huang como CEO y cofundador de Nvidia se concretó tras revelarse relaciones extramatrimoniales con empleadas de la firma y un vínculo bajo investigación con una persona sospechosa de espionaje. La noticia provocó una severa caída en el precio de las acciones de la tecnológica desde su pico alcanzado el pasado 6 de octubre.",
+              "La junta directiva nombró a la hasta ahora directora financiera, Colette Kress, como CEO interina para estabilizar la gobernanza de la empresa. Sin embargo, la salida del ejecutivo expuso de inmediato la fragilidad de la estructura comercial que convirtió a Nvidia en el pilar absoluto de la infraestructura de inteligencia artificial a nivel global."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Durante los últimos años, Nvidia no se limitó a fabricar y vender semiconductores avanzados. La compañía ejecutó una estrategia agresiva de inversión en la que inyectaba capital, adquiría participación accionaria y firmaba compromisos de compra de capacidad con empresas emergentes para garantizar que estas contaran con la liquidez necesaria para comprar sus propios microprocesadores.",
+              "Esta dinámica convirtió a Nvidia en una suerte de banco central del sector. La emisión de deuda asociada a la expansión de centros de datos llevó a que los denominados hiperescaladores pasaran de representar el 1% a casi el 10% de las emisiones en el mercado global de bonos de grado de inversión, un segmento valorado en 15 billones de dólares en un periodo de dos años."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El verdadero riesgo que la narrativa corporativa omite es la vulnerabilidad del modelo de financiación circular. Estimaciones difundidas por CNBC señalan que los compromisos asumidos por Nvidia superan los 400.000 millones de dólares. Dinero que, en gran medida, circulaba internamente entre compromisos crediticios y ventas de hardware dentro del mismo ecosistema.",
+              "La tensión operativa entre Jensen Huang y Colette Kress ya presagiaba este choque. Mientras Huang promovía esquemas crediticios sumamente agresivos —como un plan inicial de 250.000 millones de dólares para OpenAI—, Kress logró limitar dicha cifra a 105.000 millones de dólares. Con Kress al mando, la política de asignación de capital adoptará un perfil marcadamente conservador, retirando la liquidez garantizada que sostenía la valoración de múltiples empresas del sector."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Las principales perdedoras inmediatas son las llamadas neoclouds, empresas especializadas en construir centros de datos para alquilar capacidad de cálculo. Firmas como CoreWeave contaban con acuerdos donde Nvidia se comprometía a comprar la capacidad no vendida hasta el año 2032. Sin esta red de seguridad, el riesgo de impago y quiebra en la infraestructura intermedia aumenta drásticamente.",
+              "Por otro lado, competidores como AMD y Broadcom se encuentran ante la imposibilidad de absorber esta cuota financiera. Aunque Broadcom mantiene respaldos de unos 43.000 millones de dólares dedicados a clientes específicos como Anthropic, ejecutivos citados por India Today coinciden en que ninguna de estas firmas posee el músculo financiero para reemplazar las garantías crediticias que ofrecía Nvidia. Los gigantes de Big Tech como Google, Amazon, Microsoft y Tesla avanzan en el diseño de chips propios, pero el problema inmediato no es reemplazar el procesador, sino sostener la enorme estructura de deuda."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "En las próximas semanas, la atención del mercado estará centrada en los informes de liquidez de las empresas de infraestructura en la nube y en las revisiones de crédito que realicen las agencias calificadoras sobre la deuda emitida por los hiperescaladores.",
+              "Asimismo, será determinante observar si Colette Kress mantiene o renegocia los compromisos multianuales de compra de capacidad excedente, un indicador crucial para verificar si el ecosistema de hardware de IA puede sobrevivir sin la inyección directa del capital de Nvidia."
+            ]
+          }
+        ],
+        "tags": [
+          "Nvidia",
+          "Jensen Huang",
+          "Semiconductores",
+          "Inteligencia Artificial",
+          "Finanzas",
+          "Mercados"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Nvidia es el Super Glue de la industria de la IA. Sin Huang al frente, temen que sea pegamento de barra",
+            "url": "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra"
+          },
+          {
+            "name": "El Ecosistema Startup",
+            "title": "Nvidia sin su CEO: US$400.000M en compromisos con la IA",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWlBiSXlWX09IZjNfZTNROEhBNHNFN1RHX2d2WmRseEFfQm1HbXFlS25sZFJKRmtUaHhYTXdCcGdjdjhZdUlua3BnaHlTc2JjaFgxUU1obUVfaTNiYWt4YjdiLXg3SkNZN1ZPOXBRMmRkVkRkeWxYQXFUb0ZPaC15eVBOMzlzd0hocUF5UQ?oc=5"
+          }
+        ],
+        "wordCount": 638
+      },
+      "videoScript": {
+        "hook": "¿Sabías que Nvidia financiaba a las mismas empresas que le compraban sus microprocesadores?",
+        "beats": [
+          "La renuncia de su presidente reveló que mantenía compromisos por más de 400.000 millones de dólares.",
+          "Nvidia funcionaba como un banco central inyectando dinero para inflar la compra de sus propios chips.",
+          "Ojo porque sin ese rescate financiero constante muchas empresas de inteligencia artificial están al borde de la quiebra."
+        ],
+        "close": "Conoce el impacto real de este colapso financiero en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/89dfc0/original/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-17T16:33:33.945Z",
+      "cardImageUrl": "/news-cards/news-ewrx22dxh-1794933213945.jpg",
+      "reelCoverUrl": "/news-cards/news-ewrx22dxh-1794933214520-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-ewrx22dxh-1794933215039-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-17T20:33:27.366Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-17T16:33:36.251Z"
   }
 ]

@@ -1,5 +1,87 @@
 [
   {
+    "slug": "rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx",
+    "path": "noticias/rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx/",
+    "title": "El rescate silencioso de la inteligencia artificial tambalea tras la salida de Jensen Huang",
+    "headline": "DIMISIÓN EN NVIDIA REVELA RIESGO DE FINANCIACIÓN CIRCULAR EN LA IA",
+    "dek": "La salida del CEO de Nvidia destapa una red de financiación circular de 400.000 millones de dólares que sostenía la compra masiva de sus propios chips. La llegada de una dirección conservadora expone la fragilidad financiera del sector de cómputo en la nube.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx.jpg",
+    "photo": "img/rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx-foto.jpg",
+    "publishedAt": "2026-11-17T16:33:36.121Z",
+    "article": {
+      "slug": "rescate-silencioso-inteligencia-artificial-tambalea-tras-q5tx",
+      "title": "El rescate silencioso de la inteligencia artificial tambalea tras la salida de Jensen Huang",
+      "dek": "La salida del CEO de Nvidia destapa una red de financiación circular de 400.000 millones de dólares que sostenía la compra masiva de sus propios chips. La llegada de una dirección conservadora expone la fragilidad financiera del sector de cómputo en la nube.",
+      "keyFacts": [
+        "Nvidia acumula compromisos financieros directos e indirectos superiores a los 400.000 millones de dólares en el ecosistema de IA.",
+        "La CEO interina Colette Kress redujo previamente una propuesta de crédito de Huang a OpenAI de 250.000 millones a 105.000 millones de dólares.",
+        "Los hiperescaladores representan cerca del 10% de las emisiones en el mercado de bonos de grado de inversión de 15 billones de dólares.",
+        "Broadcom cuenta con respaldos de aproximadamente 43.000 millones de dólares para un único cliente como Anthropic, lejos del volumen de Nvidia."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó BBC Mundo y confirmaron medios económicos como CNBC e India Today, la dimisión de Jensen Huang como CEO y cofundador de Nvidia se concretó tras revelarse relaciones extramatrimoniales con empleadas de la firma y un vínculo bajo investigación con una persona sospechosa de espionaje. La noticia provocó una severa caída en el precio de las acciones de la tecnológica desde su pico alcanzado el pasado 6 de octubre.",
+            "La junta directiva nombró a la hasta ahora directora financiera, Colette Kress, como CEO interina para estabilizar la gobernanza de la empresa. Sin embargo, la salida del ejecutivo expuso de inmediato la fragilidad de la estructura comercial que convirtió a Nvidia en el pilar absoluto de la infraestructura de inteligencia artificial a nivel global."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Durante los últimos años, Nvidia no se limitó a fabricar y vender semiconductores avanzados. La compañía ejecutó una estrategia agresiva de inversión en la que inyectaba capital, adquiría participación accionaria y firmaba compromisos de compra de capacidad con empresas emergentes para garantizar que estas contaran con la liquidez necesaria para comprar sus propios microprocesadores.",
+            "Esta dinámica convirtió a Nvidia en una suerte de banco central del sector. La emisión de deuda asociada a la expansión de centros de datos llevó a que los denominados hiperescaladores pasaran de representar el 1% a casi el 10% de las emisiones en el mercado global de bonos de grado de inversión, un segmento valorado en 15 billones de dólares en un periodo de dos años."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El verdadero riesgo que la narrativa corporativa omite es la vulnerabilidad del modelo de financiación circular. Estimaciones difundidas por CNBC señalan que los compromisos asumidos por Nvidia superan los 400.000 millones de dólares. Dinero que, en gran medida, circulaba internamente entre compromisos crediticios y ventas de hardware dentro del mismo ecosistema.",
+            "La tensión operativa entre Jensen Huang y Colette Kress ya presagiaba este choque. Mientras Huang promovía esquemas crediticios sumamente agresivos —como un plan inicial de 250.000 millones de dólares para OpenAI—, Kress logró limitar dicha cifra a 105.000 millones de dólares. Con Kress al mando, la política de asignación de capital adoptará un perfil marcadamente conservador, retirando la liquidez garantizada que sostenía la valoración de múltiples empresas del sector."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Las principales perdedoras inmediatas son las llamadas neoclouds, empresas especializadas en construir centros de datos para alquilar capacidad de cálculo. Firmas como CoreWeave contaban con acuerdos donde Nvidia se comprometía a comprar la capacidad no vendida hasta el año 2032. Sin esta red de seguridad, el riesgo de impago y quiebra en la infraestructura intermedia aumenta drásticamente.",
+            "Por otro lado, competidores como AMD y Broadcom se encuentran ante la imposibilidad de absorber esta cuota financiera. Aunque Broadcom mantiene respaldos de unos 43.000 millones de dólares dedicados a clientes específicos como Anthropic, ejecutivos citados por India Today coinciden en que ninguna de estas firmas posee el músculo financiero para reemplazar las garantías crediticias que ofrecía Nvidia. Los gigantes de Big Tech como Google, Amazon, Microsoft y Tesla avanzan en el diseño de chips propios, pero el problema inmediato no es reemplazar el procesador, sino sostener la enorme estructura de deuda."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En las próximas semanas, la atención del mercado estará centrada en los informes de liquidez de las empresas de infraestructura en la nube y en las revisiones de crédito que realicen las agencias calificadoras sobre la deuda emitida por los hiperescaladores.",
+            "Asimismo, será determinante observar si Colette Kress mantiene o renegocia los compromisos multianuales de compra de capacidad excedente, un indicador crucial para verificar si el ecosistema de hardware de IA puede sobrevivir sin la inyección directa del capital de Nvidia."
+          ]
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductores",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Mercados"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Nvidia es el Super Glue de la industria de la IA. Sin Huang al frente, temen que sea pegamento de barra",
+          "url": "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "Nvidia sin su CEO: US$400.000M en compromisos con la IA",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWlBiSXlWX09IZjNfZTNROEhBNHNFN1RHX2d2WmRseEFfQm1HbXFlS25sZFJKRmtUaHhYTXdCcGdjdjhZdUlua3BnaHlTc2JjaFgxUU1obUVfaTNiYWt4YjdiLXg3SkNZN1ZPOXBRMmRkVkRkeWxYQXFUb0ZPaC15eVBOMzlzd0hocUF5UQ?oc=5"
+        }
+      ],
+      "wordCount": 638
+    },
+    "blindSpot": "Más allá del escándalo personal de Jensen Huang, el mercado omite el colapso del modelo de financiación circular donde Nvidia garantizaba préstamos y compraba capacidad a sus propios clientes para inflar la demanda de sus microprocesadores. Sin la agresiva chequera de Huang, empresas de infraestructura como CoreWeave quedan desprotegidas y competidores como AMD o Broadcom carecen del músculo financiero para evitar un ajuste sistémico en el sector."
+  },
+  {
     "slug": "inmigracion-convierte-arma-choque-elecciones-espanolas-1wlf",
     "path": "noticias/inmigracion-convierte-arma-choque-elecciones-espanolas-1wlf/",
     "title": "La inmigración se convierte en el arma de choque de las elecciones españolas",
