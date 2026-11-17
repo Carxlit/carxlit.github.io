@@ -260,9 +260,42 @@
     "https://www.eltiempo.com/mundo/eeuu-y-canada/jpmorgan-chase-se-pronuncio-tras-fallas-en-plataformas-digitales-de-bancos-en-estados-unidos-descarto-ciberataque-y-hablo-de-error-de-software-3601552",
     "https://www.clarin.com/mundo/invasion-migratoria-amenaza-ultraderechista-meten-lleno-campana-electoral-espana_0_2cmvxaOYFd.html",
     "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
-    "https://www.abc.es/internacional/ucrania-golpea-nuevo-drones-puente-crimea-suspende-20261117090145-nt.html"
+    "https://www.abc.es/internacional/ucrania-golpea-nuevo-drones-puente-crimea-suspende-20261117090145-nt.html",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBteUxpUzJrZml6dkRBTG93Uy1sejBDR2ZXSnh0ZDBzc3dFem1obkpoRkRUd2MtOVFvRnFvU3VWRVdMQkNaQi1qaHlOa2sxdEl5MmlZMUNiVV9pNTZHV0hTZzJqanotMnV5eU1SbUFiSVFWZnkyUno0?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "BANXICO MANTIENE CAUTELA ANTE INCERTIDUMBRE INFLACIONARIA Y GEOPOLÍTICA",
+      "normalizedTokens": [
+        "banxico",
+        "mantiene",
+        "cautela",
+        "incertidumbre",
+        "inflacionaria",
+        "geopolitica"
+      ],
+      "date": "2026-11-17T19:05:32.525Z"
+    },
+    {
+      "title": "Subgobernadora banco central México Borja afirma no está clara duración de pausa en tasa de interés, advierte riesgos para inflación",
+      "normalizedTokens": [
+        "subgobernadora",
+        "banco",
+        "central",
+        "mexico",
+        "borja",
+        "afirma",
+        "clara",
+        "duracion",
+        "pausa",
+        "tasa",
+        "interes",
+        "advierte",
+        "riesgos",
+        "inflacion"
+      ],
+      "date": "2026-11-17T19:05:32.522Z"
+    },
     {
       "title": "UCRANIA GOLPEA EL PUENTE DE CRIMEA ANTES DE CUMBRE GLOBAL",
       "normalizedTokens": [
@@ -7288,36 +7321,6 @@
         "unidos"
       ],
       "date": "2026-11-02T13:31:07.185Z"
-    },
-    {
-      "title": "ILIANA YOTOVA GANA LA PRESIDENCIA Y GIRA BULGARIA HACIA MOSCÚ",
-      "normalizedTokens": [
-        "iliana",
-        "yotova",
-        "gana",
-        "presidencia",
-        "gira",
-        "bulgaria",
-        "hacia",
-        "moscu"
-      ],
-      "date": "2026-11-02T13:15:51.881Z"
-    },
-    {
-      "title": "Bulgaria elige a su primera presidenta: la socialista prorrusa Iliana Yotova arrasa con el 57,7 % de los votos",
-      "normalizedTokens": [
-        "bulgaria",
-        "elige",
-        "primera",
-        "presidenta",
-        "socialista",
-        "prorrusa",
-        "iliana",
-        "yotova",
-        "arrasa",
-        "votos"
-      ],
-      "date": "2026-11-02T13:15:51.881Z"
     }
   ]
 }
