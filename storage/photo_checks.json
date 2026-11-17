@@ -1148,5 +1148,10 @@
     "relevant": true,
     "reason": "La imagen muestra a rescatistas ucranianos transportando a una víctima tras un bombardeo, lo cual se alinea con la cobertura de la tragedia en Zaporiyia.",
     "at": "2026-11-17T11:28:45.047Z"
+  },
+  "59eb26047b970c51:imdnpnx85": {
+    "relevant": false,
+    "reason": "Muestra a Donald Trump junto a Benjamin Netanyahu, lo cual no tiene relación con Nvidia ni con las acusaciones de espionaje chino.",
+    "at": "2026-11-17T11:33:32.308Z"
   }
 }
