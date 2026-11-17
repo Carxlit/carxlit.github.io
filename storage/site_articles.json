@@ -1,5 +1,83 @@
 [
   {
+    "slug": "investigacion-tras-accidente-aereo-dejo-tres-igpf",
+    "path": "noticias/investigacion-tras-accidente-aereo-dejo-tres-igpf/",
+    "title": "Investigación tras el accidente aéreo que dejó tres muertos en el Gran Cañón",
+    "headline": "TRES FALLECIDOS TRAS ESTRELLARSE AVIONETA EN EL GRAN CAÑÓN",
+    "dek": "Una avioneta Piper Comanche se estrelló en el borde norte del parque nacional en Arizona. Equipos estatales y militares participaron en el hallazgo de la aeronave.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Europa Press",
+    "image": "img/investigacion-tras-accidente-aereo-dejo-tres-igpf.jpg",
+    "publishedAt": "2026-11-17T05:16:38.426Z",
+    "article": {
+      "slug": "investigacion-tras-accidente-aereo-dejo-tres-igpf",
+      "title": "Investigación tras el accidente aéreo que dejó tres muertos en el Gran Cañón",
+      "dek": "Una avioneta Piper Comanche se estrelló en el borde norte del parque nacional en Arizona. Equipos estatales y militares participaron en el hallazgo de la aeronave.",
+      "keyFacts": [
+        "Tres personas fallecieron a bordo de una avioneta modelo Piper Comanche en la zona de Basin.",
+        "El aviso sobre la desaparición de la aeronave se recibió alrededor de las 23:30 horas del domingo.",
+        "El personal del parque nacional localizó el campo de escombros a las 10:15 horas del lunes.",
+        "En el operativo participaron el Departamento de Seguridad Pública de Arizona y el Centro de Coordinación de Rescate de la Fuerza Aérea.",
+        "La Junta Nacional de Seguridad en el Transporte (NTSB) lidera la investigación formal del siniestro."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó Europa Press a partir de información del Servicio de Parques Nacionales de Estados Unidos (NPS), tres personas perdieron la vida al estrellarse la avioneta en la que volaban en las inmediaciones del borde norte del Parque Nacional del Gran Cañón del Colorado, en el estado de Arizona.",
+            "El Centro Regional de Comunicaciones del Gran Cañón había recibido la alerta por la desaparición del aparato, identificado como un modelo Piper Comanche, cerca de las 23:30 horas del domingo. La última posición registrada del avión apuntaba a las proximidades de la zona conocida como Basin.",
+            "Fue alrededor de las 10:15 horas del lunes cuando el personal del parque nacional ubicó la aeronave y el área de escombros. Tras el acceso al sitio del impacto, las autoridades confirmaron que no había supervivientes entre los tres ocupantes a bordo."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El rastreo del avión requirió un despliegue coordinado entre múltiples agencias durante la madrugada del lunes. El Departamento de Seguridad Pública de Arizona realizó pasadas aéreas con cámaras infrarrojas y tecnología de visión nocturna para peinar el terreno accidentado del cañón.",
+            "En las labores de búsqueda colaboraron activamente los equipos de búsqueda y rescate pertenecientes a los condados de Coconino y Kane, junto con el Centro de Coordinación de Rescate de la Fuerza Aérea de Estados Unidos.",
+            "Las autoridades de seguridad confirmaron que las identidades de las víctimas mortales se mantendrán en reserva provisionalmente por respeto a la privacidad de sus familias."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la tragedia individual, este accidente pone en evidencia la extrema dependencia que tienen las instituciones civiles de gestión de parques respecto a las capacidades militares y tecnológicas estatales cuando se produce una emergencia aérea fuera de los radares urbanos.",
+            "El vuelo de aeronaves privadas en vastas extensiones de espacio aéreo no controlado sobre cañones y reservas naturales presenta un desafío recurrente para las labores de seguimiento en tiempo real, donde la pérdida de señal exige desplegar recursos militares de observación infrarroja."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Las familias de los tres ocupantes asumen la pérdida irreparable mientras las autoridades evitan difundir detalles personales antes de concluir las verificaciones formales.",
+            "Por su parte, las agencias reguladoras como la Junta Nacional de Seguridad en el Transporte (NTSB) enfrentan la exigencia de revisar los registros de mantenimiento del Piper Comanche y evaluar las condiciones de vuelo en las rutas circundantes al Gran Cañón."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "La Junta Nacional de Seguridad en el Transporte (NTSB) ha asumido la dirección de las investigaciones con el apoyo operativo del Servicio de Parques Nacionales para determinar las causas mecánicas o meteorológicas del accidente.",
+            "El informe preliminar de la NTSB será clave para entender las circunstancias exactas que provocaron la caída del Piper Comanche en el área de Basin."
+          ]
+        }
+      ],
+      "tags": [
+        "Gran Cañón",
+        "Accidente Aéreo",
+        "NTSB",
+        "Arizona",
+        "Aviación Civil"
+      ],
+      "sources": [
+        {
+          "name": "Europa Press",
+          "title": "Mueren tres personas en un accidente aéreo en el Gran Cañón del Colorado, en Arizona, Estados Unidos",
+          "url": "https://www.europapress.es/internacional/noticia-mueren-tres-personas-accidente-aereo-gran-canon-colorado-arizona-estados-unidos-20261117053734.html"
+        }
+      ],
+      "wordCount": 472
+    },
+    "blindSpot": "Más allá del fatídico accidente, la activación inmediata del Centro de Coordinación de Rescate de la Fuerza Aérea junto a departamentos de seguridad estatales y condados evidencia la vulnerabilidad táctica del rastreo aéreo en áreas remotas de soberanía federal. La falta de cobertura de radar continuo en cañones complejos obliga a depender de sensores infrarrojos militares nocturnos para ubicar siniestros civiles."
+  },
+  {
     "slug": "demanda-california-contra-openai-expone-fragilidad-tkyk",
     "path": "noticias/demanda-california-contra-openai-expone-fragilidad-tkyk/",
     "title": "La demanda de California contra OpenAI expone la fragilidad de la IA autónoma",

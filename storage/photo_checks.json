@@ -1113,5 +1113,15 @@
     "relevant": true,
     "reason": "la alambrada ilustra visualmente el concepto de control migratorio y restricción de fronteras asociado a los centros de deportación.",
     "at": "2026-11-16T20:02:03.021Z"
+  },
+  "4383e39c6f27094a:wi4os8qq1": {
+    "relevant": false,
+    "reason": "La imagen muestra un accidente de tráfico de un vehículo terrestre y no el accidente de una avioneta.",
+    "at": "2026-11-17T05:16:27.999Z"
+  },
+  "dd12485021b23644:wi4os8qq1": {
+    "relevant": false,
+    "reason": "La imagen muestra un avión comercial grande estrellado y rescatistas con uniformes asiáticos, lo cual no corresponde a una avioneta Piper Comanche en el Gran Cañón.",
+    "at": "2026-11-17T05:16:34.904Z"
   }
 }
