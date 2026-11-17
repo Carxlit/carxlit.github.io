@@ -1123,5 +1123,10 @@
     "relevant": false,
     "reason": "La imagen muestra un avión comercial grande estrellado y rescatistas con uniformes asiáticos, lo cual no corresponde a una avioneta Piper Comanche en el Gran Cañón.",
     "at": "2026-11-17T05:16:34.904Z"
+  },
+  "4cfe0b23716b188c:an3xyatt4": {
+    "relevant": true,
+    "reason": "La imagen muestra una ambulancia prestando auxilio tras el ataque armado reportado en la noticia.",
+    "at": "2026-11-17T05:31:45.853Z"
   }
 }

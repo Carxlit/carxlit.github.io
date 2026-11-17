@@ -1,5 +1,81 @@
 [
   {
+    "slug": "violencia-armada-duyuk-muestra-avance-ocupacion-ynum",
+    "path": "noticias/violencia-armada-duyuk-muestra-avance-ocupacion-ynum/",
+    "title": "Violencia armada en al Duyuk muestra el avance de la ocupación en Cisjordania",
+    "headline": "ATAQUE DE COLONOS ISRAELÍES EN CISJORDANIA DEJA UNA MUJER MUERTA",
+    "dek": "Un ataque perpetrado por colonos israelíes cerca de Jericó se cobró la vida de una mujer palestina. Detrás del hecho armado se esconde una campaña sistemática de toma de inmuebles que desmantela el control territorial local.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Al Jazeera",
+    "image": "img/violencia-armada-duyuk-muestra-avance-ocupacion-ynum.jpg",
+    "photo": "img/violencia-armada-duyuk-muestra-avance-ocupacion-ynum-foto.jpg",
+    "publishedAt": "2026-11-17T05:31:50.550Z",
+    "article": {
+      "slug": "violencia-armada-duyuk-muestra-avance-ocupacion-ynum",
+      "title": "Violencia armada en al Duyuk muestra el avance de la ocupación en Cisjordania",
+      "dek": "Un ataque perpetrado por colonos israelíes cerca de Jericó se cobró la vida de una mujer palestina. Detrás del hecho armado se esconde una campaña sistemática de toma de inmuebles que desmantela el control territorial local.",
+      "keyFacts": [
+        "Un grupo de colonos israelíes abrió fuego en la aldea palestina de al Duyuk, próxima a Jericó.",
+        "Ataque provocó la muerte de una mujer y dejó a varios palestinos heridos.",
+        "A principios de noviembre, colonos irrumpieron y ocuparon viviendas en Jericó, impidiendo el acceso a sus dueños legítimos.",
+        "Los hechos fueron reportados originalmente por la cadena internacional Al Jazeera."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó la cadena de noticias Al Jazeera, un grupo de colonos israelíes irrumpió con armas de fuego en la aldea de al Duyuk, situada en las inmediaciones de la ciudad de Jericó, en la Cisjordania ocupada. Durante el ataque, los agresores dispararon contra la población civil, matando a una mujer e hiriendo a varias personas más.",
+            "El tiroteo representa un punto crítico de una serie de incursiones armadas registradas en el área. La acción se suma a los eventos documentados desde principios de noviembre, cuando un contingente de colonos tomó posesión arbitraria de inmuebles residenciales en Jericó, bloqueando el acceso a las familias palestinas propietarias de dichas viviendas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Jericó y sus localidades adyacentes, como al Duyuk, han permanecido históricamente como zonas de relativa calma en comparación con el norte de Cisjordania. Sin embargo, la presión demográfica y estratégica sobre el valle del Jordán se ha intensificado de forma progresiva.",
+            "La toma de viviendas privadas reportada durante las primeras semanas de noviembre señala una mutación táctica: la expansión ya no se limita únicamente a la construcción de puestos de avanzada en colinas despobladas, sino a la incursión directa en núcleos habitados para forzar el desplazamiento de la población autóctona."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La cobertura mediática internacional suele calificar estos trágicos sucesos como brotes de violencia esporádicos o enfrentamientos comunitarios de rutina. Esta visión simplificada oscurece la dimensión estructural del fenómeno: la consolidación de una política de hechos consumados sobre el terreno.",
+            "El verdadero punto ciego radica en la utilización del hostigamiento armado como herramienta de alteración cartográfica. Al estrangular los accesos y privar a los residentes de sus hogares en el perímetro de Jericó, se fragmenta la continuidad territorial palestina de manera irreversible, inhabilitando en la práctica cualquier proyección geopolítica de un Estado viable sin necesidad de proclamaciones legislativas formales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano estratégico, el movimiento de asentamientos informales gana terreno operativo y logra extender su influencia sobre sectores clave del valle del Jordán, reforzando la postura de los sectores más radicales dentro del espectro político israelí.",
+            "Por el contrario, la población civil palestina asume el costo directo en pérdidas humanas y desplazamiento patrimonial. Simultáneamente, la Autoridad Palestina pierde legitimidad y margen de maniobra institucional al verse incapaz de garantizar la seguridad mínima de sus ciudadanos dentro de su propia jurisdicción."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será fundamental dar seguimiento a la respuesta de las fuerzas de seguridad israelíes respecto a la restitución de las viviendas ocupadas en Jericó y la persecución penal de los responsables del tiroteo en al Duyuk.",
+            "Asimismo, conviene vigilar una posible extensión de esta modalidad de ocupación urbana hacia otras poblaciones limítrofes, lo que señalaría el inicio de una fase de mayor fricción y desestabilización en toda Cisjordania."
+          ]
+        }
+      ],
+      "tags": [
+        "Cisjordania",
+        "Jericó",
+        "Medio Oriente",
+        "Conflictos",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Gunfire erupts in occupied West Bank settler attack",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss"
+        }
+      ],
+      "wordCount": 481
+    },
+    "blindSpot": "El foco mediático suele calificar estos episodios como altercados aislados, ignorando el avance sistemático sobre el perímetro periurbano de Jericó. La ocupación directa de viviendas iniciada a principios de noviembre evidencia una táctica deliberada de fragmentación territorial que busca asfixiar la continuidad geográfica palestina sin necesidad de decretos formales de anexión."
+  },
+  {
     "slug": "investigacion-tras-accidente-aereo-dejo-tres-igpf",
     "path": "noticias/investigacion-tras-accidente-aereo-dejo-tres-igpf/",
     "title": "Investigación tras el accidente aéreo que dejó tres muertos en el Gran Cañón",
