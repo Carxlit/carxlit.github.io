@@ -1198,5 +1198,10 @@
     "relevant": true,
     "reason": "La sudadera del hombre lleva impreso el logotipo de Hugging Face, la plataforma mencionada en el titular.",
     "at": "2026-11-17T20:38:38.880Z"
+  },
+  "8e8caf257e2fdcea:0blryk6qh": {
+    "relevant": true,
+    "reason": "Muestra una pantalla de CNBC con la cotización bursátil de NVIDIA y una noticia sobre Jensen Huang.",
+    "at": "2026-11-17T22:20:30.314Z"
   }
 }

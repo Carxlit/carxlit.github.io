@@ -26523,5 +26523,129 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-17T20:38:43.412Z"
+  },
+  {
+    "id": "queue-1794954035584-6uaj8",
+    "news": {
+      "id": "0blryk6qh",
+      "originalUrl": "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html",
+      "originalTitle": "Nvidia bate previsiones al disparar sus ingresos un 103% y defiende el poder de su tecnología y su remuneración a los accionistas",
+      "sourceName": "El País América",
+      "category": "PODER & SOCIEDAD",
+      "urgencyScore": 88,
+      "headline": "NVIDIA DISPARA SUS INGRESOS UN 103 POR CIENTO EN MEDIO DE LA INCERTIDUMBRE DIRECTIVA",
+      "subHeadline": "El gigante de los chips registró 115.800 millones de dólares en ingresos trimestrales mientras enfrenta turbulencias bursátiles y una investigación de la SEC.",
+      "blindSpotAngle": "Mientras los mercados celebran la rentabilidad récord impulsada por la plataforma Vera Rubin, la abrupta salida de Jensen Huang y el escrutinio regulatorio de la SEC exponen la vulnerabilidad de un modelo de negocio hiperconcentrado que depende tanto de su liderazgo carismático como de la financiación cruzada entre sus propios clientes de la nube.",
+      "facebookPost": "Nvidia acaba de reportar unos ingresos trimestrales de 115.800 millones de dólares, pulverizando las expectativas de Wall Street con un crecimiento interanual del 103 por ciento y un beneficio neto de 65.287 millones. La narrativa oficial celebra el éxito imparable de su nueva plataforma Vera Rubin y una recompra histórica de acciones por valor de 150.000 millones de dólares.\n\nSin embargo, detrás de las cifras deslumbrantes se oculta una realidad frágil: la compañía navega una tormenta bursátil que le ha hecho perder billones en capitalización tras la salida de Jensen Huang y mientras la SEC investiga sus operaciones en medio de un ecosistema de clientes en la nube fuertemente entrelazados.\n\n¿Es este rendimiento financiero la prueba de una demanda estructural irreversible o el pico de una burbuja de concentración tecnológica insostenible?\n\nFuente: El País América\n\n#PuntoCiego #InteligenciaArtificial #EconomiaGlobal",
+      "telegramPost": "<b>NVIDIA ANUNCIA INGRESOS RÉCORD DE 115.800 MILLONES DE DÓLARES TRAS LA SALIDA DE JENSEN HUANG</b>\n\n• <b>Qué ocurrió:</b> Nvidia reportó un incremento del 103% en sus ingresos trimestrales y un beneficio neto de 65.287 millones de dólares, superando las previsiones del mercado gracias a la adopción de su arquitectura Vera Rubin.\n\n• <b>Por qué importa:</b> Las cifras intentan calmar una tormenta bursátil que ha borrado dos billones de dólares de valor desde septiembre y desvían la atención de una investigación abierta por la SEC sobre sus prácticas corporativas.\n\n• <b>Qué sigue:</b> La compañía deberá demostrar estabilidad bajo la dirección interina de Colette Kress mientras intenta mantener el dominio absoluto en la cadena de suministro de hardware para inteligencia artificial.",
+      "linkedInPost": "El último informe trimestral de Nvidia ilustra la paradoja del poder corporativo en la era de la inteligencia artificial. Con 115.800 millones de dólares en ingresos y un margen bruto del 74,8%, la compañía demuestra una capacidad de generación de caja sin precedentes, respaldada por un plan de recompra de acciones de 150.000 millones.\n\nNo obstante, los fundamentales financieros conviven con riesgos geopolíticos y regulatorios de primera magnitud: una investigación en curso de la SEC, la pérdida del liderazgo en capitalización frente a Apple y la incertidumbre en la gobernanza tras el cese de su cofundador. La dependencia global de la infraestructura tecnológica de Nvidia plantea interrogantes críticos sobre la estabilidad de las cadenas de valor y la concentración de riesgo sistémico en el sector tecnológico.\n\nFuente: El País América\n\n#PuntoCiego #GobernanzaCorporativa #MercadosFinancieros",
+      "blueskyPost": "Nvidia dispara sus ingresos un 103% hasta los 115.800M$, pero oculta la fragilidad de su cúpula tras la salida de Jensen Huang y la investigación de la SEC. #PuntoCiego #InteligenciaArtificial",
+      "copies": {
+        "facebook": "Nvidia acaba de reportar unos ingresos trimestrales de 115.800 millones de dólares, pulverizando las expectativas de Wall Street con un crecimiento interanual del 103 por ciento y un beneficio neto de 65.287 millones. La narrativa oficial celebra el éxito imparable de su nueva plataforma Vera Rubin y una recompra histórica de acciones por valor de 150.000 millones de dólares.\n\nSin embargo, detrás de las cifras deslumbrantes se oculta una realidad frágil: la compañía navega una tormenta bursátil que le ha hecho perder billones en capitalización tras la salida de Jensen Huang y mientras la SEC investiga sus operaciones en medio de un ecosistema de clientes en la nube fuertemente entrelazados.\n\n¿Es este rendimiento financiero la prueba de una demanda estructural irreversible o el pico de una burbuja de concentración tecnológica insostenible? \n\n#PuntoCiego #InteligenciaArtificial #EconomiaGlobal",
+        "telegram": "<b>NVIDIA ANUNCIA INGRESOS RÉCORD DE 115.800 MILLONES DE DÓLARES TRAS LA SALIDA DE JENSEN HUANG</b>\n\n• <b>Qué ocurrió:</b> Nvidia reportó un incremento del 103% en sus ingresos trimestrales y un beneficio neto de 65.287 millones de dólares, superando las previsiones del mercado gracias a la adopción de su arquitectura Vera Rubin.\n\n• <b>Por qué importa:</b> Las cifras intentan calmar una tormenta bursátil que ha borrado dos billones de dólares de valor desde septiembre y desvían la atención de una investigación abierta por la SEC sobre sus prácticas corporativas.\n\n• <b>Qué sigue:</b> La compañía deberá demostrar estabilidad bajo la dirección interina de Colette Kress mientras intenta mantener el dominio absoluto en la cadena de suministro de hardware para inteligencia artificial.",
+        "bluesky": "Nvidia dispara sus ingresos un 103% hasta los 115.800M$, pero oculta la fragilidad de su cúpula tras la salida de Jensen Huang y la investigación de la SEC. #PuntoCiego #InteligenciaArtificial",
+        "linkedIn": "El último informe trimestral de Nvidia ilustra la paradoja del poder corporativo en la era de la inteligencia artificial. Con 115.800 millones de dólares en ingresos y un margen bruto del 74,8%, la compañía demuestra una capacidad de generación de caja sin precedentes, respaldada por un plan de recompra de acciones de 150.000 millones.\n\nNo obstante, los fundamentales financieros conviven con riesgos geopolíticos y regulatorios de primera magnitud: una investigación en curso de la SEC, la pérdida del liderazgo en capitalización frente a Apple y la incertidumbre en la gobernanza tras el cese de su cofundador. La dependencia global de la infraestructura tecnológica de Nvidia plantea interrogantes críticos sobre la estabilidad de las cadenas de valor y la concentración de riesgo sistémico en el sector tecnológico.\n\n#PuntoCiego #GobernanzaCorporativa #MercadosFinancieros"
+      },
+      "article": {
+        "slug": "nvidia-desafia-caos-bursatil-ingresos-record-mbl4",
+        "title": "Nvidia desafía el caos bursátil con ingresos récord mientras la sombra regulatoria se alarga",
+        "dek": "El gigante de los semiconductores reportó 115.800 millones de dólares en ingresos trimestrales, pero la euforia financiera contrasta con la investigación de la SEC y la inestabilidad en su cúpula directiva.",
+        "keyFacts": [
+          "Nvidia registró unos ingresos de 115.800 millones de dólares en el tercer trimestre finalizado el 25 de octubre de 2026.",
+          "El beneficio neto trimestral se situó en 65.287 millones de dólares, lo que representa un aumento del 104%.",
+          "La compañía aprobó una recompra histórica de acciones por valor de 150.000 millones de dólares en septiembre de 2026.",
+          "Las acciones han acumulado un retroceso superior al 36% desde su máximo histórico alcanzado el pasado 6 de septiembre."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Nvidia ha presentado las cuentas correspondientes al tercer trimestre fiscal con cifras que superan las previsiones más optimistas de Wall Street. La compañía de chips de inteligencia artificial alcanzó unos ingresos de 115.800 millones de dólares, lo que supone un incremento del 20% respecto al trimestre anterior y un crecimiento interanual del 103%. El beneficio neto se elevó hasta los 65.287 millones de dólares, un 104% más que en el mismo periodo del ejercicio previo.",
+              "Estos resultados llegan tras el abrupto cese de su cofundador y consejero delegado, Jensen Huang, quien fue sustituido de forma interina por la directora financiera, Colette Kress. La propia Kress destacó el inicio comercial de la plataforma de supercomputación Vera Rubin, sucesora de la arquitectura Blackwell, como el motor principal de este rendimiento financiero."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Las cuentas se hicieron públicas en un momento de extrema volatilidad para la firma. Las acciones de Nvidia han sufrido una corrección bursátil que supera el 36% desde su máximo histórico alcanzado el pasado 6 de septiembre, cuando superó los 243 dólares por título y ostentaba el liderazgo global en capitalización bursátil. Esta caída ha supuesto la pérdida de aproximadamente dos billones de dólares en valor de mercado y la cesión de la primera posición corporativa a Apple.",
+              "A pesar de este retroceso, la reacción inmediata tras el anuncio de las cuentas impulsó los títulos por encima de los 160 dólares, respaldados por un plan de recompra de acciones sin precedentes. En septiembre, el consejo de administración aprobó una ampliación de 150.000 millones de dólares en su autorización de recompra, devolviendo 28.100 millones a los accionistas durante el trimestre mediante recompras y dividendos."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "La narrativa triunfalista sobre los márgenes brutos del 74,8% y la robustez de la demanda por parte de proveedores de servicios en la nube como CoreWeave, Meta, OpenAI y Amazon Web Services oculta vulnerabilidades estructurales profundas. La salida repentina de Jensen Huang deja un vacío de liderazgo difícil de suplir en una organización construida enteramente alrededor de su figura.",
+              "Asimismo, el dossier de la compañía menciona de manera tangencial un factor de riesgo crítico: la Comisión de Bolsa y Valores de Estados Unidos (SEC) mantiene abierta una investigación sobre la corporación. Este escrutinio regulatorio, sumado a la concentración de la demanda en un grupo reducido de actores tecnológicos que financian y compran simultáneamente la infraestructura de IA, plantea interrogantes sobre la sostenibilidad a largo plazo de este crecimiento."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En el corto plazo, los grandes inversores institucionales y los accionistas se benefician directamente de la masiva inyección de capital a través de dividendos y recompras de acciones. Proveedores de infraestructura y neoclouds aseguran su acceso prioritario al hardware más avanzado del mercado.",
+              "Por el contrario, los pequeños accionistas asumen el coste de la alta volatilidad derivada de la incertidumbre en la gobernanza. A escala sistémica, el ecosistema tecnológico global incrementa su dependencia de un único suministrador de chips, exponiendo a toda la cadena de valor digital a cualquier tropiezo operativo o regulatorio de la firma."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "El desarrollo de la investigación de la SEC y su posible impacto en las operaciones de la compañía constituirán el termómetro regulatorio principal en los próximos meses. También será determinante la evolución definitiva en la cúpula directiva, concretamente si se confirma el retorno de Jensen Huang o si la dirección interina consolida su mandato.",
+              "Finalmente, se debe monitorear la capacidad de Nvidia para alcanzar su previsión de 130.000 millones de dólares en ingresos para el cuarto trimestre, en un escenario donde los retornos de inversión de sus clientes en la nube comienzan a ser examinados con lupa por los mercados."
+            ]
+          }
+        ],
+        "tags": [
+          "Nvidia",
+          "Inteligencia Artificial",
+          "Mercados Financieros",
+          "Regulación",
+          "Tecnología"
+        ],
+        "sources": [
+          {
+            "name": "El País América",
+            "title": "Nvidia bate previsiones al disparar sus ingresos un 103% y defiende el poder de su tecnología y su remuneración a los accionistas",
+            "url": "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html"
+          },
+          {
+            "name": "EL PAÍS",
+            "title": "Nvidia bate previsiones al disparar sus ingresos un 103% y defiende el poder de su tecnología y su remuneración a los accionistas",
+            "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxONGxZdFl1X09GSmIyajFEbHZnQmJPTWV1cGZaM2dpTEVGdlMtOFA1OHA0NjNUYWZoY0ZSYkpTQk9IY0NLelB5dXRmdVlzbm94QTlLMnZ1cXMwc24zbmRJTzUxZUZnNmNhRWhlQkpFRjBQWVBFcV9KOEJibVZGT2YtR3hpOVB2MDh2OUVxT0tfUHRTc3pWdU5TVERvS002Y1VWcXEzNkM4eUNsRnpCWEtIZXFZX3ZmeWRqVE9tY1ZaVnZxMEExeFZIdWlySU5NZ295QlRUVFd1bVJtMkt4c1RBeEdhbDdJU0hzSlc4dzI4WVYwWFFnVzMxTG5KR1VzVlA1Q3c?oc=5"
+          }
+        ],
+        "wordCount": 627
+      },
+      "videoScript": {
+        "hook": "Nvidia acaba de ganar 65.287 millones de dólares en un solo trimestre",
+        "beats": [
+          "El gigante de los chips disparó sus ingresos un 103% hasta los 115.800 millones de dólares gracias a su nueva tecnología",
+          "La compañía aprobó una recompra histórica de acciones por 150.000 millones para calmar a los inversores",
+          "Pero lo que nadie dice es que la salida de su consejero delegado y una investigación de la SEC amenazan su futuro"
+        ],
+        "close": "Lee el análisis completo en el enlace del perfil."
+      },
+      "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/6HT4YT5JMRCWTJKGLGP2ERF43Y.JPG?auth=e222737695980e512b6e33a662fac3f1818e8b98c2f723d9488f9746d2914e6c",
+      "status": "pending",
+      "createdAt": "2026-11-17T22:20:32.059Z",
+      "cardImageUrl": "/news-cards/news-0blryk6qh-1794954032060.jpg",
+      "reelCoverUrl": "/news-cards/news-0blryk6qh-1794954033670-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-0blryk6qh-1794954034269-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/nvidia-desafia-caos-bursatil-ingresos-record-mbl4/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-18T01:37:42.698Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-17T22:20:35.584Z"
   }
 ]
