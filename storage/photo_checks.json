@@ -1153,5 +1153,10 @@
     "relevant": false,
     "reason": "Muestra a Donald Trump junto a Benjamin Netanyahu, lo cual no tiene relación con Nvidia ni con las acusaciones de espionaje chino.",
     "at": "2026-11-17T11:33:32.308Z"
+  },
+  "3d8c32184cbd5a95:y1e1abb0z": {
+    "relevant": true,
+    "reason": "La imagen muestra un petrolero en Venezuela, ilustrando visualmente la industria petrolera mencionada en el titular.",
+    "at": "2026-11-17T11:48:06.641Z"
   }
 }

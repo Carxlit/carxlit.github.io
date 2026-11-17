@@ -254,9 +254,38 @@
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTl9Eb1E5UVQ3M3dxTUZvVFZiRndFUElsU3RMZ2ZGR0poZlV6X3JHdklhNUswWEE4RGZkbXZkWmpwS3I3ZTgyY1Vrc2tXOXZnYl9kSlJsT1BuR3pWZmkyYlRENWgyWHVSU0Y5dkhVdlFrNXMxMnNJTTVMRTF6aUJpQkdXUnV1NnE5aW43QVFlYmFfdjlxTVBUY0Rfam1tSFBRMl8weFVMSWw0RFBTekdncV8weE5CcXlwcHhMWDh3QQ?oc=5",
     "https://elpais.com/economia/2026-11-17/bruselas-mejora-las-previsiones-economicas-de-la-zona-euro-y-espana-pese-a-la-guerra-y-la-inflacion.html",
     "https://elpais.com/internacional/2026-11-17/el-ataque-ruso-a-un-centro-de-reparto-de-ayuda-en-zaporiyia-es-ya-la-segunda-mayor-masacre-de-la-guerra-de-ucrania.html",
-    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFJYcG1ITVBaZUYxS2RFNTg1cHJERzBFRGVIWEkwYWlsNjgzaU9XSk9RY1NUN0RVZlF3TlJkS2hsN1lfTl9lRTFWV1ZJb1Rab1VCZVJwbU1vT1pIOUloamZxVGlZUHpDUDJBdC1ma3hrVXhzdUV2djdxY1QzZGhVYWNxSVRMMU5uTS1vUHNZcy1vQ3NsWkQ0cGJJWnBpMklWRUd4aW53?oc=5"
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFJYcG1ITVBaZUYxS2RFNTg1cHJERzBFRGVIWEkwYWlsNjgzaU9XSk9RY1NUN0RVZlF3TlJkS2hsN1lfTl9lRTFWV1ZJb1Rab1VCZVJwbU1vT1pIOUloamZxVGlZUHpDUDJBdC1ma3hrVXhzdUV2djdxY1QzZGhVYWNxSVRMMU5uTS1vUHNZcy1vQ3NsWkQ0cGJJWnBpMklWRUd4aW53?oc=5",
+    "https://elpais.com/america/2026-11-17/venezuela-destina-a-sostener-su-moneda-los-12000-millones-de-la-venta-tutelada-de-petroleo.html"
   ],
   "processedSignatures": [
+    {
+      "title": "VENEZUELA QUEMA INGRESOS PETROLEROS TUTELADOS EN SOSTENER EL BOLÍVAR",
+      "normalizedTokens": [
+        "venezuela",
+        "quema",
+        "ingresos",
+        "petroleros",
+        "tutelados",
+        "sostener",
+        "bolivar"
+      ],
+      "date": "2026-11-17T11:48:11.330Z"
+    },
+    {
+      "title": "Venezuela destina a sostener su moneda los 12.000 millones de la venta tutelada de petróleo",
+      "normalizedTokens": [
+        "venezuela",
+        "destina",
+        "sostener",
+        "moneda",
+        "000",
+        "millones",
+        "venta",
+        "tutelada",
+        "petroleo"
+      ],
+      "date": "2026-11-17T11:48:11.328Z"
+    },
     {
       "title": "TRUMP RESPALDA A NVIDIA ANTE ACUSACIONES DE ESPIONAJE CHINO",
       "normalizedTokens": [
@@ -7268,31 +7297,6 @@
         "cambios"
       ],
       "date": "2026-11-01T19:34:29.596Z"
-    },
-    {
-      "title": "LA MISIÓN DE LA ONU EN EL SÁHARA COLAPSA POR VETOS",
-      "normalizedTokens": [
-        "mision",
-        "onu",
-        "sahara",
-        "colapsa",
-        "vetos"
-      ],
-      "date": "2026-11-01T18:46:04.894Z"
-    },
-    {
-      "title": "Misión de la ONU en el Sahara queda en el limbo por vetos cruzados de EE. UU. y Rusia",
-      "normalizedTokens": [
-        "mision",
-        "onu",
-        "sahara",
-        "queda",
-        "limbo",
-        "vetos",
-        "cruzados",
-        "rusia"
-      ],
-      "date": "2026-11-01T18:46:04.890Z"
     }
   ]
 }
