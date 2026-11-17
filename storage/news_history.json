@@ -251,9 +251,38 @@
     "https://www.europapress.es/internacional/noticia-mueren-tres-personas-accidente-aereo-gran-canon-colorado-arizona-estados-unidos-20261117053734.html",
     "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss",
     "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTl9Eb1E5UVQ3M3dxTUZvVFZiRndFUElsU3RMZ2ZGR0poZlV6X3JHdklhNUswWEE4RGZkbXZkWmpwS3I3ZTgyY1Vrc2tXOXZnYl9kSlJsT1BuR3pWZmkyYlRENWgyWHVSU0Y5dkhVdlFrNXMxMnNJTTVMRTF6aUJpQkdXUnV1NnE5aW43QVFlYmFfdjlxTVBUY0Rfam1tSFBRMl8weFVMSWw0RFBTekdncV8weE5CcXlwcHhMWDh3QQ?oc=5"
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTl9Eb1E5UVQ3M3dxTUZvVFZiRndFUElsU3RMZ2ZGR0poZlV6X3JHdklhNUswWEE4RGZkbXZkWmpwS3I3ZTgyY1Vrc2tXOXZnYl9kSlJsT1BuR3pWZmkyYlRENWgyWHVSU0Y5dkhVdlFrNXMxMnNJTTVMRTF6aUJpQkdXUnV1NnE5aW43QVFlYmFfdjlxTVBUY0Rfam1tSFBRMl8weFVMSWw0RFBTekdncV8weE5CcXlwcHhMWDh3QQ?oc=5",
+    "https://elpais.com/economia/2026-11-17/bruselas-mejora-las-previsiones-economicas-de-la-zona-euro-y-espana-pese-a-la-guerra-y-la-inflacion.html"
   ],
   "processedSignatures": [
+    {
+      "title": "BRUSELAS MEJORA PREVISIONES MACROECONÓMICAS PARA ESPAÑA Y EUROZONA",
+      "normalizedTokens": [
+        "bruselas",
+        "mejora",
+        "previsiones",
+        "macroeconomicas",
+        "espana",
+        "eurozona"
+      ],
+      "date": "2026-11-17T11:02:56.028Z"
+    },
+    {
+      "title": "Bruselas mejora las previsiones económicas de la zona euro y España pese a la guerra y la inflación",
+      "normalizedTokens": [
+        "bruselas",
+        "mejora",
+        "previsiones",
+        "economicas",
+        "zona",
+        "euro",
+        "espana",
+        "pese",
+        "guerra",
+        "inflacion"
+      ],
+      "date": "2026-11-17T11:02:56.027Z"
+    },
     {
       "title": "UCRANIA GOLPEA EL PUENTE DE CRIMEA EN SU MAYOR ATAQUE CON DRONES",
       "normalizedTokens": [
@@ -7260,34 +7289,6 @@
         "echarnos"
       ],
       "date": "2026-11-01T18:18:25.747Z"
-    },
-    {
-      "title": "UN SOLO HOMBRE FRENTE A LOS CIBERATAQUES QUE TUMBARON MILES DE WEBS: HACE F",
-      "normalizedTokens": [
-        "solo",
-        "hombre",
-        "frente",
-        "ciberataques",
-        "tumbaron",
-        "miles",
-        "webs",
-        "hace"
-      ],
-      "date": "2026-11-01T17:51:49.292Z"
-    },
-    {
-      "title": "UN SOLO HOMBRE FRENTE A LOS CIBERATAQUES QUE TUMBARON MILES DE WEBS: HACE F",
-      "normalizedTokens": [
-        "solo",
-        "hombre",
-        "frente",
-        "ciberataques",
-        "tumbaron",
-        "miles",
-        "webs",
-        "hace"
-      ],
-      "date": "2026-11-01T16:49:45.869Z"
     }
   ]
 }
