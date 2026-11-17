@@ -250,9 +250,43 @@
     "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
     "https://www.europapress.es/internacional/noticia-mueren-tres-personas-accidente-aereo-gran-canon-colorado-arizona-estados-unidos-20261117053734.html",
     "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss",
-    "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTl9Eb1E5UVQ3M3dxTUZvVFZiRndFUElsU3RMZ2ZGR0poZlV6X3JHdklhNUswWEE4RGZkbXZkWmpwS3I3ZTgyY1Vrc2tXOXZnYl9kSlJsT1BuR3pWZmkyYlRENWgyWHVSU0Y5dkhVdlFrNXMxMnNJTTVMRTF6aUJpQkdXUnV1NnE5aW43QVFlYmFfdjlxTVBUY0Rfam1tSFBRMl8weFVMSWw0RFBTekdncV8weE5CcXlwcHhMWDh3QQ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "UCRANIA GOLPEA EL PUENTE DE CRIMEA EN SU MAYOR ATAQUE CON DRONES",
+      "normalizedTokens": [
+        "ucrania",
+        "golpea",
+        "puente",
+        "crimea",
+        "mayor",
+        "ataque",
+        "drones"
+      ],
+      "date": "2026-11-17T08:17:06.763Z"
+    },
+    {
+      "title": "Russia says Ukraine struck its bridge to Crimea for second day in biggest drone attack of war",
+      "normalizedTokens": [
+        "russia",
+        "says",
+        "ukraine",
+        "struck",
+        "its",
+        "bridge",
+        "crimea",
+        "for",
+        "second",
+        "day",
+        "biggest",
+        "drone",
+        "attack",
+        "war"
+      ],
+      "date": "2026-11-17T08:17:06.760Z"
+    },
     {
       "title": "MISILES RUSOS IMPACTAN DOS PUENTES CLAVE EN KIEV",
       "normalizedTokens": [
