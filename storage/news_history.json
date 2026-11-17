@@ -252,9 +252,38 @@
     "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss",
     "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTl9Eb1E5UVQ3M3dxTUZvVFZiRndFUElsU3RMZ2ZGR0poZlV6X3JHdklhNUswWEE4RGZkbXZkWmpwS3I3ZTgyY1Vrc2tXOXZnYl9kSlJsT1BuR3pWZmkyYlRENWgyWHVSU0Y5dkhVdlFrNXMxMnNJTTVMRTF6aUJpQkdXUnV1NnE5aW43QVFlYmFfdjlxTVBUY0Rfam1tSFBRMl8weFVMSWw0RFBTekdncV8weE5CcXlwcHhMWDh3QQ?oc=5",
-    "https://elpais.com/economia/2026-11-17/bruselas-mejora-las-previsiones-economicas-de-la-zona-euro-y-espana-pese-a-la-guerra-y-la-inflacion.html"
+    "https://elpais.com/economia/2026-11-17/bruselas-mejora-las-previsiones-economicas-de-la-zona-euro-y-espana-pese-a-la-guerra-y-la-inflacion.html",
+    "https://elpais.com/internacional/2026-11-17/el-ataque-ruso-a-un-centro-de-reparto-de-ayuda-en-zaporiyia-es-ya-la-segunda-mayor-masacre-de-la-guerra-de-ucrania.html"
   ],
   "processedSignatures": [
+    {
+      "title": "MASACRE EN ZAPORIYIA: 72 VÍCTIMAS EN ESCUELA SUBTERRÁNEA",
+      "normalizedTokens": [
+        "masacre",
+        "zaporiyia",
+        "victimas",
+        "escuela",
+        "subterranea"
+      ],
+      "date": "2026-11-17T11:28:54.769Z"
+    },
+    {
+      "title": "El ataque ruso a un centro de reparto de ayuda en Zaporiyia es ya la segunda mayor masacre de la guerra de Ucrania",
+      "normalizedTokens": [
+        "ataque",
+        "ruso",
+        "centro",
+        "reparto",
+        "ayuda",
+        "zaporiyia",
+        "segunda",
+        "mayor",
+        "masacre",
+        "guerra",
+        "ucrania"
+      ],
+      "date": "2026-11-17T11:28:54.765Z"
+    },
     {
       "title": "BRUSELAS MEJORA PREVISIONES MACROECONÓMICAS PARA ESPAÑA Y EUROZONA",
       "normalizedTokens": [
@@ -7262,33 +7291,6 @@
         "prepara"
       ],
       "date": "2026-11-01T18:43:14.549Z"
-    },
-    {
-      "title": "ZAMORA SE PONE EN PIE DE GUERRA POR LA CONSTRUCCIÓN DE UN MACROCENTRO DE DA",
-      "normalizedTokens": [
-        "zamora",
-        "pone",
-        "pie",
-        "guerra",
-        "construccion",
-        "macrocentro"
-      ],
-      "date": "2026-11-01T18:18:25.751Z"
-    },
-    {
-      "title": "Zamora se pone en pie de guerra por la construcción de un macrocentro de datos: “Es una manera de echarnos”",
-      "normalizedTokens": [
-        "zamora",
-        "pone",
-        "pie",
-        "guerra",
-        "construccion",
-        "macrocentro",
-        "datos",
-        "manera",
-        "echarnos"
-      ],
-      "date": "2026-11-01T18:18:25.747Z"
     }
   ]
 }
