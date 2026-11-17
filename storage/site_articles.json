@@ -1,5 +1,86 @@
 [
   {
+    "slug": "ataques-contra-puentes-kiev-exponen-urgencia-5w4c",
+    "path": "noticias/ataques-contra-puentes-kiev-exponen-urgencia-5w4c/",
+    "title": "Ataques contra los puentes de Kiev exponen la urgencia de la presión militar en la diplomacia",
+    "headline": "MISILES RUSOS IMPACTAN DOS PUENTES CLAVE EN KIEV",
+    "dek": "El impacto de misiles rusos en dos cruces fundamentales sobre el río Dnipro coincide con conversaciones de alto nivel y cruces de ataques en Crimea.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "BBC News",
+    "image": "img/ataques-contra-puentes-kiev-exponen-urgencia-5w4c.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "9cpnRMVU2-0",
+      "title": "Russia Hits Two Kyiv Bridges, Cuts Water and Power",
+      "channel": "Daily News Explained",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-17T05:46:42.393Z",
+    "article": {
+      "slug": "ataques-contra-puentes-kiev-exponen-urgencia-5w4c",
+      "title": "Ataques contra los puentes de Kiev exponen la urgencia de la presión militar en la diplomacia",
+      "dek": "El impacto de misiles rusos en dos cruces fundamentales sobre el río Dnipro coincide con conversaciones de alto nivel y cruces de ataques en Crimea.",
+      "keyFacts": [
+        "Los misiles rusos impactaron los puentes del Norte y del Sur de Kiev sobre el río Dnipro.",
+        "Tres millones de residentes dependen de los ocho puentes principales que cruzan el río en la capital ucraniana.",
+        "Ucrania atacó el puente de Kerch por segundo día consecutivo, según el gobernador instalado por Moscú.",
+        "Enviados estadounidenses como Jared Kushner y Steve Witkoff participaron en conversaciones recientes orientadas al fin del conflicto."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Dos de los puentes principales de Kiev sufrieron impactos directos durante un ataque con misiles balísticos perpetrado por fuerzas rusas. Según confirmó el alcalde de la capital, Vitali Klitschko, las detonaciones alcanzaron el puente del Norte y el puente del Sur, ambos esenciales para conectar las zonas oriental y occidental de la ciudad a través del río Dnipro.",
+            "Las explosiones, registradas antes de la medianoche, provocaron daños en sistemas de infraestructura crítica. Autoridades locales informaron sobre interrupciones en el suministro de agua y calefacción en varios sectores, además de daños parciales en servicios de metro en superficie que obligaron a la población a buscar refugio en estaciones subterráneas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El ataque a la capital ucraniana no ocurre en el vacío. Se produce después de que Rusia reportara el mayor ataque con drones ucranianos desde el inicio de la guerra, lo que motivó advertencias del presidente Volodymyr Zelensky sobre posibles ofensivas adicionales de Moscú.",
+            "En paralelo a la escalada en el terreno, funcionarios ucranianos, estadounidenses y europeos mantuvieron conversaciones en formato virtual para evaluar vías que pongan fin al conflicto de años. Entre los participantes se encontraban el enviado de Estados Unidos Jared Kushner y el enviado especial Steve Witkoff."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La lectura superficial de los hechos tiende a enfocar los ataques a los puentes de Kiev y la respuesta ucraniana contra el puente de Kerch en Crimea como una simple intensificación de las hostilidades cotidianas. Sin embargo, el ángulo fundamental radica en la sincronización temporal y estratégica de estos golpes con los canales diplomáticos abiertos por Washington.",
+            "La destrucción de pasos logísticos críticos no busca únicamente minar la moral o la movilidad de los tres millones de habitantes de Kiev, sino establecer hechos consumados en el terreno antes de que cualquier mesa de negociación adquiera tracción real. La infraestructura civil se utiliza como instrumento directo de coerción política."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero de presión cruzada, Moscú gana capacidad de coacción al demostrar que puede fracturar la retaguardia ucraniana incluso en momentos de diálogo internacional. Por su parte, el mando ucraniano asume el coste logístico interno, pero responde manteniendo la presión sobre la península de Crimea mediante el ataque continuado al puente de Kerch.",
+            "La población civil de Kiev y de la región de Cherkasy —donde tres personas resultaron heridas en otro ataque reciente— carga con el coste humanitario y material de una disputa que se decide en despachos internacionales pero se ejecuta sobre hormigón y acero."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario seguir de cerca la evolución de las conversaciones en las que participan los enviados estadounidenses y la capacidad de reparación de los puentes del Dnipro. La estabilidad del suministro eléctrico y de agua en Kiev será el termómetro inmediato de la resistencia urbana ante una campaña centrada en estrangular los centros de gravedad políticos y económicos de Ucrania."
+          ]
+        }
+      ],
+      "tags": [
+        "Ucrania",
+        "Rusia",
+        "Kiev",
+        "Geopolítica",
+        "Infraestructura"
+      ],
+      "sources": [
+        {
+          "name": "BBC News",
+          "title": "Two major Kyiv bridges hit in Russian attack, mayor says",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wordCount": 488
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el daño a la infraestructura civil de Kiev y la respuesta ucraniana en el puente de Kerch, los recientes movimientos diplomáticos con enviados de Estados Unidos sugieren que estos ataques buscan fijar posiciones de fuerza ante una inminente mesa de negociación impuesta por Washington."
+  },
+  {
     "slug": "violencia-armada-duyuk-muestra-avance-ocupacion-ynum",
     "path": "noticias/violencia-armada-duyuk-muestra-avance-ocupacion-ynum/",
     "title": "Violencia armada en al Duyuk muestra el avance de la ocupación en Cisjordania",

@@ -1128,5 +1128,10 @@
     "relevant": true,
     "reason": "La imagen muestra una ambulancia prestando auxilio tras el ataque armado reportado en la noticia.",
     "at": "2026-11-17T05:31:45.853Z"
+  },
+  "decb34a82b11ed4b:twm82qyso": {
+    "relevant": false,
+    "reason": "La imagen muestra a Vitali Klitschko, alcalde de Kiev, inspeccionando un edificio dañado y no los puentes del Norte o del Sur mencionados en el titular.",
+    "at": "2026-11-17T05:46:39.134Z"
   }
 }

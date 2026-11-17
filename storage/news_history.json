@@ -249,9 +249,38 @@
     "https://www.dw.com/es/deportaciones-a-ruanda-el-plan-que-impulsan-cinco-países-europeos/a-79961510?maca=spa-rss-sp-all-1122-rdf",
     "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
     "https://www.europapress.es/internacional/noticia-mueren-tres-personas-accidente-aereo-gran-canon-colorado-arizona-estados-unidos-20261117053734.html",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss"
+    "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss",
+    "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "MISILES RUSOS IMPACTAN DOS PUENTES CLAVE EN KIEV",
+      "normalizedTokens": [
+        "misiles",
+        "rusos",
+        "impactan",
+        "dos",
+        "puentes",
+        "clave",
+        "kiev"
+      ],
+      "date": "2026-11-17T05:46:42.538Z"
+    },
+    {
+      "title": "Two major Kyiv bridges hit in Russian attack, mayor says",
+      "normalizedTokens": [
+        "two",
+        "major",
+        "kyiv",
+        "bridges",
+        "hit",
+        "russian",
+        "attack",
+        "mayor",
+        "says"
+      ],
+      "date": "2026-11-17T05:46:42.536Z"
+    },
     {
       "title": "ATAQUE DE COLONOS ISRAELÍES EN CISJORDANIA DEJA UNA MUJER MUERTA",
       "normalizedTokens": [
