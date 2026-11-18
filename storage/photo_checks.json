@@ -1233,5 +1233,10 @@
     "relevant": true,
     "reason": "Muestra la Casa Blanca, sede del gobierno estadounidense y lugar central mencionado en el titular y el contexto sobre la alerta en la capital.",
     "at": "2026-11-18T10:35:40.078Z"
+  },
+  "e1cec3f376d45887:umsepmz4l": {
+    "relevant": true,
+    "reason": "Muestra una escena del conflicto en Ucrania, vinculado al titular y resumen.",
+    "at": "2026-11-18T11:02:41.332Z"
   }
 }

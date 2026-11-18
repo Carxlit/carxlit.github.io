@@ -267,9 +267,34 @@
     "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
     "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
-    "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack"
+    "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTEQ2RXBRNGxObHd5LURuZlVCXzFCckhGQ0x2M1BVUkxhMjFRN1NaNHVoRmlQMG00aEdlYVZfc3lnemJsNWpqUGd1eVFQajRUZnM4T196VXdNZFVtQm55SktvemVqN1V2X1ZTT1hHVVB3T2tWNldacUxuWjE0VTBRNzhBRmpRUlJUS1NCZVJSUU5SVl8xa3NBakh1RWZEejQ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "UCRANIA ACELERA EL USO DE IA EN EL CONFLICTO",
+      "normalizedTokens": [
+        "ucrania",
+        "acelera",
+        "uso",
+        "conflicto"
+      ],
+      "date": "2026-11-18T11:02:45.372Z"
+    },
+    {
+      "title": "Ucrania acelera su despliegue en inteligencia artificial a raíz de la invasión rusa",
+      "normalizedTokens": [
+        "ucrania",
+        "acelera",
+        "despliegue",
+        "inteligencia",
+        "artificial",
+        "raiz",
+        "invasion",
+        "rusa"
+      ],
+      "date": "2026-11-18T11:02:45.364Z"
+    },
     {
       "title": "TRUMP ADVIERTE SOBRE SUPUESTO COMPLOT IRANÍ CON BOMBA SUCIA",
       "normalizedTokens": [
@@ -7288,35 +7313,6 @@
         "millonarias"
       ],
       "date": "2026-11-02T16:23:37.553Z"
-    },
-    {
-      "title": "KARL BUSHBY COMPLETA EXPEDICIÓN TRAS 28 AÑOS DE TRAVESÍA GLOBAL",
-      "normalizedTokens": [
-        "karl",
-        "bushby",
-        "completa",
-        "expedicion",
-        "anos",
-        "travesia",
-        "global"
-      ],
-      "date": "2026-11-02T15:53:39.448Z"
-    },
-    {
-      "title": "La increíble historia de Karl Bushby: regresó a su casa después de caminar 28 años por todo el mundo",
-      "normalizedTokens": [
-        "increible",
-        "historia",
-        "karl",
-        "bushby",
-        "regreso",
-        "casa",
-        "despues",
-        "caminar",
-        "anos",
-        "mundo"
-      ],
-      "date": "2026-11-02T15:53:39.448Z"
     }
   ]
 }
