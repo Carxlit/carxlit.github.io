@@ -268,9 +268,40 @@
     "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
     "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
     "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack",
-    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTEQ2RXBRNGxObHd5LURuZlVCXzFCckhGQ0x2M1BVUkxhMjFRN1NaNHVoRmlQMG00aEdlYVZfc3lnemJsNWpqUGd1eVFQajRUZnM4T196VXdNZFVtQm55SktvemVqN1V2X1ZTT1hHVVB3T2tWNldacUxuWjE0VTBRNzhBRmpRUlJUS1NCZVJSUU5SVl8xa3NBakh1RWZEejQ?oc=5"
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTEQ2RXBRNGxObHd5LURuZlVCXzFCckhGQ0x2M1BVUkxhMjFRN1NaNHVoRmlQMG00aEdlYVZfc3lnemJsNWpqUGd1eVFQajRUZnM4T196VXdNZFVtQm55SktvemVqN1V2X1ZTT1hHVVB3T2tWNldacUxuWjE0VTBRNzhBRmpRUlJUS1NCZVJSUU5SVl8xa3NBakh1RWZEejQ?oc=5",
+    "https://elpais.com/economia/2026-11-18/los-sindicatos-ugt-cc-oo-y-el-ferroviario-scf-firman-la-paz-con-transportes-en-favor-de-reforzar-la-seguridad-en-las-vias.html"
   ],
   "processedSignatures": [
+    {
+      "title": "GOBIERNO PACTA CON SINDICATOS FERROVIARIOS PERO MAQUINISTAS MANTIENEN HUELGA",
+      "normalizedTokens": [
+        "gobierno",
+        "pacta",
+        "sindicatos",
+        "ferroviarios",
+        "maquinistas",
+        "mantienen",
+        "huelga"
+      ],
+      "date": "2026-11-18T11:18:06.012Z"
+    },
+    {
+      "title": "Los sindicatos UGT, CC OO y el ferroviario SCF firman la paz con Transportes en favor de reforzar la seguridad en las vías",
+      "normalizedTokens": [
+        "sindicatos",
+        "ugt",
+        "ferroviario",
+        "scf",
+        "firman",
+        "paz",
+        "transportes",
+        "favor",
+        "reforzar",
+        "seguridad",
+        "vias"
+      ],
+      "date": "2026-11-18T11:18:06.010Z"
+    },
     {
       "title": "UCRANIA ACELERA EL USO DE IA EN EL CONFLICTO",
       "normalizedTokens": [
@@ -7285,34 +7316,6 @@
         "supermercados"
       ],
       "date": "2026-11-02T17:10:57.326Z"
-    },
-    {
-      "title": "CIBERATAQUE CONTRA REFRIGERADORES EN SIETE PAÍSES EUROPEOS",
-      "normalizedTokens": [
-        "ciberataque",
-        "refrigeradores",
-        "siete",
-        "paises",
-        "europeos"
-      ],
-      "date": "2026-11-02T16:23:37.553Z"
-    },
-    {
-      "title": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
-      "normalizedTokens": [
-        "investigan",
-        "posible",
-        "ciberataque",
-        "afecta",
-        "refrigeradores",
-        "supermercados",
-        "paises",
-        "europeos",
-        "causa",
-        "perdidas",
-        "millonarias"
-      ],
-      "date": "2026-11-02T16:23:37.553Z"
     }
   ]
 }
