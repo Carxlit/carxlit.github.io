@@ -265,9 +265,38 @@
     "https://es.wired.com/articulos/la-ia-ataco-hugging-face-pero-el-ceo-sigue-creyendo-de-que-el-codigo-abierto-puede-salvarnos",
     "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html",
     "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+    "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge"
   ],
   "processedSignatures": [
+    {
+      "title": "PUTIN SE REÚNE CON TRUMP Y XI TRAS ATAQUE A PUENTE RUSO",
+      "normalizedTokens": [
+        "putin",
+        "reune",
+        "trump",
+        "ataque",
+        "puente",
+        "ruso"
+      ],
+      "date": "2026-11-18T10:04:02.541Z"
+    },
+    {
+      "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+      "normalizedTokens": [
+        "putin",
+        "meet",
+        "with",
+        "trump",
+        "and",
+        "after",
+        "ukrainian",
+        "attack",
+        "russian",
+        "bridge"
+      ],
+      "date": "2026-11-18T10:04:02.539Z"
+    },
     {
       "title": "RUBIO DESCARTA ATAQUE SISTÉMICO TRAS FALLAS TECNOLÓGICAS MASIVAS",
       "normalizedTokens": [
@@ -7289,42 +7318,6 @@
         "tiempo"
       ],
       "date": "2026-11-02T15:44:05.023Z"
-    },
-    {
-      "title": "WALL STREET SUBE TRAS OCTUBRE BAJISTA CON LA MIRA EN ELECCIONES",
-      "normalizedTokens": [
-        "wall",
-        "street",
-        "sube",
-        "octubre",
-        "bajista",
-        "mira",
-        "elecciones"
-      ],
-      "date": "2026-11-02T15:23:30.027Z"
-    },
-    {
-      "title": "Suben los futuros de Wall Street mientras las acciones del sector de la inteligencia artificial se toman un respiro; toda la atención se centra en las elecciones de mitad de mandato",
-      "normalizedTokens": [
-        "suben",
-        "futuros",
-        "wall",
-        "street",
-        "mientras",
-        "acciones",
-        "sector",
-        "inteligencia",
-        "artificial",
-        "toman",
-        "respiro",
-        "toda",
-        "atencion",
-        "centra",
-        "elecciones",
-        "mitad",
-        "mandato"
-      ],
-      "date": "2026-11-02T15:23:30.026Z"
     }
   ]
 }

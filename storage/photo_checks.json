@@ -1213,5 +1213,20 @@
     "relevant": true,
     "reason": "la imagen muestra al Secretario de Estado Marco Rubio, protagonista central del titular.",
     "at": "2026-11-18T08:03:20.148Z"
+  },
+  "2f01c4f2d9b33134:9tgwa6r4q": {
+    "relevant": false,
+    "reason": "La imagen muestra el logotipo de NPR con auriculares, lo cual no representa a los protagonistas ni al lugar central de la noticia sobre Putin, Trump y Xi.",
+    "at": "2026-11-18T10:02:49.623Z"
+  },
+  "5a4b925fae4a5590:9tgwa6r4q": {
+    "relevant": false,
+    "reason": "La imagen muestra a líderes como Donald Trump junto a Narendra Modi y otros funcionarios políticos, pero no corresponde a Putin ni a Xi Jinping reuniéndose tras el ataque al puente",
+    "at": "2026-11-18T10:03:24.829Z"
+  },
+  "bea362e82ba62549:9tgwa6r4q": {
+    "relevant": false,
+    "reason": "La imagen muestra a líderes de la cumbre QUAD (incluyendo a Donald Trump) y no a Vladimir Putin ni a Xi Jinping en el contexto descrito.",
+    "at": "2026-11-18T10:04:00.957Z"
   }
 }
