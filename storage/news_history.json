@@ -269,9 +269,41 @@
     "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
     "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack",
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTEQ2RXBRNGxObHd5LURuZlVCXzFCckhGQ0x2M1BVUkxhMjFRN1NaNHVoRmlQMG00aEdlYVZfc3lnemJsNWpqUGd1eVFQajRUZnM4T196VXdNZFVtQm55SktvemVqN1V2X1ZTT1hHVVB3T2tWNldacUxuWjE0VTBRNzhBRmpRUlJUS1NCZVJSUU5SVl8xa3NBakh1RWZEejQ?oc=5",
-    "https://elpais.com/economia/2026-11-18/los-sindicatos-ugt-cc-oo-y-el-ferroviario-scf-firman-la-paz-con-transportes-en-favor-de-reforzar-la-seguridad-en-las-vias.html"
+    "https://elpais.com/economia/2026-11-18/los-sindicatos-ugt-cc-oo-y-el-ferroviario-scf-firman-la-paz-con-transportes-en-favor-de-reforzar-la-seguridad-en-las-vias.html",
+    "https://www.clarin.com/mundo/donald-trump-llego-china-xi-jinping-recibio-pie-avion-previa-historica-trilateral-donald-putin_0_ecSbTaGskt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP XI Y PUTIN PACTAN REUNIÓN TRILATERAL EN SHENZHEN",
+      "normalizedTokens": [
+        "trump",
+        "putin",
+        "pactan",
+        "reunion",
+        "trilateral",
+        "shenzhen"
+      ],
+      "date": "2026-11-18T11:32:47.857Z"
+    },
+    {
+      "title": "Donald Trump llegó a China y Xi Jinping lo recibió al pie del avión, en la previa de la histórica trilateral con Donald Putin",
+      "normalizedTokens": [
+        "donald",
+        "trump",
+        "llego",
+        "china",
+        "jinping",
+        "recibio",
+        "pie",
+        "avion",
+        "previa",
+        "historica",
+        "trilateral",
+        "donald",
+        "putin"
+      ],
+      "date": "2026-11-18T11:32:47.852Z"
+    },
     {
       "title": "GOBIERNO PACTA CON SINDICATOS FERROVIARIOS PERO MAQUINISTAS MANTIENEN HUELGA",
       "normalizedTokens": [
@@ -7288,34 +7320,6 @@
         "disolver"
       ],
       "date": "2026-11-02T17:48:11.852Z"
-    },
-    {
-      "title": "CIBERATAQUES A SISTEMAS DE REFRIGERACIÓN EN SIETE PAÍSES EUROPEOS",
-      "normalizedTokens": [
-        "ciberataques",
-        "sistemas",
-        "refrigeracion",
-        "siete",
-        "paises",
-        "europeos"
-      ],
-      "date": "2026-11-02T17:10:57.326Z"
-    },
-    {
-      "title": "De Bélgica a Suecia, nueva ola de ciberataques contra sistemas de refrigeración afecta a decenas de supermercados",
-      "normalizedTokens": [
-        "belgica",
-        "suecia",
-        "nueva",
-        "ola",
-        "ciberataques",
-        "sistemas",
-        "refrigeracion",
-        "afecta",
-        "decenas",
-        "supermercados"
-      ],
-      "date": "2026-11-02T17:10:57.326Z"
     }
   ]
 }
