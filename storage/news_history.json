@@ -277,9 +277,48 @@
     "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
     "https://www.abc.es/internacional/yasuhiro-kawakami-china-saliendo-esperaba-20261117012616-nt.html",
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3N6SVVHQ2NGRjBfeWtmclI5TUgyOUFqc1E4dm5TV2NCSUxSX0RoZjFFc2t5c0FfRkw0MnhwaHQtRVFzcDQ3Qk81bU5ZRGpTNXFvWTBld1kzbXlFQjExRngxSXZ5akg1NGJrQ3Y4NjYtY2Vzc3pmVU85empfODFCS25ZXzNFM0ZMRDMyTk5fNlFOWFk?oc=5",
-    "https://www.abc.es/internacional/eeuu-extiende-tutela-venezuela-ejercito-acuerdo-militar-20261118190304-nt.html"
+    "https://www.abc.es/internacional/eeuu-extiende-tutela-venezuela-ejercito-acuerdo-militar-20261118190304-nt.html",
+    "https://www.genbeta.com/actualidad/jose-andres-chef-57-anos-yo-volveria-a-crear-servicio-militar-paralelo-otro-social-gente-joven-tuviera-oportunidad-salario-hacer-este-tipo-servicio-a-su-pais"
   ],
   "processedSignatures": [
+    {
+      "title": "EL CHEF JOSE ANDRES DEFIENDE EL RETORNO DE LA MILI",
+      "normalizedTokens": [
+        "chef",
+        "jose",
+        "andres",
+        "defiende",
+        "retorno",
+        "mili"
+      ],
+      "date": "2026-11-18T20:19:51.819Z"
+    },
+    {
+      "title": "José Andrés, chef, 57 años: “Yo volvería a crear el servicio militar y, en paralelo, otro social, para que la gente joven tuviera la oportunidad, con un salario, de hacer este tipo de servicio a su país”",
+      "normalizedTokens": [
+        "jose",
+        "andres",
+        "chef",
+        "anos",
+        "volveria",
+        "crear",
+        "servicio",
+        "militar",
+        "paralelo",
+        "otro",
+        "social",
+        "gente",
+        "joven",
+        "tuviera",
+        "oportunidad",
+        "salario",
+        "hacer",
+        "tipo",
+        "servicio",
+        "pais"
+      ],
+      "date": "2026-11-18T20:19:51.817Z"
+    },
     {
       "title": "EEUU EXTIENDE SU CONTROL MILITAR Y ENERGÉTICO EN VENEZUELA",
       "normalizedTokens": [
@@ -7274,34 +7313,6 @@
         "local"
       ],
       "date": "2026-11-03T11:46:48.103Z"
-    },
-    {
-      "title": "LULA SHEINBAUM Y DELCY RODRÍGUEZ PLANTAN A MADRID EN CUMBRE",
-      "normalizedTokens": [
-        "lula",
-        "sheinbaum",
-        "delcy",
-        "rodriguez",
-        "plantan",
-        "madrid",
-        "cumbre"
-      ],
-      "date": "2026-11-03T11:32:19.115Z"
-    },
-    {
-      "title": "Lula, Sheinbaum y Delcy Rodríguez no participarán en la XXX Cumbre Iberoamericana en Madrid",
-      "normalizedTokens": [
-        "lula",
-        "sheinbaum",
-        "delcy",
-        "rodriguez",
-        "participaran",
-        "xxx",
-        "cumbre",
-        "iberoamericana",
-        "madrid"
-      ],
-      "date": "2026-11-03T11:32:19.115Z"
     }
   ]
 }

@@ -1278,5 +1278,15 @@
     "relevant": true,
     "reason": "Muestra al secretario del Pentágono Pete Hegseth reunido con la vicepresidenta venezolana Delcy Rodríguez en Caracas.",
     "at": "2026-11-18T18:51:19.458Z"
+  },
+  "fd45b7ed27c5b907:u72kf726o": {
+    "relevant": false,
+    "reason": "La imagen muestra a un hombre calvo con barba blanca que no es el chef José Andrés.",
+    "at": "2026-11-18T20:19:43.187Z"
+  },
+  "96efe21da360f95e:u72kf726o": {
+    "relevant": true,
+    "reason": "La imagen muestra al chef José Andrés, el protagonista de la noticia.",
+    "at": "2026-11-18T20:19:47.947Z"
   }
 }
