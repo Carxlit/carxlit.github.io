@@ -275,9 +275,39 @@
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdFYzRzlaT2NDVG5HaWJ1SldiR3BYd1pCOGpmdWFzNjBDVUhGcjkzUk8tNG01Mnp6TlhVYWpfOHg2RTBZRlRURXZqMzItVVZXZURDYUpoZVk0S05SV2M4M2VNWmxrVVc2TlBUZmtuY3h0eDA1cm5BeGlZa2dtU1VLNFJ1WXpqZEJDWElJUnB0WXd6THM?oc=5",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/china-y-estados-unidos-se-acusan-mutuamente-en-mexico-por-la-responsabilidad-en-el-trafico-y-la-crisis-del-fentanilo-3601927",
     "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
-    "https://www.abc.es/internacional/yasuhiro-kawakami-china-saliendo-esperaba-20261117012616-nt.html"
+    "https://www.abc.es/internacional/yasuhiro-kawakami-china-saliendo-esperaba-20261117012616-nt.html",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3N6SVVHQ2NGRjBfeWtmclI5TUgyOUFqc1E4dm5TV2NCSUxSX0RoZjFFc2t5c0FfRkw0MnhwaHQtRVFzcDQ3Qk81bU5ZRGpTNXFvWTBld1kzbXlFQjExRngxSXZ5akg1NGJrQ3Y4NjYtY2Vzc3pmVU85empfODFCS25ZXzNFM0ZMRDMyTk5fNlFOWFk?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EL KREMLIN DESCARTA NEGOCIACIONES BILATERALES PLENAS CON DONALD TRUMP",
+      "normalizedTokens": [
+        "kremlin",
+        "descarta",
+        "negociaciones",
+        "bilaterales",
+        "plenas",
+        "donald",
+        "trump"
+      ],
+      "date": "2026-11-18T17:47:48.439Z"
+    },
+    {
+      "title": "El Kremlin dice que unas conversaciones plenas Putin-Trump en la APEC no son probables, según TASS",
+      "normalizedTokens": [
+        "kremlin",
+        "unas",
+        "conversaciones",
+        "plenas",
+        "putin",
+        "trump",
+        "apec",
+        "probables",
+        "segun",
+        "tass"
+      ],
+      "date": "2026-11-18T17:47:48.437Z"
+    },
     {
       "title": "CUMBRE EN SHENZHEN Y EL NUEVO TABLERO DEL INDO-PACÍFICO",
       "normalizedTokens": [
@@ -7278,36 +7308,6 @@
         "euros"
       ],
       "date": "2026-11-03T11:18:57.518Z"
-    },
-    {
-      "title": "ESTADOS UNIDOS EJECUTA ATAQUES DEFENSIVOS EN LA ISLA IRANÍ DE QESHM",
-      "normalizedTokens": [
-        "estados",
-        "unidos",
-        "ejecuta",
-        "ataques",
-        "defensivos",
-        "isla",
-        "irani",
-        "qeshm"
-      ],
-      "date": "2026-11-03T11:01:53.245Z"
-    },
-    {
-      "title": "EE.UU. llevó a cabo ataques “defensivos” limitados en la isla iraní de Qeshm, según un funcionario",
-      "normalizedTokens": [
-        "llevo",
-        "cabo",
-        "ataques",
-        "defensivos",
-        "limitados",
-        "isla",
-        "irani",
-        "qeshm",
-        "segun",
-        "funcionario"
-      ],
-      "date": "2026-11-03T11:01:53.244Z"
     }
   ]
 }
