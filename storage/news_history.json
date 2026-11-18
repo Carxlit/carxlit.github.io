@@ -270,9 +270,36 @@
     "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack",
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTEQ2RXBRNGxObHd5LURuZlVCXzFCckhGQ0x2M1BVUkxhMjFRN1NaNHVoRmlQMG00aEdlYVZfc3lnemJsNWpqUGd1eVFQajRUZnM4T196VXdNZFVtQm55SktvemVqN1V2X1ZTT1hHVVB3T2tWNldacUxuWjE0VTBRNzhBRmpRUlJUS1NCZVJSUU5SVl8xa3NBakh1RWZEejQ?oc=5",
     "https://elpais.com/economia/2026-11-18/los-sindicatos-ugt-cc-oo-y-el-ferroviario-scf-firman-la-paz-con-transportes-en-favor-de-reforzar-la-seguridad-en-las-vias.html",
-    "https://www.clarin.com/mundo/donald-trump-llego-china-xi-jinping-recibio-pie-avion-previa-historica-trilateral-donald-putin_0_ecSbTaGskt.html"
+    "https://www.clarin.com/mundo/donald-trump-llego-china-xi-jinping-recibio-pie-avion-previa-historica-trilateral-donald-putin_0_ecSbTaGskt.html",
+    "http://www.africanews.com/2026/11/18/israeli-parliament-elects-eisenkot-ally-as-new-knesset-speaker/"
   ],
   "processedSignatures": [
+    {
+      "title": "MATAN KAHANA ASUME LA PRESIDENCIA DE LA KNESSET ISRAELÍ",
+      "normalizedTokens": [
+        "matan",
+        "kahana",
+        "asume",
+        "presidencia",
+        "knesset",
+        "israeli"
+      ],
+      "date": "2026-11-18T12:26:08.256Z"
+    },
+    {
+      "title": "Israeli parliament elects Eisenkot ally as new Knesset speaker",
+      "normalizedTokens": [
+        "israeli",
+        "parliament",
+        "elects",
+        "eisenkot",
+        "ally",
+        "new",
+        "knesset",
+        "speaker"
+      ],
+      "date": "2026-11-18T12:26:08.253Z"
+    },
     {
       "title": "TRUMP XI Y PUTIN PACTAN REUNIÓN TRILATERAL EN SHENZHEN",
       "normalizedTokens": [
@@ -7287,39 +7314,6 @@
         "horas"
       ],
       "date": "2026-11-02T17:48:56.579Z"
-    },
-    {
-      "title": "POTENCIAS MUNDIALES BUSCAN DISOLVER LA UNIÓN EUROPEA",
-      "normalizedTokens": [
-        "potencias",
-        "mundiales",
-        "buscan",
-        "disolver",
-        "union",
-        "europea"
-      ],
-      "date": "2026-11-02T17:48:11.853Z"
-    },
-    {
-      "title": "Foro World in Progress 2026 de Barcelona, en directo | Arcadi España afirma que “hay una estrategia deliberada de potencias mundiales” que buscan “disolver” la UE",
-      "normalizedTokens": [
-        "foro",
-        "world",
-        "progress",
-        "2026",
-        "barcelona",
-        "directo",
-        "arcadi",
-        "espana",
-        "afirma",
-        "estrategia",
-        "deliberada",
-        "potencias",
-        "mundiales",
-        "buscan",
-        "disolver"
-      ],
-      "date": "2026-11-02T17:48:11.852Z"
     }
   ]
 }
