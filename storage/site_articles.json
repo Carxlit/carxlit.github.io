@@ -1,5 +1,106 @@
 [
   {
+    "slug": "amenaza-bomba-sucia-washington-reactiva-maxima-vvcx",
+    "path": "noticias/amenaza-bomba-sucia-washington-reactiva-maxima-vvcx/",
+    "title": "La amenaza de una bomba sucia en Washington reactiva la máxima presión sobre Irán",
+    "headline": "TRUMP ADVIERTE SOBRE SUPUESTO COMPLOT IRANÍ CON BOMBA SUCIA",
+    "dek": "El presidente Donald Trump confirmó que evalúa informes de inteligencia sobre un posible ataque iraní en la capital estadounidense. Teherán desmintió las acusaciones mientras el aparato de seguridad nacional ajusta sus protocolos.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "France 24",
+    "image": "img/amenaza-bomba-sucia-washington-reactiva-maxima-vvcx.jpg",
+    "photo": "img/amenaza-bomba-sucia-washington-reactiva-maxima-vvcx-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "2uPaZfkhIlk",
+      "title": "BREAKING! IRAN DIRTY BOMB PLOT IN WASHINGTON DC?! TRUMP OFFICIALS TARGETED!",
+      "channel": "GENERAL SETI",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-18T10:35:45.307Z",
+    "article": {
+      "slug": "amenaza-bomba-sucia-washington-reactiva-maxima-vvcx",
+      "title": "La amenaza de una bomba sucia en Washington reactiva la máxima presión sobre Irán",
+      "dek": "El presidente Donald Trump confirmó que evalúa informes de inteligencia sobre un posible ataque iraní en la capital estadounidense. Teherán desmintió las acusaciones mientras el aparato de seguridad nacional ajusta sus protocolos.",
+      "keyFacts": [
+        "El presidente Donald Trump declaró el martes que Washington toma en serio los informes sobre un complot iraní.",
+        "La alerta surgió a partir de una consulta sobre un reporte de la cadena CNN basado en evaluaciones de inteligencia de Estados Unidos.",
+        "El Ministerio de Exteriores de Irán respondió a través de la plataforma X calificando las acusaciones como completamente infundadas."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El presidente estadounidense Donald Trump afirmó este martes que su administración se toma muy en serio la posibilidad de que Irán esté planificando un ataque con una bomba sucia en Washington. La declaración se produjo después de que el mandatario fuera interrogado por la prensa respecto a una información difundida por CNN, la cual citaba evaluaciones internas de los servicios de inteligencia estadounidenses.",
+            "De acuerdo con la cobertura de France 24, la respuesta oficial de Teherán no se hizo esperar. El portavoz del Ministerio de Exteriores iraní utilizó su cuenta en la red social X para negar categóricamente las acusaciones, calificándolas de infundadas y rechazando cualquier vinculación con un plan de atentado en suelo norteamericano."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La irrupción de este supuesto complot se produce en un escenario internacional saturado de tensiones superpuestas en Oriente Medio y disputas estratégicas de alcance global. La mención específica a un artefacto radiológico o bomba sucia eleva de forma automática el umbral de preocupación en Washington, donde la seguridad de los funcionarios del Gobierno ya figuraba como un punto de fricción constante con las redes de influencia vinculadas a Teherán.",
+            "Medios internacionales han documentado en paralelo múltiples frentes de conflicto en la región, desde la actividad de fuerzas respaldadas por potencias regionales en Yemen hasta disputas corporativas y tecnológicas de alto nivel, lo que demuestra que el tablero geopolítico opera bajo una presión constante en varios frentes simultáneos."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El verdadero ángulo crítico de este episodio no reside en el cruce de acusaciones públicas entre Washington y Teherán, sino en la naturaleza de la filtración y su utilidad política. Al validar públicamente un informe de inteligencia reservado sobre una bomba sucia, la administración instala una narrativa de urgencia inminente que condiciona el debate público y blinda cualquier decisión de seguridad frente al escrutinio crítico.",
+            "La utilización de la amenaza nuclear no convencional funciona como un mecanismo automático de disuasión y control interno, donde la verificación independiente de los datos queda relegada a un segundo plano frente a la necesidad de justificar una postura de confrontación permanente."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los sectores partidarios de la línea dura en materia de defensa y seguridad interior capitalizan la alerta para consolidar presupuestos, justificar mayores restricciones y blindar sus posiciones institucionales frente a cualquier intento de distensión diplomática.",
+            "Por el contrario, los canales de diálogo bilateral sufren un deterioro irreparable. Irán asume el costo reputacional de una acusación de alto impacto que justifica futuras medidas de aislamiento económico y sanciones, mientras que la ciudadanía queda expuesta a un clima de miedo constante sin acceso a las pruebas reales que sustentan la alerta oficial."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Resulta imperativo observar los próximos movimientos en los protocolos de seguridad en el distrito de Columbia y las posibles acciones punitivas que el Departamento de Estado pueda anunciar en el corto plazo. Cualquier endurecimiento en las restricciones comerciales o financieras contra entidades iraníes servirá como indicador del calado real de esta alerta de inteligencia."
+          ]
+        }
+      ],
+      "tags": [
+        "Geopolítica",
+        "Estados Unidos",
+        "Iran",
+        "Seguridad",
+        "Inteligencia"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "title": "Trump says ‘taking seriously’ reports Iran planning Washington dirty-bomb attack",
+          "url": "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack"
+        },
+        {
+          "name": "Fox News",
+          "title": "Trump advierte a Irán sobre el supuesto complot contra funcionarios del Gobierno: «Nos lo tomamos muy en serio»",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjdYZFh5OGZwTDdyUFhUX3Mxdlk0Nkw0dlNEb3NOa0hhNDhqVFd3NThQYWh6YlJUT09LYk5kMzhtWXJCVzI5OFQySnExNGJET1JYWlctaE9oRUZPVGlKSXlDUXhWbnBBQTBMN0VtOUhXQ0dJMEIyQXVPOTBzZ2FRWFFHaGdOblNfVWl4STBINnhRTHIyel9jVjhCRTJvUC0wZ3o4MmNkRXVYaVBFbmZUUmhB0gG3AUFVX3lxTFBDLU9DeGdCV0dxTXd3cDZPRGhpTWlXYzBkYTNySEowRDJGR0pwUi1FX1BSSDVmTlBYWXJidnVTV2stQ1dGdWtSTm9SX1U2RzJnbW02RzlqVEU3d1hFYUJIenBhRjdMNzc1TzRqdWFyNzRzcTd4ZER6SDk5TThpX1NVemNGOXhtRDlISldsaFZBSWx5YnZuYTlrd21rc3g0VHpBN1MwQXo1ZHJaZkVyYXR0S1RRcFp3cw?oc=5"
+        },
+        {
+          "name": "TradingView",
+          "title": "Jensen Huang Says He Would Be ‘Honored’ To Return To Nvidia If Board Decides It Is In Shareholders’ Interest",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNT3ZJZUVaWjkyR0tlWDBDOHdaTDJSWWlidHlrdkJITWhLbFFONXRoNlVNQ2FnR3VHOFRZdXBxdE5QQ2k3VjNRMmlIdS03Q3gxSDVKZ1lNOFNVMGlZbi1oVzZzSjRab0VoZGNjQVpxTV9Yc3BPbmNHU1ExMDBHRHB2c2RyOWM4UExGZDNnUHljNWpKdE9oOG4tYVpnbS1wc1J2XzAzM3EtZGZmTFlNRnNaaUxnQkFiMUlDVVdGeGkyNkRONXlNREJORmtMN2x4Rng4RHdiNkJnUXFNNjRzTmNxbVFvRkIwUWE2cHZESGw0SG13VTB5d3FQNA?oc=5"
+        },
+        {
+          "name": "ViveUSA.mx",
+          "title": "What is a dirty bomb? The threat from Iran that worries the United States",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWl5RGNIVTNPZjY4dUcwM3MySHZmb1N0WUFPRXZXZW04U2RGLVlidFViRlZ0cGFGU25adGt6SGxTUkFxT1FJN1N2LUFYWV9XclBPSmxyUEZfN2FzRGdTYkhUVzN5dE5QTFgzaEhxWU5OU2RFN2lXX3hCX1NFSFJ4ZEJYel95OUhicXZ2bkVfWF9vVW5hMDVzTnZldW5Ca3RpY0V1dHJoRDB6TkE?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Saudi-backed forces in Yemen beef up defenses outside Aden to thwart Houthis, and other Mideast news",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOXVldXBHVmFYbGZhYlJqN3pmaXU3LTdNdDV0ZG51b1B0Rk51RVo4eEYyYl92dUNVWGdBSTh2RWhCQ3Ffdk5Ldi1UMHFWQ3FkTVJGQlNUX2VLZVdZcHhSRXY0OWlzVUdJTWNMTElYVjlLWFBjaktXZ3pLRTZWeElnYUk0WEJVbmRjLVloampQMmJjaGgyakt2VXMzYjliRVd1OWR5LUFrN1Vnd1F5YzI1TTFZM2swRmN0VHN3T1YwOTBWcWxpUEdLbkNaeDdmN1V4R0Qyd08tZWRtVnh5?oc=5"
+        }
+      ],
+      "wordCount": 518
+    },
+    "blindSpot": "La sincronización de esta filtración de inteligencia ocurre en un momento de máxima tensión en Oriente Medio y presión interna sobre la administración. Mientras la narrativa oficial se centra en la disuasión inmediata, el trasfondo expone cómo la amenaza de una bomba sucia reactiva de forma automática los mecanismos de seguridad nacional más duros sin necesidad de una confirmación pública de los informes de la CNN."
+  },
+  {
     "slug": "diplomacia-alto-riesgo-tras-ataque-puente-j6q4",
     "path": "noticias/diplomacia-alto-riesgo-tras-ataque-puente-j6q4/",
     "title": "La diplomacia de alto riesgo tras el ataque al puente ruso",

@@ -266,9 +266,40 @@
     "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html",
     "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
-    "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge"
+    "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+    "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack"
   ],
   "processedSignatures": [
+    {
+      "title": "TRUMP ADVIERTE SOBRE SUPUESTO COMPLOT IRANÍ CON BOMBA SUCIA",
+      "normalizedTokens": [
+        "trump",
+        "advierte",
+        "supuesto",
+        "complot",
+        "irani",
+        "bomba",
+        "sucia"
+      ],
+      "date": "2026-11-18T10:35:45.424Z"
+    },
+    {
+      "title": "Trump says ‘taking seriously’ reports Iran planning Washington dirty-bomb attack",
+      "normalizedTokens": [
+        "trump",
+        "says",
+        "taking",
+        "seriously",
+        "reports",
+        "iran",
+        "planning",
+        "washington",
+        "dirty",
+        "bomb",
+        "attack"
+      ],
+      "date": "2026-11-18T10:35:45.422Z"
+    },
     {
       "title": "PUTIN SE REÚNE CON TRUMP Y XI TRAS ATAQUE A PUENTE RUSO",
       "normalizedTokens": [
@@ -7286,38 +7317,6 @@
         "mundo"
       ],
       "date": "2026-11-02T15:53:39.448Z"
-    },
-    {
-      "title": "SAM ALTMAN CRITICA EL USO DE RAM EN COMPUTADORAS PERSONALES",
-      "normalizedTokens": [
-        "sam",
-        "altman",
-        "critica",
-        "uso",
-        "ram",
-        "computadoras",
-        "personales"
-      ],
-      "date": "2026-11-02T15:44:05.023Z"
-    },
-    {
-      "title": "Sam Altman, CEO de OpenAI: \"Es terrible que la gente tenga memoria RAM en su propio PC utilizándose solo el 5 % del tiempo\"",
-      "normalizedTokens": [
-        "sam",
-        "altman",
-        "ceo",
-        "openai",
-        "terrible",
-        "gente",
-        "tenga",
-        "memoria",
-        "ram",
-        "propio",
-        "utilizandose",
-        "solo",
-        "tiempo"
-      ],
-      "date": "2026-11-02T15:44:05.023Z"
     }
   ]
 }

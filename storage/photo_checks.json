@@ -1228,5 +1228,10 @@
     "relevant": false,
     "reason": "La imagen muestra a líderes de la cumbre QUAD (incluyendo a Donald Trump) y no a Vladimir Putin ni a Xi Jinping en el contexto descrito.",
     "at": "2026-11-18T10:04:00.957Z"
+  },
+  "8f8bf502d4a65af0:g8b7gz32g": {
+    "relevant": true,
+    "reason": "Muestra la Casa Blanca, sede del gobierno estadounidense y lugar central mencionado en el titular y el contexto sobre la alerta en la capital.",
+    "at": "2026-11-18T10:35:40.078Z"
   }
 }
