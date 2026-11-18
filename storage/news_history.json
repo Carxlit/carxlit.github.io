@@ -278,9 +278,41 @@
     "https://www.abc.es/internacional/yasuhiro-kawakami-china-saliendo-esperaba-20261117012616-nt.html",
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3N6SVVHQ2NGRjBfeWtmclI5TUgyOUFqc1E4dm5TV2NCSUxSX0RoZjFFc2t5c0FfRkw0MnhwaHQtRVFzcDQ3Qk81bU5ZRGpTNXFvWTBld1kzbXlFQjExRngxSXZ5akg1NGJrQ3Y4NjYtY2Vzc3pmVU85empfODFCS25ZXzNFM0ZMRDMyTk5fNlFOWFk?oc=5",
     "https://www.abc.es/internacional/eeuu-extiende-tutela-venezuela-ejercito-acuerdo-militar-20261118190304-nt.html",
-    "https://www.genbeta.com/actualidad/jose-andres-chef-57-anos-yo-volveria-a-crear-servicio-militar-paralelo-otro-social-gente-joven-tuviera-oportunidad-salario-hacer-este-tipo-servicio-a-su-pais"
+    "https://www.genbeta.com/actualidad/jose-andres-chef-57-anos-yo-volveria-a-crear-servicio-militar-paralelo-otro-social-gente-joven-tuviera-oportunidad-salario-hacer-este-tipo-servicio-a-su-pais",
+    "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "EJÉRCITO ISRAELÍ LANZA OPERACIÓN TERRESTRE MÁS ALLÁ DE LA LÍNEA AMARILLA",
+      "normalizedTokens": [
+        "ejercito",
+        "israeli",
+        "lanza",
+        "operacion",
+        "terrestre",
+        "mas",
+        "alla",
+        "linea",
+        "amarilla"
+      ],
+      "date": "2026-11-18T21:55:58.325Z"
+    },
+    {
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "normalizedTokens": [
+        "israeli",
+        "military",
+        "launches",
+        "rare",
+        "ground",
+        "operation",
+        "gaza",
+        "beyond",
+        "yellow",
+        "line"
+      ],
+      "date": "2026-11-18T21:55:58.323Z"
+    },
     {
       "title": "EL CHEF JOSE ANDRES DEFIENDE EL RETORNO DE LA MILI",
       "normalizedTokens": [
@@ -7284,35 +7316,6 @@
         "rodriguez"
       ],
       "date": "2026-11-03T12:30:07.098Z"
-    },
-    {
-      "title": "RENUNCIA EL PRESIDENTE DEL BANCO CENTRAL PARAGUAYO TRAS CRISIS BANCARIA",
-      "normalizedTokens": [
-        "renuncia",
-        "presidente",
-        "banco",
-        "central",
-        "paraguayo",
-        "crisis",
-        "bancaria"
-      ],
-      "date": "2026-11-03T11:46:48.103Z"
-    },
-    {
-      "title": "Presidente del Banco Central paraguayo presenta renuncia tras inicio de procedimiento a banco local",
-      "normalizedTokens": [
-        "presidente",
-        "banco",
-        "central",
-        "paraguayo",
-        "presenta",
-        "renuncia",
-        "inicio",
-        "procedimiento",
-        "banco",
-        "local"
-      ],
-      "date": "2026-11-03T11:46:48.103Z"
     }
   ]
 }
