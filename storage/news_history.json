@@ -272,9 +272,38 @@
     "https://elpais.com/economia/2026-11-18/los-sindicatos-ugt-cc-oo-y-el-ferroviario-scf-firman-la-paz-con-transportes-en-favor-de-reforzar-la-seguridad-en-las-vias.html",
     "https://www.clarin.com/mundo/donald-trump-llego-china-xi-jinping-recibio-pie-avion-previa-historica-trilateral-donald-putin_0_ecSbTaGskt.html",
     "http://www.africanews.com/2026/11/18/israeli-parliament-elects-eisenkot-ally-as-new-knesset-speaker/",
-    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdFYzRzlaT2NDVG5HaWJ1SldiR3BYd1pCOGpmdWFzNjBDVUhGcjkzUk8tNG01Mnp6TlhVYWpfOHg2RTBZRlRURXZqMzItVVZXZURDYUpoZVk0S05SV2M4M2VNWmxrVVc2TlBUZmtuY3h0eDA1cm5BeGlZa2dtU1VLNFJ1WXpqZEJDWElJUnB0WXd6THM?oc=5"
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdFYzRzlaT2NDVG5HaWJ1SldiR3BYd1pCOGpmdWFzNjBDVUhGcjkzUk8tNG01Mnp6TlhVYWpfOHg2RTBZRlRURXZqMzItVVZXZURDYUpoZVk0S05SV2M4M2VNWmxrVVc2TlBUZmtuY3h0eDA1cm5BeGlZa2dtU1VLNFJ1WXpqZEJDWElJUnB0WXd6THM?oc=5",
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/china-y-estados-unidos-se-acusan-mutuamente-en-mexico-por-la-responsabilidad-en-el-trafico-y-la-crisis-del-fentanilo-3601927"
   ],
   "processedSignatures": [
+    {
+      "title": "CHINA Y ESTADOS UNIDOS CHOCAN EN MÉXICO POR FENTANILO",
+      "normalizedTokens": [
+        "china",
+        "estados",
+        "unidos",
+        "chocan",
+        "mexico",
+        "fentanilo"
+      ],
+      "date": "2026-11-18T14:11:04.482Z"
+    },
+    {
+      "title": "China y Estados Unidos se acusan mutuamente en México por la responsabilidad en el tráfico y la crisis del fentanilo",
+      "normalizedTokens": [
+        "china",
+        "estados",
+        "unidos",
+        "acusan",
+        "mutuamente",
+        "mexico",
+        "responsabilidad",
+        "trafico",
+        "crisis",
+        "fentanilo"
+      ],
+      "date": "2026-11-18T14:11:04.479Z"
+    },
     {
       "title": "CHRISTOPHER WALLER EXIGE UNA RESPUESTA MÁS AGRESIVA DE LA FED",
       "normalizedTokens": [
@@ -7283,36 +7312,6 @@
         "rusia"
       ],
       "date": "2026-11-02T17:49:29.655Z"
-    },
-    {
-      "title": "SOFTWARE ASTRONÓMICO REESCRIBE LA CRONOLOGÍA DE VAN GOGH",
-      "normalizedTokens": [
-        "software",
-        "astronomico",
-        "reescribe",
-        "cronologia",
-        "van",
-        "gogh"
-      ],
-      "date": "2026-11-02T17:49:13.751Z"
-    },
-    {
-      "title": "Un nuevo estudio rastrea la famosa ‘Noche estrellada’ de Van Gogh hasta un cielo nocturno real de 1889",
-      "normalizedTokens": [
-        "nuevo",
-        "estudio",
-        "rastrea",
-        "famosa",
-        "noche",
-        "estrellada",
-        "van",
-        "gogh",
-        "cielo",
-        "nocturno",
-        "real",
-        "1889"
-      ],
-      "date": "2026-11-02T17:49:13.751Z"
     }
   ]
 }
