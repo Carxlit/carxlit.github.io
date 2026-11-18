@@ -264,9 +264,39 @@
     "https://news.google.com/rss/articles/CBMid0FVX3lxTFBteUxpUzJrZml6dkRBTG93Uy1sejBDR2ZXSnh0ZDBzc3dFem1obkpoRkRUd2MtOVFvRnFvU3VWRVdMQkNaQi1qaHlOa2sxdEl5MmlZMUNiVV9pNTZHV0hTZzJqanotMnV5eU1SbUFiSVFWZnkyUno0?oc=5",
     "https://es.wired.com/articulos/la-ia-ataco-hugging-face-pero-el-ceo-sigue-creyendo-de-que-el-codigo-abierto-puede-salvarnos",
     "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html",
-    "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "RUBIO DESCARTA ATAQUE SISTÉMICO TRAS FALLAS TECNOLÓGICAS MASIVAS",
+      "normalizedTokens": [
+        "rubio",
+        "descarta",
+        "ataque",
+        "sistemico",
+        "fallas",
+        "tecnologicas",
+        "masivas"
+      ],
+      "date": "2026-11-18T08:03:25.059Z"
+    },
+    {
+      "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+      "normalizedTokens": [
+        "rubio",
+        "says",
+        "not",
+        "under",
+        "systemic",
+        "attack",
+        "after",
+        "series",
+        "tech",
+        "outages"
+      ],
+      "date": "2026-11-18T08:03:25.058Z"
+    },
     {
       "title": "AVIÓN MILITAR RUSO SE DESPLOMA EN SIBERIA Y MUEREN 19 PERSONAS",
       "normalizedTokens": [
@@ -7295,36 +7325,6 @@
         "mandato"
       ],
       "date": "2026-11-02T15:23:30.026Z"
-    },
-    {
-      "title": "IRÁN CONDICIONA LA REAPERTURA DE ORMUZ A EXIGENCIAS A WASHINGTON",
-      "normalizedTokens": [
-        "iran",
-        "condiciona",
-        "reapertura",
-        "ormuz",
-        "exigencias",
-        "washington"
-      ],
-      "date": "2026-11-02T15:23:05.236Z"
-    },
-    {
-      "title": "El régimen de Irán dijo que reabrirá el estrecho de Ormuz en dos días si Estados Unidos acepta sus condiciones",
-      "normalizedTokens": [
-        "regimen",
-        "iran",
-        "dijo",
-        "reabrira",
-        "estrecho",
-        "ormuz",
-        "dos",
-        "dias",
-        "estados",
-        "unidos",
-        "acepta",
-        "condiciones"
-      ],
-      "date": "2026-11-02T15:23:05.235Z"
     }
   ]
 }

@@ -1,5 +1,85 @@
 [
   {
+    "slug": "fragilidad-digital-bajo-lupa-costo-infraestructura-msk9",
+    "path": "noticias/fragilidad-digital-bajo-lupa-costo-infraestructura-msk9/",
+    "title": "La fragilidad digital bajo la lupa: el costo de la infraestructura obsoleta",
+    "headline": "RUBIO DESCARTA ATAQUE SISTÉMICO TRAS FALLAS TECNOLÓGICAS MASIVAS",
+    "dek": "Marco Rubio desmiente que las recientes interrupciones tecnológicas sean un ataque coordinado, mientras expertos cuestionan la resiliencia de los sistemas críticos de Estados Unidos.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "BBC News",
+    "image": "img/fragilidad-digital-bajo-lupa-costo-infraestructura-msk9.jpg",
+    "photo": "img/fragilidad-digital-bajo-lupa-costo-infraestructura-msk9-foto.jpg",
+    "publishedAt": "2026-11-18T08:03:24.959Z",
+    "article": {
+      "slug": "fragilidad-digital-bajo-lupa-costo-infraestructura-msk9",
+      "title": "La fragilidad digital bajo la lupa: el costo de la infraestructura obsoleta",
+      "dek": "Marco Rubio desmiente que las recientes interrupciones tecnológicas sean un ataque coordinado, mientras expertos cuestionan la resiliencia de los sistemas críticos de Estados Unidos.",
+      "keyFacts": [
+        "La FAA ordenó un paro nacional de vuelos de más de cuatro horas, el mayor desde el 11 de septiembre de 2001.",
+        "Las fallas afectaron a Microsoft, Apple, JPMorgan Chase y servicios de la Agencia de Seguridad Nacional.",
+        "El Secretario de Transporte atribuyó el fallo aéreo a una actualización de cables de cobre y equipos obsoletos.",
+        "Marco Rubio y el Director de Inteligencia Nacional, Jay Clayton, descartaron vínculos con actores hostiles."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "En la última semana, Estados Unidos ha experimentado una serie de fallos tecnológicos sin precedentes que han afectado a pilares fundamentales de la economía y la seguridad nacional. Desde interrupciones en servicios de Microsoft hasta la paralización total de los vuelos comerciales durante cuatro horas, la frecuencia y el alcance de estas fallas han generado un clima de incertidumbre.",
+            "El Secretario de Estado, Marco Rubio, ha sido enfático al descartar cualquier teoría sobre una operación coordinada. Según sus declaraciones, no existe evidencia que vincule los incidentes entre sí, atribuyendo los problemas a fallos en la actualización de sistemas antiguos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El incidente más crítico fue el paro nacional de la Administración Federal de Aviación (FAA), que obligó a mantener los aviones en tierra por más de cuatro horas. Según el Departamento de Transporte, la causa fue una actualización de cableado de cobre y el uso de equipos tecnológicamente desfasados.",
+            "Por su parte, el Director de Inteligencia Nacional, Jay Clayton, reforzó la postura oficial en Fox News, señalando que las instituciones están en un proceso constante de parches y actualizaciones que, en ocasiones, derivan en interrupciones operativas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Aunque el gobierno insiste en la naturaleza técnica y aislada de cada evento, el trasfondo estratégico revela una debilidad peligrosa. La simultaneidad de estos fallos, incluso si no son producto de un ataque, demuestra que la infraestructura crítica de Estados Unidos opera al límite de su capacidad.",
+            "La dependencia de sistemas heredados (legacy) convierte a la nación en un blanco fácil. Si un error de actualización puede paralizar la banca y el transporte, un adversario con capacidades de ciberinteligencia no necesita un ataque complejo para causar un daño sistémico: basta con identificar y presionar los puntos de falla ya existentes."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Pierde la confianza del mercado y la percepción de seguridad operativa del Estado. Las grandes instituciones financieras y de transporte, como JPMorgan Chase y United Airlines, han visto sus operaciones interrumpidas, lo que implica costos operativos directos y un impacto reputacional en sus clientes.",
+            "El gobierno, al admitir que estos sistemas son obsoletos, queda bajo una presión pública inmensa para invertir masivamente en modernización, un proceso que requiere tiempo y recursos presupuestarios en un clima de alta polarización política."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "La atención debe centrarse en los planes de modernización de infraestructura digital que el Congreso pueda aprobar en los próximos meses. La capacidad del gobierno para asegurar la resiliencia de estos sistemas determinará si estos 'glitches' se mantienen como anécdotas técnicas o si se consolidan como una vulnerabilidad estructural permanente."
+          ]
+        }
+      ],
+      "tags": [
+        "Infraestructura",
+        "Ciberseguridad",
+        "MarcoRubio",
+        "Tecnología",
+        "EstadosUnidos"
+      ],
+      "sources": [
+        {
+          "name": "BBC News",
+          "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "El Universal",
+          "title": "Rubio afirma que \"no hay evidencia\" de vínculos entre recientes fallas tecnológicas en EU; descarta ataque sistemático",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNWVGZVFWQVpiX1E0TF93ZFVWcXpMVWNleENmWFZkTThKUWpxelBoRV8xT2N1TWFlcGRENGl5Qmp2WFZoalRNaUJUX3ZKQmMtMTJHbG1jUVpYVHZCVHpxLTNKcDh3RjFGTGFsUlBNQ19ZMDJCTS0zYWY4UUxTb3NQdFhnN01wbEtjMm1jQ0ZlLUthLVBMdWNJYXg2YXdvMDExRGhGYklYVU9kQUJjZXdBNUdLWUI0Y081UDhYN094ai11UUd6S2swSnhsdmhDV2FmVTdPeV9GTXI5VzZiQVBfbWV3cjh6TE1s?oc=5"
+        }
+      ],
+      "wordCount": 438
+    },
+    "blindSpot": "La narrativa oficial se centra en la fragilidad técnica de sistemas heredados, pero ignora la vulnerabilidad estratégica que supone la simultaneidad de estos fallos. La dependencia de una infraestructura digital envejecida permite a adversarios externos observar la capacidad de reacción y resiliencia del Estado ante un colapso sistémico real."
+  },
+  {
     "slug": "avion-transporte-militar-an-12-estrella-siberia-jf7e",
     "path": "noticias/avion-transporte-militar-an-12-estrella-siberia-jf7e/",
     "title": "Un avión de transporte militar An-12 se estrella en Siberia y mueren 19 personas",
