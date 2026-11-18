@@ -1203,5 +1203,10 @@
     "relevant": true,
     "reason": "Muestra una pantalla de CNBC con la cotización bursátil de NVIDIA y una noticia sobre Jensen Huang.",
     "at": "2026-11-17T22:20:30.314Z"
+  },
+  "2b21c5a6ae2ce673:xih77fx0o": {
+    "relevant": true,
+    "reason": "La imagen de cámara de seguridad muestra el momento del impacto del avión en la región siberiana.",
+    "at": "2026-11-18T05:02:19.856Z"
   }
 }

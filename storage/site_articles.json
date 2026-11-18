@@ -1,5 +1,88 @@
 [
   {
+    "slug": "avion-transporte-militar-an-12-estrella-siberia-jf7e",
+    "path": "noticias/avion-transporte-militar-an-12-estrella-siberia-jf7e/",
+    "title": "Un avión de transporte militar An-12 se estrella en Siberia y mueren 19 personas",
+    "headline": "AVIÓN MILITAR RUSO SE DESPLOMA EN SIBERIA Y MUEREN 19 PERSONAS",
+    "dek": "La caída de una aeronave de carga en la región siberiana de Kemerovo expone el desgaste operacional de la aviación militar rusa. El Ministerio de Defensa atribuye de forma preliminar el siniestro a un fallo mecánico.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "BBC News",
+    "image": "img/avion-transporte-militar-an-12-estrella-siberia-jf7e.jpg",
+    "photo": "img/avion-transporte-militar-an-12-estrella-siberia-jf7e-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "VDWBVFyxki8",
+      "title": "¡Avión militar se estrella en Siberia! ✈️🚨",
+      "channel": "DIME Noticias"
+    },
+    "publishedAt": "2026-11-18T05:02:23.888Z",
+    "article": {
+      "slug": "avion-transporte-militar-an-12-estrella-siberia-jf7e",
+      "title": "Un avión de transporte militar An-12 se estrella en Siberia y mueren 19 personas",
+      "dek": "La caída de una aeronave de carga en la región siberiana de Kemerovo expone el desgaste operacional de la aviación militar rusa. El Ministerio de Defensa atribuye de forma preliminar el siniestro a un fallo mecánico.",
+      "keyFacts": [
+        "Las 19 personas a bordo del avión militar An-12 murieron tras el impacto en la región de Kemerovo.",
+        "El accidente ocurrió en una zona deshabitada cerca de la localidad de Yagunovo durante un vuelo programado.",
+        "Un video de cámaras de seguridad verificado por BBC News y Reuters mostró el momento de la caída y la posterior explosión.",
+        "El gobernador local Ilya Seredyuk confirmó el despliegue inmediato de bomberos y equipos de emergencia en la zona acordonada.",
+        "El Ministerio de Defensa de Rusia informó a través de medios estatales que la causa preliminar fue una falla técnica."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un avión de transporte militar An-12 de las Fuerzas Armadas de Rusia se estrelló en la región siberiana de Kemerovo mientras realizaba un vuelo programado. Según declaraciones del Ministerio de Defensa de Rusia divulgadas por medios estatales, las 19 personas a bordo perdieron la vida en el accidente, ocurrido en una zona deshabitada cercana a la localidad de Yagunovo.",
+            "Imágenes de cámaras de seguridad difundidas en redes sociales y verificadas por la agencia Reuters y parcialmente por BBC News captaron el momento de la tragedia. El material muestra un objeto incandescente cayendo a lo lejos en el cielo nocturno, seguido por una luz brillante producto de una explosión en el horizonte. El gobernador de la región, Ilya Seredyuk, confirmó que los equipos de emergencia sofocaron las llamas rápidamente y que la policía acordonó el área del impacto para permitir el trabajo de los investigadores aeronáuticos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El modelo Antonov An-12 es una pieza fundamental dentro de la estructura de movilidad de las Fuerzas Armadas rusas. Diseñado como avión de transporte de carga y personal de mediano alcance, se utiliza habitualmente para el traslado de tropas, armamento, equipamiento pesado y operaciones de búsqueda y rescate en zonas remotas.",
+            "Las autoridades de aviación civil y militar de Rusia iniciaron una investigación oficial para precisar las circunstancias exactas del accidente. Aunque la causa preliminar informada por la cartera de Defensa apunta a una falla técnica de la aeronave, las condiciones operativas de este tipo de unidades requieren revisiones continuas ante el ritmo de uso acumulado."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de Punto Ciego revela que más allá de las pérdidas inmediatas reportadas en Kemerovo, el siniestro resalta la vulnerabilidad logística de las líneas de transporte interior de Rusia. La constante utilización de plataformas aéreas heredadas para sostener la logística territorial impone un estrés mecánico ininterrumpido a la flota.",
+            "En un contexto donde la prioridad de los recursos y la logística está concentrada en requerimientos operativos inmediatos, el mantenimiento preventivo de aviones de apoyo en áreas periféricas como Siberia enfrenta cuellos de botella. La recurrencia de fallas mecánicas en aeronaves clave pone en evidencia la tensión entre el ritmo de operaciones y la sostenibilidad de los activos aéreos."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "La pérdida de una plataforma de transporte An-12 resta flexibilidad a la capacidad de reabastecimiento táctico y movimiento de tropas del mando militar ruso en la región siberiana, afectando la eficiencia de las misiones de apoyo regional.",
+            "Por otro lado, los evaluadores de inteligencia y defensa extranjeros obtienen un indicador directo sobre el estado de la flota logística secundaria de Rusia, evidenciando las limitaciones que enfrenta el aparato militar para mantener la operatividad de sus aviones de transporte sin incidentes."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá observar los dictámenes finales de la comisión investigadora de aviación para determinar si la falla técnica responde a un componente específico o a fatiga del material. Asimismo, será relevante monitorear si el Ministerio de Defensa ruso decreta la suspensión temporal de los vuelos de la flota de transportes An-12 para inspecciones mecánicas preventivas."
+          ]
+        }
+      ],
+      "tags": [
+        "Rusia",
+        "AviaciónMilitar",
+        "Kemerovo",
+        "Defensa",
+        "Siberia",
+        "Logística"
+      ],
+      "sources": [
+        {
+          "name": "BBC News",
+          "title": "Russian military plane crashes, killing all 19 on board",
+          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "wordCount": 530
+    },
+    "blindSpot": "Más allá de la versión oficial que atribuye el siniestro a un fallo técnico en una zona deshabitada, la pérdida de este An-12 expone la elevada tasa de desgaste operacional sobre la flota de transporte militar de Rusia. Mantener plataformas logísticas heredadas bajo un ritmo de operaciones constante impone severos cuellos de botella en la capacidad de despliegue y reabastecimiento en zonas periféricas."
+  },
+  {
     "slug": "nvidia-desafia-caos-bursatil-ingresos-record-mbl4",
     "path": "noticias/nvidia-desafia-caos-bursatil-ingresos-record-mbl4/",
     "title": "Nvidia desafía el caos bursátil con ingresos récord mientras la sombra regulatoria se alarga",
