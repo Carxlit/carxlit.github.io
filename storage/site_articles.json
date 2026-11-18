@@ -1,5 +1,108 @@
 [
   {
+    "slug": "hito-voyager-1-49-anos-silencio-jj9r",
+    "path": "noticias/hito-voyager-1-49-anos-silencio-jj9r/",
+    "title": "El hito de la Voyager 1: 49 años de silencio y datos en el vacío",
+    "headline": "VOYAGER 1 ALCANZA LA DISTANCIA DE UN DÍA LUZ",
+    "dek": "La sonda de la NASA ha alcanzado la distancia de un día luz, consolidándose como el objeto humano más lejano. Su operatividad desafía los límites actuales de la ingeniería y la gestión de señales en el espacio profundo.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "The Verge",
+    "image": "img/hito-voyager-1-49-anos-silencio-jj9r.jpg",
+    "photo": "img/hito-voyager-1-49-anos-silencio-jj9r-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "8zhiRqd-7zY",
+      "title": "Voyager 1 Is Officially One Light-Day Away | TFSM NEWS",
+      "channel": "The Flip Side of The Moon ",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-18T15:04:13.811Z",
+    "article": {
+      "slug": "hito-voyager-1-49-anos-silencio-jj9r",
+      "title": "El hito de la Voyager 1: 49 años de silencio y datos en el vacío",
+      "dek": "La sonda de la NASA ha alcanzado la distancia de un día luz, consolidándose como el objeto humano más lejano. Su operatividad desafía los límites actuales de la ingeniería y la gestión de señales en el espacio profundo.",
+      "keyFacts": [
+        "La Voyager 1 ha viajado durante 49 años para alcanzar la distancia de un día luz.",
+        "La sonda se encuentra a 16.094 millones de millas de la Tierra.",
+        "Los datos tardan exactamente 24 horas en viajar entre la nave y nuestro planeta.",
+        "La Voyager 1 se dirige hacia la estrella Gliese 445 en la constelación de la Osa Menor.",
+        "La sonda continúa enviando lecturas sobre plasma, campos magnéticos y partículas."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La NASA confirmó que la sonda Voyager 1 alcanzó el miércoles a las 5:16 AM ET el hito de un día luz de distancia respecto a la Tierra. Este registro implica que la señal de radio, viajando a la velocidad de la luz, requiere 24 horas para completar el trayecto entre la sonda y las antenas del Deep Space Network.",
+            "Con una distancia oficial de 16.094 millones de millas, la nave se consolida como el objeto fabricado por el hombre más alejado de nuestro planeta, superando todas las expectativas de vida útil proyectadas en su lanzamiento hace casi cinco décadas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Tras cumplir sus objetivos primarios en 1980 con los sobrevuelos de Júpiter y Saturno, la Voyager 1 inició una travesía interestelar. A pesar de su antigüedad, la sonda sigue operativa y enviando información valiosa sobre el medio interestelar, incluyendo lecturas de plasma y partículas espaciales.",
+            "Su nave gemela, la Voyager 2, sigue una trayectoria distinta y no alcanzará esta misma distancia hasta el año 2035, según las proyecciones de la agencia espacial estadounidense."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El verdadero desafío que la NASA no enfatiza es la gestión de la degradación sistémica. Mantener operativa una sonda de la era analógica en el entorno hostil del espacio profundo es una proeza que revela una brecha en la capacidad actual: hemos perdido la capacidad de diseñar sistemas con esta resiliencia a largo plazo.",
+            "Mientras la atención pública se centra en el hito numérico, el valor real reside en la persistencia del hardware frente a la entropía, un recordatorio de que la durabilidad es, a menudo, el componente más subestimado de la tecnología moderna."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "La NASA gana prestigio institucional y un flujo de datos único que ninguna otra agencia puede replicar. El costo lo asume el personal técnico, que debe lidiar con una latencia de comunicación extrema y sistemas de navegación que operan bajo condiciones de incertidumbre constante.",
+            "En el tablero geopolítico, Estados Unidos mantiene su hegemonía en el conocimiento del espacio profundo, dejando a otras potencias espaciales en una posición de seguidoras que deben invertir décadas para intentar replicar esta presencia en el límite del sistema solar."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El monitoreo de la salud de los instrumentos de la Voyager 1 es la prioridad. Cualquier fallo en la transmisión de datos marcará el fin de esta era de exploración, transformando la sonda en un monumento inerte que continuará su camino hacia Gliese 445, estrella que alcanzará en unos 40.000 años."
+          ]
+        }
+      ],
+      "tags": [
+        "Tecnología",
+        "NASA",
+        "Espacio",
+        "Ingeniería",
+        "Exploración"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "title": "NASA’s Voyager 1 probe is now 1 light-day away",
+          "url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone"
+        },
+        {
+          "name": "todoalicante.es",
+          "title": "How far is Voyager 1? NASA probe reaches historic milestone of one light-day",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR1JwdlZGU1A4eC0wQllpWVBnSk1BLUFzVURDVGdQU1hKcDh3VG1sVVNiMXk0R0gtaEFFb1Fqa0YyZUZwa1B4Tm5WM0ZoUHBJTzBtSTVCMFRhVFlxUlpYN3N5OC1HME0wdHUzR2NMc3VuX0lPcVljTURELUU5UVRDV3JMM081S0VETnlB0gGLAUFVX3lxTE9HUnB2VkZTUDh4LTBCWWlZUGdKTUEtQXNVRENUZ1BTWEpwOHdUbWxVU2IxeTRHSC1oQUVvUWprRjJlRnBrUHhOblYzRmhQcElPMG1JNUIwVGFUWXFSWlg3c3k4LUcwTTB0dTNHY0xzdW5fSU9xWWNNREQtRTlRVENXckwzTzVLRUROeUE?oc=5"
+        },
+        {
+          "name": "IFLScience",
+          "title": "NASA Is About To Receive A Message From One Light-Day Away For The First Time In History",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONk5mSldrOVdQZXNUd3YxNUN0bUY5T01ESzdmOXVtaXFJcjZmZHNTOXhROXh5OEhqWlB0MTlzc0hZcU5kdVVMN3VTcHNCckU1TU54aEZvZ0QzcVIxSmo1S3U4c29RM3hDSVRvYUVBZjYwOHRrei1rckduSWV6V2xKWFVrZGMtX1paWjQ5clNKVTVLUTdUOVRCOUFxd0xIZWhyZmVXSG92ZmctX19KbXJsWVJoYWFrZ3RoTWtwdW9n?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Otro hito espacial de la Voyager 1: la NASA confirma que es el primer objeto lanzado por el hombre a un día luz de la Tierra",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWTZmTkMyTm9TdW96SDRhVnY4cVU5YVdhckVkNS1NLWZqZVBnczR4R1dJVGhhN21fcmo5RElfcDhhRGZtd3pobHR5R0V6WV93Y25HQzItYU1wLXZyeklvREdrcjlmTGU0bzhwSXhQNHJNRklZUkRJZW56Q0ZUNXh4ekpOYTBFMl9jMTBtTEQ3RXM1NmF0aUZDX0pFX1p5UllXV3BmRWxFNVM4SXJLRHpldTZ0X2ZuYTR3ZHR6c0FhV1c1d3plLXhXY052NXpiUllGd3RidF9hNWc1OFlkQ3NCR01Scw?oc=5"
+        },
+        {
+          "name": "RPP Noticias",
+          "title": "Hito histórico: tras 49 años de travesía, la sonda Voyager 1 ya se encuentra a un día luz de la Tierra",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONUFqVkpESVItUlZTU1NJNUw0QzdEVWpFVkVqZFY5VnNrVXREWGgtM0RfTC04ME85aDY3VDdwY0VTbzBDNk0xRXlhd0hOLVRhT3R3TFg2MlBEUlRSSHo3TDdDRU5zWmpqQzlNNDJJTUlfcEhaeU9pRTBMQmtNbTVkZnVSei0tNkUzTFNnTy16a3dPenFTRlBwYVZRb3YyS0dZbFBrY2RNOVMyZlY2eDM1b2pmNGpvLTdEVnNaTnpmTVA3N21HVFNNLUdSaGFpdU01ZjJ4WVFRZ1UwcVExVUVuNg?oc=5"
+        }
+      ],
+      "wordCount": 440
+    },
+    "blindSpot": "Más allá del hito técnico, la misión revela la obsolescencia programada de la exploración humana. La verdadera relevancia reside en cómo la NASA mantiene operativa tecnología de hace medio siglo frente a la degradación inevitable de sus sistemas en el vacío interestelar."
+  },
+  {
     "slug": "pugna-entre-estados-unidos-china-fentanilo-957s",
     "path": "noticias/pugna-entre-estados-unidos-china-fentanilo-957s/",
     "title": "La pugna entre Estados Unidos y China por el fentanilo escala hasta territorio mexicano",
