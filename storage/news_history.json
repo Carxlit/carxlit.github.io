@@ -276,9 +276,34 @@
     "https://www.eltiempo.com/mundo/eeuu-y-canada/china-y-estados-unidos-se-acusan-mutuamente-en-mexico-por-la-responsabilidad-en-el-trafico-y-la-crisis-del-fentanilo-3601927",
     "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
     "https://www.abc.es/internacional/yasuhiro-kawakami-china-saliendo-esperaba-20261117012616-nt.html",
-    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3N6SVVHQ2NGRjBfeWtmclI5TUgyOUFqc1E4dm5TV2NCSUxSX0RoZjFFc2t5c0FfRkw0MnhwaHQtRVFzcDQ3Qk81bU5ZRGpTNXFvWTBld1kzbXlFQjExRngxSXZ5akg1NGJrQ3Y4NjYtY2Vzc3pmVU85empfODFCS25ZXzNFM0ZMRDMyTk5fNlFOWFk?oc=5"
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3N6SVVHQ2NGRjBfeWtmclI5TUgyOUFqc1E4dm5TV2NCSUxSX0RoZjFFc2t5c0FfRkw0MnhwaHQtRVFzcDQ3Qk81bU5ZRGpTNXFvWTBld1kzbXlFQjExRngxSXZ5akg1NGJrQ3Y4NjYtY2Vzc3pmVU85empfODFCS25ZXzNFM0ZMRDMyTk5fNlFOWFk?oc=5",
+    "https://www.abc.es/internacional/eeuu-extiende-tutela-venezuela-ejercito-acuerdo-militar-20261118190304-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "EEUU EXTIENDE SU CONTROL MILITAR Y ENERGÉTICO EN VENEZUELA",
+      "normalizedTokens": [
+        "eeuu",
+        "extiende",
+        "control",
+        "militar",
+        "energetico",
+        "venezuela"
+      ],
+      "date": "2026-11-18T18:51:23.720Z"
+    },
+    {
+      "title": "EE.UU. extiende la tutela de Venezuela al Ejército con un acuerdo militar",
+      "normalizedTokens": [
+        "extiende",
+        "tutela",
+        "venezuela",
+        "ejercito",
+        "acuerdo",
+        "militar"
+      ],
+      "date": "2026-11-18T18:51:23.718Z"
+    },
     {
       "title": "EL KREMLIN DESCARTA NEGOCIACIONES BILATERALES PLENAS CON DONALD TRUMP",
       "normalizedTokens": [
@@ -7277,37 +7302,6 @@
         "madrid"
       ],
       "date": "2026-11-03T11:32:19.115Z"
-    },
-    {
-      "title": "OFERTAS DE HARDWARE OCULTAN LA CRISIS GLOBAL DE MEMORIA RAM",
-      "normalizedTokens": [
-        "ofertas",
-        "hardware",
-        "ocultan",
-        "crisis",
-        "global",
-        "memoria",
-        "ram"
-      ],
-      "date": "2026-11-03T11:18:57.518Z"
-    },
-    {
-      "title": "El portátil gaming que se adelanta al Black Friday: tiene 32 GB de RAM, incluye una RTX 5060 y su descuento es de 500 euros",
-      "normalizedTokens": [
-        "portatil",
-        "gaming",
-        "adelanta",
-        "black",
-        "friday",
-        "ram",
-        "incluye",
-        "rtx",
-        "5060",
-        "descuento",
-        "500",
-        "euros"
-      ],
-      "date": "2026-11-03T11:18:57.518Z"
     }
   ]
 }
