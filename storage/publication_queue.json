@@ -26453,5 +26453,140 @@
       }
     },
     "publishedAt": "2026-11-19T13:31:14.373Z"
+  },
+  {
+    "id": "queue-1795102578145-3ke1m",
+    "news": {
+      "id": "hoq4nz43d",
+      "originalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5",
+      "originalTitle": "Revelan que la Unión Europea fue víctima de ciberataque potenciado con inteligencia artificial",
+      "sourceName": "San Antonio Express-News",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 85,
+      "headline": "LA UNIÓN EUROPEA CONFIRMA CIBERATAQUE POTENCIADO POR INTELIGENCIA ARTIFICIAL",
+      "subHeadline": "Instituciones europeas enfrentan una brecha de seguridad ejecutada mediante herramientas automatizadas de IA durante el mes de octubre.",
+      "blindSpotAngle": "Más allá del daño técnico, el incidente expone la obsolescencia de los protocolos de defensa cibernética de la UE frente a vectores de ataque que escalan mediante aprendizaje automático. La verdadera amenaza es la capacidad de estos sistemas para realizar ataques de phishing y reconocimiento adaptativo a una velocidad que supera la capacidad de respuesta humana.",
+      "facebookPost": "La Unión Europea ha confirmado ser blanco de un ciberataque potenciado por inteligencia artificial durante el pasado mes de octubre. Mientras los comunicados oficiales se centran en la resiliencia de los sistemas, el hecho es que la arquitectura de seguridad institucional ha sido vulnerada por algoritmos capaces de aprender y adaptarse en tiempo real.\n\nEl punto ciego aquí no es la intrusión en sí, sino la velocidad a la que la IA está dejando obsoletos los actuales firewalls y protocolos de defensa europeos. Estamos ante una nueva era de conflicto donde la automatización desborda las capacidades de respuesta humana.\n\n¿Estamos sobreestimando la capacidad de las instituciones para blindar sus datos ante ataques que ya no dependen de intervención humana constante?\n\nFuente: San Antonio Express-News\n\n#Ciberseguridad #InteligenciaArtificial #PuntoCiego",
+      "telegramPost": "<b>LA UNIÓN EUROPEA BAJO ATAQUE DE IA</b>\n\n• <b>Qué ocurrió:</b> La UE confirmó haber sufrido un ciberataque ejecutado mediante técnicas de inteligencia artificial durante octubre.\n• <b>Por qué importa:</b> El uso de IA permite ataques dinámicos y adaptativos que superan los protocolos de defensa tradicionales, marcando un cambio en el paradigma de la ciberseguridad estatal.\n• <b>Qué sigue:</b> Bruselas deberá acelerar la revisión de su soberanía digital y la implementación de contramedidas basadas en IA para evitar una escalada de vulnerabilidades en sus instituciones.",
+      "linkedInPost": "La confirmación de un ciberataque potenciado por IA contra la Unión Europea durante octubre no es un evento aislado, sino un indicador de riesgo sistémico. La capacidad de los vectores de ataque basados en aprendizaje automático para identificar vulnerabilidades en tiempo real obliga a replantear la resiliencia de la infraestructura crítica de la UE.\n\nPara las organizaciones, la lección es clara: el modelo de defensa estático es insostenible. La soberanía digital europea queda bajo presión frente a actores que ya operan con una ventaja tecnológica asimétrica. La inversión en ciberseguridad debe dejar de ser reactiva para convertirse en una estrategia de defensa activa basada en IA.\n\nFuente: San Antonio Express-News\n\n#Ciberseguridad #IA #EstrategiaDigital #PuntoCiego",
+      "blueskyPost": "El ciberataque con IA a la UE en octubre no es solo un error técnico; es la prueba de que nuestras defensas actuales son lentas frente a la automatización del delito. La brecha de seguridad es estructural. #PuntoCiego #Ciberseguridad",
+      "copies": {
+        "facebook": "La Unión Europea ha confirmado ser blanco de un ciberataque potenciado por inteligencia artificial durante el pasado mes de octubre. Mientras los comunicados oficiales se centran en la resiliencia de los sistemas, el hecho es que la arquitectura de seguridad institucional ha sido vulnerada por algoritmos capaces de aprender y adaptarse en tiempo real.\n\nEl punto ciego aquí no es la intrusión en sí, sino la velocidad a la que la IA está dejando obsoletos los actuales firewalls y protocolos de defensa europeos. Estamos ante una nueva era de conflicto donde la automatización desborda las capacidades de respuesta humana.\n\n¿Estamos sobreestimando la capacidad de las instituciones para blindar sus datos ante ataques que ya no dependen de intervención humana constante? #Ciberseguridad #InteligenciaArtificial #PuntoCiego",
+        "telegram": "<b>LA UNIÓN EUROPEA BAJO ATAQUE DE IA</b>\n\n• <b>Qué ocurrió:</b> La UE confirmó haber sufrido un ciberataque ejecutado mediante técnicas de inteligencia artificial durante octubre.\n• <b>Por qué importa:</b> El uso de IA permite ataques dinámicos y adaptativos que superan los protocolos de defensa tradicionales, marcando un cambio en el paradigma de la ciberseguridad estatal.\n• <b>Qué sigue:</b> Bruselas deberá acelerar la revisión de su soberanía digital y la implementación de contramedidas basadas en IA para evitar una escalada de vulnerabilidades en sus instituciones.",
+        "bluesky": "El ciberataque con IA a la UE en octubre no es solo un error técnico; es la prueba de que nuestras defensas actuales son lentas frente a la automatización del delito. La brecha de seguridad es estructural. #PuntoCiego #Ciberseguridad",
+        "linkedIn": "La confirmación de un ciberataque potenciado por IA contra la Unión Europea durante octubre no es un evento aislado, sino un indicador de riesgo sistémico. La capacidad de los vectores de ataque basados en aprendizaje automático para identificar vulnerabilidades en tiempo real obliga a replantear la resiliencia de la infraestructura crítica de la UE.\n\nPara las organizaciones, la lección es clara: el modelo de defensa estático es insostenible. La soberanía digital europea queda bajo presión frente a actores que ya operan con una ventaja tecnológica asimétrica. La inversión en ciberseguridad debe dejar de ser reactiva para convertirse en una estrategia de defensa activa basada en IA. #Ciberseguridad #IA #EstrategiaDigital #PuntoCiego"
+      },
+      "article": {
+        "slug": "brecha-digital-europea-cuando-inteligencia-artificial-ppki",
+        "title": "La brecha digital europea: cuando la inteligencia artificial se vuelve contra las instituciones",
+        "dek": "Un ciberataque ejecutado mediante IA ha vulnerado la seguridad de la Unión Europea. El incidente pone en evidencia la fragilidad de los sistemas de defensa ante la automatización del crimen cibernético.",
+        "keyFacts": [
+          "El ataque fue confirmado durante el mes de octubre.",
+          "La intrusión utilizó herramientas potenciadas por inteligencia artificial.",
+          "La Unión Europea es el objetivo principal de la brecha de seguridad.",
+          "El incidente ha sido reportado por diversos medios internacionales incluyendo San Antonio Express-News."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Durante el mes de octubre, la Unión Europea fue objeto de un ciberataque de alta complejidad que utilizó inteligencia artificial para sortear los controles de seguridad institucionales. Aunque los detalles técnicos específicos sobre la magnitud de la filtración de datos siguen bajo investigación, la confirmación oficial del uso de IA como vector principal de ataque ha encendido las alarmas en Bruselas.",
+              "El uso de estas herramientas permitió a los atacantes realizar procesos de reconocimiento y ejecución de manera automatizada, superando la velocidad de respuesta de los equipos de ciberseguridad convencionales."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Este incidente se produce en un momento en que la Unión Europea intenta consolidar su posición como líder en la regulación de la inteligencia artificial a través de la Ley de Inteligencia Artificial. La paradoja es evidente: mientras Europa legisla sobre el uso ético de la tecnología, sus propias instituciones se convierten en campos de pruebas para usos malintencionados de la misma."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El verdadero problema no reside únicamente en el acceso no autorizado, sino en la asimetría de capacidades. La IA permite que los atacantes escalen sus operaciones sin necesidad de una gran infraestructura humana. Mientras los sistemas de defensa de la UE se basan en protocolos burocráticos y revisiones periódicas, el atacante utiliza algoritmos que aprenden de sus propios fallos y se adaptan al entorno en milisegundos.",
+              "Esta brecha revela que la ciberseguridad europea carece de una respuesta automatizada de igual magnitud, dejando a las instituciones en una posición de vulnerabilidad permanente."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los grandes beneficiados son aquellos actores (estatales o paraestatales) capaces de desplegar herramientas de IA ofensiva para desestabilizar la infraestructura digital europea. Por otro lado, la Unión Europea pierde credibilidad en su capacidad de proyectar seguridad digital, lo que podría afectar tanto a sus procesos internos como a su influencia en la gobernanza tecnológica internacional."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Es necesario monitorear si este ataque resulta en la filtración de información sensible sobre políticas de defensa o si se trata de un ejercicio de prueba para futuras operaciones de mayor escala. La respuesta de Bruselas en las próximas semanas será clave para entender si existe una estrategia real de contención ante la amenaza de la IA ofensiva."
+            ]
+          }
+        ],
+        "tags": [
+          "Ciberseguridad",
+          "Inteligencia Artificial",
+          "Unión Europea",
+          "Soberanía Digital"
+        ],
+        "sources": [
+          {
+            "name": "San Antonio Express-News",
+            "title": "Revelan que la Unión Europea fue víctima de ciberataque potenciado con inteligencia artificial",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5"
+          },
+          {
+            "name": "Clarin.com",
+            "title": "Revelan que la Unión Europea fue víctima de un ciberataque potenciado con inteligencia artificial",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeG11V2RPM2FMZzhZeHBPVU51Zl9DUnFCLUtqclN2cG03b2UteDN0Sk9iY1RnQ1E1TWwxZWdCUUc3NkotTU9yMDJIZmI4cDJWbE9nSkNoOHF0T1ZMX2dzRE94YjdmZDZROXg4RVFld0hLT0hoOHo0bTlScF9XYU5URlVQOEZobnNtX1NXUlpSanhkdndnT3p5b2NsNXNhY1RGTFp2dE5EY211MF9uQV9CYThQc3cxdkRkQmVuSHBDWmw?oc=5"
+          },
+          {
+            "name": "Independent en Español",
+            "title": "Sube levemente el número de personas que piden ayuda por desempleo en EEUU",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYnFfcEZ0RE4tRjlIOVl5TXowTWtTR0RTbVZlYzFpLVFxNUdxa2hXZFlfMHdQelNvZFZOOWlDdWpXdGhFRVFOX2J5Z3p4RWZfVWVVUHRrZVA5MHp4UWZlQ3F5YjNfdklubVpKLTNZODU2eEdZUmZ3eDR1VTJxLWp1dU5BbW9VdUpTR3hlUzhzS0t2MkpyT0hjME5keXlBR0V5Yk41R2xIUER2Zno1dzVEcC1qYWVQUmlRalRpTFBiNk5WR0Q1T21BdDh3cy01RFJyMFdZV3ZuaTY?oc=5"
+          },
+          {
+            "name": "Diario El Día de La Plata",
+            "title": "Revelan que la Unión Europea sufrió un ciberataques potenciado por IA",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaTNROGhBWUFSb1dpZXZ2YTNfeERDX2pMek4zSGoyV0o5ck84aTZEZU5JeTJ5cGtCd3ZJODdZNFpLRXhYZzNXNWs4c1lYN1o2ZWFaT3I3UHdlU1MzTUFoZFhOSC1jNHNFUTU0Q0xySjFhRjFwT3Fzd3JqQzBiSjFDTl82MWNjSHJaWTV4SzVqRnB4LTZNakp5MnlGMEw4S2xJVHNpNS1yMW5nZlU1b1NzRzV3cXZjSFhjTXpnWA?oc=5"
+          },
+          {
+            "name": "Cadena 3 Argentina",
+            "title": "La Unión Europea sufrió un ciberataque impulsado por inteligencia artificial en octubre",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORThYbklnb0N4ZWN1RzE5cFIzTVJWNjBsS0trTFoyVGZ3SklwVkNPSWZNZkdrZlBzNjVWbmlTVlZFWE16U1JYQThsSHgxb0xWR1FiXzE5MGxkbGFnY0gyUXQ2ZUpJejlBNFpOU0VvV3djZUNhT2dZdXQyM2xLaWk3MTRfQjhja2ZkMVEwcHFZcTlYc29DT1RoRkVqQ01JUVBBRzdsVEtsR3ktR2Y0Z1lYMEZoTnUxR3VCU1JXZ0tNSTRIUnBCNUp4N19IRmFjUFJkdEHSAdIBQVVfeXFMTkU4WG5JZ29DeGVjdUcxOXBSM01SVjYwbEtLa0xaMlRmd0pJcFZDT0lmTWZHa2ZQczY1Vm5pU1ZWRVhNelNSWEE4bEh4MW9MVkdRYl8xOTBsZGxhZ2NIMlF0NmVKSXo5QTRaTlNFb1d3Y2VDYU9nWXV0MjNsS2lpNzE0X0I4Y2tmZDFRMHBxWXE5WHNvQ09UaEZFakNNSVFQQUc3bFRLbEd5LUdmNGdZWDBGaE51MUd1QlNSV2dLTUk0SFJwQjVKeDdfSEZhY1BSZHRB?oc=5"
+          }
+        ],
+        "wordCount": 387
+      },
+      "videoScript": {
+        "hook": "La Unión Europea fue hackeada por inteligencia artificial durante el mes de octubre",
+        "beats": [
+          "Los atacantes utilizaron herramientas automatizadas que superaron los protocolos de seguridad tradicionales en tiempo récord.",
+          "Esto no fue un ataque común, sino una operación capaz de adaptarse y aprender mientras esquivaba cualquier defensa humana.",
+          "El punto ciego es que la inteligencia artificial ofensiva hoy es más rápida que cualquier firewall institucional que tengamos."
+        ],
+        "close": "Lee el análisis completo sobre este incidente en el enlace del perfil."
+      },
+      "rawImageUrl": "https://www.clarin.com/img/2026/11/19/U15hzdnBH_2000x1500__1.jpg",
+      "status": "pending",
+      "createdAt": "2026-11-19T15:36:15.692Z",
+      "cardImageUrl": "/news-cards/news-hoq4nz43d-1795102575692.jpg",
+      "reelCoverUrl": "/news-cards/news-hoq4nz43d-1795102576331-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-hoq4nz43d-1795102576883-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-digital-europea-cuando-inteligencia-artificial-ppki/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-19T17:47:12.932Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-19T15:36:18.145Z"
   }
 ]
