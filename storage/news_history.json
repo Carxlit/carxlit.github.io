@@ -284,9 +284,41 @@
     "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack",
     "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa",
     "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen",
-    "https://www.infobae.com/america/mundo/2026/11/19/en-vivo-historica-reunion-trilateral-entre-donald-trump-xi-jinping-y-vladimir-putin/"
+    "https://www.infobae.com/america/mundo/2026/11/19/en-vivo-historica-reunion-trilateral-entre-donald-trump-xi-jinping-y-vladimir-putin/",
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-secretario-de-guerra-de-estados-unidos-se-refirio-a-su-visita-a-colombia-califico-el-encuentro-como-reunion-productiva-3602260"
   ],
   "processedSignatures": [
+    {
+      "title": "HEGSETH AFILA ALIANZAS MILITARES EN COLOMBIA Y VENEZUELA",
+      "normalizedTokens": [
+        "hegseth",
+        "afila",
+        "alianzas",
+        "militares",
+        "colombia",
+        "venezuela"
+      ],
+      "date": "2026-11-19T11:47:51.922Z"
+    },
+    {
+      "title": "Pete Hegseth, secretario de Guerra de Estados Unidos, se refirió a su visita a Colombia: calificó el encuentro como 'reunión productiva'",
+      "normalizedTokens": [
+        "pete",
+        "hegseth",
+        "secretario",
+        "guerra",
+        "estados",
+        "unidos",
+        "refirio",
+        "visita",
+        "colombia",
+        "califico",
+        "encuentro",
+        "reunion",
+        "productiva"
+      ],
+      "date": "2026-11-19T11:47:51.919Z"
+    },
     {
       "title": "CUMBRE TRILATERAL EN SHENZHEN REDISEÑA LA ARQUITECTURA NUCLEAR Y ENERGÉTICA",
       "normalizedTokens": [
@@ -7292,33 +7324,6 @@
         "emergencia"
       ],
       "date": "2026-11-03T20:23:36.914Z"
-    },
-    {
-      "title": "REINO UNIDO FACILITA EXPORTACIONES MILITARES A CHILE",
-      "normalizedTokens": [
-        "reino",
-        "unido",
-        "facilita",
-        "exportaciones",
-        "militares",
-        "chile"
-      ],
-      "date": "2026-11-03T18:51:41.142Z"
-    },
-    {
-      "title": "Reino Unido incorpora a Chile en su nueva licencia de exportaci�n de bienes militares",
-      "normalizedTokens": [
-        "reino",
-        "unido",
-        "incorpora",
-        "chile",
-        "nueva",
-        "licencia",
-        "exportaci",
-        "bienes",
-        "militares"
-      ],
-      "date": "2026-11-03T18:51:41.142Z"
     }
   ]
 }

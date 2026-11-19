@@ -1,5 +1,100 @@
 [
   {
+    "slug": "despliegue-militar-estados-unidos-norte-sudamerica-kbvo",
+    "path": "noticias/despliegue-militar-estados-unidos-norte-sudamerica-kbvo/",
+    "title": "El despliegue militar de Estados Unidos en el norte de Sudamérica",
+    "headline": "HEGSETH AFILA ALIANZAS MILITARES EN COLOMBIA Y VENEZUELA",
+    "dek": "La gira del secretario de Guerra Pete Hegseth por Bogotá y Caracas responde a una estrategia de contención geopolítica. El envío de equipamiento y los acuerdos técnico-militares redefinen el equilibrio de seguridad en la región.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "El Tiempo",
+    "image": "img/despliegue-militar-estados-unidos-norte-sudamerica-kbvo.jpg",
+    "photo": "img/despliegue-militar-estados-unidos-norte-sudamerica-kbvo-foto.jpg",
+    "publishedAt": "2026-11-19T11:47:51.720Z",
+    "article": {
+      "slug": "despliegue-militar-estados-unidos-norte-sudamerica-kbvo",
+      "title": "El despliegue militar de Estados Unidos en el norte de Sudamérica",
+      "dek": "La gira del secretario de Guerra Pete Hegseth por Bogotá y Caracas responde a una estrategia de contención geopolítica. El envío de equipamiento y los acuerdos técnico-militares redefinen el equilibrio de seguridad en la región.",
+      "keyFacts": [
+        "Pete Hegseth se reunió en Bogotá con el canciller Omar Bula y el ministro de Defensa Jorge Mora, calificando la cita de productiva.",
+        "La agenda bilateral contempla la entrega de un avión de transporte militar C-130 para la Fuerza Pública de Colombia.",
+        "En Caracas, Hegseth acordó con Delcy Rodríguez reanudar la cooperación técnico-militar para enfrentar a actores extranjeros."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El secretario de Guerra de Estados Unidos, Pete Hegseth, completó una visita a la capital colombiana donde sostuvo reuniones bilaterales de alto nivel con el canciller Omar Bula y el ministro de Defensa Jorge Mora. Tras el encuentro en Bogotá, el funcionario estadounidense calificó las conversaciones como una reunión productiva enfocada en consolidar la agenda compartida de seguridad.",
+            "El desarrollo de esta gira incluyó la confirmación del arribo de una aeronave C-130 destinada al fortalecimiento operativo de la Fuerza Pública. De acuerdo con los reportes periodísticos de El Tiempo y Yahoo, este movimiento busca reforzar la capacidad de transporte y logística en territorio colombiano."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El paso de Hegseth por Colombia no constituye una acción aislada en la agenda del Pentágono. Coberturas de medios como EL PAÍS, ICNDiario y Univision documentan que el secretario de Guerra también encabezó conversaciones decisivas en Caracas con Delcy Rodríguez.",
+            "Durante las deliberaciones en Venezuela, las autoridades de ambos países acordaron la reanudación de los esquemas de cooperación técnico-militar. La postura oficial manifestada por Washington sostiene que este acercamiento responde a la necesidad de blindar la zona andina frente a la intromisión de actores extranjeros que amenacen la estabilidad regional."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la diplomacia tradicional presenta estos eventos como acuerdos bilaterales desconectados, el análisis de Punto Ciego revela la ejecución de un cerco estratégico sobre la frontera norte sudamericana. Washington no busca simplemente donar equipamiento o restablecer canales de diálogo; busca coordinar de manera directa los mandos militares locales.",
+            "Al combinar la provisión de material clave como el avión C-130 en Bogotá con compromisos de cooperación en Caracas, Estados Unidos asegura una posición de supervisión continua sobre las decisiones defensivas de la región, limitando la influencia de potencias rivales que buscan expandir su presencia geopolítica."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El gran ganador en este tablero es el Pentágono, que logra alinear la postura táctica de dos naciones vecinas bajo el argumento de la contención militar de terceros actores. Por su parte, los gobiernos locales obtienen beneficios inmediatos en equipamiento y respaldo institucional, pero asumen un claro costo en su margen de independencia.",
+            "El perdedor silencioso es la autonomía estratégica del bloque andino. Al subordinar la soberanía operativa al aprovisionamiento y mantenimiento de tecnología estadounidense, la región pierde capacidad para gestionar de forma soberana su propia seguridad hemisférica."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá monitorear de cerca los términos específicos adjuntos a la entrega de la aeronave C-130 y la letra chica de los pactos de inteligencia alcanzados con Delcy Rodríguez. El grado de injerencia operativa derivado de la cooperación técnico-militar determinará la profundidad del control ejercido por Washington en Sudamérica."
+          ]
+        }
+      ],
+      "tags": [
+        "Seguridad",
+        "Defensa",
+        "Estados Unidos",
+        "Colombia",
+        "Venezuela",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "El Tiempo",
+          "title": "Pete Hegseth, secretario de Guerra de Estados Unidos, se refirió a su visita a Colombia: calificó el encuentro como 'reunión productiva'",
+          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-secretario-de-guerra-de-estados-unidos-se-refirio-a-su-visita-a-colombia-califico-el-encuentro-como-reunion-productiva-3602260"
+        },
+        {
+          "name": "Yahoo",
+          "title": "Pete Hegseth, Secretario de Guerra de Estados Unidos, llegará a Colombia este miércoles con avión C-130 para la Fuerza Pública",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM3lnZlNwVEw2MTMxQkxFVEU2WEtIclpfWEQ5M3pNa00ySXYxSy1LdWtob1Rmc3pwdzRyX0VXZ0NadXRlVDdVdldvTnhYeFNrck5jSmpNNUdYU2dOLW9pTWhTNTFCYUhOLVRWR19HT0dOWFdIMkg1d3hKTks3bmUwd0phT0tkT1pGM3FhNmNPaw?oc=5"
+        },
+        {
+          "name": "EL PAÍS",
+          "title": "El secretario de Defensa de Estados Unidos anuncia un acuerdo con Venezuela contra amenazas de “actores extranjeros”",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOYWJCdXkwMHVpSVBjd1BRVktWSzF3a0paR0ljNlhDVmE2c0dNZldxejVjTUpOMjV2cy1HNWNUZVRic3NXOXYwMmM5c2tVdU40MFZwdkdwQ2REX3ZtUFNRNnM3R3pKcEY3RFAxQVZJS29LejNZZV9MOTF2Q0pzZ0g5bU1FS0stOEg5dVRDbWpMckc1Z1c5and3V3llcENHWW9kREFIclV0NzFFLThVcXFabWdyc0VUX3I3M2RSWnJDczBlOUg0d0NDSklpeHRCbDdPYTRWYkhkSTJXbTN0SjFhU1dqQUNkeG00S0p5a3VGZF82eWhDamRqb3FHa9IBjwJBVV95cUxQa2J2OFA0WkpHaGU4dFFVTVgtd29IWGt6bzVLRDVocW1XeHhLdlNNX0tjUXI5eTJad0tRUWhZR3dNa0FTWFY4blFveXZvTmNjWFlISzBLRXZuTjE2cTVtdTdaSThkTEhNOTZPS1hMQi0zVkZHaUxIa29VR3lkTU9BNWY5THVXbElWN0MxMk5mR3YzeUxadnBZel9zdElrdnBhMmZpS3gyNzlOTGo4cDBKM09rT19VMFhUX1ZNTTZ0WlBjRGszYUVtUHN1VGtkOUNZa1k2bVBKZ0dpSEYwQjdiS2RrdWM2MFpTWElYTkdxNXowM1g2SVlPQjRvQUx2N3YyeF9TQmdkaEdIbUJ4Q0tB?oc=5"
+        },
+        {
+          "name": "ICNDiario",
+          "title": "Delcy Rodríguez y el secretario de Guerra de EE. UU., Pete Hegseth, que dirigió la operación para capturar a Maduro, acuerdan reanudar la cooperación técnico-militar",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQNjk3eWdtT3JqdzFIcmlPd0lLR3dmOGVBd19XQWlpWENHY2lqMFZtUEN4cE10azlPWFRCUkNZQi1adEtJNkZmSVhiWWhUV2NoSmhwZ0tQd2xzT2pwQ0lFTzViYlUzVEU1Ti12Wk1QWk0taEhCSTgyU29ndjRiZXJRZGRLclY2M3ZycEVJd1FsWWFkcEh2VVlITWt4bUxPNkJ2UTh0VUg1SlotMXk5eWtXMnFVX1NOS1VST2FvUTZHX3pQRG5jNEVaTUJITE5aZjJGVU1iNlVGa00yVW5ncDNWN0ZGaEpYblJCSzBLVUNYQjdpamFQQnFsNmh1SjRXWDBTRkktenVTMUV3TU1JYzRLdTJyVkZ2VndrOWNj?oc=5"
+        },
+        {
+          "name": "Univision",
+          "title": "¿Qué contempla el nuevo acuerdo militar entre Estados Unidos y Venezuela? Esto se sabe del encuentro hoy en Caracas",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVHNsZXBNTWpyRDVPVDY3MXJqX0o0ZmZ0QWZlcGNNcmx6TXM3MHRseFhiWnlmUU1RX21TLVJoR0JBWlBleHlmR1VOTlYyOHhxZmFjRi1qZlN3Y2xOWHJ0eFZ4eUhPX05YVjYzbXhfUDIxanlCNXpMZ2NndjFDaEYyNlotdFdFdUQ5dDBTWmlkTGJIUWRFQTdudkF1WnpKUFlXaFpQeTcyd3VlUGVuQjkzcFFqRTYwbGcyT0hMSU44Q1EwV0lXVEM2WlRGdDQtanQ0YklHME5rcVl5T3o4bExHMjJXNm96TE9naHc?oc=5"
+        }
+      ],
+      "wordCount": 459
+    },
+    "blindSpot": "La retórica oficial presenta la gira como una visita diplomática estándar a Colombia para evaluar la cooperación bilateral. Sin embargo, la articulación paralela de pactos técnico-militares con Delcy Rodríguez en Caracas revela una reconfiguración agresiva del control territorial hemisférico para neutralizar el despliegue de potencias extranjeras rivales."
+  },
+  {
     "slug": "cumbre-trilateral-shenzhen-pacto-energetico-nuclear-g561",
     "path": "noticias/cumbre-trilateral-shenzhen-pacto-energetico-nuclear-g561/",
     "title": "La cumbre trilateral de Shenzhen: el pacto energético y nuclear entre Trump, Xi y Putin",
