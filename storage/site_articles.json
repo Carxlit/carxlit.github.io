@@ -1,5 +1,86 @@
 [
   {
+    "slug": "ataque-ruso-contra-odesa-golpea-nucleo-aifp",
+    "path": "noticias/ataque-ruso-contra-odesa-golpea-nucleo-aifp/",
+    "title": "Ataque ruso contra Odesa golpea el núcleo histórico en plena antesala negociadora",
+    "headline": "ATAQUE RUSO CONTRA ODESA DEJA CUATRO MUERTOS",
+    "dek": "Tres bombardeos consecutivos contra zonas residenciales de Odesa dejan cuatro muertos y al menos trece heridos, evidenciando una campaña militar que coincide con la espera de nuevas conversaciones mediadas por Washington.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Euronews",
+    "image": "img/ataque-ruso-contra-odesa-golpea-nucleo-aifp.jpg",
+    "photo": "img/ataque-ruso-contra-odesa-golpea-nucleo-aifp-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "pgg5rOyskbs",
+      "title": "Russian strikes kill two in Odesa and a 17-year-old in Zaporizhzhia",
+      "channel": "Stand With Ukraine UK"
+    },
+    "publishedAt": "2026-11-19T08:04:09.496Z",
+    "article": {
+      "slug": "ataque-ruso-contra-odesa-golpea-nucleo-aifp",
+      "title": "Ataque ruso contra Odesa golpea el núcleo histórico en plena antesala negociadora",
+      "dek": "Tres bombardeos consecutivos contra zonas residenciales de Odesa dejan cuatro muertos y al menos trece heridos, evidenciando una campaña militar que coincide con la espera de nuevas conversaciones mediadas por Washington.",
+      "keyFacts": [
+        "Cuatro personas murieron y al menos trece resultaron heridas en los bombardeos.",
+        "Tres ataques rusos separados golpearon el distrito durante la mañana.",
+        "El conflicto cumplió más de cuatro años desde la invasión a gran escala iniciada el 24 de febrero de 2022.",
+        "Oleh Kiper es el gobernador de la administración militar regional de Odesa."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Una serie de tres ataques rusos consecutivos sacudió el distrito de Odesa durante la mañana, impactando directamente contra edificios residenciales, comercios, cafeterías y vehículos estacionados. Según informó Oleh Kiper, gobernador de la administración militar regional, la ofensiva dejó un saldo confirmado de cuatro personas fallecidas y al menos trece heridas.",
+            "Las imágenes publicadas por el Servicio de Emergencia del Estado mostraron a los equipos de rescate combatiendo las llamas en estructuras gravemente dañadas y extinguiendo vehículos carbonizados, mientras los socorristas trasladaban a los civiles heridos hacia las ambulancias en calles cubiertas de escombros y cristales rotos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Este ataque se produce cuando se cumplen más de cuatro años desde el inicio de la invasión a gran escala por parte de Rusia el 24 de febrero de 2022. La ofensiva continua ha castigado de manera implacable las ciudades y la infraestructura crítica de Ucrania durante todo este periodo.",
+            "En esta ocasión, el bombardeo alcanzó el núcleo histórico de Odesa, una zona reconocida internacionalmente por su arquitectura emblemática y sus densos vecindarios civiles, alejados supuestamente de los frentes de combate activos."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los informes oficiales se limitan a contabilizar los daños materiales y el número de heridos en las calles de Odesa, la cobertura de los medios masivos tiende a aislar el evento como un episodio puramente táctico. El verdadero trasfondo radica en el momento político en el que se produce la ofensiva.",
+            "Los bombardeos coinciden con el compás de espera de ambas capitales para confirmar la próxima ronda de negociaciones mediadas por Estados Unidos. Arreciar los ataques sobre centros urbanos emblemáticos justo antes de sentarse a dialogar funciona como una herramienta de presión coercitiva para influir en los términos del eventual alto el fuego."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, Moscú busca mantener la iniciativa militar y debilitar la resiliencia interna ucraniana, imponiendo costos estructurales severos en zonas urbanas de alto valor simbólico. Por su parte, la población civil y la administración local en Odesa asumen todo el costo humanitario.",
+            "En el plano diplomático, el gobierno ucraniano enfrenta el desafío de negociar bajo la presión constante de la destrucción de sus ciudades, mientras que los mediadores internacionales observan cómo la escalada bélica amenaza con erosionar cualquier base de entendimiento previo."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la confirmación oficial y el formato definitivo de las negociaciones mediadas por Estados Unidos en los próximos días. Asimismo, la evolución de los daños en la infraestructura civil de Odesa y la respuesta de las defensas aéreas ucranianas marcarán el pulso de la resistencia en el sur del país."
+          ]
+        }
+      ],
+      "tags": [
+        "Odesa",
+        "Rusia",
+        "Ucrania",
+        "Negociaciones",
+        "Guerra"
+      ],
+      "sources": [
+        {
+          "name": "Euronews",
+          "title": "Ukraine: Four killed and at least 13 injured in Russian strike on Odesa",
+          "url": "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa"
+        }
+      ],
+      "wordCount": 448
+    },
+    "blindSpot": "El verdadero propósito de estos bombardeos persistentes sobre centros urbanos no es solo mermar la infraestructura civil, sino condicionar desde una posición de fuerza la agenda de las próximas negociaciones mediadas por Estados Unidos."
+  },
+  {
     "slug": "ataque-puente-kerch-ofensiva-videos-falsos-knm7",
     "path": "noticias/ataque-puente-kerch-ofensiva-videos-falsos-knm7/",
     "title": "Ataque en el puente de Kerch y la ofensiva de videos falsos con inteligencia artificial",

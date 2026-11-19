@@ -1308,5 +1308,10 @@
     "relevant": true,
     "reason": "Muestra imágenes de desinformación sobre el puente de Kerch en un programa de verificación.",
     "at": "2026-11-19T05:17:06.431Z"
+  },
+  "3841afb51ca13728:sipf9i7io": {
+    "relevant": true,
+    "reason": "la imagen muestra las secuelas del ataque en Odesa mencionado en el titular.",
+    "at": "2026-11-19T08:04:07.212Z"
   }
 }

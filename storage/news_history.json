@@ -281,9 +281,37 @@
     "https://www.genbeta.com/actualidad/jose-andres-chef-57-anos-yo-volveria-a-crear-servicio-militar-paralelo-otro-social-gente-joven-tuviera-oportunidad-salario-hacer-este-tipo-servicio-a-su-pais",
     "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
     "https://es.euronews.com/2026/11/18/bukele-confirma-un-ataque-aereo-contra-la-mansion-del-jefe-de-una-banda-haitiana",
-    "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack"
+    "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack",
+    "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa"
   ],
   "processedSignatures": [
+    {
+      "title": "ATAQUE RUSO CONTRA ODESA DEJA CUATRO MUERTOS",
+      "normalizedTokens": [
+        "ataque",
+        "ruso",
+        "odesa",
+        "deja",
+        "cuatro",
+        "muertos"
+      ],
+      "date": "2026-11-19T08:04:09.622Z"
+    },
+    {
+      "title": "Ukraine: Four killed and at least 13 injured in Russian strike on Odesa",
+      "normalizedTokens": [
+        "ukraine",
+        "four",
+        "killed",
+        "and",
+        "least",
+        "injured",
+        "russian",
+        "strike",
+        "odesa"
+      ],
+      "date": "2026-11-19T08:04:09.621Z"
+    },
     {
       "title": "UCRANIA ATACA EL PUENTE DE KERCH Y SURGE DESINFORMACIÓN CON IA",
       "normalizedTokens": [
@@ -7288,38 +7316,6 @@
         "dimision"
       ],
       "date": "2026-11-03T16:12:20.890Z"
-    },
-    {
-      "title": "SABOTAJE A REFRIGERACIÓN INDUSTRIAL REVELA VULNERABILIDAD CRÍTICA EN INFRAESTRUCTURA EUROPEA",
-      "normalizedTokens": [
-        "sabotaje",
-        "refrigeracion",
-        "industrial",
-        "revela",
-        "vulnerabilidad",
-        "critica",
-        "infraestructura",
-        "europea"
-      ],
-      "date": "2026-11-03T14:29:12.451Z"
-    },
-    {
-      "title": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
-      "normalizedTokens": [
-        "internet",
-        "cosas",
-        "parecia",
-        "gran",
-        "idea",
-        "2013",
-        "supermercados",
-        "europa",
-        "estan",
-        "descubriendo",
-        "era",
-        "tanto"
-      ],
-      "date": "2026-11-03T14:29:12.451Z"
     }
   ]
 }
