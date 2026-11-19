@@ -283,9 +283,41 @@
     "https://es.euronews.com/2026/11/18/bukele-confirma-un-ataque-aereo-contra-la-mansion-del-jefe-de-una-banda-haitiana",
     "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack",
     "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa",
-    "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen"
+    "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen",
+    "https://www.infobae.com/america/mundo/2026/11/19/en-vivo-historica-reunion-trilateral-entre-donald-trump-xi-jinping-y-vladimir-putin/"
   ],
   "processedSignatures": [
+    {
+      "title": "CUMBRE TRILATERAL EN SHENZHEN REDISEÑA LA ARQUITECTURA NUCLEAR Y ENERGÉTICA",
+      "normalizedTokens": [
+        "cumbre",
+        "trilateral",
+        "shenzhen",
+        "redisena",
+        "arquitectura",
+        "nuclear",
+        "energetica"
+      ],
+      "date": "2026-11-19T11:38:54.763Z"
+    },
+    {
+      "title": "EN VIVO | Trump, Xi y Putin acordaron aumentar la producción de petróleo y advirtieron que “nadie ganaría una guerra nuclear”",
+      "normalizedTokens": [
+        "vivo",
+        "trump",
+        "putin",
+        "acordaron",
+        "aumentar",
+        "produccion",
+        "petroleo",
+        "advirtieron",
+        "nadie",
+        "ganaria",
+        "guerra",
+        "nuclear"
+      ],
+      "date": "2026-11-19T11:38:54.762Z"
+    },
     {
       "title": "BIOPLÁSTICO DE DESECHOS PESQUEROS REDEFINE EL EMPAQUE INDUSTRIAL",
       "normalizedTokens": [
@@ -7287,36 +7319,6 @@
         "militares"
       ],
       "date": "2026-11-03T18:51:41.142Z"
-    },
-    {
-      "title": "TRUMP ANUNCIA RECORTE DE AYUDA A ISRAEL EN PLENAS ELECCIONES",
-      "normalizedTokens": [
-        "trump",
-        "anuncia",
-        "recorte",
-        "ayuda",
-        "israel",
-        "plenas",
-        "elecciones"
-      ],
-      "date": "2026-11-03T17:41:18.017Z"
-    },
-    {
-      "title": "En el día de las elecciones, Trump dijo que acordó con Netanyahu disminuir US$4.000 millones de ayuda a Israel",
-      "normalizedTokens": [
-        "dia",
-        "elecciones",
-        "trump",
-        "dijo",
-        "acordo",
-        "netanyahu",
-        "disminuir",
-        "000",
-        "millones",
-        "ayuda",
-        "israel"
-      ],
-      "date": "2026-11-03T17:41:18.016Z"
     }
   ]
 }

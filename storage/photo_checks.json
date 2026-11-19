@@ -1318,5 +1318,20 @@
     "relevant": true,
     "reason": "Muestra a la creadora de MarinaTex sosteniendo el material bioplástico en un entorno relacionado con la pesca.",
     "at": "2026-11-19T11:07:25.379Z"
+  },
+  "9898fef2e19b703a:tcrb40fwk": {
+    "relevant": false,
+    "reason": "La imagen es una creación sintética (falsa/deepfake) que muestra a líderes que nunca se han reunido en ese formato.",
+    "at": "2026-11-19T11:37:35.493Z"
+  },
+  "495968afd55b1bbd:tcrb40fwk": {
+    "relevant": false,
+    "reason": "La imagen es una creación sintética o manipulada digitalmente que muestra a tres líderes internacionales en un contexto improbable, no una fotografía real que ilustre una cumbre tr",
+    "at": "2026-11-19T11:38:06.876Z"
+  },
+  "54a617da8eb826a1:tcrb40fwk": {
+    "relevant": true,
+    "reason": "La imagen muestra a Vladimir Putin, Xi Jinping y Donald Trump frente a las banderas de sus respectivos países, lo cual ilustra adecuadamente una cumbre trilateral entre los tres lí",
+    "at": "2026-11-19T11:38:50.228Z"
   }
 }
