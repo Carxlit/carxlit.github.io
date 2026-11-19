@@ -279,9 +279,40 @@
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ3N6SVVHQ2NGRjBfeWtmclI5TUgyOUFqc1E4dm5TV2NCSUxSX0RoZjFFc2t5c0FfRkw0MnhwaHQtRVFzcDQ3Qk81bU5ZRGpTNXFvWTBld1kzbXlFQjExRngxSXZ5akg1NGJrQ3Y4NjYtY2Vzc3pmVU85empfODFCS25ZXzNFM0ZMRDMyTk5fNlFOWFk?oc=5",
     "https://www.abc.es/internacional/eeuu-extiende-tutela-venezuela-ejercito-acuerdo-militar-20261118190304-nt.html",
     "https://www.genbeta.com/actualidad/jose-andres-chef-57-anos-yo-volveria-a-crear-servicio-militar-paralelo-otro-social-gente-joven-tuviera-oportunidad-salario-hacer-este-tipo-servicio-a-su-pais",
-    "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+    "https://es.euronews.com/2026/11/18/bukele-confirma-un-ataque-aereo-contra-la-mansion-del-jefe-de-una-banda-haitiana"
   ],
   "processedSignatures": [
+    {
+      "title": "BUKELE ORDENA ATAQUE AÉREO CONTRA LÍDER DE BANDA HAITIANA",
+      "normalizedTokens": [
+        "bukele",
+        "ordena",
+        "ataque",
+        "aereo",
+        "lider",
+        "banda",
+        "haitiana"
+      ],
+      "date": "2026-11-19T05:02:07.452Z"
+    },
+    {
+      "title": "\"Espero que haya muerto\": Bukele confirma un ataque aéreo contra la mansión del jefe de una banda haitiana",
+      "normalizedTokens": [
+        "espero",
+        "haya",
+        "muerto",
+        "bukele",
+        "confirma",
+        "ataque",
+        "aereo",
+        "mansion",
+        "jefe",
+        "banda",
+        "haitiana"
+      ],
+      "date": "2026-11-19T05:02:07.437Z"
+    },
     {
       "title": "EJÉRCITO ISRAELÍ LANZA OPERACIÓN TERRESTRE MÁS ALLÁ DE LA LÍNEA AMARILLA",
       "normalizedTokens": [
@@ -7285,37 +7316,6 @@
         "determinantes"
       ],
       "date": "2026-11-03T13:26:01.105Z"
-    },
-    {
-      "title": "PROTESTAS EN VENEZUELA REPUNTAN UN 489 POR CIENTO EN SEPTIEMBRE",
-      "normalizedTokens": [
-        "protestas",
-        "venezuela",
-        "repuntan",
-        "489",
-        "ciento",
-        "septiembre"
-      ],
-      "date": "2026-11-03T12:30:07.099Z"
-    },
-    {
-      "title": "Protestas en Venezuela repuntan 489 por ciento en septiembre, a pesar de que aparato represivo se mantiene: ¿qué le exigen a Delcy Rodríguez?",
-      "normalizedTokens": [
-        "protestas",
-        "venezuela",
-        "repuntan",
-        "489",
-        "ciento",
-        "septiembre",
-        "pesar",
-        "aparato",
-        "represivo",
-        "mantiene",
-        "exigen",
-        "delcy",
-        "rodriguez"
-      ],
-      "date": "2026-11-03T12:30:07.098Z"
     }
   ]
 }

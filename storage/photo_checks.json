@@ -1293,5 +1293,15 @@
     "relevant": true,
     "reason": "Muestra a una familia palestina desplazada en la Franja de Gaza, lo cual ilustra adecuadamente la situación humanitaria y el contexto de las operaciones militares en la zona.",
     "at": "2026-11-18T21:55:55.712Z"
+  },
+  "ec2f16f87d92624e:tof6k2s9f": {
+    "relevant": false,
+    "reason": "La imagen muestra a manifestantes en Haití sosteniendo un cartel de Nayib Bukele, pero no ilustra un ataque aéreo real.",
+    "at": "2026-11-19T05:01:48.977Z"
+  },
+  "1375a9a7f5b4509c:tof6k2s9f": {
+    "relevant": true,
+    "reason": "La imagen muestra a manifestantes en Haití sosteniendo un cartel con la imagen del presidente Nayib Bukele, lo cual ilustra el contexto de apoyo popular y la reacción local mencion",
+    "at": "2026-11-19T05:02:03.435Z"
   }
 }
