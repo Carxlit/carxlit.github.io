@@ -289,9 +289,37 @@
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV0VqUnc3QXkyLTh1TVl0LWZuLTItN1NPNGcxem9CVjlHYUlZYS1haXlWdVROaDBTTW5LZjA4SnY2Tjl5d0oxb0dCZGtQUGhIaUZNa1FOTEFRd1hYdzZQYkx4TGh5UVlUaDExczdDUTJBYk8tOE9qWnEyM3R0T056VlUtRTVaQzM2aVNVMDg4Zmw2ZENmdWxiWlJZYXEtWm5ZREZEYk9Vd0xvMWZwZTVQTUprcmxpTU1NOGlndHhENnB2d05LV1F2cERIV3Q0cmxtZVBlNTdDLUZQaTd2NFVQUGhYNmc?oc=5",
     "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM3p5STl0TzVTZUR0UkxGTUVoYl9HTFVmOVg3N1p1VkdhSGhhbFNadEh0MU9SaFpYX3NQVXdQS0NKUmU1WVpGdExUemtWY0YySzQ2eGFMNDZhZ3dnSk1IczlTbmM4eU1tN2FmWndyYXlRbEpsNmVRaFVtQU1IaVF2b3oteS1PVjdXZ2NSOXhYSmwxWjRNYXVIQUtfS1Ayc3pXQUN0b2JNMkxzb3BrVXlLTTRVTDVoVHBmYkxTczk0TDI4T1oxMFM1TzJoUmVWM1JQT1ltSGhqSDZOZXRoWTBkempLZVRqTzRt?oc=5",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeGVRMFRfWTN0VlpJU0RLODByRzZIR1JKelhLZlBQWGNrUGR5QVpHQ0FxY0JqXzV4SndjOHhWM2JKRTZmNzhoOWo5cTU1MnR2N0hNcDhFZktQamxEUnYtMUlySXZjVWhxaGhQRmZCa1BqLWVObkVZVV80ODJpQnFIT3VvOWs4UWczenc2R0l0TFZabnJi?oc=5",
-    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5"
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGJPUXhaand0ck9Yejc4STJGSmJqZWxMTUdXbFpPUlVZU2FCT2duRE5sU19zcWlHREw5YW1peHNuRlg0XzNHdjNKYW9nOVhaVzhLSkZsdjNwUVcyazc1WjdmQXVfOFJ3U1VleDlKdG1QMTh3UzlCcTNNc0lRQ2dQMkxESmRRMTNhbzVLSlg4N0xRYlpGVnR5MmxYNmh1VG9CUmRNWUlQSjdFMUlXc0ZQWXdHdEdvbzhzckdHOVFGa3RHU25Dek5JSUZiV1FWM2d6WExWdG9pNNIB1wFBVV95cUxPMl9PdEFXVVhzSVA2ZEVHNTJzTDhiTGJmWTFUYVBQR1pSVEE1VnpIYTBTZkNDdjNsRFR6S0tRNnhObFlPbGF0R3NkcndZV0pWVW1kY1E4QzZ4UkQ1NXJVaEZpeW9nMXotS1ZYTjNWNUZUU0hhR3diSjNPM1A5MjdyeXg2N0U0dnlfYlFIb0lSQlFHQnluUnZRd2MxNWNTUENCY3RmNzlXNVpXN3dXVlVMbWNfX19BYVM4Q09VcmVsYml1bFcxTGNIRVUzWUpRcWRYbmpMV2ozUQ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ESTABILIZADO EL INCENDIO FORESTAL EN CALA MORELL MENORCA",
+      "normalizedTokens": [
+        "estabilizado",
+        "incendio",
+        "forestal",
+        "cala",
+        "morell",
+        "menorca"
+      ],
+      "date": "2026-11-19T16:08:19.509Z"
+    },
+    {
+      "title": "Ibanat y bomberos dan por estabilizado el incendio forestal de Cala Morell - Menorca",
+      "normalizedTokens": [
+        "ibanat",
+        "bomberos",
+        "dan",
+        "estabilizado",
+        "incendio",
+        "forestal",
+        "cala",
+        "morell",
+        "menorca"
+      ],
+      "date": "2026-11-19T16:08:19.508Z"
+    },
     {
       "title": "LA UNIÓN EUROPEA CONFIRMA CIBERATAQUE POTENCIADO POR INTELIGENCIA ARTIFICIAL",
       "normalizedTokens": [
@@ -7314,27 +7342,6 @@
         "clientes"
       ],
       "date": "2026-11-04T02:28:29.582Z"
-    },
-    {
-      "title": "EL COLAPSO DE LA VISIÓN GEOPOLÍTICA DE BIN SALMAN",
-      "normalizedTokens": [
-        "colapso",
-        "vision",
-        "geopolitica",
-        "bin",
-        "salman"
-      ],
-      "date": "2026-11-04T01:31:56.547Z"
-    },
-    {
-      "title": "Todo va mal para Muhammad bin Salman",
-      "normalizedTokens": [
-        "mal",
-        "muhammad",
-        "bin",
-        "salman"
-      ],
-      "date": "2026-11-04T01:31:56.547Z"
     }
   ]
 }
