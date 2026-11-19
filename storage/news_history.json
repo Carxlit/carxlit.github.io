@@ -287,9 +287,37 @@
     "https://www.infobae.com/america/mundo/2026/11/19/en-vivo-historica-reunion-trilateral-entre-donald-trump-xi-jinping-y-vladimir-putin/",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-secretario-de-guerra-de-estados-unidos-se-refirio-a-su-visita-a-colombia-califico-el-encuentro-como-reunion-productiva-3602260",
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV0VqUnc3QXkyLTh1TVl0LWZuLTItN1NPNGcxem9CVjlHYUlZYS1haXlWdVROaDBTTW5LZjA4SnY2Tjl5d0oxb0dCZGtQUGhIaUZNa1FOTEFRd1hYdzZQYkx4TGh5UVlUaDExczdDUTJBYk8tOE9qWnEyM3R0T056VlUtRTVaQzM2aVNVMDg4Zmw2ZENmdWxiWlJZYXEtWm5ZREZEYk9Vd0xvMWZwZTVQTUprcmxpTU1NOGlndHhENnB2d05LV1F2cERIV3Q0cmxtZVBlNTdDLUZQaTd2NFVQUGhYNmc?oc=5",
-    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM3p5STl0TzVTZUR0UkxGTUVoYl9HTFVmOVg3N1p1VkdhSGhhbFNadEh0MU9SaFpYX3NQVXdQS0NKUmU1WVpGdExUemtWY0YySzQ2eGFMNDZhZ3dnSk1IczlTbmM4eU1tN2FmWndyYXlRbEpsNmVRaFVtQU1IaVF2b3oteS1PVjdXZ2NSOXhYSmwxWjRNYXVIQUtfS1Ayc3pXQUN0b2JNMkxzb3BrVXlLTTRVTDVoVHBmYkxTczk0TDI4T1oxMFM1TzJoUmVWM1JQT1ltSGhqSDZOZXRoWTBkempLZVRqTzRt?oc=5"
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM3p5STl0TzVTZUR0UkxGTUVoYl9HTFVmOVg3N1p1VkdhSGhhbFNadEh0MU9SaFpYX3NQVXdQS0NKUmU1WVpGdExUemtWY0YySzQ2eGFMNDZhZ3dnSk1IczlTbmM4eU1tN2FmWndyYXlRbEpsNmVRaFVtQU1IaVF2b3oteS1PVjdXZ2NSOXhYSmwxWjRNYXVIQUtfS1Ayc3pXQUN0b2JNMkxzb3BrVXlLTTRVTDVoVHBmYkxTczk0TDI4T1oxMFM1TzJoUmVWM1JQT1ltSGhqSDZOZXRoWTBkempLZVRqTzRt?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeGVRMFRfWTN0VlpJU0RLODByRzZIR1JKelhLZlBQWGNrUGR5QVpHQ0FxY0JqXzV4SndjOHhWM2JKRTZmNzhoOWo5cTU1MnR2N0hNcDhFZktQamxEUnYtMUlySXZjVWhxaGhQRmZCa1BqLWVObkVZVV80ODJpQnFIT3VvOWs4UWczenc2R0l0TFZabnJi?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "LA CORTE INTERNACIONAL DE JUSTICIA DECLARA GENOCIDIO EN MYANMAR",
+      "normalizedTokens": [
+        "corte",
+        "internacional",
+        "justicia",
+        "declara",
+        "genocidio",
+        "myanmar"
+      ],
+      "date": "2026-11-19T13:20:16.652Z"
+    },
+    {
+      "title": "En fallo histórico, máximo tribunal ONU dice que Myanmar cometió genocidio contra los rohinya",
+      "normalizedTokens": [
+        "fallo",
+        "historico",
+        "maximo",
+        "tribunal",
+        "onu",
+        "myanmar",
+        "cometio",
+        "genocidio",
+        "rohinya"
+      ],
+      "date": "2026-11-19T13:20:16.650Z"
+    },
     {
       "title": "COLAPSO DE UENO BANK EN PARAGUAY DEJA PÉRDIDAS DE MIL MILLONES",
       "normalizedTokens": [
@@ -7308,30 +7336,6 @@
         "rutina"
       ],
       "date": "2026-11-04T00:32:56.342Z"
-    },
-    {
-      "title": "ESTADOS UNIDOS DECIDE EL CONTROL DEL CONGRESO EN CLAVE DE PLEBISCITO",
-      "normalizedTokens": [
-        "estados",
-        "unidos",
-        "decide",
-        "control",
-        "congreso",
-        "clave",
-        "plebiscito"
-      ],
-      "date": "2026-11-03T23:34:18.775Z"
-    },
-    {
-      "title": "Estados Unidos explora los límites de su democracia",
-      "normalizedTokens": [
-        "estados",
-        "unidos",
-        "explora",
-        "limites",
-        "democracia"
-      ],
-      "date": "2026-11-03T23:34:18.775Z"
     }
   ]
 }
