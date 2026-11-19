@@ -26197,5 +26197,124 @@
       }
     },
     "publishedAt": "2026-11-19T08:15:33.492Z"
+  },
+  {
+    "id": "queue-1795086448966-ury6o",
+    "news": {
+      "id": "sp404vp4f",
+      "originalUrl": "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen",
+      "originalTitle": "Una estudiante mezcló pescado podrido con algas más de 100 veces. Ha acabado inventando unas bolsas de plástico que se autodestruyen",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 68,
+      "headline": "BIOPLÁSTICO DE DESECHOS PESQUEROS REDEFINE EL EMPAQUE INDUSTRIAL",
+      "subHeadline": "La creadora de MarinaTex transformó residuos de pescado y algas en un material compostable en seis semanas, ganando el premio James Dyson en 2019.",
+      "blindSpotAngle": "Mientras la atención mediática celebra la gesta individual de la cocina universitaria, la verdadera barrera no es científica sino de escalado industrial y la resistencia de las grandes petroquímicas a subsidiar alternativas de ciclo corto.",
+      "facebookPost": "El relato oficial aplaude la innovación solitaria: una estudiante británica que mezcla pescado podrido y algas en los fogones de su cocina hasta dar con un bioplástico revolucionario. El James Dyson Award de 2019 validó a MarinaTex como la panacea contra el plástico de un solo uso.\n\nEl punto ciego reside en la transición del banco de pruebas a la refinería comercial. Sin subsidios masivos ni infraestructura de compostaje generalizada, los polímeros basados en proteínas marinas chocan contra los costos imbatibles del petróleo virgen.\n\n¿Puede un subproducto de la industria pesquera competir con la maquinaria petroquímica global sin intervención regulatoria estricta?\n\nFuente: Xataka\n\n#Tecnología #Innovación #PuntoCiego",
+      "telegramPost": "<b>BIOPLÁSTICO MARINATEX: ENTRE EL LABORATORIO Y LA ESCALA INDUSTRIAL</b>\n\n• <b>Qué ocurrió:</b> La británica Lucy Hughes desarrolló en 2019 un material flexible a base de pieles de pescado y algas rojas capaz de degradarse en seis semanas.\n• <b>Por qué importa:</b> Ataca simultáneamente el desperdicio de las pescaderías y el consumo de plásticos fósiles, logrando un rendimiento de hasta 1.400 bolsas por cada bacalao.\n• <b>Qué sigue:</b> El verdadero examen para MarinaTex es superar la fase de prototipo y competir en costos con la cadena petroquímica tradicional.",
+      "linkedInPost": "La irrupción de materiales como MarinaTex expone las costuras de la economía circular frente a la infraestructura petroquímica global. Transformar residuos de la industria pesquera en biopolímeros mediante procesos de baja temperatura demuestra viabilidad técnica, pero la verdadera disrupción económica exige integración en las cadenas de suministro existentes y marcos regulatorios que penalicen el plástico de origen fósil. El reto corporativo ya no es inventar sucedáneos, sino rentabilizarlos a escala industrial.\n\nFuente: Xataka\n\n#EconomíaCircular #Tecnología #PuntoCiego",
+      "blueskyPost": "Un bacalao rinde 1,400 bolsas biodegradables, pero el verdadero obstáculo de MarinaTex no es la química, sino competir contra los costes del petróleo subvencionado. #Tecnología #PuntoCiego",
+      "copies": {
+        "facebook": "El relato oficial aplaude la innovación solitaria: una estudiante británica que mezcla pescado podrido y algas en los fogones de su cocina hasta dar con un bioplástico revolucionario. El James Dyson Award de 2019 validó a MarinaTex como la panacea contra el plástico de un solo uso.\n\nEl punto ciego reside en la transición del banco de pruebas a la refinería comercial. Sin subsidios masivos ni infraestructura de compostaje generalizada, los polímeros basados en proteínas marinas chocan contra los costos imbatibles del petróleo virgen.\n\n¿Puede un subproducto de la industria pesquera competir con la maquinaria petroquímica global sin intervención regulatoria estricta? #Tecnología #Innovación #PuntoCiego",
+        "telegram": "<b>BIOPLÁSTICO MARINATEX: ENTRE EL LABORATORIO Y LA ESCALA INDUSTRIAL</b>\n\n• <b>Qué ocurrió:</b> La británica Lucy Hughes desarrolló en 2019 un material flexible a base de pieles de pescado y algas rojas capaz de degradarse en seis semanas.\n• <b>Por qué importa:</b> Ataca simultáneamente el desperdicio de las pescaderías y el consumo de plásticos fósiles, logrando un rendimiento de hasta 1.400 bolsas por cada bacalao.\n• <b>Qué sigue:</b> El verdadero examen para MarinaTex es superar la fase de prototipo y competir en costos con la cadena petroquímica tradicional.",
+        "bluesky": "Un bacalao rinde 1,400 bolsas biodegradables, pero el verdadero obstáculo de MarinaTex no es la química, sino competir contra los costes del petróleo subvencionado. #Tecnología #PuntoCiego",
+        "linkedIn": "La irrupción de materiales como MarinaTex expone las costuras de la economía circular frente a la infraestructura petroquímica global. Transformar residuos de la industria pesquera en biopolímeros mediante procesos de baja temperatura demuestra viabilidad técnica, pero la verdadera disrupción económica exige integración en las cadenas de suministro existentes y marcos regulatorios que penalicen el plástico de origen fósil. El reto corporativo ya no es inventar sucedáneos, sino rentabilizarlos a escala industrial. #EconomíaCircular #Tecnología #PuntoCiego"
+      },
+      "article": {
+        "slug": "cuando-pescado-podrido-compite-contra-plastico-67no",
+        "title": "Cuando el pescado podrido compite contra el plástico de origen fósil",
+        "dek": "Un desarrollo nacido en una cocina universitaria promete redefinir los envases comerciales, aunque su viabilidad comercial sigue atada a las reglas de la industria petroquímica.",
+        "keyFacts": [
+          "Lucy Hughes desarrolló MarinaTex en 2019 tras más de 100 experimentos.",
+          "El material se descompone en condiciones de compostaje doméstico entre cuatro y seis semanas.",
+          "El proyecto ganó el premio internacional James Dyson Award en 2019, imponiéndose a 1.078 candidaturas.",
+          "Los residuos orgánicos de un solo bacalao atlántico pueden proporcionar material para fabricar hasta 1.400 bolsas."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "En 2019, Lucy Hughes, una estudiante de diseño de producto de 24 años en la Universidad de Sussex, logró fabricar una lámina transparente y resistente utilizando restos de la industria pesquera y algas rojas. El material, bautizado como MarinaTex, surgió tras superar el centenar de pruebas culinarias en su alojamiento estudiantil.",
+              "El invento se alzó con el premio internacional James Dyson Award de aquel año, superando a 1.078 candidaturas de 28 países y dotando a su creadora con 30.000 libras para continuar su desarrollo comercial en las instalaciones de Plus X en Brighton."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Según la información difundida en torno al galardón, el propósito inicial no era sustituir al plástico convencional, sino hallar una salida comercial para los excedentes de las pescaderías que tradicionalmente terminan en vertederos e incineradoras, desde vísceras hasta escamas.",
+              "La clave del compuesto radica en la combinación de las proteínas flexibles presentes en las pieles de pescado con el agar, un aglutinante natural extraído de algas rojas. El resultado es una película translúcida que requiere temperaturas inferiores a 100 °C para su fabricación y se biodegrada en compostaje doméstico en un plazo de cuatro a seis semanas sin liberar sustancias tóxicas."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "La narrativa habitual simplifica el éxito comercial como un triunfo inevitable de la inventiva juvenil sobre la contaminación global. Sin embargo, el análisis de Punto Ciego revela la brecha existente entre la experimentación a pequeña escala y la producción masiva.",
+              "El hecho de que un bacalao pueda rendir hasta 1.400 bolsas no resuelve la logística de recolección, transporte y estandarización de los residuos biológicos. Asimismo, el propio diseño del material exige condiciones muy específicas de compostaje para degradarse en el plazo anunciado, lo que significa que un abandono en entornos marinos o naturales sigue planteando desafíos operativos similares a los plásticos convencionales."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En el tablero actual, los ganadores iniciales son los centros de diseño e incubación tecnológica que capitalizan la narrativa de la sostenibilidad, junto con los laboratorios orientados a la biotecnología aplicada de proximidad.",
+              "Por el contrario, los grandes perdedores a largo plazo podrían ser los modelos de producción basados exclusivamente en polímeros vírgenes derivados del petróleo, siempre y cuando la presión regulatoria aumente el coste de los envases tradicionales de un solo uso."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Los próximos movimientos a seguir incluyen la evolución de los acuerdos de producción comercial de MarinaTex y su capacidad para integrarse en las cadenas de suministro de alimentos sin disparar los costes finales para el consumidor.",
+              "También será determinante observar si los gobiernos implementan incentivos fiscales directos para los biopolímeros derivados de residuos industriales frente a la maquinaria petroquímica ya establecida."
+            ]
+          }
+        ],
+        "tags": [
+          "bioplástico",
+          "sostenibilidad",
+          "innovación",
+          "economía circular",
+          "pesca"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Una estudiante mezcló pescado podrido con algas más de 100 veces. Ha acabado inventando unas bolsas de plástico que se autodestruyen",
+            "url": "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen"
+          }
+        ],
+        "wordCount": 455
+      },
+      "videoScript": {
+        "hook": "Una estudiante mezcló pescado podrido y algas para inventar plástico que se autodestruye",
+        "beats": [
+          "Tras 1,078 candidaturas globales, Lucy Hughes ganó el premio James Dyson en 2019 fabricando láminas flexibles con residuos de pescadería.",
+          "El resultado fue MarinaTex, un material capaz de descomponerse por completo en compostaje doméstico en apenas 4 semanas.",
+          "Lo que nadie cuenta es que la verdadera batalla no es química, sino competir contra los costes de la industria petroquímica."
+        ],
+        "close": "Lee el análisis completo y sin filtros en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/b73885/hxudw-7xiaana6z/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-19T11:07:26.910Z",
+      "cardImageUrl": "/news-cards/news-sp404vp4f-1795086446910.jpg",
+      "reelCoverUrl": "/news-cards/news-sp404vp4f-1795086447436-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-sp404vp4f-1795086447918-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cuando-pescado-podrido-compite-contra-plastico-67no/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-19T11:18:28.945Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-19T11:07:28.966Z"
   }
 ]

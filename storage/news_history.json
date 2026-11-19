@@ -282,9 +282,42 @@
     "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
     "https://es.euronews.com/2026/11/18/bukele-confirma-un-ataque-aereo-contra-la-mansion-del-jefe-de-una-banda-haitiana",
     "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack",
-    "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa"
+    "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa",
+    "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen"
   ],
   "processedSignatures": [
+    {
+      "title": "BIOPLÁSTICO DE DESECHOS PESQUEROS REDEFINE EL EMPAQUE INDUSTRIAL",
+      "normalizedTokens": [
+        "bioplastico",
+        "desechos",
+        "pesqueros",
+        "redefine",
+        "empaque",
+        "industrial"
+      ],
+      "date": "2026-11-19T11:07:28.980Z"
+    },
+    {
+      "title": "Una estudiante mezcló pescado podrido con algas más de 100 veces. Ha acabado inventando unas bolsas de plástico que se autodestruyen",
+      "normalizedTokens": [
+        "estudiante",
+        "mezclo",
+        "pescado",
+        "podrido",
+        "algas",
+        "mas",
+        "100",
+        "veces",
+        "acabado",
+        "inventando",
+        "unas",
+        "bolsas",
+        "plastico",
+        "autodestruyen"
+      ],
+      "date": "2026-11-19T11:07:28.978Z"
+    },
     {
       "title": "ATAQUE RUSO CONTRA ODESA DEJA CUATRO MUERTOS",
       "normalizedTokens": [
@@ -7284,38 +7317,6 @@
         "israel"
       ],
       "date": "2026-11-03T17:41:18.016Z"
-    },
-    {
-      "title": "ADIF ENTRA EN HUELGA TRAS EL ACCIDENTE FERROVIARIO DE URDA",
-      "normalizedTokens": [
-        "adif",
-        "entra",
-        "huelga",
-        "accidente",
-        "ferroviario",
-        "urda"
-      ],
-      "date": "2026-11-03T16:12:20.891Z"
-    },
-    {
-      "title": "Última hora del accidente de trenes de Urda, en Toledo, en directo | Óscar Puente comparece en el Congreso ante una mayoría que exige su dimisión",
-      "normalizedTokens": [
-        "ultima",
-        "hora",
-        "accidente",
-        "trenes",
-        "urda",
-        "toledo",
-        "directo",
-        "oscar",
-        "puente",
-        "comparece",
-        "congreso",
-        "mayoria",
-        "exige",
-        "dimision"
-      ],
-      "date": "2026-11-03T16:12:20.890Z"
     }
   ]
 }
