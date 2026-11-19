@@ -285,9 +285,40 @@
     "https://www.euronews.com/video/2026/11/19/ukraine-four-killed-and-at-least-13-injured-in-russian-strike-on-odesa",
     "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen",
     "https://www.infobae.com/america/mundo/2026/11/19/en-vivo-historica-reunion-trilateral-entre-donald-trump-xi-jinping-y-vladimir-putin/",
-    "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-secretario-de-guerra-de-estados-unidos-se-refirio-a-su-visita-a-colombia-califico-el-encuentro-como-reunion-productiva-3602260"
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-secretario-de-guerra-de-estados-unidos-se-refirio-a-su-visita-a-colombia-califico-el-encuentro-como-reunion-productiva-3602260",
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV0VqUnc3QXkyLTh1TVl0LWZuLTItN1NPNGcxem9CVjlHYUlZYS1haXlWdVROaDBTTW5LZjA4SnY2Tjl5d0oxb0dCZGtQUGhIaUZNa1FOTEFRd1hYdzZQYkx4TGh5UVlUaDExczdDUTJBYk8tOE9qWnEyM3R0T056VlUtRTVaQzM2aVNVMDg4Zmw2ZENmdWxiWlJZYXEtWm5ZREZEYk9Vd0xvMWZwZTVQTUprcmxpTU1NOGlndHhENnB2d05LV1F2cERIV3Q0cmxtZVBlNTdDLUZQaTd2NFVQUGhYNmc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "INCENDIO FORESTAL AMENAZA EL CORREDOR TURÍSTICO EN CUSCO",
+      "normalizedTokens": [
+        "incendio",
+        "forestal",
+        "amenaza",
+        "corredor",
+        "turistico",
+        "cusco"
+      ],
+      "date": "2026-11-19T12:05:11.621Z"
+    },
+    {
+      "title": "Cusco: Incendio forestal de gran magnitud continúa activo en la ruta de ingreso al Valle Sagrado de los Incas",
+      "normalizedTokens": [
+        "cusco",
+        "incendio",
+        "forestal",
+        "gran",
+        "magnitud",
+        "continua",
+        "activo",
+        "ruta",
+        "ingreso",
+        "valle",
+        "sagrado",
+        "incas"
+      ],
+      "date": "2026-11-19T12:05:11.619Z"
+    },
     {
       "title": "HEGSETH AFILA ALIANZAS MILITARES EN COLOMBIA Y VENEZUELA",
       "normalizedTokens": [
@@ -7296,34 +7327,6 @@
         "anthropic"
       ],
       "date": "2026-11-03T21:52:02.880Z"
-    },
-    {
-      "title": "GUERRA HÍBRIDA EN EUROPA: CIBERATAQUES Y FALSAS AMENAZAS",
-      "normalizedTokens": [
-        "guerra",
-        "hibrida",
-        "europa",
-        "ciberataques",
-        "falsas",
-        "amenazas"
-      ],
-      "date": "2026-11-03T20:23:36.915Z"
-    },
-    {
-      "title": "Alerta en Europa: una ola de falsas amenazas de bomba en aviones obligó a aterrizajes de emergencia",
-      "normalizedTokens": [
-        "alerta",
-        "europa",
-        "ola",
-        "falsas",
-        "amenazas",
-        "bomba",
-        "aviones",
-        "obligo",
-        "aterrizajes",
-        "emergencia"
-      ],
-      "date": "2026-11-03T20:23:36.914Z"
     }
   ]
 }

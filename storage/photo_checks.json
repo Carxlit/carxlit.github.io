@@ -1338,5 +1338,10 @@
     "relevant": true,
     "reason": "La imagen muestra a un funcionario junto a diplomáticos en un contexto militar y aeroportuario coherente con la noticia.",
     "at": "2026-11-19T11:47:47.654Z"
+  },
+  "23dd522083a29fe1:oimpei015": {
+    "relevant": false,
+    "reason": "La imagen muestra a una persona hablando en un atril ante una bandera, lo cual no ilustra un incendio forestal en Cusco.",
+    "at": "2026-11-19T12:05:08.441Z"
   }
 }
