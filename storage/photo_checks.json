@@ -1388,5 +1388,15 @@
     "relevant": false,
     "reason": "El gráfico muestra las tasas de interés de la Reserva Federal y no guarda relación con la sanción a un exempleado de First Security.",
     "at": "2026-11-19T18:59:49.764Z"
+  },
+  "f4935922d78d337f:o4l0ne7wp": {
+    "relevant": false,
+    "reason": "La imagen muestra una detención callejera y activistas de Greenpeace, lo cual no ilustra de forma directa la valoración bursátil de Anthropic en el Nasdaq mencionada en el titular.",
+    "at": "2026-11-19T20:31:47.170Z"
+  },
+  "b93dc19491f653d6:o4l0ne7wp": {
+    "relevant": true,
+    "reason": "la imagen muestra el logotipo de Anthropic en la pantalla de un teléfono móvil, que es la empresa protagonista del titular.",
+    "at": "2026-11-19T20:32:14.732Z"
   }
 }

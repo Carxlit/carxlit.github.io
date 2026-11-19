@@ -293,9 +293,36 @@
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGJPUXhaand0ck9Yejc4STJGSmJqZWxMTUdXbFpPUlVZU2FCT2duRE5sU19zcWlHREw5YW1peHNuRlg0XzNHdjNKYW9nOVhaVzhLSkZsdjNwUVcyazc1WjdmQXVfOFJ3U1VleDlKdG1QMTh3UzlCcTNNc0lRQ2dQMkxESmRRMTNhbzVLSlg4N0xRYlpGVnR5MmxYNmh1VG9CUmRNWUlQSjdFMUlXc0ZQWXdHdEdvbzhzckdHOVFGa3RHU25Dek5JSUZiV1FWM2d6WExWdG9pNNIB1wFBVV95cUxPMl9PdEFXVVhzSVA2ZEVHNTJzTDhiTGJmWTFUYVBQR1pSVEE1VnpIYTBTZkNDdjNsRFR6S0tRNnhObFlPbGF0R3NkcndZV0pWVW1kY1E4QzZ4UkQ1NXJVaEZpeW9nMXotS1ZYTjNWNUZUU0hhR3diSjNPM1A5MjdyeXg2N0U0dnlfYlFIb0lSQlFHQnluUnZRd2MxNWNTUENCY3RmNzlXNVpXN3dXVlVMbWNfX19BYVM4Q09VcmVsYml1bFcxTGNIRVUzWUpRcWRYbmpMV2ozUQ?oc=5",
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
     "https://www.abc.es/internacional/europa-celebra-contracumbre-defender-ucrania-trump-putin-20261119111743-nt.html",
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+    "https://es.euronews.com/video/2026/11/19/salida-a-bolsa-historica-de-anthropic-en-wall-street-entre-protestas-por-burbuja-de-ia"
   ],
   "processedSignatures": [
+    {
+      "title": "ANTHROPIC DEBUTA EN NASDAQ VALORADA EN 1,5 BILLONES DE DÓLARES",
+      "normalizedTokens": [
+        "anthropic",
+        "debuta",
+        "nasdaq",
+        "valorada",
+        "billones",
+        "dolares"
+      ],
+      "date": "2026-11-19T20:32:17.000Z"
+    },
+    {
+      "title": "Así fue la salida a bolsa histórica de Anthropic en Wall Street",
+      "normalizedTokens": [
+        "asi",
+        "fue",
+        "salida",
+        "bolsa",
+        "historica",
+        "anthropic",
+        "wall",
+        "street"
+      ],
+      "date": "2026-11-19T20:32:16.998Z"
+    },
     {
       "title": "RESERVA FEDERAL EMITE ORDEN CONTRA EXEMPLEADO DE FIRST SECURITY",
       "normalizedTokens": [
@@ -7312,31 +7339,6 @@
         "amenaza"
       ],
       "date": "2026-11-04T14:17:40.720Z"
-    },
-    {
-      "title": "ABDUL EL SAYED GANA EN MÍCHIGAN Y LLEGA AL SENADO",
-      "normalizedTokens": [
-        "abdul",
-        "sayed",
-        "gana",
-        "michigan",
-        "llega",
-        "senado"
-      ],
-      "date": "2026-11-04T13:19:20.574Z"
-    },
-    {
-      "title": "Abdul el Sayed se convierte en el primer senador musulmán de la historia de EE.UU.",
-      "normalizedTokens": [
-        "abdul",
-        "sayed",
-        "convierte",
-        "primer",
-        "senador",
-        "musulman",
-        "historia"
-      ],
-      "date": "2026-11-04T13:19:20.571Z"
     }
   ]
 }
