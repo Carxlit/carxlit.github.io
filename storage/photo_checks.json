@@ -1398,5 +1398,10 @@
     "relevant": true,
     "reason": "la imagen muestra el logotipo de Anthropic en la pantalla de un teléfono móvil, que es la empresa protagonista del titular.",
     "at": "2026-11-19T20:32:14.732Z"
+  },
+  "9e3945331d6ade48:7oi3pab54": {
+    "relevant": true,
+    "reason": "La imagen muestra una manifestación pública con banderas, lo cual ilustra el clima político y social previo a unas elecciones generales.",
+    "at": "2026-11-19T22:19:59.946Z"
   }
 }

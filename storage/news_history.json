@@ -294,9 +294,37 @@
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
     "https://www.abc.es/internacional/europa-celebra-contracumbre-defender-ucrania-trump-putin-20261119111743-nt.html",
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
-    "https://es.euronews.com/video/2026/11/19/salida-a-bolsa-historica-de-anthropic-en-wall-street-entre-protestas-por-burbuja-de-ia"
+    "https://es.euronews.com/video/2026/11/19/salida-a-bolsa-historica-de-anthropic-en-wall-street-entre-protestas-por-burbuja-de-ia",
+    "https://www.france24.com/es/europa/20261119-vivienda-trenes-y-migraci%C3%B3n-qu%C3%A9-proponen-los-partidos-de-cara-a-las-elecciones-del-29n-en-espa%C3%B1a"
   ],
   "processedSignatures": [
+    {
+      "title": "ELECCIONES EN ESPAÑA DEL 29N: VIVIENDA, INFRAESTRUCTURA Y MIGRACIÓN",
+      "normalizedTokens": [
+        "elecciones",
+        "espana",
+        "29n",
+        "vivienda",
+        "infraestructura",
+        "migracion"
+      ],
+      "date": "2026-11-19T22:20:04.068Z"
+    },
+    {
+      "title": "Vivienda, trenes y migración: ¿qué proponen los partidos de cara a las elecciones del 29N en España?",
+      "normalizedTokens": [
+        "vivienda",
+        "trenes",
+        "migracion",
+        "proponen",
+        "partidos",
+        "cara",
+        "elecciones",
+        "29n",
+        "espana"
+      ],
+      "date": "2026-11-19T22:20:04.065Z"
+    },
     {
       "title": "ANTHROPIC DEBUTA EN NASDAQ VALORADA EN 1,5 BILLONES DE DÓLARES",
       "normalizedTokens": [
@@ -7306,39 +7334,6 @@
         "sangre"
       ],
       "date": "2026-11-04T15:08:34.827Z"
-    },
-    {
-      "title": "IRÁN RECHAZA GIRO DIPLOMÁTICO TRAS DERROTA ELECTORAL DE TRUMP",
-      "normalizedTokens": [
-        "iran",
-        "rechaza",
-        "giro",
-        "diplomatico",
-        "derrota",
-        "electoral",
-        "trump"
-      ],
-      "date": "2026-11-04T14:17:40.721Z"
-    },
-    {
-      "title": "Guerra en Medio Oriente: el líder supremo de Irán advirtió que la derrota de Trump no frenará el conflicto y lanzó otra amenaza",
-      "normalizedTokens": [
-        "guerra",
-        "medio",
-        "oriente",
-        "lider",
-        "supremo",
-        "iran",
-        "advirtio",
-        "derrota",
-        "trump",
-        "frenara",
-        "conflicto",
-        "lanzo",
-        "otra",
-        "amenaza"
-      ],
-      "date": "2026-11-04T14:17:40.720Z"
     }
   ]
 }
