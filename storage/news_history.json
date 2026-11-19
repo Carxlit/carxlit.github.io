@@ -291,9 +291,34 @@
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeGVRMFRfWTN0VlpJU0RLODByRzZIR1JKelhLZlBQWGNrUGR5QVpHQ0FxY0JqXzV4SndjOHhWM2JKRTZmNzhoOWo5cTU1MnR2N0hNcDhFZktQamxEUnYtMUlySXZjVWhxaGhQRmZCa1BqLWVObkVZVV80ODJpQnFIT3VvOWs4UWczenc2R0l0TFZabnJi?oc=5",
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5",
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGJPUXhaand0ck9Yejc4STJGSmJqZWxMTUdXbFpPUlVZU2FCT2duRE5sU19zcWlHREw5YW1peHNuRlg0XzNHdjNKYW9nOVhaVzhLSkZsdjNwUVcyazc1WjdmQXVfOFJ3U1VleDlKdG1QMTh3UzlCcTNNc0lRQ2dQMkxESmRRMTNhbzVLSlg4N0xRYlpGVnR5MmxYNmh1VG9CUmRNWUlQSjdFMUlXc0ZQWXdHdEdvbzhzckdHOVFGa3RHU25Dek5JSUZiV1FWM2d6WExWdG9pNNIB1wFBVV95cUxPMl9PdEFXVVhzSVA2ZEVHNTJzTDhiTGJmWTFUYVBQR1pSVEE1VnpIYTBTZkNDdjNsRFR6S0tRNnhObFlPbGF0R3NkcndZV0pWVW1kY1E4QzZ4UkQ1NXJVaEZpeW9nMXotS1ZYTjNWNUZUU0hhR3diSjNPM1A5MjdyeXg2N0U0dnlfYlFIb0lSQlFHQnluUnZRd2MxNWNTUENCY3RmNzlXNVpXN3dXVlVMbWNfX19BYVM4Q09VcmVsYml1bFcxTGNIRVUzWUpRcWRYbmpMV2ozUQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5"
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+    "https://www.abc.es/internacional/europa-celebra-contracumbre-defender-ucrania-trump-putin-20261119111743-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "BERLÍN ORGANIZA CONTRACUMBRE ANTE EL EJE SHENZHEN",
+      "normalizedTokens": [
+        "berlin",
+        "organiza",
+        "contracumbre",
+        "eje",
+        "shenzhen"
+      ],
+      "date": "2026-11-19T18:06:19.576Z"
+    },
+    {
+      "title": "Europa celebra una contracumbre para defender a Ucrania de Trump, Putin y Xi",
+      "normalizedTokens": [
+        "europa",
+        "celebra",
+        "contracumbre",
+        "defender",
+        "ucrania",
+        "trump",
+        "putin"
+      ],
+      "date": "2026-11-19T18:06:19.572Z"
+    },
     {
       "title": "ANTHROPIC DEBUTA EN NASDAQ CON VALUACIÓN DE 2 BILLONES",
       "normalizedTokens": [
@@ -7311,27 +7336,6 @@
         "mes"
       ],
       "date": "2026-11-04T12:22:51.974Z"
-    },
-    {
-      "title": "LOS DEMÓCRATAS ARRASAN EN MIDTERMS Y FRENAN A TRUMP",
-      "normalizedTokens": [
-        "democratas",
-        "arrasan",
-        "midterms",
-        "frenan",
-        "trump"
-      ],
-      "date": "2026-11-04T11:29:59.225Z"
-    },
-    {
-      "title": "Castigo a Trump, victoria de la democracia",
-      "normalizedTokens": [
-        "castigo",
-        "trump",
-        "victoria",
-        "democracia"
-      ],
-      "date": "2026-11-04T11:29:59.224Z"
     }
   ]
 }
