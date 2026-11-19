@@ -1,5 +1,80 @@
 [
   {
+    "slug": "reserva-federal-ajusta-cerco-regulatorio-sobre-3w0e",
+    "path": "noticias/reserva-federal-ajusta-cerco-regulatorio-sobre-3w0e/",
+    "title": "La Reserva Federal ajusta el cerco regulatorio sobre la banca regional",
+    "headline": "RESERVA FEDERAL EMITE ORDEN CONTRA EXEMPLEADO DE FIRST SECURITY",
+    "dek": "El banco central estadounidense emitió una orden de cese y desistimiento contra un exempleado de First Security Bancorp, tras corregir el tipo de sanción aplicada.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "Reserva Federal",
+    "image": "img/reserva-federal-ajusta-cerco-regulatorio-sobre-3w0e.jpg",
+    "publishedAt": "2026-11-19T18:59:53.089Z",
+    "article": {
+      "slug": "reserva-federal-ajusta-cerco-regulatorio-sobre-3w0e",
+      "title": "La Reserva Federal ajusta el cerco regulatorio sobre la banca regional",
+      "dek": "El banco central estadounidense emitió una orden de cese y desistimiento contra un exempleado de First Security Bancorp, tras corregir el tipo de sanción aplicada.",
+      "keyFacts": [
+        "La acción de cumplimiento fue anunciada por la Reserva Federal.",
+        "El registro fue revisado el 19 de noviembre de 2026 para corregir el tipo de sanción.",
+        "La medida pasó a clasificarse formalmente como una orden de cese y desistimiento por consentimiento.",
+        "El caso involucra a un exempleado de First Security Bancorp."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La Reserva Federal de Estados Unidos anunció la ejecución de una acción de cumplimiento formal dirigida contra un exempleado de First Security Bancorp. El aviso oficial inicial, difundido por la autoridad monetaria, requirió una corrección posterior en sus registros públicos.",
+            "Según la nota oficial emitida por la institución, el comunicado original fue revisado para modificar la naturaleza jurídica de la sanción, pasando de ser descrita inicialmente como una prohibición por consentimiento a quedar tipificada de manera definitiva como una orden de cese y desistimiento por consentimiento."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Las acciones de cumplimiento individuales por parte de la Reserva Federal suelen apuntar a irregularidades operativas, fallas en los controles internos o violaciones a las normativas bancarias federales por parte de actores específicos dentro de las instituciones financieras.",
+            "First Security Bancorp opera dentro del tejido de la banca regional estadounidense, un sector que ha permanecido bajo la lupa de los reguladores federales ante la necesidad de blindar el sistema contra riesgos de gobernanza y debilidades administrativas tras los episodios de tensión financiera de los últimos años."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras que las grandes crisis financieras acaparan el debate público con rescates y macrodatos, la verdadera trinchera regulatoria se libra en los despachos de supervisión a escala microeconómica. La corrección administrativa realizada por la Reserva Federal para precisar el término legal de la sanción expone el rigor técnico con el que el banco central audita la conducta individual.",
+            "Este tipo de medidas individuales contra exempleados evidencian que el sistema de supervisión busca responsabilizar a personas naturales por fallas sistémicas o de cumplimiento, desplazando parte de la presión regulatoria desde la institución hacia la responsabilidad ejecutiva o laboral interna."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los reguladores federales reafirman su capacidad coercitiva y su mandato de control sobre cualquier eslabón de la jerarquía bancaria, enviando una señal clara al sector sobre la tolerancia cero ante desvíos operativos.",
+            "Por otro lado, las instituciones financieras regionales y sus plantillas cargan con el costo reputacional y operativo de un escrutinio cada vez más invasivo, donde un error administrativo o una falta individual puede derivar en acciones formales de alto perfil público."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario seguir de cerca si la Reserva Federal incrementa el volumen de órdenes de cese y desistimiento dirigidas a empleados y ex empleados en bancos medianos y regionales.",
+            "Asimismo, resulta clave observar cómo estas medidas impactan en las pólizas de responsabilidad civil y en los costos de retención de talento ejecutivo dentro de las entidades financieras fuera de los grandes centros de Wall Street."
+          ]
+        }
+      ],
+      "tags": [
+        "Reserva Federal",
+        "Banca Regional",
+        "Regulación",
+        "Economía Global",
+        "First Security Bancorp"
+      ],
+      "sources": [
+        {
+          "name": "Reserva Federal",
+          "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+        }
+      ],
+      "wordCount": 436
+    },
+    "blindSpot": "Mientras la atención pública se desvía hacia los grandes colapsos bancarios, los reguladores endurecen el cerco sobre individuos específicos en entidades regionales mediante enmiendas de última hora que corrigen errores administrativos, revelando un escrutinio sigiloso sobre fallas operativas internas."
+  },
+  {
     "slug": "europa-blinda-berlin-ante-nuevo-equilibrio-q5fa",
     "path": "noticias/europa-blinda-berlin-ante-nuevo-equilibrio-q5fa/",
     "title": "Europa se blinda en Berlín ante el nuevo equilibrio de poder pactado en Shenzhen",

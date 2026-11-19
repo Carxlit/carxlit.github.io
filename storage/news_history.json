@@ -292,9 +292,41 @@
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5",
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGJPUXhaand0ck9Yejc4STJGSmJqZWxMTUdXbFpPUlVZU2FCT2duRE5sU19zcWlHREw5YW1peHNuRlg0XzNHdjNKYW9nOVhaVzhLSkZsdjNwUVcyazc1WjdmQXVfOFJ3U1VleDlKdG1QMTh3UzlCcTNNc0lRQ2dQMkxESmRRMTNhbzVLSlg4N0xRYlpGVnR5MmxYNmh1VG9CUmRNWUlQSjdFMUlXc0ZQWXdHdEdvbzhzckdHOVFGa3RHU25Dek5JSUZiV1FWM2d6WExWdG9pNNIB1wFBVV95cUxPMl9PdEFXVVhzSVA2ZEVHNTJzTDhiTGJmWTFUYVBQR1pSVEE1VnpIYTBTZkNDdjNsRFR6S0tRNnhObFlPbGF0R3NkcndZV0pWVW1kY1E4QzZ4UkQ1NXJVaEZpeW9nMXotS1ZYTjNWNUZUU0hhR3diSjNPM1A5MjdyeXg2N0U0dnlfYlFIb0lSQlFHQnluUnZRd2MxNWNTUENCY3RmNzlXNVpXN3dXVlVMbWNfX19BYVM4Q09VcmVsYml1bFcxTGNIRVUzWUpRcWRYbmpMV2ozUQ?oc=5",
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
-    "https://www.abc.es/internacional/europa-celebra-contracumbre-defender-ucrania-trump-putin-20261119111743-nt.html"
+    "https://www.abc.es/internacional/europa-celebra-contracumbre-defender-ucrania-trump-putin-20261119111743-nt.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
   ],
   "processedSignatures": [
+    {
+      "title": "RESERVA FEDERAL EMITE ORDEN CONTRA EXEMPLEADO DE FIRST SECURITY",
+      "normalizedTokens": [
+        "reserva",
+        "federal",
+        "emite",
+        "orden",
+        "exempleado",
+        "first",
+        "security"
+      ],
+      "date": "2026-11-19T18:59:53.226Z"
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "normalizedTokens": [
+        "federal",
+        "reserve",
+        "board",
+        "issues",
+        "enforcement",
+        "action",
+        "with",
+        "former",
+        "employee",
+        "first",
+        "security",
+        "bancorp"
+      ],
+      "date": "2026-11-19T18:59:53.225Z"
+    },
     {
       "title": "BERLÍN ORGANIZA CONTRACUMBRE ANTE EL EJE SHENZHEN",
       "normalizedTokens": [
@@ -7305,37 +7337,6 @@
         "historia"
       ],
       "date": "2026-11-04T13:19:20.571Z"
-    },
-    {
-      "title": "RAYTHEON ACELERARÁ LA PRODUCCIÓN DEL MISIL NAVAL ESSM BLOCK DOS",
-      "normalizedTokens": [
-        "raytheon",
-        "acelerara",
-        "produccion",
-        "misil",
-        "naval",
-        "essm",
-        "block",
-        "dos"
-      ],
-      "date": "2026-11-04T12:22:51.975Z"
-    },
-    {
-      "title": "Raytheon Entrega el Misil 1.000 ESSM Block 2: el Consorcio OTAN Eleva la Producción a 65 al Mes",
-      "normalizedTokens": [
-        "raytheon",
-        "entrega",
-        "misil",
-        "000",
-        "essm",
-        "block",
-        "consorcio",
-        "otan",
-        "eleva",
-        "produccion",
-        "mes"
-      ],
-      "date": "2026-11-04T12:22:51.974Z"
     }
   ]
 }

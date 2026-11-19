@@ -1378,5 +1378,15 @@
     "relevant": true,
     "reason": "Muestra a líderes europeos reunidos en una cumbre para tratar el apoyo a Ucrania.",
     "at": "2026-11-19T18:06:14.674Z"
+  },
+  "41c9f6b010a29c5a:9esbr8fyk": {
+    "relevant": false,
+    "reason": "La imagen muestra un comunicado de prensa sobre un caso de Goldman Sachs, mientras que el titular habla de una orden contra un exempleado de First Security.",
+    "at": "2026-11-19T18:59:41.642Z"
+  },
+  "1fbda99fd2903f94:9esbr8fyk": {
+    "relevant": false,
+    "reason": "El gráfico muestra las tasas de interés de la Reserva Federal y no guarda relación con la sanción a un exempleado de First Security.",
+    "at": "2026-11-19T18:59:49.764Z"
   }
 }
