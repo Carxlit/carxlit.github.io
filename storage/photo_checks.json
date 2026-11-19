@@ -1343,5 +1343,10 @@
     "relevant": false,
     "reason": "La imagen muestra a una persona hablando en un atril ante una bandera, lo cual no ilustra un incendio forestal en Cusco.",
     "at": "2026-11-19T12:05:08.441Z"
+  },
+  "b6e42d040291f998:o3vmrdz0w": {
+    "relevant": true,
+    "reason": "Muestra el edificio sede de Ueno Bank en Paraguay, la entidad financiera protagonista del titular.",
+    "at": "2026-11-19T12:38:57.958Z"
   }
 }

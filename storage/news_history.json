@@ -286,9 +286,41 @@
     "https://www.xataka.com/ecologia-y-naturaleza/estudiante-mezclo-pescado-podrido-algas-100-veces-ha-acabado-inventando-unas-bolsas-plastico-que-se-autodestruyen",
     "https://www.infobae.com/america/mundo/2026/11/19/en-vivo-historica-reunion-trilateral-entre-donald-trump-xi-jinping-y-vladimir-putin/",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/pete-hegseth-secretario-de-guerra-de-estados-unidos-se-refirio-a-su-visita-a-colombia-califico-el-encuentro-como-reunion-productiva-3602260",
-    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV0VqUnc3QXkyLTh1TVl0LWZuLTItN1NPNGcxem9CVjlHYUlZYS1haXlWdVROaDBTTW5LZjA4SnY2Tjl5d0oxb0dCZGtQUGhIaUZNa1FOTEFRd1hYdzZQYkx4TGh5UVlUaDExczdDUTJBYk8tOE9qWnEyM3R0T056VlUtRTVaQzM2aVNVMDg4Zmw2ZENmdWxiWlJZYXEtWm5ZREZEYk9Vd0xvMWZwZTVQTUprcmxpTU1NOGlndHhENnB2d05LV1F2cERIV3Q0cmxtZVBlNTdDLUZQaTd2NFVQUGhYNmc?oc=5"
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV0VqUnc3QXkyLTh1TVl0LWZuLTItN1NPNGcxem9CVjlHYUlZYS1haXlWdVROaDBTTW5LZjA4SnY2Tjl5d0oxb0dCZGtQUGhIaUZNa1FOTEFRd1hYdzZQYkx4TGh5UVlUaDExczdDUTJBYk8tOE9qWnEyM3R0T056VlUtRTVaQzM2aVNVMDg4Zmw2ZENmdWxiWlJZYXEtWm5ZREZEYk9Vd0xvMWZwZTVQTUprcmxpTU1NOGlndHhENnB2d05LV1F2cERIV3Q0cmxtZVBlNTdDLUZQaTd2NFVQUGhYNmc?oc=5",
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM3p5STl0TzVTZUR0UkxGTUVoYl9HTFVmOVg3N1p1VkdhSGhhbFNadEh0MU9SaFpYX3NQVXdQS0NKUmU1WVpGdExUemtWY0YySzQ2eGFMNDZhZ3dnSk1IczlTbmM4eU1tN2FmWndyYXlRbEpsNmVRaFVtQU1IaVF2b3oteS1PVjdXZ2NSOXhYSmwxWjRNYXVIQUtfS1Ayc3pXQUN0b2JNMkxzb3BrVXlLTTRVTDVoVHBmYkxTczk0TDI4T1oxMFM1TzJoUmVWM1JQT1ltSGhqSDZOZXRoWTBkempLZVRqTzRt?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "COLAPSO DE UENO BANK EN PARAGUAY DEJA PÉRDIDAS DE MIL MILLONES",
+      "normalizedTokens": [
+        "colapso",
+        "ueno",
+        "bank",
+        "paraguay",
+        "deja",
+        "perdidas",
+        "mil",
+        "millones"
+      ],
+      "date": "2026-11-19T12:39:02.159Z"
+    },
+    {
+      "title": "Las pérdidas de Ueno Bank de Paraguay rondan los 1.000 millones de dólares, según el Banco Central",
+      "normalizedTokens": [
+        "perdidas",
+        "ueno",
+        "bank",
+        "paraguay",
+        "rondan",
+        "000",
+        "millones",
+        "dolares",
+        "segun",
+        "banco",
+        "central"
+      ],
+      "date": "2026-11-19T12:39:02.157Z"
+    },
     {
       "title": "INCENDIO FORESTAL AMENAZA EL CORREDOR TURÍSTICO EN CUSCO",
       "normalizedTokens": [
@@ -7300,33 +7332,6 @@
         "democracia"
       ],
       "date": "2026-11-03T23:34:18.775Z"
-    },
-    {
-      "title": "CHINA OFRECE UN MILLÓN DE YUANES POR INGENIEROS DE IA",
-      "normalizedTokens": [
-        "china",
-        "ofrece",
-        "millon",
-        "yuanes",
-        "ingenieros"
-      ],
-      "date": "2026-11-03T21:52:02.880Z"
-    },
-    {
-      "title": "China ofrece sueldos de un millón de yuanes por el ingeniero de IA que también pelean OpenAI y Anthropic",
-      "normalizedTokens": [
-        "china",
-        "ofrece",
-        "sueldos",
-        "millon",
-        "yuanes",
-        "ingeniero",
-        "tambien",
-        "pelean",
-        "openai",
-        "anthropic"
-      ],
-      "date": "2026-11-03T21:52:02.880Z"
     }
   ]
 }
