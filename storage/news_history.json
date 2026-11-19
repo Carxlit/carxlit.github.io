@@ -290,9 +290,33 @@
     "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM3p5STl0TzVTZUR0UkxGTUVoYl9HTFVmOVg3N1p1VkdhSGhhbFNadEh0MU9SaFpYX3NQVXdQS0NKUmU1WVpGdExUemtWY0YySzQ2eGFMNDZhZ3dnSk1IczlTbmM4eU1tN2FmWndyYXlRbEpsNmVRaFVtQU1IaVF2b3oteS1PVjdXZ2NSOXhYSmwxWjRNYXVIQUtfS1Ayc3pXQUN0b2JNMkxzb3BrVXlLTTRVTDVoVHBmYkxTczk0TDI4T1oxMFM1TzJoUmVWM1JQT1ltSGhqSDZOZXRoWTBkempLZVRqTzRt?oc=5",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeGVRMFRfWTN0VlpJU0RLODByRzZIR1JKelhLZlBQWGNrUGR5QVpHQ0FxY0JqXzV4SndjOHhWM2JKRTZmNzhoOWo5cTU1MnR2N0hNcDhFZktQamxEUnYtMUlySXZjVWhxaGhQRmZCa1BqLWVObkVZVV80ODJpQnFIT3VvOWs4UWczenc2R0l0TFZabnJi?oc=5",
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeF9ibDNmMzA3VmtoSFBQREhRbmpndExSVnlxY0QzaHlVelR0dmw2bVQ0UEVxRmdRTGtCSHNJczVjNVRTa1ZkcGdZWV9vNVU2Sjk2SFNLVFZickRpanFMemJMTkxQSzM2X1d4YVctRW1mR2s4MzlIVURmVVRtNDdTUFVrcTRTRXNTVGlzb0NTWk9xM0FmbXJOMmdsTHVhdWJFYzRBOWF3?oc=5",
-    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGJPUXhaand0ck9Yejc4STJGSmJqZWxMTUdXbFpPUlVZU2FCT2duRE5sU19zcWlHREw5YW1peHNuRlg0XzNHdjNKYW9nOVhaVzhLSkZsdjNwUVcyazc1WjdmQXVfOFJ3U1VleDlKdG1QMTh3UzlCcTNNc0lRQ2dQMkxESmRRMTNhbzVLSlg4N0xRYlpGVnR5MmxYNmh1VG9CUmRNWUlQSjdFMUlXc0ZQWXdHdEdvbzhzckdHOVFGa3RHU25Dek5JSUZiV1FWM2d6WExWdG9pNNIB1wFBVV95cUxPMl9PdEFXVVhzSVA2ZEVHNTJzTDhiTGJmWTFUYVBQR1pSVEE1VnpIYTBTZkNDdjNsRFR6S0tRNnhObFlPbGF0R3NkcndZV0pWVW1kY1E4QzZ4UkQ1NXJVaEZpeW9nMXotS1ZYTjNWNUZUU0hhR3diSjNPM1A5MjdyeXg2N0U0dnlfYlFIb0lSQlFHQnluUnZRd2MxNWNTUENCY3RmNzlXNVpXN3dXVlVMbWNfX19BYVM4Q09VcmVsYml1bFcxTGNIRVUzWUpRcWRYbmpMV2ozUQ?oc=5"
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGJPUXhaand0ck9Yejc4STJGSmJqZWxMTUdXbFpPUlVZU2FCT2duRE5sU19zcWlHREw5YW1peHNuRlg0XzNHdjNKYW9nOVhaVzhLSkZsdjNwUVcyazc1WjdmQXVfOFJ3U1VleDlKdG1QMTh3UzlCcTNNc0lRQ2dQMkxESmRRMTNhbzVLSlg4N0xRYlpGVnR5MmxYNmh1VG9CUmRNWUlQSjdFMUlXc0ZQWXdHdEdvbzhzckdHOVFGa3RHU25Dek5JSUZiV1FWM2d6WExWdG9pNNIB1wFBVV95cUxPMl9PdEFXVVhzSVA2ZEVHNTJzTDhiTGJmWTFUYVBQR1pSVEE1VnpIYTBTZkNDdjNsRFR6S0tRNnhObFlPbGF0R3NkcndZV0pWVW1kY1E4QzZ4UkQ1NXJVaEZpeW9nMXotS1ZYTjNWNUZUU0hhR3diSjNPM1A5MjdyeXg2N0U0dnlfYlFIb0lSQlFHQnluUnZRd2MxNWNTUENCY3RmNzlXNVpXN3dXVlVMbWNfX19BYVM4Q09VcmVsYml1bFcxTGNIRVUzWUpRcWRYbmpMV2ozUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "ANTHROPIC DEBUTA EN NASDAQ CON VALUACIÓN DE 2 BILLONES",
+      "normalizedTokens": [
+        "anthropic",
+        "debuta",
+        "nasdaq",
+        "valuacion",
+        "billones"
+      ],
+      "date": "2026-11-19T17:06:15.429Z"
+    },
+    {
+      "title": "Anthropic valued at over $2 trillion in Nasdaq debut",
+      "normalizedTokens": [
+        "anthropic",
+        "valued",
+        "over",
+        "trillion",
+        "nasdaq",
+        "debut"
+      ],
+      "date": "2026-11-19T17:06:15.427Z"
+    },
     {
       "title": "ESTABILIZADO EL INCENDIO FORESTAL EN CALA MORELL MENORCA",
       "normalizedTokens": [
@@ -7308,40 +7332,6 @@
         "democracia"
       ],
       "date": "2026-11-04T11:29:59.224Z"
-    },
-    {
-      "title": "EL BANCO CENTRAL DE PARAGUAY INTERVIENE UENO BANK Y CONGELA FONDOS",
-      "normalizedTokens": [
-        "banco",
-        "central",
-        "paraguay",
-        "interviene",
-        "ueno",
-        "bank",
-        "congela",
-        "fondos"
-      ],
-      "date": "2026-11-04T02:28:29.582Z"
-    },
-    {
-      "title": "Ueno Bank: el Banco Central del Paraguay interviene uno de los mayores bancos del país, y deja congelados los ahorros de millones de clientes",
-      "normalizedTokens": [
-        "ueno",
-        "bank",
-        "banco",
-        "central",
-        "paraguay",
-        "interviene",
-        "mayores",
-        "bancos",
-        "pais",
-        "deja",
-        "congelados",
-        "ahorros",
-        "millones",
-        "clientes"
-      ],
-      "date": "2026-11-04T02:28:29.582Z"
     }
   ]
 }

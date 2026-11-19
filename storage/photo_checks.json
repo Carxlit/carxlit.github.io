@@ -1363,5 +1363,15 @@
     "relevant": true,
     "reason": "Muestra claramente el incendio forestal mencionado en el titular principal ocurrido en Cala Morell, Menorca.",
     "at": "2026-11-19T16:08:15.927Z"
+  },
+  "847702ff3cb9306d:a1pyegymp": {
+    "relevant": false,
+    "reason": "Es un gráfico de proyecciones de ingresos y no representa la salida a bolsa ni la valuación de mercado de la empresa.",
+    "at": "2026-11-19T17:05:21.011Z"
+  },
+  "4e91e14f902349f2:a1pyegymp": {
+    "relevant": false,
+    "reason": "La imagen es una infografía sobre el mercado del gas natural en Colombia y no tiene relación con la empresa de inteligencia artificial Anthropic ni con su salida a bolsa.",
+    "at": "2026-11-19T17:06:12.456Z"
   }
 }

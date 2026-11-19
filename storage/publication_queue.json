@@ -26439,5 +26439,148 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-19T16:08:19.494Z"
+  },
+  {
+    "id": "queue-1795107975414-aeq7n",
+    "news": {
+      "id": "a1pyegymp",
+      "originalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+      "originalTitle": "Anthropic valued at over $2 trillion in Nasdaq debut",
+      "sourceName": "Reuters",
+      "category": "ECONOMÍA GLOBAL",
+      "urgencyScore": 88,
+      "headline": "ANTHROPIC DEBUTA EN NASDAQ CON VALUACIÓN DE 2 BILLONES",
+      "subHeadline": "La compañía de inteligencia artificial fijó su precio de salida en 83 dólares por acción, alcanzando una capitalización de mercado superior a los 2 billones de dólares.",
+      "blindSpotAngle": "La cifra de 2 billones no refleja la rentabilidad operativa, sino la fe ciega de los mercados en el ecosistema de infraestructura de IA. Este movimiento desplaza el foco de la innovación técnica hacia la consolidación de capital como barrera de entrada contra competidores de menor escala.",
+      "facebookPost": "Anthropic ha debutado en el Nasdaq con una valoración que supera los 2 billones de dólares, fijando sus acciones en 83 dólares. Los titulares celebran la cifra como una victoria de la innovación, pero el mercado está comprando una promesa de escala más que un balance saneado.\n\nEl punto ciego aquí es el riesgo sistémico: cuando el valor de una empresa de software depende casi exclusivamente de su capacidad para atraer capital masivo, el mercado deja de premiar la eficiencia para premiar la supervivencia financiera a cualquier costo. ¿Es esta valoración el techo de la burbuja de la IA o el inicio de una concentración de poder sin precedentes?\n\nFuente: Reuters\n\n#PuntoCiego #IA #Mercados",
+      "telegramPost": "<b>ANTHROPIC DEBUTA EN NASDAQ CON VALUACIÓN DE 2 BILLONES</b> • <b>Qué ocurrió:</b> La firma de IA salió a bolsa con un precio de 83 dólares por acción alcanzando una valoración de mercado superior a los 2 billones de dólares. • <b>Por qué importa:</b> Esta cifra reafirma la hegemonía del capital en la carrera por la inteligencia artificial, marcando un hito en la confianza de los inversores hacia el sector. • <b>Qué sigue:</b> El mercado observará la capacidad de Anthropic para convertir este capital en ingresos sostenibles frente a la presión de sus competidores directos.",
+      "linkedInPost": "El debut de Anthropic en Nasdaq con una valoración de 2 billones de dólares no es solo un hito financiero, es una señal clara de la dirección del capital institucional. Al fijar el precio en 83 dólares por acción, el mercado valida un modelo de negocio intensivo en capital que prioriza la escala sobre la rentabilidad inmediata.\n\nPara los analistas, esto implica una reconfiguración de las cadenas de valor en la industria tecnológica. La liquidez concentrada en este tipo de activos sugiere que la ventaja competitiva no reside solo en el algoritmo, sino en la capacidad de absorción de capital necesario para sostener la infraestructura de IA a gran escala. La volatilidad será el factor a vigilar mientras los inversores ajustan sus expectativas a los resultados trimestrales.\n\nFuente: Reuters\n\n#PuntoCiego #Finanzas #IA",
+      "blueskyPost": "Anthropic debuta en Nasdaq con 2 billones de dólares de valoración. Más allá del optimismo, el mercado apuesta por el capital masivo como única barrera de entrada en la IA. ¿Sostenibilidad o burbuja? #PuntoCiego #EconomíaGlobal",
+      "copies": {
+        "facebook": "Anthropic ha debutado en el Nasdaq con una valoración que supera los 2 billones de dólares, fijando sus acciones en 83 dólares. Los titulares celebran la cifra como una victoria de la innovación, pero el mercado está comprando una promesa de escala más que un balance saneado.\n\nEl punto ciego aquí es el riesgo sistémico: cuando el valor de una empresa de software depende casi exclusivamente de su capacidad para atraer capital masivo, el mercado deja de premiar la eficiencia para premiar la supervivencia financiera a cualquier costo. ¿Es esta valoración el techo de la burbuja de la IA o el inicio de una concentración de poder sin precedentes?\n\n#PuntoCiego #IA #Mercados",
+        "telegram": "<b>ANTHROPIC DEBUTA EN NASDAQ CON VALUACIÓN DE 2 BILLONES</b> • <b>Qué ocurrió:</b> La firma de IA salió a bolsa con un precio de 83 dólares por acción alcanzando una valoración de mercado superior a los 2 billones de dólares. • <b>Por qué importa:</b> Esta cifra reafirma la hegemonía del capital en la carrera por la inteligencia artificial, marcando un hito en la confianza de los inversores hacia el sector. • <b>Qué sigue:</b> El mercado observará la capacidad de Anthropic para convertir este capital en ingresos sostenibles frente a la presión de sus competidores directos.",
+        "bluesky": "Anthropic debuta en Nasdaq con 2 billones de dólares de valoración. Más allá del optimismo, el mercado apuesta por el capital masivo como única barrera de entrada en la IA. ¿Sostenibilidad o burbuja? #PuntoCiego #EconomíaGlobal",
+        "linkedIn": "El debut de Anthropic en Nasdaq con una valoración de 2 billones de dólares no es solo un hito financiero, es una señal clara de la dirección del capital institucional. Al fijar el precio en 83 dólares por acción, el mercado valida un modelo de negocio intensivo en capital que prioriza la escala sobre la rentabilidad inmediata.\n\nPara los analistas, esto implica una reconfiguración de las cadenas de valor en la industria tecnológica. La liquidez concentrada en este tipo de activos sugiere que la ventaja competitiva no reside solo en el algoritmo, sino en la capacidad de absorción de capital necesario para sostener la infraestructura de IA a gran escala. La volatilidad será el factor a vigilar mientras los inversores ajustan sus expectativas a los resultados trimestrales.\n\n#PuntoCiego #Finanzas #IA"
+      },
+      "article": {
+        "slug": "apuesta-2-billones-dolares-debut-anthropic-72gt",
+        "title": "La apuesta de 2 billones de dólares: el debut de Anthropic en el Nasdaq",
+        "dek": "La salida a bolsa de Anthropic marca un hito en la valoración del sector tecnológico global. Analizamos si esta cifra responde a fundamentos reales o a una euforia de mercado desmedida.",
+        "keyFacts": [
+          "La valoración de mercado de Anthropic superó los 2 billones de dólares tras su debut.",
+          "El precio de salida fijado por la compañía fue de 83 dólares por acción.",
+          "La cotización se realizó en el mercado Nasdaq durante la sesión del jueves.",
+          "La expectación por la salida a bolsa estuvo precedida por reportes que situaban el precio por encima de los 80 dólares."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Anthropic ha completado su esperado debut en el Nasdaq, alcanzando una capitalización de mercado superior a los 2 billones de dólares. Según los datos reportados por Reuters, la compañía fijó el precio de sus acciones en 83 dólares, una cifra que refleja la alta demanda de los inversores institucionales por activos relacionados con la inteligencia artificial.",
+              "El proceso de salida, que se consolidó tras semanas de especulaciones y reportes previos, posiciona a Anthropic como uno de los nuevos gigantes del ecosistema tecnológico, compitiendo directamente por la liquidez en un mercado que busca desesperadamente el próximo líder en el desarrollo de modelos de lenguaje avanzados."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El debut de Anthropic ocurre en un momento de euforia para el Nasdaq, impulsado en gran parte por los resultados positivos de empresas clave del sector tecnológico como Nvidia. La confianza de los inversores en la infraestructura de IA ha creado un entorno favorable para que las compañías del sector alcancen valoraciones de mercado históricas.",
+              "Desde que circularon los primeros reportes que situaban el precio de salida por encima de los 80 dólares, la expectativa fue clara: el mercado estaba preparado para absorber una oferta pública inicial de gran envergadura. La cifra final de 83 dólares por acción confirma que el apetito por el riesgo en este segmento permanece intacto."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Más allá de la cifra impactante de 2 billones, existe una pregunta incómoda sobre la sostenibilidad del modelo de negocio. La valoración actual depende menos de la rentabilidad operativa y más de la capacidad de la empresa para mantener una carrera de gasto intensivo en infraestructura.",
+              "El mercado está premiando la escala y la promesa de dominio tecnológico, pero esta dinámica oculta el riesgo de que la valoración esté desconectada de los ingresos reales a corto plazo. La pregunta que los analistas evitan es si el mercado está financiando la innovación o simplemente inflando un activo para evitar perder la ola de la IA."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los grandes ganadores son los inversores tempranos y la propia estructura corporativa de Anthropic, que ahora cuenta con una reserva de capital sin precedentes para acelerar su desarrollo. Por otro lado, los inversores minoristas asumen el riesgo de una volatilidad extrema, común en compañías cuya valoración se basa en expectativas a largo plazo y no en flujos de caja consolidados.",
+              "La competencia también se ve afectada; las empresas más pequeñas que no cuentan con este nivel de acceso a capital tendrán dificultades para mantener el ritmo de desarrollo, lo que podría derivar en una mayor consolidación del sector bajo unos pocos actores dominantes."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "En los próximos trimestres, el enfoque debe estar en los reportes de resultados. La capacidad de Anthropic para justificar su valoración de 2 billones mediante la monetización real de sus servicios será el termómetro que determine si este debut fue un éxito estratégico o el pico de una burbuja sectorial."
+            ]
+          }
+        ],
+        "tags": [
+          "Tecnología",
+          "IA",
+          "Nasdaq",
+          "Mercados",
+          "Inversión"
+        ],
+        "sources": [
+          {
+            "name": "Reuters",
+            "title": "Anthropic valued at over $2 trillion in Nasdaq debut",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5"
+          },
+          {
+            "name": "TradingView",
+            "title": "Anthropic set to price its IPO tonight, with reports pointing above $80",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3IxMzlSV3QtTk53SzBoLU52ekZnWkpoQ1Z1VU5FbHpWX0tGa0pPTFBFNHoxNUlsajh2TFFVRDNWNHRScWtBRTlMSU1fREJ4enloRlNPV2pqSkJxd2JxaEdGSlhXeDlMSzBnVG5xOF9jQ3pYV19qalFzSE1pTHV2S1NxU3RLdlhVaTRvTHp5bjR6dW9WbXJlV2xVZWFQd3dSdVJKbUlCV3RfbEYyc2VBdkNhd3kxZ19VaFkwRlQ0eVRtaHc?oc=5"
+          },
+          {
+            "name": "TradingView",
+            "title": "Anthropic IPO Today: Share Price, Valuation, Revenue and Key Risks",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPejlHSVppQ3gtUk5hNWxlbFlZM2xITnBYZGlnRkRpZVY0RTVLMFRFRzlORUs0TUZ2Q0Q1OEhjWlNuejBCWm4zR2xJclV6cHhHQmtWMXNVMk5kbVNFZE5uZEV2aElnSFRDVkdjQ2d2YVVYRXBaeUJ5T3QtS0FybUNnSHpLbnNZZTJ0Y3ZMMkdQTVVHZnZLTUJwMGlHN25LS0NpLVhkN2RfNWh4UUdMV2w3Y2dBdHkxUzV6Y1pvRW5aTQ?oc=5"
+          },
+          {
+            "name": "TradingView",
+            "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbkNnZnVKblExRmhnN3V3M1B6dkFPUnYwZFBzZlp2MUwxX2dnYnpDRm0yVm5KMlNmeURIMHFBV3AyNUpuaWlYRWJsZHNHYWFHM3dEbHNKV0g1aVFOTTZ4RV9HUi12eVhHRWJSQktfNGM2WUo3dWcyRVNLM2c3NDg1VHhjRTRmM2xhYVJLY0pySktoT0xxbVJJZW12b1RGRVBYcGx2Uk1kUzFaLXRtSDkyWFZKZUpsbjVMZFVhOGhvVnhGTjNieWtUdGoxU3BUYl80QmlvM1VJN2pvTXR2ZFU1MWFHU0NTR05VVDVyVDdKUzNNZW1XRUM3b1hHczRTdUZC?oc=5"
+          },
+          {
+            "name": "TradingView",
+            "title": "Anthropic IPO prices at $83 a share as ANT prepares Thursday debut",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnRvclBsakhnV0VRZjZNT1VZTE5BS3NrVXFuT2U2Y3RsYmo5eWZjdW91cnFfamo4NFdUVmhEV1pqalRzZFo2R04wSkRMUHpESjhyZFhfdTJ1cU9LbmFJOWdLa0FMczRKTGJEM0phbzBRdTFVR3dEQXYwTktLQndqT0MtT0FURnNRaXo5SlgwWEp4R01TY2tPQm5iS2tneUJIN2swZnhxdTVTclFuNVBaYnlEQ1hrZUg1NmxVTmVR?oc=5"
+          }
+        ],
+        "wordCount": 502
+      },
+      "videoScript": {
+        "hook": "Anthropic debuta en bolsa y su valoración supera los 2 billones de dólares",
+        "beats": [
+          "La compañía fijó el precio de su acción en 83 dólares tras una jornada de alta expectativa en el Nasdaq.",
+          "El mercado está inyectando capital masivo apostando todo a la inteligencia artificial sin mirar los balances de rentabilidad.",
+          "Lo que nadie dice es que esta cifra de 2 billones convierte a la empresa en un gigante cuya supervivencia depende únicamente de seguir atrayendo dinero."
+        ],
+        "close": "Lee el análisis completo sobre el futuro de Anthropic en el enlace del perfil."
+      },
+      "sourceVideo": {
+        "provider": "youtube",
+        "id": "2rPY3j5YuEM",
+        "title": "Anthropic sale a bolsa   Vale de verdad un billón de dólares?",
+        "channel": "Xeo politik"
+      },
+      "status": "pending",
+      "createdAt": "2026-11-19T17:06:13.863Z",
+      "cardImageUrl": "/news-cards/news-a1pyegymp-1795107973863.jpg",
+      "reelCoverUrl": "/news-cards/news-a1pyegymp-1795107974372-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-a1pyegymp-1795107974837-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/apuesta-2-billones-dolares-debut-anthropic-72gt/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-19T20:26:12.932Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-19T17:06:15.414Z"
   }
 ]
