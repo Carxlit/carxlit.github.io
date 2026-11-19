@@ -280,9 +280,39 @@
     "https://www.abc.es/internacional/eeuu-extiende-tutela-venezuela-ejercito-acuerdo-militar-20261118190304-nt.html",
     "https://www.genbeta.com/actualidad/jose-andres-chef-57-anos-yo-volveria-a-crear-servicio-militar-paralelo-otro-social-gente-joven-tuviera-oportunidad-salario-hacer-este-tipo-servicio-a-su-pais",
     "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-    "https://es.euronews.com/2026/11/18/bukele-confirma-un-ataque-aereo-contra-la-mansion-del-jefe-de-una-banda-haitiana"
+    "https://es.euronews.com/2026/11/18/bukele-confirma-un-ataque-aereo-contra-la-mansion-del-jefe-de-una-banda-haitiana",
+    "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack"
   ],
   "processedSignatures": [
+    {
+      "title": "UCRANIA ATACA EL PUENTE DE KERCH Y SURGE DESINFORMACIÓN CON IA",
+      "normalizedTokens": [
+        "ucrania",
+        "ataca",
+        "puente",
+        "kerch",
+        "surge",
+        "desinformacion"
+      ],
+      "date": "2026-11-19T05:17:08.928Z"
+    },
+    {
+      "title": "Crimea bridge strike: Fact-checking fake videos of damage after Ukraine's attack",
+      "normalizedTokens": [
+        "crimea",
+        "bridge",
+        "strike",
+        "fact",
+        "checking",
+        "fake",
+        "videos",
+        "damage",
+        "after",
+        "ukraine",
+        "attack"
+      ],
+      "date": "2026-11-19T05:17:08.925Z"
+    },
     {
       "title": "BUKELE ORDENA ATAQUE AÉREO CONTRA LÍDER DE BANDA HAITIANA",
       "normalizedTokens": [
@@ -7290,32 +7320,6 @@
         "tanto"
       ],
       "date": "2026-11-03T14:29:12.451Z"
-    },
-    {
-      "title": "ABREN LAS URNAS PARA LAS MIDTERMS DE 2026 EN ESTADOS UNIDOS",
-      "normalizedTokens": [
-        "abren",
-        "urnas",
-        "midterms",
-        "2026",
-        "estados",
-        "unidos"
-      ],
-      "date": "2026-11-03T13:26:01.105Z"
-    },
-    {
-      "title": "Midterms en directo: abren las urnas en la costa este para unos comicios determinantes en EE. UU.",
-      "normalizedTokens": [
-        "midterms",
-        "directo",
-        "abren",
-        "urnas",
-        "costa",
-        "unos",
-        "comicios",
-        "determinantes"
-      ],
-      "date": "2026-11-03T13:26:01.105Z"
     }
   ]
 }
