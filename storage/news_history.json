@@ -295,9 +295,36 @@
     "https://www.abc.es/internacional/europa-celebra-contracumbre-defender-ucrania-trump-putin-20261119111743-nt.html",
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
     "https://es.euronews.com/video/2026/11/19/salida-a-bolsa-historica-de-anthropic-en-wall-street-entre-protestas-por-burbuja-de-ia",
-    "https://www.france24.com/es/europa/20261119-vivienda-trenes-y-migraci%C3%B3n-qu%C3%A9-proponen-los-partidos-de-cara-a-las-elecciones-del-29n-en-espa%C3%B1a"
+    "https://www.france24.com/es/europa/20261119-vivienda-trenes-y-migraci%C3%B3n-qu%C3%A9-proponen-los-partidos-de-cara-a-las-elecciones-del-29n-en-espa%C3%B1a",
+    "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "LA MUERTE DE FIONA EXPO NE FALLAS ZOOLÓGICAS",
+      "normalizedTokens": [
+        "muerte",
+        "fiona",
+        "expo",
+        "fallas",
+        "zoologicas"
+      ],
+      "date": "2026-11-20T05:01:27.940Z"
+    },
+    {
+      "title": "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
+      "normalizedTokens": [
+        "cincinnati",
+        "famous",
+        "hippo",
+        "fiona",
+        "dies",
+        "after",
+        "eating",
+        "visitor",
+        "hat"
+      ],
+      "date": "2026-11-20T05:01:27.935Z"
+    },
     {
       "title": "ELECCIONES EN ESPAÑA DEL 29N: VIVIENDA, INFRAESTRUCTURA Y MIGRACIÓN",
       "normalizedTokens": [
@@ -7307,33 +7334,6 @@
         "sheinbaum"
       ],
       "date": "2026-11-04T16:51:56.616Z"
-    },
-    {
-      "title": "FRANCIA SUFRE CIBERATAQUE CONTRA RESERVAS DE SANGRE Y CADENA FRÍO",
-      "normalizedTokens": [
-        "francia",
-        "sufre",
-        "ciberataque",
-        "reservas",
-        "sangre",
-        "cadena",
-        "frio"
-      ],
-      "date": "2026-11-04T15:08:34.828Z"
-    },
-    {
-      "title": "Después de los supermercados, el último objetivo de los ciberataques en Francia son los bancos de sangre",
-      "normalizedTokens": [
-        "despues",
-        "supermercados",
-        "ultimo",
-        "objetivo",
-        "ciberataques",
-        "francia",
-        "bancos",
-        "sangre"
-      ],
-      "date": "2026-11-04T15:08:34.827Z"
     }
   ]
 }
