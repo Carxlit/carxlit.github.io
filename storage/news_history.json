@@ -299,9 +299,38 @@
     "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
     "https://www.dw.com/es/ataque-de-misiles-rusos-dañan-tres-puentes-y-dejan-tres-muertos-en-la-capital-ucraniana/a-79998916?maca=spa-rss-sp-all-1122-rdf",
     "https://www.europapress.es/internacional/noticia-menos-tres-muertos-15-heridos-ataque-masivo-ruso-contra-kiev-dana-tres-puentes-20261120072941.html",
-    "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says"
+    "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+    "https://www.xataka.com/magnet/crisis-contenedores-ropa-humana-caritas-toledo-reducen-su-recogida-porque-ha-dejado-ser-sostenible"
   ],
   "processedSignatures": [
+    {
+      "title": "EL COLAPSO DEL RECICLAJE TEXTIL DEJA SIN MARGEN A LAS ONG",
+      "normalizedTokens": [
+        "colapso",
+        "reciclaje",
+        "textil",
+        "deja",
+        "margen",
+        "ong"
+      ],
+      "date": "2026-11-20T11:02:50.648Z"
+    },
+    {
+      "title": "Crisis en los contenedores de ropa: Humana y Cáritas Toledo reducen su recogida porque \"ha dejado de ser sostenible\"",
+      "normalizedTokens": [
+        "crisis",
+        "contenedores",
+        "ropa",
+        "humana",
+        "caritas",
+        "toledo",
+        "reducen",
+        "recogida",
+        "dejado",
+        "sostenible"
+      ],
+      "date": "2026-11-20T11:02:50.639Z"
+    },
     {
       "title": "RUSIA ATACA INFRAESTRUCTURA DE KIEV EN RESPUESTA A CRIMEA",
       "normalizedTokens": [
@@ -7319,40 +7348,6 @@
         "people"
       ],
       "date": "2026-11-04T21:56:35.190Z"
-    },
-    {
-      "title": "TRUMP ATRIBUYE DERROTA ELECTORAL REPUBLICANA A GUERRA CON IRÁN",
-      "normalizedTokens": [
-        "trump",
-        "atribuye",
-        "derrota",
-        "electoral",
-        "republicana",
-        "guerra",
-        "iran"
-      ],
-      "date": "2026-11-04T20:23:21.445Z"
-    },
-    {
-      "title": "Donald Trump reapareció en público: reconoció que la guerra en Irán motivó la derrota en las elecciones, pero insiste que era algo que tenía que hacer",
-      "normalizedTokens": [
-        "donald",
-        "trump",
-        "reaparecio",
-        "publico",
-        "reconocio",
-        "guerra",
-        "iran",
-        "motivo",
-        "derrota",
-        "elecciones",
-        "insiste",
-        "era",
-        "algo",
-        "tenia",
-        "hacer"
-      ],
-      "date": "2026-11-04T20:23:21.445Z"
     }
   ]
 }
