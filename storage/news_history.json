@@ -309,9 +309,36 @@
     "https://es.wired.com/articulos/muse-de-meta-permite-dejar-de-seguir-a-quienes-no-te-siguen-de-vuelta-en-instagram",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3FFWXhvZEtSdGx4UGF2eGhmNFRyblI4cWxwUURXY3VKd0FsRkFrRzVNaEduYWtwTDlOLWUwU1BqOU1zaDJVekZ2X3BQam85M3puU1d2Sk1ZOEthaDhvSG9hcmRPUGVLdXRKaU1RM0FyN1NkWVJtbzJwV0xSZmJRVE5CbHEzVWtsWGhpbktzWDdEX0RDaTVPeWlXYlhqQ045SzhzS29uQi01MXRIRnVfX1dKTG1reHZic2NLUDBFYw?oc=5",
     "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf",
-    "https://www.wired.com/story/best-black-friday-deals-11-20-2026/"
+    "https://www.wired.com/story/best-black-friday-deals-11-20-2026/",
+    "https://www.abc.es/internacional/misil-ruso-impacta-sureste-polonia-ataque-ucrania-20261120121157-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "MISILES Y DRON RUSOS IMPACTAN EN TERRITORIO POLACO DE LA OTAN",
+      "normalizedTokens": [
+        "misiles",
+        "dron",
+        "rusos",
+        "impactan",
+        "territorio",
+        "polaco",
+        "otan"
+      ],
+      "date": "2026-11-20T21:02:19.169Z"
+    },
+    {
+      "title": "Un misil ruso impacta en el sureste de Polonia durante un ataque contra Ucrania",
+      "normalizedTokens": [
+        "misil",
+        "ruso",
+        "impacta",
+        "sureste",
+        "polonia",
+        "ataque",
+        "ucrania"
+      ],
+      "date": "2026-11-20T21:02:19.167Z"
+    },
     {
       "title": "ADELANTO DE BLACK FRIDAY REFLEJA PRESIÓN DE INVENTARIO",
       "normalizedTokens": [
@@ -7355,32 +7382,6 @@
         "saber"
       ],
       "date": "2026-11-05T11:22:09.683Z"
-    },
-    {
-      "title": "DEMÓCRATAS BUSCAN FRENAR LA GUERRA DE TRUMP CON EL PRESUPUESTO",
-      "normalizedTokens": [
-        "democratas",
-        "buscan",
-        "frenar",
-        "guerra",
-        "trump",
-        "presupuesto"
-      ],
-      "date": "2026-11-05T11:01:56.885Z"
-    },
-    {
-      "title": "Con el control del Congreso, ¿podrían los demócratas detener la guerra de Trump en Irán?",
-      "normalizedTokens": [
-        "control",
-        "congreso",
-        "podrian",
-        "democratas",
-        "detener",
-        "guerra",
-        "trump",
-        "iran"
-      ],
-      "date": "2026-11-05T11:01:56.885Z"
     }
   ]
 }
