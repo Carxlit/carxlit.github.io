@@ -301,9 +301,38 @@
     "https://www.europapress.es/internacional/noticia-menos-tres-muertos-15-heridos-ataque-masivo-ruso-contra-kiev-dana-tres-puentes-20261120072941.html",
     "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
     "https://www.xataka.com/magnet/crisis-contenedores-ropa-humana-caritas-toledo-reducen-su-recogida-porque-ha-dejado-ser-sostenible",
-    "https://www.genbeta.com/actualidad/antonio-carmona-nuestro-pais-se-esta-convirtiendo-abanico-gente-que-viene-marruecos-venezuela-colombia-todo-eso-viene-a-enriquecer-nuestra-cultura-me-encanta"
+    "https://www.genbeta.com/actualidad/antonio-carmona-nuestro-pais-se-esta-convirtiendo-abanico-gente-que-viene-marruecos-venezuela-colombia-todo-eso-viene-a-enriquecer-nuestra-cultura-me-encanta",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "MILES DE PERSONAS PROTESTAN EN ITALIA POR SALARIOS Y GASTO PÚBLICO",
+      "normalizedTokens": [
+        "miles",
+        "personas",
+        "protestan",
+        "italia",
+        "salarios",
+        "gasto",
+        "publico"
+      ],
+      "date": "2026-11-20T11:33:00.822Z"
+    },
+    {
+      "title": "Thousands protest across Italy in strike over wages, public spending",
+      "normalizedTokens": [
+        "thousands",
+        "protest",
+        "across",
+        "italy",
+        "strike",
+        "over",
+        "wages",
+        "public",
+        "spending"
+      ],
+      "date": "2026-11-20T11:33:00.821Z"
+    },
     {
       "title": "ANTONIO CARMONA REIVINDICA LA DIVERSIDAD CULTURAL Y LA EVOLUCIÓN MUSICAL EN ESPAÑA",
       "normalizedTokens": [
@@ -7333,31 +7362,6 @@
         "confirm"
       ],
       "date": "2026-11-04T22:23:29.518Z"
-    },
-    {
-      "title": "LA OMS RESPALDA ENSAYOS DE NUEVAS VACUNAS CONTRA EL ÉBOLA",
-      "normalizedTokens": [
-        "oms",
-        "respalda",
-        "ensayos",
-        "nuevas",
-        "vacunas",
-        "ebola"
-      ],
-      "date": "2026-11-04T22:02:04.690Z"
-    },
-    {
-      "title": "La OMS respalda ensayos de 2 nuevas vacunas contra el brote de ébola",
-      "normalizedTokens": [
-        "oms",
-        "respalda",
-        "ensayos",
-        "nuevas",
-        "vacunas",
-        "brote",
-        "ebola"
-      ],
-      "date": "2026-11-04T22:02:04.690Z"
     }
   ]
 }
