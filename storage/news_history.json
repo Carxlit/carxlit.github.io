@@ -308,9 +308,38 @@
     "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja",
     "https://es.wired.com/articulos/muse-de-meta-permite-dejar-de-seguir-a-quienes-no-te-siguen-de-vuelta-en-instagram",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3FFWXhvZEtSdGx4UGF2eGhmNFRyblI4cWxwUURXY3VKd0FsRkFrRzVNaEduYWtwTDlOLWUwU1BqOU1zaDJVekZ2X3BQam85M3puU1d2Sk1ZOEthaDhvSG9hcmRPUGVLdXRKaU1RM0FyN1NkWVJtbzJwV0xSZmJRVE5CbHEzVWtsWGhpbktzWDdEX0RDaTVPeWlXYlhqQ045SzhzS29uQi01MXRIRnVfX1dKTG1reHZic2NLUDBFYw?oc=5",
-    "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf"
+    "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf",
+    "https://www.wired.com/story/best-black-friday-deals-11-20-2026/"
   ],
   "processedSignatures": [
+    {
+      "title": "ADELANTO DE BLACK FRIDAY REFLEJA PRESIÓN DE INVENTARIO",
+      "normalizedTokens": [
+        "adelanto",
+        "black",
+        "friday",
+        "refleja",
+        "presion",
+        "inventario"
+      ],
+      "date": "2026-11-20T19:09:44.569Z"
+    },
+    {
+      "title": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+      "normalizedTokens": [
+        "the",
+        "best",
+        "early",
+        "black",
+        "friday",
+        "deals",
+        "our",
+        "ultimate",
+        "picks",
+        "2026"
+      ],
+      "date": "2026-11-20T19:09:44.561Z"
+    },
     {
       "title": "MOSCÚ PROPONE DIÁLOGO A EUROPA MIENTRAS ESCALA LA TENSIÓN",
       "normalizedTokens": [
@@ -7352,31 +7381,6 @@
         "iran"
       ],
       "date": "2026-11-05T11:01:56.885Z"
-    },
-    {
-      "title": "MUERE EL MINISTRO BÁVARO HUBERT AIWANGER EN BERLÍN",
-      "normalizedTokens": [
-        "muere",
-        "ministro",
-        "bavaro",
-        "hubert",
-        "aiwanger",
-        "berlin"
-      ],
-      "date": "2026-11-05T05:45:56.857Z"
-    },
-    {
-      "title": "Hallan muerto en hotel de Berlín a prominente político alemán",
-      "normalizedTokens": [
-        "hallan",
-        "muerto",
-        "hotel",
-        "berlin",
-        "prominente",
-        "politico",
-        "aleman"
-      ],
-      "date": "2026-11-05T05:45:56.856Z"
     }
   ]
 }
