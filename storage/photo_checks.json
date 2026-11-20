@@ -1478,5 +1478,15 @@
     "relevant": true,
     "reason": "La imagen muestra a la policía y fuerzas de seguridad en Polonia, el lugar central de la noticia sobre el impacto de misiles en su territorio.",
     "at": "2026-11-20T16:56:07.175Z"
+  },
+  "cca2570477fa4cf6:oek6bfyjw": {
+    "relevant": false,
+    "reason": "la imagen muestra destrozos de la guerra en Kiev (Ucrania), por lo que no representa visualmente la propuesta de diálogo diplomático entre Moscú y Europa.",
+    "at": "2026-11-20T18:17:27.283Z"
+  },
+  "7afc84fef950bcc0:oek6bfyjw": {
+    "relevant": false,
+    "reason": "La imagen muestra un mapa militar de Ucrania en 2026, lo cual no ilustra directamente una propuesta diplomática a Europa o la tensión actual descrita en el titular.",
+    "at": "2026-11-20T18:18:01.596Z"
   }
 }

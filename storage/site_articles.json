@@ -1,5 +1,81 @@
 [
   {
+    "slug": "entre-dialogo-diplomatico-guerra-hibrida-europa-m1m5",
+    "path": "noticias/entre-dialogo-diplomatico-guerra-hibrida-europa-m1m5/",
+    "title": "Entre el diálogo diplomático y la guerra híbrida en Europa",
+    "headline": "MOSCÚ PROPONE DIÁLOGO A EUROPA MIENTRAS ESCALA LA TENSIÓN",
+    "dek": "Alemania aboga por evaluar la oferta de conversaciones del Kremlin en medio de nuevos incidentes de seguridad en Polonia y Dinamarca. Los ataques ucranianos a la logística en Crimea añaden presión al escenario de negociación.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "DW News",
+    "image": "img/entre-dialogo-diplomatico-guerra-hibrida-europa-m1m5.jpg",
+    "publishedAt": "2026-11-20T18:18:06.004Z",
+    "article": {
+      "slug": "entre-dialogo-diplomatico-guerra-hibrida-europa-m1m5",
+      "title": "Entre el diálogo diplomático y la guerra híbrida en Europa",
+      "dek": "Alemania aboga por evaluar la oferta de conversaciones del Kremlin en medio de nuevos incidentes de seguridad en Polonia y Dinamarca. Los ataques ucranianos a la logística en Crimea añaden presión al escenario de negociación.",
+      "keyFacts": [
+        "El ministro de Defensa alemán Boris Pistorius afirmó en Varsovia que rechazar la invitación de Putin a conversar enviaría una señal equivocada.",
+        "El servicio de inteligencia de Dinamarca (PET), bajo el mando de Rasmus Kieffer-Kristensen, acusó a inteligencia rusa de intentar asesinar a un rapero estadounidense-ucraniano en Copenhague.",
+        "El ministro de Relaciones Exteriores de Dinamarca, Lars Lokke Rasmussen, ordenó la expulsión del agregado de defensa ruso.",
+        "Ucrania lanzó una serie de ataques contra el puente de Kerch, una infraestructura estratégica de 19 kilómetros que une Crimea con Rusia."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El tablero geopolítico europeo registró un giro diplómatico cuando el ministro de Defensa de Alemania, Boris Pistorius, respaldó públicamente la disposición a entablar conversaciones directas con el presidente ruso Vladimir Putin. Durante una visita oficial a Varsovia, la capital de Polonia, el funcionario alemán enfatizó que declinar una invitación de diálogo con Moscú representaría una señal errónea, subrayando que la consecución de resultados concretos exige mantener abiertos los canales de comunicación.",
+            "El anuncio coincide con la confirmación por parte de funcionarios rusos de que representantes de Alemania, Francia y el Reino Unido fueron invitados a participar en discusiones sobre el futuro conflicto. No obstante, las autoridades diplomáticas aún no han especificado la fecha ni la sede definitiva para la celebración de dichos encuentros."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La propuesta de acercamiento se produce en una jornada de creciente fricción militar en los límites de la Organización del Tratado del Atlántico Norte. Según los reportes del dossier, dos misiles rusos y un dron violaron el espacio aéreo de Polonia el mismo día en que se realizaron las declaraciones diplomáticas en Varsovia, evidenciando la volatilidad en la frontera oriental de la alianza.",
+            "Paralelamente, en el norte de Europa, el servicio de inteligencia danés PET, liderado por Rasmus Kieffer-Kristensen, reveló la desarticulación de un complot de asesinato contra un artista estadounidense-ucraniano durante un concierto en Copenhague. Las investigaciones señalan el reclutamiento de bandas criminales locales por parte de los servicios secretos rusos, lo que motivó al canciller Lars Lokke Rasmussen a expulsar al agregado de defensa de la embajada rusa y solicitar la suspensión europea de visados."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El aspecto desatendido en la cobertura convencional radica en la dualidad de la estrategia del Kremlin. Mientras Moscú extiende una oferta formal de negociación a las tres principales potencias occidentales de Europa —excluyendo temporalmente la mediación directa de Washington—, ejecuta en paralelo operaciones de presión asimétrica e inteligencia en suelo de los países miembros de la OTAN.",
+            "Por su parte, Kiev mantiene una ofensiva coordinada contra las vías de suministro militar de las fuerzas rusas. Los recientes ataques con misiles y drones sobre el puente de Kerch, la obra de ingeniería de 19 kilómetros que enlaza la península ocupada de Crimea con la Rusia continental, buscan degradar la capacidad logística de Moscú antes de cualquier eventual congelamiento de líneas del frente."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Moscú obtiene una ventaja táctica al sembrar división en la postura unificada europea, abriendo la posibilidad de una negociación bilateral con Berlín, París y Londres. Esta maniobra le permite medir el grado de cohesión interna del bloque occidental ante la perspectiva de un cese al fuego.",
+            "En contraste, la posición de los países nórdicos y del flanco este de Europa se ve comprometida. La exposición a incidentes de seguridad y amenazas híbridas genera tensiones internas dentro de la Unión Europea sobre la conveniencia de flexibilizar o endurecer las medidas diplomáticas y de visados frente a los ciudadanos rusos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos días resultará determinante verificar si Francia y el Reino Unido respaldan la postura negociadora manifestada por Berlín o si exigen condiciones previas relativas al cese de violaciones del espacio aéreo en el flanco este.",
+            "Asimismo, el estado operativo de los viarios y carriles ferroviarios del puente de Kerch indicará la efectividad de la campaña ucraniana contra la logística militar de Crimea, un factor decisivo para determinar el equilibrio de fuerza previo a cualquier mesa de diálogo."
+          ]
+        }
+      ],
+      "tags": [
+        "Geopolítica",
+        "Rusia",
+        "Alemania",
+        "Ucrania",
+        "OTAN",
+        "Seguridad"
+      ],
+      "sources": [
+        {
+          "name": "DW News",
+          "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+          "url": "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf"
+        }
+      ],
+      "wordCount": 593
+    },
+    "blindSpot": "Mientras la diplomacia europea sopesa sentarse con Vladimir Putin, Rusia despliega una estrategia de presión asimétrica que combina la apertura táctica con incursiones con misiles en territorio OTAN y operaciones encubiertas en la Unión Europea. La oferta de diálogo busca fragmentar la postura común occidental en un momento crítico donde Ucrania busca golpear infraestructura estratégica de abastecimiento ruso."
+  },
+  {
     "slug": "caida-misiles-rusos-polonia-expone-fragilidad-26s4",
     "path": "noticias/caida-misiles-rusos-polonia-expone-fragilidad-26s4/",
     "title": "La caída de misiles rusos en Polonia expone la fragilidad estratégica del flanco oriental de la OTAN",

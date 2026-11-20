@@ -307,9 +307,37 @@
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3a0Y0cjJIWWsySVhKMWp5bmI0U1RfTHhTMTZ2N2RCdVhjby1ZMHB3TTBtbWZKeHVzVk1uYzNFaURLd29mWE1WZFhKQUhMYWFISVZwUFFKbDZoYmYzOGU0TQ?oc=5",
     "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja",
     "https://es.wired.com/articulos/muse-de-meta-permite-dejar-de-seguir-a-quienes-no-te-siguen-de-vuelta-en-instagram",
-    "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3FFWXhvZEtSdGx4UGF2eGhmNFRyblI4cWxwUURXY3VKd0FsRkFrRzVNaEduYWtwTDlOLWUwU1BqOU1zaDJVekZ2X3BQam85M3puU1d2Sk1ZOEthaDhvSG9hcmRPUGVLdXRKaU1RM0FyN1NkWVJtbzJwV0xSZmJRVE5CbHEzVWtsWGhpbktzWDdEX0RDaTVPeWlXYlhqQ045SzhzS29uQi01MXRIRnVfX1dKTG1reHZic2NLUDBFYw?oc=5"
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3FFWXhvZEtSdGx4UGF2eGhmNFRyblI4cWxwUURXY3VKd0FsRkFrRzVNaEduYWtwTDlOLWUwU1BqOU1zaDJVekZ2X3BQam85M3puU1d2Sk1ZOEthaDhvSG9hcmRPUGVLdXRKaU1RM0FyN1NkWVJtbzJwV0xSZmJRVE5CbHEzVWtsWGhpbktzWDdEX0RDaTVPeWlXYlhqQ045SzhzS29uQi01MXRIRnVfX1dKTG1reHZic2NLUDBFYw?oc=5",
+    "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "MOSCÚ PROPONE DIÁLOGO A EUROPA MIENTRAS ESCALA LA TENSIÓN",
+      "normalizedTokens": [
+        "moscu",
+        "propone",
+        "dialogo",
+        "europa",
+        "mientras",
+        "escala",
+        "tension"
+      ],
+      "date": "2026-11-20T18:18:06.209Z"
+    },
+    {
+      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+      "normalizedTokens": [
+        "ukraine",
+        "updates",
+        "russian",
+        "attack",
+        "one",
+        "largest",
+        "zelenskyy",
+        "says"
+      ],
+      "date": "2026-11-20T18:18:06.200Z"
+    },
     {
       "title": "MISILES RUSOS EN POLONIA IMPACTAN FLANCO ORIENTAL DE LA OTAN",
       "normalizedTokens": [
@@ -7349,27 +7377,6 @@
         "aleman"
       ],
       "date": "2026-11-05T05:45:56.856Z"
-    },
-    {
-      "title": "AP MANTIENE EL MONOPOLIO DEL CONTEO ELECTORAL EN EE.UU.",
-      "normalizedTokens": [
-        "mantiene",
-        "monopolio",
-        "conteo",
-        "electoral"
-      ],
-      "date": "2026-11-05T05:31:28.162Z"
-    },
-    {
-      "title": "2026 Mississippi Midterm Election Results",
-      "normalizedTokens": [
-        "2026",
-        "mississippi",
-        "midterm",
-        "election",
-        "results"
-      ],
-      "date": "2026-11-05T05:31:28.162Z"
     }
   ]
 }
