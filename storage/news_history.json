@@ -300,9 +300,47 @@
     "https://www.dw.com/es/ataque-de-misiles-rusos-dañan-tres-puentes-y-dejan-tres-muertos-en-la-capital-ucraniana/a-79998916?maca=spa-rss-sp-all-1122-rdf",
     "https://www.europapress.es/internacional/noticia-menos-tres-muertos-15-heridos-ataque-masivo-ruso-contra-kiev-dana-tres-puentes-20261120072941.html",
     "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-    "https://www.xataka.com/magnet/crisis-contenedores-ropa-humana-caritas-toledo-reducen-su-recogida-porque-ha-dejado-ser-sostenible"
+    "https://www.xataka.com/magnet/crisis-contenedores-ropa-humana-caritas-toledo-reducen-su-recogida-porque-ha-dejado-ser-sostenible",
+    "https://www.genbeta.com/actualidad/antonio-carmona-nuestro-pais-se-esta-convirtiendo-abanico-gente-que-viene-marruecos-venezuela-colombia-todo-eso-viene-a-enriquecer-nuestra-cultura-me-encanta"
   ],
   "processedSignatures": [
+    {
+      "title": "ANTONIO CARMONA REIVINDICA LA DIVERSIDAD CULTURAL Y LA EVOLUCIÓN MUSICAL EN ESPAÑA",
+      "normalizedTokens": [
+        "antonio",
+        "carmona",
+        "reivindica",
+        "diversidad",
+        "cultural",
+        "evolucion",
+        "musical",
+        "espana"
+      ],
+      "date": "2026-11-20T11:17:24.204Z"
+    },
+    {
+      "title": "Antonio Carmona: “Nuestro país se está convirtiendo en un abanico de gente que viene de Marruecos, de Venezuela, de Colombia… Todo eso viene a enriquecer nuestra cultura y me encanta”",
+      "normalizedTokens": [
+        "antonio",
+        "carmona",
+        "nuestro",
+        "pais",
+        "convirtiendo",
+        "abanico",
+        "gente",
+        "viene",
+        "marruecos",
+        "venezuela",
+        "colombia",
+        "eso",
+        "viene",
+        "enriquecer",
+        "nuestra",
+        "cultura",
+        "encanta"
+      ],
+      "date": "2026-11-20T11:17:24.201Z"
+    },
     {
       "title": "EL COLAPSO DEL RECICLAJE TEXTIL DEJA SIN MARGEN A LAS ONG",
       "normalizedTokens": [
@@ -7320,34 +7358,6 @@
         "ebola"
       ],
       "date": "2026-11-04T22:02:04.690Z"
-    },
-    {
-      "title": "RUSIA ESCALA ATAQUES PREVIO A LAS NEGOCIACIONES EN ABU DHABI",
-      "normalizedTokens": [
-        "rusia",
-        "escala",
-        "ataques",
-        "previo",
-        "negociaciones",
-        "abu",
-        "dhabi"
-      ],
-      "date": "2026-11-04T21:56:35.191Z"
-    },
-    {
-      "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
-      "normalizedTokens": [
-        "ukraine",
-        "raises",
-        "death",
-        "toll",
-        "from",
-        "russian",
-        "strike",
-        "zaporizhia",
-        "people"
-      ],
-      "date": "2026-11-04T21:56:35.190Z"
     }
   ]
 }
