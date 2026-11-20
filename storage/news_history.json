@@ -304,9 +304,42 @@
     "https://www.genbeta.com/actualidad/antonio-carmona-nuestro-pais-se-esta-convirtiendo-abanico-gente-que-viene-marruecos-venezuela-colombia-todo-eso-viene-a-enriquecer-nuestra-cultura-me-encanta",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5",
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5",
-    "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3a0Y0cjJIWWsySVhKMWp5bmI0U1RfTHhTMTZ2N2RCdVhjby1ZMHB3TTBtbWZKeHVzVk1uYzNFaURLd29mWE1WZFhKQUhMYWFISVZwUFFKbDZoYmYzOGU0TQ?oc=5"
+    "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3a0Y0cjJIWWsySVhKMWp5bmI0U1RfTHhTMTZ2N2RCdVhjby1ZMHB3TTBtbWZKeHVzVk1uYzNFaURLd29mWE1WZFhKQUhMYWFISVZwUFFKbDZoYmYzOGU0TQ?oc=5",
+    "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja"
   ],
   "processedSignatures": [
+    {
+      "title": "ESPAÑOLES EN EL GULAG: LIBERACIÓN TRAS LA MUERTE DE STALIN",
+      "normalizedTokens": [
+        "espanoles",
+        "gulag",
+        "liberacion",
+        "muerte",
+        "stalin"
+      ],
+      "date": "2026-11-20T14:09:22.751Z"
+    },
+    {
+      "title": "En 1945, la Segunda Guerra Mundial llegó a su fin. Para 286 españoles, la salida no llegó hasta 11 años después en un barco de la Cruz Roja",
+      "normalizedTokens": [
+        "1945",
+        "segunda",
+        "guerra",
+        "mundial",
+        "llego",
+        "fin",
+        "286",
+        "espanoles",
+        "salida",
+        "llego",
+        "anos",
+        "despues",
+        "barco",
+        "cruz",
+        "roja"
+      ],
+      "date": "2026-11-20T14:09:22.749Z"
+    },
     {
       "title": "RUSIA REFUERZA PRESENCIA EN CUBA TRAS DIEZ MESES DE APOYO",
       "normalizedTokens": [
@@ -7336,34 +7369,6 @@
         "ormuz"
       ],
       "date": "2026-11-05T05:01:31.883Z"
-    },
-    {
-      "title": "HISTORIADORES FRANCESES EVALÚAN EL IMPACTO POLÍTICO DEL CINE HISTÓRICO",
-      "normalizedTokens": [
-        "historiadores",
-        "franceses",
-        "evaluan",
-        "impacto",
-        "politico",
-        "cine",
-        "historico"
-      ],
-      "date": "2026-11-04T22:44:53.700Z"
-    },
-    {
-      "title": "Con una aprobación del 92%, esta obra maestra es la mejor película histórica de todos los tiempos según 85 historiadores",
-      "normalizedTokens": [
-        "aprobacion",
-        "obra",
-        "maestra",
-        "mejor",
-        "pelicula",
-        "historica",
-        "tiempos",
-        "segun",
-        "historiadores"
-      ],
-      "date": "2026-11-04T22:44:53.699Z"
     }
   ]
 }
