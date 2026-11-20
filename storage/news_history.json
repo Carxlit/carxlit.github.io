@@ -296,9 +296,40 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
     "https://es.euronews.com/video/2026/11/19/salida-a-bolsa-historica-de-anthropic-en-wall-street-entre-protestas-por-burbuja-de-ia",
     "https://www.france24.com/es/europa/20261119-vivienda-trenes-y-migraci%C3%B3n-qu%C3%A9-proponen-los-partidos-de-cara-a-las-elecciones-del-29n-en-espa%C3%B1a",
-    "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf"
+    "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
+    "https://www.dw.com/es/ataque-de-misiles-rusos-dañan-tres-puentes-y-dejan-tres-muertos-en-la-capital-ucraniana/a-79998916?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA DESTRUYE INFRAESTRUCTURA LOGÍSTICA EN KIEV TRAS ATAQUES EN CRIMEA",
+      "normalizedTokens": [
+        "rusia",
+        "destruye",
+        "infraestructura",
+        "logistica",
+        "kiev",
+        "ataques",
+        "crimea"
+      ],
+      "date": "2026-11-20T07:01:48.972Z"
+    },
+    {
+      "title": "Ataque de misiles rusos dañan tres puentes y dejan tres muertos en la capital ucraniana",
+      "normalizedTokens": [
+        "ataque",
+        "misiles",
+        "rusos",
+        "danan",
+        "tres",
+        "puentes",
+        "dejan",
+        "tres",
+        "muertos",
+        "capital",
+        "ucraniana"
+      ],
+      "date": "2026-11-20T07:01:48.970Z"
+    },
     {
       "title": "LA MUERTE DE FIONA EXPO NE FALLAS ZOOLÓGICAS",
       "normalizedTokens": [
@@ -7309,31 +7340,6 @@
         "fiscal"
       ],
       "date": "2026-11-04T17:50:16.808Z"
-    },
-    {
-      "title": "SHEINBAUM MINIMIZA IMPACTO DE ELECCIONES EN ESTADOS UNIDOS",
-      "normalizedTokens": [
-        "sheinbaum",
-        "minimiza",
-        "impacto",
-        "elecciones",
-        "estados",
-        "unidos"
-      ],
-      "date": "2026-11-04T16:51:56.616Z"
-    },
-    {
-      "title": "Resultados de las elecciones en EE.UU. muestran un sentimiento del pueblo estadounidense: Sheinbaum",
-      "normalizedTokens": [
-        "resultados",
-        "elecciones",
-        "muestran",
-        "sentimiento",
-        "pueblo",
-        "estadounidense",
-        "sheinbaum"
-      ],
-      "date": "2026-11-04T16:51:56.616Z"
     }
   ]
 }
