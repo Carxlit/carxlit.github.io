@@ -1,5 +1,80 @@
 [
   {
+    "slug": "trampa-inteligencia-artificial-mercados-capitales-t8ql",
+    "path": "noticias/trampa-inteligencia-artificial-mercados-capitales-t8ql/",
+    "title": "La trampa de la inteligencia artificial en los mercados de capitales",
+    "headline": "DATABRICKS Y LA RESTRUCTURACIÓN SILENCIOSA DEL CAPITALISMO ALGORÍTMICO",
+    "dek": "El reconocimiento industrial a Databricks expone el verdadero cuello de botella de la banca global. La competencia no se libra en la potencia de los algoritmos, sino en el control hermético de los datos propios.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Databricks",
+    "image": "img/trampa-inteligencia-artificial-mercados-capitales-t8ql.jpg",
+    "photo": "img/trampa-inteligencia-artificial-mercados-capitales-t8ql-foto.jpg",
+    "publishedAt": "2026-11-20T12:03:01.068Z",
+    "article": {
+      "slug": "trampa-inteligencia-artificial-mercados-capitales-t8ql",
+      "title": "La trampa de la inteligencia artificial en los mercados de capitales",
+      "dek": "El reconocimiento industrial a Databricks expone el verdadero cuello de botella de la banca global. La competencia no se libra en la potencia de los algoritmos, sino en el control hermético de los datos propios.",
+      "keyFacts": [
+        "El 94 % de los gestores de cartera analizados utiliza IA o aprendizaje automático en la investigación de datos alternativos.",
+        "Un 71 % de los analistas identifica la integración de múltiples fuentes de datos como su principal obstáculo operativo.",
+        "RBC Capital Markets redujo hasta un 95 % el tiempo de borrador de informes con su agente Aiden QuickTakes sobre Databricks.",
+        "La alianza entre LSEG y Databricks permite interrogar a más de 350.000 inversiones mediante lenguaje natural."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La firma A-Team Group otorgó a Databricks el premio AI in Capital Markets, un reconocimiento votado por profesionales del sector financiero que evalúa la implementación real de la tecnología en entornos de alta exigencia.",
+            "El galardón distingue la capacidad de la plataforma para unificar la inteligencia artificial con la gobernanza de datos en un único entorno, distanciándose de la oferta de modelos generativos aislados que carecen de controles institucionales."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La adopción de herramientas de análisis avanzado en Wall Street y los centros financieros globales muestra un crecimiento acelerado. Según encuestas del sector a profesionales que gestionan cerca de 2 billones de dólares en activos, el 94 % ya emplea algoritmos en sus flujos de trabajo sobre datos alternativos.",
+            "No obstante, esta penetración masiva choca con una realidad operativa compleja: el 71 % de los encuestados señala que la integración de información proveniente de múltiples proveedores constituye su mayor fuente de ineficiencia. A esto se suma el acortamiento de los plazos de liquidación a esquemas T+1 en Norteamérica y la alta volatilidad intradía."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La cobertura habitual de la transformación digital bancaria suele centrarse en la sofisticación de los modelos del lenguaje y sus capacidades de razonamiento. Sin embargo, el análisis de Punto Ciego revela que el modelo en sí se ha convertido en una mercancía intercambiable; la ventaja competitiva real reside de forma exclusiva en la capa de datos propia y en su trazabilidad.",
+            "Los grandes modelos de lenguaje son incapaces de acceder por sí solos a las órdenes internas, las posiciones de riesgo o los análisis confidenciales de una firma sin comprometer la seguridad. Asimismo, la supervisión regulatoria internacional, impulsada por organismos como la Autoridad Europea de Valores y Mercados (ESMA) y el Consejo de Estabilidad Financiera (FSB), exige un estricto linaje de datos que los sistemas fragmentados no pueden garantizar."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los ganadores directos son los proveedores de infraestructura unificada como Databricks y los distribuidores de datos institucionales como London Stock Exchange Group (LSEG). Estas entidades logran afianzar una posición dominante al convertirse en el sistema operativo sobre el cual la banca construye sus agentes de inteligencia artificial, asegurando contratos recurrentes de elevadísima permanencia.",
+            "Por el contrario, pierden relevancia los desarrolladores independientes de modelos y las extensiones de nicho que no ofrecen capacidades profundas de gobernanza. Del mismo modo, las entidades financieras de mediano tamaño que no logren consolidar sus arquitecturas de datos enfrentarán costes de cumplimiento inasumibles y un rezago operativo frente a los grandes consorcios bancarios."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos meses será determinante observar la aplicación del programa de trabajo 2026 del FSB sobre prácticas sólidas de IA y las guías de supervisión de la ESMA relativas a la negociación algorítmica. La capacidad de las instituciones para auditar sus modelos y verificar el origen de cada dato definirá el límite entre la eficiencia operativa y las sanciones regulatorias."
+          ]
+        }
+      ],
+      "tags": [
+        "Databricks",
+        "Mercados de capitales",
+        "Gobernanza de datos",
+        "IA financiera",
+        "Regulación bancaria"
+      ],
+      "sources": [
+        {
+          "name": "Databricks",
+          "title": "Databricks gana el premio A-Team de inteligencia artificial en los mercados de capitales",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5"
+        }
+      ],
+      "wordCount": 507
+    },
+    "blindSpot": "El relato corporativo habitual celebra la sofisticación de los modelos de lenguaje, pero la verdadera trinchera en Wall Street reside en la gobernanza y la trazabilidad de los datos propios. Bajo la presión de la liquidación T+1 en Norteamérica y la supervisión de la ESMA sobre negociación algorítmica, las instituciones no buscan modelos aislados, sino arquitecturas de datos herméticas que prevengan sanciones regulatorias."
+  },
+  {
     "slug": "huelga-general-italia-evidencia-grieta-entre-7rs8",
     "path": "noticias/huelga-general-italia-evidencia-grieta-entre-7rs8/",
     "title": "La huelga general en Italia evidencia la grieta entre el rigor fiscal europeo y la presión social",

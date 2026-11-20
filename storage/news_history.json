@@ -302,9 +302,35 @@
     "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
     "https://www.xataka.com/magnet/crisis-contenedores-ropa-humana-caritas-toledo-reducen-su-recogida-porque-ha-dejado-ser-sostenible",
     "https://www.genbeta.com/actualidad/antonio-carmona-nuestro-pais-se-esta-convirtiendo-abanico-gente-que-viene-marruecos-venezuela-colombia-todo-eso-viene-a-enriquecer-nuestra-cultura-me-encanta",
-    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5"
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "DATABRICKS Y LA RESTRUCTURACIÓN SILENCIOSA DEL CAPITALISMO ALGORÍTMICO",
+      "normalizedTokens": [
+        "databricks",
+        "restructuracion",
+        "silenciosa",
+        "capitalismo",
+        "algoritmico"
+      ],
+      "date": "2026-11-20T12:03:01.288Z"
+    },
+    {
+      "title": "Databricks gana el premio A-Team de inteligencia artificial en los mercados de capitales",
+      "normalizedTokens": [
+        "databricks",
+        "gana",
+        "premio",
+        "team",
+        "inteligencia",
+        "artificial",
+        "mercados",
+        "capitales"
+      ],
+      "date": "2026-11-20T12:03:01.285Z"
+    },
     {
       "title": "MILES DE PERSONAS PROTESTAN EN ITALIA POR SALARIOS Y GASTO PÚBLICO",
       "normalizedTokens": [
@@ -7334,34 +7360,6 @@
         "midterms"
       ],
       "date": "2026-11-04T22:42:46.013Z"
-    },
-    {
-      "title": "DOS MUJERES MUEREN POR ATAQUE DE GRIZZLIES EN CANADÁ",
-      "normalizedTokens": [
-        "dos",
-        "mujeres",
-        "mueren",
-        "ataque",
-        "grizzlies",
-        "canada"
-      ],
-      "date": "2026-11-04T22:23:29.518Z"
-    },
-    {
-      "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
-      "normalizedTokens": [
-        "mother",
-        "and",
-        "daughter",
-        "killed",
-        "grizzly",
-        "bear",
-        "attack",
-        "canadian",
-        "authorities",
-        "confirm"
-      ],
-      "date": "2026-11-04T22:23:29.518Z"
     }
   ]
 }

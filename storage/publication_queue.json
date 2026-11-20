@@ -26484,5 +26484,123 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-20T11:33:00.810Z"
+  },
+  {
+    "id": "queue-1795176181269-x4aq8",
+    "news": {
+      "id": "t8j4i8wiu",
+      "originalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5",
+      "originalTitle": "Databricks gana el premio A-Team de inteligencia artificial en los mercados de capitales",
+      "sourceName": "Databricks",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 82,
+      "headline": "DATABRICKS Y LA RESTRUCTURACIÓN SILENCIOSA DEL CAPITALISMO ALGORÍTMICO",
+      "subHeadline": "A-Team Group otorga a Databricks el premio de inteligencia artificial en mercados de capitales por unificar datos y gobernanza. El 94 % de los gestores financieros ya utiliza aprendizaje automático en un entorno regulatorio cada vez más estricto.",
+      "blindSpotAngle": "El relato corporativo habitual celebra la sofisticación de los modelos de lenguaje, pero la verdadera trinchera en Wall Street reside en la gobernanza y la trazabilidad de los datos propios. Bajo la presión de la liquidación T+1 en Norteamérica y la supervisión de la ESMA sobre negociación algorítmica, las instituciones no buscan modelos aislados, sino arquitecturas de datos herméticas que prevengan sanciones regulatorias.",
+      "facebookPost": "Las promesas de retornos extraordinarios mediante inteligencia artificial inundan Wall Street, pero la verdadera transformación no ocurre en los modelos generativos, sino en las tuberías de datos. Databricks acaba de recibir el premio A-Team en mercados de capitales tras demostrar cómo firmas como RBC Capital Markets aceleran la redacción de informes hasta un 95 % mediante agentes de IA gobernados.\n\nEl punto ciego es que el 71 % de los gestores que supervisan 2 billones de dólares en activos enfrentan un caos de datos fragmentados. Con esquemas de liquidación T+1 y el escrutinio de la ESMA y el FSB sobre negociación algorítmica, la ventaja competitiva ya no pertenece a quien posee el algoritmo más sofisticado, sino a quien domina la capa de datos propia bajo estricta gobernanza.\n\n¿Se convertirá la gobernanza de datos en el nuevo filtro de exclusión que concentre el poder financiero en unas cuantas firmas multinacionales?\n\nFuente: Databricks\n\n#MercadosDeCapitales #GobernanzaDeDatos #PuntoCiego",
+      "telegramPost": "<b>DATABRICKS Y LA RESTRUCTURACIÓN SILENCIOSA DEL CAPITALISMO ALGORÍTMICO</b>\n\n• <b>Qué ocurrió:</b> Databricks obtuvo el premio A-Team en mercados de capitales por integrar gobernanza de datos e inteligencia artificial en una sola plataforma operativa.\n• <b>Por qué importa:</b> Mientras el 94 % de los gestores utiliza IA en datos alternativos, la fragmentación de información y las exigencias regulatorias de la ESMA desplazan la prioridad estratégica desde los modelos hacia la arquitectura de datos propia.\n• <b>Qué sigue:</b> La aceleración de la liquidación a esquemas T+1 obligará a las instituciones financieras a consolidar sus datos en entornos unificados para evitar contingencias de riesgo operativo.",
+      "linkedInPost": "El reconocimiento concedido a Databricks por A-Team Group en los mercados de capitales señala una transición estructural en la adopción tecnológica de la banca de inversión. La narrativa comercial del sector ha estado dominada por la capacidad generativa de los modelos; sin embargo, las verdaderas restricciones estratégicas derivan de la gobernanza, el linaje de datos y la latencia operativa.\n\nCon un 71 % de los gestores de fondos reportando severas dificultades para integrar fuentes de datos heterogéneas sobre carteras que suman 2 billones de dólares, el valor estratégico se desplaza hacia la infraestructura de lakehouse unificada. Alianzas como la de LSEG con Databricks, que permite consultar más de 350.000 inversiones mediante agentes de IA, demuestran que la integración nativa primará sobre las soluciones modulares fragmentadas.\n\nEn un entorno marcado por la liquidación T+1 en Norteamérica y programas reguladores como el de la ESMA o el FSB para 2026, la soberanía sobre la capa de datos propia constituirá el principal activo defensivo de las instituciones financieras internacionales.\n\nFuente: Databricks\n\n#MercadosDeCapitales #InteligenciaArtificial #PuntoCiego",
+      "blueskyPost": "El 71 % de gestores de 2 billones en activos sufre por datos dispersos. Databricks gana el premio A-Team al demostrar que en Wall Street la IA no es cuestión de modelos, sino de gobernanza. #PuntoCiego #Tecnologia",
+      "copies": {
+        "facebook": "Las promesas de retornos extraordinarios mediante inteligencia artificial inundan Wall Street, pero la verdadera transformación no ocurre en los modelos generativos, sino en las tuberías de datos. Databricks acaba de recibir el premio A-Team en mercados de capitales tras demostrar cómo firmas como RBC Capital Markets aceleran la redacción de informes hasta un 95 % mediante agentes de IA gobernados.\n\nEl punto ciego es que el 71 % de los gestores que supervisan 2 billones de dólares en activos enfrentan un caos de datos fragmentados. Con esquemas de liquidación T+1 y el escrutinio de la ESMA y el FSB sobre negociación algorítmica, la ventaja competitiva ya no pertenece a quien posee el algoritmo más sofisticado, sino a quien domina la capa de datos propia bajo estricta gobernanza.\n\n¿Se convertirá la gobernanza de datos en el nuevo filtro de exclusión que concentre el poder financiero en unas cuantas firmas multinacionales?\n\n#MercadosDeCapitales #GobernanzaDeDatos #PuntoCiego",
+        "telegram": "<b>DATABRICKS Y LA RESTRUCTURACIÓN SILENCIOSA DEL CAPITALISMO ALGORÍTMICO</b>\n\n• <b>Qué ocurrió:</b> Databricks obtuvo el premio A-Team en mercados de capitales por integrar gobernanza de datos e inteligencia artificial en una sola plataforma operativa.\n• <b>Por qué importa:</b> Mientras el 94 % de los gestores utiliza IA en datos alternativos, la fragmentación de información y las exigencias regulatorias de la ESMA desplazan la prioridad estratégica desde los modelos hacia la arquitectura de datos propia.\n• <b>Qué sigue:</b> La aceleración de la liquidación a esquemas T+1 obligará a las instituciones financieras a consolidar sus datos en entornos unificados para evitar contingencias de riesgo operativo.",
+        "bluesky": "El 71 % de gestores de 2 billones en activos sufre por datos dispersos. Databricks gana el premio A-Team al demostrar que en Wall Street la IA no es cuestión de modelos, sino de gobernanza. #PuntoCiego #Tecnologia",
+        "linkedIn": "El reconocimiento concedido a Databricks por A-Team Group en los mercados de capitales señala una transición estructural en la adopción tecnológica de la banca de inversión. La narrativa comercial del sector ha estado dominada por la capacidad generativa de los modelos; sin embargo, las verdaderas restricciones estratégicas derivan de la gobernanza, el linaje de datos y la latencia operativa.\n\nCon un 71 % de los gestores de fondos reportando severas dificultades para integrar fuentes de datos heterogéneas sobre carteras que suman 2 billones de dólares, el valor estratégico se desplaza hacia la infraestructura de lakehouse unificada. Alianzas como la de LSEG con Databricks, que permite consultar más de 350.000 inversiones mediante agentes de IA, demuestran que la integración nativa primará sobre las soluciones modulares fragmentadas.\n\nEn un entorno marcado por la liquidación T+1 en Norteamérica y programas reguladores como el de la ESMA o el FSB para 2026, la soberanía sobre la capa de datos propia constituirá el principal activo defensivo de las instituciones financieras internacionales.\n\n#MercadosDeCapitales #InteligenciaArtificial #PuntoCiego"
+      },
+      "article": {
+        "slug": "trampa-inteligencia-artificial-mercados-capitales-t8ql",
+        "title": "La trampa de la inteligencia artificial en los mercados de capitales",
+        "dek": "El reconocimiento industrial a Databricks expone el verdadero cuello de botella de la banca global. La competencia no se libra en la potencia de los algoritmos, sino en el control hermético de los datos propios.",
+        "keyFacts": [
+          "El 94 % de los gestores de cartera analizados utiliza IA o aprendizaje automático en la investigación de datos alternativos.",
+          "Un 71 % de los analistas identifica la integración de múltiples fuentes de datos como su principal obstáculo operativo.",
+          "RBC Capital Markets redujo hasta un 95 % el tiempo de borrador de informes con su agente Aiden QuickTakes sobre Databricks.",
+          "La alianza entre LSEG y Databricks permite interrogar a más de 350.000 inversiones mediante lenguaje natural."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "La firma A-Team Group otorgó a Databricks el premio AI in Capital Markets, un reconocimiento votado por profesionales del sector financiero que evalúa la implementación real de la tecnología en entornos de alta exigencia.",
+              "El galardón distingue la capacidad de la plataforma para unificar la inteligencia artificial con la gobernanza de datos en un único entorno, distanciándose de la oferta de modelos generativos aislados que carecen de controles institucionales."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La adopción de herramientas de análisis avanzado en Wall Street y los centros financieros globales muestra un crecimiento acelerado. Según encuestas del sector a profesionales que gestionan cerca de 2 billones de dólares en activos, el 94 % ya emplea algoritmos en sus flujos de trabajo sobre datos alternativos.",
+              "No obstante, esta penetración masiva choca con una realidad operativa compleja: el 71 % de los encuestados señala que la integración de información proveniente de múltiples proveedores constituye su mayor fuente de ineficiencia. A esto se suma el acortamiento de los plazos de liquidación a esquemas T+1 en Norteamérica y la alta volatilidad intradía."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "La cobertura habitual de la transformación digital bancaria suele centrarse en la sofisticación de los modelos del lenguaje y sus capacidades de razonamiento. Sin embargo, el análisis de Punto Ciego revela que el modelo en sí se ha convertido en una mercancía intercambiable; la ventaja competitiva real reside de forma exclusiva en la capa de datos propia y en su trazabilidad.",
+              "Los grandes modelos de lenguaje son incapaces de acceder por sí solos a las órdenes internas, las posiciones de riesgo o los análisis confidenciales de una firma sin comprometer la seguridad. Asimismo, la supervisión regulatoria internacional, impulsada por organismos como la Autoridad Europea de Valores y Mercados (ESMA) y el Consejo de Estabilidad Financiera (FSB), exige un estricto linaje de datos que los sistemas fragmentados no pueden garantizar."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En este escenario, los ganadores directos son los proveedores de infraestructura unificada como Databricks y los distribuidores de datos institucionales como London Stock Exchange Group (LSEG). Estas entidades logran afianzar una posición dominante al convertirse en el sistema operativo sobre el cual la banca construye sus agentes de inteligencia artificial, asegurando contratos recurrentes de elevadísima permanencia.",
+              "Por el contrario, pierden relevancia los desarrolladores independientes de modelos y las extensiones de nicho que no ofrecen capacidades profundas de gobernanza. Del mismo modo, las entidades financieras de mediano tamaño que no logren consolidar sus arquitecturas de datos enfrentarán costes de cumplimiento inasumibles y un rezago operativo frente a los grandes consorcios bancarios."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "En los próximos meses será determinante observar la aplicación del programa de trabajo 2026 del FSB sobre prácticas sólidas de IA y las guías de supervisión de la ESMA relativas a la negociación algorítmica. La capacidad de las instituciones para auditar sus modelos y verificar el origen de cada dato definirá el límite entre la eficiencia operativa y las sanciones regulatorias."
+            ]
+          }
+        ],
+        "tags": [
+          "Databricks",
+          "Mercados de capitales",
+          "Gobernanza de datos",
+          "IA financiera",
+          "Regulación bancaria"
+        ],
+        "sources": [
+          {
+            "name": "Databricks",
+            "title": "Databricks gana el premio A-Team de inteligencia artificial en los mercados de capitales",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5"
+          }
+        ],
+        "wordCount": 507
+      },
+      "videoScript": {
+        "hook": "Wall Street no está cambiando por la inteligencia artificial que todos conocen.",
+        "beats": [
+          "Los grandes bancos descubrieron que los modelos públicos no pueden ver sus operaciones internas.",
+          "RBC logró acelerar sus informes un 95% usando agentes sobre su propia base de datos.",
+          "Y aquí viene lo interesante porque el verdadero negocio no es el modelo sino el control absoluto de los datos."
+        ],
+        "close": "Lee el análisis completo sobre el futuro de la banca en el enlace del perfil."
+      },
+      "rawImageUrl": "https://www.databricks.com/sites/default/files/2026-10/Databricks_AICM26_social.png",
+      "status": "pending",
+      "createdAt": "2026-11-20T12:02:58.896Z",
+      "cardImageUrl": "/news-cards/news-t8j4i8wiu-1795176178897.jpg",
+      "reelCoverUrl": "/news-cards/news-t8j4i8wiu-1795176179492-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-t8j4i8wiu-1795176180027-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/trampa-inteligencia-artificial-mercados-capitales-t8ql/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-20T15:03:11.766Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-20T12:03:01.269Z"
   }
 ]
