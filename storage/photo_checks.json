@@ -1468,5 +1468,15 @@
     "relevant": true,
     "reason": "Ilustra la ruptura social y la eliminación masiva de contactos mediante una retícula de fotos de personas tachadas con cruces rojas.",
     "at": "2026-11-20T15:08:51.562Z"
+  },
+  "5b22f4f62a73e654:ma9hi4xdu": {
+    "relevant": false,
+    "reason": "La imagen muestra el lanzamiento de un misil balístico táctico estadounidense (ATACMS) desde un lanzador HIMARS, lo cual no corresponde a los misiles rusos Kh-101 mencionados en la",
+    "at": "2026-11-20T16:55:57.919Z"
+  },
+  "ae722def953bd240:ma9hi4xdu": {
+    "relevant": true,
+    "reason": "La imagen muestra a la policía y fuerzas de seguridad en Polonia, el lugar central de la noticia sobre el impacto de misiles en su territorio.",
+    "at": "2026-11-20T16:56:07.175Z"
   }
 }
