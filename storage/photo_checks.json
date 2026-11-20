@@ -1443,5 +1443,15 @@
     "relevant": true,
     "reason": "Muestra el premio oficial otorgado a Databricks por A-Team Group en inteligencia artificial para mercados de capitales.",
     "at": "2026-11-20T12:02:56.698Z"
+  },
+  "4d2125061a1a18fa:o53lgi1os": {
+    "relevant": false,
+    "reason": "La imagen muestra al presidente español Pedro Sánchez y no tiene relación con Rusia ni Cuba.",
+    "at": "2026-11-20T13:13:40.446Z"
+  },
+  "3fde961bef77b0d8:o53lgi1os": {
+    "relevant": true,
+    "reason": "Muestra el Kremlin y símbolos del gobierno de Rusia, que es el actor principal de la noticia.",
+    "at": "2026-11-20T13:13:48.695Z"
   }
 }

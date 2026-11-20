@@ -303,9 +303,37 @@
     "https://www.xataka.com/magnet/crisis-contenedores-ropa-humana-caritas-toledo-reducen-su-recogida-porque-ha-dejado-ser-sostenible",
     "https://www.genbeta.com/actualidad/antonio-carmona-nuestro-pais-se-esta-convirtiendo-abanico-gente-que-viene-marruecos-venezuela-colombia-todo-eso-viene-a-enriquecer-nuestra-cultura-me-encanta",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5",
-    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5"
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5",
+    "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3a0Y0cjJIWWsySVhKMWp5bmI0U1RfTHhTMTZ2N2RCdVhjby1ZMHB3TTBtbWZKeHVzVk1uYzNFaURLd29mWE1WZFhKQUhMYWFISVZwUFFKbDZoYmYzOGU0TQ?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA REFUERZA PRESENCIA EN CUBA TRAS DIEZ MESES DE APOYO",
+      "normalizedTokens": [
+        "rusia",
+        "refuerza",
+        "presencia",
+        "cuba",
+        "diez",
+        "meses",
+        "apoyo"
+      ],
+      "date": "2026-11-20T13:13:52.638Z"
+    },
+    {
+      "title": "Lo que dejan en evidencia diez meses de apoyo del Kremlin al régimen de Cuba",
+      "normalizedTokens": [
+        "dejan",
+        "evidencia",
+        "diez",
+        "meses",
+        "apoyo",
+        "kremlin",
+        "regimen",
+        "cuba"
+      ],
+      "date": "2026-11-20T13:13:52.636Z"
+    },
     {
       "title": "DATABRICKS Y LA RESTRUCTURACIÓN SILENCIOSA DEL CAPITALISMO ALGORÍTMICO",
       "normalizedTokens": [
@@ -7336,30 +7364,6 @@
         "historiadores"
       ],
       "date": "2026-11-04T22:44:53.699Z"
-    },
-    {
-      "title": "DEMÓCRATAS GANAN LAS LEGISLATIVAS Y CONDICIONAN A TRUMP",
-      "normalizedTokens": [
-        "democratas",
-        "ganan",
-        "legislativas",
-        "condicionan",
-        "trump"
-      ],
-      "date": "2026-11-04T22:42:46.013Z"
-    },
-    {
-      "title": "Palestinians, Israelis react after Democrats sweep US midterms",
-      "normalizedTokens": [
-        "palestinians",
-        "israelis",
-        "react",
-        "after",
-        "democrats",
-        "sweep",
-        "midterms"
-      ],
-      "date": "2026-11-04T22:42:46.013Z"
     }
   ]
 }
