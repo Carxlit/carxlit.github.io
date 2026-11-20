@@ -310,9 +310,45 @@
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc3FFWXhvZEtSdGx4UGF2eGhmNFRyblI4cWxwUURXY3VKd0FsRkFrRzVNaEduYWtwTDlOLWUwU1BqOU1zaDJVekZ2X3BQam85M3puU1d2Sk1ZOEthaDhvSG9hcmRPUGVLdXRKaU1RM0FyN1NkWVJtbzJwV0xSZmJRVE5CbHEzVWtsWGhpbktzWDdEX0RDaTVPeWlXYlhqQ045SzhzS29uQi01MXRIRnVfX1dKTG1reHZic2NLUDBFYw?oc=5",
     "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf",
     "https://www.wired.com/story/best-black-friday-deals-11-20-2026/",
-    "https://www.abc.es/internacional/misil-ruso-impacta-sureste-polonia-ataque-ucrania-20261120121157-nt.html"
+    "https://www.abc.es/internacional/misil-ruso-impacta-sureste-polonia-ataque-ucrania-20261120121157-nt.html",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtRTZQbGtNWDJiSVFIZnlRWlhFX2lLdjRVWGo4YUN6TWwzenJBWHpTdGFkVWNvd0pCd2Z5R0J3RFo1d0dlX0NKcENrTTBlWjZ6OTgyempWdndPX2FVeUh6M2ZtWktBTEU?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "LAS NEGOCIACIONES DE LA CUMBRE CLIMÁTICA ENTRAN EN PUNTO MUERTO",
+      "normalizedTokens": [
+        "negociaciones",
+        "cumbre",
+        "climatica",
+        "entran",
+        "punto",
+        "muerto"
+      ],
+      "date": "2026-11-20T22:16:56.756Z"
+    },
+    {
+      "title": "“La COP de la traición”: las negociaciones en la cumbre de la ONU no avanzan hacia la eliminación gradual de los combustibles fósiles ni hacia el financiamiento para hacer frente al cambio climático",
+      "normalizedTokens": [
+        "cop",
+        "traicion",
+        "negociaciones",
+        "cumbre",
+        "onu",
+        "avanzan",
+        "hacia",
+        "eliminacion",
+        "gradual",
+        "combustibles",
+        "fosiles",
+        "hacia",
+        "financiamiento",
+        "hacer",
+        "frente",
+        "cambio",
+        "climatico"
+      ],
+      "date": "2026-11-20T22:16:56.754Z"
+    },
     {
       "title": "MISILES Y DRON RUSOS IMPACTAN EN TERRITORIO POLACO DE LA OTAN",
       "normalizedTokens": [
@@ -7353,35 +7389,6 @@
         "irak"
       ],
       "date": "2026-11-05T11:31:55.770Z"
-    },
-    {
-      "title": "OBSERVATORIO SWIFT DE LA NASA CAE DE FORMA DESCONTROLADA",
-      "normalizedTokens": [
-        "observatorio",
-        "swift",
-        "nasa",
-        "cae",
-        "forma",
-        "descontrolada"
-      ],
-      "date": "2026-11-05T11:22:09.684Z"
-    },
-    {
-      "title": "Un observatorio de la NASA de casi tonelada y media está cayendo hacia la Tierra. Esto es lo que debes saber",
-      "normalizedTokens": [
-        "observatorio",
-        "nasa",
-        "casi",
-        "tonelada",
-        "media",
-        "cayendo",
-        "hacia",
-        "tierra",
-        "esto",
-        "debes",
-        "saber"
-      ],
-      "date": "2026-11-05T11:22:09.683Z"
     }
   ]
 }
