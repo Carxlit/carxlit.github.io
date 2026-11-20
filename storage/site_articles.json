@@ -1,5 +1,87 @@
 [
   {
+    "slug": "rusia-escala-guerra-infraestructura-bombardeos-puentes-i6qu",
+    "path": "noticias/rusia-escala-guerra-infraestructura-bombardeos-puentes-i6qu/",
+    "title": "Rusia escala la guerra de infraestructura con bombardeos a puentes clave en Kiev",
+    "headline": "RUSIA ATACA INFRAESTRUCTURA DE KIEV EN RESPUESTA A CRIMEA",
+    "dek": "Los recientes ataques sobre la capital ucraniana exponen un cambio táctico orientado a degradar arterias logísticas urbanas. La ofensiva cumple la advertencia del Kremlin tras los daños registrados en el puente de Crimea.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "France 24",
+    "image": "img/rusia-escala-guerra-infraestructura-bombardeos-puentes-i6qu.jpg",
+    "photo": "img/rusia-escala-guerra-infraestructura-bombardeos-puentes-i6qu-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "QhsurZ-NaDQ",
+      "title": "ÚLTIMA HORA | Noche crítica en Ucrania: Rusia moviliza bombarderos Tu-160 y amenaza puentes de Kiev",
+      "channel": "Negocios TV"
+    },
+    "publishedAt": "2026-11-20T10:17:51.760Z",
+    "article": {
+      "slug": "rusia-escala-guerra-infraestructura-bombardeos-puentes-i6qu",
+      "title": "Rusia escala la guerra de infraestructura con bombardeos a puentes clave en Kiev",
+      "dek": "Los recientes ataques sobre la capital ucraniana exponen un cambio táctico orientado a degradar arterias logísticas urbanas. La ofensiva cumple la advertencia del Kremlin tras los daños registrados en el puente de Crimea.",
+      "keyFacts": [
+        "Ocho personas murieron y 28 resultaron heridas durante la oleada de ataques rusos, según informó el primer ministro ucraniano Sergii Koretskyi.",
+        "Dos puentes con valor logístico estratégico en la ciudad de Kiev sufrieron daños severos tras el impacto de misiles y drones.",
+        "La incursión militar ocurre como respuesta directa a los daños sufridos esta semana en el puente de Crimea, hecho por el cual Vladímir Putin prometió represalias."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Una nueva serie de ataques coordinados mediante misiles y drones rusos alcanzó diversos puntos del territorio ucraniano, concentrando daños de alto impacto en la capital. Según confirmó France 24 a partir de declaraciones del primer ministro ucraniano, Sergii Koretskyi, la incursión dejó un balance provisional de ocho personas muertas y 28 heridos.",
+            "Entre las infraestructuras afectadas figuran dos puentes urbanos situados en Kiev. Las evaluaciones preliminares sobre el terreno muestran daños materiales significativos en las estructuras, interrumpiendo el tránsito regular y activando protocolos de emergencia por parte de los servicios de rescate locales."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El ataque se produce en un clima de marcada tensión operacional tras los incidentes registrados a principios de semana en el puente de Crimea, una vía logística fundamental para el despliegue de las fuerzas rusas en el sur. Tras dicho evento, el presidente de la Federación de Rusia, Vladímir Putin, anticipó públicamente que su gobierno ejecutaría una respuesta dolorosa contra objetivos ucranianos.",
+            "La dinámica de ataques cruzados contra puntos de conectividad terrestre ha sido una constante a lo largo del conflicto; sin embargo, la concentración de fuego sobre pasos fluviales o viaductos dentro del radio urbano de Kiev marca un episodio de alta intensidad sobre la capital ucraniana."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El elemento crítico que pasa desapercibido en la cobertura convencional de la represalia militar es la intención deliberada de desmantelar la capacidad de movilidad logística interna dentro de Kiev. Al golpear puentes urbanos, las fuerzas rusas buscan fragmentar los flujos de tránsito de la capital, generando embotellamientos operativos y ralentizando la respuesta de los órganos de gobierno y defensa.",
+            "Asimismo, esta táctica impone un dilema estratégico a las autoridades ucranianas: obligar a redistribuir las baterías de defensa antiaérea desde el frente de batalla hacia la cobertura de puentes y carreteras clave en la retaguardia, debilitando la protección de las líneas de vanguardia."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano táctico inmediato, el mando militar ruso obtiene una victoria narrativa interna al proyectar la capacidad de golpear infraestructura neurálgica en Kiev como cumplimiento de sus advertencias de represalia.",
+            "Por otro lado, la administración ucraniana sufre un coste directo en términos de vidas humanas, daños materiales y presión sobre su red logística. La población civil en Kiev asume la mayor carga de la interrupción de servicios esenciales y riesgos a la seguridad vial."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponde observar la rapidez con la que las autoridades locales logren habilitar vías alternativas o estructuras temporales de paso sobre los puentes dañados en Kiev. La velocidad de reparación determinará el impacto real en la movilidad urbana.",
+            "Adicionalmente, será clave monitorear si el gobierno ucraniano intensifica sus solicitudes formales ante socios internacionales para la transferencia urgente de sistemas adicionales de interceptación aérea de punto."
+          ]
+        }
+      ],
+      "tags": [
+        "Ucrania",
+        "Rusia",
+        "Kiev",
+        "Geopolítica",
+        "Infraestructura",
+        "Seguridad"
+      ],
+      "sources": [
+        {
+          "name": "France 24",
+          "title": "Live: Several killed, dozens wounded in Russian attacks that damaged two Kyiv bridges",
+          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says"
+        }
+      ],
+      "wordCount": 475
+    },
+    "blindSpot": "Más allá de la narrativa del ojo por ojo militar, la destrucción sistemática de puentes en la capital ucraniana marca un intento deliberado de fracturar la movilidad logística urbana e institucional de Kiev. La estrategia busca forzar un desgaste estructural en el centro neurálgico del país, desviando sistemas de defensa aérea desde el frente hacia la protección de infraestructura civil crítica."
+  },
+  {
     "slug": "ataque-ruso-contra-kiev-golpea-tres-fjh1",
     "path": "noticias/ataque-ruso-contra-kiev-golpea-tres-fjh1/",
     "title": "Ataque ruso contra Kiev golpea tres puentes clave y fractura la logística de la capital",

@@ -298,9 +298,40 @@
     "https://www.france24.com/es/europa/20261119-vivienda-trenes-y-migraci%C3%B3n-qu%C3%A9-proponen-los-partidos-de-cara-a-las-elecciones-del-29n-en-espa%C3%B1a",
     "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
     "https://www.dw.com/es/ataque-de-misiles-rusos-dañan-tres-puentes-y-dejan-tres-muertos-en-la-capital-ucraniana/a-79998916?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.europapress.es/internacional/noticia-menos-tres-muertos-15-heridos-ataque-masivo-ruso-contra-kiev-dana-tres-puentes-20261120072941.html"
+    "https://www.europapress.es/internacional/noticia-menos-tres-muertos-15-heridos-ataque-masivo-ruso-contra-kiev-dana-tres-puentes-20261120072941.html",
+    "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA ATACA INFRAESTRUCTURA DE KIEV EN RESPUESTA A CRIMEA",
+      "normalizedTokens": [
+        "rusia",
+        "ataca",
+        "infraestructura",
+        "kiev",
+        "respuesta",
+        "crimea"
+      ],
+      "date": "2026-11-20T10:17:51.880Z"
+    },
+    {
+      "title": "Live: Several killed, dozens wounded in Russian attacks that damaged two Kyiv bridges",
+      "normalizedTokens": [
+        "live",
+        "several",
+        "killed",
+        "dozens",
+        "wounded",
+        "russian",
+        "attacks",
+        "that",
+        "damaged",
+        "two",
+        "kyiv",
+        "bridges"
+      ],
+      "date": "2026-11-20T10:17:51.878Z"
+    },
     {
       "title": "ACTUALIZACIÓN: MISILES RUSOS GOLPEAN KIEV Y DAÑAN TRES PUENTES",
       "normalizedTokens": [
@@ -7322,32 +7353,6 @@
         "hacer"
       ],
       "date": "2026-11-04T20:23:21.445Z"
-    },
-    {
-      "title": "LA OTAN Y BRUSELAS PLANIFICAN LA RECONSTRUCCIÓN UCRANIANA",
-      "normalizedTokens": [
-        "otan",
-        "bruselas",
-        "planifican",
-        "reconstruccion",
-        "ucraniana"
-      ],
-      "date": "2026-11-04T18:56:54.330Z"
-    },
-    {
-      "title": "La UE, EEUU y la OTAN estudian cómo financiar la reconstrucción de Ucrania y atraer inversiones tras la guerra",
-      "normalizedTokens": [
-        "eeuu",
-        "otan",
-        "estudian",
-        "financiar",
-        "reconstruccion",
-        "ucrania",
-        "atraer",
-        "inversiones",
-        "guerra"
-      ],
-      "date": "2026-11-04T18:56:54.329Z"
     }
   ]
 }

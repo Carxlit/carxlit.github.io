@@ -1418,5 +1418,10 @@
     "relevant": true,
     "reason": "Muestra un automóvil destruido por ataques en Kiev, ilustrando los daños materiales mencionados en el contexto de la noticia.",
     "at": "2026-11-20T07:16:05.432Z"
+  },
+  "64448bfc1230e231:79gtd0prw": {
+    "relevant": true,
+    "reason": "Muestra edificios destruidos y escombros en Kiev tras un ataque con misiles y drones rusos.",
+    "at": "2026-11-20T10:17:44.034Z"
   }
 }
