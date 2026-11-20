@@ -305,9 +305,38 @@
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5",
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSnhVVFE2TU5ZdEN3bDBRYnVTWXZZczc4d0t1UHFMUEtiWVhsOGlkSHNDWkptQ2llRS04aW01TzJzZXRDc19QalJheWJBLWVsY1NuMVhPVW1qekwtc19oVmJselVyLTZCd1JHTzRnMXpzdm1RTXRNUUI2RTJkOEhvTVl0VTN0Rmc?oc=5",
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3a0Y0cjJIWWsySVhKMWp5bmI0U1RfTHhTMTZ2N2RCdVhjby1ZMHB3TTBtbWZKeHVzVk1uYzNFaURLd29mWE1WZFhKQUhMYWFISVZwUFFKbDZoYmYzOGU0TQ?oc=5",
-    "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja"
+    "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja",
+    "https://es.wired.com/articulos/muse-de-meta-permite-dejar-de-seguir-a-quienes-no-te-siguen-de-vuelta-en-instagram"
   ],
   "processedSignatures": [
+    {
+      "title": "META AUTOMATIZA LA RUPTURA SOCIAL Y CONCENTRA DATOS DE USUARIOS",
+      "normalizedTokens": [
+        "meta",
+        "automatiza",
+        "ruptura",
+        "social",
+        "concentra",
+        "datos",
+        "usuarios"
+      ],
+      "date": "2026-11-20T15:08:55.484Z"
+    },
+    {
+      "title": "Muse de Meta permite dejar de seguir a quienes no te siguen de vuelta en Instagram",
+      "normalizedTokens": [
+        "muse",
+        "meta",
+        "permite",
+        "dejar",
+        "seguir",
+        "quienes",
+        "siguen",
+        "vuelta",
+        "instagram"
+      ],
+      "date": "2026-11-20T15:08:55.480Z"
+    },
     {
       "title": "ESPAÑOLES EN EL GULAG: LIBERACIÓN TRAS LA MUERTE DE STALIN",
       "normalizedTokens": [
@@ -7342,33 +7371,6 @@
         "collusion"
       ],
       "date": "2026-11-05T05:16:42.330Z"
-    },
-    {
-      "title": "SEÚL DESPLIEGA FUERZAS NAVALES EN EL ESTRECHO DE ORMUZ",
-      "normalizedTokens": [
-        "seul",
-        "despliega",
-        "fuerzas",
-        "navales",
-        "estrecho",
-        "ormuz"
-      ],
-      "date": "2026-11-05T05:01:31.883Z"
-    },
-    {
-      "title": "Corea del Sur desplegará una misión naval para mantener abierto el estrecho de Ormuz",
-      "normalizedTokens": [
-        "corea",
-        "sur",
-        "desplegara",
-        "mision",
-        "naval",
-        "mantener",
-        "abierto",
-        "estrecho",
-        "ormuz"
-      ],
-      "date": "2026-11-05T05:01:31.883Z"
     }
   ]
 }

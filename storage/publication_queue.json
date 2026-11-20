@@ -26453,5 +26453,144 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-20T14:09:22.734Z"
+  },
+  {
+    "id": "queue-1795187335465-x6eym",
+    "news": {
+      "id": "w13ud3aeo",
+      "originalUrl": "https://es.wired.com/articulos/muse-de-meta-permite-dejar-de-seguir-a-quienes-no-te-siguen-de-vuelta-en-instagram",
+      "originalTitle": "Muse de Meta permite dejar de seguir a quienes no te siguen de vuelta en Instagram",
+      "sourceName": "Wired en Español",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 78,
+      "headline": "META AUTOMATIZA LA RUPTURA SOCIAL Y CONCENTRA DATOS DE USUARIOS",
+      "subHeadline": "A través de su agente Muse, la tecnológica permite identificar y dejar de seguir masivamente a contactos no recíprocos en Instagram. La herramienta genera bases de datos tabuladas mientras surgen alertas por fallas de privacidad y exposición de datos personales.",
+      "blindSpotAngle": "Más allá del debate sobre la etiqueta digital, Meta normaliza la recolección y estructuración de grafos de relaciones personales mediante agentes de inteligencia artificial. Bajo el pretexto de la reciprocidad, la corporación centraliza un perfilado conductual profundo mientras reportes técnicos advierten sobre el cruce involuntario de conversaciones privadas y la vulneración de datos de los usuarios.",
+      "facebookPost": "La narrativa oficial presenta al nuevo agente de IA de Meta, Muse, como una herramienta conveniente para limpiar la lista de contactos en Instagram y eliminar a quienes no corresponden el seguimiento. Usuarios como Khalil Roberts celebran la automatización de decisiones interpersonales antes engorrosas mediante hojas de cálculo detalladas.\n\nEl punto ciego reside en la delegación del comportamiento humano a infraestructuras corporativas. Mientras los usuarios procesan rencores digitales, Meta obtiene vía libre para mapear y categorizar grafos sociales con un nivel de precisión sin precedentes, todo esto enmarcado por reportes de DiarioBitcoin y EL CEO sobre la exposición de datos privados y cruce involuntario de conversaciones.\n\n¿Hasta qué punto estamos cediendo la gestión de nuestra arquitectura relacional a una corporación que monetiza cada fragmento de interacción?\n\nFuente: Wired en Español\n\n#PuntoCiego #TecnologíaYIA #BigTech",
+      "telegramPost": "<b>META AUTOMATIZA LA RUPTURA SOCIAL Y CONCENTRA DATOS DE USUARIOS</b>\n\n• <b>Qué ocurrió:</b> El agente de IA Muse de Meta permite a los usuarios de Instagram identificar y dejar de seguir automáticamente a cuentas no recíprocas, generando listados tabulados en Excel con nombres y perfiles.\n• <b>Por qué importa:</b> La herramienta mercantiliza y automatiza la fricción social mientras reportes de EL CEO y DiarioBitcoin advierten sobre graves fallos en la exposición de datos privados y filtración de chats entre usuarios.\n• <b>Qué sigue:</b> La integración de asistentes de IA en la vida cotidiana profundizará la dependencia de la infraestructura de Meta, acelerando la recopilación de datos relacionales sin supervisión regulatoria efectiva.",
+      "linkedInPost": "El despliegue de Muse, el agente de inteligencia artificial de Meta, expone una dinámica crítica en la economía de las plataformas: la automatización del capital relacional. Lo que comercialmente se vende como una función de optimización de feeds —permitiendo filtrar seguidores no recíprocos en Instagram— representa la captura analítica de la fricción interpersonal.\n\nDesde la perspectiva del riesgo corporativo y la gobernanza de datos, la integración de estos agentes genera vulnerabilidades severas. Informes recientes de medios especializados señalan que Muse presenta fallas estructurales en la segregación de información, llegando a mezclar conversaciones y exponer datos privados de usuarios. En un entorno regulatorio crecientemente rígido en Europa y América Latina, la delegación de decisiones de perfilado en agentes autónomos sin garantías sólidas de privacidad incrementa el pasivo legal para Big Tech y expone la fragilidad de sus estándares de ciberseguridad.\n\nFuente: Wired en Español\n\n#PuntoCiego #TecnologíaYIA #InteligenciaArtificial",
+      "blueskyPost": "Meta usa su IA Muse para que elimines a quien no te sigue en Instagram. El punto ciego: mientras automatizas tu rencor social, Meta perfila tus vínculos y enfrenta alertas por filtrar chats privados. #PuntoCiego #TecnologíaYIA",
+      "copies": {
+        "facebook": "La narrativa oficial presenta al nuevo agente de IA de Meta, Muse, como una herramienta conveniente para limpiar la lista de contactos en Instagram y eliminar a quienes no corresponden el seguimiento. Usuarios como Khalil Roberts celebran la automatización de decisiones interpersonales antes engorrosas mediante hojas de cálculo detalladas.\n\nEl punto ciego reside en la delegación del comportamiento humano a infraestructuras corporativas. Mientras los usuarios procesan rencores digitales, Meta obtiene vía libre para mapear y categorizar grafos sociales con un nivel de precisión sin precedentes, todo esto enmarcado por reportes de DiarioBitcoin y EL CEO sobre la exposición de datos privados y cruce involuntario de conversaciones.\n\n¿Hasta qué punto estamos cediendo la gestión de nuestra arquitectura relacional a una corporación que monetiza cada fragmento de interacción? #PuntoCiego #TecnologíaYIA #BigTech",
+        "telegram": "<b>META AUTOMATIZA LA RUPTURA SOCIAL Y CONCENTRA DATOS DE USUARIOS</b>\n\n• <b>Qué ocurrió:</b> El agente de IA Muse de Meta permite a los usuarios de Instagram identificar y dejar de seguir automáticamente a cuentas no recíprocas, generando listados tabulados en Excel con nombres y perfiles.\n• <b>Por qué importa:</b> La herramienta mercantiliza y automatiza la fricción social mientras reportes de EL CEO y DiarioBitcoin advierten sobre graves fallos en la exposición de datos privados y filtración de chats entre usuarios.\n• <b>Qué sigue:</b> La integración de asistentes de IA en la vida cotidiana profundizará la dependencia de la infraestructura de Meta, acelerando la recopilación de datos relacionales sin supervisión regulatoria efectiva.",
+        "bluesky": "Meta usa su IA Muse para que elimines a quien no te sigue en Instagram. El punto ciego: mientras automatizas tu rencor social, Meta perfila tus vínculos y enfrenta alertas por filtrar chats privados. #PuntoCiego #TecnologíaYIA",
+        "linkedIn": "El despliegue de Muse, el agente de inteligencia artificial de Meta, expone una dinámica crítica en la economía de las plataformas: la automatización del capital relacional. Lo que comercialmente se vende como una función de optimización de feeds —permitiendo filtrar seguidores no recíprocos en Instagram— representa la captura analítica de la fricción interpersonal.\n\nDesde la perspectiva del riesgo corporativo y la gobernanza de datos, la integración de estos agentes genera vulnerabilidades severas. Informes recientes de medios especializados señalan que Muse presenta fallas estructurales en la segregación de información, llegando a mezclar conversaciones y exponer datos privados de usuarios. En un entorno regulatorio crecientemente rígido en Europa y América Latina, la delegación de decisiones de perfilado en agentes autónomos sin garantías sólidas de privacidad incrementa el pasivo legal para Big Tech y expone la fragilidad de sus estándares de ciberseguridad.\n\n#PuntoCiego #TecnologíaYIA #InteligenciaArtificial"
+      },
+      "article": {
+        "slug": "automatizacion-friccion-social-como-meta-utiliza-t8mm",
+        "title": "La automatización de la fricción social: cómo Meta utiliza su IA Muse para monitorear relaciones humanas",
+        "dek": "El agente de inteligencia artificial de Meta permite purgar contactos no recíprocos en Instagram. Detrás de la herramienta se esconde una arquitectura de recolección de datos y severas dudas sobre la privacidad de los usuarios.",
+        "keyFacts": [
+          "Khalil Roberts utilizó el agente Muse el 7 de noviembre para identificar y dejar de seguir a 151 cuentas en Instagram.",
+          "Kimberly Muñoz, creadora de contenido con 33.200 seguidores, reportó el uso de Muse para identificar conocidos que la habían dejado de seguir.",
+          "En octubre, Meta retiró una campaña publicitaria de Muse tras reportes de Business Insider sobre funciones de rastreo semanal de seguidores.",
+          "Informes de NeoTeo señalan un costo de 300 dólares para el dispositivo Meta Muse Charm, mientras DiarioBitcoin y EL CEO reportan fallas que mezclan conversaciones privadas."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Según datos publicados por WIRED en Español, usuarios de la plataforma Instagram están utilizando Muse, el agente de inteligencia artificial desarrollado por Meta, para automatizar la depuración de sus listas de contactos. El sistema analiza los vínculos de la cuenta y genera una hoja de cálculo en formato Excel con nombres reales, nombres de usuario, enlaces de perfil y clasificaciones, solicitando confirmación para ejecutar el despido masivo de seguidores que no corresponden el seguimiento.",
+              "Casos como el de Khalil Roberts, un usuario neoyorquino de 31 años con más de 7.600 seguidores, ilustran el fenómeno. El 7 de noviembre, Roberts ordenó al agente identificar a cuentas no famosas que no lo seguían de vuelta, resultando en la eliminación automática de 151 perfiles. La práctica ha cobrado tracción entre creadores de contenido como Kimberly Muñoz, quien cuenta con 33.200 seguidores y utilizó la herramienta para auditar a conocidos de su vida real."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La búsqueda de herramientas para gestionar el capital social en redes no es nueva, pero anteriormente implicaba recurrir a aplicaciones de terceros que Meta sancionaba con la suspensión de cuentas por sospechas de spam. Al integrar esta capacidad de manera directa a través de Muse, la corporación valida la automatización de la reciprocidad dentro de sus propios términos de servicio.",
+              "Sin embargo, la estrategia comercial ha enfrentado tropiezos. En octubre, Meta retiró una campaña publicitaria que promocionaba la capacidad de Muse para notificar semanalmente quién había dejado de seguir al usuario, según reportó Business Insider. La compañía no respondió a las solicitudes de comentarios de WIRED respecto a las razones de dicha cancelación. Asimismo, el medio Unite.AI confirmó que Meta ha iniciado la distribución de Muse en Australia incorporando conectores locales."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "En el análisis de Punto Ciego, el aspecto central de este movimiento no radica en el debate ético sobre la cortesía digital, sino en el volumen de datos relacionales que los usuarios entregan voluntariamente a la infraestructura de Meta. Al solicitar a la IA que categorice y filtre amistades, el usuario alimenta a los algoritmos con un mapa detallado de sus filias, fobias y prioridades interpersonales.",
+              "A esta captura intensiva de información se suman graves vulnerabilidades operativas. Coberturas de DiarioBitcoin y EL CEO advierten que Muse ha presentado fallas técnicas que mezclan conversaciones entre usuarios distintos y exponen datos personales privados. Paralelamente, reportes de NeoTeo fijan el precio del hardware asociado Meta Muse Charm en 300 dólares, consolidando un ecosistema donde la privacidad es vulnerada en favor de la monetización corporativa."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Meta se consolida como el principal ganador al profundizar la dependencia de los usuarios respecto a sus herramientas de asistencia personal, capturando datos estructurados de interacciones humanas que antes requerían procesamiento manual. El usuario obtiene una gratificación inmediata al evitar el malestar emocional del enfrentamiento directo, pero cede soberanía sobre su esfera privada.",
+              "Los perdedores son la privacidad colectiva y la seguridad de la información. El riesgo de exposición involuntaria de datos personales —evidenciado en las fallas reportadas de la herramienta— afecta a la totalidad de la base de usuarios, incluso a aquellos que no han dado su consentimiento explícito para ser procesados en las listas de exportación generadas por Muse."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Hacia adelante, será determinante observar la respuesta de los organismos de protección de datos en Europa y América Latina frente al procesamiento masivo de listados relacionales sin consentimiento de terceros. La expansión del agente Muse a nuevos mercados servirá como prueba de fuego para evaluar si Meta logra corregir las filtraciones de chats privados o si el sistema enfrentará bloqueos regulatorios por infracciones a la privacidad."
+            ]
+          }
+        ],
+        "tags": [
+          "Meta",
+          "IA",
+          "Instagram",
+          "Privacidad",
+          "Muse",
+          "Redes Sociales"
+        ],
+        "sources": [
+          {
+            "name": "Wired en Español",
+            "title": "Muse de Meta permite dejar de seguir a quienes no te siguen de vuelta en Instagram",
+            "url": "https://es.wired.com/articulos/muse-de-meta-permite-dejar-de-seguir-a-quienes-no-te-siguen-de-vuelta-en-instagram"
+          },
+          {
+            "name": "NeoTeo",
+            "title": "Precio de Meta Muse Charm: 300 dólares, según informe",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVhQWU9UbWxQZHQ3ckR6aHVSa0xfM0JoYWFuMlUxbG5yOUNCSW4xQnlZbDlKaTJ6ZUxFQ2xwVGxaR3RFVHF6X3QtY1NYUFZtTXFyS0lacC1NWW9hOGhmYmU0Ynl3b05jZ01FUTlyWnhfZmdrbVBTX0Z5dXZWVERNeXNoQ2lXb1ZQUmJFMg?oc=5"
+          },
+          {
+            "name": "DiarioBitcoin",
+            "title": "Muse de Meta habría mezclado conversaciones y mostrado datos privados, alerta informe",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNajNkWUJwZGpJZzR0QTRoSFgza1d1VXdqMTZzN0NjaTFCNzFjN2VYb2IzZFh0WUZBSEVBWG4tR0hLckV0QnZia21NVmo1STlFLVB6V2dJbktWR0pGN1h5QzNqVHpBTUotaWExdXpnbGRqRHpTYkw3blZTbXdLX3RMNmxQUk42X3A0SlNWQjU5cF95Ym83MXBJUXd0aUNIMDF3ZkYxeWZhcVhHSmhpM0wwU3pGaFQ2UG9neHJKQTFYV0h1dG9V?oc=5"
+          },
+          {
+            "name": "Unite.AI",
+            "title": "Meta lanza el agente de IA Muse en Australia con conectores locales",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZnlUYWZUMjgtR1M4QjZsazIzN0x6SUwtUGpmYXZSSktaaWctRl95TDNyTmljQzEwc3laT2t2VVlFa0UwTlNxNV9qMHdBVHd4MkVaVXpBU25JZ05XN0NSVTdka3lGWkQ2b3Q3Z241VzZuZng4ZVN4QjFNeGtTYzdfbmxmbjhiamlqZTU0RkgyYkk?oc=5"
+          },
+          {
+            "name": "EL CEO",
+            "title": "Muse, la IA de Meta, genera alertas por mezclar conversaciones y exponer datos privados",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY2VnVjgzcmJVZmppTEYtU0ZlZDRRNmpDTG9SVGw0cGZOa0FJbmFIdDNzbjRVT0NEVmppTTFzajlNTDQ4S0NaN1AtekFtb2tHWk1IaTRfQmlKOHFHTG1aVkI5YXEySXBncFR6QW1tbEJUckt1eGJnb1dmYUdoMHU1TFMzeWJrTzQ5YVZtUjB1YUctbzVCSVpjY0I0LUJNbVpjakFXR0VR?oc=5"
+          }
+        ],
+        "wordCount": 624
+      },
+      "videoScript": {
+        "hook": "Meta lanzó una IA que deja de seguir a quien no te sigue en Instagram.",
+        "beats": [
+          "Un usuario usó Muse para eliminar a 151 personas en minutos recibiendo una lista en Excel.",
+          "Ojo porque reportes técnicos advierten que esta IA está mezclando chats y exponiendo datos privados de los usuarios.",
+          "Lo que nadie dice es que Meta aprovecha tu rencor digital para mapear en detalle tus relaciones personales."
+        ],
+        "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://media.es.wired.com/photos/6b005a6d2f3b22d37e1d49ec/16:9/w_1280,c_limit/Meta-Muse-Pettiness-Culture.jpg",
+      "status": "pending",
+      "createdAt": "2026-11-20T15:08:52.914Z",
+      "cardImageUrl": "/news-cards/news-w13ud3aeo-1795187332914.jpg",
+      "reelCoverUrl": "/news-cards/news-w13ud3aeo-1795187333710-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-w13ud3aeo-1795187334240-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/automatizacion-friccion-social-como-meta-utiliza-t8mm/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-20T18:54:11.766Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-20T15:08:55.465Z"
   }
 ]

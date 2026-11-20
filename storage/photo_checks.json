@@ -1458,5 +1458,15 @@
     "relevant": true,
     "reason": "Muestra el buque Semíramis, protagonista directo de la repatriación de los españoles liberados del Gulag.",
     "at": "2026-11-20T14:09:19.131Z"
+  },
+  "e6928f2e64c0f968:w13ud3aeo": {
+    "relevant": false,
+    "reason": "es una foto decorativa o de stock con un peluche y rostros tachados, sin relación directa con la interfaz o la tecnología de Meta.",
+    "at": "2026-11-20T15:08:40.320Z"
+  },
+  "9e787fc5ea261394:w13ud3aeo": {
+    "relevant": true,
+    "reason": "Ilustra la ruptura social y la eliminación masiva de contactos mediante una retícula de fotos de personas tachadas con cruces rojas.",
+    "at": "2026-11-20T15:08:51.562Z"
   }
 }
