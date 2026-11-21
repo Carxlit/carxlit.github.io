@@ -320,9 +320,39 @@
     "https://elpais.com/economia/vivienda/2026-11-21/la-crisis-de-la-vivienda-golpea-mas-fuerte-a-los-inmigrantes-sonamos-con-lo-minimo.html",
     "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01cVNxSzZ1ZmJqM3h0azQ0LWlCZ3dzeWJzMkFSS2dzcXRtYTU2ZlB6X3BnY0dUUWJ1ay1ZUnl0VGxhM2VJYWZkMlJyT3lHR0t3NkVJWlQ2WG83MnloNHR0UGR4ZklyQ21v?oc=5",
     "https://elpais.com/mexico/2026-11-21/el-chapo-isidro-senor-de-la-guerra-en-sinaloa-uno-de-los-objetivos-mas-buscados-por-estados-unidos.html",
-    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1Rocm04Ym05RnFOU1RYYnpURDBNRVZCMjN1YjR1bDQ1Zlk0ZzlsMjBEcS1hV1ZrV25laG9DV1ZqWWx0OVJ2R0Jmb3JtU1ZINFZFRlMwUHl4WFhWZHNraTdDaGEyRlpXbXVkMlBDcmVrZ0tXMGNfMXR2YWtjOUtWSDBSSDg0bmpWbFJ0ODhjSU10YlNHV3FyY0JUakw3TzdIOFE?oc=5"
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1Rocm04Ym05RnFOU1RYYnpURDBNRVZCMjN1YjR1bDQ1Zlk0ZzlsMjBEcS1hV1ZrV25laG9DV1ZqWWx0OVJ2R0Jmb3JtU1ZINFZFRlMwUHl4WFhWZHNraTdDaGEyRlpXbXVkMlBDcmVrZ0tXMGNfMXR2YWtjOUtWSDBSSDg0bmpWbFJ0ODhjSU10YlNHV3FyY0JUakw3TzdIOFE?oc=5",
+    "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSGJraDM0OTN4NC0wNFF4V0NpVURGdzN1VlZ4cnpfN096ZkI2UkVuam1PT2ZNMzR1Xy1qTzd1a2kzaEZ5ZEh3SWRoX19BalNKdjJWREE4b0xqLTB2RUJsR0ZqaW5xbW9tRUgzYXZoY0pvc1AyT0NFMDJIOUZnZXVyT2IwS2hSN21aNVRvUURJUlF1VGpuWDY4NUNUZkNBMzE3aC1qM24xSEEwbklWbFJQWWQxZE9makVEVVU1TWdkNDdXcGMyTGxHVHk0Wi1mTERtLVBjZ19oa2ROMm1iVFhwbDlTU0F4cGpDNVZZ0gGGAkFVX3lxTFBKRmppMVYta3MwYUpad054WTltVG9VSzZ4c0FsSTJzOUctdWl1RHp4dDd6SkRHY1dPSV9VemJERFhaNWo1Y09kMjd2a3ptcHZ2a0xqcE43NGoyTC04N1hGMlhTd1dacDBfWEJiNm96THNIekcycVpJakJ2aHpLSnMxaUd4TDJCYTVfQkI0R3Z1c3A3X3l5ak1aZnVOM1BTcDB3eDNCRG05U21UZm83cVlMMTc5cVU3QnlZakFsM0xjdDJSYmx1UXAxcDJOZDV5U3hjNW51dFVlSkNjRXFad0pUd190RVJHMkd1T2h4UmVQM0N0QkRKZnN1d21GQXNFeHBlaXRONHc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "BANCO CENTRAL PREVÉ CRECIMIENTO DEL 3,3% Y ADVIERTE INFLACIÓN",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "preve",
+        "crecimiento",
+        "advierte",
+        "inflacion"
+      ],
+      "date": "2026-11-21T14:04:57.668Z"
+    },
+    {
+      "title": "Banco Central prevé que economía de Costa Rica crezca un 3.3% en 2027 y advierte sobre aumento de la inflación",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "preve",
+        "economia",
+        "costa",
+        "rica",
+        "crezca",
+        "2027",
+        "advierte",
+        "aumento",
+        "inflacion"
+      ],
+      "date": "2026-11-21T14:04:57.659Z"
+    },
     {
       "title": "PAX SILICA DIVIDE A CENTROAMÉRICA EN GOBERNANZA DE IA",
       "normalizedTokens": [
@@ -7371,32 +7401,6 @@
         "gaza"
       ],
       "date": "2026-11-06T05:16:33.035Z"
-    },
-    {
-      "title": "CRISIS EN WALL STREET: EL SECTOR TECNOLÓGICO SE DESPLOMA",
-      "normalizedTokens": [
-        "crisis",
-        "wall",
-        "street",
-        "sector",
-        "tecnologico",
-        "desploma"
-      ],
-      "date": "2026-11-05T22:11:16.615Z"
-    },
-    {
-      "title": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
-      "normalizedTokens": [
-        "hundimiento",
-        "historico",
-        "bolsa",
-        "estadounidense",
-        "grandes",
-        "tecnologicas",
-        "dejan",
-        "hora"
-      ],
-      "date": "2026-11-05T22:11:16.615Z"
     }
   ]
 }

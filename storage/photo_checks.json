@@ -1553,5 +1553,20 @@
     "relevant": true,
     "reason": "La imagen muestra un robot interactuando con interfaces tecnológicas avanzadas, lo cual ilustra adecuadamente el tema central de la gobernanza de inteligencia artificial (IA).",
     "at": "2026-11-21T13:03:39.829Z"
+  },
+  "64d52f19955e10f6:uhg2h7qeh": {
+    "relevant": false,
+    "reason": "La imagen muestra a un hombre con un gráfico en español sobre el IMSS y entregas, lo cual no tiene relación con el Banco Central de Costa Rica ni con el crecimiento económico de es",
+    "at": "2026-11-21T14:03:46.275Z"
+  },
+  "3f6c389f9116d573:uhg2h7qeh": {
+    "relevant": false,
+    "reason": "La imagen muestra la bandera de Colombia en Cartagena, mientras que la noticia trata sobre el Banco Central de Costa Rica.",
+    "at": "2026-11-21T14:04:19.391Z"
+  },
+  "1d55c556baba6bc7:uhg2h7qeh": {
+    "relevant": false,
+    "reason": "La imagen muestra el logotipo de Fitch Ratings, que es una agencia de calificación crediticia y no el sujeto principal de la noticia sobre el Banco Central de Costa Rica.",
+    "at": "2026-11-21T14:04:54.263Z"
   }
 }
