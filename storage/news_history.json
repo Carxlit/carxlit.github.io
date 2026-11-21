@@ -323,9 +323,40 @@
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1Rocm04Ym05RnFOU1RYYnpURDBNRVZCMjN1YjR1bDQ1Zlk0ZzlsMjBEcS1hV1ZrV25laG9DV1ZqWWx0OVJ2R0Jmb3JtU1ZINFZFRlMwUHl4WFhWZHNraTdDaGEyRlpXbXVkMlBDcmVrZ0tXMGNfMXR2YWtjOUtWSDBSSDg0bmpWbFJ0ODhjSU10YlNHV3FyY0JUakw3TzdIOFE?oc=5",
     "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSGJraDM0OTN4NC0wNFF4V0NpVURGdzN1VlZ4cnpfN096ZkI2UkVuam1PT2ZNMzR1Xy1qTzd1a2kzaEZ5ZEh3SWRoX19BalNKdjJWREE4b0xqLTB2RUJsR0ZqaW5xbW9tRUgzYXZoY0pvc1AyT0NFMDJIOUZnZXVyT2IwS2hSN21aNVRvUURJUlF1VGpuWDY4NUNUZkNBMzE3aC1qM24xSEEwbklWbFJQWWQxZE9makVEVVU1TWdkNDdXcGMyTGxHVHk0Wi1mTERtLVBjZ19oa2ROMm1iVFhwbDlTU0F4cGpDNVZZ0gGGAkFVX3lxTFBKRmppMVYta3MwYUpad054WTltVG9VSzZ4c0FsSTJzOUctdWl1RHp4dDd6SkRHY1dPSV9VemJERFhaNWo1Y09kMjd2a3ptcHZ2a0xqcE43NGoyTC04N1hGMlhTd1dacDBfWEJiNm96THNIekcycVpJakJ2aHpLSnMxaUd4TDJCYTVfQkI0R3Z1c3A3X3l5ak1aZnVOM1BTcDB3eDNCRG05U21UZm83cVlMMTc5cVU3QnlZakFsM0xjdDJSYmx1UXAxcDJOZDV5U3hjNW51dFVlSkNjRXFad0pUd190RVJHMkd1T2h4UmVQM0N0QkRKZnN1d21GQXNFeHBlaXRONHc?oc=5",
     "https://www.infobae.com/mexico/2026/11/21/el-chapo-isidro-enemigo-acerrimo-del-chapo-guzman-que-profano-la-casa-de-su-madre-y-se-alio-con-los-mayos-en-su-contra/",
-    "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html"
+    "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html",
+    "https://www.dw.com/es/drones-rusos-atacan-central-térmica-en-ucrania-dejando-dos-muertos/a-80009319?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "DRONES RUSOS IMPACTAN INFRAESTRUCTURA ENERGÉTICA Y DEJAN DOS MUERTOS EN UCRANIA",
+      "normalizedTokens": [
+        "drones",
+        "rusos",
+        "impactan",
+        "infraestructura",
+        "energetica",
+        "dejan",
+        "dos",
+        "muertos",
+        "ucrania"
+      ],
+      "date": "2026-11-21T17:35:53.180Z"
+    },
+    {
+      "title": "Drones rusos atacan central térmica en Ucrania dejando dos muertos",
+      "normalizedTokens": [
+        "drones",
+        "rusos",
+        "atacan",
+        "central",
+        "termica",
+        "ucrania",
+        "dejando",
+        "dos",
+        "muertos"
+      ],
+      "date": "2026-11-21T17:35:53.178Z"
+    },
     {
       "title": "INVESTIGAN NUEVO CIBERATAQUE A LA BASE DE DATOS DEL FBI",
       "normalizedTokens": [
@@ -7380,31 +7411,6 @@
         "ukraine"
       ],
       "date": "2026-11-06T11:01:28.730Z"
-    },
-    {
-      "title": "ACCIDENTE DE AUTOBÚS ESCOLAR EN EL ESTE DE FRANCIA",
-      "normalizedTokens": [
-        "accidente",
-        "autobus",
-        "escolar",
-        "francia"
-      ],
-      "date": "2026-11-06T10:46:36.941Z"
-    },
-    {
-      "title": "At least two killed, 16 injured in school bus accident in eastern France",
-      "normalizedTokens": [
-        "least",
-        "two",
-        "killed",
-        "injured",
-        "school",
-        "bus",
-        "accident",
-        "eastern",
-        "france"
-      ],
-      "date": "2026-11-06T10:46:36.941Z"
     }
   ]
 }
