@@ -26490,5 +26490,140 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-21T15:33:42.007Z"
+  },
+  {
+    "id": "queue-1795279261127-6vt1k",
+    "news": {
+      "id": "jo6kxnfhx",
+      "originalUrl": "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html",
+      "originalTitle": "Investigan un ciberataque a la base de datos criminales del FBI",
+      "sourceName": "ABC Internacional",
+      "category": "SEGURIDAD & DEFENSA",
+      "urgencyScore": 88,
+      "headline": "INVESTIGAN NUEVO CIBERATAQUE A LA BASE DE DATOS DEL FBI",
+      "subHeadline": "La intrusión en el Centro Nacional de Información sobre Delitos ocurre mientras la administración Trump enfrenta una serie de fallos críticos en infraestructuras clave.",
+      "blindSpotAngle": "El director del FBI, Kash Patel, ocultó la brecha al alabar la ciberseguridad nacional y referirse a la Operación Escudo de Invierno como activa. La contradicción sugiere que el FBI prioriza la narrativa de control institucional sobre la transparencia técnica tras fallos en la NSA y el sector bancario.",
+      "facebookPost": "El FBI enfrenta una brecha de seguridad en su Centro Nacional de Información sobre Delitos, la base que conecta a las fuerzas del orden de todo Estados Unidos. Mientras la administración oficial presume de una ciberseguridad robusta, la realidad muestra una serie de fallos en instituciones como la NSA y el sector bancario que revelan una red de infraestructuras críticas bajo asedio.\n\nEl punto ciego aquí no es el hackeo en sí, sino la gestión de la crisis por parte de la dirección del FBI. Kash Patel ha sostenido un discurso de éxito operativo mientras la agencia lidiaba con la intrusión, utilizando operaciones pasadas como escudo retórico ante una vulnerabilidad que sigue abierta.\n\n¿Es la ciberseguridad del Estado un castillo de naipes que se sostiene solo mediante el relato político?\n\nFuente: ABC Internacional\n\n#Ciberseguridad #FBI #PuntoCiego",
+      "telegramPost": "<b>INVESTIGAN NUEVO CIBERATAQUE A LA BASE DE DATOS DEL FBI</b>\n\n• <b>Qué ocurrió:</b> El FBI investiga una intrusión en el Centro Nacional de Información sobre Delitos, herramienta vital para órdenes de arresto y antecedentes.\n• <b>Por qué importa:</b> Es el segundo ataque de este tipo reciente y se suma a fallos previos en la NSA, la FAA y bancos, evidenciando una debilidad estructural grave.\n• <b>Qué sigue:</b> La administración Trump mantiene un discurso de control total, pero la desconexión entre la narrativa oficial y la realidad técnica sugiere una crisis de ciberseguridad sin resolver.",
+      "linkedInPost": "La ciberseguridad de las infraestructuras críticas en Estados Unidos atraviesa un periodo de fragilidad evidente. La reciente intrusión en la base de datos del Centro Nacional de Información sobre Delitos del FBI, sumada a los fallos reportados en la NSA y el sistema bancario, obliga a cuestionar la resiliencia de los activos digitales federales.\n\nEl riesgo país aumenta cuando la respuesta institucional ante estas brechas se limita a la gestión de la narrativa pública en lugar de la corrección técnica. Para los actores estratégicos, este escenario de vulnerabilidad expuesta representa un punto de inflexión en la confianza sobre el control de datos sensibles y la soberanía digital estadounidense.\n\nFuente: ABC Internacional\n\n#Ciberseguridad #RiesgoPais #PuntoCiego",
+      "blueskyPost": "El FBI sufre un nuevo hackeo en su base de datos criminal, pero su dirección prefiere alabar su propia gestión en lugar de admitir la vulnerabilidad sistémica. La retórica oficial ignora el patrón de fallos en infraestructuras clave. #PuntoCiego #Seguridad",
+      "copies": {
+        "facebook": "El FBI enfrenta una brecha de seguridad en su Centro Nacional de Información sobre Delitos, la base que conecta a las fuerzas del orden de todo Estados Unidos. Mientras la administración oficial presume de una ciberseguridad robusta, la realidad muestra una serie de fallos en instituciones como la NSA y el sector bancario que revelan una red de infraestructuras críticas bajo asedio.\n\nEl punto ciego aquí no es el hackeo en sí, sino la gestión de la crisis por parte de la dirección del FBI. Kash Patel ha sostenido un discurso de éxito operativo mientras la agencia lidiaba con la intrusión, utilizando operaciones pasadas como escudo retórico ante una vulnerabilidad que sigue abierta.\n\n¿Es la ciberseguridad del Estado un castillo de naipes que se sostiene solo mediante el relato político? #Ciberseguridad #FBI #PuntoCiego",
+        "telegram": "<b>INVESTIGAN NUEVO CIBERATAQUE A LA BASE DE DATOS DEL FBI</b>\n\n• <b>Qué ocurrió:</b> El FBI investiga una intrusión en el Centro Nacional de Información sobre Delitos, herramienta vital para órdenes de arresto y antecedentes.\n• <b>Por qué importa:</b> Es el segundo ataque de este tipo reciente y se suma a fallos previos en la NSA, la FAA y bancos, evidenciando una debilidad estructural grave.\n• <b>Qué sigue:</b> La administración Trump mantiene un discurso de control total, pero la desconexión entre la narrativa oficial y la realidad técnica sugiere una crisis de ciberseguridad sin resolver.",
+        "bluesky": "El FBI sufre un nuevo hackeo en su base de datos criminal, pero su dirección prefiere alabar su propia gestión en lugar de admitir la vulnerabilidad sistémica. La retórica oficial ignora el patrón de fallos en infraestructuras clave. #PuntoCiego #Seguridad",
+        "linkedIn": "La ciberseguridad de las infraestructuras críticas en Estados Unidos atraviesa un periodo de fragilidad evidente. La reciente intrusión en la base de datos del Centro Nacional de Información sobre Delitos del FBI, sumada a los fallos reportados en la NSA y el sistema bancario, obliga a cuestionar la resiliencia de los activos digitales federales.\n\nEl riesgo país aumenta cuando la respuesta institucional ante estas brechas se limita a la gestión de la narrativa pública en lugar de la corrección técnica. Para los actores estratégicos, este escenario de vulnerabilidad expuesta representa un punto de inflexión en la confianza sobre el control de datos sensibles y la soberanía digital estadounidense. #Ciberseguridad #RiesgoPais #PuntoCiego"
+      },
+      "article": {
+        "slug": "brecha-fbi-retorica-oficial-intenta-ocultar-ofe5",
+        "title": "La brecha en el FBI que la retórica oficial intenta ocultar",
+        "dek": "El FBI investiga una intrusión en su base de datos criminal mientras sus líderes insisten en la eficacia de su ciberseguridad. La contradicción expone una crisis de vulnerabilidad en las infraestructuras críticas del país.",
+        "keyFacts": [
+          "La intrusión afecta al Centro Nacional de Información sobre Delitos del FBI.",
+          "Es el segundo ataque documentado contra esta base de datos criminal.",
+          "El director del FBI, Kash Patel, elogió la ciberseguridad de la agencia tras conocerse el ataque.",
+          "El FBI menciona la Operación Escudo de Invierno como si estuviera en curso para justificar la protección de sistemas."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "La Oficina Federal de Investigación (FBI) ha confirmado que se encuentra investigando una presunta violación de seguridad en su base de datos de información criminal. Según reportes de la cadena CNN, el incidente afecta directamente al Centro Nacional de Información sobre Delitos, una infraestructura crítica que actúa como enlace fundamental para el intercambio de información sobre órdenes de arresto y antecedentes entre las agencias federales, estatales y locales de Estados Unidos."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Este incidente no es un hecho aislado. Se suma a una serie de fallos de seguridad que han afectado a instituciones de alto perfil, incluyendo la Agencia de Seguridad Nacional (NSA), la Administración Federal de Aviación y múltiples entidades bancarias en los últimos meses. La administración de Donald Trump enfrenta un escrutinio creciente sobre su capacidad para proteger las redes digitales del país frente a actores externos.",
+              "En septiembre, un investigador canadiense fue detenido por su presunta relación con el grupo de hackers ShinyHunters, responsables de una filtración previa que comprometió datos confidenciales de empleados del FBI. Estos precedentes dibujan un panorama donde la seguridad informática federal parece incapaz de contener las incursiones recurrentes."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Lo más revelador del suceso es la gestión comunicativa de la agencia. El director del FBI, Kash Patel, compareció ante los medios el pasado jueves para alabar el desempeño de la institución en materia de ciberseguridad, a pesar de que la agencia ya conocía el alcance de esta nueva intrusión. Patel se refirió a la 'Operación Escudo de Invierno' como si fuera una iniciativa en pleno desarrollo para proteger infraestructuras críticas, una táctica retórica que busca proyectar control institucional mientras la realidad técnica sugiere lo contrario."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En este tablero, la administración pierde credibilidad ante sus aliados y ciudadanos, al intentar solapar fallos técnicos con discursos de éxito administrativo. Por otro lado, los grupos de ciberdelincuencia ganan influencia al demostrar que incluso los sistemas más protegidos del FBI son vulnerables, lo que incentiva nuevos ataques y debilita la confianza en la inteligencia centralizada del país."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "La atención debe centrarse en si la Operación Escudo de Invierno arroja resultados tangibles o si es únicamente una fachada para contener la presión política. Asimismo, es vital observar el nivel de cooperación que el FBI exigirá a las empresas privadas para 'actualizar sistemas', una medida que podría traducirse en mayores costos operativos y presiones regulatorias para el sector tecnológico."
+            ]
+          }
+        ],
+        "tags": [
+          "FBI",
+          "Ciberseguridad",
+          "Kash Patel",
+          "Infraestructura Critica",
+          "Geopolitica"
+        ],
+        "sources": [
+          {
+            "name": "ABC Internacional",
+            "title": "Investigan un ciberataque a la base de datos criminales del FBI",
+            "url": "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html"
+          },
+          {
+            "name": "Infobae",
+            "title": "El FBI investiga un presunto ciberataque contra su base de datos criminal",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRTZ2RXkyQ1N5SzVRZXY4Mnk5ZVE0S3ZkM0JBTzFheG1UNXBlYXppaGczV1kyZjJRVTU2UXVsYXFvNnFhS0d3RV9nbnlCVTZpcWVoVDhELWZzazd5OHlUaXNOcWZIOE1pckplZ3RxVzlFMkJOOGJ6d29La2Q3M2t1SlVzOEtBbE5sSnhZSnRPaUw1Y3VSNVhObU5pVkVzNjBtVWh4akJmcG82RVJMVnhOWGFMSzFYYTlWSGFWRlFkS1MyZ2I0SkQwdE02NUlxclB6Yi1yaGEtQ1h0R0FaRUdZS1p5UGJyR1cyMEdVY0F4UWRmaERpUmhYeGlLVnhQLUlV0gGbAkFVX3lxTE5sOFVpV29sNDl1RzJIWTlhSHU0dlIyNjVDYUVaRzJBS1NyeTUxV2txTmRtM0RuS0ZvVEpNLWliWGJ5cVdkTjhBVUZnSGo0M1QwdDBaUEh4ajg5dVNhSjcySVdPOWg0RnNwem9Xa3BPa1hvX1dNYUxXQmVzbzh0T002Q0RFMm1hNUp0VWdiMjVmSlUtWlhJdEtpZXJRUUlXdkJNR3pHblYyS1UtOUJtWFQySzl4MEhzLUN1S2NOV3hqLXYzb09lYUY5X1ZtajV4YWdYRENkYlgwU0dHUjdqcTdPVHlNZlNXNW43enhnbXhRaWhFbkNDZXJNV2FxNkJWWWZQNC10UVIwS3pkSUUzRlNSUk5xckEzdkJkOWM?oc=5"
+          },
+          {
+            "name": "Hoy Tamaulipas",
+            "title": "Investiga FBI presunto ciberataque a base de datos criminal en Estados Unidos",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd2M4OE5oX3VDTUZHZ2xURU5lQ3pSVFVnSm9KUm1sMS14SFdMUXg3M1pWNVcyX2s3a3pKTTdrWEpzYi0yeDgzNFZvNk9yYUlKOHhHNm1ub3RYRlRIZVJLdzhpdzMxdzVIX0lCV2hOQVJ0RGNHTlBRLVdVY2tiZzBLTjFnd3JYS1o5Unc2MEF0M0ZWRmhMazBidll6NGxMLTdvenBxVXlwaC1Ea3FwM1h5ZWZhYUYza1ZWLURKZHc1VXNXb2M?oc=5"
+          },
+          {
+            "name": "INFO7",
+            "title": "FBI investiga hackeo a su base de datos criminal",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM3NSVVBaQzlxd0ptUjkyMzJ0WlJwRjJtNms1U0pPR0c4SUdYSVFwcGc4MzdrT2hOSnQ2Tlg4TGFoRllBaEpPc3h3SnRiU3R1UEpfNnRsd3dFSkJnNk0xdjhyRlBwRUdVMVhUcGpOS0lhQnVZVHljTDJ6cjRZUElKbFIwcGhxOFc1bmRLR1BxTFpWcm04?oc=5"
+          },
+          {
+            "name": "Cadena SER",
+            "title": "El FBI investiga un nuevo ciberataque a su base de datos de información criminal",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQUdIUE9BOW51MzFsMmlEYW9PaE9vTlVFWFBGYnhDTHhQZWFGbmFWUnczckVlYUM5NXpNTml6RkpzbHBzMHdFdnNZNk9yQWQ2dWlrRXRYNjdnbXd1NDJJSWljWTN1ZGxpR1hFcW45aTRlRDQtcnJzYVY3Uk9TbkxEWm0tMjE1ZnhmYUcyU1YxTTBhWlJreDFqZjJTTmhhM190MzlvWTBrVlBUcW82bC1kVmxIaGVnVDExbzhxb1VzZktqdkRjbTY4RlpEUVBqbnPSAeMBQVVfeXFMTUt5cmxlbzdEdGhrWXdRT2FHUFAyakJ0bFBnZ1dEbEgwYXpSQUg0WDJzNndncGVUSlo2NzVaT2V4NkhHa2t5bEJSTUF4aEJ2WTNhQVFxTVl0V0s5cFBhM0ZRTGMzc2ZMS05EQ2NoYjZYQUQ3SXZVZmRVNktjd0xEVkpGSlZ0STA3ZDJkZ2NvSjNkUkZ0QXRkai11SW9HaTdkQlpzMjI1aTVWZEhreGRPSnN5cFNaN1NCVk5FUnJlUVJDTDl3ZG5leWxzNzVDaVRWQU42Wl80OVB5RTVfOVltcnc3aFE?oc=5"
+          }
+        ],
+        "wordCount": 423
+      },
+      "videoScript": {
+        "hook": "El fbi fue hackeado de nuevo y sus jefes no quieren que lo sepas",
+        "beats": [
+          "La base de datos criminal de estados unidos ha sido vulnerada por segunda vez",
+          "Kash patel salió a presumir la seguridad de la agencia mientras ocultaba que el sistema estaba comprometido",
+          "Lo que nadie dice es que este es el último de una serie de 3 fallos críticos en agencias clave este año"
+        ],
+        "close": "Lee el análisis completo sobre el desastre de seguridad en el enlace del perfil"
+      },
+      "rawImageUrl": "https://s1.abcstatics.com/abc/www/multimedia/internacional/2026/11/21/fbi-kRg-U40467368597HBG-1200x840@diario_abc.jpg",
+      "status": "pending",
+      "createdAt": "2026-11-21T16:40:58.709Z",
+      "cardImageUrl": "/news-cards/news-jo6kxnfhx-1795279258709.jpg",
+      "reelCoverUrl": "/news-cards/news-jo6kxnfhx-1795279259325-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-jo6kxnfhx-1795279259880-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-fbi-retorica-oficial-intenta-ocultar-ofe5/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-21T20:00:59.317Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-21T16:41:01.127Z"
   }
 ]

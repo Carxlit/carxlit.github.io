@@ -322,9 +322,34 @@
     "https://elpais.com/mexico/2026-11-21/el-chapo-isidro-senor-de-la-guerra-en-sinaloa-uno-de-los-objetivos-mas-buscados-por-estados-unidos.html",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1Rocm04Ym05RnFOU1RYYnpURDBNRVZCMjN1YjR1bDQ1Zlk0ZzlsMjBEcS1hV1ZrV25laG9DV1ZqWWx0OVJ2R0Jmb3JtU1ZINFZFRlMwUHl4WFhWZHNraTdDaGEyRlpXbXVkMlBDcmVrZ0tXMGNfMXR2YWtjOUtWSDBSSDg0bmpWbFJ0ODhjSU10YlNHV3FyY0JUakw3TzdIOFE?oc=5",
     "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSGJraDM0OTN4NC0wNFF4V0NpVURGdzN1VlZ4cnpfN096ZkI2UkVuam1PT2ZNMzR1Xy1qTzd1a2kzaEZ5ZEh3SWRoX19BalNKdjJWREE4b0xqLTB2RUJsR0ZqaW5xbW9tRUgzYXZoY0pvc1AyT0NFMDJIOUZnZXVyT2IwS2hSN21aNVRvUURJUlF1VGpuWDY4NUNUZkNBMzE3aC1qM24xSEEwbklWbFJQWWQxZE9makVEVVU1TWdkNDdXcGMyTGxHVHk0Wi1mTERtLVBjZ19oa2ROMm1iVFhwbDlTU0F4cGpDNVZZ0gGGAkFVX3lxTFBKRmppMVYta3MwYUpad054WTltVG9VSzZ4c0FsSTJzOUctdWl1RHp4dDd6SkRHY1dPSV9VemJERFhaNWo1Y09kMjd2a3ptcHZ2a0xqcE43NGoyTC04N1hGMlhTd1dacDBfWEJiNm96THNIekcycVpJakJ2aHpLSnMxaUd4TDJCYTVfQkI0R3Z1c3A3X3l5ak1aZnVOM1BTcDB3eDNCRG05U21UZm83cVlMMTc5cVU3QnlZakFsM0xjdDJSYmx1UXAxcDJOZDV5U3hjNW51dFVlSkNjRXFad0pUd190RVJHMkd1T2h4UmVQM0N0QkRKZnN1d21GQXNFeHBlaXRONHc?oc=5",
-    "https://www.infobae.com/mexico/2026/11/21/el-chapo-isidro-enemigo-acerrimo-del-chapo-guzman-que-profano-la-casa-de-su-madre-y-se-alio-con-los-mayos-en-su-contra/"
+    "https://www.infobae.com/mexico/2026/11/21/el-chapo-isidro-enemigo-acerrimo-del-chapo-guzman-que-profano-la-casa-de-su-madre-y-se-alio-con-los-mayos-en-su-contra/",
+    "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "INVESTIGAN NUEVO CIBERATAQUE A LA BASE DE DATOS DEL FBI",
+      "normalizedTokens": [
+        "investigan",
+        "nuevo",
+        "ciberataque",
+        "base",
+        "datos",
+        "fbi"
+      ],
+      "date": "2026-11-21T16:41:01.147Z"
+    },
+    {
+      "title": "Investigan un ciberataque a la base de datos criminales del FBI",
+      "normalizedTokens": [
+        "investigan",
+        "ciberataque",
+        "base",
+        "datos",
+        "criminales",
+        "fbi"
+      ],
+      "date": "2026-11-21T16:41:01.142Z"
+    },
     {
       "title": "CAÍDA DE EL CHAPO ISIDRO Y EL VACÍO EN SINALOA",
       "normalizedTokens": [
@@ -7380,31 +7405,6 @@
         "france"
       ],
       "date": "2026-11-06T10:46:36.941Z"
-    },
-    {
-      "title": "AUTOBÚS ESCOLAR SE ACCIDENTA EN EL ESTE DE FRANCIA",
-      "normalizedTokens": [
-        "autobus",
-        "escolar",
-        "accidenta",
-        "francia"
-      ],
-      "date": "2026-11-06T09:46:35.126Z"
-    },
-    {
-      "title": "'Several victims' after school bus crashes in France, officials say",
-      "normalizedTokens": [
-        "several",
-        "victims",
-        "after",
-        "school",
-        "bus",
-        "crashes",
-        "france",
-        "officials",
-        "say"
-      ],
-      "date": "2026-11-06T09:46:35.126Z"
     }
   ]
 }
