@@ -315,9 +315,38 @@
     "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909",
     "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
-    "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html"
+    "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVlsWWxkZkwyOHVaMVRvYnhrU0JfZjYtTkJicVF6M3dGVzBRcGEzSWxZWm5wTG9EcC1DZENhYzk1cERObmpZZUIwSEdrbU5QYW8yeG9TRU1PY093SlI5WnozRkkzMnpRVzcwZDQyLTk2SzA5SGh3SmdpN2E5XzBhRktZVDh3WVpUYnpZZFVmWWRIXzZkZWJlQ0Q4N1N3VENhQVE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "LA ONU PROLONGA NEGOCIACIONES SOBRE LA REGULACIÓN DE ARMAS AUTÓNOMAS",
+      "normalizedTokens": [
+        "onu",
+        "prolonga",
+        "negociaciones",
+        "regulacion",
+        "armas",
+        "autonomas"
+      ],
+      "date": "2026-11-21T11:04:21.543Z"
+    },
+    {
+      "title": "ONU prolonga complejas negociaciones sobre regulación de \"robots asesinos\" controlados por la Inteligencia Artificial.",
+      "normalizedTokens": [
+        "onu",
+        "prolonga",
+        "complejas",
+        "negociaciones",
+        "regulacion",
+        "robots",
+        "asesinos",
+        "controlados",
+        "inteligencia",
+        "artificial"
+      ],
+      "date": "2026-11-21T11:04:21.541Z"
+    },
     {
       "title": "SISMO DE MAGNITUD 6,7 SACUDE EL CENTRO DE PERÚ",
       "normalizedTokens": [
@@ -7371,33 +7400,6 @@
         "boom"
       ],
       "date": "2026-11-05T16:34:32.410Z"
-    },
-    {
-      "title": "MOSCÚ DESESTIMA IMPACTO ELECTORAL EN EE.UU. Y MANTIENE CUMBRE DE ABU DABI",
-      "normalizedTokens": [
-        "moscu",
-        "desestima",
-        "impacto",
-        "electoral",
-        "mantiene",
-        "cumbre",
-        "abu",
-        "dabi"
-      ],
-      "date": "2026-11-05T14:32:27.215Z"
-    },
-    {
-      "title": "La reacción del Kremlin tras la victoria del Partido Demócrata en las elecciones estadounidenses.",
-      "normalizedTokens": [
-        "reaccion",
-        "kremlin",
-        "victoria",
-        "partido",
-        "democrata",
-        "elecciones",
-        "estadounidenses"
-      ],
-      "date": "2026-11-05T14:32:27.213Z"
     }
   ]
 }
