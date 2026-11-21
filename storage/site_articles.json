@@ -1,5 +1,105 @@
 [
   {
+    "slug": "sismo-magnitud-6-7-sacude-centro-qp9o",
+    "path": "noticias/sismo-magnitud-6-7-sacude-centro-qp9o/",
+    "title": "Un sismo de magnitud 6,7 sacude el centro de Perú sin dejar daños inmediatos",
+    "headline": "SISMO DE MAGNITUD 6,7 SACUDE EL CENTRO DE PERÚ",
+    "dek": "Un movimiento telúrico con epicentro en Junín sacudió la sierra central y la capital peruana, activando los protocolos de emergencia sin reportes oficiales de víctimas.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Europa Press",
+    "image": "img/sismo-magnitud-6-7-sacude-centro-qp9o.jpg",
+    "photo": "img/sismo-magnitud-6-7-sacude-centro-qp9o-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "8Df_gz3O5FM",
+      "title": "Sismo de magnitud 6.7 sacude Perú: Reportan fuerte movimiento en Lima",
+      "channel": "N+ UNIVISION"
+    },
+    "publishedAt": "2026-11-21T10:16:33.339Z",
+    "article": {
+      "slug": "sismo-magnitud-6-7-sacude-centro-qp9o",
+      "title": "Un sismo de magnitud 6,7 sacude el centro de Perú sin dejar daños inmediatos",
+      "dek": "Un movimiento telúrico con epicentro en Junín sacudió la sierra central y la capital peruana, activando los protocolos de emergencia sin reportes oficiales de víctimas.",
+      "keyFacts": [
+        "Magnitud de 6,7 en la escala Richter.",
+        "Epicentro ubicado a 30 kilómetros al noroeste de Junín.",
+        "Profundidad de 129 kilómetros según el Instituto Geofísico de Perú.",
+        "Hora del registro: 19:09 hora local del viernes."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un fuerte terremoto de magnitud 6,7 sacudió la región de Junín, en el centro de Perú, según informó el Centro Sismológico Nacional del Instituto Geofísico de Perú. El movimiento telúrico se registró a las 19:09 hora local, con su epicentro situado a 30 kilómetros al noroeste de Junín y a una profundidad de 129 kilómetros.",
+            "El temblor se percibió con fuerza en Lima, la capital peruana, así como en varios distritos de las provincias de Huancayo, Jauja, Satipo y Tarma, y de manera moderada en diversas jurisdicciones de Lima, de acuerdo con los reportes oficiales."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Tras el sismo, el Centro de Operaciones de Emergencia Nacional (COEN) se coordinó de inmediato con las autoridades competentes para iniciar las labores de evaluación. Por su parte, el Instituto Nacional de Defensa Civil de Perú (INDECI) recomendó a la ciudadanía mantener la calma, ubicarse en zonas seguras y tener lista la mochila para emergencias.",
+            "Asimismo, la Dirección de Hidrografía y Navegación de la Marina de Guerra descartó a través de sus redes sociales la generación de un tsunami en el litoral peruano, dado que el epicentro se ubicó en el interior de la región andina."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "A pesar de que las unidades de primera respuesta y las autoridades locales continúan el monitoreo en zonas vulnerables sin reportar daños hasta el momento, la profundidad del sismo, fijada en 129 kilómetros, funcionó como un amortiguador natural que evitó una catástrofe de mayor proporción en la superficie.",
+            "Sin embargo, la ausencia de reportes inmediatos no garantiza la total normalidad en las comunidades más aisladas de la sierra central, donde la precariedad de las vías de comunicación suele retrasar la llegada de información verídica y la asistencia estatal a los puntos más vulnerables."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En términos operativos, las instituciones estatales y los organismos de defensa civil ganan margen de maniobra al confirmarse la ausencia inicial de daños estructurales masivos. No obstante, las poblaciones rurales de las provincias altoandinas continúan soportando el riesgo estructural latente ante eventos telúricos recurrentes en la falla geológica de la región."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Conviene seguir de cerca los informes de actualización del COEN y del INDECI en las próximas horas para descartar daños en infraestructuras críticas o viviendas de adobe en las zonas rurales de Junín, así como la efectividad de los protocolos de descentralización de ayuda."
+          ]
+        }
+      ],
+      "tags": [
+        "Perú",
+        "Sismo",
+        "Junín",
+        "INDECI",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "Europa Press",
+          "title": "Un terremoto de magnitud 6,7 sacude el centro de Perú, sin daños reportados por el momento",
+          "url": "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html"
+        },
+        {
+          "name": "Super Channel 12",
+          "title": "Sismo de magnitud 6.9 sacude el centro de Perú; descartan tsunami",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR3hfb1Q3Ym85R25XVFRpY2FFQ213UVd5V0c2UG1GNUhGdzVTa2JxVGhKTDQtVEV5Y1dTcmtNSGNhRVJEazQ4aENZcG44a0tET1V1djNNanNrcTh5dEEtbDFCSlpYMWVMNEFvWGplY0NOQmNRbFN6bDJrRldacTFwYWNuUU1LX2RxREw0Z241enlkS3lMdk5KVFh1ZDJmTWx3cEhRLWFIYw?oc=5"
+        },
+        {
+          "name": "Diario Las Américas",
+          "title": "Sismo de 6,7 de magnitud sacude el centro de Perú",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU3pFTzJWeUp4dG1jWTZxQktIZVhHN29rdFgwTUo3NjNHUXhfYjJrbV9aTkt6NUp5RnRvOVB0ZTJWUTdJMDhIeGN2X2VWZzdBaWFxSGc4czN5Um1OZUZEX0FFdnczSEwwYUlkS1NraXhoMHVNRUtETjdpZ1NoWmwtUTBVMHVLTW1iRFhXX0ZqQ01hUHdvalhkLXpOaWdRenJTSW9N0gGjAUFVX3lxTE9TekVPMlZ5Snh0bWNZNnFCS0hlWEc3b2t0WDBNSjc2M0dReF9iMmttX1pOS3o1SnlGdG85UHRlMlZRN0kwOEh4Y3ZfZVZnN0FpYXFIZzhzM3lSbU5lRkRfQUV2dzNITDBhSWRLU2tpeGgwdU1FS0RON2lnU2habC1RMFUwdUtNbWJEWFdfRmpDTWFQd29qWGQtek5pZ1F6clNJb00?oc=5"
+        },
+        {
+          "name": "Facebook",
+          "title": "🇵🇪 #ÚltimaHora | Sismo de magnitud 6.7 sacude el centro de Perú; se siente en Lima y no reportan daños https://mile.io/4zZmV3c",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlR4a3NRZEc0LXNoc1FaVkU1dFJVUHVKcU1Ual9xQXVrcUVwWWVnQ3d1M2NHSmJiTUtOU0hvcXNXQ2JyZ1N2SDlLRE1TVjZBU3pZM3J3aDJHcDdWR1d1MzhLci1INWxYTWRGeHNGYVlQMTBYR3N4b0FwSTZyUVM0ck5TSW9lbTQ3cUtOZmFVcWJKV1NheUt0T0t5NHBiUHhuYkg5YXlvU1p0VUExaFJ4WlpoSE9aVmFPUVB6d3FJYXljM0Z5dVRwRTBzZEhMZE9pYkNFVGE5NEhRR1Y0bFBlQ2dBbE1TWHll?oc=5"
+        },
+        {
+          "name": "Metro Puerto Rico",
+          "title": "Terremoto de magnitud 6.7 sacude el centro de Perú",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVWZmWjB1dHkwMWo2ajZjYWhfS25hYXBCR1gxYmpzb0xkRjBnNGtTMXlOaDVzQ0ZRVnVMcUtNX2t0dl9ocnZZZDhETlp3cXNuY0pCelE3U3dDd2xQM09Td1UyaFp5NXE5YlNLX0J3b0Z4bmpkR0wwQnFyWVRrbzZDWG41RTJqU25OMFV6QzNZbmhEZGxSa2c?oc=5"
+        }
+      ],
+      "wordCount": 404
+    },
+    "blindSpot": "Mientras las agencias informan la ausencia de daños aparentes, la verdadera vulnerabilidad radica en la fragilidad estructural de las zonas andinas periféricas y la lentitud crónica de los protocolos de respuesta descentralizada. La aparente normalidad institucional oculta una brecha persistente en la gestión real de emergencias territoriales."
+  },
+  {
     "slug": "netanyahu-peligroso-eco-1995-retorica-amenaza-j8es",
     "path": "noticias/netanyahu-peligroso-eco-1995-retorica-amenaza-j8es/",
     "title": "Netanyahu y el peligroso eco de 1995: la retórica que amenaza con incendiar Israel",

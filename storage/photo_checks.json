@@ -1518,5 +1518,10 @@
     "relevant": true,
     "reason": "La imagen muestra una protesta en Israel con una pancarta que contrasta la imagen de Yitzhak Rabin con la de Benjamin Netanyahu, vinculando directamente la incitación política actu",
     "at": "2026-11-21T07:01:44.511Z"
+  },
+  "e52fbbd5fea5bf34:46hv7b4hz": {
+    "relevant": true,
+    "reason": "Muestra un sismógrafo registrando ondas telúricas, lo cual ilustra adecuadamente una noticia sobre un sismo.",
+    "at": "2026-11-21T10:16:31.109Z"
   }
 }

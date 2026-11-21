@@ -314,9 +314,35 @@
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtRTZQbGtNWDJiSVFIZnlRWlhFX2lLdjRVWGo4YUN6TWwzenJBWHpTdGFkVWNvd0pCd2Z5R0J3RFo1d0dlX0NKcENrTTBlWjZ6OTgyempWdndPX2FVeUh6M2ZtWktBTEU?oc=5",
     "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909",
     "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss",
-    "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss"
+    "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
+    "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html"
   ],
   "processedSignatures": [
+    {
+      "title": "SISMO DE MAGNITUD 6,7 SACUDE EL CENTRO DE PERÚ",
+      "normalizedTokens": [
+        "sismo",
+        "magnitud",
+        "sacude",
+        "centro",
+        "peru"
+      ],
+      "date": "2026-11-21T10:16:33.533Z"
+    },
+    {
+      "title": "Un terremoto de magnitud 6,7 sacude el centro de Perú, sin daños reportados por el momento",
+      "normalizedTokens": [
+        "terremoto",
+        "magnitud",
+        "sacude",
+        "centro",
+        "peru",
+        "danos",
+        "reportados",
+        "momento"
+      ],
+      "date": "2026-11-21T10:16:33.530Z"
+    },
     {
       "title": "NETANYAHU RECICLA LA INCITACIÓN QUE PRECEDIÓ EL ASESINATO DE RABIN",
       "normalizedTokens": [
@@ -7372,36 +7398,6 @@
         "estadounidenses"
       ],
       "date": "2026-11-05T14:32:27.213Z"
-    },
-    {
-      "title": "MILEI EQUIPA SOCIALISMO Y FASCISMO EN LA CUMBRE IBEROAMERICANA",
-      "normalizedTokens": [
-        "milei",
-        "equipa",
-        "socialismo",
-        "fascismo",
-        "cumbre",
-        "iberoamericana"
-      ],
-      "date": "2026-11-05T13:31:34.551Z"
-    },
-    {
-      "title": "Última hora de la Cumbre Iberoamericana, en directo | Milei homologa el socialismo democrático con el fascismo ante Pedro Sánchez",
-      "normalizedTokens": [
-        "ultima",
-        "hora",
-        "cumbre",
-        "iberoamericana",
-        "directo",
-        "milei",
-        "homologa",
-        "socialismo",
-        "democratico",
-        "fascismo",
-        "pedro",
-        "sanchez"
-      ],
-      "date": "2026-11-05T13:31:34.551Z"
     }
   ]
 }
