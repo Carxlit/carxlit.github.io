@@ -26347,11 +26347,53 @@
       "threads": true,
       "youtube": true
     },
-    "scheduledFor": "2026-11-21T15:04:59.317Z",
+    "scheduledFor": "2026-11-21T15:10:14.081Z",
     "status": "queued",
-    "attempts": 0,
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-21T12:04:03.703Z"
+    "createdAt": "2026-11-21T12:04:03.703Z",
+    "lastAttemptAt": "2026-11-21T15:05:14.550Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122113352679532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "341",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2tesff3mn2k"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18351928348283897",
+        "permalink": "https://www.instagram.com/reel/DgAg4ExgjHP/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117655052766086674"
+      },
+      "threads": {
+        "success": false,
+        "error": "Threads: An unknown error occurred"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "error": "Reintento 1/3: threads: Threads: An unknown error occurred"
   },
   {
     "id": "queue-1795266223450-36naq",
