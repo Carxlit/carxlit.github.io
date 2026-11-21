@@ -325,9 +325,36 @@
     "https://www.infobae.com/mexico/2026/11/21/el-chapo-isidro-enemigo-acerrimo-del-chapo-guzman-que-profano-la-casa-de-su-madre-y-se-alio-con-los-mayos-en-su-contra/",
     "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html",
     "https://www.dw.com/es/drones-rusos-atacan-central-térmica-en-ucrania-dejando-dos-muertos/a-80009319?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.eltiempo.com/mundo/latinoamerica/entregan-primer-balance-de-danos-tras-el-sismo-de-6-7-de-magnitud-en-peru-reportan-15-heridos-cuatro-casas-inhabitables-y-otras-127-afectadas-3603011"
+    "https://www.eltiempo.com/mundo/latinoamerica/entregan-primer-balance-de-danos-tras-el-sismo-de-6-7-de-magnitud-en-peru-reportan-15-heridos-cuatro-casas-inhabitables-y-otras-127-afectadas-3603011",
+    "https://www.abc.es/internacional/captura-capo-buscado-fbi-desata-terror-sinaloa-20261120153639-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "EEUU Y MÉXICO CAPTURAN EN SINALOA AL CHAPO ISIDRO",
+      "normalizedTokens": [
+        "eeuu",
+        "mexico",
+        "capturan",
+        "sinaloa",
+        "chapo",
+        "isidro"
+      ],
+      "date": "2026-11-21T20:05:10.083Z"
+    },
+    {
+      "title": "La captura en México de un narco buscado por el FBI desata la violencia en Sinaloa",
+      "normalizedTokens": [
+        "captura",
+        "mexico",
+        "narco",
+        "buscado",
+        "fbi",
+        "desata",
+        "violencia",
+        "sinaloa"
+      ],
+      "date": "2026-11-21T20:05:10.081Z"
+    },
     {
       "title": "ACTUALIZACIÓN: PRIMER BALANCE EN PERÚ REPORTA QUINCE HERIDOS Y AFECTACIONES",
       "normalizedTokens": [
@@ -7391,36 +7418,6 @@
         "global"
       ],
       "date": "2026-11-06T11:32:38.485Z"
-    },
-    {
-      "title": "OPENAI LANZA GPT-6 CYBER Y DESPLIEGA SU MODELO MÁS CRÍTICO",
-      "normalizedTokens": [
-        "openai",
-        "lanza",
-        "gpt",
-        "cyber",
-        "despliega",
-        "modelo",
-        "mas",
-        "critico"
-      ],
-      "date": "2026-11-06T11:17:31.378Z"
-    },
-    {
-      "title": "En medio de una crisis de ciberseguridad, OpenAI estrena GPT-6 Cyber, su nuevo modelo \"crítico\"",
-      "normalizedTokens": [
-        "medio",
-        "crisis",
-        "ciberseguridad",
-        "openai",
-        "estrena",
-        "gpt",
-        "cyber",
-        "nuevo",
-        "modelo",
-        "critico"
-      ],
-      "date": "2026-11-06T11:17:31.377Z"
     }
   ]
 }
