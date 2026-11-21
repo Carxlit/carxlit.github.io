@@ -313,9 +313,36 @@
     "https://www.abc.es/internacional/misil-ruso-impacta-sureste-polonia-ataque-ucrania-20261120121157-nt.html",
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtRTZQbGtNWDJiSVFIZnlRWlhFX2lLdjRVWGo4YUN6TWwzenJBWHpTdGFkVWNvd0pCd2Z5R0J3RFo1d0dlX0NKcENrTTBlWjZ6OTgyempWdndPX2FVeUh6M2ZtWktBTEU?oc=5",
     "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909",
-    "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "NETANYAHU RECICLA LA INCITACIÓN QUE PRECEDIÓ EL ASESINATO DE RABIN",
+      "normalizedTokens": [
+        "netanyahu",
+        "recicla",
+        "incitacion",
+        "precedio",
+        "asesinato",
+        "rabin"
+      ],
+      "date": "2026-11-21T07:01:48.350Z"
+    },
+    {
+      "title": "Netanyahu is playing with the fire that killed Rabin",
+      "normalizedTokens": [
+        "netanyahu",
+        "playing",
+        "with",
+        "the",
+        "fire",
+        "that",
+        "killed",
+        "rabin"
+      ],
+      "date": "2026-11-21T07:01:48.348Z"
+    },
     {
       "title": "TRES SOLDADOS SALVADOREÑOS MUEREN POR EXPLOSIVOS EN HAITÍ",
       "normalizedTokens": [
@@ -7375,29 +7402,6 @@
         "sanchez"
       ],
       "date": "2026-11-05T13:31:34.551Z"
-    },
-    {
-      "title": "EL KREMLIN DESVINCULA SUS INTERESES EN UCRANIA DE EE.UU.",
-      "normalizedTokens": [
-        "kremlin",
-        "desvincula",
-        "intereses",
-        "ucrania"
-      ],
-      "date": "2026-11-05T12:34:07.010Z"
-    },
-    {
-      "title": "Los intereses de Rusia en Ucrania no dependen de las elecciones en EEUU, dice el Kremlin",
-      "normalizedTokens": [
-        "intereses",
-        "rusia",
-        "ucrania",
-        "dependen",
-        "elecciones",
-        "eeuu",
-        "kremlin"
-      ],
-      "date": "2026-11-05T12:34:07.009Z"
     }
   ]
 }
