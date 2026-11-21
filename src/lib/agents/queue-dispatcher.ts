@@ -44,6 +44,73 @@ const wantsReel = (news: ProcessedNews) => reelsEnabled() && news.sourceVideo?.l
 const igAlwaysReel = () => reelsEnabled() && process.env.IG_AI_REELS !== 'false';
 type Channel = (typeof CHANNELS)[number];
 
+/**
+ * Estrategia de community management para Instagram (aprobada por el dueño el 2026-11-14 tras
+ * auditar @puntociego.glob: 13–20 posts/día con 57% en cero likes y casi sin comentarios;
+ * aplicada a esta redacción el 2026-11-21):
+ *  - Máximo 5 Reels al día (IG_DAILY_CAP) y solo historias con urgencia >= 78 (IG_MIN_URGENCY).
+ *  - Los Reels se concentran en la franja de mayor audiencia: 18:00–21:00 hora de Bogotá.
+ *    Fuera de franja, el Reel se reprograma como ítem solo-Instagram a la próxima apertura;
+ *    la historia sale igual en los demás canales. Si ya se reprogramó una vez (igDeferred),
+ *    se publica cuando venza para no perderla.
+ *  - Las urgencias máximas (isBreaking) no esperan franja ni puntaje.
+ * Solo afecta al canal Instagram; el resto de canales y la web no cambian.
+ */
+const IG_DAILY_CAP = () => Math.max(1, Number(process.env.IG_DAILY_CAP || 5) || 5);
+const IG_MIN_URGENCY = () => Number(process.env.IG_MIN_URGENCY || 78) || 78;
+const IG_WINDOW_START_HOUR = 18; // Bogotá
+const IG_WINDOW_END_HOUR = 21; // Bogotá
+
+function bogotaParts(date: Date): { hour: number; dateKey: string } {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Bogota',
+    hour: 'numeric',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date);
+  const get = (t: string) => parts.find((p) => p.type === t)?.value || '';
+  return { hour: Number(get('hour')) % 24, dateKey: `${get('year')}-${get('month')}-${get('day')}` };
+}
+
+/** Reels de Instagram ya publicados hoy (hora de Bogotá), según la cola persistida */
+function countInstagramPostsToday(): number {
+  const today = bogotaParts(new Date()).dateKey;
+  return getPublicationQueue().filter((q) => {
+    if (!q.results?.instagram?.success) return false;
+    const when = q.publishedAt || q.lastAttemptAt;
+    return when ? bogotaParts(new Date(when)).dateKey === today : false;
+  }).length;
+}
+
+/** Próxima apertura de la franja de Instagram (Bogotá es UTC-5 todo el año: 18:00 = 23:00 UTC) */
+function nextInstagramWindowStart(): Date {
+  const start = new Date();
+  start.setUTCHours(23, 0, 0, 0);
+  if (start.getTime() <= Date.now()) start.setUTCDate(start.getUTCDate() + 1);
+  return start;
+}
+
+type InstagramGate = { action: 'publish' } | { action: 'skip' | 'defer'; reason: string };
+
+function evaluateInstagramGate(item: QueuedPublication): InstagramGate {
+  if (item.isBreaking) return { action: 'publish' };
+  const urgency = item.news.urgencyScore || 0;
+  if (urgency < IG_MIN_URGENCY()) {
+    return { action: 'skip', reason: `Estrategia IG: urgencia ${urgency} menor que ${IG_MIN_URGENCY()}; Instagram solo recibe lo mejor del día` };
+  }
+  if (countInstagramPostsToday() >= IG_DAILY_CAP()) {
+    return { action: 'skip', reason: `Estrategia IG: límite diario de ${IG_DAILY_CAP()} Reels alcanzado` };
+  }
+  const { hour } = bogotaParts(new Date());
+  const inWindow = hour >= IG_WINDOW_START_HOUR && hour < IG_WINDOW_END_HOUR;
+  if (!inWindow && !item.igDeferred) {
+    return { action: 'defer', reason: `Estrategia IG: fuera de la franja 18:00–21:00 (Bogotá); el Reel se reprograma a la franja` };
+  }
+  return { action: 'publish' };
+}
+
 export interface EnqueueOptions {
   forceImmediate?: boolean;
   minJitterMinutes?: number; // Por defecto: 45 minutos
@@ -329,6 +396,32 @@ export async function publishMissingChannels(
 
   for (const ch of effective) {
     if (results[ch]?.success || results[ch]?.skipped) continue;
+    if (ch === 'instagram') {
+      const gate = evaluateInstagramGate(item);
+      if (gate.action !== 'publish') {
+        results[ch] = { success: false, skipped: true, error: gate.reason };
+        item.results = { ...results };
+        console.log(`[QueueDispatcher] ${gate.reason} — "${item.news.headline}"`);
+        if (gate.action === 'defer') {
+          // La historia sigue su curso en los demás canales; el Reel queda encolado
+          // como ítem solo-Instagram para la próxima franja de audiencia.
+          const igOnly: ChannelSelection = {
+            facebook: false, telegram: false, bluesky: false, linkedIn: false,
+            instagram: true, facebookReel: false, mastodon: false, threads: false, youtube: false,
+          };
+          const deferred = enqueuePublication(newsPayload, igOnly, undefined, {
+            scheduledFor: nextInstagramWindowStart(),
+          });
+          const freshQueue = getPublicationQueue();
+          const deferredIdx = freshQueue.findIndex((q) => q.id === deferred.id);
+          if (deferredIdx !== -1) {
+            freshQueue[deferredIdx].igDeferred = true;
+            savePublicationQueue(freshQueue);
+          }
+        }
+        continue;
+      }
+    }
     const res = await publishToChannel(ch, newsPayload, creds, item.attempts >= item.maxAttempts);
     results[ch] = res as any;
     if (res.success) {
