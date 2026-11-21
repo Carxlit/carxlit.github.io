@@ -311,9 +311,42 @@
     "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf",
     "https://www.wired.com/story/best-black-friday-deals-11-20-2026/",
     "https://www.abc.es/internacional/misil-ruso-impacta-sureste-polonia-ataque-ucrania-20261120121157-nt.html",
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtRTZQbGtNWDJiSVFIZnlRWlhFX2lLdjRVWGo4YUN6TWwzenJBWHpTdGFkVWNvd0pCd2Z5R0J3RFo1d0dlX0NKcENrTTBlWjZ6OTgyempWdndPX2FVeUh6M2ZtWktBTEU?oc=5"
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtRTZQbGtNWDJiSVFIZnlRWlhFX2lLdjRVWGo4YUN6TWwzenJBWHpTdGFkVWNvd0pCd2Z5R0J3RFo1d0dlX0NKcENrTTBlWjZ6OTgyempWdndPX2FVeUh6M2ZtWktBTEU?oc=5",
+    "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909"
   ],
   "processedSignatures": [
+    {
+      "title": "SISMO DE MAGNITUD 6,9 EN PERÚ REMECIÓ BOGOTÁ Y LIMA",
+      "normalizedTokens": [
+        "sismo",
+        "magnitud",
+        "peru",
+        "remecio",
+        "bogota",
+        "lima"
+      ],
+      "date": "2026-11-21T05:02:27.428Z"
+    },
+    {
+      "title": "Videos del fuerte temblor de 6,9 en Perú la noche de este 20 de noviembre que se sintió en Bogotá y varias ciudades de Colombia: así se vivió el sismo",
+      "normalizedTokens": [
+        "videos",
+        "fuerte",
+        "temblor",
+        "peru",
+        "noche",
+        "noviembre",
+        "sintio",
+        "bogota",
+        "varias",
+        "ciudades",
+        "colombia",
+        "asi",
+        "vivio",
+        "sismo"
+      ],
+      "date": "2026-11-21T05:02:27.427Z"
+    },
     {
       "title": "LAS NEGOCIACIONES DE LA CUMBRE CLIMÁTICA ENTRAN EN PUNTO MUERTO",
       "normalizedTokens": [
@@ -7365,30 +7398,6 @@
         "viento"
       ],
       "date": "2026-11-05T11:40:48.252Z"
-    },
-    {
-      "title": "EL TUTELAJE FINANCIERO DE IRAK Y EL CONTROL PETROLERO",
-      "normalizedTokens": [
-        "tutelaje",
-        "financiero",
-        "irak",
-        "control",
-        "petrolero"
-      ],
-      "date": "2026-11-05T11:31:55.771Z"
-    },
-    {
-      "title": "José vival: La invasión y el tutelaje de Estados Unidos en Irak",
-      "normalizedTokens": [
-        "jose",
-        "vival",
-        "invasion",
-        "tutelaje",
-        "estados",
-        "unidos",
-        "irak"
-      ],
-      "date": "2026-11-05T11:31:55.770Z"
     }
   ]
 }

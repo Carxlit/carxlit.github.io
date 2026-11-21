@@ -1,5 +1,86 @@
 [
   {
+    "slug": "sismo-magnitud-6-9-peru-expone-m137",
+    "path": "noticias/sismo-magnitud-6-9-peru-expone-m137/",
+    "title": "El sismo de magnitud 6,9 en Perú expone las brechas de prevención sísmica regional",
+    "headline": "SISMO DE MAGNITUD 6,9 EN PERÚ REMECIÓ BOGOTÁ Y LIMA",
+    "dek": "Un fuerte movimiento telúrico con epicentro en Perú repercutió en la capital colombiana la noche del 20 de noviembre de 2026. El evento saca a la luz los desafíos de infraestructura y coordinación informativa en los países andinos.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "El Tiempo",
+    "image": "img/sismo-magnitud-6-9-peru-expone-m137.jpg",
+    "photo": "img/sismo-magnitud-6-9-peru-expone-m137-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "OwvA20BClhg",
+      "title": "Sismo de 6,9 en Perú se sintió hasta en Bogotá",
+      "channel": "Canta Vallenato"
+    },
+    "publishedAt": "2026-11-21T05:02:27.295Z",
+    "article": {
+      "slug": "sismo-magnitud-6-9-peru-expone-m137",
+      "title": "El sismo de magnitud 6,9 en Perú expone las brechas de prevención sísmica regional",
+      "dek": "Un fuerte movimiento telúrico con epicentro en Perú repercutió en la capital colombiana la noche del 20 de noviembre de 2026. El evento saca a la luz los desafíos de infraestructura y coordinación informativa en los países andinos.",
+      "keyFacts": [
+        "Sismo de magnitud 6,9 registrado la noche del 20 de noviembre de 2026 en Perú.",
+        "Afectación e intensidad reportadas en la región de Junín y en la capital, Lima.",
+        "Efectos perceptibles reportados en Bogotá y distintas zonas de Colombia según el Servicio Geológico Colombiano.",
+        "Difusión inicial del evento liderada por reportes de ciudadanos en redes sociales."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un evento telúrico de magnitud 6,9 sacudió el territorio peruano la noche del 20 de noviembre de 2026, registrándose una fuerte intensidad en la región de Junín y en la capital del país, Lima. La magnitud del movimiento telúrico permitió que sus ondas sísmicas se propagaran a lo largo del territorio continental, sintiéndose en diversas zonas de Colombia.",
+            "En Bogotá, ciudadanos y autoridades locales reportaron un movimiento leve percibido en edificaciones de altura. Según el reporte publicado en redes sociales por fuentes oficiales como el Servicio Geológico Colombiano, el evento sísmico generó alarma inmediata, motivando la publicación de videos e impresiones por parte de los residentes de las ciudades afectadas."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La franja andina de América del Sur se encuentra ubicada sobre una de las zonas tectónicas de mayor actividad sísmica del planeta. La interacción entre las placas tectónicas continentales y oceánicas provoca de manera recurrente movimientos de variada magnitud que ponen a prueba la infraestructura civil y los planes de respuesta rápida de los estados de la región.",
+            "Si bien eventos de magnitud 6,9 no son atípicos en la geografía sísmica sudamericana, su percepción simultánea en núcleos urbanos distantes como Lima y Bogotá pone de relieve la vulnerabilidad psicológica e institucional de poblaciones concentradas en grandes metrópolis, donde la densidad poblacional amplifica el impacto de cualquier sacudida."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El verdadero punto ciego de este evento no reside exclusivamente en la fuerza del temblor, sino en la marcada desconexión entre la detección científica y la comunicación directa de riesgo a la ciudadanía. Las primeras noticias y registros visuales del sismo no provinieron de alertas gubernamentales coordinadas, sino de grabaciones informales difundidas en plataformas digitales por usuarios particulares.",
+            "Esta dependencia del reporte ciudadano evidencia que las redes institucionales de prevención sísmica en la región carecen de mecanismos integrados para la emisión inmediata de alertas tempranas transfronterizas. La falta de canales automáticos y unificados de comunicación crítica deja a la población expuesta a la desinformación durante los minutos posteriores a un desastre."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Las comunidades urbanas en zonas de alta vulnerabilidad estructural figuran como las principales afectadas, ante la falta de garantías sobre la resistencia sísmica de la vivienda informal y las deficiencias en los planes de evacuación comunitarios.",
+            "Por otro lado, la relevancia de la fiscalización ciudadana y los servicios de monitoreo geológico independientes se fortalece, presionando a los organismos públicos de emergencia a acelerar la modernización de sus herramientas de comunicación masiva y respuesta operativa."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Resulta indispensable hacer seguimiento a las evaluaciones de infraestructura e informes técnicos que emitan las autoridades de gestión del riesgo tanto en Perú como en Colombia tras la revisión de zonas afectadas. Asimismo, será clave observar si las agendas legislativas de la región priorizan inversiones en redes de monitoreo sísmico en tiempo real y protocolos de alerta temprana estandarizados."
+          ]
+        }
+      ],
+      "tags": [
+        "sismo",
+        "Perú",
+        "Colombia",
+        "prevención de riesgos",
+        "infraestructura urbana"
+      ],
+      "sources": [
+        {
+          "name": "El Tiempo",
+          "title": "Videos del fuerte temblor de 6,9 en Perú la noche de este 20 de noviembre que se sintió en Bogotá y varias ciudades de Colombia: así se vivió el sismo",
+          "url": "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909"
+        }
+      ],
+      "wordCount": 499
+    },
+    "blindSpot": "El fenómeno expone la marcada vulnerabilidad de la infraestructura urbana en los países andinos y la creciente dependencia de redes sociales para la difusión de alertas sísmicas tempranas. Mientras los reportes oficiales se consolidan, queda en evidencia la falta de un sistema transfronterizo de alerta e información en tiempo real para la ciudadanía."
+  },
+  {
     "slug": "callejon-sin-salida-diplomacia-climatica-bloqueo-5p1d",
     "path": "noticias/callejon-sin-salida-diplomacia-climatica-bloqueo-5p1d/",
     "title": "El callejón sin salida de la diplomacia climática y el bloqueo de los combustibles fósiles",
