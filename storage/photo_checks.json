@@ -1568,5 +1568,10 @@
     "relevant": false,
     "reason": "La imagen muestra el logotipo de Fitch Ratings, que es una agencia de calificación crediticia y no el sujeto principal de la noticia sobre el Banco Central de Costa Rica.",
     "at": "2026-11-21T14:04:54.263Z"
+  },
+  "3384c6b53eeead22:ybbmcg72w": {
+    "relevant": true,
+    "reason": "La imagen muestra una casa baleada y destruida en Sinaloa, relacionada con la pugna de grupos criminales mencionada en el contexto.",
+    "at": "2026-11-21T15:33:37.652Z"
   }
 }
