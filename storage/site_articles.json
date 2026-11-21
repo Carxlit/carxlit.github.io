@@ -1,5 +1,107 @@
 [
   {
+    "slug": "tragedia-explosivos-haiti-golpea-primera-vez-5dmt",
+    "path": "noticias/tragedia-explosivos-haiti-golpea-primera-vez-5dmt/",
+    "title": "La tragedia con explosivos en Haití que golpea por primera vez al contingente militar salvadoreño",
+    "headline": "TRES SOLDADOS SALVADOREÑOS MUEREN POR EXPLOSIVOS EN HAITÍ",
+    "dek": "Tres efectivos murieron tras una detonación en un campamento en Puerto Príncipe, marcando un giro trágico en el despliegue ordenado por Nayib Bukele.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "BBC Mundo",
+    "image": "img/tragedia-explosivos-haiti-golpea-primera-vez-5dmt.jpg",
+    "photo": "img/tragedia-explosivos-haiti-golpea-primera-vez-5dmt-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "DYZf2JHJ-4U",
+      "title": "🇸🇻🇭🇹Confirman la MUERTE de 3 militares Salvadoreños en Haiti💔",
+      "channel": "Jhonatan GT"
+    },
+    "publishedAt": "2026-11-21T05:16:28.234Z",
+    "article": {
+      "slug": "tragedia-explosivos-haiti-golpea-primera-vez-5dmt",
+      "title": "La tragedia con explosivos en Haití que golpea por primera vez al contingente militar salvadoreño",
+      "dek": "Tres efectivos murieron tras una detonación en un campamento en Puerto Príncipe, marcando un giro trágico en el despliegue ordenado por Nayib Bukele.",
+      "keyFacts": [
+        "Tres soldados salvadoreños murieron y uno resultó herido en un incidente con explosivos en Haití.",
+        "El despliegue de El Salvador en el país caribeño supera los 2.000 soldados.",
+        "La operación inicial respondió al secuestro de cuatro técnicos de aviación el 18 de octubre.",
+        "El Consejo de Seguridad de la ONU autorizó en septiembre de 2025 una misión de 5.550 integrantes."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Tres soldados salvadoreños murieron y uno más resultó herido como consecuencia de una detonación mientras trabajaban con material explosivo en uno de los campamentos militares en Haití, según informó la Fuerza Armada de El Salvador a través de un comunicado difundido en la red social X.",
+            "En un principio, el Ejército había reportado el fallecimiento de dos efectivos en el lugar de los hechos. Sin embargo, en horas de la noche, la institución confirmó la muerte de un tercer militar que recibía atención médica en un hospital de República Dominicana, país al que había sido trasladado por vía aérea debido a la gravedad de sus heridas. El cuarto soldado implicado se encuentra fuera de peligro, de acuerdo con el reporte oficial."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Este despliegue militar se originó después de que cuatro técnicos de aviación salvadoreños desaparecieran el 18 de octubre tras una emboscada perpetrada por pandillas en Puerto Príncipe. En respuesta, el presidente Nayib Bukele ordenó el envío de un contingente superior a los 2.000 soldados al país caribeño.",
+            "Las fuerzas de seguridad haitianas e internacionales han intensificado su ofensiva en barrios de la capital antes dominados por las bandas, como Martissant, donde la policía local reportó recientemente 34 presuntos criminales mortalmente heridos. La actual misión cuenta con el respaldo del Consejo de Seguridad de la ONU, que autorizó en septiembre de 2025 un cuerpo de 5.550 integrantes para reemplazar a la fuerza multinacional previa liderada por Kenia."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La narrativa oficial ha colocado el foco en el éxito táctico de las operaciones contra las pandillas y en la determinación de rescatar a los técnicos desaparecidos. No obstante, el incidente con explosivos dentro de un propio campamento militar expone un ángulo crítico que los comunicados institucionales soslayan: el manejo de armamento pesado y explosivos en misiones de ultramar sin una infraestructura logística plenamente consolidada.",
+            "La falta de estandarización y los riesgos operativos en teatros de operaciones complejos como el haitiano demuestran que el costo de la intervención no recae únicamente en el combate directo contra las bandas, sino en la vulnerabilidad interna de las propias fuerzas desplegadas."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el tablero político, la administración de Bukele asume un desgaste imprevisto al registrarse las primeras bajas mortales desde el inicio de la misión, un hecho que contrasta con la retórica de control absoluto transmitida desde San Salvador.",
+            "Por otro lado, las bandas armadas de Haití capitalizan cualquier fricción o retraso en la cohesión de las fuerzas internacionales, mientras que la misión respaldada por la ONU observa cómo sus aliados sobre el terreno enfrentan bajas no asociadas estrictamente a enfrentamientos armados, evidenciando la fragilidad estructural de la intervención."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El factor decisivo en el corto plazo será el cumplimiento de la promesa del presidente salvadoreño de retirar a las tropas de territorio haitiano de manera inmediata una vez que se complete el rescate de los técnicos de aviación.",
+            "Asimismo, será clave observar si la Fuerza Armada de El Salvador modifica sus protocolos de manejo de materiales peligrosos en el extranjero o si este incidente provoca una revisión en la magnitud y permanencia del contingente dentro de la misión multinacional autorizada por las Naciones Unidas."
+          ]
+        }
+      ],
+      "tags": [
+        "Haití",
+        "El Salvador",
+        "Nayib Bukele",
+        "Fuerza Armada",
+        "ONU"
+      ],
+      "sources": [
+        {
+          "name": "BBC Mundo",
+          "title": "Tres soldados salvadoreños mueren en un incidente con explosivos en Haití",
+          "url": "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Yahoo",
+          "title": "Muere en Haití un tercer militar salvadoreño herido en explosión",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTHN2aWlFcTJTMDdLd3JZT2U5aUE5NFNQWklQRDFYRzVfRVJlWEFuWWdKdlRudk5aMUVWaUlNSEsyRmczOWxTM3p1Z25IUHBPczhnbUNGcUpOUnBGYy1oWWEtNWJWYTVCcFVLYW1rMnN4bDRoOUM5bWxvaGpneUdKYXp2MmpsWFJQeTkwNzQya2xucVExMW1ldS1mVUQ?oc=5"
+        },
+        {
+          "name": "BBC",
+          "title": "Dos soldados salvadoreños mueren en un incidente con explosivos en Haití",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrbXlxNXFENVg4eW94LVA0a19tQmRuYTEyM1VqblhrQXB6MTNrU1RsX3dCUklNOTh4MjBTSW9hOS1WTWROU1VJQVpxWnRfYzEyY2lKaDdoWVNlem5L0gFiQVVfeXFMT1Nidzd1QURFU2U4UXI5N0JvRG9NS213NXZPaVhpa1ZBTkxrT1NBY2hHX0s5blVPZFBXRmhpVG9DOU4wdDJrcjBURFB4RmcwQWM3R1llMlZScnVpWElHQWc4anc?oc=5"
+        },
+        {
+          "name": "CNN en Español",
+          "title": "Mueren tres soldados salvadoreños en Haití por una detonación de explosivos, dice la Fuerza Armada de El Salvador",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRlpEU0N3RFJLWXBocFRvSjlNckpzSGhLWTBET2RiZHk0TXMtU01IRS1KZ0dLRUJLSFdjaVh5UWNZRzdiUmtKbTN0UTVUQWQyUVBldUVtTmVKSHhCS2dFcE9Vb2FLalJiQV9nRTAzVG13T2pRaER4XzZZSWFnUUdaeEJaaExpQTltNl9xcUJMR19oeFJrOEs1VnpjbVFEcEVRaDdiZA?oc=5"
+        },
+        {
+          "name": "Yahoo",
+          "title": "Muere uno de los dos soldados salvadoreños heridos al manipular explosivo en Haití",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSlowQ0hDMG5JRmxjczB6UVJSLUxmQlRQSlJRYllneVVidUJwSUpodFpKblE3NWFaRWxfUDduUU9keU01Um5IZ2t5aFhpWnluR2l5Z2VJd1BGMVdZY0ZxR29Jbm81RE5oQXF1cTZTeDFRcU5ieWktU3pyQm84azdKb09rbVFwS3dsbXhVWnBfa0tsN21TODEtX0I3TDRsbEk?oc=5"
+        }
+      ],
+      "wordCount": 541
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el enfrentamiento directo con las pandillas y el rescate de los técnicos de aviación, el verdadero riesgo estructural radica en la gestión improvisada de material bélico pesado en misiones internacionales sin la debida interoperabilidad logística con la ONU."
+  },
+  {
     "slug": "sismo-magnitud-6-9-peru-expone-m137",
     "path": "noticias/sismo-magnitud-6-9-peru-expone-m137/",
     "title": "El sismo de magnitud 6,9 en Perú expone las brechas de prevención sísmica regional",

@@ -312,9 +312,35 @@
     "https://www.wired.com/story/best-black-friday-deals-11-20-2026/",
     "https://www.abc.es/internacional/misil-ruso-impacta-sureste-polonia-ataque-ucrania-20261120121157-nt.html",
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtRTZQbGtNWDJiSVFIZnlRWlhFX2lLdjRVWGo4YUN6TWwzenJBWHpTdGFkVWNvd0pCd2Z5R0J3RFo1d0dlX0NKcENrTTBlWjZ6OTgyempWdndPX2FVeUh6M2ZtWktBTEU?oc=5",
-    "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909"
+    "https://www.eltiempo.com/mundo/latinoamerica/videos-del-fuerte-temblor-de-6-9-en-peru-la-noche-de-este-20-de-noviembre-que-se-sintio-en-bogota-y-varias-ciudades-de-colombia-asi-se-vivio-el-sismo-3602909",
+    "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "TRES SOLDADOS SALVADOREÑOS MUEREN POR EXPLOSIVOS EN HAITÍ",
+      "normalizedTokens": [
+        "tres",
+        "soldados",
+        "salvadorenos",
+        "mueren",
+        "explosivos",
+        "haiti"
+      ],
+      "date": "2026-11-21T05:16:28.411Z"
+    },
+    {
+      "title": "Tres soldados salvadoreños mueren en un incidente con explosivos en Haití",
+      "normalizedTokens": [
+        "tres",
+        "soldados",
+        "salvadorenos",
+        "mueren",
+        "incidente",
+        "explosivos",
+        "haiti"
+      ],
+      "date": "2026-11-21T05:16:28.408Z"
+    },
     {
       "title": "SISMO DE MAGNITUD 6,9 EN PERÚ REMECIÓ BOGOTÁ Y LIMA",
       "normalizedTokens": [
@@ -7372,32 +7398,6 @@
         "kremlin"
       ],
       "date": "2026-11-05T12:34:07.009Z"
-    },
-    {
-      "title": "ESTRÉS METEOROLÓGICO Y RIESGO LOGÍSTICO EN EL CARIBE COLOMBIANO",
-      "normalizedTokens": [
-        "estres",
-        "meteorologico",
-        "riesgo",
-        "logistico",
-        "caribe",
-        "colombiano"
-      ],
-      "date": "2026-11-05T11:40:48.252Z"
-    },
-    {
-      "title": "Pronóstico del clima en Cartagena de Indias este 5 de noviembre: temperatura, lluvias y viento",
-      "normalizedTokens": [
-        "pronostico",
-        "clima",
-        "cartagena",
-        "indias",
-        "noviembre",
-        "temperatura",
-        "lluvias",
-        "viento"
-      ],
-      "date": "2026-11-05T11:40:48.252Z"
     }
   ]
 }
