@@ -317,9 +317,29 @@
     "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
     "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVlsWWxkZkwyOHVaMVRvYnhrU0JfZjYtTkJicVF6M3dGVzBRcGEzSWxZWm5wTG9EcC1DZENhYzk1cERObmpZZUIwSEdrbU5QYW8yeG9TRU1PY093SlI5WnozRkkzMnpRVzcwZDQyLTk2SzA5SGh3SmdpN2E5XzBhRktZVDh3WVpUYnpZZFVmWWRIXzZkZWJlQ0Q4N1N3VENhQVE?oc=5",
-    "https://elpais.com/economia/vivienda/2026-11-21/la-crisis-de-la-vivienda-golpea-mas-fuerte-a-los-inmigrantes-sonamos-con-lo-minimo.html"
+    "https://elpais.com/economia/vivienda/2026-11-21/la-crisis-de-la-vivienda-golpea-mas-fuerte-a-los-inmigrantes-sonamos-con-lo-minimo.html",
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01cVNxSzZ1ZmJqM3h0azQ0LWlCZ3dzeWJzMkFSS2dzcXRtYTU2ZlB6X3BnY0dUUWJ1ay1ZUnl0VGxhM2VJYWZkMlJyT3lHR0t3NkVJWlQ2WG83MnloNHR0UGR4ZklyQ21v?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "EL KREMLIN ENDURECE LA REPRESIÓN ANTE EL RIESGO SOCIAL",
+      "normalizedTokens": [
+        "kremlin",
+        "endurece",
+        "represion",
+        "riesgo",
+        "social"
+      ],
+      "date": "2026-11-21T11:34:44.888Z"
+    },
+    {
+      "title": "El miedo del Kremlin",
+      "normalizedTokens": [
+        "miedo",
+        "kremlin"
+      ],
+      "date": "2026-11-21T11:34:44.887Z"
+    },
     {
       "title": "EXCLUSIÓN RESIDENCIAL DE EXTRACOMUNITARIOS DESMONTA EL DISCURSO POLÍTICO DOMINANTE",
       "normalizedTokens": [
@@ -7378,34 +7398,6 @@
         "resultados"
       ],
       "date": "2026-11-05T18:56:55.258Z"
-    },
-    {
-      "title": "EL JUICIO POLÍTICO A SANTIAGO PEÑA TRAS SU RENUNCIA",
-      "normalizedTokens": [
-        "juicio",
-        "politico",
-        "santiago",
-        "pena",
-        "renuncia"
-      ],
-      "date": "2026-11-05T17:52:45.112Z"
-    },
-    {
-      "title": "Diputados de Paraguay votan por unanimidad el juicio político a Santiago Peña pese a su renuncia como presidente",
-      "normalizedTokens": [
-        "diputados",
-        "paraguay",
-        "votan",
-        "unanimidad",
-        "juicio",
-        "politico",
-        "santiago",
-        "pena",
-        "pese",
-        "renuncia",
-        "presidente"
-      ],
-      "date": "2026-11-05T17:52:45.112Z"
     }
   ]
 }

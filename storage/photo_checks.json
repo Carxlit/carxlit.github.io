@@ -1533,5 +1533,15 @@
     "relevant": true,
     "reason": "El retrato de un joven extracomunitario ilustra adecuadamente el colectivo afectado por la exclusión residencial que aborda la noticia.",
     "at": "2026-11-21T11:17:30.319Z"
+  },
+  "07e117a8419f4b57:y58hnla16": {
+    "relevant": false,
+    "reason": "Es un logotipo y gráfico genérico de un programa de noticias que no muestra directamente el sujeto principal del titular.",
+    "at": "2026-11-21T11:34:30.557Z"
+  },
+  "208c91c5db44f23c:y58hnla16": {
+    "relevant": false,
+    "reason": "La imagen muestra un fotomontaje ficticio de Vladimir Putin, Xi Jinping y Donald Trump frente a banderas de distintos países, lo cual no corresponde a una fotografía real ni ilustr",
+    "at": "2026-11-21T11:34:40.034Z"
   }
 }
