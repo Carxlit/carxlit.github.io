@@ -326,9 +326,37 @@
     "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html",
     "https://www.dw.com/es/drones-rusos-atacan-central-térmica-en-ucrania-dejando-dos-muertos/a-80009319?maca=spa-rss-sp-all-1122-rdf",
     "https://www.eltiempo.com/mundo/latinoamerica/entregan-primer-balance-de-danos-tras-el-sismo-de-6-7-de-magnitud-en-peru-reportan-15-heridos-cuatro-casas-inhabitables-y-otras-127-afectadas-3603011",
-    "https://www.abc.es/internacional/captura-capo-buscado-fbi-desata-terror-sinaloa-20261120153639-nt.html"
+    "https://www.abc.es/internacional/captura-capo-buscado-fbi-desata-terror-sinaloa-20261120153639-nt.html",
+    "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981"
   ],
   "processedSignatures": [
+    {
+      "title": "DRONES ATACAN BUQUE RUSO SPARTA II EN EL BÁLTICO",
+      "normalizedTokens": [
+        "drones",
+        "atacan",
+        "buque",
+        "ruso",
+        "sparta",
+        "baltico"
+      ],
+      "date": "2026-11-21T21:47:39.150Z"
+    },
+    {
+      "title": "Russian cargo ship hit by drones in Baltic, Finland tightens security",
+      "normalizedTokens": [
+        "russian",
+        "cargo",
+        "ship",
+        "hit",
+        "drones",
+        "baltic",
+        "finland",
+        "tightens",
+        "security"
+      ],
+      "date": "2026-11-21T21:47:39.148Z"
+    },
     {
       "title": "EEUU Y MÉXICO CAPTURAN EN SINALOA AL CHAPO ISIDRO",
       "normalizedTokens": [
@@ -7389,35 +7417,6 @@
         "bass"
       ],
       "date": "2026-11-06T11:46:59.599Z"
-    },
-    {
-      "title": "LA DEUDA EXTERNA EN AMÉRICA LATINA ALCANZA NIVELES RÉCORD",
-      "normalizedTokens": [
-        "deuda",
-        "externa",
-        "america",
-        "latina",
-        "alcanza",
-        "niveles",
-        "record"
-      ],
-      "date": "2026-11-06T11:32:38.486Z"
-    },
-    {
-      "title": "Los países de América Latina donde más aumentó la deuda externa en medio de un récord global",
-      "normalizedTokens": [
-        "paises",
-        "america",
-        "latina",
-        "mas",
-        "aumento",
-        "deuda",
-        "externa",
-        "medio",
-        "record",
-        "global"
-      ],
-      "date": "2026-11-06T11:32:38.485Z"
     }
   ]
 }
