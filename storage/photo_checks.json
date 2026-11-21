@@ -1543,5 +1543,10 @@
     "relevant": false,
     "reason": "La imagen muestra un fotomontaje ficticio de Vladimir Putin, Xi Jinping y Donald Trump frente a banderas de distintos países, lo cual no corresponde a una fotografía real ni ilustr",
     "at": "2026-11-21T11:34:40.034Z"
+  },
+  "3e6de0a1d4872441:juj9bcpnm": {
+    "relevant": true,
+    "reason": "La imagen muestra el rostro de Fausto Isidro Meza Flores, el sujeto mencionado en el titular y resumen de la noticia.",
+    "at": "2026-11-21T12:04:00.626Z"
   }
 }

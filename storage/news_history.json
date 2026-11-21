@@ -318,9 +318,38 @@
     "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html",
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVlsWWxkZkwyOHVaMVRvYnhrU0JfZjYtTkJicVF6M3dGVzBRcGEzSWxZWm5wTG9EcC1DZENhYzk1cERObmpZZUIwSEdrbU5QYW8yeG9TRU1PY093SlI5WnozRkkzMnpRVzcwZDQyLTk2SzA5SGh3SmdpN2E5XzBhRktZVDh3WVpUYnpZZFVmWWRIXzZkZWJlQ0Q4N1N3VENhQVE?oc=5",
     "https://elpais.com/economia/vivienda/2026-11-21/la-crisis-de-la-vivienda-golpea-mas-fuerte-a-los-inmigrantes-sonamos-con-lo-minimo.html",
-    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01cVNxSzZ1ZmJqM3h0azQ0LWlCZ3dzeWJzMkFSS2dzcXRtYTU2ZlB6X3BnY0dUUWJ1ay1ZUnl0VGxhM2VJYWZkMlJyT3lHR0t3NkVJWlQ2WG83MnloNHR0UGR4ZklyQ21v?oc=5"
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01cVNxSzZ1ZmJqM3h0azQ0LWlCZ3dzeWJzMkFSS2dzcXRtYTU2ZlB6X3BnY0dUUWJ1ay1ZUnl0VGxhM2VJYWZkMlJyT3lHR0t3NkVJWlQ2WG83MnloNHR0UGR4ZklyQ21v?oc=5",
+    "https://elpais.com/mexico/2026-11-21/el-chapo-isidro-senor-de-la-guerra-en-sinaloa-uno-de-los-objetivos-mas-buscados-por-estados-unidos.html"
   ],
   "processedSignatures": [
+    {
+      "title": "LA CAPTURA DEL CHAPO ISIDRO SACUDE EL NOROESTE MEXICANO",
+      "normalizedTokens": [
+        "captura",
+        "chapo",
+        "isidro",
+        "sacude",
+        "noroeste",
+        "mexicano"
+      ],
+      "date": "2026-11-21T12:04:03.726Z"
+    },
+    {
+      "title": "El ‘Chapo Isidro’, señor de la guerra en Sinaloa, uno de los objetivos más buscados por Estados Unidos",
+      "normalizedTokens": [
+        "chapo",
+        "isidro",
+        "senor",
+        "guerra",
+        "sinaloa",
+        "objetivos",
+        "mas",
+        "buscados",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-21T12:04:03.721Z"
+    },
     {
       "title": "EL KREMLIN ENDURECE LA REPRESIÓN ANTE EL RIESGO SOCIAL",
       "normalizedTokens": [
@@ -7371,33 +7400,6 @@
         "ucrania"
       ],
       "date": "2026-11-05T20:42:48.305Z"
-    },
-    {
-      "title": "HUELGA GENERAL DEL 11N: LA TRAMPA DE LEER PROTESTAS COMO URNAS",
-      "normalizedTokens": [
-        "huelga",
-        "general",
-        "11n",
-        "trampa",
-        "leer",
-        "protestas",
-        "urnas"
-      ],
-      "date": "2026-11-05T18:56:55.259Z"
-    },
-    {
-      "title": "Huelga general del 11N: preámbulo de las elecciones generales, pero no predictor de sus resultados",
-      "normalizedTokens": [
-        "huelga",
-        "general",
-        "11n",
-        "preambulo",
-        "elecciones",
-        "generales",
-        "predictor",
-        "resultados"
-      ],
-      "date": "2026-11-05T18:56:55.258Z"
     }
   ]
 }
