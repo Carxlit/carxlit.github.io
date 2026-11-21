@@ -319,9 +319,31 @@
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVlsWWxkZkwyOHVaMVRvYnhrU0JfZjYtTkJicVF6M3dGVzBRcGEzSWxZWm5wTG9EcC1DZENhYzk1cERObmpZZUIwSEdrbU5QYW8yeG9TRU1PY093SlI5WnozRkkzMnpRVzcwZDQyLTk2SzA5SGh3SmdpN2E5XzBhRktZVDh3WVpUYnpZZFVmWWRIXzZkZWJlQ0Q4N1N3VENhQVE?oc=5",
     "https://elpais.com/economia/vivienda/2026-11-21/la-crisis-de-la-vivienda-golpea-mas-fuerte-a-los-inmigrantes-sonamos-con-lo-minimo.html",
     "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01cVNxSzZ1ZmJqM3h0azQ0LWlCZ3dzeWJzMkFSS2dzcXRtYTU2ZlB6X3BnY0dUUWJ1ay1ZUnl0VGxhM2VJYWZkMlJyT3lHR0t3NkVJWlQ2WG83MnloNHR0UGR4ZklyQ21v?oc=5",
-    "https://elpais.com/mexico/2026-11-21/el-chapo-isidro-senor-de-la-guerra-en-sinaloa-uno-de-los-objetivos-mas-buscados-por-estados-unidos.html"
+    "https://elpais.com/mexico/2026-11-21/el-chapo-isidro-senor-de-la-guerra-en-sinaloa-uno-de-los-objetivos-mas-buscados-por-estados-unidos.html",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1Rocm04Ym05RnFOU1RYYnpURDBNRVZCMjN1YjR1bDQ1Zlk0ZzlsMjBEcS1hV1ZrV25laG9DV1ZqWWx0OVJ2R0Jmb3JtU1ZINFZFRlMwUHl4WFhWZHNraTdDaGEyRlpXbXVkMlBDcmVrZ0tXMGNfMXR2YWtjOUtWSDBSSDg0bmpWbFJ0ODhjSU10YlNHV3FyY0JUakw3TzdIOFE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "PAX SILICA DIVIDE A CENTROAMÉRICA EN GOBERNANZA DE IA",
+      "normalizedTokens": [
+        "pax",
+        "silica",
+        "divide",
+        "centroamerica",
+        "gobernanza"
+      ],
+      "date": "2026-11-21T13:03:43.464Z"
+    },
+    {
+      "title": "La inteligencia artificial y el multilateralismo posible",
+      "normalizedTokens": [
+        "inteligencia",
+        "artificial",
+        "multilateralismo",
+        "posible"
+      ],
+      "date": "2026-11-21T13:03:43.463Z"
+    },
     {
       "title": "LA CAPTURA DEL CHAPO ISIDRO SACUDE EL NOROESTE MEXICANO",
       "normalizedTokens": [
@@ -7375,31 +7397,6 @@
         "hora"
       ],
       "date": "2026-11-05T22:11:16.615Z"
-    },
-    {
-      "title": "EEUU Y ALIADOS NEGOCIAN GARANTÍAS DE SEGURIDAD PARA UCRANIA",
-      "normalizedTokens": [
-        "eeuu",
-        "aliados",
-        "negocian",
-        "garantias",
-        "seguridad",
-        "ucrania"
-      ],
-      "date": "2026-11-05T20:42:48.306Z"
-    },
-    {
-      "title": "EEUU y aliados OTAN abordan garantías seguridad de Ucrania",
-      "normalizedTokens": [
-        "eeuu",
-        "aliados",
-        "otan",
-        "abordan",
-        "garantias",
-        "seguridad",
-        "ucrania"
-      ],
-      "date": "2026-11-05T20:42:48.305Z"
     }
   ]
 }

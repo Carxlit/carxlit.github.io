@@ -1,5 +1,101 @@
 [
   {
+    "slug": "disputa-inteligencia-artificial-fragmenta-diplomacia-centroamerica-tiqh",
+    "path": "noticias/disputa-inteligencia-artificial-fragmenta-diplomacia-centroamerica-tiqh/",
+    "title": "La disputa por la inteligencia artificial fragmenta la diplomacia en Centroamérica",
+    "headline": "PAX SILICA DIVIDE A CENTROAMÉRICA EN GOBERNANZA DE IA",
+    "dek": "La iniciativa estadounidense Pax Silica y la plataforma de Shanghái aceleran la división de la gobernanza tecnológica. Mientras la ONU aboga por reglas universales, tres países del istmo se alinean con Washington.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Forbes Centroamérica",
+    "image": "img/disputa-inteligencia-artificial-fragmenta-diplomacia-centroamerica-tiqh.jpg",
+    "photo": "img/disputa-inteligencia-artificial-fragmenta-diplomacia-centroamerica-tiqh-foto.jpg",
+    "publishedAt": "2026-11-21T13:03:43.319Z",
+    "article": {
+      "slug": "disputa-inteligencia-artificial-fragmenta-diplomacia-centroamerica-tiqh",
+      "title": "La disputa por la inteligencia artificial fragmenta la diplomacia en Centroamérica",
+      "dek": "La iniciativa estadounidense Pax Silica y la plataforma de Shanghái aceleran la división de la gobernanza tecnológica. Mientras la ONU aboga por reglas universales, tres países del istmo se alinean con Washington.",
+      "keyFacts": [
+        "Costa Rica, Panamá y El Salvador se incorporaron a la iniciativa tecnológica estadounidense Pax Silica.",
+        "António Guterres reclamó en la Asamblea General de la ONU un marco multilateral con supervisión independiente para la IA.",
+        "Dario Amodei, CEO de Anthropic, propuso desacelerar el avance de modelos de frontera mediante coordinación internacional.",
+        "En 1967, los países latinoamericanos firmaron en Ciudad de México el Tratado de Tlatelolco para prohibir armas nucleares."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó Forbes Centroamérica, la Asamblea General de las Naciones Unidas en Nueva York fue el escenario donde el Secretario General António Guterres reiteró la urgencia de establecer un marco multilateral para gestionar los riesgos de la inteligencia artificial. Guterres solicitó la creación de mecanismos de supervisión creíbles e independientes antes de que el avance imprevisto de los modelos de frontera genere desequilibrios irreversibles.",
+            "La advertencia coincide con la posición de Dario Amodei, CEO del laboratorio Anthropic. Amodei ha propuesto desacelerar el ritmo de actualización de los modelos más potentes, sugiriendo un esquema de coordinación gradual que comience a nivel corporativo, continúe entre países democráticos y finalmente incluya a China. No obstante, la dinámica geopolítica muestra que las principales potencias prefieren construir bloques de cooperación exclusivos antes que someterse a regulaciones globales."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La competencia por el dominio de la inteligencia artificial ha impulsado la creación de plataformas diplomáticas divergentes. Washington lidera la iniciativa Pax Silica, enfocada en la protección de semiconductores, la infraestructura tecnológica y el desarrollo de la IA. De manera paralela, China promovió en Shanghái una plataforma propia orientada a consolidar su influencia tecnológica en mercados emergentes.",
+            "En el plano centroamericano, la respuesta ha carecido de consenso regional. Costa Rica, Panamá y El Salvador decidieron adherirse a la iniciativa estadounidense Pax Silica, mientras que el resto de las naciones de la zona ha optado por no participar. Esta dispersión quiebra la posibilidad de acordar una posición común en materia de gobernanza digital."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El punto ciego de la discusión pública sobre la IA radica en asumir que la regulación global se decidirá en organismos multilaterales tradicionales. La realidad operativa demuestra que el debate está escindido en tres capas independientes: la regulación de uso en empleo, salud o educación, que seguirá en manos de cada Estado; el ritmo de innovación de los modelos de frontera, supeditado exclusivamente al puñado de naciones que controlan la producción de microchips; y la contención de riesgos globales, como el desarrollo de armas biológicas.",
+            "Al negociar acuerdos de infraestructura por separado, los países de menor escala tecnológica pierden capacidad de influir sobre los estándares que regirán su propio futuro digital. En 1967, la firma del Tratado de Tlatelolco en Ciudad de México demostró que América Latina podía fijar límites estratégicos globales sobre la tecnología nuclear sin necesidad de dominar su fabricación. La fragmentación centroamericana actual distorsiona ese antecedente de negociación colectiva."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El gobierno de Estados Unidos fortalece su presencia estratégica en tres puntos geográficos clave del istmo, conteniendo la penetración de la infraestructura digital china en la región. Las corporaciones multinacionales de hardware y los laboratorios de frontera conservan la potestad de determinar los ritmos de desarrollo y los estándares de seguridad.",
+            "En contraparte, el proceso de integración regional en Centroamérica sufre un nuevo retroceso al generarse disparidades en normativas de datos y conectividad. Los países que operan únicamente como consumidores de tecnología terminan asumiendo reglas diseñadas en función de los intereses de las potencias dominantes."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá dar seguimiento a las inversiones directas en infraestructura de datos y semiconductores que Washington concrete en Costa Rica, Panamá y El Salvador bajo la sombrilla de Pax Silica. En el ámbito multilateral, el indicador clave será la capacidad del panel científico independiente de la ONU para establecer protocolos de seguridad mínimos ante riesgos biológicos entre Washington y Pekín."
+          ]
+        }
+      ],
+      "tags": [
+        "Inteligencia Artificial",
+        "Geopolítica",
+        "Pax Silica",
+        "Centroamérica",
+        "Estados Unidos",
+        "China"
+      ],
+      "sources": [
+        {
+          "name": "Forbes Centroamérica",
+          "title": "La inteligencia artificial y el multilateralismo posible",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1Rocm04Ym05RnFOU1RYYnpURDBNRVZCMjN1YjR1bDQ1Zlk0ZzlsMjBEcS1hV1ZrV25laG9DV1ZqWWx0OVJ2R0Jmb3JtU1ZINFZFRlMwUHl4WFhWZHNraTdDaGEyRlpXbXVkMlBDcmVrZ0tXMGNfMXR2YWtjOUtWSDBSSDg0bmpWbFJ0ODhjSU10YlNHV3FyY0JUakw3TzdIOFE?oc=5"
+        },
+        {
+          "name": "SEGIB: Secretaría General Iberoamericana",
+          "title": "Andrés Allamand: “Comunidad iberoamericana: zona de convergencia”",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUlFwRFJrUWRieC02Q0JqQUV2alN2SlpIbVRwOGJrVHZZWGs4eThmWXliRDR4UzlFeEJSUUxxelVyQTR6dGhYMXJVeU82Q0ROVzdEaEJpQmVybVVBbk1oQktYbGQxWHZoVzRMMFVyTUlra0VZX0dJZ2RrZU80WUkyRlozTUJhSDR5QUp3?oc=5"
+        },
+        {
+          "name": "teleSUR",
+          "title": "China: Académico chino resalta cumbre APEC en Shenzhen para impulsar multilateralismo y cooperación",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Pamt0UU92YzBJTnpTeDlpSUhfbXFIOHQ5WW96QVNld2Zwbm5CaXE0MnQ0eHowX3Q4Qmo5amVWNF9hYzRjckZmenFSZElvUjc1NGM3UnlpWk5qRnFZdGZ5YjBxZUx5THo4dzJMakpWSEl3M3l5SVBXbVJn?oc=5"
+        },
+        {
+          "name": "Investing.com España",
+          "title": "Xi destaca el apoyo de China al \"multilateralismo\" antes de su reunión con Trump",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYWRQUWdBR1h2b2p2bU8zVF9XWE9kNkxoN0FUY0J4RDBnbVBOclNuYVI4TVVLalVZeTdCS0NQQk9fUTltQmpwbkc1V2RoN25Kd283cVA5WWR5aDJEa1A1S0E5cGRsTF9NUUpoYkowdEQ3RUc1WVBXUFljTXlwMXJpSXBSSllwanc1YjN3bHZYVjVWVlJoWmtLQy1CcUp6TnNEd0todXoyTE1Bd01uNkVHWVpEZTg5ampYRXRoNWZHNEZWOFUwTFE?oc=5"
+        },
+        {
+          "name": "naiz:",
+          "title": "Reglas comunes para un orden justo y multilateral",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYmUtNmM0ZnRIUVh1OVJIaTVvTHVVeGRsckN3cHp0VmFGUlNQVzFLdUJtU1MxWEhHRmVjS2l1VF9NRjRiVm1US2Qya3ZxRWdTbWZVOWJZbWd0YjY2Y2VPZWU2OWxXWWtBVll2M01JajZDbk1XWlBLZEtPQ0JLOGRibld3RmJDMnh2OXF6WnFSS0ExY0h4Q3c?oc=5"
+        }
+      ],
+      "wordCount": 582
+    },
+    "blindSpot": "Mientras el discurso diplomático insiste en una gobernanza multilateral inclusiva bajo la ONU, el control real del hardware y la infraestructura está fragmentando el mapa en bloques cerrados. Al adherirse de forma individual a la arquitectura de Washington, los países centroamericanos pierden capacidad de negociación en conjunto y quedan relegados a ser receptores pasivos de estándares normativos sobre modelos de frontera."
+  },
+  {
     "slug": "fragilidad-interna-kremlin-ante-crisis-suministros-0t4m",
     "path": "noticias/fragilidad-interna-kremlin-ante-crisis-suministros-0t4m/",
     "title": "La fragilidad interna del Kremlin ante la crisis de suministros",
