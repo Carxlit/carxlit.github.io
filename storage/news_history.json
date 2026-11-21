@@ -316,9 +316,37 @@
     "https://www.bbc.com/mundo/articles/cmvg212k7lyko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
     "https://www.europapress.es/internacional/noticia-terremoto-magnitud-67-sacude-centro-peru-danos-reportados-momento-20261121033125.html",
-    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVlsWWxkZkwyOHVaMVRvYnhrU0JfZjYtTkJicVF6M3dGVzBRcGEzSWxZWm5wTG9EcC1DZENhYzk1cERObmpZZUIwSEdrbU5QYW8yeG9TRU1PY093SlI5WnozRkkzMnpRVzcwZDQyLTk2SzA5SGh3SmdpN2E5XzBhRktZVDh3WVpUYnpZZFVmWWRIXzZkZWJlQ0Q4N1N3VENhQVE?oc=5"
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVlsWWxkZkwyOHVaMVRvYnhrU0JfZjYtTkJicVF6M3dGVzBRcGEzSWxZWm5wTG9EcC1DZENhYzk1cERObmpZZUIwSEdrbU5QYW8yeG9TRU1PY093SlI5WnozRkkzMnpRVzcwZDQyLTk2SzA5SGh3SmdpN2E5XzBhRktZVDh3WVpUYnpZZFVmWWRIXzZkZWJlQ0Q4N1N3VENhQVE?oc=5",
+    "https://elpais.com/economia/vivienda/2026-11-21/la-crisis-de-la-vivienda-golpea-mas-fuerte-a-los-inmigrantes-sonamos-con-lo-minimo.html"
   ],
   "processedSignatures": [
+    {
+      "title": "EXCLUSIÓN RESIDENCIAL DE EXTRACOMUNITARIOS DESMONTA EL DISCURSO POLÍTICO DOMINANTE",
+      "normalizedTokens": [
+        "exclusion",
+        "residencial",
+        "extracomunitarios",
+        "desmonta",
+        "discurso",
+        "politico",
+        "dominante"
+      ],
+      "date": "2026-11-21T11:17:36.991Z"
+    },
+    {
+      "title": "La crisis de la vivienda golpea más fuerte a los inmigrantes: “Soñamos con lo mínimo”",
+      "normalizedTokens": [
+        "crisis",
+        "vivienda",
+        "golpea",
+        "mas",
+        "fuerte",
+        "inmigrantes",
+        "sonamos",
+        "minimo"
+      ],
+      "date": "2026-11-21T11:17:36.977Z"
+    },
     {
       "title": "LA ONU PROLONGA NEGOCIACIONES SOBRE LA REGULACIÓN DE ARMAS AUTÓNOMAS",
       "normalizedTokens": [
@@ -7378,28 +7406,6 @@
         "presidente"
       ],
       "date": "2026-11-05T17:52:45.112Z"
-    },
-    {
-      "title": "EL COSTE OCULTO DE LA INFRAESTRUCTURA DE IA",
-      "normalizedTokens": [
-        "coste",
-        "oculto",
-        "infraestructura"
-      ],
-      "date": "2026-11-05T16:34:32.411Z"
-    },
-    {
-      "title": "The hidden supply chain costs of the AI boom",
-      "normalizedTokens": [
-        "the",
-        "hidden",
-        "supply",
-        "chain",
-        "costs",
-        "the",
-        "boom"
-      ],
-      "date": "2026-11-05T16:34:32.410Z"
     }
   ]
 }
