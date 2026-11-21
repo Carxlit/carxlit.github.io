@@ -1,5 +1,103 @@
 [
   {
+    "slug": "balance-sismo-peru-evidencia-fallas-prevencion-1d17",
+    "path": "noticias/balance-sismo-peru-evidencia-fallas-prevencion-1d17/",
+    "title": "Balance del sismo en Perú evidencia fallas en la prevención de riesgos",
+    "headline": "ACTUALIZACIÓN: PRIMER BALANCE EN PERÚ REPORTA QUINCE HERIDOS Y AFECTACIONES",
+    "dek": "El informe preliminar de Indeci reporta 15 heridos y 127 viviendas afectadas tras el temblor de magnitud 6,7. El evento expone la histórica vulnerabilidad habitacional en el interior del país.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "El Tiempo",
+    "image": "img/balance-sismo-peru-evidencia-fallas-prevencion-1d17.jpg",
+    "photo": "img/balance-sismo-peru-evidencia-fallas-prevencion-1d17-foto.jpg",
+    "publishedAt": "2026-11-21T18:31:29.153Z",
+    "article": {
+      "slug": "balance-sismo-peru-evidencia-fallas-prevencion-1d17",
+      "title": "Balance del sismo en Perú evidencia fallas en la prevención de riesgos",
+      "dek": "El informe preliminar de Indeci reporta 15 heridos y 127 viviendas afectadas tras el temblor de magnitud 6,7. El evento expone la histórica vulnerabilidad habitacional en el interior del país.",
+      "keyFacts": [
+        "El sismo registró una magnitud de 6,7 con epicentro en la región de Junín.",
+        "El Instituto Nacional de Defensa Civil (Indeci) confirmó 15 personas heridas.",
+        "Se contabilizan 4 viviendas totalmente inhabitables y 127 estructuras afectadas.",
+        "Las autoridades descartaron la alerta de tsunami por haberse originado en tierra firme."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Instituto Nacional de Defensa Civil de Perú (Indeci) emitió el primer balance consolidado sobre los impactos provocados por el sismo de magnitud 6,7 registrado en la región andina de Junín. Según el informe oficial entregado por las autoridades de atención de emergencias, hasta el momento se registran 15 personas con lesiones corporales que vienen siendo atendidas en centros de salud locales.",
+            "El reporte técnico detalló además el saldo material del movimiento telúrico: cuatro viviendas han quedado completamente inhabitables debido a fallas en sus estructuras de soporte, mientras que otras 127 propiedades registran daños parciales en muros, techos y mampostería. Las autoridades confirmaron que el evento sísmico no generó alerta de tsunami en el litoral peruano al haber tenido un origen estrictamente continental."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El temblor, que fue percibido con fuerza en la capital peruana, Lima, y en diversas zonas del centro del país, ocurre en una de las zonas sísmicas más activas de la región sudamericana. No obstante, las consecuencias directas registradas en Junín responden a patrones recurrentes observados en emergencias pasadas.",
+            "La fragilidad de los materiales de edificación y la autoconstrucción informal sin supervisión técnica continúan caracterizando a gran parte de los asentamientos urbanos y rurales fuera de la franja costera. A pesar de las advertencias continuas de los organismos sísmicos oficiales, el ritmo de adecuación estructural y reforzamiento preventivo en las provincias del interior sigue siendo marcadamente inferior al requerimiento real de la geografía andina."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El ángulo omitido en la narrativa del evento sísmico es la brecha institucional en la aplicación de las normativas de edificación sismorresistente. Mientras que el debate mediático suele centrarse en la magnitud del fenómeno o en la ausencia de tsunami, la verdadera amenaza reside en el déficit acumulado de fiscalización municipal sobre la calidad del suelo y la ingeniería de construcción.",
+            "La recurrencia de viviendas dañadas e inhabitables ante movimientos telúricos de magnitud moderada revela que las partidas presupuestales de prevención se diluyen en la burocracia sin traducirse en intervenciones efectivas de reforzamiento habitacional. El problema central no radica únicamente en la fuerza de la naturaleza, sino en la permisividad regulatoria que perpetúa la vulnerabilidad de la población de menores recursos."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los damnificados directos y las comunidades vulnerables de Junín asumen el costo más severo de la emergencia, enfrentando la pérdida de su patrimonio habitacional y la interrupción de sus actividades económicas en un contexto de escaso aseguramiento privado.",
+            "Por su parte, las entidades de socorro y los gobiernos subnacionales quedan expuestos a presiones políticas inmediatas para la asignación de recursos de reconstrucción. El aparato gubernamental se ve forzado a desviar fondos operativos de desarrollo para atender gastos de socorro asistencial, perpetuando un círculo vicioso de gasto reactivo en lugar de inversión estructural preventivo."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos días será determinante monitorear la celeridad en la entrega de módulos temporales de vivienda y la efectividad de la ayuda humanitaria administrada por Indeci en las zonas afectadas.",
+            "Asimismo, será clave observar si el Congreso peruano y el Ejecutivo disponen modificaciones presupuestales prioritarias para el Plan Nacional de Gestión del Riesgo de Desastres, evaluando si existen compromisos reales para auditar la seguridad estructural de los inmuebles públicos y residenciales en las regiones andinas."
+          ]
+        }
+      ],
+      "tags": [
+        "Perú",
+        "Sismo",
+        "Indeci",
+        "Junín",
+        "Gestión de Riesgos",
+        "Infraestructura"
+      ],
+      "sources": [
+        {
+          "name": "El Tiempo",
+          "title": "Entregan primer balance de daños tras el sismo de magnitud 6,7 en Perú: reportan 15 heridos, cuatro casas inhabitables y otras 127 afectadas",
+          "url": "https://www.eltiempo.com/mundo/latinoamerica/entregan-primer-balance-de-danos-tras-el-sismo-de-6-7-de-magnitud-en-peru-reportan-15-heridos-cuatro-casas-inhabitables-y-otras-127-afectadas-3603011"
+        },
+        {
+          "name": "Gestión",
+          "title": "Indeci realiza primer balance del sismo de 6.7 en Junín: ¿cuáles fueron los daños?",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVVBfNWpUemcyRnplUk5kYzhkcFlhdDk1VXBlekZQcUpPNHdpaFdTakxLTXlTalNkXzZLY1JqeGNubF9uZTczUzVCQUxZVExjQkx2elRiWFJhUXNDNHIzRmJOdXFfRkNtdFU1TjNDMlYwTU9QTllmb3ltaHkzZE1VRkNOZnc3Ykh6NmloN0VBME41blB5YnhfWHlOUE5iUmFEUVRveHp0VklPOG9uVFNjUQ?oc=5"
+        },
+        {
+          "name": "Gestión",
+          "title": "Midis designa a Walter Efraín Borja viceministro de Prestaciones Sociales: su hoja de vida",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ0phTmd0aUVWc19BM05pUGJnUnJIUk5McGtDYXFFOEhEQ2xta0N2WEpEQktfdTJqbEZVRXcxS3NLelEwWDdrV2JPXzk2Mmg3UGVoMDNWTkhNMVdOVkVQbnN1NWJlU29pSnZaTmkwZnk2WG1OY2doQ0xQb1JUTWFSU21uV2VTVjdXMDBNQjY3ZEtsWDR6cnRIRGJHc1dwWUJETnBhakhRckh5Mmo1aWpfZGlRYTI5dkxJTzNtTHlQaw?oc=5"
+        },
+        {
+          "name": "Gestión",
+          "title": "Ejecutivo proyecta construir penal de más de 2,500 hectáreas en Sayán con vigilancia militar",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRS01N18weFd2d29yclI5MnRhc0c3VFltb3VuLTc0RDUxNFZ2cDVMMC1tcGd2Z01mbkk0UnR2YXFvVmNYQ2ZzSGVhQTRrOXlTVXg2cnFLaHJXQlY4WmJXY0ozV0Q0RDQxOUpXUXFLOFRGWUdxeWljel9PeDZSSHBLelF4NUpVMDlzeHFuZUJCbXdOZEU4WGZsYlpMVHRRRzhLQkpxRlRvY3hKRUh2bHVsb1M5a18yUTFwM2Q0eW9XSS0xQQ?oc=5"
+        },
+        {
+          "name": "Pulzo",
+          "title": "Nuevo temblor en Colombia sacudió la madrugada de este sábado; epicentro fue en zona de volcán",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLWkxTlJzX0V0YTFFa1BqdWxoVkZjWEc1T2dEaV85MDdDeFJpSlNPb29zc0xPM051MDI0eE94TWV5bW90RkhMU1VqNWEzOXlhZGtIcnNueFFOdS1CUllyX3hXMlF5NzZtUV8wOWFaT1V2QU9OYVh1dlZVaUNKems2bXBCVzZTTEtCSDJnUWtXV0JVc2NnMFNHQ3ZkR1RNQjjSAaQBQVVfeXFMT1F6ZnUycmlxakUzQ2lCZXpIQlNtcGpBdzA4Nk5YZ0tzcDFfd3pXWXN1SnJHcFJzUmY3dlpyS1lMdS12VjdMTFFMV3c5cndCUHdSNFhsdVJ5emoyLWdjRXFzUXBJb1k3UTVuLTR0dkxhcXRyX1p1QW14YXNtZHF6MkFONm1Fa0pDbmJBVnpZVFJOb1FtS2J6NTNPMnBsbXNqclctV2w?oc=5"
+        }
+      ],
+      "wordCount": 557
+    },
+    "blindSpot": "Mientras la atención oficial se centra en la ausencia de tsunami por tratarse de un epicentro en tierra firme, la evaluación sismológica pone al descubierto la precariedad de la infraestructura rural y urbana en el centro del país. La falta de fiscalización en estándares constructivos y el retraso en la asignación presupuestal para la prevención sísmica convierten eventos moderados en emergencias sociales recurrentes.",
+    "updateOf": "sismo-magnitud-6-9-peru-expone-m137"
+  },
+  {
     "slug": "ataques-rusos-contra-infraestructura-energetica-ucrania-na88",
     "path": "noticias/ataques-rusos-contra-infraestructura-energetica-ucrania-na88/",
     "title": "Ataques rusos contra infraestructura energética en Ucrania dejan dos muertos y evidencian la estrategia de desgaste industrial",
@@ -1082,7 +1180,8 @@
       "wordCount": 499
     },
     "blindSpot": "El fenómeno expone la marcada vulnerabilidad de la infraestructura urbana en los países andinos y la creciente dependencia de redes sociales para la difusión de alertas sísmicas tempranas. Mientras los reportes oficiales se consolidan, queda en evidencia la falta de un sistema transfronterizo de alerta e información en tiempo real para la ciudadanía.",
-    "reelUrl": "https://www.instagram.com/reel/Df_b_mFmPRf/"
+    "reelUrl": "https://www.instagram.com/reel/Df_b_mFmPRf/",
+    "updatedBy": "balance-sismo-peru-evidencia-fallas-prevencion-1d17"
   },
   {
     "slug": "callejon-sin-salida-diplomacia-climatica-bloqueo-5p1d",

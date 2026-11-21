@@ -324,9 +324,45 @@
     "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSGJraDM0OTN4NC0wNFF4V0NpVURGdzN1VlZ4cnpfN096ZkI2UkVuam1PT2ZNMzR1Xy1qTzd1a2kzaEZ5ZEh3SWRoX19BalNKdjJWREE4b0xqLTB2RUJsR0ZqaW5xbW9tRUgzYXZoY0pvc1AyT0NFMDJIOUZnZXVyT2IwS2hSN21aNVRvUURJUlF1VGpuWDY4NUNUZkNBMzE3aC1qM24xSEEwbklWbFJQWWQxZE9makVEVVU1TWdkNDdXcGMyTGxHVHk0Wi1mTERtLVBjZ19oa2ROMm1iVFhwbDlTU0F4cGpDNVZZ0gGGAkFVX3lxTFBKRmppMVYta3MwYUpad054WTltVG9VSzZ4c0FsSTJzOUctdWl1RHp4dDd6SkRHY1dPSV9VemJERFhaNWo1Y09kMjd2a3ptcHZ2a0xqcE43NGoyTC04N1hGMlhTd1dacDBfWEJiNm96THNIekcycVpJakJ2aHpLSnMxaUd4TDJCYTVfQkI0R3Z1c3A3X3l5ak1aZnVOM1BTcDB3eDNCRG05U21UZm83cVlMMTc5cVU3QnlZakFsM0xjdDJSYmx1UXAxcDJOZDV5U3hjNW51dFVlSkNjRXFad0pUd190RVJHMkd1T2h4UmVQM0N0QkRKZnN1d21GQXNFeHBlaXRONHc?oc=5",
     "https://www.infobae.com/mexico/2026/11/21/el-chapo-isidro-enemigo-acerrimo-del-chapo-guzman-que-profano-la-casa-de-su-madre-y-se-alio-con-los-mayos-en-su-contra/",
     "https://www.abc.es/internacional/investigan-cibertataque-base-datos-criminales-fbi-20261121080221-nt.html",
-    "https://www.dw.com/es/drones-rusos-atacan-central-térmica-en-ucrania-dejando-dos-muertos/a-80009319?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/drones-rusos-atacan-central-térmica-en-ucrania-dejando-dos-muertos/a-80009319?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.eltiempo.com/mundo/latinoamerica/entregan-primer-balance-de-danos-tras-el-sismo-de-6-7-de-magnitud-en-peru-reportan-15-heridos-cuatro-casas-inhabitables-y-otras-127-afectadas-3603011"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: PRIMER BALANCE EN PERÚ REPORTA QUINCE HERIDOS Y AFECTACIONES",
+      "normalizedTokens": [
+        "actualizacion",
+        "primer",
+        "balance",
+        "peru",
+        "reporta",
+        "quince",
+        "heridos",
+        "afectaciones"
+      ],
+      "date": "2026-11-21T18:31:29.377Z"
+    },
+    {
+      "title": "Entregan primer balance de daños tras el sismo de magnitud 6,7 en Perú: reportan 15 heridos, cuatro casas inhabitables y otras 127 afectadas",
+      "normalizedTokens": [
+        "entregan",
+        "primer",
+        "balance",
+        "danos",
+        "sismo",
+        "magnitud",
+        "peru",
+        "reportan",
+        "heridos",
+        "cuatro",
+        "casas",
+        "inhabitables",
+        "otras",
+        "127",
+        "afectadas"
+      ],
+      "date": "2026-11-21T18:31:29.374Z"
+    },
     {
       "title": "DRONES RUSOS IMPACTAN INFRAESTRUCTURA ENERGÉTICA Y DEJAN DOS MUERTOS EN UCRANIA",
       "normalizedTokens": [
@@ -7385,32 +7421,6 @@
         "critico"
       ],
       "date": "2026-11-06T11:17:31.377Z"
-    },
-    {
-      "title": "ASCIENDE A CINCUENTA EL BALANCE TRAS ATAQUE RUSO",
-      "normalizedTokens": [
-        "asciende",
-        "cincuenta",
-        "balance",
-        "ataque",
-        "ruso"
-      ],
-      "date": "2026-11-06T11:01:28.730Z"
-    },
-    {
-      "title": "Death toll rises to 50 in Russian attack on aid distribution ‌point in Ukraine",
-      "normalizedTokens": [
-        "death",
-        "toll",
-        "rises",
-        "russian",
-        "attack",
-        "aid",
-        "distribution",
-        "point",
-        "ukraine"
-      ],
-      "date": "2026-11-06T11:01:28.730Z"
     }
   ]
 }
