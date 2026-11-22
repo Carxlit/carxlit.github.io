@@ -328,9 +328,35 @@
     "https://www.eltiempo.com/mundo/latinoamerica/entregan-primer-balance-de-danos-tras-el-sismo-de-6-7-de-magnitud-en-peru-reportan-15-heridos-cuatro-casas-inhabitables-y-otras-127-afectadas-3603011",
     "https://www.abc.es/internacional/captura-capo-buscado-fbi-desata-terror-sinaloa-20261120153639-nt.html",
     "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981",
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWxJdV9nNWE3T29kcXphNGYycDVHTlR1bmYxLV9UNDJ3ODkzWEx1bEczdTlORVJCQlpNQ0pGQV9OWjFrMFcwN2puSDhKdjZLWDViWmtOaEtpR0NuSGFoUWM4c1ViNDg0MlZNNjJyLUphTlU2SHVzMTJpM2d0dUdyc1J0bUVZdVhsZTQtc05R?oc=5"
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWxJdV9nNWE3T29kcXphNGYycDVHTlR1bmYxLV9UNDJ3ODkzWEx1bEczdTlORVJCQlpNQ0pGQV9OWjFrMFcwN2puSDhKdjZLWDViWmtOaEtpR0NuSGFoUWM4c1ViNDg0MlZNNjJyLUphTlU2SHVzMTJpM2d0dUdyc1J0bUVZdVhsZTQtc05R?oc=5",
+    "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street"
   ],
   "processedSignatures": [
+    {
+      "title": "MISILES RUSOS GOLPEAN LVIV EN OFENSIVA MASIVA",
+      "normalizedTokens": [
+        "misiles",
+        "rusos",
+        "golpean",
+        "lviv",
+        "ofensiva",
+        "masiva"
+      ],
+      "date": "2026-11-22T06:01:49.568Z"
+    },
+    {
+      "title": "Ukraine: Dashcam captures massive explosion on Lviv street",
+      "normalizedTokens": [
+        "ukraine",
+        "dashcam",
+        "captures",
+        "massive",
+        "explosion",
+        "lviv",
+        "street"
+      ],
+      "date": "2026-11-22T06:01:49.563Z"
+    },
     {
       "title": "LA OTAN REFUERZA SU COMPROMISO EN POLONIA TRAS INCURSIÓN RUSA",
       "normalizedTokens": [
@@ -7388,36 +7414,6 @@
         "patronales"
       ],
       "date": "2026-11-06T14:42:07.784Z"
-    },
-    {
-      "title": "MÁXIMO VENEGAS ASUME EL MANDO DEL ESTADO MAYOR CONJUNTO CHILENO",
-      "normalizedTokens": [
-        "maximo",
-        "venegas",
-        "asume",
-        "mando",
-        "estado",
-        "mayor",
-        "conjunto",
-        "chileno"
-      ],
-      "date": "2026-11-06T13:06:52.424Z"
-    },
-    {
-      "title": "El general de Aviaci�n M�ximo Venegas asumi� como jefe del Estado Mayor Conjunto de Chile",
-      "normalizedTokens": [
-        "general",
-        "aviaci",
-        "ximo",
-        "venegas",
-        "asumi",
-        "jefe",
-        "estado",
-        "mayor",
-        "conjunto",
-        "chile"
-      ],
-      "date": "2026-11-06T13:06:52.424Z"
     }
   ]
 }

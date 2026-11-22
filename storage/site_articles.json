@@ -1,5 +1,85 @@
 [
   {
+    "slug": "ofensiva-rusa-sobre-lviv-expone-vulnerabilidad-ebq1",
+    "path": "noticias/ofensiva-rusa-sobre-lviv-expone-vulnerabilidad-ebq1/",
+    "title": "La ofensiva rusa sobre Lviv expone la vulnerabilidad logística en el oeste de Ucrania",
+    "headline": "MISILES RUSOS GOLPEAN LVIV EN OFENSIVA MASIVA",
+    "dek": "Un bombardeo masivo con más de 400 drones y 110 misiles golpeó Lviv y otras regiones, dejando dos muertos y daños severos en infraestructura crítica.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Euronews",
+    "image": "img/ofensiva-rusa-sobre-lviv-expone-vulnerabilidad-ebq1.jpg",
+    "photo": "img/ofensiva-rusa-sobre-lviv-expone-vulnerabilidad-ebq1-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "Zm2YO-abUlE",
+      "title": "Dashcam captures strike in Ukraine",
+      "channel": "Channel 4 News"
+    },
+    "publishedAt": "2026-11-22T06:01:49.445Z",
+    "article": {
+      "slug": "ofensiva-rusa-sobre-lviv-expone-vulnerabilidad-ebq1",
+      "title": "La ofensiva rusa sobre Lviv expone la vulnerabilidad logística en el oeste de Ucrania",
+      "dek": "Un bombardeo masivo con más de 400 drones y 110 misiles golpeó Lviv y otras regiones, dejando dos muertos y daños severos en infraestructura crítica.",
+      "keyFacts": [
+        "El ataque ocurrió el viernes 20 de noviembre en Lviv.",
+        "Dos personas murieron y al menos 10 resultaron heridas en el distrito de Zaliznychnyi.",
+        "El presidente ucraniano Volodymyr Zelenskyy reportó más de 400 drones de ataque y más de 110 misiles lanzados, incluyendo 27 balísticos.",
+        "La infraestructura afectada incluyó bloques residenciales, garajes, un dormitorio, un almacén, infraestructura energética y una terminal de boletos en la estación de tren de Sknyliv."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Una serie de ataques rusos con misiles y drones sacudió la ciudad occidental de Lviv, registrando un impacto directo en un edificio que fue captado por la cámara de un vehículo en movimiento. El proyectil provocó una fuerte explosión y dispersó escombros en la vía pública, obligando al conductor a retroceder de emergencia.",
+            "Según la información proporcionada por las autoridades ucranianas, el bombardeo en el distrito de Zaliznychnyi dejó un saldo de dos muertos y al menos diez heridos, además de provocar incendios en bloques residenciales y garajes de la zona."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El alcance de la ofensiva no se limitó al tejido urbano de Lviv. La destrucción se extendió a complejos de viviendas, vehículos, un dormitorio, un almacén e infraestructura energética crítica. Incluso una terminal de boletos en la estación ferroviaria de Sknyliv sufrió daños considerables.",
+            "Fuera de los límites urbanos, en el distrito de Zolochiv, los escombros de un dron derribado dañaron tres viviendas y un vehículo, dejando a otra persona herida. El presidente ucraniano Volodymyr Zelenskyy señaló que el ataque general involucró más de 400 drones de ataque y más de 110 misiles, entre los cuales se contaron 27 misiles balísticos que impactaron también en Kyiv y otras zonas del país."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras la cobertura internacional prioriza el impacto emocional y visual de los ataques en ciudades occidentales tradicionalmente percibidas como retaguardias seguras, el verdadero trasfondo estratégico reside en la capacidad rusa para saturar simultáneamente múltiples ejes de defensa antiaérea.",
+            "El uso masivo de vectores busca forzar a Ucrania a dispersar sus escasos sistemas defensivos para proteger a la población civil y las redes de transporte, desprotegiendo los nodos logísticos y energéticos indispensables para el esfuerzo bélico a largo plazo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, Moscú demuestra que la profundidad territorial ucraniana ya no representa un santuario seguro, incrementando el coste psicológico y material para la población civil. Por su parte, Ucrania asume un coste devastador en su infraestructura crítica y se enfrenta al dilema de reasignar recursos de defensa aérea escasos entre las líneas del frente y las grandes ciudades del oeste."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la evolución de las reservas de interceptores antiaéreos de Ucrania y la capacidad de reparación de su red energética ante la continuidad de estas campañas de saturación a gran escala por parte de las fuerzas rusas."
+          ]
+        }
+      ],
+      "tags": [
+        "Geopolítica",
+        "Ucrania",
+        "Defensa",
+        "Misiles",
+        "Energía"
+      ],
+      "sources": [
+        {
+          "name": "Euronews",
+          "title": "Ukraine: Dashcam captures massive explosion on Lviv street",
+          "url": "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street"
+        }
+      ],
+      "wordCount": 405
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el impacto visual en Lviv, el verdadero objetivo estratégico radica en desgastar la red energética occidental y saturar las defensas antiaéreas en zonas previamente consideradas secundarias."
+  },
+  {
     "slug": "incursiones-aereas-polonia-ponen-prueba-verdadera-6a2o",
     "path": "noticias/incursiones-aereas-polonia-ponen-prueba-verdadera-6a2o/",
     "title": "Las incursiones aéreas en Polonia ponen a prueba la verdadera disuasión de la OTAN",
