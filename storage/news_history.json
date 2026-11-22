@@ -334,9 +334,38 @@
     "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
     "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
     "https://www.eltiempo.com/mundo/latinoamerica/reportan-nuevo-temblor-de-magnitud-5-0-en-peru-este-domingo-22-de-noviembre-profundidad-epicentro-y-detalles-del-sismo-3603125",
-    "https://www.abc.es/internacional/viaje-reactores-fukushima-20261122015321-nt.html"
+    "https://www.abc.es/internacional/viaje-reactores-fukushima-20261122015321-nt.html",
+    "https://www.xataka.com/magnet/hace-100-anos-explorador-gallego-se-convirtio-autoproclamado-rey-jibaros-alfonso-i-amazonia-1"
   ],
   "processedSignatures": [
+    {
+      "title": "EL GOBIERNO INFORMAL EN LA AMAZONIA Y EL MERCADO DEL CAUCHO",
+      "normalizedTokens": [
+        "gobierno",
+        "informal",
+        "amazonia",
+        "mercado",
+        "caucho"
+      ],
+      "date": "2026-11-22T23:04:19.851Z"
+    },
+    {
+      "title": "Hace 100 años, un explorador gallego se convirtió en el autoproclamado rey de los jíbaros: Alfonso I de la Amazonia",
+      "normalizedTokens": [
+        "hace",
+        "100",
+        "anos",
+        "explorador",
+        "gallego",
+        "convirtio",
+        "autoproclamado",
+        "rey",
+        "jibaros",
+        "alfonso",
+        "amazonia"
+      ],
+      "date": "2026-11-22T23:04:19.848Z"
+    },
     {
       "title": "FUKUSHIMA ENFRANTA EL RETO PACÍFICO DEL DESMANTELAMIENTO NUCLEAR",
       "normalizedTokens": [
@@ -7385,36 +7414,6 @@
         "staff"
       ],
       "date": "2026-11-06T23:05:58.587Z"
-    },
-    {
-      "title": "TOYOTA CREA TOYOTA ROBOTICS PARA DOMINAR LA AUTOMATIZACIÓN INDUSTRIAL",
-      "normalizedTokens": [
-        "toyota",
-        "crea",
-        "toyota",
-        "robotics",
-        "dominar",
-        "automatizacion",
-        "industrial"
-      ],
-      "date": "2026-11-06T21:25:42.879Z"
-    },
-    {
-      "title": "Toyota quiere ir más allá de los coches. La respuesta a su próxima gran apuesta está en sus propias fábricas",
-      "normalizedTokens": [
-        "toyota",
-        "quiere",
-        "mas",
-        "alla",
-        "coches",
-        "respuesta",
-        "proxima",
-        "gran",
-        "apuesta",
-        "propias",
-        "fabricas"
-      ],
-      "date": "2026-11-06T21:25:42.878Z"
     }
   ]
 }
