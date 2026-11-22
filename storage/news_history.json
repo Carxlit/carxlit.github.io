@@ -333,9 +333,31 @@
     "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
     "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
     "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
-    "https://www.eltiempo.com/mundo/latinoamerica/reportan-nuevo-temblor-de-magnitud-5-0-en-peru-este-domingo-22-de-noviembre-profundidad-epicentro-y-detalles-del-sismo-3603125"
+    "https://www.eltiempo.com/mundo/latinoamerica/reportan-nuevo-temblor-de-magnitud-5-0-en-peru-este-domingo-22-de-noviembre-profundidad-epicentro-y-detalles-del-sismo-3603125",
+    "https://www.abc.es/internacional/viaje-reactores-fukushima-20261122015321-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "FUKUSHIMA ENFRANTA EL RETO PACÍFICO DEL DESMANTELAMIENTO NUCLEAR",
+      "normalizedTokens": [
+        "fukushima",
+        "enfranta",
+        "reto",
+        "pacifico",
+        "desmantelamiento",
+        "nuclear"
+      ],
+      "date": "2026-11-22T11:32:45.346Z"
+    },
+    {
+      "title": "Viaje a los reactores de Fukushima",
+      "normalizedTokens": [
+        "viaje",
+        "reactores",
+        "fukushima"
+      ],
+      "date": "2026-11-22T11:32:45.343Z"
+    },
     {
       "title": "NUEVO SISMO DE MAGNITUD 5,0 SACUDE EL CENTRO DE PERÚ",
       "normalizedTokens": [
@@ -7393,41 +7415,6 @@
         "fabricas"
       ],
       "date": "2026-11-06T21:25:42.878Z"
-    },
-    {
-      "title": "LEÓN XIV INICIA GIRA SUDAMERICANA TRAS SUPERAR CIRUGÍA PULMONAR",
-      "normalizedTokens": [
-        "leon",
-        "xiv",
-        "inicia",
-        "gira",
-        "sudamericana",
-        "superar",
-        "cirugia",
-        "pulmonar"
-      ],
-      "date": "2026-11-06T20:01:42.748Z"
-    },
-    {
-      "title": "La visita del Papa León XIV en Uruguay, en vivo | El Papa aterriza en Montevideo, su primera escala de la gira por Uruguay, Argentina y Perú",
-      "normalizedTokens": [
-        "visita",
-        "papa",
-        "leon",
-        "xiv",
-        "uruguay",
-        "vivo",
-        "papa",
-        "aterriza",
-        "montevideo",
-        "primera",
-        "escala",
-        "gira",
-        "uruguay",
-        "argentina",
-        "peru"
-      ],
-      "date": "2026-11-06T20:01:42.748Z"
     }
   ]
 }

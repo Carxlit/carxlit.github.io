@@ -1,5 +1,90 @@
 [
   {
+    "slug": "vertedero-atomico-fukushima-grieta-silenciosa-pacifico-qnjp",
+    "path": "noticias/vertedero-atomico-fukushima-grieta-silenciosa-pacifico-qnjp/",
+    "title": "El vertedero atómico de Fukushima y la grieta silenciosa del Pacífico",
+    "headline": "FUKUSHIMA ENFRANTA EL RETO PACÍFICO DEL DESMANTELAMIENTO NUCLEAR",
+    "dek": "El lento desmantelamiento de la central nipona evidencia los límites de la ingeniería radiológica. Detrás del discurso de contención se oculta un severo pasivo geopolítico e industrial.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "ABC Internacional",
+    "image": "img/vertedero-atomico-fukushima-grieta-silenciosa-pacifico-qnjp.jpg",
+    "photo": "img/vertedero-atomico-fukushima-grieta-silenciosa-pacifico-qnjp-foto.jpg",
+    "publishedAt": "2026-11-22T11:32:45.131Z",
+    "article": {
+      "slug": "vertedero-atomico-fukushima-grieta-silenciosa-pacifico-qnjp",
+      "title": "El vertedero atómico de Fukushima y la grieta silenciosa del Pacífico",
+      "dek": "El lento desmantelamiento de la central nipona evidencia los límites de la ingeniería radiológica. Detrás del discurso de contención se oculta un severo pasivo geopolítico e industrial.",
+      "keyFacts": [
+        "Terremoto de magnitud 9 y olas de 17 metros inundaron la central nuclear el 11 de marzo de 2011.",
+        "El desastre causó aproximadamente 20.000 muertos a nivel nacional y forzó la evacuación de 160.000 residentes en un radio de 30 km.",
+        "Cuatro reactores sufrieron daños severos y los núcleos de los reactores 1, 2 y 3 sufrieron fusiones parciales tras perder refrigeración.",
+        "Periodistas de ABC Internacional ingresaron por tercera vez a las instalaciones tras sus coberturas en 2015 y 2017."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según informaciones del medio ABC Internacional tras acceder nuevamente al recinto de la central de Fukushima Daiichi, grupos de operarios protegidos con trajes aislantes, máscaras y dosímetros prosiguen con los trabajos de descontaminación en zonas con elevados niveles de radiación adyacentes al reactor número 2. La crisis comenzó el 11 de marzo de 2011, cuando un terremoto de magnitud 9 desencadenó olas de hasta 17 metros en la central que inutilizaron los sistemas eléctricos de refrigeración en cuatro de sus seis reactores.",
+            "La consecuente evaporación del agua de refrigeración provocó que el circonio de las barras de combustible reaccionara con el vapor a altas temperaturas, generando hidrógeno e intensas explosiones. Los reactores 1, 2 y 3 sufrieron la fusión de sus núcleos y graves averías en sus vasijas de contención, liberando radiactividad al entorno y derivando en la peor catástrofe atómica desde el accidente de Chernóbil en 1986."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El desastre natural dejó cerca de 20.000 víctimas mortales en Japón y provocó la evacuación de 160.000 vecinos en un radio de 30 kilómetros alrededor de la planta. Desde entonces, la prioridad operativa se ha centrado en bombear agua de manera ininterrumpida para refrigerar las masas de fuel atómico derretido, un proceso que genera volúmenes masivos de residuos líquidos que deben ser almacenados y depurados.",
+            "Las observaciones directas en el recinto corroboran que, a pesar del despliegue continuado de maquinaria y personal, el monitoreo con contadores Geiger confirma que la amenaza radiactiva permanece latente a cada paso dentro del complejo."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de Punto Ciego revela que el enfoque mediático centrado en el avance del desmantelamiento oculta una profunda brecha geopolítica. La gestión y disposición del agua depurada utilizada en el enfriamiento de los núcleos no es un mero asunto logístico local, sino una fuente constante de fricción diplomática con las naciones vecinas del Pacífico que recelan del impacto ecológico marítimo.",
+            "Asimismo, el incalculable gasto financiero requerido para contener la planta durante las próximas décadas debilita el margen de maniobra de Tokio en su planificación energética. El pasivo de Fukushima limita la capacidad del Estado para financiar la transición hacia nuevas tecnologías sin hipotecar el presupuesto público."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los principales perjudicados son las comunidades locales, la industria pesquera de la región y los contribuyentes nipones, quienes soportan la carga económica del accidente y el estigma sobre sus exportaciones.",
+            "En contraparte, las grandes corporaciones de ingeniería ambiental y las firmas especializadas en tecnología de descontaminación atómica han asegurado un flujo constante de contratos estatales que se prolongará por varias décadas."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá dar seguimiento a la viabilidad técnica para la extracción completa del combustible derretido dentro de los edificios destruidos y al clima diplomático entre Japón y sus vecinos pacíficos respecto a la contención de residuos. El equilibrio geopolítico en Asia Oriental estará estrechamente ligado a la transparencia con la que se ejecute la fase final del desmantelamiento."
+          ]
+        }
+      ],
+      "tags": [
+        "Fukushima",
+        "Energía Nuclear",
+        "Japón",
+        "Desmantelamiento",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "ABC Internacional",
+          "title": "Viaje a los reactores de Fukushima",
+          "url": "https://www.abc.es/internacional/viaje-reactores-fukushima-20261122015321-nt.html"
+        },
+        {
+          "name": "ABC",
+          "title": "Viaje a los reactores de Fukushima",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb3k0eXk0R3E5aFk1a3pjWC0xMWlBQVlVdUhaZ2k4d3NEdklRWkRUeUlUQmxwLXVYX3dKdFdJWFM0NVBVbWowSXd3Vllwc21XYjBNby1nZzc2a1FKTjRPTWFidHFRSmtrVWM5dmhFaURURDduNnU3eUJ6Q3ZseUJkSXdLZ2tFRGJf0gGOAUFVX3lxTE9qUWRJSWpRUncwWmFSR3JETVZtbFprX0VnOG9Nal83ODZQMGxvbnZQLVhaOVFBQzViTzZHSEtqN2FGRDVSTnhpSEhZNkNNcUk3T1dCZ0NJNkMzRW1PVkVKdW9GemdULXJENE1LUlZOVUpTNGEzd0FVZmkxdzNhREVzMFZqcGo1R3NqZEQycnc?oc=5"
+        },
+        {
+          "name": "ABC",
+          "title": "El reto de depurar y verter al Pacífico el agua con que se enfrían los reactores fundidos de Fukushima",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOW1xa0FUVVRIcHpfNnktWk9MeFljSDFTNDZKaGg1MXlTUTY4aGMzbm5BRE13c1o4Qlp3OUl6TW8zRHhhTl85MERlbC1pWXRyYTgwWmxlazh6Q3NydnYyRWFBQm5YNWx3NjZzZXI2QjlKT0FJNEIzcHdTQzBHRFEwX2NidVhKUjYwTjVRemVDNzFxc1VXVmR2ZEFhejBMSWFiOXh6QWV3TdIBpwFBVV95cUxNOW1xa0FUVVRIcHpfNnktWk9MeFljSDFTNDZKaGg1MXlTUTY4aGMzbm5BRE13c1o4Qlp3OUl6TW8zRHhhTl85MERlbC1pWXRyYTgwWmxlazh6Q3NydnYyRWFBQm5YNWx3NjZzZXI2QjlKT0FJNEIzcHdTQzBHRFEwX2NidVhKUjYwTjVRemVDNzFxc1VXVmR2ZEFhejBMSWFiOXh6QWV3TQ?oc=5"
+        }
+      ],
+      "wordCount": 503
+    },
+    "blindSpot": "El relato oficial enfoca los esfuerzos diarios en la contención radiológica y la retirada de escombros, pero invisibiliza la fractura geopolítica derivada del vertido de aguas tratadas al Pacífico. La monumental factura de desmantelamiento compromete la soberanía energética nipona y reconfigura las relaciones de confianza comercial con sus vecinos asiáticos."
+  },
+  {
     "slug": "sismicidad-recurrente-centro-peru-expone-vulnerabilidad-rt2y",
     "path": "noticias/sismicidad-recurrente-centro-peru-expone-vulnerabilidad-rt2y/",
     "title": "Sismicidad recurrente en el centro de Perú expone la vulnerabilidad del corredor andino",
