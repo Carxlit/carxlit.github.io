@@ -346,6 +346,35 @@
         "inversiones",
         "multimillonarias"
       ],
+      "date": "2026-11-22T11:17:53.711Z"
+    },
+    {
+      "title": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+      "normalizedTokens": [
+        "begona",
+        "villacis",
+        "prohibicion",
+        "facto",
+        "patronal",
+        "centros",
+        "datos",
+        "pie",
+        "guerra",
+        "gobierno"
+      ],
+      "date": "2026-11-22T11:17:53.709Z"
+    },
+    {
+      "title": "ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS",
+      "normalizedTokens": [
+        "espana",
+        "regula",
+        "centros",
+        "datos",
+        "arriesga",
+        "inversiones",
+        "multimillonarias"
+      ],
       "date": "2026-11-22T11:02:13.598Z"
     },
     {
@@ -7396,33 +7425,6 @@
         "afectados"
       ],
       "date": "2026-11-06T18:44:43.862Z"
-    },
-    {
-      "title": "ARRESTAN EN FLORIDA AL PADRE DE MEGHAN MARKLE",
-      "normalizedTokens": [
-        "arrestan",
-        "florida",
-        "padre",
-        "meghan",
-        "markle"
-      ],
-      "date": "2026-11-06T18:02:30.904Z"
-    },
-    {
-      "title": "Arrestan en Florida al padre de Meghan Markle en una investigación por material de abuso sexual infantil",
-      "normalizedTokens": [
-        "arrestan",
-        "florida",
-        "padre",
-        "meghan",
-        "markle",
-        "investigacion",
-        "material",
-        "abuso",
-        "sexual",
-        "infantil"
-      ],
-      "date": "2026-11-06T18:02:30.900Z"
     }
   ]
 }

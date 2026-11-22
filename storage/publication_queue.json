@@ -1,188 +1,5 @@
 [
   {
-    "id": "queue-1794514403928-9r5kl",
-    "news": {
-      "id": "4g059y8ex",
-      "originalUrl": "https://es.wired.com/articulos/sheinbaum-se-reune-con-el-presidente-de-openai-coincidimos-en-que-la-ia-puede-generar-beneficios-en-el-sector-salud",
-      "originalTitle": "Sheinbaum se reúne con el presidente de OpenAI: “Coincidimos en que la IA puede generar beneficios en el sector salud”",
-      "sourceName": "Wired en Español",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 78,
-      "headline": "SHEINBAUM ABRE EL SECTOR PÚBLICO A OPENAI SIN REGULACIÓN FEDERAL",
-      "subHeadline": "La presidenta Claudia Sheinbaum se reunió con Greg Brockman para explorar el uso de inteligencia artificial en la salud pública. El encuentro ocurre mientras México desarrolla la supercomputadora Coatlicue pero registra deficiencias normativas e infraestructurales según el CIGI.",
-      "blindSpotAngle": "La narrativa oficial promueve la alianza con Silicon Valley como un salto de modernización administrativa y médica. Sin embargo, el punto ciego es la dependencia estructural que genera entregar datos del sector público a corporaciones transnacionales como OpenAI cuando el Estado mexicano carece de un marco regulatorio federal sobre IA y de capacidad tecnológica soberana para procesar esos modelos de forma autónoma.",
-      "facebookPost": "La presidenta Claudia Sheinbaum sostuvo una reunión en Palacio Nacional con Greg Brockman, cofundador y presidente de OpenAI, para analizar la integración de la inteligencia artificial en el sector salud y en la optimización de los servicios gubernamentales. Esta colaboración se alinea con la estrategia de la Agencia de Transformación Digital y Telecomunicaciones y el desarrollo de la supercomputadora Coatlicue, proyectada para alcanzar 314,000 billones de operaciones por segundo.\n\nNo obstante, la prisa por integrar tecnología de punta oculta un problema de fondo. Un informe del Centro para la Innovación en la Gobernanza Internacional (CIGI) revela que México carece de un marco regulatorio federal en materia de IA, además de presentar severas deficiencias en infraestructura técnica y resiliencia de ciberseguridad. Entregar la gestión de datos sensibles a firmas de Silicon Valley sin leyes claras de protección digital corre el riesgo de convertir la modernización en una subordinación tecnológica.\n\n¿Debe el gobierno priorizar la adopción rápida de IA extranjera en áreas estratégicas como la salud o consolidar primero su propio marco normativo y tecnológico soberano?\n\nFuente: Wired en Español\n\n#Tecnología #PuntoCiego #InteligenciaArtificial",
-      "telegramPost": "<b>SHEINBAUM ABRE EL SECTOR PÚBLICO A OPENAI SIN REGULACIÓN FEDERAL</b>\n\n• <b>Qué ocurrió:</b> La presidenta Claudia Sheinbaum se reunió en Palacio Nacional con Greg Brockman, presidente de OpenAI, para explorar el uso de inteligencia artificial en el sistema de salud pública y la administración de trámites estatales.\n\n• <b>Por qué importa:</b> Mientras el gobierno impulsa proyectos como la supercomputadora Coatlicue de 314,000 billones de operaciones por segundo, un informe del CIGI advierte que México no posee un marco regulatorio federal ni infraestructura pública soberana, dejando al Estado expuesto a la dependencia de firmas transnacionales.\n\n• <b>Qué sigue:</b> La Agencia de Transformación Digital y Telecomunicaciones deberá definir si establece reglas claras para el uso de modelos propietarios o si se consolida la subordinación tecnológica hacia empresas extranjeras.",
-      "linkedInPost": "El encuentro estratégico entre la presidenta Claudia Sheinbaum y Greg Brockman, presidente de OpenAI, expone la ambición de México por incorporar inteligencia artificial a la administración pública y al sector salud. La iniciativa busca articularse con herramientas como la supercomputadora Coatlicue y la hoja de ruta de la Agencia de Transformación Digital y Telecomunicaciones.\n\nSin embargo, desde una perspectiva de riesgo corporativo y análisis macroestratégico, la velocidad de adopción contrasta con el vacío institucional. De acuerdo con el Centro para la Innovación en la Gobernanza Internacional (CIGI), el país arrastra debilidades críticas en infraestructura digital, ciberseguridad y resiliencia, sumado a la falta de un marco regulatorio federal específico para la IA.\n\nPara los tomadores de decisiones, esta brecha implica riesgos operativos y de soberanía de datos. Importar modelos proprietarios sin una arquitectura regulatoria sólida expone los flujos de información gubernamental y limita el desarrollo de una industria tecnológica local madura.\n\nFuente: Wired en Español\n\n#InteligenciaArtificial #SoberaniaDigital #PuntoCiego",
-      "blueskyPost": "Sheinbaum recibe a OpenAI para impulsar la IA en salud. Pero México carece de regulación federal e infraestructura soberana, advierte el CIGI. ¿Innovación o dependencia digital? #PuntoCiego #Tecnología",
-      "copies": {
-        "facebook": "La presidenta Claudia Sheinbaum sostuvo una reunión en Palacio Nacional con Greg Brockman, cofundador y presidente de OpenAI, para analizar la integración de la inteligencia artificial en el sector salud y en la optimización de los servicios gubernamentales. Esta colaboración se alinea con la estrategia de la Agencia de Transformación Digital y Telecomunicaciones y el desarrollo de la supercomputadora Coatlicue, proyectada para alcanzar 314,000 billones de operaciones por segundo.\n\nNo obstante, la prisa por integrar tecnología de punta oculta un problema de fondo. Un informe del Centro para la Innovación en la Gobernanza Internacional (CIGI) revela que México carece de un marco regulatorio federal en materia de IA, además de presentar severas deficiencias en infraestructura técnica y resiliencia de ciberseguridad. Entregar la gestión de datos sensibles a firmas de Silicon Valley sin leyes claras de protección digital corre el riesgo de convertir la modernización en una subordinación tecnológica.\n\n¿Debe el gobierno priorizar la adopción rápida de IA extranjera en áreas estratégicas como la salud o consolidar primero su propio marco normativo y tecnológico soberano?\n\n#Tecnología #PuntoCiego #InteligenciaArtificial",
-        "telegram": "<b>SHEINBAUM ABRE EL SECTOR PÚBLICO A OPENAI SIN REGULACIÓN FEDERAL</b>\n\n• <b>Qué ocurrió:</b> La presidenta Claudia Sheinbaum se reunió en Palacio Nacional con Greg Brockman, presidente de OpenAI, para explorar el uso de inteligencia artificial en el sistema de salud pública y la administración de trámites estatales.\n\n• <b>Por qué importa:</b> Mientras el gobierno impulsa proyectos como la supercomputadora Coatlicue de 314,000 billones de operaciones por segundo, un informe del CIGI advierte que México no posee un marco regulatorio federal ni infraestructura pública soberana, dejando al Estado expuesto a la dependencia de firmas transnacionales.\n\n• <b>Qué sigue:</b> La Agencia de Transformación Digital y Telecomunicaciones deberá definir si establece reglas claras para el uso de modelos propietarios o si se consolida la subordinación tecnológica hacia empresas extranjeras.",
-        "bluesky": "Sheinbaum recibe a OpenAI para impulsar la IA en salud. Pero México carece de regulación federal e infraestructura soberana, advierte el CIGI. ¿Innovación o dependencia digital? #PuntoCiego #Tecnología",
-        "linkedIn": "El encuentro estratégico entre la presidenta Claudia Sheinbaum y Greg Brockman, presidente de OpenAI, expone la ambición de México por incorporar inteligencia artificial a la administración pública y al sector salud. La iniciativa busca articularse con herramientas como la supercomputadora Coatlicue y la hoja de ruta de la Agencia de Transformación Digital y Telecomunicaciones.\n\nSin embargo, desde una perspectiva de riesgo corporativo y análisis macroestratégico, la velocidad de adopción contrasta con el vacío institucional. De acuerdo con el Centro para la Innovación en la Gobernanza Internacional (CIGI), el país arrastra debilidades críticas en infraestructura digital, ciberseguridad y resiliencia, sumado a la falta de un marco regulatorio federal específico para la IA.\n\nPara los tomadores de decisiones, esta brecha implica riesgos operativos y de soberanía de datos. Importar modelos proprietarios sin una arquitectura regulatoria sólida expone los flujos de información gubernamental y limita el desarrollo de una industria tecnológica local madura.\n\n#InteligenciaArtificial #SoberaniaDigital #PuntoCiego"
-      },
-      "article": {
-        "slug": "encuentro-entre-sheinbaum-openai-expone-limites-lalf",
-        "title": "El encuentro entre Sheinbaum y OpenAI expone los límites de la soberanía digital",
-        "dek": "La reunión en Palacio Nacional con Greg Brockman busca impulsar la IA en salud y la gestión pública. Sin embargo, analistas advierten que la falta de regulación federal y la debilidad de infraestructura perpetúan la dependencia tecnológica de México.",
-        "keyFacts": [
-          "Reunión oficial en Palacio Nacional entre la presidenta Claudia Sheinbaum y Greg Brockman, presidente y cofundador de OpenAI.",
-          "Desarrollo de la supercomputadora Coatlicue en el Centro Mexicano de Supercómputo, con capacidad proyectada de 314,000 billones de operaciones por segundo.",
-          "Aplicación planeada de IA y supercómputo en Pemex para análisis geológico y en el SAT para combatir la evasión fiscal.",
-          "Lanzamiento de la Fábrica de Software y Tecnología Pública con 300 jóvenes desarrolladores mexicanos.",
-          "Estudio del CIGI advierte que México carece de un marco regulatorio federal en IA y de infraestructura de resiliencia digital."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "La presidenta de México, Claudia Sheinbaum, recibió en Palacio Nacional a Greg Brockman, presidente y cofundador de la empresa estadounidense OpenAI, junto a integrantes de su equipo directivo. El objetivo central del encuentro fue examinar la aplicación de sistemas de inteligencia artificial en el sector público, priorizando la atención médica y los servicios de salud estatal, según confirmaron fuentes gubernamentales y coberturas de medios como Wired en Español y El Universal.",
-              "Durante la reunión, la mandataria mexicana y el ejecutivo de la firma tecnológica coincidieron en que las herramientas de IA generativa y análisis avanzado representan una oportunidad para optimizar la gestión gubernamental. Esta aproximación forma parte de una política de digitalización acelerada que busca integrar soluciones de procesamiento masivo de datos en la administración pública."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "El acercamiento con OpenAI se produce en un momento de reestructuración tecnológica institucional. El gobierno mexicano, a través de la Agencia de Transformación Digital y Telecomunicaciones, publicó en abril de este año el Plan Nacional de Inteligencia Artificial, concebido como la hoja de ruta oficial para normar y promover el uso de estas herramientas en el Estado.",
-              "A la par de la diplomacia tecnológica, México ha puesto en marcha proyectos como el Centro Mexicano de Supercómputo. Esta iniciativa trabaja en el desarrollo de Coatlicue, un equipo diseñado para convertirse en la supercomputadora más potente de América Latina, con una capacidad de procesamiento de hasta 314,000 billones de operaciones por segundo. La intención gubernamental es destinar esta capacidad al análisis de datos sísmicos en Petróleos Mexicanos y a la detección de evasión fiscal en el Servicio de Administración Tributaria. Asimismo, la Fábrica de Software y Tecnología Pública incorpora a 300 desarrolladoras y desarrolladores jóvenes para crear código propio destinado a trámites estatales."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "Detrás del despliegue de proyectos e intercambios al más alto nivel reside una vulnerabilidad estructural que suele quedar fuera del discurso oficial. El informe titulado Economías de ingresos medios: navegando por las dependencias digitales en la IA, publicado por el Centro para la Innovación en la Gobernanza Internacional, advierte que, si bien México posee bases para diseñar políticas públicas, carece de los elementos indispensables para ejecutarlas de forma independiente.",
-              "El análisis del CIGI remarca que las principales debilidades del país radican en la ausencia de infraestructura pública propia para la difusión del cómputo avanzado, deficiencias en seguridad digital y una marcada falta de resiliencia tecnológica. Más grave aún es el vacío legal: a pesar de diversas propuestas en el Congreso de la Unión, México todavía no cuenta con un marco regulatorio federal específico para la inteligencia artificial. El punto ciego consiste en abrir los sistemas nacionales y los datos del sector salud a corporaciones transnacionales sin haber establecido previamente reglas de soberanía de datos ni gobernanza de privacidad."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "El principal ganador en esta dinámica es OpenAI y el sector de las grandes empresas tecnológicas globales. Para la firma estadounidense, el respaldo gubernamental abre las puertas al mercado del sector público en la segunda economía de América Latina, validando sus modelos en áreas sensibles como la salud.",
-              "En el extremo opuesto, el Estado mexicano y el ecosistema local de desarrollo tecnológico asumen los mayores riesgos. Al depender de arquitecturas de IA desarrolladas fuera de sus fronteras y sin un marco legal de protección, el país se expone a costos de licenciamiento crecientes, fugas de soberanía informativa y barreras para consolidar una industria de software verdaderamente autónoma."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "En los próximos meses será crucial dar seguimiento al avance legislativo en el Congreso respecto a la regulación federal de la inteligencia artificial y a las cláusulas de protección de datos que se incluyan en eventuales convenios con firmas privadas. Asimismo, habrá que monitorear la capacidad real de la agencia estatal para poner en funcionamiento la supercomputadora Coatlicue y verificar si los 300 desarrolladores jóvenes logran crear herramientas soberanas o si la gestión pública terminará operando bajo licencias comerciales extranjeras."
-            ]
-          }
-        ],
-        "tags": [
-          "OpenAI",
-          "Claudia Sheinbaum",
-          "Inteligencia Artificial",
-          "Soberanía Digital",
-          "CIGI",
-          "Coatlicue"
-        ],
-        "sources": [
-          {
-            "name": "Wired en Español",
-            "title": "Sheinbaum se reúne con el presidente de OpenAI: “Coincidimos en que la IA puede generar beneficios en el sector salud”",
-            "url": "https://es.wired.com/articulos/sheinbaum-se-reune-con-el-presidente-de-openai-coincidimos-en-que-la-ia-puede-generar-beneficios-en-el-sector-salud"
-          },
-          {
-            "name": "WIRED",
-            "title": "Sheinbaum se reúne con el presidente de OpenAI: “Coincidimos en que la IA puede generar beneficios en el sector salud”",
-            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcTNwSjNoWHdnemRaRS1McmtaNThOMDhDMm9acEU1RGtPdG9RaFZWZUZOUkFGRmxSdE4taEQtS0FOOXczTFdoS0lVeHptZ0VYbmswRkRrWmdUd0MzM0lwQUFMRlc5SGlqcGxSZy0zbVVDVHQ4MmVNSS1tRkl3REVqNFhSckphSEpnODZXX0pFSVJIWUh0a1dxM2Frc1Bwd2dRNXVaWmtVUVlvcHQyVUNweUdFcFhxQXlvZVc0SWhIRXZQd0NjdlRiMTVVbzVrWGlidjdackh5aXRTUFRTQnN3?oc=5"
-          },
-          {
-            "name": "Zona Franca",
-            "title": "Sheinbaum se reúne con presidente de OpenAI, Greg Brockman",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdWtCY1QzeUlXT19DaXlSNF9NRVFETnhuRTNENWFQOHVnNS1BbEw4Z1hiaGl1TWlqdGF2WEhkbU5xZUJTUG5BdXEtWTBUbGxnTmlXSTJvZGt0cnUtY0xwZFVTNVI1eFZRWml1SDg1dDc3b1I3ZndKVS1lYTEtRjkwdVFNTk1jWVlhSUl6VFkyNTlmQklZajVwMGhUc3BhSjQ?oc=5"
-          },
-          {
-            "name": "El Informador",
-            "title": "Sheinbaum se reúne con el presidente de OpenAI; abordan el uso de la IA en la salud",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGg0TDJ4MFlsVFIxX3AxT1g3VXhFbW96alNFa245SXF3bHNvYjdNbmNrSDhUYXlvc3dyTDczZXVaMEZFcGcxbnpxZmlKYTVlSnRDN3ZfaXV2Qnk3MGl1LU01czFYbGxpNHFTeF9QMDRWb0NRT3h5UVdYMU9sV0liNEhBc0ViQVlhTHdkdVFsdEhMbEY5SlV1VkhrdEtsLWdPeWJXTU1EWWd6M2RXN0Vnbm9IcVVRdXZhSzFER3VUWFhZMURpamxtekNkZE9SRnfSAdQBQVVfeXFMT0xjcmNMWDVhcUI4YXJBd01Wa2pjalRnVS1GVGJxeHB6bTZJSHJzT2ZlSkx5Rk5abnV1WjIwZ1dQU1RScjdWc3pIOTBYRjhleHN5QUhlTnVLMnUwdmJHSnpwZ1pyWWwtRmZmcFVZOEpHQkZ0cThNOEh2dG9zdE5ybHNIdHc2dHBWY253Nk5KSThyaHBFaDRkaG1hYVlkMmFHczVmcEMxeU5HRGsyeC1ZcG5yT2ZvTVZVNGdJTDdoWGdWSk8yS3lMbXNlamdRaDJ4WmtFUS0?oc=5"
-          },
-          {
-            "name": "El Universal",
-            "title": "Sheinbaum se reúne con presidente de OpenAI, Greg Brockman; conversan sobre aplicación de IA en la salud",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGF5TUZnQ2g0Rjh0cHpsZEVnQzZVT052eG5jU0NJa1pvOWpNMi0zdGVhR3VRUHk2N2NOY3oxYzFJdWdYa2NtUlVxcWNzdUx1OEhGTFdUei10ZFBvUDBDQWtWTzZMNDkxV2VIbVdhLXZNSXEyODNfclB6SmtnTmdndEdvUEt4bTY4empYV0hKazJlajh3dDJCUE5IMmVUa2ZTVEhyZXY3TnJVdE1qX01hRjBQOVZWZmE0WWY3TlZFdTdaUXRIWldhNGk3aHhIS19yWmpQT1dPWFbSAewBQVVfeXFMTW1ySy1VUDNXdXJ2cmdqN01RdGVBeVRieDYyZWxrcXJnUFRBQnZMVFN6eE1hbi0wOUZkOHRodHd6V3l2UzVVVnN6aG40TUZTbTBIeEt4TFc5am5mNFl5U3hlV3FKZm5yVWJUdjhvazFtSVN2V3k4WFBNTDl4NmQzWENITVZXWVhzMFJUall2d0VGckxsR3NmU3A5UURaY1B6WTVfUWoxSkhXQW5nR0trWlFsZGEzcjVkZ2hTQkUzYUpzNE5JeWl3XzhJQXNwRk8zVkdwVUJ3dGcwV2FES1ZyWUVMVk5fMUNzV2s0Z3M?oc=5"
-          }
-        ],
-        "wordCount": 681
-      },
-      "videoScript": {
-        "hook": "¿México le entregará sus datos de salud a OpenAI?",
-        "beats": [
-          "Sheinbaum se reunió con el cofundador de OpenAI para llevar inteligencia artificial al sector público.",
-          "Ojo, porque el país proyecta la supercomputadora Coatlicue con 314,000 billones de operaciones por segundo para Pemex y el SAT.",
-          "Pero lo que nadie dice es que México ni siquiera tiene regulación federal para proteger nuestros datos."
-        ],
-        "close": "Lee el análisis completo sobre soberanía digital en el enlace de nuestro perfil."
-      },
-      "rawImageUrl": "https://media.es.wired.com/photos/6af5ef443ed055070924f33d/master/pass/OpenAI%20M%C3%A9xico%20Sheinbaum%20IA.jpeg",
-      "status": "published",
-      "createdAt": "2026-11-12T20:13:21.577Z",
-      "cardImageUrl": "/news-cards/news-4g059y8ex-1794514401577.jpg",
-      "reelCoverUrl": "/news-cards/news-4g059y8ex-1794514402184-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-4g059y8ex-1794514402721-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/encuentro-entre-sheinbaum-openai-expone-limites-lalf/",
-      "publishedAt": "2026-11-13T00:26:02.800Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true,
-      "youtube": true
-    },
-    "scheduledFor": "2026-11-13T00:23:34.278Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-12T20:13:23.928Z",
-    "lastAttemptAt": "2026-11-13T00:23:49.724Z",
-    "results": {
-      "facebook": {
-        "success": true,
-        "postId": "122110041627532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "196",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n25pt2vr3r2a"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "17988549726088134",
-        "permalink": "https://www.instagram.com/reel/DfqVp3bDqFj/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "mastodon": {
-        "success": true,
-        "url": "https://mastodon.social/@PuntoCiego/117606288607463109"
-      },
-      "threads": {
-        "success": true,
-        "postId": "17979194660932123"
-      },
-      "youtube": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: no se sube a YouTube"
-      }
-    },
-    "publishedAt": "2026-11-13T00:26:02.800Z"
-  },
-  {
     "id": "queue-1794520279901-jtl1n",
     "news": {
       "id": "dehiqk5wl",
@@ -26352,12 +26169,13 @@
         "close": "Lee el análisis completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://i.blogs.es/028a97/centro/840_560.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-22T11:02:11.376Z",
       "cardImageUrl": "/news-cards/news-h47brlaqm-1795345331376.jpg",
       "reelCoverUrl": "/news-cards/news-h47brlaqm-1795345331921-cover.jpg",
       "instagramCardUrl": "/news-cards/news-h47brlaqm-1795345332414-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/espana-impone-estrictos-limites-centros-datos-a7yd/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/espana-impone-estrictos-limites-centros-datos-a7yd/",
+      "publishedAt": "2026-11-22T11:18:07.975Z"
     },
     "channels": {
       "facebook": true,
@@ -26371,9 +26189,186 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-22T11:17:27.051Z",
+    "status": "published",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-22T11:02:13.569Z",
+    "lastAttemptAt": "2026-11-22T11:17:42.371Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122113638813532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "354",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2vikhnsvh2m"
+      },
+      "instagram": {
+        "success": false,
+        "skipped": true,
+        "error": "Estrategia IG: fuera de la franja 18:00–21:00 (Bogotá); el Reel se reprograma a la franja"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117659813524813151"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18039106709909860"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-22T11:18:07.975Z"
+  },
+  {
+    "id": "queue-1795346273696-tjs6k",
+    "news": {
+      "id": "h47brlaqm",
+      "originalUrl": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
+      "originalTitle": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+      "sourceName": "Xataka",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 86,
+      "headline": "ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS",
+      "subHeadline": "El Real Decreto 1032/2026 exige un 80% de consumo renovable en tiempo real a instalaciones de más de 10 MW, provocando una abierta confrontación con el sector.",
+      "blindSpotAngle": "Bajo la premisa de evitar un sobrecoste de 5.000 millones de euros anuales en la red eléctrica, el Gobierno utiliza la regulación de sostenibilidad como un freno preventivo ante el cuello de botella en la distribución. La exigencia de correlación horaria expone la falta de almacenamiento masivo en baterías y traslada la presión regulatoria directamente a los proyectos de inteligencia artificial.",
+      "facebookPost": "El Gobierno de España ha aprobado el Real Decreto 1032/2026 para regular la sostenibilidad de los centros de datos con capacidad igual o superior a 10 MW. La normativa impone la obligación de certificar, hora a hora, que el 80% de la energía consumida procede de fuentes renovables directas. Mientras la administración defiende que la medida evita distorsiones tarifarias y un impacto de 5.000 millones de euros al año en el sistema, la patronal SpainDC califica la exigencia como una barrera insuperable.\n\nEl punto ciego de esta medida no radica en la transición ecológica, sino en la imposibilidad técnica de acoplar el funcionamiento ininterrumpido de la inteligencia artificial a la volatilidad meteorológica actual. Sin tecnología de almacenamiento en baterías con autonomía superior a cuatro horas, las instalaciones quedan expuestas a desconexiones preventivas por parte de Red Eléctrica, acelerando la cancelación de inversiones clave.\n\n¿Debe primarse la contención del coste de la red eléctrica aun a riesgo de frenar la infraestructura digital del país? Deje su opinión en los comentarios.\n\nFuente: Xataka\n\n📖 Análisis completo y fuentes en el primer comentario 👇\n\n#Tecnología #CentrosDeDatos #PuntoCiego",
+      "telegramPost": "<b>ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS</b>\n\n• <b>Qué ocurrió:</b> El Ejecutivo aprobó el Real Decreto 1032/2026, obligando a los centros de datos de más de 10 MW a cumplir un 80% de consumo renovable con correlación horaria estricta.\n• <b>Por qué importa:</b> Mientras el Gobierno busca evitar un sobrecoste de 5.000 millones de euros al año en la red, la patronal advierte que la medida pone en riesgo 66.900 millones de euros en inversión hasta 2030.\n• <b>Qué sigue:</b> La patronal SpainDC recurrirá el decreto en los tribunales solicitando medidas cautelares, mientras la oposición promete su derogación si llega al gobierno.",
+      "linkedInPost": "La promulgación del Real Decreto 1032/2026 introduce un sesgo de incertidumbre para la infraestructura digital en España. Al imponer una correlación horaria del 80% de origen renovable a centros de datos superiores a 10 MW, el marco regulatorio choca con la realidad técnica de las redes eléctricas y el estado de desarrollo del almacenamiento industrial.\n\nDesde la perspectiva macroeconómica, el regulador busca proteger al tejido industrial doméstico de incrementos previstos del 25% en el recibo de la luz y contener un impacto directo de 5.000 millones de euros en el sistema eléctrico. No obstante, la rigidez normativa amenaza compromisos de capital por 66.900 millones de euros previstos hasta 2030, desviando flujos de inversión hacia jurisdicciones competidoras.\n\nFuente: Xataka\n\nAnálisis completo: https://puntociegoglobal.pages.dev/noticias/espana-impone-estrictos-limites-centros-datos-a7yd/\n\n#EconomíaDigital #Infraestructura #PuntoCiego",
+      "blueskyPost": "El nuevo decreto exige a los centros de datos un 80% de consumo renovable en tiempo real. La patronal advierte la fuga de 66.900 millones de euros en inversiones. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "El Gobierno de España ha aprobado el Real Decreto 1032/2026 para regular la sostenibilidad de los centros de datos con capacidad igual o superior a 10 MW. La normativa impone la obligación de certificar, hora a hora, que el 80% de la energía consumida procede de fuentes renovables directas. Mientras la administración defiende que la medida evita distorsiones tarifarias y un impacto de 5.000 millones de euros al año en el sistema, la patronal SpainDC califica la exigencia como una barrera insuperable.\n\nEl punto ciego de esta medida no radica en la transición ecológica, sino en la imposibilidad técnica de acoplar el funcionamiento ininterrumpido de la inteligencia artificial a la volatilidad meteorológica actual. Sin tecnología de almacenamiento en baterías con autonomía superior a cuatro horas, las instalaciones quedan expuestas a desconexiones preventivas por parte de Red Eléctrica, acelerando la cancelación de inversiones clave.\n\n¿Debe primarse la contención del coste de la red eléctrica aun a riesgo de frenar la infraestructura digital del país? Deje su opinión en los comentarios.\n\n#Tecnología #CentrosDeDatos #PuntoCiego",
+        "telegram": "<b>ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS</b>\n\n• <b>Qué ocurrió:</b> El Ejecutivo aprobó el Real Decreto 1032/2026, obligando a los centros de datos de más de 10 MW a cumplir un 80% de consumo renovable con correlación horaria estricta.\n• <b>Por qué importa:</b> Mientras el Gobierno busca evitar un sobrecoste de 5.000 millones de euros al año en la red, la patronal advierte que la medida pone en riesgo 66.900 millones de euros en inversión hasta 2030.\n• <b>Qué sigue:</b> La patronal SpainDC recurrirá el decreto en los tribunales solicitando medidas cautelares, mientras la oposición promete su derogación si llega al gobierno.",
+        "bluesky": "El nuevo decreto exige a los centros de datos un 80% de consumo renovable en tiempo real. La patronal advierte la fuga de 66.900 millones de euros en inversiones. #PuntoCiego #Tecnología",
+        "linkedIn": "La promulgación del Real Decreto 1032/2026 introduce un sesgo de incertidumbre para la infraestructura digital en España. Al imponer una correlación horaria del 80% de origen renovable a centros de datos superiores a 10 MW, el marco regulatorio choca con la realidad técnica de las redes eléctricas y el estado de desarrollo del almacenamiento industrial.\n\nDesde la perspectiva macroeconómica, el regulador busca proteger al tejido industrial doméstico de incrementos previstos del 25% en el recibo de la luz y contener un impacto directo de 5.000 millones de euros en el sistema eléctrico. No obstante, la rigidez normativa amenaza compromisos de capital por 66.900 millones de euros previstos hasta 2030, desviando flujos de inversión hacia jurisdicciones competidoras.\n\n#EconomíaDigital #Infraestructura #PuntoCiego"
+      },
+      "article": {
+        "slug": "espana-impone-estrictos-limites-centros-datos-a7yd",
+        "title": "España impone estrictos límites a los centros de datos y desata un choque con el sector tecnológico",
+        "dek": "El Real Decreto 1032/2026 exige a las grandes instalaciones certificar su consumo renovable hora a hora. El Ejecutivo busca blindar la red eléctrica, pero las empresas advierten sobre una paralización masiva de inversiones.",
+        "keyFacts": [
+          "El Real Decreto 1032/2026 exige un 80% de consumo renovable con correlación horaria a centros de datos de 10 MW o más.",
+          "Según el Ministerio para la Transición Ecológica, la norma previene un sobrecoste de 5.000 millones de euros al año y encarecimientos del 25% en la tarifa industrial.",
+          "La patronal SpainDC cifra en 66.900 millones de euros la inversión amenazada hasta 2030 y reporta la retirada de 9.000 millones en proyectos iniciales.",
+          "La Agencia Internacional de la Energía calcula que el consumo global de los centros de datos se duplicará para 2030 hasta alcanzar los 945 TWh."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "El Consejo de Ministros aprobó el Real Decreto 1032/2026, una norma marco encaminada a regular la sostenibilidad e integración en red de los centros de datos de gran capacidad. La regulación afecta de forma directa a las instalaciones con una potencia contratada igual o superior a 10 MW, exigiendo que el 80% de la energía consumida provenga de fuentes renovables con correlación horaria en tiempo real.",
+              "La respuesta del tejido empresarial ha sido inmediata. La patronal del sector, SpainDC, encabezada por su directora ejecutiva Begoña Villacís, confirmó la interposición de recursos ante la justicia junto con la solicitud de medidas cautelares. Desde la asociación sostienen que la obligación de acoplar el funcionamiento ininterrumpido de las infraestructuras a la generación renovable instantánea resulta inviable con la tecnología actual."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El despliegue global de la computación en la nube y la inteligencia artificial requiere volúmenes de energía sin precedentes. De acuerdo con las estimaciones de la Agencia Internacional de la Energía (AIE), la demanda eléctrica de los centros de datos a nivel mundial alcanzará los 945 TWh para el año 2030, representando aproximadamente el 3% del consumo global.",
+              "En el escenario español, según datos del informe anual de SpainDC, estas infraestructuras representaban el 0,8% de la electricidad consumida en 2025. Sin embargo, las proyecciones oficiales del Gobierno estiman que la demanda del sector escalará hasta situarse entre los 3,5 y 4 GW para 2030, obligando a redefinir la planificación de las redes de transporte."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Detrás del pulso normativo subyace una fricción de fondo sobre el reparto de costes de la infraestructura energética. Según declaraciones recogidas por Europa Press de la ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, la ausencia de esta regulación habría trasladado al sistema eléctrico un sobrecoste estimado de 5.000 millones de euros al año, incrementando la factura eléctrica industrial hasta en un 25%.",
+              "El análisis de Punto Ciego evidencia que el Ejecutivo ha utilizado la exigencia ambiental como un mecanismo de contención preventiva ante la saturación de la red. Al obligar a una coincidencia horaria estricta cuando las baterías comerciales ofrecen una autonomía media de cuatro horas, la norma convierte a la capacidad de la red en el factor determinante del ritmo de digitalización del país."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En el corto plazo, el regulador y los consumidores industriales salvan el riesgo de asumir cargos adicionales en las peajes de red derivados de la rápida integración de estas cargas masivas. Por el contrario, las corporaciones tecnológicas y los fondos de infraestructura asumen el mayor impacto operativo.",
+              "SpainDC calcula que la medida pone en riesgo hasta 66.900 millones de euros en inversiones proyectadas hacia 2030, señalando que tres grandes inversores ya han retirado proyectos valorados en 9.000 millones de euros. Mercados vecinos con esquemas de acceso a red más predecibles emergen como los receptores inmediatos del capital desplazado."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "El curso judicial de las medidas cautelares solicitadas por la patronal marcará el margen de maniobra temporal de las empresas operativas. A nivel político, el Partido Popular ha anunciado su compromiso de derogar el decreto en caso de asumir el Gobierno, mientras las firmas internacionales mantienen abiertos los canales institucionales para ajustar los términos técnicos de la norma."
+            ]
+          }
+        ],
+        "tags": [
+          "centros de datos",
+          "regulación energética",
+          "renovables",
+          "inversión tecnológica",
+          "red eléctrica",
+          "inteligencia artificial"
+        ],
+        "sources": [
+          {
+            "name": "Xataka",
+            "title": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+            "url": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno"
+          },
+          {
+            "name": "El Ecosistema Startup",
+            "title": "SpainDC, patronal de centros de datos, recurre el decreto",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdGpkbW9waXR0WEplanctTDBnb0JQQWgzRnhYSFNfdXRqN054WWMzenkxczNEOVB5WC0wWGg1VnJvbEVIYno4cWRwTjZidmI1TmdGc3BTdmI3ZXdMYzZqTV9XWF9tVlRKWDBhSnlUUDNHcVNfcWlZT3NJZFBFR0txUURLeDFQSmJ4NDRwdld5bw?oc=5"
+          },
+          {
+            "name": "Cadena SER",
+            "title": "Begoña Villacís: \"Vamos a recurrir el decreto de los centros de datos porque es letal para el sector\"",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeVpweUpoNkExX2g4Qm9VMFpWWlJnNzJmamVVT25adUI0WVc2N3MyLUt4QXpSazZGTlJhWS1lcUFrdjF0a0N4VVFEdTR3MUZRNnpfWXVmbW5QSExGUXcycWpRaFY0cExUODdERE16MEs1UmZET01JeHJ2alFnOU9WTHJfQ1FHYU01a05PWUpTR0pKVEdZb2NZWkwwNlVqMmtubm5VdHgyak0zQXNUU2p2dk81RnpTTDZpRUZmTU1DWWVIOVRncTVfWlA2MEJyU3Z6azQtZklxWGZPd3JLMnlCNmtGZ3RLVnfSAfsBQVVfeXFMT1A2U1JHWlFCRVA4MjEwVXFDT0tpWHVhdTF2S01UekRadkFGOGZzbVd5bGxSdV90NHlCY0ZXVV82Q2E2aVRNNTFrczhwY1hkU0R0ZFFBd2VRV19XUFFVMUxsUDNIWmtwblZ2UDMxSUMyOUdTNlFJQUdvU3h2V09JRHlyRUNSa1NMbXVuWVlFV2NGS2pvMUlnQzYydWszeGlWa0ZOQUdEMnNmMjRtWm8tMGZIc1RsNmxsTnNfdGFxV2ZielRQQWdhSENKT3ZxbzFJWUNabzBFUkY1d2lkZFNoblBEeHhjZThFaXEwenpNcnlIazRBZ0I0V0FjVDQ?oc=5"
+          },
+          {
+            "name": "El Español",
+            "title": "El PP derogará el decreto de centros de datos y las empresas extranjeras piden diálogo para \"garantizar su viabilidad\"",
+            "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTUNWM3ZCV0ZRZjJwV2Rsaks5dnVSVmdmV1k0RWVNV0hjQTVJQy1DWHlicUhBRy1EbVU4ZzZiMVJ1RTIyV0RUVnlmeVVnMHBUMEVzVEItbWh0aE1ERFpDQnppQ1ZYcXVMaU4tanlVUk5TRXlnSkNYd3hVcTJBZkYtNUVveVZhZ3lHMUh4RWZINl9faGY0Z1I1bWhzb2g5Q3ducExkdldYLWhodUV6OGJVV201N2EtLVJpM2MybUlhNC1MR0d3QkJYR051VGQtQlY5MmhoczZYSE5yYjZoeFdjN1drUEF2bjBobC1JbE45MjZzQVNEWkJ1MkpJT1E1a1FMaTgwQlFpVdIBhwJBVV95cUxQTUNWM3ZCV0ZRZjJwV2Rsaks5dnVSVmdmV1k0RWVNV0hjQTVJQy1DWHlicUhBRy1EbVU4ZzZiMVJ1RTIyV0RUVnlmeVVnMHBUMEVzVEItbWh0aE1ERFpDQnppQ1ZYcXVMaU4tanlVUk5TRXlnSkNYd3hVcTJBZkYtNUVveVZhZ3lHMUh4RWZINl9faGY0Z1I1bWhzb2g5Q3ducExkdldYLWhodUV6OGJVV201N2EtLVJpM2MybUlhNC1MR0d3QkJYR051VGQtQlY5MmhoczZYSE5yYjZoeFdjN1drUEF2bjBobC1JbE45MjZzQVNEWkJ1MkpJT1E1a1FMaTgwQlFpVQ?oc=5"
+          }
+        ],
+        "wordCount": 559
+      },
+      "videoScript": {
+        "hook": "¿Por qué España acaba de frenar el crecimiento de los centros de datos?",
+        "beats": [
+          "Un nuevo decreto exige que el 80% de su consumo sea renovable producido en la misma hora.",
+          "El Gobierno evita subir la luz pero la patronal alerta que 66.900 millones de euros están en riesgo.",
+          "Y aquí viene lo interesante porque sin baterías suficientes el sector amenaza con irse de España."
+        ],
+        "close": "Lee el análisis completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/028a97/centro/840_560.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-22T11:02:11.376Z",
+      "cardImageUrl": "/news-cards/news-h47brlaqm-1795345331376.jpg",
+      "reelCoverUrl": "/news-cards/news-h47brlaqm-1795345331921-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-h47brlaqm-1795345332414-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/espana-impone-estrictos-limites-centros-datos-a7yd/"
+    },
+    "channels": {
+      "facebook": false,
+      "telegram": false,
+      "bluesky": false,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": false,
+      "mastodon": false,
+      "threads": false,
+      "youtube": false
+    },
+    "scheduledFor": "2026-11-22T23:00:00.000Z",
     "status": "queued",
     "attempts": 0,
     "maxAttempts": 3,
-    "createdAt": "2026-11-22T11:02:13.569Z"
+    "createdAt": "2026-11-22T11:17:53.696Z",
+    "igDeferred": true
   }
 ]

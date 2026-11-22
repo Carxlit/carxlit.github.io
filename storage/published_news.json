@@ -1,5 +1,121 @@
 [
   {
+    "id": "h47brlaqm",
+    "originalUrl": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
+    "originalTitle": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+    "sourceName": "Xataka",
+    "category": "TECNOLOGÍA & IA",
+    "urgencyScore": 86,
+    "headline": "ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS",
+    "subHeadline": "El Real Decreto 1032/2026 exige un 80% de consumo renovable en tiempo real a instalaciones de más de 10 MW, provocando una abierta confrontación con el sector.",
+    "blindSpotAngle": "Bajo la premisa de evitar un sobrecoste de 5.000 millones de euros anuales en la red eléctrica, el Gobierno utiliza la regulación de sostenibilidad como un freno preventivo ante el cuello de botella en la distribución. La exigencia de correlación horaria expone la falta de almacenamiento masivo en baterías y traslada la presión regulatoria directamente a los proyectos de inteligencia artificial.",
+    "facebookPost": "El Gobierno de España ha aprobado el Real Decreto 1032/2026 para regular la sostenibilidad de los centros de datos con capacidad igual o superior a 10 MW. La normativa impone la obligación de certificar, hora a hora, que el 80% de la energía consumida procede de fuentes renovables directas. Mientras la administración defiende que la medida evita distorsiones tarifarias y un impacto de 5.000 millones de euros al año en el sistema, la patronal SpainDC califica la exigencia como una barrera insuperable.\n\nEl punto ciego de esta medida no radica en la transición ecológica, sino en la imposibilidad técnica de acoplar el funcionamiento ininterrumpido de la inteligencia artificial a la volatilidad meteorológica actual. Sin tecnología de almacenamiento en baterías con autonomía superior a cuatro horas, las instalaciones quedan expuestas a desconexiones preventivas por parte de Red Eléctrica, acelerando la cancelación de inversiones clave.\n\n¿Debe primarse la contención del coste de la red eléctrica aun a riesgo de frenar la infraestructura digital del país? Deje su opinión en los comentarios.\n\nFuente: Xataka\n\n#Tecnología #CentrosDeDatos #PuntoCiego",
+    "telegramPost": "<b>ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS</b>\n\n• <b>Qué ocurrió:</b> El Ejecutivo aprobó el Real Decreto 1032/2026, obligando a los centros de datos de más de 10 MW a cumplir un 80% de consumo renovable con correlación horaria estricta.\n• <b>Por qué importa:</b> Mientras el Gobierno busca evitar un sobrecoste de 5.000 millones de euros al año en la red, la patronal advierte que la medida pone en riesgo 66.900 millones de euros en inversión hasta 2030.\n• <b>Qué sigue:</b> La patronal SpainDC recurrirá el decreto en los tribunales solicitando medidas cautelares, mientras la oposición promete su derogación si llega al gobierno.",
+    "linkedInPost": "La promulgación del Real Decreto 1032/2026 introduce un sesgo de incertidumbre para la infraestructura digital en España. Al imponer una correlación horaria del 80% de origen renovable a centros de datos superiores a 10 MW, el marco regulatorio choca con la realidad técnica de las redes eléctricas y el estado de desarrollo del almacenamiento industrial.\n\nDesde la perspectiva macroeconómica, el regulador busca proteger al tejido industrial doméstico de incrementos previstos del 25% en el recibo de la luz y contener un impacto directo de 5.000 millones de euros en el sistema eléctrico. No obstante, la rigidez normativa amenaza compromisos de capital por 66.900 millones de euros previstos hasta 2030, desviando flujos de inversión hacia jurisdicciones competidoras.\n\nFuente: Xataka\n\n#EconomíaDigital #Infraestructura #PuntoCiego",
+    "blueskyPost": "El nuevo decreto exige a los centros de datos un 80% de consumo renovable en tiempo real. La patronal advierte la fuga de 66.900 millones de euros en inversiones. #PuntoCiego #Tecnología",
+    "copies": {
+      "facebook": "El Gobierno de España ha aprobado el Real Decreto 1032/2026 para regular la sostenibilidad de los centros de datos con capacidad igual o superior a 10 MW. La normativa impone la obligación de certificar, hora a hora, que el 80% de la energía consumida procede de fuentes renovables directas. Mientras la administración defiende que la medida evita distorsiones tarifarias y un impacto de 5.000 millones de euros al año en el sistema, la patronal SpainDC califica la exigencia como una barrera insuperable.\n\nEl punto ciego de esta medida no radica en la transición ecológica, sino en la imposibilidad técnica de acoplar el funcionamiento ininterrumpido de la inteligencia artificial a la volatilidad meteorológica actual. Sin tecnología de almacenamiento en baterías con autonomía superior a cuatro horas, las instalaciones quedan expuestas a desconexiones preventivas por parte de Red Eléctrica, acelerando la cancelación de inversiones clave.\n\n¿Debe primarse la contención del coste de la red eléctrica aun a riesgo de frenar la infraestructura digital del país? Deje su opinión en los comentarios.\n\n#Tecnología #CentrosDeDatos #PuntoCiego",
+      "telegram": "<b>ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS</b>\n\n• <b>Qué ocurrió:</b> El Ejecutivo aprobó el Real Decreto 1032/2026, obligando a los centros de datos de más de 10 MW a cumplir un 80% de consumo renovable con correlación horaria estricta.\n• <b>Por qué importa:</b> Mientras el Gobierno busca evitar un sobrecoste de 5.000 millones de euros al año en la red, la patronal advierte que la medida pone en riesgo 66.900 millones de euros en inversión hasta 2030.\n• <b>Qué sigue:</b> La patronal SpainDC recurrirá el decreto en los tribunales solicitando medidas cautelares, mientras la oposición promete su derogación si llega al gobierno.",
+      "bluesky": "El nuevo decreto exige a los centros de datos un 80% de consumo renovable en tiempo real. La patronal advierte la fuga de 66.900 millones de euros en inversiones. #PuntoCiego #Tecnología",
+      "linkedIn": "La promulgación del Real Decreto 1032/2026 introduce un sesgo de incertidumbre para la infraestructura digital en España. Al imponer una correlación horaria del 80% de origen renovable a centros de datos superiores a 10 MW, el marco regulatorio choca con la realidad técnica de las redes eléctricas y el estado de desarrollo del almacenamiento industrial.\n\nDesde la perspectiva macroeconómica, el regulador busca proteger al tejido industrial doméstico de incrementos previstos del 25% en el recibo de la luz y contener un impacto directo de 5.000 millones de euros en el sistema eléctrico. No obstante, la rigidez normativa amenaza compromisos de capital por 66.900 millones de euros previstos hasta 2030, desviando flujos de inversión hacia jurisdicciones competidoras.\n\n#EconomíaDigital #Infraestructura #PuntoCiego"
+    },
+    "article": {
+      "slug": "espana-impone-estrictos-limites-centros-datos-a7yd",
+      "title": "España impone estrictos límites a los centros de datos y desata un choque con el sector tecnológico",
+      "dek": "El Real Decreto 1032/2026 exige a las grandes instalaciones certificar su consumo renovable hora a hora. El Ejecutivo busca blindar la red eléctrica, pero las empresas advierten sobre una paralización masiva de inversiones.",
+      "keyFacts": [
+        "El Real Decreto 1032/2026 exige un 80% de consumo renovable con correlación horaria a centros de datos de 10 MW o más.",
+        "Según el Ministerio para la Transición Ecológica, la norma previene un sobrecoste de 5.000 millones de euros al año y encarecimientos del 25% en la tarifa industrial.",
+        "La patronal SpainDC cifra en 66.900 millones de euros la inversión amenazada hasta 2030 y reporta la retirada de 9.000 millones en proyectos iniciales.",
+        "La Agencia Internacional de la Energía calcula que el consumo global de los centros de datos se duplicará para 2030 hasta alcanzar los 945 TWh."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Consejo de Ministros aprobó el Real Decreto 1032/2026, una norma marco encaminada a regular la sostenibilidad e integración en red de los centros de datos de gran capacidad. La regulación afecta de forma directa a las instalaciones con una potencia contratada igual o superior a 10 MW, exigiendo que el 80% de la energía consumida provenga de fuentes renovables con correlación horaria en tiempo real.",
+            "La respuesta del tejido empresarial ha sido inmediata. La patronal del sector, SpainDC, encabezada por su directora ejecutiva Begoña Villacís, confirmó la interposición de recursos ante la justicia junto con la solicitud de medidas cautelares. Desde la asociación sostienen que la obligación de acoplar el funcionamiento ininterrumpido de las infraestructuras a la generación renovable instantánea resulta inviable con la tecnología actual."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El despliegue global de la computación en la nube y la inteligencia artificial requiere volúmenes de energía sin precedentes. De acuerdo con las estimaciones de la Agencia Internacional de la Energía (AIE), la demanda eléctrica de los centros de datos a nivel mundial alcanzará los 945 TWh para el año 2030, representando aproximadamente el 3% del consumo global.",
+            "En el escenario español, según datos del informe anual de SpainDC, estas infraestructuras representaban el 0,8% de la electricidad consumida en 2025. Sin embargo, las proyecciones oficiales del Gobierno estiman que la demanda del sector escalará hasta situarse entre los 3,5 y 4 GW para 2030, obligando a redefinir la planificación de las redes de transporte."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Detrás del pulso normativo subyace una fricción de fondo sobre el reparto de costes de la infraestructura energética. Según declaraciones recogidas por Europa Press de la ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, la ausencia de esta regulación habría trasladado al sistema eléctrico un sobrecoste estimado de 5.000 millones de euros al año, incrementando la factura eléctrica industrial hasta en un 25%.",
+            "El análisis de Punto Ciego evidencia que el Ejecutivo ha utilizado la exigencia ambiental como un mecanismo de contención preventiva ante la saturación de la red. Al obligar a una coincidencia horaria estricta cuando las baterías comerciales ofrecen una autonomía media de cuatro horas, la norma convierte a la capacidad de la red en el factor determinante del ritmo de digitalización del país."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el corto plazo, el regulador y los consumidores industriales salvan el riesgo de asumir cargos adicionales en las peajes de red derivados de la rápida integración de estas cargas masivas. Por el contrario, las corporaciones tecnológicas y los fondos de infraestructura asumen el mayor impacto operativo.",
+            "SpainDC calcula que la medida pone en riesgo hasta 66.900 millones de euros en inversiones proyectadas hacia 2030, señalando que tres grandes inversores ya han retirado proyectos valorados en 9.000 millones de euros. Mercados vecinos con esquemas de acceso a red más predecibles emergen como los receptores inmediatos del capital desplazado."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El curso judicial de las medidas cautelares solicitadas por la patronal marcará el margen de maniobra temporal de las empresas operativas. A nivel político, el Partido Popular ha anunciado su compromiso de derogar el decreto en caso de asumir el Gobierno, mientras las firmas internacionales mantienen abiertos los canales institucionales para ajustar los términos técnicos de la norma."
+          ]
+        }
+      ],
+      "tags": [
+        "centros de datos",
+        "regulación energética",
+        "renovables",
+        "inversión tecnológica",
+        "red eléctrica",
+        "inteligencia artificial"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+          "url": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "SpainDC, patronal de centros de datos, recurre el decreto",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdGpkbW9waXR0WEplanctTDBnb0JQQWgzRnhYSFNfdXRqN054WWMzenkxczNEOVB5WC0wWGg1VnJvbEVIYno4cWRwTjZidmI1TmdGc3BTdmI3ZXdMYzZqTV9XWF9tVlRKWDBhSnlUUDNHcVNfcWlZT3NJZFBFR0txUURLeDFQSmJ4NDRwdld5bw?oc=5"
+        },
+        {
+          "name": "Cadena SER",
+          "title": "Begoña Villacís: \"Vamos a recurrir el decreto de los centros de datos porque es letal para el sector\"",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeVpweUpoNkExX2g4Qm9VMFpWWlJnNzJmamVVT25adUI0WVc2N3MyLUt4QXpSazZGTlJhWS1lcUFrdjF0a0N4VVFEdTR3MUZRNnpfWXVmbW5QSExGUXcycWpRaFY0cExUODdERE16MEs1UmZET01JeHJ2alFnOU9WTHJfQ1FHYU01a05PWUpTR0pKVEdZb2NZWkwwNlVqMmtubm5VdHgyak0zQXNUU2p2dk81RnpTTDZpRUZmTU1DWWVIOVRncTVfWlA2MEJyU3Z6azQtZklxWGZPd3JLMnlCNmtGZ3RLVnfSAfsBQVVfeXFMT1A2U1JHWlFCRVA4MjEwVXFDT0tpWHVhdTF2S01UekRadkFGOGZzbVd5bGxSdV90NHlCY0ZXVV82Q2E2aVRNNTFrczhwY1hkU0R0ZFFBd2VRV19XUFFVMUxsUDNIWmtwblZ2UDMxSUMyOUdTNlFJQUdvU3h2V09JRHlyRUNSa1NMbXVuWVlFV2NGS2pvMUlnQzYydWszeGlWa0ZOQUdEMnNmMjRtWm8tMGZIc1RsNmxsTnNfdGFxV2ZielRQQWdhSENKT3ZxbzFJWUNabzBFUkY1d2lkZFNoblBEeHhjZThFaXEwenpNcnlIazRBZ0I0V0FjVDQ?oc=5"
+        },
+        {
+          "name": "El Español",
+          "title": "El PP derogará el decreto de centros de datos y las empresas extranjeras piden diálogo para \"garantizar su viabilidad\"",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTUNWM3ZCV0ZRZjJwV2Rsaks5dnVSVmdmV1k0RWVNV0hjQTVJQy1DWHlicUhBRy1EbVU4ZzZiMVJ1RTIyV0RUVnlmeVVnMHBUMEVzVEItbWh0aE1ERFpDQnppQ1ZYcXVMaU4tanlVUk5TRXlnSkNYd3hVcTJBZkYtNUVveVZhZ3lHMUh4RWZINl9faGY0Z1I1bWhzb2g5Q3ducExkdldYLWhodUV6OGJVV201N2EtLVJpM2MybUlhNC1MR0d3QkJYR051VGQtQlY5MmhoczZYSE5yYjZoeFdjN1drUEF2bjBobC1JbE45MjZzQVNEWkJ1MkpJT1E1a1FMaTgwQlFpVdIBhwJBVV95cUxQTUNWM3ZCV0ZRZjJwV2Rsaks5dnVSVmdmV1k0RWVNV0hjQTVJQy1DWHlicUhBRy1EbVU4ZzZiMVJ1RTIyV0RUVnlmeVVnMHBUMEVzVEItbWh0aE1ERFpDQnppQ1ZYcXVMaU4tanlVUk5TRXlnSkNYd3hVcTJBZkYtNUVveVZhZ3lHMUh4RWZINl9faGY0Z1I1bWhzb2g5Q3ducExkdldYLWhodUV6OGJVV201N2EtLVJpM2MybUlhNC1MR0d3QkJYR051VGQtQlY5MmhoczZYSE5yYjZoeFdjN1drUEF2bjBobC1JbE45MjZzQVNEWkJ1MkpJT1E1a1FMaTgwQlFpVQ?oc=5"
+        }
+      ],
+      "wordCount": 559
+    },
+    "videoScript": {
+      "hook": "¿Por qué España acaba de frenar el crecimiento de los centros de datos?",
+      "beats": [
+        "Un nuevo decreto exige que el 80% de su consumo sea renovable producido en la misma hora.",
+        "El Gobierno evita subir la luz pero la patronal alerta que 66.900 millones de euros están en riesgo.",
+        "Y aquí viene lo interesante porque sin baterías suficientes el sector amenaza con irse de España."
+      ],
+      "close": "Lee el análisis completo en el enlace de nuestro perfil."
+    },
+    "rawImageUrl": "https://i.blogs.es/028a97/centro/840_560.jpeg",
+    "status": "published",
+    "createdAt": "2026-11-22T11:02:11.376Z",
+    "cardImageUrl": "/news-cards/news-h47brlaqm-1795345331376.jpg",
+    "reelCoverUrl": "/news-cards/news-h47brlaqm-1795345331921-cover.jpg",
+    "instagramCardUrl": "/news-cards/news-h47brlaqm-1795345332414-ig.jpg",
+    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/espana-impone-estrictos-limites-centros-datos-a7yd/",
+    "publishedAt": "2026-11-22T11:18:07.975Z"
+  },
+  {
     "id": "8b1lr39a0",
     "originalUrl": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
     "originalTitle": "Three killed and dozens missing after fire at Indonesian factory",
@@ -22637,133 +22753,5 @@
     "instagramCardUrl": "/news-cards/news-ofh5c4whg-1794248263159-ig.jpg",
     "articleUrl": "https://puntociegoglobal.pages.dev/noticias/caida-russell-brand-impunidad-mediatica-condena-556p/",
     "publishedAt": "2026-11-09T22:23:49.082Z"
-  },
-  {
-    "id": "l3p8lx6rc",
-    "originalUrl": "https://theconversation.com/hacia-donde-van-las-negociaciones-sobre-el-clima-de-la-cop31-mas-electricidad-para-salvar-el-mundo-296161",
-    "originalTitle": "Hacia dónde van las negociaciones sobre el clima de la COP31: más electricidad para salvar el mundo",
-    "sourceName": "The Conversation",
-    "category": "PODER & SOCIEDAD",
-    "urgencyScore": 82,
-    "headline": "COP31 EN ANTALYA BUSCA ACUERDO GLOBAL DE ELECTRIFICACIÓN",
-    "subHeadline": "Alrededor de 80 líderes mundiales se despliegan en Turquía para la cumbre climática anual, coorganizada con Australia. La ausencia de Estados Unidos y las tensiones por el consenso de 190 países condicionan el debate.",
-    "blindSpotAngle": "El impulso diplomático hacia un objetivo global de electrificación oculta la parálisis estructural de la gobernanza climática. El requisito de consenso unánime entre más de 190 países reduce las resoluciones finales al mínimo común denominador, mientras la salida formal de Estados Unidos neutraliza cualquier coacción legal efectiva sobre las grandes potencias emisoras.",
-    "facebookPost": "Unos 80 líderes mundiales se despliegan en la ciudad costera de Antalya con motivo de la cumbre COP31, bajo un esquema inédito: Turquía ejerce de anfitriona y Australia lidera las negociaciones. El objetivo central sobre la mesa es pactar una meta global de electrificación limpia que reduzca la dependencia del carbón, el petróleo y el gas natural. Sin embargo, detrás del optimismo institucional se esconde un mecanismo procedimental prácticamente exhausto.\n\nLa exigencia de unanimidad entre más de 190 Estados convierte cada documento oficial en el mínimo común denominador tolerado por petroestados e islas vulnerables por igual. Con la retirada formal de Estados Unidos del acuerdo y el peso constante del lobby extractivo en las deliberaciones, la distancia entre las metas científicas del Acuerdo de París y la realidad industrial continúa profundizándose.\n\n¿Es sostenible mantener la arquitectura del multilateralismo ambiental cuando los principales emisores eluden sus responsabilidades institucionales?\n\nFuente: The Conversation\n\n#PuntoCiego #COP31 #TransicionEnergetica",
-    "telegramPost": "<b>COP31 EN ANTALYA BUSCA ACUERDO GLOBAL DE ELECTRIFICACIÓN</b>\n\n• <b>Qué ocurrió:</b> Alrededor de 80 líderes nacionales participan en la cumbre climática COP31 en Antalya, coorganizada por Turquía y Australia, para debatir un objetivo global de electrificación limpia.\n• <b>Por qué importa:</b> La retirada de Estados Unidos y la norma del consenso unánime entre más de 190 países limitan los avances a resoluciones de bajo impacto que no frenan la quema de combustibles fósiles.\n• <b>Qué sigue:</b> Las delegaciones intentarán definir el calendario del próximo informe global sobre el clima mientras enfrentan la presión de organizaciones civiles para acotar la influencia del sector energético tradicional.",
-    "linkedInPost": "La celebración de la COP31 en Antalya evidencia las contradicciones actuales en la gobernanza climática internacional. Con Turquía al frente de la logística y Australia al mando de las negociaciones diplomáticas, la cumbre busca establecer marcos globales de electrificación orientados a descarbonizar la matriz energética. No obstante, desde la perspectiva del análisis estratégico, la viabilidad de estos acuerdos internacionales muestra un claro desgaste.\n\nEl repliegue de Estados Unidos de las negociaciones de la ONU, sumado al principio de unanimidad que rige para más de 190 países, restringe la adopción de regulaciones vinculantes de alto impacto sobre los mercados energéticos. Aunque el Acuerdo de París fijó la meta de limitar el calentamiento a 1,5 °C y alcanzar cero emisiones netas para mediados de siglo, la falta de incentivos coercitivos mantiene una brecha crítica entre el discurso gubernamental y la ejecución de infraestructura industrial.\n\nFuente: The Conversation\n\n#PuntoCiego #EconomiaGlobal #COP31",
-    "blueskyPost": "En la COP31 de Antalya, 80 líderes debaten metas de electrificación. Pero sin EE. UU. y bajo la regla del consenso entre 190 países, la diplomacia climática queda atrapada en acuerdos mínimos. #PuntoCiego #COP31",
-    "copies": {
-      "facebook": "Unos 80 líderes mundiales se despliegan en la ciudad costera de Antalya con motivo de la cumbre COP31, bajo un esquema inédito: Turquía ejerce de anfitriona y Australia lidera las negociaciones. El objetivo central sobre la mesa es pactar una meta global de electrificación limpia que reduzca la dependencia del carbón, el petróleo y el gas natural. Sin embargo, detrás del optimismo institucional se esconde un mecanismo procedimental prácticamente exhausto.\n\nLa exigencia de unanimidad entre más de 190 Estados convierte cada documento oficial en el mínimo común denominador tolerado por petroestados e islas vulnerables por igual. Con la retirada formal de Estados Unidos del acuerdo y el peso constante del lobby extractivo en las deliberaciones, la distancia entre las metas científicas del Acuerdo de París y la realidad industrial continúa profundizándose.\n\n¿Es sostenible mantener la arquitectura del multilateralismo ambiental cuando los principales emisores eluden sus responsabilidades institucionales?\n\n#PuntoCiego #COP31 #TransicionEnergetica",
-      "telegram": "<b>COP31 EN ANTALYA BUSCA ACUERDO GLOBAL DE ELECTRIFICACIÓN</b>\n\n• <b>Qué ocurrió:</b> Alrededor de 80 líderes nacionales participan en la cumbre climática COP31 en Antalya, coorganizada por Turquía y Australia, para debatir un objetivo global de electrificación limpia.\n• <b>Por qué importa:</b> La retirada de Estados Unidos y la norma del consenso unánime entre más de 190 países limitan los avances a resoluciones de bajo impacto que no frenan la quema de combustibles fósiles.\n• <b>Qué sigue:</b> Las delegaciones intentarán definir el calendario del próximo informe global sobre el clima mientras enfrentan la presión de organizaciones civiles para acotar la influencia del sector energético tradicional.",
-      "bluesky": "En la COP31 de Antalya, 80 líderes debaten metas de electrificación. Pero sin EE. UU. y bajo la regla del consenso entre 190 países, la diplomacia climática queda atrapada en acuerdos mínimos. #PuntoCiego #COP31",
-      "linkedIn": "La celebración de la COP31 en Antalya evidencia las contradicciones actuales en la gobernanza climática internacional. Con Turquía al frente de la logística y Australia al mando de las negociaciones diplomáticas, la cumbre busca establecer marcos globales de electrificación orientados a descarbonizar la matriz energética. No obstante, desde la perspectiva del análisis estratégico, la viabilidad de estos acuerdos internacionales muestra un claro desgaste.\n\nEl repliegue de Estados Unidos de las negociaciones de la ONU, sumado al principio de unanimidad que rige para más de 190 países, restringe la adopción de regulaciones vinculantes de alto impacto sobre los mercados energéticos. Aunque el Acuerdo de París fijó la meta de limitar el calentamiento a 1,5 °C y alcanzar cero emisiones netas para mediados de siglo, la falta de incentivos coercitivos mantiene una brecha crítica entre el discurso gubernamental y la ejecución de infraestructura industrial.\n\n#PuntoCiego #EconomiaGlobal #COP31"
-    },
-    "article": {
-      "slug": "cumbre-cop31-antalya-expone-limites-consenso-opt6",
-      "title": "La cumbre COP31 en Antalya expone los límites del consenso climático multilateral",
-      "dek": "Cerca de 80 líderes mundiales debaten en Turquía un objetivo global de electrificación limpia. Detrás del esquema compartido con Australia, la ausencia de Estados Unidos y el veto cruzado amenazan con diluir los resultados.",
-      "keyFacts": [
-        "Alrededor de 80 jefes de Estado y de Gobierno asisten a la cumbre anual del clima COP31 en Antalya, Turquía.",
-        "Turquía actúa como país anfitrión mientras que Australia encabeza las mesas de negociación diplomática.",
-        "Las decisiones de la COP requieren el consenso unánime de más de 190 países para ser ratificadas.",
-        "Estados Unidos se retiró formalmente del proceso de negociaciones climáticas internacionales de la ONU.",
-        "El objetivo central trazado en el Acuerdo de París de 2015 busca limitar el incremento térmico a 1,5 °C."
-      ],
-      "sections": [
-        {
-          "heading": "Qué pasó",
-          "paragraphs": [
-            "Unos 80 líderes mundiales se dan cita en la ciudad costera turca de Antalya para la Conferencia de las Partes de la ONU sobre el clima, la COP31. La reunión de este año presenta una estructura de liderazgo dividida: Turquía asume las funciones de país anfitrión en sus instalaciones, mientras que Australia conduce los equipos de negociación diplomática. El núcleo de las sesiones se centra en negociar un objetivo global de electrificación para acelerar la transición energética desde el carbón, el petróleo y el gas natural hacia fuentes de electricidad limpia, según informa The Conversation.",
-            "Las deliberaciones tienen lugar en un entorno internacional atravesado por tensiones geopolíticas, el rápido avance de la inteligencia artificial y desafíos institucionales en diversas democracias. A pesar de estos factores de distracción, los diplomáticos intentan redactar compromisos comunes para frenar el aumento sistemático de la temperatura global."
-          ]
-        },
-        {
-          "heading": "El contexto",
-          "paragraphs": [
-            "El marco de negociaciones climáticas surgió a partir de la Cumbre de la Tierra en Río de Janeiro en 1992 y se ha mantenido durante más de tres décadas mediante reuniones anuales. En 2015, los países signatarios alcanzaron el Acuerdo de París, fijando la meta de limitar el calentamiento global a 1,5 °C por encima de la era preindustrial, lo que exige lograr emisiones netas cero a mediados del siglo XXI.",
-            "Sin embargo, el ritmo de reducción de emisiones no coincide con las proyecciones de la comunidad científica. Si bien las emisiones globales globales mostraron cierta estabilidad en 2025 gracias a la reducción de incendios forestales y un menor cambio en el uso del suelo, el volumen de emisiones proveniente de la quema directa de combustibles fósiles continuó creciendo en el mismo período."
-          ]
-        },
-        {
-          "heading": "El punto ciego",
-          "paragraphs": [
-            "Desde la perspectiva analítica de Punto Ciego, la discusión formal sobre la electrificación disimula el agotamiento del modelo diplomático multilateral. La exigencia de que los acuerdos se adopten por consenso unánime entre más de 190 países somete cualquier texto final a la aprobación del participante más reticente. El resultado sistemático es la adopción de resoluciones basadas en el mínimo común denominador, distantes de los niveles de reducción requeridos.",
-            "A este condicionante se suma la desvinculación total de Estados Unidos del tratado y sus mecanismos de supervisión. Sin la implicación del principal mercado y emisor histórico, la legitimidad y la capacidad coercitiva del foro quedan severamente reducidas. Paralelamente, como han denunciado organizaciones como Amnistía Internacional, la presencia persistente de grupos de presión vinculados a los combustibles fósiles dentro de las delegaciones oficiales obstaculiza la fijación de calendarios vinculantes para la eliminación de los hidrocarburos."
-          ]
-        },
-        {
-          "heading": "Quién gana y quién pierde",
-          "paragraphs": [
-            "Los actores que preservan su cuota de poder en este escenario son las industrias extractivas y los Estados exportadores de petróleo y gas, que logran evitar plazos estrictos de desmantelamiento de sus operaciones. Asimismo, Turquía y Australia consolidan su protagonismo diplomático al coordinar un evento de alto nivel en un contexto geopolítico complejo.",
-            "Por el contrario, los países insulares en desarrollo y las poblaciones más expuestas a fenómenos climáticos extremos sufren las consecuencias del avance incremental. La falta de mecanismos de financiación obligatorios e inmediatos deja a las naciones vulnerables sin la infraestructura adecuada para encarar las perturbaciones ambientales."
-          ]
-        },
-        {
-          "heading": "Qué vigilar",
-          "paragraphs": [
-            "En los próximos meses será decisivo observar si los gobiernos logran un consenso sobre la fecha de publicación del siguiente informe global sobre el clima, punto en el que persisten profundos desacuerdos. De igual forma, habrá que dar seguimiento a si el objetivo de electrificación debatido en Antalya se traduce en compromisos financieros concretos o si queda limitado a una declaración diplomática no vinculante."
-          ]
-        }
-      ],
-      "tags": [
-        "COP31",
-        "Antalya",
-        "Electrificacion",
-        "Multilateralismo",
-        "Turquia",
-        "CambioClimatico"
-      ],
-      "sources": [
-        {
-          "name": "The Conversation",
-          "title": "Hacia dónde van las negociaciones sobre el clima de la COP31: más electricidad para salvar el mundo",
-          "url": "https://theconversation.com/hacia-donde-van-las-negociaciones-sobre-el-clima-de-la-cop31-mas-electricidad-para-salvar-el-mundo-296161"
-        },
-        {
-          "name": "HolaNews",
-          "title": "Von der Leyen dice que la UE estará presente en negociaciones sobre Ucrania en Abu Dabi",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeXQ4TzBqN2w3WEVLcnVNRnVVWUpibGdxSHA1djVqanJiV1JBQ3NWSU1WeW1zSXNIS1lnVkR2NWdsaWtISUdzR3VFWkpSLV90VGgzYW9oYlkzcmJsV0dlNzZuZmlvMjRwT2U1bXJxMUN5dmg3azE0RDFJYlBtUlhIUVVXU2lMT0dSUTROZE5kZVN3ZUZtaHROemFOMFAzQUVmSm1sU1hYbkdzT2RGTWc?oc=5"
-        },
-        {
-          "name": "RTVE.es",
-          "title": "COP31 Antalya 2026: claves de la cumbre climática de la ONU",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2tTb0FKc2F4YXZ2cHNiS1Z2aENEcmE5U01ZazY0UF83ckZvcGQyaTVYcEJSODZLbTU5LU54Rk5SbWpHMjg4STRhbXlmcXpqQ2dsYmN5cmhqOUJBVm5LNEx5d3UySmFGV2JUeWFOaUVsbk5iQjhIclJ4R1I5UlpIMTBBdmstbktmTm5yTE5HV3IyTFFoQmxlYTlwZUxoaW15R3Uxa2JhUkpkbGhIWTNGcTB3?oc=5"
-        },
-        {
-          "name": "EcoAvant.com",
-          "title": "Amnistía Internacional pide a la COP31 limitar el peso del lobby fósil y dar voz a las comunidades",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMEZjMWpNUFlqTVIxMklMNVBZdG5WdU1xaGxZcU8wN3BsekJacW50SVJCeTduYTJtWDFlRS1DWFVkdXpkQWk0c1ZfbkhLcTZWc00yaWJpdjJQWGlGc3R4dTdhWjZ2c0VqRHhLNlk3TzFERmNaeFNLQzZnUnpUMHRhQS0xXzRQU0J1UjBFNWxnYVdSOFRzZmV4UW9WQmpaODRXczRGZWw5TmhkS2pjTHVzSmFsTWE2MDhIQnVwUEpoaEfSAcYBQVVfeXFMUGdZNUdiVVFuMEZFX0tjRGNPV2pVLTU2dWlYSVZqdElQNUdTOVlkbDlqcWtiT0Fab090OVU0S0lGakdDRWtfQVR0eWZTdFhrYkVmWGJHS25qcUlaMmJCcEl4bGkzcUVVOTFKOVJ3S3FYZmgtOWNuaGpNRUpQbG1fZHM4WHZCNTBPaHFCdUNoN1BsMGhrbm9YY2E5N3NxNVYzeFBfektDamlUX3Y3RDBWdlBfS0V0VUJvVFhHcUQ0emhpYWVsWkdn?oc=5"
-        },
-        {
-          "name": "La Vanguardia",
-          "title": "La COP31 se juega la credibilidad del Acuerdo de París contra el cambio climático",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHp3MUttTV93Z0tmYk1ueE82VElDMThUbTRuT3EydnhfLVNhaGw3MVB0U2ZoT0t0UzdHakprYktOVHBnMWNBejF0STgtYVU1ZzdVTVc1eU1rS3dickxRQ3lhc19hNkpWbEdvU2JSLUdTeVd0QzExUmxna1lzckZfaElKeXlEbzFsRE04N0NkUmlvVDNsYnpGSDh1Z01vWGlqam9MNHB5SWpEcXF0SE80Q1VLcG9tSlprUklj0gG7AUFVX3lxTE90encxS21NX3dnS2ZiTW54TzZUSUMxOFRtNG5PcTJ2eF8tU2FobDcxUHRTZmhPS3RTN0dqSmtiS05UcGcxY0F6MXRJOC1hVTVnN1VNVzV5TWtLd2JyTFFDeWFzX2E2SlZsR29TYlItR1N5V3RDMTFSbGdrWXNyRl9oSUp5eURvMWxETTg3Q2RSaW9UM2xiekZIOHVnTW9YaWpqb0w0cHlJakRxcXRITzRDVUtwb21KWmtSSWM?oc=5"
-        }
-      ],
-      "wordCount": 615
-    },
-    "videoScript": {
-      "hook": "¿Puede un plan global de electrificación funcionar sin Estados Unidos?",
-      "beats": [
-        "Cerca de 80 líderes mundiales discuten en la cumbre COP31 metas colectivas de energía limpia.",
-        "El problema es que cualquier decisión requiere el consenso unánime de más de 190 países.",
-        "Y lo que nadie dice es que la ausencia de potencias convierte los acuerdos en compromisos mínimos."
-      ],
-      "close": "Lee el análisis completo sobre la COP31 en el enlace del perfil."
-    },
-    "rawImageUrl": "https://img.rtve.es/imagenes/cop-31-antalya-2026-claves-cumbre-climatica-naciones-unidas/01794070355204.jpg",
-    "sourceVideo": {
-      "provider": "youtube",
-      "id": "sDunJkHFmFQ",
-      "title": "Cumbre del Clima COP31: las claves 📚 | Noticias del Mundo 🌍 #Shorts",
-      "channel": "Mundo en 5 Noticias | Resumen Diario 🌍"
-    },
-    "status": "published",
-    "createdAt": "2026-11-09T17:11:14.734Z",
-    "cardImageUrl": "/news-cards/news-l3p8lx6rc-1794244274734.jpg",
-    "reelCoverUrl": "/news-cards/news-l3p8lx6rc-1794244275341-cover.jpg",
-    "instagramCardUrl": "/news-cards/news-l3p8lx6rc-1794244275902-ig.jpg",
-    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/cumbre-cop31-antalya-expone-limites-consenso-opt6/",
-    "publishedAt": "2026-11-09T20:53:43.469Z"
   }
 ]
