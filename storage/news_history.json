@@ -330,9 +330,39 @@
     "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981",
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWxJdV9nNWE3T29kcXphNGYycDVHTlR1bmYxLV9UNDJ3ODkzWEx1bEczdTlORVJCQlpNQ0pGQV9OWjFrMFcwN2puSDhKdjZLWDViWmtOaEtpR0NuSGFoUWM4c1ViNDg0MlZNNjJyLUphTlU2SHVzMTJpM2d0dUdyc1J0bUVZdVhsZTQtc05R?oc=5",
     "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street",
-    "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss"
+    "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
+    "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "INCENDIO EN FÁBRICA DE INDONESIA DEJA TRES MUERTOS Y DECENAS DE DESAPARECIDOS",
+      "normalizedTokens": [
+        "incendio",
+        "fabrica",
+        "indonesia",
+        "deja",
+        "tres",
+        "muertos",
+        "decenas",
+        "desaparecidos"
+      ],
+      "date": "2026-11-22T09:32:05.540Z"
+    },
+    {
+      "title": "Three killed and dozens missing after fire at Indonesian factory",
+      "normalizedTokens": [
+        "three",
+        "killed",
+        "and",
+        "dozens",
+        "missing",
+        "after",
+        "fire",
+        "indonesian",
+        "factory"
+      ],
+      "date": "2026-11-22T09:32:05.538Z"
+    },
     {
       "title": "CAPTURA DE EL CHAPO ISIDRO EN SINALOA DEJA ONCE MUERTOS",
       "normalizedTokens": [
@@ -7389,33 +7419,6 @@
         "war"
       ],
       "date": "2026-11-06T16:42:34.931Z"
-    },
-    {
-      "title": "CIBERATAQUE MASIVO EXPONE DATOS ESTATALES EN MOLDAVIA",
-      "normalizedTokens": [
-        "ciberataque",
-        "masivo",
-        "expone",
-        "datos",
-        "estatales",
-        "moldavia"
-      ],
-      "date": "2026-11-06T15:48:23.289Z"
-    },
-    {
-      "title": "Un ciberataque expone los datos médicos y financieros de casi un cuarto de la población de Moldavia",
-      "normalizedTokens": [
-        "ciberataque",
-        "expone",
-        "datos",
-        "medicos",
-        "financieros",
-        "casi",
-        "cuarto",
-        "poblacion",
-        "moldavia"
-      ],
-      "date": "2026-11-06T15:48:23.288Z"
     }
   ]
 }
