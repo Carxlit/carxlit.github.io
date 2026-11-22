@@ -331,9 +331,39 @@
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWxJdV9nNWE3T29kcXphNGYycDVHTlR1bmYxLV9UNDJ3ODkzWEx1bEczdTlORVJCQlpNQ0pGQV9OWjFrMFcwN2puSDhKdjZLWDViWmtOaEtpR0NuSGFoUWM4c1ViNDg0MlZNNjJyLUphTlU2SHVzMTJpM2d0dUdyc1J0bUVZdVhsZTQtc05R?oc=5",
     "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street",
     "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
-    "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+    "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno"
   ],
   "processedSignatures": [
+    {
+      "title": "ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS",
+      "normalizedTokens": [
+        "espana",
+        "regula",
+        "centros",
+        "datos",
+        "arriesga",
+        "inversiones",
+        "multimillonarias"
+      ],
+      "date": "2026-11-22T11:02:13.598Z"
+    },
+    {
+      "title": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+      "normalizedTokens": [
+        "begona",
+        "villacis",
+        "prohibicion",
+        "facto",
+        "patronal",
+        "centros",
+        "datos",
+        "pie",
+        "guerra",
+        "gobierno"
+      ],
+      "date": "2026-11-22T11:02:13.596Z"
+    },
     {
       "title": "INCENDIO EN FÁBRICA DE INDONESIA DEJA TRES MUERTOS Y DECENAS DE DESAPARECIDOS",
       "normalizedTokens": [
@@ -7393,32 +7423,6 @@
         "infantil"
       ],
       "date": "2026-11-06T18:02:30.900Z"
-    },
-    {
-      "title": "HEGSETH DEFIENDE LA GUERRA CON IRÁN DESDE EL PENTÁGONO",
-      "normalizedTokens": [
-        "hegseth",
-        "defiende",
-        "guerra",
-        "iran",
-        "pentagono"
-      ],
-      "date": "2026-11-06T16:42:34.932Z"
-    },
-    {
-      "title": "Hegseth vows to keep fighting from Pentagon, defends Iran war",
-      "normalizedTokens": [
-        "hegseth",
-        "vows",
-        "keep",
-        "fighting",
-        "from",
-        "pentagon",
-        "defends",
-        "iran",
-        "war"
-      ],
-      "date": "2026-11-06T16:42:34.931Z"
     }
   ]
 }

@@ -1,5 +1,96 @@
 [
   {
+    "slug": "espana-impone-estrictos-limites-centros-datos-a7yd",
+    "path": "noticias/espana-impone-estrictos-limites-centros-datos-a7yd/",
+    "title": "España impone estrictos límites a los centros de datos y desata un choque con el sector tecnológico",
+    "headline": "ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS",
+    "dek": "El Real Decreto 1032/2026 exige a las grandes instalaciones certificar su consumo renovable hora a hora. El Ejecutivo busca blindar la red eléctrica, pero las empresas advierten sobre una paralización masiva de inversiones.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/espana-impone-estrictos-limites-centros-datos-a7yd.jpg",
+    "photo": "img/espana-impone-estrictos-limites-centros-datos-a7yd-foto.jpg",
+    "publishedAt": "2026-11-22T11:02:13.426Z",
+    "article": {
+      "slug": "espana-impone-estrictos-limites-centros-datos-a7yd",
+      "title": "España impone estrictos límites a los centros de datos y desata un choque con el sector tecnológico",
+      "dek": "El Real Decreto 1032/2026 exige a las grandes instalaciones certificar su consumo renovable hora a hora. El Ejecutivo busca blindar la red eléctrica, pero las empresas advierten sobre una paralización masiva de inversiones.",
+      "keyFacts": [
+        "El Real Decreto 1032/2026 exige un 80% de consumo renovable con correlación horaria a centros de datos de 10 MW o más.",
+        "Según el Ministerio para la Transición Ecológica, la norma previene un sobrecoste de 5.000 millones de euros al año y encarecimientos del 25% en la tarifa industrial.",
+        "La patronal SpainDC cifra en 66.900 millones de euros la inversión amenazada hasta 2030 y reporta la retirada de 9.000 millones en proyectos iniciales.",
+        "La Agencia Internacional de la Energía calcula que el consumo global de los centros de datos se duplicará para 2030 hasta alcanzar los 945 TWh."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El Consejo de Ministros aprobó el Real Decreto 1032/2026, una norma marco encaminada a regular la sostenibilidad e integración en red de los centros de datos de gran capacidad. La regulación afecta de forma directa a las instalaciones con una potencia contratada igual o superior a 10 MW, exigiendo que el 80% de la energía consumida provenga de fuentes renovables con correlación horaria en tiempo real.",
+            "La respuesta del tejido empresarial ha sido inmediata. La patronal del sector, SpainDC, encabezada por su directora ejecutiva Begoña Villacís, confirmó la interposición de recursos ante la justicia junto con la solicitud de medidas cautelares. Desde la asociación sostienen que la obligación de acoplar el funcionamiento ininterrumpido de las infraestructuras a la generación renovable instantánea resulta inviable con la tecnología actual."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El despliegue global de la computación en la nube y la inteligencia artificial requiere volúmenes de energía sin precedentes. De acuerdo con las estimaciones de la Agencia Internacional de la Energía (AIE), la demanda eléctrica de los centros de datos a nivel mundial alcanzará los 945 TWh para el año 2030, representando aproximadamente el 3% del consumo global.",
+            "En el escenario español, según datos del informe anual de SpainDC, estas infraestructuras representaban el 0,8% de la electricidad consumida en 2025. Sin embargo, las proyecciones oficiales del Gobierno estiman que la demanda del sector escalará hasta situarse entre los 3,5 y 4 GW para 2030, obligando a redefinir la planificación de las redes de transporte."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Detrás del pulso normativo subyace una fricción de fondo sobre el reparto de costes de la infraestructura energética. Según declaraciones recogidas por Europa Press de la ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen, la ausencia de esta regulación habría trasladado al sistema eléctrico un sobrecoste estimado de 5.000 millones de euros al año, incrementando la factura eléctrica industrial hasta en un 25%.",
+            "El análisis de Punto Ciego evidencia que el Ejecutivo ha utilizado la exigencia ambiental como un mecanismo de contención preventiva ante la saturación de la red. Al obligar a una coincidencia horaria estricta cuando las baterías comerciales ofrecen una autonomía media de cuatro horas, la norma convierte a la capacidad de la red en el factor determinante del ritmo de digitalización del país."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el corto plazo, el regulador y los consumidores industriales salvan el riesgo de asumir cargos adicionales en las peajes de red derivados de la rápida integración de estas cargas masivas. Por el contrario, las corporaciones tecnológicas y los fondos de infraestructura asumen el mayor impacto operativo.",
+            "SpainDC calcula que la medida pone en riesgo hasta 66.900 millones de euros en inversiones proyectadas hacia 2030, señalando que tres grandes inversores ya han retirado proyectos valorados en 9.000 millones de euros. Mercados vecinos con esquemas de acceso a red más predecibles emergen como los receptores inmediatos del capital desplazado."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El curso judicial de las medidas cautelares solicitadas por la patronal marcará el margen de maniobra temporal de las empresas operativas. A nivel político, el Partido Popular ha anunciado su compromiso de derogar el decreto en caso de asumir el Gobierno, mientras las firmas internacionales mantienen abiertos los canales institucionales para ajustar los términos técnicos de la norma."
+          ]
+        }
+      ],
+      "tags": [
+        "centros de datos",
+        "regulación energética",
+        "renovables",
+        "inversión tecnológica",
+        "red eléctrica",
+        "inteligencia artificial"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Begoña Villacís: \"Es una prohibición de facto\". La patronal de los centros de datos, en pie de guerra contra el Gobierno",
+          "url": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "SpainDC, patronal de centros de datos, recurre el decreto",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdGpkbW9waXR0WEplanctTDBnb0JQQWgzRnhYSFNfdXRqN054WWMzenkxczNEOVB5WC0wWGg1VnJvbEVIYno4cWRwTjZidmI1TmdGc3BTdmI3ZXdMYzZqTV9XWF9tVlRKWDBhSnlUUDNHcVNfcWlZT3NJZFBFR0txUURLeDFQSmJ4NDRwdld5bw?oc=5"
+        },
+        {
+          "name": "Cadena SER",
+          "title": "Begoña Villacís: \"Vamos a recurrir el decreto de los centros de datos porque es letal para el sector\"",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeVpweUpoNkExX2g4Qm9VMFpWWlJnNzJmamVVT25adUI0WVc2N3MyLUt4QXpSazZGTlJhWS1lcUFrdjF0a0N4VVFEdTR3MUZRNnpfWXVmbW5QSExGUXcycWpRaFY0cExUODdERE16MEs1UmZET01JeHJ2alFnOU9WTHJfQ1FHYU01a05PWUpTR0pKVEdZb2NZWkwwNlVqMmtubm5VdHgyak0zQXNUU2p2dk81RnpTTDZpRUZmTU1DWWVIOVRncTVfWlA2MEJyU3Z6azQtZklxWGZPd3JLMnlCNmtGZ3RLVnfSAfsBQVVfeXFMT1A2U1JHWlFCRVA4MjEwVXFDT0tpWHVhdTF2S01UekRadkFGOGZzbVd5bGxSdV90NHlCY0ZXVV82Q2E2aVRNNTFrczhwY1hkU0R0ZFFBd2VRV19XUFFVMUxsUDNIWmtwblZ2UDMxSUMyOUdTNlFJQUdvU3h2V09JRHlyRUNSa1NMbXVuWVlFV2NGS2pvMUlnQzYydWszeGlWa0ZOQUdEMnNmMjRtWm8tMGZIc1RsNmxsTnNfdGFxV2ZielRQQWdhSENKT3ZxbzFJWUNabzBFUkY1d2lkZFNoblBEeHhjZThFaXEwenpNcnlIazRBZ0I0V0FjVDQ?oc=5"
+        },
+        {
+          "name": "El Español",
+          "title": "El PP derogará el decreto de centros de datos y las empresas extranjeras piden diálogo para \"garantizar su viabilidad\"",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTUNWM3ZCV0ZRZjJwV2Rsaks5dnVSVmdmV1k0RWVNV0hjQTVJQy1DWHlicUhBRy1EbVU4ZzZiMVJ1RTIyV0RUVnlmeVVnMHBUMEVzVEItbWh0aE1ERFpDQnppQ1ZYcXVMaU4tanlVUk5TRXlnSkNYd3hVcTJBZkYtNUVveVZhZ3lHMUh4RWZINl9faGY0Z1I1bWhzb2g5Q3ducExkdldYLWhodUV6OGJVV201N2EtLVJpM2MybUlhNC1MR0d3QkJYR051VGQtQlY5MmhoczZYSE5yYjZoeFdjN1drUEF2bjBobC1JbE45MjZzQVNEWkJ1MkpJT1E1a1FMaTgwQlFpVdIBhwJBVV95cUxQTUNWM3ZCV0ZRZjJwV2Rsaks5dnVSVmdmV1k0RWVNV0hjQTVJQy1DWHlicUhBRy1EbVU4ZzZiMVJ1RTIyV0RUVnlmeVVnMHBUMEVzVEItbWh0aE1ERFpDQnppQ1ZYcXVMaU4tanlVUk5TRXlnSkNYd3hVcTJBZkYtNUVveVZhZ3lHMUh4RWZINl9faGY0Z1I1bWhzb2g5Q3ducExkdldYLWhodUV6OGJVV201N2EtLVJpM2MybUlhNC1MR0d3QkJYR051VGQtQlY5MmhoczZYSE5yYjZoeFdjN1drUEF2bjBobC1JbE45MjZzQVNEWkJ1MkpJT1E1a1FMaTgwQlFpVQ?oc=5"
+        }
+      ],
+      "wordCount": 559
+    },
+    "blindSpot": "Bajo la premisa de evitar un sobrecoste de 5.000 millones de euros anuales en la red eléctrica, el Gobierno utiliza la regulación de sostenibilidad como un freno preventivo ante el cuello de botella en la distribución. La exigencia de correlación horaria expone la falta de almacenamiento masivo en baterías y traslada la presión regulatoria directamente a los proyectos de inteligencia artificial."
+  },
+  {
     "slug": "tragedia-industrial-indonesia-expone-serias-fallas-3p1v",
     "path": "noticias/tragedia-industrial-indonesia-expone-serias-fallas-3p1v/",
     "title": "Tragedia industrial en Indonesia expone serias fallas de seguridad laboral",

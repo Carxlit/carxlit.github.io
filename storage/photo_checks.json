@@ -1618,5 +1618,10 @@
     "relevant": true,
     "reason": "Muestra un gran incendio nocturno en un edificio industrial con camiones de bomberos desplegados en la escena.",
     "at": "2026-11-22T09:32:00.787Z"
+  },
+  "a9b70d0db4267284:h47brlaqm": {
+    "relevant": true,
+    "reason": "Muestra la fachada e instalaciones de un centro de datos, que es el tema principal de la noticia.",
+    "at": "2026-11-22T11:02:09.824Z"
   }
 }
