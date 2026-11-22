@@ -332,9 +332,39 @@
     "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street",
     "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
     "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-    "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno"
+    "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
+    "https://www.eltiempo.com/mundo/latinoamerica/reportan-nuevo-temblor-de-magnitud-5-0-en-peru-este-domingo-22-de-noviembre-profundidad-epicentro-y-detalles-del-sismo-3603125"
   ],
   "processedSignatures": [
+    {
+      "title": "NUEVO SISMO DE MAGNITUD 5,0 SACUDE EL CENTRO DE PERÚ",
+      "normalizedTokens": [
+        "nuevo",
+        "sismo",
+        "magnitud",
+        "sacude",
+        "centro",
+        "peru"
+      ],
+      "date": "2026-11-22T11:20:44.096Z"
+    },
+    {
+      "title": "Reportan nuevo temblor de magnitud 5,0 en Perú este domingo 22 de noviembre: profundidad, epicentro y detalles del sismo",
+      "normalizedTokens": [
+        "reportan",
+        "nuevo",
+        "temblor",
+        "magnitud",
+        "peru",
+        "domingo",
+        "noviembre",
+        "profundidad",
+        "epicentro",
+        "detalles",
+        "sismo"
+      ],
+      "date": "2026-11-22T11:20:44.093Z"
+    },
     {
       "title": "ESPAÑA REGULA CENTROS DE DATOS Y ARRIESGA INVERSIONES MULTIMILLONARIAS",
       "normalizedTokens": [
@@ -7398,33 +7428,6 @@
         "peru"
       ],
       "date": "2026-11-06T20:01:42.748Z"
-    },
-    {
-      "title": "AMENAZAS FALSAS DE BOMBA ATORMENTAN LA AVIACIÓN EUROPEA",
-      "normalizedTokens": [
-        "amenazas",
-        "falsas",
-        "bomba",
-        "atormentan",
-        "aviacion",
-        "europea"
-      ],
-      "date": "2026-11-06T18:44:43.863Z"
-    },
-    {
-      "title": "Las amenazas falsas de bomba atormentan a la aviación europea con más de 40 vuelos afectados",
-      "normalizedTokens": [
-        "amenazas",
-        "falsas",
-        "bomba",
-        "atormentan",
-        "aviacion",
-        "europea",
-        "mas",
-        "vuelos",
-        "afectados"
-      ],
-      "date": "2026-11-06T18:44:43.862Z"
     }
   ]
 }
