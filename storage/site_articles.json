@@ -1,5 +1,81 @@
 [
   {
+    "slug": "freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0",
+    "path": "noticias/freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0/",
+    "title": "El freno físico de la inteligencia artificial: la revalorización masiva de los oficios técnicos",
+    "headline": "INFRAESTRUCTURA DE IA DISPARA DEMANDA DE OFICIOS EN ESTADOS UNIDOS",
+    "dek": "La construcción de centros de datos y plantas energéticas exige cubrir 1,7 millones de vacantes anuales en oficios técnicos en Estados Unidos. Tras el auge algorítmico, el cuello de botella decisivo vuelve a ser la mano de obra de la economía real.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "DiarioBitcoin",
+    "image": "img/freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0.jpg",
+    "photo": "img/freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0-foto.jpg",
+    "publishedAt": "2026-11-23T01:02:49.782Z",
+    "article": {
+      "slug": "freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0",
+      "title": "El freno físico de la inteligencia artificial: la revalorización masiva de los oficios técnicos",
+      "dek": "La construcción de centros de datos y plantas energéticas exige cubrir 1,7 millones de vacantes anuales en oficios técnicos en Estados Unidos. Tras el auge algorítmico, el cuello de botella decisivo vuelve a ser la mano de obra de la economía real.",
+      "keyFacts": [
+        "Informe sectorial citado por Yahoo Finance estima 1,7 millones de vacantes anuales en 124 ocupaciones de oficios calificados en EE.UU. hasta 2035.",
+        "Más de 18 millones de estadounidenses trabajan en la actualidad en el sector de oficios calificados.",
+        "Jeff Nobers, director del Builders Guild of Western Pennsylvania, reporta auge sin desaceleración en obras de centros de datos y plantas de gas natural.",
+        "Programas regionales como el Keystone Mountain Lakes Regional Council of Carpenters ofrecen aprendizaje pagado para responder a la escasez de mano de obra."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según información reportada por Yahoo Finance y difundida por DiarioBitcoin, la expansión acelerada de la inteligencia artificial en Estados Unidos está impulsando una demanda masiva de trabajadores en oficios calificados, como electricistas, carpinteros, plomeros e instaladores de tuberías. Lejos de reemplazar el trabajo manual, la construcción de centros de datos a gran escala y el fortalecimiento de la infraestructura energética han puesto de manifiesto una escasez crítica de mano de obra en la economía física.",
+            "En el oeste de Pensilvania, Jeff Nobers, director ejecutivo del Builders Guild of Western Pennsylvania, confirmó que la construcción no residencial en la región atraviesa un auge impulsado por proyectos multimillonarios. Las empresas demandan desde operadores de maquinaria y caldereros hasta instaladores de aislamiento y albañiles, oficios necesarios para erigir la estructura física y energética que requiere el procesamiento de datos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La magnitud del fenómeno abarca a todo el territorio estadounidense. La cobertura de Fox Baltimore sobre el informe sectorial destaca que el análisis contempla 124 ocupaciones de oficios calificados en los 50 estados, un universo que actualmente abarca a más de 18 millones de trabajadores. Hasta el año 2035, el mercado laboral requerirá cubrir aproximadamente 1,7 millones de vacantes anuales, empujado tanto por la creación de nuevas obras como por las jubilaciones de las generaciones anteriores.",
+            "Ante este escenario, cobran relevancia modelos alternativos de formación profesional. Caso representativo es el de Marty Tougher, aprendiz de carpintero de 21 años en Pittsburgh que trabaja en la obra de 900 camas del hospital UPMC Presbyterian. Su formación con el Keystone Mountain Lakes Regional Council of Carpenters combina instrucción teórica sin costo con trabajo remunerado desde el primer día, permitiendo abastecer proyectos de gran escala sin acumular deuda estudiantil."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "En el análisis de Punto Ciego, el discurso dominante de la industria tecnológica promovió la noción de un futuro puramente digital donde el software absorbe el valor económico. Sin embargo, la inteligencia artificial posee una huella material insustituible: requiere kilovatios ininterrumpidos, complejas redes de enfriamiento y subestaciones eléctricas de alta capacidad.",
+            "El verdadero punto ciego del auge algorítmico es que la velocidad de desarrollo del código ha superado la capacidad física de construcción de la red que lo sostiene. El mayor riesgo operativo para las Big Tech en la próxima década no proviene de la falta de modelos de lenguaje avanzados, sino de la imposibilidad de conectar servidores por falta de electricistas e instaladores industriales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los ganadores inmediatos de este giro estructural son los trabajadores técnicos y los gremios de la construcción, que recuperan poder de negociación salarial y prestigio social tras años de subordinación frente a las carreras corporativas tradicionales. De igual forma, las empresas de infraestructura energética y contratistas especializados se posicionan como actores indispensables para la ejecución del capital tecnológico.",
+            "En la contraparte, las corporaciones tecnológicas enfrentan sobrecostos masivos y retrasos en sus cronogramas de despliegue informático. Asimismo, el sistema de educación universitaria tradicional pierde atractivo frente a los programas de aprendizaje técnico pagado que garantizan empleo directo en proyectos vinculados al crecimiento tecnológico."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos trimestres será crucial monitorear los tiempos de demora en la interconexión de nuevos centros de datos a las redes eléctricas estatales en EE.UU., así como la evolución de los convenios colectivos de trabajo en el sector construcción.",
+            "Resultará clave evaluar si las grandes firmas tecnológicas comienzan a financiar directamente institutos técnicos y programas de aprendizaje para asegurar su propio suministro de fuerza laboral, convirtiendo la capacitación física en una variable de soberanía industrial."
+          ]
+        }
+      ],
+      "tags": [
+        "Inteligencia Artificial",
+        "Infraestructura",
+        "Empleo Técnico",
+        "Estados Unidos",
+        "Energía"
+      ],
+      "sources": [
+        {
+          "name": "DiarioBitcoin",
+          "title": "La fiebre de la inteligencia artificial revaloriza los oficios técnicos en Estados Unidos",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQk42RlpONkl2bXZhNVJKUkM3MjZsTm9PWFMtaFl5Z2duZWZ4cktQZTVVelJYTG5ldXNxbEd2YkpsRGVRT0ZIdDRFUWs1eTMxLUR6emtZdkdDeDNoeVotZW1ZRk02Q2ctallWRnViRVE2MkQ4Z0ctRUJ3Z2V2TWRiMG5XSjdhV1RRRVN6dXZLV1F6VkZSRFpmZllnTHZoNjhQREZ0dVdyOE9weUFMVjgtQTA5ZDNyd3lYamRfYTZiUkFycEFEMzZ1R2VlM3JPS1ZZ?oc=5"
+        }
+      ],
+      "wordCount": 617
+    },
+    "blindSpot": "Mientras el debate público se centra en la automatización del trabajo cognitivo por software, la verdadera vulnerabilidad del despliegue tecnológico reside en la infraestructura pesada. Sin electricistas, plomeros ni carpinteros para construir y conectar redes eléctricas y centros de datos, el avance de la inteligencia artificial queda limitado por la escasez de mano de obra técnica capacitada."
+  },
+  {
     "slug": "jugada-oro-argentino-entre-rentabilidad-financiera-hdy0",
     "path": "noticias/jugada-oro-argentino-entre-rentabilidad-financiera-hdy0/",
     "title": "La jugada del oro argentino: entre la rentabilidad financiera y el riesgo de embargo internacional",
