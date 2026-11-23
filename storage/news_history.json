@@ -343,9 +343,37 @@
     "https://www.dw.com/es/ucrania-reporta-al-menos-14-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf",
     "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
     "https://www.dw.com/es/ucrania-reporta-al-menos-15-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.rfi.fr/es/europa/20261123-ucrania-al-menos-15-muertos-tras-ataques-rusos-en-la-regi%C3%B3n-de-kiev"
+    "https://www.rfi.fr/es/europa/20261123-ucrania-al-menos-15-muertos-tras-ataques-rusos-en-la-regi%C3%B3n-de-kiev",
+    "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
   ],
   "processedSignatures": [
+    {
+      "title": "CASA BLANCA INTERVIENE Y RESTITUYE A JENSEN HUANG EN NVIDIA",
+      "normalizedTokens": [
+        "casa",
+        "blanca",
+        "interviene",
+        "restituye",
+        "jensen",
+        "huang",
+        "nvidia"
+      ],
+      "date": "2026-11-23T23:06:30.303Z"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "normalizedTokens": [
+        "nvidia",
+        "ceo",
+        "jensen",
+        "huang",
+        "back",
+        "what",
+        "happens",
+        "next"
+      ],
+      "date": "2026-11-23T23:06:30.302Z"
+    },
     {
       "title": "EL BANCO NACIONAL SUIZO ALISTA SUBIDA DE TIPOS TRAS INFLACIÓN DEL 1,5%",
       "normalizedTokens": [
@@ -7381,35 +7409,6 @@
         "cracovia"
       ],
       "date": "2026-11-07T17:43:05.494Z"
-    },
-    {
-      "title": "EL AJUSTE FISCAL DE LULA EN BRASIL: ENTRE EL RIGOR Y LA RIGIDEZ ESTRUCTURAL",
-      "normalizedTokens": [
-        "ajuste",
-        "fiscal",
-        "lula",
-        "brasil",
-        "rigor",
-        "rigidez",
-        "estructural"
-      ],
-      "date": "2026-11-07T16:38:04.129Z"
-    },
-    {
-      "title": "Lula hará un ajuste fiscal en Brasil pese al escepticismo del mercado, dice Oxford Economics",
-      "normalizedTokens": [
-        "lula",
-        "hara",
-        "ajuste",
-        "fiscal",
-        "brasil",
-        "pese",
-        "escepticismo",
-        "mercado",
-        "oxford",
-        "economics"
-      ],
-      "date": "2026-11-07T16:38:04.127Z"
     }
   ]
 }
