@@ -339,9 +339,36 @@
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUpWTk5EWUxaWE5xeUpISzM1X2tGMUJrSHM5a3Nad2dmNGlyWThJVGJKRGlGOE1RMHktak1sZzc4LXBRNEsydjJDWXBuNkdaWVB4M3IxUG96RVNPbTk5cVZGY0E1Mm12Z2FWUDkwbjlLWjdudkRsVzNXWkdLM1ZfRzI5ZHk5US11TVJDZlg2cVBlV0hyV2o3ZWZUSWtxR3ltcmdr?oc=5",
     "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQk42RlpONkl2bXZhNVJKUkM3MjZsTm9PWFMtaFl5Z2duZWZ4cktQZTVVelJYTG5ldXNxbEd2YkpsRGVRT0ZIdDRFUWs1eTMxLUR6emtZdkdDeDNoeVotZW1ZRk02Q2ctallWRnViRVE2MkQ4Z0ctRUJ3Z2V2TWRiMG5XSjdhV1RRRVN6dXZLV1F6VkZSRFpmZllnTHZoNjhQREZ0dVdyOE9weUFMVjgtQTA5ZDNyd3lYamRfYTZiUkFycEFEMzZ1R2VlM3JPS1ZZ?oc=5",
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5",
-    "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5"
+    "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5",
+    "https://www.dw.com/es/ucrania-reporta-al-menos-14-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA INTENSIFICA BOMBARDEOS EN KIEV TRAS ATAQUES EN CRIMEA",
+      "normalizedTokens": [
+        "rusia",
+        "intensifica",
+        "bombardeos",
+        "kiev",
+        "ataques",
+        "crimea"
+      ],
+      "date": "2026-11-23T05:46:31.170Z"
+    },
+    {
+      "title": "Ucrania reporta al menos 14 muertos en bombardeos rusos sobre región de Kiev",
+      "normalizedTokens": [
+        "ucrania",
+        "reporta",
+        "menos",
+        "muertos",
+        "bombardeos",
+        "rusos",
+        "region",
+        "kiev"
+      ],
+      "date": "2026-11-23T05:46:31.168Z"
+    },
     {
       "title": "EL BANCO NACIONAL SUIZO ALISTA SUBIDA DE TIPOS TRAS INFLACIÓN DEL 1,5%",
       "normalizedTokens": [
@@ -7393,36 +7420,6 @@
         "miel"
       ],
       "date": "2026-11-07T11:46:54.890Z"
-    },
-    {
-      "title": "INCENDIO EN MANZANEDA QUEMA DIEZ HECTÁREAS TRAS INTENSA LUCHA NOCTURNA",
-      "normalizedTokens": [
-        "incendio",
-        "manzaneda",
-        "quema",
-        "diez",
-        "hectareas",
-        "intensa",
-        "lucha",
-        "nocturna"
-      ],
-      "date": "2026-11-07T11:32:04.084Z"
-    },
-    {
-      "title": "Un incendio forestal en Bidueira, Manzaneda, quema diez hectáreas tras una intensa noche de trabajo",
-      "normalizedTokens": [
-        "incendio",
-        "forestal",
-        "bidueira",
-        "manzaneda",
-        "quema",
-        "diez",
-        "hectareas",
-        "intensa",
-        "noche",
-        "trabajo"
-      ],
-      "date": "2026-11-07T11:32:04.083Z"
     }
   ]
 }
