@@ -1653,5 +1653,10 @@
     "relevant": true,
     "reason": "La imagen de satélite muestra un buque atracado en un puerto emanando denso humo negro, lo que ilustra visualmente el incidente del ataque al barco.",
     "at": "2026-11-23T01:57:53.112Z"
+  },
+  "da6d91aea6359034:bh4fqyxap": {
+    "relevant": true,
+    "reason": "Muestra un paisaje de Suiza (reconocible por la bandera en el barco y los Alpes) y un termómetro que sirve como metáfora del aumento de la inflación.",
+    "at": "2026-11-23T02:50:06.173Z"
   }
 }
