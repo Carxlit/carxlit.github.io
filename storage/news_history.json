@@ -347,6 +347,32 @@
   ],
   "processedSignatures": [
     {
+      "title": "INFRAESTRUCTURA DE IA DISPARA DEMANDA DE OFICIOS EN ESTADOS UNIDOS",
+      "normalizedTokens": [
+        "infraestructura",
+        "dispara",
+        "demanda",
+        "oficios",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-23T11:05:27.744Z"
+    },
+    {
+      "title": "La fiebre de la inteligencia artificial revaloriza los oficios técnicos en Estados Unidos",
+      "normalizedTokens": [
+        "fiebre",
+        "inteligencia",
+        "artificial",
+        "revaloriza",
+        "oficios",
+        "tecnicos",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-23T11:05:27.742Z"
+    },
+    {
       "title": "ACTUALIZACIÓN: ATAQUES RUSOS CONTRA KIEV IMPACTAN EDIFICIOS Y SERVICIOS BÁSICOS",
       "normalizedTokens": [
         "actualizacion",
@@ -7381,34 +7407,6 @@
         "serie"
       ],
       "date": "2026-11-07T14:55:53.712Z"
-    },
-    {
-      "title": "RUSIA CONFIRMA DELEGACIÓN PARA NEGOCIACIONES EN ABU DABI",
-      "normalizedTokens": [
-        "rusia",
-        "confirma",
-        "delegacion",
-        "negociaciones",
-        "abu",
-        "dabi"
-      ],
-      "date": "2026-11-07T13:50:27.172Z"
-    },
-    {
-      "title": "El Kremlin ha anunciado la composición de la delegación rusa que participará en las conversaciones con Estados Unidos y Ucrania.",
-      "normalizedTokens": [
-        "kremlin",
-        "anunciado",
-        "composicion",
-        "delegacion",
-        "rusa",
-        "participara",
-        "conversaciones",
-        "estados",
-        "unidos",
-        "ucrania"
-      ],
-      "date": "2026-11-07T13:50:27.171Z"
     }
   ]
 }
