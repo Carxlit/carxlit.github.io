@@ -1,5 +1,87 @@
 [
   {
+    "slug": "sobre-kiev-elevan-15-muertos-tras-pbqt",
+    "path": "noticias/sobre-kiev-elevan-15-muertos-tras-pbqt/",
+    "title": "Actualización sobre Kiev: elevan a 15 los muertos tras intensificarse los bombardeos rusos",
+    "headline": "ACTUALIZACIÓN: ELEVAN A 15 LOS MUERTOS EN KIEV",
+    "dek": "Las labores de salvamento en la periferia de la capital ucraniana confirmaron un incremento en la cifra de víctimas mortales tras los recientes ataques rusos. Mientras las brigadas rescatan a sobrevivientes entre los escombros, la estrategia bélica apunta a desgastar la retaguardia civil ante la llegada del invierno.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Deutsche Welle (DW)",
+    "image": "img/sobre-kiev-elevan-15-muertos-tras-pbqt.jpg",
+    "photo": "img/sobre-kiev-elevan-15-muertos-tras-pbqt-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "nRUyS-ZWbr4",
+      "title": "Al menos 5 muertos en Ucrania y 3 puentes alcanzados en Kiev tras una oleada de bombardeos rusos",
+      "channel": "euronews (en español)"
+    },
+    "publishedAt": "2026-11-23T09:02:12.408Z",
+    "article": {
+      "slug": "sobre-kiev-elevan-15-muertos-tras-pbqt",
+      "title": "Actualización sobre Kiev: elevan a 15 los muertos tras intensificarse los bombardeos rusos",
+      "dek": "Las labores de salvamento en la periferia de la capital ucraniana confirmaron un incremento en la cifra de víctimas mortales tras los recientes ataques rusos. Mientras las brigadas rescatan a sobrevivientes entre los escombros, la estrategia bélica apunta a desgastar la retaguardia civil ante la llegada del invierno.",
+      "keyFacts": [
+        "Al menos 15 personas murieron en la región de Kiev tras los bombardeos rusos confirmados por las autoridades.",
+        "En Dymer, el colapso de un edificio residencial de cinco pisos causó la muerte de 7 personas.",
+        "Los equipos de emergencia lograron rescatar con vida a una mujer de 79 años bajo los escombros.",
+        "En Vishneve, un ataque contra un supermercado dejó 2 muertos y 8 heridos."
+      ],
+      "sections": [
+        {
+          "heading": "Rescates en curso y actualización de víctimas",
+          "paragraphs": [
+            "Los equipos de emergencia en la región de Kiev continuaron las labores de remoción de escombros para localizar a personas atrapadas y recuperar los cuerpos de las víctimas tras los ataques con misiles. El gobernador militar de la región, Tymur Tkachenko, confirmó que la cifra total de fallecidos ascendió a al menos 15 personas.",
+            "Entre las intervenciones destacadas por las autoridades militares figura el rescate con vida de una mujer de 79 años, quien fue trasladada a un centro hospitalario tras permanecer atrapada bajo los restos de una estructura residencial destruida durante los bombardeos nocturnos."
+          ]
+        },
+        {
+          "heading": "Impacto en infraestructuras civiles",
+          "paragraphs": [
+            "Según los reportes de la agencia AFP recopilados por Deutsche Welle, los bombardeos alcanzaron diversos puntos de la periferia capitalina. En la localidad de Dymer, situada a unos 45 kilómetros al norte de Kiev, el impacto contra un bloque de viviendas de cinco plantas provocó la muerte de siete residentes.",
+            "Asimismo, en la localidad de Vishneve se registraron dos muertos y ocho heridos tras un bombardeo sobre un supermercado. En Bila Tserkva, al sur de la capital, una persona perdió la vida al incendiarse su vivienda. Ante estos hechos, el defensor de los derechos humanos de Ucrania, Dmitro Lubinets, calificó la ofensiva como parte de un patrón de agresión directa a la población."
+          ]
+        },
+        {
+          "heading": "Presión logística en vísperas del invierno",
+          "paragraphs": [
+            "El análisis de Punto Ciego indica que esta serie de ataques responde a un cálculo estratégico enfocado en socavar las capacidades de apoyo urbano antes de la llegada del invierno, época en la que las temperaturas en la región caen habitualmente por debajo de los 0ºC.",
+            "A pesar de que el presidente ruso, Vladimir Putin, justificó las acciones como una respuesta al daño sufrido por el puente que conecta Rusia con la península de Crimea, la elección de los objetivos demuestra el interés por tensionar la retaguardia y sobrecargar los servicios de respuesta rápida."
+          ]
+        },
+        {
+          "heading": "Efectos en la retaguardia y el equilibrio del conflicto",
+          "paragraphs": [
+            "Para la administración ucraniana, el constante impacto sobre zonas urbanas obliga a destinar recursos de contención inmediata y dificulta el mantenimiento de la estabilidad económica local. Además, sostiene la presión hacia sus aliados occidentales para acelerar el suministro de defensas antiaéreas.",
+            "Por su parte, el Kremlin emplea la narrativa de represalia calculada para afianzar la cohesión interna en su territorio, desplazando el costo operativo hacia las localidades periféricas de Kiev sin encarar combates directos en el terreno."
+          ]
+        },
+        {
+          "heading": "Proyección de las operaciones",
+          "paragraphs": [
+            "Con los trabajos de salvamento todavía en marcha en zonas como Dymer, las autoridades locales no descartan que el balance de daños varíe a medida que prosiga la remoción de escombros. El factor climático será determinante para medir la capacidad de absorción del impacto por parte del sistema civil ucraniano."
+          ]
+        }
+      ],
+      "tags": [
+        "Ucrania",
+        "Rusia",
+        "Kiev",
+        "Geopolítica",
+        "Conflicto"
+      ],
+      "sources": [
+        {
+          "name": "Deutsche Welle (DW)",
+          "title": "Ucrania reporta al menos 15 muertos en bombardeos rusos sobre región de Kiev",
+          "url": "https://www.dw.com/es/ucrania-reporta-al-menos-15-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "wordCount": 477
+    },
+    "blindSpot": "La intensificación de los ataques sobre la periferia capitalina antes del invierno busca desbordar la capacidad de respuesta logística y civil de Ucrania sin entablar combates urbanos directos. Moscú utiliza la retórica de represalia por el puente de Crimea como cobertura para someter a la población civil a un desgaste térmico y de servicios esenciales.",
+    "updateOf": "rusia-escala-bombardeos-sobre-region-kiev-2yw3"
+  },
+  {
     "slug": "ataque-drones-region-kiev-deja-diez-ftda",
     "path": "noticias/ataque-drones-region-kiev-deja-diez-ftda/",
     "title": "Ataque de drones en la región de Kiev deja diez muertos y expone la vulnerabilidad residencial",
@@ -172,7 +254,8 @@
       "wordCount": 532
     },
     "blindSpot": "Más allá del saldo trágico en zonas residenciales, la concentración de ataques en los suburbios clave de Kiev busca estrangular las redes logísticas y poner a prueba la resistencia de la red eléctrica ucraniana antes del descenso de las temperaturas bajo cero. El Kremlin utiliza esta incursión para materializar la respuesta prometida por los daños en el puente de Crimea, desplazando el costo estratégico directamente hacia la infraestructura de la capital.",
-    "reelUrl": "https://www.instagram.com/reel/DgEqsQPCIoH/"
+    "reelUrl": "https://www.instagram.com/reel/DgEqsQPCIoH/",
+    "updatedBy": "sobre-kiev-elevan-15-muertos-tras-pbqt"
   },
   {
     "slug": "dilema-banco-nacional-suizo-entre-inflacion-flpz",

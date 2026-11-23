@@ -341,9 +341,34 @@
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5",
     "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5",
     "https://www.dw.com/es/ucrania-reporta-al-menos-14-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss"
+    "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
+    "https://www.dw.com/es/ucrania-reporta-al-menos-15-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: ELEVAN A 15 LOS MUERTOS EN KIEV",
+      "normalizedTokens": [
+        "actualizacion",
+        "elevan",
+        "muertos",
+        "kiev"
+      ],
+      "date": "2026-11-23T09:02:12.628Z"
+    },
+    {
+      "title": "Ucrania reporta al menos 15 muertos en bombardeos rusos sobre región de Kiev",
+      "normalizedTokens": [
+        "ucrania",
+        "reporta",
+        "menos",
+        "muertos",
+        "bombardeos",
+        "rusos",
+        "region",
+        "kiev"
+      ],
+      "date": "2026-11-23T09:02:12.625Z"
+    },
     {
       "title": "ATAQUE DE DRONES RUSOS MATA DIEZ EN KIEV",
       "normalizedTokens": [
@@ -7384,41 +7409,6 @@
         "huties"
       ],
       "date": "2026-11-07T13:32:04.202Z"
-    },
-    {
-      "title": "DESTITUCIÓN DE PEÑA Y JURA DE ALLIANA RECONFIGURAN EL PODER PARAGUAYO",
-      "normalizedTokens": [
-        "destitucion",
-        "pena",
-        "jura",
-        "alliana",
-        "reconfiguran",
-        "poder",
-        "paraguayo"
-      ],
-      "date": "2026-11-07T12:49:50.718Z"
-    },
-    {
-      "title": "Crisis en Paraguay EN VIVO | Pedro Alliana designó a Ariel Martínez como ministro del Interior: “Nuestro país necesita paz, orden y seguridad”",
-      "normalizedTokens": [
-        "crisis",
-        "paraguay",
-        "vivo",
-        "pedro",
-        "alliana",
-        "designo",
-        "ariel",
-        "martinez",
-        "ministro",
-        "interior",
-        "nuestro",
-        "pais",
-        "necesita",
-        "paz",
-        "orden",
-        "seguridad"
-      ],
-      "date": "2026-11-07T12:49:50.717Z"
     }
   ]
 }
