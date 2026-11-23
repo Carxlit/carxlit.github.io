@@ -342,9 +342,37 @@
     "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5",
     "https://www.dw.com/es/ucrania-reporta-al-menos-14-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf",
     "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
-    "https://www.dw.com/es/ucrania-reporta-al-menos-15-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/ucrania-reporta-al-menos-15-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.rfi.fr/es/europa/20261123-ucrania-al-menos-15-muertos-tras-ataques-rusos-en-la-regi%C3%B3n-de-kiev"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: ATAQUES RUSOS CONTRA KIEV IMPACTAN EDIFICIOS Y SERVICIOS BÁSICOS",
+      "normalizedTokens": [
+        "actualizacion",
+        "ataques",
+        "rusos",
+        "kiev",
+        "impactan",
+        "edificios",
+        "servicios",
+        "basicos"
+      ],
+      "date": "2026-11-23T09:16:50.524Z"
+    },
+    {
+      "title": "Ucrania: al menos 15 muertos tras ataques rusos en la región de Kiev",
+      "normalizedTokens": [
+        "ucrania",
+        "menos",
+        "muertos",
+        "ataques",
+        "rusos",
+        "region",
+        "kiev"
+      ],
+      "date": "2026-11-23T09:16:50.518Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ELEVAN A 15 LOS MUERTOS EN KIEV",
       "normalizedTokens": [
@@ -7381,34 +7409,6 @@
         "ucrania"
       ],
       "date": "2026-11-07T13:50:27.171Z"
-    },
-    {
-      "title": "ARABIA SAUDITA REANUDA BOMBARDEOS MASIVOS EN LA PROVINCIA DE SANÁ",
-      "normalizedTokens": [
-        "arabia",
-        "saudita",
-        "reanuda",
-        "bombardeos",
-        "masivos",
-        "provincia",
-        "sana"
-      ],
-      "date": "2026-11-07T13:32:04.206Z"
-    },
-    {
-      "title": "Bombardeos de Arabia Saudita dejan más de 20 muertos en Yemen, según hutíes",
-      "normalizedTokens": [
-        "bombardeos",
-        "arabia",
-        "saudita",
-        "dejan",
-        "mas",
-        "muertos",
-        "yemen",
-        "segun",
-        "huties"
-      ],
-      "date": "2026-11-07T13:32:04.202Z"
     }
   ]
 }

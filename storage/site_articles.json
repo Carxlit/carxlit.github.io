@@ -1,5 +1,102 @@
 [
   {
+    "slug": "ofensiva-rusa-sobre-region-kiev-escala-lga6",
+    "path": "noticias/ofensiva-rusa-sobre-region-kiev-escala-lga6/",
+    "title": "La ofensiva rusa sobre la región de Kiev escala el impacto civil y compromete el suministro hídrico",
+    "headline": "ACTUALIZACIÓN: ATAQUES RUSOS CONTRA KIEV IMPACTAN EDIFICIOS Y SERVICIOS BÁSICOS",
+    "dek": "Una nueva oleada de ataques aéreos sobre el perímetro de la capital ucraniana deja al menos 15 muertos y compromete los servicios básicos urbanos. El deterioro hídrico y habitacional acentúa la vulnerabilidad de la población ante la inminencia del invierno.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "RFI Español",
+    "image": "img/ofensiva-rusa-sobre-region-kiev-escala-lga6.jpg",
+    "photo": "img/ofensiva-rusa-sobre-region-kiev-escala-lga6-foto.jpg",
+    "publishedAt": "2026-11-23T09:16:50.367Z",
+    "article": {
+      "slug": "ofensiva-rusa-sobre-region-kiev-escala-lga6",
+      "title": "La ofensiva rusa sobre la región de Kiev escala el impacto civil y compromete el suministro hídrico",
+      "dek": "Una nueva oleada de ataques aéreos sobre el perímetro de la capital ucraniana deja al menos 15 muertos y compromete los servicios básicos urbanos. El deterioro hídrico y habitacional acentúa la vulnerabilidad de la población ante la inminencia del invierno.",
+      "keyFacts": [
+        "Al menos 15 personas murieron en la región de Kiev debido a los recientes bombardeos rusos, según reportes de fuentes de inteligencia y medios internacionales.",
+        "El derrumbe parcial de un inmueble residencial concentró 11 de las víctimas fatales confirmadas en las zonas afectadas.",
+        "Los ataques provocaron interrupciones directas en el suministro de agua potable de la capital ucraniana.",
+        "Esta acción se suma a los ataques previos registrados contra la central térmica de Krivói Rog y la subestación de Rivne."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó RFI Español junto a informaciones validadas por DW.com y Euronews, la región de Kiev sufrió una serie de ataques aéreos rusos que causaron la muerte de al menos 15 personas. La mayor gravedad de los hechos se registró en una localidad cercana a la capital donde el colapso parcial de un edificio residencial atrapó a decenas de habitantes, cobrando la vida de 11 de ellos según las fuentes sobre el terreno.",
+            "Además de las pérdidas humanas, las autoridades locales reportaron que la red de abastecimiento hídrico de la capital se vio severamente comprometida tras las detonaciones. El impacto sobre las conducciones estratégicas de agua interrumpió el servicio en múltiples distritos, generando severas complicaciones logísticas a los equipos de emergencia que trabajaban en el rescate de sobrevivientes entre los escombros."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Esta escalada en la zona metropolitana de Kiev ocurre pocos días después de que la infraestructura energética ucraniana sufriera embates directos en el sur y oeste del país. Como informó oportunamente Punto Ciego, bombardeos nocturnos con drones dirigidos contra la central térmica de Krivói Rog y una subestación estratégica en Rivne habían dejado previamente dos fallecidos y 60 heridos.",
+            "La coincidencia temporal de estos ataques dibuja un patrón continuado de agresiones contra los nodos vitales de suministro. Con las temperaturas en descenso progresivo y la proximidad del invierno, la fragilidad de las redes de energía y agua se convierte en uno de los desafíos más complejos para la administración ucraniana."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El aspecto central que permanece fuera del foco mediático convencional es el viraje operacional en el uso de la infraestructura hídrica como palanca de desgaste bélico. Mientras que la atención pública suele centrarse en el número de proyectiles interceptados o el saldo de bajas directas, la degradación intencionada del agua potable en la capital genera una onda de choque secundaria que paraliza la actividad económica urbana y agota los fondos municipales de reserva.",
+            "Al inutilizar los sistemas de bombeo e ingeniería civil en los accesos a Kiev, Moscú busca saturar los servicios urbanos de emergencia y forzar un consumo acelerado de los insumos técnicos destinados al invierno. La incapacidad temporal de garantizar agua corriente a la población urbana produce un efecto de desestabilización interna que busca desgastar la moral pública sin requerir una incursión terrestre sobre la capital."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano táctico, el mando militar ruso obtiene una ventaja estratégica al forzar al mando ucraniano a redistribuir sus escasos sistemas de defensa antiaérea desde el frente hacia la protección de acueductos y estaciones de bombeo en la región central.",
+            "Ucrania, por el contrario, asume un coste económico y operativo sumamente elevado. Las autoridades locales pierden margen de maniobra financiero para sostener la logística invernal, mientras que los ciudadanos de la capital sufren el impacto directo del desabastecimiento y la inseguridad habitacional."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En las próximas semanas será decisivo observar la velocidad de restauración de los colectores de agua golpeados en la región de Kiev y la respuesta técnica de las empresas de servicios públicos. Asimismo, será clave seguir los compromisos internacionales respecto al envío urgente de generadores industriales y repuestos hidráulicos pesados solicitados por Ucrania a la Unión Europea para mitigar los efectos del invierno."
+          ]
+        }
+      ],
+      "tags": [
+        "Ucrania",
+        "Kiev",
+        "Rusia",
+        "Geopolítica",
+        "Infraestructura",
+        "Seguridad"
+      ],
+      "sources": [
+        {
+          "name": "RFI Español",
+          "title": "Ucrania: al menos 15 muertos tras ataques rusos en la región de Kiev",
+          "url": "https://www.rfi.fr/es/europa/20261123-ucrania-al-menos-15-muertos-tras-ataques-rusos-en-la-regi%C3%B3n-de-kiev"
+        },
+        {
+          "name": "DW.com",
+          "title": "Ataques aéreos rusos dejan 14 muertos en región ucraniana de Kiev",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVGNlQ2wxOWJTLVVXWTNCdnR4YW9ueWFuTVVBRVJBeTRWNk5vVWNxQkdzNVdTaTZhOUFmcXQ0MWN3Y1pFSTdPc21BWHhWUlBpTkVVc0pucjVJTEhMRE5lcDBwbXNUZlk1eHhLOHYyRmw0Q0ZkOFBWT2Q4aTAxV053cWt0QWVMLU9MdG1fbldWT0tFSXVvWFJ5MG9NVFh1SkNTaGtBNW0wYl8zRmZfZHhYTG4xRnTSAbQBQVVfeXFMTlRjZUNsMTliUy1VV1kzQnZ0eGFvbnlhbk1VQUVSQXk0VjZOb1VjcUJHczVXU2k2YTlBZnF0NDFjd2NaRUk3T3NtQVh4VlJQaU5FVXNKbnI1SUxITEROZXAwcG1zVGZZNXh4Szh2MkZsNENGZDhQVk9kOGkwMVdOd3FrdEFlTC1PTHRtX25XVk9LRUl1b1hSeTBvTVRYdUpDU2hrQTVtMGJfM0ZmX2R4WExuMUZ0?oc=5"
+        },
+        {
+          "name": "Euronews",
+          "title": "Al menos 15 muertos en Ucrania tras los últimos bombardeos rusos",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOVZTakt1M0x4YTJnUWI1blRrNkhGRnQ1bk1OcFpZcXdubzd4TGR2WEJ3RnFzazQ5VUd1Tkd4cFZrOTQzTVdwNl9lNFBLcVNTdE9aODJrWWZPTEV1Ty12TFRKU2R2cVpXdGx1RTJ4WkEwWkdnTTRyU2RZbF9JeWZlNnRia0M5dU5uTjN5QVBUc0FBVXphM3Z5LWhNLXBNa0NDRWFBdFc3VzBCZGJ2ZTQwdHBKRmNJclZrOU51MmJTNENFYlk?oc=5"
+        },
+        {
+          "name": "سانا",
+          "title": "Catorce muertos en ataques rusos contra varias localidades cercanas a Kiev",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HTHJLTHVkYTQ1QXo5Z0lVSUp2N2Q3MWRRRUFnb2hVYzc1TVJ0OVBieGJMRWNnalctcnVXNjhpNFdQNDk4cnY4QQ?oc=5"
+        },
+        {
+          "name": "RFI",
+          "title": "Al menos 15 muertos tras bombardeos rusos sobre Ucrania en la región de Kiev",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcklEN1FmY3Y1a2s0V1NSTU1DQ3pnbldocmVreHppOXdWTmcyMUtORXhuaEZrWGVSc0NEUFRwNFFBcUYwUFB6dFVFQW14eVB1UjhMQlJFM3NRUUVQNlRFUGUwejRZUEpudU84MktvQWh6OWhQanptNGNGdkJuUW55dFdYR1pKSzJUbXAyckx3a1U4akY0V1doZkdsallBZkJ0ZXBVdElDSGUycXRtOTl3akY2Z1llYzlKZjFCb2xPMzFJZW83amo2WnVn?oc=5"
+        }
+      ],
+      "wordCount": 565
+    },
+    "blindSpot": "Más allá de las trágicas bajas civiles inmediatas, la estrategia militar rusa evidencia una maniobra calculada para degradar la infraestructura de servicios esenciales en el perímetro defensivo de la capital. La interrupción del suministro hídrico en combinación con el colapso del sistema térmico previsible busca generar una crisis de habitalidad urbana que desborde la capacidad logística de rescate y sobrecargue el presupuesto de contingencia ucraniano justo antes del invierno.",
+    "updateOf": "ataques-rusos-contra-infraestructura-energetica-ucrania-na88"
+  },
+  {
     "slug": "sobre-kiev-elevan-15-muertos-tras-pbqt",
     "path": "noticias/sobre-kiev-elevan-15-muertos-tras-pbqt/",
     "title": "Actualización sobre Kiev: elevan a 15 los muertos tras intensificarse los bombardeos rusos",
@@ -1660,7 +1757,8 @@
       ],
       "wordCount": 413
     },
-    "blindSpot": "Más allá del saldo civil y la narrativa de resistencia, la ofensiva expone la vulnerabilidad sistémica de la red eléctrica ucraniana frente al desgaste sostenido. Los ataques selectivos buscan paralizar nodos logísticos y de producción militar sin requerir una ofensiva terrestre masiva en el frente."
+    "blindSpot": "Más allá del saldo civil y la narrativa de resistencia, la ofensiva expone la vulnerabilidad sistémica de la red eléctrica ucraniana frente al desgaste sostenido. Los ataques selectivos buscan paralizar nodos logísticos y de producción militar sin requerir una ofensiva terrestre masiva en el frente.",
+    "updatedBy": "ofensiva-rusa-sobre-region-kiev-escala-lga6"
   },
   {
     "slug": "brecha-fbi-retorica-oficial-intenta-ocultar-ofe5",
