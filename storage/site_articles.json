@@ -1,5 +1,86 @@
 [
   {
+    "slug": "ataque-drones-buque-ruso-libia-expone-oice",
+    "path": "noticias/ataque-drones-buque-ruso-libia-expone-oice/",
+    "title": "Ataque con drones a un buque ruso en Libia expone las grietas marítimas del Kremlin",
+    "headline": "GOBIERNO ORIENTAL DE LIBIA SOSPECHA ATAQUE CON DRONES A BUQUE RUSO",
+    "dek": "Las autoridades del este de Libia atribuyen el hundimiento de una nave de guerra rusa a un impacto de aeronave no tripulada. El siniestro debilita el corredor de reabastecimiento naval de Moscú en el Mediterráneo central.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Reuters",
+    "image": "img/ataque-drones-buque-ruso-libia-expone-oice.jpg",
+    "photo": "img/ataque-drones-buque-ruso-libia-expone-oice-foto.jpg",
+    "publishedAt": "2026-11-23T01:57:56.526Z",
+    "article": {
+      "slug": "ataque-drones-buque-ruso-libia-expone-oice",
+      "title": "Ataque con drones a un buque ruso en Libia expone las grietas marítimas del Kremlin",
+      "dek": "Las autoridades del este de Libia atribuyen el hundimiento de una nave de guerra rusa a un impacto de aeronave no tripulada. El siniestro debilita el corredor de reabastecimiento naval de Moscú en el Mediterráneo central.",
+      "keyFacts": [
+        "Las autoridades del gobierno oriental de Libia atribuyen la explosión a un ataque coordinado con drones.",
+        "Informes de Reuters y Todo Alicante confirman que el buque de guerra ruso se hundió tras la detonación.",
+        "El suceso ocurrió en un puerto situado dentro del territorio bajo control de la administración del este libio.",
+        "La embarcación formaba parte del esquema de apoyo defensivo y logístico en la cuenca mediterránea."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un buque de guerra perteneciente a la Armada de Rusia sufrió una fuerte explosión y se hundió mientras permanecía atracado en una instalación portuaria en el este de Libia. Las primeras evaluaciones difundidas por las autoridades del gobierno oriental libio apuntan a un ataque ejecutado mediante drones no tripulados como la causa directa del desastre.",
+            "De acuerdo con los reportes de Reuters y medios regionales como Todo Alicante, la detonación provocó daños estructurales severos en la embarcación, imposibilitando los trabajos de contención y derivando en su pérdida total en las aguas del puerto. El hecho generó una alerta inmediata en los mandos militares locales que supervisan el perímetro costero."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El territorio de Libia permanece dividido entre administraciones rivales, con el este del país gobernado bajo la influencia de las fuerzas del mariscal Jalifa Haftar. En los últimos años, Moscú ha afianzado su presencia táctica en la zona, utilizando las facilidades portuarias libias como punto de reabastecimiento para sus buques en el Mediterráneo central.",
+            "La utilización de infraestructuras libias permite a las fuerzas rusas mantener capacidades operativas sin depender de bases formales de gran calado en la margen sur europea. Este soporte logístico resulta fundamental para la movilidad de sus tropas e insumos estratégicos en toda la franja septentrional de África."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La atención mediática tiende a encuadrar la destrucción del barco como un accidente portuario derivado de la inestabilidad política libia. Sin embargo, el verdadero punto ciego radica en la demostración de vulnerabilidad que sufre la red naval rusa ante sistemas aéreos no tripulados de bajo costo en zonas teóricamente bajo su control defensivo.",
+            "El éxito de una incursión aérea sobre una nave de guerra en puerto pone de manifiesto serias deficiencias en la cobertura de inteligencia y en los sistemas de detección temprana de las fuerzas que resguardan la costa. Si los puertos del este de Libia pierden su condición de puerto seguro, la proyección de poder militar ruso en el Mediterráneo queda expuesta a un desgaste asimétrico continuo."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Moscú emerge como el afectado directo al perder un activo naval de alto valor y ver dañada la fiabilidad de sus rutas de abastecimiento en la región. El gobierno oriental de Libia sufre un menoscabo en su reputación de control territorial y seguridad de infraestructuras.",
+            "En contraposición, los actores opositores al despliegue ruso en el norte de África obtienen una ventaja estratégica al comprobar que la presencia naval del Kremlin en aguas mediterráneas puede ser vulnerada mediante el uso de tecnología de bajo costo y alta precisión."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá monitorear la respuesta militar de Moscú respecto al despliegue de nuevos sistemas de defensa antiaérea en los puertos libios bajo su influencia. Asimismo, será clave seguir los peritajes técnicos sobre los restos de los drones para determinar la procedencia del ataque y el posible endurecimiento de las operaciones de patrullaje marítimo en el Mediterráneo central."
+          ]
+        }
+      ],
+      "tags": [
+        "Libia",
+        "Rusia",
+        "Mediterraneo",
+        "Drones",
+        "SeguridadMaritima",
+        "Geopolitica"
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5"
+        },
+        {
+          "name": "todoalicante.es",
+          "title": "Explosion sinks Russian warship in Libyan port",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZEZycDNXTUFERFByRG9mUkVjaDc4TVRMVlpoLXBsMXZEaXQzUTVBTW8yNjNCZnJhdDhBMUR2SDlmTjYwWGlWVGlpUXBpcGU1VkR4NXhaVHd2MG1NVXEzWDRGU2VSeFpzdEtZbU9VT3J0Mjd3cDRxMjVoSG9wSm01ZEFvNG1OeDFOUENmZkZubFVXeHFI0gGaAUFVX3lxTFBJYXNWdmwxRWpJMm9WZkVzVXRLaTRLNERJVmlqRDlpcHk5Z3NHSW5JYkxGWXVCcHM4REcydXlsN0ZUWEFtSzlZREMzbUhZV0hoaVBvSFZqdFhnMDFUUlNQVVJja1JBYjk4c0szcjU4b2J2NThQV0J5VS1TbWVZcWVzSHpRR0cwd0hFeEpWNTdUcXFLS1hfbVlELXc?oc=5"
+        }
+      ],
+      "wordCount": 508
+    },
+    "blindSpot": "La cobertura convencional enfoca el evento como un siniestro portuario aislado en el norte de África. El punto ciego reside en la vulneración directa de la arteria logística marítima que sostiene el redespliegue estratégico de Moscú hacia el Sahel. Si un ataque asimétrico no atribuido puede inutilizar una embarcación militar en un enclave resguardado por las fuerzas locales, el perímetro defensivo de la proyección rusa en África enfrenta una falla de inteligencia y cobertura táctica insostenible."
+  },
+  {
     "slug": "freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0",
     "path": "noticias/freno-fisico-inteligencia-artificial-revalorizacion-masiva-sur0/",
     "title": "El freno físico de la inteligencia artificial: la revalorización masiva de los oficios técnicos",

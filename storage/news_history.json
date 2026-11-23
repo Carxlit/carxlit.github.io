@@ -337,9 +337,40 @@
     "https://www.abc.es/internacional/viaje-reactores-fukushima-20261122015321-nt.html",
     "https://www.xataka.com/magnet/hace-100-anos-explorador-gallego-se-convirtio-autoproclamado-rey-jibaros-alfonso-i-amazonia-1",
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUpWTk5EWUxaWE5xeUpISzM1X2tGMUJrSHM5a3Nad2dmNGlyWThJVGJKRGlGOE1RMHktak1sZzc4LXBRNEsydjJDWXBuNkdaWVB4M3IxUG96RVNPbTk5cVZGY0E1Mm12Z2FWUDkwbjlLWjdudkRsVzNXWkdLM1ZfRzI5ZHk5US11TVJDZlg2cVBlV0hyV2o3ZWZUSWtxR3ltcmdr?oc=5",
-    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQk42RlpONkl2bXZhNVJKUkM3MjZsTm9PWFMtaFl5Z2duZWZ4cktQZTVVelJYTG5ldXNxbEd2YkpsRGVRT0ZIdDRFUWs1eTMxLUR6emtZdkdDeDNoeVotZW1ZRk02Q2ctallWRnViRVE2MkQ4Z0ctRUJ3Z2V2TWRiMG5XSjdhV1RRRVN6dXZLV1F6VkZSRFpmZllnTHZoNjhQREZ0dVdyOE9weUFMVjgtQTA5ZDNyd3lYamRfYTZiUkFycEFEMzZ1R2VlM3JPS1ZZ?oc=5"
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQk42RlpONkl2bXZhNVJKUkM3MjZsTm9PWFMtaFl5Z2duZWZ4cktQZTVVelJYTG5ldXNxbEd2YkpsRGVRT0ZIdDRFUWs1eTMxLUR6emtZdkdDeDNoeVotZW1ZRk02Q2ctallWRnViRVE2MkQ4Z0ctRUJ3Z2V2TWRiMG5XSjdhV1RRRVN6dXZLV1F6VkZSRFpmZllnTHZoNjhQREZ0dVdyOE9weUFMVjgtQTA5ZDNyd3lYamRfYTZiUkFycEFEMzZ1R2VlM3JPS1ZZ?oc=5",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "GOBIERNO ORIENTAL DE LIBIA SOSPECHA ATAQUE CON DRONES A BUQUE RUSO",
+      "normalizedTokens": [
+        "gobierno",
+        "oriental",
+        "libia",
+        "sospecha",
+        "ataque",
+        "drones",
+        "buque",
+        "ruso"
+      ],
+      "date": "2026-11-23T01:57:56.727Z"
+    },
+    {
+      "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+      "normalizedTokens": [
+        "libya",
+        "eastern",
+        "government",
+        "suspects",
+        "drone",
+        "attack",
+        "caused",
+        "explosion",
+        "russian",
+        "ship"
+      ],
+      "date": "2026-11-23T01:57:56.724Z"
+    },
     {
       "title": "INFRAESTRUCTURA DE IA DISPARA DEMANDA DE OFICIOS EN ESTADOS UNIDOS",
       "normalizedTokens": [
@@ -7389,33 +7420,6 @@
         "millonarias"
       ],
       "date": "2026-11-07T11:17:13.403Z"
-    },
-    {
-      "title": "ACTUALIZACIÓN: CONGRESO DESTITUYE Y ARRESTA A PEÑA TRAS COLAPSO BANCARIO",
-      "normalizedTokens": [
-        "actualizacion",
-        "congreso",
-        "destituye",
-        "arresta",
-        "pena",
-        "colapso",
-        "bancario"
-      ],
-      "date": "2026-11-07T11:01:33.480Z"
-    },
-    {
-      "title": "El presidente de Paraguay es destituido por el Congreso y arrestado por la crisis del Ueno Bank",
-      "normalizedTokens": [
-        "presidente",
-        "paraguay",
-        "destituido",
-        "congreso",
-        "arrestado",
-        "crisis",
-        "ueno",
-        "bank"
-      ],
-      "date": "2026-11-07T11:01:33.480Z"
     }
   ]
 }
