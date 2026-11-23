@@ -1,5 +1,94 @@
 [
   {
+    "slug": "ataque-drones-region-kiev-deja-diez-ftda",
+    "path": "noticias/ataque-drones-region-kiev-deja-diez-ftda/",
+    "title": "Ataque de drones en la región de Kiev deja diez muertos y expone la vulnerabilidad residencial",
+    "headline": "ATAQUE DE DRONES RUSOS MATA DIEZ EN KIEV",
+    "dek": "El rescate de un menor tras catorce horas bajo los escombros en Dymer contrasta con un saldo mortal que evidencia el impacto sostenido sobre zonas civiles.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Al Jazeera",
+    "image": "img/ataque-drones-region-kiev-deja-diez-ftda.jpg",
+    "photo": "img/ataque-drones-region-kiev-deja-diez-ftda-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "3aDBU_-ZRwY",
+      "title": "Child rescued in Ukraine after Russian drone attack kills 10",
+      "channel": "Al Jazeera English"
+    },
+    "publishedAt": "2026-11-23T06:16:16.141Z",
+    "article": {
+      "slug": "ataque-drones-region-kiev-deja-diez-ftda",
+      "title": "Ataque de drones en la región de Kiev deja diez muertos y expone la vulnerabilidad residencial",
+      "dek": "El rescate de un menor tras catorce horas bajo los escombros en Dymer contrasta con un saldo mortal que evidencia el impacto sostenido sobre zonas civiles.",
+      "keyFacts": [
+        "Un niño de siete años llamado David fue rescatado tras 14 horas atrapado en los escombros.",
+        "El ataque con drones rusos ocurrió en la localidad de Dymer, en la región de Kiev.",
+        "Al menos diez personas murieron en el impacto contra un edificio residencial, según los reportes principales.",
+        "Medios como La Nación y todoalicante.es registraron cifras y alcances divergentes sobre las víctimas y los daños en la zona."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un ataque con drones rusos golpeó un edificio residencial en la localidad de Dymer, ubicada en la región de Kiev. Según la información proporcionada por Al Jazeera, al menos diez personas perdieron la vida como consecuencia del impacto directo.",
+            "Entre los escombros, los equipos de rescate lograron sacar con vida a un niño de siete años identificado como David, quien resistió catorce horas atrapado antes de ser liberado."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La cobertura sobre el ataque ha mostrado variaciones en los balances iniciales de víctimas proporcionados por diferentes agencias y medios internacionales. Mientras que la fuente principal sitúa la cifra de fallecidos en diez, reportes adicionales de medios como La Nación y todoalicante.es documentaron cifras distintas y variaciones en el número de heridos y desaparecidos en las inmediaciones de la capital ucraniana.",
+            "Estas discrepancias reflejan la complejidad de verificar de forma inmediata los daños en áreas residenciales periféricas afectadas por la saturación de armamento no tripulado."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá del impacto dramático del rescate infantil, la cobertura informativa tiende a pasar por alto la fatiga acumulada en los sistemas de defensa aérea descentralizados y la vulnerabilidad crónica de los suburbios de Kiev. La repetición de estos impactos en zonas residenciales no solo busca diezmar objetivos específicos, sino mantener una presión psicológica y material constante sobre la retaguardia ucraniana."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano táctico, la capacidad de golpear zonas urbanas periféricas con drones de bajo costo permite a las fuerzas rusas desgastar los recursos defensivos de Ucrania sin arriesgar activos aéreos mayores. Por otro lado, la población civil y las administraciones locales asumen el costo humano y material directo, mientras que el Estado ucraniano experimenta un desgaste continuo en su capacidad de respuesta y reconstrucción."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear la evolución en la precisión de los reportes de bajas y la capacidad de reposición de los sistemas antiaéreos en los alrededores de la capital para evaluar si la defensa civil ucraniana logra absorber estos ataques sin comprometer sus líneas de suministro."
+          ]
+        }
+      ],
+      "tags": [
+        "Ucrania",
+        "Kyiv",
+        "Drones",
+        "Guerra",
+        "Defensa"
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Child rescued in Ukraine after Russian drone attack kills 10",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss"
+        },
+        {
+          "name": "La Nación",
+          "title": "Russian attack near Ukraine's capital strikes apartment building, killing 2 and wounding 4 others",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNm9wODJ4TENTMnV6NHVvdlZ2OHpfcDNkTVJNUmZIU3NfMndPWTFkMS1RbGpyVEJGbjJ3YUV6RDYxLXVqWGJWSVJ0VTV0cWp2b2JURVp3N0N4MHpFM0hvZVozc3B2RHdzWktqaHh4UkdFdVJucUVXN044LVpkS215WnhTdmZieGtBcEJpbFQ2TExzb3VoYUJTSnAyVWROYk4wRkdVU3VjdHVCN0taYUZRY2ZxR3U5cHZZcG5mS3hLb0NibEIzRWhibVZCamtEM1RiUFB5T21NVQ?oc=5"
+        },
+        {
+          "name": "todoalicante.es",
+          "title": "At least six dead and 14 missing after Russian strike hits Kyiv residential building",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeGlZS3VOaFhvbm43M3RCQWNodGttUEw5cTAwMC04UnpmS0RiczJHVllCb3hpOG45Q1JhTVZPSUNvNDhwLTNhMV9GSjNSNExaUEZIMnFwbTZnYW83ZWVZQ3luV3pWQ0NRS2Y4MXNZOWdUeDBQX0ZHU1BVdG1HMG1nTldfMHlMZ1Y0N0x5UNIBjAFBVV95cUxNeGlZS3VOaFhvbm43M3RCQWNodGttUEw5cTAwMC04UnpmS0RiczJHVllCb3hpOG45Q1JhTVZPSUNvNDhwLTNhMV9GSjNSNExaUEZIMnFwbTZnYW83ZWVZQ3luV3pWQ0NRS2Y4MXNZOWdUeDBQX0ZHU1BVdG1HMG1nTldfMHlMZ1Y0N0x5UA?oc=5"
+        }
+      ],
+      "wordCount": 350
+    },
+    "blindSpot": "Mientras la contabilidad oficial de bajas varía entre distintos reportes y medios internacionales, el foco mediático ignora la vulnerabilidad estructural continua de los suburbios de Kiev frente a la saturación de ataques con drones de bajo costo, exponiendo la fatiga de los sistemas de defensa aérea locales."
+  },
+  {
     "slug": "rusia-escala-bombardeos-sobre-region-kiev-2yw3",
     "path": "noticias/rusia-escala-bombardeos-sobre-region-kiev-2yw3/",
     "title": "Rusia escala los bombardeos sobre la región de Kiev ante la llegada del invierno",

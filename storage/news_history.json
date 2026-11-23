@@ -340,9 +340,36 @@
     "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQk42RlpONkl2bXZhNVJKUkM3MjZsTm9PWFMtaFl5Z2duZWZ4cktQZTVVelJYTG5ldXNxbEd2YkpsRGVRT0ZIdDRFUWs1eTMxLUR6emtZdkdDeDNoeVotZW1ZRk02Q2ctallWRnViRVE2MkQ4Z0ctRUJ3Z2V2TWRiMG5XSjdhV1RRRVN6dXZLV1F6VkZSRFpmZllnTHZoNjhQREZ0dVdyOE9weUFMVjgtQTA5ZDNyd3lYamRfYTZiUkFycEFEMzZ1R2VlM3JPS1ZZ?oc=5",
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5",
     "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5",
-    "https://www.dw.com/es/ucrania-reporta-al-menos-14-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/ucrania-reporta-al-menos-14-muertos-en-bombardeos-rusos-sobre-región-de-kiev/a-80015527?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "ATAQUE DE DRONES RUSOS MATA DIEZ EN KIEV",
+      "normalizedTokens": [
+        "ataque",
+        "drones",
+        "rusos",
+        "mata",
+        "diez",
+        "kiev"
+      ],
+      "date": "2026-11-23T06:16:16.263Z"
+    },
+    {
+      "title": "Child rescued in Ukraine after Russian drone attack kills 10",
+      "normalizedTokens": [
+        "child",
+        "rescued",
+        "ukraine",
+        "after",
+        "russian",
+        "drone",
+        "attack",
+        "kills"
+      ],
+      "date": "2026-11-23T06:16:16.262Z"
+    },
     {
       "title": "RUSIA INTENSIFICA BOMBARDEOS EN KIEV TRAS ATAQUES EN CRIMEA",
       "normalizedTokens": [
@@ -7392,34 +7419,6 @@
         "seguridad"
       ],
       "date": "2026-11-07T12:49:50.717Z"
-    },
-    {
-      "title": "EMERGENCIA FISCAL Y SISMO CONDICIONAN GOBIERNO DE LA ESPRIELLA",
-      "normalizedTokens": [
-        "emergencia",
-        "fiscal",
-        "sismo",
-        "condicionan",
-        "gobierno",
-        "espriella"
-      ],
-      "date": "2026-11-07T11:46:54.891Z"
-    },
-    {
-      "title": "Los primeros 90 días de De la Espriella frente a Santos, Duque y Petro, ¿un comienzo sin luna de miel?",
-      "normalizedTokens": [
-        "primeros",
-        "dias",
-        "espriella",
-        "frente",
-        "santos",
-        "duque",
-        "petro",
-        "comienzo",
-        "luna",
-        "miel"
-      ],
-      "date": "2026-11-07T11:46:54.890Z"
     }
   ]
 }
