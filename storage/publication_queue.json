@@ -1,167 +1,5 @@
 [
   {
-    "id": "queue-1794587608906-rejhh",
-    "news": {
-      "id": "j4jvfa35y",
-      "originalUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5",
-      "originalTitle": "Microsoft ha descartado un ciberataque. Enlace en comentarios. 👇",
-      "sourceName": "Facebook",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 82,
-      "headline": "MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL",
-      "subHeadline": "La multinacional estadounidense confirmó que la interrupción masiva de sus servicios no respondió a un ataque informático externo. El incidente reabre la controversia sobre la fragilidad de la infraestructura en la nube.",
-      "blindSpotAngle": "Atribuir los colapsos masivos a fallos internos de configuración o infraestructura desplaza la atención del verdadero peligro sistémico. Aunque se descarte la acción hostil de terceros, la extrema concentración digital en un puñado de proveedores crea un punto único de falla capaz de paralizar sectores económicos enteros sin necesidad de una sola incursión cibernética.",
-      "facebookPost": "Microsoft ha confirmado que la reciente interrupción global de sus servicios no se debió a un ciberataque externo, atribuyendo el incidente a fallas técnicas de infraestructura y software. Mientras las explicaciones corporativas se centran en la contención de la avería, la narrativa dominante pasa por alto la vulnerabilidad estructural de este modelo.\n\nEl riesgo más grave no siempre proviene de ataques hostiles o malware, sino de la fragilidad inherente a la extrema centralización de los servicios digitales. Cuando la operativa diaria de miles de empresas e instituciones depende de un único gigante tecnológico, cualquier error interno desencadena una parálisis masiva con elevados costos económicos.\n\n¿Deberían los gobiernos impensar su dependencia crítica de infraestructuras tecnológicas tan altamente concentradas?\n\nFuente: Facebook\n\n#Tecnología #Ciberseguridad #PuntoCiego",
-      "telegramPost": "<b>MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL</b>\n\n• <b>Qué ocurrió:</b> Microsoft confirmó oficialmente que la caida masiva de sus servicios informáticos no fue provocada por un ciberataque externo.\n• <b>Por qué importa:</b> Descartar la hipótesis del sabotaje pone en evidencia la fragilidad de un modelo digital centralizado, donde un error técnico interno puede interrumpir servicios esenciales en múltiples países.\n• <b>Qué sigue:</b> Aumentará la presión regulatoria sobre la resiliencia operativa y la exigencia de planes de redundancia para infraestructuras críticas.",
-      "linkedInPost": "La confirmación por parte de Microsoft descartando un ciberataque tras la reciente interrupción de sus servicios pone de relieve un debate fundamental sobre el riesgo operativo y la continuidad del negocio. Con frecuencia, los comités de dirección priorizan la defensa frente a amenazas externas como ransomware o espionaje, infravalorando la vulnerabilidad que representan los fallos técnicos en plataformas centralizadas.\n\nLa alta concentración del mercado de servicios en la nube en unos pocos proveedores globales genera cuellos de botella críticos para las cadenas de valor internacionales. Las organizaciones deben trascender la ciberseguridad tradicional y adoptar estrategias rigurosas de soberanía digital, evaluación de impacto y redundancia de sistemas esenciales.\n\nFuente: Facebook\n\n#Tecnología #RiesgoOperativo #PuntoCiego",
-      "blueskyPost": "Microsoft descarta un ciberataque tras su caída global. El mayor peligro no siempre es un ciberataque: la alta centralización digital convierte un fallo interno en parálisis sistémica. #Tecnología #PuntoCiego",
-      "copies": {
-        "facebook": "Microsoft ha confirmado que la reciente interrupción global de sus servicios no se debió a un ciberataque externo, atribuyendo el incidente a fallas técnicas de infraestructura y software. Mientras las explicaciones corporativas se centran en la contención de la avería, la narrativa dominante pasa por alto la vulnerabilidad estructural de este modelo.\n\nEl riesgo más grave no siempre proviene de ataques hostiles o malware, sino de la fragilidad inherente a la extrema centralización de los servicios digitales. Cuando la operativa diaria de miles de empresas e instituciones depende de un único gigante tecnológico, cualquier error interno desencadena una parálisis masiva con elevados costos económicos.\n\n¿Deberían los gobiernos impensar su dependencia crítica de infraestructuras tecnológicas tan altamente concentradas?\n\n#Tecnología #Ciberseguridad #PuntoCiego",
-        "telegram": "<b>MICROSOFT DESCARTA UN CIBERATAQUE EN SU ÚLTIMA CAÍDA GLOBAL</b>\n\n• <b>Qué ocurrió:</b> Microsoft confirmó oficialmente que la caida masiva de sus servicios informáticos no fue provocada por un ciberataque externo.\n• <b>Por qué importa:</b> Descartar la hipótesis del sabotaje pone en evidencia la fragilidad de un modelo digital centralizado, donde un error técnico interno puede interrumpir servicios esenciales en múltiples países.\n• <b>Qué sigue:</b> Aumentará la presión regulatoria sobre la resiliencia operativa y la exigencia de planes de redundancia para infraestructuras críticas.",
-        "bluesky": "Microsoft descarta un ciberataque tras su caída global. El mayor peligro no siempre es un ciberataque: la alta centralización digital convierte un fallo interno en parálisis sistémica. #Tecnología #PuntoCiego",
-        "linkedIn": "La confirmación por parte de Microsoft descartando un ciberataque tras la reciente interrupción de sus servicios pone de relieve un debate fundamental sobre el riesgo operativo y la continuidad del negocio. Con frecuencia, los comités de dirección priorizan la defensa frente a amenazas externas como ransomware o espionaje, infravalorando la vulnerabilidad que representan los fallos técnicos en plataformas centralizadas.\n\nLa alta concentración del mercado de servicios en la nube en unos pocos proveedores globales genera cuellos de botella críticos para las cadenas de valor internacionales. Las organizaciones deben trascender la ciberseguridad tradicional y adoptar estrategias rigurosas de soberanía digital, evaluación de impacto y redundancia de sistemas esenciales.\n\n#Tecnología #RiesgoOperativo #PuntoCiego"
-      },
-      "article": {
-        "slug": "microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q",
-        "title": "Microsoft descarta el ciberataque pero expone la vulnerabilidad de la nube global",
-        "dek": "La multinacional confirmó que la caída masiva de sus servicios no fue causada por actores hostiles. El episodio reabre la controversia sobre los riesgos de la concentración digital.",
-        "keyFacts": [
-          "Microsoft descartó oficialmente la hipótesis de un ciberataque como causa de la interrupción de sus servicios.",
-          "La Vanguardia reportó las pautas y errores comunes de los usuarios ante caídas masivas en las plataformas de Microsoft.",
-          "La falla afectó la operativa técnica de organizaciones e infraestructuras a nivel internacional."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "Microsoft ha confirmado oficialmente que la interrupción masiva registrada en sus plataformas y servicios de computación no tuvo su origen en un ciberataque perpetrado por actores maliciosos. Tras el despliegue de las investigaciones internas iniciales, la firma multinacional aclaró que el fallo estuvo vinculado a problemas técnicos de infraestructura interna y actualizaciones de software. La aclaración busca mitigar la alarma desatada entre usuarios corporativos e instituciones de todo el mundo que sufrieron interrupciones en su operativa diaria."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "Cada vez que un gigante tecnológico sufre una caída de servicio a escala mundial, la narrativa pública tiende a asumir la existencia de un sabotaje digital o una incursión cibernética hostil. Frente a la desinformación y el pánico operativo, publicaciones como La Vanguardia abordaron la crisis analizando las pautas de actuación de los usuarios durante estas interrupciones, detallando las prácticas desaconsejadas que terminan por empeorar la situación de los sistemas informáticos afectados. Las recomendaciones enfatizan la importancia de no forzar reinicios erráticos ni ejecutar modificaciones de red no verificadas mientras los servidores centrales restablecen los servicios."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "Para el análisis estratégico de Punto Ciego, la rápida confirmación de que no se trató de un ciberataque no desmoviliza la gravedad del evento. Al contrario, pone al descubierto una realidad más preocupante: la extrema fragilidad del modelo de infraestructura digital altamente concentrado. La atención mediática se centra casi por completo en descartar la amenaza de hackers extranjeros o grupos de ciberdelincuencia, descuidando el riesgo de que un simple fallo de configuración interna en una sola compañía con sede en Estados Unidos pueda paralizar instantáneamente la actividad de miles de empresas y administraciones públicas globales."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "En este escenario, los grandes proveedores de tecnología mantienen su posición dominante en el mercado global gracias al elevado costo de cambio que implicaría para las corporaciones migrar a otras plataformas. Sin embargo, sufren un desgaste progresivo en la confianza sobre sus garantías de disponibilidad ininterrumpida. En la acera opuesta, las empresas cliente y el sector público asumen de manera íntegra el impacto económico de la inactividad y la pérdida de productividad, expuestos a vulnerabilidades operativas donde carecen de control técnico directo y de mecanismos efectivos de mitigación inmediata."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "A corto y mediano plazo, resulta fundamental vigilar el desarrollo de las normativas de resiliencia operativa digital que diversos organismos internacionales y gobiernos están implementando. La divulgación detallada de los informes de análisis causa-raíz por parte de Microsoft dictará si las autoridades regulatorias imponen exigencias más strictly en materia de redundancia obligatoria para las infraestructuras de nube crítica. Asimismo, el debate técnico se desplazará progresivamente desde los presupuestos destinados exclusivamente a la ciberdefensa hacia estrategias de soberanía tecnológica e independencia operativa."
-            ]
-          }
-        ],
-        "tags": [
-          "microsoft",
-          "ciberseguridad",
-          "tecnologia",
-          "infraestructura",
-          "nube",
-          "puntociego"
-        ],
-        "sources": [
-          {
-            "name": "Facebook",
-            "title": "Microsoft ha descartado un ciberataque. Enlace en comentarios. 👇",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZi1qcXZJNWtVS2lZZ1F6amRoTHVqbWZSeVhMSTRDYV9aLTJOU0FKdmdyOFhrVFlTUHVkNmtEbDRIUVlyN0xSMHpOQmlVczE1VHRVTEdkbGhiUF9udzNqRHZpcE9NSmRpWjllLVdacnE5bHhMNVo3VzROb1ZCUTF2MHM3NlZzb2hvNU52VnZJS25MTjNyTXp0M0RpdEZwV1hBYUFYbjBfM1RhX2E0V2tmTDBBbWpEUVdMWVJRM3E2SXo?oc=5"
-          },
-          {
-            "name": "La Vanguardia",
-            "title": "Lo que no hay que hacer nunca ante caídas como la de Microsoft",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX2JUYl92XzdQaG1zYXBmVWtVUlpwV094bzRhb2d6TXZCYng0ZThkd1I0WXBDSmItdFk2TTVUeEtFSmNIdnFoX2hGdlA1SHMwREtDcUMwRDAwMDVURDh6eC1OUGFpYTJOMHRldXlmVDFHRGVPM1ViZ3hfakVpUTdQSjNQUXpXczBWYUZF0gGQAUFVX3lxTFBhUmlSeDJFTllnLUNZbVBodDRYUzNHOTBHY2VicjNxNklRRDcxd1p4UUZVN3pXMUI4LWwtVkVxbHFTa014UmxjaW5ScnZmWFVTWHJWUnh2NmVGS3pfcm9xNEY3NDVDb3JudzFrM2ZhN190R21rUFdtTnRhYldwYjMzYVZGU0w1dE9yMTRDZ2VnVw?oc=5"
-          }
-        ],
-        "wordCount": 466
-      },
-      "videoScript": {
-        "hook": "¿Crees que las grandes caídas tecnológicas son siempre ciberataques de hackers?",
-        "beats": [
-          "Microsoft descartó oficialmente un ataque informático en la reciente interrupción global de sus sistemas.",
-          "Medios como La Vanguardia recuerdan que las malas decisiones de los usuarios agravan la parálisis en estos incidentes.",
-          "Ojo, lo que nadie dice es que un error interno en un proveedor centralizado paraliza economías completas."
-        ],
-        "close": "Lee el análisis completo sobre este punto ciego en el enlace del perfil."
-      },
-      "rawImageUrl": "https://www.lavanguardia.com/files/image_1920_1080/files/fp/uploads/2026/11/13/6af70e87593aa.r_d.2294-1102-5727.jpeg",
-      "status": "published",
-      "createdAt": "2026-11-13T16:33:26.310Z",
-      "cardImageUrl": "/news-cards/news-j4jvfa35y-1794587606311.jpg",
-      "reelCoverUrl": "/news-cards/news-j4jvfa35y-1794587607018-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-j4jvfa35y-1794587607627-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/microsoft-descarta-ciberataque-pero-expone-vulnerabilidad-d36q/",
-      "publishedAt": "2026-11-13T20:31:18.233Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true,
-      "youtube": true
-    },
-    "scheduledFor": "2026-11-13T20:29:15.321Z",
-    "status": "published",
-    "attempts": 2,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-13T16:33:28.906Z",
-    "lastAttemptAt": "2026-11-13T20:29:30.544Z",
-    "results": {
-      "facebook": {
-        "success": true,
-        "postId": "122110387311532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "208",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n27srhaoqb2e"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18493503583128331",
-        "permalink": "https://www.instagram.com/reel/Dfsfnl-gCCb/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "mastodon": {
-        "success": true,
-        "url": "https://mastodon.social/@PuntoCiego/117611007849376900"
-      },
-      "threads": {
-        "success": true,
-        "postId": "18112985303260974"
-      },
-      "youtube": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: no se sube a YouTube"
-      }
-    },
-    "publishedAt": "2026-11-13T20:31:18.233Z"
-  },
-  {
     "id": "queue-1794592266839-3byge",
     "news": {
       "id": "29j40zhwc",
@@ -25543,12 +25381,13 @@
         "close": "Lee el análisis geopolítico y financiero completo en el enlace de nuestro perfil."
       },
       "rawImageUrl": "https://investinglive.com/cms/media/Processed/Categories/featured/snb-second-round-inflation-effects-franc-november-2026-featured-1795392048.jpg?width=960&format=webp",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-23T02:50:07.514Z",
       "cardImageUrl": "/news-cards/news-bh4fqyxap-1795402207514.jpg",
       "reelCoverUrl": "/news-cards/news-bh4fqyxap-1795402208137-cover.jpg",
       "instagramCardUrl": "/news-cards/news-bh4fqyxap-1795402208667-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/dilema-banco-nacional-suizo-entre-inflacion-flpz/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/dilema-banco-nacional-suizo-entre-inflacion-flpz/",
+      "publishedAt": "2026-11-23T13:37:42.888Z"
     },
     "channels": {
       "facebook": true,
@@ -25562,10 +25401,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-23T13:37:00.000Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-23T02:50:09.897Z"
+    "createdAt": "2026-11-23T02:50:09.897Z",
+    "lastAttemptAt": "2026-11-23T13:37:15.455Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122114028129532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "365",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2yaswwud42q"
+      },
+      "instagram": {
+        "success": false,
+        "skipped": true,
+        "error": "Estrategia IG: fuera de la franja 18:00–21:00 (Bogotá); el Reel se reprograma a la franja"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117666024615996720"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17922842358245703"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-23T13:37:42.888Z"
   },
   {
     "id": "queue-1795412791150-rbxlw",
@@ -26510,6 +26391,127 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-23T12:38:30.246Z",
+    "igDeferred": true
+  },
+  {
+    "id": "queue-1795441047489-5m83s",
+    "news": {
+      "id": "bh4fqyxap",
+      "originalUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5",
+      "originalTitle": "Martin del SNB pone la mira en los efectos de segunda ronda tras el repunte de la inflación al 1,5%, con una subida a la vista",
+      "sourceName": "investingLive",
+      "category": "ECONOMÍA GLOBAL",
+      "urgencyScore": 82,
+      "headline": "EL BANCO NACIONAL SUIZO ALISTA SUBIDA DE TIPOS TRAS INFLACIÓN DEL 1,5%",
+      "subHeadline": "La inflación en Suiza repuntó del 1,0% en septiembre al 1,5% en octubre, lo que tomó por sorpresa al Banco Nacional Suizo. El presidente Martin Schlegel enfoca su atención en los efectos de segunda ronda de cara a la reunión de diciembre.",
+      "blindSpotAngle": "El dilema del BNS va más allá de la inflación: subir los tipos de interés para frenar presiones salariales amenaza con fortalecer aún más al franco suizo, encareciendo sus exportaciones y complicando su rol de refugio. Al mismo tiempo, la presión regulatoria sobre UBS por el requerimiento de capitalizar sus filiales extranjeras abre una grieta sobre una eventual mudanza de su sede bancaria.",
+      "facebookPost": "El Banco Nacional Suizo se prepara para un giro restrictivo en su reunión de diciembre. Tras el repunte inesperado de la inflación anual al 1,5% en octubre desde el 1,0% de septiembre, el presidente Martin Schlegel ha puesto el foco en los efectos de segunda ronda, donde las exigencias salariales amenazan con consolidar la subida de precios dentro del rango objetivo del 0% al 2%.\n\nSin embargo, la narrativa oficial omite una trampa macroeconómica. Si Suiza eleva sus tipos para alinearse con el ajuste de la Fed, la demanda del franco como activo refugio —impulsada por la incertidumbre en los mercados y la deuda en Francia— se disparará a niveles insostenibles. Para colmo, el apoyo del BNS a las exigencias de capital a las filiales de UBS tras la debacle de Credit Suisse en 2023 ha provocado que el mayor banco del país amague con mudar su sede al extranjero.\n\n¿Podrá Suiza mantener la estabilidad del franco y la competitividad de su banca mientras ajusta el freno monetario?\n\nFuente: investingLive\n\n📖 Análisis completo y fuentes en el primer comentario 👇\n\n#PuntoCiego #EconomíaGlobal #BancaSuiza",
+      "telegramPost": "<b>EL BANCO NACIONAL SUIZO ALISTA SUBIDA DE TIPOS TRAS INFLACIÓN DEL 1,5%</b>\n\n• <b>Qué ocurrió:</b> La inflación suiza saltó al 1,5% en octubre frente al 1,0% de septiembre, llevando al presidente del BNS, Martin Schlegel, a advertir sobre efectos de segunda ronda e insinuar un alza de tipos en diciembre.\n• <b>Por qué importa:</b> El endurecimiento monetario amenaza con apreciar en exceso el franco suizo frente al euro, obligando al BNS a intervenir el mercado cambiario mientras aplica exigencias severas de capital a UBS post-Credit Suisse.\n• <b>Qué sigue:</b> La decisión de política monetaria en diciembre definirá si la autoridad prioriza el control de precios o la competitividad del sector bancario y exportador.",
+      "linkedInPost": "El anuncio del presidente del Banco Nacional Suizo (BNS), Martin Schlegel, sobre el control de los efectos de segunda ronda tras el repunte de la inflación al 1,5% en octubre introduce una compleja dinámica para la liquidez transfronteriza y la competitividad bancaria.\n\nUn ajuste de tipos por parte del BNS en diciembre, en sintonía con la Reserva Federal, alterará el diferencial de tasas que históricamente ha moderado el atractivo del franco. Frente a la volatilidad global y las tensiones en los mercados de renta variable, la divisa helvética enfrenta presiones alcistas que podrían perjudicar el sector exportador.\n\nParalelamente, la posición del BNS respaldando las reformas gubernamentales para que UBS capitalice al 100% sus filiales internacionales tras la caída de Credit Suisse en 2023 reabre el debate sobre la seguridad jurídica y el riesgo de fuga de sede corporativa. La estabilidad bancaria en Suiza atraviesa un punto de inflexión donde el rigor regulatorio colisiona con la atracción de capitales.\n\nFuente: investingLive\n\nAnálisis completo: https://puntociegoglobal.pages.dev/noticias/dilema-banco-nacional-suizo-entre-inflacion-flpz/\n\n#PuntoCiego #EconomíaGlobal #BancaYFinanzas",
+      "blueskyPost": "La inflación en Suiza subió al 1,5% y el BNS alista un alza de tipos en diciembre. El verdadero riesgo: un franco hiperfuerte y la amenaza de UBS de mudar su sede por la presión regulatoria. #PuntoCiego #EconomíaGlobal",
+      "copies": {
+        "facebook": "El Banco Nacional Suizo se prepara para un giro restrictivo en su reunión de diciembre. Tras el repunte inesperado de la inflación anual al 1,5% en octubre desde el 1,0% de septiembre, el presidente Martin Schlegel ha puesto el foco en los efectos de segunda ronda, donde las exigencias salariales amenazan con consolidar la subida de precios dentro del rango objetivo del 0% al 2%.\n\nSin embargo, la narrativa oficial omite una trampa macroeconómica. Si Suiza eleva sus tipos para alinearse con el ajuste de la Fed, la demanda del franco como activo refugio —impulsada por la incertidumbre en los mercados y la deuda en Francia— se disparará a niveles insostenibles. Para colmo, el apoyo del BNS a las exigencias de capital a las filiales de UBS tras la debacle de Credit Suisse en 2023 ha provocado que el mayor banco del país amague con mudar su sede al extranjero.\n\n¿Podrá Suiza mantener la estabilidad del franco y la competitividad de su banca mientras ajusta el freno monetario?\n\n#PuntoCiego #EconomíaGlobal #BancaSuiza",
+        "telegram": "<b>EL BANCO NACIONAL SUIZO ALISTA SUBIDA DE TIPOS TRAS INFLACIÓN DEL 1,5%</b>\n\n• <b>Qué ocurrió:</b> La inflación suiza saltó al 1,5% en octubre frente al 1,0% de septiembre, llevando al presidente del BNS, Martin Schlegel, a advertir sobre efectos de segunda ronda e insinuar un alza de tipos en diciembre.\n• <b>Por qué importa:</b> El endurecimiento monetario amenaza con apreciar en exceso el franco suizo frente al euro, obligando al BNS a intervenir el mercado cambiario mientras aplica exigencias severas de capital a UBS post-Credit Suisse.\n• <b>Qué sigue:</b> La decisión de política monetaria en diciembre definirá si la autoridad prioriza el control de precios o la competitividad del sector bancario y exportador.",
+        "bluesky": "La inflación en Suiza subió al 1,5% y el BNS alista un alza de tipos en diciembre. El verdadero riesgo: un franco hiperfuerte y la amenaza de UBS de mudar su sede por la presión regulatoria. #PuntoCiego #EconomíaGlobal",
+        "linkedIn": "El anuncio del presidente del Banco Nacional Suizo (BNS), Martin Schlegel, sobre el control de los efectos de segunda ronda tras el repunte de la inflación al 1,5% en octubre introduce una compleja dinámica para la liquidez transfronteriza y la competitividad bancaria.\n\nUn ajuste de tipos por parte del BNS en diciembre, en sintonía con la Reserva Federal, alterará el diferencial de tasas que históricamente ha moderado el atractivo del franco. Frente a la volatilidad global y las tensiones en los mercados de renta variable, la divisa helvética enfrenta presiones alcistas que podrían perjudicar el sector exportador.\n\nParalelamente, la posición del BNS respaldando las reformas gubernamentales para que UBS capitalice al 100% sus filiales internacionales tras la caída de Credit Suisse en 2023 reabre el debate sobre la seguridad jurídica y el riesgo de fuga de sede corporativa. La estabilidad bancaria en Suiza atraviesa un punto de inflexión donde el rigor regulatorio colisiona con la atracción de capitales.\n\n#PuntoCiego #EconomíaGlobal #BancaYFinanzas"
+      },
+      "article": {
+        "slug": "dilema-banco-nacional-suizo-entre-inflacion-flpz",
+        "title": "El dilema del Banco Nacional Suizo entre la inflación y el franco fuerte",
+        "dek": "El repunte de la inflación al 1,5% acelera los planes del BNS para subir tipos en diciembre. Tras la medida se oculta una encrucijada regulatoria y cambiaria que tensiona al gigante bancario UBS.",
+        "keyFacts": [
+          "La inflación anual en Suiza subió al 1,5% en octubre desde el 1,0% registrado en septiembre.",
+          "El presidente del BNS, Martin Schlegel, advirtió que el aumento tomó por sorpresa al banco central y centró la atención en los efectos de segunda ronda.",
+          "El BNS respalda la propuesta gubernamental de exigir a UBS la capitalización total de sus filiales en el extranjero, medida derivada de la crisis de Credit Suisse en 2023.",
+          "UBS ha tildado las exigencias regulatorias de excesivas y ha alimentado especulaciones sobre un posible traslado de su sede fuera de Suiza."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó: El salto inflacionario que tomó por sorpresa al BNS",
+            "paragraphs": [
+              "Según datos del mercado monetario reportados por la agencia investingLive, la inflación anual en Suiza registró un brinco inesperado al situarse en el 1,5% en octubre, superando el 1,0% medido en septiembre. Aunque la cifra permanece dentro del rango objetivo del 0% al 2% fijado por el Banco Nacional Suizo (BNS), la velocidad del incremento desató las alarmas en la sede del emisor helvético.",
+              "El presidente de la institución, Martin Schlegel, admitió públicamente que la magnitud del repunte tomó por sorpresa a los consejeros del banco. Ante este panorama, Schlegel situó el foco de atención en los denominados efectos de segunda ronda, fenómeno mediante el cual la subida inicial de precios se traslada a demandas salariales más elevadas y ajustes en la cadena de distribución, transformando un choque temporal en una espiral inflacionaria persistente. Las expectativas de los analistas apuntan ahora de manera decidida a un incremento en los tipos de interés durante la próxima reunión de política monetaria en diciembre."
+            ]
+          },
+          {
+            "heading": "El contexto: La trampa del franco como activo de refugio",
+            "paragraphs": [
+              "El escenario cambiario añade una capa adicional de complejidad. Tras debilitarse a comienzos de año frente al euro y al dólar estadounidense, el franco suizo experimentó una intensa apreciación en octubre. Esta aceleración respondió a la incertidumbre derivada de las correcciones en el sector tecnológico impulsado por la inteligencia artificial, el encarecimiento de los insumos energéticos y las dudas sobre la sostenibilidad de la deuda pública en Francia.",
+              "La fortaleza del franco en términos reales se sitúa actualmente cerca de los niveles cotizados hace cinco años. No obstante, una eventual subida de tipos por parte del BNS, combinada con la política restrictiva de la Reserva Federal de Estados Unidos, altera de forma sustancial el diferencial de tasas de interés. Tal dinámica refuerza el atractivo del franco frente a la divisa europea, lo que genera tensiones directas sobre los exportadores helvéticos y obliga al propio Schlegel a calificar las fluctuaciones cambiarias como el mayor riesgo operativo del banco central."
+            ]
+          },
+          {
+            "heading": "El punto ciego: La pulseada regulatoria con el gigante UBS",
+            "paragraphs": [
+              "La narrativa oficial de la banca central intenta concentrar la atención en el control de la inflación y la estabilidad monetaria. Sin embargo, el análisis de Punto Ciego revela que el verdadero nudo gordiano radica en el pulso soterrado entre las autoridades regulatorias suizas y UBS, el único megabanco que sobrevivió a la consolidación del sector financiero nacional.",
+              "Tras el histórico colapso de Credit Suisse en 2023, el gobierno suizo propuso una reforma marco que exigiría a UBS respaldar con capital completo cada una de sus subsidiarias en el extranjero. El BNS ha ratificado de forma explícita su respaldo a esta propuesta. En respuesta, la cúpula directiva de UBS ha calificado el proyecto como una medida desproporcionada que erosiona severamente su competitividad global, alimentando abiertamente la amenaza de trasladar su sede corporativa fuera de las fronteras suizas."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde en el nuevo tablero helvético",
+            "paragraphs": [
+              "En esta encrucijada macroeconómica, los ganadores inmediatos son los tenedores de divisas en francos suizos y los inversionistas internacionales que buscan resguardo frente a la volatilidad europea. Por su parte, el sector industrial y exportador de Suiza asume el costo directo del encarecimiento de la moneda local, perdiendo tracción en los mercados de la Eurozona.",
+              "En el ámbito corporativo, la plaza financiera de Zúrich arriesga perder su hegemonía institucional si las tensiones regulatorias empujan a UBS a ejecutar un cambio de domicilio fiscal. Aunque Martin Schlegel ha intentado rebajar la crispación recordando la estabilidad política y la seguridad jurídica que ofrece el país, la decisión final reposa en los accionistas del gigante bancario."
+            ]
+          },
+          {
+            "heading": "Qué vigilar: La decisión decisiva de diciembre",
+            "paragraphs": [
+              "La reunión de política monetaria fijada para diciembre se perfila como una cita crucial para el equilibrio monetario y bancario europeo. El BNS deberá calibrar si aprieta el freno monetario para sofocar los brotes salariales o si modera sus expectativas para evitar un estrangulamiento cambiario que asfixie al comercio exterior.",
+              "Asimismo, será determinante observar las negociaciones parlamentarias sobre el marco normativo bancario. La capacidad de Suiza para sostener su arquitectura de capitales sin provocar un éxodo de su mayor entidad privada definirá el mapa financiero del continente para los próximos años."
+            ]
+          }
+        ],
+        "tags": [
+          "Suiza",
+          "Banco Nacional Suizo",
+          "Inflación",
+          "UBS",
+          "Tipos de Interés",
+          "Política Monetaria"
+        ],
+        "sources": [
+          {
+            "name": "investingLive",
+            "title": "Martin del SNB pone la mira en los efectos de segunda ronda tras el repunte de la inflación al 1,5%, con una subida a la vista",
+            "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVFNLalV6WUM1RGs1eVZvN1JqV2NrRVVEMm9XU0FVMDdmR3J5VDZwRU9MQ21acmdDbnJTNkxQcmVpWW9SaklpU1V2SVhpMDNzZFRkTW5VUFp2UTRHTUpZWnZXSWhQM3E3WFJBbVVFSFFGbHVjb1czYmp4czdRV0p6VHBIZ211b3BhbGYxejY2UVUtSE9qb0RUZEhSY1pnVF9IWXRScGZMTUdXWTNoT3ZZcF8zNXk1MU94OFpDUW15THZwLVlyeklNdUxyVTR0T1dCeDBFTWpkLUZsUUZSSGVKeEd4NnpvVVJYOHpMeHRpNnJsMnNhS1ZXNEpndHN6T3M?oc=5"
+          }
+        ],
+        "wordCount": 693
+      },
+      "videoScript": {
+        "hook": "Suiza enfrenta una paradoja económica que pone a temblar a su banca",
+        "beats": [
+          "La inflación en Suiza saltó al 1,5% y el banco central planea subir los tipos en diciembre.",
+          "Ojo porque apretar las tasas encarecerá aún más el franco suizo frente al euro afectando a sus exportadores.",
+          "Y lo que nadie dice es que la presión sobre UBS amenaza con mudar su sede fuera del país."
+        ],
+        "close": "Lee el análisis geopolítico y financiero completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://investinglive.com/cms/media/Processed/Categories/featured/snb-second-round-inflation-effects-franc-november-2026-featured-1795392048.jpg?width=960&format=webp",
+      "status": "pending",
+      "createdAt": "2026-11-23T02:50:07.514Z",
+      "cardImageUrl": "/news-cards/news-bh4fqyxap-1795402207514.jpg",
+      "reelCoverUrl": "/news-cards/news-bh4fqyxap-1795402208137-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-bh4fqyxap-1795402208667-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/dilema-banco-nacional-suizo-entre-inflacion-flpz/"
+    },
+    "channels": {
+      "facebook": false,
+      "telegram": false,
+      "bluesky": false,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": false,
+      "mastodon": false,
+      "threads": false,
+      "youtube": false
+    },
+    "scheduledFor": "2026-11-23T23:00:00.000Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-23T13:37:27.489Z",
     "igDeferred": true
   }
 ]
