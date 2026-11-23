@@ -347,6 +347,36 @@
   ],
   "processedSignatures": [
     {
+      "title": "GOBIERNO ORIENTAL DE LIBIA SOSPECHA ATAQUE CON DRONES A BUQUE RUSO",
+      "normalizedTokens": [
+        "gobierno",
+        "oriental",
+        "libia",
+        "sospecha",
+        "ataque",
+        "drones",
+        "buque",
+        "ruso"
+      ],
+      "date": "2026-11-23T12:38:30.265Z"
+    },
+    {
+      "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+      "normalizedTokens": [
+        "libya",
+        "eastern",
+        "government",
+        "suspects",
+        "drone",
+        "attack",
+        "caused",
+        "explosion",
+        "russian",
+        "ship"
+      ],
+      "date": "2026-11-23T12:38:30.263Z"
+    },
+    {
       "title": "INFRAESTRUCTURA DE IA DISPARA DEMANDA DE OFICIOS EN ESTADOS UNIDOS",
       "normalizedTokens": [
         "infraestructura",
@@ -7378,35 +7408,6 @@
         "say"
       ],
       "date": "2026-11-07T15:31:38.024Z"
-    },
-    {
-      "title": "LITUANIA INDUSTRIALIZA LÁSERES CRÍTICOS PARA REDUCIR CUELLOS DE BOTELLA EN CHIPS",
-      "normalizedTokens": [
-        "lituania",
-        "industrializa",
-        "laseres",
-        "criticos",
-        "reducir",
-        "cuellos",
-        "botella",
-        "chips"
-      ],
-      "date": "2026-11-07T14:55:53.714Z"
-    },
-    {
-      "title": "Lituania tiene 2,9 millones de habitantes pero compite con China fabricando láseres para chips de IA en serie",
-      "normalizedTokens": [
-        "lituania",
-        "millones",
-        "habitantes",
-        "compite",
-        "china",
-        "fabricando",
-        "laseres",
-        "chips",
-        "serie"
-      ],
-      "date": "2026-11-07T14:55:53.712Z"
     }
   ]
 }
