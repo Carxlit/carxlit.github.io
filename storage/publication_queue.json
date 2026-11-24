@@ -26337,5 +26337,146 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-23T23:06:30.289Z"
+  },
+  {
+    "id": "queue-1795479455845-bjslc",
+    "news": {
+      "id": "o653ijx21",
+      "originalUrl": "https://theconversation.com/dudas-sobre-la-inteligencia-artificial-anthropic-sale-a-bolsa-en-plena-tormenta-bursatil-de-las-tecnologicas-297212",
+      "originalTitle": "¿Dudas sobre la inteligencia artificial? Anthropic sale a bolsa en plena tormenta bursátil de las tecnológicas",
+      "sourceName": "The Conversation",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "ANTHROPIC DEBUTA EN NASDAQ RECAUDANDO 119500 MILLONES DE DÓLARES",
+      "subHeadline": "La creadora de Claude comenzó a cotizar alcanzando una valoración de hasta 1,7 billones de dólares tras captar capital fresco y acuerdos con gigantes tecnológicos. Sin embargo, su acción cayó un 8,5% en su primer viernes en medio de un severo ajuste en el Nasdaq.",
+      "blindSpotAngle": "El entusiasmo bursátil enmascara un bucle de refinanciación circular: 26 000 millones de dólares del monto recaudado provinieron de sus propios proveedores de chips y nube como Nvidia, Google y Microsoft. Además, la absorción masiva de liquidez durante el estreno obligó a deshacer posiciones en el resto del sector tecnológico, exacerbando la volatilidad del índice mientras Anthropic acumula compromisos de gasto en computación por 900 000 millones de dólares.",
+      "facebookPost": "Anthropic irrumpió en el Nasdaq captando 119 500 millones de dólares entre su oferta pública y acuerdos corporativos, con una demanda que sextuplicó la emisión inicial. La narrativa oficial presentó el debut como una prueba definitiva de la fortaleza del sector tecnológico. Sin embargo, la acción cerró su primer viernes en 88,91 dólares, arrastrando al mercado en su peor semana desde la pandemia. Detrás del titular multimillonario subyace una arquitectura financiera singular: 26 000 millones de dólares de la colocación proceden de sus propios suministradores de capacidad de cálculo. Con pérdidas semestrales de 80 700 millones de dólares y compromisos operativos por 900 000 millones, el mercado se enfrenta a interrogantes sobre la valoración de la compañía. ¿Representa esta colocación una inyección sostenible de capital o una maniobra de liquidez que traslada el riesgo al mercado abierto?\n\nFuente: The Conversation\n\n#PuntoCiego #InteligenciaArtificial #MercadosFinancieros",
+      "telegramPost": "<b>ANTHROPIC DEBUTA EN NASDAQ RECAUDANDO 119500 MILLONES DE DÓLARES</b>\n\n• <b>Qué ocurrió:</b> Anthropic inició su cotización bursátil vendiendo 980 millones de acciones a 83 dólares y acumuló cerca de 119 500 millones de dólares tras incluir compras de proveedores estratégicos y el mecanismo greenshoe.\n• <b>Por qué importa:</b> La operación absorbió tal volumen de capital que aceleró la caída del 5,28% en el Nasdaq, mientras 26 000 millones del total provinieron de alianzas circulares con suministradores de chips y nube.\n• <b>Qué sigue:</b> Wall Street evaluará la sostenibilidad de su valoración frente a compromisos de computación por 900 000 millones de dólares y pérdidas semestrales de 80 700 millones.",
+      "linkedInPost": "La salida a bolsa de Anthropic constituye un estudio de caso sobre la estructura de capital y los riesgos de concentración en la industria de la inteligencia artificial. A pesar de lograr una recaudación bruta de 119 500 millones de dólares, la dinámica del libro de órdenes reveló fricciones inmediatas: en la primera jornada se negociaron 84 600 millones de dólares, concentrándose la mitad del volumen en los primeros 30 minutos por tomas de beneficios. Desde el punto de vista macrofinanciero, destaca la dependencia cruzada del ecosistema, donde 26 000 millones de dólares provinieron de acuerdos directos con proveedores de infraestructura como Nvidia, Google y Microsoft. Con compromisos de gasto futuro en capacidad de cómputo cercanos a los 900 000 millones de dólares y pérdidas semestrales reportadas de 80 700 millones de dólares, la viabilidad a largo plazo demandará una ejecución operativa rigurosa. Por otro lado, la retención del control de voto por parte de los siete cofundadores limita la influencia institucional en la gobernanza.\n\nFuente: The Conversation\n\n#PuntoCiego #EconomiaGlobal #MercadoDeCapitales",
+      "blueskyPost": "Anthropic captó 119 500 millones de dólares en el Nasdaq, pero 26 000 millones provinieron de sus propios proveedores de chips y nube. Su debut drenó liquidez e hizo caer el índice un 5,28%. #PuntoCiego #TecnologiaIA",
+      "copies": {
+        "facebook": "Anthropic irrumpió en el Nasdaq captando 119 500 millones de dólares entre su oferta pública y acuerdos corporativos, con una demanda que sextuplicó la emisión inicial. La narrativa oficial presentó el debut como una prueba definitiva de la fortaleza del sector tecnológico. Sin embargo, la acción cerró su primer viernes en 88,91 dólares, arrastrando al mercado en su peor semana desde la pandemia. Detrás del titular multimillonario subyace una arquitectura financiera singular: 26 000 millones de dólares de la colocación proceden de sus propios suministradores de capacidad de cálculo. Con pérdidas semestrales de 80 700 millones de dólares y compromisos operativos por 900 000 millones, el mercado se enfrenta a interrogantes sobre la valoración de la compañía. ¿Representa esta colocación una inyección sostenible de capital o una maniobra de liquidez que traslada el riesgo al mercado abierto? #PuntoCiego #InteligenciaArtificial #MercadosFinancieros",
+        "telegram": "<b>ANTHROPIC DEBUTA EN NASDAQ RECAUDANDO 119500 MILLONES DE DÓLARES</b>\n\n• <b>Qué ocurrió:</b> Anthropic inició su cotización bursátil vendiendo 980 millones de acciones a 83 dólares y acumuló cerca de 119 500 millones de dólares tras incluir compras de proveedores estratégicos y el mecanismo greenshoe.\n• <b>Por qué importa:</b> La operación absorbió tal volumen de capital que aceleró la caída del 5,28% en el Nasdaq, mientras 26 000 millones del total provinieron de alianzas circulares con suministradores de chips y nube.\n• <b>Qué sigue:</b> Wall Street evaluará la sostenibilidad de su valoración frente a compromisos de computación por 900 000 millones de dólares y pérdidas semestrales de 80 700 millones.",
+        "bluesky": "Anthropic captó 119 500 millones de dólares en el Nasdaq, pero 26 000 millones provinieron de sus propios proveedores de chips y nube. Su debut drenó liquidez e hizo caer el índice un 5,28%. #PuntoCiego #TecnologiaIA",
+        "linkedIn": "La salida a bolsa de Anthropic constituye un estudio de caso sobre la estructura de capital y los riesgos de concentración en la industria de la inteligencia artificial. A pesar de lograr una recaudación bruta de 119 500 millones de dólares, la dinámica del libro de órdenes reveló fricciones inmediatas: en la primera jornada se negociaron 84 600 millones de dólares, concentrándose la mitad del volumen en los primeros 30 minutos por tomas de beneficios. Desde el punto de vista macrofinanciero, destaca la dependencia cruzada del ecosistema, donde 26 000 millones de dólares provinieron de acuerdos directos con proveedores de infraestructura como Nvidia, Google y Microsoft. Con compromisos de gasto futuro en capacidad de cómputo cercanos a los 900 000 millones de dólares y pérdidas semestrales reportadas de 80 700 millones de dólares, la viabilidad a largo plazo demandará una ejecución operativa rigurosa. Por otro lado, la retención del control de voto por parte de los siete cofundadores limita la influencia institucional en la gobernanza. #PuntoCiego #EconomiaGlobal #MercadoDeCapitales"
+      },
+      "article": {
+        "slug": "debut-bursatil-anthropic-expone-fragilidades-financieras-nm2x",
+        "title": "El debut bursátil de Anthropic expone las fragilidades financieras del sector tecnológico",
+        "dek": "La creadora de Claude captó más de 119 000 millones de dólares en su estreno pero desató ventas masivas en el Nasdaq. El análisis de sus balances devela alianzas circulares y enormes compromisos de gasto en computación.",
+        "keyFacts": [
+          "Anthropic debutó el jueves 19 de noviembre en el Nasdaq vendiendo 980 millones de acciones a 83 dólares.",
+          "La cifra total de captación alcanzó los 119 500 millones de dólares tras incluir aportes de Nvidia, Google y Microsoft.",
+          "El Nasdaq retrocedió un 5,28% el viernes 20 de noviembre, en su peor semana desde la pandemia de 2020.",
+          "La compañía reportó ingresos de 16 300 millones de dólares en el primer semestre de 2026 y pérdidas de 80 700 millones.",
+          "Anthropic registra compromisos por cerca de 900 000 millones de dólares en adquisición de capacidad de cálculo."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "El jueves 19 de noviembre, Anthropic inició su cotización en el índice Nasdaq. La empresa colocó 980 millones de acciones a 83 dólares cada una, superando el rango inicial previsto de entre 70 y 78 dólares debido a que la demanda superó en seis veces la oferta disponible.",
+              "Según los datos del dossier, la oferta pública directa recaudó 81 300 millones de dólares. Al sumar el ejercicio del mecanismo greenshoe por parte de los bancos colocadores y la inyección de 26 000 millones de dólares procedentes de sus proveedores de chips y servicios en la nube, la cifra global de capital reunido escaló a 119 500 millones de dólares. Tras abrir a 111,50 dólares, la acción cerró la sesión del viernes a 88,91 dólares, representando un retroceso del 8,5% respecto al día anterior."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "El estreno se desarrolló en medio de un escenario adverso para los valores tecnológicos. La víspera del debut, el Nasdaq acumulaba una caída del 11,5% desde octubre, afectada por la alta concentración del mercado, donde diez empresas representan el 56,6% del índice y solo Nvidia supone el 11,7%.",
+              "El viernes 20 de noviembre, tras completarse la colocación, el Nasdaq cedió un 5,28%, anulando las ganancias acumuladas durante el año y cerrando su peor semana desde la pandemia de 2020. En esa misma jornada, Nvidia sufrió un desplome del 14% impulsado por informaciones de Reuters sobre un examen de la SEC a sus prácticas contables, arrastrando a firmas de semiconductores e infraestructura."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El análisis detallado del flujo de fondos revela un esquema de refinanciación circular. Una porción significativa de la recaudación —26 000 millones de dólares— provino de socios estratégicos como Nvidia, Google y Microsoft. Este mecanismo implica que el capital aportado por los proveedores regresa posteriormente a sus balances a través de la contratación de capacidad de cómputo y servicios de infraestructura.",
+              "Asimismo, durante el primer día de cotización se negociaron 84 600 millones de dólares en acciones de Anthropic, concentrándose la mitad de esa cifra en los primeros 30 minutos. La necesidad de absorber tal volumen de papel nuevo obligó a los administradores de fondos a liquidar posiciones en otras empresas del Nasdaq, provocando una contracción generalizada de la liquidez bursátil."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Los siete cofundadores de Anthropic mantienen una posición dominante sobre la estructura corporativa, al conservar más de la mitad de los derechos de voto. Esta condición les asegura el control decisorio independientemente del volumen de capital ingresado a través de los mercados públicos.",
+              "Por el contrario, los inversores minoristas e institucionales que adquirieron títulos en la apertura a 111,50 dólares sufrieron una pérdida inmediata del 20% al cierre del viernes. Asimismo, la presión vendedora derivada de la redistribución de carteras generó desvalorizaciones en el resto de los componentes del sector tecnológico."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "El mercado seguirá de cerca la capacidad de Anthropic para absorber sus obligaciones financieras, ya que la empresa ha comprometido cerca de 900 000 millones de dólares en capacidad de cálculo futuro. Aunque registró un ritmo de ingresos anualizados de 81 000 millones de dólares en octubre, sus pérdidas semestrales alcanzaron los 80 700 millones de dólares, si bien 72 400 millones correspondieron a ajustes contables sin salida de caja.",
+              "Adicionalmente, la cotización de la firma se ubica por debajo de los 92 dólares estimados por la consultora Morningstar como su valor razonable, en un marco donde los desarrollos regulatorios sobre las empresas de semiconductores determinarán la evolución del sector."
+            ]
+          }
+        ],
+        "tags": [
+          "Anthropic",
+          "Nasdaq",
+          "Inteligencia Artificial",
+          "Nvidia",
+          "Mercados Financieros",
+          "Big Tech"
+        ],
+        "sources": [
+          {
+            "name": "The Conversation",
+            "title": "¿Dudas sobre la inteligencia artificial? Anthropic sale a bolsa en plena tormenta bursátil de las tecnológicas",
+            "url": "https://theconversation.com/dudas-sobre-la-inteligencia-artificial-anthropic-sale-a-bolsa-en-plena-tormenta-bursatil-de-las-tecnologicas-297212"
+          },
+          {
+            "name": "Yahoo Finanzas",
+            "title": "Anthropic pierde 8.5% al cierre de su primer viernes en bolsa",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0dmVjNGam16UUxLTWo3clBtUDdKOTdKOHRDekt6dWFsbUgwMUpWLVB3ak5RQ1RickxzdTNxRnRHQkpvRWN1RE4zbmVSeFhudGRicW0tZVh3VE4xaS1mdWhMTG9QeHNxaU1ReVZPNW9oZDJ3NTFBMk1MWElVRVpBci02SG03THdBNmp6Ng?oc=5"
+          },
+          {
+            "name": "Gestión",
+            "title": "Anthropic cae pese al repunte de la IA por regreso de Huang a Nvidia",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVXVIX2dxVmlLY0lyeEs3djEwQ0R2bkNLb2lSOUxCTkdnd2pKZmNGU1NLcjN3RTNISnFiVUZPNmxaV3N5U3JhRlVUUVU5VjRidnlMMmJNVFRnX1FNeVRIQUExLWlWMHozTGwzdGhJTHpoRVdHZkR5NWo1TnFFV3NDSlVqbzFPUzg1d1BEUGYzeVJNSmZnY25oOEFEbDBzYkIzQUljWl9nY1JVUGdUb0pwYnZCaWk?oc=5"
+          },
+          {
+            "name": "Bloomberg Línea",
+            "title": "Wall Street se pregunta qué puede salvar el mercado de la IA tras la caída de Anthropic",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR0xNcXhockg2ckdkaG56Qzd0U0oxOThIaFg4TlhwM2RLUV8zakgyazYxY2FXQm5KMzdmSnhpVjhuY1dzMW85dVhpMDBBU1hOWXZBeGplVUhzblQtT04xdnBaX21nQS1OYThJbTB1c3dHaTE1TVIxMVJrbnBFZ050a3BvQS1FclZVVnpFNl9NcmtPOXZENkw4c25FOVJHbVZiaDc1bmMwUjFwM2lPbFplMWdRemFtSWtaTEJLakoyZkIzTEJZZnhN0gHbAUFVX3lxTE1zaVQ4MWJsTXVaTEstc0xFWF9raWh3dGxCRG40MF96eDloNDlhZFc0V1dKSzZSVDgxQWYweFRwendrWFhiSjJDWDdRRUtkM29TSWlVdmlFSkx2TzBPTmplNWppUnRlOHgtMklmRlpVT3gxU1NHelRiMDk1aDkxc29obUN5N1lJLWpaTUk1RG5yYWRGYldwMzlrN2o2VVFfcE9rbU9NUl8wWFBKQUhuajNiNVg4RTF0NmZ1MzRfTzVqWloxVmc4RTI2aldBLWFoYnZObDNXNWNsN29aZw?oc=5"
+          },
+          {
+            "name": "Cinco Días",
+            "title": "La OPV de 2 billones de Anthropic puede ser el último gran festejo",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdHNUaW9aNE9SVThlU1VRbmIzLVhVcnZkX3NOLWxWLU9keFZlTXMyaE40aWJkWVNlMG5PNnR2NHVGeklEc0pXT0tFT0JacEpfM1NhcFFvTXR1bUVlUEVnbjB0eGsteHdjQ3pmal9CakMxMVVkS3dCNVV3UUFDenVSbG1KZmxHOVZ1ZmcwQ0ZuTWpVa1Boc2xJTFRwXzRLMUJXTmc2R0FWVVZvRnR2eVZfVGp2RU5ocU1sLUNv0gHPAUFVX3lxTE9GWXVzWTBPYUU4RUFGa0ZGaDJKQm4yMlJpaHNfcW9oZHQzZlhsNml1MnRxdUROWV9LMml4aWJvMXNFcVlHN0FLQXlvUV9RSFdjWGUzaFkzeVlGd09MSUxBNU1heTdBaDFnajZqSGlUajNxbWY2SFh1WktHU1BZcnlXdVRWcjUtR1NLeWZLcjMwekNJT1ZmbWRfbldPQVcwLUtUQ0dWSnJ3RVhsbDdJT3NNN1NNcjFPbkJLNDVBSlpHT014LVRuRlJFUkFLTTBfQQ?oc=5"
+          }
+        ],
+        "wordCount": 603
+      },
+      "videoScript": {
+        "hook": "¿Puede un estreno bursátil récord hacer caer a todo el mercado tecnológico?",
+        "beats": [
+          "Anthropic salió al Nasdaq captando 119,5 mil millones de dólares pero la acción cayó un 8,5% el viernes.",
+          "Ojo porque 26 000 millones vinieron de sus propios proveedores y la absorción de liquidez golpeó al sector.",
+          "Y lo que nadie dice es que la empresa debe 900 000 millones en computación de infraestructura."
+        ],
+        "close": "Lee el análisis completo sobre este estreno bursátil en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://images.theconversation.com/files/773649/original/file-20261123-62-ckfrr8.jpg?ixlib=rb-4.1.1&rect=0%2C450%2C5400%2C2700&q=45&auto=format&w=1356&h=668&fit=crop",
+      "status": "pending",
+      "createdAt": "2026-11-24T00:17:33.395Z",
+      "cardImageUrl": "/news-cards/news-o653ijx21-1795479453396.jpg",
+      "reelCoverUrl": "/news-cards/news-o653ijx21-1795479453995-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-o653ijx21-1795479454539-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/debut-bursatil-anthropic-expone-fragilidades-financieras-nm2x/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-24T02:59:00.000Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-24T00:17:35.845Z"
   }
 ]
