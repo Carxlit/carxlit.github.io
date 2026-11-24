@@ -353,9 +353,39 @@
     "https://www.bloomberglinea.com/latinoamerica/colombia/nuevo-atentado-en-colombia-artefacto-explota-cerca-de-la-gobernacion-del-meta/",
     "https://www.france24.com/es/medio-oriente/20261124-yemen-los-hut%C3%ADes-reportan-25-muertos-o-desaparecidos-tras-ataques-sauditas",
     "https://www.france24.com/es/europa/20261124-en-directo-ataque-ruso-deja-dos-muertos-en-zaporizhia-tr%C3%ADpoli-pide-explicaciones-a-kiev-por-ataques-contra-buques-rusos",
-    "https://www.genbeta.com/actualidad/contrata-como-empleada-hogar-durante-4-meses-a-mujer-amigo-consigue-que-tenga-derecho-a-paro-vigo"
+    "https://www.genbeta.com/actualidad/contrata-como-empleada-hogar-durante-4-meses-a-mujer-amigo-consigue-que-tenga-derecho-a-paro-vigo",
+    "https://www.xataka.com.mx/medicina-y-salud/angela-isla-entrenadora-personal-subir-escaleras-quedar-agotado-no-significa-que-estes-ganando-fuerza"
   ],
   "processedSignatures": [
+    {
+      "title": "MITO DEL AGOTAMIENTO CARDIOVASCULAR EN EL ENVEJECIMIENTO ACTIVO",
+      "normalizedTokens": [
+        "mito",
+        "agotamiento",
+        "cardiovascular",
+        "envejecimiento",
+        "activo"
+      ],
+      "date": "2026-11-24T13:25:34.139Z"
+    },
+    {
+      "title": "Ángela Isla, entrenadora personal: \"Subir escaleras hasta quedar agotado no significa que estés ganando fuerza\"",
+      "normalizedTokens": [
+        "angela",
+        "isla",
+        "entrenadora",
+        "personal",
+        "subir",
+        "escaleras",
+        "quedar",
+        "agotado",
+        "significa",
+        "estes",
+        "ganando",
+        "fuerza"
+      ],
+      "date": "2026-11-24T13:25:34.136Z"
+    },
     {
       "title": "RETORNO DE JENSEN HUANG DISPARA MERCADO SEMICONDUCTOR ASIÁTICO",
       "normalizedTokens": [
@@ -7412,35 +7442,6 @@
         "says"
       ],
       "date": "2026-11-08T11:32:07.158Z"
-    },
-    {
-      "title": "FLUCTUACIÓN DEL ORO REVELA TENSIONES TRAS ELECCIONES ESTADOUNIDENSES",
-      "normalizedTokens": [
-        "fluctuacion",
-        "oro",
-        "revela",
-        "tensiones",
-        "elecciones",
-        "estadounidenses"
-      ],
-      "date": "2026-11-08T11:26:58.548Z"
-    },
-    {
-      "title": "Los precios del oro fluctúan bruscamente tras las elecciones estadounidenses: la Reserva Federal aún tiene el poder de decisión.",
-      "normalizedTokens": [
-        "precios",
-        "oro",
-        "fluctuan",
-        "bruscamente",
-        "elecciones",
-        "estadounidenses",
-        "reserva",
-        "federal",
-        "aun",
-        "poder",
-        "decision"
-      ],
-      "date": "2026-11-08T11:26:58.547Z"
     }
   ]
 }

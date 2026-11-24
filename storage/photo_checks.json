@@ -1738,5 +1738,20 @@
     "relevant": true,
     "reason": "Muestra una oficina de empleo (SEPE), la institución encargada de gestionar los subsidios de desempleo en España.",
     "at": "2026-11-24T11:22:44.707Z"
+  },
+  "3ffd8519601cd825:l947k46o0": {
+    "relevant": false,
+    "reason": "La imagen muestra a una persona joven subiendo escaleras junto a un retrato superpuesto, por lo que no representa el envejecimiento activo en adultos mayores al que hace referencia",
+    "at": "2026-11-24T13:24:17.558Z"
+  },
+  "5efc2f13c1e4d046:l947k46o0": {
+    "relevant": false,
+    "reason": "La imagen muestra a una mujer joven haciendo ejercicio y nadando, lo cual no representa a los adultos mayores ni el envejecimiento activo del titular.",
+    "at": "2026-11-24T13:24:57.141Z"
+  },
+  "b6496f9d7889f79f:l947k46o0": {
+    "relevant": false,
+    "reason": "La imagen muestra a una persona joven usando una caminadora de oficina, lo cual no ilustra adecuadamente el envejecimiento activo ni el estudio sobre la sarcopenia en adultos mayor",
+    "at": "2026-11-24T13:25:30.761Z"
   }
 }
