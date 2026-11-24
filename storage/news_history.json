@@ -351,9 +351,42 @@
     "https://www.infobae.com/noticias/2026/11/24/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-41-en-los-vilos-este-23-de-noviembre/",
     "https://www.france24.com/es/am%C3%A9rica-latina/20261124-otro-atentado-en-colombia-deja-al-menos-12-heridos-de-la-espriella-dice-que-el-narcoterrorismo-est%C3%A1-desesperado",
     "https://www.bloomberglinea.com/latinoamerica/colombia/nuevo-atentado-en-colombia-artefacto-explota-cerca-de-la-gobernacion-del-meta/",
-    "https://www.france24.com/es/medio-oriente/20261124-yemen-los-hut%C3%ADes-reportan-25-muertos-o-desaparecidos-tras-ataques-sauditas"
+    "https://www.france24.com/es/medio-oriente/20261124-yemen-los-hut%C3%ADes-reportan-25-muertos-o-desaparecidos-tras-ataques-sauditas",
+    "https://www.france24.com/es/europa/20261124-en-directo-ataque-ruso-deja-dos-muertos-en-zaporizhia-tr%C3%ADpoli-pide-explicaciones-a-kiev-por-ataques-contra-buques-rusos"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: ATAQUE RUSO EN ZAPORIZHIA Y PROTESTA DE TRÍPOLI",
+      "normalizedTokens": [
+        "actualizacion",
+        "ataque",
+        "ruso",
+        "zaporizhia",
+        "protesta",
+        "tripoli"
+      ],
+      "date": "2026-11-24T07:16:48.105Z"
+    },
+    {
+      "title": "En directo: ataque ruso deja dos muertos en Zaporizhia; Trípoli pide explicaciones a Kiev por ataques contra buques rusos",
+      "normalizedTokens": [
+        "directo",
+        "ataque",
+        "ruso",
+        "deja",
+        "dos",
+        "muertos",
+        "zaporizhia",
+        "tripoli",
+        "pide",
+        "explicaciones",
+        "kiev",
+        "ataques",
+        "buques",
+        "rusos"
+      ],
+      "date": "2026-11-24T07:16:48.102Z"
+    },
     {
       "title": "BOMBARDEOS SAUDÍES FRENAN EL AVANCE HUTÍ HACIA LA CIUDAD DE ADÉN",
       "normalizedTokens": [
@@ -7398,31 +7431,6 @@
         "drones"
       ],
       "date": "2026-11-08T06:01:15.634Z"
-    },
-    {
-      "title": "ACTUALIZACIÓN: ESCALAN A 33 LOS MUERTOS POR BOMBARDEOS SAUDITAS EN YEMEN",
-      "normalizedTokens": [
-        "actualizacion",
-        "escalan",
-        "muertos",
-        "bombardeos",
-        "sauditas",
-        "yemen"
-      ],
-      "date": "2026-11-08T05:46:10.642Z"
-    },
-    {
-      "title": "Suman 33 los muertos en bombardeos sauditas en Yemen, según hutíes",
-      "normalizedTokens": [
-        "suman",
-        "muertos",
-        "bombardeos",
-        "sauditas",
-        "yemen",
-        "segun",
-        "huties"
-      ],
-      "date": "2026-11-08T05:46:10.641Z"
     }
   ]
 }
