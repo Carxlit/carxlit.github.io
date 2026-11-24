@@ -350,9 +350,37 @@
     "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
     "https://www.infobae.com/noticias/2026/11/24/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-41-en-los-vilos-este-23-de-noviembre/",
     "https://www.france24.com/es/am%C3%A9rica-latina/20261124-otro-atentado-en-colombia-deja-al-menos-12-heridos-de-la-espriella-dice-que-el-narcoterrorismo-est%C3%A1-desesperado",
-    "https://www.bloomberglinea.com/latinoamerica/colombia/nuevo-atentado-en-colombia-artefacto-explota-cerca-de-la-gobernacion-del-meta/"
+    "https://www.bloomberglinea.com/latinoamerica/colombia/nuevo-atentado-en-colombia-artefacto-explota-cerca-de-la-gobernacion-del-meta/",
+    "https://www.france24.com/es/medio-oriente/20261124-yemen-los-hut%C3%ADes-reportan-25-muertos-o-desaparecidos-tras-ataques-sauditas"
   ],
   "processedSignatures": [
+    {
+      "title": "BOMBARDEOS SAUDÍES FRENAN EL AVANCE HUTÍ HACIA LA CIUDAD DE ADÉN",
+      "normalizedTokens": [
+        "bombardeos",
+        "saudies",
+        "frenan",
+        "avance",
+        "huti",
+        "hacia",
+        "ciudad",
+        "aden"
+      ],
+      "date": "2026-11-24T05:47:39.152Z"
+    },
+    {
+      "title": "Yemen: los hutíes reportan 25 muertos o desaparecidos tras ataques sauditas",
+      "normalizedTokens": [
+        "yemen",
+        "huties",
+        "reportan",
+        "muertos",
+        "desaparecidos",
+        "ataques",
+        "sauditas"
+      ],
+      "date": "2026-11-24T05:47:39.150Z"
+    },
     {
       "title": "ATENTADO CON CARRO BOMBA IMPACTA LA GOBERNACIÓN DEL META EN COLOMBIA",
       "normalizedTokens": [
@@ -7395,31 +7423,6 @@
         "huties"
       ],
       "date": "2026-11-08T05:46:10.641Z"
-    },
-    {
-      "title": "TIROTEO EN CRACOVIA EXPONE AMENAZA ULTRADERECHISTA EN POLONIA",
-      "normalizedTokens": [
-        "tiroteo",
-        "cracovia",
-        "expone",
-        "amenaza",
-        "ultraderechista",
-        "polonia"
-      ],
-      "date": "2026-11-08T05:16:32.591Z"
-    },
-    {
-      "title": "What we know so far after Krakow gun attack",
-      "normalizedTokens": [
-        "what",
-        "know",
-        "far",
-        "after",
-        "krakow",
-        "gun",
-        "attack"
-      ],
-      "date": "2026-11-08T05:16:32.590Z"
     }
   ]
 }
