@@ -346,9 +346,42 @@
     "https://www.rfi.fr/es/europa/20261123-ucrania-al-menos-15-muertos-tras-ataques-rusos-en-la-regi%C3%B3n-de-kiev",
     "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
     "https://theconversation.com/dudas-sobre-la-inteligencia-artificial-anthropic-sale-a-bolsa-en-plena-tormenta-bursatil-de-las-tecnologicas-297212",
-    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzVmSmoyQkNZMzdEWDZSZFNHRXByT0taX1c3ZEhrUEk1X2owcEppUDFpWU91ZXFHMWYzcVBSZ1hEdm9QSnRaOVhEZUlsTGU1WWd1RmNPTG1aY3hGeG1LY1Q3SHZRbkJIbXdVTDFNSHFmdEdGNkdPU3ZsTkp5Q09sS2pBTW5GVV9FLUozNHFRcW5sM25zdXE0S1RGWUdDN0NnaVB1a2JlMk9Sa0tTcVc1N3ZOaExudWZ5SS1qQk5n?oc=5"
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzVmSmoyQkNZMzdEWDZSZFNHRXByT0taX1c3ZEhrUEk1X2owcEppUDFpWU91ZXFHMWYzcVBSZ1hEdm9QSnRaOVhEZUlsTGU1WWd1RmNPTG1aY3hGeG1LY1Q3SHZRbkJIbXdVTDFNSHFmdEdGNkdPU3ZsTkp5Q09sS2pBTW5GVV9FLUozNHFRcW5sM25zdXE0S1RGWUdDN0NnaVB1a2JlMk9Sa0tTcVc1N3ZOaExudWZ5SS1qQk5n?oc=5",
+    "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
   ],
   "processedSignatures": [
+    {
+      "title": "RETORNO DE JENSEN HUANG DISPARA MERCADO SEMICONDUCTOR ASIÁTICO",
+      "normalizedTokens": [
+        "retorno",
+        "jensen",
+        "huang",
+        "dispara",
+        "mercado",
+        "semiconductor",
+        "asiatico"
+      ],
+      "date": "2026-11-24T02:11:37.948Z"
+    },
+    {
+      "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+      "normalizedTokens": [
+        "asian",
+        "nvidia",
+        "related",
+        "stocks",
+        "jump",
+        "after",
+        "huang",
+        "return",
+        "with",
+        "taiwan",
+        "near",
+        "price",
+        "limits"
+      ],
+      "date": "2026-11-24T02:11:37.946Z"
+    },
     {
       "title": "INCENDIO EN FORMENTOR DEVORA MÁS DE DOSCIENTAS HECTÁREAS",
       "normalizedTokens": [
@@ -7385,33 +7418,6 @@
         "heridos"
       ],
       "date": "2026-11-07T21:44:35.211Z"
-    },
-    {
-      "title": "ISRAEL ENCARECÍA LA CRISIS TRAS ENCARGAR GOBIERNO A EISENKOT",
-      "normalizedTokens": [
-        "israel",
-        "encarecia",
-        "crisis",
-        "encargar",
-        "gobierno",
-        "eisenkot"
-      ],
-      "date": "2026-11-07T20:12:27.826Z"
-    },
-    {
-      "title": "El presidente de Israel elige a Gadi Eisenkot, rival de Netanyahu, para formar gobierno",
-      "normalizedTokens": [
-        "presidente",
-        "israel",
-        "elige",
-        "gadi",
-        "eisenkot",
-        "rival",
-        "netanyahu",
-        "formar",
-        "gobierno"
-      ],
-      "date": "2026-11-07T20:12:27.825Z"
     }
   ]
 }

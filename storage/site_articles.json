@@ -1,5 +1,91 @@
 [
   {
+    "slug": "retorno-jensen-huang-nvidia-desata-fuerte-4379",
+    "path": "noticias/retorno-jensen-huang-nvidia-desata-fuerte-4379/",
+    "title": "El retorno de Jensen Huang a Nvidia desata una fuerte volatilidad bursátil en Asia",
+    "headline": "RETORNO DE JENSEN HUANG DISPARA MERCADO SEMICONDUCTOR ASIÁTICO",
+    "dek": "La reincorporación del ejecutivo provocó notables alzas en gigantes de semiconductores como TSMC y SK Hynix. No obstante, el repunte deja al descubierto la profunda dependencia de la industria tecnológica global respecto a la cúpula directiva de la firma estadounidense.",
+    "category": "ECONOMÍA GLOBAL",
+    "sourceName": "CNBC World",
+    "image": "img/retorno-jensen-huang-nvidia-desata-fuerte-4379.jpg",
+    "publishedAt": "2026-11-24T02:11:37.779Z",
+    "article": {
+      "slug": "retorno-jensen-huang-nvidia-desata-fuerte-4379",
+      "title": "El retorno de Jensen Huang a Nvidia desata una fuerte volatilidad bursátil en Asia",
+      "dek": "La reincorporación del ejecutivo provocó notables alzas en gigantes de semiconductores como TSMC y SK Hynix. No obstante, el repunte deja al descubierto la profunda dependencia de la industria tecnológica global respecto a la cúpula directiva de la firma estadounidense.",
+      "keyFacts": [
+        "TSMC, Foxconn y Mediatek alcanzaron el límite diario de alza del 10% en la bolsa de Taipei.",
+        "Samsung Electronics subió un 8% y SK Hynix un 10%, impulsando al índice Kospi más de un 7% y activando un mecanismo de salvaguarda bursátil.",
+        "Las acciones de Nvidia cayeron casi un 33% tras la dimisión de Huang el 8 de noviembre, recuperando un 31% tras su reinstalación.",
+        "LG Electronics se disparó un 16,02%, mientras que la japonesa Advantest avanzó un 15%."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Los principales socios y proveedores de Nvidia en el continente asiático experimentaron notables incrementos en sus valoraciones bursátiles este martes, según reportó CNBC World. El movimiento masivo de capitales se produjo inmediatamente después de que la junta directiva de Nvidia reinstalara a Jensen Huang en el cargo de director ejecutivo.",
+            "En Taiwán, las acciones de Taiwan Semiconductor Manufacturing Co. (TSMC), pilar fundamental en la producción de circuitos integrados, avanzaron cerca del 10%. Similares incrementos registraron Hon Hai Precision Industry —conocida internacionalmente como Foxconn— y el diseñador de chips Mediatek, situándose en el límite máximo de variación diaria permitido por el mercado de Taipei.",
+            "La tendencia se extendió con fuerza a Corea del Sur. Samsung Electronics registró un alza del 8%, mientras que SK Hynix avanzó un 10%. Ambas firmas concentran más del 40% del peso en el índice bursátil Kospi, el cual repuntó por encima del 7%. Dicha fluctuación obligó a la Bolsa de Corea a activar un mecanismo de interrupción conocido como 'sidecar', marcando la centésima ocasión en que la institución aplica esta medida de contención."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El origen de esta sacudida financiera se remonta al pasado 8 de noviembre, fecha en que Jensen Huang admitió una relación extramarital y presentó su dimisión al cargo. A partir de ese momento, los títulos de Nvidia registraron un desplome acumulado cercano al 33%, arrastrando consigo la valoración de sus colaboradores estratégicos en Asia y provocando la apertura de una investigación por parte de la Comisión de Bolsa y Valores de Estados Unidos (SEC), según datos recopilados por TradingView.",
+            "Tras la decisión de la junta directiva de restituir al fundador al frente de la compañía, las acciones de Nvidia cerraron la jornada previa en Nueva York con un avance del 31%. Este giro corporativo impulsó de inmediato la confianza de los inversores en los mercados de Asia-Pacífico, donde la japonesa Advantest subió un 15%, Tokyo Electron avanzó un 12% y el conglomerado Softbank Group repuntó más de un 8%."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Aunque el relato predominantemente financiero interpreta esta jornada como una recuperación de la confianza en el sector de la inteligencia artificial, la perspectiva analítica de Punto Ciego identifica un problema de fondo sensible: la vulnerabilidad de la infraestructura tecnológica internacional frente a contingencias individuales en Silicon Valley.",
+            "La magnitud de las alzas registradas en Seúl, Taipei y Tokio demuestra que la capitalización bursátil de sectores industriales enteros en Asia responde directamente a los acontecimientos internos de una corporación extranjera. La volatilidad registrada en los mercados provocó además un debilitamiento del yen japonés debido al incremento del apetito generalizado por el riesgo, de acuerdo con tmgm.com, confirmando que las decisiones directivas de Nvidia tienen el potencial de alterar equilibrios macroeconómicos transfronterizos."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano inmediato, la cúpula corporativa de Nvidia y los grandes tenedores de renta variable tecnológica consolidan una rápida recuperación patrimonial. Asimismo, las firmas proveedoras asiáticas reciben un alivio temporal en sus valoraciones de mercado tras semanas de fuerte presión vendedora.",
+            "Por el contrario, los administradores de riesgo y los reguladores financieros regionales enfrentan un panorama complejo. La jornada pone en evidencia la falta de herramientas locales para amortiguar impactos originados por decisiones directivas en Estados Unidos, obligando a las bolsas de la región a recurrir de manera reactiva a cierres de emergencia."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En las próximas semanas será determinante dar seguimiento al avance de las indagatorias iniciadas por la SEC sobre la gobernanza de Nvidia. Asimismo, conviene observar si los fabricantes asiáticos de semiconductores inician movimientos estratégicos para diversificar sus alianzas comerciales y mitigar la exposición directa a las perturbaciones corporativas de un único socio internacional."
+          ]
+        }
+      ],
+      "tags": [
+        "Semiconductores",
+        "Nvidia",
+        "Jensen Huang",
+        "Mercados Financieros",
+        "TSMC",
+        "Economía Global"
+      ],
+      "sources": [
+        {
+          "name": "CNBC World",
+          "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+        },
+        {
+          "name": "tmgm.com",
+          "title": "Japanese Yen weakens as Nvidia-led stock rally boosts risk appetite",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLXdNOVBUV1RaTld5bTVxRkMwQVhNdndlT1NaY3YySWdkdjBGSG9MU3FRY1BjYVlwM2otN0wzZ1QzcXUwZDItam5mdXE2Y21jdXM1blRWc01vdnBPTGRPbmZjdTlweUNEYi15SWgzdV9hQ3hud0I5cUZwcGlpMmhyUDZsanRPVkhPSzJiNjkxZ2JTN3N2UjVKUmtOLU1tb25YWVp2Q3lOSkl3VjdTODJKSmVyYU5hc3hQTXk2eGE5R0JYN1BqSG5lTTJOLWxlZw?oc=5"
+        },
+        {
+          "name": "TradingView",
+          "title": "Key facts: NVIDIA CEO Resigns; Q3 Revenue Jumps 103%; SEC Opens Probe",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQalpEZ3ltSVBiT2FmTXRfUVc0d1lyaGJoeUtmdDd4V3ZWODZCOXlWTkFQRnRMcVF1aElWM1Z5RG9zd05mdVk2c0JIMEgwWXBVRU1vWWc1NUVMVlFPdzN2Z0w5UWhBRGpCOUlacFc0QTZoSUIwamduazJqM3pDcTh5al9MNC1KTUtXQVI3M0hPWXplX05iSEloa2o3VzZpbzNQM0hvTkY3U1Y5TjZ0aWptT0NpcjNWTlo2T2FoN3AySHY5REhO?oc=5"
+        }
+      ],
+      "wordCount": 633
+    },
+    "blindSpot": "La extrema volatilidad generada en Asia demuestra la peligrosa centralización de la infraestructura global de inteligencia artificial en la figura de un solo ejecutivo. Mientras el mercado celebra la vuelta de Huang tras su dimisión del 8 de noviembre, la dependencia de los gigantes de semiconductores evidencia una vulnerabilidad de gobernanza corporativa que los reguladores asiáticos no pueden controlar."
+  },
+  {
     "slug": "incendio-formentor-expone-fragilidad-respuesta-insular-n7ro",
     "path": "noticias/incendio-formentor-expone-fragilidad-respuesta-insular-n7ro/",
     "title": "El incendio en Formentor expone la fragilidad de la respuesta insular en Baleares",

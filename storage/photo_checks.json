@@ -1693,5 +1693,20 @@
     "relevant": true,
     "reason": "La imagen muestra un helicóptero contraincendios trabajando en una zona montañosa, lo cual ilustra adecuadamente un incendio forestal de gran magnitud.",
     "at": "2026-11-24T01:10:27.993Z"
+  },
+  "a9e2db944e6ac0e6:zcvtqhil1": {
+    "relevant": false,
+    "reason": "La imagen muestra únicamente el logotipo de TSMC, lo cual es un gráfico institucional y no representa la noticia sobre el impacto del retorno de Jensen Huang en el mercado.",
+    "at": "2026-11-24T02:11:13.253Z"
+  },
+  "3b35c34c3e3335d6:zcvtqhil1": {
+    "relevant": false,
+    "reason": "La imagen muestra lingotes de oro, la Reserva Federal y dólares, lo cual ilustra temas de política monetaria o economía general, no el mercado de semiconductores asiáticos ni a Jen",
+    "at": "2026-11-24T02:11:22.131Z"
+  },
+  "9dbce95c8effd6a1:zcvtqhil1": {
+    "relevant": false,
+    "reason": "La imagen muestra un gráfico genérico sobre acciones de IA en China, mientras que la noticia trata sobre Jensen Huang y fabricantes de semiconductores como TSMC y SK Hynix en Taiwá",
+    "at": "2026-11-24T02:11:34.872Z"
   }
 }
