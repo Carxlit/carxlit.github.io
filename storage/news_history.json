@@ -355,9 +355,41 @@
     "https://www.france24.com/es/europa/20261124-en-directo-ataque-ruso-deja-dos-muertos-en-zaporizhia-tr%C3%ADpoli-pide-explicaciones-a-kiev-por-ataques-contra-buques-rusos",
     "https://www.genbeta.com/actualidad/contrata-como-empleada-hogar-durante-4-meses-a-mujer-amigo-consigue-que-tenga-derecho-a-paro-vigo",
     "https://www.xataka.com.mx/medicina-y-salud/angela-isla-entrenadora-personal-subir-escaleras-quedar-agotado-no-significa-que-estes-ganando-fuerza",
-    "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus"
+    "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus",
+    "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios"
   ],
   "processedSignatures": [
+    {
+      "title": "MICROSOFT DECLARA CÓDIGO ROJO TRAS FALLO GLOBAL EN EXCHANGE ONLINE",
+      "normalizedTokens": [
+        "microsoft",
+        "declara",
+        "codigo",
+        "rojo",
+        "fallo",
+        "global",
+        "exchange",
+        "online"
+      ],
+      "date": "2026-11-24T23:04:21.564Z"
+    },
+    {
+      "title": "Microsoft declara un \"Código Rojo\" tras la caída global de 24 horas que afectó a Outlook, Teams y otros servicios",
+      "normalizedTokens": [
+        "microsoft",
+        "declara",
+        "codigo",
+        "rojo",
+        "caida",
+        "global",
+        "horas",
+        "afecto",
+        "outlook",
+        "teams",
+        "servicios"
+      ],
+      "date": "2026-11-24T23:04:21.555Z"
+    },
     {
       "title": "ESPAÑA PRORROGA LAS SUBVENCIONES AL TRANSPORTE PÚBLICO HASTA 2027",
       "normalizedTokens": [
@@ -7419,29 +7451,6 @@
         "ontologico"
       ],
       "date": "2026-11-08T12:32:09.847Z"
-    },
-    {
-      "title": "INCENDIO EN VALVERDE DEL FRESNO MOVILIZA DISPOSITIVO DE EMERGENCIA",
-      "normalizedTokens": [
-        "incendio",
-        "valverde",
-        "fresno",
-        "moviliza",
-        "dispositivo",
-        "emergencia"
-      ],
-      "date": "2026-11-08T11:46:43.086Z"
-    },
-    {
-      "title": "Declarado un incendio forestal en Valverde del Fresno",
-      "normalizedTokens": [
-        "declarado",
-        "incendio",
-        "forestal",
-        "valverde",
-        "fresno"
-      ],
-      "date": "2026-11-08T11:46:43.085Z"
     }
   ]
 }

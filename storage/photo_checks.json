@@ -1758,5 +1758,15 @@
     "relevant": true,
     "reason": "Los trenes de Renfe ilustran visualmente las subvenciones al transporte público ferroviario mencionadas en el titular.",
     "at": "2026-11-24T15:47:28.854Z"
+  },
+  "4c30c2651e00a9a3:yz5qs2fq2": {
+    "relevant": false,
+    "reason": "La imagen muestra el logotipo de Microsoft y no ilustra el fallo global en Exchange Online descrito en la noticia.",
+    "at": "2026-11-24T23:04:10.852Z"
+  },
+  "0a281733fb525e1e:yz5qs2fq2": {
+    "relevant": true,
+    "reason": "Ilustra de forma conceptual un fallo masivo en servidores y una situación de crisis tecnológica en un centro de control.",
+    "at": "2026-11-24T23:04:17.719Z"
   }
 }

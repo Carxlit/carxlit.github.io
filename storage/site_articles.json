@@ -1,5 +1,101 @@
 [
   {
+    "slug": "colapso-microsoft-365-descubierto-grietas-detras-unwh",
+    "path": "noticias/colapso-microsoft-365-descubierto-grietas-detras-unwh/",
+    "title": "El colapso de Microsoft 365 al descubierto: las grietas detrás del Código Rojo",
+    "headline": "MICROSOFT DECLARA CÓDIGO ROJO TRAS FALLO GLOBAL EN EXCHANGE ONLINE",
+    "dek": "Una falla latente de cuatro meses y el caos en la gestión interna paralizaron a gobiernos y firmas financieras durante casi 24 horas. El incidente reabre el debate sobre el riesgo sistémico de la concentración en la nube.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka",
+    "image": "img/colapso-microsoft-365-descubierto-grietas-detras-unwh.jpg",
+    "photo": "img/colapso-microsoft-365-descubierto-grietas-detras-unwh-foto.jpg",
+    "publishedAt": "2026-11-24T23:04:21.353Z",
+    "article": {
+      "slug": "colapso-microsoft-365-descubierto-grietas-detras-unwh",
+      "title": "El colapso de Microsoft 365 al descubierto: las grietas detrás del Código Rojo",
+      "dek": "Una falla latente de cuatro meses y el caos en la gestión interna paralizaron a gobiernos y firmas financieras durante casi 24 horas. El incidente reabre el debate sobre el riesgo sistémico de la concentración en la nube.",
+      "keyFacts": [
+        "La interrupción duró 23 horas y 50 minutos el 13 de noviembre.",
+        "El fallo afectó a más del 80% de los servidores de pasarelas de red en Norteamérica.",
+        "Los equipos intercambiaron más de 11.000 mensajes en 11 chats de Teams durante la crisis.",
+        "Afectó a administraciones públicas de Estados Unidos, Japón y Australia, así como a firmas financieras."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El 13 de noviembre, millones de usuarios e instituciones sufrieron una interrupción masiva de 23 horas y 50 minutos en servicios críticos como Outlook, Teams y Copilot. Según revelaron memorandos internos consultados por Reuters, la falla tuvo su epicentro en Exchange Online, la plataforma sobre la que se estructuran las herramientas principales de Microsoft 365.",
+            "El origen técnico del problema se remontaba a julio, cuando una actualización desplegada por la compañía introdujo un defecto de Windows en los servidores de pasarela de red. El error permaneció oculto durante meses hasta que coincidieron tres factores: operaciones rutinarias de mantenimiento que redujeron la capacidad, una incidencia de enrutamiento en Teams y el incremento abrupto de demanda con el inicio de la jornada laboral en Estados Unidos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La dimensión del fallo se tornó crítica en cuestión de dos horas. Cuando los sistemas automáticos de gestión desviaron el tráfico hacia servidores operativos, la carga adicional provocó un colapso en cascada. En el punto máximo del incidente, más del 80% de los servidores de pasarelas de red en Norteamérica habían dejado de responder.",
+            "Las consecuencias operativas trascendieron el ámbito corporativo habitual. Administraciones públicas en Estados Unidos, Japón y Australia registraron suspensiones en sus trámites, mientras que firmas de negociación financiera vieron retrasada su actividad clave. La empresa descartó formalmente cualquier vínculo con ciberataques externos o la intervención de agentes de inteligencia artificial."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El aspecto más revelador expuesto por la documentación interna no radica únicamente en la falla de software, sino en la parálisis de los mecanismos de respuesta. Jason Henderson, presidente de M365 Core, admitió a los empleados que ningún incidente en la historia de Exchange Online había tenido semejante impacto, lo que derivó en la declaración de un 'Código Rojo'.",
+            "A pesar de movilizar a sus principales ingenieros, la comunicación de emergencia se convirtió en un obstáculo. Amanda Silver, vicepresidenta corporativa, detalló que se enviaron más de 11.000 mensajes repartidos en 11 chats de Teams distintos. La dispersión de datos entre múltiples sistemas impidió mantener un diagnóstico unificado sobre las hipótesis investigadas y retrasó la aplicación de la solución, que requería reiniciar dos veces los servidores."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El principal perjudicado es la imagen de fiabilidad absoluta de Microsoft como sostén infraestructural del comercio mundial. Las empresas y dependencias estatales asumen los costos directos de la inactividad y comprueban que sus planes de contingencia fallaron al depender del mismo proveedor centralizado.",
+            "Por otro lado, los proveedores alternativos de infraestructura en la nube y los defensores de arquitecturas descentralizadas obtienen un argumento de peso para impulsar regulaciones que exijan esquemas multi-proveedor en sectores estratégicos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "De cara al futuro, Microsoft se ha comprometido a modificar la distribución del tráfico de red entre regiones antes de que finalice 2026 e implementar salvaguardas contra fallos en cascada. Sin embargo, el foco principal se traslada a los organismos reguladores internacionales, que podrían fijar nuevos estándares de resiliencia obligatorios para las Big Tech."
+          ]
+        }
+      ],
+      "tags": [
+        "Microsoft",
+        "Exchange Online",
+        "Código Rojo",
+        "Nube",
+        "Ciberseguridad",
+        "Riesgo Sistémico"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "title": "Microsoft declara un \"Código Rojo\" tras la caída global de 24 horas que afectó a Outlook, Teams y otros servicios",
+          "url": "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "Microsoft declara Código Rojo tras 24 horas de caída global",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbXMwYmsxbkdmZHJITVpERWhUY1Q3YnpXSUFwaEJoUnYxT0lOUkZxSjJsdWRmcElPSlY2MlU2NnAweWNCM18tUlFFT0xTc1R1NFFuQlpLYlRXb3ctU0JHV2ZuYzRFWVVIVjRZNXRyakJzQ084WkZLTzdlNXZTMFNPVHJnNEZoVGdLaExzQjNYRmpiV2NG?oc=5"
+        },
+        {
+          "name": "El Comercio Perú",
+          "title": "Microsoft declara “Código Rojo” tras caída global de sus servicios que duró 24 horas: qué significa",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUnplY2ozUGZEX3h1N0NzVWJQZTJjel93YmhDSmlfbG5HOWppSG5tV2dtZ1BieXVyWl8yV21rSnNYSV9pR01zbEJwTUJzZm1FZ1U5dklSY3pFQUdMNThIdDliUU5XbndHLVJxY09qV3RlN3pONnhKTlJHS3RTM0lCb1d0WFFWT25YMWhEYlhjQmxTcjRPc2JSaGh0Y19kUG5GZXZkT05EV09MR0tMSFgwemp2dXE4WmhOMmpXWVg3X1Z2WVQ1RU5iYVJLWjVTWDVNVGxkV194TFBzT0dMRTV3?oc=5"
+        },
+        {
+          "name": "DiarioBitcoin",
+          "title": "Microsoft declara Código Rojo tras la caída de mayor impacto en clientes de Exchange Online",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNUQzTlBWaEVuMnIycVJyM2s5SVVZNXZSTi1RMjRVanlER1lfblFWbVdoMVZqVGpBd20yYjJwRXM5M1VvcDk0TFZ5WVJoRTNMMFJIZjhfOVBBdlNsVTZsTXhpS0pMTGtHUTZkMGcyemNSUFFlN2taaUw1SC1ZSnVDeFpoc0ZyRDVycG1UT1VIZE5IN0lMWEg3WkV4Tmozak8xZDlwNmk3aDRYSjdCREk2TmpPSnd2bGN5VGhLelJiNEQxRWUwRk9lYXhyX3UxZw?oc=5"
+        },
+        {
+          "name": "N+",
+          "title": "Microsoft Declara Código Rojo tras Caída Histórica en Outlook, Teams y Exchange",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWJJc1MxeS0wOTdxRmhVN2t0ZUgxTERDOFA3bmtISlJsY1NKeTJnQjdldk84Qjc3ZnpOVEZKWURaOXQ0NTUzX0QyR1hWeHdlc09zVDloeEtPeHRvOVFTT3FueTYyYUlNOGNucTJrd2kyS3puU0lITkdfdjBCRnNXQWYxRUFQdnlXZDdHdUlqdHFlaFJ3blpsaDROM0FCZjY2WG5DczctMTgyUmZsX2FsVzA0eUJJX2gwNWFtR1JfT1pEOXVI?oc=5"
+        }
+      ],
+      "wordCount": 519
+    },
+    "blindSpot": "Más allá del fallo técnico puntual, el evento expone la extrema fragilidad de la monocultura digital corporativa y la parálisis de los mandos de ingeniería. Mientras el debate público busca ciberataques externos, la verdadera vulnerabilidad radica en la complejidad inmanejable de las arquitecturas en la nube centralizadas y la fragmentación interna al coordinar respuestas de emergencia."
+  },
+  {
     "slug": "coste-oculto-blindaje-transporte-publico-hasta-peqs",
     "path": "noticias/coste-oculto-blindaje-transporte-publico-hasta-peqs/",
     "title": "El coste oculto del blindaje al transporte público hasta 2027",
