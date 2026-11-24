@@ -348,9 +348,39 @@
     "https://theconversation.com/dudas-sobre-la-inteligencia-artificial-anthropic-sale-a-bolsa-en-plena-tormenta-bursatil-de-las-tecnologicas-297212",
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzVmSmoyQkNZMzdEWDZSZFNHRXByT0taX1c3ZEhrUEk1X2owcEppUDFpWU91ZXFHMWYzcVBSZ1hEdm9QSnRaOVhEZUlsTGU1WWd1RmNPTG1aY3hGeG1LY1Q3SHZRbkJIbXdVTDFNSHFmdEdGNkdPU3ZsTkp5Q09sS2pBTW5GVV9FLUozNHFRcW5sM25zdXE0S1RGWUdDN0NnaVB1a2JlMk9Sa0tTcVc1N3ZOaExudWZ5SS1qQk5n?oc=5",
     "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
-    "https://www.infobae.com/noticias/2026/11/24/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-41-en-los-vilos-este-23-de-noviembre/"
+    "https://www.infobae.com/noticias/2026/11/24/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-41-en-los-vilos-este-23-de-noviembre/",
+    "https://www.france24.com/es/am%C3%A9rica-latina/20261124-otro-atentado-en-colombia-deja-al-menos-12-heridos-de-la-espriella-dice-que-el-narcoterrorismo-est%C3%A1-desesperado"
   ],
   "processedSignatures": [
+    {
+      "title": "ATENTADO CON CARRO BOMBA EN META REVELA FRACTURA EN SEGURIDAD COLOMBIANA",
+      "normalizedTokens": [
+        "atentado",
+        "carro",
+        "bomba",
+        "meta",
+        "revela",
+        "fractura",
+        "seguridad",
+        "colombiana"
+      ],
+      "date": "2026-11-24T05:02:07.386Z"
+    },
+    {
+      "title": "Otro atentado en Colombia deja al menos 12 heridos; De la Espriella dice que \"el narcoterrorismo está desesperado\"",
+      "normalizedTokens": [
+        "otro",
+        "atentado",
+        "colombia",
+        "deja",
+        "menos",
+        "heridos",
+        "espriella",
+        "narcoterrorismo",
+        "desesperado"
+      ],
+      "date": "2026-11-24T05:02:07.384Z"
+    },
     {
       "title": "CHILE REGISTRA SISMO EN LOS VILOS Y REFUERZA PROTOCOLOS",
       "normalizedTokens": [
@@ -7387,38 +7417,6 @@
         "strike"
       ],
       "date": "2026-11-08T05:01:19.694Z"
-    },
-    {
-      "title": "TRUMP OFRECE LA PORTAVOCÍA A DANA WHITE TRAS DERROTA ELECTORAL",
-      "normalizedTokens": [
-        "trump",
-        "ofrece",
-        "portavocia",
-        "dana",
-        "white",
-        "derrota",
-        "electoral"
-      ],
-      "date": "2026-11-07T23:25:39.175Z"
-    },
-    {
-      "title": "Trump da otro vuelco a la Casa Blanca: ofrece a Dana White, jefe de la UFC, ser el próximo secretario de Prensa",
-      "normalizedTokens": [
-        "trump",
-        "otro",
-        "vuelco",
-        "casa",
-        "blanca",
-        "ofrece",
-        "dana",
-        "white",
-        "jefe",
-        "ufc",
-        "proximo",
-        "secretario",
-        "prensa"
-      ],
-      "date": "2026-11-07T23:25:39.174Z"
     }
   ]
 }
