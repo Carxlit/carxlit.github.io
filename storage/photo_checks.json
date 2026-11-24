@@ -1753,5 +1753,10 @@
     "relevant": false,
     "reason": "La imagen muestra a una persona joven usando una caminadora de oficina, lo cual no ilustra adecuadamente el envejecimiento activo ni el estudio sobre la sarcopenia en adultos mayor",
     "at": "2026-11-24T13:25:30.761Z"
+  },
+  "ac7af6eaae2c75f9:dafkx4cpx": {
+    "relevant": true,
+    "reason": "Los trenes de Renfe ilustran visualmente las subvenciones al transporte público ferroviario mencionadas en el titular.",
+    "at": "2026-11-24T15:47:28.854Z"
   }
 }

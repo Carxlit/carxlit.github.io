@@ -354,9 +354,40 @@
     "https://www.france24.com/es/medio-oriente/20261124-yemen-los-hut%C3%ADes-reportan-25-muertos-o-desaparecidos-tras-ataques-sauditas",
     "https://www.france24.com/es/europa/20261124-en-directo-ataque-ruso-deja-dos-muertos-en-zaporizhia-tr%C3%ADpoli-pide-explicaciones-a-kiev-por-ataques-contra-buques-rusos",
     "https://www.genbeta.com/actualidad/contrata-como-empleada-hogar-durante-4-meses-a-mujer-amigo-consigue-que-tenga-derecho-a-paro-vigo",
-    "https://www.xataka.com.mx/medicina-y-salud/angela-isla-entrenadora-personal-subir-escaleras-quedar-agotado-no-significa-que-estes-ganando-fuerza"
+    "https://www.xataka.com.mx/medicina-y-salud/angela-isla-entrenadora-personal-subir-escaleras-quedar-agotado-no-significa-que-estes-ganando-fuerza",
+    "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus"
   ],
   "processedSignatures": [
+    {
+      "title": "ESPAÑA PRORROGA LAS SUBVENCIONES AL TRANSPORTE PÚBLICO HASTA 2027",
+      "normalizedTokens": [
+        "espana",
+        "prorroga",
+        "subvenciones",
+        "transporte",
+        "publico",
+        "2027"
+      ],
+      "date": "2026-11-24T15:47:32.704Z"
+    },
+    {
+      "title": "El Gobierno prorroga las ayudas al transporte público durante 2027: 1.213 millones para mantener los descuentos en tren y autobús",
+      "normalizedTokens": [
+        "gobierno",
+        "prorroga",
+        "ayudas",
+        "transporte",
+        "publico",
+        "2027",
+        "213",
+        "millones",
+        "mantener",
+        "descuentos",
+        "tren",
+        "autobus"
+      ],
+      "date": "2026-11-24T15:47:32.695Z"
+    },
     {
       "title": "MITO DEL AGOTAMIENTO CARDIOVASCULAR EN EL ENVEJECIMIENTO ACTIVO",
       "normalizedTokens": [
@@ -7411,37 +7442,6 @@
         "fresno"
       ],
       "date": "2026-11-08T11:46:43.085Z"
-    },
-    {
-      "title": "ATAQUE HUTÍ CONTRA RIAD DAÑA EDIFICIO DE SAUDI ARAMCO",
-      "normalizedTokens": [
-        "ataque",
-        "huti",
-        "riad",
-        "dana",
-        "edificio",
-        "saudi",
-        "aramco"
-      ],
-      "date": "2026-11-08T11:32:07.160Z"
-    },
-    {
-      "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
-      "normalizedTokens": [
-        "saudi",
-        "aramco",
-        "building",
-        "riyadh",
-        "damaged",
-        "falling",
-        "debris",
-        "after",
-        "attempted",
-        "attack",
-        "ministry",
-        "says"
-      ],
-      "date": "2026-11-08T11:32:07.158Z"
     }
   ]
 }
