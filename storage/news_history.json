@@ -349,9 +349,37 @@
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzVmSmoyQkNZMzdEWDZSZFNHRXByT0taX1c3ZEhrUEk1X2owcEppUDFpWU91ZXFHMWYzcVBSZ1hEdm9QSnRaOVhEZUlsTGU1WWd1RmNPTG1aY3hGeG1LY1Q3SHZRbkJIbXdVTDFNSHFmdEdGNkdPU3ZsTkp5Q09sS2pBTW5GVV9FLUozNHFRcW5sM25zdXE0S1RGWUdDN0NnaVB1a2JlMk9Sa0tTcVc1N3ZOaExudWZ5SS1qQk5n?oc=5",
     "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
     "https://www.infobae.com/noticias/2026/11/24/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-41-en-los-vilos-este-23-de-noviembre/",
-    "https://www.france24.com/es/am%C3%A9rica-latina/20261124-otro-atentado-en-colombia-deja-al-menos-12-heridos-de-la-espriella-dice-que-el-narcoterrorismo-est%C3%A1-desesperado"
+    "https://www.france24.com/es/am%C3%A9rica-latina/20261124-otro-atentado-en-colombia-deja-al-menos-12-heridos-de-la-espriella-dice-que-el-narcoterrorismo-est%C3%A1-desesperado",
+    "https://www.bloomberglinea.com/latinoamerica/colombia/nuevo-atentado-en-colombia-artefacto-explota-cerca-de-la-gobernacion-del-meta/"
   ],
   "processedSignatures": [
+    {
+      "title": "ATENTADO CON CARRO BOMBA IMPACTA LA GOBERNACIÓN DEL META EN COLOMBIA",
+      "normalizedTokens": [
+        "atentado",
+        "carro",
+        "bomba",
+        "impacta",
+        "gobernacion",
+        "meta",
+        "colombia"
+      ],
+      "date": "2026-11-24T05:32:11.953Z"
+    },
+    {
+      "title": "Nuevo atentado en Colombia: artefacto explota cerca de la Gobernación del Meta",
+      "normalizedTokens": [
+        "nuevo",
+        "atentado",
+        "colombia",
+        "artefacto",
+        "explota",
+        "cerca",
+        "gobernacion",
+        "meta"
+      ],
+      "date": "2026-11-24T05:32:11.950Z"
+    },
     {
       "title": "ATENTADO CON CARRO BOMBA EN META REVELA FRACTURA EN SEGURIDAD COLOMBIANA",
       "normalizedTokens": [
@@ -7392,31 +7420,6 @@
         "attack"
       ],
       "date": "2026-11-08T05:16:32.590Z"
-    },
-    {
-      "title": "ACTUALIZACIÓN: ESCALADA SAUDÍ EN YEMEN ELEVA A 33 LOS MUERTOS",
-      "normalizedTokens": [
-        "actualizacion",
-        "escalada",
-        "saudi",
-        "yemen",
-        "eleva",
-        "muertos"
-      ],
-      "date": "2026-11-08T05:01:19.695Z"
-    },
-    {
-      "title": "Houthis say at least 33 killed in Saudi air strike",
-      "normalizedTokens": [
-        "houthis",
-        "say",
-        "least",
-        "killed",
-        "saudi",
-        "air",
-        "strike"
-      ],
-      "date": "2026-11-08T05:01:19.694Z"
     }
   ]
 }
