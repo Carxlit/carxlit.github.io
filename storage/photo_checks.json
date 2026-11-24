@@ -1708,5 +1708,10 @@
     "relevant": false,
     "reason": "La imagen muestra un gráfico genérico sobre acciones de IA en China, mientras que la noticia trata sobre Jensen Huang y fabricantes de semiconductores como TSMC y SK Hynix en Taiwá",
     "at": "2026-11-24T02:11:34.872Z"
+  },
+  "c5593e8a9d7624ff:jfebxtuno": {
+    "relevant": true,
+    "reason": "La imagen ilustra adecuadamente un sismo en Chile mediante un mapa del país resaltado y un sismograma superpuesto.",
+    "at": "2026-11-24T03:08:13.716Z"
   }
 }
