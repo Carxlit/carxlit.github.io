@@ -356,9 +356,39 @@
     "https://www.genbeta.com/actualidad/contrata-como-empleada-hogar-durante-4-meses-a-mujer-amigo-consigue-que-tenga-derecho-a-paro-vigo",
     "https://www.xataka.com.mx/medicina-y-salud/angela-isla-entrenadora-personal-subir-escaleras-quedar-agotado-no-significa-que-estes-ganando-fuerza",
     "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus",
-    "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios"
+    "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios",
+    "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta"
   ],
   "processedSignatures": [
+    {
+      "title": "MERCADO DE AUDIO ABIERTO REDEFINIRÁ ESTRATEGIA DE DISPOSITIVOS PORTÁTILES",
+      "normalizedTokens": [
+        "mercado",
+        "audio",
+        "abierto",
+        "redefinira",
+        "estrategia",
+        "dispositivos",
+        "portatiles"
+      ],
+      "date": "2026-11-24T23:53:41.550Z"
+    },
+    {
+      "title": "Los mejores audífonos abiertos para regalar en Navidad: bonitos, útiles y por menos de 400 dólares",
+      "normalizedTokens": [
+        "mejores",
+        "audifonos",
+        "abiertos",
+        "regalar",
+        "navidad",
+        "bonitos",
+        "utiles",
+        "menos",
+        "400",
+        "dolares"
+      ],
+      "date": "2026-11-24T23:53:41.540Z"
+    },
     {
       "title": "MICROSOFT DECLARA CÓDIGO ROJO TRAS FALLO GLOBAL EN EXCHANGE ONLINE",
       "normalizedTokens": [
@@ -7421,36 +7451,6 @@
         "urgentes"
       ],
       "date": "2026-11-08T13:36:04.256Z"
-    },
-    {
-      "title": "JULIO ROJAS  SOBRE CHOQUE ONTOLÓGICO Y DESAFÍO TECNOLÓGICO",
-      "normalizedTokens": [
-        "julio",
-        "rojas",
-        "choque",
-        "ontologico",
-        "desafio",
-        "tecnologico"
-      ],
-      "date": "2026-11-08T12:32:09.848Z"
-    },
-    {
-      "title": "\"Cuando hablamos del fin del mundo, todos piensan en meteoritos, virus o un super tsunami, pero pocos imaginan un choque ontológico\"",
-      "normalizedTokens": [
-        "hablamos",
-        "fin",
-        "mundo",
-        "piensan",
-        "meteoritos",
-        "virus",
-        "super",
-        "tsunami",
-        "pocos",
-        "imaginan",
-        "choque",
-        "ontologico"
-      ],
-      "date": "2026-11-08T12:32:09.847Z"
     }
   ]
 }

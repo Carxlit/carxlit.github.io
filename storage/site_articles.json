@@ -1,5 +1,90 @@
 [
   {
+    "slug": "dilema-acustico-audifonos-abiertos-reconfiguracion-audio-0d1e",
+    "path": "noticias/dilema-acustico-audifonos-abiertos-reconfiguracion-audio-0d1e/",
+    "title": "El dilema acústico de los audífonos abiertos y la reconfiguración del audio portátil",
+    "headline": "MERCADO DE AUDIO ABIERTO REDEFINIRÁ ESTRATEGIA DE DISPOSITIVOS PORTÁTILES",
+    "dek": "La adopción masiva de dispositivos con canales auditivos expuestos expone los límites físicos del aislamiento acústico y obliga a la industria a reformular su propuesta de valor.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Wired en Español",
+    "image": "img/dilema-acustico-audifonos-abiertos-reconfiguracion-audio-0d1e.jpg",
+    "photo": "img/dilema-acustico-audifonos-abiertos-reconfiguracion-audio-0d1e-foto.jpg",
+    "publishedAt": "2026-11-24T23:53:41.345Z",
+    "article": {
+      "slug": "dilema-acustico-audifonos-abiertos-reconfiguracion-audio-0d1e",
+      "title": "El dilema acústico de los audífonos abiertos y la reconfiguración del audio portátil",
+      "dek": "La adopción masiva de dispositivos con canales auditivos expuestos expone los límites físicos del aislamiento acústico y obliga a la industria a reformular su propuesta de valor.",
+      "keyFacts": [
+        "Los modelos analizados mantienen un tope de precio de mercado por debajo de los 400 dólares.",
+        "El diseño abierto mantiene intencionalmente el canal auditivo despejado sin alterar la entrada natural de frecuencias externas.",
+        "La cancelación activa de ruido requiere física y técnicamente un aislamiento pasivo hermético del que carecen estos formatos."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó Wired en Español, los audífonos de diseño abierto se han consolidado como una de las tendencias de mayor crecimiento en el sector de la tecnología personal. Esta categoría abarca desde dispositivos de enganche tipo clip hasta lentes con módulos de audio integrados, caracterizados por dejar libre el canal auditivo en lugar de sellarlo mediante almohadillas de silicona o estructuras intraurales. La cobertura coincidente de medios como ENTER.CO y FM Del Condado ratifica que la oferta actual sitúa sus modelos de referencia por debajo de la barrera de los 400 dólares.",
+            "El principio funcional de estos equipos estriba en permitir al usuario escuchar contenido multimedia sin desconectarse del entorno físico inmediato. A diferencia de las soluciones tradicionales de audio que compiten por ofrecer una respuesta de frecuencias completa y profunda, los diseños abiertos priorizan la integración natural de las fuentes sonoras exteriores sobre la inmersión sonora aislada."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La evolución reciente del mercado de audio portátil estuvo dominada por el perfeccionamiento de la cancelación activa de ruido y los algoritmos de transparencia digital. Sin embargo, la física acústica impone restricciones ineludibles: para suprimir frecuencias mediante inversión de polaridad se requiere una cavidad sellada que proporcione aislamiento pasivo. Al eliminar dicho sello, la reproducción de frecuencias graves pierde contundencia y la supresión de ruido exterior se vuelve técnicamente inviable.",
+            "En este escenario, alternativas semiabiertas como los modelos estándar de AirPods intentan un punto medio que, según analistas del sector, con frecuencia compromete tanto el sellado musical como la nitidez de la escucha ambiental. Por ello, la industria ha optado por bifurcar el mercado hacia dispositivos dedicados 100% a la apertura o enfocados estrictamente en el sellado hermético."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El trasfondo de esta marea comercial no es únicamente una preferencia estética o de comodidad anatómica por parte del usuario. Desde la óptica estratégica de Punto Ciego, la promoción intensiva de los audífonos abiertos responde a una necesidad de los fabricantes por eludir los crecientes costos de desarrollo de procesadores dedicados a la supresión de ruido en gamas medias y altas.",
+            "Al comercializar la vulnerabilidad acústica como una prestación defensiva para el usuario —orientada a la seguridad en deportes al aire libre o el monitoreo doméstico—, las grandes firmas tecnológicas abren una ventana de consumo complementario. El objetivo no es reemplazar los auriculares principales de aislamiento, sino forzar la adopción de un segundo o tercer par de dispositivos especializados dentro del mismo ecosistema de marca."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los ganadores inmediatos de este giro estratégico son los proveedores de ensamblaje de hardware y chips de procesamiento básico, que logran colocar productos con menores requisitos de calibración acústica hermética con márgenes de ganancia competitivos. Asimismo, los usuarios que sufren fatiga o irritación por la presión de las almohadillas intraurales obtienen alternativas funcionales para entornos de baja exigencia sonora.",
+            "En el extremo opuesto pierden los consumidores desinformados que esperan de un audífono abierto de 400 dólares el mismo desempeño en frecuencias bajas o aislamiento en viajes que ofrece un auricular cerrado tradicional. La falta de transparencia en la comunicación técnica de las limitaciones de estos formatos genera una expectativa de fidelidad de audio que la física del diseño abierto no puede sostener."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos trimestres será clave observar si los grandes actores de la tecnología integrada logran migrar sensores biométricos y asistentes de inteligencia artificial a estos formatos abiertos sin comprometer la autonomía de la batería. Dado que la resistencia al viento y las limitaciones de los controles táctiles siguen siendo asignaturas pendientes en las estructuras tipo clip, la consolidación de patentes de procesamiento direccional de sonido definirá qué fabricantes logran dominar esta nueva arquitectura de audio personal."
+          ]
+        }
+      ],
+      "tags": [
+        "Tecnología",
+        "Audio",
+        "Hardware",
+        "Mercados",
+        "Wearables",
+        "Electrónica"
+      ],
+      "sources": [
+        {
+          "name": "Wired en Español",
+          "title": "Los mejores audífonos abiertos para regalar en Navidad: bonitos, útiles y por menos de 400 dólares",
+          "url": "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta"
+        },
+        {
+          "name": "ENTER.CO",
+          "title": "Audífonos clip para Navidad con buena relación costo-beneficio",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS1g4NnZKbGpoNGpxLWNTU2h1ZnJ1RXNFcUdwdGZudEU0MGJlMzJWUE5SWFQwTDZ3d2k4elVsUk5DbENEYlRnRUJnQzNYT203cXg3UHNzLTAxT3VJeW10djFUTlA4RUJnaVZjMkVTcnh1Q0QtSDdNbkdNUUZ2Q0VMVWlZbEM1dw?oc=5"
+        },
+        {
+          "name": "FM Del Condado",
+          "title": "Los mejores audífonos abiertos para regalar en Navidad: bonitos, útiles y por menos de 400 dólares",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR2dPMWZORmxHX2pwVk5iM2pxV0U1eTlkR0ZJNjNCUVZBUHNyNEhZcDFiRFRRT2hmTDNpR0x6WjIwQ3g1VzNhSkxnSThremVJSUdndlRaY05TWnFEd3JCd1NkX0F0Z09QOHNKZXppZWhFWHI1VDJZTVFkdE05eHYzc1gySnh0QkFIcUJhYmNYZ0pOc0IxVFRmOC1WRXFzVVNnaUVIRDJLY1BFZVZ0aU1keU9VY2JETjVvWFRnQ2VVRHY4QQ?oc=5"
+        }
+      ],
+      "wordCount": 627
+    },
+    "blindSpot": "Detrás del auge comercial de los dispositivos de canal auditivo expuesto y formato clip yace una renuncia estructural a la cancelación activa de ruido por limitaciones físicas ineludibles. Las grandes firmas de hardware diversifican sus catálogos hacia productos de menor costo de sellado acústico para captar consumidores que priorizan la multitarea sobre la fidelidad sonora en bajas frecuencias."
+  },
+  {
     "slug": "colapso-microsoft-365-descubierto-grietas-detras-unwh",
     "path": "noticias/colapso-microsoft-365-descubierto-grietas-detras-unwh/",
     "title": "El colapso de Microsoft 365 al descubierto: las grietas detrás del Código Rojo",
