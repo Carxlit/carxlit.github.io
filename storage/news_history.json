@@ -352,9 +352,40 @@
     "https://www.france24.com/es/am%C3%A9rica-latina/20261124-otro-atentado-en-colombia-deja-al-menos-12-heridos-de-la-espriella-dice-que-el-narcoterrorismo-est%C3%A1-desesperado",
     "https://www.bloomberglinea.com/latinoamerica/colombia/nuevo-atentado-en-colombia-artefacto-explota-cerca-de-la-gobernacion-del-meta/",
     "https://www.france24.com/es/medio-oriente/20261124-yemen-los-hut%C3%ADes-reportan-25-muertos-o-desaparecidos-tras-ataques-sauditas",
-    "https://www.france24.com/es/europa/20261124-en-directo-ataque-ruso-deja-dos-muertos-en-zaporizhia-tr%C3%ADpoli-pide-explicaciones-a-kiev-por-ataques-contra-buques-rusos"
+    "https://www.france24.com/es/europa/20261124-en-directo-ataque-ruso-deja-dos-muertos-en-zaporizhia-tr%C3%ADpoli-pide-explicaciones-a-kiev-por-ataques-contra-buques-rusos",
+    "https://www.genbeta.com/actualidad/contrata-como-empleada-hogar-durante-4-meses-a-mujer-amigo-consigue-que-tenga-derecho-a-paro-vigo"
   ],
   "processedSignatures": [
+    {
+      "title": "JUSTICIA ANULA MULTA POR CONTRATACIÓN DOMÉSTICA Y SUBSIDIO DE DESEMPLEO",
+      "normalizedTokens": [
+        "justicia",
+        "anula",
+        "multa",
+        "contratacion",
+        "domestica",
+        "subsidio",
+        "desempleo"
+      ],
+      "date": "2026-11-24T11:22:48.475Z"
+    },
+    {
+      "title": "Contrata como empleada de hogar durante 4 meses a la mujer de un amigo y consigue que tenga derecho a paro en Vigo",
+      "normalizedTokens": [
+        "contrata",
+        "empleada",
+        "hogar",
+        "meses",
+        "mujer",
+        "amigo",
+        "consigue",
+        "tenga",
+        "derecho",
+        "paro",
+        "vigo"
+      ],
+      "date": "2026-11-24T11:22:48.473Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ATAQUE RUSO EN ZAPORIZHIA Y PROTESTA DE TRÍPOLI",
       "normalizedTokens": [
@@ -7405,32 +7436,6 @@
         "cotidiana"
       ],
       "date": "2026-11-08T11:02:27.240Z"
-    },
-    {
-      "title": "TRES MILITARES MUERTOS EN COLOMBIA POR ATAQUE CON DRONES",
-      "normalizedTokens": [
-        "tres",
-        "militares",
-        "muertos",
-        "colombia",
-        "ataque",
-        "drones"
-      ],
-      "date": "2026-11-08T06:01:15.635Z"
-    },
-    {
-      "title": "Al menos tres militares muertos y 16 heridos graves en un ataque con drones",
-      "normalizedTokens": [
-        "menos",
-        "tres",
-        "militares",
-        "muertos",
-        "heridos",
-        "graves",
-        "ataque",
-        "drones"
-      ],
-      "date": "2026-11-08T06:01:15.634Z"
     }
   ]
 }
