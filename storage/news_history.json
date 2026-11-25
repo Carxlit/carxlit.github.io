@@ -360,9 +360,35 @@
     "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta",
     "https://es.euronews.com/video/2026/11/24/colombia-registra-al-menos-25-heridos-en-coche-bomba-en-medio-del-resurgir-de-la-violencia",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971",
-    "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf"
+    "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
+    "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "HOMBRES ARMADOS MANTIENEN REHENES EN SUPERMERCADO DE CARTAGENA",
+      "normalizedTokens": [
+        "hombres",
+        "armados",
+        "mantienen",
+        "rehenes",
+        "supermercado",
+        "cartagena"
+      ],
+      "date": "2026-11-25T05:01:38.517Z"
+    },
+    {
+      "title": "Hombres armados mantienen decenas de rehenes en un supermercado en Colombia",
+      "normalizedTokens": [
+        "hombres",
+        "armados",
+        "mantienen",
+        "decenas",
+        "rehenes",
+        "supermercado",
+        "colombia"
+      ],
+      "date": "2026-11-25T05:01:38.515Z"
+    },
     {
       "title": "TRIBUNAL DE ESTADOS UNIDOS CONDENA A HUAWEI POR ESPIONAJE Y FRAUDE",
       "normalizedTokens": [
@@ -7434,35 +7460,6 @@
         "internacionalmente"
       ],
       "date": "2026-11-08T18:41:55.911Z"
-    },
-    {
-      "title": "NORRIS LIDERA EL GRAN PREMIO DE BRASIL EN INTERLAGOS",
-      "normalizedTokens": [
-        "norris",
-        "lidera",
-        "gran",
-        "premio",
-        "brasil",
-        "interlagos"
-      ],
-      "date": "2026-11-08T17:44:23.118Z"
-    },
-    {
-      "title": "Se corre el Gran Premio de Brasil de Fórmula 1: Lando Norris lidera y Franco Colapinto marcha 15°",
-      "normalizedTokens": [
-        "corre",
-        "gran",
-        "premio",
-        "brasil",
-        "formula",
-        "lando",
-        "norris",
-        "lidera",
-        "franco",
-        "colapinto",
-        "marcha"
-      ],
-      "date": "2026-11-08T17:44:23.117Z"
     }
   ]
 }
