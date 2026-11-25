@@ -1,5 +1,86 @@
 [
   {
+    "slug": "condena-huawei-estados-unidos-uso-derecho-sdgp",
+    "path": "noticias/condena-huawei-estados-unidos-uso-derecho-sdgp/",
+    "title": "La condena a Huawei en Estados Unidos y el uso del derecho como arma geopolítica",
+    "headline": "TRIBUNAL DE ESTADOS UNIDOS CONDENA A HUAWEI POR ESPIONAJE Y FRAUDE",
+    "dek": "Un tribunal federal halló culpable al gigante tecnológico chino de múltiples cargos por fraude y robo de secretos comerciales. Detrás del fallo judicial se vislumbra una estrategia sistemática de contención económica.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "DW News",
+    "image": "img/condena-huawei-estados-unidos-uso-derecho-sdgp.jpg",
+    "photo": "img/condena-huawei-estados-unidos-uso-derecho-sdgp-foto.jpg",
+    "publishedAt": "2026-11-25T02:56:38.433Z",
+    "article": {
+      "slug": "condena-huawei-estados-unidos-uso-derecho-sdgp",
+      "title": "La condena a Huawei en Estados Unidos y el uso del derecho como arma geopolítica",
+      "dek": "Un tribunal federal halló culpable al gigante tecnológico chino de múltiples cargos por fraude y robo de secretos comerciales. Detrás del fallo judicial se vislumbra una estrategia sistemática de contención económica.",
+      "keyFacts": [
+        "Un jurado en la corte federal de Brooklyn encontró a Huawei culpable de 10 de los 12 cargos criminales.",
+        "Las acusaciones incluyeron robo de secretos comerciales, fraude bancario, fraude electrónico y violación de sanciones.",
+        "Entre las empresas víctimas citadas en los registros judiciales figuran Cisco Systems, Motorola Solutions, T-Mobile, Quintel USA y Fujitsu.",
+        "El veredicto incluyó la absolución de Huawei en dos cargos específicos de asociación ilícita y conspiración para obstruir la justicia."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un jurado federal en el distrito de Brooklyn emitió un veredicto de culpabilidad contra el gigante tecnológico chino Huawei por diez de los doce cargos criminales que enfrentaba en un proceso judicial prolongado. Entre los delitos acreditados por la fiscalía se encuentran el robo de propiedad intelectual, fraude bancario, fraude electrónico y la evasión deliberada de sanciones comerciales impuestas por Estados Unidos.",
+            "El fiscal general adjunto Todd Blanche declaró tras conocerse la decisión judicial que la compañía operó durante décadas en territorio estadounidense basándose en mentiras y apropiación indebida de tecnología ajena. No obstante, el panel de jurados absolvió a la empresa de dos imputaciones concretas relacionadas con crimen organizado y conspiración para obstruir la acción de la justicia."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La causa reunió evidencias sobre métodos poco ortodoxos utilizados por empleados de la firma para obtener ventajas competitivas frente a sus rivales occidentales. Según la documentación presentada en el juicio, operarios de Huawei fotografiaron componentes internos de dispositivos en ferias comerciales en Chicago, sustrajeron brazos robóticos de laboratorios y comercializaron enrutadores que incorporaban código fuente sustraído a otras compañías.",
+            "Los registros del tribunal identificaron como afectados a pesos pesados de la industria como Cisco Systems, Motorola Solutions, T-Mobile, Quintel USA y Fujitsu. Adicionalmente, la fiscalía probó que Huawei operó comercialmente en naciones bloqueadas por Washington, como Irán y Corea del Norte, ocultando dichas transacciones mediante declaraciones falsas ante bancos y reguladores gubernamentales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La narrativa de los medios masivos presenta el juicio exclusivamente como un caso penal ordinario contra prácticas corporativas deshonestas. Sin embargo, el verdadero trasfondo radica en cómo el sistema judicial estadounidense se consolida como un instrumento de política exterior y defensa comercial para neutralizar el avance tecnológico de potencias rivales.",
+            "Mientras el negocio de redes de telecomunicaciones de Huawei ha sufrido un veto sistemático en Occidente, su división de electrónica de consumo ha mantenido resiliencia en otros mercados. El uso de los tribunales federales funciona como la vía legal idónea para bloquear la expansión de infraestructura crítica sin necesidad de recurrir únicamente a aranceles o decretos ejecutivos."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, el gobierno estadounidense y sus corporaciones tecnológicas de infraestructura, como Cisco, ganan legitimidad jurídica para consolidar barreras proteccionistas y justificar la exclusión de competidores asiáticos bajo el argumento de la seguridad nacional.",
+            "Por el contrario, Huawei asume un costo reputacional y financiero severo que limita sus aspiraciones de recuperar terreno en los mercados occidentales de telecomunicaciones, obligando al ecosistema tecnológico chino a acelerar su independencia de los estándares y circuitos financieros dominados por Estados Unidos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear las apelaciones que presentará la defensa de Huawei en las instancias superiores del sistema judicial estadounidense y las posibles medidas de reciprocidad o represalia regulatoria que Pekín pueda implementar contra empresas occidentales operando en suelo chino.",
+            "Asimismo, la reacción de los operadores de telecomunicaciones en Europa y América Latina frente a la presión diplomática de Washington determinará el ritmo de la fragmentación tecnológica global."
+          ]
+        }
+      ],
+      "tags": [
+        "Huawei",
+        "Estados Unidos",
+        "Geopolítica",
+        "Ciberseguridad",
+        "Comercio"
+      ],
+      "sources": [
+        {
+          "name": "DW News",
+          "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+          "url": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "name": "La Nación",
+          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSXR1c3BIQVpSeFNaVnd0dm9mWFdoRzNsaUd6NGotaVhIMV9Hek5HQW85LWFrallwNFJVbmJfZUxGSGNoRzFOZy0wSl9rWU1yWXBabE1udXNqVnZMWHhIRktPSU1MeEY1S2poZldHWEV3bVc1eWx6WlBjVUlDcWt6Y2g5bUdMbjQzQWZOMFNSSTVhbEpuNmxvS1BqRV9JYS1UU1FGc3czOHo1alNfX0RUellZMVUtdVg4c00xT05PaHlRSVBGSkQzRTRJSQ?oc=5"
+        }
+      ],
+      "wordCount": 514
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el pulso tecnológico entre Washington y Pekín, el juicio expone cómo el espionaje industrial corporativo y el sistema financiero estadounidense operan como el verdadero campo de batalla legal para neutralizar la expansión global de infraestructura crítica china."
+  },
+  {
     "slug": "salida-voluntaria-kilmar-abrego-garcia-fallas-u0um",
     "path": "noticias/salida-voluntaria-kilmar-abrego-garcia-fallas-u0um/",
     "title": "La salida voluntaria de Kilmar Ábrego García y las fallas del sistema de deportación",

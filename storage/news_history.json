@@ -359,9 +359,37 @@
     "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios",
     "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta",
     "https://es.euronews.com/video/2026/11/24/colombia-registra-al-menos-25-heridos-en-coche-bomba-en-medio-del-resurgir-de-la-violencia",
-    "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971"
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971",
+    "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "TRIBUNAL DE ESTADOS UNIDOS CONDENA A HUAWEI POR ESPIONAJE Y FRAUDE",
+      "normalizedTokens": [
+        "tribunal",
+        "estados",
+        "unidos",
+        "condena",
+        "huawei",
+        "espionaje",
+        "fraude"
+      ],
+      "date": "2026-11-25T02:56:38.651Z"
+    },
+    {
+      "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+      "normalizedTokens": [
+        "jury",
+        "convicts",
+        "huawei",
+        "violating",
+        "sanctions",
+        "stealing",
+        "trade",
+        "secrets"
+      ],
+      "date": "2026-11-25T02:56:38.649Z"
+    },
     {
       "title": "MIGRANTE SALVADOREÑO KILMAR ABREGO SALDRÁ DE ESTADOS UNIDOS",
       "normalizedTokens": [
@@ -7435,32 +7463,6 @@
         "marcha"
       ],
       "date": "2026-11-08T17:44:23.117Z"
-    },
-    {
-      "title": "DISPUTA INTERNA DEMÓCRATA Y DEBACLE REPUBLICANA EN EL SENADO",
-      "normalizedTokens": [
-        "disputa",
-        "interna",
-        "democrata",
-        "debacle",
-        "republicana",
-        "senado"
-      ],
-      "date": "2026-11-08T16:02:54.964Z"
-    },
-    {
-      "title": "Resultados de las elecciones intermedias de EE.UU., en vivo: disputa demócrata por el liderazgo del Senado",
-      "normalizedTokens": [
-        "resultados",
-        "elecciones",
-        "intermedias",
-        "vivo",
-        "disputa",
-        "democrata",
-        "liderazgo",
-        "senado"
-      ],
-      "date": "2026-11-08T16:02:54.963Z"
     }
   ]
 }
