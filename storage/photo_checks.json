@@ -1818,5 +1818,10 @@
     "relevant": true,
     "reason": "Muestra una lancha no tripulada aproximándose a un buque, acorde con una incursión naval.",
     "at": "2026-11-25T06:31:52.779Z"
+  },
+  "cbec159110481142:pq6722l2g": {
+    "relevant": true,
+    "reason": "Muestra el edificio de la sede de la CIA en Langley, una de las instituciones centrales mencionadas en el ciberataque.",
+    "at": "2026-11-25T12:51:55.237Z"
   }
 }

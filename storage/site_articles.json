@@ -1,5 +1,101 @@
 [
   {
+    "slug": "infiltracion-cia-fbi-expone-vulnerabilidades-material-g764",
+    "path": "noticias/infiltracion-cia-fbi-expone-vulnerabilidades-material-g764/",
+    "title": "Infiltración en la CIA y el FBI expone las vulnerabilidades del material no clasificado",
+    "headline": "LA CIA Y EL FBI SUFREN CIBERATAQUE EN SUS SISTEMAS NO CLASIFICADOS",
+    "dek": "Las redes no clasificadas de la CIA y del FBI sufrieron intrusiones cibernéticas. La minimización oficial del incidente oculta el valor estratégico de la analítica de metadatos para la inteligencia adversaria.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "CNN en Español",
+    "image": "img/infiltracion-cia-fbi-expone-vulnerabilidades-material-g764.jpg",
+    "photo": "img/infiltracion-cia-fbi-expone-vulnerabilidades-material-g764-foto.jpg",
+    "publishedAt": "2026-11-25T12:51:58.741Z",
+    "article": {
+      "slug": "infiltracion-cia-fbi-expone-vulnerabilidades-material-g764",
+      "title": "Infiltración en la CIA y el FBI expone las vulnerabilidades del material no clasificado",
+      "dek": "Las redes no clasificadas de la CIA y del FBI sufrieron intrusiones cibernéticas. La minimización oficial del incidente oculta el valor estratégico de la analítica de metadatos para la inteligencia adversaria.",
+      "keyFacts": [
+        "CNN en Español dio a conocer que un ciberataque afectó sistemas de información no clasificada de la CIA.",
+        "El FBI sufrió una vulneración en redes no clasificadas la misma jornada, según reportó Fox News.",
+        "Los hechos fueron replicados y confirmados por medios como Univision, Yahoo y AlbertoNews."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según información reportada por CNN en Español, la Agencia Central de Inteligencia (CIA) de los Estados Unidos fue víctima de un ciberataque que logró vulnerar sus sistemas de información no clasificada. El evento implicó el ingreso no autorizado a plataformas operativas utilizadas para la gestión administrativa e intercambio de datos no confidenciales.",
+            "De manera paralela, el Buró Federal de Investigaciones (FBI) registró una intromisión de características similares en sus redes no clasificadas durante el mismo lapso de tiempo, de acuerdo con datos provistos por Fox News y difundidos por AlbertoNews. Las informaciones sobre la afectación a ambas agencias fueron corroboradas por diversas cadenas internacionales como Univision y Yahoo."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Las organizaciones de inteligencia en Estados Unidos mantienen sus arquitecturas digitales estrictamente divididas. Mientras que los expedientes de mayor confidencialidad y las comunicaciones de misiones encubiertas permanecen en redes aisladas del exterior, el trabajo cotidiano, los registros de personal y la logística general se gestionan mediante servidores no clasificados.",
+            "El incremento en la frecuencia y complejidad de las incursiones contra dependencias gubernamentales en años recientes ha generado preocupación en Washington. La coincidencia temporal entre la penetración a la CIA y al FBI evidencia una exploración sistemática de los perímetros de seguridad por parte de actores con capacidades cibernéticas avanzadas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El posicionamiento público sobre la intrusión tiende a remarcar la condición de 'no clasificada' del área afectada como una forma de aminorar la alarma pública y resguardar la reputación de los organismos de seguridad. Sin embargo, en el terreno de la inteligencia moderna, la frontera entre datos clasificados y no clasificados resulta difusa.",
+            "La recopilación masiva de correos rutinarios, itinerarios de viaje y metadatos permite a los analistas de un servicio de inteligencia adversario reconstruir esquemas operativos completos. Un archivo aislado no clasificado no revela un secreto de Estado, pero miles de registros procesados con herramientas de minería de datos permiten identificar la identidad de analistas, contratistas y patrones de despliegue en el exterior."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Quienes ejecutaron la vulneración obtienen un mapa preciso del funcionamiento burocrático y tecnológico de las dos principales agencias de seguridad estadounidenses. Esto se logra sin haber activado las alarmas ni asumido los riesgos de intentar infiltrar las redes de máxima seguridad.",
+            "Por otra parte, el aparato de seguridad de Estados Unidos sufre un desgaste en su imagen de invulnerabilidad tecnológica. El hecho de que sus plataformas administrativas puedan ser vulneradas en paralelo compromete la privacidad de su personal y muestra brechas de control en sus accesos informáticos."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Corresponderá dar seguimiento a los requerimientos de información que el Congreso estadounidense plantee a las agencias y a los contratistas de tecnología encargados del mantenimiento de sus redes. Las auditorías a terceros proveedores suelen ser el primer paso tras brechas de esta índole.",
+            "Asimismo, convendrá observar si la comunidad de inteligencia adopta nuevas normativas para catalogar y restringir los metadatos administrativos, elevando las exigencias de cifrado para evitar la filtración de información aparentemente inocua pero tácticamente utilizable."
+          ]
+        }
+      ],
+      "tags": [
+        "CIA",
+        "FBI",
+        "Ciberataque",
+        "Ciberseguridad",
+        "Inteligencia",
+        "Estados Unidos"
+      ],
+      "sources": [
+        {
+          "name": "CNN en Español",
+          "title": "La CIA sufre un ciberataque a su información no clasificada",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5"
+        },
+        {
+          "name": "Charlotte",
+          "title": "La CIA sufre ciberataque que afecta información no clasificada - Qué Pasa Mi Gente",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa3JORDcwSlMwUnlpVDl2b3Z5UlY4VkgwbTcxXzJWLXRvNnhheE53cXBsV3NYRTR0Q3ktem9wR0hGT0cxWU9Hc1RtanZXZW1oWnBqQ014RzNuQnJDMnZ1QWIwSFZMVDcwMmNPVjA4RV9RZVVxUDkwYVZlUzdGaGl4SmNkQ1BKYnJJVWFJWWlmVW5aT1M1UkdjUklDV25tTHRqSFI4dkR0UEhYbzRUcnhubWxsWUdoVk5peWZBcDB3WnBNMDVXaE1wSUJGekI?oc=5"
+        },
+        {
+          "name": "Yahoo",
+          "title": "La CIA sufre un ciberataque a su información no clasificada",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR0QzSjRnWTVJUm9POEZmMzlhNDVaOGdwX29HaW5QZDJvd202NmpfNWNnRm1PV2RrMzRteklkb25wYmYzVldJWXRqTEhTLUVKaWplUUhXSk5Hakw4TXNDZzg5OWx3WVF0UTJWSVpvSWt2ckJrdldEcDRXQnduNmdObFY5blNJRHg2b3ZwVm91djBNUlRvUGtCVkFYNlExZHc?oc=5"
+        },
+        {
+          "name": "Univision",
+          "title": "Un ciberataque logra vulnerar un sistema no clasificado de la CIA",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV2hJTGJNa3FfemtGdktUajJ3Yi14R0pFV0ZWU19meVN3QmtpVVJBX1hqc050OG9qXzFxc20tODJ4Vld2TU9Tc1JpZTVwZ1BxanRkWVVmZ2FaeGtXYmVzQW9BN2E0Mjd4Y2pwOTFnRldOMDBOV25LQlNua0N4VHJqanNSdWRMQTJKUDBYaEwwallHYVNXdWVScHJhNFlnMzBMY2Y2REVFeXFGQ2pxRmxYaW4zdkpQamZIelA5Y0lGU1pSZ1YxRk45aA?oc=5"
+        },
+        {
+          "name": "AlbertoNews",
+          "title": "La CIA sufre un ciberataque que expuso información de inteligencia no clasificada; el FBI también fue vulnerado el mismo día, según Fox News",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb1N5ZUlhV3lIb1ItdFhfekhCVFVKQ29oc3F2d3FraFh0VTB3MnJNU1VqLUEyUXJ0MDQ4ZnVjbXdZanBIVEd4YzdxdnEtQmhEMEFncXBYTkhKeFhSaV9HeUllSVdYQVNDei1QX0RreWhWSU1IMjJ6T1V0b0tLT2RwXzNCaU5Db1lpcjNZSzdENGlyM3ZLajZpSlJSR2pGTHBYejlwNHNTa0NLMUlrc25mTDZucFhNckNtd0VXOUw0ak9KU3U4Y3J2M2ZTSUdjRGpFWWNOSkhTa2dBUjQ5S3dpN1V6aVlaRUZlS2d0OWN3UnhMeHh4azlfb2Jwa1kwR1VELXNWM2xoWGZQNFU?oc=5"
+        }
+      ],
+      "wordCount": 516
+    },
+    "blindSpot": "La retórica oficial busca restar gravedad al asunto destacando que el material vulnerado carece de clasificación secreta. No obstante, en la inteligencia contemporánea, la extracción masiva de metadatos, registros logísticos y datos administrativos permite a actores estatales rivales perfilar al personal operativo e inferir movimientos tácticos sin necesidad de romper la encriptación de mayor nivel."
+  },
+  {
     "slug": "guerra-entre-ucrania-rusia-traslada-norte-uch0",
     "path": "noticias/guerra-entre-ucrania-rusia-traslada-norte-uch0/",
     "title": "La guerra entre Ucrania y Rusia se traslada al norte de África tras un ataque militar en Bengasi",

@@ -364,9 +364,33 @@
     "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5",
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzIzWjZLTEdiVXRtR0I1cEJ3MFVCUzF5ZktKdWRUQlNtMEVDTnQ4Mk5xU2tvODVlRUJFeE5KOGlieGxsYkp5c1dhZklONzRZNW1VWTR4OVM1MGFQM0cxRXBaQm93b1lhWG1qR3F0ZGV2VTRRRGxtbTRkU1VYQ2c2dEtHckpXQmJCbmpYZlNKeFVrNW8zVjBldDFEWGc1TmIzRTJTM0ozNy1yanVq?oc=5",
-    "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi"
+    "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "LA CIA Y EL FBI SUFREN CIBERATAQUE EN SUS SISTEMAS NO CLASIFICADOS",
+      "normalizedTokens": [
+        "cia",
+        "fbi",
+        "sufren",
+        "ciberataque",
+        "sistemas",
+        "clasificados"
+      ],
+      "date": "2026-11-25T12:51:58.909Z"
+    },
+    {
+      "title": "La CIA sufre un ciberataque a su información no clasificada",
+      "normalizedTokens": [
+        "cia",
+        "sufre",
+        "ciberataque",
+        "informacion",
+        "clasificada"
+      ],
+      "date": "2026-11-25T12:51:58.901Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ESCALADA ARMADA EN COLOMBIA TRAS NUEVOS ATENTADOS CON EXPLOSIVOS",
       "normalizedTokens": [
@@ -7448,33 +7472,6 @@
         "movil"
       ],
       "date": "2026-11-09T08:01:24.980Z"
-    },
-    {
-      "title": "INCENDIO EN TAIYUAN EXPONE FALLAS EN INFRAESTRUCTURA URBANA CHINA",
-      "normalizedTokens": [
-        "incendio",
-        "taiyuan",
-        "expone",
-        "fallas",
-        "infraestructura",
-        "urbana",
-        "china"
-      ],
-      "date": "2026-11-09T06:16:44.147Z"
-    },
-    {
-      "title": "Incendio en complejo residencial en norte de China deja al mens 14 muertos",
-      "normalizedTokens": [
-        "incendio",
-        "complejo",
-        "residencial",
-        "norte",
-        "china",
-        "deja",
-        "mens",
-        "muertos"
-      ],
-      "date": "2026-11-09T06:16:44.145Z"
     }
   ]
 }
