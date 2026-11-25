@@ -1,5 +1,79 @@
 [
   {
+    "slug": "salida-voluntaria-kilmar-abrego-garcia-fallas-u0um",
+    "path": "noticias/salida-voluntaria-kilmar-abrego-garcia-fallas-u0um/",
+    "title": "La salida voluntaria de Kilmar Ábrego García y las fallas del sistema de deportación",
+    "headline": "MIGRANTE SALVADOREÑO KILMAR ABREGO SALDRÁ DE ESTADOS UNIDOS",
+    "dek": "Tras 20 meses de litigio por una deportación errónea y su posterior paso por el CECOT, el migrante salvadoreño Kilmar Ábrego acordó su salida de Estados Unidos. El caso expone los vacíos operativos de ICE.",
+    "category": "PODER & SOCIEDAD",
+    "sourceName": "El Tiempo",
+    "image": "img/salida-voluntaria-kilmar-abrego-garcia-fallas-u0um.jpg",
+    "photo": "img/salida-voluntaria-kilmar-abrego-garcia-fallas-u0um-foto.jpg",
+    "publishedAt": "2026-11-25T01:56:59.372Z",
+    "article": {
+      "slug": "salida-voluntaria-kilmar-abrego-garcia-fallas-u0um",
+      "title": "La salida voluntaria de Kilmar Ábrego García y las fallas del sistema de deportación",
+      "dek": "Tras 20 meses de litigio por una deportación errónea y su posterior paso por el CECOT, el migrante salvadoreño Kilmar Ábrego acordó su salida de Estados Unidos. El caso expone los vacíos operativos de ICE.",
+      "keyFacts": [
+        "Kilmar Ábrego García estuvo preso en el CECOT tras su deportación errónea.",
+        "El proceso legal y la batalla por su restitución se extendió durante 20 meses.",
+        "ICE detuvo de nuevo a Kilmar Ábrego tras su liberación inicial en Tennessee."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El migrante salvadoreño Kilmar Ábrego García logró negociar su salida voluntaria de Estados Unidos, poniendo fin a un proceso de 20 meses marcado por errores administrativos en su expulsión previa y su posterior detención por parte del Servicio de Inmigración y Control de Aduanas (ICE).",
+            "La situación de Ábrego se había tornado compleja tras ser devuelto a territorio estadounidense para enfrentar una batalla legal que cuestionaba los procedimientos bajo los cuales fue apartado del país de forma equivocada."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Según los registros del caso difundidos por medios como El Tiempo, el trayecto del migrante incluyó momentos críticos como su reclusión en el Centro de Confinamiento del Terrorismo (CECOT) en El Salvador tras su primera deportación, antes de lograr retornar a suelo estadounidense y ser arrestado nuevamente por ICE en Tennessee.",
+            "El historial también señala acusaciones previas de conspiración de tráfico de personas y su posterior visibilidad en protestas organizadas por la red CASA antes de su nueva captura por las autoridades migratorias."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los canales oficiales presentan la salida voluntaria como un acuerdo administrativo estándar, el análisis de Punto Ciego revela que esta resolución funciona como un mecanismo de contención para evitar que los tribunales profundicen en la responsabilidad del Estado por los daños sufridos por Ábrego durante su estancia en el CECOT y su deportación errónea.",
+            "El trasfondo institucional muestra la incapacidad de los sistemas de control migratorio para corregir con rapidez sus propios errores, optando por procesamientos rápidos que diluyen el escrutinio público sobre las fallas de ICE."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el plano institucional, las agencias de control migratorio evitan un fallo judicial potencialmente adverso que sentara un precedente sobre las deportaciones erróneas y el uso de centros de máxima seguridad extranjeros.",
+            "Por el contrario, el migrante asume el costo personal de una prolongada privación de libertad y un litigio desgastante, culminando con su salida del país tras un proceso donde las garantías procesales demostraron ser altamente vulnerables."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario observar de cerca si la salida voluntaria de Ábrego abre la puerta a reclamaciones por parte de organizaciones de derechos civiles contra los procedimientos de ICE en casos de deportaciones equivocadas y la remisión de ciudadanos a cárceles de máxima seguridad fuera de Estados Unidos."
+          ]
+        }
+      ],
+      "tags": [
+        "Migración",
+        "ICE",
+        "Estados Unidos",
+        "El Salvador",
+        "Derechos Humanos"
+      ],
+      "sources": [
+        {
+          "name": "El Tiempo",
+          "title": "Kilmar Abrego García, migrante salvadoreño expulsado y devuelto a EE. UU., saldrá del país tras 20 meses de batalla legal por su deportación errónea",
+          "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971"
+        }
+      ],
+      "wordCount": 399
+    },
+    "blindSpot": "La narrativa oficial se centra en la resolución legal y la salida voluntaria, ignorando el fallo sistemático institucional que lo llevó a estar preso en el CECOT tras su expulsión y los vacíos en los protocolos de control migratorio de ICE."
+  },
+  {
     "slug": "escalada-atentados-explosivos-desnuda-fractura-seguridad-m1pk",
     "path": "noticias/escalada-atentados-explosivos-desnuda-fractura-seguridad-m1pk/",
     "title": "La escalada de atentados con explosivos desnuda la fractura de seguridad en Colombia",

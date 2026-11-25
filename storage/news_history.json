@@ -358,9 +358,43 @@
     "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus",
     "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios",
     "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta",
-    "https://es.euronews.com/video/2026/11/24/colombia-registra-al-menos-25-heridos-en-coche-bomba-en-medio-del-resurgir-de-la-violencia"
+    "https://es.euronews.com/video/2026/11/24/colombia-registra-al-menos-25-heridos-en-coche-bomba-en-medio-del-resurgir-de-la-violencia",
+    "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971"
   ],
   "processedSignatures": [
+    {
+      "title": "MIGRANTE SALVADOREÑO KILMAR ABREGO SALDRÁ DE ESTADOS UNIDOS",
+      "normalizedTokens": [
+        "migrante",
+        "salvadoreno",
+        "kilmar",
+        "abrego",
+        "saldra",
+        "estados",
+        "unidos"
+      ],
+      "date": "2026-11-25T01:56:59.514Z"
+    },
+    {
+      "title": "Kilmar Abrego García, migrante salvadoreño expulsado y devuelto a EE. UU., saldrá del país tras 20 meses de batalla legal por su deportación errónea",
+      "normalizedTokens": [
+        "kilmar",
+        "abrego",
+        "garcia",
+        "migrante",
+        "salvadoreno",
+        "expulsado",
+        "devuelto",
+        "saldra",
+        "pais",
+        "meses",
+        "batalla",
+        "legal",
+        "deportacion",
+        "erronea"
+      ],
+      "date": "2026-11-25T01:56:59.506Z"
+    },
     {
       "title": "ACTUALIZACIÓN: ESCALADA ARMADA EN COLOMBIA TRAS NUEVOS ATENTADOS CON EXPLOSIVOS",
       "normalizedTokens": [
@@ -7427,34 +7461,6 @@
         "senado"
       ],
       "date": "2026-11-08T16:02:54.963Z"
-    },
-    {
-      "title": "JUEZ PARAGUAYO ORDENA PRISIÓN PREVENTIVA PARA EXPRESIDENTE SANTIAGO PEÑA",
-      "normalizedTokens": [
-        "juez",
-        "paraguayo",
-        "ordena",
-        "prision",
-        "preventiva",
-        "expresidente",
-        "santiago",
-        "pena"
-      ],
-      "date": "2026-11-08T14:28:59.433Z"
-    },
-    {
-      "title": "Judge orders Paraguay's ex-president Peña held before trial",
-      "normalizedTokens": [
-        "judge",
-        "orders",
-        "paraguay",
-        "president",
-        "pena",
-        "held",
-        "before",
-        "trial"
-      ],
-      "date": "2026-11-08T14:28:59.431Z"
     }
   ]
 }
