@@ -363,9 +363,40 @@
     "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
     "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss",
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5",
-    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzIzWjZLTEdiVXRtR0I1cEJ3MFVCUzF5ZktKdWRUQlNtMEVDTnQ4Mk5xU2tvODVlRUJFeE5KOGlieGxsYkp5c1dhZklONzRZNW1VWTR4OVM1MGFQM0cxRXBaQm93b1lhWG1qR3F0ZGV2VTRRRGxtbTRkU1VYQ2c2dEtHckpXQmJCbmpYZlNKeFVrNW8zVjBldDFEWGc1TmIzRTJTM0ozNy1yanVq?oc=5"
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzIzWjZLTEdiVXRtR0I1cEJ3MFVCUzF5ZktKdWRUQlNtMEVDTnQ4Mk5xU2tvODVlRUJFeE5KOGlieGxsYkp5c1dhZklONzRZNW1VWTR4OVM1MGFQM0cxRXBaQm93b1lhWG1qR3F0ZGV2VTRRRGxtbTRkU1VYQ2c2dEtHckpXQmJCbmpYZlNKeFVrNW8zVjBldDFEWGc1TmIzRTJTM0ozNy1yanVq?oc=5",
+    "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi"
   ],
   "processedSignatures": [
+    {
+      "title": "UCRANIA ATACA EMBARCACIONES RUSAS EN BENGASI Y DEJA DOS MUERTOS",
+      "normalizedTokens": [
+        "ucrania",
+        "ataca",
+        "embarcaciones",
+        "rusas",
+        "bengasi",
+        "deja",
+        "dos",
+        "muertos"
+      ],
+      "date": "2026-11-25T06:31:57.485Z"
+    },
+    {
+      "title": "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
+      "normalizedTokens": [
+        "live",
+        "two",
+        "libyan",
+        "soldiers",
+        "killed",
+        "ukrainian",
+        "attack",
+        "russian",
+        "vessels",
+        "benghazi"
+      ],
+      "date": "2026-11-25T06:31:57.483Z"
+    },
     {
       "title": "UCRANIA GOLPEA BUQUES RUSOS EN LA BASE LIBIA DE BENGASI",
       "normalizedTokens": [
@@ -7441,33 +7472,6 @@
         "senegal"
       ],
       "date": "2026-11-09T05:01:31.300Z"
-    },
-    {
-      "title": "TRUMP DESCARTA ATAQUES A IRÁN SI AVANZAN NEGOCIACIONES",
-      "normalizedTokens": [
-        "trump",
-        "descarta",
-        "ataques",
-        "iran",
-        "avanzan",
-        "negociaciones"
-      ],
-      "date": "2026-11-08T21:40:48.769Z"
-    },
-    {
-      "title": "Trump says he is highly unlikely to order Iran strikes if talks progress",
-      "normalizedTokens": [
-        "trump",
-        "says",
-        "highly",
-        "unlikely",
-        "order",
-        "iran",
-        "strikes",
-        "talks",
-        "progress"
-      ],
-      "date": "2026-11-08T21:40:48.767Z"
     }
   ]
 }

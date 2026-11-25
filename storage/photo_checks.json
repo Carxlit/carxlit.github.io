@@ -1813,5 +1813,10 @@
     "relevant": false,
     "reason": "La imagen muestra la portada de un libro de autoayuda ficticio sobre batallas internas, sin relación con el conflicto entre Ucrania y Rusia en Libia.",
     "at": "2026-11-25T06:02:07.950Z"
+  },
+  "f3927426c326dce2:tyrl21ds4": {
+    "relevant": true,
+    "reason": "Muestra una lancha no tripulada aproximándose a un buque, acorde con una incursión naval.",
+    "at": "2026-11-25T06:31:52.779Z"
   }
 }
