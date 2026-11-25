@@ -361,9 +361,38 @@
     "https://es.euronews.com/video/2026/11/24/colombia-registra-al-menos-25-heridos-en-coche-bomba-en-medio-del-resurgir-de-la-violencia",
     "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971",
     "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
-    "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "HOMBRES ARMADOS TOMAN REHENES EN CARTAGENA COLOMBIA",
+      "normalizedTokens": [
+        "hombres",
+        "armados",
+        "toman",
+        "rehenes",
+        "cartagena",
+        "colombia"
+      ],
+      "date": "2026-11-25T05:16:48.957Z"
+    },
+    {
+      "title": "Armed men take hostages in Cartagena, one of Colombia’s top tourist destinations",
+      "normalizedTokens": [
+        "armed",
+        "men",
+        "take",
+        "hostages",
+        "cartagena",
+        "one",
+        "colombia",
+        "top",
+        "tourist",
+        "destinations"
+      ],
+      "date": "2026-11-25T05:16:48.955Z"
+    },
     {
       "title": "HOMBRES ARMADOS MANTIENEN REHENES EN SUPERMERCADO DE CARTAGENA",
       "normalizedTokens": [
@@ -7435,31 +7464,6 @@
         "egipto"
       ],
       "date": "2026-11-08T20:13:08.129Z"
-    },
-    {
-      "title": "LA NBA APUESTA POR MÉXICO COMO SU PRINCIPAL MERCADO EXTERIOR",
-      "normalizedTokens": [
-        "nba",
-        "apuesta",
-        "mexico",
-        "principal",
-        "mercado",
-        "exterior"
-      ],
-      "date": "2026-11-08T18:41:55.912Z"
-    },
-    {
-      "title": "NBA ve en el mercado mexicano una oportunidad inmejorable para expandirse internacionalmente",
-      "normalizedTokens": [
-        "nba",
-        "mercado",
-        "mexicano",
-        "oportunidad",
-        "inmejorable",
-        "expandirse",
-        "internacionalmente"
-      ],
-      "date": "2026-11-08T18:41:55.911Z"
     }
   ]
 }

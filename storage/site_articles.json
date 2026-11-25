@@ -1,5 +1,86 @@
 [
   {
+    "slug": "toma-rehenes-cartagena-expone-vulnerabilidad-seguridad-h77o",
+    "path": "noticias/toma-rehenes-cartagena-expone-vulnerabilidad-seguridad-h77o/",
+    "title": "Toma de rehenes en Cartagena expone la vulnerabilidad de la seguridad colombiana",
+    "headline": "HOMBRES ARMADOS TOMAN REHENES EN CARTAGENA COLOMBIA",
+    "dek": "Un ataque armado en el principal destino turístico de Colombia enciende las alarmas internacionales. El suceso pone en duda la capacidad estatal para blindar enclaves económicos clave.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "AP News",
+    "image": "img/toma-rehenes-cartagena-expone-vulnerabilidad-seguridad-h77o.jpg",
+    "photo": "img/toma-rehenes-cartagena-expone-vulnerabilidad-seguridad-h77o-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "bNYN36Zwv2g",
+      "title": "Armed men take hostages at a supermarket in Cartagena, Colombia",
+      "channel": "Associated Press"
+    },
+    "publishedAt": "2026-11-25T05:16:48.837Z",
+    "article": {
+      "slug": "toma-rehenes-cartagena-expone-vulnerabilidad-seguridad-h77o",
+      "title": "Toma de rehenes en Cartagena expone la vulnerabilidad de la seguridad colombiana",
+      "dek": "Un ataque armado en el principal destino turístico de Colombia enciende las alarmas internacionales. El suceso pone en duda la capacidad estatal para blindar enclaves económicos clave.",
+      "keyFacts": [
+        "Un grupo de hombres armados tomó rehenes en la ciudad de Cartagena, Colombia.",
+        "Cartagena es calificada por AP News como uno de los principales destinos turísticos del país.",
+        "El suceso movilizó a las fuerzas de seguridad en un perímetro de alto valor económico e internacional."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un grupo de hombres armados irrumpió en Cartagena y tomó rehenes, según confirmó la agencia AP News. El suceso desató un operativo de emergencia por parte de las fuerzas de seguridad para contener la situación y salvaguardar a las personas retenidas.",
+            "La noticia sacudió de inmediato a la opinión pública nacional e internacional, dado que Cartagena se posiciona como una de las ciudades más transitadas por visitantes extranjeros y un motor central del turismo en Colombia."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La ciudad de Cartagena ha funcionado históricamente como una burbuja turística y comercial en el Caribe colombiano. A pesar de los desafíos de seguridad que enfrentan diversas regiones del país, los principales enclaves urbanos y turísticos se mantenían bajo estrictos esquemas de protección policial.",
+            "Este incidente se produce en un momento en que el gobierno colombiano busca proyectar garantías de estabilidad y seguridad para atraer inversión extranjera y divisas a través del turismo internacional."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis de Punto Ciego revela que el enfoque mediático sobre la resolución táctica de la toma de rehenes oculta una realidad estratégica alarmante: la filtración de la violencia armada en polos de alto valor económico. La capacidad de elementos armados para coordinar acciones en zonas de alta presencia institucional demuestra fallas profundas en la inteligencia preventiva.",
+            "Asimismo, evidencia que la separación entre las dinámicas de violencia regional y la seguridad urbana en centros turísticos es cada vez más endeble, amenazando con desmantelar el relato oficial de control territorial."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "El Estado colombiano asume el costo directo de este episodio en términos de reputación internacional, riesgo país y confianza de los inversores. La industria turística y los comercios locales sufren de inmediato el impacto del deterioro en la percepción de seguridad.",
+            "Por otro lado, los grupos armados obtienen un beneficio propagandístico disproporcionado, demostrando capacidad de interrupción y desafiando el imperio de la ley en el escaparate internacional de la nación."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En las próximas horas será crucial observar las alertas de viaje emitidas por los departamentos de Estado de las principales potencias occidentales. Un cambio en las recomendaciones de viaje hacia Cartagena tendría un efecto dominó sobre las reservas y el transporte aéreo.",
+            "Igualmente, habrá que monitorear si el ejecutivo colombiano responde con un despliegue militar permanente en la zona o si revisará estructuralmente la estrategia de seguridad en las ciudades costeras."
+          ]
+        }
+      ],
+      "tags": [
+        "Cartagena",
+        "Colombia",
+        "Seguridad",
+        "Turismo",
+        "Geopolitica"
+      ],
+      "sources": [
+        {
+          "name": "AP News",
+          "title": "Armed men take hostages in Cartagena, one of Colombia’s top tourist destinations",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5"
+        }
+      ],
+      "wordCount": 407
+    },
+    "blindSpot": "Mientras la cobertura internacional enfoca el suceso como un hecho aislado de delincuencia urbana, el trasfondo expone la vulnerabilidad de la infraestructura turística crítica y el fracaso de los despliegues de seguridad territorial. La incapacidad estatal para blindar un enclave económico clave demuestra cómo la violencia organizada desborda los perímetros urbanos protegidos."
+  },
+  {
     "slug": "toma-rehenes-cartagena-pulso-seguridad-urbana-97hi",
     "path": "noticias/toma-rehenes-cartagena-pulso-seguridad-urbana-97hi/",
     "title": "La toma de rehenes en Cartagena y el pulso por la seguridad urbana en Colombia",
