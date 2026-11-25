@@ -368,6 +368,35 @@
   ],
   "processedSignatures": [
     {
+      "title": "ACTUALIZACIÓN: ESCALADA ARMADA EN COLOMBIA TRAS NUEVOS ATENTADOS CON EXPLOSIVOS",
+      "normalizedTokens": [
+        "actualizacion",
+        "escalada",
+        "armada",
+        "colombia",
+        "nuevos",
+        "atentados",
+        "explosivos"
+      ],
+      "date": "2026-11-25T11:02:28.026Z"
+    },
+    {
+      "title": "Colombia registra al menos 25 heridos por un coche bomba en medio del resurgir de la violencia armada",
+      "normalizedTokens": [
+        "colombia",
+        "registra",
+        "menos",
+        "heridos",
+        "coche",
+        "bomba",
+        "medio",
+        "resurgir",
+        "violencia",
+        "armada"
+      ],
+      "date": "2026-11-25T11:02:28.024Z"
+    },
+    {
       "title": "UCRANIA ATACA EMBARCACIONES RUSAS EN BENGASI Y DEJA DOS MUERTOS",
       "normalizedTokens": [
         "ucrania",
@@ -7446,32 +7475,6 @@
         "muertos"
       ],
       "date": "2026-11-09T06:16:44.145Z"
-    },
-    {
-      "title": "NAUFRAGIO EN SENEGAL EXPONE LA CRISIS FRONTERIZA EN CANARIAS",
-      "normalizedTokens": [
-        "naufragio",
-        "senegal",
-        "expone",
-        "crisis",
-        "fronteriza",
-        "canarias"
-      ],
-      "date": "2026-11-09T05:01:31.300Z"
-    },
-    {
-      "title": "Many killed after migrant boat sinks off Senegal",
-      "normalizedTokens": [
-        "many",
-        "killed",
-        "after",
-        "migrant",
-        "boat",
-        "sinks",
-        "off",
-        "senegal"
-      ],
-      "date": "2026-11-09T05:01:31.300Z"
     }
   ]
 }
