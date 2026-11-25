@@ -362,9 +362,38 @@
     "https://www.eltiempo.com/mundo/eeuu-y-canada/kilmar-abrego-garcia-migrante-salvadoreno-expulsado-y-devuelto-a-ee-uu-saldra-del-pais-tras-20-meses-de-batalla-legal-por-su-deportacion-erronea-3603971",
     "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
     "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss",
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5"
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzIzWjZLTEdiVXRtR0I1cEJ3MFVCUzF5ZktKdWRUQlNtMEVDTnQ4Mk5xU2tvODVlRUJFeE5KOGlieGxsYkp5c1dhZklONzRZNW1VWTR4OVM1MGFQM0cxRXBaQm93b1lhWG1qR3F0ZGV2VTRRRGxtbTRkU1VYQ2c2dEtHckpXQmJCbmpYZlNKeFVrNW8zVjBldDFEWGc1TmIzRTJTM0ozNy1yanVq?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "UCRANIA GOLPEA BUQUES RUSOS EN LA BASE LIBIA DE BENGASI",
+      "normalizedTokens": [
+        "ucrania",
+        "golpea",
+        "buques",
+        "rusos",
+        "base",
+        "libia",
+        "bengasi"
+      ],
+      "date": "2026-11-25T06:02:09.643Z"
+    },
+    {
+      "title": "Ukraine says attack on Russian ships in Libya was self-defence",
+      "normalizedTokens": [
+        "ukraine",
+        "says",
+        "attack",
+        "russian",
+        "ships",
+        "libya",
+        "was",
+        "self",
+        "defence"
+      ],
+      "date": "2026-11-25T06:02:09.640Z"
+    },
     {
       "title": "HOMBRES ARMADOS TOMAN REHENES EN CARTAGENA COLOMBIA",
       "normalizedTokens": [
@@ -7439,31 +7468,6 @@
         "progress"
       ],
       "date": "2026-11-08T21:40:48.767Z"
-    },
-    {
-      "title": "COLISIÓN FERROVIARIA EN EGIPTO EXPONE LA OBSOLESCENCIA DE SU RED",
-      "normalizedTokens": [
-        "colision",
-        "ferroviaria",
-        "egipto",
-        "expone",
-        "obsolescencia",
-        "red"
-      ],
-      "date": "2026-11-08T20:13:08.131Z"
-    },
-    {
-      "title": "Siete muertos y 112 heridos en accidente de trenes en Egipto",
-      "normalizedTokens": [
-        "siete",
-        "muertos",
-        "112",
-        "heridos",
-        "accidente",
-        "trenes",
-        "egipto"
-      ],
-      "date": "2026-11-08T20:13:08.129Z"
     }
   ]
 }

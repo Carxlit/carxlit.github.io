@@ -1803,5 +1803,15 @@
     "relevant": true,
     "reason": "La imagen muestra a la policía y fuerzas armadas desplegadas en una calle colombiana, lo cual ilustra adecuadamente una situación de toma de rehenes e intervención de seguridad.",
     "at": "2026-11-25T05:16:46.588Z"
+  },
+  "c0cb7920f24171fa:4fdsn21eq": {
+    "relevant": false,
+    "reason": "La imagen muestra un buque de guerra ruso dañado en Novorossiysk, Rusia (tras un ataque en 2023), no en Libia.",
+    "at": "2026-11-25T06:02:03.130Z"
+  },
+  "26fc059edcfd11e4:4fdsn21eq": {
+    "relevant": false,
+    "reason": "La imagen muestra la portada de un libro de autoayuda ficticio sobre batallas internas, sin relación con el conflicto entre Ucrania y Rusia en Libia.",
+    "at": "2026-11-25T06:02:07.950Z"
   }
 }
