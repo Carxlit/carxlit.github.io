@@ -357,9 +357,39 @@
     "https://www.xataka.com.mx/medicina-y-salud/angela-isla-entrenadora-personal-subir-escaleras-quedar-agotado-no-significa-que-estes-ganando-fuerza",
     "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus",
     "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios",
-    "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta"
+    "https://es.wired.com/galerias/los-mejores-audifonos-abiertos-para-mantenerte-alerta",
+    "https://es.euronews.com/video/2026/11/24/colombia-registra-al-menos-25-heridos-en-coche-bomba-en-medio-del-resurgir-de-la-violencia"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: ESCALADA ARMADA EN COLOMBIA TRAS NUEVOS ATENTADOS CON EXPLOSIVOS",
+      "normalizedTokens": [
+        "actualizacion",
+        "escalada",
+        "armada",
+        "colombia",
+        "nuevos",
+        "atentados",
+        "explosivos"
+      ],
+      "date": "2026-11-25T01:02:27.194Z"
+    },
+    {
+      "title": "Colombia registra al menos 25 heridos por un coche bomba en medio del resurgir de la violencia armada",
+      "normalizedTokens": [
+        "colombia",
+        "registra",
+        "menos",
+        "heridos",
+        "coche",
+        "bomba",
+        "medio",
+        "resurgir",
+        "violencia",
+        "armada"
+      ],
+      "date": "2026-11-25T01:02:27.192Z"
+    },
     {
       "title": "MERCADO DE AUDIO ABIERTO REDEFINIRÁ ESTRATEGIA DE DISPOSITIVOS PORTÁTILES",
       "normalizedTokens": [
@@ -7425,32 +7455,6 @@
         "trial"
       ],
       "date": "2026-11-08T14:28:59.431Z"
-    },
-    {
-      "title": "ESPAÑA AFRONTA RETOS ESTRUCTURALES TRAS LAS ELECCIONES DEL 29N",
-      "normalizedTokens": [
-        "espana",
-        "afronta",
-        "retos",
-        "estructurales",
-        "elecciones",
-        "29n"
-      ],
-      "date": "2026-11-08T13:36:04.257Z"
-    },
-    {
-      "title": "Los deberes económicos tras el 29-N: vivienda, infraestructuras, Presupuestos y  pensiones, entre los más urgentes",
-      "normalizedTokens": [
-        "deberes",
-        "economicos",
-        "vivienda",
-        "infraestructuras",
-        "presupuestos",
-        "pensiones",
-        "mas",
-        "urgentes"
-      ],
-      "date": "2026-11-08T13:36:04.256Z"
     }
   ]
 }
