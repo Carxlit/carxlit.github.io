@@ -369,6 +369,33 @@
   ],
   "processedSignatures": [
     {
+      "title": "TRIBUNAL DE ESTADOS UNIDOS CONDENA A HUAWEI POR ESPIONAJE Y FRAUDE",
+      "normalizedTokens": [
+        "tribunal",
+        "estados",
+        "unidos",
+        "condena",
+        "huawei",
+        "espionaje",
+        "fraude"
+      ],
+      "date": "2026-11-25T13:40:27.895Z"
+    },
+    {
+      "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+      "normalizedTokens": [
+        "jury",
+        "convicts",
+        "huawei",
+        "violating",
+        "sanctions",
+        "stealing",
+        "trade",
+        "secrets"
+      ],
+      "date": "2026-11-25T13:40:27.892Z"
+    },
+    {
       "title": "LA CIA Y EL FBI SUFREN CIBERATAQUE EN SUS SISTEMAS NO CLASIFICADOS",
       "normalizedTokens": [
         "cia",
@@ -7448,30 +7475,6 @@
         "say"
       ],
       "date": "2026-11-09T08:16:59.919Z"
-    },
-    {
-      "title": "MUERE SUSPECTO DE ATAQUE EN CRACOVIA SIN ACLARAR MÓVIL",
-      "normalizedTokens": [
-        "muere",
-        "suspecto",
-        "ataque",
-        "cracovia",
-        "aclarar",
-        "movil"
-      ],
-      "date": "2026-11-09T08:01:24.981Z"
-    },
-    {
-      "title": "Muere el autor del atentado de Cracovia sin aclararse el móvil",
-      "normalizedTokens": [
-        "muere",
-        "autor",
-        "atentado",
-        "cracovia",
-        "aclararse",
-        "movil"
-      ],
-      "date": "2026-11-09T08:01:24.980Z"
     }
   ]
 }
