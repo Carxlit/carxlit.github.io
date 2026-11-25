@@ -1823,5 +1823,20 @@
     "relevant": true,
     "reason": "Muestra el edificio de la sede de la CIA en Langley, una de las instituciones centrales mencionadas en el ciberataque.",
     "at": "2026-11-25T12:51:55.237Z"
+  },
+  "f728b580516c0077:2hy46q8hk": {
+    "relevant": false,
+    "reason": "La imagen muestra una fábrica de ensamblaje general (posiblemente electrónica o autopartes civiles) y no la producción específica de drones de combate para uso militar.",
+    "at": "2026-11-25T23:07:41.519Z"
+  },
+  "61cfc0ddd04370c5:2hy46q8hk": {
+    "relevant": false,
+    "reason": "la imagen muestra vehículos eléctricos chinos (como el Xpeng G6), no drones de combate japoneses ni industria militar.",
+    "at": "2026-11-25T23:07:47.956Z"
+  },
+  "158874233cf767ea:2hy46q8hk": {
+    "relevant": false,
+    "reason": "La imagen muestra el ensamblaje tradicional de un automóvil civil y no ilustra la reconversión hacia la producción de drones militares.",
+    "at": "2026-11-25T23:08:01.718Z"
   }
 }

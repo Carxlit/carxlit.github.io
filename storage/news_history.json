@@ -365,9 +365,40 @@
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmQxNjdHUmVZb1FUd2lQTGtMMTV2dGRQVndXR3hUbnhTUXZVb0E2azFEeENEclY3dXp1MlJrX3pEZ2pmSGdWQUNBSE9yM2hJQVE2VUNXdXZMOUJuWDlzRFpQc3ZldDNjTzVnSlVZZUJ5YXRnOVR2RUtxM2R2TldWUmJuZmRielBJV21od3BQOVBpZU9jRmVud1RnQ0M4NTd3?oc=5",
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzIzWjZLTEdiVXRtR0I1cEJ3MFVCUzF5ZktKdWRUQlNtMEVDTnQ4Mk5xU2tvODVlRUJFeE5KOGlieGxsYkp5c1dhZklONzRZNW1VWTR4OVM1MGFQM0cxRXBaQm93b1lhWG1qR3F0ZGV2VTRRRGxtbTRkU1VYQ2c2dEtHckpXQmJCbmpYZlNKeFVrNW8zVjBldDFEWGc1TmIzRTJTM0ozNy1yanVq?oc=5",
     "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
-    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5"
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5",
+    "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra"
   ],
   "processedSignatures": [
+    {
+      "title": "EL GIRO BÉLICO DE LA INDUSTRIA AUTOMOTRIZ JAPONESA",
+      "normalizedTokens": [
+        "giro",
+        "belico",
+        "industria",
+        "automotriz",
+        "japonesa"
+      ],
+      "date": "2026-11-25T23:08:04.851Z"
+    },
+    {
+      "title": "Los autos eléctricos chinos golpearon tan fuerte a Japón que sus fábricas de autopartes ahora hacen drones de guerra",
+      "normalizedTokens": [
+        "autos",
+        "electricos",
+        "chinos",
+        "golpearon",
+        "tan",
+        "fuerte",
+        "japon",
+        "fabricas",
+        "autopartes",
+        "ahora",
+        "hacen",
+        "drones",
+        "guerra"
+      ],
+      "date": "2026-11-25T23:08:04.849Z"
+    },
     {
       "title": "TRIBUNAL DE ESTADOS UNIDOS CONDENA A HUAWEI POR ESPIONAJE Y FRAUDE",
       "normalizedTokens": [
@@ -7441,40 +7472,6 @@
         "fintech"
       ],
       "date": "2026-11-09T11:02:02.741Z"
-    },
-    {
-      "title": "ATACANTE DE ULTRA DERECHA MATA A SEIS EN CRACOVIA Y MUERE",
-      "normalizedTokens": [
-        "atacante",
-        "ultra",
-        "derecha",
-        "mata",
-        "seis",
-        "cracovia",
-        "muere"
-      ],
-      "date": "2026-11-09T08:16:59.920Z"
-    },
-    {
-      "title": "Gunman with far-right views who killed 6 people in a Polish city square dies in hospital, police say",
-      "normalizedTokens": [
-        "gunman",
-        "with",
-        "far",
-        "right",
-        "views",
-        "who",
-        "killed",
-        "people",
-        "polish",
-        "city",
-        "square",
-        "dies",
-        "hospital",
-        "police",
-        "say"
-      ],
-      "date": "2026-11-09T08:16:59.919Z"
     }
   ]
 }

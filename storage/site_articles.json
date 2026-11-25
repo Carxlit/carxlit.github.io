@@ -1,5 +1,77 @@
 [
   {
+    "slug": "reconversion-forzada-cuando-autopartes-japonesas-vuelven-tj0d",
+    "path": "noticias/reconversion-forzada-cuando-autopartes-japonesas-vuelven-tj0d/",
+    "title": "La reconversión forzada: cuando las autopartes japonesas se vuelven armas",
+    "headline": "EL GIRO BÉLICO DE LA INDUSTRIA AUTOMOTRIZ JAPONESA",
+    "dek": "La crisis de competitividad frente a los autos eléctricos chinos ha empujado a la industria nipona hacia la producción bélica. El gobierno de Takaichi utiliza el rearme para rescatar un sector automotriz en declive.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Xataka México",
+    "image": "img/reconversion-forzada-cuando-autopartes-japonesas-vuelven-tj0d.jpg",
+    "publishedAt": "2026-11-25T23:08:04.693Z",
+    "article": {
+      "slug": "reconversion-forzada-cuando-autopartes-japonesas-vuelven-tj0d",
+      "title": "La reconversión forzada: cuando las autopartes japonesas se vuelven armas",
+      "dek": "La crisis de competitividad frente a los autos eléctricos chinos ha empujado a la industria nipona hacia la producción bélica. El gobierno de Takaichi utiliza el rearme para rescatar un sector automotriz en declive.",
+      "keyFacts": [
+        "La producción automotriz en Japón cayó en 900,000 unidades en 2025 comparado con hace una década.",
+        "Japón cuenta con un ecosistema de 70,000 empresas automotrices que emplean al 10% de la fuerza laboral.",
+        "Kyowa Industrial incrementó su división de defensa del 3% al 10% de sus ventas en 2025.",
+        "Japón exportó solo 1,100 drones el año pasado, frente a las 123,000 unidades de Taiwán."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "La planta de Aster en Yokote es el símbolo de una transformación profunda. Sus líneas, antes dedicadas a componentes para vehículos híbridos, ahora ensamblan drones de combate para la firma estadounidense Anduril. Según reportes, la guerra ya representa el 10% de la facturación de esta planta en un periodo de apenas doce meses.",
+            "Este giro no es un caso aislado. Ante la presión de los vehículos eléctricos chinos, que han erosionado la cuota de mercado japonesa, el gobierno de la primera ministra Sanae Takaichi ha implementado una estrategia de supervivencia que conecta a los proveedores automotrices en apuros con las necesidades de los contratistas de defensa occidentales."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Japón sigue siendo el tercer mayor fabricante de automóviles del mundo, pero su maquinaria, otrora intocable, muestra signos de fatiga. Con una red de 70,000 empresas, el colapso del sector automotriz no es solo un problema empresarial, sino una crisis de estabilidad nacional. Según Pontus Haggstrom, exjefe de Stellantis Japan, la capacidad instalada para fabricar componentes electrónicos de precisión permite una transición natural hacia la producción de armamento.",
+            "La Agencia de Adquisiciones, Tecnología y Logística (ATLA) ha asumido el rol de facilitador. En octubre, la agencia destinó millones de dólares a prototipos, mientras organiza encuentros entre talleres locales y compradores extranjeros para llenar el vacío de suministros que enfrentan las potencias occidentales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Lo que la narrativa oficial omite es la naturaleza estratégica de este rescate. Al integrar a los proveedores automotrices en la cadena de suministro militar, Tokio está ejecutando el mayor rearme del país desde la Segunda Guerra Mundial sin un debate público sobre el cambio de su postura pacifista. Se trata de una externalización de capacidades donde la industria civil se convierte en un activo militar de doble uso, permitiendo a Japón esquivar la dependencia de China mientras se afianza como socio clave de EE. UU."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Los grandes ganadores son las PYMES que logran reconvertir su producción, como Kyowa Industrial o Ishikawa Energy Research, que ahora utilizan componentes de la cadena de suministro de Subaru para fabricar drones. Por otro lado, los gigantes automotrices como Toyota y Honda mantienen una postura cautelosa, evitando comprometerse abiertamente para no arriesgar sus operaciones en el mercado chino, dejando que la carga del rearme recaiga sobre los proveedores de menor escala."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario observar si la brecha tecnológica en drones, donde Japón exportó apenas 1,100 unidades frente a las 123,000 de Taiwán, se cierra realmente. Asimismo, la respuesta de Beijing ante la militarización de la cadena de suministro automotriz nipona podría derivar en nuevas tensiones comerciales o represalias contra las marcas japonesas que operan en territorio chino."
+          ]
+        }
+      ],
+      "tags": [
+        "Geopolítica",
+        "Defensa",
+        "Japón",
+        "Industria",
+        "Drones"
+      ],
+      "sources": [
+        {
+          "name": "Xataka México",
+          "title": "Los autos eléctricos chinos golpearon tan fuerte a Japón que sus fábricas de autopartes ahora hacen drones de guerra",
+          "url": "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra"
+        }
+      ],
+      "wordCount": 466
+    },
+    "blindSpot": "El Estado japonés está utilizando la crisis de competitividad de su sector automotriz para ejecutar un rearme masivo encubierto. Al integrar a PYMES automotrices en la cadena de suministro militar, Tokio no solo evita la quiebra industrial, sino que externaliza su dependencia tecnológica hacia los contratistas de defensa estadounidenses, borrando la línea entre comercio civil y producción bélica."
+  },
+  {
     "slug": "infiltracion-cia-fbi-expone-vulnerabilidades-material-g764",
     "path": "noticias/infiltracion-cia-fbi-expone-vulnerabilidades-material-g764/",
     "title": "Infiltración en la CIA y el FBI expone las vulnerabilidades del material no clasificado",
