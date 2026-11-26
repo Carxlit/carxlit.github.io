@@ -366,9 +366,38 @@
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzIzWjZLTEdiVXRtR0I1cEJ3MFVCUzF5ZktKdWRUQlNtMEVDTnQ4Mk5xU2tvODVlRUJFeE5KOGlieGxsYkp5c1dhZklONzRZNW1VWTR4OVM1MGFQM0cxRXBaQm93b1lhWG1qR3F0ZGV2VTRRRGxtbTRkU1VYQ2c2dEtHckpXQmJCbmpYZlNKeFVrNW8zVjBldDFEWGc1TmIzRTJTM0ozNy1yanVq?oc=5",
     "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5",
-    "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra"
+    "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra",
+    "https://es.wired.com/articulos/whatsapp-estrena-funcion-para-programar-mensajes-asi-puedes-utilizarla"
   ],
   "processedSignatures": [
+    {
+      "title": "WHATSAPP INTEGRA MENSAJES PROGRAMADOS PARA SUS DOS MIL MILLONES DE USUARIOS",
+      "normalizedTokens": [
+        "whatsapp",
+        "integra",
+        "mensajes",
+        "programados",
+        "dos",
+        "mil",
+        "millones",
+        "usuarios"
+      ],
+      "date": "2026-11-26T00:11:53.279Z"
+    },
+    {
+      "title": "WhatsApp estrena función para programar mensajes: así puedes utilizarla",
+      "normalizedTokens": [
+        "whatsapp",
+        "estrena",
+        "funcion",
+        "programar",
+        "mensajes",
+        "asi",
+        "puedes",
+        "utilizarla"
+      ],
+      "date": "2026-11-26T00:11:53.270Z"
+    },
     {
       "title": "EL GIRO BÉLICO DE LA INDUSTRIA AUTOMOTRIZ JAPONESA",
       "normalizedTokens": [
@@ -7442,36 +7471,6 @@
         "global"
       ],
       "date": "2026-11-09T11:27:26.373Z"
-    },
-    {
-      "title": "DISOLUCIÓN DE UENO BANK DERRIBA AL GOBIERNO EN PARAGUAY",
-      "normalizedTokens": [
-        "disolucion",
-        "ueno",
-        "bank",
-        "derriba",
-        "gobierno",
-        "paraguay"
-      ],
-      "date": "2026-11-09T11:02:02.743Z"
-    },
-    {
-      "title": "Qué pasó con Ueno, el banco digital cuya caída derivó en una crisis política y dudas sobre la seguridad de las fintech",
-      "normalizedTokens": [
-        "paso",
-        "ueno",
-        "banco",
-        "digital",
-        "cuya",
-        "caida",
-        "derivo",
-        "crisis",
-        "politica",
-        "dudas",
-        "seguridad",
-        "fintech"
-      ],
-      "date": "2026-11-09T11:02:02.741Z"
     }
   ]
 }

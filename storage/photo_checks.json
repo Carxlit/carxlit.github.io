@@ -1838,5 +1838,10 @@
     "relevant": false,
     "reason": "La imagen muestra el ensamblaje tradicional de un automóvil civil y no ilustra la reconversión hacia la producción de drones militares.",
     "at": "2026-11-25T23:08:01.718Z"
+  },
+  "a1ec4a785722c54a:bmep71e3s": {
+    "relevant": true,
+    "reason": "La imagen muestra una interfaz de WhatsApp con la nueva función de Mensajes programados, ilustrando directamente la noticia.",
+    "at": "2026-11-26T00:11:49.082Z"
   }
 }
