@@ -369,9 +369,37 @@
     "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra",
     "https://es.wired.com/articulos/whatsapp-estrena-funcion-para-programar-mensajes-asi-puedes-utilizarla",
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU9jb2V4S2tRRGFFcU1vNU5WZEp1UGV4VnZ0MmFyMnYwZk5odkFrbnc0RmQ4V1JxRnRZcno2alJwbEU1dTJONEhNWDY5UXdPQ2pRV25WYUxidXl5eE43VEIwQjZ2Nk15QTVmYnF2eno0YXBaczhJbEZTVG1rMmhIdzVKOS1zdkdXbmZKVUVlQk5xWUtTSGFEdXhEVV9SVmtEdFNzV3RrbVhRek9KX1VPUWJfdGFBMFl3RWFtRzB6V2E3M2pmX3JGU0JBb1VyZUFPVURhZ2RjV2NTSHZybFY2aw?oc=5",
-    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5"
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXc3TWxWWEtPUkphaXN0TC1LUjQxcWlyU1lIcU1sS2NBaHFHNC15TC1rSnlVZDNfa3ItZTNaYTY3N3UwcDgtSnhlNzBXeUw5OGoxanhsVWtMQkxubmpFXzNVRWd1NGJmd3gxUU1aVUNpRXREM2xHQTlGUVJLbGdBTVZadXJqZC1t?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "COMBATES EN CONGO FORZAN EVACUACIÓN DE MÉDICOS CONTRA EL ÉBOLA",
+      "normalizedTokens": [
+        "combates",
+        "congo",
+        "forzan",
+        "evacuacion",
+        "medicos",
+        "ebola"
+      ],
+      "date": "2026-11-26T03:03:50.825Z"
+    },
+    {
+      "title": "Combates en el Congo obligan a trabajadores médicos que luchan contra brote de ébola a evacuar",
+      "normalizedTokens": [
+        "combates",
+        "congo",
+        "obligan",
+        "trabajadores",
+        "medicos",
+        "luchan",
+        "brote",
+        "ebola",
+        "evacuar"
+      ],
+      "date": "2026-11-26T03:03:50.816Z"
+    },
     {
       "title": "OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA",
       "normalizedTokens": [
@@ -7449,33 +7477,6 @@
         "huang"
       ],
       "date": "2026-11-09T12:28:37.932Z"
-    },
-    {
-      "title": "BILL GATES ADVIERTE DOS DÉCADAS DE AGITACIÓN SOCIAL POR LA IA",
-      "normalizedTokens": [
-        "bill",
-        "gates",
-        "advierte",
-        "dos",
-        "decadas",
-        "agitacion",
-        "social"
-      ],
-      "date": "2026-11-09T11:46:36.938Z"
-    },
-    {
-      "title": "Bill Gates advierte sobre la agitación económico-social durante 20 años debido a la IA",
-      "normalizedTokens": [
-        "bill",
-        "gates",
-        "advierte",
-        "agitacion",
-        "economico",
-        "social",
-        "anos",
-        "debido"
-      ],
-      "date": "2026-11-09T11:46:36.937Z"
     }
   ]
 }
