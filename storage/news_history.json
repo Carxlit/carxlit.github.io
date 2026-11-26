@@ -373,9 +373,38 @@
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXc3TWxWWEtPUkphaXN0TC1LUjQxcWlyU1lIcU1sS2NBaHFHNC15TC1rSnlVZDNfa3ItZTNaYTY3N3UwcDgtSnhlNzBXeUw5OGoxanhsVWtMQkxubmpFXzNVRWd1NGJmd3gxUU1aVUNpRXREM2xHQTlGUVJLbGdBTVZadXJqZC1t?oc=5",
     "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html",
     "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.france24.com/es/video/20261126-colombia-rescatan-a-rehenes-tras-16-horas-de-secuestro-en-supermercado-en-cartagena"
+    "https://www.france24.com/es/video/20261126-colombia-rescatan-a-rehenes-tras-16-horas-de-secuestro-en-supermercado-en-cartagena",
+    "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "TRAGEDIA VIAL EN EL CAIRO EXPONE INFRAESTRUCTURA VULNERABLE",
+      "normalizedTokens": [
+        "tragedia",
+        "vial",
+        "cairo",
+        "expone",
+        "infraestructura",
+        "vulnerable"
+      ],
+      "date": "2026-11-26T05:46:19.301Z"
+    },
+    {
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "normalizedTokens": [
+        "thirty",
+        "one",
+        "killed",
+        "massive",
+        "fire",
+        "fuel",
+        "tanker",
+        "crashes",
+        "cairo",
+        "highway"
+      ],
+      "date": "2026-11-26T05:46:19.300Z"
+    },
     {
       "title": "ACTUALIZACIÓN: RESCATE EXITOSO TRAS 16 HORAS EN CARTAGENA",
       "normalizedTokens": [
@@ -7446,35 +7475,6 @@
         "mundo"
       ],
       "date": "2026-11-09T17:11:17.211Z"
-    },
-    {
-      "title": "CHOQUE DE TRENES EN EGIPTO DEJA SIETE MUERTOS Y 125 HERIDOS",
-      "normalizedTokens": [
-        "choque",
-        "trenes",
-        "egipto",
-        "deja",
-        "siete",
-        "muertos",
-        "125",
-        "heridos"
-      ],
-      "date": "2026-11-09T15:27:50.230Z"
-    },
-    {
-      "title": "Egypt: Seven dead, 125 injured in collision between two trains",
-      "normalizedTokens": [
-        "egypt",
-        "seven",
-        "dead",
-        "125",
-        "injured",
-        "collision",
-        "between",
-        "two",
-        "trains"
-      ],
-      "date": "2026-11-09T15:27:50.228Z"
     }
   ]
 }

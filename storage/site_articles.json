@@ -1,5 +1,93 @@
 [
   {
+    "slug": "tragedia-vial-cairo-infraestructura-precaria-cables-iuwd",
+    "path": "noticias/tragedia-vial-cairo-infraestructura-precaria-cables-iuwd/",
+    "title": "Tragedia vial en El Cairo: infraestructura precaria y cables de alta tensión detrás de 31 muertes",
+    "headline": "TRAGEDIA VIAL EN EL CAIRO EXPONE INFRAESTRUCTURA VULNERABLE",
+    "dek": "Un accidente de cisterna en la circunvalación de la capital egipcia desató un incendio masivo. Las autoridades investigan el impacto de la red eléctrica sobre el tráfico.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "BBC News",
+    "image": "img/tragedia-vial-cairo-infraestructura-precaria-cables-iuwd.jpg",
+    "photo": "img/tragedia-vial-cairo-infraestructura-precaria-cables-iuwd-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "iGd_BVSfeQE",
+      "title": "Fuel Tanker Fire Kills 31 on Cairo Ring Road",
+      "channel": "Daily News Explained",
+      "license": "cc-by"
+    },
+    "publishedAt": "2026-11-26T05:46:19.182Z",
+    "article": {
+      "slug": "tragedia-vial-cairo-infraestructura-precaria-cables-iuwd",
+      "title": "Tragedia vial en El Cairo: infraestructura precaria y cables de alta tensión detrás de 31 muertes",
+      "dek": "Un accidente de cisterna en la circunvalación de la capital egipcia desató un incendio masivo. Las autoridades investigan el impacto de la red eléctrica sobre el tráfico.",
+      "keyFacts": [
+        "31 personas murieron y 21 resultaron heridas en el incendio.",
+        "El incidente ocurrió en una sección de la carretera de circunvalación en el barrio de Warraq, al norte de El Cairo.",
+        "El camión pertenecía a un contratista privado y transportaba combustible.",
+        "Fuentes de Al-Ahram señalaron que un cable de alta tensión cayó frente al vehículo, provocando que el conductor perdiera el control.",
+        "Casi 6.000 personas murieron en las carreteras de Egipto el año pasado, según cifras oficiales."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un incendio masivo en una transitada autopista de El Cairo dejó al menos 31 muertos y 21 heridos, según confirmó el Ministerio de Salud de Egipto. El siniestro ocurrió el miércoles por la noche en una sección de la carretera de circunvalación situada en el barrio de Warraq, al norte del centro histórico de la ciudad.",
+            "Las imágenes difundidas en redes sociales mostraron llamas de gran altura y una densa columna de humo negro que afectó a múltiples vehículos cercanos. Hospitales de la zona atendieron a pacientes con quemaduras graves y síntomas de inhalación de humo, mientras que 39 ambulancias fueron desplegadas en el lugar de los hechos."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Según reportes de medios estatales como Al-Ahram, el camión cisterna, propiedad de un contratista privado, circulaba por la vía cuando un cable de alta tensión cayó repentinamente frente a él. Esto obligó al conductor a realizar una maniobra imprevista que le hizo perder el control del vehículo.",
+            "El automotor cruzó el carril central de separación, volcó y derramó combustible sobre los automóviles circundantes, desencadenando la conflagración. La fiscalía regional inició una investigación formal y solicitó muestras de ADN para identificar los cuerpos de las víctimas fatales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "La narrativa oficial tiende a achacar estos incidentes de manera exclusiva a la falta de mantenimiento vehicular y al incumplimiento generalizado de las normas de tráfico. Sin embargo, el trasfondo técnico apunta a una deficiencia estructural más profunda: la vulnerabilidad de las redes de servicios públicos en los corredores viales urbanos.",
+            "La coexistencia de un tráfico denso y caótico con tendidos eléctricos expuestos o deteriorados en zonas densamente pobladas genera un riesgo sistémico que rara vez es abordado en los planes integrales de desarrollo urbano de la capital egipcia."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este escenario, los sectores vulnerables y los usuarios cotidianos de las redes de transporte público y privado asumen el costo humano y material de una infraestructura deficiente. Las familias de las víctimas y los heridos cargan con las consecuencias directas de la precariedad.",
+            "Por otro lado, las instituciones estatales y los contratistas involucrados enfrentan cuestionamientos sobre los estándares de seguridad vial y el control de riesgos en las vías públicas, en un contexto donde las estadísticas de siniestralidad muestran un incremento sostenido."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es necesario seguir de cerca los resultados de la investigación de la fiscalía regional y las posibles medidas de supervisión sobre los tendidos eléctricos urbanos. Asimismo, la evolución de los datos de seguridad vial en Egipto será un indicador clave para medir la efectividad de las políticas de prevención de accidentes."
+          ]
+        }
+      ],
+      "tags": [
+        "Egipto",
+        "Infraestructura",
+        "Seguridad Vial",
+        "El Cairo",
+        "Geopolítica Urbana"
+      ],
+      "sources": [
+        {
+          "name": "BBC News",
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Demócrata",
+          "title": "Expansion | At least 31 dead and more than 20 injured in the fire of a tanker truck near Cairo",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN1VfQjRSME5BT19hbExvV3B0QklVa2FvZXIyQzZBWDFJUm9CX2Z2OEFCWks0Q3pVbjY4S2tvWXozX1ExT25kOGhnSXdZSkJFU2tMVTZTclNNNUV6VDRXZ1luNmZDVlhIWlEyZUwxX0RzTmxkUXdDbU9TNkdMbWxMMDNmQnFSRTFqMHpHWmNpSkVCVEcyNEtUXzY3eTNMVUZsRHAxM0JoSEJYSVpIM1B3d09DODVSQ1E2WDcxa2RTa1NxSmtEMGw5Q1NlRW5IaDRG0gHWAUFVX3lxTE9DZ19BdjVMY2ZINjloYVBKWWRwRVRoNEVIWVkzNkh3bHdCR0pUQkdBQmZCZ09rNFAtTTlMSzh3aGdSQWQzMmZrazZVSWMwZEpkYzNJUnFjUUtFdFR0ejYyNlhrbHFEOE1tZDNMMzZaQWZTSmUtZ3J2d0hLOW82UnhObDY3NHk4ZVpaLXQ1c3k3cUN5Q0o1UlVhRU5lNHZ2TE1lMEs4T09Zd09jYW5jbVk5TXV3ejZUMVFUbnZyNUxjQ0lYSG0zbUZMSEdqLVJPVjdxUWhzTUE?oc=5"
+        }
+      ],
+      "wordCount": 444
+    },
+    "blindSpot": "Mientras la narrativa oficial se concentra en la negligencia vial individual y las cifras de mortalidad, el verdadero trasfondo radica en la obsolescencia de la red eléctrica urbana y la falta de inversión estatal en infraestructura básica de transporte en zonas densamente pobladas."
+  },
+  {
     "slug": "desenlace-secuestro-cartagena-fragilidad-seguridad-urbana-e8fv",
     "path": "noticias/desenlace-secuestro-cartagena-fragilidad-seguridad-urbana-e8fv/",
     "title": "El desenlace del secuestro en Cartagena y la fragilidad de la seguridad urbana",
