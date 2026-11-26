@@ -367,9 +367,44 @@
     "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5",
     "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra",
-    "https://es.wired.com/articulos/whatsapp-estrena-funcion-para-programar-mensajes-asi-puedes-utilizarla"
+    "https://es.wired.com/articulos/whatsapp-estrena-funcion-para-programar-mensajes-asi-puedes-utilizarla",
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU9jb2V4S2tRRGFFcU1vNU5WZEp1UGV4VnZ0MmFyMnYwZk5odkFrbnc0RmQ4V1JxRnRZcno2alJwbEU1dTJONEhNWDY5UXdPQ2pRV25WYUxidXl5eE43VEIwQjZ2Nk15QTVmYnF2eno0YXBaczhJbEZTVG1rMmhIdzVKOS1zdkdXbmZKVUVlQk5xWUtTSGFEdXhEVV9SVmtEdFNzV3RrbVhRek9KX1VPUWJfdGFBMFl3RWFtRzB6V2E3M2pmX3JGU0JBb1VyZUFPVURhZ2RjV2NTSHZybFY2aw?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "BANCO CENTRAL DE VENEZUELA Y ASEGURADORAS INSTALAN MESAS TÉCNICAS",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "venezuela",
+        "aseguradoras",
+        "instalan",
+        "mesas",
+        "tecnicas"
+      ],
+      "date": "2026-11-26T01:10:47.551Z"
+    },
+    {
+      "title": "Banco Central de Venezuela sostuvo reunión de trabajo con el sector asegurador del país | #EUVzla | #ElUniversal https://tinyurl.com/59bbz4ra",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "venezuela",
+        "sostuvo",
+        "reunion",
+        "trabajo",
+        "sector",
+        "asegurador",
+        "pais",
+        "euvzla",
+        "eluniversal",
+        "https",
+        "tinyurl",
+        "com",
+        "59bbz4ra"
+      ],
+      "date": "2026-11-26T01:10:47.544Z"
+    },
     {
       "title": "WHATSAPP INTEGRA MENSAJES PROGRAMADOS PARA SUS DOS MIL MILLONES DE USUARIOS",
       "normalizedTokens": [
@@ -7440,37 +7475,6 @@
         "madrid"
       ],
       "date": "2026-11-09T11:31:46.987Z"
-    },
-    {
-      "title": "EXIGEN DECLARAR EMERGENCIA SANITARIA GLOBAL POR CAMBIO CLIMÁTICO",
-      "normalizedTokens": [
-        "exigen",
-        "declarar",
-        "emergencia",
-        "sanitaria",
-        "global",
-        "cambio",
-        "climatico"
-      ],
-      "date": "2026-11-09T11:27:26.374Z"
-    },
-    {
-      "title": "“Es necesario declarar un estado de emergencia sanitaria mundial”: los científicos son testigos de un punto de inflexión en el calentamiento global",
-      "normalizedTokens": [
-        "necesario",
-        "declarar",
-        "estado",
-        "emergencia",
-        "sanitaria",
-        "mundial",
-        "cientificos",
-        "testigos",
-        "punto",
-        "inflexion",
-        "calentamiento",
-        "global"
-      ],
-      "date": "2026-11-09T11:27:26.373Z"
     }
   ]
 }
