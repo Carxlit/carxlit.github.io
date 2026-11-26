@@ -379,6 +379,36 @@
   ],
   "processedSignatures": [
     {
+      "title": "CHIPS DE INTELIGENCIA ARTIFICIAL DE NVIDIA LLEGAN A FIRMAS CHINAS",
+      "normalizedTokens": [
+        "chips",
+        "inteligencia",
+        "artificial",
+        "nvidia",
+        "llegan",
+        "firmas",
+        "chinas"
+      ],
+      "date": "2026-11-26T14:24:27.341Z"
+    },
+    {
+      "title": "Nvidia vendió chips de inteligencia artificial a dos empresas de California controladas por firmas chinas",
+      "normalizedTokens": [
+        "nvidia",
+        "vendio",
+        "chips",
+        "inteligencia",
+        "artificial",
+        "dos",
+        "empresas",
+        "california",
+        "controladas",
+        "firmas",
+        "chinas"
+      ],
+      "date": "2026-11-26T14:24:27.340Z"
+    },
+    {
       "title": "COMBATES EN CONGO FORZAN EVACUACIÓN DE MÉDICOS CONTRA EL ÉBOLA",
       "normalizedTokens": [
         "combates",
@@ -7448,35 +7478,6 @@
         "province"
       ],
       "date": "2026-11-10T05:01:39.338Z"
-    },
-    {
-      "title": "FRANCIA SEÑALA A IRÁN POR SABOTAJE DIGITAL A FRIGORÍFICOS",
-      "normalizedTokens": [
-        "francia",
-        "senala",
-        "iran",
-        "sabotaje",
-        "digital",
-        "frigorificos"
-      ],
-      "date": "2026-11-09T20:56:03.235Z"
-    },
-    {
-      "title": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
-      "normalizedTokens": [
-        "ciberataques",
-        "frigorificos",
-        "supermercados",
-        "europeos",
-        "dieron",
-        "vuelta",
-        "mundo",
-        "francia",
-        "acaba",
-        "senalar",
-        "responsable"
-      ],
-      "date": "2026-11-09T20:56:03.234Z"
     }
   ]
 }
