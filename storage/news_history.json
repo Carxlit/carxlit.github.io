@@ -368,9 +368,38 @@
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcmxTQmJLMWd5Y3IycEZIMDdrYVI1cExVelhqeHl4M0M2UVphV1c2Qi0tNzVlVHZjZHVxLVpYeWc4OWg0YldqcmR3dGhRWU5HOTFkRFpJcWZqQ2JJd19mLUwzTEFRWGpUeHBCSGhCNHREZXpiOXgteFpsa19CVEdrQkNOeWtxNUtQMmIwdlFNRm52WHhV?oc=5",
     "https://www.xataka.com.mx/automovil/autos-electricos-chinos-golpearon-fuerte-a-japon-que-sus-fabricas-autopartes-ahora-hacen-drones-guerra",
     "https://es.wired.com/articulos/whatsapp-estrena-funcion-para-programar-mensajes-asi-puedes-utilizarla",
-    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU9jb2V4S2tRRGFFcU1vNU5WZEp1UGV4VnZ0MmFyMnYwZk5odkFrbnc0RmQ4V1JxRnRZcno2alJwbEU1dTJONEhNWDY5UXdPQ2pRV25WYUxidXl5eE43VEIwQjZ2Nk15QTVmYnF2eno0YXBaczhJbEZTVG1rMmhIdzVKOS1zdkdXbmZKVUVlQk5xWUtTSGFEdXhEVV9SVmtEdFNzV3RrbVhRek9KX1VPUWJfdGFBMFl3RWFtRzB6V2E3M2pmX3JGU0JBb1VyZUFPVURhZ2RjV2NTSHZybFY2aw?oc=5"
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU9jb2V4S2tRRGFFcU1vNU5WZEp1UGV4VnZ0MmFyMnYwZk5odkFrbnc0RmQ4V1JxRnRZcno2alJwbEU1dTJONEhNWDY5UXdPQ2pRV25WYUxidXl5eE43VEIwQjZ2Nk15QTVmYnF2eno0YXBaczhJbEZTVG1rMmhIdzVKOS1zdkdXbmZKVUVlQk5xWUtTSGFEdXhEVV9SVmtEdFNzV3RrbVhRek9KX1VPUWJfdGFBMFl3RWFtRzB6V2E3M2pmX3JGU0JBb1VyZUFPVURhZ2RjV2NTSHZybFY2aw?oc=5",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA",
+      "normalizedTokens": [
+        "openai",
+        "disputa",
+        "hallazgo",
+        "matematico",
+        "desencadena",
+        "crisis",
+        "ciencia"
+      ],
+      "date": "2026-11-26T02:04:52.651Z"
+    },
+    {
+      "title": "Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+      "normalizedTokens": [
+        "inteligencia",
+        "artificial",
+        "disputa",
+        "matematicos",
+        "aviva",
+        "temor",
+        "pueda",
+        "socavar",
+        "ciencia"
+      ],
+      "date": "2026-11-26T02:04:52.648Z"
+    },
     {
       "title": "BANCO CENTRAL DE VENEZUELA Y ASEGURADORAS INSTALAN MESAS TÉCNICAS",
       "normalizedTokens": [
@@ -7447,34 +7476,6 @@
         "debido"
       ],
       "date": "2026-11-09T11:46:36.937Z"
-    },
-    {
-      "title": "EL CARDOSO PIDE SUMARSE A MADRID Y EXPONE EL FRACASO AUTONÓMICO",
-      "normalizedTokens": [
-        "cardoso",
-        "pide",
-        "sumarse",
-        "madrid",
-        "expone",
-        "fracaso",
-        "autonomico"
-      ],
-      "date": "2026-11-09T11:31:46.988Z"
-    },
-    {
-      "title": "Un pueblo de Guadalajara quiere independizarse de Castilla La Mancha y \"anexionarse\" a la Comunidad de Madrid",
-      "normalizedTokens": [
-        "pueblo",
-        "guadalajara",
-        "quiere",
-        "independizarse",
-        "castilla",
-        "mancha",
-        "anexionarse",
-        "comunidad",
-        "madrid"
-      ],
-      "date": "2026-11-09T11:31:46.987Z"
     }
   ]
 }

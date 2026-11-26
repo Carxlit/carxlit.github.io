@@ -1,5 +1,102 @@
 [
   {
+    "slug": "disputa-matematica-expone-control-ia-sobre-nu9s",
+    "path": "noticias/disputa-matematica-expone-control-ia-sobre-nu9s/",
+    "title": "La disputa matemática que expone el control de la IA sobre la ciencia",
+    "headline": "OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA",
+    "dek": "El anuncio de OpenAI sobre las ecuaciones de Navier-Stokes reabre la controversia sobre la opacidad corporativa. La comunidad académica teme que la extracción de datos en plataformas de desarrollo destruya la atribución científica.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "BBC",
+    "image": "img/disputa-matematica-expone-control-ia-sobre-nu9s.jpg",
+    "photo": "img/disputa-matematica-expone-control-ia-sobre-nu9s-foto.jpg",
+    "publishedAt": "2026-11-26T02:04:52.451Z",
+    "article": {
+      "slug": "disputa-matematica-expone-control-ia-sobre-nu9s",
+      "title": "La disputa matemática que expone el control de la IA sobre la ciencia",
+      "dek": "El anuncio de OpenAI sobre las ecuaciones de Navier-Stokes reabre la controversia sobre la opacidad corporativa. La comunidad académica teme que la extracción de datos en plataformas de desarrollo destruya la atribución científica.",
+      "keyFacts": [
+        "OpenAI anunció que sus agentes de IA resolvieron un problema de las ecuaciones de Navier-Stokes en 88 horas.",
+        "El matemático Tristan Buckmaster (Universidad de Nueva York) y Levent Alpöge (Anthropic) almacenaban sus borradores de investigación en la herramienta Codex de OpenAI.",
+        "Basecamp Research, liderada por Oliver Vince en Londres, recolecta cien mil millones de genes para entrenar modelos biológicos.",
+        "OpenAI negó que investigadores humanos o sus modelos revisaran el trabajo específico de los matemáticos antes de la publicación."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Según reportó BBC Mundo, OpenAI anunció haber resuelto un dilema matemático fundamental relacionado con las famosas ecuaciones de Navier-Stokes, afirmando que sus sistemas de inteligencia artificial completaron la hazaña en tan solo 88 horas. El anuncio fue presentado como un hito de la automatización del pensamiento complejo.",
+            "Sin embargo, la controversia estalló cuando Tristan Buckmaster, matemático de la Universidad de Nueva York, junto a Levent Alpöge, investigador de la firma Anthropic, hicieron públicas sus dudas sobre el proceso. Ambos científicos habían estado trabajando en el mismo problema y almacenaban sus borradores de código y ecuaciones en Codex, la plataforma de desarrollo operada por la propia OpenAI."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La integración de herramientas algorítmicas en la ciencia no se limita a las matemáticas puras. En una antigua fábrica en Londres, la empresa Basecamp Research, cofundada por el doctor Oliver Vince, conserva cien mil millones de genes en tubos de vidrio. Su objetivo es aplicar la arquitectura de los Grandes Modelos de Lenguaje al código genético de la naturaleza.",
+            "El uso de estas arquitecturas busca acelerar el desarrollo de materiales y medicamentos. Sin embargo, el ritmo acelerado de adopción contrasta con las falencias estructurales de la tecnología, como la tendencia de los chatbots a generar alucinaciones e inventar referencias científicas inexistentes."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El debate público suele concentrarse en escenarios distópicos de armas biológicas o descontrol algorítmico. El verdadero punto ciego expuesto por la disputa de Navier-Stokes es la erosión silenciosa de la confianza y la atribución en el proceso de revisión por pares.",
+            "Al utilizar plataformas de desarrollo propietarias, la comunidad académica entrega involuntariamente la telemetría de su pensamiento crítico. La imposibilidad de auditar las bases de datos de entrenamiento de las corporaciones tecnológicas impide verificar si un resultado fue deducido de forma autónoma por la IA o absorbido de los borradores inéditos de investigadores independientes."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "Las grandes empresas de infraestructura tecnológica concentran el beneficio al reclamar la paternidad de avances científicos de impacto millonario, consolidando patentes y poder de mercado.",
+            "En el lado perdedor se ubican las instituciones académicas públicas y los investigadores individuales, quienes corren el riesgo de ver despojada su autoría intelectual sin vías legales claras para exigir auditorías independientes sobre el código o los datos de entrenamiento."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Resulta indispensable observar la revisión formal que realizarán los organismos matemáticos independientes sobre el trabajo presentado por OpenAI.",
+            "Asimismo, el desarrollo de regulaciones sobre soberanía de datos científicos dictará si los países impondrán barreras al almacenamiento de investigación estratégica en servidores privados de terceros."
+          ]
+        }
+      ],
+      "tags": [
+        "Inteligencia Artificial",
+        "OpenAI",
+        "Navier-Stokes",
+        "Propiedad Intelectual",
+        "Ciencia",
+        "Codex"
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "title": "Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5"
+        },
+        {
+          "name": "El Ecosistema Startup",
+          "title": "OpenAI, Navier-Stokes y la crisis de confianza en la ciencia",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLUlPMThCVkF4YmlGTlVJQ3JwWUhnSE96OXV6aGlWeEptT0FQNEwzVUxIQjVDNXdYdDk4bVNOX3JWZkM5NFdGQ3BXTUd0YVo2UnJTYmlITFBrWUU3RjlfemlOb1VXUHBBVXNldEpQWEM4MUFGeS15bzMzdVdUNmZ2MW9fQl9ycXVtOWE4bWs1aTZBNUJl?oc=5"
+        },
+        {
+          "name": "ABC",
+          "title": "¿Por qué no todo debería valer en la batalla geopolítica por la IA?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTBOTDFoY2FmUHF4cDZMaTVfQ05NTDAtcEJfbzJrS2pDVVlkSTN0aUU0dU9oOXVkQ0xfTkVKTVd3ZDd3bDVFSERpVjBQMUY3M2k0Q0RIVmxJTnVBUGVEVHEyQWEwWG9FYVhMalEtVmc4aXpuU1VNVENCMUhxUW9udWRCYWJIZ0FvUF9mZEMwMTNCTWZKRGlXaF9TYmJoWTYw0gGmAUFVX3lxTFBpSGZ1dkNhOERYLUtGM1FXbktmS0FBWlZabkZsd1FWWWJ4eFNfMlJ1S1l3RWhxNW9wbWVTQ2Q2QWVhTVNSd3U3cWFJMUNiLUhKMU80ZDFIVmt4cmREWURyWWI0NFhRSkF6R3h5NkZkaE1PT1lObUJQeGl4QlgtQThmVE1EWmFWcHFuNXlMWjhQbi10MExmRkxWX1I2M0tvZy1CMzBVeUE?oc=5"
+        },
+        {
+          "name": "Metapolítica",
+          "title": "OPINIÓN | México frente a la disputa económica entre Estados Unidos y China: soberanía tecnológica y diversificación estratégica",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdERySGVKTk8xT2hYeWJhTld6NVp2M3huakQyUFJWS242U0I3NlZOVS1aN3ZmN1Z3VWw2NlhMU3NzaEdWNUk5TV91NnU5Umt3QzQxRUpyNG4yS3Q1STliZS05YU5NMGpyNE5KVVIwUXdMd2FrMFdrclcwdUg0SEROQUtSQmtFeV9PUjZ2WXNSOExTZndYLVVpZHNESjQ5NHNsUU5yTkJiajdEaGpDQVdrU0Ywak9xM2pMb09JbVNLRWZmWGd5SFlrVFZSd3JfZ01oWFcwYi13SW5YWTZDazRRaWEtOVdPWldPWEs2YzRMNWhsNGoyMk1aS2NrLTZ4ZTl6V21n?oc=5"
+        },
+        {
+          "name": "HSB Noticias",
+          "title": "La IA desata una disputa entre matemáticos y genera dudas sobre la confianza en la ciencia",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWGdmcWl0TzRNd0hjUHRmR3NFczQyS1R0RDhiMlY4QU5lVmM5SkRDdWNEdE93dWg3YV9mYXhGUEJXMlIyZVgxcmxyMjVyYk9FZXVKeUpqZWF6ZnZnemFuWDV4b0gyM3BRTmdUc0FRblI5M3NQc0x2QTdnOTgxVmFhTE40T1AtQmlGek91czAwQzBOX1lXZVdhLTlVSkZ5b0V2WUpXZ2hURDl3M1FxMU82ajg5NGFBSkszeXRFYnhVRGo?oc=5"
+        }
+      ],
+      "wordCount": 443
+    },
+    "blindSpot": "Mientras la atención mediática se enfoca en riesgos distópicos teóricos, el verdadero peligro inmediato es la erosión de la auditoría científica y la apropiación corporativa del conocimiento. Las plataformas propietarias como Codex absorben la investigación no publicada de matemáticos y científicos, privatizando el proceso de descubrimiento bajo una caja negra inauditable."
+  },
+  {
     "slug": "trasfondo-tecnico-detras-alianza-entre-banco-dmw5",
     "path": "noticias/trasfondo-tecnico-detras-alianza-entre-banco-dmw5/",
     "title": "El trasfondo técnico detrás de la alianza entre el Banco Central de Venezuela y las aseguradoras",

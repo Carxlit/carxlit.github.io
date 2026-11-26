@@ -26216,5 +26216,145 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-26T01:10:47.531Z"
+  },
+  {
+    "id": "queue-1795658692630-djfdy",
+    "news": {
+      "id": "9gf9n1ok9",
+      "originalUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
+      "originalTitle": "Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+      "sourceName": "BBC",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 86,
+      "headline": "OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA",
+      "subHeadline": "La controversia sobre las ecuaciones de Navier-Stokes resueltas presuntamente en 88 horas expone la opacidad de los modelos generativos y el riesgo de extracción de propiedad intelectual académica.",
+      "blindSpotAngle": "Mientras la atención mediática se enfoca en riesgos distópicos teóricos, el verdadero peligro inmediato es la erosión de la auditoría científica y la apropiación corporativa del conocimiento. Las plataformas propietarias como Codex absorben la investigación no publicada de matemáticos y científicos, privatizando el proceso de descubrimiento bajo una caja negra inauditable.",
+      "facebookPost": "OpenAI anunció que sus agentes de inteligencia artificial resolvieron en apenas 88 horas un problema histórico vinculado a las ecuaciones de Navier-Stokes. La versión corporativa promete una era de descubrimientos acelerados. Sin embargo, matemáticos de la Universidad de Nueva York y de Anthropic revelaron que sus borradores de trabajo previos estaban almacenados en Codex, la herramienta de código de la propia OpenAI.\n\nEl problema de fondo no es la capacidad del software, sino la falta de transparencia sobre cómo se nutren estos sistemas. La investigación científica requiere reproducibilidad y atribución clara, dos principios que colisionan de frente con modelos de lenguaje opacos propensos a alucinaciones de datos y a la extracción silenciosa de telemetría.\n\n¿Estamos ante la democratización del conocimiento o ante la privatización sistemática del método científico por parte de gigantes tecnológicos?\n\nFuente: BBC\n\n#PuntoCiego #TecnologíaIA #OpenAI",
+      "telegramPost": "<b>OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA</b>\n\n• <b>Qué ocurrió:</b> OpenAI afirmó que sus agentes de IA resolvieron un problema clave de las ecuaciones de Navier-Stokes en 88 horas, pero investigadores de NYU y Anthropic cuestionaron el uso de sus manuscritos guardados en Codex.\n• <b>Por qué importa:</b> El incidente demuestra cómo las grandes tecnológicas pueden extraer valor de los borradores de la comunidad académica, amenazando la confianza en la atribución científica y acelerando la privatización del conocimiento básico.\n• <b>Qué sigue:</b> La controversia forzará debates normativos sobre el uso de datos de uso y telemetría en plataformas de desarrollo para entrenar modelos comerciales.",
+      "linkedInPost": "La controversia en torno al anuncio de OpenAI sobre las ecuaciones de Navier-Stokes marca un punto de inflexión estratégico en la intersección entre tecnología, propiedad intelectual y el método científico.\n\nEl almacenamiento de datos de investigación sensible en plataformas propietarias como Codex expone vulnerabilidades operativas graves para universidades y centros de I+D. Cuando los avances en ciencias duras o biología sintética son absorbidos por algoritmos sin trazabilidad pública, la frontera entre descubrimiento legítimo e ingestión de telemetría privada se vuelve borrosa.\n\nPara los líderes en gestión de innovación y regulación tecnológica, la prioridad ya no es solo mitigar alucinaciones de datos, sino construir infraestructuras soberanas de computación que protejan los activos intangibles de la ciencia global frente a la monopolización corporativa.\n\nFuente: BBC\n\n#PuntoCiego #TecnologíaIA #InnovaciónEstratégica",
+      "blueskyPost": "OpenAI afirma resolver las ecuaciones de Navier-Stokes en 88 horas, pero matemáticos acusan uso sin crédito de sus borradores en Codex. El riesgo real es la privatización del hallazgo científico. #PuntoCiego #IA",
+      "copies": {
+        "facebook": "OpenAI anunció que sus agentes de inteligencia artificial resolvieron en apenas 88 horas un problema histórico vinculado a las ecuaciones de Navier-Stokes. La versión corporativa promete una era de descubrimientos acelerados. Sin embargo, matemáticos de la Universidad de Nueva York y de Anthropic revelaron que sus borradores de trabajo previos estaban almacenados en Codex, la herramienta de código de la propia OpenAI.\n\nEl problema de fondo no es la capacidad del software, sino la falta de transparencia sobre cómo se nutren estos sistemas. La investigación científica requiere reproducibilidad y atribución clara, dos principios que colisionan de frente con modelos de lenguaje opacos propensos a alucinaciones de datos y a la extracción silenciosa de telemetría.\n\n¿Estamos ante la democratización del conocimiento o ante la privatización sistemática del método científico por parte de gigantes tecnológicos? #PuntoCiego #TecnologíaIA #OpenAI",
+        "telegram": "<b>OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA</b>\n\n• <b>Qué ocurrió:</b> OpenAI afirmó que sus agentes de IA resolvieron un problema clave de las ecuaciones de Navier-Stokes en 88 horas, pero investigadores de NYU y Anthropic cuestionaron el uso de sus manuscritos guardados en Codex.\n• <b>Por qué importa:</b> El incidente demuestra cómo las grandes tecnológicas pueden extraer valor de los borradores de la comunidad académica, amenazando la confianza en la atribución científica y acelerando la privatización del conocimiento básico.\n• <b>Qué sigue:</b> La controversia forzará debates normativos sobre el uso de datos de uso y telemetría en plataformas de desarrollo para entrenar modelos comerciales.",
+        "bluesky": "OpenAI afirma resolver las ecuaciones de Navier-Stokes en 88 horas, pero matemáticos acusan uso sin crédito de sus borradores en Codex. El riesgo real es la privatización del hallazgo científico. #PuntoCiego #IA",
+        "linkedIn": "La controversia en torno al anuncio de OpenAI sobre las ecuaciones de Navier-Stokes marca un punto de inflexión estratégico en la intersección entre tecnología, propiedad intelectual y el método científico.\n\nEl almacenamiento de datos de investigación sensible en plataformas propietarias como Codex expone vulnerabilidades operativas graves para universidades y centros de I+D. Cuando los avances en ciencias duras o biología sintética son absorbidos por algoritmos sin trazabilidad pública, la frontera entre descubrimiento legítimo e ingestión de telemetría privada se vuelve borrosa.\n\nPara los líderes en gestión de innovación y regulación tecnológica, la prioridad ya no es solo mitigar alucinaciones de datos, sino construir infraestructuras soberanas de computación que protejan los activos intangibles de la ciencia global frente a la monopolización corporativa.\n\n#PuntoCiego #TecnologíaIA #InnovaciónEstratégica"
+      },
+      "article": {
+        "slug": "disputa-matematica-expone-control-ia-sobre-nu9s",
+        "title": "La disputa matemática que expone el control de la IA sobre la ciencia",
+        "dek": "El anuncio de OpenAI sobre las ecuaciones de Navier-Stokes reabre la controversia sobre la opacidad corporativa. La comunidad académica teme que la extracción de datos en plataformas de desarrollo destruya la atribución científica.",
+        "keyFacts": [
+          "OpenAI anunció que sus agentes de IA resolvieron un problema de las ecuaciones de Navier-Stokes en 88 horas.",
+          "El matemático Tristan Buckmaster (Universidad de Nueva York) y Levent Alpöge (Anthropic) almacenaban sus borradores de investigación en la herramienta Codex de OpenAI.",
+          "Basecamp Research, liderada por Oliver Vince en Londres, recolecta cien mil millones de genes para entrenar modelos biológicos.",
+          "OpenAI negó que investigadores humanos o sus modelos revisaran el trabajo específico de los matemáticos antes de la publicación."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Según reportó BBC Mundo, OpenAI anunció haber resuelto un dilema matemático fundamental relacionado con las famosas ecuaciones de Navier-Stokes, afirmando que sus sistemas de inteligencia artificial completaron la hazaña en tan solo 88 horas. El anuncio fue presentado como un hito de la automatización del pensamiento complejo.",
+              "Sin embargo, la controversia estalló cuando Tristan Buckmaster, matemático de la Universidad de Nueva York, junto a Levent Alpöge, investigador de la firma Anthropic, hicieron públicas sus dudas sobre el proceso. Ambos científicos habían estado trabajando en el mismo problema y almacenaban sus borradores de código y ecuaciones en Codex, la plataforma de desarrollo operada por la propia OpenAI."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La integración de herramientas algorítmicas en la ciencia no se limita a las matemáticas puras. En una antigua fábrica en Londres, la empresa Basecamp Research, cofundada por el doctor Oliver Vince, conserva cien mil millones de genes en tubos de vidrio. Su objetivo es aplicar la arquitectura de los Grandes Modelos de Lenguaje al código genético de la naturaleza.",
+              "El uso de estas arquitecturas busca acelerar el desarrollo de materiales y medicamentos. Sin embargo, el ritmo acelerado de adopción contrasta con las falencias estructurales de la tecnología, como la tendencia de los chatbots a generar alucinaciones e inventar referencias científicas inexistentes."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El debate público suele concentrarse en escenarios distópicos de armas biológicas o descontrol algorítmico. El verdadero punto ciego expuesto por la disputa de Navier-Stokes es la erosión silenciosa de la confianza y la atribución en el proceso de revisión por pares.",
+              "Al utilizar plataformas de desarrollo propietarias, la comunidad académica entrega involuntariamente la telemetría de su pensamiento crítico. La imposibilidad de auditar las bases de datos de entrenamiento de las corporaciones tecnológicas impide verificar si un resultado fue deducido de forma autónoma por la IA o absorbido de los borradores inéditos de investigadores independientes."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "Las grandes empresas de infraestructura tecnológica concentran el beneficio al reclamar la paternidad de avances científicos de impacto millonario, consolidando patentes y poder de mercado.",
+              "En el lado perdedor se ubican las instituciones académicas públicas y los investigadores individuales, quienes corren el riesgo de ver despojada su autoría intelectual sin vías legales claras para exigir auditorías independientes sobre el código o los datos de entrenamiento."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Resulta indispensable observar la revisión formal que realizarán los organismos matemáticos independientes sobre el trabajo presentado por OpenAI.",
+              "Asimismo, el desarrollo de regulaciones sobre soberanía de datos científicos dictará si los países impondrán barreras al almacenamiento de investigación estratégica en servidores privados de terceros."
+            ]
+          }
+        ],
+        "tags": [
+          "Inteligencia Artificial",
+          "OpenAI",
+          "Navier-Stokes",
+          "Propiedad Intelectual",
+          "Ciencia",
+          "Codex"
+        ],
+        "sources": [
+          {
+            "name": "BBC",
+            "title": "Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5"
+          },
+          {
+            "name": "El Ecosistema Startup",
+            "title": "OpenAI, Navier-Stokes y la crisis de confianza en la ciencia",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLUlPMThCVkF4YmlGTlVJQ3JwWUhnSE96OXV6aGlWeEptT0FQNEwzVUxIQjVDNXdYdDk4bVNOX3JWZkM5NFdGQ3BXTUd0YVo2UnJTYmlITFBrWUU3RjlfemlOb1VXUHBBVXNldEpQWEM4MUFGeS15bzMzdVdUNmZ2MW9fQl9ycXVtOWE4bWs1aTZBNUJl?oc=5"
+          },
+          {
+            "name": "ABC",
+            "title": "¿Por qué no todo debería valer en la batalla geopolítica por la IA?",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTBOTDFoY2FmUHF4cDZMaTVfQ05NTDAtcEJfbzJrS2pDVVlkSTN0aUU0dU9oOXVkQ0xfTkVKTVd3ZDd3bDVFSERpVjBQMUY3M2k0Q0RIVmxJTnVBUGVEVHEyQWEwWG9FYVhMalEtVmc4aXpuU1VNVENCMUhxUW9udWRCYWJIZ0FvUF9mZEMwMTNCTWZKRGlXaF9TYmJoWTYw0gGmAUFVX3lxTFBpSGZ1dkNhOERYLUtGM1FXbktmS0FBWlZabkZsd1FWWWJ4eFNfMlJ1S1l3RWhxNW9wbWVTQ2Q2QWVhTVNSd3U3cWFJMUNiLUhKMU80ZDFIVmt4cmREWURyWWI0NFhRSkF6R3h5NkZkaE1PT1lObUJQeGl4QlgtQThmVE1EWmFWcHFuNXlMWjhQbi10MExmRkxWX1I2M0tvZy1CMzBVeUE?oc=5"
+          },
+          {
+            "name": "Metapolítica",
+            "title": "OPINIÓN | México frente a la disputa económica entre Estados Unidos y China: soberanía tecnológica y diversificación estratégica",
+            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdERySGVKTk8xT2hYeWJhTld6NVp2M3huakQyUFJWS242U0I3NlZOVS1aN3ZmN1Z3VWw2NlhMU3NzaEdWNUk5TV91NnU5Umt3QzQxRUpyNG4yS3Q1STliZS05YU5NMGpyNE5KVVIwUXdMd2FrMFdrclcwdUg0SEROQUtSQmtFeV9PUjZ2WXNSOExTZndYLVVpZHNESjQ5NHNsUU5yTkJiajdEaGpDQVdrU0Ywak9xM2pMb09JbVNLRWZmWGd5SFlrVFZSd3JfZ01oWFcwYi13SW5YWTZDazRRaWEtOVdPWldPWEs2YzRMNWhsNGoyMk1aS2NrLTZ4ZTl6V21n?oc=5"
+          },
+          {
+            "name": "HSB Noticias",
+            "title": "La IA desata una disputa entre matemáticos y genera dudas sobre la confianza en la ciencia",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWGdmcWl0TzRNd0hjUHRmR3NFczQyS1R0RDhiMlY4QU5lVmM5SkRDdWNEdE93dWg3YV9mYXhGUEJXMlIyZVgxcmxyMjVyYk9FZXVKeUpqZWF6ZnZnemFuWDV4b0gyM3BRTmdUc0FRblI5M3NQc0x2QTdnOTgxVmFhTE40T1AtQmlGek91czAwQzBOX1lXZVdhLTlVSkZ5b0V2WUpXZ2hURDl3M1FxMU82ajg5NGFBSkszeXRFYnhVRGo?oc=5"
+          }
+        ],
+        "wordCount": 443
+      },
+      "videoScript": {
+        "hook": "¿Y si la IA le está robando los descubrimientos a los propios científicos?",
+        "beats": [
+          "OpenAI afirmó que su inteligencia artificial resolvió un histórico dilema matemático en solo 88 horas.",
+          "Pero ojo porque los matemáticos que competían guardaban sus avances en Codex, una herramienta de la misma empresa.",
+          "Y aquí viene lo interesante: la ciencia corre el riesgo de ser privatizada por plataformas que nadie puede auditar."
+        ],
+        "close": "Lee el análisis completo sobre este caso en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://ichef.bbci.co.uk/news/1200/branded_mundo/dad9/live/d4e781e0-e8e6-11f1-8808-1d4222955d7e.jpg",
+      "status": "pending",
+      "createdAt": "2026-11-26T02:04:50.347Z",
+      "cardImageUrl": "/news-cards/news-9gf9n1ok9-1795658690347.jpg",
+      "reelCoverUrl": "/news-cards/news-9gf9n1ok9-1795658690916-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-9gf9n1ok9-1795658691431-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/disputa-matematica-expone-control-ia-sobre-nu9s/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-26T12:29:00.000Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-26T02:04:52.630Z"
   }
 ]
