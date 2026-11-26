@@ -379,6 +379,34 @@
   ],
   "processedSignatures": [
     {
+      "title": "OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA",
+      "normalizedTokens": [
+        "openai",
+        "disputa",
+        "hallazgo",
+        "matematico",
+        "desencadena",
+        "crisis",
+        "ciencia"
+      ],
+      "date": "2026-11-26T12:29:27.470Z"
+    },
+    {
+      "title": "Inteligencia artificial: cómo una disputa entre matemáticos aviva el temor de que la IA pueda socavar la ciencia",
+      "normalizedTokens": [
+        "inteligencia",
+        "artificial",
+        "disputa",
+        "matematicos",
+        "aviva",
+        "temor",
+        "pueda",
+        "socavar",
+        "ciencia"
+      ],
+      "date": "2026-11-26T12:29:27.468Z"
+    },
+    {
       "title": "CHIPS DE INTELIGENCIA ARTIFICIAL DE NVIDIA LLEGAN A FIRMAS CHINAS",
       "normalizedTokens": [
         "chips",
@@ -7448,37 +7476,6 @@
         "claypole"
       ],
       "date": "2026-11-09T19:13:22.945Z"
-    },
-    {
-      "title": "CONDENAN A RUSSELL BRAND A DIEZ AÑOS DE PRISIÓN POR ABUSOS",
-      "normalizedTokens": [
-        "condenan",
-        "russell",
-        "brand",
-        "diez",
-        "anos",
-        "prision",
-        "abusos"
-      ],
-      "date": "2026-11-09T18:17:44.284Z"
-    },
-    {
-      "title": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
-      "normalizedTokens": [
-        "british",
-        "comedian",
-        "russell",
-        "brand",
-        "sentenced",
-        "over",
-        "years",
-        "for",
-        "rape",
-        "and",
-        "sexual",
-        "assault"
-      ],
-      "date": "2026-11-09T18:17:44.283Z"
     }
   ]
 }
