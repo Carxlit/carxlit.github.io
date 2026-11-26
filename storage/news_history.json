@@ -372,9 +372,34 @@
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXc3TWxWWEtPUkphaXN0TC1LUjQxcWlyU1lIcU1sS2NBaHFHNC15TC1rSnlVZDNfa3ItZTNaYTY3N3UwcDgtSnhlNzBXeUw5OGoxanhsVWtMQkxubmpFXzNVRWd1NGJmd3gxUU1aVUNpRXREM2xHQTlGUVJLbGdBTVZadXJqZC1t?oc=5",
     "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html",
-    "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.france24.com/es/video/20261126-colombia-rescatan-a-rehenes-tras-16-horas-de-secuestro-en-supermercado-en-cartagena"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: RESCATE EXITOSO TRAS 16 HORAS EN CARTAGENA",
+      "normalizedTokens": [
+        "actualizacion",
+        "rescate",
+        "exitoso",
+        "horas",
+        "cartagena"
+      ],
+      "date": "2026-11-26T05:31:35.898Z"
+    },
+    {
+      "title": "Colombia: rescatan a rehenes tras 16 horas de secuestro en supermercado de Cartagena",
+      "normalizedTokens": [
+        "colombia",
+        "rescatan",
+        "rehenes",
+        "horas",
+        "secuestro",
+        "supermercado",
+        "cartagena"
+      ],
+      "date": "2026-11-26T05:31:35.895Z"
+    },
     {
       "title": "TRAGEDIA EN MINA ILEGAL DE ORO EN INDONESIA",
       "normalizedTokens": [
@@ -7450,34 +7475,6 @@
         "trains"
       ],
       "date": "2026-11-09T15:27:50.228Z"
-    },
-    {
-      "title": "INVESTIGAN A CEO DE NVIDIA POR PRESUNTA ESPÍA CHINA",
-      "normalizedTokens": [
-        "investigan",
-        "ceo",
-        "nvidia",
-        "presunta",
-        "espia",
-        "china"
-      ],
-      "date": "2026-11-09T14:18:51.948Z"
-    },
-    {
-      "title": "Nvidia inicia una investigación sobre la relación extramatrimonial de su director ejecutivo con una presunta espía china.",
-      "normalizedTokens": [
-        "nvidia",
-        "inicia",
-        "investigacion",
-        "relacion",
-        "extramatrimonial",
-        "director",
-        "ejecutivo",
-        "presunta",
-        "espia",
-        "china"
-      ],
-      "date": "2026-11-09T14:18:51.947Z"
     }
   ]
 }
