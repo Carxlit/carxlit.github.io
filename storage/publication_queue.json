@@ -26235,5 +26235,144 @@
       }
     },
     "publishedAt": "2026-11-26T05:49:20.619Z"
+  },
+  {
+    "id": "queue-1795691249171-w2uph",
+    "news": {
+      "id": "en58kdfvb",
+      "originalUrl": "https://www.infobae.com/estados-unidos/2026/11/26/nvidia-vendio-chips-de-inteligencia-artificial-a-dos-empresas-de-california-controladas-por-firmas-chinas/",
+      "originalTitle": "Nvidia vendió chips de inteligencia artificial a dos empresas de California controladas por firmas chinas",
+      "sourceName": "Infobae América",
+      "category": "SEGURIDAD & DEFENSA",
+      "urgencyScore": 92,
+      "headline": "CHIPS DE INTELIGENCIA ARTIFICIAL DE NVIDIA LLEGAN A FIRMAS CHINAS",
+      "subHeadline": "Registros corporativos revelan que Nvidia suministró tecnología avanzada a empresas californianas controladas por capitales chinos, evadiendo los controles de exportación de Estados Unidos.",
+      "blindSpotAngle": "El verdadero punto ciego no es el fallo administrativo de Nvidia, sino la porosidad deliberada de las estructuras corporativas en suelo estadounidense que permiten el flujo de hardware militar y de IA hacia potencias rivales mediante testaferros y empresas fachada.",
+      "facebookPost": "Una investigación reciente expone que Nvidia vendió sus procesadores más avanzados a dos empresas con sede en California controladas por matrices chinas, aprovechando vacíos legales y filiales de fachada.\n\nMientras la narrativa oficial confía en los vetos comerciales de Washington, el flujo de hardware crítico hacia actores vinculados al aparato militar extranjero sigue operando a plena luz del día bajo la complicidad de estructuras corporativas opacas.\n\n¿Hasta qué punto la Casa Blanca está dispuesta a sacrificar la seguridad nacional por mantener artificialmente altas las valorizaciones de Silicon Valley?\n\nFuente: Infobae América\n\n#SeguridadNacional #InteligenciaArtificial #PuntoCiego",
+      "telegramPost": "<b>VENTA DE CHIPS DE IA DE NVIDIA A FIRMAS CHINAS</b>\n\n• <b>Qué ocurrió:</b> Una investigación destapó que Nvidia suministró sus chips más avanzados a dos empresas californianas controladas por firmas chinas.\n• <b>Por qué importa:</b> Demuestra la ineficacia de los controles de exportación estadounidenses y la facilidad para burlar las restricciones mediante subsidiarias y socios fachada en Silicon Valley.\n• <b>Qué sigue:</b> Aumento de la presión regulatoria sobre la cadena de suministro de semiconductores y escrutinio judicial sobre los gigantes tecnológicos.",
+      "linkedInPost": "La venta de hardware de inteligencia artificial de última generación a entidades con control extranjero plantea un dilema crítico para la seguridad económica y la soberanía tecnológica de Estados Unidos.\n\nLos controles de exportación pierden efectividad cuando las estructuras societarias permiten el arbitraje geográfico y la creación de filiales interpuestas. Las juntas directivas deben asumir que el riesgo geopolítico ya no es externo, sino un factor de cumplimiento interno.\n\nFuente: Infobae América\n\n#SeguridadNacional #Semiconductores #PuntoCiego #RiesgoGeopolitico",
+      "blueskyPost": "Nvidia vendió chips avanzados a firmas californianas controladas desde China. Los vetos de Washington fallan ante las estructuras corporativas opacas. #PuntoCiego #SeguridadYDefensa",
+      "copies": {
+        "facebook": "Una investigación reciente expone que Nvidia vendió sus procesadores más avanzados a dos empresas con sede en California controladas por matrices chinas, aprovechando vacíos legales y filiales de fachada.\n\nMientras la narrativa oficial confía en los vetos comerciales de Washington, el flujo de hardware crítico hacia actores vinculados al aparato militar extranjero sigue operando a plena luz del día bajo la complicidad de estructuras corporativas opacas.\n\n¿Hasta qué punto la Casa Blanca está dispuesta a sacrificar la seguridad nacional por mantener artificialmente altas las valorizaciones de Silicon Valley?\n\n#SeguridadNacional #InteligenciaArtificial #PuntoCiego",
+        "telegram": "<b>VENTA DE CHIPS DE IA DE NVIDIA A FIRMAS CHINAS</b>\n\n• <b>Qué ocurrió:</b> Una investigación destapó que Nvidia suministró sus chips más avanzados a dos empresas californianas controladas por firmas chinas.\n• <b>Por qué importa:</b> Demuestra la ineficacia de los controles de exportación estadounidenses y la facilidad para burlar las restricciones mediante subsidiarias y socios fachada en Silicon Valley.\n• <b>Qué sigue:</b> Aumento de la presión regulatoria sobre la cadena de suministro de semiconductores y escrutinio judicial sobre los gigantes tecnológicos.",
+        "bluesky": "Nvidia vendió chips avanzados a firmas californianas controladas desde China. Los vetos de Washington fallan ante las estructuras corporativas opacas. #PuntoCiego #SeguridadYDefensa",
+        "linkedIn": "La venta de hardware de inteligencia artificial de última generación a entidades con control extranjero plantea un dilema crítico para la seguridad económica y la soberanía tecnológica de Estados Unidos.\n\nLos controles de exportación pierden efectividad cuando las estructuras societarias permiten el arbitraje geográfico y la creación de filiales interpuestas. Las juntas directivas deben asumir que el riesgo geopolítico ya no es externo, sino un factor de cumplimiento interno.\n\n#SeguridadNacional #Semiconductores #PuntoCiego #RiesgoGeopolitico"
+      },
+      "article": {
+        "slug": "como-chips-mas-avanzados-nvidia-terminaron-q7md",
+        "title": "Cómo los chips más avanzados de Nvidia terminaron en manos de empresas controladas por firmas chinas",
+        "dek": "Una investigación revela la venta de tecnología de inteligencia artificial sensible a compañías californianas vinculadas con intereses de Pekín. El hallazgo expone las grietas en los controles de exportación de Estados Unidos.",
+        "keyFacts": [
+          "Nvidia vendió sus chips más avanzados a al menos dos empresas en California controladas por firmas chinas, según una investigación de CBS News.",
+          "RiCloud AI obtuvo estatus de socio preferido de Nvidia diez semanas después de ser creada y es propiedad de la china Yuxing InfoTech.",
+          "La filial californiana Aivres exportó USD 5.600 millones en tecnología avanzada al sudeste asiático, incluyendo USD 3.000 millones con chips Blackwell.",
+          "El director ejecutivo de Yuxing, Cong Yu, se graduó en el Colegio de Mando del Ejército Popular de Liberación."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Una investigación periodística publicada por CBS News y elaborada con el apoyo de C4ADS sacó a la luz que Nvidia suministró sus procesadores de inteligencia artificial más avanzados a al menos dos empresas radicadas en California que operan bajo el control de compañías chinas.",
+              "Los casos identificados corresponden a RiCloud AI y a Aivres, ambas integradas formalmente en los listados de socios estratégicos del fabricante de semiconductores. La revelación pone bajo intenso escrutinio la arquitectura de cumplimiento normativo y los controles de exportación diseñados por Washington para frenar el avance tecnológico de Pekín."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "RiCloud AI, ubicada en San José, fue catalogada como 'socio preferido' de Nvidia en diciembre de 2025, apenas diez semanas después de su constitución formal. Registros societarios demostraron que su matriz es Yuxing InfoTech Investment Holdings Limited, una compañía con sede en Shenzhen y cotización en la Bolsa de Hong Kong.",
+              "Por su parte, Aivres operaba anteriormente bajo el nombre de Inspur, la filial corporativa que fue incluida en listas negras del gobierno estadounidense en marzo de 2023 por motivos de seguridad nacional. Tras las sanciones, la subsidiaria californiana adoptó su actual denominación y continuó operando en el mercado estadounidense."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El debate público se ha concentrado en la responsabilidad corporativa de Nvidia, pero el verdadero punto ciego reside en la flexibilidad de las estructuras societarias en jurisdicciones occidentales para enmascarar la propiedad real de los activos estratégicos.",
+              "Mientras los gobiernos endurecen los vetos aduaneros en las fronteras, el capital extranjero utiliza testaferros, reestructuraciones exprés y empresas fachada con perfiles desconectados del sector tecnológico —como importadoras de whisky con saltos financieros abruptos— para asegurar el flujo continuo de hardware militar y de inteligencia artificial."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En este tablero, los conglomerados tecnológicos y las firmas chinas con capacidad de adaptación corporativa ganan tiempo y acceso a infraestructura de vanguardia, eludiendo las restricciones oficiales sin romper formalmente la legalidad vigente.",
+              "En contrapartida, la credibilidad de la política exterior estadounidense y la efectividad de sus organismos de control quedan severamente comprometidas, obligando al Congreso y a las autoridades estatales a endurecer las investigaciones contra los gigantes de Silicon Valley."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Es imperativo monitorear el desarrollo de las investigaciones que mantiene el estado de California sobre las operaciones de Nvidia y la posible ampliación de las sanciones hacia las filiales interpuestas.",
+              "Asimismo, el escrutinio sobre los contratos de suministro de infraestructura de servidores Blackwell en mercados secundarios del sudeste asiático marcará el pulso de la próxima ofensiva regulatoria en el sector."
+            ]
+          }
+        ],
+        "tags": [
+          "Nvidia",
+          "Inteligencia Artificial",
+          "Seguridad Nacional",
+          "Semiconductores",
+          "Geopolítica"
+        ],
+        "sources": [
+          {
+            "name": "Infobae América",
+            "title": "Nvidia vendió chips de inteligencia artificial a dos empresas de California controladas por firmas chinas",
+            "url": "https://www.infobae.com/estados-unidos/2026/11/26/nvidia-vendio-chips-de-inteligencia-artificial-a-dos-empresas-de-california-controladas-por-firmas-chinas/"
+          },
+          {
+            "name": "https://fomoera.com/",
+            "title": "Nvidia vende chips avanzados a dos firmas de California con dueños chinos, según CBS",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQa3FCc3g1azRtN19OTGZGMi1pM3lSbzFtVHQwYm1fMjBoX1VVT1JudDU2bEo5ZEVGNG50andTRHBJUHd1dkd3bXhFOXBmVHdHY3pIdkhZTWlHODEzcjhuSzJEc0VrYjVpSVJJ?oc=5"
+          },
+          {
+            "name": "Bloomberg Línea",
+            "title": "Nvidia vuelve a desplomarse: el regreso de Jensen Huang no disipa los temores de Wall Street",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNHdZRU03X05wMEVwb0E1dmxPb0dnYmcwNTJPbHY1QnM2VkRzSGhYbzlUaDkzX3cydEJxTmo4QV9pMUg2SlA0Z3JqRTI2UC1rT1ZvTURvSWNNU1l6VmJhQllVTzR4Y3BqZ0d4cndJQ3JzNDgyZWxHOEhmZWR5U1lHdmxTbW92bU54eTBkSEdaeWlLTnVqQ0Q5NkFjenFUY0wtSFdGRlRHcDRRS2trN2ljU243R2pMOVJqb2M0V1cyMzdramVONkJLOGtxTEdfdHJNbUp0SWxVQUxTMDhlczRQetIB4AFBVV95cUxQNHdZRU03X05wMEVwb0E1dmxPb0dnYmcwNTJPbHY1QnM2VkRzSGhYbzlUaDkzX3cydEJxTmo4QV9pMUg2SlA0Z3JqRTI2UC1rT1ZvTURvSWNNU1l6VmJhQllVTzR4Y3BqZ0d4cndJQ3JzNDgyZWxHOEhmZWR5U1lHdmxTbW92bU54eTBkSEdaeWlLTnVqQ0Q5NkFjenFUY0wtSFdGRlRHcDRRS2trN2ljU243R2pMOVJqb2M0V1cyMzdramVONkJLOGtxTEdfdHJNbUp0SWxVQUxTMDhlczRQeg?oc=5"
+          },
+          {
+            "name": "Mezha.net",
+            "title": "Trump tenía hasta $58 millones en acciones de Nvidia mientras presionaba por el regreso de Huang",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX25ONjdiYnFGdEZ3enBiMGd2Z0R1c0NJMm1NN1B3cExISFdlak9lQ0FsUVJsWl9rXy1JakZxZGxNcGtiTGRyWk5QSzBNTzVFS3RWTHNUWlgtSDgxY2RKX1VEYk81eEhNMXU1QjI4Ump6bnhQWDhwSUdSVTY3a0x1LTlvWXNVQjQtVUwxYVBBZmVhcXJR?oc=5"
+          },
+          {
+            "name": "El diario de los lectores influyentes",
+            "title": "California mantiene la investigación sobre Nvidia pese al regreso de Jensen Huang - El Nacional",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0c0dE5SMHE1ZE53UFY3TU9LM0g4aklwdHlsclFqSGZNaktXMzlMS3VGSEdhdlV6UndtdEtqbUxjckRXa3JWZFhkT3hRRldRdXlzdlNacWp2QTNOc2RMeVFGaU9yZ2ZPS2poeWpkbjQ2dkpfa2hUd2MzZ3dERnFlQlVJZFlKbVJyTWdXdXJQX2xuMVltNFhfMlIzQXZ6U29MdFVHcm9TcnNsOVh2WVUtZC130gG3AUFVX3lxTE80M0tPRk1aRWpTRDZSUnJpU3B0NGxUeE96VHdlMWY4em1oZEtpSnhMZ2hTS3ZacFFDd3k2Wmlqb09GZ0NhcXJLRlRDbjNlLVhpQ0V2U0pTbUhyYmlLUzBCSmJQWm9rXzI5R2JoTlZnNVExSklOdExVYW96UHNmUjRhWGdLR242bTV6Z1JvVkE3VVRzZVN4X05HaVhpMVlVUWt6Q044b0lrTUdJWUE4N3czX1REbHJsYw?oc=5"
+          }
+        ],
+        "wordCount": 439
+      },
+      "videoScript": {
+        "hook": "Nvidia vendió sus chips de inteligencia artificial más avanzados a empresas controladas desde China.",
+        "beats": [
+          "Una investigación destapó que dos firmas con sede en California y vínculos directos con Pekín obtuvieron acceso prioritario a tecnología sensible.",
+          "La filial Aivres exportó 5600 millones de dólares en equipos avanzados al sudeste asiático vinculados a gigantes tecnológicos chinos.",
+          "El punto ciego es que los vetos de Washington fallan porque las empresas fachada burlan los controles desde el propio suelo estadounidense."
+        ],
+        "close": "Lee el análisis completo en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://www.infobae.com/resizer/v2/MTCYOV76IBGXVD3TTUJM7ZEGQE.jpg?auth=3ff9ce60261cffe78c2f4ab5478b72ae03cd6e060fd3a38d80594f4774358939&smart=true&width=5000&height=2813",
+      "status": "pending",
+      "createdAt": "2026-11-26T11:07:26.466Z",
+      "cardImageUrl": "/news-cards/news-en58kdfvb-1795691246467.jpg",
+      "reelCoverUrl": "/news-cards/news-en58kdfvb-1795691247266-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-en58kdfvb-1795691247784-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/como-chips-mas-avanzados-nvidia-terminaron-q7md/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-26T14:24:00.000Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-26T11:07:29.171Z"
   }
 ]

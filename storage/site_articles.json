@@ -1,5 +1,101 @@
 [
   {
+    "slug": "como-chips-mas-avanzados-nvidia-terminaron-q7md",
+    "path": "noticias/como-chips-mas-avanzados-nvidia-terminaron-q7md/",
+    "title": "Cómo los chips más avanzados de Nvidia terminaron en manos de empresas controladas por firmas chinas",
+    "headline": "CHIPS DE INTELIGENCIA ARTIFICIAL DE NVIDIA LLEGAN A FIRMAS CHINAS",
+    "dek": "Una investigación revela la venta de tecnología de inteligencia artificial sensible a compañías californianas vinculadas con intereses de Pekín. El hallazgo expone las grietas en los controles de exportación de Estados Unidos.",
+    "category": "SEGURIDAD & DEFENSA",
+    "sourceName": "Infobae América",
+    "image": "img/como-chips-mas-avanzados-nvidia-terminaron-q7md.jpg",
+    "photo": "img/como-chips-mas-avanzados-nvidia-terminaron-q7md-foto.jpg",
+    "publishedAt": "2026-11-26T11:07:29.018Z",
+    "article": {
+      "slug": "como-chips-mas-avanzados-nvidia-terminaron-q7md",
+      "title": "Cómo los chips más avanzados de Nvidia terminaron en manos de empresas controladas por firmas chinas",
+      "dek": "Una investigación revela la venta de tecnología de inteligencia artificial sensible a compañías californianas vinculadas con intereses de Pekín. El hallazgo expone las grietas en los controles de exportación de Estados Unidos.",
+      "keyFacts": [
+        "Nvidia vendió sus chips más avanzados a al menos dos empresas en California controladas por firmas chinas, según una investigación de CBS News.",
+        "RiCloud AI obtuvo estatus de socio preferido de Nvidia diez semanas después de ser creada y es propiedad de la china Yuxing InfoTech.",
+        "La filial californiana Aivres exportó USD 5.600 millones en tecnología avanzada al sudeste asiático, incluyendo USD 3.000 millones con chips Blackwell.",
+        "El director ejecutivo de Yuxing, Cong Yu, se graduó en el Colegio de Mando del Ejército Popular de Liberación."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Una investigación periodística publicada por CBS News y elaborada con el apoyo de C4ADS sacó a la luz que Nvidia suministró sus procesadores de inteligencia artificial más avanzados a al menos dos empresas radicadas en California que operan bajo el control de compañías chinas.",
+            "Los casos identificados corresponden a RiCloud AI y a Aivres, ambas integradas formalmente en los listados de socios estratégicos del fabricante de semiconductores. La revelación pone bajo intenso escrutinio la arquitectura de cumplimiento normativo y los controles de exportación diseñados por Washington para frenar el avance tecnológico de Pekín."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "RiCloud AI, ubicada en San José, fue catalogada como 'socio preferido' de Nvidia en diciembre de 2025, apenas diez semanas después de su constitución formal. Registros societarios demostraron que su matriz es Yuxing InfoTech Investment Holdings Limited, una compañía con sede en Shenzhen y cotización en la Bolsa de Hong Kong.",
+            "Por su parte, Aivres operaba anteriormente bajo el nombre de Inspur, la filial corporativa que fue incluida en listas negras del gobierno estadounidense en marzo de 2023 por motivos de seguridad nacional. Tras las sanciones, la subsidiaria californiana adoptó su actual denominación y continuó operando en el mercado estadounidense."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El debate público se ha concentrado en la responsabilidad corporativa de Nvidia, pero el verdadero punto ciego reside en la flexibilidad de las estructuras societarias en jurisdicciones occidentales para enmascarar la propiedad real de los activos estratégicos.",
+            "Mientras los gobiernos endurecen los vetos aduaneros en las fronteras, el capital extranjero utiliza testaferros, reestructuraciones exprés y empresas fachada con perfiles desconectados del sector tecnológico —como importadoras de whisky con saltos financieros abruptos— para asegurar el flujo continuo de hardware militar y de inteligencia artificial."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los conglomerados tecnológicos y las firmas chinas con capacidad de adaptación corporativa ganan tiempo y acceso a infraestructura de vanguardia, eludiendo las restricciones oficiales sin romper formalmente la legalidad vigente.",
+            "En contrapartida, la credibilidad de la política exterior estadounidense y la efectividad de sus organismos de control quedan severamente comprometidas, obligando al Congreso y a las autoridades estatales a endurecer las investigaciones contra los gigantes de Silicon Valley."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo monitorear el desarrollo de las investigaciones que mantiene el estado de California sobre las operaciones de Nvidia y la posible ampliación de las sanciones hacia las filiales interpuestas.",
+            "Asimismo, el escrutinio sobre los contratos de suministro de infraestructura de servidores Blackwell en mercados secundarios del sudeste asiático marcará el pulso de la próxima ofensiva regulatoria en el sector."
+          ]
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "Inteligencia Artificial",
+        "Seguridad Nacional",
+        "Semiconductores",
+        "Geopolítica"
+      ],
+      "sources": [
+        {
+          "name": "Infobae América",
+          "title": "Nvidia vendió chips de inteligencia artificial a dos empresas de California controladas por firmas chinas",
+          "url": "https://www.infobae.com/estados-unidos/2026/11/26/nvidia-vendio-chips-de-inteligencia-artificial-a-dos-empresas-de-california-controladas-por-firmas-chinas/"
+        },
+        {
+          "name": "https://fomoera.com/",
+          "title": "Nvidia vende chips avanzados a dos firmas de California con dueños chinos, según CBS",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQa3FCc3g1azRtN19OTGZGMi1pM3lSbzFtVHQwYm1fMjBoX1VVT1JudDU2bEo5ZEVGNG50andTRHBJUHd1dkd3bXhFOXBmVHdHY3pIdkhZTWlHODEzcjhuSzJEc0VrYjVpSVJJ?oc=5"
+        },
+        {
+          "name": "Bloomberg Línea",
+          "title": "Nvidia vuelve a desplomarse: el regreso de Jensen Huang no disipa los temores de Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNHdZRU03X05wMEVwb0E1dmxPb0dnYmcwNTJPbHY1QnM2VkRzSGhYbzlUaDkzX3cydEJxTmo4QV9pMUg2SlA0Z3JqRTI2UC1rT1ZvTURvSWNNU1l6VmJhQllVTzR4Y3BqZ0d4cndJQ3JzNDgyZWxHOEhmZWR5U1lHdmxTbW92bU54eTBkSEdaeWlLTnVqQ0Q5NkFjenFUY0wtSFdGRlRHcDRRS2trN2ljU243R2pMOVJqb2M0V1cyMzdramVONkJLOGtxTEdfdHJNbUp0SWxVQUxTMDhlczRQetIB4AFBVV95cUxQNHdZRU03X05wMEVwb0E1dmxPb0dnYmcwNTJPbHY1QnM2VkRzSGhYbzlUaDkzX3cydEJxTmo4QV9pMUg2SlA0Z3JqRTI2UC1rT1ZvTURvSWNNU1l6VmJhQllVTzR4Y3BqZ0d4cndJQ3JzNDgyZWxHOEhmZWR5U1lHdmxTbW92bU54eTBkSEdaeWlLTnVqQ0Q5NkFjenFUY0wtSFdGRlRHcDRRS2trN2ljU243R2pMOVJqb2M0V1cyMzdramVONkJLOGtxTEdfdHJNbUp0SWxVQUxTMDhlczRQeg?oc=5"
+        },
+        {
+          "name": "Mezha.net",
+          "title": "Trump tenía hasta $58 millones en acciones de Nvidia mientras presionaba por el regreso de Huang",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX25ONjdiYnFGdEZ3enBiMGd2Z0R1c0NJMm1NN1B3cExISFdlak9lQ0FsUVJsWl9rXy1JakZxZGxNcGtiTGRyWk5QSzBNTzVFS3RWTHNUWlgtSDgxY2RKX1VEYk81eEhNMXU1QjI4Ump6bnhQWDhwSUdSVTY3a0x1LTlvWXNVQjQtVUwxYVBBZmVhcXJR?oc=5"
+        },
+        {
+          "name": "El diario de los lectores influyentes",
+          "title": "California mantiene la investigación sobre Nvidia pese al regreso de Jensen Huang - El Nacional",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0c0dE5SMHE1ZE53UFY3TU9LM0g4aklwdHlsclFqSGZNaktXMzlMS3VGSEdhdlV6UndtdEtqbUxjckRXa3JWZFhkT3hRRldRdXlzdlNacWp2QTNOc2RMeVFGaU9yZ2ZPS2poeWpkbjQ2dkpfa2hUd2MzZ3dERnFlQlVJZFlKbVJyTWdXdXJQX2xuMVltNFhfMlIzQXZ6U29MdFVHcm9TcnNsOVh2WVUtZC130gG3AUFVX3lxTE80M0tPRk1aRWpTRDZSUnJpU3B0NGxUeE96VHdlMWY4em1oZEtpSnhMZ2hTS3ZacFFDd3k2Wmlqb09GZ0NhcXJLRlRDbjNlLVhpQ0V2U0pTbUhyYmlLUzBCSmJQWm9rXzI5R2JoTlZnNVExSklOdExVYW96UHNmUjRhWGdLR242bTV6Z1JvVkE3VVRzZVN4X05HaVhpMVlVUWt6Q044b0lrTUdJWUE4N3czX1REbHJsYw?oc=5"
+        }
+      ],
+      "wordCount": 439
+    },
+    "blindSpot": "El verdadero punto ciego no es el fallo administrativo de Nvidia, sino la porosidad deliberada de las estructuras corporativas en suelo estadounidense que permiten el flujo de hardware militar y de IA hacia potencias rivales mediante testaferros y empresas fachada."
+  },
+  {
     "slug": "tragedia-vial-cairo-infraestructura-precaria-cables-iuwd",
     "path": "noticias/tragedia-vial-cairo-infraestructura-precaria-cables-iuwd/",
     "title": "Tragedia vial en El Cairo: infraestructura precaria y cables de alta tensión detrás de 31 muertes",

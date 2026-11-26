@@ -374,9 +374,40 @@
     "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html",
     "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf",
     "https://www.france24.com/es/video/20261126-colombia-rescatan-a-rehenes-tras-16-horas-de-secuestro-en-supermercado-en-cartagena",
-    "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+    "https://www.infobae.com/estados-unidos/2026/11/26/nvidia-vendio-chips-de-inteligencia-artificial-a-dos-empresas-de-california-controladas-por-firmas-chinas/"
   ],
   "processedSignatures": [
+    {
+      "title": "CHIPS DE INTELIGENCIA ARTIFICIAL DE NVIDIA LLEGAN A FIRMAS CHINAS",
+      "normalizedTokens": [
+        "chips",
+        "inteligencia",
+        "artificial",
+        "nvidia",
+        "llegan",
+        "firmas",
+        "chinas"
+      ],
+      "date": "2026-11-26T11:07:29.192Z"
+    },
+    {
+      "title": "Nvidia vendió chips de inteligencia artificial a dos empresas de California controladas por firmas chinas",
+      "normalizedTokens": [
+        "nvidia",
+        "vendio",
+        "chips",
+        "inteligencia",
+        "artificial",
+        "dos",
+        "empresas",
+        "california",
+        "controladas",
+        "firmas",
+        "chinas"
+      ],
+      "date": "2026-11-26T11:07:29.183Z"
+    },
     {
       "title": "TRAGEDIA VIAL EN EL CAIRO EXPONE INFRAESTRUCTURA VULNERABLE",
       "normalizedTokens": [
@@ -7448,33 +7479,6 @@
         "assault"
       ],
       "date": "2026-11-09T18:17:44.283Z"
-    },
-    {
-      "title": "COP31 EN ANTALYA BUSCA ACUERDO GLOBAL DE ELECTRIFICACIÓN",
-      "normalizedTokens": [
-        "cop31",
-        "antalya",
-        "busca",
-        "acuerdo",
-        "global",
-        "electrificacion"
-      ],
-      "date": "2026-11-09T17:11:17.213Z"
-    },
-    {
-      "title": "Hacia dónde van las negociaciones sobre el clima de la COP31: más electricidad para salvar el mundo",
-      "normalizedTokens": [
-        "hacia",
-        "van",
-        "negociaciones",
-        "clima",
-        "cop31",
-        "mas",
-        "electricidad",
-        "salvar",
-        "mundo"
-      ],
-      "date": "2026-11-09T17:11:17.211Z"
     }
   ]
 }
