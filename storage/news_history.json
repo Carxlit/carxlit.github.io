@@ -371,9 +371,35 @@
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU9jb2V4S2tRRGFFcU1vNU5WZEp1UGV4VnZ0MmFyMnYwZk5odkFrbnc0RmQ4V1JxRnRZcno2alJwbEU1dTJONEhNWDY5UXdPQ2pRV25WYUxidXl5eE43VEIwQjZ2Nk15QTVmYnF2eno0YXBaczhJbEZTVG1rMmhIdzVKOS1zdkdXbmZKVUVlQk5xWUtTSGFEdXhEVV9SVmtEdFNzV3RrbVhRek9KX1VPUWJfdGFBMFl3RWFtRzB6V2E3M2pmX3JGU0JBb1VyZUFPVURhZ2RjV2NTSHZybFY2aw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXc3TWxWWEtPUkphaXN0TC1LUjQxcWlyU1lIcU1sS2NBaHFHNC15TC1rSnlVZDNfa3ItZTNaYTY3N3UwcDgtSnhlNzBXeUw5OGoxanhsVWtMQkxubmpFXzNVRWd1NGJmd3gxUU1aVUNpRXREM2xHQTlGUVJLbGdBTVZadXJqZC1t?oc=5",
-    "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html"
+    "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html",
+    "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "TRAGEDIA EN MINA ILEGAL DE ORO EN INDONESIA",
+      "normalizedTokens": [
+        "tragedia",
+        "mina",
+        "ilegal",
+        "oro",
+        "indonesia"
+      ],
+      "date": "2026-11-26T05:17:00.793Z"
+    },
+    {
+      "title": "Trece muertos y 13 desaparecidos tras inundación de mina ilegal de oro en Indonesia",
+      "normalizedTokens": [
+        "trece",
+        "muertos",
+        "desaparecidos",
+        "inundacion",
+        "mina",
+        "ilegal",
+        "oro",
+        "indonesia"
+      ],
+      "date": "2026-11-26T05:17:00.791Z"
+    },
     {
       "title": "FILTRACIÓN REVELA MÁS DE SETECIENTAS MIL BAJAS MORTALES RUSAS",
       "normalizedTokens": [
@@ -7452,35 +7478,6 @@
         "china"
       ],
       "date": "2026-11-09T14:18:51.947Z"
-    },
-    {
-      "title": "CAE EL VALOR DEL COBRE CHILENO EN OCTUBRE",
-      "normalizedTokens": [
-        "cae",
-        "valor",
-        "cobre",
-        "chileno",
-        "octubre"
-      ],
-      "date": "2026-11-09T13:23:14.778Z"
-    },
-    {
-      "title": "Valor de envíos de cobre Chile cae 5,4% en octubre; país registra superávit comercial: Banco Central",
-      "normalizedTokens": [
-        "valor",
-        "envios",
-        "cobre",
-        "chile",
-        "cae",
-        "octubre",
-        "pais",
-        "registra",
-        "superavit",
-        "comercial",
-        "banco",
-        "central"
-      ],
-      "date": "2026-11-09T13:23:14.777Z"
     }
   ]
 }

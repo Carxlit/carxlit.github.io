@@ -1,5 +1,101 @@
 [
   {
+    "slug": "tragedia-oculta-tras-inundacion-mina-ilegal-9ryp",
+    "path": "noticias/tragedia-oculta-tras-inundacion-mina-ilegal-9ryp/",
+    "title": "La tragedia oculta tras la inundación de la mina ilegal de oro en Java",
+    "headline": "TRAGEDIA EN MINA ILEGAL DE ORO EN INDONESIA",
+    "dek": "Trece personas perdieron la vida y otras trece siguen desaparecidas tras quedar atrapadas en un socavón clandestino en Indonesia. Detrás de la emergencia climática se esconde una red de extracción desregulada tolerada por la necesidad económica.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Deutsche Welle (DW)",
+    "image": "img/tragedia-oculta-tras-inundacion-mina-ilegal-9ryp.jpg",
+    "photo": "img/tragedia-oculta-tras-inundacion-mina-ilegal-9ryp-foto.jpg",
+    "publishedAt": "2026-11-26T05:17:00.581Z",
+    "article": {
+      "slug": "tragedia-oculta-tras-inundacion-mina-ilegal-9ryp",
+      "title": "La tragedia oculta tras la inundación de la mina ilegal de oro en Java",
+      "dek": "Trece personas perdieron la vida y otras trece siguen desaparecidas tras quedar atrapadas en un socavón clandestino en Indonesia. Detrás de la emergencia climática se esconde una red de extracción desregulada tolerada por la necesidad económica.",
+      "keyFacts": [
+        "Trece cadáveres fueron rescatados de una mina de oro ilegal en la isla indonesia de Java.",
+        "Treinta y siete mineros se vieron afectados inicialmente, de los cuales once lograron salir a salvo.",
+        "Los pozos de excavación clandestinos alcanzan una profundidad aproximada de cien metros.",
+        "Las autoridades locales no fueron alertadas sobre el accidente hasta el martes, un día después de la inundación."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Trece personas murieron y otras trece permanecen desaparecidas tras la inundación de una mina de oro ilegal situada en la isla indonesia de Java, según informaron este jueves los servicios de rescate locales. Los mineros quedaron atrapados el lunes pasado después de que las lluvias torrenciales provocaran una repentina acumulación de agua dentro de los estrechos pozos de extracción.",
+            "Desiana Kartika Bahari, responsable de la agencia local de búsqueda y rescate, indicó en un comunicado que hasta la mañana del jueves se habían evacuado trece víctimas mortales. Las labores de búsqueda continúan en medio de condiciones sumamente adversas marcadas por la inestabilidad del terreno, la escasez de iluminación y la estrechez de las galerías, que alcanzan unos cien metros de profundidad."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El portavoz de la policía de Java Occidental, Hendra Rochmawan, detalló que once mineros consiguieron salir a salvo antes de que el agua inundara por completo los túneles el lunes. No obstante, la gravedad de la situación no trascendió de inmediato, ya que las autoridades solo fueron alertadas de la presencia de trabajadores atrapados hasta el martes.",
+            "Los accidentes en explotaciones mineras de este tipo son habituales en Indonesia, un archipiélago del sudeste asiático caracterizado por su riqueza en recursos minerales. En las minas que operan sin licencia oficial, las medidas de seguridad suelen ser deficientes o directamente inexistentes, exponiendo a los operarios a riesgos fatales de manera sistemática."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los boletines oficiales atribuyen la tragedia exclusivamente a las inclemencias meteorológicas y a la imprudencia operativa, el análisis de Punto Ciego revela una realidad más compleja. La existencia de estas minas ilegales no responde a un vacío accidental, sino a una economía de subsistencia tolerada tácitamente por las estructuras locales.",
+            "La falta de fiscalización efectiva refleja la incapacidad del Estado para proveer alternativas económicas viables en regiones periféricas. Así, la clandestinidad minera se convierte en la única vía de supervivencia para comunidades enteras, transformando la precariedad laboral en una bomba de tiempo humanitaria que solo acapara atención mediática cuando ocurre una catástrofe masiva."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este engranaje de extracción informal, los eslabones más débiles de la cadena, los mineros locales, asumen la totalidad del riesgo físico a cambio de ingresos marginales. Por otro lado, redes de intermediarios y compradores informales se benefician de la extracción de oro al margen de los controles fiscales y aduaneros del Estado.",
+            "El gobierno indonesio, en tanto, asume el costo político y operativo de gestionar emergencias recurrentes, mientras su soberanía reguladora sobre los recursos naturales se debilita frente a la proliferación de economías subterráneas imposibles de auditar."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Será fundamental observar si el impacto mediático de este suceso obliga a Yakarta a desplegar operativos de control más estrictos en Java o si, por el contrario, la respuesta gubernamental se limita a un despliegue temporal de rescate sin alterar las condiciones estructurales de la minería ilegal.",
+            "Asimismo, conviene monitorear la presión sobre los precios locales del oro y las medidas de formalización que el Ministerio de Energía e Industria Mineral pueda anunciar en las próximas semanas para contener la expansión de los yacimientos clandestinos."
+          ]
+        }
+      ],
+      "tags": [
+        "Indonesia",
+        "Minera",
+        "Java",
+        "Seguridad",
+        "Economia"
+      ],
+      "sources": [
+        {
+          "name": "Deutsche Welle (DW)",
+          "title": "Trece muertos y 13 desaparecidos tras inundación de mina ilegal de oro en Indonesia",
+          "url": "https://www.dw.com/es/trece-muertos-y-13-desaparecidos-tras-inundación-de-mina-ilegal-de-oro-en-indonesia/a-80056217?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "name": "DW.com",
+          "title": "Al menos 13 muertos por inundación en mina de oro en la isla indonesia de Java",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR2M4SDZYUXp5RGt0Y3hZYnlsU0hHM0h5MmF6eHFJNkFHM2hQVHR3V1BvR050OEZJSnlDdTN1MHZlX2VOSVVlcG44SXEybExHdHkxQk4tU1ZBQjVRMkdiaWx1cEUwQW5WZTdYaUcwODZuejN1WW5PWTFfM1JaektkVmJHUzhwUU1xREthOHp6YmtMWWl2dGJBOWk2MlBWVXdUNEhhLUZXOUxISDFFNzlobTJyYTQxUVEwY3dvS29n0gG-AUFVX3lxTFBZZTVCbUNiM1p6WnVxeWQ3djMycGIyMG5hVFlmWThtTUdZUTRINDlpV2xwZE5OZmpvcVNBMUVKOXpyY0VwX1ZnTklsRVFDUGs1WHlJX1ZFZjJJNXYtNldBbzBSa0RSb3lmWng3WVNEbHRLdXREOEVRei1MTll2alg5czhtMEs3a21YOUpPcXY5NGx1Nk8wNkJIeVNqQkFDcFV1RkxrbXdmWUhEMHpaU1o5T0ZrU3dPRWZ2T0EwYVE?oc=5"
+        },
+        {
+          "name": "Infobae",
+          "title": "Indonesia busca desaparecidos y sube a 13 los muertos por la inundación de una mina de oro",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ0NFNXpIUFVjSU9oTXFWeERERjY5NG55b0tmNWtEa2R5VDhvcGlCUVhoeHRvNE1mT2NZWXY0U2VWUWlnWFJqMWpSVWY1RnE4UzVfUmVDYnNPWVc0M0F0dE9uN0ZHUEJyN0NSZlRoS1F0V2sxaEtGTGJuTXVrT1ZaQzl5NDM0eGhENjMtZFBkdVh3cUdPSUFHZ0hveGsxNnVEcGZYeWxGWm0zaFh2T1g1V1pRQkFhTlVaaU1hd1hKclpEQ3JtbmtSUkRFTXRqRnROVm83cExfUV8wSE3SAfYBQVVfeXFMTXFBZ290MExveU1NcU1qdy1TM0htSDFXaTRlUWN3MF93VnUyRUNrS0V3MExNRjlqRnVmVUdqeDZiMmc2ZnJnZFhyOFVuMk9OcUI2eDBJSFcyR1NBcC1lZy16MnpnZXhldkZuVjVsZGJZeFpEdmZUVVZfWTU3SkxLeWdpN0JfOUR5d1pqMTRsNHNmSzBWQk5ZVElNSTBHNWcyNTZYb1lsdW9UeVh1NFEzejhPMnU2UFNnV0RvVmNOeW1DVzhXcklVbzF1Yk9yWmM1aG53b1hMVTdzbTJ2dnR2M1NMMGI4bGp6ekVWNjRMWXkweTlHYXB3?oc=5"
+        },
+        {
+          "name": "Quinta Fuerza",
+          "title": "Inundación en mina de oro ilegal deja seis muertos y 20 desaparecidos en Indonesia",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRHlnV1pUb2JwRmRDeGZTODl6akNGek8waDdCcTlVX0l0bVRjRmUyUE9VcFZvbVV2djZLYTlzamVMLUc1VW1OSjBTNFowd0dWTDYzUDFQemZmazV1RFlsVGVjRm1DTXpGdXJSU1FHZWRYTmR4b3VVQzNvLXNicGpKbUhKcUcxMjZDT1ZsRk5qbmRaRTJLRlFrSXdyVDltTlFs?oc=5"
+        },
+        {
+          "name": "Diario Río Negro",
+          "title": "Tres muertos tras la inundación de un mina de oro en Indonesia: hay 23 desaparecidos",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTTRGMnIyaENFY2N3RjlDV3ZvS2lXSm1JMW4wdDhNRVFSNkJvWnNDcloxUTdYYmVla1JiUjZneVZiRUc5eUdWczNwMVlSMnBJZ2R6ZFFfa0E5eHRia25jMzY4N3U1Z21DUTZ4OHA5eW9tNkRrZWtGTEc2bGNuQkxBTTgxVVFKLVh0RnRINU9BSnBxWVZERlFrMVhhd2lkTzFZQy1MSVB5YUhuRi11SXZmQXRoV08zYzJIQ25MZ2FObUxVV25R0gHMAUFVX3lxTE1idTBDY3pOeDJUTzhlRFU4OThWaXEtWDlmVUJoaVdrRl9JLURTV1I4ZWtzNjV1dnNmazVneFkzQ2ltRTYwNlRRVnpQM3lKTjUyUE1yN0labVF1cDI2QmcxZW1LdXF5cnVWU0VhTGxPWDNrS1ZPMmJmR0M0RHlmbkFaLTFRc0h3UDJRTlRGOXlDUEllcllteXIwVWtBTW5vSmVqdDJiVG1fQ01jX1ZtYlhaX2lnUzgyTXlzdkNDYXFkZGxpQWx3Y3JLbkZwZA?oc=5"
+        }
+      ],
+      "wordCount": 543
+    },
+    "blindSpot": "La cobertura se limita a lamentar la tragedia climática, omitiendo la connivencia institucional y la voracidad económica global por los minerales extraídos al margen de la ley. Estas operaciones informales sostienen economías locales enteras ante la incapacidad estatal de ofrecer alternativas viables en el sudeste asiático."
+  },
+  {
     "slug": "analisis-datos-filtrados-eleva-setecientos-mil-zkz0",
     "path": "noticias/analisis-datos-filtrados-eleva-setecientos-mil-zkz0/",
     "title": "Un análisis de datos filtrados eleva a setecientos mil los soldados rusos muertos en Ucrania",
