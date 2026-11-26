@@ -370,9 +370,42 @@
     "https://es.wired.com/articulos/whatsapp-estrena-funcion-para-programar-mensajes-asi-puedes-utilizarla",
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU9jb2V4S2tRRGFFcU1vNU5WZEp1UGV4VnZ0MmFyMnYwZk5odkFrbnc0RmQ4V1JxRnRZcno2alJwbEU1dTJONEhNWDY5UXdPQ2pRV25WYUxidXl5eE43VEIwQjZ2Nk15QTVmYnF2eno0YXBaczhJbEZTVG1rMmhIdzVKOS1zdkdXbmZKVUVlQk5xWUtTSGFEdXhEVV9SVmtEdFNzV3RrbVhRek9KX1VPUWJfdGFBMFl3RWFtRzB6V2E3M2pmX3JGU0JBb1VyZUFPVURhZ2RjV2NTSHZybFY2aw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12enJ1WW1kVjNXeDl2c3gycjRDZksxZ3IwNC01clRzRXJUU0x5Z0h1aDZuYjR1NUR0R0lGMzVFeEpCQ3FmcTVkaHFDNW1uUThLYzNhQTk5WXJfLWtF0gFiQVVfeXFMTWhkOF9qYktDNEZxZ0RzVzI0V0RXUWlOdkt6cHlxeDBaazR1YTRJWU5YLUFRbVBNNi02WnZpb1MtbktwVHdLVENQRm5iVlRyRFFqN2J4VHh3X2tqdVVvSlRIeEE?oc=5",
-    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXc3TWxWWEtPUkphaXN0TC1LUjQxcWlyU1lIcU1sS2NBaHFHNC15TC1rSnlVZDNfa3ItZTNaYTY3N3UwcDgtSnhlNzBXeUw5OGoxanhsVWtMQkxubmpFXzNVRWd1NGJmd3gxUU1aVUNpRXREM2xHQTlGUVJLbGdBTVZadXJqZC1t?oc=5"
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXc3TWxWWEtPUkphaXN0TC1LUjQxcWlyU1lIcU1sS2NBaHFHNC15TC1rSnlVZDNfa3ItZTNaYTY3N3UwcDgtSnhlNzBXeUw5OGoxanhsVWtMQkxubmpFXzNVRWd1NGJmd3gxUU1aVUNpRXREM2xHQTlGUVJLbGdBTVZadXJqZC1t?oc=5",
+    "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "FILTRACIÓN REVELA MÁS DE SETECIENTAS MIL BAJAS MORTALES RUSAS",
+      "normalizedTokens": [
+        "filtracion",
+        "revela",
+        "mas",
+        "setecientas",
+        "mil",
+        "bajas",
+        "mortales",
+        "rusas"
+      ],
+      "date": "2026-11-26T05:01:28.182Z"
+    },
+    {
+      "title": "Más de 700.000 soldados rusos han muerto en casi cinco años de guerra en Ucrania",
+      "normalizedTokens": [
+        "mas",
+        "700",
+        "000",
+        "soldados",
+        "rusos",
+        "han",
+        "muerto",
+        "casi",
+        "cinco",
+        "anos",
+        "guerra",
+        "ucrania"
+      ],
+      "date": "2026-11-26T05:01:28.180Z"
+    },
     {
       "title": "COMBATES EN CONGO FORZAN EVACUACIÓN DE MÉDICOS CONTRA EL ÉBOLA",
       "normalizedTokens": [
@@ -7448,35 +7481,6 @@
         "central"
       ],
       "date": "2026-11-09T13:23:14.777Z"
-    },
-    {
-      "title": "VINCULAN A EMPRESARIA CHINA CON OPERACIÓN DE ESPIONAJE CONTRA NVIDIA",
-      "normalizedTokens": [
-        "vinculan",
-        "empresaria",
-        "china",
-        "operacion",
-        "espionaje",
-        "nvidia"
-      ],
-      "date": "2026-11-09T12:28:37.933Z"
-    },
-    {
-      "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-      "normalizedTokens": [
-        "who",
-        "alice",
-        "huang",
-        "the",
-        "alleged",
-        "chinese",
-        "spy",
-        "linked",
-        "nvidia",
-        "jensen",
-        "huang"
-      ],
-      "date": "2026-11-09T12:28:37.932Z"
     }
   ]
 }

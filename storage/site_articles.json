@@ -1,5 +1,107 @@
 [
   {
+    "slug": "analisis-datos-filtrados-eleva-setecientos-mil-zkz0",
+    "path": "noticias/analisis-datos-filtrados-eleva-setecientos-mil-zkz0/",
+    "title": "Un análisis de datos filtrados eleva a setecientos mil los soldados rusos muertos en Ucrania",
+    "headline": "FILTRACIÓN REVELA MÁS DE SETECIENTAS MIL BAJAS MORTALES RUSAS",
+    "dek": "Investigaciones basadas en registros internos de la agencia Rosstat exponen una dimensión inédita de la mortalidad militar rusa y su impacto demográfico estructural tras casi cinco años de guerra.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "ABC Internacional",
+    "image": "img/analisis-datos-filtrados-eleva-setecientos-mil-zkz0.jpg",
+    "photo": "img/analisis-datos-filtrados-eleva-setecientos-mil-zkz0-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "hv6SMqK5bZ8",
+      "title": "🇺🇦 Guerra Rusia Ucrania: más de 700.000 muertos y el plan de Estados Unidos | DNews",
+      "channel": "DNews"
+    },
+    "publishedAt": "2026-11-26T05:01:27.990Z",
+    "article": {
+      "slug": "analisis-datos-filtrados-eleva-setecientos-mil-zkz0",
+      "title": "Un análisis de datos filtrados eleva a setecientos mil los soldados rusos muertos en Ucrania",
+      "dek": "Investigaciones basadas en registros internos de la agencia Rosstat exponen una dimensión inédita de la mortalidad militar rusa y su impacto demográfico estructural tras casi cinco años de guerra.",
+      "keyFacts": [
+        "Más de 700.000 militares rusos habrían muerto desde el inicio de la invasión a gran escala.",
+        "La filtración proviene de la agencia rusa de estadística Rosstat, hackeada por Cyber Partisans y Silent Crow.",
+        "Hasta noviembre se habían registrado nominalmente 285.881 nombres por Mediazona y la BBC.",
+        "La guerra se convirtió en 2025 en la principal causa de muerte de los varones rusos menores de 65 años."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El coste humano de la guerra en Ucrania ha permanecido bajo estricto secreto de Estado desde los compases iniciales del conflicto. La última actualización oficial emitida por el Ministerio de Defensa ruso se remonta a septiembre de 2022, cuando se cifró en 5.937 los fallecidos en filas propias. Por su parte, el presidente ucraniano, Volodímir Zelenski, situó en 55.000 las bajas mortales de sus Fuerzas Armadas en febrero de 2026.",
+            "Sin embargo, una investigación conjunta basada en datos filtrados de la agencia rusa de estadística Rosstat estima que más de setecientos mil militares rusos han perdido la vida desde el inicio de la invasión. La brecha de seguridad fue perpetrada el 1 de noviembre por los grupos de hackers bielorrusos Cyber Partisans y Silent Crow, quienes accedieron a los sistemas informáticos del organismo estatal."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Antes de esta filtración, medios independientes como Mediazona y el servicio ruso de la BBC habían recopilado una lista nominal de 285.881 nombres y apellidos de militares fallecidos utilizando obituarios, publicaciones de familiares y registros locales públicos hasta el pasado 6 de noviembre.",
+            "Los documentos obtenidos de Rosstat demuestran que dicho registro inicial se queda corto. A finales de septiembre de 2026, las bases de datos oficiales internas reflejaban al menos 490.000 muertes derivadas directamente de la contienda. Al incorporar los decesos aún no registrados administrativamente y los desaparecidos, la cifra se eleva hasta los setecientos mil soldados, excluyendo a mercenarios extranjeros y personal de los territorios ucranianos ocupados."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá del número bruto de bajas, el análisis de los once millones seiscientos mil registros de defunción filtrados destapa una transformación demográfica profunda en la sociedad rusa. Una investigación paralela realizada por The Guardian revela que, a lo largo de 2025, la guerra se consolidó como la principal causa de muerte de los varones rusos menores de sesenta y cinco años.",
+            "Este fenómeno altera de forma estructural la fuerza laboral del país y tensiona los sistemas de previsión social, un impacto a largo plazo que la narrativa oficial de Moscú omite sistemáticamente mientras acelera sus campañas de reclutamiento."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el tablero estratégico, el Estado ruso asume un coste humano insostenible que erosiona su capital demográfico productivo, obligando al Kremlin a depender de incentivos financieros extraordinarios para mantener el flujo de reemplazos hacia el frente.",
+            "Por otro lado, la verificación independiente de estas cifras debilita el relato oficial de control y estabilidad que promueve Moscú, aportando transparencia cuantitativa a un conflicto donde la opacidad informativa ha sido la norma."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Es imperativo seguir de cerca la evolución del mercado laboral ruso y la efectividad de sus mecanismos de alistamiento ante una sangría demográfica que ya impacta directamente a la población masculina en edad de trabajar.",
+            "Asimismo, la capacidad de los medios independientes para auditar futuros flujos de datos oficiales será determinante para medir la verdadera resiliencia del esfuerzo bélico ruso."
+          ]
+        }
+      ],
+      "tags": [
+        "Rusia",
+        "Ucrania",
+        "Demografía",
+        "Rosstat",
+        "Mediazona"
+      ],
+      "sources": [
+        {
+          "name": "ABC Internacional",
+          "title": "Más de 700.000 soldados rusos han muerto en casi cinco años de guerra en Ucrania",
+          "url": "https://www.abc.es/internacional/700000-soldados-rusos-muerto-muertos-cinco-anos-20261125183734-nt.html"
+        },
+        {
+          "name": "Fox News",
+          "title": "PutinSegún se informa, el número de muertos en la guerra supera los 700 000, mientras Rusia se apresura a reclutar soldados",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQmZzQTVxNExGNTdpM0RCaGJ3UG5aX1o3NU94QkxYUW9oaldxNGVKODZiNjFlOXhDLUFXS0FlODBqbjRPampRelB4eXZyTGotb0t3cnlzamtVYV9CNDE3cmgya1kyNkxBUFExTklNNTJIWEtfOHlOTW9tYVpNWkZQQ0RvWEpnbEVfb0syeXQ1dkpRNjNKZ0pkQi1BM3liUFUzUjBmdUlfYnDSAa4BQVVfeXFMTkxOdC1mYlFIakFtdW1GRVF6VEJkQ3lwWURqbXlIQXU0SkppX2Z2QjM3OHo0eUJENUlUZXFkRE82SDJWNWYtSm4wTnFwc2kxSEdnZ2laa0R5WVJMSnYwclEzWnVWTXlpYzE2dVJjOElwOWlMaWNwSUFtVUthNzdNdnRnNjhmN0IwZjdmNG12VVpGbFd5aXF4WXlBYS1hVlA0bVFod1dSVVpQZTF1eUlB?oc=5"
+        },
+        {
+          "name": "The New York Times",
+          "title": "Más de 700.000 soldados rusos han muerto en Ucrania, indica un análisis",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPejVmeVYzelNRRmxlQXdwWGV4Q19wb1oyTGZXWk5JUHNTR2dQdnJHQVlJYjB0ZGIybEQ4R2pjcGVGNkktbnhxcnMtSUxvMGZ2c1dWOXVqb0s4LTAwLTJ5R3N6WU43cnFRaThHNTJTZjR3UWdjbmJ4SzRZbjlRSWo3OGp0NkNhRXNRUXFoT3pUajA?oc=5"
+        },
+        {
+          "name": "ABC",
+          "title": "Más de 700.000 soldados rusos han muerto en casi cinco años de guerra en Ucrania",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONS1qNmVtOE56MFluZ1lyUGFDU0x6eUtSemNsbWRsR2tkT01ZdFZpeHdxNE5kcGRTVWM0QWtnQjR5SGVCbWxPU1VQQVYzVDV3bGpSaXRwQ2pudE1FYTAzMUh1dlg5SVAtRF9pWk9ERXJGSWJwSHZCMVdkc2F6SmJXNUhaUVM3dUwyR2U5Yk1Zd2RRV1h5NFU2OGxkVFpseUtEMWVpSXVB0gGrAUFVX3lxTFBoM2RpZEFSZi1OM1d6TmEzeGZEMndUWEs3WjE5V0puUjB6UkUzVTFVTnZoT3gzRE1keXhyV2J5VmhNUVN1Y08wQ01hdUYtckp0djdpMXRaZ2RhNEEtZGlpa1M1TnBqSzVqTU81ckdpWFRvSlVNOGVLUGFFcHVuOFprZkJVSDF6cWFTM2dPQTRId1VPMXA5RGNJTzhPRHVpeVBDYXI3TUE1LTBHNA?oc=5"
+        },
+        {
+          "name": "La Vanguardia",
+          "title": "Más de 700.000 soldados rusos han muerto en Ucrania, según un análisis de datos oficiales",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLU1CNWc3bjhndHNFbi1kcUxBSUN5MjhrWnF6VnYzN1g0enVkN2VtdE44b05kai1hTXVOUW1QR2Q1U3hlQ3V4YjJhUVdpYkJIRnoyTDVBSDNWQlg4VzhxVEl2R2MwNXFBUkZzUjR3Qjg4dFFNWkFHa0huUVAxZF9ZT2trVEtzeGZjNmlVaDBMcEIyWEFHYXFXdnFWZHhfRFh6Z0Y5dWdKRXRNejIxQmtDWi1FT3o5U21UamNrZExkcU5fd1hobWRpZFEyOE1VTEFaR0HSAdcBQVVfeXFMTlhZTnRXenJkYnFQcFlkUFc2YzRNTVNtNWpmNUtvMHF2ZVZ6MzhSdGFCcjdDQlNUenJaYW9WMmlESWNFUjNMR0VIbkNEazJBMkt2X1ZTdnRCcjZCbjRjYWdXRWo1Q1pacW05ZzBqYUpqOUN1WEV4UzBrcm9GZGZ6RXBnMDZkdFpRMjNSWi1rRWRvVG51dHd0bU0yRTRreVNfOWdja01aNDFndzZaRjRsZExaa0lxMWh4RWdvSGhNWlEycGlqaGtQRGVVSWN0bmZJTHhPLVRXeEk?oc=5"
+        }
+      ],
+      "wordCount": 501
+    },
+    "blindSpot": "Mientras la atención mediática se concentra en el número bruto de bajas, el verdadero punto ciego radica en cómo la guerra se ha convertido en la principal causa de muerte de varones rusos menores de sesenta y cinco años, alterando irreversiblemente la demografía laboral y la estabilidad interna del Estado ruso a largo plazo."
+  },
+  {
     "slug": "retirada-medica-congo-deja-ebola-sin-s2b6",
     "path": "noticias/retirada-medica-congo-deja-ebola-sin-s2b6/",
     "title": "La retirada médica en el Congo deja al ébola sin contención frente al conflicto armado",
