@@ -379,6 +379,33 @@
   ],
   "processedSignatures": [
     {
+      "title": "COMBATES EN CONGO FORZAN EVACUACIÓN DE MÉDICOS CONTRA EL ÉBOLA",
+      "normalizedTokens": [
+        "combates",
+        "congo",
+        "forzan",
+        "evacuacion",
+        "medicos",
+        "ebola"
+      ],
+      "date": "2026-11-26T13:24:28.360Z"
+    },
+    {
+      "title": "Combates en el Congo obligan a trabajadores médicos que luchan contra brote de ébola a evacuar",
+      "normalizedTokens": [
+        "combates",
+        "congo",
+        "obligan",
+        "trabajadores",
+        "medicos",
+        "luchan",
+        "brote",
+        "ebola",
+        "evacuar"
+      ],
+      "date": "2026-11-26T13:24:28.358Z"
+    },
+    {
       "title": "OPENAI DISPUTA HALLAZGO MATEMÁTICO Y DESENCADENA CRISIS EN LA CIENCIA",
       "normalizedTokens": [
         "openai",
@@ -7450,32 +7477,6 @@
         "responsable"
       ],
       "date": "2026-11-09T20:56:03.234Z"
-    },
-    {
-      "title": "EL PAPA LEÓN XIV DESAFÍA LA AUSTERIDAD ARGENTINA",
-      "normalizedTokens": [
-        "papa",
-        "leon",
-        "xiv",
-        "desafia",
-        "austeridad",
-        "argentina"
-      ],
-      "date": "2026-11-09T19:13:22.946Z"
-    },
-    {
-      "title": "Argentina: El Papa Leo XIV recibe cálida bienvenida en Claypole",
-      "normalizedTokens": [
-        "argentina",
-        "papa",
-        "leo",
-        "xiv",
-        "recibe",
-        "calida",
-        "bienvenida",
-        "claypole"
-      ],
-      "date": "2026-11-09T19:13:22.945Z"
     }
   ]
 }
