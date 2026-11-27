@@ -383,9 +383,39 @@
     "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf",
     "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/",
     "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html",
-    "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.europapress.es/internacional/noticia-menos-dos-muertos-ataque-ruso-contra-red-suministro-agua-provincia-chernigov-20261127132831.html"
   ],
   "processedSignatures": [
+    {
+      "title": "RUSIA INTENSIFICA ATAQUES CONTRA LA INFRAESTRUCTURA HÍDRICA Y ENERGÉTICA UCRANIANA",
+      "normalizedTokens": [
+        "rusia",
+        "intensifica",
+        "ataques",
+        "infraestructura",
+        "hidrica",
+        "energetica",
+        "ucraniana"
+      ],
+      "date": "2026-11-27T12:54:31.096Z"
+    },
+    {
+      "title": "Al menos dos muertos en un ataque ruso contra la red de suministro de agua en la provincia de Chernígov",
+      "normalizedTokens": [
+        "menos",
+        "dos",
+        "muertos",
+        "ataque",
+        "ruso",
+        "red",
+        "suministro",
+        "agua",
+        "provincia",
+        "chernigov"
+      ],
+      "date": "2026-11-27T12:54:31.086Z"
+    },
     {
       "title": "TRES INFORMES EXPONEN LA CRISIS PALESTINA EN GAZA",
       "normalizedTokens": [
@@ -7447,34 +7477,6 @@
         "attacks"
       ],
       "date": "2026-11-10T16:11:31.106Z"
-    },
-    {
-      "title": "EL BANCO CENTRAL DE BRASIL ADVIERTE REBROTE INFLACIONARIO POR OFERTA",
-      "normalizedTokens": [
-        "banco",
-        "central",
-        "brasil",
-        "advierte",
-        "rebrote",
-        "inflacionario",
-        "oferta"
-      ],
-      "date": "2026-11-10T14:31:54.744Z"
-    },
-    {
-      "title": "Banco Central de Brasil dice que petróleo, El Niño, están detrás de repunte de la inflación",
-      "normalizedTokens": [
-        "banco",
-        "central",
-        "brasil",
-        "petroleo",
-        "nino",
-        "estan",
-        "detras",
-        "repunte",
-        "inflacion"
-      ],
-      "date": "2026-11-10T14:31:54.742Z"
     }
   ]
 }

@@ -1938,5 +1938,15 @@
     "relevant": true,
     "reason": "Muestra restos de una aeronave destruida en Yemen, lo que ilustra visualmente el impacto del conflicto militar y los bombardeos en la región.",
     "at": "2026-11-27T11:31:59.953Z"
+  },
+  "0ef83e6e63bbdef3:93slmbdj1": {
+    "relevant": false,
+    "reason": "La imagen muestra vehículos calcinados y personal militar, pero no representa infraestructura hídrica ni energética.",
+    "at": "2026-11-27T12:54:12.338Z"
+  },
+  "f47643c79dee59ab:93slmbdj1": {
+    "relevant": false,
+    "reason": "La imagen muestra un mapa del Golfo Pérsico y Oriente Medio, una región geográfica sin relación con el conflicto en Ucrania.",
+    "at": "2026-11-27T12:54:27.884Z"
   }
 }
