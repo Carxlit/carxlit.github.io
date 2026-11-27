@@ -1948,5 +1948,10 @@
     "relevant": false,
     "reason": "La imagen muestra un mapa del Golfo Pérsico y Oriente Medio, una región geográfica sin relación con el conflicto en Ucrania.",
     "at": "2026-11-27T12:54:27.884Z"
+  },
+  "55d22385cb90b6bc:c1qmaqvb5": {
+    "relevant": true,
+    "reason": "La imagen muestra a Sam Altman, CEO de OpenAI, cuya empresa y modelo son el eje central de la noticia.",
+    "at": "2026-11-27T23:05:48.476Z"
   }
 }

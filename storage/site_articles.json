@@ -1,5 +1,85 @@
 [
   {
+    "slug": "ciencia-bajo-algoritmo-falso-triunfo-openai-oybs",
+    "path": "noticias/ciencia-bajo-algoritmo-falso-triunfo-openai-oybs/",
+    "title": "La ciencia bajo el algoritmo: el falso triunfo de OpenAI sobre la gravedad cuántica",
+    "headline": "OPENAI Y LA GRAVEDAD CUÁNTICA DESATAN REBELIÓN CIENTÍFICA",
+    "dek": "El anuncio de un excolaborador de OpenAI sobre la resolución de la gravedad cuántica usando IA expone la creciente tensión entre el rigor científico y el marketing corporativo de Silicon Valley.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "El País Tecnología",
+    "image": "img/ciencia-bajo-algoritmo-falso-triunfo-openai-oybs.jpg",
+    "photo": "img/ciencia-bajo-algoritmo-falso-triunfo-openai-oybs-foto.jpg",
+    "publishedAt": "2026-11-27T23:05:52.490Z",
+    "article": {
+      "slug": "ciencia-bajo-algoritmo-falso-triunfo-openai-oybs",
+      "title": "La ciencia bajo el algoritmo: el falso triunfo de OpenAI sobre la gravedad cuántica",
+      "dek": "El anuncio de un excolaborador de OpenAI sobre la resolución de la gravedad cuántica usando IA expone la creciente tensión entre el rigor científico y el marketing corporativo de Silicon Valley.",
+      "keyFacts": [
+        "El físico teórico Venkatesa Chandrasekaran publicó un preprint sobre la gravedad cuántica tras trabajar con el modelo GPT-6 Astra de OpenAI.",
+        "El investigador empleó 400 millones de unidades de datos o tokens para completar su propuesta.",
+        "Sam Altman y Greg Brockman celebraron públicamente el avance en la red X, agradeciendo la contribución desde OpenAI.",
+        "La propuesta carece de revisión por expertos independientes y omite la declaración formal de conflictos de interés."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El físico teórico Venkatesa Chandrasekaran ha publicado una descripción preliminar de la gravedad cuántica, uno de los problemas más complejos de la física moderna que lleva más de un siglo sin resolverse. En su propuesta, firmada como investigador de Stanford, el autor agradece expresamente a OpenAI y a su director ejecutivo, Sam Altman, por el uso del modelo GPT-6 Astra durante meses de trabajo, financiado con un consumo de 400 millones de tokens.",
+            "El anuncio fue inmediatamente aplaudido por la cúpula de la compañía. Sam Altman y el cofundador Greg Brockman utilizaron la red social X para ensalzar el trabajo y la valentía del investigador. Sin embargo, la propuesta no ha sido sometida a los procesos habituales de revisión por pares independientes, generando un intenso rechazo en la comunidad académica."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La controversia se enmarca en una agresiva competencia entre los gigantes de la inteligencia artificial por demostrar supremacía resolviendo problemas milenarios de la ciencia. Esta misma semana, el sector presenció un movimiento similar con la aparente solución de la hipótesis de Riemann atribuida a Anthropic.",
+            "El problema central de la física teórica radica en conectar la teoría general de la relatividad de Einstein con la mecánica cuántica. Ningún investigador ha logrado formular de manera consistente cómo opera la gravedad a escala de las partículas elementales. La incursión de modelos avanzados como GPT-6 Astra en este terreno busca acelerar resultados, pero choca frontalmente con los protocolos tradicionales de validación empírica y matemática."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la viabilidad matemática de la propuesta, el verdadero motor detrás de la publicación radica en la estrategia de relaciones públicas de OpenAI. Expertos en física teórica han señalado que las formas y el fondo del anuncio responden a una táctica publicitaria que utiliza la autoridad de la ciencia fundamental para legitimar comercialmente los modelos de lenguaje.",
+            "Además, existe un vacío metodológico crítico. A diferencia de las matemáticas, donde programas como Lean permiten verificar formalmente razonamientos complejos generados con asistencia computacional, la física requiere un contraste empírico y conceptual para el cual no existe un equivalente informático automatizado. Esto deja a la comunidad científica ante argumentos tan complejos que ni los mayores especialistas pueden auditar, obligándoles a aceptar o rechazar avances sin la debida trazabilidad."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los gigantes tecnológicos consolidan su narrativa de infalibilidad y dominio intelectual sobre las instituciones académicas tradicionales, capitalizando el prestigio de la ciencia básica. La compañía de Altman gana un poderoso activo de relaciones públicas que desvía la atención de las críticas regulatorias y éticas.",
+            "Por el contrario, la comunidad científica pierde autoridad epistémica y credibilidad institucional. Al eludir los filtros tradicionales de revisión y utilizar canales corporativos para difundir descubrimientos no verificados, se degrada el método científico y se traslada la validación del conocimiento desde la academia hacia los intereses comerciales de Silicon Valley."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Resulta imperativo observar si la comunidad de físicos teóricos logra desmontar formalmente la propuesta de Chandrasekaran mediante la revisión independiente que la empresa evitó. También es crucial monitorear cómo las universidades y los centros de investigación independientes comienzan a regular la participación de investigadores financiados por corporaciones tecnológicas en publicaciones de alto impacto."
+          ]
+        }
+      ],
+      "tags": [
+        "FisicaCuantica",
+        "OpenAI",
+        "InteligenciaArtificial",
+        "MetodoCientifico",
+        "SamAltman"
+      ],
+      "sources": [
+        {
+          "name": "El País Tecnología",
+          "title": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+          "url": "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html"
+        },
+        {
+          "name": "EL PAÍS",
+          "title": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNEhWNFV2Tmh3Ylc3ZHBucWpTd3l6TG9KRDlzSW5NX2d4Rm9BUXVUODhmXzItdUJiVHZXa0RJV24wTnVmSTB6YjhWckFYejY4VzRCdGt0bWpRU1VwVFdyV3N5aTFTMzFUN0tfZk1tYUJYZUY0RzRaTU10eHVWcWtWRXJiQ3lDNHpLdl9ZWWNGams0VGMtSC1MY0V6Y1dFSG5WRkpYWkZBWVJoVFVQMHdWeERJZHktZkU3VFkxTFJzOG1EU3JmM3ZoMVY1VjZ1VGhOeVNTdG5ra0prSlBQRnBVaXdmRlV3ZUVGU0JPeDRiUWlVZGRGU2fSAYoCQVVfeXFMTmYtcU5vcFJ5MlJzd0xYcDdTNGVaSFZ6dE01eUJ2WnBDMXdHSzNpNEdoVGNJaHllaTU1OFlKZ0RBZjJPYl9SNU9DZHBRcy13VC1lS1lLUUp5eFRycXVqRng5bzlDTUtsdkNNLUk4REthcEdtV3ZrVkd2UlpybWVPNkdzUnJwak54STBiMHl1SFJpY0YySkQ4XzdtVklrTTNlaGhHb2EzZ0lKZHpkYzBfUy15RGs1V2Qwc2ZmZ3FtbkVILVFYcHFfamltVlJpUk1PbmF6dDZzWUhEcGNnM0FZb2xQbjZiVURsSnpkeWNWRTBKNlc3QVFJcGFYLTVRc0dFMTFGSW9oby1Fd1E?oc=5"
+        }
+      ],
+      "wordCount": 549
+    },
+    "blindSpot": "La carrera de las grandes tecnológicas por apropiarse de los hitos científicos mediante la cooptación de investigadores independientes. Al saltarse la revisión por pares tradicional y utilizar canales corporativos para validar avances invulnerables a la comprobación humana, la industria transforma la ciencia básica en una herramienta de marketing de alto octanaje."
+  },
+  {
     "slug": "rusia-extiende-ofensiva-estrategica-redes-hidricas-n4pk",
     "path": "noticias/rusia-extiende-ofensiva-estrategica-redes-hidricas-n4pk/",
     "title": "Rusia extiende su ofensiva estratégica a las redes hídricas y logísticas de Ucrania",

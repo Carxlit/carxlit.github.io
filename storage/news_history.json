@@ -384,9 +384,39 @@
     "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/",
     "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html",
     "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.europapress.es/internacional/noticia-menos-dos-muertos-ataque-ruso-contra-red-suministro-agua-provincia-chernigov-20261127132831.html"
+    "https://www.europapress.es/internacional/noticia-menos-dos-muertos-ataque-ruso-contra-red-suministro-agua-provincia-chernigov-20261127132831.html",
+    "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html"
   ],
   "processedSignatures": [
+    {
+      "title": "OPENAI Y LA GRAVEDAD CUÁNTICA DESATAN REBELIÓN CIENTÍFICA",
+      "normalizedTokens": [
+        "openai",
+        "gravedad",
+        "cuantica",
+        "desatan",
+        "rebelion",
+        "cientifica"
+      ],
+      "date": "2026-11-27T23:05:52.717Z"
+    },
+    {
+      "title": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+      "normalizedTokens": [
+        "rebelion",
+        "cientifica",
+        "anuncio",
+        "colaborador",
+        "openai",
+        "asegura",
+        "haber",
+        "resuelto",
+        "gran",
+        "problema",
+        "fisica"
+      ],
+      "date": "2026-11-27T23:05:52.708Z"
+    },
     {
       "title": "ATAQUE IRANÍ EN KUWAIT MATA A TÉCNICOS PRIVADOS EUROPEOS",
       "normalizedTokens": [
@@ -7444,34 +7474,6 @@
         "pentagono"
       ],
       "date": "2026-11-10T18:58:56.282Z"
-    },
-    {
-      "title": "DOCE MUERTOS EN CARAMBOLA VIAL EXPONE LA VULNERABILIDAD INFRAESTRUCTURAL BULGARA",
-      "normalizedTokens": [
-        "doce",
-        "muertos",
-        "carambola",
-        "vial",
-        "expone",
-        "vulnerabilidad",
-        "infraestructural",
-        "bulgara"
-      ],
-      "date": "2026-11-10T17:56:19.467Z"
-    },
-    {
-      "title": "Twelve dead after motorway pile-ups in Bulgaria fog",
-      "normalizedTokens": [
-        "twelve",
-        "dead",
-        "after",
-        "motorway",
-        "pile",
-        "ups",
-        "bulgaria",
-        "fog"
-      ],
-      "date": "2026-11-10T17:56:19.466Z"
     }
   ]
 }
