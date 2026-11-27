@@ -1908,5 +1908,20 @@
     "relevant": true,
     "reason": "La imagen muestra un campamento con inundaciones y barro en Gaza, lo cual ilustra directamente la crisis humanitaria y la emergencia invernal mencionada en el contexto.",
     "at": "2026-11-27T02:12:17.524Z"
+  },
+  "6c73e7d475f63d27:nnqwwjppn": {
+    "relevant": false,
+    "reason": "La imagen muestra a un político italiano y un logo del G7 en lugar del ataque en Kuwait o los contratistas mencionados.",
+    "at": "2026-11-27T03:06:05.503Z"
+  },
+  "34c56a715c940bcb:nnqwwjppn": {
+    "relevant": false,
+    "reason": "La imagen muestra a un guardia con una bandera italiana, pero se trata de una foto de archivo o de un desfile/ceremonia oficial desvinculada del ataque en Kuwait.",
+    "at": "2026-11-27T03:06:09.408Z"
+  },
+  "78cee730c8ee5811:nnqwwjppn": {
+    "relevant": true,
+    "reason": "Muestra el horizonte urbano de la ciudad de Kuwait, lugar principal donde ocurre la noticia.",
+    "at": "2026-11-27T03:06:17.542Z"
   }
 }

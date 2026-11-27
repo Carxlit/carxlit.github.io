@@ -379,9 +379,36 @@
     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWDQtS01LU3lhbHY2d2o4bnJBWGlJenZZODJiUy1qSENQWElHbnFoSmNjRjhDN2o0SmJaV0wxRVJTWElkZThUTEY1eFBodkRnVkRNUGdBMUtxdGJySnhMV2MtTjB0MUlUd2F6NHlrQWk3bkVad1IxWGRHTUw0WlBXX2Nuemh0bzZlS09PSzdmdGZ3UW9hd0JrUzl3SVdMbWFNSkhXdEtkcF90RUVva3pMempaUE5oNjVPZ2E4bldpdXRsZ3VfU1kxMEU3N2MtNmVPMHpkdXB0cmRNbk9nbEIyZ3cwNlM3NnVJdTZGT1g1YWdvVExIdXc?oc=5",
     "https://es.wired.com/articulos/estas-son-las-mejores-ofertas-anticipadas-para-black-friday",
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXVDRzduYmlxZW9iX2Utay1Na1JlOWNITk9tSllVeS1yMTlEYVNKVVlXUWVwSi1iQURCVHMtcnhJWWhBLU82NnVYb01Zc2RyR2JKTHE1N2dfcmhYS0FIUGRTR191Y2dUZlZYXzA5THFydVllR2NkMUptMG14d0JFLVB3?oc=5",
-    "https://www.eltiempo.com/mundo/medio-oriente/tres-informes-exponen-la-crisis-palestina-emergencia-por-el-invierno-en-gaza-denuncias-de-tortura-y-despidos-de-la-unrwa-sin-pruebas-suficientes-3604610"
+    "https://www.eltiempo.com/mundo/medio-oriente/tres-informes-exponen-la-crisis-palestina-emergencia-por-el-invierno-en-gaza-denuncias-de-tortura-y-despidos-de-la-unrwa-sin-pruebas-suficientes-3604610",
+    "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "ATAQUE IRANÍ EN KUWAIT MATA A TÉCNICOS PRIVADOS EUROPEOS",
+      "normalizedTokens": [
+        "ataque",
+        "irani",
+        "kuwait",
+        "mata",
+        "tecnicos",
+        "privados",
+        "europeos"
+      ],
+      "date": "2026-11-27T03:06:19.958Z"
+    },
+    {
+      "title": "Dos italianos mueren en ataque iraní con drones en Kuwait",
+      "normalizedTokens": [
+        "dos",
+        "italianos",
+        "mueren",
+        "ataque",
+        "irani",
+        "drones",
+        "kuwait"
+      ],
+      "date": "2026-11-27T03:06:19.956Z"
+    },
     {
       "title": "TRES INFORMES EXPONEN LA CRISIS PALESTINA EN GAZA",
       "normalizedTokens": [
@@ -7460,35 +7487,6 @@
         "real"
       ],
       "date": "2026-11-10T11:30:07.034Z"
-    },
-    {
-      "title": "ALIADOS OCCIDENTALES BLINDAN A LA OTAN PARA LA POSGUERRA EN UCRANIA",
-      "normalizedTokens": [
-        "aliados",
-        "occidentales",
-        "blindan",
-        "otan",
-        "posguerra",
-        "ucrania"
-      ],
-      "date": "2026-11-10T11:02:14.409Z"
-    },
-    {
-      "title": "Aliados europeos y EEUU defienden que la OTAN siga siendo el eje de la defensa europea tras la guerra",
-      "normalizedTokens": [
-        "aliados",
-        "europeos",
-        "eeuu",
-        "defienden",
-        "otan",
-        "siga",
-        "siendo",
-        "eje",
-        "defensa",
-        "europea",
-        "guerra"
-      ],
-      "date": "2026-11-10T11:02:14.407Z"
     }
   ]
 }
