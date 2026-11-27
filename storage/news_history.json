@@ -388,6 +388,32 @@
   ],
   "processedSignatures": [
     {
+      "title": "ATAQUE IRANÍ EN KUWAIT MATA A TÉCNICOS PRIVADOS EUROPEOS",
+      "normalizedTokens": [
+        "ataque",
+        "irani",
+        "kuwait",
+        "mata",
+        "tecnicos",
+        "privados",
+        "europeos"
+      ],
+      "date": "2026-11-27T13:54:27.725Z"
+    },
+    {
+      "title": "Dos italianos mueren en ataque iraní con drones en Kuwait",
+      "normalizedTokens": [
+        "dos",
+        "italianos",
+        "mueren",
+        "ataque",
+        "irani",
+        "drones",
+        "kuwait"
+      ],
+      "date": "2026-11-27T13:54:27.723Z"
+    },
+    {
       "title": "RUSIA INTENSIFICA ATAQUES CONTRA LA INFRAESTRUCTURA HÍDRICA Y ENERGÉTICA UCRANIANA",
       "normalizedTokens": [
         "rusia",
@@ -7446,37 +7472,6 @@
         "fog"
       ],
       "date": "2026-11-10T17:56:19.466Z"
-    },
-    {
-      "title": "RUSIA, UCRANIA Y ESTADOS UNIDOS RETOMAN NEGOCIACIONES EN ABU DABI",
-      "normalizedTokens": [
-        "rusia",
-        "ucrania",
-        "estados",
-        "unidos",
-        "retoman",
-        "negociaciones",
-        "abu",
-        "dabi"
-      ],
-      "date": "2026-11-10T16:11:31.107Z"
-    },
-    {
-      "title": "Russia, Ukraine and US resume peace talks in Abu Dhabi amid fresh attacks",
-      "normalizedTokens": [
-        "russia",
-        "ukraine",
-        "and",
-        "resume",
-        "peace",
-        "talks",
-        "abu",
-        "dhabi",
-        "amid",
-        "fresh",
-        "attacks"
-      ],
-      "date": "2026-11-10T16:11:31.106Z"
     }
   ]
 }
