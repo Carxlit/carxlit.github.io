@@ -380,9 +380,35 @@
     "https://es.wired.com/articulos/estas-son-las-mejores-ofertas-anticipadas-para-black-friday",
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXVDRzduYmlxZW9iX2Utay1Na1JlOWNITk9tSllVeS1yMTlEYVNKVVlXUWVwSi1iQURCVHMtcnhJWWhBLU82NnVYb01Zc2RyR2JKTHE1N2dfcmhYS0FIUGRTR191Y2dUZlZYXzA5THFydVllR2NkMUptMG14d0JFLVB3?oc=5",
     "https://www.eltiempo.com/mundo/medio-oriente/tres-informes-exponen-la-crisis-palestina-emergencia-por-el-invierno-en-gaza-denuncias-de-tortura-y-despidos-de-la-unrwa-sin-pruebas-suficientes-3604610",
-    "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/"
   ],
   "processedSignatures": [
+    {
+      "title": "EXPLOSIÓN EN DUCTO DE PEMEX GOLPEA A NUEVO LEÓN",
+      "normalizedTokens": [
+        "explosion",
+        "ducto",
+        "pemex",
+        "golpea",
+        "nuevo",
+        "leon"
+      ],
+      "date": "2026-11-27T05:03:18.070Z"
+    },
+    {
+      "title": "Pemex registra fuerte explosión en ducto de Nuevo León",
+      "normalizedTokens": [
+        "pemex",
+        "registra",
+        "fuerte",
+        "explosion",
+        "ducto",
+        "nuevo",
+        "leon"
+      ],
+      "date": "2026-11-27T05:03:18.062Z"
+    },
     {
       "title": "ATAQUE IRANÍ EN KUWAIT MATA A TÉCNICOS PRIVADOS EUROPEOS",
       "normalizedTokens": [
@@ -7457,36 +7483,6 @@
         "gaza"
       ],
       "date": "2026-11-10T11:39:18.260Z"
-    },
-    {
-      "title": "CLAUDE SALTA DEL CÓDIGO DIGITAL AL DISEÑO DE HARDWARE",
-      "normalizedTokens": [
-        "claude",
-        "salta",
-        "codigo",
-        "digital",
-        "diseno",
-        "hardware"
-      ],
-      "date": "2026-11-10T11:30:07.036Z"
-    },
-    {
-      "title": "Claude va un paso más allá del vibe coding y Fable 5.2 ha diseñado dispositivos que funcionan en el mundo real",
-      "normalizedTokens": [
-        "claude",
-        "paso",
-        "mas",
-        "alla",
-        "vibe",
-        "coding",
-        "fable",
-        "disenado",
-        "dispositivos",
-        "funcionan",
-        "mundo",
-        "real"
-      ],
-      "date": "2026-11-10T11:30:07.034Z"
     }
   ]
 }

@@ -26338,5 +26338,137 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-27T03:06:19.944Z"
+  },
+  {
+    "id": "queue-1795755798053-x499e",
+    "news": {
+      "id": "gfwpf71gk",
+      "originalUrl": "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/",
+      "originalTitle": "Pemex registra fuerte explosión en ducto de Nuevo León",
+      "sourceName": "Bloomberg Línea",
+      "category": "ECONOMÍA GLOBAL",
+      "urgencyScore": 75,
+      "headline": "EXPLOSIÓN EN DUCTO DE PEMEX GOLPEA A NUEVO LEÓN",
+      "subHeadline": "Un tramo de 250 metros lineales de un ducto de Pemex en Cadereyta registró un fuerte incendio, evidenciando los riesgos operativos crónicos de la petrolera estatal.",
+      "blindSpotAngle": "Más allá de la respuesta de emergencia, la atención mediática ignora el impacto financiero y de seguridad industrial de una infraestructura que opera un 27% por encima de su meta de accidentes establecida, afectando directamente la estabilidad operativa de la refinería local.",
+      "facebookPost": "La petrolera estatal Pemex enfrentó un nuevo incendio en un ducto ubicado en el ejido Las Palomitas, en el municipio de Cadereyta, Nuevo León, afectando un tramo de 250 metros lineales.\n\nMientras la empresa se limita a catalogar el evento como un incidente en revisión, los antecedentes muestran que el índice de frecuencia de accidentes de la compañía se mantiene un 27% por encima de la meta establecida para el periodo, lo que pone en evidencia la fragilidad de su infraestructura crítica.\n\n¿Hasta qué punto la falta de inversión en mantenimiento preventivo terminará por colapsar la capacidad de refinación estratégica del país?\n\nFuente: Bloomberg Línea\n\n#Pemex #Cadereyta #PuntoCiego",
+      "telegramPost": "<b>INCENDIO EN DUCTO DE PEMEX EN NUEVO LEÓN</b>\n\n• <b>Qué ocurrió:</b> Un fuerte estallido afectó un tramo de 250 metros lineales de un ducto en el municipio de Cadereyta, Nuevo León, generando una densa columna de humo negro.\n• <b>Por qué importa:</b> El evento ocurre en una zona industrial clave que alberga una refinería con capacidad para procesar 275.000 barriles diarios, en medio de un historial de siniestros y metas de seguridad incumplidas.\n• <b>Qué sigue:</b> La verificación oficial del origen del siniestro por parte de personal especializado, mientras persiste la presión sobre la gestión operativa de la compañía.",
+      "linkedInPost": "El incendio registrado en el ducto de Pemex en Cadereyta, Nuevo León, pone de manifiesto los riesgos estructurales en la gestión de infraestructura crítica para el sector energético mexicano.\n\nCon un índice de frecuencia de accidentes que supera en un 27% la meta establecida, la continuidad operativa y la seguridad industrial de los activos de refinación enfrentan desafíos complejos que impactan directamente en la confianza de los mercados y en la gestión de riesgos corporativos.\n\nFuente: Bloomberg Línea\n\n#Pemex #Infraestructura #PuntoCiego",
+      "blueskyPost": "Pemex reportó un incendio en 250 metros de un ducto en Cadereyta. El índice de accidentes de la petrolera sigue 27% arriba de su meta. #PuntoCiego #Pemex",
+      "copies": {
+        "facebook": "La petrolera estatal Pemex enfrentó un nuevo incendio en un ducto ubicado en el ejido Las Palomitas, en el municipio de Cadereyta, Nuevo León, afectando un tramo de 250 metros lineales.\n\nMientras la empresa se limita a catalogar el evento como un incidente en revisión, los antecedentes muestran que el índice de frecuencia de accidentes de la compañía se mantiene un 27% por encima de la meta establecida para el periodo, lo que pone en evidencia la fragilidad de su infraestructura crítica.\n\n¿Hasta qué punto la falta de inversión en mantenimiento preventivo terminará por colapsar la capacidad de refinación estratégica del país?\n\n#Pemex #Cadereyta #PuntoCiego",
+        "telegram": "<b>INCENDIO EN DUCTO DE PEMEX EN NUEVO LEÓN</b>\n\n• <b>Qué ocurrió:</b> Un fuerte estallido afectó un tramo de 250 metros lineales de un ducto en el municipio de Cadereyta, Nuevo León, generando una densa columna de humo negro.\n• <b>Por qué importa:</b> El evento ocurre en una zona industrial clave que alberga una refinería con capacidad para procesar 275.000 barriles diarios, en medio de un historial de siniestros y metas de seguridad incumplidas.\n• <b>Qué sigue:</b> La verificación oficial del origen del siniestro por parte de personal especializado, mientras persiste la presión sobre la gestión operativa de la compañía.",
+        "bluesky": "Pemex reportó un incendio en 250 metros de un ducto en Cadereyta. El índice de accidentes de la petrolera sigue 27% arriba de su meta. #PuntoCiego #Pemex",
+        "linkedIn": "El incendio registrado en el ducto de Pemex en Cadereyta, Nuevo León, pone de manifiesto los riesgos estructurales en la gestión de infraestructura crítica para el sector energético mexicano.\n\nCon un índice de frecuencia de accidentes que supera en un 27% la meta establecida, la continuidad operativa y la seguridad industrial de los activos de refinación enfrentan desafíos complejos que impactan directamente en la confianza de los mercados y en la gestión de riesgos corporativos.\n\n#Pemex #Infraestructura #PuntoCiego"
+      },
+      "article": {
+        "slug": "explosion-cadereyta-expone-vulnerabilidad-operativa-financiera-aesq",
+        "title": "La explosión en Cadereyta expone la vulnerabilidad operativa y financiera de Pemex",
+        "dek": "Un tramo de 250 metros de un ducto de Petróleos Mexicanos en Nuevo León sufrió una fuerte explosión. El hecho revive las dudas sobre la seguridad industrial de la petrolera.",
+        "keyFacts": [
+          "El incendio abarcó un tramo de 250 metros lineales de un ducto en el ejido Las Palomitas, municipio de Cadereyta, Nuevo León.",
+          "La refinería de Pemex en Cadereyta tiene una capacidad de proceso de 275.000 barriles diarios de crudo.",
+          "El índice de frecuencia de accidentes de Pemex se ubicó en 0,28 accidentes por cada millón de horas-hombre, un 27% por encima de la meta establecida de 0,22."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Petróleos Mexicanos enfrentó un fuerte incendio en un ducto situado en el ejido Las Palomitas, dentro del municipio de Cadereyta, en el estado de Nuevo León. El estallido ocurrió cerca de las 17:00 horas y generó una bola de fuego seguida de una densa columna de humo negro.",
+              "Protección Civil de Nuevo León informó que las llamas afectaron un tramo de 250 metros lineales del ducto. Personal especializado de la compañía acudió a la zona para atender la emergencia y verificar las condiciones del sitio, según los reportes oficiales difundidos en redes sociales."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "La zona industrial de Cadereyta alberga una de las refinerías más importantes de la empresa estatal, con una capacidad de proceso de 275.000 barriles diarios de crudo. Dicha instalación ha sido objeto de críticas recurrentes por parte de la población aledaña debido a sus emisiones contaminantes, particularmente de dióxido de azufre.",
+              "El historial de siniestros de la petrolera incluye episodios críticos como el registrado en enero de 2019 en el estado de Hidalgo, donde 137 personas perdieron la vida en una toma clandestina. A pesar de las reducciones marginales reportadas en sus estadísticas internas, la seguridad operativa sigue bajo escrutinio."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "Mientras la compañía cataloga el hecho bajo el término genérico de 'incidente', los datos internos de desempeño revelan una brecha persistente entre los objetivos corporativos y la realidad en campo. El índice de frecuencia de accidentes se situó en 0,28 por cada millón de horas-hombre expuestas al riesgo.",
+              "Aunque la propia empresa destacó una disminución del 12,5% respecto al año previo en este indicador, la cifra se mantiene 27% por encima de la meta establecida para el periodo, que era de 0,22, evidenciando problemas estructurales en el mantenimiento preventivo de la red de transporte."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "La reiteración de fallas operativas en los sistemas de transporte de hidrocarburos debilita la posición financiera de la empresa y presiona el gasto público destinado a subsidiarlas. Las comunidades locales cargan con el costo ambiental y de seguridad, mientras que la falta de respuestas inmediatas a consultas de medios refleja debilidades en la comunicación de crisis de la corporación."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Los resultados de las inspecciones técnicas que Pemex realice para determinar el origen exacto del incidente en Las Palomitas serán determinantes. Asimismo, es necesario monitorear si este evento repercutirá en auditorías externas sobre la integridad de la red de ductos en el noreste del país."
+            ]
+          }
+        ],
+        "tags": [
+          "Pemex",
+          "Nuevo León",
+          "Energía",
+          "Economía Global",
+          "Infraestructura"
+        ],
+        "sources": [
+          {
+            "name": "Bloomberg Línea",
+            "title": "Pemex registra fuerte explosión en ducto de Nuevo León",
+            "url": "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/"
+          },
+          {
+            "name": "Facebook",
+            "title": "🚨 #AlMomento | Una explosión en una línea de ducto de Pemex fue reportada la tarde de este jueves 26 de noviembre en la zona de Las Palomitas, en el municipio de Cadereyta, Nuevo León. Al sitio acudieron elementos estatales, personal de Protección Ci",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMExhR3ZCTDRmU2E0VE92NHEzS1J1N0p4bDJsa3JlUW11X0xuUXV2WGxGUjJCd1JQR2V0Y29seWdhd3BwT0c1SUpELS1pdzA4elpQcFRfSGpnbHlvTmN4anUwdFBub1NzY2RlYXdla2YxQUh6bUtGTUVja1ItOEx0X2VMN0dkMTJSTnN2cTRaSFhoWktYT3ZTRUJqZElnTTF0X2JQMHNBZTZ1WWluQUpLRDJSekVXOVJLa2lNWjdxeVIzSmJScUJqcnpMbUM2aTJ0YkwwZEQ5aDk0U0p0bzM1S0daT2dyV2N6?oc=5"
+          },
+          {
+            "name": "Facebook",
+            "title": "MILENIO. . 🚨 Se registra un incendio cerca del sistema de transporte de Pemex Logística, en la localidad de Las Palomitas, municipio de Cadereyta Jiménez. Al momento, se desconocen las causas. Al sitio acudieron elementos estatales, personal de Protecc",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONVpCc2hYZWFyeXMzN2N2bUI5Y0hMZ1QxdnNzNHBzaUZsVnhLYnF2aTZTNWZDeDE1OE5pTTJFMlc5d3FZRnFqcHlGZHpjTWJjLU0xWVJJWWZpS1M4cjBWY0JSWHFCb2oxSVNFOHR5WHNSLUtJM3J0aGUxblBrWDNvNnczQ2l1Y3k5NVRFSlhaaV9tdXBQWW91SGFMamtCUjBwOXNWUDM1WXFnR3RoMjN0bkNRSnZwcE13a2hvb25SVWhoRlJMNWxsTF96Z2c1aUVldVhGWTMwSDYxYXROMW10YS1LUQ?oc=5"
+          },
+          {
+            "name": "MVS Noticias",
+            "title": "Reportan fuerte explosión en ducto de Pemex en Cadereyta",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzloWndwYlZSakRIMmNsazZjRmFkUWFjd0pEYURoR2pOOXJSU1N0c0lpdDlGbVNwQXVPY2I5VWFGQXZyZU1IM0RlWjc0M1lqZkRQbFVBZEpCaXBlSjBLaWV3a1BzeG9qWkJvcWM4ejZ6TEZfQlRaVk0xcG56cVR2WDI0WExCU296VWVtM0JKc3YxNEdVYWJaMW0zNTA1dG5IU3pyVjZWV1l5YmFGOFBFakJIUjc?oc=5"
+          }
+        ],
+        "wordCount": 421
+      },
+      "videoScript": {
+        "hook": "Un nuevo estallido en ductos de Pemex sacude al estado de Nuevo León.",
+        "beats": [
+          "El fuego consumió un tramo de 250 metros lineales en el municipio de Cadereyta.",
+          "La refinería local procesa 275.000 barriles diarios en medio de constantes críticas ambientales.",
+          "El verdadero problema es que los accidentes superan en 27% la meta interna de la empresa."
+        ],
+        "close": "Lee el análisis completo de este conflicto en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://www.bloomberglinea.com/resizer/v2/PELGJNUTMJE7BP6PX3H6RZINJA.jpg?auth=9116e1e4b7c9107fca313463851da3bc925390c2354efca7c09b5d04b22730a6&smart=true&width=1200&height=675",
+      "status": "pending",
+      "createdAt": "2026-11-27T05:03:13.231Z",
+      "cardImageUrl": "/news-cards/news-gfwpf71gk-1795755793231.jpg",
+      "reelCoverUrl": "/news-cards/news-gfwpf71gk-1795755796385-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-gfwpf71gk-1795755796906-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/explosion-cadereyta-expone-vulnerabilidad-operativa-financiera-aesq/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-27T05:03:18.053Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-27T05:03:18.053Z",
+    "isBreaking": true
   }
 ]
