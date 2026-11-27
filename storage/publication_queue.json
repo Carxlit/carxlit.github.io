@@ -1,172 +1,5 @@
 [
   {
-    "id": "queue-1794828004238-ctbr9",
-    "news": {
-      "id": "rumeallbo",
-      "originalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5",
-      "originalTitle": "Nvidia sigue figurando en la lista de \"empresas líderes nacionales\" en inteligencia artificial a pesar del escándalo.",
-      "sourceName": "Vietnam.vn",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 88,
-      "headline": "EEUU INCLUIRÁ A NVIDIA EN LISTA ESTRATÉGICA DE IA",
-      "subHeadline": "La administración estadounidense planea designar a más de 24 empresas insignia para acelerar licencias de exportación y acceder a financiamiento federal, según reveló el Wall Street Journal.",
-      "blindSpotAngle": "Washington prioriza el dominio tecnológico global sobre las crecientes alertas de seguridad nacional relacionadas con Jensen Huang. Al acelerar los permisos de exportación para competir contra China, el Departamento de Comercio arriesga la filtración de tecnología crítica con tal de no perder cuota de mercado internacional.",
-      "facebookPost": "La administración de Estados Unidos prepara el anuncio de una lista de más de 24 empresas insignia en inteligencia artificial, incluyendo a gigantes como Nvidia, Microsoft, Amazon, OpenAI y Anthropic. La iniciativa, gestionada por el Departamento de Comercio, otorgará licencias de exportación aceleradas y financiamiento federal para asegurar que los países aliados adopten tecnología estadounidense frente al avance chino. Sin embargo, el movimiento ocurre en medio de serias interrogantes sobre la seguridad nacional. Informes recientes señalan investigaciones sobre presuntos vínculos entre la cúpula de Nvidia y la inteligencia china, lo que ha desatado exigencias para restringir la salida de microchips avanzados en lugar de facilitar su distribución global. ¿Debe el gobierno estadounidense anteponer la dominación del mercado tecnológico global por encima de los riesgos de espionaje e infiltración estatal?\n\nFuente: Vietnam.vn\n\n#PuntoCiego #Tecnología #Geopolítica",
-      "telegramPost": "<b>EEUU INCLUIRÁ A NVIDIA EN LISTA ESTRATÉGICA DE IA</b>\n\n• <b>Qué ocurrió:</b> El Departamento de Comercio de EE.UU. anunciará una lista de más de 24 empresas líderes en inteligencia artificial, entre las que destacan Nvidia, Amazon, Microsoft, OpenAI y Anthropic, para agilizar sus licencias de exportación y financiamiento.\n• <b>Por qué importa:</b> La Casa Blanca busca acelerar el despliegue global de su infraestructura tecnológica para frenar la expansión de China, ignorando los recientes cuestionamientos de seguridad nacional vinculados al entorno del liderazgo de Nvidia.\n• <b>Qué sigue:</b> El secretario de Comercio, Howard Lutnick, presentará la medida mientras se redactan regulaciones paralelas para frenar el contrabando de semiconductores hacia territorio chino.",
-      "linkedInPost": "La estrategia de dominación tecnológica global de Estados Unidos entra en una fase decisiva. Según reveló el Wall Street Journal, el Departamento de Comercio prepara la inclusión de Nvidia, Amazon, Microsoft, OpenAI y Anthropic en una lista selecta de más de 24 corporaciones insignia nacionales en inteligencia artificial. Este estatus corporativo permitirá licencias de exportación preferenciales, respaldo diplomático comercial y acceso directo a fondos federales. El objetivo macroestratégico es claro: consolidar el estándar tecnológico estadounidense en mercados emergentes antes de que las alternativas chinas capturen la infraestructura crítica mundial. No obstante, esta aceleración regulatoria expone tensiones entre los imperativos de seguridad nacional y la expansión comercial. Las recientes alertas sobre presunta infiltración e inteligencia extranjera en el sector de semiconductores ponen a prueba la capacidad de Washington para fiscalizar cadenas de suministro sensibles sin frenar a sus mayores exportadores.\n\nFuente: Vietnam.vn\n\n#PuntoCiego #InteligenciaArtificial #Semiconductores",
-      "blueskyPost": "EEUU incluirá a Nvidia entre sus 24 empresas clave de IA para competir contra China, ignorando alertas de seguridad sobre su cúpula con tal de agilizar las exportaciones de microchips. #PuntoCiego #Tecnología",
-      "copies": {
-        "facebook": "La administración de Estados Unidos prepara el anuncio de una lista de más de 24 empresas insignia en inteligencia artificial, incluyendo a gigantes como Nvidia, Microsoft, Amazon, OpenAI y Anthropic. La iniciativa, gestionada por el Departamento de Comercio, otorgará licencias de exportación aceleradas y financiamiento federal para asegurar que los países aliados adopten tecnología estadounidense frente al avance chino. Sin embargo, el movimiento ocurre en medio de serias interrogantes sobre la seguridad nacional. Informes recientes señalan investigaciones sobre presuntos vínculos entre la cúpula de Nvidia y la inteligencia china, lo que ha desatado exigencias para restringir la salida de microchips avanzados en lugar de facilitar su distribución global. ¿Debe el gobierno estadounidense anteponer la dominación del mercado tecnológico global por encima de los riesgos de espionaje e infiltración estatal? #PuntoCiego #Tecnología #Geopolítica",
-        "telegram": "<b>EEUU INCLUIRÁ A NVIDIA EN LISTA ESTRATÉGICA DE IA</b>\n\n• <b>Qué ocurrió:</b> El Departamento de Comercio de EE.UU. anunciará una lista de más de 24 empresas líderes en inteligencia artificial, entre las que destacan Nvidia, Amazon, Microsoft, OpenAI y Anthropic, para agilizar sus licencias de exportación y financiamiento.\n• <b>Por qué importa:</b> La Casa Blanca busca acelerar el despliegue global de su infraestructura tecnológica para frenar la expansión de China, ignorando los recientes cuestionamientos de seguridad nacional vinculados al entorno del liderazgo de Nvidia.\n• <b>Qué sigue:</b> El secretario de Comercio, Howard Lutnick, presentará la medida mientras se redactan regulaciones paralelas para frenar el contrabando de semiconductores hacia territorio chino.",
-        "bluesky": "EEUU incluirá a Nvidia entre sus 24 empresas clave de IA para competir contra China, ignorando alertas de seguridad sobre su cúpula con tal de agilizar las exportaciones de microchips. #PuntoCiego #Tecnología",
-        "linkedIn": "La estrategia de dominación tecnológica global de Estados Unidos entra en una fase decisiva. Según reveló el Wall Street Journal, el Departamento de Comercio prepara la inclusión de Nvidia, Amazon, Microsoft, OpenAI y Anthropic en una lista selecta de más de 24 corporaciones insignia nacionales en inteligencia artificial. Este estatus corporativo permitirá licencias de exportación preferenciales, respaldo diplomático comercial y acceso directo a fondos federales. El objetivo macroestratégico es claro: consolidar el estándar tecnológico estadounidense en mercados emergentes antes de que las alternativas chinas capturen la infraestructura crítica mundial. No obstante, esta aceleración regulatoria expone tensiones entre los imperativos de seguridad nacional y la expansión comercial. Las recientes alertas sobre presunta infiltración e inteligencia extranjera en el sector de semiconductores ponen a prueba la capacidad de Washington para fiscalizar cadenas de suministro sensibles sin frenar a sus mayores exportadores. #PuntoCiego #InteligenciaArtificial #Semiconductores"
-      },
-      "article": {
-        "slug": "apuesta-washington-nvidia-evidencia-dilema-entre-qmzm",
-        "title": "La apuesta de Washington por Nvidia evidencia el dilema entre hegemonía e inteligencia",
-        "dek": "El Departamento de Comercio prevé incluir al gigante de los microchips en su lista de empresas insignia de inteligencia artificial. La estrategia busca frenar a China acelerando licencias de exportación a pesar de las alertas de seguridad.",
-        "keyFacts": [
-          "La administración estadounidense planea nombrar a más de 24 corporaciones como líderes nacionales en inteligencia artificial.",
-          "El secretario de Comercio, Howard Lutnick, prevé anunciar beneficios que incluyen licencias de exportación aceleradas y financiamiento federal.",
-          "Entre las empresas seleccionadas por el gobierno figuran Nvidia, Amazon, Microsoft, OpenAI y Anthropic.",
-          "Informes divulgados por el Wall Street Journal señalan que el Departamento de Comercio prepara en paralelo normas contra el contrabando de chips a China."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "Según reportes publicados por el Wall Street Journal y recogidos por Vietnam.vn, el gobierno de los Estados Unidos se dispone a oficializar una lista con más de 24 empresas designadas como corporaciones insignia nacionales en inteligencia artificial. Entre los nombres filtrados por fuentes cercanas al proceso figuran Nvidia, Microsoft, Amazon, OpenAI y Anthropic.",
-              "La iniciativa, supervisada por el Departamento de Comercio bajo la dirección de Howard Lutnick, busca otorgar a estas firmas un trato preferencial. Las compañías seleccionadas tendrán acceso facilitado a fondos federales, soporte operativo en misiones internacionales y una tramitación expedita para las licencias de exportación de microchips de última generación."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "Este programa estatal fue concebido hace un año con el propósito de acelerar el despliegue global de la tecnología estadounidense frente a la agresiva expansión geopolítica de China. La competencia actual en el campo de la inteligencia artificial replica la batalla comercial vivida años atrás con el despliegue de las redes 5G, donde firmas chinas como Huawei lograron posiciones dominantes en mercados de Europa y América Latina.",
-              "En el centro de esta disputa se encuentran los procesadores gráficos de Nvidia, considerados los insumos más valiosos del planeta para el entrenamiento de modelos de lenguaje avanzados. El control sobre la distribución internacional de estos semiconductores define actualmente el equilibrio de poder tecnológico entre las dos principales potencias económicas."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "El aspecto no resuelto de esta política estriba en la severa contradicción entre la prisa comercial y las alertas de inteligencia. Recientes informaciones sobre la cúpula de Nvidia, específicamente en relación con presuntos vínculos sentimentales entre su liderazgo y agentes atribuibles a la inteligencia china, han desatado alarmas en sectores del Congreso y de la comunidad de seguridad de Washington.",
-              "Mientras analistas de defensa exigen endurecer las restricciones y auditar de forma exhaustiva los flujos de tecnología sensible, la decisión del Departamento de Comercio de agilizar los permisos de exportación demuestra que la prioridad inmediata de la Casa Blanca es blindar la cuota de mercado frente a Pekín, aun a riesgo de flexibilizar los mecanismos de supervisión interna."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "Los principales ganadores con esta medida son los gigantes tecnológicos de Silicon Valley, que obtienen cobertura institucional y garantías regulatorias para colocar sus productos en terceros países sin las demoras burocráticas habituales. Nvidia, en particular, asegura su posición dominante en el mercado global al contar con el respaldo explícito de la administración federal.",
-              "En contraste, el sector de la ciberseguridad y la contrainteligencia estadounidense asume los costos de esta apertura. Asimismo, los países receptores de esta tecnología quedan alineados de forma casi obligatoria con el ecosistema informático de Estados Unidos, limitando sus márgenes de soberanía digital."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "Corresponderá monitorear la presentación pública que realice el secretario Howard Lutnick y los detalles normativos finales de la lista. Resultará determinante observar si la inclusión formal de Nvidia viene acompañada de cláusulas secretas de auditoría o si, por el contrario, prevalece una desregulación acelerada. Se deberá seguir de cerca la efectividad de las nuevas reglas orientadas a combatir el contrabando de chips a través de intermediarios en terceros países."
-            ]
-          }
-        ],
-        "tags": [
-          "Nvidia",
-          "Inteligencia Artificial",
-          "Estados Unidos",
-          "China",
-          "Comercio Global",
-          "Seguridad Nacional"
-        ],
-        "sources": [
-          {
-            "name": "Vietnam.vn",
-            "title": "Nvidia sigue figurando en la lista de \"empresas líderes nacionales\" en inteligencia artificial a pesar del escándalo.",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcV9aTVlaTGRHV25aQVc4THpFcW1BM2JoOVNWOTJkNnAyVGw4MkNhX1BGZkozcVpma0hNTE5kcmlVSEE2T3hueXIxYnhHZF9yRUZHeGgwWU11VXQ5ZTR3WmI4QlZybERwU0ZOaW1pajhpVDlnNFQya0N3VmJHdG0wRjFZY0JSOFlOTzJfNGRqcmlSWmFBbDA4bmhpa3NaVDJF?oc=5"
-          },
-          {
-            "name": "Infobae",
-            "title": "5 preguntas que siguen abiertas en el caso Jensen Huang de Nvidia",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONnk4R2JYTDd4Uk9LaDRwU09oT0FyRjdvZGNzdERGeG44Z3lCM0RXOV9GM29MWjRCVHBoQXlGSC1HQnRkWlB0cHQ0RjJNYVc4NXBpOGpicWZwNWVUa0RfalhPWFVsdUlwQkw4SE1tdGl3YnpCUTJlWDNGR3AxWk4xZFgxbEMwemxYMjhXUEc0alYzdW1KN2ZRRUkwVHY3MG9XZUtkbm5uWG9KbXZFVHpXTmlUcWRFMm_SAdIBQVVfeXFMTzBiZFZzakF5YkZiUGthX2tGMFZwMkdoVW1Ic3UtU2dLaXNpTGhHVHlMcjY2Y2NfdVdhdU9KODBjU2dvdGVOLUlXU0RIX01FMFZBWTVKNlFRcnFILTZia243Q2VaRTFSMlI3bmN4bGJXN2VoU0FIdWt5SmNqcEF3ZjdSVjJSMGwwRFFZb2lpZnFYNWxKZlNFcXc1TVFJQkR2TzVDWFpQcngtbTJpSVU0eGozTUJ0RFlJYXpWNUw4aG56el9CQUxZUk1QaEJnQVNSZENR?oc=5"
-          }
-        ],
-        "wordCount": 540
-      },
-      "videoScript": {
-        "hook": "¿Puede la geopolítica ignorar un caso de espionaje por el control de la IA?",
-        "beats": [
-          "Washington incluirá a Nvidia en su lista de 24 empresas estratégicas para acelerar la exportación de chips.",
-          "La decisión busca frenar el avance de China ofreciendo subsidios federales y licencias exprés a gigantes tecnológicos.",
-          "Y aquí viene lo interesante: el gobierno prioriza la hegemonía comercial pese a los señalamientos sobre la cúpula de Nvidia."
-        ],
-        "close": "Lee el análisis completo en el enlace de nuestro perfil."
-      },
-      "rawImageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/16/1794817994777_afp20261111d76l3lzv1midresindiatechnologyai-1794809204376333093985-160-0-788-1200-crop-1794809274215202914383.webp",
-      "status": "published",
-      "createdAt": "2026-11-16T11:20:01.979Z",
-      "cardImageUrl": "/news-cards/news-rumeallbo-1794828001979.jpg",
-      "reelCoverUrl": "/news-cards/news-rumeallbo-1794828002568-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-rumeallbo-1794828003077-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/apuesta-washington-nvidia-evidencia-dilema-entre-qmzm/",
-      "publishedAt": "2026-11-16T12:17:34.932Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true,
-      "youtube": true
-    },
-    "scheduledFor": "2026-11-16T12:15:18.388Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-16T11:20:04.238Z",
-    "lastAttemptAt": "2026-11-16T12:15:33.721Z",
-    "results": {
-      "facebook": {
-        "success": true,
-        "postId": "122111452209532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "253",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2giyfbfwp2m"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18025092113944694",
-        "permalink": "https://www.instagram.com/reel/DfzVeN-j8aQ/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "mastodon": {
-        "success": true,
-        "url": "https://mastodon.social/@PuntoCiego/117626073224004267"
-      },
-      "threads": {
-        "success": true,
-        "postId": "18116424866166245"
-      },
-      "youtube": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: no se sube a YouTube"
-      }
-    },
-    "publishedAt": "2026-11-16T12:17:34.932Z"
-  },
-  {
     "id": "queue-1794828701284-8umbz",
     "news": {
       "id": "pzzctiijk",
@@ -26026,12 +25859,13 @@
         "channel": "Fixing Tiny Tedious Things!",
         "license": "cc-by"
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-27T00:08:28.675Z",
       "cardImageUrl": "/news-cards/news-muju0kulr-1795738108675.jpg",
       "reelCoverUrl": "/news-cards/news-muju0kulr-1795738111297-cover.jpg",
       "instagramCardUrl": "/news-cards/news-muju0kulr-1795738111790-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/trampa-black-friday-tecnologicas-liquidan-hardware-45h3/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/trampa-black-friday-tecnologicas-liquidan-hardware-45h3/",
+      "publishedAt": "2026-11-27T03:03:43.635Z"
     },
     "channels": {
       "facebook": true,
@@ -26045,10 +25879,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-27T03:03:00.000Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-27T00:08:32.889Z"
+    "createdAt": "2026-11-27T00:08:32.889Z",
+    "lastAttemptAt": "2026-11-27T03:03:15.399Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122115200985532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "399",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n3b7aw2fzx2q"
+      },
+      "instagram": {
+        "success": false,
+        "skipped": true,
+        "error": "Estrategia IG: límite diario de 5 Reels alcanzado"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Reel no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117686180872482247"
+      },
+      "threads": {
+        "success": true,
+        "postId": "18123291473006779"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Short no generado: no se pudo descargar el video libre: from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      }
+    },
+    "publishedAt": "2026-11-27T03:03:43.635Z"
   },
   {
     "id": "queue-1795741781264-l1581",
