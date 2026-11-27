@@ -378,9 +378,42 @@
     "https://www.infobae.com/estados-unidos/2026/11/26/nvidia-vendio-chips-de-inteligencia-artificial-a-dos-empresas-de-california-controladas-por-firmas-chinas/",
     "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWDQtS01LU3lhbHY2d2o4bnJBWGlJenZZODJiUy1qSENQWElHbnFoSmNjRjhDN2o0SmJaV0wxRVJTWElkZThUTEY1eFBodkRnVkRNUGdBMUtxdGJySnhMV2MtTjB0MUlUd2F6NHlrQWk3bkVad1IxWGRHTUw0WlBXX2Nuemh0bzZlS09PSzdmdGZ3UW9hd0JrUzl3SVdMbWFNSkhXdEtkcF90RUVva3pMempaUE5oNjVPZ2E4bldpdXRsZ3VfU1kxMEU3N2MtNmVPMHpkdXB0cmRNbk9nbEIyZ3cwNlM3NnVJdTZGT1g1YWdvVExIdXc?oc=5",
     "https://es.wired.com/articulos/estas-son-las-mejores-ofertas-anticipadas-para-black-friday",
-    "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXVDRzduYmlxZW9iX2Utay1Na1JlOWNITk9tSllVeS1yMTlEYVNKVVlXUWVwSi1iQURCVHMtcnhJWWhBLU82NnVYb01Zc2RyR2JKTHE1N2dfcmhYS0FIUGRTR191Y2dUZlZYXzA5THFydVllR2NkMUptMG14d0JFLVB3?oc=5"
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXVDRzduYmlxZW9iX2Utay1Na1JlOWNITk9tSllVeS1yMTlEYVNKVVlXUWVwSi1iQURCVHMtcnhJWWhBLU82NnVYb01Zc2RyR2JKTHE1N2dfcmhYS0FIUGRTR191Y2dUZlZYXzA5THFydVllR2NkMUptMG14d0JFLVB3?oc=5",
+    "https://www.eltiempo.com/mundo/medio-oriente/tres-informes-exponen-la-crisis-palestina-emergencia-por-el-invierno-en-gaza-denuncias-de-tortura-y-despidos-de-la-unrwa-sin-pruebas-suficientes-3604610"
   ],
   "processedSignatures": [
+    {
+      "title": "TRES INFORMES EXPONEN LA CRISIS PALESTINA EN GAZA",
+      "normalizedTokens": [
+        "tres",
+        "informes",
+        "exponen",
+        "crisis",
+        "palestina",
+        "gaza"
+      ],
+      "date": "2026-11-27T02:12:21.742Z"
+    },
+    {
+      "title": "Tres informes exponen la crisis palestina: emergencia por el invierno en Gaza, denuncias de tortura y despidos de la UNRWA sin pruebas suficientes",
+      "normalizedTokens": [
+        "tres",
+        "informes",
+        "exponen",
+        "crisis",
+        "palestina",
+        "emergencia",
+        "invierno",
+        "gaza",
+        "denuncias",
+        "tortura",
+        "despidos",
+        "unrwa",
+        "pruebas",
+        "suficientes"
+      ],
+      "date": "2026-11-27T02:12:21.740Z"
+    },
     {
       "title": "TRUMP Y RUTTE EXIGEN A MOSCÚ NO EXPANDIR LA GUERRA",
       "normalizedTokens": [
@@ -7456,32 +7489,6 @@
         "guerra"
       ],
       "date": "2026-11-10T11:02:14.407Z"
-    },
-    {
-      "title": "NAUFRAGIOS EN CRETA EXPONEN EL NUEVO CORREDOR MIGRATORIO",
-      "normalizedTokens": [
-        "naufragios",
-        "creta",
-        "exponen",
-        "nuevo",
-        "corredor",
-        "migratorio"
-      ],
-      "date": "2026-11-10T05:47:52.048Z"
-    },
-    {
-      "title": "Al menos 20 migrantes muertos en cuatro días de naufragios frente a Creta",
-      "normalizedTokens": [
-        "menos",
-        "migrantes",
-        "muertos",
-        "cuatro",
-        "dias",
-        "naufragios",
-        "frente",
-        "creta"
-      ],
-      "date": "2026-11-10T05:47:52.047Z"
     }
   ]
 }
