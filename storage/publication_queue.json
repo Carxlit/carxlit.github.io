@@ -1,188 +1,5 @@
 [
   {
-    "id": "queue-1794844718915-5e6k5",
-    "news": {
-      "id": "9yt5t1ghb",
-      "originalUrl": "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva",
-      "originalTitle": "NVIDIA no ha despedido a Jensen Huang. Ha aceptado su dimisión, y esa diferencia puede servir para que vuelva",
-      "sourceName": "Xataka",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 88,
-      "headline": "EL CONSEJO DE NVIDIA ACEPTA LA DIMISIÓN DE JENSEN HUANG",
-      "subHeadline": "La salida del consejero delegado tras una investigación de inteligencia extranjera deja la dirección a cargo de Colette Kress, mientras se intensifican las presiones para su retorno.",
-      "blindSpotAngle": "La distinción legal entre dimisión y despido no es un matiz semántico, sino una maniobra del consejo para mantener abierta la puerta a su retorno sin admitir errores de supervisión. Mientras la administración estadounidense exige un liderazgo externo por sospechas de desvío de chips a China mediante la firma Megaspeed, los grandes fondos de inversión y aliados estratégicos del sector presionan para restituir al fundador.",
-      "facebookPost": "El consejo de administración de NVIDIA aceptó la dimisión de su fundador Jensen Huang tras una investigación por una operación de inteligencia extranjera. Mientras la dirección financiera asume el mando interino con Colette Kress, la narrativa oficial presenta la salida como una renuncia voluntaria para calmar a los mercados.\n\nEl punto ciego reside en la maniobra legal: catalogar la salida como dimisión y no como despido le permite al consejo dar marcha atrás sin asumir la responsabilidad de un error corporativo. Sin embargo, el gobierno estadounidense presiona por un ejecutivo externo debido a las pesquisas sobre la firma singapurense Megaspeed y el desvío ilícito de semiconductores a China.\n\n¿Debe prevalecer la seguridad nacional regulatoria sobre la voluntad de los grandes inversores que exigen el retorno del fundador?\n\nFuente: Xataka\n\n#NVIDIA #Tecnología #PuntoCiego",
-      "telegramPost": "<b>EL CONSEJO DE NVIDIA ACEPTA LA DIMISIÓN DE JENSEN HUANG</b>\n\n• <b>Qué ocurrió:</b> Jensen Huang dejó la dirección ejecutiva de NVIDIA tras una investigación sobre operaciones de inteligencia extranjera, quedando la directora financiera Colette Kress como CEO interina.\n• <b>Por qué importa:</b> La calificación de dimisión y no de despido preserva el terreno legal para un eventual retorno promovido por grandes inversores y figuras como Elon Musk, frente a la presión del Secretario del Tesoro estadounidense, Scott Bessent, quien exige un liderazgo externo por investigaciones de contrabando de chips a China a través de Megaspeed.\n• <b>Qué sigue:</b> La presentación de resultados trimestrales determinará la capacidad del consejo para resistir la presión del mercado o forzar la restitución del ejecutivo.",
-      "linkedInPost": "La renuncia de Jensen Huang al frente de NVIDIA abre un dilema crítico en la gobernanza corporativa y la soberanía tecnológica. La transición interina hacia Colette Kress ocurre en un entorno donde la firma enfrenta escrutinio regulatorio por supuestos desvíos de procesadores hacia China a través del cliente Megaspeed en Singapur.\n\nLa diferencia técnica entre una dimisión forzada y un despido disciplinario otorga al consejo margen de maniobra para una eventual reinstalación. No obstante, las demandas de la administración estadounidense para imponer un CEO externo colisionan directamente con la postura de los fondos de capital institucional y actores del sector tecnológico que abogan por mantener la continuidad estratégica de la firma.\n\nLa estabilidad de las cadenas de suministro de hardware para inteligencia artificial dependerá del equilibrio entre la alineación geopolítica con Washington y la confianza de los mercados de capitales.\n\nFuente: Xataka\n\n#Semiconductores #GobernanzaCorporativa #PuntoCiego",
-      "blueskyPost": "NVIDIA catalogó la salida de Jensen Huang como dimisión y no despido para facilitar su eventual retorno, mientras EE. UU. investiga el desvío de chips a China vía Megaspeed. #PuntoCiego #Tecnología",
-      "copies": {
-        "facebook": "El consejo de administración de NVIDIA aceptó la dimisión de su fundador Jensen Huang tras una investigación por una operación de inteligencia extranjera. Mientras la dirección financiera asume el mando interino con Colette Kress, la narrativa oficial presenta la salida como una renuncia voluntaria para calmar a los mercados.\n\nEl punto ciego reside en la maniobra legal: catalogar la salida como dimisión y no como despido le permite al consejo dar marcha atrás sin asumir la responsabilidad de un error corporativo. Sin embargo, el gobierno estadounidense presiona por un ejecutivo externo debido a las pesquisas sobre la firma singapurense Megaspeed y el desvío ilícito de semiconductores a China.\n\n¿Debe prevalecer la seguridad nacional regulatoria sobre la voluntad de los grandes inversores que exigen el retorno del fundador?\n\n#NVIDIA #Tecnología #PuntoCiego",
-        "telegram": "<b>EL CONSEJO DE NVIDIA ACEPTA LA DIMISIÓN DE JENSEN HUANG</b>\n\n• <b>Qué ocurrió:</b> Jensen Huang dejó la dirección ejecutiva de NVIDIA tras una investigación sobre operaciones de inteligencia extranjera, quedando la directora financiera Colette Kress como CEO interina.\n• <b>Por qué importa:</b> La calificación de dimisión y no de despido preserva el terreno legal para un eventual retorno promovido por grandes inversores y figuras como Elon Musk, frente a la presión del Secretario del Tesoro estadounidense, Scott Bessent, quien exige un liderazgo externo por investigaciones de contrabando de chips a China a través de Megaspeed.\n• <b>Qué sigue:</b> La presentación de resultados trimestrales determinará la capacidad del consejo para resistir la presión del mercado o forzar la restitución del ejecutivo.",
-        "bluesky": "NVIDIA catalogó la salida de Jensen Huang como dimisión y no despido para facilitar su eventual retorno, mientras EE. UU. investiga el desvío de chips a China vía Megaspeed. #PuntoCiego #Tecnología",
-        "linkedIn": "La renuncia de Jensen Huang al frente de NVIDIA abre un dilema crítico en la gobernanza corporativa y la soberanía tecnológica. La transición interina hacia Colette Kress ocurre en un entorno donde la firma enfrenta escrutinio regulatorio por supuestos desvíos de procesadores hacia China a través del cliente Megaspeed en Singapur.\n\nLa diferencia técnica entre una dimisión forzada y un despido disciplinario otorga al consejo margen de maniobra para una eventual reinstalación. No obstante, las demandas de la administración estadounidense para imponer un CEO externo colisionan directamente con la postura de los fondos de capital institucional y actores del sector tecnológico que abogan por mantener la continuidad estratégica de la firma.\n\nLa estabilidad de las cadenas de suministro de hardware para inteligencia artificial dependerá del equilibrio entre la alineación geopolítica con Washington y la confianza de los mercados de capitales.\n\n#Semiconductores #GobernanzaCorporativa #PuntoCiego"
-      },
-      "article": {
-        "slug": "maniobra-institucional-tras-salida-jensen-huang-aoju",
-        "title": "La maniobra institucional tras la salida de Jensen Huang en Nvidia",
-        "dek": "La renuncia del ejecutivo clave de la industria de semiconductores expone la tensión entre el control de inteligencia estadounidense y los grandes fondos de inversión. La estructura del cese deja abierta la puerta a su retorno mientras la firma enfrenta investigaciones de seguridad.",
-        "keyFacts": [
-          "El 11 de noviembre el consejo de NVIDIA aceptó la dimisión de Jensen Huang como CEO y consejero.",
-          "Colette Kress, directora financiera, asumió el cargo de CEO interina sin un sucesor definitivo designado.",
-          "Scott Bessent, secretario del Tesoro de EE. UU., ha exigido públicamente la contratación de un CEO externo.",
-          "Analistas como Gene Munster elevaron la probabilidad de retorno de Huang al 51% tras evaluar las presiones de los inversores.",
-          "Persiste la investigación sobre la empresa Megaspeed, cliente de NVIDIA en Singapur sospechoso de desviar microchips a China."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "El 11 de noviembre, el consejo de administración de NVIDIA aceptó la dimisión de su consejero delegado y fundador, Jensen Huang, tras una investigación interna iniciada apenas tres días antes a raíz de una operación de inteligencia extranjera que tuvo al ejecutivo como objetivo. La dirección financiera corporativa pasó de inmediato a manos de Colette Kress en calidad de consejera delegada interina, mientras la organización evalúa candidaturas internas y externas para la sucesión.",
-              "Según reportó Xataka, la decisión se produjo a pesar de que la cúpula corporativa había manifestado inicialmente su confianza en el directivo. La salida se formalizó bajo la figura jurídica de la dimisión voluntaria y no mediante un despido procedente o disciplinario, un detalle técnico que ha alterado las previsiones de la industria sobre el futuro del liderazgo de la compañía."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "La dimisión ocurre en medio de un intenso escrutinio regulatorio e institucional sobre el comercio internacional de semiconductores de alta tecnología. De acuerdo con datos periodísticos, la firma singapurense Megaspeed, un cliente relevante de NVIDIA, continúa bajo investigación por presuntamente encubrir la transferencia no autorizada de procesadores de inteligencia artificial hacia territorio chino, eludiendo las restricciones de exportación dictadas por Washington.",
-              "En este escenario de tensión geopolítica, el secretario del Tesoro estadounidense, Scott Bessent, ha manifestado la postura del gobierno federal a favor de que el consejo de administración nombre a un consejero delegado externo. La interferencia gubernamental busca garantizar la estricta alineación de la firma con la seguridad nacional y los controles sobre el comercio de tecnología sensible."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "El aspecto crucial que la narrativa convencional pasa por alto radica en la mecánica legal empleada para la separación del ejecutivo. Al tramitar la salida como una dimisión en lugar de un despido formal, el consejo evita certificar una falla grave de supervisión corporativa. Esta formulación permite revertir el acuerdo sin que los consejeros tengan que admitir un error previo de juicio.",
-              "Analistas del sector, entre ellos Gene Munster, han recalculado las probabilidades de restitución de Huang, elevando la opción de retorno del 10% al 51% en cuestión de días. A diferencia del caso histórico de Travis Kalanick en Uber durante 2017 —donde a pesar del respaldo de 1.100 empleados los accionistas mayoritarios forzaron su salida definitiva—, en NVIDIA los grandes fondos institucionales y figuras clave como Elon Musk y Jason Calacanis están alineados a favor del regreso de Huang."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "En el corto plazo, los reguladores de seguridad nacional en Estados Unidos ganan tracción al remover al fundador en un momento de acusaciones sobre triangulación de chips hacia China. No obstante, el consejo de administración y los accionistas de gran escala mantienen una posición ventajosa al conservar el control sobre los tiempos de sustitución y la opción legal de reintegrar al líder histórico.",
-              "El costo directo lo asume la estabilidad operativa inmediata de la corporación. La ausencia de un sucesor definitivo designado genera incertidumbre ante los analistas de Wall Street, justo en la víspera de la presentación de los resultados financieros trimestrales."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "El factor determinante de los próximos días será la reacción de los mercados ante la conferencia telefónica con analistas financieros sin la presencia de Huang. Unas previsiones de ingresos por debajo de las expectativas o vacilaciones en la estrategia a largo plazo fortalecerán la campaña de los grandes inversores para exigir la restitución del ejecutivo.",
-              "Asimismo, el avance de las pesquisas de las autoridades estadounidenses sobre la red de distribución de Megaspeed marcará el límite geopolítico del consejo: si la investigación aporta pruebas concluyentes de violaciones al embargo tecnológico, la posibilidad de un retorno de Jensen Huang quedará bloqueada definitivamente."
-            ]
-          }
-        ],
-        "tags": [
-          "Nvidia",
-          "Jensen Huang",
-          "Semiconductores",
-          "Inteligencia Artificial",
-          "Geopolítica"
-        ],
-        "sources": [
-          {
-            "name": "Xataka",
-            "title": "NVIDIA no ha despedido a Jensen Huang. Ha aceptado su dimisión, y esa diferencia puede servir para que vuelva",
-            "url": "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva"
-          },
-          {
-            "name": "Yahoo",
-            "title": "Jensen Huang evalúa regresar a Nvidia como CEO apenas tres días después de su renuncia",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbTVheEdoaXlyZWJiSXRVOFhzd1hwOUsxNGc5OUZMa2JpZEM5bmo5NVlSc0g2LUZHSHpyYmlSWTRscWZZU00tSU1lV0Y3cmRaVWE3dWZiWnpXZFRyNFBSSW5PX29Hc1UxTnMzd2duSzB5LTlWYXk4UzdQMS1iQVN0NTJ2WVlfXzNWRk92Nm1kZGlVUQ?oc=5"
-          },
-          {
-            "name": "Informat.ro",
-            "title": "Los empleados de Nvidia, los inversores y Elon Musk piden el regreso de Jensen Huang al frente de la compañía",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVQ3YnBSMHZJWnZoelpGYXpCdklwRXhaSlB0QnktX2lsLWpNLU9ZWUJsWDN3U3gtWWxxd3JGTnl1d2V1bHhmSUZlcWE0UVp4Q0kyTmZCMHdJZDhfVjc4WmR4ZGJNdGgwYUYzUlR4bUpmemswQWhnV0s3M3N4d3hvYVlVZWpMT1VEUWw4MDVtWEhHaGJycDlzQTZnRUl0aUhIbEJvVUpKNjFYYWg4azZuQjdoalF4cUgxZGtNX2dyWTdWNWc?oc=5"
-          },
-          {
-            "name": "TIKR.com",
-            "title": "“Jensen’s Back Within 12 Months,” Bets Jason Calacanis as Big Holders Pressure Nvidia’s Board",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRk5yU2lDMUtOaDlZYlJyNVRBcEN1NFo3V0xSSmN3d0RyNEprWFpmQTBUeXlvLTVzdld5TkFhT1dhVUdnaHItcjJsa0Y4SHQxNVMxQlJ2Z2VDZ242VklWcWtnbGxpNjkyNHhVOHBVUWVXZE91TDJDY3N0U09GeVozSzZtcjFGMklYRmsxSkVEeWNqd2tEWUdyc0xhdVdyczBlcXd5VkdRTzdMZXV1Uk96TzVmQ3dXU3pLaXc?oc=5"
-          },
-          {
-            "name": "Excélsior",
-            "title": "Jensen Huang: los affaires le costaron el PIB de México",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObEx0RVZPalA4bjh6aEVYNE1kZXU0bEJVVlR3MW1MZzJvRkFPWmtUNnFPdllBd1pHTU5DaXhzR1NVdWZZWVJWUjI4eDZ0ZXVERVdoTF9HaEc2Q1hzNU1uUjRHSjg2aEt1b2JDeTl0WlVSTE5kUjlCWDlRYnZZOWt3THJwaFN4MFRLakHSAY8BQVVfeXFMTUJsX2s1TkdoZzYwN2JodnMwRFF0YXNWclB4Wmc2dm9vZlFQaUJoYThXM0pPdGdCaG1yZnJlNkhiN2xfcklRWUNsQUs2WDFQUzg5dl81QTlzcE11eGtNaVc2LVpsZ3BVMXBJVG53ZmVEQ0F6Wm1hdkZYOEJWZGdfd1RxbE93MXdsZUVHR3N1dGs?oc=5"
-          }
-        ],
-        "wordCount": 638
-      },
-      "videoScript": {
-        "hook": "¿Por qué la dimisión de Jensen Huang en Nvidia podría ser solo temporal?",
-        "beats": [
-          "El consejo aceptó su renuncia tras una investigación de inteligencia extranjera pero evitó usar la figura del despido.",
-          "El analista Gene Munster subió al 51% las probabilidades de que Huang vuelva ante la presión de grandes inversores.",
-          "Y lo que nadie dice es que la investigación sobre desvío de chips a China decidirá si Washington permite su regreso."
-        ],
-        "close": "Lee el análisis completo sobre esta disputa geopolítica en el enlace de nuestro perfil."
-      },
-      "rawImageUrl": "https://i.blogs.es/5c45de/huang/840_560.jpeg",
-      "status": "published",
-      "createdAt": "2026-11-16T15:58:36.606Z",
-      "cardImageUrl": "/news-cards/news-9yt5t1ghb-1794844716606.jpg",
-      "reelCoverUrl": "/news-cards/news-9yt5t1ghb-1794844717312-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-9yt5t1ghb-1794844717812-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/maniobra-institucional-tras-salida-jensen-huang-aoju/",
-      "publishedAt": "2026-11-16T19:59:54.287Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true,
-      "youtube": true
-    },
-    "scheduledFor": "2026-11-16T19:56:18.388Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-16T15:58:38.915Z",
-    "lastAttemptAt": "2026-11-16T19:56:33.755Z",
-    "results": {
-      "facebook": {
-        "success": true,
-        "postId": "122111570109532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "259",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2hcs6xrq523"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "17960835255018194",
-        "permalink": "https://www.instagram.com/reel/Df0KYBeCVI6/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "mastodon": {
-        "success": true,
-        "url": "https://mastodon.social/@PuntoCiego/117627891195077081"
-      },
-      "threads": {
-        "success": true,
-        "postId": "17934754719419517"
-      },
-      "youtube": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: no se sube a YouTube"
-      }
-    },
-    "publishedAt": "2026-11-16T19:59:54.287Z"
-  },
-  {
     "id": "queue-1794852292435-5h16c",
     "news": {
       "id": "iwl9ghu5c",
@@ -26423,12 +26240,13 @@
         ],
         "close": "Lee el análisis geopolítico completo en el enlace de nuestro perfil."
       },
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-27T12:54:29.377Z",
       "cardImageUrl": "/news-cards/news-93slmbdj1-1795784069377.jpg",
       "reelCoverUrl": "/news-cards/news-93slmbdj1-1795784069919-cover.jpg",
       "instagramCardUrl": "/news-cards/news-93slmbdj1-1795784070399-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/rusia-extiende-ofensiva-estrategica-redes-hidricas-n4pk/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/rusia-extiende-ofensiva-estrategica-redes-hidricas-n4pk/",
+      "publishedAt": "2026-11-27T12:58:47.346Z"
     },
     "channels": {
       "facebook": true,
@@ -26442,10 +26260,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-27T12:54:31.071Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
     "createdAt": "2026-11-27T12:54:31.071Z",
-    "isBreaking": true
+    "isBreaking": true,
+    "lastAttemptAt": "2026-11-27T12:55:41.520Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122115349755532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "405",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n3caedqici2u"
+      },
+      "instagram": {
+        "success": true,
+        "mediaId": "18112123103263281",
+        "permalink": "https://www.instagram.com/reel/DgPu7uqsK76/"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117688520787259890"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17914348110306464"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-27T12:58:47.346Z"
   }
 ]
