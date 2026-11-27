@@ -381,9 +381,38 @@
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXVDRzduYmlxZW9iX2Utay1Na1JlOWNITk9tSllVeS1yMTlEYVNKVVlXUWVwSi1iQURCVHMtcnhJWWhBLU82NnVYb01Zc2RyR2JKTHE1N2dfcmhYS0FIUGRTR191Y2dUZlZYXzA5THFydVllR2NkMUptMG14d0JFLVB3?oc=5",
     "https://www.eltiempo.com/mundo/medio-oriente/tres-informes-exponen-la-crisis-palestina-emergencia-por-el-invierno-en-gaza-denuncias-de-tortura-y-despidos-de-la-unrwa-sin-pruebas-suficientes-3604610",
     "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/"
+    "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/",
+    "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html"
   ],
   "processedSignatures": [
+    {
+      "title": "REINO UNIDO DESCONECTA SERVICIOS DEL MINISTERIO DE TRABAJO TRAS CIBERATAQUE",
+      "normalizedTokens": [
+        "reino",
+        "unido",
+        "desconecta",
+        "servicios",
+        "ministerio",
+        "trabajo",
+        "ciberataque"
+      ],
+      "date": "2026-11-27T11:04:36.577Z"
+    },
+    {
+      "title": "Un ciberataque suspende numerosos servicios del Ministerio de Trabajo y Pensiones de Reino Unido",
+      "normalizedTokens": [
+        "ciberataque",
+        "suspende",
+        "numerosos",
+        "servicios",
+        "ministerio",
+        "trabajo",
+        "pensiones",
+        "reino",
+        "unido"
+      ],
+      "date": "2026-11-27T11:04:36.574Z"
+    },
     {
       "title": "TRUMP Y RUTTE EXIGEN A MOSCÚ NO EXPANDIR LA GUERRA",
       "normalizedTokens": [
@@ -7453,34 +7482,6 @@
         "votos"
       ],
       "date": "2026-11-10T12:32:21.383Z"
-    },
-    {
-      "title": "LA INFIDELIDAD DE HUANG EXPONE LA VULNERABILIDAD ESTRUCTURAL DE NVIDIA",
-      "normalizedTokens": [
-        "infidelidad",
-        "huang",
-        "expone",
-        "vulnerabilidad",
-        "estructural",
-        "nvidia"
-      ],
-      "date": "2026-11-10T11:59:42.730Z"
-    },
-    {
-      "title": "La infidelidad de Huang ha destapado la fragilidad de NVIDIA: depende de un hombre sin sucesor y de una isla sin plan B",
-      "normalizedTokens": [
-        "infidelidad",
-        "huang",
-        "destapado",
-        "fragilidad",
-        "nvidia",
-        "depende",
-        "hombre",
-        "sucesor",
-        "isla",
-        "plan"
-      ],
-      "date": "2026-11-10T11:59:42.729Z"
     }
   ]
 }

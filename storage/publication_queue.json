@@ -26331,5 +26331,130 @@
     "maxAttempts": 3,
     "createdAt": "2026-11-27T11:02:31.848Z",
     "igDeferred": true
+  },
+  {
+    "id": "queue-1795777476559-6ajka",
+    "news": {
+      "id": "leujwnfpa",
+      "originalUrl": "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html",
+      "originalTitle": "Un ciberataque suspende numerosos servicios del Ministerio de Trabajo y Pensiones de Reino Unido",
+      "sourceName": "ABC Internacional",
+      "category": "SEGURIDAD & DEFENSA",
+      "urgencyScore": 82,
+      "headline": "REINO UNIDO DESCONECTA SERVICIOS DEL MINISTERIO DE TRABAJO TRAS CIBERATAQUE",
+      "subHeadline": "El Ministerio de Trabajo y Pensiones británico interrumpió sus sistemas en línea tras detectar un incidente informático. El evento coincide con advertencias del MI5 sobre sabotajes estatales rusos a proveedores militares.",
+      "blindSpotAngle": "Mientras la narrativa oficial presenta la desconexión informática como un ajuste preventivo para proteger las pensiones, la sincronía con las alertas de inteligencia militar sugiere un patrón de escaneo e infiltración persistente en infraestructuras críticas. El incidente expone la vulnerabilidad sistémica de las dependencias gubernamentales británicas frente a operaciones híbridas no reivindicadas.",
+      "facebookPost": "El Ministerio de Trabajo y Pensiones del Reino Unido ha tenido que desconectar de urgencia varios de sus servicios en línea tras sufrir un ciberataque. Aunque el gobierno británico insiste en que el pago de las pensiones y prestaciones sociales no se ha visto comprometido, la paralización de la operativa interna refleja la fragilidad de la infraestructura pública.\n\nEl aspecto crítico trasciende el fallo informático puntual. Esta semana, el servicio de inteligencia MI5 y el Ministerio de Defensa alertaron formalmente a los proveedores militares británicos sobre un incremento en los intentos de sabotaje dirigidos por Rusia. La sucesión de incidentes en el país, desde el robo de datos de 8,7 millones de personas en tres aeropuertos hasta parálisis operativas en gigantes corporativos, perfila una campaña sistemática de prueba de resistencia frente a la administración británica.\n\n¿Estamos presenciando el fallo puntual de redes gubernamentales o el resultado de un sabotaje híbrido diseñado para desestabilizar la gestión pública?\n\nFuente: ABC Internacional\n\n#SeguridadNacional #Ciberseguridad #PuntoCiego",
+      "telegramPost": "<b>REINO UNIDO DESCONECTA SERVICIOS DEL MINISTERIO DE TRABAJO TRAS CIBERATAQUE</b>\n\n• <b>Qué ocurrió:</b> El Ministerio de Trabajo y Pensiones del Reino Unido suspendió parte de sus servicios en línea por un ciberataque, según confirmó la propia entidad junto al Centro Nacional de Ciberseguridad.\n• <b>Por qué importa:</b> El incidente ocurre en la misma semana en que el MI5 advirtió sobre un repunte de sabotajes rusos dirigidos contra infraestructuras y suministradores de defensa. La recurrencia de brechas cibernéticas expone fallos estructurales en la protección de datos e instituciones británicas.\n• <b>Qué sigue:</b> Las autoridades evalúan el alcance de la intrusión mientras refuerzan la vigilancia sobre otras agencias estatales y contratistas estratégicos.",
+      "linkedInPost": "La suspensión preventiva de los servicios digitales en el Ministerio de Trabajo y Pensiones del Reino Unido es un recordatorio de los riesgos operativos que afronta el sector público global. Si bien la entidad aseguró que los flujos financieros de pensiones permanecen intactos, la necesidad de aislar redes revela la severidad del vector de entrada.\n\nEste evento no debe analizarse de forma aislada. La advertencia emitida por el MI5 a la industria de defensa británica sobre tácticas de reconocimiento e inhabilitación coordinadas coincide temporalmente con la disrupción de sistemas gubernamentales. El impacto económico de estas incursiones cibernéticas genera costes directos de mitigación y perturba las cadenas de valor público-privadas.\n\nPara los gestores de riesgos y analistas de continuidad de negocio, la lección es clara: las amenazas híbridas dirigidas contra la administración pública alteran de forma persistente la estabilidad del entorno corporativo e institucional.\n\nFuente: ABC Internacional\n\n#Ciberseguridad #RiesgoGeopolítico #PuntoCiego",
+      "blueskyPost": "Reino Unido desconecta redes del Ministerio de Trabajo por un ciberataque. Ocurre días después de que el MI5 alertara sobre sabotajes rusos a infraestructuras. La brecha institucional continúa exponiendo vulnerabilidades. #PuntoCiego #Ciberseguridad",
+      "copies": {
+        "facebook": "El Ministerio de Trabajo y Pensiones del Reino Unido ha tenido que desconectar de urgencia varios de sus servicios en línea tras sufrir un ciberataque. Aunque el gobierno británico insiste en que el pago de las pensiones y prestaciones sociales no se ha visto comprometido, la paralización de la operativa interna refleja la fragilidad de la infraestructura pública.\n\nEl aspecto crítico trasciende el fallo informático puntual. Esta semana, el servicio de inteligencia MI5 y el Ministerio de Defensa alertaron formalmente a los proveedores militares británicos sobre un incremento en los intentos de sabotaje dirigidos por Rusia. La sucesión de incidentes en el país, desde el robo de datos de 8,7 millones de personas en tres aeropuertos hasta parálisis operativas en gigantes corporativos, perfila una campaña sistemática de prueba de resistencia frente a la administración británica.\n\n¿Estamos presenciando el fallo puntual de redes gubernamentales o el resultado de un sabotaje híbrido diseñado para desestabilizar la gestión pública?\n\n#SeguridadNacional #Ciberseguridad #PuntoCiego",
+        "telegram": "<b>REINO UNIDO DESCONECTA SERVICIOS DEL MINISTERIO DE TRABAJO TRAS CIBERATAQUE</b>\n\n• <b>Qué ocurrió:</b> El Ministerio de Trabajo y Pensiones del Reino Unido suspendió parte de sus servicios en línea por un ciberataque, según confirmó la propia entidad junto al Centro Nacional de Ciberseguridad.\n• <b>Por qué importa:</b> El incidente ocurre en la misma semana en que el MI5 advirtió sobre un repunte de sabotajes rusos dirigidos contra infraestructuras y suministradores de defensa. La recurrencia de brechas cibernéticas expone fallos estructurales en la protección de datos e instituciones británicas.\n• <b>Qué sigue:</b> Las autoridades evalúan el alcance de la intrusión mientras refuerzan la vigilancia sobre otras agencias estatales y contratistas estratégicos.",
+        "bluesky": "Reino Unido desconecta redes del Ministerio de Trabajo por un ciberataque. Ocurre días después de que el MI5 alertara sobre sabotajes rusos a infraestructuras. La brecha institucional continúa exponiendo vulnerabilidades. #PuntoCiego #Ciberseguridad",
+        "linkedIn": "La suspensión preventiva de los servicios digitales en el Ministerio de Trabajo y Pensiones del Reino Unido es un recordatorio de los riesgos operativos que afronta el sector público global. Si bien la entidad aseguró que los flujos financieros de pensiones permanecen intactos, la necesidad de aislar redes revela la severidad del vector de entrada.\n\nEste evento no debe analizarse de forma aislada. La advertencia emitida por el MI5 a la industria de defensa británica sobre tácticas de reconocimiento e inhabilitación coordinadas coincide temporalmente con la disrupción de sistemas gubernamentales. El impacto económico de estas incursiones cibernéticas genera costes directos de mitigación y perturba las cadenas de valor público-privadas.\n\nPara los gestores de riesgos y analistas de continuidad de negocio, la lección es clara: las amenazas híbridas dirigidas contra la administración pública alteran de forma persistente la estabilidad del entorno corporativo e institucional.\n\n#Ciberseguridad #RiesgoGeopolítico #PuntoCiego"
+      },
+      "article": {
+        "slug": "ciberataque-ministerio-trabajo-britanico-expone-vulnerabilidades-dyt3",
+        "title": "El ciberataque al Ministerio de Trabajo británico expone las vulnerabilidades de la infraestructura pública",
+        "dek": "La desconexión preventiva de redes en la dependencia británica ocurre en paralelo a las alertas del MI5 sobre ciber sabotaje militar. La acumulación de brechas informáticas tensiona la seguridad del Estado.",
+        "keyFacts": [
+          "El Ministerio de Trabajo y Pensiones del Reino Unido (DWP) desconectó servicios en línea como medida de precaución tras un ciberataque.",
+          "Los pagos de prestaciones sociales y pensiones continuaron procesándose sin afectación según el comunicado oficial.",
+          "El MI5 y el Ministerio de Defensa advirtieron esa misma semana a proveedores militares sobre un aumento de sabotajes vinculados a Rusia.",
+          "En agosto, un ataque cibernético a tres aeropuertos del Manchester Airports Group derivó en el robo de datos de 8,7 millones de clientes."
+        ],
+        "sections": [
+          {
+            "heading": "Interrupción de servicios en la administración británica",
+            "paragraphs": [
+              "El Ministerio de Trabajo y Pensiones del Reino Unido (DWP, por sus siglas en inglés) hizo pública la desconexión preventiva de parte de sus servicios digitales tras detectar una intrusión informática en sus redes operativas. Un portavoz oficial de la entidad confirmó la medida y señaló que el organismo trabaja en coordinación directa con el Centro Nacional de Ciberseguridad y el Centro de Coordinación Cibernética del Gobierno para controlar el incidente y restablecer la normalidad en la plataforma.",
+              "Las autoridades británicas han hecho hincapié en que la interrupción no ha impactado la emisión de transferencias económicas periódicas, garantizando la continuidad en los pagos de pensiones y subsidios de desempleo. Sin embargo, la parálisis de los portales de tramitación en línea de uno de los departamentos de mayor envergadura burocrática del país demuestra la efectividad de las incursiones en los perímetros de seguridad gubernamentales."
+            ]
+          },
+          {
+            "heading": "El contexto de ciberamenazas e incursiones previas",
+            "paragraphs": [
+              "La desconexión en el DWP se suma a una secuencia de interrupciones tecnológicas que han impactado infraestructuras en el ámbito internacional, como las caídas de sistemas registradas recientemente en la Administración Federal de Aviación de Estados Unidos y en las plataformas globales de Microsoft. En el territorio británico, la acumulación de incidentes informáticos graves en sectores estratégicos se ha intensificado a lo largo del último año.",
+              "El antecedente de mayor escala tuvo lugar en agosto, cuando un ataque lanzado contra tres instalaciones pertenecientes al Manchester Airports Group culminó con la filtración y robo de datos personales de 8,7 millones de usuarios. Paralelamente, corporaciones clave en el ecosistema británico como la firma automotriz Jaguar Land Rover y las cadenas de comercio Marks & Spencer, Harrods y Co-op han registrado disrupciones operativas severas asociadas a vulnerabilidades en su software."
+            ]
+          },
+          {
+            "heading": "El punto ciego: la convergencia de sabotaje estatal e inestabilidad burocrática",
+            "paragraphs": [
+              "El aspecto central que desatiende la cobertura mediática convencional es la coincidencia temporal entre la parálisis del ministerio y la alerta extraordinaria emitida días antes por los servicios de inteligencia del Reino Unido. Tanto el MI5 como el Ministerio de Defensa comunicaron a los contratistas militares que suministran pertrechos a Ucrania la detección de maniobras de reconocimiento hostil y tentativas de sabotaje coordinadas desde la Federación de Rusia.",
+              "Tratar la desconexión del Ministerio de Trabajo como un fallo informático rutinario ignora la dinámica de la guerra híbrida contemporánea. Las incursiones cibernéticas contra organismos civiles permiten a los atacantes poner a prueba los tiempos de reacción del Centro Nacional de Ciberseguridad, identificar dependencias tecnológicas compartidas por distintas carteras y sembrar desconfianza institucional sin atravesar los umbrales formales de un ataque armado directo."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde en el tablero de ciberdefensa",
+            "paragraphs": [
+              "Los actores de amenazas respaldados por Estados rivales consolidan ventajas tácticas al desgastar la infraestructura burocrática británica sin asumir costes diplomáticos de consideración. Logran extraer inteligencia sobre la resiliencia operativa del país mientras fuerzan la redistribución de recursos de ciberdefensa hacia tareas de contención interna.",
+              "El gobierno británico y los ciudadanos asumen los costes del deterioro en la seguridad digital. Para el Estado, cada episodio de aislamiento de red implica una pérdida transitoria de capacidad administrativa y obliga a incrementar el gasto público en auditorías de urgencia. Para la población, aumenta el riesgo de exposición masiva de datos y se compromete la confiabilidad de las vías digitales para tramitar servicios públicos esenciales."
+            ]
+          },
+          {
+            "heading": "Qué vigilar en las próximas semanas",
+            "paragraphs": [
+              "Será determinante observar las conclusiones técnicas que emitan el Centro Nacional de Ciberseguridad y las agencias de inteligencia respecto al vector de entrada utilizado en el DWP. Se deberá dar seguimiento a la posible formulación de nuevas directivas de seguridad obligatorias para contratistas del sector público y a eventuales atribuciones formales de responsabilidad diplomática contra grupos de ciberespionaje estatal."
+            ]
+          }
+        ],
+        "tags": [
+          "Reino Unido",
+          "Ciberseguridad",
+          "MI5",
+          "Sabotaje",
+          "Infraestructura Crítica",
+          "Defensa"
+        ],
+        "sources": [
+          {
+            "name": "ABC Internacional",
+            "title": "Un ciberataque suspende numerosos servicios del Ministerio de Trabajo y Pensiones de Reino Unido",
+            "url": "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html"
+          },
+          {
+            "name": "ABC",
+            "title": "Un ciberataque suspende numerosos servicios del Ministerio de Trabajo y Pensiones de Reino Unido",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEw2ek5BYmxyTHJlckl2bWtBNFVKRmNYZ2trQnJwRXJYVlZVXzJlN3N2OGxEU09TZGdjTXBRR2ExSXhTczhHTmx3ZzU3QmIzcTk5NEg5YUYxcXA1aE5WNE5kZ2V2M2pPc1huRFJ0OEdfaW9qZlo1ZTBNUDBQTmFOWjNQVU9QNG9pOHBhb3FDeWxJXzdBajV1SnNnSzhlZHBvYUs4WjNIRnhqd0hneXoyNTZzcFVKN1ZkZ0wwWnp1NzBTQdIBxwFBVV95cUxPVktLN2xWMTJKX3djLU5tNHVTRmMzcGZTQUp3SGQ2QW1fZUxYSThGME1VV1JicWoxSmNoalVzai1qcVdsalpTcXdxdUFBa1p3MVpuQWxfU1BQTmphcEVFUTdnODRjTEZ2SFVTbWY2RnZoSTAwSTZISl9kNXNfeFFXUkVTSHNuS1pCWGNpVzE3aW1PdVNGazEwd0VMUGZYTzNPTzJZZ09JeXZVaTMtWkFDMHRaQ2VVRE1OSEJHV2t4c1lSNEp5eE8w?oc=5"
+          }
+        ],
+        "wordCount": 613
+      },
+      "videoScript": {
+        "hook": "¿Es solo un fallo informático o un ensayo de sabotaje militar?",
+        "beats": [
+          "El Reino Unido desconectó servicios del Ministerio de Trabajo tras un ciberataque.",
+          "El incidente ocurre tras el robo de datos de 8,7 millones de personas en 3 aeropuertos.",
+          "Y aquí viene lo interesante: el MI5 acababa de alertar sobre ciber sabotajes rusos a la defensa."
+        ],
+        "close": "Lee el análisis completo sobre este ataque en el enlace de nuestro perfil."
+      },
+      "rawImageUrl": "https://www.contramuro.com/wp-content/uploads/2024/07/crecen-los-ataques-ddos-en-2024.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-27T11:04:34.171Z",
+      "cardImageUrl": "/news-cards/news-leujwnfpa-1795777474171.jpg",
+      "reelCoverUrl": "/news-cards/news-leujwnfpa-1795777474760-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-leujwnfpa-1795777475283-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ciberataque-ministerio-trabajo-britanico-expone-vulnerabilidades-dyt3/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-27T11:04:36.559Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-27T11:04:36.559Z",
+    "isBreaking": true
   }
 ]
