@@ -385,6 +385,34 @@
   ],
   "processedSignatures": [
     {
+      "title": "TRUMP Y RUTTE EXIGEN A MOSCÚ NO EXPANDIR LA GUERRA",
+      "normalizedTokens": [
+        "trump",
+        "rutte",
+        "exigen",
+        "moscu",
+        "expandir",
+        "guerra"
+      ],
+      "date": "2026-11-27T11:02:31.866Z"
+    },
+    {
+      "title": "Trump y el jefe de la OTAN instan a Rusia a evitar acciones que amplíen la guerra en Ucrania",
+      "normalizedTokens": [
+        "trump",
+        "jefe",
+        "otan",
+        "instan",
+        "rusia",
+        "evitar",
+        "acciones",
+        "amplien",
+        "guerra",
+        "ucrania"
+      ],
+      "date": "2026-11-27T11:02:31.863Z"
+    },
+    {
       "title": "EXPLOSIÓN EN DUCTO DE PEMEX GOLPEA A NUEVO LEÓN",
       "normalizedTokens": [
         "explosion",
@@ -7453,36 +7481,6 @@
         "plan"
       ],
       "date": "2026-11-10T11:59:42.729Z"
-    },
-    {
-      "title": "LLUVIAS E INUNDACIONES EN GAZA COBRAN LA VIDA DE CINCO PERSONAS",
-      "normalizedTokens": [
-        "lluvias",
-        "inundaciones",
-        "gaza",
-        "cobran",
-        "vida",
-        "cinco",
-        "personas"
-      ],
-      "date": "2026-11-10T11:39:18.261Z"
-    },
-    {
-      "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
-      "normalizedTokens": [
-        "children",
-        "among",
-        "the",
-        "dead",
-        "heavy",
-        "rains",
-        "flood",
-        "tents",
-        "and",
-        "shelters",
-        "gaza"
-      ],
-      "date": "2026-11-10T11:39:18.260Z"
     }
   ]
 }
