@@ -382,9 +382,36 @@
     "https://www.eltiempo.com/mundo/medio-oriente/tres-informes-exponen-la-crisis-palestina-emergencia-por-el-invierno-en-gaza-denuncias-de-tortura-y-despidos-de-la-unrwa-sin-pruebas-suficientes-3604610",
     "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf",
     "https://www.bloomberglinea.com/latinoamerica/mexico/pemex-registra-fuerte-explosion-en-ducto-de-nuevo-leon/",
-    "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html"
+    "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html",
+    "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "BOMBARDEO SAUDÍ EN YEMEN REAVIVA EL CONFLICTO REGIONAL",
+      "normalizedTokens": [
+        "bombardeo",
+        "saudi",
+        "yemen",
+        "reaviva",
+        "conflicto",
+        "regional"
+      ],
+      "date": "2026-11-27T11:32:05.616Z"
+    },
+    {
+      "title": "Un bombardeo saudita mata a 11 personas en Yemen, según prensa hutí",
+      "normalizedTokens": [
+        "bombardeo",
+        "saudita",
+        "mata",
+        "personas",
+        "yemen",
+        "segun",
+        "prensa",
+        "huti"
+      ],
+      "date": "2026-11-27T11:32:05.614Z"
+    },
     {
       "title": "REINO UNIDO DESCONECTA SERVICIOS DEL MINISTERIO DE TRABAJO TRAS CIBERATAQUE",
       "normalizedTokens": [
@@ -7449,39 +7476,6 @@
         "finds"
       ],
       "date": "2026-11-10T13:33:00.524Z"
-    },
-    {
-      "title": "CONGRESO DE EE. UU. ABRE BATALLA PARA DESTITUIR A PETE HEGSETH",
-      "normalizedTokens": [
-        "congreso",
-        "abre",
-        "batalla",
-        "destituir",
-        "pete",
-        "hegseth"
-      ],
-      "date": "2026-11-10T12:32:21.385Z"
-    },
-    {
-      "title": "Pete Hegseth: Congreso de EE. UU. abre batalla para destituir al secretario de Guerra por operaciones en Irán, Yemen y Venezuela; así están los votos",
-      "normalizedTokens": [
-        "pete",
-        "hegseth",
-        "congreso",
-        "abre",
-        "batalla",
-        "destituir",
-        "secretario",
-        "guerra",
-        "operaciones",
-        "iran",
-        "yemen",
-        "venezuela",
-        "asi",
-        "estan",
-        "votos"
-      ],
-      "date": "2026-11-10T12:32:21.383Z"
     }
   ]
 }

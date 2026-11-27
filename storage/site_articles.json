@@ -1,5 +1,81 @@
 [
   {
+    "slug": "escalada-saudi-yemen-reabre-frente-inestabilidad-wpkz",
+    "path": "noticias/escalada-saudi-yemen-reabre-frente-inestabilidad-wpkz/",
+    "title": "La escalada saudí en Yemen reabre el frente de inestabilidad en el Golfo",
+    "headline": "BOMBARDEO SAUDÍ EN YEMEN REAVIVA EL CONFLICTO REGIONAL",
+    "dek": "Las incursiones aéreas de la coalición en Taiz y Saada dejan víctimas civiles y amenazan con detonar represalias contra la infraestructura energética de la península arábiga. El colapso definitivo del periodo de tregua sitúa a Riad en una peligrosa encrucijada estratégica.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Deutsche Welle (DW)",
+    "image": "img/escalada-saudi-yemen-reabre-frente-inestabilidad-wpkz.jpg",
+    "photo": "img/escalada-saudi-yemen-reabre-frente-inestabilidad-wpkz-foto.jpg",
+    "publishedAt": "2026-11-27T11:32:05.481Z",
+    "article": {
+      "slug": "escalada-saudi-yemen-reabre-frente-inestabilidad-wpkz",
+      "title": "La escalada saudí en Yemen reabre el frente de inestabilidad en el Golfo",
+      "dek": "Las incursiones aéreas de la coalición en Taiz y Saada dejan víctimas civiles y amenazan con detonar represalias contra la infraestructura energética de la península arábiga. El colapso definitivo del periodo de tregua sitúa a Riad en una peligrosa encrucijada estratégica.",
+      "keyFacts": [
+        "11 personas murieron tras el ataque aéreo saudí contra un edificio en Al-Turba, provincia de Taiz, el 26 de noviembre de 2026.",
+        "La ONU registra más de 2.300 muertos y 364.000 desplazados desde que se reactivaron las hostilidades entre la coalición e insurgentes hutíes.",
+        "Las autoridades de Arabia Saudita contabilizan 27 personas fallecidas en su territorio por ataques represivos del movimiento insurgente.",
+        "El periodo de cese al fuego de cuatro años comenzó a desintegrarse formalmente tras los choques reportados en julio."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Un bombardeo aéreo ejecutado por la coalición militar que encabeza Arabia Saudita causó la muerte de 11 personas en la localidad de Al-Turba, situada en la gobernación yemení de Taiz, según informó la agencia de noticias Saba, vinculada al movimiento hutí. La operación militar se produjo el viernes 26 de noviembre de 2026 y afectó principalmente a una zona residencial.",
+            "Asimismo, fuentes locales reportaron ataques complementarios contra depósitos de almacenamiento de combustible en la región septentrional de Saada, considerada el bastión tradicional de la facción rebelde. Estas incursiones representan un peldaño más en el recrudecimiento militar que atraviesa la región desde mediados del año."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La confrontación armada en Yemen, el país de menor desarrollo relativo en la península arábiga, experimentó un deterioro sostenido tras romperse cuatro años de una frágil tregua entre las partes en conflicto. A partir de septiembre, la frecuencia e intensidad de los ataques cruzados se incrementó de forma sustancial.",
+            "Según balances oficiales atribuidos a la Organización de las Naciones Unidas, los enfrentamientos reanudados han dejado un saldo superior a los 2.300 fallecidos y han forzado la movilización de más de 364.000 personas en condición de desplazados internos. En suelo saudí, los proyectiles y drones lanzados por la milicia hutí causaron la muerte de 27 personas."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El análisis dominante suele calificar estos episodios como meros intercambios punitivos entre actores locales. Sin embargo, el punto ciego institucional revela una grieta estratégica mayor para Riad: la imposibilidad de cerrar el frente militar sin comprometer la seguridad de su propio plan de transformación económica interna.",
+            "El desgaste militar de la coalición saudí demuestra que las intervenciones aéreas no han logrado desmantelar la capacidad operativa de los insurgentes. Cada incursión destructiva en territorio yemení eleva la probabilidad de ataques de precisión contra las refinerías de Saudi Aramco y la red aeroportuaria del reino, factores que alteran directamente el cálculo de riesgo de los inversores internacionales."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el terreno táctico, el movimiento hutí consolida su cohesión interna al redefinirse como fuerza de resistencia frente a la intervención extranjera, aprovechando la infraestructura defensiva proveída por la influencia regional de Teherán.",
+            "Por el contrario, el gobierno yemení reconocido internacionalmente pierde margen de maniobra política al depender exclusivamente del respaldo militar de Riad, mientras la población civil asume el costo humanitario de la devastación urbana y el desplazamiento forzado."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "En los próximos días, la atención estará centrada en el tipo de respuesta balística que ejecuten las fuerzas hutíes contra activos estratégicos dentro de Arabia Saudita. Un impacto directo en terminales de exportación de crudo reactivaría de inmediato las alarmas sobre el suministro de hidrocarburos y la seguridad en el estrecho de Bab el-Mandeb."
+          ]
+        }
+      ],
+      "tags": [
+        "Yemen",
+        "Arabia Saudita",
+        "Hutíes",
+        "Golfo Pérsico",
+        "Geopolítica",
+        "Conflicto Armado"
+      ],
+      "sources": [
+        {
+          "name": "Deutsche Welle (DW)",
+          "title": "Un bombardeo saudita mata a 11 personas en Yemen, según prensa hutí",
+          "url": "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "wordCount": 479
+    },
+    "blindSpot": "Más allá de las bajas civiles reportadas por los medios hutíes, la reanudación sistemática de incursiones aéreas responde a la incapacidad de Riad para consolidar una salida diplomática sostenible sin ceder el control de rutas comerciales marítimas clave. El verdadero riesgo estriba en la vulnerabilidad de la infraestructura energética saudí frente a la capacidad de respuesta balística del movimiento rebelde."
+  },
+  {
     "slug": "ciberataque-ministerio-trabajo-britanico-expone-vulnerabilidades-dyt3",
     "path": "noticias/ciberataque-ministerio-trabajo-britanico-expone-vulnerabilidades-dyt3/",
     "title": "El ciberataque al Ministerio de Trabajo británico expone las vulnerabilidades de la infraestructura pública",
