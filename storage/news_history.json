@@ -376,9 +376,36 @@
     "https://www.france24.com/es/video/20261126-colombia-rescatan-a-rehenes-tras-16-horas-de-secuestro-en-supermercado-en-cartagena",
     "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
     "https://www.infobae.com/estados-unidos/2026/11/26/nvidia-vendio-chips-de-inteligencia-artificial-a-dos-empresas-de-california-controladas-por-firmas-chinas/",
-    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWDQtS01LU3lhbHY2d2o4bnJBWGlJenZZODJiUy1qSENQWElHbnFoSmNjRjhDN2o0SmJaV0wxRVJTWElkZThUTEY1eFBodkRnVkRNUGdBMUtxdGJySnhMV2MtTjB0MUlUd2F6NHlrQWk3bkVad1IxWGRHTUw0WlBXX2Nuemh0bzZlS09PSzdmdGZ3UW9hd0JrUzl3SVdMbWFNSkhXdEtkcF90RUVva3pMempaUE5oNjVPZ2E4bldpdXRsZ3VfU1kxMEU3N2MtNmVPMHpkdXB0cmRNbk9nbEIyZ3cwNlM3NnVJdTZGT1g1YWdvVExIdXc?oc=5"
+    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWDQtS01LU3lhbHY2d2o4bnJBWGlJenZZODJiUy1qSENQWElHbnFoSmNjRjhDN2o0SmJaV0wxRVJTWElkZThUTEY1eFBodkRnVkRNUGdBMUtxdGJySnhMV2MtTjB0MUlUd2F6NHlrQWk3bkVad1IxWGRHTUw0WlBXX2Nuemh0bzZlS09PSzdmdGZ3UW9hd0JrUzl3SVdMbWFNSkhXdEtkcF90RUVva3pMempaUE5oNjVPZ2E4bldpdXRsZ3VfU1kxMEU3N2MtNmVPMHpkdXB0cmRNbk9nbEIyZ3cwNlM3NnVJdTZGT1g1YWdvVExIdXc?oc=5",
+    "https://es.wired.com/articulos/estas-son-las-mejores-ofertas-anticipadas-para-black-friday"
   ],
   "processedSignatures": [
+    {
+      "title": "FABRICANTES DE HARDWARE ACELERAN LIQUIDACIÓN DE DISPOSITIVOS EN BLACK FRIDAY",
+      "normalizedTokens": [
+        "fabricantes",
+        "hardware",
+        "aceleran",
+        "liquidacion",
+        "dispositivos",
+        "black",
+        "friday"
+      ],
+      "date": "2026-11-27T00:08:32.902Z"
+    },
+    {
+      "title": "Ya está aquí el Black Friday 2026: Estas son las mejores ofertas",
+      "normalizedTokens": [
+        "aqui",
+        "black",
+        "friday",
+        "2026",
+        "estas",
+        "mejores",
+        "ofertas"
+      ],
+      "date": "2026-11-27T00:08:32.900Z"
+    },
     {
       "title": "PABLO HERNÁNDEZ DE COS PRESIDIRÁ EL BANCO CENTRAL EUROPEO",
       "normalizedTokens": [
@@ -7455,33 +7482,6 @@
         "gobierno"
       ],
       "date": "2026-11-10T05:32:09.338Z"
-    },
-    {
-      "title": "TRAGEDIA INDUSTRIAL EN ESMIRNA EXPONE FALLAS DE SEGURIDAD SIDERÚRGICA",
-      "normalizedTokens": [
-        "tragedia",
-        "industrial",
-        "esmirna",
-        "expone",
-        "fallas",
-        "seguridad",
-        "siderurgica"
-      ],
-      "date": "2026-11-10T05:16:56.783Z"
-    },
-    {
-      "title": "Explosión en complejo industrial de Esmirna provoca incendio y densa humareda",
-      "normalizedTokens": [
-        "explosion",
-        "complejo",
-        "industrial",
-        "esmirna",
-        "provoca",
-        "incendio",
-        "densa",
-        "humareda"
-      ],
-      "date": "2026-11-10T05:16:56.782Z"
     }
   ]
 }

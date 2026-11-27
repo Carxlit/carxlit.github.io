@@ -26225,5 +26225,133 @@
     "attempts": 0,
     "maxAttempts": 3,
     "createdAt": "2026-11-26T23:05:56.424Z"
+  },
+  {
+    "id": "queue-1795738112889-qa1tm",
+    "news": {
+      "id": "muju0kulr",
+      "originalUrl": "https://es.wired.com/articulos/estas-son-las-mejores-ofertas-anticipadas-para-black-friday",
+      "originalTitle": "Ya está aquí el Black Friday 2026: Estas son las mejores ofertas",
+      "sourceName": "Wired en Español",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 78,
+      "headline": "FABRICANTES DE HARDWARE ACELERAN LIQUIDACIÓN DE DISPOSITIVOS EN BLACK FRIDAY",
+      "subHeadline": "Las principales firmas de tecnología han iniciado agresivos descuentos en productos como la serie Google Pixel 11 y el Samsung Z Fold8. Tras las rebajas comerciales se oculta una aceleración en la adopción de componentes de nueva generación y sistemas con inteligencia artificial integrada.",
+      "blindSpotAngle": "El verdadero objetivo de las promociones de fin de año no es la simple venta de inventario sobrante, sino acelerar la sustitución de hardware hacia arquitecturas basadas en semiconductores de nitruro de galio (GaN) y baterías de silicio-carbono de 4800 mAh. Al aplicar reducciones de hasta 130 dólares en equipos insignia, Big Tech busca amarrar a los usuarios a ecosistemas cerrados donde la rentabilidad migra del dispositivo físico a las suscripciones de software e IA.",
+      "facebookPost": "Las campañas promocionales de fin de año suelen presentarse como oportunidades excepcionales para el consumo. En esta temporada, marcas como Google, Samsung y Apple aplican descuentos en equipos como el Pixel 11 con chip Tensor G6, el Z Fold8 o los AirPods Max 2 con rebajas de 130 dólares. La narrativa comercial atribuye estos precios a dinámicas habituales de mercado.\n\nSin embargo, el punto ciego de esta estrategia reside en el modelo financiero subyacente. El hardware de consumo ya no es la principal fuente de margen para la gran industria tecnológica. Al subsidiar el acceso a dispositivos equipados con baterías de silicio-carbono de 4800 mAh o chips de carga GaN de 96 vatios, las corporaciones buscan capturar nodos de datos y asegurar usuarios en sus plataformas de inteligencia artificial y almacenamiento en la nube.\n\n¿Estamos frente a verdaderas oportunidades para el comprador o ante un mecanismo calculado para forzar la actualización de terminales dependientes de servicios pagados?\n\nFuente: Wired en Español\n\n#Tecnología #BlackFriday #PuntoCiego",
+      "telegramPost": "<b>FABRICANTES DE HARDWARE ACELERAN LIQUIDACIÓN DE DISPOSITIVOS EN BLACK FRIDAY</b>\n\n• <b>Qué ocurrió:</b> Las principales marcas tecnológicas iniciaron promociones en dispositivos clave como la línea Google Pixel 11 con chip Tensor G6, el Samsung Z Fold8 y los AirPods Max 2 con 130 dólares de descuento.\n• <b>Por qué importa:</b> El abaratamiento del hardware busca acelerar la penetración de componentes de nueva generación como semiconductores GaN e integrar al usuario en modelos de suscripción de software e IA.\n• <b>Qué sigue:</b> Se anticipa una mayor presión sobre la cadena de producción de microchips avanzados y un incremento en las tarifas de licencias y servicios en la nube.",
+      "linkedInPost": "El inicio de la temporada de compras de fin de año expone un cambio estructural en las estrategias de comercialización de Big Tech. Los descuentos en dispositivos de gama alta —desde el Samsung Z Fold8 impulsado por el Snapdragon 8 Elite Gen 5 hasta soluciones de carga Belkin GaN de 96 vatios— responden a una reconfiguración de los márgenes corporativos.\n\nPara los líderes del sector, el valor monetario se ha desplazado de la venta de la unidad física a la captura prolongada de datos y servicios recurrentes. Subsidiar parcialmente la entrada a hardware equipado con procesadores propietarios como el Google Tensor G6 permite expandir la base instalada de terminales aptas para ejecutar funciones avanzadas de IA. Esta aceleración en el ciclo de adopción tecnológica también incrementa la demanda de semiconductores de nitruro de galio (GaN) frente al silicio tradicional.\n\nLas organizaciones deben evaluar el costo real de propiedad de estas tecnologías, donde el menor gasto en capital inicial puede ser compensado por una mayor dependencia operativa de infraestructura de software propietaria.\n\nFuente: Wired en Español\n\n#Tecnología #Innovación #PuntoCiego",
+      "blueskyPost": "Las rebajas de Black Friday en la serie Pixel 11 o los AirPods Max 2 no son un regalo: buscan consolidar usuarios en ecosistemas de IA e infraestructuras GaN. El margen pasó del chip a la suscripción. #PuntoCiego #Tecnología",
+      "copies": {
+        "facebook": "Las campañas promocionales de fin de año suelen presentarse como oportunidades excepcionales para el consumo. En esta temporada, marcas como Google, Samsung y Apple aplican descuentos en equipos como el Pixel 11 con chip Tensor G6, el Z Fold8 o los AirPods Max 2 con rebajas de 130 dólares. La narrativa comercial atribuye estos precios a dinámicas habituales de mercado.\n\nSin embargo, el punto ciego de esta estrategia reside en el modelo financiero subyacente. El hardware de consumo ya no es la principal fuente de margen para la gran industria tecnológica. Al subsidiar el acceso a dispositivos equipados con baterías de silicio-carbono de 4800 mAh o chips de carga GaN de 96 vatios, las corporaciones buscan capturar nodos de datos y asegurar usuarios en sus plataformas de inteligencia artificial y almacenamiento en la nube.\n\n¿Estamos frente a verdaderas oportunidades para el comprador o ante un mecanismo calculado para forzar la actualización de terminales dependientes de servicios pagados?\n\n#Tecnología #BlackFriday #PuntoCiego",
+        "telegram": "<b>FABRICANTES DE HARDWARE ACELERAN LIQUIDACIÓN DE DISPOSITIVOS EN BLACK FRIDAY</b>\n\n• <b>Qué ocurrió:</b> Las principales marcas tecnológicas iniciaron promociones en dispositivos clave como la línea Google Pixel 11 con chip Tensor G6, el Samsung Z Fold8 y los AirPods Max 2 con 130 dólares de descuento.\n• <b>Por qué importa:</b> El abaratamiento del hardware busca acelerar la penetración de componentes de nueva generación como semiconductores GaN e integrar al usuario en modelos de suscripción de software e IA.\n• <b>Qué sigue:</b> Se anticipa una mayor presión sobre la cadena de producción de microchips avanzados y un incremento en las tarifas de licencias y servicios en la nube.",
+        "bluesky": "Las rebajas de Black Friday en la serie Pixel 11 o los AirPods Max 2 no son un regalo: buscan consolidar usuarios en ecosistemas de IA e infraestructuras GaN. El margen pasó del chip a la suscripción. #PuntoCiego #Tecnología",
+        "linkedIn": "El inicio de la temporada de compras de fin de año expone un cambio estructural en las estrategias de comercialización de Big Tech. Los descuentos en dispositivos de gama alta —desde el Samsung Z Fold8 impulsado por el Snapdragon 8 Elite Gen 5 hasta soluciones de carga Belkin GaN de 96 vatios— responden a una reconfiguración de los márgenes corporativos.\n\nPara los líderes del sector, el valor monetario se ha desplazado de la venta de la unidad física a la captura prolongada de datos y servicios recurrentes. Subsidiar parcialmente la entrada a hardware equipado con procesadores propietarios como el Google Tensor G6 permite expandir la base instalada de terminales aptas para ejecutar funciones avanzadas de IA. Esta aceleración en el ciclo de adopción tecnológica también incrementa la demanda de semiconductores de nitruro de galio (GaN) frente al silicio tradicional.\n\nLas organizaciones deben evaluar el costo real de propiedad de estas tecnologías, donde el menor gasto en capital inicial puede ser compensado por una mayor dependencia operativa de infraestructura de software propietaria.\n\n#Tecnología #Innovación #PuntoCiego"
+      },
+      "article": {
+        "slug": "trampa-black-friday-tecnologicas-liquidan-hardware-45h3",
+        "title": "La trampa del Black Friday: por qué las tecnológicas liquidan su hardware avanzado",
+        "dek": "Las rebajas masivas de fin de año en telefonía y accesorios responden al interés de las grandes marcas por imponer nuevos estándares de procesadores. El negocio no está en la venta del aparato, sino en la captación de usuarios para plataformas de suscripción.",
+        "keyFacts": [
+          "Apple redujo 130 dólares en el precio comercial de los auriculares supraaurales AirPods Max 2.",
+          "El teléfono plegable Samsung Z Fold8 integra el procesador Qualcomm Snapdragon 8 Elite Gen 5 y una batería de silicio-carbono de 4800 mAh.",
+          "La línea Google Pixel 11 opera con la plataforma de procesamiento propietaria Tensor G6.",
+          "Estaciones de carga Belkin utilizan semiconductores de nitruro de galio (GaN) para entregar 96 vatios de potencia y conectar tres pantallas 4K.",
+          "Los auriculares Sony WH-1000XM6 ofrecen hasta 30 horas de autonomía con cancelación activa de ruido."
+        ],
+        "sections": [
+          {
+            "heading": "Descuentos agresivos en la temporada de compras",
+            "paragraphs": [
+              "La temporada comercial de fin de año arrancó con promociones masivas orientadas a las festividades de Black Friday, Cyber Monday y Cyber Week. Según reportes del equipo de análisis de Wired en Español, firmas de primer nivel como Apple, Google, Samsung, Sony y Belkin han iniciado reducciones de precio en varias de sus líneas de dispositivos más destacadas.",
+              "Entre las ofertas se encuentra la serie Google Pixel 11, integrada por el modelo estándar, el 11 Pro y el 11 Pro XL, todos equipados con el chipset Tensor G6. Paralelamente, los auriculares supraaurales Apple AirPods Max 2 registran descuentos de 130 dólares respecto de su precio de lista, mientras que dispositivos plegables como el Samsung Z Fold8 entran en catálogos promocionales junto a relojes inteligentes como el Pixel Watch 5 y los AirPods Pro 3."
+            ]
+          },
+          {
+            "heading": "La evolución técnica de los dispositivos de 2026",
+            "paragraphs": [
+              "Más allá del impacto en las etiquetas de precio, los productos promocionados reflejan transformaciones clave en la manufactura de hardware. El Samsung Z Fold8 incorpora una pantalla externa de 5.5 pulgadas y una interna de 7.7 pulgadas, impulsadas por el procesador Qualcomm Snapdragon 8 Elite Gen 5 y una batería de silicio-carbono de 4800 mAh, tecnología que incrementa la densidad energética frente al litio tradicional.",
+              "En el terreno de la periférica y conectividad, las estaciones de acoplamiento de Belkin sustituyen el silicio por semiconductores de nitruro de galio (GaN). Esta arquitectura permite suministrar hasta 96 vatios de energía, integrar tres puertos de salida para monitores 4K y añadir conectividad Ethernet Gigabit en un chasis compacto, respondiendo a las exigencias de trabajo remoto e intensivo."
+            ]
+          },
+          {
+            "heading": "La migración forzada hacia el modelo de suscripción",
+            "paragraphs": [
+              "Desde la perspectiva de análisis de Punto Ciego, la marcada política de descuentos de las corporaciones tecnológicas responde a una estrategia financiera amplia. La venta de terminales físicos ha cedido peso como motor principal de margen operativo. Al abaratar el costo de acceso a productos como el Pixel 11 o los auriculares AirPods Pro 3 con capacidad de traducción en tiempo real, las firmas aceleran el despliegue de hardware optimizado para procesamiento de datos.",
+              "El objetivo central consiste en colocar en el mercado la mayor cantidad de nodos capaces de interactuar con plataformas de inteligencia artificial y almacenamiento en la nube. Un menor precio de venta inicial amortiza el costo de adquisición de clientes, garantizando flujos de ingresos recurrentes a través de suscripciones de software y licencias de servicios integrados a largo plazo."
+            ]
+          },
+          {
+            "heading": "El balance entre fabricantes, fundidoras y consumidores",
+            "paragraphs": [
+              "En este escenario, los diseñadores de chips y las plataformas de Big Tech aseguran una posición dominante. Empresas como Qualcomm y Google incrementan el volumen de uso de sus plataformas Snapdragon y Tensor, mientras que los fabricantes de periféricos consolidan escala para rentabilizar sus inversiones en líneas de producción de componentes GaN.",
+              "Los usuarios reciben un beneficio inmediato en el precio de compra del equipo, pero asumen un compromiso de permanencia en ecosistemas cerrados. Las funciones de software avanzado que justifican la compra de estos equipos exigen contratos de servicios activos, elevando el costo total de propiedad a lo largo de la vida útil del producto."
+            ]
+          },
+          {
+            "heading": "La evolución de las arquitecturas GaN y la IA integrada",
+            "paragraphs": [
+              "El desarrollo de las promociones durante la Cyber Week servirá para medir la velocidad de liquidación de inventarios basados en componentes de generación previa. La adopción masiva de nitruro de galio y baterías de silicio-carbono definirá el estándar de consumo para el próximo ciclo industrial.",
+              "La variable crítica a vigilar será la evolución de los términos de servicio y las tarifas de licencias asociadas al uso de funciones asistidas por inteligencia artificial en los terminales adquiridos durante esta temporada."
+            ]
+          }
+        ],
+        "tags": [
+          "Tecnología",
+          "Black Friday",
+          "Semiconductores",
+          "Inteligencia Artificial",
+          "Hardware",
+          "Economía Digital"
+        ],
+        "sources": [
+          {
+            "name": "Wired en Español",
+            "title": "Ya está aquí el Black Friday 2026: Estas son las mejores ofertas",
+            "url": "https://es.wired.com/articulos/estas-son-las-mejores-ofertas-anticipadas-para-black-friday"
+          }
+        ],
+        "wordCount": 619
+      },
+      "videoScript": {
+        "hook": "¿Crees que las rebajas de fin de año se hicieron para beneficiarte?",
+        "beats": [
+          "Marcas como Apple aplicaron rebajas de 130 dólares en sus auriculares y recortaron precios en la línea Pixel 11.",
+          "Pero ojo, el objetivo real de las tecnológicas no es rematar inventario sino amarrarte a su software.",
+          "Lo que nadie dice es que el negocio cambió y la ganancia vendrá de las suscripciones mensuales de inteligencia artificial."
+        ],
+        "close": "Descubre el análisis completo sobre el mercado tecnológico en el enlace del perfil."
+      },
+      "rawImageUrl": "https://media.es.wired.com/photos/6b048296f588bff5520f1c7c/16:9/w_1280,c_limit/early%20black%20friday%20deals.png",
+      "sourceVideo": {
+        "provider": "youtube",
+        "id": "51CeWack5pk",
+        "title": "Educative Black Friday Deal 2026: Up to 60% Off (2-Year Plan Breakdown)",
+        "channel": "Fixing Tiny Tedious Things!",
+        "license": "cc-by"
+      },
+      "status": "pending",
+      "createdAt": "2026-11-27T00:08:28.675Z",
+      "cardImageUrl": "/news-cards/news-muju0kulr-1795738108675.jpg",
+      "reelCoverUrl": "/news-cards/news-muju0kulr-1795738111297-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-muju0kulr-1795738111790-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/trampa-black-friday-tecnologicas-liquidan-hardware-45h3/"
+    },
+    "channels": {
+      "facebook": true,
+      "telegram": true,
+      "bluesky": true,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": true,
+      "mastodon": true,
+      "threads": true,
+      "youtube": true
+    },
+    "scheduledFor": "2026-11-27T03:03:00.000Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-27T00:08:32.889Z"
   }
 ]
