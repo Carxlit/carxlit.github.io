@@ -1,5 +1,105 @@
 [
   {
+    "slug": "ocho-muertos-embarcacion-frente-hierro-antesala-lddp",
+    "path": "noticias/ocho-muertos-embarcacion-frente-hierro-antesala-lddp/",
+    "title": "Ocho muertos en una embarcación frente a El Hierro en la antesala electoral española",
+    "headline": "OCHO MIGRANTES MUERTOS FRENTE A EL HIERRO EN PLENA CAMPAÑA",
+    "dek": "El hallazgo de ocho migrantes sin vida en un cayuco cerca de Canarias evidencia la magnitud de una crisis que colapsa las islas y sobrevuela las elecciones generales.",
+    "category": "GEOPOLÍTICA",
+    "sourceName": "Deutsche Welle (DW)",
+    "image": "img/ocho-muertos-embarcacion-frente-hierro-antesala-lddp.jpg",
+    "photo": "img/ocho-muertos-embarcacion-frente-hierro-antesala-lddp-foto.jpg",
+    "video": {
+      "provider": "youtube",
+      "id": "IpPgP-ZGjAA",
+      "title": "Encontrados muertos ocho migrantes en una embarcación rumbo a Canarias",
+      "channel": "RADAR · Prensa 3.0"
+    },
+    "publishedAt": "2026-11-28T05:16:23.602Z",
+    "article": {
+      "slug": "ocho-muertos-embarcacion-frente-hierro-antesala-lddp",
+      "title": "Ocho muertos en una embarcación frente a El Hierro en la antesala electoral española",
+      "dek": "El hallazgo de ocho migrantes sin vida en un cayuco cerca de Canarias evidencia la magnitud de una crisis que colapsa las islas y sobrevuela las elecciones generales.",
+      "keyFacts": [
+        "Al menos ocho migrantes fueron encontrados muertos este viernes 27 de noviembre de 2026.",
+        "La embarcación fue localizada a unos 70 kilómetros al suroeste de la isla de El Hierro.",
+        "84 supervivientes, entre ellos un menor, fueron rescatados y conducidos al puerto de La Restinga.",
+        "Entre el 1 y el 15 de noviembre llegaron 11.037 personas a Canarias, elevando el total anual a 24.364 frente a las 14.690 de 2025."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Al menos ocho migrantes fueron encontrados muertos este viernes en una embarcación que intentaba alcanzar el archipiélago de las islas Canarias, según confirmaron fuentes de Salvamento Marítimo. La embarcación, un cayuco que realizaba la peligrosa travesía desde la costa africana, fue localizada a unos 70 kilómetros al suroeste de la isla de El Hierro.",
+            "En la misma embarcación viajaban 84 personas con vida, incluyendo un menor de edad. Todos los supervivientes fueron rescatados y trasladados al puerto de La Restinga, donde recibieron asistencia inicial por parte de efectivos de la Guardia Civil, la Cruz Roja y soldados de la Unidad Militar de Emergencias."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "El rescate se produce a tan solo dos días de la celebración de las elecciones generales en España, una campaña política que ha estado atravesada por intensos debates en torno a la cuestión migratoria y la capacidad de respuesta del Estado.",
+            "La isla de El Hierro, con una población de casi 12.000 habitantes, sufre desde hace semanas una presión migratoria sin precedentes tras la llegada continuada de embarcaciones desde el continente africano. Esta situación obligó a las autoridades locales a declarar la emergencia social a principios de mes."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Mientras los partidos políticos instrumentalizan la tragedia en la recta final de la campaña electoral, el fondo del problema radica en la incapacidad estructural de contención en origen y en la falta de previsión logística de las administraciones públicas. Las cifras oficiales del Ministerio del Interior muestran una aceleración drástica: entre el 1 y el 15 de noviembre arribaron 11.037 personas a las islas, situando el acumulado anual en 24.364 llegadas irregulares, un incremento sustancial en comparación con las 14.690 registradas en el mismo periodo del año anterior.",
+            "Ante este escenario, el presidente regional de Canarias, Fernando Clavijo, volvió a reclamar públicamente el despliegue de Frontex, la agencia europea de fronteras, evidenciando que las administraciones locales se sienten solas ante una crisis humanitaria que rebasa con creces sus competencias ordinarias."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el tablero político, los partidos utilizan la presión migratoria para polarizar al electorado en los comicios iminentes, desplazando el foco de la gestión exterior a la confrontación partidista interna. Los principales perdedores son, innegablemente, las comunidades locales de acogida como El Hierro y los propios migrantes, que asumen el costo humano de una ruta marítima cada vez más letal sin que la Unión Europea articule una respuesta operativa eficaz."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "El resultado de las elecciones generales determinará el margen de maniobra del próximo Ejecutivo español frente a Bruselas. Es imperativo vigilar si el nuevo gobierno endurece unilateralmente el control fronterizo o si logra presionar con éxito para activar el despliegue permanente de Frontex en el archipiélago canario."
+          ]
+        }
+      ],
+      "tags": [
+        "Canarias",
+        "Migracion",
+        "Espana",
+        "Frontex",
+        "Geopolitica"
+      ],
+      "sources": [
+        {
+          "name": "Deutsche Welle (DW)",
+          "title": "Encuentran muertos a ocho migrantes en una embarcación que trataba de llegar a Canarias",
+          "url": "https://www.dw.com/es/encuentran-muertos-a-ocho-migrantes-en-una-embarcación-que-trataba-de-llegar-a-canarias/a-80081588?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "name": "Yahoo",
+          "title": "Al menos ocho muertos en embarcación de migrantes frente a las costas de las Islas Canarias",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGx3MmNPRjZvZHBNY3FCcVR2Y3E0eTg3RURRRjM4NFBrS3o3ZjZPVDBiaWdPSUxRaW9lNFhydXU3Sld3VnpEd1ludENqNUx2LU8wOENaUWZ1blFveHRCeWZHd0hSZ0x0NkhOLVZkTElsMnVCaEZ1UE9HRm9FeGo2UmI0b2xjZWpBY0wyZkE2VHI1cDZxT2VoLXYwVGs?oc=5"
+        },
+        {
+          "name": "DW.com",
+          "title": "Al menos ocho migrantes son encontrados muertos en una embarcación que trataba de llegar a Canarias",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV1ZlWXo2YjJtWkIzV1ItbG04V2ZKWGpkc1BIZElITnNXRzFLVHJ1bFhnTmZuNXJpLUlqWm9Ea0dkOTk0bUFiNVcyV2gzamROeVlCLTN6ZFV6MkdEQV9YTlU3eHUxRHJyRnVodkF2aXJ0bHNRMHJUSjlLT3d6Q2FaSENFUHIxbDVTRnhDVFR2VkRXMWU5d0NsblZpSjhqOHU2STI1aGxlSk56czF0N1doYlBmaDlTWndfa3ZZNF9yLWxMUUHSAcMBQVVfeXFMT1dWZVl6NmIybVpCM1dSLWxtOFdmSlhqZHNQSGRJSE5zV0cxS1RydWxYZ05mbjVyaS1JalpvRGtHZDk5NG1BYjVXMldoM2pkTnlZQi0zemRVejJHREFfWE5VN3h1MURyckZ1aHZBdmlydGxzUTByVEo5S093ekNhWkhDRVByMWw1U0Z4Q1RUdlZEVzFlOXdDbG5WaUo4ajh1NkkyNWhsZUpOenMxdDdXaGJQZmg5U1p3X2t2WTRfci1sTFFB?oc=5"
+        },
+        {
+          "name": "La Jornada",
+          "title": "Hallan al menos 8 muertos en embarcación de migrantes cerca de las Islas Canarias",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdElrX29oNFZjdUtneXcyZlVheW9MRlVWY19XZV9jTmdMb0R6Vl95ME9uU2xBbHhOTFFIX0ZINHIxRGp2U2RzcTF1MjdrM2hoM3JVc1h0cEtuQXVyN3lVQlVTZGZsN1NndTcyUGFaRjF1Tzd4WXRZTEVfQzZaaFhUWXQwWms1dGgwNkZLSlpzNG9yZWZZenN6bU0yR1hYOUJLNXFNbTdSQk5SbGJ2alBsSlRlOTA0aGM4dUsxXzNpWThqSlQxR2syV0JpSHNQQQ?oc=5"
+        },
+        {
+          "name": "Aragón Play",
+          "title": "Al menos ocho muertos durante la travesía en un cayuco que se dirigía a El Hierro",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYTEzYlVyMG1GZjRGZ0JVWlRkWHVBN1VfamF2ckZuVFAycnRIU21NRkt5TUg2TGxaS1lKdHRtbGE4WWdEWm1GcnZOaENGTWJ5b2I0Q0lJQmlMb2drRVBlbkM0NG16U3JTUlQtYWtBcWJ3TkdoTmdJV2YtWWNtY3JiS1Z4NWxvM2VYYUUtMGJPYl9PaWhXbG1TODZtN0U?oc=5"
+        }
+      ],
+      "wordCount": 466
+    },
+    "blindSpot": "La tragedia coincide con el cierre de la campaña electoral a dos días de las elecciones generales en España, politizando la gestión fronteriza sin abordar el colapso estructural de El Hierro. Mientras el debate nacional se polariza, la exigencia del presidente regional Fernando Clavijo de desplegar a Frontex choca con la inacción diplomática de la Unión Europea y los países de origen."
+  },
+  {
     "slug": "ofensiva-washington-fracturar-opep-desde-cimientos-9kna",
     "path": "noticias/ofensiva-washington-fracturar-opep-desde-cimientos-9kna/",
     "title": "La ofensiva de Washington para fracturar la OPEP desde sus cimientos fundacionales",
