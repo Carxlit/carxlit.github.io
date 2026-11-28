@@ -391,9 +391,35 @@
     "https://www.eltiempo.com/mundo/latinoamerica/inundaciones-por-el-fenomeno-del-nino-ya-dejan-34-muertos-y-cerca-de-47-000-damnificados-en-ecuador-3604999",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KSEFvVm9CcktZcXlaVjNOcVE5Nzc1RjI2c1hoTEh2WEJTODIwLWRyLTd2YW5MX21XTjRqRWg1dms1ekVWeDBuWnplVV9zdVRQX2NmNW52VkxtTWdvRjN0ZjhiQW5ib2hldjd6Ym5sYXppbTZOMkpzUw?oc=5",
     "https://www.dw.com/es/encuentran-muertos-a-ocho-migrantes-en-una-embarcación-que-trataba-de-llegar-a-canarias/a-80081588?maca=spa-rss-sp-all-1122-rdf",
-    "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss"
+    "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+    "https://www.dw.com/es/sube-a-34-la-cifra-de-muertos-en-ecuador-por-lluvias-provocadas-por-el-fenómenos-de-el-niño/a-80082986?maca=spa-rss-sp-all-1122-rdf"
   ],
   "processedSignatures": [
+    {
+      "title": "ACTUALIZACIÓN: DESLIZAMIENTO EN MANABÍ ELEVA A 34 LOS FALLECIDOS",
+      "normalizedTokens": [
+        "actualizacion",
+        "deslizamiento",
+        "manabi",
+        "eleva",
+        "fallecidos"
+      ],
+      "date": "2026-11-28T06:02:06.218Z"
+    },
+    {
+      "title": "Sube a 34 la cifra de muertos en Ecuador por lluvias provocadas por el fenómenos de El Niño",
+      "normalizedTokens": [
+        "sube",
+        "cifra",
+        "muertos",
+        "ecuador",
+        "lluvias",
+        "provocadas",
+        "fenomenos",
+        "nino"
+      ],
+      "date": "2026-11-28T06:02:06.215Z"
+    },
     {
       "title": "CAÍDA DE HELICÓPTERO MILITAR EN PERÚ REVELA VULNERABILIDAD EN VRAEM",
       "normalizedTokens": [
@@ -7459,32 +7485,6 @@
         "descuento"
       ],
       "date": "2026-11-11T11:01:51.643Z"
-    },
-    {
-      "title": "TRAGEDIA MIGRATORIA EN SENEGAL DEJA AL MENOS 39 MUERTOS",
-      "normalizedTokens": [
-        "tragedia",
-        "migratoria",
-        "senegal",
-        "deja",
-        "menos",
-        "muertos"
-      ],
-      "date": "2026-11-11T07:16:29.270Z"
-    },
-    {
-      "title": "Boat capsized off Senegal's northwest coast leaving 39 dead",
-      "normalizedTokens": [
-        "boat",
-        "capsized",
-        "off",
-        "senegal",
-        "northwest",
-        "coast",
-        "leaving",
-        "dead"
-      ],
-      "date": "2026-11-11T07:16:29.269Z"
     }
   ]
 }
