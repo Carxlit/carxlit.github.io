@@ -397,6 +397,32 @@
   ],
   "processedSignatures": [
     {
+      "title": "ESTADOS UNIDOS PRESIONA A VENEZUELA E IRAK PARA DESMANTELAR LA OPEP",
+      "normalizedTokens": [
+        "estados",
+        "unidos",
+        "presiona",
+        "venezuela",
+        "irak",
+        "desmantelar",
+        "opep"
+      ],
+      "date": "2026-11-28T13:48:27.255Z"
+    },
+    {
+      "title": "Estados Unidos está presionando a Venezuela e Irak para que abandonen la OPEP.",
+      "normalizedTokens": [
+        "estados",
+        "unidos",
+        "presionando",
+        "venezuela",
+        "irak",
+        "abandonen",
+        "opep"
+      ],
+      "date": "2026-11-28T13:48:27.253Z"
+    },
+    {
       "title": "EL FENÓMENO DE EL NIÑO DEJA 34 MUERTOS EN ECUADOR",
       "normalizedTokens": [
         "fenomeno",
@@ -7461,37 +7487,6 @@
         "operadores"
       ],
       "date": "2026-11-11T12:33:01.664Z"
-    },
-    {
-      "title": "CINCUENTA AÑOS DE HUELGAS MOLDAN EL PODER SINDICAL EN ESPAÑA",
-      "normalizedTokens": [
-        "cincuenta",
-        "anos",
-        "huelgas",
-        "moldan",
-        "poder",
-        "sindical",
-        "espana"
-      ],
-      "date": "2026-11-11T11:47:22.440Z"
-    },
-    {
-      "title": "Spain general strike: how 50 years of industrial action shaped Spain’s post-Franco democracy",
-      "normalizedTokens": [
-        "spain",
-        "general",
-        "strike",
-        "how",
-        "years",
-        "industrial",
-        "action",
-        "shaped",
-        "spain",
-        "post",
-        "franco",
-        "democracy"
-      ],
-      "date": "2026-11-11T11:47:22.438Z"
     }
   ]
 }
