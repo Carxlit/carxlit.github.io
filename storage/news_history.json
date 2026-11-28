@@ -392,9 +392,40 @@
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KSEFvVm9CcktZcXlaVjNOcVE5Nzc1RjI2c1hoTEh2WEJTODIwLWRyLTd2YW5MX21XTjRqRWg1dms1ekVWeDBuWnplVV9zdVRQX2NmNW52VkxtTWdvRjN0ZjhiQW5ib2hldjd6Ym5sYXppbTZOMkpzUw?oc=5",
     "https://www.dw.com/es/encuentran-muertos-a-ocho-migrantes-en-una-embarcación-que-trataba-de-llegar-a-canarias/a-80081588?maca=spa-rss-sp-all-1122-rdf",
     "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
-    "https://www.dw.com/es/sube-a-34-la-cifra-de-muertos-en-ecuador-por-lluvias-provocadas-por-el-fenómenos-de-el-niño/a-80082986?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/sube-a-34-la-cifra-de-muertos-en-ecuador-por-lluvias-provocadas-por-el-fenómenos-de-el-niño/a-80082986?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "EXPLOSIÓN EN KUNAR DEJA SEIS ESTUDIANTES MUERTOS Y CASI CIEN HERIDOS",
+      "normalizedTokens": [
+        "explosion",
+        "kunar",
+        "deja",
+        "seis",
+        "estudiantes",
+        "muertos",
+        "casi",
+        "cien",
+        "heridos"
+      ],
+      "date": "2026-11-28T08:47:49.356Z"
+    },
+    {
+      "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+      "normalizedTokens": [
+        "least",
+        "six",
+        "students",
+        "killed",
+        "blast",
+        "beside",
+        "school",
+        "afghanistan",
+        "kunar"
+      ],
+      "date": "2026-11-28T08:47:49.354Z"
+    },
     {
       "title": "ACTUALIZACIÓN: DESLIZAMIENTO EN MANABÍ ELEVA A 34 LOS FALLECIDOS",
       "normalizedTokens": [
@@ -7457,34 +7488,6 @@
         "iran"
       ],
       "date": "2026-11-11T11:27:45.754Z"
-    },
-    {
-      "title": "SHARKNINJA DISPARA LA GUERRA DEL CAFÉ CON DESCUENTOS AGRESIVOS",
-      "normalizedTokens": [
-        "sharkninja",
-        "dispara",
-        "guerra",
-        "cafe",
-        "descuentos",
-        "agresivos"
-      ],
-      "date": "2026-11-11T11:01:51.644Z"
-    },
-    {
-      "title": "Ninja tiene una cafetera superautomática 3 en 1 que ahora puedes comprar con más de 200 euros de descuento",
-      "normalizedTokens": [
-        "ninja",
-        "cafetera",
-        "superautomatica",
-        "ahora",
-        "puedes",
-        "comprar",
-        "mas",
-        "200",
-        "euros",
-        "descuento"
-      ],
-      "date": "2026-11-11T11:01:51.643Z"
     }
   ]
 }
