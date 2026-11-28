@@ -642,5 +642,33 @@
       "type": "REELS",
       "at": "2026-11-24T07:19:35+0000"
     }
+  },
+  {
+    "date": "2026-11-27",
+    "at": "2026-11-28T02:01:23.642Z",
+    "facebook": {
+      "followers": 2
+    },
+    "bluesky": {
+      "followers": 2,
+      "posts": 382
+    },
+    "telegram": {
+      "members": 2
+    },
+    "instagram": {
+      "followers": 297,
+      "posts": 337,
+      "likes": 278,
+      "comments": 26,
+      "reels": 50
+    },
+    "topPost": {
+      "url": "https://www.instagram.com/reel/DgPu7uqsK76/",
+      "likes": 7,
+      "comments": 14,
+      "type": "REELS",
+      "at": "2026-11-27T12:58:24+0000"
+    }
   }
 ]
