@@ -390,9 +390,35 @@
     "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes",
     "https://www.eltiempo.com/mundo/latinoamerica/inundaciones-por-el-fenomeno-del-nino-ya-dejan-34-muertos-y-cerca-de-47-000-damnificados-en-ecuador-3604999",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KSEFvVm9CcktZcXlaVjNOcVE5Nzc1RjI2c1hoTEh2WEJTODIwLWRyLTd2YW5MX21XTjRqRWg1dms1ekVWeDBuWnplVV9zdVRQX2NmNW52VkxtTWdvRjN0ZjhiQW5ib2hldjd6Ym5sYXppbTZOMkpzUw?oc=5",
-    "https://www.dw.com/es/encuentran-muertos-a-ocho-migrantes-en-una-embarcación-que-trataba-de-llegar-a-canarias/a-80081588?maca=spa-rss-sp-all-1122-rdf"
+    "https://www.dw.com/es/encuentran-muertos-a-ocho-migrantes-en-una-embarcación-que-trataba-de-llegar-a-canarias/a-80081588?maca=spa-rss-sp-all-1122-rdf",
+    "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss"
   ],
   "processedSignatures": [
+    {
+      "title": "CAÍDA DE HELICÓPTERO MILITAR EN PERÚ REVELA VULNERABILIDAD EN VRAEM",
+      "normalizedTokens": [
+        "caida",
+        "helicoptero",
+        "militar",
+        "peru",
+        "revela",
+        "vulnerabilidad",
+        "vraem"
+      ],
+      "date": "2026-11-28T05:32:35.958Z"
+    },
+    {
+      "title": "Eight killed in Peruvian military helicopter crash",
+      "normalizedTokens": [
+        "eight",
+        "killed",
+        "peruvian",
+        "military",
+        "helicopter",
+        "crash"
+      ],
+      "date": "2026-11-28T05:32:35.956Z"
+    },
     {
       "title": "OCHO MIGRANTES MUERTOS FRENTE A EL HIERRO EN PLENA CAMPAÑA",
       "normalizedTokens": [
@@ -7459,34 +7485,6 @@
         "dead"
       ],
       "date": "2026-11-11T07:16:29.269Z"
-    },
-    {
-      "title": "RD CONGO SUPERA 11.000 CASOS Y 5.387 MUERTES POR ÉBOLA",
-      "normalizedTokens": [
-        "congo",
-        "supera",
-        "000",
-        "casos",
-        "387",
-        "muertes",
-        "ebola"
-      ],
-      "date": "2026-11-11T06:47:11.997Z"
-    },
-    {
-      "title": "RD Congo supera barrera de los 11.000 casos de ébola, incluidos 5.387 muertos",
-      "normalizedTokens": [
-        "congo",
-        "supera",
-        "barrera",
-        "000",
-        "casos",
-        "ebola",
-        "incluidos",
-        "387",
-        "muertos"
-      ],
-      "date": "2026-11-11T06:47:11.995Z"
     }
   ]
 }
