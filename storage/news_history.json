@@ -397,6 +397,32 @@
   ],
   "processedSignatures": [
     {
+      "title": "EL FENÓMENO DE EL NIÑO DEJA 34 MUERTOS EN ECUADOR",
+      "normalizedTokens": [
+        "fenomeno",
+        "nino",
+        "deja",
+        "muertos",
+        "ecuador"
+      ],
+      "date": "2026-11-28T12:46:25.401Z"
+    },
+    {
+      "title": "Inundaciones por el fenómeno del Niño ya dejan 34 muertos y cerca de 47.000 damnificados en Ecuador",
+      "normalizedTokens": [
+        "inundaciones",
+        "fenomeno",
+        "nino",
+        "dejan",
+        "muertos",
+        "cerca",
+        "000",
+        "damnificados",
+        "ecuador"
+      ],
+      "date": "2026-11-28T12:46:25.399Z"
+    },
+    {
       "title": "BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA",
       "normalizedTokens": [
         "brecha",
@@ -7466,34 +7492,6 @@
         "democracy"
       ],
       "date": "2026-11-11T11:47:22.438Z"
-    },
-    {
-      "title": "DETIENEN EN REINO UNIDO A MILITAR ESTADOUNIDENSE POR ESPIONAJE RUSO",
-      "normalizedTokens": [
-        "detienen",
-        "reino",
-        "unido",
-        "militar",
-        "estadounidense",
-        "espionaje",
-        "ruso"
-      ],
-      "date": "2026-11-11T11:32:12.690Z"
-    },
-    {
-      "title": "Reino Unido interroga a militar estadounidense de la OTAN, detenido por espiar para Rusia",
-      "normalizedTokens": [
-        "reino",
-        "unido",
-        "interroga",
-        "militar",
-        "estadounidense",
-        "otan",
-        "detenido",
-        "espiar",
-        "rusia"
-      ],
-      "date": "2026-11-11T11:32:12.688Z"
     }
   ]
 }
