@@ -397,6 +397,35 @@
   ],
   "processedSignatures": [
     {
+      "title": "BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA",
+      "normalizedTokens": [
+        "brecha",
+        "cloud",
+        "one",
+        "compromete",
+        "logistica",
+        "fuerza",
+        "aerea"
+      ],
+      "date": "2026-11-28T11:13:27.176Z"
+    },
+    {
+      "title": "Hackers vulneraron la nube logística de la Fuerza Aérea de EE. UU. Los expertos esperan más incidentes",
+      "normalizedTokens": [
+        "hackers",
+        "vulneraron",
+        "nube",
+        "logistica",
+        "fuerza",
+        "aerea",
+        "expertos",
+        "esperan",
+        "mas",
+        "incidentes"
+      ],
+      "date": "2026-11-28T11:13:27.175Z"
+    },
+    {
       "title": "EXPLOSIÓN EN KUNAR DEJA SEIS ESTUDIANTES MUERTOS Y CASI CIEN HERIDOS",
       "normalizedTokens": [
         "explosion",
@@ -7465,29 +7494,6 @@
         "rusia"
       ],
       "date": "2026-11-11T11:32:12.688Z"
-    },
-    {
-      "title": "EL PETRÓLEO CAE TRAS LA RETIRADA DE ESTADOS UNIDOS DE IRÁN",
-      "normalizedTokens": [
-        "petroleo",
-        "cae",
-        "retirada",
-        "estados",
-        "unidos",
-        "iran"
-      ],
-      "date": "2026-11-11T11:27:45.755Z"
-    },
-    {
-      "title": "El crudo apuesta por el fin de la guerra en Irán",
-      "normalizedTokens": [
-        "crudo",
-        "apuesta",
-        "fin",
-        "guerra",
-        "iran"
-      ],
-      "date": "2026-11-11T11:27:45.754Z"
     }
   ]
 }

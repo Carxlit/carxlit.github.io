@@ -1,175 +1,5 @@
 [
   {
-    "id": "queue-1794915216150-v02vf",
-    "news": {
-      "id": "imdnpnx85",
-      "originalUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFJYcG1ITVBaZUYxS2RFNTg1cHJERzBFRGVIWEkwYWlsNjgzaU9XSk9RY1NUN0RVZlF3TlJkS2hsN1lfTl9lRTFWV1ZJb1Rab1VCZVJwbU1vT1pIOUloamZxVGlZUHpDUDJBdC1ma3hrVXhzdUV2djdxY1QzZGhVYWNxSVRMMU5uTS1vUHNZcy1vQ3NsWkQ0cGJJWnBpMklWRUd4aW53?oc=5",
-      "originalTitle": "Trump respalda restituir al director de Nvidia pese a acusaciones de que tuvo amorío con espía china",
-      "sourceName": "Huron Daily Tribune",
-      "category": "TECNOLOGÍA & IA",
-      "urgencyScore": 84,
-      "headline": "TRUMP RESPALDA A NVIDIA ANTE ACUSACIONES DE ESPIONAJE CHINO",
-      "subHeadline": "El expresidente estadounidense respaldó la restitución del director de Nvidia, Jensen Huang, tras reportes sobre un presunto romance con una espía china. Coberturas de AP News y Proceso confirman el impacto del escándalo en el sector informático.",
-      "blindSpotAngle": "El respaldo político explícito a la directiva de Nvidia demuestra que el dominio de la cadena de valor de los microchips supera los protocolos habituales de contrainteligencia. Washington prefiere asumir vulnerabilidades de seguridad antes que desestabilizar al fabricante clave de hardware para inteligencia artificial. Esta tolerancia selectiva establece un precedente crítico en la confrontación tecnológica global.",
-      "facebookPost": "El expresidente Donald Trump manifestó su apoyo explícito al liderazgo de Jensen Huang al frente de Nvidia, minimizando los reportes periodísticos que vinculan al ejecutivo con un supuesto romance con una espía china. Informes divulgados por medios como AP News y Proceso destacan cómo la narrativa política oficial busca matizar el asunto para evitar sacudidas en la industria tecnológica.\n\nEl verdadero punto ciego radica en la subordinación de la contrainteligencia ante el mercado de semiconductores. En medio de la disputa por la supremacía de la inteligencia artificial, la seguridad nacional pasa a segundo plano si la estabilidad de la firma que produce los chips estratégicos de occidente está en juego. Perdonar vulnerabilidades de inteligencia a multinacionales sistémicas expone que la soberanía digital depende de actores que la política no se atreve a sancionar.\n\n¿Debe la hegemonía tecnológica prevalecer sobre las alertas de la contrainteligencia militar?\n\nFuente: Huron Daily Tribune\n\n#PuntoCiego #Tecnología #Semiconductores",
-      "telegramPost": "<b>TRUMP RESPALDA A NVIDIA ANTE ACUSACIONES DE ESPIONAJE CHINO</b>\n\n• <b>Qué ocurrió:</b> Donald Trump respaldó la permanencia de Jensen Huang en Nvidia tras revelaciones de AP News y Proceso sobre acusaciones de espionaje vinculadas a China.\n• <b>Por qué importa:</b> El caso demuestra que el liderazgo global en hardware para inteligencia artificial pesa más en las decisiones políticas que los informes de contrainteligencia.\n• <b>Qué sigue:</b> Aumentará la presión sobre los organismos de auditoría federal para revisar los protocolos de seguridad de los altos ejecutivos del sector tecnológico.",
-      "linkedInPost": "El respaldo político brindado a Jensen Huang tras revelaciones sobre supuestas actividades de espionaje expone una grieta en la estrategia de seguridad nacional de Estados Unidos. La dependencia global de la infraestructura de semiconductores desarrollada por Nvidia genera un escenario en el cual la contrainteligencia corporativa cede ante la necesidad de preservar las cadenas de valor tecnológicas.\n\nCuando una sola firma concentra el suministro crítico de procesadores para inteligencia artificial, los criterios tradicionales de riesgo y seguridad estatal quedan supeditados a la estabilidad del mercado bursátil e industrial. Este antecedente redefine los márgenes de tolerancia de Washington frente a eventuales interferencias extranjeras en los cuadros directivos de la alta tecnología.\n\nFuente: Huron Daily Tribune\n\n#PuntoCiego #Semiconductores #RiesgoGeopolitico",
-      "blueskyPost": "Trump respalda a Jensen Huang en Nvidia pese a acusaciones de espionaje chino. El dominio de la IA pesa más que la contrainteligencia. #PuntoCiego #Tecnología",
-      "copies": {
-        "facebook": "El expresidente Donald Trump manifestó su apoyo explícito al liderazgo de Jensen Huang al frente de Nvidia, minimizando los reportes periodísticos que vinculan al ejecutivo con un supuesto romance con una espía china. Informes divulgados por medios como AP News y Proceso destacan cómo la narrativa política oficial busca matizar el asunto para evitar sacudidas en la industria tecnológica.\n\nEl verdadero punto ciego radica en la subordinación de la contrainteligencia ante el mercado de semiconductores. En medio de la disputa por la supremacía de la inteligencia artificial, la seguridad nacional pasa a segundo plano si la estabilidad de la firma que produce los chips estratégicos de occidente está en juego. Perdonar vulnerabilidades de inteligencia a multinacionales sistémicas expone que la soberanía digital depende de actores que la política no se atreve a sancionar.\n\n¿Debe la hegemonía tecnológica prevalecer sobre las alertas de la contrainteligencia militar?\n\n#PuntoCiego #Tecnología #Semiconductores",
-        "telegram": "<b>TRUMP RESPALDA A NVIDIA ANTE ACUSACIONES DE ESPIONAJE CHINO</b>\n\n• <b>Qué ocurrió:</b> Donald Trump respaldó la permanencia de Jensen Huang en Nvidia tras revelaciones de AP News y Proceso sobre acusaciones de espionaje vinculadas a China.\n• <b>Por qué importa:</b> El caso demuestra que el liderazgo global en hardware para inteligencia artificial pesa más en las decisiones políticas que los informes de contrainteligencia.\n• <b>Qué sigue:</b> Aumentará la presión sobre los organismos de auditoría federal para revisar los protocolos de seguridad de los altos ejecutivos del sector tecnológico.",
-        "bluesky": "Trump respalda a Jensen Huang en Nvidia pese a acusaciones de espionaje chino. El dominio de la IA pesa más que la contrainteligencia. #PuntoCiego #Tecnología",
-        "linkedIn": "El respaldo político brindado a Jensen Huang tras revelaciones sobre supuestas actividades de espionaje expone una grieta en la estrategia de seguridad nacional de Estados Unidos. La dependencia global de la infraestructura de semiconductores desarrollada por Nvidia genera un escenario en el cual la contrainteligencia corporativa cede ante la necesidad de preservar las cadenas de valor tecnológicas.\n\nCuando una sola firma concentra el suministro crítico de procesadores para inteligencia artificial, los criterios tradicionales de riesgo y seguridad estatal quedan supeditados a la estabilidad del mercado bursátil e industrial. Este antecedente redefine los márgenes de tolerancia de Washington frente a eventuales interferencias extranjeras en los cuadros directivos de la alta tecnología.\n\n#PuntoCiego #Semiconductores #RiesgoGeopolitico"
-      },
-      "article": {
-        "slug": "aval-politico-nvidia-expone-limites-contrainteligencia-7dak",
-        "title": "El aval político a Nvidia expone los límites de la contrainteligencia estadounidense",
-        "dek": "El respaldo a Jensen Huang tras acusaciones de espionaje evidencia cómo el control del hardware estratégico prima sobre la seguridad nacional. Las agencias federales enfrentan el dilema de fiscalizar a corporaciones invulnerables.",
-        "keyFacts": [
-          "Reportes de AP News, Huron Daily Tribune y Proceso detallan el respaldo de Donald Trump al director de Nvidia, Jensen Huang.",
-          "El ejecutivo enfrenta señaamientos sobre un presunto romance con una agente vinculada al espionaje chino.",
-          "Nvidia ostenta una posición dominante en el suministro global de microchips para inteligencia artificial."
-        ],
-        "sections": [
-          {
-            "heading": "Qué pasó",
-            "paragraphs": [
-              "El entorno tecnológico y político estadounidense registró un giro crítico tras hacerse público el respaldo explícito de Donald Trump a la continuidad de Jensen Huang como director ejecutivo de Nvidia. La postura política responde a la difusión de reportes periodísticos por parte de agencias y medios como AP News, Huron Daily Tribune y Proceso, los cuales consignan acusaciones que relacionan al alto directivo con un romance que involucra a una presunta espía china.",
-              "Pese al impacto de las acusaciones sobre posibles brechas de contrainteligencia industrial, el discurso público dominante ha procurado resguardar la imagen de la cúpula de Nvidia. Esta maniobra pretende blindar a la compañía clave en la infraestructura de computación avanzada de cualquier turbulencia directiva o desplome bursátil."
-            ]
-          },
-          {
-            "heading": "El contexto",
-            "paragraphs": [
-              "La contienda entre Washington y Pekín por el dominio de la inteligencia artificial ha impulsado políticas estrictas de restricción comercial sobre la exportación de microchips y equipos de litografía. En esta dinámica de rivalidad geopolítica, las empresas de Silicon Valley han permanecido bajo un escrutinio continuo por parte de los organismos de seguridad nacional de Estados Unidos.",
-              "Sin embargo, el caso de Nvidia pone al descubierto la fragilidad de dichos mecanismos de supervisión cuando el sujeto investigado encabeza una entidad fundamental para la competitividad del país. La dependencia de la economía occidental respecto de las unidades de procesamiento gráfico limita el margen de sanción efectiva por parte de las instituciones estatales."
-            ]
-          },
-          {
-            "heading": "El punto ciego",
-            "paragraphs": [
-              "El análisis de Punto Ciego revela la verdadera contradicción estructural: la concentración de capacidad técnica y mercado ha situado a ciertos ejecutivos por encima del escrutinio normativo estándar. Al restar gravedad a los señalamientos de contrainteligencia para priorizar el rendimiento corporativo, las autoridades estadounidenses admiten una vulnerabilidad estratégica infranqueable.",
-              "Este precedente indica a los servicios de inteligencia rivales que la penetración en los estratos ejecutivos de la alta tecnología conlleva riesgos políticos reducidos, siempre que la firma en cuestión resulte indispensable para el funcionamiento de la economía global."
-            ]
-          },
-          {
-            "heading": "Quién gana y quién pierde",
-            "paragraphs": [
-              "El beneficio inmediato recae en la alta dirección de Nvidia, que logra estabilizar su posición institucional sin sufrir fracturas en el mando operativo de la multinacional. Al mismo tiempo, los órganos de inteligencia de Pekín verifican la efectividad de sus operaciones de alcance indirecto en sectores tecnológicos sensibles.",
-              "En contraparte, las agencias de contrainteligencia de Estados Unidos ven comprometida su autoridad y credibilidad, mientras que los competidores menores del sector de microchips quedan sujetos a regulaciones de seguridad mucho más rigurosas que las aplicadas a los líderes del mercado."
-            ]
-          },
-          {
-            "heading": "Qué vigilar",
-            "paragraphs": [
-              "Se deberá dar seguimiento a las reacciones en el Congreso estadounidense respecto a posibles requerimientos de información o investigaciones sobre los esquemas de seguridad corporativa en la industria de semiconductores. Asimismo, será determinante observar la evolución de las autorizaciones relativas a las exportaciones de hardware avanzado en los trimestres venideros."
-            ]
-          }
-        ],
-        "tags": [
-          "Nvidia",
-          "Jensen Huang",
-          "Donald Trump",
-          "Semiconductores",
-          "Espionaje",
-          "Inteligencia Artificial"
-        ],
-        "sources": [
-          {
-            "name": "Huron Daily Tribune",
-            "title": "Trump respalda restituir al director de Nvidia pese a acusaciones de que tuvo amorío con espía china",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFJYcG1ITVBaZUYxS2RFNTg1cHJERzBFRGVIWEkwYWlsNjgzaU9XSk9RY1NUN0RVZlF3TlJkS2hsN1lfTl9lRTFWV1ZJb1Rab1VCZVJwbU1vT1pIOUloamZxVGlZUHpDUDJBdC1ma3hrVXhzdUV2djdxY1QzZGhVYWNxSVRMMU5uTS1vUHNZcy1vQ3NsWkQ0cGJJWnBpMklWRUd4aW53?oc=5"
-          },
-          {
-            "name": "AP News",
-            "title": "Trump respalda restituir al director de Nvidia pese a acusaciones de que tuvo amorío con espía china",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTU0xU296eVdYRDBwT1FsaG43WnNzaUVxN2VpYWtiRUpYdXhnUHdUN1JKZkFWOWJJa0FLSUdqWWlvdENjUElla3BwMkplenFVLTZsN0E4TUkzOGRsYVZGMENtbEFmT1NfcGNVNEtWS2FsYUx0MG9UY2ZPY3g3RUNILW1FVjUxNnFuU2xVcnBRd0pLRER3aXhFTmVva05FQWpoOUdhN2Y5MWlOcnJXcXc?oc=5"
-          },
-          {
-            "name": "Proceso",
-            "title": "Trump respalda regreso de Jensen Huang a Nvidia pese a escándalo por presunto espionaje chino",
-            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZ25rUWJtNUlubG9TYk1WMkg5VWN2Y2c0a3JsYmdseUx6aEgydXhyWXZhUXNXQWFId3QzOEJJamNMcDVaenhscWp5WkRPa2V5bmxYY0RwNmxwVmI5X0lWcjdyMDdZVDJNQV9JTE5pNjBKQUVsT2dsVHcwQUVwMFJXWUEybjN3di1HRFpOejEwWkY4UktWdmszaXNFTXVuQnl4SExGdF8zM2JRdEc5TmUweUVyTDhlMXJ6bXpoVXpYY2UzVnBPdUFWLTNuVnd5V3J3YXRCaVV4X1BLbHloNGRzcXVFbGFPRm5NR2FDSnRB?oc=5"
-          }
-        ],
-        "wordCount": 490
-      },
-      "videoScript": {
-        "hook": "¿Qué pasa cuando el espionaje roza al gigante de la inteligencia artificial?",
-        "beats": [
-          "Donald Trump respaldó al director de Nvidia tras denuncias de un amorío con una espía china.",
-          "Las investigaciones publicadas por AP News revelan riesgos severos en la cúpula del fabricante de chips.",
-          "Y lo que nadie dice es que la hegemonía tecnológica pesa más que la propia contrainteligencia."
-        ],
-        "close": "Lee el análisis completo en el enlace de nuestro perfil."
-      },
-      "status": "published",
-      "createdAt": "2026-11-17T11:33:34.567Z",
-      "cardImageUrl": "/news-cards/news-imdnpnx85-1794915214567.jpg",
-      "reelCoverUrl": "/news-cards/news-imdnpnx85-1794915215079-cover.jpg",
-      "instagramCardUrl": "/news-cards/news-imdnpnx85-1794915215551-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/aval-politico-nvidia-expone-limites-contrainteligencia-7dak/",
-      "publishedAt": "2026-11-17T13:30:53.249Z"
-    },
-    "channels": {
-      "facebook": true,
-      "telegram": true,
-      "bluesky": true,
-      "linkedIn": false,
-      "instagram": true,
-      "facebookReel": true,
-      "mastodon": true,
-      "threads": true,
-      "youtube": true
-    },
-    "scheduledFor": "2026-11-17T13:28:27.366Z",
-    "status": "published",
-    "attempts": 1,
-    "maxAttempts": 3,
-    "createdAt": "2026-11-17T11:33:36.150Z",
-    "lastAttemptAt": "2026-11-17T13:28:42.699Z",
-    "results": {
-      "facebook": {
-        "success": true,
-        "postId": "122111853909532441",
-        "simulated": false
-      },
-      "telegram": {
-        "success": true,
-        "messageId": "270",
-        "simulated": false
-      },
-      "bluesky": {
-        "success": true,
-        "simulated": false,
-        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n2j5kesswk2k"
-      },
-      "instagram": {
-        "success": true,
-        "mediaId": "18375676252210836",
-        "permalink": "https://www.instagram.com/reel/Df2CpnIit9G/"
-      },
-      "facebookReel": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: solo post con imagen"
-      },
-      "mastodon": {
-        "success": true,
-        "url": "https://mastodon.social/@PuntoCiego/117632023772242231"
-      },
-      "threads": {
-        "success": true,
-        "postId": "18206119453376190"
-      },
-      "youtube": {
-        "success": false,
-        "skipped": true,
-        "error": "Noticia sin video libre: no se sube a YouTube"
-      }
-    },
-    "publishedAt": "2026-11-17T13:30:53.249Z"
-  },
-  {
     "id": "queue-1794916091318-zbsei",
     "news": {
       "id": "y1e1abb0z",
@@ -25270,12 +25100,13 @@
         "close": "Lee el análisis completo y sin filtros en nuestro perfil."
       },
       "rawImageUrl": "https://i.blogs.es/e889b5/the_pentagon_january_2008-1-/1366_2000.jpeg",
-      "status": "pending",
+      "status": "published",
       "createdAt": "2026-11-28T01:23:55.233Z",
       "cardImageUrl": "/news-cards/news-1eda9zxcg-1795829035234.jpg",
       "reelCoverUrl": "/news-cards/news-1eda9zxcg-1795829035868-cover.jpg",
       "instagramCardUrl": "/news-cards/news-1eda9zxcg-1795829036458-ig.jpg",
-      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5/"
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5/",
+      "publishedAt": "2026-11-28T11:13:42.024Z"
     },
     "channels": {
       "facebook": true,
@@ -25289,10 +25120,52 @@
       "youtube": true
     },
     "scheduledFor": "2026-11-28T11:13:00.000Z",
-    "status": "queued",
-    "attempts": 0,
+    "status": "published",
+    "attempts": 1,
     "maxAttempts": 3,
-    "createdAt": "2026-11-28T01:23:57.777Z"
+    "createdAt": "2026-11-28T01:23:57.777Z",
+    "lastAttemptAt": "2026-11-28T11:13:15.372Z",
+    "results": {
+      "facebook": {
+        "success": true,
+        "postId": "122115611979532441",
+        "simulated": false
+      },
+      "telegram": {
+        "success": true,
+        "messageId": "413",
+        "simulated": false
+      },
+      "bluesky": {
+        "success": true,
+        "simulated": false,
+        "uri": "at://did:plc:yuuycuqoj4oddtxoqs7qprnq/app.bsky.feed.post/3n3el423myw2k"
+      },
+      "instagram": {
+        "success": false,
+        "skipped": true,
+        "error": "Estrategia IG: fuera de la franja 18:00–21:00 (Bogotá); el Reel se reprograma a la franja"
+      },
+      "facebookReel": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: solo post con imagen"
+      },
+      "mastodon": {
+        "success": true,
+        "url": "https://mastodon.social/@PuntoCiego/117693769886977636"
+      },
+      "threads": {
+        "success": true,
+        "postId": "17926676877220348"
+      },
+      "youtube": {
+        "success": false,
+        "skipped": true,
+        "error": "Noticia sin video libre: no se sube a YouTube"
+      }
+    },
+    "publishedAt": "2026-11-28T11:13:42.024Z"
   },
   {
     "id": "queue-1795832222158-40c4x",
@@ -26286,5 +26159,143 @@
       }
     },
     "publishedAt": "2026-11-28T08:50:46.001Z"
+  },
+  {
+    "id": "queue-1795864407162-1ytfc",
+    "news": {
+      "id": "1eda9zxcg",
+      "originalUrl": "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes",
+      "originalTitle": "Hackers vulneraron la nube logística de la Fuerza Aérea de EE. UU. Los expertos esperan más incidentes",
+      "sourceName": "Xataka México",
+      "category": "TECNOLOGÍA & IA",
+      "urgencyScore": 88,
+      "headline": "BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA",
+      "subHeadline": "Piratas cibernéticos vulneraron la plataforma central de la Fuerza Aérea estadounidense, exponiendo datos de personal y sistemas operativos clave.",
+      "blindSpotAngle": "La dependencia de Cloud One en los cuatro gigantes tecnológicos civiles convierte la infraestructura militar en un objetivo descentralizado. El verdadero riesgo no es la pérdida puntual de datos, sino la vulnerabilidad sistémica de externalizar la defensa nacional a nubes comerciales.",
+      "facebookPost": "La plataforma Cloud One de la Fuerza Aérea de Estados Unidos fue vulnerada por ciberatacantes, poniendo en riesgo información sobre personal militar, logística y tácticas operativas. Mientras la narrativa oficial evita detallar el alcance de la intrusión y se limita a pedir mayores inversiones en modernización, el incidente expone la fragilidad de un sistema que centraliza servicios de Amazon, Microsoft, Google y Oracle. La gran pregunta es si la dependencia de proveedores civiles para la infraestructura militar representa una falla estructural insuperable para el Pentágono.\n\nFuente: Xataka México\n\n📖 Análisis completo y fuentes en el primer comentario 👇\n\n#Ciberseguridad #Defensa #PuntoCiego",
+      "telegramPost": "<b>BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA</b>\n\n• <b>Qué ocurrió:</b> Piratas cibernéticos vulneraron la plataforma de computación en la nube Cloud One de la Fuerza Aérea de los Estados Unidos, poniendo en riesgo datos de personal y tácticas operativas.\n• <b>Por qué importa:</b> Cloud One no solo almacena archivos, sino que soporta herramientas críticas como el control de radares de defensa aérea y la gestión de inventarios de municiones en más de 200 ubicaciones globales.\n• <b>Qué sigue:</b> El Pentágono enfrenta una presión creciente para acelerar la actualización de su infraestructura digital, en medio de una racha de fallas que ya afectó al FBI, la CIA y el Departamento de Seguridad Nacional.",
+      "linkedInPost": "La vulneración de Cloud One expone los riesgos críticos de la dependencia tecnológica en la infraestructura de defensa. Cuando los sistemas que gestionan la logística militar y el control de radares se apoyan en arquitecturas comerciales compartidas, la superficie de ataque se amplía exponencialmente. Este incidente trasciende un simple fallo de seguridad; es una señal de alerta sobre la resiliencia de la cadena de suministro digital del Estado y la urgencia de reevaluar las inversiones en soberanía tecnológica.\n\nFuente: Xataka México\n\nAnálisis completo: https://puntociegoglobal.pages.dev/noticias/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5/\n\n#Ciberseguridad #Tecnología #PuntoCiego",
+      "blueskyPost": "El hackeo a la nube militar Cloud One de EE. UU. expone la fragilidad de externalizar la defensa en gigantes tecnológicos. No es solo un fallo, es un riesgo estructural. #Ciberseguridad #PuntoCiego",
+      "copies": {
+        "facebook": "La plataforma Cloud One de la Fuerza Aérea de Estados Unidos fue vulnerada por ciberatacantes, poniendo en riesgo información sobre personal militar, logística y tácticas operativas. Mientras la narrativa oficial evita detallar el alcance de la intrusión y se limita a pedir mayores inversiones en modernización, el incidente expone la fragilidad de un sistema que centraliza servicios de Amazon, Microsoft, Google y Oracle. La gran pregunta es si la dependencia de proveedores civiles para la infraestructura militar representa una falla estructural insuperable para el Pentágono. #Ciberseguridad #Defensa #PuntoCiego",
+        "telegram": "<b>BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA</b>\n\n• <b>Qué ocurrió:</b> Piratas cibernéticos vulneraron la plataforma de computación en la nube Cloud One de la Fuerza Aérea de los Estados Unidos, poniendo en riesgo datos de personal y tácticas operativas.\n• <b>Por qué importa:</b> Cloud One no solo almacena archivos, sino que soporta herramientas críticas como el control de radares de defensa aérea y la gestión de inventarios de municiones en más de 200 ubicaciones globales.\n• <b>Qué sigue:</b> El Pentágono enfrenta una presión creciente para acelerar la actualización de su infraestructura digital, en medio de una racha de fallas que ya afectó al FBI, la CIA y el Departamento de Seguridad Nacional.",
+        "bluesky": "El hackeo a la nube militar Cloud One de EE. UU. expone la fragilidad de externalizar la defensa en gigantes tecnológicos. No es solo un fallo, es un riesgo estructural. #Ciberseguridad #PuntoCiego",
+        "linkedIn": "La vulneración de Cloud One expone los riesgos críticos de la dependencia tecnológica en la infraestructura de defensa. Cuando los sistemas que gestionan la logística militar y el control de radares se apoyan en arquitecturas comerciales compartidas, la superficie de ataque se amplía exponencialmente. Este incidente trasciende un simple fallo de seguridad; es una señal de alerta sobre la resiliencia de la cadena de suministro digital del Estado y la urgencia de reevaluar las inversiones en soberanía tecnológica. #Ciberseguridad #Tecnología #PuntoCiego"
+      },
+      "article": {
+        "slug": "brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5",
+        "title": "La brecha en Cloud One y la vulnerabilidad silenciosa de la infraestructura militar de Estados Unidos",
+        "dek": "Un ataque cibernético contra la plataforma logística de la Fuerza Aérea estadounidense deja al descubierto las debilidades de un sistema que integra a los gigantes tecnológicos civiles. El incidente se suma a una serie de brechas en agencias de seguridad.",
+        "keyFacts": [
+          "La plataforma Cloud One funciona desde 2017 y unifica las infraestructuras de Microsoft, Amazon, Oracle y Alphabet.",
+          "El sistema soporta herramientas como el Cloud-Based Command and Control y el Theater Integrated Combat Munitions System.",
+          "Un ciberataque reciente filtró datos personales de más de 41.000 empleados del Departamento de Seguridad Nacional."
+        ],
+        "sections": [
+          {
+            "heading": "Qué pasó",
+            "paragraphs": [
+              "Piratas cibernéticos vulneraron la plataforma de computación en la nube Cloud One de la Fuerza Aérea de los Estados Unidos. La filtración de seguridad digital puso en peligro información confidencial relacionada con personal militar, logística y tácticas operativas, según reveló en exclusiva la agencia Reuters.",
+              "Hasta el momento, ni la identidad de los hackers ni el alcance total de la intrusión han podido ser establecidos con certeza. Consultada al respecto, la Fuerza Aérea declinó emitir comentarios sobre su postura de seguridad, vulnerabilidades o estado operativo."
+            ]
+          },
+          {
+            "heading": "El contexto",
+            "paragraphs": [
+              "Cloud One opera desde 2017 como el sistema central de computación en la nube de la Fuerza Aérea. De acuerdo con reportes de NBC News, la plataforma combina las capacidades de los cuatro principales proveedores del mercado: Microsoft, Amazon, Oracle y Alphabet.",
+              "Sin embargo, su función excede el simple almacenamiento. La infraestructura soporta herramientas operativas clave como el Cloud-Based Command and Control, encargado de coordinar radares de defensa aérea, y el Theater Integrated Combat Munitions System, utilizado para rastrear municiones y misiles en más de 200 ubicaciones globales."
+            ]
+          },
+          {
+            "heading": "El punto ciego",
+            "paragraphs": [
+              "El incidente no ocurre de manera aislada. Se integra a una serie de vulnerabilidades recientes que han golpeado a los organismos de seguridad estadounidenses, incluyendo la filtración de datos de más de 41.000 empleados del Departamento de Seguridad Nacional a finales de octubre, además de brechas en el Centro Nacional de Información sobre Delitos del FBI y redes de la CIA.",
+              "La dependencia de proveedores comerciales para gestionar infraestructura militar crítica plantea interrogantes sobre la viabilidad de mantener un control férreo en entornos digitalmente interconectados, donde cada actualización tecnológica introduce nuevos vectores de ataque."
+            ]
+          },
+          {
+            "heading": "Quién gana y quién pierde",
+            "paragraphs": [
+              "En el tablero de la ciberseguridad global, los atacantes anónimos ganan capacidad de inteligencia y demuestran la permeabilidad de los anillos de seguridad del Pentágono. Por otro lado, las agencias de defensa asumen el costo político y operativo, mientras justifican presupuestos masivos para la modernización tecnológica.",
+              "Los proveedores civiles de nube se encuentran bajo escrutinio, aunque continúan consolidando su posición como socios indispensables de los gobiernos en materia de transformación digital."
+            ]
+          },
+          {
+            "heading": "Qué vigilar",
+            "paragraphs": [
+              "Las declaraciones del Director de Inteligencia Nacional, Jay Clayton, apuntan a que la ciudadanía debe prepararse para inversiones significativas en la actualización de infraestructura obsoleta. El foco debe colocarse en la asignación presupuestaria y en las auditorías sobre los contratos con las grandes tecnológicas que operan la defensa."
+            ]
+          }
+        ],
+        "tags": [
+          "Ciberseguridad",
+          "Fuerza Aérea",
+          "Cloud One",
+          "Pentágono",
+          "Tecnología"
+        ],
+        "sources": [
+          {
+            "name": "Xataka México",
+            "title": "Hackers vulneraron la nube logística de la Fuerza Aérea de EE. UU. Los expertos esperan más incidentes",
+            "url": "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes"
+          },
+          {
+            "name": "El Financiero",
+            "title": "Hackers vulneran la nube de la Fuerza Aérea de EU: ¿Qué es Cloud One y qué información guarda?",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSTR0TW90eVViazNscFIwaDYwWGRkSlJkSUh6U0RoblRoeVlQLUM5OTJqWlliUnRQNGdMWFE4WFlpcnVBZ3NndHJmR3JyLW5WQURmaUdoZmpVRDVvSmNrNW9mNkw2ZWNWRVBuQjFBOFFsRGhhdUdXaEhOZXJnaFZkaEQ2Q1dQMEhmaE91MjZlUHZFT1RXZGM0anpGTlBfRDhweEd5WF9FSGRBQ0hjdkxDam1WOUY5R2tKUFlOa1pURm4xc1k1cTZUVlg4aDBVS0hfTTk2WkVxUXI?oc=5"
+          },
+          {
+            "name": "Expreso",
+            "title": "Hackers vulneran plataforma de la Fuerza Aérea de EU",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWJJaUgwc2dzU2UtRU5LLWJ1Qzd0SHpaRXFNcE1EcFFkMkIxbDZ0TUlSZ0w5S0tneUI3aFkyWGFqNFdLVnNGUXcyTl9JVnZKNHd4Q3VuMkJ1VW9vQnRUVTNFYjJNbDlGOUFOWW9aZ01zVGxlRGFJbk5aREVtUklzSDJIaHB1QzFCQWxteTd2OFhWMC1oR0huRnJxcUt4Y2RlMEHSAacBQVVfeXFMUHRBQW15UFpIc0JLRkYyajdTeVBJeDIzbk9SZmY5cW0xQUtyVzZ2TFBNY2ZkdzV1WkxtZDFNU1pEaEhLZnRMc09CUzh6dlo0N2hpUUUyXzJ0SW1KMlloOFNyUnRBSUI5Y2xEMGZ5SzJLYlhPMUdLa0lrS1ZNNV9mZ3AyY3VYMGw0SVpMY3hyREJYZGtPVjVEX1hja1ZOc0JaTkxHNi1PbWc?oc=5"
+          },
+          {
+            "name": "El Periodiquito",
+            "title": "Hackers vulneran nube Cloud One de la Fuerza Aérea de EEUU",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRUZGV0wxYzZTd1ljWHQ5UDNUQWRmQWpJVWhLaFlBVFRhTjJVYWtuakN6UTgzMW5lQ2dsXzJTd09Zc3Fodm40emRrOGtSUFptR2psNkxCSEdFektlQUdiRktrUVh2aFlnOVZacXVyWnVBdTdBeDhSeW9OMW4zOVVaQTFDNEFDNWxsRldzay1OUHhySWdRM2NkYlluYXpCdU01?oc=5"
+          },
+          {
+            "name": "La Nación",
+            "title": "Qué se sabe del hackeo a la plataforma informática de la Fuerza Aérea de Estados Unidos",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa3RuSVBGdm9CNDZqUE5JQUc1U3FaWG1rZDRWMjFSZ2Y5ZU5ub293a1JfNmpRb3d1Z1FhazhNQ2FvdlpUVFUtMkwtbmNTNDBJUm5NUG9ja2k0YkhYS2dieVJtRzRobW5ibmp1REd4RENWTFE5Z3BJR0pKYldwWFNITXRXRzZCeEtBZERMTFlpZ1dEWEVzc1g1MHVNazZROVVqYWdjbV9lV1FJR3FpY1FQSVVPckgtT21Sems3NjBOaThrRDFLS3d5NzVDTW5WdFF1cVpzZG9oZVVZZ1k?oc=5"
+          }
+        ],
+        "wordCount": 426
+      },
+      "videoScript": {
+        "hook": "Hackearon la nube de la Fuerza Aérea de Estados Unidos y nadie sabe el alcance real.",
+        "beats": [
+          "La plataforma Cloud One almacena datos operativos y coordina radares de defensa aérea en más de 200 ubicaciones globales.",
+          "El ataque se suma a brechas recientes en el FBI y la CIA que expusieron a miles de agentes gubernamentales.",
+          "Lo que nadie dice es que depender de gigantes tecnológicos civiles para la defensa nacional crea una vulnerabilidad sistémica."
+        ],
+        "close": "Lee el análisis completo y sin filtros en nuestro perfil."
+      },
+      "rawImageUrl": "https://i.blogs.es/e889b5/the_pentagon_january_2008-1-/1366_2000.jpeg",
+      "status": "pending",
+      "createdAt": "2026-11-28T01:23:55.233Z",
+      "cardImageUrl": "/news-cards/news-1eda9zxcg-1795829035234.jpg",
+      "reelCoverUrl": "/news-cards/news-1eda9zxcg-1795829035868-cover.jpg",
+      "instagramCardUrl": "/news-cards/news-1eda9zxcg-1795829036458-ig.jpg",
+      "articleUrl": "https://puntociegoglobal.pages.dev/noticias/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5/"
+    },
+    "channels": {
+      "facebook": false,
+      "telegram": false,
+      "bluesky": false,
+      "linkedIn": false,
+      "instagram": true,
+      "facebookReel": false,
+      "mastodon": false,
+      "threads": false,
+      "youtube": false
+    },
+    "scheduledFor": "2026-11-28T23:00:00.000Z",
+    "status": "queued",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "createdAt": "2026-11-28T11:13:27.162Z",
+    "igDeferred": true
   }
 ]
