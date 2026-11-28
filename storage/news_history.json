@@ -387,9 +387,36 @@
     "https://www.europapress.es/internacional/noticia-menos-dos-muertos-ataque-ruso-contra-red-suministro-agua-provincia-chernigov-20261127132831.html",
     "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVGdJMzBwU0lpRk1OaXVCWHFVLWlCTFVTTFJqUFY0VnRZOGZNX1k2d1JvcGx5N2g4Vmo5X0RETDZXZ2tjYWQxMUtGVGhyZVYwcGdHWnNVcHZrdzdVbmRPMVpyOERNZmhBWm42RVU2d3dscDFMc2hNdXkyUE1fRk1uZXpXRFZOUGl6bXBHX2NuemtVTGloaXZlS1JvZjBPZjVCZ3BGT3FEVHVBSTcxZlBBWTZCMmVHVkxpSmE4UkNsanBIYXVPcmswRTBuUDVpakJ1UVBZcUcyVVFBQ2RiWHc?oc=5",
-    "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes"
+    "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes",
+    "https://www.eltiempo.com/mundo/latinoamerica/inundaciones-por-el-fenomeno-del-nino-ya-dejan-34-muertos-y-cerca-de-47-000-damnificados-en-ecuador-3604999"
   ],
   "processedSignatures": [
+    {
+      "title": "EL FENÓMENO DE EL NIÑO DEJA 34 MUERTOS EN ECUADOR",
+      "normalizedTokens": [
+        "fenomeno",
+        "nino",
+        "deja",
+        "muertos",
+        "ecuador"
+      ],
+      "date": "2026-11-28T02:17:02.179Z"
+    },
+    {
+      "title": "Inundaciones por el fenómeno del Niño ya dejan 34 muertos y cerca de 47.000 damnificados en Ecuador",
+      "normalizedTokens": [
+        "inundaciones",
+        "fenomeno",
+        "nino",
+        "dejan",
+        "muertos",
+        "cerca",
+        "000",
+        "damnificados",
+        "ecuador"
+      ],
+      "date": "2026-11-28T02:17:02.170Z"
+    },
     {
       "title": "BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA",
       "normalizedTokens": [
@@ -7459,34 +7486,6 @@
         "reales"
       ],
       "date": "2026-11-11T05:01:27.419Z"
-    },
-    {
-      "title": "CAMBIOS EN LA ESTRATEGIA MIGRATORIA TRAS REVESES ELECTORALES",
-      "normalizedTokens": [
-        "cambios",
-        "estrategia",
-        "migratoria",
-        "reveses",
-        "electorales"
-      ],
-      "date": "2026-11-10T22:09:53.894Z"
-    },
-    {
-      "title": "Donald Trump cambiará la forma de ejecutar sus acciones contra la migración, tras su derrota en las elecciones de medio mandato",
-      "normalizedTokens": [
-        "donald",
-        "trump",
-        "cambiara",
-        "forma",
-        "ejecutar",
-        "acciones",
-        "migracion",
-        "derrota",
-        "elecciones",
-        "medio",
-        "mandato"
-      ],
-      "date": "2026-11-10T22:09:53.892Z"
     }
   ]
 }
