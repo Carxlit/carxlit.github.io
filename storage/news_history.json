@@ -386,9 +386,39 @@
     "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf",
     "https://www.europapress.es/internacional/noticia-menos-dos-muertos-ataque-ruso-contra-red-suministro-agua-provincia-chernigov-20261127132831.html",
     "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
-    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVGdJMzBwU0lpRk1OaXVCWHFVLWlCTFVTTFJqUFY0VnRZOGZNX1k2d1JvcGx5N2g4Vmo5X0RETDZXZ2tjYWQxMUtGVGhyZVYwcGdHWnNVcHZrdzdVbmRPMVpyOERNZmhBWm42RVU2d3dscDFMc2hNdXkyUE1fRk1uZXpXRFZOUGl6bXBHX2NuemtVTGloaXZlS1JvZjBPZjVCZ3BGT3FEVHVBSTcxZlBBWTZCMmVHVkxpSmE4UkNsanBIYXVPcmswRTBuUDVpakJ1UVBZcUcyVVFBQ2RiWHc?oc=5"
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVGdJMzBwU0lpRk1OaXVCWHFVLWlCTFVTTFJqUFY0VnRZOGZNX1k2d1JvcGx5N2g4Vmo5X0RETDZXZ2tjYWQxMUtGVGhyZVYwcGdHWnNVcHZrdzdVbmRPMVpyOERNZmhBWm42RVU2d3dscDFMc2hNdXkyUE1fRk1uZXpXRFZOUGl6bXBHX2NuemtVTGloaXZlS1JvZjBPZjVCZ3BGT3FEVHVBSTcxZlBBWTZCMmVHVkxpSmE4UkNsanBIYXVPcmswRTBuUDVpakJ1UVBZcUcyVVFBQ2RiWHc?oc=5",
+    "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes"
   ],
   "processedSignatures": [
+    {
+      "title": "BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA",
+      "normalizedTokens": [
+        "brecha",
+        "cloud",
+        "one",
+        "compromete",
+        "logistica",
+        "fuerza",
+        "aerea"
+      ],
+      "date": "2026-11-28T01:23:57.798Z"
+    },
+    {
+      "title": "Hackers vulneraron la nube logística de la Fuerza Aérea de EE. UU. Los expertos esperan más incidentes",
+      "normalizedTokens": [
+        "hackers",
+        "vulneraron",
+        "nube",
+        "logistica",
+        "fuerza",
+        "aerea",
+        "expertos",
+        "esperan",
+        "mas",
+        "incidentes"
+      ],
+      "date": "2026-11-28T01:23:57.789Z"
+    },
     {
       "title": "BRASIL INTEGRA A BINANCE EN SU MERCADO CAMBIARIO OFICIAL",
       "normalizedTokens": [
@@ -7457,31 +7487,6 @@
         "mandato"
       ],
       "date": "2026-11-10T22:09:53.892Z"
-    },
-    {
-      "title": "ACTUALIZACIÓN: LA RECONSTRUCCIÓN EN COLOMBIA ANTE EL VACÍO INSTITUCIONAL",
-      "normalizedTokens": [
-        "actualizacion",
-        "reconstruccion",
-        "colombia",
-        "vacio",
-        "institucional"
-      ],
-      "date": "2026-11-10T20:44:24.382Z"
-    },
-    {
-      "title": "\"No vemos una estrategia contundente de reconstrucción\": Colombia a tres meses del terremoto",
-      "normalizedTokens": [
-        "vemos",
-        "estrategia",
-        "contundente",
-        "reconstruccion",
-        "colombia",
-        "tres",
-        "meses",
-        "terremoto"
-      ],
-      "date": "2026-11-10T20:44:24.380Z"
     }
   ]
 }

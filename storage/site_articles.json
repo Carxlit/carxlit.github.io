@@ -1,5 +1,99 @@
 [
   {
+    "slug": "brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5",
+    "path": "noticias/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5/",
+    "title": "La brecha en Cloud One y la vulnerabilidad silenciosa de la infraestructura militar de Estados Unidos",
+    "headline": "BRECHA EN CLOUD ONE COMPROMETE LA LOGÍSTICA DE LA FUERZA AÉREA",
+    "dek": "Un ataque cibernético contra la plataforma logística de la Fuerza Aérea estadounidense deja al descubierto las debilidades de un sistema que integra a los gigantes tecnológicos civiles. El incidente se suma a una serie de brechas en agencias de seguridad.",
+    "category": "TECNOLOGÍA & IA",
+    "sourceName": "Xataka México",
+    "image": "img/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5.jpg",
+    "photo": "img/brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5-foto.jpg",
+    "publishedAt": "2026-11-28T01:23:57.632Z",
+    "article": {
+      "slug": "brecha-cloud-one-vulnerabilidad-silenciosa-infraestructura-skv5",
+      "title": "La brecha en Cloud One y la vulnerabilidad silenciosa de la infraestructura militar de Estados Unidos",
+      "dek": "Un ataque cibernético contra la plataforma logística de la Fuerza Aérea estadounidense deja al descubierto las debilidades de un sistema que integra a los gigantes tecnológicos civiles. El incidente se suma a una serie de brechas en agencias de seguridad.",
+      "keyFacts": [
+        "La plataforma Cloud One funciona desde 2017 y unifica las infraestructuras de Microsoft, Amazon, Oracle y Alphabet.",
+        "El sistema soporta herramientas como el Cloud-Based Command and Control y el Theater Integrated Combat Munitions System.",
+        "Un ciberataque reciente filtró datos personales de más de 41.000 empleados del Departamento de Seguridad Nacional."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "Piratas cibernéticos vulneraron la plataforma de computación en la nube Cloud One de la Fuerza Aérea de los Estados Unidos. La filtración de seguridad digital puso en peligro información confidencial relacionada con personal militar, logística y tácticas operativas, según reveló en exclusiva la agencia Reuters.",
+            "Hasta el momento, ni la identidad de los hackers ni el alcance total de la intrusión han podido ser establecidos con certeza. Consultada al respecto, la Fuerza Aérea declinó emitir comentarios sobre su postura de seguridad, vulnerabilidades o estado operativo."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "Cloud One opera desde 2017 como el sistema central de computación en la nube de la Fuerza Aérea. De acuerdo con reportes de NBC News, la plataforma combina las capacidades de los cuatro principales proveedores del mercado: Microsoft, Amazon, Oracle y Alphabet.",
+            "Sin embargo, su función excede el simple almacenamiento. La infraestructura soporta herramientas operativas clave como el Cloud-Based Command and Control, encargado de coordinar radares de defensa aérea, y el Theater Integrated Combat Munitions System, utilizado para rastrear municiones y misiles en más de 200 ubicaciones globales."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "El incidente no ocurre de manera aislada. Se integra a una serie de vulnerabilidades recientes que han golpeado a los organismos de seguridad estadounidenses, incluyendo la filtración de datos de más de 41.000 empleados del Departamento de Seguridad Nacional a finales de octubre, además de brechas en el Centro Nacional de Información sobre Delitos del FBI y redes de la CIA.",
+            "La dependencia de proveedores comerciales para gestionar infraestructura militar crítica plantea interrogantes sobre la viabilidad de mantener un control férreo en entornos digitalmente interconectados, donde cada actualización tecnológica introduce nuevos vectores de ataque."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En el tablero de la ciberseguridad global, los atacantes anónimos ganan capacidad de inteligencia y demuestran la permeabilidad de los anillos de seguridad del Pentágono. Por otro lado, las agencias de defensa asumen el costo político y operativo, mientras justifican presupuestos masivos para la modernización tecnológica.",
+            "Los proveedores civiles de nube se encuentran bajo escrutinio, aunque continúan consolidando su posición como socios indispensables de los gobiernos en materia de transformación digital."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Las declaraciones del Director de Inteligencia Nacional, Jay Clayton, apuntan a que la ciudadanía debe prepararse para inversiones significativas en la actualización de infraestructura obsoleta. El foco debe colocarse en la asignación presupuestaria y en las auditorías sobre los contratos con las grandes tecnológicas que operan la defensa."
+          ]
+        }
+      ],
+      "tags": [
+        "Ciberseguridad",
+        "Fuerza Aérea",
+        "Cloud One",
+        "Pentágono",
+        "Tecnología"
+      ],
+      "sources": [
+        {
+          "name": "Xataka México",
+          "title": "Hackers vulneraron la nube logística de la Fuerza Aérea de EE. UU. Los expertos esperan más incidentes",
+          "url": "https://www.xataka.com.mx/seguridad/hackers-vulneraron-nube-logistica-fuerza-aerea-ee-uu-expertos-esperan-incidentes"
+        },
+        {
+          "name": "El Financiero",
+          "title": "Hackers vulneran la nube de la Fuerza Aérea de EU: ¿Qué es Cloud One y qué información guarda?",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSTR0TW90eVViazNscFIwaDYwWGRkSlJkSUh6U0RoblRoeVlQLUM5OTJqWlliUnRQNGdMWFE4WFlpcnVBZ3NndHJmR3JyLW5WQURmaUdoZmpVRDVvSmNrNW9mNkw2ZWNWRVBuQjFBOFFsRGhhdUdXaEhOZXJnaFZkaEQ2Q1dQMEhmaE91MjZlUHZFT1RXZGM0anpGTlBfRDhweEd5WF9FSGRBQ0hjdkxDam1WOUY5R2tKUFlOa1pURm4xc1k1cTZUVlg4aDBVS0hfTTk2WkVxUXI?oc=5"
+        },
+        {
+          "name": "Expreso",
+          "title": "Hackers vulneran plataforma de la Fuerza Aérea de EU",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWJJaUgwc2dzU2UtRU5LLWJ1Qzd0SHpaRXFNcE1EcFFkMkIxbDZ0TUlSZ0w5S0tneUI3aFkyWGFqNFdLVnNGUXcyTl9JVnZKNHd4Q3VuMkJ1VW9vQnRUVTNFYjJNbDlGOUFOWW9aZ01zVGxlRGFJbk5aREVtUklzSDJIaHB1QzFCQWxteTd2OFhWMC1oR0huRnJxcUt4Y2RlMEHSAacBQVVfeXFMUHRBQW15UFpIc0JLRkYyajdTeVBJeDIzbk9SZmY5cW0xQUtyVzZ2TFBNY2ZkdzV1WkxtZDFNU1pEaEhLZnRMc09CUzh6dlo0N2hpUUUyXzJ0SW1KMlloOFNyUnRBSUI5Y2xEMGZ5SzJLYlhPMUdLa0lrS1ZNNV9mZ3AyY3VYMGw0SVpMY3hyREJYZGtPVjVEX1hja1ZOc0JaTkxHNi1PbWc?oc=5"
+        },
+        {
+          "name": "El Periodiquito",
+          "title": "Hackers vulneran nube Cloud One de la Fuerza Aérea de EEUU",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRUZGV0wxYzZTd1ljWHQ5UDNUQWRmQWpJVWhLaFlBVFRhTjJVYWtuakN6UTgzMW5lQ2dsXzJTd09Zc3Fodm40emRrOGtSUFptR2psNkxCSEdFektlQUdiRktrUVh2aFlnOVZacXVyWnVBdTdBeDhSeW9OMW4zOVVaQTFDNEFDNWxsRldzay1OUHhySWdRM2NkYlluYXpCdU01?oc=5"
+        },
+        {
+          "name": "La Nación",
+          "title": "Qué se sabe del hackeo a la plataforma informática de la Fuerza Aérea de Estados Unidos",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa3RuSVBGdm9CNDZqUE5JQUc1U3FaWG1rZDRWMjFSZ2Y5ZU5ub293a1JfNmpRb3d1Z1FhazhNQ2FvdlpUVFUtMkwtbmNTNDBJUm5NUG9ja2k0YkhYS2dieVJtRzRobW5ibmp1REd4RENWTFE5Z3BJR0pKYldwWFNITXRXRzZCeEtBZERMTFlpZ1dEWEVzc1g1MHVNazZROVVqYWdjbV9lV1FJR3FpY1FQSVVPckgtT21Sems3NjBOaThrRDFLS3d5NzVDTW5WdFF1cVpzZG9oZVVZZ1k?oc=5"
+        }
+      ],
+      "wordCount": 426
+    },
+    "blindSpot": "La dependencia de Cloud One en los cuatro gigantes tecnológicos civiles convierte la infraestructura militar en un objetivo descentralizado. El verdadero riesgo no es la pérdida puntual de datos, sino la vulnerabilidad sistémica de externalizar la defensa nacional a nubes comerciales."
+  },
+  {
     "slug": "banco-central-brasil-otorga-licencia-cambio-uysp",
     "path": "noticias/banco-central-brasil-otorga-licencia-cambio-uysp/",
     "title": "El Banco Central de Brasil otorga licencia de cambio a Binance",
