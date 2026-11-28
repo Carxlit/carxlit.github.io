@@ -1,5 +1,110 @@
 [
   {
+    "id": "c1qmaqvb5",
+    "originalUrl": "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
+    "originalTitle": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+    "sourceName": "El País Tecnología",
+    "category": "TECNOLOGÍA & IA",
+    "urgencyScore": 88,
+    "headline": "OPENAI Y LA GRAVEDAD CUÁNTICA DESATAN REBELIÓN CIENTÍFICA",
+    "subHeadline": "Un excolaborador de OpenAI asegura haber resuelto la gravedad cuántica usando el modelo GPT-6 Astra, desatando críticas por la falta de revisión independiente y el uso publicitario de la ciencia.",
+    "blindSpotAngle": "La carrera de las grandes tecnológicas por apropiarse de los hitos científicos mediante la cooptación de investigadores independientes. Al saltarse la revisión por pares tradicional y utilizar canales corporativos para validar avances invulnerables a la comprobación humana, la industria transforma la ciencia básica en una herramienta de marketing de alto octanaje.",
+    "facebookPost": "El anuncio de que el físico Venkatesa Chandrasekaran resolvió la gravedad cuántica usando GPT-6 Astra ha sido celebrado por Sam Altman como un triunfo corporativo. Sin embargo, la comunidad científica denuncia una peligrosa estrategia publicitaria que esquiva la revisión por pares tradicional y oculta evidentes conflictos de interés.\n\nCuando los modelos de IA generan razonamientos demasiado complejos para ser verificados por mentes humanas y no existen herramientas formales de validación en física, la frontera entre el avance revolucionario y el marketing algorítmico se desvanece por completo.\n\n¿Hasta qué punto la validación del conocimiento científico está cediendo ante los intereses comerciales de los monopolios tecnológicos?\n\nFuente: El País Tecnología\n\n#PuntoCiego #InteligenciaArtificial #FisicaCuantica",
+    "telegramPost": "<b>PUBLICIDAD CORPORATIVA EN LA FÍSICA TEÓRICA</b>\n\n• <b>Qué ocurrió:</b> El físico Venkatesa Chandrasekaran publicó un preprint asegurando haber resuelto la gravedad cuántica tras emplear 400 millones de tokens con el modelo GPT-6 Astra de OpenAI, recibiendo elogios públicos de Sam Altman.\n\n• <b>Por qué importa:</b> La comunidad científica rechaza el anuncio por carecer de revisión independiente y omitir conflictos de interés, evidenciando cómo las grandes tecnológicas instrumentalizan la ciencia básica para legitimar sus productos.\n\n• <b>Qué sigue:</b> La incapacidad de la comunidad para verificar razonamientos algorítmicos complejos sin herramientas equivalentes a Lean en física abre una crisis metodológica sin precedentes en la investigación fundamental.",
+    "linkedInPost": "La convergencia entre la inteligencia artificial generativa y la investigación de frontera está redefiniendo los estándares de validación epistémica. El reciente anuncio sobre la gravedad cuántica por parte de un excolaborador de OpenAI ilustra una tendencia preocupante: la sustitución del rigor de la revisión por pares por el despliegue publicitario corporativo.\n\nA nivel macroestratégico, la concentración de recursos computacionales masivos en manos de un oligopolio tecnológico permite acelerar hipótesis complejas, pero traslada el control del conocimiento fundamental desde las instituciones académicas hacia los intereses comerciales de las grandes tecnológicas. Esto introduce un riesgo sistémico para la estabilidad metodológica y la gobernanza global del conocimiento.\n\nFuente: El País Tecnología\n\n#InteligenciaArtificial #SoberaniaTecnologica #PuntoCiego",
+    "blueskyPost": "La IA se convierte en arma de marketing: un excolaborador de OpenAI anuncia haber resuelto la gravedad cuántica usando GPT-6 Astra sin revisión científica independiente. #PuntoCiego #InteligenciaArtificial",
+    "copies": {
+      "facebook": "El anuncio de que el físico Venkatesa Chandrasekaran resolvió la gravedad cuántica usando GPT-6 Astra ha sido celebrado por Sam Altman como un triunfo corporativo. Sin embargo, la comunidad científica denuncia una peligrosa estrategia publicitaria que esquiva la revisión por pares tradicional y oculta evidentes conflictos de interés.\n\nCuando los modelos de IA generan razonamientos demasiado complejos para ser verificados por mentes humanas y no existen herramientas formales de validación en física, la frontera entre el avance revolucionario y el marketing algorítmico se desvanece por completo.\n\n¿Hasta qué punto la validación del conocimiento científico está cediendo ante los intereses comerciales de los monopolios tecnológicos? \n\n#PuntoCiego #InteligenciaArtificial #FisicaCuantica",
+      "telegram": "<b>PUBLICIDAD CORPORATIVA EN LA FÍSICA TEÓRICA</b>\n\n• <b>Qué ocurrió:</b> El físico Venkatesa Chandrasekaran publicó un preprint asegurando haber resuelto la gravedad cuántica tras emplear 400 millones de tokens con el modelo GPT-6 Astra de OpenAI, recibiendo elogios públicos de Sam Altman.\n\n• <b>Por qué importa:</b> La comunidad científica rechaza el anuncio por carecer de revisión independiente y omitir conflictos de interés, evidenciando cómo las grandes tecnológicas instrumentalizan la ciencia básica para legitimar sus productos.\n\n• <b>Qué sigue:</b> La incapacidad de la comunidad para verificar razonamientos algorítmicos complejos sin herramientas equivalentes a Lean en física abre una crisis metodológica sin precedentes en la investigación fundamental.",
+      "bluesky": "La IA se convierte en arma de marketing: un excolaborador de OpenAI anuncia haber resuelto la gravedad cuántica usando GPT-6 Astra sin revisión científica independiente. #PuntoCiego #InteligenciaArtificial",
+      "linkedIn": "La convergencia entre la inteligencia artificial generativa y la investigación de frontera está redefiniendo los estándares de validación epistémica. El reciente anuncio sobre la gravedad cuántica por parte de un excolaborador de OpenAI ilustra una tendencia preocupante: la sustitución del rigor de la revisión por pares por el despliegue publicitario corporativo.\n\nA nivel macroestratégico, la concentración de recursos computacionales masivos en manos de un oligopolio tecnológico permite acelerar hipótesis complejas, pero traslada el control del conocimiento fundamental desde las instituciones académicas hacia los intereses comerciales de las grandes tecnológicas. Esto introduce un riesgo sistémico para la estabilidad metodológica y la gobernanza global del conocimiento.\n\n#InteligenciaArtificial #SoberaniaTecnologica #PuntoCiego"
+    },
+    "article": {
+      "slug": "ciencia-bajo-algoritmo-falso-triunfo-openai-oybs",
+      "title": "La ciencia bajo el algoritmo: el falso triunfo de OpenAI sobre la gravedad cuántica",
+      "dek": "El anuncio de un excolaborador de OpenAI sobre la resolución de la gravedad cuántica usando IA expone la creciente tensión entre el rigor científico y el marketing corporativo de Silicon Valley.",
+      "keyFacts": [
+        "El físico teórico Venkatesa Chandrasekaran publicó un preprint sobre la gravedad cuántica tras trabajar con el modelo GPT-6 Astra de OpenAI.",
+        "El investigador empleó 400 millones de unidades de datos o tokens para completar su propuesta.",
+        "Sam Altman y Greg Brockman celebraron públicamente el avance en la red X, agradeciendo la contribución desde OpenAI.",
+        "La propuesta carece de revisión por expertos independientes y omite la declaración formal de conflictos de interés."
+      ],
+      "sections": [
+        {
+          "heading": "Qué pasó",
+          "paragraphs": [
+            "El físico teórico Venkatesa Chandrasekaran ha publicado una descripción preliminar de la gravedad cuántica, uno de los problemas más complejos de la física moderna que lleva más de un siglo sin resolverse. En su propuesta, firmada como investigador de Stanford, el autor agradece expresamente a OpenAI y a su director ejecutivo, Sam Altman, por el uso del modelo GPT-6 Astra durante meses de trabajo, financiado con un consumo de 400 millones de tokens.",
+            "El anuncio fue inmediatamente aplaudido por la cúpula de la compañía. Sam Altman y el cofundador Greg Brockman utilizaron la red social X para ensalzar el trabajo y la valentía del investigador. Sin embargo, la propuesta no ha sido sometida a los procesos habituales de revisión por pares independientes, generando un intenso rechazo en la comunidad académica."
+          ]
+        },
+        {
+          "heading": "El contexto",
+          "paragraphs": [
+            "La controversia se enmarca en una agresiva competencia entre los gigantes de la inteligencia artificial por demostrar supremacía resolviendo problemas milenarios de la ciencia. Esta misma semana, el sector presenció un movimiento similar con la aparente solución de la hipótesis de Riemann atribuida a Anthropic.",
+            "El problema central de la física teórica radica en conectar la teoría general de la relatividad de Einstein con la mecánica cuántica. Ningún investigador ha logrado formular de manera consistente cómo opera la gravedad a escala de las partículas elementales. La incursión de modelos avanzados como GPT-6 Astra en este terreno busca acelerar resultados, pero choca frontalmente con los protocolos tradicionales de validación empírica y matemática."
+          ]
+        },
+        {
+          "heading": "El punto ciego",
+          "paragraphs": [
+            "Más allá de la viabilidad matemática de la propuesta, el verdadero motor detrás de la publicación radica en la estrategia de relaciones públicas de OpenAI. Expertos en física teórica han señalado que las formas y el fondo del anuncio responden a una táctica publicitaria que utiliza la autoridad de la ciencia fundamental para legitimar comercialmente los modelos de lenguaje.",
+            "Además, existe un vacío metodológico crítico. A diferencia de las matemáticas, donde programas como Lean permiten verificar formalmente razonamientos complejos generados con asistencia computacional, la física requiere un contraste empírico y conceptual para el cual no existe un equivalente informático automatizado. Esto deja a la comunidad científica ante argumentos tan complejos que ni los mayores especialistas pueden auditar, obligándoles a aceptar o rechazar avances sin la debida trazabilidad."
+          ]
+        },
+        {
+          "heading": "Quién gana y quién pierde",
+          "paragraphs": [
+            "En este tablero, los gigantes tecnológicos consolidan su narrativa de infalibilidad y dominio intelectual sobre las instituciones académicas tradicionales, capitalizando el prestigio de la ciencia básica. La compañía de Altman gana un poderoso activo de relaciones públicas que desvía la atención de las críticas regulatorias y éticas.",
+            "Por el contrario, la comunidad científica pierde autoridad epistémica y credibilidad institucional. Al eludir los filtros tradicionales de revisión y utilizar canales corporativos para difundir descubrimientos no verificados, se degrada el método científico y se traslada la validación del conocimiento desde la academia hacia los intereses comerciales de Silicon Valley."
+          ]
+        },
+        {
+          "heading": "Qué vigilar",
+          "paragraphs": [
+            "Resulta imperativo observar si la comunidad de físicos teóricos logra desmontar formalmente la propuesta de Chandrasekaran mediante la revisión independiente que la empresa evitó. También es crucial monitorear cómo las universidades y los centros de investigación independientes comienzan a regular la participación de investigadores financiados por corporaciones tecnológicas en publicaciones de alto impacto."
+          ]
+        }
+      ],
+      "tags": [
+        "FisicaCuantica",
+        "OpenAI",
+        "InteligenciaArtificial",
+        "MetodoCientifico",
+        "SamAltman"
+      ],
+      "sources": [
+        {
+          "name": "El País Tecnología",
+          "title": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+          "url": "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html"
+        },
+        {
+          "name": "EL PAÍS",
+          "title": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNEhWNFV2Tmh3Ylc3ZHBucWpTd3l6TG9KRDlzSW5NX2d4Rm9BUXVUODhmXzItdUJiVHZXa0RJV24wTnVmSTB6YjhWckFYejY4VzRCdGt0bWpRU1VwVFdyV3N5aTFTMzFUN0tfZk1tYUJYZUY0RzRaTU10eHVWcWtWRXJiQ3lDNHpLdl9ZWWNGams0VGMtSC1MY0V6Y1dFSG5WRkpYWkZBWVJoVFVQMHdWeERJZHktZkU3VFkxTFJzOG1EU3JmM3ZoMVY1VjZ1VGhOeVNTdG5ra0prSlBQRnBVaXdmRlV3ZUVGU0JPeDRiUWlVZGRGU2fSAYoCQVVfeXFMTmYtcU5vcFJ5MlJzd0xYcDdTNGVaSFZ6dE01eUJ2WnBDMXdHSzNpNEdoVGNJaHllaTU1OFlKZ0RBZjJPYl9SNU9DZHBRcy13VC1lS1lLUUp5eFRycXVqRng5bzlDTUtsdkNNLUk4REthcEdtV3ZrVkd2UlpybWVPNkdzUnJwak54STBiMHl1SFJpY0YySkQ4XzdtVklrTTNlaGhHb2EzZ0lKZHpkYzBfUy15RGs1V2Qwc2ZmZ3FtbkVILVFYcHFfamltVlJpUk1PbmF6dDZzWUhEcGNnM0FZb2xQbjZiVURsSnpkeWNWRTBKNlc3QVFJcGFYLTVRc0dFMTFGSW9oby1Fd1E?oc=5"
+        }
+      ],
+      "wordCount": 549
+    },
+    "videoScript": {
+      "hook": "Un excolaborador de OpenAI asegura haber resuelto el gran problema de la física con GPT-6 Astra.",
+      "beats": [
+        "El investigador usó 400 millones de tokens de OpenAI para plantear una solución a la gravedad cuántica.",
+        "Sam Altman celebró el hito en redes sociales mientras la comunidad científica denunciaba una maniobra publicitaria.",
+        "Nadie puede verificar el complejo razonamiento de la inteligencia artificial y falta revisión independiente."
+      ],
+      "close": "Lee el análisis completo en el enlace de nuestro perfil."
+    },
+    "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/YXJZEQE34NOFNCUR5MNHWRCHZQ.jpg?auth=e940f0e0ef664419ee56d2ddbfa1c80a825c13b78e2fc14b72fea9df740b3e45",
+    "status": "published",
+    "createdAt": "2026-11-27T23:05:49.996Z",
+    "cardImageUrl": "/news-cards/news-c1qmaqvb5-1795820749997.jpg",
+    "reelCoverUrl": "/news-cards/news-c1qmaqvb5-1795820750633-cover.jpg",
+    "instagramCardUrl": "/news-cards/news-c1qmaqvb5-1795820751176-ig.jpg",
+    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/ciencia-bajo-algoritmo-falso-triunfo-openai-oybs/",
+    "publishedAt": "2026-11-28T02:13:42.462Z"
+  },
+  {
     "id": "nnqwwjppn",
     "originalUrl": "https://www.dw.com/es/dos-italianos-mueren-en-ataque-iraní-con-drones-en-kuwait/a-80067924?maca=spa-rss-sp-all-1122-rdf",
     "originalTitle": "Dos italianos mueren en ataque iraní con drones en Kuwait",
@@ -22631,105 +22736,5 @@
     "instagramCardUrl": "/news-cards/news-waw9gmtgu-1794555110651-ig.jpg",
     "articleUrl": "https://puntociegoglobal.pages.dev/noticias/saturacion-drones-rusia-expone-nuevas-fisuras-q1oq/",
     "publishedAt": "2026-11-13T07:36:12.321Z"
-  },
-  {
-    "id": "4w0vtukhf",
-    "originalUrl": "https://elpais.com/internacional/2026-11-13/mas-de-450000-combatientes-del-bando-ruso-han-muerto-desde-el-inicio-de-la-guerra-segun-la-base-de-datos-oficial.html",
-    "originalTitle": "Más de 450.000 combatientes del bando ruso han muerto desde el inicio de la guerra, según la base de datos oficial",
-    "sourceName": "El País Internacional",
-    "category": "PODER & SOCIEDAD",
-    "urgencyScore": 88,
-    "headline": "FILTRACIÓN OFICIAL REVELA BAJAS MASIVAS EN EL BANDO RUSO",
-    "subHeadline": "Una base de datos gubernamental filtrada por hackers sitúa en más de 450.000 los combatientes rusos muertos desde el inicio de la guerra.",
-    "blindSpotAngle": "La publicación de esta base de datos no es solo un golpe estadístico, sino una ventana a la composición demográfica y al reclutamiento internacional que Moscú ha intentado ocultar. Al confirmarse la muerte de ciudadanos extranjeros, incluidos latinoamericanos y un español, la guerra deja de ser un asunto puramente bilateral para exhibir una red global de mercenarios y combatientes precarizados.",
-    "facebookPost": "Dos grupos de hackers lograron acceder a la base de datos oficial de la agencia gubernamental de estadísticas rusa y publicaron una cifra devastadora: más de 450.000 combatientes del bando ruso han muerto desde que comenzó la invasión a gran escala.\n\nLo que los comunicados oficiales ocultan es la verdadera dimensión humana y la diversidad de este ejército en la sombra. Entre los fallecidos figuran decenas de latinoamericanos y al menos un ciudadano español, evidenciando una red internacional de reclutamiento que alimenta el frente con recursos humanos extranjeros.\n\n¿Hasta qué punto puede un Estado sostener este nivel de desgaste demográfico sin que colapse su estabilidad interna?\n\nFuente: El País Internacional\n\n#PuntoCiego #GuerraUcrania #Rusia",
-    "telegramPost": "<b>FILTRACIÓN EXPONE EL COSTO HUMANO DE LA GUERRA EN RUSIA</b>\n\n• <b>Qué ocurrió:</b> Dos grupos de hackers publicaron los registros de la agencia gubernamental de estadísticas rusa, contabilizando más de 450.000 combatientes muertos desde el inicio del conflicto.\n• <b>Por qué importa:</b> La filtración desmantela el relato oficial de Moscú e incluye en los balances a decenas de latinoamericanos y un español, revelando una red de reclutamiento internacional.\n• <b>Qué sigue:</b> El escrutinio sobre las bajas y la erosión demográfica pondrá a prueba la capacidad del Kremlin para mantener el flujo de reclutas sin desatar tensiones sociales internas.",
-    "linkedInPost": "La publicación de los registros de la agencia gubernamental de estadísticas rusa, filtrados por colectivos de hackers, arroja luz sobre una de las variables más celosamente custodiadas del conflicto: el costo en vidas humanas. Con más de 450.000 combatientes rusos fallecidos, el análisis de estos datos permite dimensionar el desgaste estructural del capital humano movilizado por Moscú. La presencia documentada de combatientes latinoamericanos y europeos en estas listas subraya la dependencia de redes transnacionales de reclutamiento para sostener la contienda.\n\nFuente: El País Internacional\n\n#PuntoCiego #Geopolítica #EconomíaDeGuerra",
-    "blueskyPost": "Hackers filtran datos de la agencia oficial rusa: más de 450.000 combatientes muertos. Entre ellos, decenas de latinoamericanos y un español. El verdadero costo humano al descubierto. #PuntoCiego #Rusia",
-    "copies": {
-      "facebook": "Dos grupos de hackers lograron acceder a la base de datos oficial de la agencia gubernamental de estadísticas rusa y publicaron una cifra devastadora: más de 450.000 combatientes del bando ruso han muerto desde que comenzó la invasión a gran escala.\n\nLo que los comunicados oficiales ocultan es la verdadera dimensión humana y la diversidad de este ejército en la sombra. Entre los fallecidos figuran decenas de latinoamericanos y al menos un ciudadano español, evidenciando una red internacional de reclutamiento que alimenta el frente con recursos humanos extranjeros.\n\n¿Hasta qué punto puede un Estado sostener este nivel de desgaste demográfico sin que colapse su estabilidad interna? #PuntoCiego #GuerraUcrania #Rusia",
-      "telegram": "<b>FILTRACIÓN EXPONE EL COSTO HUMANO DE LA GUERRA EN RUSIA</b>\n\n• <b>Qué ocurrió:</b> Dos grupos de hackers publicaron los registros de la agencia gubernamental de estadísticas rusa, contabilizando más de 450.000 combatientes muertos desde el inicio del conflicto.\n• <b>Por qué importa:</b> La filtración desmantela el relato oficial de Moscú e incluye en los balances a decenas de latinoamericanos y un español, revelando una red de reclutamiento internacional.\n• <b>Qué sigue:</b> El escrutinio sobre las bajas y la erosión demográfica pondrá a prueba la capacidad del Kremlin para mantener el flujo de reclutas sin desatar tensiones sociales internas.",
-      "bluesky": "Hackers filtran datos de la agencia oficial rusa: más de 450.000 combatientes muertos. Entre ellos, decenas de latinoamericanos y un español. El verdadero costo humano al descubierto. #PuntoCiego #Rusia",
-      "linkedIn": "La publicación de los registros de la agencia gubernamental de estadísticas rusa, filtrados por colectivos de hackers, arroja luz sobre una de las variables más celosamente custodiadas del conflicto: el costo en vidas humanas. Con más de 450.000 combatientes rusos fallecidos, el análisis de estos datos permite dimensionar el desgaste estructural del capital humano movilizado por Moscú. La presencia documentada de combatientes latinoamericanos y europeos en estas listas subraya la dependencia de redes transnacionales de reclutamiento para sostener la contienda. #PuntoCiego #Geopolítica #EconomíaDeGuerra"
-    },
-    "article": {
-      "slug": "filtracion-oficial-expone-mas-450-000-s2ci",
-      "title": "Una filtración oficial expone más de 450.000 combatientes rusos muertos en la guerra",
-      "dek": "Dos grupos de hackers publicaron los datos de la agencia gubernamental de estadísticas. Los registros confirman la muerte de ciudadanos extranjeros, incluidos latinoamericanos y un español.",
-      "keyFacts": [
-        "Más de 450.000 combatientes del bando ruso han muerto desde el inicio de la guerra.",
-        "La información proviene de una base de datos oficial de la agencia gubernamental de estadísticas.",
-        "La filtración fue ejecutada y publicada por dos grupos de hackers.",
-        "Entre las víctimas mortales figuran decenas de latinoamericanos y al menos un ciudadano español."
-      ],
-      "sections": [
-        {
-          "heading": "Qué pasó",
-          "paragraphs": [
-            "Según la información difundida por El País Internacional, dos grupos de hackers lograron acceder y publicar por primera vez las cifras de la agencia gubernamental de estadísticas de Rusia. La base de datos sitúa en más de 450.000 el número total de combatientes del bando ruso fallecidos desde el comienzo de la contienda bélica.",
-            "Este registro oficial, hasta ahora inaccesible para el escrutinio público, ofrece una perspectiva inédita sobre la magnitud de las pérdidas humanas sufridas por las fuerzas rusas a lo largo del conflicto."
-          ]
-        },
-        {
-          "heading": "El contexto",
-          "paragraphs": [
-            "El acceso a estadísticas fiables sobre las bajas militares ha sido una de las mayores incógnitas desde el estallido de la guerra. Mientras los gobiernos involucrados manejan cifras opuestas o directamente suprimen los balances de bajas, las filtraciones de documentos oficiales se han convertido en el único mecanismo para contrastar la realidad del frente con la narrativa oficial.",
-            "La publicación de estos datos por parte de colectivos de hackers vulnera el férreo control informativo que el Kremlin mantiene sobre el impacto de su campaña militar."
-          ]
-        },
-        {
-          "heading": "El punto ciego",
-          "paragraphs": [
-            "Más allá de la cifra global de 450.000 fallecidos, la base de datos revela un componente internacional que rara vez aparece en los análisis macroeconómicos o militares de la guerra. Entre los combatientes muertos hay decenas de ciudadanos latinoamericanos y al menos un español.",
-            "Este dato expone la existencia de canales de reclutamiento que operan más allá de las fronteras rusas, atrayendo a combatientes extranjeros hacia las filas del frente mediante promesas económicas o contratos opacos."
-          ]
-        },
-        {
-          "heading": "Quién gana y quién pierde",
-          "paragraphs": [
-            "En el plano informativo y de la presión diplomática, Moscú sufre un revés significativo al verse expuestas unas cifras que contradicen su opacidad sistemática. La filtración debilita el relato oficial sobre la sostenibilidad de la campaña militar y desvela el tributo humano pagado en el campo de batalla.",
-            "Por otro lado, los analistas y observadores internacionales ganan una herramienta cuantitativa clave para medir el desgaste demográfico y operativo de las fuerzas rusas, un factor crítico para entender la viabilidad a largo plazo de las operaciones en curso."
-          ]
-        },
-        {
-          "heading": "Qué vigilar",
-          "paragraphs": [
-            "Es necesario observar cómo reaccionarán los gobiernos de los países de origen de los combatientes extranjeros identificados en la base de datos, especialmente en América Latina y España. La confirmación oficial de estas muertes podría obligar a abrir investigaciones diplomáticas y consulares sobre las redes de intermediación que facilitan el flujo de mercenarios hacia el frente."
-          ]
-        }
-      ],
-      "tags": [
-        "Rusia",
-        "Guerra",
-        "Hackers",
-        "Estadísticas",
-        "Seguridad"
-      ],
-      "sources": [
-        {
-          "name": "El País Internacional",
-          "title": "Más de 450.000 combatientes del bando ruso han muerto desde el inicio de la guerra, según la base de datos oficial",
-          "url": "https://elpais.com/internacional/2026-11-13/mas-de-450000-combatientes-del-bando-ruso-han-muerto-desde-el-inicio-de-la-guerra-segun-la-base-de-datos-oficial.html"
-        }
-      ],
-      "wordCount": 415
-    },
-    "videoScript": {
-      "hook": "Más de 450.000 combatientes rusos han muerto según una filtración oficial.",
-      "beats": [
-        "Dos grupos de hackers publicaron los datos ocultos de la agencia gubernamental de estadística.",
-        "Entre las víctimas mortales hay decenas de latinoamericanos y un ciudadano español.",
-        "Lo que nadie dice es cómo opera esa red global de reclutamiento en la sombra."
-      ],
-      "close": "Lee el análisis completo en el enlace del perfil."
-    },
-    "rawImageUrl": "https://imagenes.elpais.com/resizer/v2/356BZCWGV5BOHBIKAX5PTL67KI.jpg?auth=a39dc87d769b01cb2990b504b51497357183c2e7c0b98a749655980cecd9542e",
-    "status": "published",
-    "createdAt": "2026-11-13T05:18:05.250Z",
-    "cardImageUrl": "/news-cards/news-4w0vtukhf-1794547085250.jpg",
-    "reelCoverUrl": "/news-cards/news-4w0vtukhf-1794547087719-cover.jpg",
-    "instagramCardUrl": "/news-cards/news-4w0vtukhf-1794547088409-ig.jpg",
-    "articleUrl": "https://puntociegoglobal.pages.dev/noticias/filtracion-oficial-expone-mas-450-000-s2ci/",
-    "publishedAt": "2026-11-13T05:22:08.957Z"
   }
 ]
