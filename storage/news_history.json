@@ -385,9 +385,40 @@
     "https://www.abc.es/internacional/cibertaque-suspende-numerosos-servicios-ministerio-trabajo-pensiones-20261127112052-nt.html",
     "https://www.dw.com/es/un-bombardeo-saudita-mata-a-11-personas-en-yemen-según-prensa-hutí/a-80073194?maca=spa-rss-sp-all-1122-rdf",
     "https://www.europapress.es/internacional/noticia-menos-dos-muertos-ataque-ruso-contra-red-suministro-agua-provincia-chernigov-20261127132831.html",
-    "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html"
+    "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVGdJMzBwU0lpRk1OaXVCWHFVLWlCTFVTTFJqUFY0VnRZOGZNX1k2d1JvcGx5N2g4Vmo5X0RETDZXZ2tjYWQxMUtGVGhyZVYwcGdHWnNVcHZrdzdVbmRPMVpyOERNZmhBWm42RVU2d3dscDFMc2hNdXkyUE1fRk1uZXpXRFZOUGl6bXBHX2NuemtVTGloaXZlS1JvZjBPZjVCZ3BGT3FEVHVBSTcxZlBBWTZCMmVHVkxpSmE4UkNsanBIYXVPcmswRTBuUDVpakJ1UVBZcUcyVVFBQ2RiWHc?oc=5"
   ],
   "processedSignatures": [
+    {
+      "title": "BRASIL INTEGRA A BINANCE EN SU MERCADO CAMBIARIO OFICIAL",
+      "normalizedTokens": [
+        "brasil",
+        "integra",
+        "binance",
+        "mercado",
+        "cambiario",
+        "oficial"
+      ],
+      "date": "2026-11-28T00:17:33.507Z"
+    },
+    {
+      "title": "Banco Central de Brasil concede licencia a Binance: abre la puerta a transferencias de hasta USD $500.000",
+      "normalizedTokens": [
+        "banco",
+        "central",
+        "brasil",
+        "concede",
+        "licencia",
+        "binance",
+        "abre",
+        "puerta",
+        "transferencias",
+        "usd",
+        "500",
+        "000"
+      ],
+      "date": "2026-11-28T00:17:33.505Z"
+    },
     {
       "title": "OPENAI Y LA GRAVEDAD CUÁNTICA DESATAN REBELIÓN CIENTÍFICA",
       "normalizedTokens": [
@@ -7451,29 +7482,6 @@
         "terremoto"
       ],
       "date": "2026-11-10T20:44:24.380Z"
-    },
-    {
-      "title": "JUICIO POLÍTICO A PETE HEGSETH FRACTURA EL PENTÁGONO",
-      "normalizedTokens": [
-        "juicio",
-        "politico",
-        "pete",
-        "hegseth",
-        "fractura",
-        "pentagono"
-      ],
-      "date": "2026-11-10T18:58:56.283Z"
-    },
-    {
-      "title": "Pete Hegseth, 22 meses de polémica en el Pentágono",
-      "normalizedTokens": [
-        "pete",
-        "hegseth",
-        "meses",
-        "polemica",
-        "pentagono"
-      ],
-      "date": "2026-11-10T18:58:56.282Z"
     }
   ]
 }

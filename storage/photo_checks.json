@@ -1953,5 +1953,10 @@
     "relevant": true,
     "reason": "La imagen muestra a Sam Altman, CEO de OpenAI, cuya empresa y modelo son el eje central de la noticia.",
     "at": "2026-11-27T23:05:48.476Z"
+  },
+  "9016b290b2ab8598:tbih6ym6b": {
+    "relevant": true,
+    "reason": "La caricatura ilustra directamente la integración de Binance al mercado cambiario oficial y menciona las cifras relativas a las transferencias de la noticia.",
+    "at": "2026-11-28T00:17:29.845Z"
   }
 }
